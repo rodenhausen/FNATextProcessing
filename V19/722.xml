@@ -1,69 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gamochaeta</genus_name>
-    <species_name>pensylvanica</species_name>
-    <species_authority>(Willdenow) Cabrera</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gamochaeta</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) Cabrera" date="unknown">pensylvanica</taxon_name>
     <place_of_publication>
       <publication_title>Bol. Soc. Argent. Bot.</publication_title>
       <place_in_publication>9: 375. 1961</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Gamochaeta;species pensylvanica;</taxon_hierarchy>
-  <common_name>Pennsylvania cudweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>pensylvanicum</species_name>
-    <species_authority>Willdenow</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Gamochaeta;species pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">pensylvanicum</taxon_name>
     <place_of_publication>
       <publication_title>Enum. Pl.,</publication_title>
       <place_in_publication>867. 1809,</place_in_publication>
-      <other_info>based on G. spathulatum Lamarck in J. Lamarck et al., Encycl. 2: 758. 1788, not Burman f. 1768</other_info>
+      <other_info_on_pub>based on G. spathulatum Lamarck in J. Lamarck et al., Encycl. 2: 758. 1788, not Burman f. 1768</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>peregrinum</species_name>
-    <species_authority>Fernald</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, 10–50 cm; taprooted. Stems erect to decumbent or procumbent, loosely arachnose-tomentose. Leaves basal and cauline, proximal usually present at flowering, blades spatulate to oblanceolate-obovate, 2–7 cm × 4–16 mm (becoming spatulate to oblanceolate bracts among proximal heads, surpassing glomerules, bases narrowed to petiolar regions, margins sinuate, apices often apiculate), faces concolor or weakly bicolor, loosely tomentose. Heads in glomerules in continuous or interrupted, spiciform arrays 1–12 cm × 10–15 mm (pressed). Involucres cupulate-campanulate, 3–3.5 mm, bases sparsely arachnose. Phyllaries in 3–4 series, outer ovate-triangular, lengths 1/2–2/3 inner, apices attenuate-apiculate, inner oblong, laminae often purple-tinged (at stereome), apices (transparent, sometimes golden) acute to obtuse. Florets: bisexual 3–4; all (or at least bisexual) corollas usually purplish distally. Cypselae (tan) 0.4–0.5 mm. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun(–Aug).</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites , exposed , moist soils , commonly partially shaded ;</text>
-    <habitat>disturbed sites exposed</habitat>
-    <habitat>moist soils</habitat>
-    <habitat>commonly partially shaded</habitat>
-  </habitat_info>
-  <elevation>0–500 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species pensylvanicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Fernald" date="unknown">peregrinum</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species peregrinum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <other_name type="common_name">Pennsylvania cudweed</other_name>
   <discussion>Gamochaeta pensylvanica is recognized by its obovate-spatulate, loosely tomentose and concolor or weakly bicolor basal and proximal cauline leaves, and similarly shaped spreading bracts among the heads. Occasional plants appear intermediate between G. pensylvanica and G. antillana. The latter differs in its more erect stems, linear to oblanceolate basal and proximal cauline leaves, and more nearly continuous arrays of heads with linear to narrowly oblanceolate bracts.</discussion>
-</treatment>
-
+</bio:treatment>

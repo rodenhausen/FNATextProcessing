@@ -1,98 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Talinum</genus_name>
-    <species_name>paniculatum</species_name>
-    <species_authority>(Jacquin) Gaertner</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Gaertner" date="unknown">paniculatum</taxon_name>
     <place_of_publication>
       <publication_title>Fruct. Sem. Pl.</publication_title>
       <place_in_publication>2: 219. 1791</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pink baby-breath</common_name>
-  <common_name>jewels of Opar</common_name>
-  <common_name>rama del sapo</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Portulaca</genus_name>
-    <species_name>paniculata</species_name>
-    <species_authority>Jacquin</species_authority>
+    <taxon_hierarchy>family PORTULACACEAE;genus Talinum;species paniculatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Portulaca</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">paniculata</taxon_name>
     <place_of_publication>
-      <publication_title>Enum. Syst. Pl., </publication_title>
+      <publication_title>Enum. Syst. Pl.,</publication_title>
       <place_in_publication>22. 1760</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Talinum</genus_name>
-    <species_name>chrysanthum</species_name>
-    <species_authority>Rose &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Talinum</genus_name>
-    <species_name>paniculatum</species_name>
-    <variety_name>sarmentosum</variety_name>
-    <variety_authority>(Enge lmann) Poellnitz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Talinum</genus_name>
-    <species_name>patens</species_name>
-    <species_authority>Jussieu</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Talinum</genus_name>
-    <species_name>sarmentosum</species_name>
-    <species_authority>Engelmann</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Talinum</genus_name>
-    <species_name>spathulatum</species_name>
-    <species_authority>Engelmann ex A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Plants to 15 dm. Stems sometimes reddish, slender. Leaves to 12 cm, reduced abruptly
-    beneath inflorescence; blade elliptic to obovate, base attenuate. Inflorescences paniculate,
-    sometimes nodding. Flowers: sepals deciduous, sometimes reflexed, ovate to suborbiculate, 2.5–4
-    mm; petals red or pink, sometimes orangish, yellowish, or purplish, ovate to suborbiculate, 3–6
-    mm; stamens ca. 15–20; stigmas 3, linear; pedicel terete, ± uniformly slender, to 20 mm.
-    Capsules subglobose, sometimes obtusely trigonous, 3–5 mm, exocarp and endocarp usually
-    separating after dehiscence; endocarp valves persistent, remaining connate at apex, attached to
-    receptacle by vascular strands from capsule apex; exocarp dehiscing from apex, valves deciduous
-    ± separately. 2n = 24.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <phenology>oct</phenology>
-  <phenology>nov</phenology>
-  <habitat>moist to dry woodlands and savannas</habitat>
-  <habitat>also desert scrub</habitat>
-  <habitat>grasslands</habitat>
-  <habitat>beaches</habitat>
-  <habitat>on flats</habitat>
-  <habitat>mounds</habitat>
-  <habitat>slopes</habitat>
-  <habitat>ledges</habitat>
-  <habitat>in sand</habitat>
-  <habitat>clay</habitat>
-  <habitat>limestone</habitat>
-  <habitat>sandstone</habitat>
-  <habitat>igneous, often rocky soils and crevices</habitat>
-  <elevation>0–2200 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>introduced in s Africa and s Asia.</global_distribution>
+    <taxon_hierarchy>genus Portulaca;species paniculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Rose &amp; Standley" date="unknown">chrysanthum</taxon_name>
+    <taxon_hierarchy>genus Talinum;species chrysanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Jussieu" date="unknown">paniculatum</taxon_name>
+    <taxon_name rank="variety" authority="(Enge lmann) Poellnitz" date="unknown">sarmentosum</taxon_name>
+    <taxon_hierarchy>genus Talinum;species paniculatum;variety sarmentosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">patens</taxon_name>
+    <taxon_hierarchy>genus Talinum;species patens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex A. Gray" date="unknown">sarmentosum</taxon_name>
+    <taxon_hierarchy>genus Talinum;species sarmentosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spathulatum</taxon_name>
+    <taxon_hierarchy>genus Talinum;species spathulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Pink baby-breath</other_name>
+  <other_name type="common_name">jewels of Opar</other_name>
+  <other_name type="common_name">rama del sapo</other_name>
   <discussion>Talinum paniculatum is generally thought to be native west of the Mississippi River
     and adventive eastward, where it often is weedy. In many herbaria, specimens of T. paniculatum
     are filed as T. patens. Talinum spathulatum (T. chrysanthum) sometimes is recognized separately,
@@ -102,4 +64,4 @@
     <reference>Galati, B. G. 1986. Ontogenia del fruto de Talinum
       paniculatum (Jacq.) Gaertn. (Portulacaceae). Parodiana 4: 123–131.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ALLIONIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Richard W. Spellenberg</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ALLIONIA</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 890. 1759</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conserved_name>name conserved</conserved_name>
-  <etymology>[For C. Allioni, 1725–1804, Italian botanist]</etymology>
-  <author>Richard W. Spellenberg</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Wedelia</genus_name>
-    <genus_authority>Loefling</genus_authority>
-    <other_info>name rejected</other_info>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Wedeliella</genus_name>
-    <genus_authority>Cockerell</genus_authority>
-  </TaxonIdentification>
-  <description>Herbs, annual or perennial, finely pubescent, often somewhat viscid; taproot slender
-    and soft to stout and woody (depending on duration). Stems procumbent, often clambering through
-    other vegetation, unarmed, without glutinous bands on internodes. Leaves paired, petiolate,
-    unequal, blades thin, base ± asymmetric. Inflorescences axillary, pedunculate, clusters of 3
-    simultaneously blooming flowers resembling single flower; bracts persistent, not accrescent, 3,
-    forming involucre, distinct, broadly ovate, cucullate, thin, translucent. Flowers bisexual,
-    chasmogamous; perianth strongly bilaterally symmetric, funnelform but strongly oblique,
-    constricted beyond ovary, gradually expanded, adaxial lobes minute, abaxially forming a
-    fan-shaped limb; stamens 4–7, ± exserted; styles exserted beyond stamens; stigmas capitate.
-    Fruits oblong to somewhat obovate, dorsoventrally compressed (adaxial face convex, internal, in
-    inflorescence), with 5 strongly modified ribs, central adaxial rib an inconspicuous to
-    pronounced rib or ridge, sometimes toothed, keeled, coriaceous; 2 lateral ribs expanded and
-    incurved toward concave side as wings or teeth; 2 ribs on concave surface forming low, thin
-    ridge, often with teeth that usually bear glands at tip, surface glabrous, and smooth or the
-    adaxial slightly rugose.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>sw United States</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus ALLIONIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For C. Allioni, 1725–1804, Italian botanist]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Loefling" date="unknown">Wedelia</taxon_name>
+    <taxon_hierarchy>genus Wedelia;</taxon_hierarchy>
+    <other_info_on_name>name rejected</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Cockerell" date="unknown">Wedeliella</taxon_name>
+    <taxon_hierarchy>genus Wedeliella;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
   <discussion>The two species of Allionia are very similar, differing primarily in the nature and
     number of teeth on the fruit. In many floras for areas south of the United States only a single
     species, Allionia incarnata, is recognized. When sympatric, the two species are distinguishable
@@ -63,10 +48,10 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits deeply convex adaxially; lateral ribs developed as curved wings with 0–4
+      <description type="morphology">Fruits deeply convex adaxially; lateral ribs developed as curved wings with 0–4
         irregular or reg ular triangular teeth; viscid glands on concave side on stalks usually
-        equaling or shorterthan diameter of glandular head</statement>
+        equaling or shorterthan diameter of glandular head</description>
       <determination>1. Allionia incarnataglandular head</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

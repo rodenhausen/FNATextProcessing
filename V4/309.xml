@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>stramineus</species_name>
-        <species_authority>(Engelmann) F. Seitz</species_authority>
-        <place_of_publication>
-            <publication_title>Cat. Cact. Cult.,</publication_title>
-            <place_in_publication>11. 1870</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Cereus</genus_name>
-        <species_name>stramineus</species_name>
-        <species_authority>Engelmann</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>3: 282. 1856</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>enneacanthus</species_name>
-        <species_authority>Engelmann</species_authority>
-        <variety_name>stramineus</variety_name>
-        <variety_authority>(Engelmann) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa>
-    <global_distribution>sw United States</global_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) F. Seitz" date="unknown">stramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Cat. Cact. Cult.,</publication_title>
+      <place_in_publication>11. 1870</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Echinocereus;species stramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">stramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>3: 282. 1856</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cereus;species stramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">enneacanthus</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) L. D. Benson" date="unknown">stramineus</taxon_name>
+    <taxon_hierarchy>genus Echinocereus;species enneacanthus;variety stramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Erysimum</genus_name>
-    <species_name>insulare</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Erysimeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erysimum</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">insulare</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>13: 218. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheiranthus</genus_name>
-    <species_name>insulare</species_name>
-    <species_authority>(Greene) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Perennials or subshrubs. Tri-chomes of leaves primarily 2-rayed, sometimes mixed with 3-rayed ones. Stems ascending to sprawling, proximal branches terminating in sterile rosettes, (woody at base), 0.5–3 dm. Basal leaves: blade linear to linear-oblanceolate, (2–)3.7–9 cm × 2–5(–10) mm, base attenuate, margins usually entire, rarely sparsely denticulate, apex acute. Cauline leaves (distal) sessile; similar to basal. Racemes considerably elongated in fruit. Fruiting pedicels widely spreading, slender, narrower than fruit, (8–)10–22 mm. Flowers: sepals oblong to linear-oblong, 6–10 mm, lateral pair slightly saccate basally; petals yellow, broadly obovate to suborbicular, (11–)14–20(–22) × (3–)4–11.5 mm, claw 7–10 mm, apex rounded; median filaments 7–10 mm; anthers linear, 2–3 mm. Fruits ascending to spreading, narrowly linear, straight or only slightly curved inward, not torulose, 2–5(–7) cm × 2–3 mm, angustiseptate, not striped; valves with prominent midvein, pubescent outside, trichomes 2–4-rayed, glabrous inside; ovules 36–50 per ovary; style cylindrical or slightly flattened, stout, 1–4 mm, sparsely pubescent; stigma slightly 2-lobed, lobes as long as wide. Seeds oblong, 1–2 × 1.2–2 mm; not winged. 2n = 36.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>sandy areas along coastal bluffs</habitat>
-  <habitat>coastal scrub</habitat>
-  <elevation>0–300 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Erysimeae;genus Erysimum;species insulare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheiranthus</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">insulare</taxon_name>
+    <taxon_hierarchy>genus Cheiranthus;species insulare;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
   <discussion>Erysimum insulare is restricted to the northern Channel Islands (San Miguel and Santa Rosa islands) of western Ventura County.</discussion>
-</treatment>
+</bio:treatment>

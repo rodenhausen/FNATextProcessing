@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>cuneifolia</species_name>
-    <species_authority>Ledebour</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Ledebour" date="unknown">cuneifolia</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Acad. Imp. Sci. St. Pétersbourg Hist. Acad.</publication_title>
       <place_in_publication>5: 522.  1815  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Wedgeleaf primrose</common_name>
-  <description>Plants to 15 cm, herbaceous; rhizomes thin, short; rosettes single, not clumped; vegetative parts efarinose but often glandular.  Leaves not aromatic, petiolate; petiole winged; blade without deep reticulate veins abaxially, broadly cuneate, 1–6 × 0.8–1 cm, succulent, margins coarsely dentate, apex obtuse, surfaces glabrous.  Inflorescences 1–9-flowered; involucral bracts plane, unequal.  Pedicels erect, somewhat capillary, 3–20 mm, length 2–4 times bracts, flexuous.  Flowers heterostylous or homostylous; calyx green, urceolate, 4–6 mm; corolla rose-pink, tube 4–6 mm, length 1–1.2 times calyx, glandular, limb 10–25 mm diam., lobes 5–10 mm, apex deeply cleft.  Capsules globose, length 0.6–0.8 times calyx.  Seeds with flanged edges, reticulate.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species cuneifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <other_name type="common_name">Wedgeleaf primrose</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <discussion>Heterostylous representatives of Primula cuneifolia occur primarily in Asia, where this form predominates and the homostylous taxon is quite rare.  It is not known whether the Asian homostyles are directly related to the North American complex, or, alternatively, represent separate mutations to homostyly from the Asian heterostylous stock; additional genetic studies are needed to assess these relationships.  In North America, the heterostylous subsp. cuneifolia has been found only in the western Aleutian Islands.  The homostylous subsp. saxifragifolia is found throughout most of Alaska and south to Vancouver Island.  The subspecies differ somewhat in their vegetative morphology.  Subspecies saxifragifolia typically has shorter scapes and petioles and fewer flowers than subsp. cuneifolia; these characters overlap and may correlate at least in part to environmental factors.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers heterostylous</statement>
+      <description type="morphology">Flowers heterostylous</description>
       <determination>13a.   Primula cuneifolia subsp. cuneifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers homostylous</statement>
+      <description type="morphology">Flowers homostylous</description>
       <determination>13b.   Primula cuneifolia subsp. saxifragifolia</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

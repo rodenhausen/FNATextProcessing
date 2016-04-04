@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <species_authority>(Linnaeus) W. P. C. Barton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) W. P. C. Barton" date="unknown">umbellata</taxon_name>
     <place_of_publication>
       <publication_title>Veg. Mater. Med. U.S.</publication_title>
       <place_in_publication>1: 17.  1817  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pipsissewa</common_name>
-  <common_name>chimaphile à ombelles</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>umbellata</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Chimaphila;species umbellata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">umbellata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 396.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Subspecies 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Hispaniola)</global_distribution>
-  <global_distribution>Central America (Guatemala)</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Pyrola;species umbellata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Pipsissewa</other_name>
+  <other_name type="common_name">chimaphile à ombelles</other_name>
+  <discussion>Subspecies 2 (1 in the flora):</discussion>
   <discussion>Chimaphila umbellata is morphologically variable across its extensive range.  Six subspecies have been recognized widely in the literature: subsp. acuta in the southwestern United States, subsp. cisatlantica in eastern North America, subsp. domingensis (S. F. Blake) Dorr in Hispaniola, subsp. mexicana (de Candolle) Hultén in Mexico, and subsp. umbellata in Eurasia.  S. F. Blake (1917), in discussing the complex, stated, “...while the differential characters brought forward for their specific separation are confined to differences in size, in the prominence of the venation, the shape of the sepals, the direction of the pedicels, and the rotundity of the stem, characters which are not only rather obscure but at best are merely comparative, and are shown by the material examined to be by no means absolutely constant.”  Hiroshi Takahashi (1987), who did not consider subsp. domingensis, found broad overlap in most morphologic characters used to distinguish the subspecies.  Extreme forms of the spectrum of morphologic expression may be distinctive; variation among the taxa appears to be clinal.  Only subsp. domingensis, which is geographically isolated on Hispaniola and has glabrous peduncles and pedicels, glabrous filaments, and relatively small leaves, appears to be sufficiently distinct from the rest of the species to warrant recognition (L. J. Dorr 1995).  It also has rugulate pollen; other taxa included here within subsp. umbellata have psilate pollen (Takahashi 1986b).</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Blake, S. F.  1917.  The varieties of Chimaphila umbellata.  Rhodora 19: 237–244.</reference>
     <reference>Takahashi, Hiroshi.  1987.  On the infraspecific variation of Chimaphila umbellata (L.) W. Barton (Pyrolaceae).  Acta Phytotax. Geobot. 38: 82–96.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Chamaedorea</genus_name><species_name>seifrizii</species_name><species_authority>Burret</species_authority><place_of_publication><publication_title>Notizblatt des Botanischen Gartens und Museums zu Berlin-Dahlem</publication_title><place_in_publication>14: 268. 1938</place_in_publication></place_of_publication></TaxonIdentification><common_name>Bamboo palm</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Chamaedorea</genus_name><species_name>donnell-smithii</species_name><species_authority>Dammer (name rejected name)</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Chamaedorea</genus_name><species_name>erumpens</species_name><species_authority>H. E. Moore</species_authority></TaxonIdentification><description>Stems clustereding. Leaves pinnately divided; segments ca. 20 cm, uniform in width or terminal segments wider than other segment. Fruits black, globose, 5--8 mm diam., black. 2n = 26.</description><discussion>The fruits of Chamaedorea seifrizii, ripening from green through orange to black, are taken by birds, and seedlings thrive in shaded, moist habitats. The segments may be narrow or broad, terminal segments may be equal or wider than other segments, and segments may be upright or flat.</discussion><phenology>Flowering summer</phenology><habitat> Moist organic soil over limestone in mesic hammocks and disturbed wooded areas</habitat><elevation>0--10 m</elevation><introduced>introduced</introduced><us_distribution>Fla.</us_distribution><global_distribution>native to Mexico and Central America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedorea</taxon_name>
+    <taxon_name rank="species" authority="Burret" date="unknown">seifrizii</taxon_name>
+    <place_of_publication>
+      <publication_title>Notizblatt des Botanischen Gartens und Museums zu Berlin-Dahlem</publication_title>
+      <place_in_publication>14: 268. 1938</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chamaedorea;species seifrizii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedorea</taxon_name>
+    <taxon_name rank="species" authority="Dammer (name rejected name)" date="unknown">donnell-smithii</taxon_name>
+    <taxon_hierarchy>genus Chamaedorea;species donnell-smithii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedorea</taxon_name>
+    <taxon_name rank="species" authority="H. E. Moore" date="unknown">erumpens</taxon_name>
+    <taxon_hierarchy>genus Chamaedorea;species erumpens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Bamboo palm</other_name>
+  <discussion>The fruits of Chamaedorea seifrizii, ripening from green through orange to black, are taken by birds, and seedlings thrive in shaded, moist habitats. The segments may be narrow or broad, terminal segments may be equal or wider than other segments, and segments may be upright or flat.</discussion>
+</bio:treatment>

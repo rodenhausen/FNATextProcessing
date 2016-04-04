@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>86.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HESPERIDANTHUS</genus_name>
-    <genus_authority>(B. L. Robinson) Rydberg</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="(B. L. Robinson) Rydberg" date="unknown">HESPERIDANTHUS</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>34: 433. 1907</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Genus Hesperis and Greek anthos , flower, alluding to resemblance of flowers]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thelypodium</genus_name>
-    <genus_authority>Endlicher</genus_authority>
-    <subgenus_name>Hesperidanthus</subgenus_name>
-    <subgenus_authority>B. L. Robinson</subgenus_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus HESPERIDANTHUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Genus Hesperis and Greek anthos , flower, alluding to resemblance of flowers]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Endlicher" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="subgenus" authority="B. L. Robinson" date="unknown">Hesperidanthus</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>1(1,1): 174. 1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Caulostramina</genus_name>
-    <genus_authority>Rollins</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Glaucocarpum</genus_name>
-    <genus_authority>Rollins</genus_authority>
-  </TaxonIdentification>
-  <description>Perennials or subshrubs; (caudex well-developed, woody); not scapose; (glaucous), glabrous. Stems (simple or few to several from base), erect or ascending, usually branched distally. Leaves cauline; not rosulate, petiolate, subsessile, or sessile, blade (somewhat fleshy, becoming leathery when dry, base not auriculate), margins entire, denticulate, or coarsely dentate. Racemes (corymbose, few- to several-flowered, sometimes bracteate proximally), elongated in fruit. Fruiting pedicels divaricate to ascending or suberect, slender. Flowers: sepals ascending to erect, oblong, lateral pair usually not saccate basally (slightly saccate in H. linearifolius, apex of median pair cucullate or not); petals white, lilac, lavender, purple, or yellow (sometimes with darker veins), spatulate, claw differentiated or not from blade; stamens tetradynamous or subequal; filaments not dilated basally; anthers oblong to linear, (apex obtuse or apiculate); nectar glands: lateral annular or lunar, median glands often confluent with lateral. Fruits sessile or stipitate, linear, not torulose, terete or slightly latiseptate; valves each with prominent midvein; replum rounded; septum complete; ovules 8–110 per ovary; style distinct; stigma capitate or conical, entire or 2-lobed (lobes prominent, connivent). Seeds uniseriate, plump, not winged, oblong; seed coat not or slightly mucilaginous when wetted; cotyledons incumbent or obliquely so. x = 11.</description>
-  <number_of_infrataxa>Species 5 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>n Mexico.</global_distribution>
+    <taxon_hierarchy>genus Thelypodium;subgenus Hesperidanthus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Rollins" date="unknown">Caulostramina</taxon_name>
+    <taxon_hierarchy>genus Caulostramina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Rollins" date="unknown">Glaucocarpum</taxon_name>
+    <taxon_hierarchy>genus Glaucocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>86.</number>
+  <discussion>Species 5 (5 in the flora):</discussion>
   <discussion>For a detailed account on the generic limits and affinities of Hesperidanthus, see I. A. Al-Shehbaz (2005). As delimited here, the genus includes what R. C. Rollins (1993) assigned to Schoenocrambe Greene (minus the type), Caulostramina, and Glaucocarpum. One species is endemic to Inyo County, California, three are highly localized endemics in Utah, and the fifth is widespread in the southwestern United States and northern Mexico.</discussion>
   <references>
     <reference>Al-Shehbaz, I. A. 2005. Hesperidanthus (Brassicaceae) revisited. Harvard Pap. Bot. 10: 47–51.</reference>
@@ -42,43 +45,43 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals yellow; fruits 1–2 cm; ovules 8–16 per ovary</statement>
+      <description type="morphology">Petals yellow; fruits 1–2 cm; ovules 8–16 per ovary</description>
       <determination>5. Hesperidanthus suffrutescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals purple, lilac, lavender, or white; fruits (1.8–)2.5–11 cm; ovules 26–110 per ovary.</statement>
+      <description type="morphology">Petals purple, lilac, lavender, or white; fruits (1.8–)2.5–11 cm; ovules 26–110 per ovary.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Median sepals cucullate; stigmas conical, lobes connivent; petal veins not darker than blade; ovules (76–)80–110 per ovary; Arizona, Colorado, New Mexico, Texas</statement>
+      <description type="morphology">Median sepals cucullate; stigmas conical, lobes connivent; petal veins not darker than blade; ovules (76–)80–110 per ovary; Arizona, Colorado, New Mexico, Texas</description>
       <determination>1. Hesperidanthus linearifolius</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Median sepals not cucullate; stigmas flat, lobes entire or obscure; petal veins darker than blade; ovules 26–62 per ovary; California, Utah.</statement>
+      <description type="morphology">Median sepals not cucullate; stigmas flat, lobes entire or obscure; petal veins darker than blade; ovules 26–62 per ovary; California, Utah.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves petiolate, blades ovate to broadly so, 10–35 mm wide, margins coarsely and</statement>
+      <description type="morphology">Leaves petiolate, blades ovate to broadly so, 10–35 mm wide, margins coarsely and</description>
       <determination>4. Hesperidanthus jaegeri</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves sessile, subsessile, or petiolate, blades linear, linear-lanceolate, oblong, elliptic, or oblanceolate, (0.8–)1–24 mm wide, margins entire or obscurely denticulate; Utah.</statement>
+      <description type="morphology">Leaves sessile, subsessile, or petiolate, blades linear, linear-lanceolate, oblong, elliptic, or oblanceolate, (0.8–)1–24 mm wide, margins entire or obscurely denticulate; Utah.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves sessile or subsessile, blades linear or linear-lanceolate; sepals 4.2–6.5</statement>
+      <description type="morphology">Leaves sessile or subsessile, blades linear or linear-lanceolate; sepals 4.2–6.5</description>
       <determination>2. Hesperidanthus argillaceus</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves petiolate, blades oblong, elliptic, or oblanceolate; sepals 5–8 mm;</statement>
+      <description type="morphology">Leaves petiolate, blades oblong, elliptic, or oblanceolate; sepals 5–8 mm;</description>
       <determination>3. Hesperidanthus barnebyi</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

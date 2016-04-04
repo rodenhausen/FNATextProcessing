@@ -1,52 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>(de Candolle) Schultz-Bipontinus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Schultz-Bipontinus" date="unknown">douglasii</taxon_name>
     <place_of_publication>
       <publication_title>Jahresber. Pollichia</publication_title>
       <place_in_publication>22–24: 308. 1866</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species douglasii;</taxon_hierarchy>
-  <common_name>Douglas’s silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Calaïs</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>de Candolle</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calaïs</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">douglasii</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>7: 85. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, 5–40 cm; taprooted. Leaves basal; petiolate; blades linear to oblanceolate, 3–25 cm, margins entire, dentate, or pinnately lobed (lobes slender, tapering), apices acute to acuminate, faces ± scurfy-puberulent. Peduncles erect or curved-ascending, ebracteate. Involucres globose to fusiform in fruit, 7–16 mm. Phyllaries: apices erect, acute to acuminate; outer deltate, glabrous or lightly scurfy-puberulent; inner lanceolate, faces often lightly black-villous on margins (midveins often purple-lined, thickened). Florets 5–200; corollas yellow or white, equaling or surpassing phyllaries by 1–3 mm. Cypselae columnar or obconic, 3–10 mm; pappi of (0–)1–5, white to yellow, brown, or blackish, aristate scales 0.5–7 mm (± arcuate, usually distinctly involute, except subsp. tenella, often abaxially villous, midveins usually tapering distally from thick bases, except subsp. tenella, widths less than 1/5 bodies), aristae (white or straw-colored, ± stout) barbellate. 2n = 18.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>genus Calaïs;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Douglas’s silverpuffs</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>The geographic patterns of morphologic variability as well as both chloroplast and nuclear DNA markers in Microseris douglasii have been studied by K. Bachmann and J. Battjes (1994) and D. Roelofs and K. Bachmann (1997). Four chloroplast types were identified, two of which were derived by introgression from M. bigelovii or its ancestor. Plants in nature are highly inbred and genetically homozygous, as proposed earlier by K. L. Chambers (1955). Subspecies platycarpha stands well apart in these studies; subsp. tenella is not differentiated molecularly from subsp. douglasii.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappus scales usually 0.5–1 mm, sometimes nearly obsolete; cypselae truncate-fusiform, ribs constricted at apices; s, w-c California, mainly coastaland Coast Ranges</statement>
+      <description type="morphology">Pappus scales usually 0.5–1 mm, sometimes nearly obsolete; cypselae truncate-fusiform, ribs constricted at apices; s, w-c California, mainly coastaland Coast Ranges</description>
       <determination>7b. Microseris douglasii subsp. tenella</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappus scales 1–7 mm; cypselae columnar or obconic, ribs slightly flared at apices.</statement>
+      <description type="morphology">Pappus scales 1–7 mm; cypselae columnar or obconic, ribs slightly flared at apices.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappus scales (glabrous) 0.5 mm shorter to 2 mm longer than cypselae; cypselae obconic or columnar, 3–4.5 mm; sw California, n Baja California.</statement>
+      <description type="morphology">Pappus scales (glabrous) 0.5 mm shorter to 2 mm longer than cypselae; cypselae obconic or columnar, 3–4.5 mm; sw California, n Baja California.</description>
       <determination>7c. Microseris douglasii subsp. platycarpha</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappus scales (glabrous or villous) usually 1–6 mm shorter than cypselae; cypselae columnar (slightly tapered distally), 4–10 mm; widespread in cismontane California, mainly n of the Transverse Ranges.</statement>
+      <description type="morphology">Pappus scales (glabrous or villous) usually 1–6 mm shorter than cypselae; cypselae columnar (slightly tapered distally), 4–10 mm; widespread in cismontane California, mainly n of the Transverse Ranges.</description>
       <determination>7a. Microseris douglasii subsp. douglasii</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

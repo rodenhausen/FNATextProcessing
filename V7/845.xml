@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>55.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ERYSIMUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Erysimeae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ERYSIMUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 660. 1753</place_in_publication>
@@ -12,37 +18,28 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 296. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek eryso , to ward off or to cure, alluding to the supposed medicinal properties of some species]</etymology>
-  <common_name>Wallflower</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheiranthus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheirinia</genus_name>
-    <genus_authority>Link</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cuspidaria</genus_name>
-    <genus_authority>(de Candolle) Besser</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Syrenia</genus_name>
-    <genus_authority>Andrzejowski ex Besser</genus_authority>
-  </TaxonIdentification>
-  <description>Plants not scapose; pubescent, trichomes sessile, medifixed, appressed, 2-rayed (malpighiaceous) or 3–5(–8)-rayed (stellate), rays (when 2) parallel to long axis of stems, leaves, sepals, and fruits. Stems erect or ascending [decumbent], unbranched or branched basally and/or distally. Leaves basal and cauline; petiolate or sessile; basal rosulate or not, petiolate, blade margins usually entire, dentate, sinuate-dentate, or denticulate, rarely pinnatifid or pinnatisect; cauline petiolate or sessile, blade (base cuneate or attenuate [auriculate]), margins entire, dentate, denticulate, dentate-sinuate, or repand. Racemes (densely flowered, E. pallasii bracteate basally). Fruiting pedicels erect, ascending, divaricate, reflexed, horizontal, or spreading, slender or stout (nearly as wide as fruit). Flowers: sepals oblong or linear, lateral pair saccate or not basally (pubescent); petals suborbicular, obovate, or spatulate, claw differentiated from blade (subequaling or longer than sepals, apex rounded [emarginate]); stamens (erect), tetradynamous; filaments not dilated basally; anthers oblong or linear; nectar glands (1, 2, or 4), distinct or confluent, subtending bases of stamens, median glands present or absent. Fruits usually sessile, rarely shortly stipitate (gynophore to 4 mm), usually linear or narrowly so [oblong], smooth or torulose, (keeled or not); valves each with obscure to prominent midvein, pubescent outside, usually glabrous inside; replum rounded; septum complete, (not veined); ovules [15–]20–120 per ovary; (style relatively short, rarely 1/2 as long as or subequaling fruit, often pubescent); stigma capitate. Seeds plump or flattened, winged, margined, or not winged, oblong, ovoid, obovate, or suborbicular; seed coat (minutely reticulate), mucilaginous when wetted; cotyledons incumbent, rarely accumbent. x = (6) 7, 8 (9–17).</description>
-  <number_of_infrataxa>Species ca. 150 (19 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands (Macaronesia)</global_distribution>
-  <global_distribution>introduced in South America</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Erysimeae;genus ERYSIMUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek eryso , to ward off or to cure, alluding to the supposed medicinal properties of some species]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cheiranthus</taxon_name>
+    <taxon_hierarchy>genus Cheiranthus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Link" date="unknown">Cheirinia</taxon_name>
+    <taxon_hierarchy>genus Cheirinia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="(de Candolle) Besser" date="unknown">Cuspidaria</taxon_name>
+    <taxon_hierarchy>genus Cuspidaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Andrzejowski ex Besser" date="unknown">Syrenia</taxon_name>
+    <taxon_hierarchy>genus Syrenia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>55.</number>
+  <other_name type="common_name">Wallflower</other_name>
+  <discussion>Species ca. 150 (19 in the flora):</discussion>
   <discussion>Erysimum is found in the northern hemisphere, primarily Asia and Europe, with eight species in northern Africa and Macaronesia, and one each endemic to Baja California (E. moranii Rollins) and Costa Rica and Guatemala (E. ghiesbreghtii J. D. Smith). Of the 21 species found in North America, four are naturalized. Most of the native species have x = 9 and are believed to represent a monophyletic group (R. A. Price 1987).</discussion>
   <discussion>Erysimum is a taxonomically difficult genus much in need of comprehensive phylogenetic and systematic studies covering its entire range. The principal sources of difficulty are the inflation in the number of species described, the heavy reliance on vegetative morphological characters in the delimitation of species, and the inadequacy of most herbarium specimens. In order to reliably identify a given sample, one often needs a complete specimen that has basal leaves, flowers, mature fruits, and seeds. Unfortunately, plants of most species shed their basal leaves or have no flowers when at full fruit maturity. Another complicating factor in North America is that almost all of the native species readily hybridize in areas of overlap to produce wide arrays of intermediates that backcross with the parents and blur species boundaries.</discussion>
   <references>
@@ -51,193 +48,193 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 3–10(–15) × 1.5–3 mm; median filaments 2–7(–10) mm.</statement>
+      <description type="morphology">Petals 3–10(–15) × 1.5–3 mm; median filaments 2–7(–10) mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruit valves densely pubescent inside; sepals 1.8–3.2 mm; petal claws 1.5–3.5 mm</statement>
+      <description type="morphology">Fruit valves densely pubescent inside; sepals 1.8–3.2 mm; petal claws 1.5–3.5 mm</description>
       <determination>5. Erysimum cheiranthoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruit valves usually glabrous inside, rarely sparsely pubescent; sepals 4–7(–8) mm; petal claws 3–8 mm.</statement>
+      <description type="morphology">Fruit valves usually glabrous inside, rarely sparsely pubescent; sepals 4–7(–8) mm; petal claws 3–8 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Annuals; fruiting pedicels as wide as fruit</statement>
+      <description type="morphology">Annuals; fruiting pedicels as wide as fruit</description>
       <determination>17. Erysimum repandum</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Biennials or perennials (short-lived); fruiting pedicels narrower than fruit.</statement>
+      <description type="morphology">Biennials or perennials (short-lived); fruiting pedicels narrower than fruit.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stigmas entire; fruits appressed to rachises; leaf blade surfaces and fruit valves</statement>
+      <description type="morphology">Stigmas entire; fruits appressed to rachises; leaf blade surfaces and fruit valves</description>
       <determination>10. Erysimum hieracifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stigmas strongly 2-lobed; fruits not appressed or subappressed to rachises; leaf blade surfaces and fruit valves with 2- or 3-rayed trichomes.</statement>
+      <description type="morphology">Stigmas strongly 2-lobed; fruits not appressed or subappressed to rachises; leaf blade surfaces and fruit valves with 2- or 3-rayed trichomes.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petals narrowly obovate to spatulate, (8–)10–15 × (2–)2.5–4 mm; fruits</statement>
+      <description type="morphology">Petals narrowly obovate to spatulate, (8–)10–15 × (2–)2.5–4 mm; fruits</description>
       <determination>7. Erysimum coarctatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petals oblanceolate, 6–9(–11) × 1–2 mm; fruits 1.2–1.7 mm wide; seeds</statement>
+      <description type="morphology">Petals oblanceolate, 6–9(–11) × 1–2 mm; fruits 1.2–1.7 mm wide; seeds</description>
       <determination>11. Erysimum inconspicuum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals (10–)13–30(–35) × 3–10(–15) mm; median filaments (6–)7–15 mm.</statement>
+      <description type="morphology">Petals (10–)13–30(–35) × 3–10(–15) mm; median filaments (6–)7–15 mm.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Subshrubs (stems woody at base).</statement>
+      <description type="morphology">Subshrubs (stems woody at base).</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruit valve trichomes 2-rayed; stigmas strongly 2-lobed, lobes much longer than</statement>
+      <description type="morphology">Fruit valve trichomes 2-rayed; stigmas strongly 2-lobed, lobes much longer than</description>
       <determination>6. Erysimum cheiri</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruit valve trichomes 2–4-rayed; stigmas not strongly 2-lobed, lobes as long as wide; petals yellow or cream.</statement>
+      <description type="morphology">Fruit valve trichomes 2–4-rayed; stigmas not strongly 2-lobed, lobes as long as wide; petals yellow or cream.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Fruits angustiseptate; leaf trichomes 2- or 3-rayed</statement>
+      <description type="morphology">Fruits angustiseptate; leaf trichomes 2- or 3-rayed</description>
       <determination>12. Erysimum insulare</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Fruits latispetate or 4-angled; leaf trichomes 2–5-rayed.</statement>
+      <description type="morphology">Fruits latispetate or 4-angled; leaf trichomes 2–5-rayed.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Distal cauline leaves petiolate; fruits latiseptate, not 4-angled; fruiting</statement>
+      <description type="morphology">Distal cauline leaves petiolate; fruits latiseptate, not 4-angled; fruiting</description>
       <determination>9. Erysimum franciscanum</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Distal cauline leaves sessile; fruits slightly latiseptate or 4-angled; fruiting</statement>
+      <description type="morphology">Distal cauline leaves sessile; fruits slightly latiseptate or 4-angled; fruiting</description>
       <determination>18. Erysimum suffrutescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Biennials or perennials (stems not woody at base).</statement>
+      <description type="morphology">Biennials or perennials (stems not woody at base).</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals purple or lilac; leaf trichomes 2-rayed; sepals 5–9 mm; anthers 1–1.5 mm</statement>
+      <description type="morphology">Petals purple or lilac; leaf trichomes 2-rayed; sepals 5–9 mm; anthers 1–1.5 mm</description>
       <determination>15. Erysimum pallasii</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals usually yellow or orange, rarely lavender or purplish; leaf trichomes (at least some) 3–7-rayed; sepals 7–14 mm; anthers 2–4 mm.</statement>
+      <description type="morphology">Petals usually yellow or orange, rarely lavender or purplish; leaf trichomes (at least some) 3–7-rayed; sepals 7–14 mm; anthers 2–4 mm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blades filiform to narrowly linear, (somewhat revolute, appearing</statement>
+      <description type="morphology">Basal leaf blades filiform to narrowly linear, (somewhat revolute, appearing</description>
       <determination>19. Erysimum teretifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blades not filiform or narrowly linear.</statement>
+      <description type="morphology">Basal leaf blades not filiform or narrowly linear.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Fruits 4-angled, longitudinally 4-striped; valves densely pubescent between midvein and replum with 2-rayed trichomes; ovules 72–120 per</statement>
+      <description type="morphology">Fruits 4-angled, longitudinally 4-striped; valves densely pubescent between midvein and replum with 2-rayed trichomes; ovules 72–120 per</description>
       <determination>3. Erysimum asperum</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Fruits latiseptate, rarely 4-angled, not longitudinally striped; valves pubescent with 2–6-rayed trichomes; ovules 24–86 per ovary.</statement>
+      <description type="morphology">Fruits latiseptate, rarely 4-angled, not longitudinally striped; valves pubescent with 2–6-rayed trichomes; ovules 24–86 per ovary.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Leaf blades: surfaces with 2 (or 3)-rayed trichomes.</statement>
+      <description type="morphology">Leaf blades: surfaces with 2 (or 3)-rayed trichomes.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits usually 4-angled, rarely latiseptate; ovules (40–)54–82 per</statement>
+      <description type="morphology">Fruits usually 4-angled, rarely latiseptate; ovules (40–)54–82 per</description>
       <determination>4. Erysimum capitatum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits strongly latiseptate; ovules 24–46 per ovary; seeds usually broadly winged all around or apically, rarely not winged, 2–3.5 mm.</statement>
+      <description type="morphology">Fruits strongly latiseptate; ovules 24–46 per ovary; seeds usually broadly winged all around or apically, rarely not winged, 2–3.5 mm.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Perennials; seeds not winged or winged distally; fruits 1.5–2.7</statement>
+      <description type="morphology">Perennials; seeds not winged or winged distally; fruits 1.5–2.7</description>
       <determination>2. Erysimum arenicola</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Biennials; seeds winged all around; fruits (2–)2.4–3.7 mm</statement>
+      <description type="morphology">Biennials; seeds winged all around; fruits (2–)2.4–3.7 mm</description>
       <determination>14. Erysimum occidentale</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Leaf blades: surfaces with 2–5(–7)-rayed trichomes.</statement>
+      <description type="morphology">Leaf blades: surfaces with 2–5(–7)-rayed trichomes.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruits torulose; ovules 26–44 per ovary; petals 3.5–6 mm wide</statement>
+      <description type="morphology">Fruits torulose; ovules 26–44 per ovary; petals 3.5–6 mm wide</description>
       <determination>16. Erysimum perenne</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruits not torulose; ovules (32–)42–86 per ovary; petals (5–)6–16 mm wide.</statement>
+      <description type="morphology">Fruits not torulose; ovules (32–)42–86 per ovary; petals (5–)6–16 mm wide.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Fruiting pedicels 2–4(–6) mm; seeds broadly obovate to suborbicular, 1.5–3 mm wide</statement>
+      <description type="morphology">Fruiting pedicels 2–4(–6) mm; seeds broadly obovate to suborbicular, 1.5–3 mm wide</description>
       <determination>8. Erysimum concinnum</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Fruiting pedicels 4–17(–25) mm; seeds oblong, 1–2 mm wide.</statement>
+      <description type="morphology">Fruiting pedicels 4–17(–25) mm; seeds oblong, 1–2 mm wide.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Fruits divaricate, ascending, or erect; petals orange or orange-yellow to yellow; seeds</statement>
+      <description type="morphology">Fruits divaricate, ascending, or erect; petals orange or orange-yellow to yellow; seeds</description>
       <determination>4. Erysimum capitatum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Fruits spreading; petals yellow; seeds winged all around; California (Humboldt, Mendocino, Monterrey, Santa Cruz counties).</statement>
+      <description type="morphology">Fruits spreading; petals yellow; seeds winged all around; California (Humboldt, Mendocino, Monterrey, Santa Cruz counties).</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Basal leaf blades linear-oblanceolate, 2–9 mm wide; stems 0.4–9(–13) dm; fruit</statement>
+      <description type="morphology">Basal leaf blades linear-oblanceolate, 2–9 mm wide; stems 0.4–9(–13) dm; fruit</description>
       <determination>1. Erysimum ammophilum</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Basal leaf blades spatulate, 5–15 mm wide; stems 0.2–2.5(–3.5) dm; fruit valves</statement>
+      <description type="morphology">Basal leaf blades spatulate, 5–15 mm wide; stems 0.2–2.5(–3.5) dm; fruit valves</description>
       <determination>13. Erysimum menziesii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

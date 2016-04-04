@@ -1,71 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nothocalaïs</genus_name>
-    <species_name>cuspidata</species_name>
-    <species_authority>(Pursh) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nothocalaïs</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Greene" date="unknown">cuspidata</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 55. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Nothocalaïs;species cuspidata;</taxon_hierarchy>
-  <common_name>Prairie false dandelion</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Troximon</genus_name>
-    <species_name>cuspidatum</species_name>
-    <species_authority>Pursh</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Nothocalaïs;species cuspidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Troximon</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">cuspidatum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>2: 742. 1813 (as Troximum)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Agoseris</genus_name>
-    <species_name>cuspidata</species_name>
-    <species_authority>(Pursh) Steudel</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Microseris</genus_name>
-    <species_name>cuspidata</species_name>
-    <species_authority>(Pursh) Schultz-Bipontinus</species_authority>
-  </TaxonIdentification>
-  <description>Plants 7–35 cm. Stems (peduncles) ebracteate. Leaves: blades linear-lanceolate, 7–30 cm, bases broadly attenuate, margins entire, plane or undulate, ciliolate, (apices acuminate) faces glabrous or villous. Involucres 17–27 mm. Phyllaries 13–34, often red-striped or dotted, lanceolate, apices acuminate, faces glabrous. Florets 13–80; ligules 15–25 mm. Cypselae brown, 7–10 mm, narrowed distally, not beaked; pappi of 40–80, intergradent, smooth to barbellulate bristles and ± subulate to setiform scales 8–10 mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jul.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>prairie pastures , slopes , hillsides , and ridges , in sandy , gravelly , or clay soils , various grassland associations ;</text>
-    <habitat>prairie pastures</habitat>
-    <habitat>slopes</habitat>
-    <habitat>hillsides</habitat>
-    <habitat>ridges</habitat>
-    <habitat>in sandy , gravelly , or clay soils , various grassland associations</habitat>
-  </habitat_info>
-  <elevation>300–2300 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Troximon;species cuspidatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agoseris</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Steudel" date="unknown">cuspidata</taxon_name>
+    <taxon_hierarchy>genus Agoseris;species cuspidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Schultz-Bipontinus" date="unknown">cuspidata</taxon_name>
+    <taxon_hierarchy>genus Microseris;species cuspidata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Prairie false dandelion</other_name>
+</bio:treatment>

@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Claytonia</genus_name><species_name>arenicola</species_name><species_authority>L. F. Henderson</species_authority><place_of_publication>
-    <publication_title>Bull. Torrey Bot. Club</publication_title>
-    <place_in_publication>22: 49. 1895</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Henderson’s claytonia</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Montia</genus_name><species_name>arenicola</species_name><species_authority>(L. F. Henderson) Howell</species_authority></TaxonIdentification><description>Plants annual, with minute, tuberous body; periderm absent. Stems 2–10 cm. Leaves: basal leaf blades linear to narrowly lanceolate, 1–5 × 0.05–0.2 cm; cauline leaves sessile, blade linear, 1–3 cm. Inflorescences multi-bracteate; proximalmost bract 5–10 mm, leaflike, distal bracts 1 mm or less, reduced to membranous scales. Flowers 10–12 mm diam.; sepals 1.5–2.5 mm; petals white, pink, or candy-striped, 6–10 mm; ovules 6. Seeds (1–)6, 1–2 mm, shiny and smooth; elaiosome 1 mm or less. 2n = 12.</description><phenology>early mar</phenology><habitat>selaginella mats and crevices of cliffs and rock faces in great basin sagebrush and ponderosa pine belt</habitat><elevation>200–1200 m;</elevation><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="L. F. Henderson" date="unknown">arenicola</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>22: 49. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Claytonia;species arenicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="(L. F. Henderson) Howell" date="unknown">arenicola</taxon_name>
+    <taxon_hierarchy>genus Montia;species arenicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Henderson’s claytonia</other_name>
+</bio:treatment>

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pentachaeta</genus_name><species_name>fragilis</species_name><species_authority>Brandegee</species_authority><place_of_publication>
-    <publication_title>Univ. Calif. Publ. Bot.</publication_title>
-    <place_in_publication>6: 170. 1915</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Fragile pentachaeta</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Chaetopappa</genus_name><species_name>fragilis</species_name><species_authority>(Brandegee) D. D. Keck</species_authority></TaxonIdentification><description>Plants 4–16 cm. Stems diffusely branched. Leaf blades spatulate to linear-oblanceolate, 5–15(–25) × 1–3 mm. Involucres campanulate. Phyllaries in 2(–3) series, elliptic to obovate, glabrous. Ray florets 7–12; corollas yellow, laminae ca. 5 mm. Disc florets 10–23; corollas yellow, narrowly funnelform, not contracted at lobes, lobes 5. Pappi of (8–)15–20 bristles, not dilated at base. 2n = 18.</description><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>grassy areas</habitat><elevation>50–2300 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pentachaeta</taxon_name>
+    <taxon_name rank="species" authority="Brandegee" date="unknown">fragilis</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Calif. Publ. Bot.</publication_title>
+      <place_in_publication>6: 170. 1915</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Pentachaeta;species fragilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chaetopappa</taxon_name>
+    <taxon_name rank="species" authority="(Brandegee) D. D. Keck" date="unknown">fragilis</taxon_name>
+    <taxon_hierarchy>genus Chaetopappa;species fragilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Fragile pentachaeta</other_name>
+</bio:treatment>

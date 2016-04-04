@@ -1,45 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Didymodon</genus_name>
-    <species_name>vinealis</species_name>
-    <species_authority>(Bridel) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) R. H. Zander" date="unknown">vinealis</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>41: 25.  1978,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>vinealis</species_name>
-    <species_authority>Bridel</species_authority>
+    <taxon_hierarchy>genus Didymodon;species vinealis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Bridel" date="unknown">vinealis</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 830.  1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants green to dark green, usually with a reddish cast.  Stems to 2 cm, central strand present.  Stem leaves often twisted, appressed to weakly spreading or spreading-flexuose when dry, spreading to spreading-recurved and not keeled when moist, monomorphic, lanceolate, grooved adaxially along the costa, especially near leaf apex, 0.8–2.5(–4) mm, base scarcely differentiated to oblong in shape, margins recurved below mid leaf or to above mid leaf, entire, apex acute, not fragile, commonly ending in a conical cell; costa percurrent or more commonly short-excurrent, not strongly spurred, not much widened or tapering, lacking an adaxial pad of cells, adaxial costal cells quadrate to short-rectangular, ca. 4 cells wide at mid leaf, guide cells in 1(–2) layers; basal laminal cells differentiated medially or across the leaf, walls thin to weakly thickened, rectangular or seldom quadrate, not perforated; distal laminal cells 7–10 µm wide, 1:1, nearly smooth or papillae simple or 2-fid, 2–3 per lumen, lumens irregular or oval to rounded-quadrate, walls thin or evenly thickened, convex on both sides of lamina, 1-stratose or occasionally 2-stratose in patches.  Specialized asexual reproduction very rare, by multicellular gemmae in clusters in leaf axils.  Seta 0.8–1 cm.  Capsule 1.5–2.5 mm; peristome teeth 32, linear, twisted 1/2 to once, to 1300 µm, occasionally rudimentary or absent.  Spores 9–12 µm.  Distal laminal KOH reaction light to dark red-brown, occasionally deep red-orange.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland)</global_distribution>
-  <us_distribution>Pacific Islands.</us_distribution>
+    <taxon_hierarchy>genus Barbula;species vinealis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Didymodon vinealis is often difficult to distinguish from sterile forms of D. rigidulus, but the elongate cells commonly found on the adaxial surface of the costa near the boat-shaped leaf apex, the often strongly papillose laminal cells, and the usual presence of a distinct groove down the adaxial surface of the leaf along the costa are characteristic features.  Some but not all specimens may be quickly assigned to this taxon by a unique deep slit floored by elongate cells on the adaxial surface of the costal apex (the adaxial epidermis being absent), visible as a clear window abaxially.  Bryoerythrophyllum recurvirostrum is immediately distinguished by the clear, enlarged proximal cells.  Like Bellibarbula recurva, small forms of D. vinealis may have quadrate or very short-rectangular proximal cells and sinuose costa, but the former has thick-walled proximal cells and the costa twists laterally, not vertically in the concave distal portion of the leaf of D. vinealis, and the adaxial cells of the costa of commonly elongate, 2:1 or more.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peristome present, well developed, cells of operculum twisted</statement>
+      <description type="morphology">Peristome present, well developed, cells of operculum twisted</description>
       <determination>11a.   Didymodon vinealis var. vinealis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peristome absent, cells of operculum straight or nearly so</statement>
+      <description type="morphology">Peristome absent, cells of operculum straight or nearly so</description>
       <determination>11b.   Didymodon vinealis var. rubiginosus</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

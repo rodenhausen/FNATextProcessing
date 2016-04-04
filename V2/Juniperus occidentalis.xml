@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juniperus</genus_name><species_name>occidentalis</species_name><species_authority>Hooker</species_authority><place_of_publication><publication_title>Fl. Bor.-Amer.</publication_title><place_in_publication>2: 166. 1838</place_in_publication></place_of_publication></TaxonIdentification><common_name>Western juniper</common_name><description>Trees  monoecious or dioecious, to 20(--30) m, single-stemmed; crown rounded to conical.  Bark  red-brown to brown, exfoliating in thin strips, that of small branchlets (5--10 mm diam.) smooth, that of larger branchlets exfoliating in scales or flakes.  Branches  spreading to ascending; branchlets erect, 3--4-sided in cross section, ca. 2/3 or less as wide as length of scalelike leaves.  Leaves  green, abaxial glands ovate to elliptic, conspicuous, with yellow or white exudate, margins denticulate (at 20×); whip leaves 3--6 mm, not glaucous adaxially; scalelike leaves 1--3 mm, not overlapping, rounded, apex acute to obtuse, appressed.  Seed cones  maturing in 2 years, of 2 distinct sizes, with straight peduncle, ovoid, 5--10 mm, blue to blue-black, glaucous, fleshy and resinous, with 2(--3) seeds.  Seeds  2--4 mm.</description><number_of_infrataxa>Varieties 2:</number_of_infrataxa><global_distribution> only in the flora.</global_distribution><key><key_statement><statement_id>1</statement_id><statement>Bark red-brown; seed cones (5-)7.5(-9) mm; plants often (50%) monoecious.</statement><determination>8a var. occidentalis</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Bark brown; seed cones (7-)8.5(-10) mm; plants mostly (90%) dioecious.</statement><determination>8b var. australis</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juniperus</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">occidentalis</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Bor.-Amer.</publication_title>
+      <place_in_publication>2: 166. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juniperus;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8</number>
+  <other_name type="common_name">Western juniper</other_name>
+  <discussion>Varieties 2:</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Bark red-brown; seed cones (5-)7.5(-9) mm; plants often (50%) monoecious.</description>
+      <determination>8a var. occidentalis</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Bark brown; seed cones (7-)8.5(-10) mm; plants mostly (90%) dioecious.</description>
+      <determination>8b var. australis</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

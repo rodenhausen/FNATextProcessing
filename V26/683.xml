@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Bloomeria</genus_name><species_name>crocea</species_name><species_authority>(Torrey) Coville</species_authority><variety_name>crocea</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Bloomeria</genus_name><species_name>gracilis</species_name><species_authority>Borzí</species_authority></TaxonIdentification><description>Flowers: tepals yellowish orange, nearly always striped with 2 dark parallel lines, 5–12 mm; basal filament appendages shallowly 2-cuspidate, cusps shorter than 1 mm. 2n = 18.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>dry flats</habitat><habitat>hillsides</habitat><habitat>often in heavy soil</habitat><habitat>chaparral</habitat><habitat>coastal sage scrub</habitat><habitat>valley grasslands</habitat><habitat>oak woodlands</habitat><elevation>0–1700 m;</elevation><us_distribution>Calif.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution><discussion>In the flora area, var. crocea is restricted to the southern Coast Ranges and the Channel Islands. The plants previously recognized as Bloomeria gracilis are simply small versions of var. crocea (J. W. Ingram 1953). The variety is in cultivation.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bloomeria</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Coville" date="unknown">crocea</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">crocea</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Bloomeria;species crocea;variety crocea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bloomeria</taxon_name>
+    <taxon_name rank="species" authority="Borzí" date="unknown">gracilis</taxon_name>
+    <taxon_hierarchy>genus Bloomeria;species gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+  <discussion>In the flora area, var. crocea is restricted to the southern Coast Ranges and the Channel Islands. The plants previously recognized as Bloomeria gracilis are simply small versions of var. crocea (J. W. Ingram 1953). The variety is in cultivation.</discussion>
+</bio:treatment>

@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>tenax</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">tenax</taxon_name>
     <place_of_publication>
       <publication_title>Mant. Pl.</publication_title>
       <place_in_publication>1: 48.  1767  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Tough bully</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>lacuum</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>megacocca</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>tenax</species_name>
-    <species_authority>(Linnaeus) Willdenow</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, to 8 m.  Stems armed, sericeous, glabrescent.  Leaves deciduous or persistent; petiole 3–10 mm, sparsely to densely villous (hairs tawny or reddish brown to brown); blade (dull to lustrous adaxially), oblanceolate to spatulate, 23–64 × 6–22 mm, base cuneate to attenuate, margins plane, apex rounded to obtuse or retuse, abaxial surface densely sericeous (hairs tawny or reddish brown to brown), venation obscured by hairs, adaxial surface glabrous or glabrate, midrib flat or slightly sunken, marginal vein absent.  Inflorescences 8–40-flowered.  Pedicels 4–12 mm, sericeous (hairs tawny or reddish brown to brown).  Flowers: calyx 1.4–2.2 mm diam.; sepals 5, 2–2.5 × 1.4–1.8 mm, sericeous (hairs tawny or reddish brown to brown); petals 5, white, median segment elliptic to obovate, 1.7–1.8 mm, lateral segments lanceolate, 1.5–1.8 mm; stamens 5, 2–2.3 mm; staminodes broadly lanceolate, 1.3–1.8 mm, entire; anthers sagittate, 0.7–1 mm; pistil 5-carpellate; ovary 5-locular, 0.9–1.3 mm, glabrous or strigose distally; style 0.7–0.9 mm.  Berries purplish black, ellipsoid to obovoid, 8–13 mm, glabrous.  Seeds 8–12 mm.</description>
-  <phenology>Flowering May–Jun</phenology>
-  <habitat>Dry, sandy soils in pine forests, pine-oak scrub, and hammocks on coastal plain</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species tenax;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">lacuum</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species lacuum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">megacocca</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species megacocca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Willdenow" date="unknown">tenax</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species tenax;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Tough bully</other_name>
   <discussion>Sideroxylon tenax is a thorny shrub or tree characterized by sericious abaxial leaf surfaces, pedicels, and calyces with tawny, brown, or reddish brown hairs.  Segregate species were named by Small based on widespread variation in leaf size, pedicel length, and fruit size.  The segregate species were recognized by R. B. Clark (1942); A. Cronquist (1945c) and later workers have submerged them because of intergradation across the range of S. tenax.</discussion>
-</treatment>
+</bio:treatment>

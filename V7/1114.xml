@@ -1,56 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>66.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>parvula</species_name>
-    <species_authority>(Greene) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Greene) O’Kane &amp; Al-Shehbaz" date="unknown">parvula</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 326. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pygmy bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>parvula</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species parvula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">parvula</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 308. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Nuttall) S. Watson</species_authority>
-    <subspecies_name>parvula</subspecies_name>
-    <subspecies_authority>(Greene) Rollins &amp; E. A. Shaw</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>alpina</species_name>
-    <variety_name>parvula</variety_name>
-    <variety_authority>(Greene) S. L. Welsh &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex (buried), usually branched, sometimes simple, (cespitose); densely pubescent, trichomes (appressed), 4–7-rayed, rays distinct, furcate or bifurcate near base. Stems few to several from base, erect, (unbranched, slender), 0.3–1.5(–3) dm. Basal leaves (tufted, erect); blade linear to very narrowly spatulate, 1–3(–4) cm, margins entire (involute). Cauline leaves similar to basal. Racemes relatively dense. Fruiting pedicels (ascending, curved or sigmoid), 2–10 mm. Flowers: sepals (greenish yellow), elliptic, 3.5–7 mm; petals spatulate, 5–6 mm, (not clawed). Fruits (erect), ovoid (or longer than broad), usually inflated, 4–5 mm, (apex acute, slightly flattened); valves pubescent, trichomes appressed; ovules 4–8 per ovary; style 2–4 mm. Seeds flattened, (mucilaginous). 2n = 10, 20.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>exposed windblown ridges</habitat>
-  <habitat>gravelly hills</habitat>
-  <habitat>open rocky knolls</habitat>
-  <habitat>gravelly hilltops</habitat>
-  <habitat>clay hillsides</habitat>
-  <habitat>granitic sand</habitat>
-  <habitat>reddish soil</habitat>
-  <habitat>sagebrush</habitat>
-  <habitat>mountain scrub</habitat>
-  <habitat>and pinyon-juniper areas</habitat>
-  <elevation>1800–2800 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Lesquerella;species parvula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) S. Watson" date="unknown">alpina</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Rollins &amp; E. A. Shaw" date="unknown">parvula</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species alpina;subspecies parvula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) S. L. Welsh &amp; Reveal" date="unknown">parvula</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species alpina;variety parvula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>66.</number>
+  <other_name type="common_name">Pygmy bladderpod</other_name>
+</bio:treatment>

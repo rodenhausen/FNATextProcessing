@@ -1,61 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26nnn.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Filifoliae</section_name>
-    <section_authority>(Tuckerman) Mackenzie</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Joy Mastrogiuseppe</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Tuckerman) Mackenzie" date="unknown">Filifoliae</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>18: 177. 1935</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Joy Mastrogiuseppe</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carex</genus_name>
-    <unranked_epithet_name>Filifoliae</unranked_epithet_name>
-    <unranked_epithet_authority>Tuckerman</unranked_epithet_authority>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Filifoliae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Tuckerman">Filifoliae</taxon_name>
     <place_of_publication>
-      <publication_title>Enum. Meth. Caric., </publication_title>
+      <publication_title>Enum. Meth. Caric.,</publication_title>
       <place_in_publication>8. 1844</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants cespitose, short-rhizomatous. Culms brown at base. Leaves: basal sheaths
-    fibrous; sheath fronts membranous; blades filiform or V-shaped in cross section when young,
-    glabrous. Inflorescences a single spike; bracts absent; spike androgynous. Proximal pistillate
-    scales with apex obtuse or mucronate. Perigynia erect or ascending, veinless, or with 2
-    prominent marginal veins, obovate, ovate, or elliptic, rounded trigonous in cross section, base
-    ± tapering or rounded, apex rounded or truncate, to abrupt beak or not, puberulent distally;
-    beak 0.2–1 mm, orifice truncate. Stigmas 3. Achenes trigonous, almost as large as bodies of
-    perigynia; style deciduous.</description>
-  <number_of_infrataxa>Species 5 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico.</global_distribution>
+    <taxon_hierarchy>genus Carex;unranked Filifoliae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26nnn.</number>
+  <discussion>Species 5 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades folded to channeled, not quill-shaped, 1.5–2 mm wide near base;
-        proximal</statement>
+      <description type="morphology">Leaf blades folded to channeled, not quill-shaped, 1.5–2 mm wide near base;
+        proximal</description>
       <determination>472. Carex oreocharis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades involute-cylindric, quill-shaped, 0.2–0.8 mm wide near base; proximal
-        pistillate scale obtuse to short-awned.</statement>
+      <description type="morphology">Leaf blades involute-cylindric, quill-shaped, 0.2–0.8 mm wide near base; proximal
+        pistillate scale obtuse to short-awned.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynium body glabrous or at most very sparsely short-hirsute near beak; style
-        base</statement>
+      <description type="morphology">Perigynium body glabrous or at most very sparsely short-hirsute near beak; style
+        base</description>
       <determination>474 . Carex elynoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynium body short-pubescent, at least on distal 1 / 4 ; style base often
-        conspicuously</statement>
+      <description type="morphology">Perigynium body short-pubescent, at least on distal 1 / 4 ; style base often
+        conspicuously</description>
       <determination>473. Carex filifolia</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

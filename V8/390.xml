@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>blochmaniae</species_name>
-    <species_authority>(Eastwood) Moran</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Moran" date="unknown">blochmaniae</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>7: 110.  1953,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>blochmaniae</species_name>
-    <species_authority>Eastwood</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species blochmaniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">blochmaniae</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
       <place_in_publication>2, 6: 422, plate 53.  1896 (as blochmanae)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>blochmaniae</species_name>
-    <species_authority>(Eastwood) Rose</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>variegatus</species_name>
-    <species_authority>(S. Watson) Rose</species_authority>
-    <variety_name>blochmaniae</variety_name>
-    <variety_authority>(Eastwood) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Corms subglobose to oblong, 0.7–3.5 cm × 5–20 mm.  Leaves 3–50; petiole 0.3–1.5 mm wide, to 1/3 as wide as blade; blade green, oblanceolate or clavate-oblanceolate, 1–6 cm × 2–8 mm, 1–4 mm thick, base 1–4 mm wide, apex subacute to rounded, surfaces sometimes ± glaucous.  Inflorescences: cincinni 3–10-flowered, 1–6 cm; floral shoots 3–12 cm × 0.5–2 mm; leaves 8–25, ascending, blade triangular-ovate to -lanceolate, 0.5–2.5 cm × 3–10 mm, 2–4 mm thick, apex rounded to subacute or obtuse.  Flowers with musky, sweet odor; petals connate to 1 mm, widely spreading from near middle, white, ± yellowish green at base, red-lineolate on keel, drying purplish, elliptic, 6–10[–12] × 2–3.5[–5] mm, apex acute, corolla 8–20 mm diam.; pistils separate, ascending; ovary 3–4.5 mm; styles 1–1.5 mm.  Follicles widespreading, with adaxial margins nearly horizontal.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <us_distribution>California</us_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>genus Sedum;species blochmaniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Rose" date="unknown">blochmaniae</taxon_name>
+    <taxon_hierarchy>genus Hasseanthus;species blochmaniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rose" date="unknown">variegatus</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) Jepson" date="unknown">blochmaniae</taxon_name>
+    <taxon_hierarchy>genus Hasseanthus;species variegatus;variety blochmaniae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Rosette leaves 3–12, blade oblanceolate, 1–4(–6) cm; inflorescence leaves not or slightly glaucous</statement>
+      <description type="morphology">Rosette leaves 3–12, blade oblanceolate, 1–4(–6) cm; inflorescence leaves not or slightly glaucous</description>
       <determination>24a.   Dudleya blochmaniae subsp. blochmaniae</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Rosette leaves 15–30(–50), blade clavate-oblanceolate, 1–3.5 cm; inflorescence leaves gray-glaucous</statement>
+      <description type="morphology">Rosette leaves 15–30(–50), blade clavate-oblanceolate, 1–3.5 cm; inflorescence leaves gray-glaucous</description>
       <determination>24b.   Dudleya blochmaniae subsp. insularis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

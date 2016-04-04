@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Gutierrezia</genus_name><species_name>arizonica</species_name><species_authority>(A. Gray) M. A. Lane</species_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>8: 313. 1980</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Arizona snakeweed</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Greenella</genus_name><species_name>arizonica</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>16: 81. 1880</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Xanthocephalum</genus_name><species_name>arizonicum</species_name><species_authority>(A. Gray) Shinners</species_authority></TaxonIdentification><description>Annuals, 12–30 cm. Stems glabrous. Leaves: basal sometimes persistent, proximal usually absent at flowering; cauline blades 1-nerved, narrowly elliptic-oblanceolate to elliptic-lanceolate, 1–2 mm wide, reduced distally. Heads borne singly or in loose, open arrays. Involucres campanulate, 4–7 mm diam. Phyllary apices flat. Ray florets 8–15; corollas white, drying light yellow or reddish, 6–7.5 mm. Disc florets (16–)20–30(–40). Cypselae 0.9–1.6 mm, faces without oil cavities, densely strigoso-sericeous (hair apices prominently bulbous-capitate); pappi coroniform or of 1 series of basally connate scales 0.1–0.3 mm (obscured by cypsela indument). 2n = 8.</description><phenology>feb</phenology><phenology>winter</phenology><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>sandy or sandy-rocky plains or washes</habitat><elevation>200–1300 m;</elevation><us_distribution>Ariz.</us_distribution><global_distribution>Mexico (Sonora).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gutierrezia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) M. A. Lane" date="unknown">arizonica</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>8: 313. 1980</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Gutierrezia;species arizonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Greenella</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">arizonica</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>16: 81. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Greenella;species arizonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Xanthocephalum</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Shinners" date="unknown">arizonicum</taxon_name>
+    <taxon_hierarchy>genus Xanthocephalum;species arizonicum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Arizona snakeweed</other_name>
+</bio:treatment>

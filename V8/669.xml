@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>STYRACACEAE</family_name>
-    <family_authority>de Candolle &amp; Sprengel</family_authority>
-  </TaxonIdentification>
-  <common_name>Snowbell or Storax Family</common_name>
-  <author>Peter W. Fritsch</author>
-  <description>Shrubs or trees, deciduous [evergreen], hairs stellate [scales].  Leaves alternate, simple; stipules absent; petiole present; blade margins serrate or entire, rarely also lobed.  Inflorescences false-terminal and/or axillary racemes or panicles, sometimes solitary flowers.  Flowers bisexual [plants gynodioecious]; perianth and androecium perigynous to epigynous; hypanthium adnate to ovary wall at various levels; sepals (2–)4–5(–9) [absent], distinct or connate, sometimes forming tube with or without minute apical teeth; petals 4–5(–8), connate proximally; stamens usually 2(–4) times [equaling] number of corolla lobes, adnate to corolla at base only or to 1/2 length of corolla, uniseriate in appearance; anthers dehiscent by longitudinal slits; pistils 1, 2–4[–5]-carpellate; ovary partly or completely inferior, proximally 2–4[–5]-septate, 1-locular by distal attenuation of septa; placentation axile [near basal]; ovules anatropous, uni- or bitegmic, tenuinucellate; styles 1, simple [3-parted]; stigmas 1, terminal, truncate or minutely 2–4[–5]-lobed.  Fruits capsular, dehiscence loculicidal, or nutlike (dry and indehiscent), sometimes winged, [drupaceous].  Seeds 1–4[–ca. 50], brown, ellipsoid to globose or fusiform [flat, winged]; embryo straight or slightly curved; endosperm copious, cellular, oily.</description>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Fritsch</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_hierarchy>family STYRACACEAE;</taxon_hierarchy>
+  </taxon_identification>
+  <other_name type="common_name">Snowbell or Storax Family</other_name>
   <discussion>Genera 11, species ca. 160 (2 genera, 7 species in the flora): North America, Mexico, West Indies, Central America, South America, s Europe, e, se Asia; warm-temperate and tropical areas.</discussion>
   <discussion>Species of Halesia and Styrax are sometimes cultivated for ornament, and species of Alniphyllum, Melliodendron, Pterostyrax, Rehderodendron, and Sinojackia have been successfully grown in the United States.</discussion>
   <discussion>About 80% of the species of Styracaceae belong to Styrax; the next largest genera in the family are Rehderodendron and Sinojackia, with five and six species, respectively.  All genera are endemic to eastern and/or southeastern Asia with the exception of the two in the flora.</discussion>
   <discussion>The Styracaceae have been shown to be monophyletic on the basis of morphological and DNA sequence evidence (P. W. Fritsch et al. 2001).  Studies with DNA sequence data place Styracaceae within order Ericales (in the sense of Angiosperm Phylogeny Group 2003; C. M. Morton et al. 1996; A. A. Anderberg et al. 2002) as sister to Diapensiaceae, and Styracaceae + Diapensiaceae are sister to Symplocaceae (J. Schönenberger et al. 2005).  The South American genus Pamphilia is now included within Styrax (B. Wallnöfer 1997; Fritsch 1999, 2001).</discussion>
   <discussion>The fossil record of the Styracaceae extends back to the early Eocene (B. H. Tiffney 1985).</discussion>
   <discussion>In the present treatment, calyx dimensions include the hypanthium, whereas those of the corolla and stamens do not.  Leaf dimensions are those of the larger examples on each specimen except where noted.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Dickison, W. C.  1993.  Floral anatomy of the Styracaceae, including observations on intra-ovarian trichomes.  Bot. J. Linn. Soc. 112: 223–255.</reference>
     <reference>Dickison, W. C. and K. D. Phend.  1985.  Wood anatomy of the Styracaceae: Evolutionary and ecological considerations.  I.A.W.A. Bull., N.S. 6: 3–22.</reference>
     <reference>Fritsch, P. W.  2004.  Styracaceae.  In: K. Kubitzki et al., eds.  1990+.  The Families and Genera of Vascular Plants.  7+ vols.  Berlin etc.  Vol. 6, pp. 434–442.</reference>
@@ -26,13 +30,13 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Winter buds without scales; pith continuous; inflorescences borne on shoots of current growing season; fertile shoots of current growing season with fully developed leaves; articulation between pedicels and flowers absent; corolla lobes 5–6(–8); ovaries partly inferior; fruits not winged</statement>
+      <description type="morphology">Winter buds without scales; pith continuous; inflorescences borne on shoots of current growing season; fertile shoots of current growing season with fully developed leaves; articulation between pedicels and flowers absent; corolla lobes 5–6(–8); ovaries partly inferior; fruits not winged</description>
       <determination>1.   Styrax, p. 340</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Winter buds with scales; pith chambered; inflorescences borne on shoots of previous growing season; fertile shoots of current growing season without fully developed leaves (rarely fully developed); articulation between pedicels and flowers present; corolla lobes 4; ovaries completely inferior; fruits winged</statement>
+      <description type="morphology">Winter buds with scales; pith chambered; inflorescences borne on shoots of previous growing season; fertile shoots of current growing season without fully developed leaves (rarely fully developed); articulation between pedicels and flowers present; corolla lobes 4; ovaries completely inferior; fruits winged</description>
       <determination>2.   Halesia, p. 346</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

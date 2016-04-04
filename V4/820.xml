@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3a.3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Amaranthus</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Acnida</subgenus_name>
-        <section_name>Acanthochiton</section_name>
-        <section_authority>(Torrey) Mosyakin &amp; K. R. Robertson</section_authority>
-        <place_of_publication>
-            <publication_title>Ann. Bot. F enn.</publication_title>
-            <place_in_publication>33: 277. 1996</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <section_name>Acanthochiton</section_name>
-        <section_authority>Torrey</section_authority>
-        <place_of_publication>
-            <publication_title>in L. Sitgreaves, Rep. Exped. Zuni Colorado Rivers, </publication_title>
-            <place_in_publication>170. 1853</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants annual, glabrous or glabrescent. Bracts of pistillate flowers leaflike,
-        deltate or rhombic-deltate, very broad, margins crispate and denticulate. Pistillate
-        flowers: tepals 5, outer tepals linear to narrowly lanceolate, inner tepals spatulate to
-        fan-shaped. Utricles dehiscence circumscissile.</description>
-    <number_of_infrataxa>Species 1:</number_of_infrataxa>
-    <global_distribution>sw North America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Amaranthus</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Acnida</taxon_name>
+    <taxon_name rank="section" authority="(Torrey) Mosyakin &amp; K. R. Robertson" date="unknown">Acanthochiton</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Bot. F enn.</publication_title>
+      <place_in_publication>33: 277. 1996</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Amaranthus;subgenus Acnida;section Acanthochiton;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="Torrey" date="unknown">Acanthochiton</taxon_name>
+    <place_of_publication>
+      <publication_title>in L. Sitgreaves, Rep. Exped. Zuni Colorado Rivers,</publication_title>
+      <place_in_publication>170. 1853</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>section Acanthochiton;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3a.3.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

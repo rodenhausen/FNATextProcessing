@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Chrysolepis</genus_name><species_name>sempervirens</species_name><species_authority>(Kellogg) Hjelmquist</species_authority><place_of_publication><publication_title> Bot. Not. </publication_title><place_in_publication>113: 377. 1960</place_in_publication></place_of_publication></TaxonIdentification><common_name>Bush golden chinquapin</common_name><common_name> Sierra chinkapin</common_name><endemic>endemic</endemic><illustrated>illustrated</illustrated><TaxonIdentification Status="BASIONYM"><genus_name>Castanea</genus_name><species_name>sempervirens</species_name><species_authority>Kellogg</species_authority><place_of_publication><publication_title>Proc. Calif. Acad. Sci. </publication_title><place_in_publication>1: 71. 1855</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Castanopsis</genus_name><species_name>sempervirens</species_name><species_authority>(Kellogg) Dudley</species_authority></TaxonIdentification><description>Shrubs, rhizomatous-spreading, 0.2-1(-2.5) m. Bark gray or brown, thin, smooth. Twigs densely covered with tight, yellowish, peltate trichomes. Leaves: petiole 10-15 mm. Leaf blade oblong to oblanceolate, to 75 mm, margins entire, apex obtuse, occasionally somewhat acute; surfaces abaxially rusty or golden pubescent, often becoming glabrate and glaucous with age. Fruits: cupule yellowish, 20-60 mm thick, densely spiny, surface obscured; nut light brown, 8-13 mm, glabrous, completely enclosed by cupule until maturity.</description><phenology>Flowering summer (Jul-Aug)</phenology><habitat> Rocky slopes, chaparral, conifer forest, mostly at high elevations</habitat><elevation> 0-3300 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysolepis</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Hjelmquist" date="unknown">sempervirens</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Not.</publication_title>
+      <place_in_publication>113: 377. 1960</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chrysolepis;species sempervirens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Castanea</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">sempervirens</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 71. 1855</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Castanea;species sempervirens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Castanopsis</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Dudley" date="unknown">sempervirens</taxon_name>
+    <taxon_hierarchy>genus Castanopsis;species sempervirens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Bush golden chinquapin</other_name>
+  <other_name type="common_name">Sierra chinkapin</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

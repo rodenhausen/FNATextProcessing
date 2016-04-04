@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>cusickiana</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-    <variety_name>maguirei</variety_name>
-    <variety_authority>(L. O. Williams) N. H. Holmgren &amp; S. Kelso</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">cusickiana</taxon_name>
+    <taxon_name rank="variety" authority="(L. O. Williams) N. H. Holmgren &amp; S. Kelso" date="unknown">maguirei</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>53: 155.  2001  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Maguire primrose</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>maguirei</species_name>
-    <species_authority>L. O. Williams</species_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species cusickiana;variety maguirei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="L. O. Williams" date="unknown">maguirei</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>17: 747, fig. 1.  1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>cusickiana</species_name>
-    <subspecies_name>maguirei</subspecies_name>
-    <subspecies_authority>(L. O. Williams) A. J. Richards</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous except for white farina on involucral bracts and calyces.  Leaves shorter than scape; blade spatulate, margins subentire.  Corolla tubes 7–10 mm, length 1.5–2 times calyx.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Cliff faces and ledges</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>1500 m</elevation>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Primula;species maguirei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cusickiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(L. O. Williams) A. J. Richards" date="unknown">maguirei</taxon_name>
+    <taxon_hierarchy>genus Primula;species cusickiana;subspecies maguirei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17c.</number>
+  <other_name type="common_name">Maguire primrose</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Variety maguirei is known from Logan Canyon.  It is distinguished from other members of the complex by its more-spatulate, almost entire leaf blades.  It was federally listed as threatened in 1985.</discussion>
-</treatment>
+</bio:treatment>

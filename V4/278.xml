@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>29d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Opuntia</genus_name><species_name>basilaris</species_name><species_authority>Engelmann &amp; J. M. Bigelow</species_authority><variety_name>brachyclada</variety_name><variety_authority>(Griffiths) Munz</variety_authority><place_of_publication>
-    <publication_title>Man. S. Calif. Bot.,</publication_title>
-    <place_in_publication>599. 1935</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Little beavertail pricklypear</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Opuntia</genus_name><species_name>brachyclada</species_name><species_authority>Griffiths</species_authority><place_of_publication><publication_title>Proc. Biol. Soc. Wash. </publication_title><place_in_publication>27: 25. 1914</place_in_publication></place_of_publication></TaxonIdentification><description>Stem segments decumbent, little flattened, oblong to narrowly spatulate, cylindric to clublike, 5–13 × 1.5–5 cm; areoles 4–6(–7) per diagonal row across midstem segment, circular. Spines absent. Fruits spineless. 2n = 22.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>slopes of chaparral</habitat><habitat>oak-pine woodlands</habitat><conservation>of conservation concern;</conservation><elevation>1200–1800 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann &amp; J. M. Bigelow" date="unknown">basilaris</taxon_name>
+    <taxon_name rank="variety" authority="(Griffiths) Munz" date="unknown">brachyclada</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. S. Calif. Bot.,</publication_title>
+      <place_in_publication>599. 1935</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Opuntia;species basilaris;variety brachyclada;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Griffiths" date="unknown">brachyclada</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>27: 25. 1914</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species brachyclada;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29d.</number>
+  <other_name type="common_name">Little beavertail pricklypear</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

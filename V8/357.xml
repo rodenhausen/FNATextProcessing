@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Lemaire) Britton &amp; Rose" date="unknown">cymosa</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">cymosa</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species cymosa;subspecies cymosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">angustiflora</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species angustiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Britton &amp; Rose" date="unknown">nevadensis</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species nevadensis;</taxon_hierarchy>
+  </taxon_identification>
   <number>8a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>cymosa</species_name>
-    <species_authority>(Lemaire) Britton &amp; Rose</species_authority>
-    <subspecies_name>cymosa</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>angustiflora</species_name>
-    <species_authority>Rose</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>nevadensis</species_name>
-    <species_authority>(S. Watson) Britton &amp; Rose</species_authority>
-  </TaxonIdentification>
-  <description>Caudices simple or 2–3-branched, 1–3.5 cm diam.  Leaves: rosettes 10–25-leaved; blade green, oblanceolate to spatulate, 3–12 × 1–5.5 cm, apex acute to acuminate or cuspidate, surfaces sometimes farinose, glaucous.  Inflorescences: floral shoots 5–20-leaved, 5–30 cm; cincinni 3+, 4–10-flowered, mostly 1–6 cm.  Petals mostly bright yellow to red, 10–12 × 2–3.5 mm.  2n = 34.</description>
-  <phenology>Flowering spring–early summer</phenology>
-  <habitat>Cliffs, rocky slopes</habitat>
-  <elevation>0–2700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
   <discussion>A report of subsp. cymosa from southwestern Oregon (J. A. Bartel 1993) is unfounded.</discussion>
-</treatment>
+</bio:treatment>

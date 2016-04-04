@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>49.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Calochortus</genus_name>
-        <species_name>concolor</species_name>
-        <species_authority>(Baker) Purdy</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
-            <place_in_publication>3, 2: 135. 1901</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Goldenbowl mariposa-lily</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Calochortus</genus_name>
-        <species_name>luteus</species_name>
-        <species_authority>Douglas ex Lindley</species_authority>
-        <variety_name>concolor</variety_name>
-        <variety_authority>Baker</variety_authority>
-        <place_of_publication>
-            <publication_title>Garden (London 1871–1927)</publication_title>
-            <place_in_publication> 48: 440, plate 1043. 1895</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants usually bulbose; bulb coat, when present, membranous. Stems usually stout,
-        sparingly branching, not flexuous or twisted, 3–6 dm. Leaves: basal withering, 1–2 dm; blade
-        linear, glaucous. Inflorescences subumbellate, 1–4-flowered; bracts opposite pedicel, 4–8
-        cm. Flowers erect; perianth open, campanulate; sepals usually with dark red blotch near
-        base, lanceolate-ovate, 2–3 cm; petals yellow, often tinged purple in drying, cuneate to
-        obovate, 3–5 cm; glands usually ± round, depressed, small, surrounded by conspicuously
-        fringed membrane and a few long, yellow hairs, densely covered with slender, unbranched
-        hairs; filaments 9–10 mm; anthers yellowish, oblong, 8–10 mm, apex obtuse. Capsules erect,
-        lanceoloid-linear, angled, 5–8 cm, apex acuminate. Seeds flat. 2n = ca. 14.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>dry slopes in chaparral and pine forest</habitat>
-    <habitat>frequently on decomposed granite</habitat>
-    <elevation>700–2500 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="(Baker) Purdy" date="unknown">concolor</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
+      <place_in_publication>3, 2: 135. 1901</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Calochortus;species concolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Lindley" date="unknown">luteus</taxon_name>
+    <taxon_name rank="variety" authority="Baker" date="unknown">concolor</taxon_name>
+    <place_of_publication>
+      <publication_title>Garden (London 1871–1927)</publication_title>
+      <place_in_publication>48: 440, plate 1043. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calochortus;species luteus;variety concolor;</taxon_hierarchy>
+  </taxon_identification>
+  <number>49.</number>
+  <other_name type="common_name">Goldenbowl mariposa-lily</other_name>
+</bio:treatment>

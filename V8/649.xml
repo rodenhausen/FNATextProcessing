@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>STEWARTIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">THEACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">STEWARTIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 698.  1753</place_in_publication>
@@ -12,32 +17,30 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 311.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For John Stuart, 1713–1792, Third Earl of Bute]</etymology>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hartia</genus_name>
-    <genus_authority>Dunn</genus_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 3–6[–20] m.  Stems usually 1; bark thin, closely fissured or exfoliating.  Leaves deciduous [persistent]; petiole distinct from blade, winged; blade ovate to elliptic, chartaceous [coriaceous], base cuneate to attenuate or rounded, margins erose or serrulate, apex acute to acuminate, veins conspicuous, 5–8[–12] pairs, midrib elevated abaxially.  Inflorescence bracts usually persistent, 1–2, immediately proximal to calyx.  Pedicels terete, 0.2–0.7[–4] cm.  Flowers [2–](5–)6–10(–12) cm diam.; sepals persistent, 5, connate proximally, concave, leaflike, thick and becoming lignified proximally, margins ciliate, apex acute, sericeous; petals 5(–8), connate proximally, white or creamy white, unequal, base pubescent and constricted, margins crenulate to erose, outermost petal slightly curved, abaxial surface silky or pubescent; stamens (50–)75–125(–150), connate basally; pistil (4–)5(–6)-carpellate; ovules 2–4 per locule; styles 1 or 5; stigmas [4–]5[–6]-lobed or unlobed.  Capsules brown, conic, base rounded, apex acute, dehiscence loculicidal; columella absent.  Seeds 2(–4), brown or reddish brown, angular, lenticular, or planoconvex, asymmetric, smooth, marginal wing present or absent.  x = 15 (18).</description>
-  <number_of_infrataxa>Species ca. 20 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>c</global_distribution>
-  <global_distribution>e United States</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family THEACEAE;genus STEWARTIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For John Stuart, 1713–1792, Third Earl of Bute]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Dunn" date="unknown">Hartia</taxon_name>
+    <taxon_hierarchy>genus Hartia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Species ca. 20 (2 in the flora):</discussion>
   <discussion>Both species of Stewartia in the flora area are uncommon; they are protected in most of the states in which they occur, but not federally.  They overlap only in relatively small portions of their ranges: the Virginia Coastal Plain (unusual for S. ovata) and in Alabama.  They usually occur at different elevations and habitats.</discussion>
   <discussion>Most species of Stewartia are distributed in Asia (China, Japan, Korea).  The North American species are deciduous but are more closely related to the persistent-leaved Asian taxa than to the deciduous ones.  The persistent-leaved taxa are sometimes treated under the genus Hartia, recognition of which is not supported by DNA sequence analyses (L. M. Prince 2002; Xiang Q. Y. et al. 2004).</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Prince, L. M.  2002.  Circumscription and biogeographic patterns in the eastern North American–east Asian genus Stewartia (Theaceae: Stewartieae):  Insight from chloroplast and nuclear DNA sequence data.  Castanea 67: 290–301.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Winter bud scales 2, terminal bud exposed; petiole wings 0.1–1 mm wide; primary leaf veins in 7–8 pairs; inflorescence bracts 2, 2–4 mm; anthers bluish; styles 1; seeds lustrous</statement>
+      <description type="morphology">Winter bud scales 2, terminal bud exposed; petiole wings 0.1–1 mm wide; primary leaf veins in 7–8 pairs; inflorescence bracts 2, 2–4 mm; anthers bluish; styles 1; seeds lustrous</description>
       <determination>1.   Stewartia malacodendron</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Winter bud scales 1, terminal bud hidden; petiole wings 1–2 mm wide; primary leaf veins in 5–7 pairs; inflorescence bracts 1, 10–15 mm; anthers yellow; styles 5; seeds dull</statement>
+      <description type="morphology">Winter bud scales 1, terminal bud hidden; petiole wings 1–2 mm wide; primary leaf veins in 5–7 pairs; inflorescence bracts 1, 10–15 mm; anthers yellow; styles 5; seeds dull</description>
       <determination>2.   Stewartia ovata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

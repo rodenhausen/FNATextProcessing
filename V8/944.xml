@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>hirsuta</species_name>
-    <species_authority>Walter</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">hirsuta</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Carol.,</publication_title>
       <place_in_publication>138.  1788  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sandhill laurel</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaedaphne</genus_name>
-    <species_name>hirsuta</species_name>
-    <species_authority>(Walter) Kuntze</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalmia</genus_name>
-    <species_name>ciliata</species_name>
-    <species_authority>W. Bartram</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalmiella</genus_name>
-    <species_name>hirsuta</species_name>
-    <species_authority>(Walter) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs spreading to erect, 0.3–0.6(–1.2) m.  Twigs terete, viscid, puberulent, densely hispid.  Leaves alternate; petiole 0.1–1 mm, hirsute-puberulent; blade elliptic to ovate, 0.5–1.4 × 0.1–0.8 cm, margins slightly revolute, apex acute, rounded-apiculate, surfaces usually puberulent, hispid, and stipitate-glandular, rarely glabrous.  Inflorescences axillary, scattered along stem, usually solitary flowers, sometimes fascicles or compact racemes, 2–5-flowered.  Pedicels 10–15 mm.  Flowers: sepals tardily deciduous, green, lanceolate, 3–8 mm, apex acute, surfaces puberulent, hispid, stipitate-glandular; petals connate their entire lengths, pink (rarely white), red near anther pockets, with ring of red spots proximal to pockets, 8–10 × 10–15 mm, usually sparsely hirsute and stipitate-glandular on keels abaxially, puberulent at base adaxially; filaments 3–4 mm; style 5–7.5 mm.  Capsules 5-locular, 2–3.5 × 2–4 mm, sparsely stipitate-glandular.  Seeds not winged, ovoid, 0.2–0.5 mm.  2n = 24.</description>
-  <phenology>Flowering May–Jul</phenology>
-  <habitat>Open sandy savannas, sand hills, and pine barrens</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species hirsuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedaphne</taxon_name>
+    <taxon_name rank="species" authority="(Walter) Kuntze" date="unknown">hirsuta</taxon_name>
+    <taxon_hierarchy>genus Chamaedaphne;species hirsuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="W. Bartram" date="unknown">ciliata</taxon_name>
+    <taxon_hierarchy>genus Kalmia;species ciliata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmiella</taxon_name>
+    <taxon_name rank="species" authority="(Walter) Small" date="unknown">hirsuta</taxon_name>
+    <taxon_hierarchy>genus Kalmiella;species hirsuta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Sandhill laurel</other_name>
+</bio:treatment>

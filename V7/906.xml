@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>63.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>IBERIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Webb &amp; Berthelot" date="unknown">Iberideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">IBERIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 648. 1753</place_in_publication>
@@ -12,37 +18,34 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 292. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Name used by Dioscorides for an Iberian plant]</etymology>
-  <common_name>Candytuft</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Annuals, perennials, or subshrubs [biennials]; not scapose; glabrous or pubescent. Stems erect or decumbent, often branched distally. Leaves cauline and sometimes basal; petiolate or sessile; basal rosulate or not, sessile [petiolate], blade (somewhat fleshy), margins entire [dentate to pinnatifid]; cauline petiolate or sessile, blade margins entire, dentate, or pinnatifid. Racemes (corymbose), elongated or not in fruit. Fruiting pedicels spreading, divaricate, descending, or ascending, slender. Flowers: sepals ascending [erect], ovate or oblong; petals (zygomorphic, outer [abaxial] pair larger than inner [adaxial] pair), white or pink to purple, obovate [oblanceolate], claw often distinct; stamens tetradynamous; filaments not dilated basally; anthers ovate or oblong, (apex obtuse); nectar glands (4), lateral, 1 on each side of lateral stamen. Fruits sessile, (winged), suborbicular or ovate [obcordate], not torulose, keeled, strongly angustiseptate; valves not veined, (winged), glabrous; replum rounded; septum complete; ovules 2 per ovary; stigma capitate, entire or 2-lobed. Seeds flattened, often winged, ovate [orbicular to reniform]; seed coat mucilaginous or not when wetted; cotyledons accumbent. x = 7, 8, 9, 11.</description>
-  <number_of_infrataxa>Species 27 (3 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw Asia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Iberideae;genus IBERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Name used by Dioscorides for an Iberian plant]</other_info_on_name>
+  </taxon_identification>
+  <number>63.</number>
+  <other_name type="common_name">Candytuft</other_name>
+  <discussion>Species 27 (3 in the flora):</discussion>
   <discussion>Iberis is a well-defined genus readily distinguished by having often corymbose infructescences, zygomorphic flowers, angustiseptate and often distally winged fruits, and exclusively accumbent cotyledons. N. H. Holmgren (2005b) erroneously indicated that the cotyledons in Iberis are incumbent.</discussion>
   <discussion>All three species treated here are ornamentals that sometimes escape from cultivation. Their distributions are based on verified records, but it is very likely that the species are more widely naturalized than the records show.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials or subshrubs (with sterile shoots)</statement>
+      <description type="morphology">Perennials or subshrubs (with sterile shoots)</description>
       <determination>2. Iberis sempervirens</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals (without sterile shoots).</statement>
+      <description type="morphology">Annuals (without sterile shoots).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Racemes considerably elongated in fruit; abaxial petals 5–8 mm; styles 0.8–2 mm;</statement>
+      <description type="morphology">Racemes considerably elongated in fruit; abaxial petals 5–8 mm; styles 0.8–2 mm;</description>
       <determination>1. Iberis amara</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Racemes not elongated in fruit; abaxial petals 10–16 mm; styles 2–4.5 mm; cauline leaf</statement>
+      <description type="morphology">Racemes not elongated in fruit; abaxial petals 10–16 mm; styles 2–4.5 mm; cauline leaf</description>
       <determination>3. Iberis umbellata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

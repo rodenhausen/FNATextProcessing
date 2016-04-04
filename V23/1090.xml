@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26qqq.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Inflatae</section_name>
-    <section_authority>Kükenthal</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Lisa A. Standley</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Kükenthal" date="unknown">Inflatae</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>20[IV,38]: 96. 1909</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Lisa A. Standley</author>
-  <description>Plants cespitose, short-rhizomatous. Culms brown at base. Leaves: basal sheaths not
-    fibrous; sheath fronts membranous; blades filiform, glabrous. Inflorescence 1 spike; bractless;
-    spike androgynous, dense, with 15+ perigynia. Pistillate scales persistent, less than 10 mm,
-    apex obtuse, acute to acuminate, rarely awned. Perigynia eventually spreading, usually veinless,
-    inflated, stipitate or sessile, elliptic or broadly elliptic, rounded-trigonous in cross
-    section, (4–)4.5–10 mm, usually not more than 2 times as long as wide, base rounded, margins
-    rounded, apex abruptly beaked, glossy, glabrous; beak less than 2 mm, entire to erose. Stigmas
-    3. Achenes trigonous, smaller than and loosely enveloped by the bodies of perigynia; style
-    deciduous.</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>alpine regions of w North America.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Inflatae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26qqq.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <discussion>Additional characters of the floral scale and the perigynia are important in
     recognizing members of Carex sect. Inflatae. The floral scales are brown with hyaline margins,
     ovate, and papery. The perigynia are pale brown at the base and dark brown distally, inflated
@@ -30,28 +25,28 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences 1.4–2.5 cm; pistillate scales 3–5-veined with thick, white median
+      <description type="morphology">Inflorescences 1.4–2.5 cm; pistillate scales 3–5-veined with thick, white median
         portion, shorter and narrower than perigynia; perigynia broadly elliptic with short veins on
-        angles</statement>
+        angles</description>
       <determination>477. Carex breweri</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences 0.7–2 cm; pistillate scales 1-veined with narrow, yellow-brown
-        median portion, equaling perigynia in width; perigynia elliptic, veinless.</statement>
+      <description type="morphology">Inflorescences 0.7–2 cm; pistillate scales 1-veined with narrow, yellow-brown
+        median portion, equaling perigynia in width; perigynia elliptic, veinless.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynia 3–5 × 1.5–2.5 mm, base rounded, sessile; pistillate scales acute,
-        involute,</statement>
+      <description type="morphology">Perigynia 3–5 × 1.5–2.5 mm, base rounded, sessile; pistillate scales acute,
+        involute,</description>
       <determination>478. Carex engelmannii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynia 2.5–3.5 × 1.5 mm, base narrowly cuneate, stipitate; pistillate scales
-        obtuse or</statement>
+      <description type="morphology">Perigynia 2.5–3.5 × 1.5 mm, base narrowly cuneate, stipitate; pistillate scales
+        obtuse or</description>
       <determination>479. Carex subnigricans</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

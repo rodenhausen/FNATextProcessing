@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Funaria</genus_name>
-    <species_name>hygrometrica</species_name>
-    <variety_name>calvescens</variety_name>
-    <variety_authority>(Schwägrichen) Montagne</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="Schwägrichen" date="unknown">hygrometrica</taxon_name>
+    <taxon_name rank="variety" authority="(Schwägrichen) Montagne" date="unknown">calvescens</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Sci. Nat., Bot., sér.</publication_title>
       <place_in_publication>2, 12: 54.  1839,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>calvescens</species_name>
-    <species_authority>Schwägrichen</species_authority>
+    <taxon_hierarchy>genus Funaria;species hygrometrica;variety calvescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">calvescens</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond. Suppl.</publication_title>
       <place_in_publication>1(2): 77.  1816</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Capsule 2–3 mm, inclined to nearly erect, straight or weakly curved, narrowly tapered to a long slender neck, mouth nearly parallel to the axis of the capsule.</description>
-  <habitat>Soil, disturbed habitats such as partially shaded building foundations;</habitat>
-  <elevation>low elevations;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Funaria;species calvescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
   <discussion>Variety calvescens seems to be a tropical expression of the species although it is known from a few southern states in the United States.  H. A. Crum and L. E. Anderson (1981) suggested that the name has been misused to the extent that other North American records outside the southeastern United States should be ignored.  This variety is apparently widely distributed in tropical latitudes.</discussion>
-</treatment>
+</bio:treatment>

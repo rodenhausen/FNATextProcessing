@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>47.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Atriplex</genus_name><species_name>phyllostegia</species_name><species_authority>(Torrey ex S. Watson) S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>9: 108. 1874</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Truckee orach</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Obione</genus_name><species_name>phyllostegia</species_name><species_authority>Torrey ex S. Watson</species_authority><place_of_publication><publication_title>Botany (Fortieth Parallel), </publication_title><place_in_publication>291. 1871</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Atriplex</genus_name><species_name>draconis</species_name><species_authority>M. E. Jones</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Atriplex</genus_name><species_name>phyllostegia</species_name><variety_name>draconis</variety_name><variety_authority>(M. E. Jones) Fosberg</variety_authority></TaxonIdentification><description>Herbs monoecious (or entirely pistillate), erect, much-branched, rounded, bushy, 0.5–6 dm. Stems mostly ascending, terete. Leaves: petiole 0.3–2 cm; blade 10–50 × 5–25 mm, base varying from shortly hastate to truncate or cuneate. Staminate flowers in small to moderate, axillary glomerules near ends of branches, or in bracteate terminal spikes. Pistillate flowers in axillary clusters. Fruiting bracteoles lanceolate or oblong, 5–14(–20) mm, sharply lobed to tuberculate at base, also often sharply cristate below usually attenuate apical lobe; tips widely recurved-spreading. Seeds brown, 1.2 mm.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>valley bottoms</habitat><habitat>silty or clay</habitat><habitat>less commonly, sandy alluvium with greasewood</habitat><elevation>1200–1500 m;</elevation><us_distribution>Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="(Torrey ex S. Watson) S. Watson" date="unknown">phyllostegia</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>9: 108. 1874</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species phyllostegia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Obione</taxon_name>
+    <taxon_name rank="species" authority="Torrey ex S. Watson" date="unknown">phyllostegia</taxon_name>
+    <place_of_publication>
+      <publication_title>Botany (Fortieth Parallel),</publication_title>
+      <place_in_publication>291. 1871</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Obione;species phyllostegia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">draconis</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species draconis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">phyllostegia</taxon_name>
+    <taxon_name rank="variety" authority="(M. E. Jones) Fosberg" date="unknown">draconis</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species phyllostegia;variety draconis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>47.</number>
+  <other_name type="common_name">Truckee orach</other_name>
+</bio:treatment>

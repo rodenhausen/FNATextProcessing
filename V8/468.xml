@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Phedimus</genus_name>
-    <species_name>hybridus</species_name>
-    <species_authority>(Linnaeus) ’t Hart</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phedimus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) ’t Hart" date="unknown">hybridus</taxon_name>
     <place_of_publication>
       <publication_title>in H. ’t Hart and U. Eggli, Evol. Syst. Crassulaceae,</publication_title>
       <place_in_publication>168. 1995,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>hybridum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Phedimus;species hybridus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hybridum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 431. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Flowering stems creeping, 0.5–3 dm. Leaves alternate; blade spatulate-elliptic to
-        obovate, 1.5–3 cm, margins not glandular, obtusely crenate. Flowers: sepals linear to
-        suboblong, 3–5 mm, apex obtuse; petals spreading, yellow, lanceolate, 8–10 mm, apex acute,
-        minutely apiculate. Carpels divergent in fruit, connate basally.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Rocky places, roadsides, fields, waste places</habitat>
-  <elevation>0–1000 m</elevation>
-  <introduced>introduced</introduced>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <global_distribution>nc Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Sedum;species hybridum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+</bio:treatment>

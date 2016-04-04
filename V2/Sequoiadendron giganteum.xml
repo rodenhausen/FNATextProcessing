@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Sequoiadendron</genus_name><species_name>giganteum</species_name><species_authority>(Lindley) J. Buchholz</species_authority><place_of_publication><publication_title>Amer. J. Bot.</publication_title><place_in_publication>26: 536. 1939</place_in_publication></place_of_publication></TaxonIdentification><common_name>Giant sequoia</common_name><common_name> bigtree</common_name><common_name> Sierra-redwood</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Wellingtonia</genus_name><species_name>gigantea</species_name><species_authority>Lindley</species_authority><place_of_publication><publication_title>Gard. Chron. </publication_title><place_in_publication>10: 823. 1853</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Sequoia</genus_name><species_name>gigantea</species_name><species_authority>(Lindley) Decaisne</species_authority><place_of_publication><place_in_publication>1854,</place_in_publication><other_info>not Endlicher 1847</other_info></place_of_publication></TaxonIdentification><description>Trees  to 90 m; trunk to 11 m diam.; crown conic and monopodial when young, narrowed and somewhat rounded in age.  Bark  reddish brown, to ca. 60 cm thick, fibrous, ridged and furrowed.  Branches  generally horizontal to downward-sweeping with upturned ends.  Leaves  generally with stomates on both surfaces, the free portion to ca. 15 mm.  Pollen cones  nearly globose to ovoid, 4--8 mm.  Seed cones  4--9 cm.  Seeds  3--6 mm. 2 n  = 22.</description><discussion>Mature individuals of this species are the most voluminous living organisms and among the most long-lived trees. Sequoiadendron giganteum was formerly included in Sequoia , under the later homonym Sequoia gigantea (Lindley) Decaisne, a conservative placement that still has merit (J. Doyle 1945; O. Schwarz and H. Weide 1962).</discussion><discussion>Redwood, including Sequoiadendron giganteum and Sequoia sempervirens , is the state tree of California.</discussion><habitat>Mixed montane coniferous forests, in isolated groves on the w slopes of the Sierra Nevada</habitat><elevation> 900--2700 m</elevation><us_distribution> Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sequoiadendron</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) J. Buchholz" date="unknown">giganteum</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. J. Bot.</publication_title>
+      <place_in_publication>26: 536. 1939</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sequoiadendron;species giganteum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Wellingtonia</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">gigantea</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Chron.</publication_title>
+      <place_in_publication>10: 823. 1853</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Wellingtonia;species gigantea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sequoia</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Decaisne" date="unknown">gigantea</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1854,</place_in_publication>
+      <other_info_on_pub>not Endlicher 1847</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sequoia;species gigantea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Giant sequoia</other_name>
+  <other_name type="common_name">bigtree</other_name>
+  <other_name type="common_name">Sierra-redwood</other_name>
+  <discussion>Mature individuals of this species are the most voluminous living organisms and among the most long-lived trees. Sequoiadendron giganteum was formerly included in Sequoia , under the later homonym Sequoia gigantea (Lindley) Decaisne, a conservative placement that still has merit (J. Doyle 1945; O. Schwarz and H. Weide 1962).</discussion>
+  <discussion>Redwood, including Sequoiadendron giganteum and Sequoia sempervirens , is the state tree of California.</discussion>
+</bio:treatment>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>RESEDA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">RESEDACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">RESEDA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 448. 1753</place_in_publication>
@@ -12,23 +17,13 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 207. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin re- , again, and sedo , calm, assuage, alluding to medicinal properties attributed by Pliny the Elder to plants growing close to Rimini (Italy)]</etymology>
-  <common_name>Mignonette</common_name>
-  <common_name>réséda</common_name>
-  <description>Herbs [subshrubs], annual, biennial, or perennial. Stems erect to ascending (ribs longitudinally marked), simple or branched (usually distally). Leaves: usually rosulate; alternate; usually petiolate (sometimes cauline subsessile); petiole (slender) much shorter than blade, sometimes winged; blade margins entire, pinnatisect, or lobed, lobes 1–11(–15) on each side. Inflorescences racemes (sometimes lateral from distal axils). Pedicels present (sometimes only 1 mm). Flowers: (rarely almost actinomorphic) sepals persistent or deciduous, 4–6[–8], basally connate (alternating with petals [sometimes accrescent]), usually unequal (adaxial larger); petals 4–6[–8], distinct or basally connate, margins usually incised, sometimes entire; intrastaminal nectary-discs present; stamens [7–]10–40; filaments persistent or deciduous, basally connate; ovaries [2–]3–4[–5]-carpelled (stigmatic teeth as many as carpels, placenta sometimes forked apically). Capsules erect or pendulous, angled, cylindric, ovoid-oblong, subglobose, or ovoid, walls membranous or chartaceous. Seeds (10–ca. 30) papillose, rugose, or smooth (sometimes with caruncles). x = 5, 6, [7, 8].</description>
-  <number_of_infrataxa>Species ca. 65 (4 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>n Atlantic Islands</global_distribution>
-  <global_distribution>introduced also in n</global_distribution>
-  <global_distribution>c Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>c Asia</global_distribution>
-  <global_distribution>s Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>family RESEDACEAE;genus RESEDA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin re- , again, and sedo , calm, assuage, alluding to medicinal properties attributed by Pliny the Elder to plants growing close to Rimini (Italy)]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Mignonette</other_name>
+  <other_name type="common_name">réséda</other_name>
+  <discussion>Species ca. 65 (4 in the flora):</discussion>
   <discussion>The four species of Reseda in the flora area represent four sections of the genus, which facilitates identification within this taxonomically complex group. Reseda alba and R. lutea are the most polymorphic species within their respective sections. The great morphological variability within these taxa helps to explain the specific and infraspecific taxa that have been described, most of which are of little taxonomic value. This polymorphism has been related to polyploidy.</discussion>
   <discussion>Reseda is of limited economic importance. Some species, including three treated here, are cultivated as ornamental annuals. Reseda odorata has been cultivated as a fragrance plant since Roman times. Reseda luteola has been used as a dye plant and R. alba as a potherb in some regions of Europe.</discussion>
   <discussion>Reseda phyteuma Linnaeus, a close relative of R. odorata, is known in the flora area only from nineteenth century collections around ballast from ports in New Jersey, New York, and Pennsylvania (e.g., A. Brown, 1878, NY). It has not been found in the flora area for more than 100 years and was never widely present.</discussion>
@@ -40,33 +35,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules 4-carpelled, apically 4-toothed; leaf blades pinnatisect (lobes 4–15 pairs);</statement>
+      <description type="morphology">Capsules 4-carpelled, apically 4-toothed; leaf blades pinnatisect (lobes 4–15 pairs);</description>
       <determination>1. Reseda alba</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules 3-carpelled, apically 3-toothed; leaf blades entire, subentire, or ternately to biternately lobed (lobes 1–3 pairs); stamens 12–40.</statement>
+      <description type="morphology">Capsules 3-carpelled, apically 3-toothed; leaf blades entire, subentire, or ternately to biternately lobed (lobes 1–3 pairs); stamens 12–40.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals 4; leaf blade margins entire or subentire; placentas forked distally; filaments</statement>
+      <description type="morphology">Sepals 4; leaf blade margins entire or subentire; placentas forked distally; filaments</description>
       <determination>3. Reseda luteola</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals (5–)6; leaf blade margins entire or ternately to biternately lobed; placentas entire; filaments deciduous.</statement>
+      <description type="morphology">Sepals (5–)6; leaf blade margins entire or ternately to biternately lobed; placentas entire; filaments deciduous.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Seeds glossy, smooth; capsules usually erect; sepals not reflexed in fruit; petals</statement>
+      <description type="morphology">Seeds glossy, smooth; capsules usually erect; sepals not reflexed in fruit; petals</description>
       <determination>2. Reseda lutea</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Seeds dull, undulate-rugose; capsules deflexed or pendent; sepals reflexed in fruit;</statement>
+      <description type="morphology">Seeds dull, undulate-rugose; capsules deflexed or pendent; sepals reflexed in fruit;</description>
       <determination>4. Reseda odorata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

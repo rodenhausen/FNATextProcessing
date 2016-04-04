@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Echinocactus</genus_name><species_name>polycephalus</species_name><species_authority>Engelmann &amp; J. M. Bigelow</species_authority><variety_name>xeranthemoides</variety_name><variety_authority>J. M. Coulter</variety_authority><place_of_publication>
-    <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-    <place_in_publication>3: 358. 1896</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Echinocactus</genus_name><species_name>polycephalus</species_name><subspecies_name>xeranthemoides</subspecies_name><subspecies_authority>(J. M. Coulter) N. P. Taylor</subspecies_authority></TaxonIdentification><description>Stems gray-green to yellow-green. Spines red to straw colored, canescent, puberulent, or glab-rous. Fruit scales tan, yellow, or reddish, aging yellow, 16–30 mm, usually longer than dried tepals at fruit apex. Seeds rounded (rarely faceted), 2.4–3.1 mm, smooth (exposed surfaces of testa cells flat or slightly convex, uniformly shiny). 2n = 22.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>rocky hills</habitat><habitat>slopes</habitat><habitat>and ledges of canyons</habitat><habitat>great basin and mojave desert scrub</habitat><habitat>igneous and calcareous substrates</habitat><elevation>500–1700 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann &amp; J. M. Bigelow" date="unknown">polycephalus</taxon_name>
+    <taxon_name rank="variety" authority="J. M. Coulter" date="unknown">xeranthemoides</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>3: 358. 1896</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Echinocactus;species polycephalus;variety xeranthemoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">polycephalus</taxon_name>
+    <taxon_name rank="subspecies" authority="(J. M. Coulter) N. P. Taylor" date="unknown">xeranthemoides</taxon_name>
+    <taxon_hierarchy>genus Echinocactus;species polycephalus;subspecies xeranthemoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

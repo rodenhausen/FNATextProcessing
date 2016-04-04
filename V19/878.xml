@@ -1,58 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>tridentata</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>parishii</subspecies_name>
-    <subspecies_authority>(A. Gray) H. M. Hall &amp; Clements</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">tridentata</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) H. M. Hall &amp; Clements" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>326: 137. 1923</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species tridentata;subspecies parishii;</taxon_hierarchy>
-  <past_name>parishi</past_name>
-  <common_name>Mojave sagebrush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>parishii</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species tridentata;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>17: 220. 1882</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>tridentata</species_name>
-    <variety_name>parishii</variety_name>
-    <variety_authority>(A. Gray) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Seriphidium</genus_name>
-    <species_name>tridentatum</species_name>
-    <species_authority>(Nuttall) W. A. Weber</species_authority>
-    <subspecies_name>parishii</subspecies_name>
-    <subspecies_authority>(A. Gray) W. A. Weber</subspecies_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 100–200(–300) cm (crowns rounded). Vegetative branches interspersed among flowering stems. Leaves cuneate or lanceolate (1–)1.5–2(–2.5) × 0.1–0.3 cm, usually 3-lobed, sometimes entire. Heads in paniculiform arrays 15–30 × 2–6 cm (branches widely spreading or drooping). Involucres 2–4 × 1–2 mm. Florets 3–7. Cypselae hairy or glabrous. 2n = 36.</description>
-  <phenology_info>
-    <text>Flowering mid summer–late fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>loose sandy soils of valleys and foothills ;</text>
-    <habitat>loose sandy soils of valleys and foothills</habitat>
-  </habitat_info>
-  <elevation>300–1800 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Artemisia;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) W. A. Weber" date="unknown">tridentata</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Jepson" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species tridentata;variety parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Seriphidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tridentatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) W. A. Weber" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Seriphidium;species tridentatum;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17b.</number>
+  <other_name type="past_name">parishi</other_name>
+  <other_name type="common_name">Mojave sagebrush</other_name>
   <discussion>Subspecies parishii is found in coastal ranges in southern California and Baja California, and inland to areas south of the Great Basin. It has been distinguished traditionally by the presence of drooping flowering branches and hairy cypselae, characteristics found on the type specimen. These characteristics occur sporadically in populations of other subspecies throughout the warm desert regions of southern California, Nevada, and Utah; the characteristically longer leaves and distinctive aroma support recognition of this subspecies. This treatment is the first to include Mojave Desert, Owens Valley, and Colorado Plateau populations within subsp. parishii.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>119.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ARTEMISIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Leila M. Shultz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ARTEMISIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 845. 1753</place_in_publication>
@@ -12,42 +18,19 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 367. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus ARTEMISIA;</taxon_hierarchy>
-  <etymology>[Greek Artemis, goddess of the hunt and namesake of Artemisia, Queen of
-    Anatolia]</etymology>
-  <common_name>Felon-herb</common_name>
-  <common_name>mugwort</common_name>
-  <common_name>sagebrush</common_name>
-  <common_name>sailor’s-tobacco</common_name>
-  <common_name>wormwood</common_name>
-  <common_name>armoise</common_name>
-  <common_name>herbe Saint-Jean</common_name>
-  <author>Leila M. Shultz</author>
-  <description>Annuals, biennials, perennials, subshrubs, or shrubs, 3–350 cm (usually, rarely not,
-    aromatic). Stems 1–10+, usually erect, usually branched, glabrous or hairy (hairs basi- or
-    medifixed). Leaves basal or basal and cauline; alternate; petiolate or sessile; blades filiform,
-    linear, lanceolate, ovate, elliptic, oblong, oblanceolate, obovate, cuneate, flabellate, or
-    spatulate, usually pinnately and/or palmately lobed, sometimes apically ± 3-lobed or -toothed,
-    or entire, faces glabrous or hairy (hairs multicelled and filled with aromatic terpenoids and/or
-    1-celled and hollow, dolabriform, T-shaped). Heads usually discoid, sometimes disciform
-    (subradiate in A. bigelovii), in relatively broad, paniculiform arrays, or in relatively narrow,
-    racemiform or spiciform arrays. Involucres campanulate, globose, ovoid, or turbinate, 1.5–8 mm
-    diam. Phyllaries persistent, 2–20+ in 4–7 series, distinct, (usually green to whitish green,
-    rarely stramineous) ovate to lanceolate, unequal, margins and apices (usually green or white,
-    rarely dark brown or black) ± scarious (abaxial faces glabrous or hairy). Receptacles flat,
-    convex, or conic (glabrous or hairy), epaleate (except paleate in A. palmeri). Ray florets 0
-    (peripheral pistillate florets in disciform heads usually 1–20, their corollas filiform;
-    corollas of 1–3 pistillate florets in heads of A. bigelovii sometimes ± 2-lobed, weakly
-    raylike). Disc florets 2–20(–30+), bisexual and fertile, or functionally staminate; corollas
-    (glabrous or ± hirtellous) usually pale yellow, rarely red, tubes ± cylindric, throats
-    subglobose or funnelform, lobes 5, ± deltate. Cypselae (brown) fusiform, ribs 0 (and faces
-    finely striate) or 2–5, faces glabrous or hairy (not villous), often gland-dotted (pericarps
-    sometimes with myxogenic cells, without resin sacs; embryo sac development monosporic); pappi
-    usually 0 (coroniform in A. californica and A. papposa, sometimes on outer in A. rothrockii). x
-    = 9.</description>
-  <number_of_infrataxa>species ca. 350–500 (50 in the flora)</number_of_infrataxa>
-  <global_distribution>mostly northern hemisphere (north america, eurasia), some in south america and africa</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus ARTEMISIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek Artemis, goddess of the hunt and namesake of Artemisia, Queen of
+    Anatolia]</other_info_on_name>
+  </taxon_identification>
+  <number>119.</number>
+  <other_name type="common_name">Felon-herb</other_name>
+  <other_name type="common_name">mugwort</other_name>
+  <other_name type="common_name">sagebrush</other_name>
+  <other_name type="common_name">sailor’s-tobacco</other_name>
+  <other_name type="common_name">wormwood</other_name>
+  <other_name type="common_name">armoise</other_name>
+  <other_name type="common_name">herbe Saint-Jean</other_name>
+  <discussion>species ca. 350–500 (50 in the flora)</discussion>
   <discussion>As circumscribed here, there are five subgenera in Artemisia; four are represented in
     the flora area.</discussion>
   <discussion>Etymologies of the common names used for Artemisia species provide glimpses of their
@@ -116,40 +99,39 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Shrubs; leaves in lateral fascicles (on vegetative shoots); heads discoid (except
+      <description type="morphology">Shrubs; leaves in lateral fascicles (on vegetative shoots); heads discoid (except
         in A. bigelovii with, rarely, 1–2 raylike florets): florets bisexual (corollas 5-lobed);
-        receptacles glabrous</statement>
+        receptacles glabrous</description>
       <determination>119b. Artemisia subg. Tridentatae, p. 509</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals, biennials, perennials, or subshrubs (shrubs in A. filifolia, A.
+      <description type="morphology">Annuals, biennials, perennials, or subshrubs (shrubs in A. filifolia, A.
         californica , and A. nesiotica ); leaves not in fascicles; heads usually disciform, rarely
-        discoid; receptacles glabrous or villous.</statement>
+        discoid; receptacles glabrous or villous.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Disc florets functionally staminate (not setting fruits), corollas
-        subglobose</statement>
+      <description type="morphology">Disc florets functionally staminate (not setting fruits), corollas
+        subglobose</description>
       <determination>119a. Artemisia subg. Dracunculus, p. 505</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Disc florets usually bisexual and fertile (sometimes functionally staminate in A.
-        packardiae in subg. Artemisia ), corollas funnelform.</statement>
+      <description type="morphology">Disc florets usually bisexual and fertile (sometimes functionally staminate in A.
+        packardiae in subg. Artemisia ), corollas funnelform.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Receptacles villous</statement>
+      <description type="morphology">Receptacles villous</description>
       <determination>119c. Artemisia subg. Absinthium, p. 518</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Receptacles glabrous (paleate in A. palmeri )</statement>
+      <description type="morphology">Receptacles glabrous (paleate in A. palmeri )</description>
       <determination>119d. Artemisia subg. Artemisia, p. 520</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

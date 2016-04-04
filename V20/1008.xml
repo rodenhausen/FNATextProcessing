@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Isocoma</genus_name><species_name>acradenia</species_name><species_authority>(Greene) Greene</species_authority><variety_name>bracteosa</variety_name><variety_authority>(Greene) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>70: 81. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Isocoma</genus_name><species_name>bracteosa</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Leafl. Bot. Observ. Crit. </publication_title><place_in_publication>1: 170. 1906</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>acradenius</species_name><species_authority>(Greene) S. F. Blake</species_authority><subspecies_name>bracteosus</subspecies_name><subspecies_authority>(Greene) H. M. Hall</subspecies_authority></TaxonIdentification><description>Leaf blades mostly 50–150 mm, margins of proximal usually shallowly toothed, of distal entire or serrulate. Involucres 7–8 mm. Phyllary apices spinulose-aristate. Florets 20–27. 2n = 12.</description><phenology>aug</phenology><phenology>summer</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>salt flats</habitat><elevation>0–20 m;</elevation><us_distribution>Calif.</us_distribution><discussion>In the limited zone of contact between vars. bracteosa and acradenia, intermediates are rare. The two differ in chromosome number and significantly in habitat (altitudes are essentially non-overlapping). Field studies may show them to warrant distinction at specific rank.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">acradenia</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) G. L. Nesom" date="unknown">bracteosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>70: 81. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Isocoma;species acradenia;variety bracteosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">bracteosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
+      <place_in_publication>1: 170. 1906</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Isocoma;species bracteosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(Greene) S. F. Blake" date="unknown">acradenius</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) H. M. Hall" date="unknown">bracteosus</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species acradenius;subspecies bracteosus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <discussion>In the limited zone of contact between vars. bracteosa and acradenia, intermediates are rare. The two differ in chromosome number and significantly in habitat (altitudes are essentially non-overlapping). Field studies may show them to warrant distinction at specific rank.</discussion>
+</bio:treatment>

@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Chrysolepis</genus_name><species_name>chrysophylla</species_name><species_authority>(Douglas ex Hooker) Hjelmquist</species_authority><variety_name>minor</variety_name><variety_authority>(Bentham) Munz</variety_authority><place_of_publication><publication_title> Suppl. Calif. Fl., </publication_title><place_in_publication>120. 1968</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Castanea</genus_name><species_name>chrysophylla</species_name><variety_name>minor</variety_name><variety_authority>Bentham</variety_authority><place_of_publication><publication_title>Pl. Hartw., </publication_title><place_in_publication>377. 1857</place_in_publication></place_of_publication></TaxonIdentification><description>Shrubs, erect, to 2-5(-10) m. Leaves strongly folded upward along midvein.</description><phenology>Flowering summer (Jun-Sep)</phenology><habitat> Rocky or gravelly open slopes, conifer forest, closed cone pines and chaparral</habitat><elevation> 300-1800 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysolepis</taxon_name>
+    <taxon_name rank="species" authority="(Douglas ex Hooker) Hjelmquist" date="unknown">chrysophylla</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) Munz" date="unknown">minor</taxon_name>
+    <place_of_publication>
+      <publication_title>Suppl. Calif. Fl.,</publication_title>
+      <place_in_publication>120. 1968</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chrysolepis;species chrysophylla;variety minor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Castanea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">chrysophylla</taxon_name>
+    <taxon_name rank="variety" authority="Bentham" date="unknown">minor</taxon_name>
+    <place_of_publication>
+      <publication_title>Pl. Hartw.,</publication_title>
+      <place_in_publication>377. 1857</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Castanea;species chrysophylla;variety minor;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

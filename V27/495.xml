@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>32.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Fissidens</genus_name>
-    <species_name>littlei</species_name>
-    <species_authority>(R. S. Williams) Grout</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="(R. S. Williams) Grout" date="unknown">littlei</taxon_name>
     <place_of_publication>
       <publication_title>Moss Fl. N. Amer.</publication_title>
       <place_in_publication>1: 249. 1939,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Moenkemeyera</genus_name>
-    <species_name>littlei</species_name>
-    <species_authority>R. S. Williams</species_authority>
+    <taxon_hierarchy>genus Fissidens;species littlei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Moenkemeyera</taxon_name>
+    <taxon_name rank="species" authority="R. S. Williams" date="unknown">littlei</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>39: 40, plate 4. 1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants to 3 × 2 mm. Stem un-branched and sparingly branched; axillary hyaline
-        nodules absent; central strand absent. Leaves as many as 8 pairs, ligulate, obtuse-apiculate
-        to acute, to 1.5 × 0.25 mm; dorsal lamina narrowed proximally, ending at insertion or
-        slightly decurrent; vaginant laminae 1/2–2/3 leaf length, ± equal, minor lamina ending on or
-        near margin; margin crenulate, often irregularly so on vaginant laminae, elimbate; costa
-        ending 3–5 cells before apex, bryoides-type; lamina cells 1-stratose, distinct, mammillose,
-        firm-walled, irregularly quadrate to hexagonal, oblate on margin, 8–10 µm, somewhat larger,
-        ± oblong in proximal parts of vaginant laminae. Sexual condition rhizautoicous and
-        gonio-autoicous; perigonia gemmiform and on elongate stems. Sporophytes 1 per perichaetium.
-        Seta 1.4–1.8 mm. Capsule theca exserted, erect, radially symmetric, to 0.5 mm long;
-        peristome teeth anomalous, undivided, papillose; operculum to 0.3 mm. Calyptra cucullate,
-        smooth, 0.3 mm. Spores 8–11 µm.</description>
-  <habitat>Walls of small pockets in gypsum sinkholes</habitat>
-  <us_distribution>N.Mex.</us_distribution>
+    <taxon_hierarchy>genus Moenkemeyera;species littlei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>32.</number>
   <discussion>This rare Fissidens, named in honor of the American botanist Elbert Little, is known
         only from the type locality and was recently re-discovered there by K. W. Allred (1998). The
         plants are pale green, probably the result of their occurrence in small pocketlike
@@ -40,4 +32,4 @@
         amoenus, but differs from the latter by its elimbate leaves, slightly smaller, mammillose
         laminal cells, oblate marginal cells, absence of enlarged pellucid cells in the proximal
         parts of the vaginant laminae, and undivided, papillose peristome teeth.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,85 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Rosendahl, Butters &amp; Lakela" date="unknown">americana</taxon_name>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species americana;variety americana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">brevipetala</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species americana;variety brevipetala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">heteradenia</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species americana;variety heteradenia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Rydberg" date="unknown">subtruncata</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species americana;variety subtruncata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">calycosa</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species calycosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">curtisii</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species curtisii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">curtisii</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">crenata</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species curtisii;variety crenata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lancipetala</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species lancipetala;</taxon_hierarchy>
+  </taxon_identification>
   <number>8a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>americana</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <variety_name>brevipetala</variety_name>
-    <variety_authority>Rosendahl, Butters &amp; Lakela</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <variety_name>heteradenia</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <variety_name>subtruncata</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>calycosa</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>curtisii</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>curtisii</species_name>
-    <variety_name>crenata</variety_name>
-    <variety_authority>Rydberg</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>lancipetala</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Petioles glabrous or very short to sparsely long stipitate-glandular. Flowers:
-        hypanthium free 0.6–1.5 mm, urceolate; petals greenish, white, or pink, narrower than
-        sepals, margins entire or finely dentate. 2n = 14.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Rich woods often over base-saturated granite and gneiss, or in shallow, rocky
-        soil</habitat>
-  <elevation>70–1300 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
   <discussion>Variety americana is widely distributed from Connecticut to Georgia and from
         southern Ontario and Ohio to Oklahoma and northwestern Louisiana. It intergrades with
         Heuchera pubescens and H. richardsonii where their ranges overlap, but not with H.
         longiflora, H. parviflora, or H. villosa, which also share overlapping ranges with
         it.</discussion>
-</treatment>
+</bio:treatment>

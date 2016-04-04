@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>111.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>delnortensis</species_name>
-    <species_authority>C. K. Schneider</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="C. K. Schneider" date="unknown">delnortensis</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>1: 96. 1919</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Del Norte willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>breweri</species_name>
-    <species_authority>Bebb</species_authority>
-    <variety_name>delnortensis</variety_name>
-    <variety_authority>(C. K. Schneider) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 1–2 m, (sometimes forming clones by stem fragmentation). Stems: branches (highly brittle at base), red-brown, not glaucous, tomentose or velvety to glabrescent; branchlets red-brown or yellow-brown, densely velvety, (buds caprea-type). Leaves: stipules absent or rudimentary on early ones, rudimentary or foliaceous on late ones, apex acute; petiole convex to flat, or shallowly grooved adaxially, 6–16 mm, velvety or tomentose adaxially; largest medial blade elliptic or obovate, 53–102 × 29–54 mm, 1.3–2.8 times as long as wide, base cuneate or convex, margins slightly revolute, entire or sinuate, apex convex, rounded, or acute, abaxial surface glaucous (sometimes obscured by hairs), densely to sparsely velvety, tomentose, villous, or short-silky, hairs erect or spreading, wavy, adaxial dull, sparsely tomentose or short-silky; proximal blade margins entire; juvenile blade green, very densely velvety or long-silky abaxially, hairs white or gray. Catkins flowering before leaves emerge; staminate stout, 25–30 × 6–13 mm, flowering branchlet 0–5 mm; pistillate moderately densely flowered, slender to stout, 17–53 × 6–8 mm, flowering branchlet 1–3 mm; floral bract brown, 1.2–2.2 mm, apex rounded, abaxially hairy, hairs straight. Staminate flowers: adaxial nectary narrowly oblong to oblong, 0.5–1 mm; filaments distinct or slightly connate, glabrous; anthers purple turning yellow, ellipsoid, 0.6–0.7 mm. Pistillate flowers: adaxial nectary narrowly oblong to oblong, 0.4–0.9 mm, longer than stipe; stipe 0–0.3 mm; ovary obturbinate, short-silky or densely pubescent, beak gradually tapering to styles; ovules 14–18 per ovary; styles 0.6–1.2 mm; stigmas flat, abaxially non-papillate with rounded tip, or 2 plump lobes, 0.2–0.32–0.4 mm. Capsules 4 mm.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>streamshores</habitat>
-  <habitat>gravel to boulder substrates</habitat>
-  <habitat>serpentine soils</habitat>
-  <elevation>90–500 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species delnortensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Bebb" date="unknown">breweri</taxon_name>
+    <taxon_name rank="variety" authority="(C. K. Schneider) Jepson" date="unknown">delnortensis</taxon_name>
+    <taxon_hierarchy>genus Salix;species breweri;variety delnortensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>111.</number>
+  <other_name type="common_name">Del Norte willow</other_name>
   <discussion>The origin of the serpentine endemics Salix breweri and S. delnortensis is still unresolved (G. W. Argus 1997; R. D. Dorn 2000). The possibility that they are of hybrid origin, perhaps involving S. lasiolepis and S. sitchensis (Dorn 1976), cannot be resolved by field and herbarium studies alone; cytological and experimental methods need to be employed.</discussion>
-</treatment>
+</bio:treatment>

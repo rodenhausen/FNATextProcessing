@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>bigelovii</species_name><species_authority>A. Gray</species_authority><variety_name>bigelovii</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>rusbyi</species_name><species_authority>Greene</species_authority></TaxonIdentification><description>Herbage glabrous or nearly so. Leaves: blades of proximal often abruptly contracted or at least obtuse at bases; mid and distal leaves clasping. Heads usually 6–12(–20). Phyllaries mostly 13, 6–8+ mm.</description><phenology>mid summer</phenology><habitat>meadows</habitat><habitat>rocky, open sites in conifer-dominated areas</habitat><elevation>1800–3000 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>N.Mex.</us_distribution><discussion>Plants of var. bigelovii from the north of the range tend to be intermediate with var. hallii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bigelovii</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">bigelovii</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species bigelovii;variety bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">rusbyi</taxon_name>
+    <taxon_hierarchy>genus Senecio;species rusbyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+  <discussion>Plants of var. bigelovii from the north of the range tend to be intermediate with var. hallii.</discussion>
+</bio:treatment>

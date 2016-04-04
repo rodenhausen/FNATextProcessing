@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Psathyrotopsis</genus_name><species_name>scaposa</species_name><species_authority>(A. Gray) H. Robinson</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>45: 459. 1980</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Psathyrotes</genus_name><species_name>scaposa</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Smith-sonian Contr. Knowl. </publication_title><place_in_publication>5(6): 100, plate 13. 1853</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pseudobartlettia</genus_name><species_name>scaposa</species_name><species_authority>(A. Gray) Rydberg</species_authority></TaxonIdentification><description>Leaf blades 1–6 × 1–4 cm. Peduncles (3–)5–20 mm, stipitate-glandular (at least distally). Disc corollas ca. 5 mm. Cypselae 2.5–3.5 mm; pappus bristles 1–3 mm. 2n = 38.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>gypseous and calcareous soils in creosote bush scrub-lands</habitat><elevation>700–1300 m;</elevation><us_distribution>N.Mex.</us_distribution><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Chihuahua).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Rydberg" date="unknown">Chaenactidinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Psathyrotopsis</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) H. Robinson" date="unknown">scaposa</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>45: 459. 1980</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Chaenactidinae;genus Psathyrotopsis;species scaposa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Psathyrotes</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">scaposa</taxon_name>
+    <place_of_publication>
+      <publication_title>Smith-sonian Contr. Knowl.</publication_title>
+      <place_in_publication>5(6): 100, plate 13. 1853</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Psathyrotes;species scaposa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudobartlettia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Rydberg" date="unknown">scaposa</taxon_name>
+    <taxon_hierarchy>genus Pseudobartlettia;species scaposa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

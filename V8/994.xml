@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Leucothoë</genus_name>
-    <species_name>fontanesiana</species_name>
-    <species_authority>(Steudel) Sleumer</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucothoë</taxon_name>
+    <taxon_name rank="species" authority="(Steudel) Sleumer" date="unknown">fontanesiana</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>78: 438.  1959  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mountain dog-laurel or dog-hobble</common_name>
-  <common_name>switch-ivy</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>fontanesiana</species_name>
-    <species_authority>Steudel</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Leucothoë;species fontanesiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Steudel" date="unknown">fontanesiana</taxon_name>
     <place_of_publication>
       <publication_title>Nomencl. Bot. ed.</publication_title>
       <place_in_publication>2, 1: 88.  1840,</place_in_publication>
-      <other_info>based on A. lanceolata Desfontaines, Tabl. École Bot. ed. 3, 398.  1829, not Wallich 1820</other_info>
+      <other_info_on_pub>based on A. lanceolata Desfontaines, Tabl. École Bot. ed. 3, 398.  1829, not Wallich 1820</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucothoë</genus_name>
-    <species_name>axillaris</species_name>
-    <species_authority>(Lamarck) D. Don</species_authority>
-    <variety_name>editorum</variety_name>
-    <variety_authority>(Fernald &amp; B. G. Schubert) H. E. Ahles</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 1–2 m, branches spread-ing.  Leaves: petiole 10–15 mm; blade oblong, lanceolate, oblanceolate, or elliptic, 3–8 cm, margins entire or spinulose-serrulate, apex acute to long-acuminate, abaxial surface sparsely pilose.  Inflorescences fascicled or solitary, sessile, dense, 20–60-flowered, 4–10 cm; bracts ± persistent, ovate-deltate, 1.7–2.2 mm.  Pedicels 2–2.5 mm.  Flowers: sepals whitish, lanceolate-ovate, 1.7–2 mm, apex acute or subacute; corolla cylindric, 5–7 mm; filaments papillate (sometimes also spreading-hairy); anthers 1.2–1.5 mm, with 2 awns, thecae divergent distally; ovary glabrous.  Capsules 5–6 mm wide.  Seeds ellipsoid or oblong; testa firm, reticulate.  2n = 22.</description>
-  <phenology>Flowering mid spring</phenology>
-  <habitat>Woods along mountain streams, mountain ravines, moist slopes, often associated with Rhododendron maximum</habitat>
-  <elevation>200–2000 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Andromeda;species fontanesiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucothoë</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) D. Don" date="unknown">axillaris</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald &amp; B. G. Schubert) H. E. Ahles" date="unknown">editorum</taxon_name>
+    <taxon_hierarchy>genus Leucothoë;species axillaris;variety editorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Mountain dog-laurel or dog-hobble</other_name>
+  <other_name type="common_name">switch-ivy</other_name>
+</bio:treatment>

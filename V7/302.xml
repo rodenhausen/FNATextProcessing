@@ -1,47 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CLEOSERRATA</genus_name>
-    <genus_authority>H. H. Iltis</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="H. H. Iltis" date="unknown">CLEOSERRATA</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>17: 447. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Genus Cleome and serrata , serrate, alluding to leaflet margins]</etymology>
-  <author>Gordon C. Tucker</author>
-  <description>Herbs, annual [perennial]. Stems unbranched or sparsely [profusely] branched;
-    glabrous or glandular-pubescent. Leaves: stipules absent; petiole with pulvinus basally or
-    distally, (petiolule base adnate, forming pulvinar disc; leaflets 3 or 5–9. Inflorescences
-    terminal or axillary (from distal leaves), racemes (flat-topped or elongated); bracts present.
-    Flowers (often appearing unisexual due to incomplete development), zygomorphic; sepals
-    persistent or deciduous, distinct, equal (each often subtending a nectary); petals equal;
-    stamens 6; filaments inserted on a discoid or conical androgynophore, usually glabrous; anthers
-    coiling as pollen is released; gynophore recurved in fruit. Fruits capsules, dehiscent, oblong.
-    Seeds 10–30+, subglobose [reniform], not arillate, (cleft fused between ends). x =
-    12.</description>
+    <taxon_hierarchy>family CLEOMACEAE;genus CLEOSERRATA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Genus Cleome and serrata , serrate, alluding to leaflet margins]</other_info_on_name>
+  </taxon_identification>
+  <number>8.</number>
   <discussion>segregation of cleoserrata from tarenaya is based on the absence of prickles on the
     minutely serrulate leaf, the x = 12 chromosomal complement, and molecular evidence suggesting a
     more basal clade than that of tarenaya (l. a. inda et al. 2008).</discussion>
-  <number_of_infrataxa>Species 5 (2 in the flora)</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
+  <discussion>Species 5 (2 in the flora)</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals usually brilliant pink to purple, fading to pink or white, rarely initially
-        white; bracts</statement>
+      <description type="morphology">Petals usually brilliant pink to purple, fading to pink or white, rarely initially
+        white; bracts</description>
       <determination>1. Cleoserrata speciosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals white or whitish, with pinkish or red distally; bracts subulate, to 1 mm;
-        gynophore</statement>
+      <description type="morphology">Petals white or whitish, with pinkish or red distally; bracts subulate, to 1 mm;
+        gynophore</description>
       <determination>2. Cleoserrata serrata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>76.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>NERISYRENIA</genus_name>
-    <genus_authority>Greene</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="Greene" date="unknown">NERISYRENIA</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 225. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek neros , flowing, and genus Syrenia , presumably alluding to resemblance]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Greggia</genus_name>
-    <genus_authority>A. Gray</genus_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus NERISYRENIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek neros , flowing, and genus Syrenia , presumably alluding to resemblance]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="A. Gray" date="unknown">Greggia</taxon_name>
     <place_of_publication>
       <publication_title>Smithsonian Contr. Knowl.</publication_title>
       <place_in_publication>3(5): 8, plate 1. 1852,</place_in_publication>
-      <other_info>not Solander ex J. Gaertner 1788</other_info>
+      <other_info_on_pub>not Solander ex J. Gaertner 1788</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials [subshrubs]; (caudex woody); not scapose; usually pubescent, sometimes glabrous or glabrate, trichomes long-stalked to subsessile, dendritic. Stems (few to several from base), erect to ascending, branched distally. Leaves cauline; not rosulate; petiolate or sessile; blade (often fleshy), margins entire, dentate, or repand, sometimes revolute. Racemes (corymbose, several-flowered, lax). Fruiting pedicels divaricate to ascending, or, rarely, recurved, slender. Flowers: sepals spreading to reflexed, oblong or lanceolate to ovate [linear]; petals usually white (often fading lavender), rarely lavender, obovate to spatulate [broadly elliptic], (longer than sepals), claw well-differentiated from blade, (dilated and denticulate basally); stamens slightly tetradynamous, (somewhat spreading); anthers linear, (base sagittate, apex obtuse); nectar glands confluent, subtending bases of stamens. Fruits siliques or silicles, sessile, linear to oblong [obovoid], smooth [torulose], straight or curved, angustiseptate, terete, [or latiseptate]; valves each with distinct midvein, pubescent [glabrous]; replum rounded; septum complete; ovules 30–100 per ovary; style distinct; stigma conical, 2-lobed (lobes connivent, decurrent). Seeds uniseriate or biseriate, plump, not winged, oblong [elliptic]; seed coat mucilaginous when wetted; cotyledons incumbent. x = 9, 10</description>
-  <number_of_infrataxa>Species 7–9 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>s United States</global_distribution>
-  <global_distribution>n Mexico.</global_distribution>
+    <taxon_hierarchy>genus Greggia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>76.</number>
+  <discussion>Species 7–9 (2 in the flora):</discussion>
   <discussion>Parrasia Greene (1895), not Rafinesque (1837) is an illegitimate name, sometimes found in synonymy with Nerisyrenia.</discussion>
   <references>
     <reference>Bacon, J. D. 1978. Taxonomy of Nerisyrenia (Cruciferae). Rhodora 80: 159–227.</reference>
@@ -31,13 +35,13 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades usually obovate to spatulate or oblanceolate, rarely elliptic, (4–)7–20(–30) mm</statement>
+      <description type="morphology">Leaf blades usually obovate to spatulate or oblanceolate, rarely elliptic, (4–)7–20(–30) mm</description>
       <determination>1. Nerisyrenia camporum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades linear to linear-oblanceolate, 1–4.5 mm wide, fleshy</statement>
+      <description type="morphology">Leaf blades linear to linear-oblanceolate, 1–4.5 mm wide, fleshy</description>
       <determination>2. Nerisyrenia linearifolia</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

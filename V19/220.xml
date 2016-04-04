@@ -1,57 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Centaurea</genus_name>
-    <species_name>virgata</species_name>
-    <species_authority>Lamarck</species_authority>
-    <subspecies_name>squarrosa</subspecies_name>
-    <subspecies_authority>(Boissier) Gugler</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">virgata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Boissier) Gugler" date="unknown">squarrosa</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Hist.-Nat. Mus. Natl. Hung.</publication_title>
       <place_in_publication>6: 248. 1908</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Centaurea;species virgata;subspecies squarrosa;</taxon_hierarchy>
-  <common_name>Squarrose knapweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>virgata</species_name>
-    <variety_name>squarrosa</variety_name>
-    <variety_authority>Boissier</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Centaurea;species virgata;subspecies squarrosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virgata</taxon_name>
+    <taxon_name rank="variety" authority="Boissier" date="unknown">squarrosa</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Orient.</publication_title>
       <place_in_publication>3: 651. 1875,</place_in_publication>
-      <other_info>based on C. squarrosa Willdenow, Sp. Pl. 3: 2319. 1803, not Roth 1800</other_info>
+      <other_info_on_pub>based on C. squarrosa Willdenow, Sp. Pl. 3: 2319. 1803, not Roth 1800</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials, 20–50 cm, scabrous. Stems several, diffusely much-branched distally, finely tomentose, minutely resin-gland-dotted. Leaves finely tomentose, minutely resin-gland-dotted; basal and proximal cauline petiolate, often absent at anthesis, blades 10–15 cm, margins 1–2 times pinnately divided into linear segments; mid and distal cauline sessile, smaller, pinnately divided or simple. Heads disciform, in paniculiform arrays, sessile or short-pedunculate. Involucres narrowly ovoid or cylindric, 7–8 × 3–5 mm, falling at maturity with enclosed cypselae. Principal phyllaries: bodies pale green or stramineous, ovate to lanceolate, sometimes purple-tinged, glabrous or finely tomentose, sparsely resin-gland-dotted, margins scarious, appendages spreading, fringed with slender stramineous spines, each tipped by spreading to reflexed spine 1–3 mm. Inner phyllaries lanceolate, ± acute. Florets 10–14(–16); corollas pink or pale purple, those of sterile florets very slender, 3-lobed, linear, not exceeding disc corollas, those of fertile florets 7–9 mm. Cypselae light brown or stramineous, 2.5–3.5 mm, glabrous; pappi of white bristles 1–2.5 mm or sometimes very reduced. 2n = 36.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Sep).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>rangelands , pastures , open forests , roadsides ;</text>
-    <habitat>rangelands</habitat>
-    <habitat>pastures</habitat>
-    <habitat>open forests</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>1000–2000 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>w Asia.</global_distribution>
+    <taxon_hierarchy>genus Centaurea;species virgata;variety squarrosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13a.</number>
+  <other_name type="common_name">Squarrose knapweed</other_name>
   <discussion>Squarrose knapweed is an invasive pest in rangelands of western North America. At maturity the fruiting heads readily fall from the plant and can become lodged in the fur of animals. Centaurea virgata subsp. squarrosa has been declared a noxious weed in several western states.</discussion>
   <discussion>In the Synthesis of the North American Flora (J. T. Kartesz and C. A. Meacham 1999) Centaurea virgata is incorrectly listed as a synonym of C. triumfettii Allioni, a very different plant. This was apparently based on a misreading of C. variegata Lamarck (not a legitimate name), a synonym of C. triumfettii, as C. virgata.</discussion>
-</treatment>
-
+</bio:treatment>

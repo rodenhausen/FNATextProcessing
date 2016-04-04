@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ceratodon</genus_name>
-    <species_name>purpureus</species_name>
-    <subspecies_name>stenocarpus</subspecies_name>
-    <subspecies_authority>(Bruch &amp; Schimper) Dixon</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ceratodon</taxon_name>
+    <taxon_name rank="species" authority="Bruch &amp; Schimper" date="unknown">purpureus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Bruch &amp; Schimper) Dixon" date="unknown">stenocarpus</taxon_name>
     <place_of_publication>
       <publication_title>Bull. New Zealand Inst.</publication_title>
       <place_in_publication>3: 50.  1914,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ceratodon</genus_name>
-    <species_name>stenocarpus</species_name>
-    <species_authority>Bruch &amp; Schimper</species_authority>
+    <taxon_hierarchy>genus Ceratodon;species purpureus;subspecies stenocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ceratodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">stenocarpus</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>2: 146.  1846</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants usually in open turfs and mats, usually yellow-green.  Stems (0.3–)0.6–1.4(–4) cm.  Leaves erect-patent to contorted or somewhat crisped when dry, rarely forming a comal tuft, patent to erect-patent to spreading when wet, 0.35–2.8 mm, distal margins usually toothed; costae percurrent to slightly excurrent.  Seta pale yellow to yellow-orange.  Capsule slightly inclined to erect, usually arcuate, (1–)1.7–2.3(–3.7) mm, pale brown to yellow (golden) orange, smooth to sulcate when dry, weakly strumose to struma absent.  Peristome teeth usually bordered, usually with 8–16 articulations.</description>
-  <phenology>Capsules mature early summer–late fall.</phenology>
-  <habitat>Soil, tree bases, rock ledges, often on burned ground;</habitat>
-  <elevation>low to high elevations;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>n South America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Ceratodon;species stenocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2c.</number>
   <discussion>J. S. Burley and N. M. Pritchard (1990) noted that subsp. stenocarpus is mainly tropical to sub-tropical, and frequently at higher elevations within these regions, but also note its distribution in southwestern North America.</discussion>
-</treatment>
+</bio:treatment>

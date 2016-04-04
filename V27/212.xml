@@ -1,56 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Timmia</genus_name>
-    <species_name>megapolitana</species_name>
-    <subspecies_name>bavarica</subspecies_name>
-    <subspecies_authority>(Hessler) Brassard</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Timmia</taxon_name>
+    <taxon_name rank="species" authority="Hessler" date="unknown">megapolitana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hessler) Brassard" date="unknown">bavarica</taxon_name>
     <place_of_publication>
       <publication_title>Lindbergia</publication_title>
       <place_in_publication>10: 34.  1984,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Timmia</genus_name>
-    <species_name>bavarica</species_name>
-    <species_authority>Hessler</species_authority>
+    <taxon_hierarchy>genus Timmia;species megapolitana;subspecies bavarica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Timmia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bavarica</taxon_name>
     <place_of_publication>
       <publication_title>De Timmia,</publication_title>
       <place_in_publication>19, fig. 3.  1822</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Timmia</genus_name>
-    <species_name>megapolitana</species_name>
-    <variety_name>bavarica</variety_name>
-    <variety_authority>(Hessler) Bridel</variety_authority>
-  </TaxonIdentification>
-  <description>Cells of the mid-limb lamina (6–)7–10(–12) µm wide (mean 8.5 µm); cells of distal part of leaf sheath non-papillose on abaxial surface (rarely papillose in non-North American specimens).  Calyptra not persistent on seta.</description>
-  <habitat>Often with sporophytes.  Most often in mesic, calcareous, open or well-vegetated Arctic-montane sites, or in nutrient-rich sites such as the bases of cliffs or around large boulders;</habitat>
-  <elevation>low to high elevations (0–3000 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Eurasia (Caucasus, China, n, c Europe, Greece, India, Japan)</global_distribution>
-  <global_distribution>n Africa (Algeria)</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland)</global_distribution>
-  <us_distribution>Pacific Islands (Hawaii).</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Timmia;species bavarica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Timmia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">megapolitana</taxon_name>
+    <taxon_name rank="variety" authority="(Hessler) Bridel" date="unknown">bavarica</taxon_name>
+    <taxon_hierarchy>genus Timmia;species megapolitana;variety bavarica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

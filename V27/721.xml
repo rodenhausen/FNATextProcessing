@@ -1,64 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>TORTELLA</genus_name>
-    <genus_authority>(Lindberg) Limpricht</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Patricia M. Eckel</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Lindberg) Limpricht" date="unknown">TORTELLA</taxon_name>
     <place_of_publication>
       <publication_title>Laubm. Deutschl.</publication_title>
       <place_in_publication>1: 599. 1888,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conserved_name>name conserved</conserved_name>
-  <etymology>[Latin tortus, twisted, and -ella, diminutive, alluding to peristome
-        teeth]</etymology>
-  <author>Patricia M. Eckel</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Mollia</genus_name>
-    <subgenus_name>Tortella</subgenus_name>
-    <subgenus_authority>Lindberg</subgenus_authority>
+    <taxon_hierarchy>genus TORTELLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin tortus, twisted, and -ella, diminutive, alluding to peristome
+        teeth]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mollia</taxon_name>
+    <taxon_name rank="subgenus" authority="Lindberg" date="unknown">Tortella</taxon_name>
     <place_of_publication>
       <publication_title>Musc. Scand.,</publication_title>
       <place_in_publication>21. 1879</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants small to medium-sized, in loose or dense tufts, mats or compact sods,
-        fragile, dull green, yellowish to dark green distally, black, brown or tan proximally with
-        prominent shining costae. Stems erect, often branched, in transverse section with
-        hyalodermis, somewhat weak sclerodermis, central strand absent or present, rhizoids dense or
-        few at the base, occasionally tomentose; axillary hairs long, 1-seriate, of 10–20 cells,
-        hyaline. Stem leaves cirrhate-crispate to incurved when dry, spreading to recurved when
-        moist, elongate-oblong to linear-lanceolate or linear-subulate, widest at or near the base;
-        base hyaline, oblong, erect; margins plane to incurved distally, generally entire and
-        minutely crenulate by projecting papillae, but often slightly or irregularly scalloped by
-        indentations at points of laminal weakness, occasionally somewhat to strongly undulate,
-        rarely with a border of elongate, clear, smooth cells in one series beyond midleaf,
-        gradually tapering distally or more or less abruptly narrowed; apex acute or obtuse,
-        cucullate or concave, with an apiculus, mucro or short subula; costa strong, percurrent to
-        short-excurrent, adaxial and abaxial epidermal cells often present, often interrupted,
-        adaxial and abaxial stereid bands and 1 layer of median guide cells present, hydroid strand
-        occasionally present; proximal cells enlarged, laxly long-rectangular, thin-walled, hyaline,
-        occasionally brown and rather thick-walled, smooth, abruptly differentiated from the green
-        cells distally or gradual in transition, limit of the proximal region usually appears as a
-        V, sometimes a U, often extending distally up each leaf margin as a short or elongated
-        border; distal laminal cells medially and distally rounded-hexagonal, chlorophyllose,
-        frequently obscured by numerous, dense, C-shaped papillae on both surfaces. Specialized
-        asexual reproduction at the stem apex occasional, by deciduous or fragile propaguloid leaf
-        tips, or by deterioration of fragile leaves along zones of laminal weakness. Sexual
-        condition dioicous, occasionally autoicous; perigonia terminal, short-foliose to gemmate or
-        as stalked buds in leaf axils of perichaetiate plants; perichaetia terminal, leaves not or
-        little differentiated, or distinct and long-setaceous. Seta 1(–2) per perichaetium, yellow
-        or reddish proximally with age, to 3 cm, erect, smooth. Capsule erect and symmetric or
-        slightly inclined, yellow to reddish brown, darker red or brown at mouth, elliptic to
-        cylindric, more or less wrinkled-plicate when dry and empty; annulus sometimes present, of
-        1–4 rows of vesiculose cells, persistent; operculum conic or long-rostrate, half as long as
-        the urn or longer, straight or inclined; peristome orange-red, single, with a low basal
-        membrane, of 32 filiform rami joined at the base into 16 pairs, twisted counterclockwise or
-        merely obliquely inclined, branched-spiculose, rarely nearly smooth. Calyptra cucullate,
-        smooth. Spores 8–12(–20) µm, yellowish brown, moderately coarsely to finely papillose to
-        nearly smooth.</description>
-  <number_of_infrataxa>Species 53 (7 in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide.</global_distribution>
+    <taxon_hierarchy>genus Mollia;subgenus Tortella;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <discussion>Species 53 (7 in the flora):</discussion>
   <discussion>Trichostomum is similar to Tortella in leaf shape and margin flexion, but has distal
         laminal cells differentiated from the proximal cells in a line straight across the leaf base
         or in a low, poorly defined U shape, i.e., straight across but with some smooth, hyaline,
@@ -82,7 +50,7 @@
         Tortella by a proximal region with a V shape. In the following treatment, great emphasis has
         been put on the cross section of the distal region of the leaf in delimiting taxa and for
         discussing relationships.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Crundwell, A. C. and E. Nyholm. 1962. Notes on the genus Tortella. I. T.
             inclinata, T. densa, T. flavovirens and T. glareicola. Trans. Brit. Bryol. Soc. 4:
             187–193.</reference>
@@ -96,127 +64,127 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves oblong-lanceolate or elliptical, apex broadly acute to obtuse,
-                sometimes cucullate.</statement>
+      <description type="morphology">Leaves oblong-lanceolate or elliptical, apex broadly acute to obtuse,
+                sometimes cucullate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Autoicous, nearly always fruiting; distal margins plane to erect, apex
+      <description type="morphology">Autoicous, nearly always fruiting; distal margins plane to erect, apex
                 broadly acute; distal leaf cells about 6–7 µm; central strand present; cells on
                 adaxial surface of the costa quadrate and papillose throughout most of its length;
-                stems short; plants typically rosulate, densely foliose</statement>
+                stems short; plants typically rosulate, densely foliose</description>
       <determination>1. Tortella humilis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Dioicous, seldom fruiting; distal margins incurved to strongly or variably
+      <description type="morphology">Dioicous, seldom fruiting; distal margins incurved to strongly or variably
                 cucullate at the apex, apex obtuse; distal leaf cells 7–11(–14) µm; central strand
                 present or absent; cells on adaxial surface of the costa quadrate and papillose
                 throughout most of their length or mostly or entirely elongate and smooth; stems
-                elongate; plants loosely foliose.</statement>
+                elongate; plants loosely foliose.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stem central strand present; costa with adaxial epidermis: areas on the
+      <description type="morphology">Stem central strand present; costa with adaxial epidermis: areas on the
                 adaxial surface of the costa with quadrate papillose cells; leaf apex variably
                 somewhat cucullate, acute or obtuse with apical margins incurved; leaves flat in the
                 leaf middle, keeled distally; fertile perichaetial leaves not much differentiated;
                 mosses exclusively of coastal North Carolina south to Florida and west to
-                Texas</statement>
+                Texas</description>
       <determination>2. Tortella flavovirens</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stem central strand absent; costa without adaxial epidermis: adaxial surface
+      <description type="morphology">Stem central strand absent; costa without adaxial epidermis: adaxial surface
                 of the costa with smooth, elongate cells throughout the leaf length; leaf apex
                 distinctly cucullate, occasionally acute, leaves tubulose; fertile perichaetial
                 leaves conspicuously differentiated, with subulate tips; mosses of the Great Lakes
-                region and north.</statement>
+                region and north.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf cells 11–12 µm or less, stems orange to greenish yellow-brown, leaves
+      <description type="morphology">Leaf cells 11–12 µm or less, stems orange to greenish yellow-brown, leaves
                 deep yellow or orange in KOH; leaves irregularly or uniformly twisted on the stem;
                 leaf apices usually cucullate to narrowly acute, not deciduous; leaves in section
                 usually keeled at the costa, margins incurved; rock crevices or unconsolidated
-                alluvial sediments near water</statement>
+                alluvial sediments near water</description>
       <determination>6. Tortella inclinata</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf cells averaging 14 µm; stems dark green to brown, leaves green in KOH;
+      <description type="morphology">Leaf cells averaging 14 µm; stems dark green to brown, leaves green in KOH;
                 leaves erect, twisted only at the stem tips; leaf apices variable, usually acute to
                 acuminate, never uniformly cucullate, frequently with a narrowed apical deciduous
                 point; leaves in section broadly tubulose; limestone pavements with thin soil cover
-                in the Great Lakes region</statement>
+                in the Great Lakes region</description>
       <determination>7. Tortella rigens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves narrowly short to long- or linear-lanceolate, not cucullate or obtuse,
+      <description type="morphology">Leaves narrowly short to long- or linear-lanceolate, not cucullate or obtuse,
                 apex narrowly acute, tapering to an acuminate point, sometimes apex very long, with
-                a long, setaceous point.</statement>
+                a long, setaceous point.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves with distinctive apical propaguloid modifications, leaf apices
-                regularly fallen.</statement>
+      <description type="morphology">Leaves with distinctive apical propaguloid modifications, leaf apices
+                regularly fallen.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Stems 1–5 cm, coarsely tomentose; central strand absent; distal leaves to 7
+      <description type="morphology">Stems 1–5 cm, coarsely tomentose; central strand absent; distal leaves to 7
                 mm, densely crowded, rigid, with patches of elongated, nonpapillose cells on distal
                 leaf margins of young leaves at the stem apex; leaf cells 10–12 µm; lamina proximal
                 to subula 2-stratose; apical propagula falling in a single rigid unit; subulate limb
-                2- to multistratose</statement>
+                2- to multistratose</description>
       <determination>5. Tortella fragilis</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Stems 0.5 to 1.5 cm, scarcely or not tomentose; central strand present;
+      <description type="morphology">Stems 0.5 to 1.5 cm, scarcely or not tomentose; central strand present;
                 distal leaves 1.5–2 mm, sparse, soft, leaf tips without differentiated marginal
                 cells; leaf cells 14 µm; lamina 1-stratose throughout; propaguloid leaves and apical
                 propagula articulated by periodic constrictions, falling in several pieces; leaves
-                2-stratose only in patches or along costa distally</statement>
+                2-stratose only in patches or along costa distally</description>
       <determination>3. Tortella alpicola (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves without apical propaguloid modifications although some apices may be
-                somewhat fragile.</statement>
+      <description type="morphology">Leaves without apical propaguloid modifications although some apices may be
+                somewhat fragile.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems with central strand, leaf cells ca. 14 µm</statement>
+      <description type="morphology">Stems with central strand, leaf cells ca. 14 µm</description>
       <determination>3. Tortella alpicola (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems without central strand, or this rare, leaf cells to 14 µm but often
-                less.</statement>
+      <description type="morphology">Stems without central strand, or this rare, leaf cells to 14 µm but often
+                less.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaves tubulose, margins broadly incurved; most distal laminal cells 14 µm;
+      <description type="morphology">Leaves tubulose, margins broadly incurved; most distal laminal cells 14 µm;
                 quadrate, papillose adaxial cells on the surface of the costa absent throughout the
                 leaf length to a width of two or three cells in section; leaf apices deciduous;
-                limestone pavements in the Great Lakes region</statement>
+                limestone pavements in the Great Lakes region</description>
       <determination>7. Tortella rigens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaves plane to canaliculate, margins plane to erect; distal laminal cells
+      <description type="morphology">Leaves plane to canaliculate, margins plane to erect; distal laminal cells
                 seldom attaining 12 µm, usually less; quadrate, papillose adaxial cells on the
                 surface of the costa present in the median leaf region or higher; of general
-                temperate to</statement>
+                temperate to</description>
       <determination>4. Tortella tortuosa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

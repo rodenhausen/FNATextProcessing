@@ -1,90 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Camelineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Transberingia</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Al-Shehbaz &amp; O’Kane" date="unknown">bursifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">bursifolia</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Camelineae;genus Transberingia;species bursifolia;subspecies bursifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabidopsis</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Botschantzev" date="unknown">bursifolia</taxon_name>
+    <taxon_name rank="variety" authority="Jurtzev" date="unknown">beringensis</taxon_name>
+    <taxon_hierarchy>genus Arabidopsis;species bursifolia;variety beringensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabidopsis</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) O. E. Schulz" date="unknown">mollis</taxon_name>
+    <taxon_hierarchy>genus Arabidopsis;species mollis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabidopsis</taxon_name>
+    <taxon_name rank="species" authority="(Turczaninow) Botschantzev" date="unknown">trichopoda</taxon_name>
+    <taxon_hierarchy>genus Arabidopsis;species trichopoda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabidopsis</taxon_name>
+    <taxon_name rank="species" authority="(Jurtzev) Jurtzev" date="unknown">tschuktschorum</taxon_name>
+    <taxon_hierarchy>genus Arabidopsis;species tschuktschorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Lange" date="unknown">hookeri</taxon_name>
+    <taxon_hierarchy>genus Arabis;species hookeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Turczaninow" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="variety" authority="Abromeit" date="unknown">breviramosa</taxon_name>
+    <taxon_hierarchy>genus Arabis;species hookeri;variety breviramosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Jurtzev" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="variety" authority="Simmons" date="unknown">multicaulis</taxon_name>
+    <taxon_hierarchy>genus Arabis;species hookeri;variety multicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Rollins" date="unknown">trichopoda</taxon_name>
+    <taxon_hierarchy>genus Arabis;species trichopoda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">tschuktschorum</taxon_name>
+    <taxon_hierarchy>genus Arabis;species tschuktschorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halimolobos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">mollis</taxon_name>
+    <taxon_hierarchy>genus Halimolobos;species mollis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Turritis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">mollis</taxon_name>
+    <taxon_hierarchy>genus Turritis;species mollis;</taxon_hierarchy>
+  </taxon_identification>
   <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Transberingia</genus_name>
-    <species_name>bursifolia</species_name>
-    <species_authority>(de Candolle) Al-Shehbaz &amp; O’Kane</species_authority>
-    <subspecies_name>bursifolia</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabidopsis</genus_name>
-    <species_name>bursifolia</species_name>
-    <species_authority>(de Candolle) Botschantzev</species_authority>
-    <variety_name>beringensis</variety_name>
-    <variety_authority>Jurtzev</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabidopsis</genus_name>
-    <species_name>mollis</species_name>
-    <species_authority>(Hooker) O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabidopsis</genus_name>
-    <species_name>trichopoda</species_name>
-    <species_authority>(Turczaninow) Botschantzev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabidopsis</genus_name>
-    <species_name>tschuktschorum</species_name>
-    <species_authority>(Jurtzev) Jurtzev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>hookeri</species_name>
-    <species_authority>Lange</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>hookeri</species_name>
-    <variety_name>breviramosa</variety_name>
-    <variety_authority>Abromeit</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>hookeri</species_name>
-    <variety_name>multicaulis</variety_name>
-    <variety_authority>Simmons</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>trichopoda</species_name>
-    <species_authority>Turczaninow</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>tschuktschorum</species_name>
-    <species_authority>Jurtzev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halimolobos</genus_name>
-    <species_name>mollis</species_name>
-    <species_authority>(Hooker) Rollins</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Turritis</genus_name>
-    <species_name>mollis</species_name>
-    <species_authority>Hooker</species_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous or sparsely pubescent on stems distally and raceme rachis, trichomes simple, spreading. 2n = 16.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>rocky knolls</habitat>
-  <habitat>limestone hills</habitat>
-  <habitat>grassy slopes</habitat>
-  <habitat>sandy flats</habitat>
-  <habitat>shaley cliffs</habitat>
-  <habitat>stream banks</habitat>
-  <habitat>roadsides</habitat>
-  <habitat>open woodlands</habitat>
-  <elevation>0–1200 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Russian Far East).</global_distribution>
-</treatment>
+</bio:treatment>

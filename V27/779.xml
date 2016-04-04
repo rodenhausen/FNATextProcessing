@@ -1,72 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Didymodon</genus_name>
-    <species_name>rigidulus</species_name>
-    <variety_name>gracilis</variety_name>
-    <variety_authority>(Schleicher ex Hooker &amp; Greville) R. H. Zander</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="Schleicher ex Hooker &amp; Greville" date="unknown">rigidulus</taxon_name>
+    <taxon_name rank="variety" authority="(Schleicher ex Hooker &amp; Greville) R. H. Zander" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Cryptog. Bryol. Lichénol.</publication_title>
       <place_in_publication>2: 393.  1981,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>gracilis</species_name>
-    <species_authority>Schleicher ex Hooker &amp; Greville</species_authority>
+    <taxon_hierarchy>genus Didymodon;species rigidulus;variety gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) Bridel" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Edinburgh J. Sci.</publication_title>
       <place_in_publication>1: 300.  1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>acuta</species_name>
-    <species_authority>(Bridel) Bridel</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>acutus</species_name>
-    <species_authority>(Bridel) K. Saito</species_authority>
-  </TaxonIdentification>
-  <description>Stem leaves appressed to weakly spreading when dry, costa usually percurrent to short-excurrent as a rigid subula, short-lanceolate, seldom-lanceolate, base evenly broadened, ovate to elliptic or oblong, proximal cells short-rectangular, distal laminal cells usually papillose, quadrate, with quadrate lumens, occasionally 2-stratose on the margins in patches; gemmae often present in distal leaf axils.  Peristome teeth short and straight to long and twisted.</description>
-  <phenology>Capsules mature spring–winter.</phenology>
-  <habitat>Basalt, calcareous outcrops and ledges, gravel, soil, silt, frostboil, tundra, along roads and paths;</habitat>
-  <elevation>low to high elevations (0–3000 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <global_distribution>Nfdl. and Labr.</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (Siberia)</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland).</global_distribution>
+    <taxon_hierarchy>genus Tortula;species gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) K. Saito" date="unknown">acuta</taxon_name>
+    <taxon_hierarchy>genus Barbula;species acuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">acutus</taxon_name>
+    <taxon_hierarchy>genus Didymodon;species acutus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1d.</number>
   <discussion>Variety gracilis may sometimes have gemmae and the distal lamina is occasionally 2-stratose in patches, but it differs from var. rigidulus most clearly in its the short- to long-lanceolate leaves.  The distal laminal cells are commonly papillose, and their lumens are oval or rounded-quadrate.  Because of intergradation, some collections must be assigned to this variety only on the basis of a majority of the characters given in the key.  Although leaves in this variety are short in dry habitats, associated with fragile stems, leaf length in collections from moist environments is generally longer.  The small distal laminal cells, broad costa to 6 cells in width at mid leaf, and the strong stem central strand serve to distinguish this taxon from Didymodon asperifolius.</discussion>
-</treatment>
+</bio:treatment>

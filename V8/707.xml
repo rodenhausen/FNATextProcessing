@@ -1,62 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Clethra</genus_name>
-    <species_name>alnifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Klotzsch" date="unknown">CLETHRACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clethra</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">alnifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 396.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Coastal sweet pepperbush</common_name>
-  <common_name>summersweet</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Clethra</genus_name>
-    <species_name>alnifolia</species_name>
-    <variety_name>glabella</variety_name>
-    <variety_authority>Michaux</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Clethra</genus_name>
-    <species_name>alnifolia</species_name>
-    <variety_name>michauxii</variety_name>
-    <variety_authority>Zabel</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Clethra</genus_name>
-    <species_name>alnifolia</species_name>
-    <variety_name>paniculata</variety_name>
-    <variety_authority>(Aiton) Rehder</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Clethra</genus_name>
-    <species_name>paniculata</species_name>
-    <species_authority>Aiton</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs 1–3 m.  Stems ± terete; young shoots puberulent.  Leaves: petiole 2.5–3.5(–6) cm; blade obovate to oblong (widest distal to midpoint), 5–9(–12) × 2–4(–6) cm, base cuneate to rounded, margins obscurely to clearly toothed, especially distally (proximalmost tooth averaging 3.4 cm distal to base), apex obtuse to acute, surfaces sparsely hairy and glabrescent abaxially, glabrous adaxially.  Inflorescences solitary or in clusters of 2–4, (6–)9–15(–19) cm, axis sparsely stellate-hairy.  Pedicels 2–4 mm, proximalmost averaging 3 mm, shortly stellate-hairy; bract shorter than flower, proximalmost 5–7 mm, shortly stellate-hairy.  Flowers: sepals 3.5–5 × 1–1.5 mm, stellate-pubescent; petals white (rarely pink abaxially or on both surfaces), 5–8 × 4–5 mm; filaments 4–6(–6.5) × 0.2–0.3(–0.4) mm, glabrous; anthers 1–1.3 mm; style 6–7 mm, hairy in proximal 1/2, hairs simple, straight.  Capsules subglobose, 2.5–4 × 3.5–5.3 mm.  Seeds 1–1.5 mm.  2n = 16, 32.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Broad-leaved swamps, Chamaecyparis swamps, wet pine forests, sometimes in dry, sandy woods and rocky, acidic ridge tops</habitat>
-  <elevation>0–200(–400) m</elevation>
-  <ca_distribution>N.S.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family CLETHRACEAE;genus Clethra;species alnifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clethra</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">alnifolia</taxon_name>
+    <taxon_name rank="variety" authority="Michaux" date="unknown">glabella</taxon_name>
+    <taxon_hierarchy>genus Clethra;species alnifolia;variety glabella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clethra</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">alnifolia</taxon_name>
+    <taxon_name rank="variety" authority="Zabel" date="unknown">michauxii</taxon_name>
+    <taxon_hierarchy>genus Clethra;species alnifolia;variety michauxii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clethra</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">alnifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Aiton) Rehder" date="unknown">paniculata</taxon_name>
+    <taxon_hierarchy>genus Clethra;species alnifolia;variety paniculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clethra</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">paniculata</taxon_name>
+    <taxon_hierarchy>genus Clethra;species paniculata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Coastal sweet pepperbush</other_name>
+  <other_name type="common_name">summersweet</other_name>
+</bio:treatment>

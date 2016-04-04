@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Caulanthus</genus_name>
-    <species_name>lemmonii</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Caulanthus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">lemmonii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>23: 261. 1888</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>lemmoni</past_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Caulanthus</genus_name>
-    <species_name>coulteri</species_name>
-    <species_authority>S. Watson</species_authority>
-    <variety_name>lemmonii</variety_name>
-    <variety_authority>(S. Watson) Munz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>coulteri</species_name>
-    <species_authority>(S. Watson) Greene</species_authority>
-    <variety_name>lemmonii</variety_name>
-    <variety_authority>(S. Watson) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>parryi</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; hispid basally, sub-glabrate or glabrous distally. Stems erect or ascending, usually branched distally, 1–8 dm, sparsely hispid basally. Basal leaves rosulate; petiole 0.3–3 cm; blade oblanceolate, 0.7–9 cm × 4–25 mm, margins coarsely dentate-sinuate. Cauline leaves (median) sessile; blade lanceolate to narrowly ovate, 0.5–11 cm × 2–45 mm, (smaller distally, base amplexicaul), margins entire or denticulate. Racemes (densely flowered), with a terminal cluster of sterile flowers. Fruiting pedicels ascending to divaricate, 3–18(–27) mm, pubescent or glabrous. Flowers: sepals erect to ascending, (dark purple in bud, becoming greenish or creamy white and purplish or brown distally), ovate to narrowly lanceolate, 6–17 × 2.5–3.5 mm (subequal, keeled, usually glabrous, rarely pubescent, trichomes simple); petals white (with dark purple veins), 8–20 mm, blade 4–8 × 1.5–2 mm, crisped, claw oblanceolate, 4–11 × 2–3 mm; filaments in 3 unequal pairs, (median pairs often connate), abaxial pair 3.5–11mm, lateral pair 2–7 mm, adaxial pair 5–12 mm; anthers oblong to linear-oblong, unequal, 1.5–4 mm, (adaxial pair smaller). Fruits erect or ascending (often straight), terete or slightly latiseptate, 5–12 cm × 2.5–3.5 mm; valves each with prominent midvein basally; ovules 52–72 per ovary; style 0–4 mm; stigma strongly 2-lobed (lobes 1–4 mm, opposite valves). Seeds 2–3.5 × 1.7–2.2 mm. 2n = 28.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>grassland, chaparral</habitat>
-  <habitat>scrub</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>100–1100 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Caulanthus;species lemmonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Caulanthus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">coulteri</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) Munz" date="unknown">lemmonii</taxon_name>
+    <taxon_hierarchy>genus Caulanthus;species coulteri;variety lemmonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">coulteri</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) Jepson" date="unknown">lemmonii</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species coulteri;variety lemmonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">parryi</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species parryi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="past_name">lemmoni</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Both R. C. Rollins (1993) and R. E. Buck (1995) treated Caulanthus lemmonii as a variety of C. coulteri, whereas E. B. Payson (1923) treated the two as independent species. The differences between them clearly justify their separate recognition. In fact, those differences are far greater than those that distinguish the minor color form “barbarae” that both Rollins and Buck recognized as a distinct variety of C. amplexicaulis. The types of both C. coulteri and C. lemmonii are quite distinct. The slight intergradation between the two taxa, especially in occurrence of branched trichomes and lobing of cotyledons, most likely resulted from hybridization, but that needs to be verified experimentally and molecularly.</discussion>
-</treatment>
+</bio:treatment>

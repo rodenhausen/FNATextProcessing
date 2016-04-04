@@ -1,61 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Brothera</genus_name>
-    <species_name>leana</species_name>
-    <species_authority>(Sullivant) Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brothera</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) Müller Hal." date="unknown">leana</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Musc. Frond.,</publication_title>
       <place_in_publication>258.  1901,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Leucophanes</genus_name>
-    <species_name>leanum</species_name>
-    <species_authority>Sullivant</species_authority>
+    <taxon_hierarchy>genus Brothera;species leana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucophanes</taxon_name>
+    <taxon_name rank="species" authority="Sullivant" date="unknown">leanum</taxon_name>
     <place_of_publication>
       <publication_title>Musc. Allegh.,</publication_title>
       <place_in_publication>41.  1846</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>leanus</species_name>
-    <species_authority>(Sullivant) Sullivant &amp; Lesquereux</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucobryum</genus_name>
-    <species_name>leanum</species_name>
-    <species_authority>(Sullivant) Kindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Syrrhopodon</genus_name>
-    <species_name>leanus</species_name>
-    <species_authority>(Sullivant) Lesquereux &amp; James</species_authority>
-  </TaxonIdentification>
-  <description>Leaves 2–3 mm; margins entire; costa 155–180 µm wide; basal laminal cells 19–55 × 4–19 µm, narrower at margins; distal laminal cells 24–55 × 3–7 µm.  Specialized asexual reproduction by clusters of spindle-shaped brood leaves in the comal tufts.  Sporophytes not found in North America.</description>
-  <habitat>Humic or peaty soil, rocks, especially sandstone bluffs, rotten wood, rarely bark of trees;</habitat>
-  <elevation>0–2000 m;</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America (Guatemala)</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa (Malawi).</global_distribution>
+    <taxon_hierarchy>genus Leucophanes;species leanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) Sullivant &amp; Lesquereux" date="unknown">leanus</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species leanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucobryum</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) Kindberg" date="unknown">leanum</taxon_name>
+    <taxon_hierarchy>genus Leucobryum;species leanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Syrrhopodon</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) Lesquereux &amp; James" date="unknown">leanus</taxon_name>
+    <taxon_hierarchy>genus Syrrhopodon;species leanus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Brothera leana is easily identified by clusters of brood leaves always present in the comal tufts.  Campylopus fragilis has a similar appearance, but it has a different transverse section of the costa, with dorsal instead of median stereids.  Furthermore, the ranges of the two species in North America do not overlap.</discussion>
-</treatment>
+</bio:treatment>

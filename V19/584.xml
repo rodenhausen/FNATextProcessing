@@ -1,42 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Krigia</genus_name>
-    <species_name>cespitosa</species_name>
-    <species_authority>(Rafinesque) K. L. Chambers</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Krigia</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) K. L. Chambers" date="unknown">cespitosa</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>54: 52. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Krigia;species cespitosa;</taxon_hierarchy>
-  <common_name>Common or opposite-leaved dwarfdandelion</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Serinia</genus_name>
-    <species_name>cespitosa</species_name>
-    <species_authority>Rafinesque</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Krigia;species cespitosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Serinia</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">cespitosa</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Ludov.,</publication_title>
       <place_in_publication>149. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, 4–42 cm; taprooted. Stems erect or ascending, branched, eglandular or stipitate-glandular, especially distally. Leaves basal and cauline; petiolate (at least basal); blades broadly to narrowly oblanceolate, 2–15 cm, margins entire or remotely toothed or lobed, lobes acute or rounded, apices acute to obtuse, faces glabrous or lightly glandular-villous; cauline appearing unequal and opposite proximal to distal peduncles, petiolate or sessile, blades oblanceolate to linear, gradually reduced, bases ± clasping, margins entire or dentate. Heads borne singly. Peduncles from branching, leafy stems. Involucres 2–8 mm. Phyllaries 5–10, erect in fruit, narrowly to broadly lanceolate, midveins evident, not prominent or keeled, apices acute. Florets 12–35; corollas yellow, 2–11 mm (barely equaling to much surpassing phyllaries). Cypselae fusiform, 1.4–1.7 mm, broadest at or ± beyond middles (apical areas ± equal to basal areoles), 15-ribbed; pappi 0. 2n = 8.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States</global_distribution>
-  <global_distribution>ne Mexico.</global_distribution>
+    <taxon_hierarchy>genus Serinia;species cespitosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Common or opposite-leaved dwarfdandelion</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>The name Krigia oppositifolia Rafinesque, long in use for this species, was not accepted by Rafinesque in his original publication and is therefore invalid.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Involucres 2–4.5 mm in flower, 3.5–5 mm in fruit; ligules 2–6 mm</statement>
+      <description type="morphology">Involucres 2–4.5 mm in flower, 3.5–5 mm in fruit; ligules 2–6 mm</description>
       <determination>7a. Krigia cespitosa var. cespitosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Involucres 4.5–7 mm in flower, 5.5–8.5 mm in fruit; ligules 6.5–11 mm</statement>
+      <description type="morphology">Involucres 4.5–7 mm in flower, 5.5–8.5 mm in fruit; ligules 6.5–11 mm</description>
       <determination>7b. Krigia cespitosa var. gracilis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

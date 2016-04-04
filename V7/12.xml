@@ -1,77 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">fremontii</taxon_name>
+    <taxon_hierarchy>family SALICACEAE;genus Populus;species fremontii;subspecies fremontii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="Sargent" date="unknown">arizonica</taxon_name>
+    <taxon_hierarchy>genus Populus;species arizonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="(Sargent) Jepson" date="unknown">arizonica</taxon_name>
+    <taxon_hierarchy>genus Populus;species fremontii;variety arizonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="(Rose) Jepson" date="unknown">macdougalii</taxon_name>
+    <taxon_hierarchy>genus Populus;species fremontii;variety macdougalii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">pubescens</taxon_name>
+    <taxon_hierarchy>genus Populus;species fremontii;variety pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">thornberi</taxon_name>
+    <taxon_hierarchy>genus Populus;species fremontii;variety thornberi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">toumeyi</taxon_name>
+    <taxon_hierarchy>genus Populus;species fremontii;variety toumeyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macdougalii</taxon_name>
+    <taxon_hierarchy>genus Populus;species macdougalii;</taxon_hierarchy>
+  </taxon_identification>
   <number>6a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <species_authority>S. Watson</species_authority>
-    <subspecies_name>fremontii</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>arizonica</species_name>
-    <species_authority>Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <variety_name>arizonica</variety_name>
-    <variety_authority>(Sargent) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <variety_name>macdougalii</variety_name>
-    <variety_authority>(Rose) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <variety_name>pubescens</variety_name>
-    <variety_authority>Sargent</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <variety_name>thornberi</variety_name>
-    <variety_authority>Sargent</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>fremontii</species_name>
-    <variety_name>toumeyi</variety_name>
-    <variety_authority>Sargent</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>macdougalii</species_name>
-    <species_authority>Rose</species_authority>
-  </TaxonIdentification>
-  <description>Plants to 30 m. Branchlets, leaf blades, and petioles glabrous or glabrate to densely hairy, hairs whitish. Neoformed leaves: blade broadly triangular-ovate, usually about as wide as long, rarely wider, base truncate or cordate, apex short-acuminate. Capsules (6–)7.5–11 mm.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>floodplains</habitat>
-  <habitat>canyons</habitat>
-  <habitat>springs</habitat>
-  <habitat>other moist places</habitat>
-  <elevation>(-60–)0–1500(–2200) m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-  <global_distribution>Mexico (Baja California Sur).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
   <discussion>Subspecies fremontii is the common cottonwood of southwestern North America west of the Continental Divide. It intergrades with subsp. mesetae along a line from southeastern Arizona south along the border between Chihuahua and Sonora.</discussion>
-</treatment>
+</bio:treatment>

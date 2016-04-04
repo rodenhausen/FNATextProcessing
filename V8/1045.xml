@@ -1,51 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gaylussacia</genus_name>
-    <species_name>ursina</species_name>
-    <species_authority>(M. A. Curtis) Torrey &amp; A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaylussacia</taxon_name>
+    <taxon_name rank="species" authority="(M. A. Curtis) Torrey &amp; A. Gray" date="unknown">ursina</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Amer. Acad. Arts, n. s.</publication_title>
       <place_in_publication>3: 49. 1846 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bear or mountain huckleberry</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Decachaena</genus_name>
-    <species_name>ursina</species_name>
-    <species_authority>(M. A. Curtis) Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>ursinum</species_name>
-    <species_authority>M. A. Curtis</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Gaylussacia;species ursina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Decachaena</taxon_name>
+    <taxon_name rank="species" authority="(M. A. Curtis) Small" date="unknown">ursina</taxon_name>
+    <taxon_hierarchy>genus Decachaena;species ursina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="M. A. Curtis" date="unknown">ursinum</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Sci. Arts</publication_title>
       <place_in_publication>44: 82. 1843</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 3–10(–15) dm, forming small to extensive colonies; branches spreading; twigs
-        of current season pale green to light brown, sparsely hairy. Leaves: petiole 1–2 mm; blade
-        greenish white abaxially, green to yellowish green or reddish green adaxially, ovate to
-        oblong, 2.5–6 × 2.3–4 cm, membranous, base rounded to cuneate, margins entire, apex acute to
-        acuminate, abaxial surface sessile-glandular, hairy along veins, adaxial surface glabrous.
-        Inflorescences spreading or drooping, 4–6-flowered, bracteate, 0.7–2.5 cm, glabrous; bracts
-        early-deciduous, leaflike, 1–2 mm, shorter than pedicels, glabrous, sessile-glandular.
-        Pedicels 6–9 mm, sparsely hairy (hairs red), sessile-glandular; bracteoles 1–2, 1–1.5 mm.
-        Flowers: sepals 5, 0.5 mm, glabrous, sparsely sessile-glandular; petals 4–5, corolla
-        greenish white, urceolate, 4–5 mm, lobes ovate-deltate, ca. 1 mm; filaments 3–3.5 mm,
-        glabrous; anthers included, 1 mm, thecae not divergent; ovary glabrous. Drupes juicy, sweet,
-        glossy black, 7–10 mm diam., glabrous. Seeds 1 mm, smooth.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Deciduous or open pine woods (often dominant in Table Mountain Pine-Pitch Pine
-        Woodland), common in moister forests downslope, often associated with Rhododendron
-        maximum</habitat>
-  <elevation>500–1500 m</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
+    <taxon_hierarchy>genus Vaccinium;species ursinum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Bear or mountain huckleberry</other_name>
   <discussion>Gaylussacia ursina is a southern Appalachian Mountains endemic that often forms
         large, clonal patches; it is abundant within much of its narrow range.</discussion>
-</treatment>
+</bio:treatment>

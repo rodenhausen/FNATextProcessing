@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Franklinia</genus_name>
-    <species_name>alatamaha</species_name>
-    <species_authority>Marshall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">THEACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Franklinia</taxon_name>
+    <taxon_name rank="species" authority="Marshall" date="unknown">alatamaha</taxon_name>
     <place_of_publication>
       <publication_title>Arbust. Amer.,</publication_title>
       <place_in_publication>49.  1785  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Franklin tree</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gordonia</genus_name>
-    <species_name>alatamaha</species_name>
-    <species_authority>(Marshall) Sargent</species_authority>
-  </TaxonIdentification>
-  <description>Trees: crown rounded; twigs reddish, smooth.  Leaf blades 12–18(–25) × 5–7(–9.5) cm, abaxial surface hairy, hairs simple, bifurcate, and stellate, midrib depressed distally.  Pedicels 1–2 mm diam. at narrowest point.  Flowers: sepals suborbiculate, 7–9 × 8–9 mm, base constricted; petals to 6 × 4 cm, apex rounded; filaments: free portion 8–14 mm.  Capsules 1.4–1.5 × 1.5–1.7 cm.  Seeds 4–7 × 3.5–4.5 mm.  2n = 36.</description>
-  <phenology>Flowering (Jun–)Aug–Sep(–Oct)</phenology>
-  <habitat>Low, wet soils</habitat>
-  <elevation>0–10 m</elevation>
-  <us_distribution>Ga.</us_distribution>
+    <taxon_hierarchy>family THEACEAE;genus Franklinia;species alatamaha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gordonia</taxon_name>
+    <taxon_name rank="species" authority="(Marshall) Sargent" date="unknown">alatamaha</taxon_name>
+    <taxon_hierarchy>genus Gordonia;species alatamaha;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Franklin tree</other_name>
   <discussion>Franklinia alatamaha is believed to be extinct in the wild.  It was known from only one location near historic Fort Barrington, along the Altamaha River in Georgia, where it was last collected in 1803.  The species was known from relatively few individuals and it has been suggested that its demise was due to over-collection to meet horticultural demands in Europe during the late 1700s.  It is an ornamental of limited cultivation; it is found in arboreta and botanic gardens as far north and east as Massachusetts, west to Missouri, and south to Florida, and in warm-temperate and temperate regions in Europe.</discussion>
-</treatment>
+</bio:treatment>

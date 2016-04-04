@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphaeromeria</genus_name>
-    <species_name>simplex</species_name>
-    <species_authority>(A. Nelson) A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphaeromeria</taxon_name>
+    <taxon_name rank="species" authority="(A. Nelson) A. Heller" date="unknown">simplex</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>1: 7. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species simplex;</taxon_hierarchy>
-  <common_name>Laramie chickensage</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tanacetum</genus_name>
-    <species_name>simplex</species_name>
-    <species_authority>A. Nelson</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species simplex;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tanacetum</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">simplex</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>26: 484. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials, 1.5–2.5(–8) cm (cespitose, bases sometimes woody). Stems erect to decumbent, sericeous. Leaves mostly basal; blades (15–30 × 1.5–8 mm) pinnati-palmately lobed (lobes 2–3, linear, 1–2 mm wide) or linear, faces silvery-canescent. Heads borne singly. Involucres 4.5–7 mm. Phyllaries (12–)14–20+, midribs canescent or glabrous. Cypselae (light brown) 1.8–2.5 mm (faces finely striate).</description>
-  <phenology_info>
-    <text>Flowering May–Aug.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry hills and slopes ;</text>
-    <habitat>dry hills and slopes</habitat>
-  </habitat_info>
-  <conservation>of conservation concern;</conservation>
-  <elevation>2200–2700 m;</elevation>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Tanacetum;species simplex;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Laramie chickensage</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Sphaeromeria simplex is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
-</treatment>
-
+</bio:treatment>

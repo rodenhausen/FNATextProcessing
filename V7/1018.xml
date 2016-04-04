@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) O’Kane &amp; Al-Shehbaz" date="unknown">arenosa</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">arenosa</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species arenosa;subspecies arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">lunellii</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species lunellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">rosea</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species rosea;</taxon_hierarchy>
+  </taxon_identification>
   <number>6a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>(Richardson) O’Kane &amp; Al-Shehbaz</species_authority>
-    <subspecies_name>arenosa</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>lunellii</species_name>
-    <species_authority>A. Nelson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>macounii</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Perennials or, rarely, annuals; short-lived. Fruit valves: trichomes spreading. 2n = 10, 18.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>open, dry, sandy or gravelly, limey soils</habitat>
-  <habitat>grasslands or sagebrush dominated sites</habitat>
-  <habitat>sandhills</habitat>
-  <habitat>dunes</habitat>
-  <elevation>600–1600 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+</bio:treatment>

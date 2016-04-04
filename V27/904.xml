@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Syntrichia</genus_name>
-    <species_name>cainii</species_name>
-    <species_authority>(H. A. Crum &amp; L. E. Anderson) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Syntrichia</taxon_name>
+    <taxon_name rank="species" authority="(H. A. Crum &amp; L. E. Anderson) R. H. Zander" date="unknown">cainii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 267. 1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>cainii</species_name>
-    <species_authority>H. A. Crum &amp; L. E. Anderson</species_authority>
+    <taxon_hierarchy>genus Syntrichia;species cainii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="H. A. Crum &amp; L. E. Anderson" date="unknown">cainii</taxon_name>
     <place_of_publication>
       <publication_title>J. Elisha Mitchell Sci. Soc.</publication_title>
       <place_in_publication>74: 35, figs. 10–17. 1958</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems 10–20 mm. Leaves infolded, twisted, and slightly contorted when dry,
-        erect-spreading with recurved tips when moist, variable in shape and size, usually
-        oblong-ovate, 1.5–2 × 0.75–1.5 mm; margins revolute in the proximal 1/2–2/3, entire; apices
-        obtuse but abruptly narrowed to a blunt tip; costa ending well before the apex, brown,
-        smooth; basal cells abruptly differentiated, narrower toward the margins; distal cells
-        rounded, polygonal, or quadrate, 12–18 µm, with 3–5 papillae per cell, thick-walled and
-        collenchymatous. Specialized asexual reproduction absent. Sexual condition dioicous
-        (perigonia and sporophytes unknown).</description>
-  <elevation>moderate elevations;</elevation>
-  <habitat>Limestone</habitat>
-  <ca_distribution>Ont.</ca_distribution>
+    <taxon_hierarchy>genus Tortula;species cainii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>Plants identified as Syntrichia cainii from elsewhere in North America (e.g.,
         Kansas, Colorado, and California) are probably incorrectly identified. The difficulty comes
         from several other species (especially S. norvegica) having scattered neotenic races in
         which the mature leaves lack awns and thus appear superficially similar to S. cainii. More
         detailed research, including culture studies, is needed to better understand and distinguish
         these forms.</discussion>
-</treatment>
+</bio:treatment>

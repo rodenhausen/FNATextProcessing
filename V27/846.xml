@@ -1,66 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tortula</genus_name>
-    <species_name>protobryoides</species_name>
-    <species_authority>R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="R. H. Zander" date="unknown">protobryoides</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 226. 1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Phascum</genus_name>
-    <species_name>bryoides</species_name>
-    <species_authority>Dickson</species_authority>
+    <taxon_hierarchy>genus Tortula;species protobryoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="species" authority="Dickson" date="unknown">bryoides</taxon_name>
     <place_of_publication>
       <publication_title>Fasc. Pl. Crypt. Brit.</publication_title>
       <place_in_publication>4: 3, plate 10, fig. 3. 1801,</place_in_publication>
-      <other_info>not Totula byoides Hooker 1828</other_info>
+      <other_info_on_pub>not Totula byoides Hooker 1828</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pottia</genus_name>
-    <species_name>bryoides</species_name>
-    <species_authority>(Dickson) Mitten</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Protobryum</genus_name>
-    <species_name>bryoides</species_name>
-    <species_authority>(Dickson) J. Guerra &amp; M. J. Cano</species_authority>
-  </TaxonIdentification>
-  <description>Leaves ovate to oblong-lanceolate, apex broadly acute to rounded, mucronate to
-        short-awned, margins revolute in mid 2/3–3/4 of leaf, weakly bordered from apex to near base
-        with (2–)4 rows of weakly thicker-walled and less-papillose or smooth cells; costa
-        excurrent, lacking an adaxial pad of cells though convex adaxially, distally narrow, 3–4
-        cells across adaxial surface; distal laminal cells subquadrate to hexagonal, occasionally
-        somewhat elongated longitudinally, width 13–18 µm wide, 1(–2):1, papillose with 4(–6) simple
-        papillae per lumen. Sexual condition autoicous. Sporophytes exerted. Seta length 0.2–0.4 cm.
-        Capsule stegocarpic, not systylius, broadly cylindric, erect and nearly straight, urn ca.
-        1.4–1.5 mm; peristome remaining adherent to the inside of the operculum, teeth rudimentary
-        to linear, to 300 µm, of several filaments variously anastomosing and weakly twisted, basal
-        membrane length to 50 µm; operculum ca. 0.7–0.8 mm, not falling. Spores ca. 20–25 µm,
-        spheric, densely low-papillose.</description>
-  <phenology>Capsules mature winter–spring.</phenology>
-  <elevation>low elevations;</elevation>
-  <habitat>Soil</habitat>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw Asia.</global_distribution>
-  <description>In Tortula protobryoides, only by dissecting the capsule can the peristome be
-        revealed, as it is attached to the inside of the operculum. The capsule has an annulus but
-        the operculum does not fall. The peristome adherent to the operculum is scarcely unique in
-        the Pottiaceae. A peristomate capsule with operculum differentiated but not falling is
-        matched in at least some specimens of Microbryum starckeanum var. fosbergii. In T. cernua,
-        the peristome is attached and the operculum falls, taking the peristome with it. The
-        gametophyte of T. protobryoides is similar to that of T. acaulon and T. lanceola but the
-        papillae are more dense. The perigonia are borne at the ends of short, basal
-        branches.</description>
-</treatment>
+    <taxon_hierarchy>genus Phascum;species bryoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pottia</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) Mitten" date="unknown">bryoides</taxon_name>
+    <taxon_hierarchy>genus Pottia;species bryoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Protobryum</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) J. Guerra &amp; M. J. Cano" date="unknown">bryoides</taxon_name>
+    <taxon_hierarchy>genus Protobryum;species bryoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+</bio:treatment>

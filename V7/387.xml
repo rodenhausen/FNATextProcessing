@@ -1,52 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>chamissonis</species_name>
-    <species_authority>G. Don</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="G. Don" date="unknown">chamissonis</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Hist.</publication_title>
       <place_in_publication>1: 184. 1831</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>chamissoni</past_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>frigida</species_name>
-    <species_authority>Sauter</species_authority>
-    <variety_name>kamtschatica</variety_name>
-    <variety_authority>Ledebour</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>kamtschatica</species_name>
-    <species_authority>(Ledebour) N. Busch</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>lonchocarpa</species_name>
-    <species_authority>Rydberg</species_authority>
-    <subspecies_name>kamtschatica</subspecies_name>
-    <subspecies_authority>(Ledebour) Calder &amp; Roy L. Taylor</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>nivalis</species_name>
-    <species_authority>Liljeblad</species_authority>
-    <variety_name>kamtschatica</variety_name>
-    <variety_authority>(Ledebour) Pohle</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; (cespitose, sometimes forming mats); caudex branched (covered with persistent leaf bases); not scapose. Stems unbranched, 0.4–1.2 dm, pubescent throughout, trichomes minutely stalked, stellate, 8–12-rayed, (non-crisped), 0.03–0.3 mm, sometimes with simple and 2-rayed ones, to 0.3 mm. Basal leaves rosulate; petiole (obsolete), margin usually not ciliate, (trichomes, when present, simple and 2-rayed, 0.2–0.35 mm); blade oblanceolate to obovate, 0.4–1 cm × 1–3 mm, margins denticulate or entire, surfaces pubescent with short-stalked, stellate, (non-crisped), 8–12-rayed trichomes, 0.05–0.2 mm, (midvein obscure abaxially). Cauline leaves (1 or) 2–7; sessile; blade broadly ovate, margins usually denticulate, rarely entire. Racemes 4–10-flowered, proximalmost 1–5 flowers bracteate, elongated; rachis not flexuous, pubescent as stem. Fruiting pedicels ascending, straight, (4–)6–13(–20) mm, pubescent as stem. Flowers: sepals ovate, 1.5–2.2 mm, pubescent, (trichomes simple and short-stalked, 2–5-rayed); petals white, obovate, 2–3.5 × 1.5–2 mm; anthers ovate, 0.2–0.3 mm. Fruits linear to narrowly lanceolate, slightly twisted or plane, flattened, 5–11 × 1.1–1.6(–2) mm; valves glabrous; ovules 16–20 per ovary; style 0.1–0.3 mm. Seeds ovoid, 0.6–0.9 × 0.3–0.5 mm. 2n = 16.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>rock cliffs</habitat>
-  <habitat>bluffs</habitat>
-  <habitat>wind-swept tundra</habitat>
-  <elevation>0–500 m;</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
-  <global_distribution>e Asia (n Siberia).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species chamissonis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Sauter" date="unknown">frigida</taxon_name>
+    <taxon_name rank="variety" authority="Ledebour" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Draba;species frigida;variety kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="(Ledebour) N. Busch" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Draba;species kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">lonchocarpa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Ledebour) Calder &amp; Roy L. Taylor" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Draba;species lonchocarpa;subspecies kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Liljeblad" date="unknown">nivalis</taxon_name>
+    <taxon_name rank="variety" authority="(Ledebour) Pohle" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Draba;species nivalis;variety kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <other_name type="past_name">chamissoni</other_name>
   <discussion>C. L. Hitchcock (1941) treated Draba chamissonis as a variety of D. nivalis and listed it from British Columbia; R. C. Rollins (1993) did not mention the taxon at any rank. The limited North American material of D. chamissonis that we examined is all from Alaska. The species strongly resembles D. nivalis, from which it is distinguished by having (1 or) 2–7 broadly ovate cauline leaves, proximalmost fruiting pedicels (4–)6–13(–20) mm, petals 1.5–2 mm wide, and fruits 1.1–1.6(–2) mm wide. By contrast, D. nivalis has one ovate or oblong cauline leaf, or none, proximalmost fruiting pedicels 1–4.5(–8) mm, petals 0.8–1.4 mm wide, and fruits 1.5–2.2 mm wide.</discussion>
-</treatment>
+</bio:treatment>

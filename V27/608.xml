@@ -1,52 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PARALEUCOBRYUM</genus_name>
-    <genus_authority>(Lindberg ex Limpricht) Loeske</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Robert R. Ireland Jr.</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Lindberg ex Limpricht) Loeske" date="unknown">PARALEUCOBRYUM</taxon_name>
     <place_of_publication>
       <publication_title>Allg. Bot. Z. Syst.</publication_title>
       <place_in_publication>13: 162. 1907 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek para-, near, and genus Leucobryum, alluding to resemblance]</etymology>
-  <author>Robert R. Ireland Jr.</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <subgenus_name>Paraleucobrym</subgenus_name>
-    <subgenus_authority>Lindberg ex Limpricht</subgenus_authority>
+    <taxon_hierarchy>genus PARALEUCOBRYUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek para-, near, and genus Leucobryum, alluding to resemblance]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="subgenus" authority="Lindberg ex Limpricht" date="unknown">Paraleucobrym</taxon_name>
     <place_of_publication>
       <publication_title>in G. L. Rabenhorst et al., Krypt.-Fl. ed.</publication_title>
       <place_in_publication>2, 4(1): 373. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants in loose to dense tufts, whitish green, grayish green or yellowish green,
-        glossy. Stems 1–4 cm, erect, simple or branched, rhizoids on stems below apex among leaves.
-        Leaves subulate to narrowly lanceolate, gradually acuminate, subtubulose distally,
-        erect-spreading to falcate-secund, especially at stem tips, little changed when dry, smooth;
-        apices acute, sometimes deciduous; margins plane or incurved, serrate to serrulate distally
-        to below leaf middle; laminae unistratose; costa single, percurrent, covering 1/2–2/3 of
-        leaf base and all of subula, smooth or striate on abaxial surface, absent stereids, composed
-        of 3–4 layers of large cells, hyaline, nonchlorophyllose cells intermingled with green,
-        chlorophyllose cells, striations or ridges appearing as rows of teeth at high magnifications
-        on abaxial surface of costa (P. longifolium); leaf cells pitted proximally, smooth, walls of
-        medium thickness, median cells quadrate to rectangular, elongate proximally, alar cells
-        inflated, extending to costa, 1-stratose, brown or sometimes hyaline. Specialized asexual
-        propagation absent. Sexual condition dioicous; perigonia and perichaetia terminal;
-        perigonial leaves ovate, concave, short-acuminate; perichaetial leaves with a broad base,
-        abruptly narrowed to a long awn, inner ones sheathing. Seta solitary or rarely 2 per
-        perichaetium, smooth, elongate, erect, straight to flexuose, twisted when dry, yellowish
-        brown. Capsule erect to somewhat inclined, cylindric, straight, smooth, irregularly furrowed
-        when dry, a few stomata at base, exothecial walls incrassate; annulus rudimentary; operculum
-        rostrate, straight; peristome single, 16 lanceolate teeth, divided about halfway into 2
-        segments, papillose above, vertically to obliquely striate below, brown to reddish brown.
-        Spores 22–33 µm, spherical to ellipsoidal, minutely papillose. Calyptra cucullate, smooth,
-        naked, covering most of capsule, fugacious.</description>
-  <number_of_infrataxa>Species 3 or 4 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;subgenus Paraleucobrym;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15.</number>
+  <discussion>Species 3 or 4 (2 in the flora):</discussion>
   <discussion>Paraleucobryum is a rather peculiar member of the Dicranaceae because of its unique
         leaf structure. In the leaf cross section there is an adaxial and abaxial layer of
         hyalocysts and a median layer of chlorocysts. Sometimes a few chlorocysts are in the abaxial
@@ -56,7 +35,7 @@
         extensive discussion on the relationship of Paraleucobryum to other members of the
         Dicranaceae. They also discuss what may be heterospory or bimodal spores in P.
         longifolium.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Allen, B. H. 1999. The genus Paraleucobryum (Musci: Dicranaceae) in Maine.
             Evansia 16: 174–178.</reference>
     <reference>Barnes, C. 1958. The genus Paraleucobryum. Bryologist 61: 335–339.</reference>
@@ -66,16 +45,16 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Costa with longitudinal striations, formed by rows of teeth evident at high
+      <description type="morphology">Costa with longitudinal striations, formed by rows of teeth evident at high
                 magnifications, on abaxial surface (especially conspicuous in distal half); leaf
-                margins serrulate near apex</statement>
+                margins serrulate near apex</description>
       <determination>1. Paraleucobryum longifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Costa smooth on abaxial surface; leaf margins entire or rarely with a few
-                teeth at apex</statement>
+      <description type="morphology">Costa smooth on abaxial surface; leaf margins entire or rarely with a few
+                teeth at apex</description>
       <determination>2. Paraleucobryum enerve</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,57 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>ochrocentrum</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>martinii</variety_name>
-    <variety_authority>(Barlow-Irick) D. J. Keil</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">ochrocentrum</taxon_name>
+    <taxon_name rank="variety" authority="(Barlow-Irick) D. J. Keil" date="unknown">martinii</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 215. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species ochrocentrum;variety martinii;</taxon_hierarchy>
-  <common_name>Martin’s thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>ochrocentrum</species_name>
-    <species_authority>A. Gray</species_authority>
-    <subspecies_name>martinii</subspecies_name>
-    <subspecies_authority>Barlow-Irick</subspecies_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species ochrocentrum;variety martinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">ochrocentrum</taxon_name>
+    <taxon_name rank="subspecies" authority="Barlow-Irick" date="unknown">martinii</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>9: 320, fig. 2. 1999</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems leafy, nodes usually well separated. Leaves: distal cauline bases clasping, or if decurrent, spiny wings usually less than 1 cm. Corollas red, pink, or reddish purple (rarely white). 2n = 30, 31, 32, 34.</description>
-  <phenology_info>
-    <text>Flowering spring–autumn (May–Sep).</text>
-    <phenology>spring</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>desert grasslands , arid shrublands , pine - , oak - , juniper - , or mesquite-dominated woodlands , often in disturbed areas , grassy slopes in montane pine forests ;</text>
-    <habitat>desert grasslands arid shrublands</habitat>
-    <habitat>pine -</habitat>
-    <habitat>oak -</habitat>
-    <habitat>juniper -</habitat>
-    <habitat>mesquite-dominated woodlands</habitat>
-    <habitat>in disturbed areas</habitat>
-    <habitat>grassy slopes in montane pine forests</habitat>
-  </habitat_info>
-  <elevation>1300–2200 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
-  <global_distribution>Mexico (Durango).</global_distribution>
+    <taxon_hierarchy>genus Cirsium;species ochrocentrum;subspecies martinii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24b.</number>
+  <other_name type="common_name">Martin’s thistle</other_name>
   <discussion>Variety martinii occurs from east-central and southeastern Arizona to western New Mexico and is scattered southward into north-central Mexico.</discussion>
-</treatment>
-
+</bio:treatment>

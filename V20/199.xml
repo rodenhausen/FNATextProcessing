@@ -1,79 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Sericocarpus</genus_name>
-        <species_name>linifolius</species_name>
-        <species_authority>(Linnaeus) Britton, Sterns &amp; Poggenburg</species_authority>
-        <place_of_publication>
-            <publication_title>Prelim. Cat.,</publication_title>
-            <place_in_publication>26. 1888</place_in_publication>
-            <other_info>not Britton 1888</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Narrow-leaf white-topped aster</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Conyza</genus_name>
-        <species_name>linifolia</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>2: 861. 1753,</place_in_publication>
-            <other_info>not Aster linifolius Linnaeus</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>A.</genus_name>
-        <species_name>solidagineus</species_name>
-        <species_authority>Michaux</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Sericocarpus</genus_name>
-        <species_name>solidagineus</species_name>
-        <species_authority>(Michaux) Nees</species_authority>
-    </TaxonIdentification>
-    <description>Plants 22–75 cm. Stems erect (stout, branched), glabrate. Leaves: basal and
-        proximalmost cauline withering by flowering; cauline sessile; blades linear, 10–80 × 1–10
-        mm, margins entire, apices acuminate, faces glabrate. Heads 2–4 per branch, in broadly
-        corymbiform arrays. Peduncle bracts broadly lanceolate to narrowly ovate, glabrate.
-        Involucres 4–6 mm. Phyllaries in 3–4 series, outer 2–4 mm, mid 3–4 mm, glabrate. Ray florets
-        2–6; tubes 2–4 mm, laminae 4–11 mm. Disc florets 5–15; corollas 2–4 mm, lobes 1–2 mm.
-        Ovaries obconic, 0.8–1.3 mm, densely strigose; pappi: inner series 3–6 mm. 2n =
-        18.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>dry to moist sandy, clay</habitat>
-    <habitat>and gravelly soils of open deciduous and pine woods</habitat>
-    <habitat>oak and pine barrens</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>fields</habitat>
-    <elevation>0–900 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Conn.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>D.C.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>N.H.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>R.I.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sericocarpus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Britton, Sterns &amp; Poggenburg" date="unknown">linifolius</taxon_name>
+    <place_of_publication>
+      <publication_title>Prelim. Cat.,</publication_title>
+      <place_in_publication>26. 1888</place_in_publication>
+      <other_info_on_pub>not Britton 1888</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Sericocarpus;species linifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conyza</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">linifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 861. 1753,</place_in_publication>
+      <other_info_on_pub>not Aster linifolius Linnaeus</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Conyza;species linifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">solidagineus</taxon_name>
+    <taxon_hierarchy>genus A.;species solidagineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sericocarpus</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Nees" date="unknown">solidagineus</taxon_name>
+    <taxon_hierarchy>genus Sericocarpus;species solidagineus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Narrow-leaf white-topped aster</other_name>
+</bio:treatment>

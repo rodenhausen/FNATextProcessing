@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>R. Brown</species_authority>
-    <subspecies_name>rosea</subspecies_name>
-    <subspecies_authority>(Hartweg ex Bentham) C. T. Mason</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hartweg ex Bentham) C. T. Mason" date="unknown">rosea</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>36: 50. 1989</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>Hartweg ex Bentham</species_authority>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Limnanthes;species douglasii;subspecies rosea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="Hartweg ex Bentham" date="unknown">rosea</taxon_name>
     <place_of_publication>
       <publication_title>Pl. Hartw.,</publication_title>
       <place_in_publication>302. 1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>douglasii</species_name>
-    <variety_name>rosea</variety_name>
-    <variety_authority>(Hartweg ex Bentham) C. T. Mason</variety_authority>
-  </TaxonIdentification>
-  <description>Leaflets: blade usually linear, sometimes wide-ovate, margins entire or deeply, irregularly lobed. Flowers cup- or bell-shaped; sepals lanceolate, 7–8 mm; petals white (sometimes aging or drying pale pink or yellow, veins rose), cuneate to obovate, 12–18 mm (apex sometimes obcordate); filaments 5 mm; anthers cream, yellow, dark pink, orange-red, or nearly black, oval, 1.5 mm. Tubercles present, whitish or pinkish, lamellar, planar, or blunt. 2n = 10.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>wet meadows</habitat>
-  <habitat>edges of vernal pools</habitat>
-  <elevation>0–800 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Limnanthes;species rosea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="variety" authority="(Hartweg ex Bentham) C. T. Mason" date="unknown">rosea</taxon_name>
+    <taxon_hierarchy>genus Limnanthes;species douglasii;variety rosea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4e.</number>
   <discussion>Subspecies rosea occurs in the Inner Coast Ranges, Central Valley, and Sierra Nevada Foothills. C. T. Mason (1952) noted that populations in the northern part of the range tend to have white petals with pink veins, stamens, and pistils; those in the southern part of the range have petals with cream bases and yellow stamens and pistils.</discussion>
-</treatment>
+</bio:treatment>

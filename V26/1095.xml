@@ -1,47 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>10a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Spiranthes</genus_name>
-        <species_name>ovalis</species_name>
-        <species_authority>Lindley</species_authority>
-        <variety_name>ovalis</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Gyrostachys</genus_name>
-        <species_name>parviflora</species_name>
-        <species_authority>(Chapman) Small</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Spiranthes</genus_name>
-        <species_name>cernua</species_name>
-        <species_authority>(Linnaeus) Richard</species_authority>
-        <variety_name>parviflora</variety_name>
-        <variety_authority>Chapman</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Spiranthes</genus_name>
-        <species_name>parviflora</species_name>
-        <species_authority>(Chapman) Ames</species_authority>
-    </TaxonIdentification>
-    <description>Plants allogamous. Flowers: sepals 4–6.1 mm; rostellum well developed; viscidium
-        linear-lanceolate.</description>
-    <phenology>oct</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>dec</phenology>
-    <phenology>winter</phenology>
-    <habitat>moist, rich woodlands</habitat>
-    <habitat>thickets</habitat>
-    <habitat>wooded hillsides</habitat>
-    <elevation>0–300 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <discussion>Hybrids with Spiranthes odorata are known as S. ×itchetuckneensis P. M.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Spiranthes</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">ovalis</taxon_name>
+    <taxon_name rank="variety" authority="Chapman" date="unknown">ovalis</taxon_name>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Spiranthes;species ovalis;variety ovalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gyrostachys</taxon_name>
+    <taxon_name rank="species" authority="(Chapman) Small" date="unknown">parviflora</taxon_name>
+    <taxon_hierarchy>genus Gyrostachys;species parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Spiranthes</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Richard" date="unknown">cernua</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">parviflora</taxon_name>
+    <taxon_hierarchy>genus Spiranthes;species cernua;variety parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Spiranthes</taxon_name>
+    <taxon_name rank="species" authority="(Chapman) Ames" date="unknown">parviflora</taxon_name>
+    <taxon_hierarchy>genus Spiranthes;species parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10a.</number>
+  <discussion>Hybrids with Spiranthes odorata are known as S. ×itchetuckneensis P. M.
         Brown.</discussion>
-</treatment>
+</bio:treatment>

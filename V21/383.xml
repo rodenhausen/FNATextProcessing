@@ -1,57 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>29a</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Helianthus</genus_name>
-        <species_name>occidentalis</species_name>
-        <species_authority>Riddell</species_authority>
-        <subspecies_name>occidentalis</subspecies_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Helianthus</genus_name>
-        <species_name>dowellianus</species_name>
-        <species_authority>M. A. Curtis</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Helianthus</genus_name>
-        <species_name>occidentalis</species_name>
-        <variety_name>dowellianus</variety_name>
-        <variety_authority>(M. A. Curtis) A. Gray</variety_authority>
-    </TaxonIdentification>
-    <description>leaves entire or nearly so, scabrous or hirsute, rough to touch.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>Fields, barrens;</habitat>
-    <elevation>10–600+ m</elevation>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>D.C.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Iowa</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-    <discussion>In its typical form, Helianthus occidentalis is distinctive with its relatively few
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Cassini ex Dumortier" date="unknown">Helianthinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthus</taxon_name>
+    <taxon_name rank="species" authority="Riddell" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Helianthinae;genus Helianthus;species occidentalis;subspecies occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthus</taxon_name>
+    <taxon_name rank="species" authority="M. A. Curtis" date="unknown">dowellianus</taxon_name>
+    <taxon_hierarchy>genus Helianthus;species dowellianus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="(M. A. Curtis) A. Gray" date="unknown">dowellianus</taxon_name>
+    <taxon_hierarchy>genus Helianthus;species occidentalis;variety dowellianus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29a</number>
+  <discussion>In its typical form, Helianthus occidentalis is distinctive with its relatively few
         basal leaves and scapiform stems. Still unresolved is the status of H. dowellianus, which
         may deserve recognition at some level. These plants have the head morphology of H.
         occidentalis but have multiple pairs of well-developed cauline leaves. Plants with this
@@ -59,4 +35,4 @@
         to C. B. Heiser et al. (1969), these plants may be hybrids of H. occidentalis and H.
         atrorubens. Natural hybrids of H. occidentalis with H. mollis have been called H. ×cinereus
         Torrey &amp; A. Gray. Hybrids of H. occidentalis with other species are known.</discussion>
-</treatment>
+</bio:treatment>

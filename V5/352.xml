@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silene</genus_name><species_name>caroliniana</species_name><species_authority>Walter</species_authority><subspecies_name>caroliniana</subspecies_name></TaxonIdentification><common_name>Carolina wild pink</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Silene</genus_name><species_name>rubicunda</species_name><species_authority>A. Dietrich</species_authority></TaxonIdentification><description>Basal leaves: petiole broadly winged; blade obovate to broadly oblanceolate, usually 1.5–3 cm broad, apex obtuse, puberulent to subpilose and stipitate-glandular on both surfaces, rarely sub-glabrous. Calyces 15–18(–20) mm, glandular-pubescent. Cap-sules ca. 8(–10) mm. 2n = 48.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>open and often rocky, mainly deciduous woodlands</habitat><elevation>0–1000 m;</elevation><us_distribution>Ga.</us_distribution><us_distribution>Md.</us_distribution><us_distribution>N.J.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>Pa.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Tenn.</us_distribution><us_distribution>W.Va.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Caryophylloideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">caroliniana</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">caroliniana</taxon_name>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Caryophylloideae;genus Silene;species caroliniana;subspecies caroliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="A. Dietrich" date="unknown">rubicunda</taxon_name>
+    <taxon_hierarchy>genus Silene;species rubicunda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8a.</number>
+  <other_name type="common_name">Carolina wild pink</other_name>
+</bio:treatment>

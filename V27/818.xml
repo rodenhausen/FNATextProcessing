@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pseudocrossidium</genus_name>
-    <species_name>crinitum</species_name>
-    <species_authority>(Schultz) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudocrossidium</taxon_name>
+    <taxon_name rank="species" authority="(Schultz) R. H. Zander" date="unknown">crinitum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 119.  1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>crinita</species_name>
-    <species_authority>Schultz</species_authority>
+    <taxon_hierarchy>genus Pseudocrossidium;species crinitum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Schultz" date="unknown">crinita</taxon_name>
     <place_of_publication>
       <publication_title>Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.</publication_title>
       <place_in_publication>11: 226.  1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>aurea</species_name>
-    <species_authority>(E. B. Bartram) R. H. Zander</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pseudocrossidium</genus_name>
-    <species_name>aureum</species_name>
-    <species_authority>(E. B. Bartram) R. H. Zander</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>aurea</species_name>
-    <species_authority>E. B. Bartram</species_authority>
-  </TaxonIdentification>
-  <description>Stems to 1.5 cm.  Stem leaves ovate to short-lanceolate, 1.5–1.9 mm including the awn, distal margins strongly recurved to once revolute; apex rounded-obtuse below the awn; costa ending in a short awn, adaxial surface of costa at mid leaf concave, with 4 guide cells; distal laminal cells 12–15 µm wide, 1:1.  Specialized asexual reproduction absent.  [Perichaetial leaves not differentiated.]  Sporophytes not seen.</description>
-  <habitat>Soil, sand, sandstone, limestone, basalt, shale, boulders, ledges, deserts;</habitat>
-  <elevation>moderate to high elevations (500–2000 m);</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Barbula;species crinita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="(E. B. Bartram) R. H. Zander" date="unknown">aurea</taxon_name>
+    <taxon_hierarchy>genus Barbula;species aurea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudocrossidium</taxon_name>
+    <taxon_name rank="species" authority="(E. B. Bartram) R. H. Zander" date="unknown">aureum</taxon_name>
+    <taxon_hierarchy>genus Pseudocrossidium;species aureum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="E. B. Bartram" date="unknown">aurea</taxon_name>
+    <taxon_hierarchy>genus Tortula;species aurea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Pseudocrossidium crinitum, when the awn is short, can be distinguished from P. replicatum (forms of which may have strongly mucronate leaf apices) by the large area of differentiated parenchymatous cells on the abaxial lateral surface of the costa on both sides adjacent to the laminal insertion on the costa, easily seen in section at mid leaf and often deep yellow in color, appearing as a row of ocelli; the leaf marginal cells are very thin-walled.  This essentially southern species reaches its northern range extension in western United States E. B. Bartram 1924; R. H. Zander 1993).  An exceptionally robust collection of P. crinitum  from Mexico (Puebla, Azumbilla, Zander 4899, BUF) has two layers of guide cells in the costa, but this is very unusual.</discussion>
-</treatment>
+</bio:treatment>

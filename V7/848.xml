@@ -1,64 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Erysimum</genus_name>
-    <species_name>asperum</species_name>
-    <species_authority>(Nuttall) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Erysimeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erysimum</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) de Candolle" date="unknown">asperum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>2: 505. 1821</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cheiranthus</genus_name>
-    <species_name>asper</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Erysimeae;genus Erysimum;species asperum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheiranthus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">asper</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>2: 69. 1818</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheirinia</genus_name>
-    <species_name>aspera</species_name>
-    <species_authority>(Nuttall) Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Erysimum</genus_name>
-    <species_name>asperum</species_name>
-    <variety_name>dolichocarpum</variety_name>
-    <variety_authority>O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <description>Biennials. Trichomes of leaves 2- or 3-rayed. Stems erect, unbranched or branched distally, (0.6–)1.2–6.5(–8) dm. Basal leaves (often withered by fruiting); blade oblanceolate, 2–10 cm × (0.2–)0.5–1.5(–2.4) mm, base attenuate, margins dentate, apex acute. Cauline leaves (distal) sessile; blade margins entire or denticulate. Racemes considerably elongated in fruit. Fruiting pedicels horizontal to divaricate, slender, narrower than fruit, 5–16(–25) mm. Flowers: sepals oblong to linear-oblong, 8–12 mm, lateral pair slightly saccate basally; petals yellow, obovate to suborbicular, 13–22 × 4–9 mm, claw 8–15 mm, apex rounded; median filaments 8–14 mm; anthers linear, 2.5–4 mm. Fruits widely spreading or divaricate, narrowly linear, usually straight, rarely curved upward, not torulose, (3–)5–12(–14) cm × 1.2–2.7 mm, 4-angled, strongly (longitudinally) 4-striped; valves with prominent midvein and replum, densely pubescent outside, trichomes 2-rayed between midvein and replum, glabrous inside; ovules 72–120 per ovary; style cylindrical, slender, 1–4 mm, sparsely pubescent; stigma slightly 2-lobed, lobes as long as wide. Seeds ovoid, (1–)1.3–2.3 × 0.7–1.2 mm; usually not winged, rarely winged distally. 2n = 36.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>prairies</habitat>
-  <habitat>sand dunes</habitat>
-  <habitat>roadsides</habitat>
-  <habitat>bluffs</habitat>
-  <habitat>sandhills along stream banks</habitat>
-  <habitat>knolls</habitat>
-  <habitat>open plains</habitat>
-  <elevation>200–2000 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Cheiranthus;species asper;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheirinia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Rydberg" date="unknown">aspera</taxon_name>
+    <taxon_hierarchy>genus Cheirinia;species aspera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erysimum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">asperum</taxon_name>
+    <taxon_name rank="variety" authority="O. E. Schulz" date="unknown">dolichocarpum</taxon_name>
+    <taxon_hierarchy>genus Erysimum;species asperum;variety dolichocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+</bio:treatment>

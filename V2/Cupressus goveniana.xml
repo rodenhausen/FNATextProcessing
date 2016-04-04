@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cupressus</genus_name><species_name>goveniana</species_name><species_authority>Gordon</species_authority><place_of_publication><publication_title>J. Hort. Soc. London</publication_title><place_in_publication>4: 295. 1849</place_in_publication></place_of_publication></TaxonIdentification><common_name>Gowen cypress</common_name><common_name> Mendocino cypress</common_name><common_name> Santa Cruz cypress</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Cupressus</genus_name><species_name>abramsiana</species_name><species_authority>C. B. Wolf</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cupressus</genus_name><species_name>goveniana</species_name><variety_name>abramsiana</variety_name><variety_authority>(C. B. Wolf) Little</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cupressus</genus_name><species_name>goveniana</species_name><variety_name>pigmaea</variety_name><variety_authority>Lemmon</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cupressus</genus_name><species_name>pigmaea</species_name><species_authority>(Lemmon) Sargent</species_authority></TaxonIdentification><description>Shrubs or small trees  usually to 10 m, but to 50 m under favorable conditions, or bearing cones at as little as 2 dm on shallow hardpan soils; crown globose to columnar, dense or sparse.  Bark  smooth or rough, fibrous.  Branchlets  decussate, 1--1.5 mm diam.  Leaves  without abaxial gland or sometimes with embedded abaxial gland that does not produce drop of resin, not glaucous.  Pollen cones  3--4 × 1.5--2 mm; pollen sacs 3--6.  Seed cones  globose, 1--2.5(--3) cm, grayish brown, not glaucous; scales 3--5 pairs, smooth, umbo nearly flat at maturity.  Seeds  3--4(--5) mm, dark brown to jet black, sometimes slightly glaucous.</description><discussion>Populations from the three regions of Cupressus goveniana ---north coast, Santa Cruz Mountains, and Monterey Peninsula---differ in foliage and seed characters and have been treated as varieties or species; additional interpopulational variation occurs within these regions. Trees from Santa Cruz Mountain populations may have originated through hybidization with C . sargentii (E. Zavarin et al. 1971). The pygmy forests of this species and Pinus contorta Douglas ex Loudon on the shallow hardpan soils of coastal terraces of the Mendocino white plains are a remarkable example of phenotypic plasticity.</discussion><habitat>Coastal closed-cone pine forests, especially on sterile soils</habitat><elevation> 60--800 m</elevation><us_distribution> Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="Gordon" date="unknown">goveniana</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Hort. Soc. London</publication_title>
+      <place_in_publication>4: 295. 1849</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cupressus;species goveniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="C. B. Wolf" date="unknown">abramsiana</taxon_name>
+    <taxon_hierarchy>genus Cupressus;species abramsiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="(Lemmon) Sargent" date="unknown">goveniana</taxon_name>
+    <taxon_name rank="variety" authority="(C. B. Wolf) Little" date="unknown">abramsiana</taxon_name>
+    <taxon_hierarchy>genus Cupressus;species goveniana;variety abramsiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">goveniana</taxon_name>
+    <taxon_name rank="variety" authority="Lemmon" date="unknown">pigmaea</taxon_name>
+    <taxon_hierarchy>genus Cupressus;species goveniana;variety pigmaea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pigmaea</taxon_name>
+    <taxon_hierarchy>genus Cupressus;species pigmaea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5</number>
+  <other_name type="common_name">Gowen cypress</other_name>
+  <other_name type="common_name">Mendocino cypress</other_name>
+  <other_name type="common_name">Santa Cruz cypress</other_name>
+  <discussion>Populations from the three regions of Cupressus goveniana ---north coast, Santa Cruz Mountains, and Monterey Peninsula---differ in foliage and seed characters and have been treated as varieties or species; additional interpopulational variation occurs within these regions. Trees from Santa Cruz Mountain populations may have originated through hybidization with C . sargentii (E. Zavarin et al. 1971). The pygmy forests of this species and Pinus contorta Douglas ex Loudon on the shallow hardpan soils of coastal terraces of the Mendocino white plains are a remarkable example of phenotypic plasticity.</discussion>
+</bio:treatment>

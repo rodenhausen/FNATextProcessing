@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>LICARIA</genus_name><genus_authority>Aublet</genus_authority><place_of_publication><publication_title> Hist. Pl. Guiane </publication_title><place_in_publication>1: 313. 1775</place_in_publication></place_of_publication></TaxonIdentification><common_name>Licari </common_name><etymology>[local name in French Guiana]</etymology><TaxonIdentification Status="SYNONYM"><genus_name>Acrodiclidium</genus_name><genus_authority>Nees &amp; C. Martius</genus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Chanekia</genus_name><genus_authority>Lundell</genus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Misanteca</genus_name><genus_authority>Schlechtendal &amp; Chamisso</genus_authority></TaxonIdentification><description>Shrubs or trees, evergreen. Bark gray [pinkish, purplish, or maroon-brown], smooth with small, wartlike lenticels. Leaves alternate [rarely opposite or clustered at tips of branches]. Leaf blade pinnately veined, papery or leathery; surfaces glabrous or variously pubescent; domatia absent. Inflorescences appearing when mature leaves are present, axillary, panicles (rarely heads). Flowers bisexual; tepals deciduous, white or green, equal (rarely unequal), at anthesis mostly erect, glabrous (or pubescent); stamens 3, anthers 2-locular, 2-valvate, apical (or introrse); staminodes 9, 6, 3, or 0; ovary superior, enclosed by deep floral tube. Drupe red or purple, ellipsoid, seated in deep, usually double-rimmed cupule.</description><number_of_infrataxa>Species ca. 40 (1 in the flora):</number_of_infrataxa><global_distribution> restricted to neotropics.</global_distribution><references heading="SELECTED REFERENCES"><reference>Kurz, H. 1983. Fortpflanzungsbiologie einiger Gattungen neotropischer Lauraceen und Revision der Gattung Licaria (Lauraceae). Ph.D. thesis. University of Hamburg.</reference></references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Aublet" date="unknown">LICARIA</taxon_name>
+    <place_of_publication>
+      <publication_title>Hist. Pl. Guiane</publication_title>
+      <place_in_publication>1: 313. 1775</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus LICARIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[local name in French Guiana]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Nees &amp; C. Martius" date="unknown">Acrodiclidium</taxon_name>
+    <taxon_hierarchy>genus Acrodiclidium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Lundell" date="unknown">Chanekia</taxon_name>
+    <taxon_hierarchy>genus Chanekia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Schlechtendal &amp; Chamisso" date="unknown">Misanteca</taxon_name>
+    <taxon_hierarchy>genus Misanteca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Licari</other_name>
+  <discussion>Species ca. 40 (1 in the flora):</discussion>
+  <references>
+    <reference>Kurz, H. 1983. Fortpflanzungsbiologie einiger Gattungen neotropischer Lauraceen und Revision der Gattung Licaria (Lauraceae). Ph.D. thesis. University of Hamburg.</reference>
+  </references>
+</bio:treatment>

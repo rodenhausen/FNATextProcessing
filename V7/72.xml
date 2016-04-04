@@ -1,51 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>uva-ursi</species_name>
-    <species_authority>Pursh</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">uva-ursi</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>2: 610. 1813</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bearberry willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>ivigtutiana</species_name>
-    <species_authority>Lundström</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>myrsinites</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>parvifolia</variety_name>
-    <variety_authority>Lange</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 0.01–0.05 m, (dwarf), forming clonal compact mats by layering. Stems prostrate, short-trailing; branches red-brown, gray-brown, or yellow-brown, glabrous; branchlets yellow-green or yellow-brown, glabrous or puberulent. Leaves: stipules (sometimes marcescent) absent, rudimentary, or foliaceous on early ones, foliaceous on late ones; petiole (shallowly to deeply grooved adaxially), 2–6.5 mm; largest medial blade (marcescent), amphistomatous or hypostomatous, ovate, broadly obovate, oblanceolate, or elliptic, 4–23 × 3.5–10 mm, 1.7–3.6 times as long as wide, base convex or cuneate, margins flat, serrulate or crenulate, apex convex, acuminate, acute, or retuse, abaxial surface glaucous, usually glabrous (rarely few hairs), adaxial slightly or highly glossy, usually glabrous (rarely a few hairs); proximal blade margins entire or serrate; juvenile blade glabrous, pilose, or puberulent abaxially. Catkins: staminate 9–19 × 5–8 mm, flowering branchlet 0.5–9 mm; pistillate densely flowered, slender to subglobose, 11–47(–55 in fruit) × 6–10 mm, flowering branchlet 2–10 mm; floral bract brown, black, tawny, light rose, or bicolor, 1.1–1.8 mm, apex rounded or acute, entire, abaxially sparsely hairy, hairs straight or wavy. Staminate flowers: abaxial nectary absent, adaxial nectary narrowly oblong or oblong, 0.4–0.9 mm; filaments distinct, glabrous; stamens usually 1, rarely 2; anthers ellipsoid or shortly cylindrical, 0.4–0.7 mm. Pistillate flowers: abaxial nectary absent, adaxial nectary narrowly oblong or oblong, 0.5–0.8 mm, shorter to longer than stipe; stipe 0.3–1.6 mm; ovary ovoid or pyriform, glabrous, beak gradually tapering to styles; ovules 4–9 per ovary; styles 0.4–1 mm; stigmas flat, abaxially non-papillate with rounded tip, or slenderly cylindrical, 0.1–0.23–0.4 mm. Capsules 3–5 mm. 2n = 38.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>exposed, often dry or moist, calcareous, serpentine</habitat>
-  <habitat>dioritic, and granitic rocks</habitat>
-  <habitat>boulders</habitat>
-  <habitat>gravel</habitat>
-  <habitat>sand on beaches</habitat>
-  <habitat>outcrops</habitat>
-  <habitat>in snowbeds</habitat>
-  <elevation>10–1200 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species uva-ursi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Lundström" date="unknown">ivigtutiana</taxon_name>
+    <taxon_hierarchy>genus Salix;species ivigtutiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">myrsinites</taxon_name>
+    <taxon_name rank="variety" authority="Lange" date="unknown">parvifolia</taxon_name>
+    <taxon_hierarchy>genus Salix;species myrsinites;variety parvifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35.</number>
+  <other_name type="common_name">Bearberry willow</other_name>
   <discussion>Hybrids:</discussion>
   <discussion>Salix uva-ursi forms natural hybrids with S. herbacea.</discussion>
-</treatment>
+</bio:treatment>

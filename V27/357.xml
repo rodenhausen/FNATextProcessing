@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grimmia</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">undetermined</taxon_name>
+    <taxon_hierarchy>genus Grimmia;subgenus undetermined;</taxon_hierarchy>
+  </taxon_identification>
   <number>2e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Grimmia</genus_name>
-    <subgenus_name>undetermined</subgenus_name>
-  </TaxonIdentification>
-</treatment>
+</bio:treatment>

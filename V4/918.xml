@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>8.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Cistanthe</genus_name>
-        <species_name>quadripetala</species_name>
-        <species_authority>(S. Watson) Hershkovitz</species_authority>
-        <place_of_publication>
-            <publication_title>Phytologia</publication_title>
-            <place_in_publication>68: 268. 1990</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Four-petaled pussypaws</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Calyptridium</genus_name>
-        <species_name>quadripetalum</species_name>
-        <species_authority>S. Watson</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>20: 356. 1885</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants annual, roots fibrous. Stems 2 or more from each rosette, spreading to
-        erect, 1.5–13 cm. Leaves basal and cauline; basal in single, prostrate rosette; blade
-        spatulate, 0.5–6 cm. Inflorescences racemose or paniculate scorpioid cymes, ± dense. Flowers
-        pedicellate; sepals orbiculate to reniform, unequal, 4–6 mm, margins scarious; petals
-        disarticulate in fruit, 4, pink to rose or white, 2–3 mm; stamens 1–3, anther yellow; style
-        absent; stigmas 2; pedicel 1–3 mm. Capsules ovoid, 3–4 mm; valves 2. Seeds 5–14, black,
-        orbicular, 0.5–0.6 mm, shiny. 2n = 44.</description>
-    <phenology>apr</phenology>
-    <phenology>spring</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <habitat>open areas</habitat>
-    <habitat>usually on serpentine</habitat>
-    <elevation>500–2000 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cistanthe</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Hershkovitz" date="unknown">quadripetala</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>68: 268. 1990</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Cistanthe;species quadripetala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calyptridium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">quadripetalum</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>20: 356. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calyptridium;species quadripetalum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Four-petaled pussypaws</other_name>
+</bio:treatment>

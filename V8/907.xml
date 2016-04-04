@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>albiflorum</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">albiflorum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 43, plate 133.  1834  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>White rhododendron</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Azaleastrum</genus_name>
-    <species_name>albiflorum</species_name>
-    <species_authority>(Hooker) Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>albiflorum</species_name>
-    <variety_name>warrenii</variety_name>
-    <variety_authority>(A. Nelson) M. A. Lane</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, to 2.5 m, rhizomatous.  Stems: bark ± smooth to furrowed; twigs multicellular eglandular-hairy (hairs un-branched) and unicellular-hairy.  Leaves deciduous; petiole multicellular eglandular- and stipitate-glandular-hairy and unicellular-hairy; blade narrowly elliptic or ovate to obovate, 2–9 × 0.8–3 cm, thin, membranous to chartaceous, margins minutely serrate, plane, ciliate when young, eglandular- and stipitate-glandular-hairy, apex acute to ± rounded, surfaces scattered eglandular-hairy, ± glabrescent.  Floral bud scales stipitate-glandular- and eglandular-hairy abaxially, margins stipitate-glandular-hairy.  Inflorescences lateral (axillary, i.e., above leaf scars, spaced along shoots of previous year), fasciculate, 1–2-flowered; bracts similar to bud scales.  Pedicels to 9–15 mm, eglandular- and stipitate-glandular-hairy.  Flowers ± radially symmetric, opening soon after (and borne below) expanded leaves, pendulous, very fragrant (similar to vanilla and jasmine); calyx lobes 5–17 mm, eglandular- and stipitate-glandular-hairy, margins glandular-hairy; corolla white, rarely marked with yellow, bowl-shaped, 9–22 mm, minutely unicellular-hairy or glabrous on outer surface, petals connate, lobes 6–15 mm, tube expanding into lobes, 3–9 mm; stamens 9(–12), included, ± unequal, 5.5–14 mm.  Capsules borne on erect pedicels, 6–8 × 5–6 mm, stipitate-glandular-, eglandular-, and unicellular-hairy.  Seeds with distinct tails; testa closely appressed.  2n = 26.</description>
-  <phenology>Flowering late spring–summer</phenology>
-  <habitat>Coniferous forests, alpine thickets, stream banks, seeps on rock outcrops</habitat>
-  <elevation>800–3500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Rhododendron;species albiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Azaleastrum</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Rydberg" date="unknown">albiflorum</taxon_name>
+    <taxon_hierarchy>genus Azaleastrum;species albiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">albiflorum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) M. A. Lane" date="unknown">warrenii</taxon_name>
+    <taxon_hierarchy>genus Rhododendron;species albiflorum;variety warrenii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">White rhododendron</other_name>
   <discussion>Rhododendron albiflorum is especially distinctive due to its axillary, white, somewhat pendulous, and nearly actinomorphic flowers, and it is placed in the monotypic subg. Candidastrum (Sleumer) Philipson &amp; Philipson (W. R. Philipson and M. N. Philipson 1986).  It is occasionally used as an ornamental.  The disjunct population in Colorado has somewhat smaller calyx lobes and corollas and shorter stamens; it is sometimes recognized as var. warrenii (M. A. Lane et al. 1993).  This variety is not recognized here because of the extent of morphological overlap between that population and those of the Pacific Northwest.</discussion>
-</treatment>
+</bio:treatment>

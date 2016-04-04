@@ -1,48 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>163a.1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Solidago</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Solidago</section_name>
-    <subsection_name>Multiradiatae</subsection_name>
-    <subsection_authority>Semple</subsection_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="Semple" date="unknown">Multiradiatae</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 760. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves: basal sometimes present in rosettes at flowering; proximalmost cauline
-    petiolate, sometimes present at flowering, sometimes largest, not 3-nerved. Heads in
-    round-topped corymbiform arrays, not stipitate-glandular. Phyllaries not striate. Pappus
-    bristles in 2 series (inner moderately to strongly clavate).</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;section Solidago;subsection Multiradiatae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>163a.1.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <discussion>Solidago series Multiradiatae Juzepczuk is an invalid name.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaves sharply serrate, acuminate; North Carolina, Tennessee (1600–2000
-        m)</statement>
+      <description type="morphology">Basal leaves sharply serrate, acuminate; North Carolina, Tennessee (1600–2000
+        m)</description>
       <determination>3. Solidago spithamaea</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaves not sharply serrate, acute; across Canada, Alaska, and s to California
-        and New Mexico in Western Cordillera (arctic and alpine habitats).</statement>
+      <description type="morphology">Basal leaves not sharply serrate, acute; across Canada, Alaska, and s to California
+        and New Mexico in Western Cordillera (arctic and alpine habitats).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Phyllaries subequal, acute to acuminate, arctic and alpine in west, across
-        Canada</statement>
+      <description type="morphology">Phyllaries subequal, acute to acuminate, arctic and alpine in west, across
+        Canada</description>
       <determination>1. Solidago multiradiata</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Phyllaries unequal, obtuse to rounded; mountains, Quebec and Maine to New
-        York</statement>
+      <description type="morphology">Phyllaries unequal, obtuse to rounded; mountains, Quebec and Maine to New
+        York</description>
       <determination>2. Solidago leiocarpa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

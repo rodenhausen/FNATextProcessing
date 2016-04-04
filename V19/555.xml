@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>exigua</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>deanei</subspecies_name>
-    <subspecies_authority>(J. F. Macbride) Gottlieb</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">exigua</taxon_name>
+    <taxon_name rank="subspecies" authority="(J. F. Macbride) Gottlieb" date="unknown">deanei</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>21: 470. 1972</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stephanomeria;species exigua;subspecies deanei;</taxon_hierarchy>
-  <common_name>Deane’s wirelettuce</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>exigua</species_name>
-    <variety_name>deanei</variety_name>
-    <variety_authority>J. F. Macbride</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stephanomeria;species exigua;subspecies deanei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">exigua</taxon_name>
+    <taxon_name rank="variety" authority="J. F. Macbride" date="unknown">deanei</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>53: 22. 1918</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Heads borne in small pani-culiform arrays along branches. Peduncles 10–40 mm, densely glandular. Calyculi of appressed bractlets. Involucres densely glandular. Florets 7–9. Cypselae light to dark tan, 2.1–2.4 mm, faces tuberculate, grooved; pappi of 9–14, white to light tan bristles (bases persistent, connate in groups of 2–4, plumose on distal 55–60%. 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering Jun–Oct.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy fields and chaparral ;</text>
-    <habitat>sandy fields</habitat>
-    <habitat>chaparral</habitat>
-  </habitat_info>
-  <elevation>0–1700 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Stephanomeria;species exigua;variety deanei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4c.</number>
+  <other_name type="common_name">Deane’s wirelettuce</other_name>
+</bio:treatment>

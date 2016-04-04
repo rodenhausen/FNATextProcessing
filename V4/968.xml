@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lewisia</genus_name><species_name>cotyledon</species_name><species_authority>(S. Watson) B. L. Robinson</species_authority><variety_name>cotyledon</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lewisia</genus_name><species_name>cotyledon</species_name><variety_name>purdyi</variety_name><variety_authority>Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lewisia</genus_name><species_name>finchiae</species_name><species_authority>Purdy</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lewisia</genus_name><species_name>purdyi</species_name><species_authority>(Jepson) Gabrielson</species_authority></TaxonIdentification><description>Basal leaf blades: margins entire or slightly undulate, not toothed or crisped. Petals (8–)12–14 mm. 2n = 28.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>rock crevices on north-facing cliffsides or outcrops</habitat><elevation>300–2300 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Variety cotyledon is known only from the Klamath Ranges, northwestern California and southwesternmost Oregon.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) B. L. Robinson" date="unknown">cotyledon</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">cotyledon</taxon_name>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species cotyledon;variety cotyledon;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="Purdy" date="unknown">cotyledon</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">purdyi</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species cotyledon;variety purdyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(Jepson) Gabrielson" date="unknown">finchiae</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species finchiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">purdyi</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species purdyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5a.</number>
+  <discussion>Variety cotyledon is known only from the Klamath Ranges, northwestern California and southwesternmost Oregon.</discussion>
+</bio:treatment>

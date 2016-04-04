@@ -1,73 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>13.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Cylindropuntia</genus_name>
-        <species_name>spinosior</species_name>
-        <species_authority>(Engelmann) F. M. Knuth</species_authority>
-        <place_of_publication>
-            <publication_title>in C. Backeberg and F. M. Knuth, Kaktus-ABC,</publication_title>
-            <place_in_publication>126. 1935</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Cane cholla</common_name>
-    <common_name>walkingstick cactus</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>whipplei</species_name>
-        <species_authority>Engelmann &amp; J. M. Bigelow</species_authority>
-        <variety_name>spinosior</variety_name>
-        <variety_authority>Engelmann</variety_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>3: 307. 1856</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>spinosior</species_name>
-        <species_authority>(Engelmann) Toumey</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>spinosior</species_name>
-        <variety_name>neomexicana</variety_name>
-        <variety_authority>Toumey</variety_authority>
-    </TaxonIdentification>
-    <description>Trees, compact, widely branching, 0.4–2 m. Stem segments firmly attached, whorled
-        or subwhorled, green to purple, 5–23 × 1.3–3.5 cm; tubercles crowded, pronounced, oval to
-        narrowly oval, 0.5–1.2(–1.5) cm; areoles broadly obdeltate to elliptic, 4.5–7 × 2–4 mm; wool
-        yellow to tan, aging gray to black. Spines (4–)6–18(–24) per areole, at most areoles,
-        interlacing with spines of adjacent areoles, pale tan (rarely yellowish), pinkish to
-        red-brown; abaxial spines erect to usually deflexed, terete, often flattened basally, 8–19
-        mm; adaxial spines erect or spreading, subterete; ± bristlelike spines at areole abaxial
-        margins; sheaths persisting, uniformly whitish, not baggy. Glochids in inconspicuous adaxial
-        tuft, yellow to tan, aging gray, 1–2 mm. Flowers: inner tepals rose to red-purple,
-        bronze-purple, or yellow, sometimes pale greenish yellow or whitish, spatulate, 18–35 mm,
-        emarginate-apiculate; filaments deep purple to pink-purple, sometimes green; anthers pale
-        yellow; style white or pink to purple distally; stigma lobes white to cream. Fruits rarely
-        proliferating, yellow, sometimes tinged reddish to purplish, broadly cylindric, 20–50 ×
-        17–30 mm, fleshy, strongly tuberculate, spineless; areoles 28–50(–62); tubercles longer in
-        distal portion of fruit; umbilicus to 10 mm deep. Seeds pale yellow, suborbicular to oval in
-        outline, flattened to warped, 4–5 × 3–4 mm, sides with 0–3 large depressions; girdle smooth.
-        2n = 22.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>summer</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>desert and plains grasslands</habitat>
-    <habitat>extending onto sonoran desert flats</habitat>
-    <habitat>sandy to loamy soils</habitat>
-    <elevation>300–2000 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <global_distribution>Mexico (Chihuahua).</global_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-    <discussion>Cylindropuntia spinosior forms hybrids with C. acanthocarpa var. major, C.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cylindropuntia</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) F. M. Knuth" date="unknown">spinosior</taxon_name>
+    <place_of_publication>
+      <publication_title>in C. Backeberg and F. M. Knuth, Kaktus-ABC,</publication_title>
+      <place_in_publication>126. 1935</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Cylindropuntia;species spinosior;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann &amp; J. M. Bigelow" date="unknown">whipplei</taxon_name>
+    <taxon_name rank="variety" authority="Engelmann" date="unknown">spinosior</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>3: 307. 1856</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species whipplei;variety spinosior;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) Toumey" date="unknown">spinosior</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species spinosior;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spinosior</taxon_name>
+    <taxon_name rank="variety" authority="Toumey" date="unknown">neomexicana</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species spinosior;variety neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <other_name type="common_name">Cane cholla</other_name>
+  <other_name type="common_name">walkingstick cactus</other_name>
+  <discussion>Cylindropuntia spinosior forms hybrids with C. acanthocarpa var. major, C.
         arbuscula, C. fulgida (see 6. C. ×kelvinensis), C. leptocaulis (see discussion under 3. C.
         ×tetracantha), and C. versicolor (= C. ×grantiorum P. V. Heath). Introgression between C.
         spinosior and C. imbricata occurs in a more or less continuous band from central New Mexico
@@ -75,4 +49,4 @@
         sprawling shrubs with irregular branching pattern and have spine clusters with one or more
         spines longer than others and fleshy fruits, some with one to few spines per fruit.
         Chromosome numbers of hybrids are all reported as 2n = 22.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,60 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cleomella</genus_name>
-    <species_name>obtusifolia</species_name>
-    <species_authority>Torrey &amp; Frémont</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleomella</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; Frémont" date="unknown">obtusifolia</taxon_name>
     <place_of_publication>
       <publication_title>in J. C. Frémont, Rep. Exped. Rocky Mts.,</publication_title>
       <place_in_publication>311. 1845</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mojave stinkweed</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleomella</genus_name>
-    <species_name>obtusifolia</species_name>
-    <variety_name>florifera</variety_name>
-    <variety_authority>Crum ex Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleomella</genus_name>
-    <species_name>obtusifolia</species_name>
-    <variety_name>jonesii</variety_name>
-    <variety_authority>Crum ex Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleomella</genus_name>
-    <species_name>obtusifolia</species_name>
-    <variety_name>pubescens</variety_name>
-    <variety_authority>A. Nelson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleomella</genus_name>
-    <species_name>taurocranos</species_name>
-    <species_authority>A. Nelson</species_authority>
-  </TaxonIdentification>
-  <description>Plants 10–40(–120) cm. Stems profusely branched at base (usually spreading or mat-like, sometimes erect); moderately to densely hairy (sometimes spreading-hispidulous). Leaves: stipules finely divided into crinkled threads, 5–7 mm; petiole 0.7–0.8(–2) cm; leaflet blade elliptic to obovate, 0.5–1.5 × 0.2–0.8 cm, thin, margins entire, apex obtuse to rounded, mucronulate, surfaces spreading-hispidulous. Inflorescences racemes, terminating stems and branches (solitary flowers in leaf axils of distal stems), 0.5–1.2 cm (0.5–1 cm in fruit); bracts unifoliate, 2–7 mm. Pedicels ascending in fruit, 4–10 mm (3–12 mm in fruit). Flowers: sepals green, ovate-deltate, 1–1.5(–2.3) × 0.9–1.2 mm, sparsely hairy; petals yellow or orange, oblong, 3.5–6 × 1.2–2 mm, sparsely hairy abaxially; stamens yellow, 8–14 mm; anthers 1.5–2.2 mm; gynophore reflexed, 4–5 mm in fruit; ovary ± rhomboidal, 1–1.5 mm; style 2–3(–5) mm. Capsules rhomboidal, 3.5–4 × 7–10 mm (striate), strigose. Seeds (1–)2–6, light brown to gray with black mottling, globose, 1.5 mm, smooth.</description>
-  <phenology>winter</phenology>
-  <phenology>dec</phenology>
-  <phenology>jan</phenology>
-  <phenology>feb</phenology>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>fall</phenology>
-  <phenology>sep</phenology>
-  <phenology>oct</phenology>
-  <phenology>nov</phenology>
-  <habitat>sandy, often alkaline flats and desert playas</habitat>
-  <elevation>300–1300(–2000) m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
+    <taxon_hierarchy>family CLEOMACEAE;genus Cleomella;species obtusifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleomella</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">obtusifolia</taxon_name>
+    <taxon_name rank="variety" authority="Crum ex Jepson" date="unknown">florifera</taxon_name>
+    <taxon_hierarchy>genus Cleomella;species obtusifolia;variety florifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleomella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">obtusifolia</taxon_name>
+    <taxon_name rank="variety" authority="Crum ex Jepson" date="unknown">jonesii</taxon_name>
+    <taxon_hierarchy>genus Cleomella;species obtusifolia;variety jonesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleomella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">obtusifolia</taxon_name>
+    <taxon_name rank="variety" authority="A. Nelson" date="unknown">pubescens</taxon_name>
+    <taxon_hierarchy>genus Cleomella;species obtusifolia;variety pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleomella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">taurocranos</taxon_name>
+    <taxon_hierarchy>genus Cleomella;species taurocranos;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5</number>
+  <other_name type="common_name">Mojave stinkweed</other_name>
   <discussion>Cleomella obtusifolia is variable in degree of pubescence, elaboration of stipules, and fruit shape. Four varieties have been recognized; additional taxonomic investigation is desirable.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lyonia</genus_name>
-    <species_name>lucida</species_name>
-    <species_authority>(Lamarck) K. Koch</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) K. Koch" date="unknown">lucida</taxon_name>
     <place_of_publication>
       <publication_title>Dendrologie</publication_title>
       <place_in_publication>2(1): 118. 1872 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Fetterbush</common_name>
-  <common_name>hurrah-bush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>lucida</species_name>
-    <species_authority>Lamarck</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Lyonia;species lucida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">lucida</taxon_name>
     <place_of_publication>
       <publication_title>in J. Lamarck et al., Encycl.</publication_title>
       <place_in_publication>1: 157. 1783</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Desmothamnus</genus_name>
-    <species_name>lucidus</species_name>
-    <species_authority>(Lamarck) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, to 2.5(–5) m. Stems erect to arching, usually sharply 3-angled. Leaves
-        persistent; blade narrowly to widely elliptic, obovate, or slightly ovate, 1–8.5(–10.5) ×
-        0.5–4.5(–5.5) cm, rigidly coriaceous, base attenuate or cuneate to rounded, margins entire,
-        usually revolute, apex acuminate to acute, rarely rounded, surfaces scattered,
-        multicellular, glandular short-headed-hairy, not lepidote, otherwise glabrous or hairy on
-        midvein adaxially, intramarginal vein present. Inflorescences fascicles, developing from
-        buds along distal portion of stems of previous year; bracts 1 per flower, linear-lanceolate,
-        to 4 mm. Pedicels glandular-hairy, not lepidote. Flowers: calyx lobes 2–7.5 × 1–2 mm,
-        glandular-hairy, not lepidote; corolla usually pink, sometimes white or red, cylindric (base
-        swollen), 5–9 × 2–5 mm; filaments 3–5 mm, roughened, with 2 well-developed spurs. Capsules
-        ovoid to ovoid-globose, 3–5 × 3–5 mm, apex slightly constricted, glabrous or
-        short-headed-hairy; sutures usually remaining attached to adjacent valve; placentae central
-        to nearly basal. 2n = 24.</description>
-  <phenology>Flowering early spring–spring</phenology>
-  <habitat>Moist, acid, pine flatwoods and savannas, streamhead pocosins and baygalls, acid
-        blackwater swamps, shrub bogs and peat-based pocosins, pond margins</habitat>
-  <elevation>0–200 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>West Indies (Cuba).</global_distribution>
+    <taxon_hierarchy>genus Andromeda;species lucida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmothamnus</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Small" date="unknown">lucidus</taxon_name>
+    <taxon_hierarchy>genus Desmothamnus;species lucidus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Fetterbush</other_name>
+  <other_name type="common_name">hurrah-bush</other_name>
   <discussion>Lyonia lucida is occasionally used as an ornamental; it is most closely related to
         L. mariana. The Cuban populations tend to have slightly longer and more densely hairy calyx
         lobes than do those of the southeastern United States.</discussion>
-</treatment>
+</bio:treatment>

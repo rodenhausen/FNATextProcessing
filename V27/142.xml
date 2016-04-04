@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Buxbaumia</genus_name>
-    <species_name>minakatae</species_name>
-    <species_authority>S. Okamura</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Buxbaumia</taxon_name>
+    <taxon_name rank="species" authority="S. Okamura" date="unknown">minakatae</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Mag. (Tokyo)</publication_title>
       <place_in_publication>25: 30, fig. 1.  1911,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Buxbaumia</genus_name>
-    <species_name>subcylindrica</species_name>
-    <species_authority>Grout</species_authority>
-  </TaxonIdentification>
-  <description>Seta 3–5 mm, straight to some-what arcuate.  Capsule when mature narrowly ovoid to nearly cylindric, 3–5 mm, dull brown to rusty-brown, upper face not strongly differentiated from lower face, slightly oblique to seta or nearly erect.  Spores 12–13 µm.</description>
-  <phenology>Capsules mature late summer–fall.</phenology>
-  <habitat>Soft decaying decorticated logs in deciduous to mixed forest;</habitat>
-  <elevation>low elevations (20–150 m);</elevation>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+    <taxon_hierarchy>genus Buxbaumia;species minakatae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Buxbaumia</taxon_name>
+    <taxon_name rank="species" authority="Grout" date="unknown">subcylindrica</taxon_name>
+    <taxon_hierarchy>genus Buxbaumia;species subcylindrica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Buxbaumia piperi has occasionally been confused with this species, but the sporangium shape (narrowly ovate to cylindric) and the shorter, often arcuate seta separate B. minakatae; B. piperi has a longer, straight seta and ovate sporangium.  A report of B. indusiata (A. J. Grout 1928–1940, vol. 1) was based on misidentifications of eastern North American material.</discussion>
-</treatment>
+</bio:treatment>

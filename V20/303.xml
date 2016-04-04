@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>163a.9a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Solidago</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <section_name>Solidago</section_name>
-        <subsection_name>Venosae</subsection_name>
-        <series_name>Venosae</series_name>
-        <series_authority>G. Don</series_authority>
-        <place_of_publication>
-            <publication_title>in J. C. Loudon, Hort. Brit.,</publication_title>
-            <place_in_publication>348. 1830</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>leaves: either only midnerves pronounced or midnerves and laterals along entire
-        midnerve pronounced, never 3-nerved, not anise scented when crushed</description>
-    <number_of_infrataxa>Species 5 (5 in the flora)</number_of_infrataxa>
-    <global_distribution>e North America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="unknown" date="unknown">Venosae</taxon_name>
+    <taxon_name rank="series" authority="G. Don" date="unknown">Venosae</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. C. Loudon, Hort. Brit.,</publication_title>
+      <place_in_publication>348. 1830</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;section Solidago;subsection Venosae;series Venosae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>163a.9a.</number>
+  <discussion>Species 5 (5 in the flora)</discussion>
+</bio:treatment>

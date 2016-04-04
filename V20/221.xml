@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5a.2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Solidago</genus_name><species_name>simplex</species_name><species_authority>Kunth</species_authority><variety_name>nana</variety_name><variety_authority>(A. Gray) G. S. Ringius</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>70: 397. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Dwarf goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Solidago</genus_name><species_name>humilis</species_name><species_authority>Pursh</species_authority><variety_name>nana</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication><publication_title>in A. Gray et al., Syn. Fl. N. Amer. </publication_title><place_in_publication>1(2): 148. 1884</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>bellidiflora</species_name><species_authority>Greene</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>glutinosa</species_name><species_authority>Nuttall</species_authority><variety_name>nana</variety_name><variety_authority>(A. Gray) Cronquist</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>hesperia</species_name><species_authority>Howell</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>purshii</species_name><species_authority>Porter</species_authority><variety_name>nana</variety_name><variety_authority>(A. Gray) Farwell</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>spathulata</species_name><species_authority>de Candolle</species_authority><variety_name>nana</variety_name><variety_authority>(A. Gray) Cronquist</variety_authority></TaxonIdentification><description>Plants 4.5–13.6 cm. Leaves: basal orbiculate to broadly elliptic, bases attenuated to winged petioles, margins distinctly crenate; cauline 2–7, 20–60 × 8–12 mm. Phyllaries: shortest 2.1–3.1 mm. Disc florets: corollas 4.2–5.4 mm. 2n = 18.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><habitat>gravelly soils</habitat><habitat>alpine meadows</habitat><habitat>gravel slopes</habitat><elevation>2000–3000+ m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution><discussion>Variety nana is mainly confined to peaks of the Cascade Mountains in Oregon and Washington, and very rarely on central Vancouver Island, British Columbia.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">simplex</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) G. S. Ringius" date="unknown">nana</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>70: 397. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species simplex;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">humilis</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">nana</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 148. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;species humilis;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">bellidiflora</taxon_name>
+    <taxon_hierarchy>genus Solidago;species bellidiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glutinosa</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Solidago;species glutinosa;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">hesperia</taxon_name>
+    <taxon_hierarchy>genus Solidago;species hesperia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Porter" date="unknown">purshii</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Farwell" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Solidago;species purshii;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">spathulata</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Solidago;species spathulata;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5a.2.</number>
+  <other_name type="common_name">Dwarf goldenrod</other_name>
+  <discussion>Variety nana is mainly confined to peaks of the Cascade Mountains in Oregon and Washington, and very rarely on central Vancouver Island, British Columbia.</discussion>
+</bio:treatment>

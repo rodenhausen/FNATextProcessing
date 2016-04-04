@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pouteria</genus_name>
-    <species_name>campechiana</species_name>
-    <species_authority>(Kunth) Baehni</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pouteria</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) Baehni" date="unknown">campechiana</taxon_name>
     <place_of_publication>
       <publication_title>Candollea</publication_title>
       <place_in_publication>9: 398. 1942 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Canistel</common_name>
-  <common_name>zapotillo</common_name>
-  <common_name>zapote blanco</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lucuma</genus_name>
-    <species_name>campechiana</species_name>
-    <species_authority>Kunth</species_authority>
+    <taxon_hierarchy>family SAPOTACEAE;genus Pouteria;species campechiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lucuma</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">campechiana</taxon_name>
     <place_of_publication>
       <publication_title>in A. von Humboldt et al., Nov. Gen. Sp.</publication_title>
       <place_in_publication>3(fol.): 188; 3(qto.): 240.  1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM" />
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lucuma</genus_name>
-    <species_name>nervosa</species_name>
-    <species_authority>A. de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Trees to 8 m. Leaves: petiole 10–25(–45) mm, finely hairy; blade elliptic to
-        oblanceolate or obovate, 80–250(–330) × 30–80(–150) mm, margins revolute. Pedicels 6–12 mm,
-        densely hairy. Flowers: sepals ovate to suborbiculate, 4.5–11 mm; petals 8–12 mm, tube
-        5–6(–8) mm; staminodes petaloid, 2–4 mm. Berries 25–70 mm, apex short-rostrate, surface
-        smooth. Seeds 1–6, 20–40 mm.</description>
-  <phenology>Flowering mid summer</phenology>
-  <habitat>Hardwood hammocks</habitat>
-  <elevation>0–5 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Cuba)</global_distribution>
-  <global_distribution>Central America.</global_distribution>
+    <taxon_hierarchy>genus Lucuma;species campechiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lucuma</taxon_name>
+    <taxon_name rank="species" authority="A. de Candolle" date="unknown">nervosa</taxon_name>
+    <taxon_hierarchy>genus Lucuma;species nervosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Canistel</other_name>
+  <other_name type="common_name">zapotillo</other_name>
+  <other_name type="common_name">zapote blanco</other_name>
   <discussion>Pouteria campechiana, native from Mexico to Panama, is frequently cultivated and
         escaped or persistent in the West Indies and Florida.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Calymperes</genus_name>
-    <species_name>tenerum</species_name>
-    <species_authority>Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">tenerum</taxon_name>
     <place_of_publication>
       <publication_title>Linnaea</publication_title>
       <place_in_publication>37: 174.  1872,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calymperes</genus_name>
-    <species_name>nashii</species_name>
-    <species_authority>R. S. Williams</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calymperes</genus_name>
-    <species_name>tenerum</species_name>
-    <subspecies_name>edamense</subspecies_name>
-    <subspecies_authority>Fleischer</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants gregarious or tufted, pale green to brownish, straight or curved at tips when dry, to 5 mm or more but mostly much shorter.  Leaves dimorphic; vegetative 1–3 mm; distal lamina oblong to broadly linear-lanceolate; margins 1-stratose or slightly thickened distally, entire; costa in cross section showing ad- and abaxial bands of stereid cells; medial cells distinct, 7–8 µm, slightly bulging adaxially, smooth or minutely papillose abaxially; teniolae absent; cancellinae ending in broad angles distally, adaxial cells smooth distally; gemmiferous leaves with apex of costa excurrent, bearing gemmae in pale golfball-like spheres all around on costa apex.</description>
-  <habitat>Not producing sporophytes in flora area.  Tree trunks and logs in hammock vegetation;</habitat>
-  <elevation>low elevations (0 m);</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Grand Bahama, Haiti, Puerto Rico)</global_distribution>
-  <global_distribution>South America (s Brazil)</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Indian Ocean Islands</us_distribution>
-  <us_distribution>Pacific Islands</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Calymperes;species tenerum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="R. S. Williams" date="unknown">nashii</taxon_name>
+    <taxon_hierarchy>genus Calymperes;species nashii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tenerum</taxon_name>
+    <taxon_name rank="subspecies" authority="Fleischer" date="unknown">edamense</taxon_name>
+    <taxon_hierarchy>genus Calymperes;species tenerum;subspecies edamense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Calymperes tenerum is very rare in the flora area, where it is known only from a few specimens from southern peninsular Florida.  Its absence of teniolae, narrow cancellinae, and gemmae in golfball-like spheres make it distinctive.  This species has a very wide distribution in the tropical parts of the world and is very common in the paleotropics; it is extremely scarce in the Neotropics, suggesting that it is an introduction there.</discussion>
-</treatment>
+</bio:treatment>

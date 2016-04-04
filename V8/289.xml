@@ -1,58 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>debilis</species_name>
-    <species_authority>Engelmann ex A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex A. Gray" date="unknown">debilis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>15: 62. 1864,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>cernua</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>debilis</variety_name>
-    <variety_authority>(Engelmann ex A. Gray) Engler</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>hyperborea</species_name>
-    <species_authority>R. Brown</species_authority>
-    <subspecies_name>debilis</subspecies_name>
-    <subspecies_authority>(Engelmann ex A. Gray) Á. Löve, D. Löve &amp; B. M. Kapoor</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>rivularis</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>debilis</variety_name>
-    <variety_authority>(Engelmann ex A. Gray) Dorn</variety_authority>
-  </TaxonIdentification>
-  <description>Plants usually densely tufted, sometimes loosely so, not stoloniferous, not
-        rhizomatous. Leaves basal and cauline, (3–5, proximal similar to basal); petiole ±
-        flattened, 5–70 mm; blade round or reniform, (3–)5–7-lobed (lobes obtuse),
-        (3–)4.5–6.7(–10.3) mm, slightly fleshy, margins entire, eciliate, surfaces glabrous.
-        Inflorescences 2–3(–5)-flowered, capitate cymes, sometimes solitary flowers, (flowers
-        subsessile), (3–)6.7–9(–19.4) cm, tangled, nonglandular-hairy; bracts petiolate. Flowers
-        (hypanthium V-shaped in longisection, glabrous or sparsely short stipitate-glandular);
-        sepals erect, oblong to ovate, (0.7–1 mm wide), margins eciliate, surfaces abaxially
-        glabrous; petals white to pale purple, not spotted, oblong, (1.7–)3–4.4(–6.2) mm, ± equaling
-        sepals; ovary 1/2 inferior. 2n = 26.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Alpine meadows, snow beds, open gravel and silt, seepage areas, stream and lake
-        margins, shady taluses, ravines or cliffs</habitat>
-  <elevation>2500–4000 m</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species debilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cernua</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann ex A. Gray) Engler" date="unknown">debilis</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species cernua;variety debilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">hyperborea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Engelmann ex A. Gray) Á. Löve, D. Löve &amp; B. M. Kapoor" date="unknown">debilis</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species hyperborea;subspecies debilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rivularis</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann ex A. Gray) Dorn" date="unknown">debilis</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species rivularis;variety debilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
   <discussion>Saxifraga debilis is known only from the central and southern Rocky Mountains, where
         it is often called S. rivularis (a species not present in the area). Its V-shaped (in
         longisection), glabrous or sparsely short stipitate-glandular hypanthia, and larger,
         more-lobed leaves (similar to S. bracteata in this) distinguish it from S. hyperborea, which
         is sometimes sympatric (M. H. Jørgensen et al. 2006).</discussion>
-</treatment>
+</bio:treatment>

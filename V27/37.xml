@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>balticum</species_name>
-    <species_authority>(Russow) C. E. O. Jensen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="(Russow) C. E. O. Jensen" date="unknown">balticum</taxon_name>
     <place_of_publication>
       <publication_title>in Botaniske Forening København, Festskrift,</publication_title>
       <place_in_publication>100.  1890,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>recurvum</species_name>
-    <subspecies_name>balticum</subspecies_name>
-    <subspecies_authority>Russow</subspecies_authority>
+    <taxon_hierarchy>genus Sphagnum;species balticum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">recurvum</taxon_name>
+    <taxon_name rank="subspecies" authority="Russow" date="unknown">balticum</taxon_name>
     <place_of_publication>
       <publication_title>Sitzungber. Naturf.-Ges. Dorpat</publication_title>
       <place_in_publication>9: 99.  1890</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants small to moderate-sized, soft and ± weak-stemmed; brownish green, yellow-green, yellowish to golden brown, capitulum typically flat and 5-radiate.  Stems pale green to brown, branch bases sometimes reddish; superficial cortex of 2–3 layers of moderately thin-walled and differentiated cells.  Stem leaves 0.8–1.1 mm, triangular-lingulate to lingulate, concave, spreading, apex broadly obtuse, hyaline cells fibrillose in apical region.  Branches slender and tapering, often 5-ranked and decurved, leaves somewhat elongated at distal end.  Branch fascicles with 2 spreading and mostly 1 pendent branch.  Branch stem green, cortex enlarged with conspicuous retort cells.  Branch leaves ovate-lanceolate, 1–1.7 mm, straight, slightly undulate and spreading; margin entire, hyaline cells on convex surface with 1–5 pores in cell ends and free near apex, on concave surface with round wall thinnings in cell ends and angles; chlorophyllous cells triangular in transverse section and well-enclosed on concave surface.  Sexual condition dioicous.  Spores 25–33 µm; smooth to finely papillose on both surfaces; proximal laesura approximately 0.5 spore radius.</description>
-  <habitat>Abundant in hollows and floating mats in raised bogs and poor fens;</habitat>
-  <elevation>low to high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species recurvum;subspecies balticum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
   <discussion>Unlike Sphagnum angustifolium and S. annulatum, S. balticum has stem leaves exerted at right angles to the stem.  It also has fewer and weaker hanging branches than does S. angustifolium, which make the stem itself often visible and the stem leaves easier to see.  Sphagnum balticum also lacks the paired pendent branch buds between the capitulum rays as seen in S. angustifolium.</discussion>
   <discussion>In Sphagnum kenaiense there are sometimes spreading stem leaves but this species has 2 hanging branches per fascicle.</discussion>
-</treatment>
+</bio:treatment>

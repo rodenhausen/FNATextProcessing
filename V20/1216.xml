@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>amplectens</species_name><species_authority>A. Gray</species_authority><variety_name>amplectens</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>pagosanus</species_name><species_authority>A. Heller</species_authority></TaxonIdentification><description>Plants (30–)40–60+; herbage sometimes sparsely hairy. Stems single or loosely clustered (relatively stiff-erect). Leaves mostly proximal and mid cauline (basal smaller, usually withering before flowering). Phyllaries frequently black or purplish toward tips, sometimes with black hairs on abaxial faces.</description><habitat>damp or drying, loose, rocky sites in upper conifer associations and near timberline</habitat><elevation>3100–4100 m;</elevation><us_distribution>Colo.</us_distribution><us_distribution>N.Mex.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">amplectens</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">amplectens</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species amplectens;variety amplectens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">pagosanus</taxon_name>
+    <taxon_hierarchy>genus Senecio;species pagosanus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9a.</number>
+</bio:treatment>

@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26s.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Racemosae</section_name>
-    <section_authority>G. Don</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David F. Murray</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="G. Don" date="unknown">Racemosae</taxon_name>
     <place_of_publication>
       <publication_title>in J. C. Loudon, Hort. Brit.,</publication_title>
       <place_in_publication>376. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>David F. Murray</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Atratae</section_name>
-    <section_authority>(Heuffel) H. Christ</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Microrhynchae</section_name>
-    <section_authority>(Drejer) L. H. Bailey</section_authority>
-  </TaxonIdentification>
-  <description>Plants loosely or densely cespitose, sometimes long rhizomatous or stoloniferous;
-    roots brown or black without yellow-brown felty covering. Culms purple or red at base. Leaves:
-    basal sheaths usually fibrous; sheath fronts membranous, mouth entire, proximal leaves, often
-    dotted or tinged red or purple, rarely prominently veined and becoming ladder-fibrillose,
-    glabrous; blades V-shaped in cross section when young, smooth or papillose. Inflorescences
-    racemose, with 1–10 spikes; proximal bracts threadlike or, rarely, scalelike, sheathless,
-    abaxial surface papillose; lateral spikes pistillate, rarely, gynecandrous with few staminate
-    flowers, pedunculate, prophyllate; terminal spike gynecandrous with few perigynia, staminate, or
-    pistillate. Proximal pistillate scales brown or black, not ciliate, apex obtuse to shortly
-    awned. Perigynia erect or ascending, veined or veinless on faces, with 2 distinct marginal
-    veins, sessile, obovoid to suborbicular, rounded or somewhat compressed in cross section, base
-    cuneate to ± rounded, apex tapering or rounded to beak or rarely beakless, smooth or papillose,
-    glabrous; beak entire or shortly bidentate. Stigmas 2–3. Achenes trigonous, smaller than to
-    almost filling bodies of perigynia; style deciduous.</description>
-  <number_of_infrataxa>Species ca. 60 (29 species in the flora):</number_of_infrataxa>
-  <global_distribution>dry plains</global_distribution>
-  <global_distribution>wetlands</global_distribution>
-  <global_distribution>arctic</global_distribution>
-  <global_distribution>alpine tundras in North America and Eurasia.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Racemosae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Heuffel) H. Christ" date="unknown">Atratae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Atratae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Drejer) L. H. Bailey" date="unknown">Microrhynchae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Microrhynchae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26s.</number>
+  <discussion>Species ca. 60 (29 species in the flora):</discussion>
   <references>
-    <reference> Hermann, F. J. 1968. Notes on Rocky Mountain carices. Rhodora 70:
+    <reference>Hermann, F. J. 1968. Notes on Rocky Mountain carices. Rhodora 70:
       419–421.</reference>
-    <reference> Kalela, A. 1944. Systematische und Pflanzengeographische Studien an der Carex
+    <reference>Kalela, A. 1944. Systematische und Pflanzengeographische Studien an der Carex
       Subsektion Alpinae Kalela. Ann. Bot. Soc. Zool.-Bot. Fenn. “Vanamo” 19(3). Murray, D. F. 1969.
       Taxonomy of Carex sect. Atratae (Cyperaceae) in the southern Rocky Mountains. Brittonia 21:
       55–76.</reference>
@@ -52,379 +39,379 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Terminal spike staminate (or androgynous in C. adelostoma ).</statement>
+      <description type="morphology">Terminal spike staminate (or androgynous in C. adelostoma ).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Lateral spikes always present, all spikes of similar length.</statement>
+      <description type="morphology">Lateral spikes always present, all spikes of similar length.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves 3–7 mm wide; perigynia smooth; culms smooth or nearly so</statement>
+      <description type="morphology">Leaves 3–7 mm wide; perigynia smooth; culms smooth or nearly so</description>
       <determination>225. Carex raynoldsii</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves 1.5–4 mm wide; perigynia papillose; culms scabrous.</statement>
+      <description type="morphology">Leaves 1.5–4 mm wide; perigynia papillose; culms scabrous.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Perigynia distinctly beaked, veinless</statement>
+      <description type="morphology">Perigynia distinctly beaked, veinless</description>
       <determination>211. Carex stylosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Perigynia beakless or minutely beaked.</statement>
+      <description type="morphology">Perigynia beakless or minutely beaked.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perigynia brown, obscurely veined; arctic</statement>
+      <description type="morphology">Perigynia brown, obscurely veined; arctic</description>
       <determination>212. Carex holostoma</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perigynia pale green, veinless; subarctic</statement>
+      <description type="morphology">Perigynia pale green, veinless; subarctic</description>
       <determination>217. Carex adelostoma (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Lateral spikes absent, or mostly much shorter than terminal spike as long as
+      <description type="morphology">Lateral spikes absent, or mostly much shorter than terminal spike as long as
         terminal in C. parryana ( C. hallii and C. idahoa can have single, terminal, staminate
-        spike) [See also the key to unispicate Carex ].</statement>
+        spike) [See also the key to unispicate Carex ].</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia 3–6.6 × 1.2–3.4 mm; beak veined, 0.5–1 mm.</statement>
+      <description type="morphology">Perigynia 3–6.6 × 1.2–3.4 mm; beak veined, 0.5–1 mm.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perigynia (2–)3–5 × 1.2–2 mm</statement>
+      <description type="morphology">Perigynia (2–)3–5 × 1.2–2 mm</description>
       <determination>226. Carex serratodens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perigynia (4.7–)5–6.6 × 2.2–3.4 mm</statement>
+      <description type="morphology">Perigynia (4.7–)5–6.6 × 2.2–3.4 mm</description>
       <determination>227. Carex aboriginum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia 2–3 × 2–2.5 mm; beak veinless, minute to 0.2 mm.</statement>
+      <description type="morphology">Perigynia 2–3 × 2–2.5 mm; beak veinless, minute to 0.2 mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Pistillate scales dark brown to black, mostly exceeding perigynia</statement>
+      <description type="morphology">Pistillate scales dark brown to black, mostly exceeding perigynia</description>
       <determination>215. Carex idahoa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Pistillate scales light to dark brown, shorter than, equaling, or only barely
-        exceeding perigynia.</statement>
+      <description type="morphology">Pistillate scales light to dark brown, shorter than, equaling, or only barely
+        exceeding perigynia.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Lateral spikes much shorter than terminal spike</statement>
+      <description type="morphology">Lateral spikes much shorter than terminal spike</description>
       <determination>214. Carex hallii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Lateral spikes (1 or more) as long as terminal spike</statement>
+      <description type="morphology">Lateral spikes (1 or more) as long as terminal spike</description>
       <determination>213. Carex parryana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Terminal spike gynecandrous (or wholly pistillate in C. parryana , C . hallii , and
-        C. idahoa ).</statement>
+      <description type="morphology">Terminal spike gynecandrous (or wholly pistillate in C. parryana , C . hallii , and
+        C. idahoa ).</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Lateral spikes sessile or short-pendunculate; spikes, at least proximal, sometimes
-        separate and distinct; distal spikes forming dense terminal cluster.</statement>
+      <description type="morphology">Lateral spikes sessile or short-pendunculate; spikes, at least proximal, sometimes
+        separate and distinct; distal spikes forming dense terminal cluster.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Achenes nearly filling body of perigynia.</statement>
+      <description type="morphology">Achenes nearly filling body of perigynia.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Plants with long-creeping rhizomes; perigynia 4–5 mm; beak 0.6–0.8 mm;
-        pis-</statement>
+      <description type="morphology">Plants with long-creeping rhizomes; perigynia 4–5 mm; beak 0.6–0.8 mm;
+        pis-</description>
       <determination>209. Carex sabulosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Plants without long-creeping rhizomes; perigynia 2–3.5 mm; beak 0.2–0.4 mm;
-        pistillate scales; North America, Eurasia.</statement>
+      <description type="morphology">Plants without long-creeping rhizomes; perigynia 2–3.5 mm; beak 0.2–0.4 mm;
+        pistillate scales; North America, Eurasia.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Perigynia green or golden brown, veinless; pistillate scales with
-        hyaline</statement>
+      <description type="morphology">Perigynia green or golden brown, veinless; pistillate scales with
+        hyaline</description>
       <determination>205. Carex norvegica</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Perigynia dark brown to purple-black, often veined proximally;
-        pistillate</statement>
+      <description type="morphology">Perigynia dark brown to purple-black, often veined proximally;
+        pistillate</description>
       <determination>206. Carex media</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Achenes filling proximal 1 / 2 or less of perigynia.</statement>
+      <description type="morphology">Achenes filling proximal 1 / 2 or less of perigynia.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Perigynia ovate or elliptic.</statement>
+      <description type="morphology">Perigynia ovate or elliptic.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Perigynia ovate, abruptly beaked; pistillate scales dark brown to
-        almost</statement>
+      <description type="morphology">Perigynia ovate, abruptly beaked; pistillate scales dark brown to
+        almost</description>
       <determination>223. Carex nova (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Perigynia elliptic, gradually beaked; pistillate scales blue-black with
-        hya-</statement>
+      <description type="morphology">Perigynia elliptic, gradually beaked; pistillate scales blue-black with
+        hya-</description>
       <determination>224. Carex nelsonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Perigynia obovate.</statement>
+      <description type="morphology">Perigynia obovate.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Pistillate scales as wide as perigynia, usually shorter than or equaling perigynia;
-        distal margins of perigynia papillose, frequently serrulate</statement>
+      <description type="morphology">Pistillate scales as wide as perigynia, usually shorter than or equaling perigynia;
+        distal margins of perigynia papillose, frequently serrulate</description>
       <determination>223. Carex nova (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Pistillate scales narrower than perigynia, usually longer than perigynia; distal
-        margins of perigynia smooth, not serrulate.</statement>
+      <description type="morphology">Pistillate scales narrower than perigynia, usually longer than perigynia; distal
+        margins of perigynia smooth, not serrulate.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Perigynia dark brown to purple-black; pistillate scales attenuate and</statement>
+      <description type="morphology">Perigynia dark brown to purple-black; pistillate scales attenuate and</description>
       <determination>221. Carex helleri</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Perigynia glossy reddish brown; pistillate scales acute, equaling or
-        barely</statement>
+      <description type="morphology">Perigynia glossy reddish brown; pistillate scales acute, equaling or
+        barely</description>
       <determination>222. Carex pelocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Lateral spikes pedunculate; spikes contiguous or separate; distal spikes not
-        forming a dense terminal cluster.</statement>
+      <description type="morphology">Lateral spikes pedunculate; spikes contiguous or separate; distal spikes not
+        forming a dense terminal cluster.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Proximal lateral spikes spreading or pendent.</statement>
+      <description type="morphology">Proximal lateral spikes spreading or pendent.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Perigynia ovate.</statement>
+      <description type="morphology">Perigynia ovate.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Leaves basal and cauline; proximal leaves bladeless, reduced to sheaths;
-        pistillate</statement>
+      <description type="morphology">Leaves basal and cauline; proximal leaves bladeless, reduced to sheaths;
+        pistillate</description>
       <determination>208. Carex mertensii</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Leaves all basal; proximal leaves with blades; pistillate scales equaling or
-        exceeding</statement>
+      <description type="morphology">Leaves all basal; proximal leaves with blades; pistillate scales equaling or
+        exceeding</description>
       <determination>202. Carex chalciolepis</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Perigynia broadly elliptic or obovate.</statement>
+      <description type="morphology">Perigynia broadly elliptic or obovate.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Perigynia broadly elliptic, papillose</statement>
+      <description type="morphology">Perigynia broadly elliptic, papillose</description>
       <determination>201. Carex atratiformis</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Perigynia obovate, smooth.</statement>
+      <description type="morphology">Perigynia obovate, smooth.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Pistillate scales as broad as perigynia</statement>
+      <description type="morphology">Pistillate scales as broad as perigynia</description>
       <determination>218. Carex bella</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Pistillate scales narrower than perigynia.</statement>
+      <description type="morphology">Pistillate scales narrower than perigynia.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Terminal spike with 1 / 3 – 2 / 3 staminate flowers at base; perigynia light
-        green;</statement>
+      <description type="morphology">Terminal spike with 1 / 3 – 2 / 3 staminate flowers at base; perigynia light
+        green;</description>
       <determination>219. Carex heteroneura</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Terminal spike with fewer than 1 / 4 staminate flowers at base; perigynia brown
-        with light colored margins; pistillate scales with midveins same color</statement>
+      <description type="morphology">Terminal spike with fewer than 1 / 4 staminate flowers at base; perigynia brown
+        with light colored margins; pistillate scales with midveins same color</description>
       <determination>220. Carex epapillosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Proximal lateral spikes erect, not spreading or pendent.</statement>
+      <description type="morphology">Proximal lateral spikes erect, not spreading or pendent.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Lateral spikes of varying lengths, mostly shorter than terminal spike ( Carex
-        hallii and C. idahoa can have a single, terminal spike).</statement>
+      <description type="morphology">Lateral spikes of varying lengths, mostly shorter than terminal spike ( Carex
+        hallii and C. idahoa can have a single, terminal spike).</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Pistillate dark brown to black, scales exceeding perigynia</statement>
+      <description type="morphology">Pistillate dark brown to black, scales exceeding perigynia</description>
       <determination>215. Carex idahoa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Pistillate scales light to dark brown, shorter than, equaling, or barely exceeding
-        perigynia.</statement>
+      <description type="morphology">Pistillate scales light to dark brown, shorter than, equaling, or barely exceeding
+        perigynia.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Lateral spikes much shorter than terminal spike</statement>
+      <description type="morphology">Lateral spikes much shorter than terminal spike</description>
       <determination>214. Carex hallii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Lateral spikes (1 or more) as long as terminal spike</statement>
+      <description type="morphology">Lateral spikes (1 or more) as long as terminal spike</description>
       <determination>213. Carex parryana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Lateral spikes of similar length.</statement>
+      <description type="morphology">Lateral spikes of similar length.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Perigynia ovate, gradually beaked; beak 0.5–1 mm, bidentate, teeth
-        spreading.</statement>
+      <description type="morphology">Perigynia ovate, gradually beaked; beak 0.5–1 mm, bidentate, teeth
+        spreading.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Perigynia (2–)3–5 × 1.2–2 mm</statement>
+      <description type="morphology">Perigynia (2–)3–5 × 1.2–2 mm</description>
       <determination>226. Carex serratodens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Perigynia (4.7–)5–6.6 × 2.2–3.4 mm</statement>
+      <description type="morphology">Perigynia (4.7–)5–6.6 × 2.2–3.4 mm</description>
       <determination>227. Carex aboriginum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Perigynia obovate or broadly elliptic, beakless, minutely beaked, or distinctly,
-        abruptly beaked; beak 0.2–0.5 mm, teeth, when present, not spreading.</statement>
+      <description type="morphology">Perigynia obovate or broadly elliptic, beakless, minutely beaked, or distinctly,
+        abruptly beaked; beak 0.2–0.5 mm, teeth, when present, not spreading.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Pistillate scales ovate or broadly lanceolate, apex blunt.</statement>
+      <description type="morphology">Pistillate scales ovate or broadly lanceolate, apex blunt.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Spikes short-oblong or cylindric, 3–4.5 mm wide; perigynia 2–2.5 mm;</statement>
+      <description type="morphology">Spikes short-oblong or cylindric, 3–4.5 mm wide; perigynia 2–2.5 mm;</description>
       <determination>207. Carex stevenii</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Spikes oblong or elongate, 5–6 mm wide; perigynia 2.5–3.5 mm; beak 0.3–</statement>
+      <description type="morphology">Spikes oblong or elongate, 5–6 mm wide; perigynia 2.5–3.5 mm; beak 0.3–</description>
       <determination>204. Carex atrosquama</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Pistillate scales lanceolate, apex acute to conspicuously
-        long-mucronate.</statement>
+      <description type="morphology">Pistillate scales lanceolate, apex acute to conspicuously
+        long-mucronate.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Pistillate scales conspicuously long-mucronate.</statement>
+      <description type="morphology">Pistillate scales conspicuously long-mucronate.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Perigynia brown, smooth; beak longer than 0.2 mm</statement>
+      <description type="morphology">Perigynia brown, smooth; beak longer than 0.2 mm</description>
       <determination>210. Carex gmelinii</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Perigynia gray-green, papillose; beak absent or less than 0.2 mm</statement>
+      <description type="morphology">Perigynia gray-green, papillose; beak absent or less than 0.2 mm</description>
       <determination>216. Carex buxbaumii</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Pistillate scales acute or short-mucronate.</statement>
+      <description type="morphology">Pistillate scales acute or short-mucronate.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Perigynia gray-green, conspicuously papillose throughout; beak minute,</statement>
+      <description type="morphology">Perigynia gray-green, conspicuously papillose throughout; beak minute,</description>
       <determination>217. Carex adelostoma (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Perigynia straw colored, dark brown, or black, conspicuously papillose along distal
-        margins; beak greater than 0.2 mm.</statement>
+      <description type="morphology">Perigynia straw colored, dark brown, or black, conspicuously papillose along distal
+        margins; beak greater than 0.2 mm.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Pistillate scales acute, dark brown or black to margins</statement>
+      <description type="morphology">Pistillate scales acute, dark brown or black to margins</description>
       <determination>200. Carex atrata</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Pistillate scales acute or short-mucronate, light to dark brown with hyaline
-        margins.</statement>
+      <description type="morphology">Pistillate scales acute or short-mucronate, light to dark brown with hyaline
+        margins.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Perigynia dark brown, almost black; pistillate scales equaling</statement>
+      <description type="morphology">Perigynia dark brown, almost black; pistillate scales equaling</description>
       <determination>203. Carex albonigra</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Perigynia straw colored; pistillate scales shorter than perigynia</statement>
+      <description type="morphology">Perigynia straw colored; pistillate scales shorter than perigynia</description>
       <determination>228. Carex specuicola</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

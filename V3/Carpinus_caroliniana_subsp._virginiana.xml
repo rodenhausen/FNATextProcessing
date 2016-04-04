@@ -1,102 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Carpinus</genus_name>
-        <species_name>caroliniana</species_name>
-        <species_authority>Walter</species_authority>
-        <subspecies_name>virginiana</subspecies_name>
-        <subspecies_authority>(Marshall) Furlow</subspecies_authority>
-        <place_of_publication>
-            <publication_title> Syst. Bot. </publication_title>
-            <place_in_publication>12: 429. 1987</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>American hornbeam</common_name>
-    <common_name> blue beech</common_name>
-    <common_name> musclewood</common_name>
-    <common_name> ironwood</common_name>
-    <common_name> charme de Caroline</common_name>
-    <common_name> bois de fer</common_name>
-    <endemic>endemic</endemic>
-    <illustrated>illustrated</illustrated>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Carpinus</genus_name>
-        <species_name>betulus</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>virginiana</variety_name>
-        <variety_authority>Marshall</variety_authority>
-        <place_of_publication>
-            <publication_title>Arbust. Amer., </publication_title>
-            <place_in_publication>25. 1785</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carpinus</genus_name>
-        <species_name>caroliniana</species_name>
-        <variety_name>virginiana</variety_name>
-        <variety_authority>(Marshall) Fernald</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Carpinus</genus_name>
-        <species_name>virginiana</species_name>
-        <species_authority>(Marshall) Sudworth</species_authority>
-        <place_of_publication>
-            <place_in_publication>1893</place_in_publication>
-            <other_info>not Miller 1768</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Trees, to 12 m; trunks short, crooked, shallowly to deeply and often irregularly
-        fluted, crowns broadly spreading. Bark bluish gray, smooth to somewhat roughened. Leaf blade
-        ovate or elliptic to narrowly elliptic, (6--)8--12 × 3.5--6 cm, base narrowly rounded to
-        cordate, margins coarsely and unevenly doubly serrate, teeth sharp and slender, secondary
-        teeth almost as large as primary teeth, apex usually abruptly nearly caudate, but sometimes
-        long, gradually tapered; surfaces abaxially usually moderately pubescent, especially on
-        major veins, covered with numerous tiny, dark brown glands. Inflorescences: staminate
-        inflorescences 2--6 cm; pistillate inflorescences 1--3 cm. Infructescences 4.5--12 cm;
-        bracts 2.5--3.5 × 1.5--2.8 cm, lobes narrowly triangular, sharp-tipped. 2n =
-        16.</description>
-    <phenology>Flowering late spring</phenology>
-    <habitat> In understory stratum in rich deciduous forest along stream banks, on flood plains,
-        and on moist hillsides</habitat>
-    <elevation> 0--300 m</elevation>
-    <ca_distribution> Ont.</ca_distribution>
-    <ca_distribution> Que.</ca_distribution>
-    <us_distribution> Ala.</us_distribution>
-    <us_distribution> Ark.</us_distribution>
-    <us_distribution> Conn.</us_distribution>
-    <us_distribution> Del.</us_distribution>
-    <us_distribution> D.C.</us_distribution>
-    <us_distribution> Ga.</us_distribution>
-    <us_distribution> Ill.</us_distribution>
-    <us_distribution> Ind.</us_distribution>
-    <us_distribution> Iowa</us_distribution>
-    <us_distribution> Ky.</us_distribution>
-    <us_distribution> Maine</us_distribution>
-    <us_distribution> Md.</us_distribution>
-    <us_distribution> Mass.</us_distribution>
-    <us_distribution> Mich.</us_distribution>
-    <us_distribution> Minn.</us_distribution>
-    <us_distribution> Miss.</us_distribution>
-    <us_distribution> Mo.</us_distribution>
-    <us_distribution> N.H.</us_distribution>
-    <us_distribution> N.J.</us_distribution>
-    <us_distribution> N.Y.</us_distribution>
-    <us_distribution> N.C.</us_distribution>
-    <us_distribution> Ohio</us_distribution>
-    <us_distribution> Okla.</us_distribution>
-    <us_distribution> Pa.</us_distribution>
-    <us_distribution> R.I.</us_distribution>
-    <us_distribution> S.C.</us_distribution>
-    <us_distribution> Tenn.</us_distribution>
-    <us_distribution> Vt.</us_distribution>
-    <us_distribution> Va.</us_distribution>
-    <us_distribution> W.Va.</us_distribution>
-    <us_distribution> Wis.</us_distribution>
-    <discussion>Carpinus caroliniana subsp. virginiana is the familiar hornbeam of the Appalachians
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carpinus</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">caroliniana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Marshall) Furlow" date="unknown">virginiana</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Bot.</publication_title>
+      <place_in_publication>12: 429. 1987</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carpinus;species caroliniana;subspecies virginiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carpinus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">betulus</taxon_name>
+    <taxon_name rank="variety" authority="Marshall" date="unknown">virginiana</taxon_name>
+    <place_of_publication>
+      <publication_title>Arbust. Amer.,</publication_title>
+      <place_in_publication>25. 1785</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carpinus;species betulus;variety virginiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carpinus</taxon_name>
+    <taxon_name rank="species" authority="(Marshall) Sudworth" date="unknown">caroliniana</taxon_name>
+    <taxon_name rank="variety" authority="(Marshall) Fernald" date="unknown">virginiana</taxon_name>
+    <taxon_hierarchy>genus Carpinus;species caroliniana;variety virginiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carpinus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1893</place_in_publication>
+      <other_info_on_pub>not Miller 1768</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carpinus;species virginiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">American hornbeam</other_name>
+  <other_name type="common_name">blue beech</other_name>
+  <other_name type="common_name">musclewood</other_name>
+  <other_name type="common_name">ironwood</other_name>
+  <other_name type="common_name">charme de Caroline</other_name>
+  <other_name type="common_name">bois de fer</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>Carpinus caroliniana subsp. virginiana is the familiar hornbeam of the Appalachians
         and interior forested northeastern North America. The leaves are distinctive in that they
         bear scattered dark glands on the abaxial surface. This subspecies hybridizes and
         intergrades with subsp. caroliniana where their ranges overlap in a broad band running from
         the Carolinas south to northern Georgia and westward to Missouri, Arkansas, and southeastern
         Oklahoma (J. J. Furlow 1987).</discussion>
-</treatment>
+</bio:treatment>

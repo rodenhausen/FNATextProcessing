@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9b.3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agave</genus_name><species_name>utahensis</species_name><species_authority>Engelmann</species_authority><variety_name>eborispina</variety_name><variety_authority>(Hester) Breitung</variety_authority><place_of_publication>
-    <publication_title>Cact. Succ. J. (Los Angeles)</publication_title>
-    <place_in_publication>32: 22. 1960</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Ivory-spined agave</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Agave</genus_name><species_name>eborispina</species_name><species_authority>Hester</species_authority><place_of_publication><publication_title>Cact. Succ. J. (Los Angeles) </publication_title><place_in_publication>15: 131, fig. 59. 1943</place_in_publication></place_of_publication></TaxonIdentification><description>Rosettes 1.5–3 dm. Leaves 15–30 × 1.5–3 cm; marginal teeth 6–12(–15) mm; apical spine ivory white, stout, 10–20 cm. Scape 2–4 m.</description><phenology>winter</phenology><phenology>dec</phenology><phenology>jan</phenology><phenology>feb</phenology><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>calcareous outcrops with desert scrub</habitat><elevation>1100–1900 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">utahensis</taxon_name>
+    <taxon_name rank="variety" authority="(Hester) Breitung" date="unknown">eborispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact. Succ. J. (Los Angeles)</publication_title>
+      <place_in_publication>32: 22. 1960</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species utahensis;variety eborispina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Hester" date="unknown">eborispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact. Succ. J. (Los Angeles)</publication_title>
+      <place_in_publication>15: 131, fig. 59. 1943</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Agave;species eborispina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9b.3.</number>
+  <other_name type="common_name">Ivory-spined agave</other_name>
+</bio:treatment>

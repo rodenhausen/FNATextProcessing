@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Eucephalus</genus_name>
-        <species_name>ledophyllus</species_name>
-        <species_authority>(A. Gray) Greene</species_authority>
-        <variety_name>ledophyllus</variety_name>
-    </TaxonIdentification>
-    <description>Peduncles glandular or not, at least ± woolly or cottony. Rays usually 13 or 21. 2n
-        = 18.</description>
-    <phenology>jul</phenology>
-    <phenology>summer</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <habitat>meadows and open coniferous woods</habitat>
-    <elevation>400–2500 m;</elevation>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <discussion>Variety ledophyllus grows from central Washington to southern Oregon.</discussion>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eucephalus</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">ledophyllus</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">ledophyllus</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Eucephalus;species ledophyllus;variety ledophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a.</number>
+  <discussion>Variety ledophyllus grows from central Washington to southern Oregon.</discussion>
+</bio:treatment>

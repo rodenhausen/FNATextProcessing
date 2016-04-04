@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Syrrhopodon</genus_name>
-    <species_name>ligulatus</species_name>
-    <species_authority>Montagne</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Syrrhopodon</taxon_name>
+    <taxon_name rank="species" authority="Montagne" date="unknown">ligulatus</taxon_name>
     <place_of_publication>
       <publication_title>Syll. Gen. Sp. Crypt.,</publication_title>
       <place_in_publication>47.  1856,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calymperes</genus_name>
-    <species_name>crispum</species_name>
-    <species_authority>(Austin) Austin</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Syrrhopodon</genus_name>
-    <species_name>crispus</species_name>
-    <species_authority>Austin</species_authority>
-  </TaxonIdentification>
-  <description>Plants gregarious to caespitose, dark green to brownish green, to 0.5 cm.  Leaves monomorphic, 2 mm, crispate when dry; distal lamina not reflexed at shoulders, often folded-falcate when wet, ligulate, apex rounded or retuse; margins bordered at shoulders and irregularly distally with hyaline cells, entire or irregularly dentate at shoulders, entire distally except for projecting papillose cells; medial cells obscure due to papillosity, 5.5–6.5 µm, with bulging simple or multifid papillae ad- and abaxially; cancellinae rounded distally.  Gemmae clavate, smooth to slightly papillose, sparse, subterminal on adaxial surface of leaf apex.</description>
-  <habitat>Not producing sporophytes in flora area.  Fissures of tree bark, sandstone, humid forests along rivers and in swamp forests;</habitat>
-  <elevation>low elevations (0 m);</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Syrrhopodon;species ligulatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="(Austin) Austin" date="unknown">crispum</taxon_name>
+    <taxon_hierarchy>genus Calymperes;species crispum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Syrrhopodon</taxon_name>
+    <taxon_name rank="species" authority="Austin" date="unknown">crispus</taxon_name>
+    <taxon_hierarchy>genus Syrrhopodon;species crispus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Syrrhopodon ligulatus is not often collected because of its small size and obscure habitat, which is mostly on bark fissures.  The short-ligulate bluntly tipped leaves, crispate when dry, and with restricted hyaline border, make this species easy to recognize.</discussion>
-</treatment>
+</bio:treatment>

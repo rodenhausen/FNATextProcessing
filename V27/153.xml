@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Polytrichastrum</genus_name>
-    <species_name>sexangulare</species_name>
-    <species_authority>(Bridel) G. L. Smith</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polytrichastrum</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) G. L. Smith" date="unknown">sexangulare</taxon_name>
     <place_of_publication>
       <publication_title>Mem. New York Bot. Gard.</publication_title>
       <place_in_publication>21(3): 37.  1971,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Polytrichum</genus_name>
-    <species_name>sexangulare</species_name>
-    <species_authority>Bridel</species_authority>
+    <taxon_hierarchy>genus Polytrichastrum;species sexangulare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polytrichum</taxon_name>
+    <taxon_name rank="species" authority="Bridel" date="unknown">sexangulare</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. (Schrader)</publication_title>
       <place_in_publication>1800(1): 285.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants small to medium, rather wiry, dark green to reddish brown with age.  Stems 1–3(–6) cm, simple, erect or decumbent, the cortical cells thin- or thick-walled.  Leaves 3–6 mm, loosely to densely imbricate, erect-incurved at the tips and appressed to the stem when dry, erect-spreading when moist, obtusely cucullate, often secund; sheath broadly elliptic, hyaline-margined, gradually tapering or abruptly contracted to the blade; blade lanceolate to ligulate, almost tubular when dry; costa percurrent or slightly excurrent, cucullate at the apex, rarely bluntly mucronate; marginal lamina 2–6 cells wide, entire to obscurely denticulate, slightly broader and inflexed in the distal part of blade, covering the lamellae; lamellae 5–8(–11) cells high, minutely crenulate in profile, the marginal cells in section larger than those beneath, narrowly ovate to pyriform, smooth or very rarely indistinctly papillose; median sheath cells elongate-rectangular, (18–)24–40 × 8–10(–18) µm; cells of marginal lamina 11–15 µm, quadrate to short rectangular, ± equally thick-walled; perichaetial leaves slightly longer than the foliage leaves.  Seta 1.5–3 cm, rather stout, straight or arcuate with age.  Capsule 2–3 mm, short-cylindric to ovoid to globose, bluntly (4–)5–6-angled to terete, erect to horizontal to nodding; hypophysis small, scarcely delimited, stomata large and scattered on the proximal 1/3 of the urn; exothecium smooth, the cells variable in shape, trigonal to hexagonal, with a diffuse thin spot; peristome pale 220–300 µm high, divided to 0.3–0.5,  the teeth 50–64, slender, of uniform size, or short triangular, the alternate teeth smaller.  Spores 16–18 µm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>cool temperate and boreal Northern Hemisphere.</global_distribution>
+    <taxon_hierarchy>genus Polytrichum;species sexangulare;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>There has been a long-standing confusion of the names Polytrichum septentrionale, Polytrichastrum norwegicum, and Polytrichastrum sexangulare dating from the earliest days of bryology, and still met with in older collections in herbaria.  Hedwig’s Polytrichastrum norwegicum was briefly in vogue as a name for this species, but the type of Polytrichastrum norwegicum is a form of Polytrichastrum alpinum (Gary L. Smith 1971).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stem cortical cells thin-walled; seta straight; capsule short-cylindric to ovoid to subglobose, (4–)5–6-angled; peristome teeth 50–64, slender, of uniform size</statement>
+      <description type="morphology">Stem cortical cells thin-walled; seta straight; capsule short-cylindric to ovoid to subglobose, (4–)5–6-angled; peristome teeth 50–64, slender, of uniform size</description>
       <determination>3a.   Polytrichastrum sexangulare var. sexangulare</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stem cortical cells thick-walled; seta rather thick and curved; capsule subglobose, terete; peristome teeth 32, attenuate, of unequal size var. vulcanicum</statement>
+      <description type="morphology">Stem cortical cells thick-walled; seta rather thick and curved; capsule subglobose, terete; peristome teeth 32, attenuate, of unequal size var. vulcanicum</description>
       <determination>3b.   Polytrichastrum sexangulare var. vulcanicum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

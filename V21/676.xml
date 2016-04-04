@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Centromadia</genus_name><species_name>pungens</species_name><species_authority>(Hooker &amp; Arnott) Greene</species_authority><subspecies_name>laevis</subspecies_name><subspecies_authority>(D. D. Keck) B. G. Baldwin</subspecies_authority><place_of_publication>
-    <publication_title>Novon</publication_title>
-    <place_in_publication>4: 467. 1999</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Hemizonia</genus_name><species_name>pungens</species_name><species_authority>(Hooker &amp; Arnott) Torrey &amp; A. Gray</species_authority><subspecies_name>laevis</subspecies_name><subspecies_authority>D. D. Keck</subspecies_authority><place_of_publication><publication_title>Madroño </publication_title><place_in_publication>3: 14. 1935</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hemizonia</genus_name><species_name>laevis</species_name><species_authority>(D. D. Keck) D. D. Keck</species_authority></TaxonIdentification><description>Leaves: margins bristly-ciliate, faces glabrous but for bristly midribs. Paleae little, if at all, exserted, apices obtuse to acute, sometimes apiculate. 2n = 18.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>open, ± alkaline flats</habitat><habitat>depressions</habitat><habitat>stream banks and beds</habitat><habitat>grasslands</habitat><habitat>disturbed sites</habitat><conservation>of conservation concern;</conservation><elevation>90–500 m;</elevation><us_distribution>Calif.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution><discussion>Subspecies laevis is known only from the interior South Coast region and Peninsular Ranges.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Madiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centromadia</taxon_name>
+    <taxon_name rank="species" authority="(Hooker &amp; Arnott) Greene" date="unknown">pungens</taxon_name>
+    <taxon_name rank="subspecies" authority="(D. D. Keck) B. G. Baldwin" date="unknown">laevis</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>4: 467. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Madiinae;genus Centromadia;species pungens;subspecies laevis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemizonia</taxon_name>
+    <taxon_name rank="species" authority="(Hooker &amp; Arnott) Torrey &amp; A. Gray" date="unknown">pungens</taxon_name>
+    <taxon_name rank="subspecies" authority="D. D. Keck" date="unknown">laevis</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>3: 14. 1935</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hemizonia;species pungens;subspecies laevis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemizonia</taxon_name>
+    <taxon_name rank="species" authority="(D. D. Keck) D. D. Keck" date="unknown">laevis</taxon_name>
+    <taxon_hierarchy>genus Hemizonia;species laevis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Subspecies laevis is known only from the interior South Coast region and Peninsular Ranges.</discussion>
+</bio:treatment>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20b.2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Obione</subgenus_name>
-        <section_name>Endolepis</section_name>
-        <section_authority>(Torrey) McNeill</section_authority>
-        <place_of_publication>
-            <publication_title>in I. J. Bassett et al., Atriplex Canada,</publication_title>
-            <place_in_publication>16. 1983</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <section_name>Endolepis</section_name>
-        <section_authority>Torrey</section_authority>
-        <place_of_publication>
-            <publication_title>in War Department [U.S.], Pacif. Railr. Rep. </publication_title>
-            <place_in_publication>12(2): 47. 1860</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants annual, monoecious. Leaves with normal (non-Kranz) anatomy. Staminate
-        flowers with perianth segments often crested. Pistillate flowers with a 3–4-lobed perianth.
-        Bracteoles ovate, united to middle or beyond, faces lacking tubercles. Seeds: radicle
-        superior or lateral.</description>
-    <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-    <global_distribution>North America</global_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Obione</taxon_name>
+    <taxon_name rank="section" authority="(Torrey) McNeill" date="unknown">Endolepis</taxon_name>
+    <place_of_publication>
+      <publication_title>in I. J. Bassett et al., Atriplex Canada,</publication_title>
+      <place_in_publication>16. 1983</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Obione;section Endolepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="Torrey" date="unknown">Endolepis</taxon_name>
+    <place_of_publication>
+      <publication_title>in War Department [U.S.], Pacif. Railr. Rep.</publication_title>
+      <place_in_publication>12(2): 47. 1860</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>section Endolepis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20b.2.</number>
+  <discussion>Species 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,58 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>43d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>arizonicum</species_name>
-    <species_authority>(A. Gray) Petrak</species_authority>
-    <variety_name>chellyense</variety_name>
-    <variety_authority>(R. J. Moore &amp; Frankton) D. J. Keil</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Petrak" date="unknown">arizonicum</taxon_name>
+    <taxon_name rank="variety" authority="(R. J. Moore &amp; Frankton) D. J. Keil" date="unknown">chellyense</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 209. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species arizonicum;variety chellyense;</taxon_hierarchy>
-  <common_name>Navajo thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>chellyense</species_name>
-    <species_authority>R. J. Moore &amp; Frankton</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species arizonicum;variety chellyense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="R. J. Moore &amp; Frankton" date="unknown">chellyense</taxon_name>
     <place_of_publication>
       <publication_title>Canad. J. Bot.</publication_title>
       <place_in_publication>52: 547, plate 2. 1974</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>chuskaense</species_name>
-    <species_authority>R. J. Moore &amp; Frankton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>navajoense</species_name>
-    <species_authority>R. J. Moore &amp; Frankton</species_authority>
-  </TaxonIdentification>
-  <description>Stems glabrous or villous to tomentose with septate trichomes. Leaf blades deeply 1–2× divided, (lobes many, narrow, closely spaced), faces glabrous or abaxial villous along midveins with septate trichomes; main marginal spines usually very slender, 5–12 mm; cauline bases usually decurrent as spiny wings to 30 mm. Involucres cylindric to narrowly ovoid. Phyllary spines slender to ± stout, 1–20 mm. Corollas usually reddish purple, 25–32 mm, tubes 7–11, throats 4–7.5 mm, lobes 11–16 mm; style tips 2.5–3.5 mm. 2n = 34 (as C. chuskaense).</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Sep).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>desert scrub , grasslands , pine-oak-juniper woodlands , ponderosa pine forests ;</text>
-    <habitat>desert scrub</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>pine-oak-juniper woodlands</habitat>
-    <habitat>ponderosa pine forests</habitat>
-  </habitat_info>
-  <conservation>of conservation concern;</conservation>
-  <elevation>1600–2800 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
+    <taxon_hierarchy>genus Cirsium;species chellyense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="R. J. Moore &amp; Frankton" date="unknown">chuskaense</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species chuskaense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="R. J. Moore &amp; Frankton" date="unknown">navajoense</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species navajoense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>43d.</number>
+  <other_name type="common_name">Navajo thistle</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>R. J. Moore and C. Frankton (1974b) recognized three narrowly defined new species in the Cirsium arizonicum complex, all from a small area in the Defiance Plateau and Chuska Mountains in northeastern Arizona and northwestern New Mexico. The characters used to differentiate these taxa break down when additional specimens are examined, and they are all combined here as a single variety of C. arizonicum.</discussion>
-</treatment>
-
+</bio:treatment>

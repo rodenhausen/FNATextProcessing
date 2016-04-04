@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lygodium</genus_name><species_name>japonicum</species_name><species_authority>(Thunberg ex Murray) Swartz</species_authority><place_of_publication><publication_title>J. Bot. (Schrader)</publication_title><place_in_publication>1800(2): 106. 1801</place_in_publication></place_of_publication></TaxonIdentification><common_name>Japanese climbing fern</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Ophioglossum</genus_name><species_name>japonicum</species_name><species_authority>Thunberg ex Murray</species_authority><place_of_publication><publication_title>Syst. Veg. ed. </publication_title><place_in_publication>14, 926. May-June 1784</place_in_publication></place_of_publication></TaxonIdentification><description>Stems  creeping.  Leaves  to ca. 3(-30) m.  Petioles  borne 2-7 mm apart, 10-35 cm.  Sterile pinnae  on 1.5-3.5 cm stalks, triangular to lanceolate, 2-3-pinnate, 6-15 × 5.5-15 cm; ultimate segments lanceolate, lobed or divided proximally; lobes usually acute at tip and directed toward apex; segment apices long-attenuate to acute; segments not articulate to petiolules, not leaving wiry stalks when detached; blade tissue pubescent abaxially with short, curved hairs.  Fertile pinnae  on 1-2 cm stalks, lanceolate-triangular, 2-3-pinnate, 5-18 × 4-14 cm; ultimate segments ovate to lanceolate, fringed with fertile lobes, otherwise similiar to sterile segments.</description><discussion>Lygodium japonicum is native to eastern Asia. It is commonly naturalized or escaped from cultivation. It has been reported as weedy in southern Alabama and Florida where its dense canopy can eliminate underlying vegetation.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodium</taxon_name>
+    <taxon_name rank="species" authority="(Thunberg ex Murray) Swartz" date="unknown">japonicum</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Bot. (Schrader)</publication_title>
+      <place_in_publication>1800(2): 106. 1801</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lygodium;species japonicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ophioglossum</taxon_name>
+    <taxon_name rank="species" authority="Thunberg ex Murray" date="unknown">japonicum</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Veg. ed.</publication_title>
+      <place_in_publication>14, 926. May-June 1784</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ophioglossum;species japonicum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3</number>
+  <other_name type="common_name">Japanese climbing fern</other_name>
+  <discussion>Lygodium japonicum is native to eastern Asia. It is commonly naturalized or escaped from cultivation. It has been reported as weedy in southern Alabama and Florida where its dense canopy can eliminate underlying vegetation.</discussion>
+</bio:treatment>

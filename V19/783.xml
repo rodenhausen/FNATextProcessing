@@ -1,56 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hesperevax</genus_name>
-    <species_name>acaulis</species_name>
-    <species_authority>(Kellogg) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperevax</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Greene" date="unknown">acaulis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Francisc.,</publication_title>
       <place_in_publication>402. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species acaulis;</taxon_hierarchy>
-  <common_name>Dwarf evax</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Stylocline</genus_name>
-    <species_name>acaulis</species_name>
-    <species_authority>Kellogg</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species acaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylocline</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">acaulis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci.</publication_title>
       <place_in_publication>7: 112. 1877 (as acaule)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>acaulis</species_name>
-    <species_authority>(Kellogg) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.5–7 cm. Stems 0 or 1–10, erect to prostrate; branches usually 0, sometimes proximal and/or distal. Leaves basal or cauline, sessile or petiolate, distal congested, larger than proximal (if present), largest 4–22(–32) × 0.5–4(–5) mm; petioles: lengths 0–1.5 times blade lengths, bases scarcely thickened, pliant to somewhat cartilaginous; capitular leaves 6–12 (rarely more) per glomerule or head, whorled, ± erect or distally spreading, unlike pistillate paleae. Heads terminal, borne singly or, rarely, in dense glomerules (3–7 mm diam.) of 2–8 mixed with leaves and, rarely, some borne singly in axils (then smaller), campanulate, 2–4 × 1.5–3.5 mm, heights 1–1.5 times diams. Receptacles distinct, 0.9–1.9 × 0.8–1.7 mm. Pistillate paleae in 2–5 series, spirally ranked, broadly spatulate, 1–3 mm. Staminate paleae surpassing pistillate, 1.6–3.2 mm, lengths 0.6–0.8 times head heights; apices spreading. Functionally staminate florets 2–5(–12); corollas 0.6–1 mm. Cypselae 0.6–1.6 mm.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>sw United States.</global_distribution>
+    <taxon_hierarchy>genus Stylocline;species acaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Greene" date="unknown">acaulis</taxon_name>
+    <taxon_hierarchy>genus Evax;species acaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Dwarf evax</other_name>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <discussion>The varieties of Hesperevax acaulis show enough geographic and ecologic segregation correlated with morphologic differences to warrant taxonomic recognition. Across west-central California, where all three are broadly sympatric, the varieties tend to occur in different habitats and/or elevation zones. Intermediate specimens are difficult to assign with confidence.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems ± erect; largest leaves (9–)12–22(–32) × 2–4 mm; longest staminate paleae 2.5–3.2 mm</statement>
+      <description type="morphology">Stems ± erect; largest leaves (9–)12–22(–32) × 2–4 mm; longest staminate paleae 2.5–3.2 mm</description>
       <determination>2a. Hesperevax acaulis var. robustior</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems usually ± prostrate or 0; largest leaves mostly 4–12 × 0.5–2 mm; longest staminate paleae 1.6–2.4 mm.</statement>
+      <description type="morphology">Stems usually ± prostrate or 0; largest leaves mostly 4–12 × 0.5–2 mm; longest staminate paleae 1.6–2.4 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves petiolate, largest mostly 4–7 × 1–2 mm, blades ± round, obtuse</statement>
+      <description type="morphology">Leaves petiolate, largest mostly 4–7 × 1–2 mm, blades ± round, obtuse</description>
       <determination>2b. Hesperevax acaulis var. ambusticola</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves sessile or obscurely petiolate, largest mostly 7–12 × 0.5–2 mm, blades oblanceolate, acute</statement>
+      <description type="morphology">Leaves sessile or obscurely petiolate, largest mostly 7–12 × 0.5–2 mm, blades oblanceolate, acute</description>
       <determination>2c. Hesperevax acaulis var. acaulis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

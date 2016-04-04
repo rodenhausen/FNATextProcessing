@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crassula</genus_name>
-    <species_name>longipes</species_name>
-    <species_authority>(Rose) M. Bywater &amp; Wickens</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crassula</taxon_name>
+    <taxon_name rank="species" authority="(Rose) M. Bywater &amp; Wickens" date="unknown">longipes</taxon_name>
     <place_of_publication>
       <publication_title>Kew Bull.</publication_title>
       <place_in_publication>39: 712.  1984,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tillaeastrum</genus_name>
-    <species_name>longipes</species_name>
-    <species_authority>Rose</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Crassula;species longipes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tillaeastrum</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">longipes</taxon_name>
     <place_of_publication>
       <publication_title>Contr. U.S. Natl. Herb.</publication_title>
       <place_in_publication>13: 301.  1911 (as Tilleastrum)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants aquatic or terrestrial, annual.  Stems spreading (in water) or erect, yellow in age, branched, to 25 cm if aquatic, to 5 cm if terrestrial.  Leaf blades lanceolate to oblanceolate, 2–5 mm, apex acute to obtuse.  Inflorescences lax; flowers 1 per node.  Pedicels 1–8 mm.  Flowers 4-merous; sepals triangular-ovate, 0.4–0.7 mm, apex obtuse; petals lanceolate, 1.1–1.7 mm.  Follicles ascending, 12–14-seeded, obliquely lanceoloid; old follicles spreading, flat.  Seeds oblong with rounded ends, 0.2–0.4 × 0.1–0.2 mm, not papillate, dull, rugulose.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Aquatic or in wet sand or mud</habitat>
-  <elevation>0–400 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>s South America.</global_distribution>
+    <taxon_hierarchy>genus Tillaeastrum;species longipes;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>M. Bywater and G. E. Wickens (1984) showed Crassula longipes in southern Florida, but according to D. B. Ward (pers. comm.), the record is probably based on a W. M. Carpenter collection from East Feliciana Parish, Louisiana.</discussion>
-</treatment>
+</bio:treatment>

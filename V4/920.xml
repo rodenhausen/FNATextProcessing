@@ -1,56 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cistanthe</genus_name>
-    <species_name>tweedyi</species_name>
-    <species_authority>(A. Gray) Hershkovitz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cistanthe</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Hershkovitz" date="unknown">tweedyi</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>68: 268. 1990</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Calandrinia</genus_name>
-    <species_name>tweedyi</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family PORTULACACEAE;genus Cistanthe;species tweedyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calandrinia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">tweedyi</taxon_name>
     <place_of_publication>
-      <publication_title>Proc. Amer. Acad. Arts </publication_title>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>22: 277. 1887</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lewisia</genus_name>
-    <species_name>tweedyi</species_name>
-    <species_authority>(A. Gray) B. L. Robinson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lewisiopsis</genus_name>
-    <species_name>tweedyi</species_name>
-    <species_authority>(A. Gray) Govaerts</species_authority>
-  </TaxonIdentification>
-  <description>Plants perennial, taprooted; caudex short-branching. Stems 1 or more from each
-    rosette, 10–20 cm, bracts scattered proximally, ovate-lanceolate, scarious. Leaves basal, in
-    loose rosettes; blade elliptic-lanceolate to ovate or oblanceolate, narrowing to broad petiole,
-    6–15 cm. Inflorescences racemose, 1–5(–8)-flowered. Flowers pedicellate; sepals broadly ovate,
-    9–10 mm, scarious; petals 7–9(–12), salmon-pink to yellowish, rarely white, 25–40 mm; stamens
-    10–23, anther yellow; style present; stigmas 3; pedicel 20–60 mm. Capsules ovoid, 7–10 mm,
-    dehiscence circumscissile near base; valves 3–4, splitting from base toward apex. Seeds 12–35,
-    dark brownish red, suborbicular to reniform, 2 mm, not shiny, warty, strophiolate. 2n = 46,
-    92.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>well-drained granitic talus slopes and ledges</habitat>
-  <habitat>often in ponderosa pine duff</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>600–2200 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Calandrinia;species tweedyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) B. L. Robinson" date="unknown">tweedyi</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species tweedyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisiopsis</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Govaerts" date="unknown">tweedyi</taxon_name>
+    <taxon_hierarchy>genus Lewisiopsis;species tweedyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <references>
     <reference>Hershkovitz, M. A. 1992. Leaf morphology of Cistanthe tweedyi
       (nee Lewisia tweedyi; Portulacaceae). Syst. Bot. 17: 220–238.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Luisierella</genus_name>
-    <species_name>barbula</species_name>
-    <species_authority>(Schwägrichen) Steere</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Luisierella</taxon_name>
+    <taxon_name rank="species" authority="(Schwägrichen) Steere" date="unknown">barbula</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>48: 84.  1945,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>barbula</species_name>
-    <species_authority>Schwägrichen</species_authority>
+    <taxon_hierarchy>genus Luisierella;species barbula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="Schwägrichen" date="unknown">barbula</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond. Suppl.</publication_title>
       <place_in_publication>2(2,1): 77, plate 175.  1826</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants inconspicuous, nearly stem-less.  Stems mostly unbranched, rhizoids or tomentum not evident.  Leaves rosulate, 1–1.5(–2) mm, younger leaves nested in a rosette of older leaves, which extends to 1/2 the length of the younger leaves; distal laminal cells deep green in sharp contrast with colorless proximal cells region, irregularly rounded-hexagonal, 8–11 µm.  Sexual condition with bulbous vaginula; antheridia tiny, 1/3 the length of the archegonia; plants with only perigonia not seen.  Capsule 1–2.5 mm; operculum 0.6–1 mm; peristome teeth short, irregular, sometimes appearing absent.</description>
-  <phenology>Capsules mature late fall through winter (occasionally to March).</phenology>
-  <habitat>Calcareous rocks, moist to mesic sites, sinkholes and other limestone substrate (a gravestone);</habitat>
-  <elevation>low elevations;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America (Belize)</global_distribution>
-  <global_distribution>South America (Brazil)</global_distribution>
-  <global_distribution>Asia (Indonesia, Japan).</global_distribution>
+    <taxon_hierarchy>genus Gymnostomum;species barbula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Luisierella barbula usually grows in a thin crust associated with cyanobacteria, Hyophiladelphus agrarius, and Weissia jamaicensis, the minute black plants contrasting starkly with the usually chalky white rock surface.  The somewhat elevated cells on the adaxial surface of the costa may resemble a differentiated structure (a pad of cells), but the cells appear to be otherwise undifferentiated from those of the lamina.</discussion>
-</treatment>
+</bio:treatment>

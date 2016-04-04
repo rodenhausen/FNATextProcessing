@@ -1,43 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CLADIUM</genus_name>
-    <genus_authority>Cladium P. Browne</genus_authority>
-  <place_of_publication>
-    <publication_title>Civ. Nat. Hist. Jamaica,</publication_title>
-    <place_in_publication>114. 1756</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[Greek clados , branch, referring to the highly branched inflorescences]</etymology>
-  
-  <common_name>Twig-rush</common_name>
-  <common_name>sawgrass</common_name>
-  <common_name>marisque</common_name>
-  <author>Gordon C. Tucker</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Mariscus</genus_name>
-    <genus_authority>Scopoli</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Cladium P. Browne" date="unknown">CLADIUM</taxon_name>
+    <place_of_publication>
+      <publication_title>Civ. Nat. Hist. Jamaica,</publication_title>
+      <place_in_publication>114. 1756</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus CLADIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek clados , branch, referring to the highly branched inflorescences]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Scopoli" date="unknown">Mariscus</taxon_name>
     <place_of_publication>
       <place_in_publication>1754</place_in_publication>
-      <other_info>name rejected, not Vahl 1805, name conserved</other_info>
+      <other_info_on_pub>name rejected, not Vahl 1805, name conserved</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, cespitose or not, rhizomatous or stoloniferous. Culms solitary or
-    not, terete or rounded-trigonous, usually 70+ cm. Leaves cauline; ligules absent; blades flat to
-    involute. Inflorescences terminal or some lateral, corymbose or subcapitate, conspicuously
-    branched; spikelets 100–1000+; involucral bracts 3–4+, spreading, leaflike. Spikelets: scales
-    5–6, spirally arranged, proximal 1–3 scales empty, distal 3–4 scales each subtending flower.
-    Flowers bisexual or staminate; perianth absent; stamens 2–3; styles linear, 3-fid, base
-    persistent, somewhat thickened. Achenes terete. x = 20.</description>
-  <number_of_infrataxa>Species 4 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>and Australia.</global_distribution>
+    <taxon_hierarchy>genus Mariscus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>23.</number>
+  <other_name type="common_name">Twig-rush</other_name>
+  <other_name type="common_name">sawgrass</other_name>
+  <other_name type="common_name">marisque</other_name>
+  <discussion>Species 4 (3 in the flora):</discussion>
   <discussion>Cladium is here accepted in the strict sense, i.e., consisting of four species: C.
     mariscus, of the Old World, and three species treated below. The genus had been treated in a
     broader sense, including Machaerina Vahl (G. Kükenthal 1942). Later studies (cited by G. C.
@@ -54,39 +45,39 @@
     scope of this flora. The culms and leaves of Cladium mariscus are gathered and used in the
     manufacture of paper products in the Danube Delta, Romania.</discussion>
   <references>
-    <reference> Kükenthal, G. 1942. Vorarbeiten zu einer Monographie der
+    <reference>Kükenthal, G. 1942. Vorarbeiten zu einer Monographie der
       Rhynchosporoideae. XI. 10. Cladium Crantz [sic]. Repert. Spec. Nov. Regni Veg. 50: 1–17,
       139–193.</reference>
     <reference>McVaugh, R. 1993. Cladium. In: R. Vaugh and W. R. Anderson, eds. 1974+. Flora
       Novo-Galiciana: A Descriptive Account of the Vascular Plants of Western Mexico. 8+ vols. Ann
       Arbor. Vol. 13, pp. 267–270.</reference>
-    <reference> Raynal, J. 1972. Notes cypérologiques: 17. Révision des Cladium P. Browne s.
+    <reference>Raynal, J. 1972. Notes cypérologiques: 17. Révision des Cladium P. Browne s.
       lat. (Cyperaceae) de Madagascar et des Mascareignes. Adansonia, n. s. 12: 103–112.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Culms 0.3–1 m × 1–2 mm; leaves 2–3 mm wide, conduplicate to subinvolute, margins
-        ±</statement>
+      <description type="morphology">Culms 0.3–1 m × 1–2 mm; leaves 2–3 mm wide, conduplicate to subinvolute, margins
+        ±</description>
       <determination>3. Cladium mariscoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Culms 1–3 m × 5–10 mm; leaves 5–20 mm wide, flat to broadly V -shaped, margins
-        harshly scabrid; inflorescences 30–50 cm, with 3d and 4th order branches.</statement>
+      <description type="morphology">Culms 1–3 m × 5–10 mm; leaves 5–20 mm wide, flat to broadly V -shaped, margins
+        harshly scabrid; inflorescences 30–50 cm, with 3d and 4th order branches.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Spikelets mostly in groups of 2–3(–6); inflorescences with 3d and 4th order
-        branches;</statement>
+      <description type="morphology">Spikelets mostly in groups of 2–3(–6); inflorescences with 3d and 4th order
+        branches;</description>
       <determination>1. Cladium jamaicense</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Spikelets mostly in groups of 3–6; inflorescences rarely with 4th order branches;
-        culms</statement>
+      <description type="morphology">Spikelets mostly in groups of 3–6; inflorescences rarely with 4th order branches;
+        culms</description>
       <determination>2. Cladium californicum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

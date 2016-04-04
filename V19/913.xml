@@ -1,56 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>37e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>ludoviciana</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>mexicana</subspecies_name>
-    <subspecies_authority>(Willdenow ex Sprengel) D. D. Keck</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">ludoviciana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Willdenow ex Sprengel) D. D. Keck" date="unknown">mexicana</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
       <place_in_publication>4, 25: 452. 1946</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species ludoviciana;subspecies mexicana;</taxon_hierarchy>
-  <common_name>Mexican wormwood</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>mexicana</species_name>
-    <species_authority>Willdenow ex Sprengel</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species ludoviciana;subspecies mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Willdenow ex Sprengel" date="unknown">mexicana</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Veg.</publication_title>
       <place_in_publication>3: 490. 1826</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>neomexicana</species_name>
-    <species_authority>Greene ex Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>revoluta</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Stems 30–80(–100) cm, widely branched, sparsely hairy or glabrous. Leaves strongly bicolor (white and green, or gray-green and green), narrowly lanceolate, 4–10 × 0.5–1 cm, lobed; faces ± tomentose (abaxial) or glabrescent. Heads in paniculiform or racemiform arrays 1–8 × 2–5 cm. Involucres (campanulate) 3–4 × 2–3 mm. Florets: pistillate (5–)8–10; bisexual (6–)10–20; corollas ca. 1.5 mm. 2n = 18, 36.</description>
-  <phenology_info>
-    <text>Flowering late summer–late fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>mountain slopes , rocky soils ;</text>
-    <habitat>mountain slopes</habitat>
-    <habitat>rocky soils</habitat>
-  </habitat_info>
-  <elevation>500–1000 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Artemisia;species mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Greene ex Rydberg" date="unknown">neomexicana</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">revoluta</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species revoluta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>37e.</number>
+  <other_name type="common_name">Mexican wormwood</other_name>
+</bio:treatment>

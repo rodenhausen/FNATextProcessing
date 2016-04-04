@@ -1,166 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <species_authority>(Linnaeus) Sprengel</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Sprengel" date="unknown">uva-ursi</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Veg.</publication_title>
       <place_in_publication>2: 287. 1825 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bearberry</common_name>
-  <common_name>kinnikinnik</common_name>
-  <common_name>bousserole</common_name>
-  <common_name>raisin d’ours</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arbutus</genus_name>
-    <species_name>uva-ursi</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species uva-ursi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arbutus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">uva-ursi</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 395. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <subspecies_name>adenotricha</subspecies_name>
-    <subspecies_authority>(Fernald &amp; J. F. Macbride) Calder &amp; Roy L.
-            Taylor</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>adenotricha</variety_name>
-    <variety_authority>Fernald &amp; J. F. Macbride</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <subspecies_name>coactilis</subspecies_name>
-    <subspecies_authority>(Fernald &amp; J. F. Macbride) Á. Löve, D. Löve &amp; S. L. Kapoor</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>coactilis</variety_name>
-    <variety_authority>Fernald &amp; J. F. Macbride</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>leobreweri</variety_name>
-    <variety_authority>Roof</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <subspecies_name>longipilosa</subspecies_name>
-    <subspecies_authority>Packer &amp; Denford</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>marinensis</variety_name>
-    <variety_authority>Roof</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <subspecies_name>monoensis</subspecies_name>
-    <subspecies_authority>Roof</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>pacifica</variety_name>
-    <variety_authority>Hultén</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <subspecies_name>stipitata</subspecies_name>
-    <subspecies_authority>Packer &amp; Denford</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>stipitata</variety_name>
-    <variety_authority>(Packer &amp; Denford) Dorn</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>uva-ursi</species_name>
-    <variety_name>suborbiculata</variety_name>
-    <variety_authority>W. Knight</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, prostrate, mat-forming, 0.1–0.5 m; burl sometimes present, sometimes
-        epicormic; twigs usually sparsely short-hairy, sometimes long-hairy or short and/or long
-        glandular-hairy. Leaves separated proximally, overlapping distally, bifacial; petiole 2–4
-        mm; blade light green abaxially, dark green adaxially, shiny, usually oblanceolate to
-        obovate, sometimes narrowly elliptic, 1–2.5 × 0.5–1.5 cm, base cuneate (not clasping),
-        margins entire, often cupped, surfaces smooth, sparsely puberulent, glabrescent.
-        Inflorescences racemes (simple or 1-branched); immature inflorescence pendent, (congested),
-        axis 0.3–1 cm, 1+ mm diam., usually sparsely short-hairy, sometimes long-hairy or short
-        glandular-hairy; bracts not appressed, scalelike, narrowly deltate, 2–6 mm (larger than
-        buds), apex acuminate, surfaces glabrous. Pedicels 2–4 mm, glabrous. Flowers: corolla white
-        to pink, urceolate; ovary glabrous. Fruits globose, 6–12 mm diam., glabrous. Stones
-        distinct. 2n = 26, 52.</description>
-  <phenology>Flowering winter–early summer</phenology>
-  <habitat>Coastal dunes, open, acidic temperate and boreal forests, high montane on acidic,
-        sandy, or rocky soils</habitat>
-  <elevation>0–3100 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Central America (Guatemala)</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Arbutus;species uva-ursi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="subspecies" authority="(Fernald &amp; J. F. Macbride) Calder &amp; Roy L.&#xA;            Taylor" date="unknown">adenotricha</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;subspecies adenotricha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="Fernald &amp; J. F. Macbride" date="unknown">adenotricha</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety adenotricha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="subspecies" authority="(Fernald &amp; J. F. Macbride) Á. Löve, D. Löve &amp; S. L. Kapoor" date="unknown">coactilis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;subspecies coactilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="Fernald &amp; J. F. Macbride" date="unknown">coactilis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety coactilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="Roof" date="unknown">leobreweri</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety leobreweri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="subspecies" authority="Packer &amp; Denford" date="unknown">longipilosa</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;subspecies longipilosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="Roof" date="unknown">marinensis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety marinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="subspecies" authority="Roof" date="unknown">monoensis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;subspecies monoensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">pacifica</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety pacifica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="subspecies" authority="Packer &amp; Denford" date="unknown">stipitata</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;subspecies stipitata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="(Packer &amp; Denford) Dorn" date="unknown">stipitata</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety stipitata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uva-ursi</taxon_name>
+    <taxon_name rank="variety" authority="W. Knight" date="unknown">suborbiculata</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species uva-ursi;variety suborbiculata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Bearberry</other_name>
+  <other_name type="common_name">kinnikinnik</other_name>
+  <other_name type="common_name">bousserole</other_name>
+  <other_name type="common_name">raisin d’ours</other_name>
   <discussion>Arctostaphylos uva-ursi exhibits great variation in indument associated with the
         young twigs. Most of this variation has historically been separated into subspecies, except
         that a recent analysis of the group suggested environmentally-based variation in these
@@ -182,8 +123,8 @@
         and Washington. It is assumed to be a hybrid between A. uva-ursi and A. columbiana.
         Similarly, in the Rocky Mountains in areas with both A. uva-ursi and A. patula, hybrids have
         been called A. coloradensis Rollins.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Rosatti, T. J. 1987b. Field and garden studies of Arctostaphylos uva-ursi
             (Ericaceae) in North America. Syst. Bot. 12: 61–77.</reference>
   </references>
-</treatment>
+</bio:treatment>

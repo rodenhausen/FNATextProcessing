@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>345.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Carex</genus_name><species_name>whitneyi</species_name><species_authority>Olney</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>7: 394. 1868</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Carex</genus_name><species_name>flaccifolia</species_name><species_authority>Mackenzie</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Carex</genus_name><species_name>jepsonii</species_name><species_authority>J. T. Howell</species_authority></TaxonIdentification><description>Culms 25–100 cm. Leaves: sheath fronts brownish; blades 2–6 mm wide. Spikes: proximal pistillate spikes white, ovate, 7–30 × 5–9 mm, ciliate distally; terminal spike white-hyaline, tinged red-brown, ovate, 5–30 × 2–4 mm. Perigynia green, ca. 5-veined, 3.7–5.5 × 1.5–2.5 mm; beak tip with narrow, white margins. Achenes ovoid to obovoid, 2.8–3.9 × 1.7–2.4 mm.</description><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>dry, sandy and gravelly meadows</habitat><habitat>open forests</habitat><elevation>1200–3400 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Olney" date="unknown">whitneyi</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>7: 394. 1868</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species whitneyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Mackenzie" date="unknown">flaccifolia</taxon_name>
+    <taxon_hierarchy>genus Carex;species flaccifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="J. T. Howell" date="unknown">jepsonii</taxon_name>
+    <taxon_hierarchy>genus Carex;species jepsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>345.</number>
+</bio:treatment>

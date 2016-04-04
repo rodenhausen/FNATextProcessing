@@ -1,74 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>68.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>bartlettianum</species_name>
-    <species_authority>Warnstorf</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Warnstorf" date="unknown">bartlettianum</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>51[III]: 105. 1911,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>bartlettianum</species_name>
-    <variety_name>roseum</variety_name>
-    <variety_authority>Warnstorf</variety_authority>
-  </TaxonIdentification>
-  <description>Plants ± moderate-sized, capitula flat-topped and stellate to some-what
-        hemispherical; variegated pale yellowish and red, sometimes partially green or completely
-        red; without metallic lustre when dry. Stems pale yellow to red; superficial cortical cells
-        aporose. Stem leaves narrowly lingulate-triangular, 1.2–1.8 mm, apex acute to apiculate,
-        border not developed much along margins and narrow at base (occupying less than 0.25 the
-        width of the base); hyaline cells rhombic, mostly 0–1-septate. Branches usually strongly
-        5-ranked. Branch fascicles with 2 spreading and 1–2 pendent branches. Branch leaves narrowly
-        ovate-lanceolate, 1.2–1.5 mm, concave, straight, apex strongly involute, border entire,
-        hyaline cells on convex surface with 3–9 faintly ringed rounded-elliptic pores along the
-        commissures often quite small apically, largely aporose on concave surface. Sexual condition
-        dioicous. Spores 19–28 µm; coarsely papillose on both surfaces with a distinct ridged border
-        around perimeter of proximal surface; proximal laesura less than 0.5 spore
-        radius.</description>
-  <phenology>Capsules mature late spring to early summer.</phenology>
-  <elevation>low to moderate elevations;</elevation>
-  <habitat>Ecology poorly understood</habitat>
-  <habitat>more southern weakly minerotrophic sites such as the mires in the Pine
-        Barrens of N.J. and the pocosins of the Atlantic coastal plain</habitat>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species bartlettianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bartlettianum</taxon_name>
+    <taxon_name rank="variety" authority="Warnstorf" date="unknown">roseum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species bartlettianum;variety roseum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>68.</number>
   <discussion>Sporophytes are not common in Sphagnum bartlettianum. Confusion is most likely with
         S. rubellum, with which it frequently co-occurs in the northern part of its range. The
         ecology is poorly understood due to taxonomic confusion with S. rubellum; the latter
@@ -81,4 +34,4 @@
         in coastal British Columbia and southeastern Alaska. Sphagnum wilfii has a stem leaf that is
         triangular to triangular-lingulate in contrast to the narrowly lingulate-triangular stem
         leaf of S. bartlettianum.</discussion>
-</treatment>
+</bio:treatment>

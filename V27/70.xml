@@ -1,58 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>55.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>inundatum</species_name>
-    <species_authority>Russow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Russow" date="unknown">inundatum</taxon_name>
     <place_of_publication>
       <publication_title>Arch. Naturk. Liv- Ehst- Kurlands, Ser.</publication_title>
       <place_in_publication>2, Biol. Naturk. 10: 390.  1894,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>auriculatum</species_name>
-    <variety_name>inundatum</variety_name>
-    <variety_authority>(Russow) M. O. Hill</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>novo-foundlandicum</species_name>
-    <species_authority>Warnstorf</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>subsecundum</species_name>
-    <variety_name>inundatum</variety_name>
-    <variety_authority>(Russow) C. E. O. Jensen</variety_authority>
-  </TaxonIdentification>
-  <description>Plants moderate-sized, green in the shade to variegated yellow or orange or both in open habitats; capitulum typically rounded.  Stems green to brownish or yellow; superficial cortex of 1 layer of enlarged, thin-walled cells.  Stem leaves lingulate to triangular-lingulate, 0.9–1.2 mm, apex rounded, usually 1/3–1/2 of leaf fibrillose; hyaline cells usually fibrillose in distal 1/3–1/2 of leaf, on convex surface near apex with 1–3 pores per cell, on concave surface near apex 1–4 pores per cell.  Branches arched but rarely curved and contorted.  Branch fascicles with 2–3 spreading and 2–3 pendent branches.  Branch leaves ovate, 1–1.5 mm, straight to slightly subsecund; hyaline cells of convex surface with numerous ringed pores along the commissures (12–22 per cell), 0–3 pores per cell on the concave surface.  Capsule with few pseudostomata.  Spores 30–37 µm; finely papillose on both surfaces, indistinct raised Y-shaped sculpture on distal surface; proximal laesura 0.5 spore radius or less.</description>
-  <habitat>Weakly minerotrophic habitats such as the margins of ponds, marshes, and mires, in addition to seeps and dripping cliff faces;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species inundatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Warnstorf" date="unknown">auriculatum</taxon_name>
+    <taxon_name rank="variety" authority="(Russow) M. O. Hill" date="unknown">inundatum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species auriculatum;variety inundatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">novo-foundlandicum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species novo-foundlandicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">subsecundum</taxon_name>
+    <taxon_name rank="variety" authority="(Russow) C. E. O. Jensen" date="unknown">inundatum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species subsecundum;variety inundatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>55.</number>
   <discussion>The sporophytes of Sphagnum inundatum are uncommon.  The ovate, concave branch leaves that are occasionally subsecund give this species an appearance similar to that of S. subsecundum, from which it can usually be distinguished by its larger size.  Sphagnum lescurii typically has distinctly larger stem leaves and capitulum branches that can be quite turgid and curved in open-grown forms.</discussion>
   <discussion>The names Sphagnum bavaricum Warnstorf and S. bushii Warnstorf &amp; Cardot have been applied to this taxon.</discussion>
-</treatment>
+</bio:treatment>

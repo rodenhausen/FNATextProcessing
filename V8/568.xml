@@ -1,90 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Merrill" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="variety" authority="(Tidestrom) C. L. Hitchcock" date="unknown">pulchellum</taxon_name>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species pulchellum;variety pulchellum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pauciflorum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pauciflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pauciflorum</taxon_name>
+    <taxon_name rank="variety" authority="(Tidestrom) B. Boivin" date="unknown">watsonii</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pauciflorum;variety watsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Mast &amp; Reveal" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Hultén" date="unknown">pauciflorum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pulchellum;subspecies pauciflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Tidestrom) H. J. Thompson" date="unknown">watsonii</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pulchellum;subspecies watsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">watsonii</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pulchellum;variety watsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">radicatum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species radicatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">radicatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Tidestrom) H. J. Thompson" date="unknown">watsonii</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species radicatum;subspecies watsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pauciflora</taxon_name>
+    <taxon_hierarchy>genus Primula;species pauciflora;</taxon_hierarchy>
+  </taxon_identification>
   <number>13a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <species_authority>(Rafinesque) Merrill</species_authority>
-    <variety_name>pulchellum</variety_name>
-  </TaxonIdentification>
-  <common_name>Pretty shootingstar</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pauciflorum</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pauciflorum</species_name>
-    <variety_name>watsonii</variety_name>
-    <variety_authority>(Tidestrom) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <subspecies_name>pauciflorum</subspecies_name>
-    <subspecies_authority>(Greene) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <subspecies_name>watsonii</subspecies_name>
-    <subspecies_authority>(Tidestrom) H. J. Thompson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <variety_name>watsonii</variety_name>
-    <variety_authority>(Tidestrom) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>radicatum</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>radicatum</species_name>
-    <subspecies_name>watsonii</subspecies_name>
-    <subspecies_authority>(Tidestrom) H. J. Thompson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>pauciflora</species_name>
-    <species_authority>(Greene) Mast &amp; Reveal</species_authority>
-  </TaxonIdentification>
-  <description>Plants usually glabrous. Leaves (3–)4–17(–25) × 0.5–2.5(–4.5) cm; blade
-        oblanceolate to spatulate. Pedicels usually glabrous, rarely glandular. Flowers: calyx
-        usually glabrous, rarely glandular; corolla tube yellow with maroon, thin, wavy ring, lobes
-        magenta to lavender, (5–)7–15(–18) mm; filament tube usually yellow, rarely magenta, 1.8–3.6
-        mm; anthers 3.5–5 mm; pollen sacs usually maroon, rarely yellow, connective maroon. 2n =
-        44.</description>
-  <phenology>Flowering spring–summer</phenology>
-  <habitat>Moist, sometimes saline or even alkaline flats and slopes usually in meadows, grassy
-        places, or under conifers, sometimes in boggy or marshy places with birch, willow, or
-        aspen</habitat>
-  <elevation>400–3500(–4100) m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico (Chihuahua, Durango).</global_distribution>
+  <other_name type="common_name">Pretty shootingstar</other_name>
   <discussion>Variety pulchellum is the most widespread and common variant of the species. It
         ranges from south-eastern Alaska and western Canada, to southeastern Manitoba, to Lassen
         County, California, northern and eastern Arizona, New Mexico, and northern Mexico. Scattered
@@ -108,4 +83,4 @@
         assigned to var. pulchellum, have minutely glandular calyces, pedicels, nodes, and uppermost
         portion of scapes. The taxonomic significance of these plants has not been determined; they
         may indicate some past introgression with D. frigidum.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arabidopsis</genus_name>
-    <species_name>lyrata</species_name>
-    <species_authority>( Linnaeus) O’Kane &amp; Al-Shehbaz</species_authority>
-    <subspecies_name>petraea</subspecies_name>
-    <subspecies_authority>(Linnaeus) O’Kane &amp; Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Camelineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabidopsis</taxon_name>
+    <taxon_name rank="species" authority="( Linnaeus) O’Kane &amp; Al-Shehbaz" date="unknown">lyrata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Linnaeus) O’Kane &amp; Al-Shehbaz" date="unknown">petraea</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>7: 326. 1997</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>petraea</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Camelineae;genus Arabidopsis;species lyrata;subspecies petraea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">petraea</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 654. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>media</species_name>
-    <species_authority>N. Busch</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex well-developed, often branched, somewhat thickened. Basal leaves: blade margins entire or toothed, without distinct terminal lobes. Petals 4–6 mm. Fruits 1.2–1.8 mm wide; style 0–0.5 mm. 2n = 16, 32.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>sand dunes</habitat>
-  <habitat>sand bars</habitat>
-  <habitat>tussocks</habitat>
-  <habitat>gravel</habitat>
-  <habitat>tundra</habitat>
-  <habitat>volcanic ash, stream terraces</habitat>
-  <elevation>0 m;</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
+    <taxon_hierarchy>genus Cardamine;species petraea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="N. Busch" date="unknown">media</taxon_name>
+    <taxon_hierarchy>genus Arabis;species media;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
   <discussion>The occurrence of subsp. petraea in North America was pointed out by S. L. O’Kane and I. A. Al-Shehbaz (1997) and Al-Shehbaz and O’Kane (www.aspb.org/publications/arabidopsis, 2002); no specimens were cited. G. A. Mulligan (1996), who treated the taxon as Arabis media, did not cite specimens either. Representative Alaskan collections were examined, including Parker 7995 (MO) and Hardy 134 (CAS, MO).</discussion>
-</treatment>
+</bio:treatment>

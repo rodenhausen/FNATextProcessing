@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>strictum</species_name>
-    <species_authority>Sullivant</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Sullivant" date="unknown">strictum</taxon_name>
     <place_of_publication>
       <publication_title>Musc. Allegh.,</publication_title>
       <place_in_publication>201.  1846,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>compactum</species_name>
-    <variety_name>expositum</variety_name>
-    <variety_authority>W. S. G. Maas</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>garberi</species_name>
-    <species_authority>Lesquereux &amp; James</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>mexicanum</species_name>
-    <species_authority>Mitten</species_authority>
-  </TaxonIdentification>
-  <description>Plants moderate-sized, pale green, yellow-green to occasionally strongly reddish; growing in loose mats.  Stems pale brown to green.  Stem leaves very small, less than 0.8 mm, triangular with blunt rounded apex.  Branches erect in distal portion of plants.  Branch fascicles with 2 short-spreading and 3 long-tapering pendent branches.  Branch leaves large, 2.8 mm or longer, sub-squarrose, ovate, involute to broad, truncate apex with more than 6 teeth; hyaline cells with up to 6 non-ringed pores on convex surface with few or no pseudopores, 2–4 elliptic ringed pores on concave surface in corners or along commissures, internal commissural walls minutely papillose (best viewed in oblique sections), rarely smooth; chlorophyllous cells narrowly triangular in transverse section, more broadly exposed on convex surface, enclosed on concave surface.  Sexual condition monoicous.  Capsule with abundant pseudostomata on surface of capsule.  Spores 31–43 µm; coarsely papillose on both proximal and distal surfaces, raised Y-mark sculpture on distal surface; proximal laesura moderately long, 0.4–0.7 spore radius.</description>
-  <phenology>Capsules common, mature early to mid summer.</phenology>
-  <habitat>Pioneer species among grasses on peaty sand, pine barrens, burned-over savannas, seeps in mountainous areas inland;</habitat>
-  <elevation>low to high elevations;</elevation>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species strictum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Lesquereux &amp; James" date="unknown">compactum</taxon_name>
+    <taxon_name rank="variety" authority="W. S. G. Maas" date="unknown">expositum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species compactum;variety expositum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Mitten" date="unknown">garberi</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species garberi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">mexicanum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species mexicanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
   <discussion>Though they seldom if ever overlap ecologically, Sphagnum strictum and S. squarrosum both usually have squarrose branch leaves, but S. squarrosum has a lingulate fringed stem leaf that differs greatly from the triangular and entire-margined stem leaf of S. strictum.</discussion>
-</treatment>
+</bio:treatment>

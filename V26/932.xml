@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9b.1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agave</genus_name><species_name>utahensis</species_name><species_authority>Engelmann</species_authority><variety_name>utahensis</variety_name></TaxonIdentification><common_name>Utah agave</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Agave</genus_name><species_name>newberryi</species_name><species_authority>Engelmann</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Agave</genus_name><species_name>scaphoidea</species_name><species_authority>Greenman &amp; Roush</species_authority></TaxonIdentification><description>Rosettes 1.8–3 dm. Leaves 12–30 × 1–2.5 cm; marginal teeth 2.5–4 mm; apical spine grayish, slender, 2–4 cm. Scape 1.7–4 m.</description><phenology>winter</phenology><phenology>dec</phenology><phenology>jan</phenology><phenology>feb</phenology><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>calcareous outcrops with desert scrub</habitat><elevation>600–1400 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>Utah.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">utahensis</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">utahensis</taxon_name>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species utahensis;variety utahensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">newberryi</taxon_name>
+    <taxon_hierarchy>genus Agave;species newberryi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Greenman &amp; Roush" date="unknown">scaphoidea</taxon_name>
+    <taxon_hierarchy>genus Agave;species scaphoidea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9b.1.</number>
+  <other_name type="common_name">Utah agave</other_name>
+</bio:treatment>

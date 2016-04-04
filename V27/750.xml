@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Anoectangium</genus_name>
-    <species_name>stracheyanum</species_name>
-    <species_authority>Mitten</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anoectangium</taxon_name>
+    <taxon_name rank="species" authority="Mitten" date="unknown">stracheyanum</taxon_name>
     <place_of_publication>
       <publication_title>J. Linn. Soc., Bot., suppl.</publication_title>
       <place_in_publication>1: 31. 1859,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Anoectangium</genus_name>
-    <species_name>peckii</species_name>
-    <species_authority>Sullivant</species_authority>
-  </TaxonIdentification>
-  <description>Leaves dense, hiding the stem, long-lanceolate to linear-elliptical and commonly
-        weakly constricted beyond the short-sheathing base, (1–)1.5–1.8(–2) mm; apex narrowly acute
-        to acuminate, occasionally blunt, apiculus narrowly triangular; margins 1-stratose; costa
-        regularly excurrent into a short or long, stout mucro of several cells. Specialized asexual
-        reproduction absent. Sporophytes absent in range of flora.</description>
-  <habitat>Calcareous and noncalcareus rock, wet areas, spray of falls;</habitat>
-  <elevation>moderate elevations (300–900 m);</elevation>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <global_distribution>e, c Asia.</global_distribution>
+    <taxon_hierarchy>genus Anoectangium;species stracheyanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anoectangium</taxon_name>
+    <taxon_name rank="species" authority="Sullivant" date="unknown">peckii</taxon_name>
+    <taxon_hierarchy>genus Anoectangium;species peckii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Anoectangium stracheyanum was previously treated as a synonym of A. aestivum (R. H.
         Zander 1977), but further study indicates that it is a good match for the Asian A.
         stracheyanum, in the weakly wasp-waisted, narrow leaves with a rather strong, commonly
@@ -34,4 +28,4 @@
         The “wasp-waist” referred to by Asian authors is usually just a hint of constriction just
         beyond the short-sheathing leaf base, and many leaves are merely straight-sided. Collections
         from Maine identified as A. peckii are Amphidium mougeotii.</discussion>
-</treatment>
+</bio:treatment>

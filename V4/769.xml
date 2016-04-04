@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SARCOBATUS</genus_name>
-    <genus_authority>Sarcobatus Nees</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Matthew H. Hils,John W. Thieret,James D. Morefield</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Sarcobatus Nees" date="unknown">SARCOBATUS</taxon_name>
     <place_of_publication>
       <publication_title>in M. P. zu Wied, Reise Nord-Amer.</publication_title>
       <place_in_publication>1: 510. 1839</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek sarco , flesh, and batos , bramble, alluding to the leaves and
-    thorns]</etymology>
-  <author>Matthew H. Hils</author>
-  <author>John W. Thieret</author>
-  <author>James D. Morefield</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Fremontia</genus_name>
-    <genus_authority>Torrey</genus_authority>
-  </TaxonIdentification>
-  <description>Shrubs, deciduous, monoecious, glabrous or pubescent. Stems erect, much-branched, not
-    jointed, dimorphic, not fleshy; long shoots solitary, axillary, elongate, bearing leaves and
-    axillary thorns; short shoots clustered, budlike, usually subtending thorns or lateral branches,
-    bearing leaves; thorns 1(–2) per node. Leaves mostly alternate on long shoots (sometimes
-    opposite proximally) or clustered (“tufted”) on short shoots, sessile, succulent; blade linear,
-    nearly terete to somewhat flattened, margins entire, apex obtuse (mucronate). Inflorescences:
-    pistillate flowers solitary or paired in axils of foliage leaves; staminate inflorescences
-    distal to pistillate, terminal, pedunculate, cylindric spike of 10–40 spirally arranged flowers.
-    Flowers unisexual, ebracteolate; pistillate sessile (sometimes short-pedunculate in fruit);
-    “perianth” accrescent, adnate, cuplike, margins subentire to shallowly lobed, flaring to form
-    wing in fruit; stigmas 2; staminate flowers: perianth absent; anthers caducous, (1–)2–4(–5),
-    almost sessile, arising from spike axis and around stalk of persistent, overtopping and
-    concealing, eccentrically peltate, rhombic, scarious scale. Fruiting structures: fruits achenes,
-    proximal portion below wing turbinate, enlarging less than distal portion; distal portion above
-    wing conic; wing sometimes red-tinged, veiny, broad, margins shallowly to deeply lobed,
-    undulate, crenulate to erose. Seeds vertical, flattened, orbiculate; seed coat transparent,
-    membranous; perisperm absent. x = 9.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>including nw Mexico.</global_distribution>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus SARCOBATUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek sarco , flesh, and batos , bramble, alluding to the leaves and
+    thorns]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Torrey" date="unknown">Fremontia</taxon_name>
+    <taxon_hierarchy>genus Fremontia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
   <discussion>Sarcobatus was considered monotypic until F. V. Coville published a second species,
     from western Nevada. The following features have been used (with variable success) to separate
     the taxa: stature, bark color, leaf length and vestiture, fruit dimensions and vestiture, length
@@ -72,28 +57,28 @@
     <reference>Baillon, H. E. 1887. Développement de la fleur femelle du
       Sarcobatus. Bull. Mens. Soc. Linn. Paris 1: 649. Behnke, H.-D. 1997. Sarcobataceae—a new
       family of Caryophyllales. Taxon 46: 495–507.</reference>
-    <reference> Carlquist, S. 2000b. Wood and stem anatomy of Sarcobatus (Caryophyllales):
+    <reference>Carlquist, S. 2000b. Wood and stem anatomy of Sarcobatus (Caryophyllales):
       Systematic and ecological implications. Taxon 49: 27–34.</reference>
-    <reference> Sanderson, S. C., H. C. Stutz, M. Stutz, and R. C. Roos. 1999. Chromosome races
+    <reference>Sanderson, S. C., H. C. Stutz, M. Stutz, and R. C. Roos. 1999. Chromosome races
       in Sarcobatus (Sarcobataceae, Caryophyllales). Great Basin Naturalist 59: 301–314.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades usually glabrous, or slightly pubescent, bright green to yellowish
+      <description type="morphology">Leaf blades usually glabrous, or slightly pubescent, bright green to yellowish
         green in life, (0.3–)1.5–4(–5) cm; leaves mostly solitary on elongate shoots of current sea
         son; pistillate flowers and staminate spikes on long lateral branches with 3–9 readily
         visible internodes; staminate spikes at maturity usually 11–40 mm; widespread in w North
-        America</statement>
+        America</description>
       <next_statement_id>1.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf bl ades usually pubescent, dull green to grayish green in life, (0.5–)1–1.6
+      <description type="morphology">Leaf bl ades usually pubescent, dull green to grayish green in life, (0.5–)1–1.6
         cm; leaves mostly clustered on cushionlike base on older wood; pistillate flowers and
         staminate spikes on short branches with 1–3 barely discernible internodes; staminate spikes
-        at ma turity usu-ally to 10 mm; Nevada</statement>
+        at ma turity usu-ally to 10 mm; Nevada</description>
       <determination>2. Sarcobatus baileyi</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

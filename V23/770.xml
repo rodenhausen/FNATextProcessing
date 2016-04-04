@@ -1,61 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26x.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Glaucescentes</section_name>
-    <section_authority>Reznicek</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Lisa A. Standley</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Reznicek" date="unknown">Glaucescentes</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>11: 457. 2001</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Lisa A. Standley</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Pendulinae</section_name>
-    <section_authority>Fries</section_authority>
-  </TaxonIdentification>
-  <description>Plants densely cespitose, in large clumps, short-rhizomatous; rhizomes brown or
-    black, without yellow-brown felty covering. Culms reddish purple at base. Leaves: basal sheaths
-    sometimes fibrous; sheath fronts reddish or green, veined, herbaceous; blades with 2 lateral
-    adaxial veins more prominent than midvein, M-shaped in cross section when young, glabrous or
-    scabrous, strongly glaucous. Inflorescences racemose, with 5–8 spikes; proximal bracts leaflike,
-    long-sheathing, sheath shorter than diameter of stem; lateral spikes pistillate or some
-    androgynous, pendent, pedunculate, prophyllate; terminal spikes usually staminate. Proximal
-    pistillate scales with apex acute to acuminate or awned, awn to 3.5 mm; staminate scales awned.
-    Perigynia divergent or ascending, weakly to strongly veined on faces, with 2 strong marginal
-    veins, usually sessile, elliptic or ovate, trigonous in cross section, base tapering, apex
-    abruptly beaked, glabrous, papillose; beak less than 5 mm, erose-ciliate to very shortly
-    bidentate. Stigmas 3. Achenes trigonous, smaller than bodies of perigynia; style
-    deciduous.</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>southeastern coastal plain</global_distribution>
-  <global_distribution>interior low plateau</global_distribution>
-  <global_distribution>and Piedmont plateau provinces of North America.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Glaucescentes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Fries" date="unknown">Pendulinae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Pendulinae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26x.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia prominently 6–8-veined; pistillate scale apex acute</statement>
+      <description type="morphology">Perigynia prominently 6–8-veined; pistillate scale apex acute</description>
       <determination>241. Carex joorii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia indistinctly veined or veinless; pistillate scales retuse.</statement>
+      <description type="morphology">Perigynia indistinctly veined or veinless; pistillate scales retuse.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Faces of perigynia weakly veined; achenes rhomboid, length and width equal;
-        leaves</statement>
+      <description type="morphology">Faces of perigynia weakly veined; achenes rhomboid, length and width equal;
+        leaves</description>
       <determination>242. Carex verrucosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Faces of the perigynia veinless or indistinctly 3 – 4-veined on each face; achenes
-        ellipsoid,</statement>
+      <description type="morphology">Faces of the perigynia veinless or indistinctly 3 – 4-veined on each face; achenes
+        ellipsoid,</description>
       <determination>243. Carex glaucescens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

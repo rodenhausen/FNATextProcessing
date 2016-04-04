@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bruchia</genus_name>
-    <species_name>vogesiaca</species_name>
-    <species_authority>Schwägrichen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bruchia</taxon_name>
+    <taxon_name rank="species" authority="Schwägrichen" date="unknown">vogesiaca</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond. Suppl.</publication_title>
       <place_in_publication>2(1,2): 91, plate 127.  1824,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bruchia</genus_name>
-    <species_name>longicollis</species_name>
-    <species_authority>Eaton</species_authority>
-  </TaxonIdentification>
-  <description>Distal leaves long-subulate, 1.8–4.7 mm, leaf base weakly dif-ferentiated, long-oblong to long-elliptical; distal laminal cells long-rectangular.  Sexual condition autoicous.  Seta 3–7 mm.  Capsule neck long-tapering and almost cylindric.  Spores warty.  Calyptra smooth</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Soil, decayed log in swamp;</habitat>
-  <elevation>moderate elevations;</elevation>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (China).</global_distribution>
+    <taxon_hierarchy>genus Bruchia;species vogesiaca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bruchia</taxon_name>
+    <taxon_name rank="species" authority="Eaton" date="unknown">longicollis</taxon_name>
+    <taxon_hierarchy>genus Bruchia;species longicollis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Bruchia vogesiaca is much like B. bolanderi, but is a larger plant with a more strongly defined costa.</discussion>
-</treatment>
+</bio:treatment>

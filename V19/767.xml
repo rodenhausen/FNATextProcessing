@@ -1,52 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Diaperia</genus_name>
-    <species_name>candida</species_name>
-    <species_authority>(Torrey &amp; A. Gray) Bentham &amp; Hooker f.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diaperia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Bentham &amp; Hooker f." date="unknown">candida</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Pl.</publication_title>
       <place_in_publication>2: 298. 1873</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Diaperia;species candida;</taxon_hierarchy>
-  <common_name>Silver rabbit-tobacco</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Calymmandra</genus_name>
-    <species_name>candida</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Diaperia;species candida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymmandra</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">candida</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>2: 262. 1842</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>candida</species_name>
-    <species_authority>(Torrey &amp; A. Gray) A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Plants grayish silvery, 3–25 cm, densely sericeous. Stems mostly 1; branches proximal or none. Leaves: largest 10–18 × 2–3 mm; capitular leaves subtending glomerules only, or sometimes also hidden between and surpassed by heads. Heads proximal and distal, in spiciform or racemiform arrays, ± spheric, 1.5–2 mm, heights ± equal to diams. Receptacles ± spheric, 0.3–0.5 mm, heights ± equal to diams. Pistillate paleae scarcely imbricate, longest 0.9–1.3 mm. Bisexual paleae mostly 1–3, apices incurved, ± involute, gibbous. Functionally staminate florets usually 0. Bisexual florets 3–5; corollas protruding from heads, ± zygomorphic, 0.5–0.9 mm, glabrous, lobes unequal (1–2 enlarged). Cypselae rounded, ± terete, mostly 0.5–0.6 mm (bisexual slightly longer). 2n = 14.</description>
-  <phenology_info>
-    <text>Flowering and fruiting late Mar–early Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open , dry , deep sandy soils , oak and pine woodlands , prairies , coastal areas , sometimes disturbed sites ( fields , lawns , road beds ) ;</text>
-    <habitat>open dry , deep sandy soils</habitat>
-    <habitat>oak and pine woodlands</habitat>
-    <habitat>prairies</habitat>
-    <habitat>coastal areas</habitat>
-    <habitat>disturbed sites ( fields , lawns , road beds )</habitat>
-  </habitat_info>
-  <elevation>10–400 m;</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Calymmandra;species candida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) A. Gray" date="unknown">candida</taxon_name>
+    <taxon_hierarchy>genus Evax;species candida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Silver rabbit-tobacco</other_name>
   <discussion>Diaperia candida is the most restricted of the three species, occupying most of eastern Texas (including the coast) and extending to adjacent corners of southeastern Oklahoma, southwestern Arkansas, and northwestern Louisiana.</discussion>
-</treatment>
-
+</bio:treatment>

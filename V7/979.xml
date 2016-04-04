@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Noccaea</genus_name>
-    <species_name>arctica</species_name>
-    <species_authority>(A. E. Porsild) Holub</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Noccaeeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Noccaea</taxon_name>
+    <taxon_name rank="species" authority="(A. E. Porsild) Holub" date="unknown">arctica</taxon_name>
     <place_of_publication>
       <publication_title>Preslia</publication_title>
       <place_in_publication>70: 107. 1998</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thlaspi</genus_name>
-    <species_name>arcticum</species_name>
-    <species_authority>A. E. Porsild</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Noccaeeae;genus Noccaea;species arctica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thlaspi</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">arcticum</taxon_name>
     <place_of_publication>
       <publication_title>Sargentia</publication_title>
       <place_in_publication>4: 40. 1943</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials; (with persistent petiolar remains). Stems simple or several from caudex, erect, unbranched, 0.5–1.8 dm. Basal leaves: petiole 0.4–1.3 cm; blade oblanceolate to spatulate, 0.3–1.8 cm × 2–4 mm, base cuneate or attenuate, margins entire, apex obtuse. Cauline leaves 3–7; blade ovate or suboblong, 0.5–1 cm × 1–5 mm, base minutely auriculate, margins entire, apex obtuse to subacute. Racemes 0.5–6 cm. Fruiting pedicels ascending to horizontal, straight, 3–8 mm. Flowers: sepals 1.5–2.5 × 0.5–1 mm, (margins white); petals white, 3–5 × 2–2.5 mm, often flaring between blade and claw, apex rounded; filaments 2–3 mm; anthers ca. 0.5 mm. Fruits not winged, narrowly obovate, 6–10 × 2–3.5 mm, base cuneate, apex obtuse; ovules 8–14 per ovary; style (0.3–)0.6–1 mm. Seeds yellow-brown, 1.5–2 mm, nearly smooth. 2n = 14.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>dry tundra ridges</habitat>
-  <habitat>arctic coast</habitat>
-  <elevation>0–500 m;</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Thlaspi;species arcticum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Noccaea arctica is rare, known from a limited number of collections. P. K. Holmgren (1971) suggested that additional collections might indicate that it is a variety of N. fendleri (as Thlaspi montanum).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Caulanthus</genus_name>
-    <species_name>inflatus</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Caulanthus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">inflatus</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>17: 364. 1882</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>inflatus</species_name>
-    <species_authority>(S. Watson) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; glabrous or sparsely (or densely) pilose basally. Stems erect, unbranched or branched distally, (hollow, strongly inflated, fusiform, to 4 cm diam. at widest point), 1.5–9.7 dm. Basal leaves rosulate; petiole 0.5–5 cm; blade obovate to oblanceolate, 1–13 cm × 5–60 mm, margins entire or dentate-sinuate. Cauline leaves (distalmost) sessile; blade ovate to lanceolate, 1–20 cm × 5–70 mm (base amplexicaul), margins entire. Racemes (densely flowered), without a terminal cluster of sterile flowers. Fruiting pedicels ascending to divaricate, 3–12 mm, sparsely to densely pilose, or glabrous. Flowers: sepals erect, (dark purple at least apically, whitish basally), narrowly ovate to lanceolate or oblong-lanceolate, 5.5–14 × 2–3 mm (unequal, adaxial one slightly smaller or narrower, keeled); petals purple, 9–14 mm, blade 3–4 × 1.5–2 mm, crisped, claw oblanceolate to oblong, 6–10 × 1.5–3 mm; filaments in 3 unequal pairs, (median pairs connate), abaxial pair 4–8 mm, lateral pair 3–5 mm, adaxial pair 7–10 mm; anthers narrowly oblong, equal, 2–4 mm. Fruits erect to ascending, terete, 3.5–12.7 cm × 2–3 mm; valves each with prominent midvein; ovules 58–82 per ovary; style obsolete or, rarely, to 0.4 mm; stigma strongly 2-lobed (lobes opposite valves). Seeds 1.5–3 × 0.7–1.7 mm. 2n = 28.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>desert plains</habitat>
-  <habitat>dry hillsides</habitat>
-  <elevation>150–1500 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Caulanthus;species inflatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">inflatus</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species inflatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
   <discussion>Caulanthus inflatus is found in central and southern California.</discussion>
-</treatment>
+</bio:treatment>

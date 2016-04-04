@@ -1,148 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DICRANELLA</genus_name>
-    <genus_authority>(Müller Hal.) Schimper</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Howard A. Crum†</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Müller Hal.) Schimper" date="unknown">DICRANELLA</taxon_name>
     <place_of_publication>
       <publication_title>Coroll. Bryol. Eur.,</publication_title>
       <place_in_publication>13.  1856,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conserved_name>name conserved</conserved_name>
-  <etymology>[Genus Dicranum and Latin -ella, diminutive]</etymology>
-  <author>Howard A. Crum†</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Aongstroemia</genus_name>
-    <section_name>Dicranella</section_name>
-    <section_authority>Müller Hal.</section_authority>
+    <taxon_hierarchy>genus DICRANELLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Genus Dicranum and Latin -ella, diminutive]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Mitten" date="unknown">Aongstroemia</taxon_name>
+    <taxon_name rank="section" authority="Müller Hal." date="unknown">Dicranella</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>1: 430.  1848</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Anisothecium</genus_name>
-    <genus_authority>Mitten</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranella</genus_name>
-    <subgenus_name>Anisothecium</subgenus_name>
-    <subgenus_authority>(Mitten) Kindberg</subgenus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranella</genus_name>
-    <subgenus_name>Microdus</subgenus_name>
-    <subgenus_authority>(Bescherelle) Brotherus</subgenus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Microdus</genus_name>
-    <genus_authority>Bescherelle</genus_authority>
-  </TaxonIdentification>
-  <description>Plants in loose to dense tufts, green to yellowish green, sometimes reddish.  Stems 0.5–5(–11) cm, erect, simple or forked, rhizoids at bases of branches or stems.  Leaves short- to long-lanceolate, concave to keeled, rarely flat, erect-spreading or- appressed to squarrose, straight or falcate-secund, occasionally curled or crispate when dry; apices acute to obtuse, tips not deciduous; margins plane to recurved, entire, serrulate or serrate distally, entire proximally; laminae 1-stratose or rarely 2-stratose on margins; costa single, subpercurrent to excurrent, smooth or papillose to serrulate on abaxial surface, guide cells various, two stereid bands above and below, sometimes slightly differentiated or absent, adaxial and abaxial epidermal layers of cells differentiated or undifferentiated; laminal cell walls weakly bulging, or bulges absent; leaf cells not pitted, smooth, walls sometimes irregular; distal and median laminal cells long, rectangular to linear, proximal cells rectangular to linear, alar cells not differentiated.  Specialized asexual reproduction absent or tubers borne on rhizoids.  Sexual condition dioicous; male plants as large as female plants; perigonial leaves ovate, concave, short-acuminate; perichaetial leaves weakly sheathing; sometimes reported to be autoicous.  Seta solitary, smooth, elongate, erect or flexuose, twisted when dry, yellow or red, brown with age.  Capsule erect or inclined, usually ovoid, oblong or cylindric, sometimes subglobose, straight or arcuate, smooth, struma present or absent, plicate or furrowed when dry, often contracted below the mouth, sometimes obliquely so, annulus of 1–2 rows of deciduous or persistent cells; operculum long-rostrate to conic, often arcuate; peristome single, 16 teeth, split ca. 1/2 their length into 2 divisions, vertically pitted-striolate below, papillose above, red.  Calyptra cucullate, smooth, covering ca. 1/2 of capsule, fugacious.  Spores 10–25 µm, spheric, smooth to minutely papillose.</description>
-  <number_of_infrataxa>Species ca. 215 (11 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide including Antarctica.</global_distribution>
+    <taxon_hierarchy>genus Aongstroemia;section Dicranella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Bescherelle" date="unknown">Anisothecium</taxon_name>
+    <taxon_hierarchy>genus Anisothecium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranella</taxon_name>
+    <taxon_name rank="subgenus" authority="(Mitten) Kindberg" date="unknown">Anisothecium</taxon_name>
+    <taxon_hierarchy>genus Dicranella;subgenus Anisothecium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranella</taxon_name>
+    <taxon_name rank="subgenus" authority="(Bescherelle) Brotherus" date="unknown">Microdus</taxon_name>
+    <taxon_hierarchy>genus Dicranella;subgenus Microdus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microdus</taxon_name>
+    <taxon_hierarchy>genus Microdus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <discussion>Species ca. 215 (11 in the flora):</discussion>
   <discussion>Plants of Dicranella resemble those of Dicranum but are smaller and have scarcely differentiated alar cells.  As presented here, the genus includes the subgenera Dicranella and Microdus, which can be differentiated only on the basis of a few sporophytic characters and therefore are best regarded as subgenera: subg. Microdus has a yellowish seta, an annulus, and short, papillose peristome teeth that are entire or bluntly and shortly 2-fid; subg. Dicranella has a red or yellow seta, an annulus (in most cases), and vertically pitted-striolate peristome teeth rising from a short basal membrane.  The genus Anisothecium, differing from Dicranella only in having no annulus and longer peristome teeth rising from a somewhat higher membrane, is included here in subg. Dicranella.  What are here considered to be trivial differences separating the subgenera Dicranella and Microdus are very likely attributable to evolutionary reduction.  The synonymy has been taken largely from R. S. Williams (1913).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsule subglobose; peristome teeth less than 180 µm, shortly and irregularly 2-fid, papillose</statement>
+      <description type="morphology">Capsule subglobose; peristome teeth less than 180 µm, shortly and irregularly 2-fid, papillose</description>
       <determination>1.   Dicranella lindigiana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsule elongate; peristome teeth 250–500 µm, 2-fid to the middle or proximally, vertically pitted-striolate at base (subg. Dicranella).</statement>
+      <description type="morphology">Capsule elongate; peristome teeth 250–500 µm, 2-fid to the middle or proximally, vertically pitted-striolate at base (subg. Dicranella).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Seta yellow.</statement>
+      <description type="morphology">Seta yellow.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Capsule erect, smooth; perichaetial leaves not sheathing; leaves often blunt or rounded at a narrow apex</statement>
+      <description type="morphology">Capsule erect, smooth; perichaetial leaves not sheathing; leaves often blunt or rounded at a narrow apex</description>
       <determination>7.   Dicranella hilariana</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Capsule suberect to nodding, furrowed; perichaetial leaves sheathing at base; leaves acute.</statement>
+      <description type="morphology">Capsule suberect to nodding, furrowed; perichaetial leaves sheathing at base; leaves acute.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves serrulate at the apex and sometimes also at shoulders; distal cells long-rectangular (5–10:1); capsule nodding, curved, not oblique mouthed, strumose</statement>
+      <description type="morphology">Leaves serrulate at the apex and sometimes also at shoulders; distal cells long-rectangular (5–10:1); capsule nodding, curved, not oblique mouthed, strumose</description>
       <determination>8.   Dicranella cerviculata</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves serrulate in distal half; distal cells short-rectangular (2–4:1); capsule suberect, not curved, oblique at the mouth, not strumose 9. Dicranella heteromalla</statement>
+      <description type="morphology">Leaves serrulate in distal half; distal cells short-rectangular (2–4:1); capsule suberect, not curved, oblique at the mouth, not strumose 9. Dicranella heteromalla</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Seta red.</statement>
+      <description type="morphology">Seta red.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perichaetial leaves scarcely different from stem leaves; leaves wide-spreading to secund, not squarrose.</statement>
+      <description type="morphology">Perichaetial leaves scarcely different from stem leaves; leaves wide-spreading to secund, not squarrose.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf margins plane, sinuate-dentate; capsule erect and symmetric</statement>
+      <description type="morphology">Leaf margins plane, sinuate-dentate; capsule erect and symmetric</description>
       <determination>6.   Dicranella rufescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf margins recurved, at least in part, entire except at the apex; capsule inclined, asymmetric.</statement>
+      <description type="morphology">Leaf margins recurved, at least in part, entire except at the apex; capsule inclined, asymmetric.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves not 2-stratose, erect or ± incurved distally, but scarcely subtubulose; distal cells 6–9:1</statement>
+      <description type="morphology">Leaves not 2-stratose, erect or ± incurved distally, but scarcely subtubulose; distal cells 6–9:1</description>
       <determination>4.   Dicranella varia</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves 2-stratose and incurved distally, subtubulose; distal cells 1–2:1</statement>
+      <description type="morphology">Leaves 2-stratose and incurved distally, subtubulose; distal cells 1–2:1</description>
       <determination>5.   Dicranella pacifica</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perichaetial or both stem and perichaetial leaves with obovate, sheathing bases and  spreading to squarrose limbs.</statement>
+      <description type="morphology">Perichaetial or both stem and perichaetial leaves with obovate, sheathing bases and  spreading to squarrose limbs.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Costa long-excurrent; leaf cells long-rectangular, 6–8:1; annulus present.</statement>
+      <description type="morphology">Costa long-excurrent; leaf cells long-rectangular, 6–8:1; annulus present.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaves erect to falcate-secund; capsule inclined or nodding</statement>
+      <description type="morphology">Leaves erect to falcate-secund; capsule inclined or nodding</description>
       <determination>10.   Dicranella subulata</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaves squarrose distally, spreading-flexuose proximally; capsule erect and symmetric</statement>
+      <description type="morphology">Leaves squarrose distally, spreading-flexuose proximally; capsule erect and symmetric</description>
       <determination>11.   Dicranella crispa</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Costa short-excurrent; leaf cells often short and broad, some cells only 2–3:1; annulus absent.</statement>
+      <description type="morphology">Costa short-excurrent; leaf cells often short and broad, some cells only 2–3:1; annulus absent.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Leaves long-decurrent, oblong-lanceolate, obtuse to rounded at the apex, entire</statement>
+      <description type="morphology">Leaves long-decurrent, oblong-lanceolate, obtuse to rounded at the apex, entire</description>
       <determination>2.   Dicranella palustris</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Leaves not decurrent, narrowly lanceolate, acute or obtuse, entire to irregularly toothed at apex</statement>
+      <description type="morphology">Leaves not decurrent, narrowly lanceolate, acute or obtuse, entire to irregularly toothed at apex</description>
       <determination>3.   Dicranella schreberiana</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

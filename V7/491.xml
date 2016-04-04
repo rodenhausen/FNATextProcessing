@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>BOECHERA</genus_name>
-    <genus_authority>Á. Löve &amp; D. Löve</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz,Michael D. Windham</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Boechereae</taxon_name>
+    <taxon_name rank="genus" authority="Á. Löve &amp; D. Löve" date="unknown">BOECHERA</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Not.</publication_title>
       <place_in_publication>128: 513. 1976</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Tyge Wittrock Böcher, 1909–1983, Danish cytogeneticist who worked on subarctic flowering plants]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <author>Michael D. Windham</author>
-  <description>Perennials or, rarely, biennials; (sexual or apomictic, caudex usually present, rarely absent); not scapose; usually glabrous or pubescent, rarely hirsute or hispid, trichomes simple or branched, 2–14-rayed, sometimes dendritic, not stellate. Stems erect, ascending, or decumbent, unbranched or branched distally. Leaves basal and cauline; petiolate or sessile; basal rosulate or not, petiolate, blade margins usually entire or dentate, rarely lyrate-pinnatifid; cauline usually sessile, rarely shortly petiolate, blade (base sometimes auriculate or sagittate), margins entire or dentate. Racemes (sometimes paniculate), often elongated in fruit. Fruiting pedicels erect, ascending, divaricate, or reflexed (secund or not), slender. Flowers: sepals ovate or oblong, (lateral pair slightly saccate or not basally, margins membranous); petals usually white, pink, lavender, or purple, rarely yellowish, red, or magenta, spatulate or oblanceolate, (claw shorter than sepals or undifferentiated from blade, apex obtuse); stamens tetradynamous; filaments not dilated basally; anthers ovate or oblong, (apex obtuse), [pollen ellipsoid (sexual plants) or spheroid (apomictic)]; nectar glands confluent, subtending bases of stamens, lateral glands semi-annular or annular. Fruits usually sessile, rarely shortly stipitate, usually linear, rarely oblong or lanceolate, straight or falcate, smooth or torulose; valves (papery), each with obscure or prominent midvein, usually glabrous, rarely pubescent; replum (visible), rounded; septum complete, (membranous, veinless); ovules 8–250 per ovary; (style sometimes obsolete); stigma capitate. Seeds usually uniseriate or sub-biseriate, rarely biseriate, flattened, winged, not winged, or margined, oblong or orbicular; seed coat (usually smooth or minutely reticulate, rarely papillate), not mucilaginous when wetted; cotyledons accumbent.</description>
-  <number_of_infrataxa>Species 111+ (109 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Mexico</global_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Boechereae;genus BOECHERA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Tyge Wittrock Böcher, 1909–1983, Danish cytogeneticist who worked on subarctic flowering plants]</other_info_on_name>
+  </taxon_identification>
+  <number>11.</number>
+  <discussion>Species 111+ (109 in the flora):</discussion>
   <discussion>Boechera falcata (Turczaninow) Al-Shehbaz is known from eastern Asia (Russian Far East).</discussion>
   <discussion>Boechera often is treated as a synonym of Arabis (e.g., R. C. Rollins 1993; S. L. Welsh et al. 2003) but it has become clear that morphological similarities between these groups are due to evolutionary convergence, not shared ancestry. Molecular analyses by M. Koch et al. (2001) and T. Mitchell-Olds et al. (2005) revealed that Arabis and Boechera belong to distantly related clades of Brassicaceae that diverged some 19–25 million years ago. A new tribal classification of the family (I. A. Al-Shehbaz et al. 2006) places them in different tribes (Arabideae and Boechereae, respectively), reflecting their substantial molecular divergence.</discussion>
   <discussion>The taxonomic complexity of Arabis, in the broad sense, is legendary (R. C. Rollins 1941, 1993; G. A. Mulligan 1996). When the genus is split, most of the problematic taxa come to reside in Boechera. A rare confluence of hybridization, apomixis, and polyploidy makes this one of the most difficult genera in the North American flora. The sexual diploid species are relatively distinct from one another, but they hybridize wherever they come into contact. Through apomixis and polyploidy, the hybrids become stable, self-propagating lineages. Most of the hybrid derivatives in Boechera are triploids, but apomictic diploids are known as well. Thus, for any pair of sexual diploid species (e.g., AA and BB), this process can yield different intermediates, including AB apomicts and both possible apomictic triploids (AAB and ABB). The situation becomes even more challenging when a third sexual diploid enters the picture. To date, we have identified three taxa (B. divaricarpa, B. pinetorum, B. tularensis) that appear to be trigenomic triploids. Under these circumstances, even the most distinctive sexual diploid progenitors can become lost in a seemingly continuous range of morphological variability.</discussion>
@@ -36,42 +38,42 @@
     <key_head>Key to Species Groups of Boechera</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaf blades not auriculate</statement>
+      <description type="morphology">Cauline leaf blades not auriculate</description>
       <determination>Group 1, p. 351</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaf blades auriculate.</statement>
+      <description type="morphology">Cauline leaf blades auriculate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruit valves pubescent</statement>
+      <description type="morphology">Fruit valves pubescent</description>
       <determination>Group 2, p. 353</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruit valves glabrous.</statement>
+      <description type="morphology">Fruit valves glabrous.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems glabrous proximally</statement>
+      <description type="morphology">Stems glabrous proximally</description>
       <determination>Group 3, p. 354</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems pubescent proximally.</statement>
+      <description type="morphology">Stems pubescent proximally.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits reflexed, pendent, or descending</statement>
+      <description type="morphology">Fruits reflexed, pendent, or descending</description>
       <determination>Group 4, p. 356</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits erect, ascending, or horizontal</statement>
+      <description type="morphology">Fruits erect, ascending, or horizontal</description>
       <determination>Group 5, p. 360</determination>
     </key_statement>
   </key>
@@ -79,392 +81,392 @@
     <key_head>Group 1</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous or with simple trichomes only.</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous or with simple trichomes only.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Biennials, without caudices; stems (2–)3–10 dm; cauline leaves 18–80.</statement>
+      <description type="morphology">Biennials, without caudices; stems (2–)3–10 dm; cauline leaves 18–80.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Racemes usually unbranched; cauline leaves 18–28; ovules 64–80 per ovary; seeds</statement>
+      <description type="morphology">Racemes usually unbranched; cauline leaves 18–28; ovules 64–80 per ovary; seeds</description>
       <determination>6. Boechera burkii</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Racemes highly branched; cauline leaves 30–80; ovules 30–42 per ovary; seeds</statement>
+      <description type="morphology">Racemes highly branched; cauline leaves 30–80; ovules 30–42 per ovary; seeds</description>
       <determination>93. Boechera serotina</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perennials, with caudices; stems 0.3–2.5 dm; cauline leaves 1–12.</statement>
+      <description type="morphology">Perennials, with caudices; stems 0.3–2.5 dm; cauline leaves 1–12.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits pendent; petals white to pale lavender; (c Colorado)</statement>
+      <description type="morphology">Fruits pendent; petals white to pale lavender; (c Colorado)</description>
       <determination>62. Boechera oxylobula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits ascending to erect; petals usually purple to lavender (white in B. davidsonii ) .</statement>
+      <description type="morphology">Fruits ascending to erect; petals usually purple to lavender (white in B. davidsonii ) .</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blade surfaces puberulent (trichomes simple); petals 4–5 mm; fruits 1–1.5</statement>
+      <description type="morphology">Leaf blade surfaces puberulent (trichomes simple); petals 4–5 mm; fruits 1–1.5</description>
       <determination>95. Boechera shevockii</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blade surfaces glabrous; petals 6–10 mm; fruits 1.5–2.5 mm wide.</statement>
+      <description type="morphology">Leaf blade surfaces glabrous; petals 6–10 mm; fruits 1.5–2.5 mm wide.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Caudex branches with persistent, crowded leaf bases; fruits usually</statement>
+      <description type="morphology">Caudex branches with persistent, crowded leaf bases; fruits usually</description>
       <determination>18. Boechera davidsonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Caudex branches without persistent, crowded leaf bases; fruits erect,</statement>
+      <description type="morphology">Caudex branches without persistent, crowded leaf bases; fruits erect,</description>
       <determination>56. Boechera lyallii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade surfaces with at least some branched trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with at least some branched trichomes.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Styles 2.5–8 mm.</statement>
+      <description type="morphology">Styles 2.5–8 mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Petals white, 6–8 mm; basal leaf blade surfaces glabrous; fruits pendent, 4–6(–7.5)</statement>
+      <description type="morphology">Petals white, 6–8 mm; basal leaf blade surfaces glabrous; fruits pendent, 4–6(–7.5)</description>
       <determination>14. Boechera constancei</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Petals lavender to purple, 8–13 mm; basal leaf blade surfaces pubescent; fruits</statement>
+      <description type="morphology">Petals lavender to purple, 8–13 mm; basal leaf blade surfaces pubescent; fruits</description>
       <determination>65. Boechera parishii</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Styles 0.05–2 mm.</statement>
+      <description type="morphology">Styles 0.05–2 mm.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Plants usually glabrous throughout (except margins of basal leaf blades).</statement>
+      <description type="morphology">Plants usually glabrous throughout (except margins of basal leaf blades).</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruits 3–5(–7) mm wide; seeds 3–6 × 2–4 mm.</statement>
+      <description type="morphology">Fruits 3–5(–7) mm wide; seeds 3–6 × 2–4 mm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blade margins with 2–4-rayed and simple trichomes; ovules</statement>
+      <description type="morphology">Basal leaf blade margins with 2–4-rayed and simple trichomes; ovules</description>
       <determination>15. Boechera covillei (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blade margins with only 2-rayed and simple trichomes; ovules</statement>
+      <description type="morphology">Basal leaf blade margins with only 2-rayed and simple trichomes; ovules</description>
       <determination>46. Boechera howellii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruits 1.4–2.5 mm wide; seeds 1.5–2.2 × 1–1.5 mm.</statement>
+      <description type="morphology">Fruits 1.4–2.5 mm wide; seeds 1.5–2.2 × 1–1.5 mm.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals 6–8.5 mm; fruiting pedicels erect; ovules 34–64 per ovary; seeds</statement>
+      <description type="morphology">Petals 6–8.5 mm; fruiting pedicels erect; ovules 34–64 per ovary; seeds</description>
       <determination>56. Boechera lyallii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals 4–5 mm; fruiting pedicels ascending; ovules 14–22 per ovary; seeds</statement>
+      <description type="morphology">Petals 4–5 mm; fruiting pedicels ascending; ovules 14–22 per ovary; seeds</description>
       <determination>103. Boechera tiehmii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Plants usually sparsely to densely pubescent proximally (sometimes throughout).</statement>
+      <description type="morphology">Plants usually sparsely to densely pubescent proximally (sometimes throughout).</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Fruit valves pubescent.</statement>
+      <description type="morphology">Fruit valves pubescent.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Basal leaf blades 10–25(–50) mm wide; petals 3.5–6 mm</statement>
+      <description type="morphology">Basal leaf blades 10–25(–50) mm wide; petals 3.5–6 mm</description>
       <determination>85. Boechera repanda (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Basal leaf blades 1–5 mm wide; petals 6–12 mm.</statement>
+      <description type="morphology">Basal leaf blades 1–5 mm wide; petals 6–12 mm.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Fruiting pedicels usually ascending to widely pendent, rarely</statement>
+      <description type="morphology">Fruiting pedicels usually ascending to widely pendent, rarely</description>
       <determination>55. Boechera lincolnensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Fruiting pedicels reflexed, pendent, or recurved.</statement>
+      <description type="morphology">Fruiting pedicels reflexed, pendent, or recurved.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruiting pedicels 1.5–2 mm; petals yellow proximally, brick-red</statement>
+      <description type="morphology">Fruiting pedicels 1.5–2 mm; petals yellow proximally, brick-red</description>
       <determination>109. Boechera yorkii</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruiting pedicels 4–20 mm; petals purple, lavender, or white.</statement>
+      <description type="morphology">Fruiting pedicels 4–20 mm; petals purple, lavender, or white.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Stems arising at ground surface, usually without woody bases; seeds uniseriate; ovules 26–64 per ovary.</statement>
+      <description type="morphology">Stems arising at ground surface, usually without woody bases; seeds uniseriate; ovules 26–64 per ovary.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaf blade margins entire; stems proximally with trichomes 0.05–0.15 mm; cauline leaves 4–10; racemes</statement>
+      <description type="morphology">Basal leaf blade margins entire; stems proximally with trichomes 0.05–0.15 mm; cauline leaves 4–10; racemes</description>
       <determination>52. Boechera lasiocarpa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaf blade margins usually dentate; stems proximally with trichomes 0.1–0.3(–0.5) mm; cauline leaves 7–45 (–65); racemes 10–40(–64)-flowered; ovules 38–64 per</statement>
+      <description type="morphology">Basal leaf blade margins usually dentate; stems proximally with trichomes 0.1–0.3(–0.5) mm; cauline leaves 7–45 (–65); racemes 10–40(–64)-flowered; ovules 38–64 per</description>
       <determination>79. Boechera puberula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Stems elevated above ground surface on woody bases; seeds biseriate; ovules 68–106 per ovary.</statement>
+      <description type="morphology">Stems elevated above ground surface on woody bases; seeds biseriate; ovules 68–106 per ovary.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Fruiting pedicels not abruptly recurved at base; petals white to lavender; fruits 1.6–3 mm wide, usually not appressed to rachises; seeds 1.2–1.6 × 1–1.2 mm; Colorado Plateau</statement>
+      <description type="morphology">Fruiting pedicels not abruptly recurved at base; petals white to lavender; fruits 1.6–3 mm wide, usually not appressed to rachises; seeds 1.2–1.6 × 1–1.2 mm; Colorado Plateau</description>
       <determination>32. Boechera formosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Fruiting pedicels abruptly recurved at base; petals usually purple, rarely white; fruits 2.5–4 mm wide, usually appressed to rachises; seeds 1.7–2.8 × 1.5–2.2 mm;</statement>
+      <description type="morphology">Fruiting pedicels abruptly recurved at base; petals usually purple, rarely white; fruits 2.5–4 mm wide, usually appressed to rachises; seeds 1.7–2.8 × 1.5–2.2 mm;</description>
       <determination>80. Boechera pulchra (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Fruit valves glabrous.</statement>
+      <description type="morphology">Fruit valves glabrous.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits reflexed, pendent, or descending.</statement>
+      <description type="morphology">Fruits reflexed, pendent, or descending.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Biennials; basal leaf blades 10–30 mm wide</statement>
+      <description type="morphology">Biennials; basal leaf blades 10–30 mm wide</description>
       <determination>9. Boechera canadensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Perennials; basal leaf blades 1–7 mm wide.</statement>
+      <description type="morphology">Perennials; basal leaf blades 1–7 mm wide.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruits 5–7(–8) mm wide; seeds 4–5 mm wide; primarily Mojave Desert</statement>
+      <description type="morphology">Fruits 5–7(–8) mm wide; seeds 4–5 mm wide; primarily Mojave Desert</description>
       <determination>35. Boechera glaucovalvula</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruits 0.9–2.3 mm wide; seeds (0.1–)0.6–1.5 mm wide; not Mojave Desert.</statement>
+      <description type="morphology">Fruits 0.9–2.3 mm wide; seeds (0.1–)0.6–1.5 mm wide; not Mojave Desert.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Fruiting pedicels abruptly recurved at bases; fruits reflexed, usually appressed to rachises; cauline leaves 15–40; racemes 15–80</statement>
+      <description type="morphology">Fruiting pedicels abruptly recurved at bases; fruits reflexed, usually appressed to rachises; cauline leaves 15–40; racemes 15–80</description>
       <determination>86. Boechera retrofracta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Fruiting pedicels not abruptly recurved at bases; fruits divaricate-descending to pendent, not appressed to rachises; cauline leaves 2–17; racemes 2–13 (–17)-flowered.</statement>
+      <description type="morphology">Fruiting pedicels not abruptly recurved at bases; fruits divaricate-descending to pendent, not appressed to rachises; cauline leaves 2–17; racemes 2–13 (–17)-flowered.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Fruits divaricate-descending to slightly descending, strongly secund.</statement>
+      <description type="morphology">Fruits divaricate-descending to slightly descending, strongly secund.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Basal leaf blade surfaces with 3–9-rayed trichomes; stems proximally with 2–6-rayed trichomes; seeds 0.9–1.5 mm wide, with continuous wing 0.1–0.5 mm wide; plants sexual, pollen ellipsoid</statement>
+      <description type="morphology">Basal leaf blade surfaces with 3–9-rayed trichomes; stems proximally with 2–6-rayed trichomes; seeds 0.9–1.5 mm wide, with continuous wing 0.1–0.5 mm wide; plants sexual, pollen ellipsoid</description>
       <determination>53. Boechera lemmonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Basal leaf blade surfaces with 2- or 3-rayed trichomes; stems proximally with simple and 2-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with distal wing 0.05–0.1 mm wide; plants</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2- or 3-rayed trichomes; stems proximally with simple and 2-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with distal wing 0.05–0.1 mm wide; plants</description>
       <determination>81. Boechera pusilla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Fruits pendent, usually not secund, rarely weakly so.</statement>
+      <description type="morphology">Fruits pendent, usually not secund, rarely weakly so.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Basal leaf blade surfaces with 4–8-rayed trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with 4–8-rayed trichomes.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Petals 6–10 mm; stems proximally with 4–8-rayed trichomes 0.05–0.15 mm; ovules 26–36 per ovary; seeds uniseriate</statement>
+      <description type="morphology">Petals 6–10 mm; stems proximally with 4–8-rayed trichomes 0.05–0.15 mm; ovules 26–36 per ovary; seeds uniseriate</description>
       <determination>52. Boechera lasiocarpa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Petals 4–6 mm; stems proximally with simple and 2–4-rayed trichomes 0.1–0.4 mm; ovules 66–92 per ovary; seeds sub-</statement>
+      <description type="morphology">Petals 4–6 mm; stems proximally with simple and 2–4-rayed trichomes 0.1–0.4 mm; ovules 66–92 per ovary; seeds sub-</description>
       <determination>70. Boechera pendulocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Basal leaf blade surfaces with 2- or 3-rayed trichomes 0.1–0.4 mm; ovules 28–44 per ovary; seeds uniseriate, with continuous</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2- or 3-rayed trichomes 0.1–0.4 mm; ovules 28–44 per ovary; seeds uniseriate, with continuous</description>
       <determination>62. Boechera oxylobula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Basal leaf blade surfaces with simple and 2-rayed trichomes 0.3–0.8 mm; ovules 40–70(–100) per ovary; seeds biseriate,</statement>
+      <description type="morphology">Basal leaf blade surfaces with simple and 2-rayed trichomes 0.3–0.8 mm; ovules 40–70(–100) per ovary; seeds biseriate,</description>
       <determination>69. Boechera pendulina (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits erect, ascending, or horizontal.</statement>
+      <description type="morphology">Fruits erect, ascending, or horizontal.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Fruits secund.</statement>
+      <description type="morphology">Fruits secund.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Basal leaf blade surfaces with 3–9-rayed trichomes; stems proximally with 2–6- rayed trichomes; seeds 1–1.5 mm wide, with continuous wing 0.1–0.5 mm wide;</statement>
+      <description type="morphology">Basal leaf blade surfaces with 3–9-rayed trichomes; stems proximally with 2–6- rayed trichomes; seeds 1–1.5 mm wide, with continuous wing 0.1–0.5 mm wide;</description>
       <determination>53. Boechera lemmonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Basal leaf blade surfaces with 2- or 3-rayed trichomes or glabrous; stems proximally with simple and 2-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2- or 3-rayed trichomes or glabrous; stems proximally with simple and 2-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with</description>
       <determination>81. Boechera pusilla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Fruits not secund.</statement>
+      <description type="morphology">Fruits not secund.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems proximally with simple trichomes 0.5–1.5 mm; ovules 56–106 per ovary</statement>
+      <description type="morphology">Stems proximally with simple trichomes 0.5–1.5 mm; ovules 56–106 per ovary</description>
       <determination>17. Boechera cusickii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems proximally with simple and/or branched trichomes usually less than 0.5 mm; ovules 8–52 per ovary.</statement>
+      <description type="morphology">Stems proximally with simple and/or branched trichomes usually less than 0.5 mm; ovules 8–52 per ovary.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Fruits 1.3–1.7(–2) mm wide, erect, appressed to rachises</statement>
+      <description type="morphology">Fruits 1.3–1.7(–2) mm wide, erect, appressed to rachises</description>
       <determination>67. Boechera paupercula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Fruits 2–5.5 mm wide, divaricate-ascending to erect, ± appressed to rachises.</statement>
+      <description type="morphology">Fruits 2–5.5 mm wide, divaricate-ascending to erect, ± appressed to rachises.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Basal leaf blades 7–25(–50) mm wide, margins usually repand to dentate,</statement>
+      <description type="morphology">Basal leaf blades 7–25(–50) mm wide, margins usually repand to dentate,</description>
       <determination>85. Boechera repanda (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Basal leaf blades 0.8–7(–10) mm wide, margins entire.</statement>
+      <description type="morphology">Basal leaf blades 0.8–7(–10) mm wide, margins entire.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Basal leaf blade surfaces with at least some 8–14-rayed trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with at least some 8–14-rayed trichomes.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Petals 3.5–6 mm; styles to 0.1 mm; ovules 44–52 per ovary;</statement>
+      <description type="morphology">Petals 3.5–6 mm; styles to 0.1 mm; ovules 44–52 per ovary;</description>
       <determination>21. Boechera dispar</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Petals 9–14 mm; styles (0.7–)1–2 mm; ovules 26–34 per ovary;</statement>
+      <description type="morphology">Petals 9–14 mm; styles (0.7–)1–2 mm; ovules 26–34 per ovary;</description>
       <determination>48. Boechera johnstonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Basal leaf blade surfaces with 2–6 (or 7)-rayed trichomes only.</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2–6 (or 7)-rayed trichomes only.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes; fruits</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes; fruits</description>
       <determination>82. Boechera pygmaea</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Stems proximally with branched trichomes only; fruits (2.5–) 3–8.5 cm; ovules 16–44 per ovary.</statement>
+      <description type="morphology">Stems proximally with branched trichomes only; fruits (2.5–) 3–8.5 cm; ovules 16–44 per ovary.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Fruits 3–5.5 mm wide; seeds 3–6.5(–8) × 2–4.5 mm, wing (0.8–)1.2–2.5 mm wide.</statement>
+      <description type="morphology">Fruits 3–5.5 mm wide; seeds 3–6.5(–8) × 2–4.5 mm, wing (0.8–)1.2–2.5 mm wide.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Basal leaf petioles with simple or spurred cilia to 1 mm, blade surfaces with short-stalked, 2–4 (or 5)-rayed trichomes 0.1–0.3 mm; fruits without parallel edges</statement>
+      <description type="morphology">Basal leaf petioles with simple or spurred cilia to 1 mm, blade surfaces with short-stalked, 2–4 (or 5)-rayed trichomes 0.1–0.3 mm; fruits without parallel edges</description>
       <determination>75. Boechera platysperma</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Basal leaf petioles without cilia, blade surfaces with long-stalked, 3–6 (or 7)-rayed trichomes 0.2–0.5 mm; fruits with parallel edges (not undulate and constricted between</statement>
+      <description type="morphology">Basal leaf petioles without cilia, blade surfaces with long-stalked, 3–6 (or 7)-rayed trichomes 0.2–0.5 mm; fruits with parallel edges (not undulate and constricted between</description>
       <determination>105. Boechera ultra-alsa</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Fruits 2–3.2 mm wide; seeds 2.5–3.5 × 1.5–2.5 mm, wing 0.2–0.9 mm wide.</statement>
+      <description type="morphology">Fruits 2–3.2 mm wide; seeds 2.5–3.5 × 1.5–2.5 mm, wing 0.2–0.9 mm wide.</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Sepals glabrous; basal leaf blades 2–6 mm wide, with sessile or subsessile trichomes; fruiting pedicels 4–8 mm;</statement>
+      <description type="morphology">Sepals glabrous; basal leaf blades 2–6 mm wide, with sessile or subsessile trichomes; fruiting pedicels 4–8 mm;</description>
       <determination>25. Boechera elkoensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Sepals sparsely pubescent; basal leaf blades 1–2.5(–3) mm wide, with stalked trichomes; fruiting pedicels 2–6 mm;</statement>
+      <description type="morphology">Sepals sparsely pubescent; basal leaf blades 1–2.5(–3) mm wide, with stalked trichomes; fruiting pedicels 2–6 mm;</description>
       <determination>74. Boechera pinzliae (in part)</determination>
     </key_statement>
   </key>
@@ -472,132 +474,132 @@
     <key_head>Group 2</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 2–4 mm; fruits 0.7–1 mm wide; seeds not winged; basal leaf blades (5–)10–45 mm wide.</statement>
+      <description type="morphology">Petals 2–4 mm; fruits 0.7–1 mm wide; seeds not winged; basal leaf blades (5–)10–45 mm wide.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blade adaxial surfaces with simple trichomes; petals white to cream; fruiting</statement>
+      <description type="morphology">Basal leaf blade adaxial surfaces with simple trichomes; petals white to cream; fruiting</description>
       <determination>19. Boechera dentata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blade adaxial surfaces with 3- or 4(–6)-rayed trichomes; petals purplish;</statement>
+      <description type="morphology">Basal leaf blade adaxial surfaces with 3- or 4(–6)-rayed trichomes; petals purplish;</description>
       <determination>72. Boechera perstellata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 4–16 mm; fruits 0.9–3(–4) mm wide; seeds usually winged; basal leaf blades 1–7(–11) mm wide.</statement>
+      <description type="morphology">Petals 4–16 mm; fruits 0.9–3(–4) mm wide; seeds usually winged; basal leaf blades 1–7(–11) mm wide.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting pedicels reflexed, pendent, or descending.</statement>
+      <description type="morphology">Fruiting pedicels reflexed, pendent, or descending.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals white to lavender; fruits 0.9–2.2 mm wide; seeds 0.9–1.8 × 0.7–1.4 mm.</statement>
+      <description type="morphology">Petals white to lavender; fruits 0.9–2.2 mm wide; seeds 0.9–1.8 × 0.7–1.4 mm.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruiting pedicels not abruptly recurved at bases; fruits 1.9–2.2 mm wide, pendent, rarely appressed to rachises; ovules 38–64 per ovary; seeds 1.4–1.8</statement>
+      <description type="morphology">Fruiting pedicels not abruptly recurved at bases; fruits 1.9–2.2 mm wide, pendent, rarely appressed to rachises; ovules 38–64 per ovary; seeds 1.4–1.8</description>
       <determination>79. Boechera puberula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruiting pedicels abruptly recurved at bases; fruits 0.9–1.5 mm wide, reflexed, usually appressed to rachises; ovules 60–116 per ovary; seeds 0.9–1.4 mm, wing 0.05–0.1 mm wide.</statement>
+      <description type="morphology">Fruiting pedicels abruptly recurved at bases; fruits 0.9–1.5 mm wide, reflexed, usually appressed to rachises; ovules 60–116 per ovary; seeds 0.9–1.4 mm, wing 0.05–0.1 mm wide.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruit valves densely pubescent; petals sparsely pubescent abaxially</statement>
+      <description type="morphology">Fruit valves densely pubescent; petals sparsely pubescent abaxially</description>
       <determination>76. Boechera polyantha</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruit valves sparsely pubescent; petals glabrous abaxially</statement>
+      <description type="morphology">Fruit valves sparsely pubescent; petals glabrous abaxially</description>
       <determination>86. Boechera retrofracta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals usually purple; fruits (1.6–)2–4 mm wide; seeds 1.7–3.5 × 1.3–2.2 mm.</statement>
+      <description type="morphology">Petals usually purple; fruits (1.6–)2–4 mm wide; seeds 1.7–3.5 × 1.3–2.2 mm.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems from near ground surface, usually without woody bases; seeds uniseriate; ovules 20–42 per ovary; north of 40 o N latitude.</statement>
+      <description type="morphology">Stems from near ground surface, usually without woody bases; seeds uniseriate; ovules 20–42 per ovary; north of 40 o N latitude.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Basal leaf blade margins entire; petals 6–8 mm; styles 1.5–2 mm; fruits</statement>
+      <description type="morphology">Basal leaf blade margins entire; petals 6–8 mm; styles 1.5–2 mm; fruits</description>
       <determination>94. Boechera serpenticola (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Basal leaf blade margins (at least some) prominently dentate or subpinnatifid; petals 9–14 mm; styles 0.5–1 mm; fruits pendent, valves moderately to</statement>
+      <description type="morphology">Basal leaf blade margins (at least some) prominently dentate or subpinnatifid; petals 9–14 mm; styles 0.5–1 mm; fruits pendent, valves moderately to</description>
       <determination>100. Boechera subpinnatifida (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems elevated above ground surface on woody bases; seeds biseriate to sub-biseriate; ovules 68–126 per ovary; south of 40 o N latitude.</statement>
+      <description type="morphology">Stems elevated above ground surface on woody bases; seeds biseriate to sub-biseriate; ovules 68–126 per ovary; south of 40 o N latitude.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruiting pedicels abruptly recurved at bases; fruits 2.5–4 mm wide, valves densely pubescent proximally; basal leaf blades 1–3 mm wide</statement>
+      <description type="morphology">Fruiting pedicels abruptly recurved at bases; fruits 2.5–4 mm wide, valves densely pubescent proximally; basal leaf blades 1–3 mm wide</description>
       <determination>80. Boechera pulchra (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruiting pedicels not abruptly recurved at bases; fruits 2–2.5 mm wide,</statement>
+      <description type="morphology">Fruiting pedicels not abruptly recurved at bases; fruits 2–2.5 mm wide,</description>
       <determination>108. Boechera xylopoda</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting pedicels suberect, ascending, or horizontal.</statement>
+      <description type="morphology">Fruiting pedicels suberect, ascending, or horizontal.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Stems proximally with simple and 2-rayed trichomes 0.4–1 mm; basal leaf blade</statement>
+      <description type="morphology">Stems proximally with simple and 2-rayed trichomes 0.4–1 mm; basal leaf blade</description>
       <determination>5. Boechera breweri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Stems proximally with 2–12-rayed trichomes 0.1–0.5 mm; basal leaf blade surfaces with short-stalked, (3- or) 4–12-rayed trichomes.</statement>
+      <description type="morphology">Stems proximally with 2–12-rayed trichomes 0.1–0.5 mm; basal leaf blade surfaces with short-stalked, (3- or) 4–12-rayed trichomes.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Fruits (4.5–)6–11 cm, usually curved; petals 0.8–1.2 mm wide; ovules 140–190</statement>
+      <description type="morphology">Fruits (4.5–)6–11 cm, usually curved; petals 0.8–1.2 mm wide; ovules 140–190</description>
       <determination>96. Boechera shockleyi (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Fruits 3–5.8 cm, straight; petals 1.5–4.5 mm wide; ovules 34–120 per ovary.</statement>
+      <description type="morphology">Fruits 3–5.8 cm, straight; petals 1.5–4.5 mm wide; ovules 34–120 per ovary.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Styles 1–1.5 mm; seeds uniseriate; ovules 34–68 per ovary; stems</statement>
+      <description type="morphology">Styles 1–1.5 mm; seeds uniseriate; ovules 34–68 per ovary; stems</description>
       <determination>29. Boechera fecunda</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Styles 0.1–0.3 mm; seeds biseriate or sub-biseriate; ovules 72–120 per ovary; stems proximally with 2–7-rayed trichomes; sw United States.</statement>
+      <description type="morphology">Styles 0.1–0.3 mm; seeds biseriate or sub-biseriate; ovules 72–120 per ovary; stems proximally with 2–7-rayed trichomes; sw United States.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Fruit valves glabrous proximally; cauline leaves 3–8; basal leaves 2–5</statement>
+      <description type="morphology">Fruit valves glabrous proximally; cauline leaves 3–8; basal leaves 2–5</description>
       <determination>24. Boechera duchesnensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Fruit valves pubescent proximally; cauline leaves 10–25; basal leaves</statement>
+      <description type="morphology">Fruit valves pubescent proximally; cauline leaves 10–25; basal leaves</description>
       <determination>55. Boechera lincolnensis (in part)</determination>
     </key_statement>
   </key>
@@ -605,262 +607,262 @@
     <key_head>Group 3</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits erect, usually appressed to rachises.</statement>
+      <description type="morphology">Fruits erect, usually appressed to rachises.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blade surfaces with 4–8-rayed trichomes; petals 3–4 mm; seeds 0.7–0.9</statement>
+      <description type="morphology">Basal leaf blade surfaces with 4–8-rayed trichomes; petals 3–4 mm; seeds 0.7–0.9</description>
       <determination>107. Boechera williamsii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous or with 2–4(–6)-rayed trichomes; petals 5–11 mm; seeds 1.3–2.2 × 1–1.8 mm.</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous or with 2–4(–6)-rayed trichomes; petals 5–11 mm; seeds 1.3–2.2 × 1–1.8 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Basal leaf blade surfaces with malpighiaceous (usually along margins) and sessile,</statement>
+      <description type="morphology">Basal leaf blade surfaces with malpighiaceous (usually along margins) and sessile,</description>
       <determination>7. Boechera calderi</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Basal leaf blade surfaces either with malpighiaceous or with short-stalked 2–4(–6)-rayed trichomes (rarely completely glabrous).</statement>
+      <description type="morphology">Basal leaf blade surfaces either with malpighiaceous or with short-stalked 2–4(–6)-rayed trichomes (rarely completely glabrous).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Basal leaves usually with short-stalked, 2–4(–6)-rayed trichomes (at least on margins), malpighiaceous trichomes absent; petals lavender to purple; cauline</statement>
+      <description type="morphology">Basal leaves usually with short-stalked, 2–4(–6)-rayed trichomes (at least on margins), malpighiaceous trichomes absent; petals lavender to purple; cauline</description>
       <determination>56. Boechera lyallii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Basal leaves with exclusively malpighiaceous trichomes (rarely with simple cilia on petioles); petals usually white, rarely lavender; cauline leaves 6–52;</statement>
+      <description type="morphology">Basal leaves with exclusively malpighiaceous trichomes (rarely with simple cilia on petioles); petals usually white, rarely lavender; cauline leaves 6–52;</description>
       <determination>99. Boechera stricta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits reflexed, pendent, horizontal, or ascending, not appressed to rachises or, if so, reflexed.</statement>
+      <description type="morphology">Fruits reflexed, pendent, horizontal, or ascending, not appressed to rachises or, if so, reflexed.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits pendent to reflexed.</statement>
+      <description type="morphology">Fruits pendent to reflexed.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruiting pedicels (at least some) abruptly recurved at bases.</statement>
+      <description type="morphology">Fruiting pedicels (at least some) abruptly recurved at bases.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems elevated above ground surface on woody bases; fruits 3–5(–6) mm wide; seeds with wings 0.8–1.5 mm wide; racemes 6–12-flowered</statement>
+      <description type="morphology">Stems elevated above ground surface on woody bases; fruits 3–5(–6) mm wide; seeds with wings 0.8–1.5 mm wide; racemes 6–12-flowered</description>
       <determination>101. Boechera suffrutescens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems from ground surface, usually without woody bases; fruits 1–2.5 mm wide; seeds with wings 0.05–0.25 mm wide; racemes 10–50-flowered.</statement>
+      <description type="morphology">Stems from ground surface, usually without woody bases; fruits 1–2.5 mm wide; seeds with wings 0.05–0.25 mm wide; racemes 10–50-flowered.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Petals lavender, 5–6 mm; basal leaf blade surfaces glabrous or with</statement>
+      <description type="morphology">Petals lavender, 5–6 mm; basal leaf blade surfaces glabrous or with</description>
       <determination>42. Boechera hastatula</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Petals white, 3–4 mm; basal leaf blade surfaces with simple and 2- or 3-rayed trichomes; fruits 1.8–2.5 mm wide; California to sc Oregon</statement>
+      <description type="morphology">Petals white, 3–4 mm; basal leaf blade surfaces with simple and 2- or 3-rayed trichomes; fruits 1.8–2.5 mm wide; California to sc Oregon</description>
       <determination>84. Boechera rectissima (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruiting pedicels not abruptly recurved at bases.</statement>
+      <description type="morphology">Fruiting pedicels not abruptly recurved at bases.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits 1.5–2.5 mm wide; stems arising from margins of rosettes or arising laterally to sterile shoots.</statement>
+      <description type="morphology">Fruits 1.5–2.5 mm wide; stems arising from margins of rosettes or arising laterally to sterile shoots.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruiting pedicels 10–27 mm; basal leaf blade surfaces with 2–6-rayed trichomes; cauline leaf blades with auricles 0.5–3.5(–5.5) mm; s New</statement>
+      <description type="morphology">Fruiting pedicels 10–27 mm; basal leaf blade surfaces with 2–6-rayed trichomes; cauline leaf blades with auricles 0.5–3.5(–5.5) mm; s New</description>
       <determination>77. Boechera porphyrea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruiting pedicels 5–9 mm; basal leaf blade surfaces glabrous or with 2- or 3-rayed trichomes; cauline leaf blades with auricles 0.2–0.5 mm; c Nevada</statement>
+      <description type="morphology">Fruiting pedicels 5–9 mm; basal leaf blade surfaces glabrous or with 2- or 3-rayed trichomes; cauline leaf blades with auricles 0.2–0.5 mm; c Nevada</description>
       <determination>92. Boechera schistacea</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits 2.5–5(–6) mm wide; stems arising from centers of rosettes.</statement>
+      <description type="morphology">Fruits 2.5–5(–6) mm wide; stems arising from centers of rosettes.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blade surfaces with trichomes 0.4–0.6 mm; ovules 80–130 per</statement>
+      <description type="morphology">Basal leaf blade surfaces with trichomes 0.4–0.6 mm; ovules 80–130 per</description>
       <determination>102. Boechera texana</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous or with trichomes 0.07–0.4 mm; ovules 14–30 per ovary; seeds uniseriate, wing 0.3–1.5 mm wide; California, Idaho, Nevada, Oregon, Washington.</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous or with trichomes 0.07–0.4 mm; ovules 14–30 per ovary; seeds uniseriate, wing 0.3–1.5 mm wide; California, Idaho, Nevada, Oregon, Washington.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals 8–11 mm; fruits 2.5–3.5 mm wide; seeds with wing 0.3–0.6 mm</statement>
+      <description type="morphology">Petals 8–11 mm; fruits 2.5–3.5 mm wide; seeds with wing 0.3–0.6 mm</description>
       <determination>88. Boechera rollei</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals 4.5–6 mm; fruits 3–5(–6) mm wide; seeds with wing 0.8–1.5</statement>
+      <description type="morphology">Petals 4.5–6 mm; fruits 3–5(–6) mm wide; seeds with wing 0.8–1.5</description>
       <determination>101. Boechera suffrutescens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits ascending, horizontal, or slightly descending.</statement>
+      <description type="morphology">Fruits ascending, horizontal, or slightly descending.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous or with simple trichomes only.</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous or with simple trichomes only.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Basal leaf blade margins entire; fruits 1.9–4 cm; seeds biseriate; Nevada</statement>
+      <description type="morphology">Basal leaf blade margins entire; fruits 1.9–4 cm; seeds biseriate; Nevada</description>
       <determination>60. Boechera nevadensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Basal leaf blade margins dentate to lyrate-pinnatifid; fruits (4–)6–11.7 cm; seeds uniseriate; not Nevada.</statement>
+      <description type="morphology">Basal leaf blade margins dentate to lyrate-pinnatifid; fruits (4–)6–11.7 cm; seeds uniseriate; not Nevada.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Basal leaf blade margins dentate or serrate; petals 3–5 mm</statement>
+      <description type="morphology">Basal leaf blade margins dentate or serrate; petals 3–5 mm</description>
       <determination>50. Boechera laevigata</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Basal leaf blade margins lyrate-pinnatifid; petals 5–10 mm</statement>
+      <description type="morphology">Basal leaf blade margins lyrate-pinnatifid; petals 5–10 mm</description>
       <determination>59. Boechera missouriensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Basal leaf blade surfaces with branched trichomes only.</statement>
+      <description type="morphology">Basal leaf blade surfaces with branched trichomes only.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Basal leaf blade trichomes sessile or subsessile.</statement>
+      <description type="morphology">Basal leaf blade trichomes sessile or subsessile.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Fruits secund, 2–3.5 mm wide; ovules 44–76(–104) per ovary; racemes</statement>
+      <description type="morphology">Fruits secund, 2–3.5 mm wide; ovules 44–76(–104) per ovary; racemes</description>
       <determination>23. Boechera drepanoloba (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Fruits not secund, 1–2.5 mm wide; ovules 84–146 per ovary; racemes 12–88-flowered.</statement>
+      <description type="morphology">Fruits not secund, 1–2.5 mm wide; ovules 84–146 per ovary; racemes 12–88-flowered.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals usually purple, rarely lavender, 1.5–3 mm wide; fruits 1.7–2.5</statement>
+      <description type="morphology">Petals usually purple, rarely lavender, 1.5–3 mm wide; fruits 1.7–2.5</description>
       <determination>22. Boechera divaricarpa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals usually white, rarely lavender, 1–2 mm wide; fruits 1–1.8 mm</statement>
+      <description type="morphology">Petals usually white, rarely lavender, 1–2 mm wide; fruits 1–1.8 mm</description>
       <determination>39. Boechera grahamii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Basal leaf blade trichomes stalked.</statement>
+      <description type="morphology">Basal leaf blade trichomes stalked.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Fruits 6–10 cm; seeds biseriate; ovules 170–220 per ovary; cauline leaves 15–65;</statement>
+      <description type="morphology">Fruits 6–10 cm; seeds biseriate; ovules 170–220 per ovary; cauline leaves 15–65;</description>
       <determination>43. Boechera hoffmannii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Fruits 1.5–5.5(–6.5) cm; seeds uniseriate; ovules 10–86 per ovary; cauline leaves 2–12; not Channel Islands, California.</statement>
+      <description type="morphology">Fruits 1.5–5.5(–6.5) cm; seeds uniseriate; ovules 10–86 per ovary; cauline leaves 2–12; not Channel Islands, California.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits 3–5(–7) mm wide; seeds 3–6 × 2–4 mm.</statement>
+      <description type="morphology">Fruits 3–5(–7) mm wide; seeds 3–6 × 2–4 mm.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Basal leaf blade margins with some 4-rayed trichomes; ovules 18–30 per ovary;</statement>
+      <description type="morphology">Basal leaf blade margins with some 4-rayed trichomes; ovules 18–30 per ovary;</description>
       <determination>15. Boechera covillei (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Basal leaf blade margins without 4-rayed trichomes; ovules 10–20 per ovary;</statement>
+      <description type="morphology">Basal leaf blade margins without 4-rayed trichomes; ovules 10–20 per ovary;</description>
       <determination>46. Boechera howellii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits 1–3 mm wide; seeds 1–2.2 × 0.8–1.6 mm.</statement>
+      <description type="morphology">Fruits 1–3 mm wide; seeds 1–2.2 × 0.8–1.6 mm.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruits secund.</statement>
+      <description type="morphology">Fruits secund.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous or with 2- or 3-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with distal wing 0.05–0.1 mm wide</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous or with 2- or 3-rayed trichomes; seeds 0.8–0.9 mm wide, not winged or with distal wing 0.05–0.1 mm wide</description>
       <determination>81. Boechera pusilla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Basal leaf blade surfaces with 3–9-rayed trichomes; seeds 0.9–1.5 mm wide, with continuous wing 0.1–0.5 mm wide.</statement>
+      <description type="morphology">Basal leaf blade surfaces with 3–9-rayed trichomes; seeds 0.9–1.5 mm wide, with continuous wing 0.1–0.5 mm wide.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Cauline leaf blades with auricles to 0.5 mm; ovules 28–44 per ovary; basal leaves densely or sparsely pubescent, petioles ciliate</statement>
+      <description type="morphology">Cauline leaf blades with auricles to 0.5 mm; ovules 28–44 per ovary; basal leaves densely or sparsely pubescent, petioles ciliate</description>
       <determination>53. Boechera lemmonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Cauline leaf blades with auricles 1–2 mm; ovules 42–54 per ovary;</statement>
+      <description type="morphology">Cauline leaf blades with auricles 1–2 mm; ovules 42–54 per ovary;</description>
       <determination>63. Boechera paddoensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruits not secund.</statement>
+      <description type="morphology">Fruits not secund.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Basal leaf blade surfaces glabrous, margins with simple or 2- or 3-rayed trichomes; ovules 14–22 per ovary; plants sexual, pollen ellipsoid</statement>
+      <description type="morphology">Basal leaf blade surfaces glabrous, margins with simple or 2- or 3-rayed trichomes; ovules 14–22 per ovary; plants sexual, pollen ellipsoid</description>
       <determination>103. Boechera tiehmii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Basal leaf blade surfaces and margins with 2–10-rayed trichomes; ovules 48–86 per ovary; plants apomictic, pollen spheroid.</statement>
+      <description type="morphology">Basal leaf blade surfaces and margins with 2–10-rayed trichomes; ovules 48–86 per ovary; plants apomictic, pollen spheroid.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruiting pedicels 8–12 mm; basal leaf blade surfaces with 2–5-rayed</statement>
+      <description type="morphology">Fruiting pedicels 8–12 mm; basal leaf blade surfaces with 2–5-rayed</description>
       <determination>41. Boechera harrisonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruiting pedicels 2–6 mm; basal leaf blade surfaces with 4–7-rayed trichomes; stems from centers of rosettes; s California</statement>
+      <description type="morphology">Fruiting pedicels 2–6 mm; basal leaf blade surfaces with 4–7-rayed trichomes; stems from centers of rosettes; s California</description>
       <determination>68. Boechera peirsonii (in part)</determination>
     </key_statement>
   </key>
@@ -868,472 +870,472 @@
     <key_head>Group 4</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruiting pedicels usually abruptly recurved at bases.</statement>
+      <description type="morphology">Fruiting pedicels usually abruptly recurved at bases.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits 3–6 mm wide; ovules 20–30 per ovary; racemes 6–12-flowered</statement>
+      <description type="morphology">Fruits 3–6 mm wide; ovules 20–30 per ovary; racemes 6–12-flowered</description>
       <determination>101. Boechera suffrutescens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits 0.9–2.5 mm wide; ovules 46–126 per ovary; racemes 10–140-flowered.</statement>
+      <description type="morphology">Fruits 0.9–2.5 mm wide; ovules 46–126 per ovary; racemes 10–140-flowered.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems proximally with branched trichomes only.</statement>
+      <description type="morphology">Stems proximally with branched trichomes only.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits (2–)2.2–2.5 mm wide, descending, not appressed to rachises, strongly</statement>
+      <description type="morphology">Fruits (2–)2.2–2.5 mm wide, descending, not appressed to rachises, strongly</description>
       <determination>44. Boechera holboellii</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits 0.9–1.5 mm wide, reflexed, usually appressed to rachises, usually not</statement>
+      <description type="morphology">Fruits 0.9–1.5 mm wide, reflexed, usually appressed to rachises, usually not</description>
       <determination>86. Boechera retrofracta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes, or simple trichomes only.</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes, or simple trichomes only.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally with simple trichomes only; petals 3–4 mm; ovules 46–80</statement>
+      <description type="morphology">Stems proximally with simple trichomes only; petals 3–4 mm; ovules 46–80</description>
       <determination>84. Boechera rectissima (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes; petals 4–6 mm; ovules 70–126 per ovary.</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes; petals 4–6 mm; ovules 70–126 per ovary.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Basal leaf blade surfaces with 5–8-rayed trichomes; fruits 0.9–1.5 mm wide;</statement>
+      <description type="morphology">Basal leaf blade surfaces with 5–8-rayed trichomes; fruits 0.9–1.5 mm wide;</description>
       <determination>12. Boechera collinsii</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Basal leaf blade surfaces with 2–4 (or 5)-rayed trichomes; fruits 1.5–2 mm wide; seeds 1.5–1.8 × 1.2–1.5 mm; plants apomictic, pollen spheroid</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2–4 (or 5)-rayed trichomes; fruits 1.5–2 mm wide; seeds 1.5–1.8 × 1.2–1.5 mm; plants apomictic, pollen spheroid</description>
       <determination>73. Boechera pinetorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruiting pedicels usually not abruptly recurved at bases (except B. subpinnatifida ).</statement>
+      <description type="morphology">Fruiting pedicels usually not abruptly recurved at bases (except B. subpinnatifida ).</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruiting pedicels sparsely to densely pubescent.</statement>
+      <description type="morphology">Fruiting pedicels sparsely to densely pubescent.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes, or simple trichomes only.</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes, or simple trichomes only.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Stems proximally with simple trichomes only; fruits 2.5–4 mm wide; seeds</statement>
+      <description type="morphology">Stems proximally with simple trichomes only; fruits 2.5–4 mm wide; seeds</description>
       <determination>9. Boechera canadensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes; fruits 0.8–2.5 mm wide; seeds with wing 0.05–0.3 mm wide.</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes; fruits 0.8–2.5 mm wide; seeds with wing 0.05–0.3 mm wide.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals purple to magenta, 8–12 × 2.5–4 mm; stems elevated above ground surface on woody base; caudices with persistent (peg-like) leaf bases</statement>
+      <description type="morphology">Petals purple to magenta, 8–12 × 2.5–4 mm; stems elevated above ground surface on woody base; caudices with persistent (peg-like) leaf bases</description>
       <determination>49. Boechera koehleri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals lavender to white, 4–8 × 0.5–2 mm; stems from near ground surface, without woody base; caudices without persistent leaf bases.</statement>
+      <description type="morphology">Petals lavender to white, 4–8 × 0.5–2 mm; stems from near ground surface, without woody base; caudices without persistent leaf bases.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Fruits 2.5–4 cm; ovules 36–54 per ovary; stems usually 2–6 per caudex branch, arising from margins of rosettes; racemes 7–15-flowered;</statement>
+      <description type="morphology">Fruits 2.5–4 cm; ovules 36–54 per ovary; stems usually 2–6 per caudex branch, arising from margins of rosettes; racemes 7–15-flowered;</description>
       <determination>40. Boechera gunnisoniana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Fruits 4–10.5 cm; ovules 56–162 per ovary; stems usually 1 per caudex branch, arising from centers of rosettes; racemes 10–63-flowered; plants apomictic, pollen spheroid.</statement>
+      <description type="morphology">Fruits 4–10.5 cm; ovules 56–162 per ovary; stems usually 1 per caudex branch, arising from centers of rosettes; racemes 10–63-flowered; plants apomictic, pollen spheroid.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Fruits reflexed; fruiting pedicels with few simple and 2-rayed</statement>
+      <description type="morphology">Fruits reflexed; fruiting pedicels with few simple and 2-rayed</description>
       <determination>73. Boechera pinetorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Fruits pendent, horizontal, divaricate, ascending, or descending; fruiting pedicels with many 2- or 3-rayed trichomes.</statement>
+      <description type="morphology">Fruits pendent, horizontal, divaricate, ascending, or descending; fruiting pedicels with many 2- or 3-rayed trichomes.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals 4–5 mm; fruits 0.8–1.2 mm wide; ovules 56–78 per ovary; cauline leaf blades with auricles 0.5–1.5 mm; basal leaf blade surfaces with 3–6-rayed trichomes 0.07–0.3 mm</statement>
+      <description type="morphology">Petals 4–5 mm; fruits 0.8–1.2 mm wide; ovules 56–78 per ovary; cauline leaf blades with auricles 0.5–1.5 mm; basal leaf blade surfaces with 3–6-rayed trichomes 0.07–0.3 mm</description>
       <determination>57. Boechera macounii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals 5–8 mm; fruits 1.5–2.2 mm wide; ovules 80–162 per ovary; cauline leaf blades with auricles (1–)3–10 mm; basal leaf blade surfaces with 2–5-rayed trichomes 0.3–0.6 mm</statement>
+      <description type="morphology">Petals 5–8 mm; fruits 1.5–2.2 mm wide; ovules 80–162 per ovary; cauline leaf blades with auricles (1–)3–10 mm; basal leaf blade surfaces with 2–5-rayed trichomes 0.3–0.6 mm</description>
       <determination>66. Boechera pauciflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stems proximally with branched trichomes only.</statement>
+      <description type="morphology">Stems proximally with branched trichomes only.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Stems arising from margins of rosettes, elevated above ground surface on</statement>
+      <description type="morphology">Stems arising from margins of rosettes, elevated above ground surface on</description>
       <determination>89. Boechera rollinsiorum</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Stems arising from centers of rosettes, produced near ground surface, usually without woody bases (except B. californica ).</statement>
+      <description type="morphology">Stems arising from centers of rosettes, produced near ground surface, usually without woody bases (except B. californica ).</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Ovules 14–44 per ovary (–64 in B. cobrensis ); plants sexual, pollen ellipsoid.</statement>
+      <description type="morphology">Ovules 14–44 per ovary (–64 in B. cobrensis ); plants sexual, pollen ellipsoid.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruits 0.7–0.8 mm wide; seeds 0.7–1.1 × 0.5–0.6 mm, not winged; basal leaf blade surfaces with simple trichomes adaxially</statement>
+      <description type="morphology">Fruits 0.7–0.8 mm wide; seeds 0.7–1.1 × 0.5–0.6 mm, not winged; basal leaf blade surfaces with simple trichomes adaxially</description>
       <determination>19. Boechera dentata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Fruits 1.6–3 mm wide; seeds 1.3–3.5 × 1–2.2 mm, winged; basal leaf blade surfaces with (2–)4–10-rayed trichomes adaxially.</statement>
+      <description type="morphology">Fruits 1.6–3 mm wide; seeds 1.3–3.5 × 1–2.2 mm, winged; basal leaf blade surfaces with (2–)4–10-rayed trichomes adaxially.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Petals 9–14 mm; basal leaf blade margins (at least some) prominently dentate or subpinnatifid; cauline leaves (10–)20–60</statement>
+      <description type="morphology">Petals 9–14 mm; basal leaf blade margins (at least some) prominently dentate or subpinnatifid; cauline leaves (10–)20–60</description>
       <determination>100. Boechera subpinnatifida (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Petals 3.5–8 mm; basal leaf blade margins entire; cauline leaves 2–12(–14).</statement>
+      <description type="morphology">Petals 3.5–8 mm; basal leaf blade margins entire; cauline leaves 2–12(–14).</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals lavender to white, 3.5–6 mm; styles to 0.2 mm; ovules 34–64 per ovary; sandy habitats in California, Idaho, Nevada,</statement>
+      <description type="morphology">Petals lavender to white, 3.5–6 mm; styles to 0.2 mm; ovules 34–64 per ovary; sandy habitats in California, Idaho, Nevada,</description>
       <determination>11. Boechera cobrensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals purple, 6–8 mm; styles 1.5–2 mm; ovules 20–24 per ovary; serpentine outcrops in nw California</statement>
+      <description type="morphology">Petals purple, 6–8 mm; styles 1.5–2 mm; ovules 20–24 per ovary; serpentine outcrops in nw California</description>
       <determination>94. Boechera serpenticola (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Ovules (56–)68–180 per ovary; plants apomictic, pollen spheroid.</statement>
+      <description type="morphology">Ovules (56–)68–180 per ovary; plants apomictic, pollen spheroid.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Petals 9–14 mm; fruits (6–)8–12 cm; ovules 140–180 per ovary;</statement>
+      <description type="morphology">Petals 9–14 mm; fruits (6–)8–12 cm; ovules 140–180 per ovary;</description>
       <determination>8. Boechera californica (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Petals 5–8.5 mm; fruits 3–6.5 cm; ovules 56–134 per ovary; California, Colorado, Nevada, New Mexico, Utah.</statement>
+      <description type="morphology">Petals 5–8.5 mm; fruits 3–6.5 cm; ovules 56–134 per ovary; California, Colorado, Nevada, New Mexico, Utah.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Cauline leaves 5–9, not concealing stem proximally; styles 0.5–1</statement>
+      <description type="morphology">Cauline leaves 5–9, not concealing stem proximally; styles 0.5–1</description>
       <determination>28. Boechera falcifructa</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Cauline leaves (7–)12–72, often concealing stem proximally; styles 0.05–0.5 mm; ovules 74–136 per ovary; seeds usually biseriate or sub-biseriate (rarely uniseriate in B. inyoensis ).</statement>
+      <description type="morphology">Cauline leaves (7–)12–72, often concealing stem proximally; styles 0.05–0.5 mm; ovules 74–136 per ovary; seeds usually biseriate or sub-biseriate (rarely uniseriate in B. inyoensis ).</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Stems proximally with 7–12-rayed trichomes</statement>
+      <description type="morphology">Stems proximally with 7–12-rayed trichomes</description>
       <determination>47. Boechera inyoensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Stems proximally with 2–8-rayed trichomes.</statement>
+      <description type="morphology">Stems proximally with 2–8-rayed trichomes.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruiting pedicels 8–14 mm; stems proximally with 2–6-rayed trichomes; fruits 1–2 mm wide; Four Corners</statement>
+      <description type="morphology">Fruiting pedicels 8–14 mm; stems proximally with 2–6-rayed trichomes; fruits 1–2 mm wide; Four Corners</description>
       <determination>13. Boechera consanguinea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Fruiting pedicels (10–)15–28 mm; stems proximally with 4–8-rayed trichomes; fruits 1.5–2.9 mm wide; e Nevada,</statement>
+      <description type="morphology">Fruiting pedicels (10–)15–28 mm; stems proximally with 4–8-rayed trichomes; fruits 1.5–2.9 mm wide; e Nevada,</description>
       <determination>36. Boechera goodrichii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruiting pedicels usually glabrous, rarely with few isolated trichomes present.</statement>
+      <description type="morphology">Fruiting pedicels usually glabrous, rarely with few isolated trichomes present.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Seeds biseriate or sub-biseriate.</statement>
+      <description type="morphology">Seeds biseriate or sub-biseriate.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Stems proximally with subsessile, submalpighiaceous trichomes; seeds 2–2.5</statement>
+      <description type="morphology">Stems proximally with subsessile, submalpighiaceous trichomes; seeds 2–2.5</description>
       <determination>104. Boechera tularensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Stems proximally with simple and/or stalked, branched trichomes; seeds 0.7–1.8 × 0.5–1.2 mm.</statement>
+      <description type="morphology">Stems proximally with simple and/or stalked, branched trichomes; seeds 0.7–1.8 × 0.5–1.2 mm.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Stems proximally with 2–8-rayed trichomes; plants apomictic, pollen spheroid.</statement>
+      <description type="morphology">Stems proximally with 2–8-rayed trichomes; plants apomictic, pollen spheroid.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruiting pedicels divaricate-ascending to horizontal; stems proximally with simple and 2–4-rayed trichomes.</statement>
+      <description type="morphology">Fruiting pedicels divaricate-ascending to horizontal; stems proximally with simple and 2–4-rayed trichomes.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Sepals pubescent; fruiting pedicels divaricate-ascending; fruits 1.7–2 mm wide; ovules 60–96 per ovary; Colorado Plateau and vicinity</statement>
+      <description type="morphology">Sepals pubescent; fruiting pedicels divaricate-ascending; fruits 1.7–2 mm wide; ovules 60–96 per ovary; Colorado Plateau and vicinity</description>
       <determination>37. Boechera gracilenta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Sepals glabrous; fruiting pedicels horizontal; fruits 1.8–2.5 mm wide;</statement>
+      <description type="morphology">Sepals glabrous; fruiting pedicels horizontal; fruits 1.8–2.5 mm wide;</description>
       <determination>77. Boechera porphyrea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruiting pedicels reflexed or divaricate-descending; stems proximally with 2–8-rayed trichomes.</statement>
+      <description type="morphology">Fruiting pedicels reflexed or divaricate-descending; stems proximally with 2–8-rayed trichomes.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Fruiting pedicels 8–14 mm; stems proximally with 2–6-rayed trichomes;</statement>
+      <description type="morphology">Fruiting pedicels 8–14 mm; stems proximally with 2–6-rayed trichomes;</description>
       <determination>13. Boechera consanguinea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Fruiting pedicels (10–)15–28 mm; stems proximally with 4–8-rayed trichomes; fruits (1.5–)2–3 mm wide; e Nevada, w Utah</statement>
+      <description type="morphology">Fruiting pedicels (10–)15–28 mm; stems proximally with 4–8-rayed trichomes; fruits (1.5–)2–3 mm wide; e Nevada, w Utah</description>
       <determination>36. Boechera goodrichii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Stems proximally with simple, spurred, or 2- or 3-rayed trichomes; plants sexual, pollen ellipsoid (except B. languida ).</statement>
+      <description type="morphology">Stems proximally with simple, spurred, or 2- or 3-rayed trichomes; plants sexual, pollen ellipsoid (except B. languida ).</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Cauline leaves 30–65; fruiting pedicels (15–)20–47 mm; ovules 130–210</statement>
+      <description type="morphology">Cauline leaves 30–65; fruiting pedicels (15–)20–47 mm; ovules 130–210</description>
       <determination>38. Boechera gracilipes</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Cauline leaves 3–25; fruiting pedicels 3–15(–23) mm; ovules 40–128 per ovary.</statement>
+      <description type="morphology">Cauline leaves 3–25; fruiting pedicels 3–15(–23) mm; ovules 40–128 per ovary.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Cauline leaves usually concealing stem proximally; ovules 90–128 per ovary.</statement>
+      <description type="morphology">Cauline leaves usually concealing stem proximally; ovules 90–128 per ovary.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Petals 5–9 × 1–2 mm; fruiting pedicels 9–18(–23) mm; Colorado</statement>
+      <description type="morphology">Petals 5–9 × 1–2 mm; fruiting pedicels 9–18(–23) mm; Colorado</description>
       <determination>30. Boechera fendleri</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Petals 3–3.7(–4) × 0.5–0.8 mm; fruiting pedicels 6–10(–15) mm;</statement>
+      <description type="morphology">Petals 3–3.7(–4) × 0.5–0.8 mm; fruiting pedicels 6–10(–15) mm;</description>
       <determination>98. Boechera spatifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Cauline leaves not concealing stem proximally; ovules 40–70(–90) per ovary.</statement>
+      <description type="morphology">Cauline leaves not concealing stem proximally; ovules 40–70(–90) per ovary.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Basal leaf blade surfaces densely pubescent, trichomes simple and 2–4-rayed; seeds sub-biseriate; cauline leaf blades with auricles 0.5–1.5 mm; racemes 10–20-flowered; plants apomictic, pollen</statement>
+      <description type="morphology">Basal leaf blade surfaces densely pubescent, trichomes simple and 2–4-rayed; seeds sub-biseriate; cauline leaf blades with auricles 0.5–1.5 mm; racemes 10–20-flowered; plants apomictic, pollen</description>
       <determination>51. Boechera languida</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Basal leaf blade surfaces sparsely pubescent, trichomes simple and 2-rayed; seeds biseriate; cauline leaf blades with auricles to 0.7 mm; racemes 4–14-flowered; plants sexual, pollen ellipsoid; Arizona, California, Colorado, Nevada, Utah, Wyoming</statement>
+      <description type="morphology">Basal leaf blade surfaces sparsely pubescent, trichomes simple and 2-rayed; seeds biseriate; cauline leaf blades with auricles to 0.7 mm; racemes 4–14-flowered; plants sexual, pollen ellipsoid; Arizona, California, Colorado, Nevada, Utah, Wyoming</description>
       <determination>69. Boechera pendulina (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Seeds usually uniseriate.</statement>
+      <description type="morphology">Seeds usually uniseriate.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stems proximally with simple trichomes only</statement>
+      <description type="morphology">Stems proximally with simple trichomes only</description>
       <determination>9. Boechera canadensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stems proximally usually with simple and/or branched trichomes (rarely all simple in B. pusilla ).</statement>
+      <description type="morphology">Stems proximally usually with simple and/or branched trichomes (rarely all simple in B. pusilla ).</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Fruits 3–5(–6) mm wide; seeds winged, wings 0.8–1.5 mm wide; stems elevated above</statement>
+      <description type="morphology">Fruits 3–5(–6) mm wide; seeds winged, wings 0.8–1.5 mm wide; stems elevated above</description>
       <determination>101. Boechera suffrutescens (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Fruits 0.7–3.5 mm wide; seeds not winged, or wings 0.05–1 mm wide; stems usually not from above ground surface on woody bases (except B. perennans and B. lignifera ).</statement>
+      <description type="morphology">Fruits 0.7–3.5 mm wide; seeds not winged, or wings 0.05–1 mm wide; stems usually not from above ground surface on woody bases (except B. perennans and B. lignifera ).</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Fruits reflexed to closely pendent</statement>
+      <description type="morphology">Fruits reflexed to closely pendent</description>
       <determination>73. Boechera pinetorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Fruits descending to ascending or widely pendent.</statement>
+      <description type="morphology">Fruits descending to ascending or widely pendent.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Fruits 0.7–0.8 mm wide; petals 2–3.5 mm; basal leaf blade surfaces with</statement>
+      <description type="morphology">Fruits 0.7–0.8 mm wide; petals 2–3.5 mm; basal leaf blade surfaces with</description>
       <determination>19. Boechera dentata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Fruits 1–3.5 mm wide; petals 3.5–8(–9) mm; basal leaf blade surfaces with branched trichomes adaxially.</statement>
+      <description type="morphology">Fruits 1–3.5 mm wide; petals 3.5–8(–9) mm; basal leaf blade surfaces with branched trichomes adaxially.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Stems proximally with simple and branched trichomes.</statement>
+      <description type="morphology">Stems proximally with simple and branched trichomes.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Stems proximally with sessile or subsessile, 2- or 3(–6)-rayed</statement>
+      <description type="morphology">Stems proximally with sessile or subsessile, 2- or 3(–6)-rayed</description>
       <determination>39. Boechera grahamii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Stems proximally with stalked, 2–5-rayed trichomes.</statement>
+      <description type="morphology">Stems proximally with stalked, 2–5-rayed trichomes.</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Basal leaf blade margins dentate, 3–15(–20) mm wide; fruiting pedicels (6–)10–25 mm; ovules 60–96 per ovary; stems</statement>
+      <description type="morphology">Basal leaf blade margins dentate, 3–15(–20) mm wide; fruiting pedicels (6–)10–25 mm; ovules 60–96 per ovary; stems</description>
       <determination>71. Boechera perennans (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Basal leaf blade margins entire, 1–3(–4) mm wide; fruiting pedicels 2–7 mm; ovules 20–54 per ovary; stems 0.5–2(–2.5) dm.</statement>
+      <description type="morphology">Basal leaf blade margins entire, 1–3(–4) mm wide; fruiting pedicels 2–7 mm; ovules 20–54 per ovary; stems 0.5–2(–2.5) dm.</description>
       <next_statement_id>40.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Basal leaf blade surfaces densely pubescent, trichomes 3–6-rayed; fruits not secund, 1–1.5 mm wide; ovules 36–54 per ovary; seeds with continuous wing 0.1–0.15 mm wide; plants sexual, pollen ellipsoid; c Colorado</statement>
+      <description type="morphology">Basal leaf blade surfaces densely pubescent, trichomes 3–6-rayed; fruits not secund, 1–1.5 mm wide; ovules 36–54 per ovary; seeds with continuous wing 0.1–0.15 mm wide; plants sexual, pollen ellipsoid; c Colorado</description>
       <determination>40. Boechera gunnisoniana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Basal leaf blade surfaces sparsely pubescent, trichomes 2- or 3-rayed; fruits secund, 1.5–2 mm wide; ovules 20–32 per ovary; seeds not winged or with distal wing 0.05–0.1 mm wide; plants apomictic, pollen spheroid;</statement>
+      <description type="morphology">Basal leaf blade surfaces sparsely pubescent, trichomes 2- or 3-rayed; fruits secund, 1.5–2 mm wide; ovules 20–32 per ovary; seeds not winged or with distal wing 0.05–0.1 mm wide; plants apomictic, pollen spheroid;</description>
       <determination>81. Boechera pusilla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Stems proximally with branched trichomes only.</statement>
+      <description type="morphology">Stems proximally with branched trichomes only.</description>
       <next_statement_id>41.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruits secund.</statement>
+      <description type="morphology">Fruits secund.</description>
       <next_statement_id>42.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Petals white; Quebec</statement>
+      <description type="morphology">Petals white; Quebec</description>
       <determination>83. Boechera quebecensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Petals purple to lavender; not Quebec.</statement>
+      <description type="morphology">Petals purple to lavender; not Quebec.</description>
       <next_statement_id>43.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Stems proximally with sessile and subsessile, 2- or 3-rayed trichomes; petals 6–8 mm; plants usually short-lived perennials, without woody caudices</statement>
+      <description type="morphology">Stems proximally with sessile and subsessile, 2- or 3-rayed trichomes; petals 6–8 mm; plants usually short-lived perennials, without woody caudices</description>
       <determination>23. Boechera drepanoloba (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Stems proximally with stalked, 2–6-rayed trichomes; petals 3.5–6 mm; plants long-lived perennials, with woody caudices.</statement>
+      <description type="morphology">Stems proximally with stalked, 2–6-rayed trichomes; petals 3.5–6 mm; plants long-lived perennials, with woody caudices.</description>
       <next_statement_id>44.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Cauline leaf blades with auricles 0.5–1.5 mm; petals 1.5–2 mm wide; fruiting pedicels 4–11 mm; fruits 2–3 mm wide; ovules 40–54 per ovary;</statement>
+      <description type="morphology">Cauline leaf blades with auricles 0.5–1.5 mm; petals 1.5–2 mm wide; fruiting pedicels 4–11 mm; fruits 2–3 mm wide; ovules 40–54 per ovary;</description>
       <determination>45. Boechera horizontalis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Cauline leaf blades with auricles to 0.5 mm; petals 1–1.5 mm wide; fruiting pedicels 2–6 mm; fruits 1.6–2.3 mm wide; ovules 28–44 per ovary; seeds 1.3–2 × 1–1.5 mm; Alaska, Alberta, British Columbia, California, Colorado, Idaho, Montana, Nevada, Oregon, Utah, Washington,</statement>
+      <description type="morphology">Cauline leaf blades with auricles to 0.5 mm; petals 1–1.5 mm wide; fruiting pedicels 2–6 mm; fruits 1.6–2.3 mm wide; ovules 28–44 per ovary; seeds 1.3–2 × 1–1.5 mm; Alaska, Alberta, British Columbia, California, Colorado, Idaho, Montana, Nevada, Oregon, Utah, Washington,</description>
       <determination>53. Boechera lemmonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruits not secund.</statement>
+      <description type="morphology">Fruits not secund.</description>
       <next_statement_id>45.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Basal leaf blade margins dentate; stems proximally with 2–5-rayed trichomes.</statement>
+      <description type="morphology">Basal leaf blade margins dentate; stems proximally with 2–5-rayed trichomes.</description>
       <next_statement_id>46.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Basal leaf blade surfaces with trichomes 0.05–0.2 mm; fruiting pedicels 5–10 mm; fruits 1.5–1.8 mm wide; seeds with distal wing; plants apomictic, pollen</statement>
+      <description type="morphology">Basal leaf blade surfaces with trichomes 0.05–0.2 mm; fruiting pedicels 5–10 mm; fruits 1.5–1.8 mm wide; seeds with distal wing; plants apomictic, pollen</description>
       <determination>33. Boechera fructicosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Basal leaf blade surfaces with trichomes 0.2–0.4 mm; fruiting pedicels (6–)10–25 mm; fruits 1.7–2.1 mm wide; seeds with continuous wing; plants sexual, pollen ellipsoid; Arizona, California, Nevada, New Mexico, Texas, Utah</statement>
+      <description type="morphology">Basal leaf blade surfaces with trichomes 0.2–0.4 mm; fruiting pedicels (6–)10–25 mm; fruits 1.7–2.1 mm wide; seeds with continuous wing; plants sexual, pollen ellipsoid; Arizona, California, Nevada, New Mexico, Texas, Utah</description>
       <determination>71. Boechera perennans (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Basal leaf blade margins entire; stems proximally with (3 or) 4–10-rayed trichomes.</statement>
+      <description type="morphology">Basal leaf blade margins entire; stems proximally with (3 or) 4–10-rayed trichomes.</description>
       <next_statement_id>47.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>47.</statement_id>
-      <statement>Stems usually 1 per caudex branch, arising from centers of rosettes; petals 0.7–1 mm wide; seeds with wings 0.25–0.5 mm wide; fruits 1.7–2.5 mm wide</statement>
+      <description type="morphology">Stems usually 1 per caudex branch, arising from centers of rosettes; petals 0.7–1 mm wide; seeds with wings 0.25–0.5 mm wide; fruits 1.7–2.5 mm wide</description>
       <determination>11. Boechera cobrensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>47.</statement_id>
-      <statement>Stems usually 2–5 per caudex branch, arising laterally proximal to sterile shoots; petals 1–1.5 mm wide; seeds with wings 0.1–0.15 mm wide; fruits</statement>
+      <description type="morphology">Stems usually 2–5 per caudex branch, arising laterally proximal to sterile shoots; petals 1–1.5 mm wide; seeds with wings 0.1–0.15 mm wide; fruits</description>
       <determination>54. Boechera lignifera</determination>
     </key_statement>
   </key>
@@ -1341,553 +1343,553 @@
     <key_head>Group 5</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade surfaces with branched trichomes sessile, 2-rayed (malpighiaceous)</statement>
+      <description type="morphology">Basal leaf blade surfaces with branched trichomes sessile, 2-rayed (malpighiaceous)</description>
       <determination>99. Boechera stricta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade surfaces with branched trichomes stalked or, if sessile, some more than 2-rayed.</statement>
+      <description type="morphology">Basal leaf blade surfaces with branched trichomes stalked or, if sessile, some more than 2-rayed.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems proximally with branched trichomes only.</statement>
+      <description type="morphology">Stems proximally with branched trichomes only.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruits secund.</statement>
+      <description type="morphology">Fruits secund.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals white; Quebec</statement>
+      <description type="morphology">Petals white; Quebec</description>
       <determination>83. Boechera quebecensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals purple to lavender; not Quebec.</statement>
+      <description type="morphology">Petals purple to lavender; not Quebec.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally with sessile and subsessile, 2- or 3-rayed trichomes; petals 6–8 mm; seeds sub-biseriate; plants usually short-lived perennials,</statement>
+      <description type="morphology">Stems proximally with sessile and subsessile, 2- or 3-rayed trichomes; petals 6–8 mm; seeds sub-biseriate; plants usually short-lived perennials,</description>
       <determination>23. Boechera drepanoloba (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally with stalked, 2–6-rayed trichomes; petals 3.5–6 mm; seeds uniseriate; plants long-lived perennials, with woody caudices.</statement>
+      <description type="morphology">Stems proximally with stalked, 2–6-rayed trichomes; petals 3.5–6 mm; seeds uniseriate; plants long-lived perennials, with woody caudices.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Cauline leaf blades with auricles 0.5–1.5 mm; petals 1.5–2 mm wide; fruiting pedicels 4–11 mm; fruits 2–3 mm wide; ovules 40–54 per</statement>
+      <description type="morphology">Cauline leaf blades with auricles 0.5–1.5 mm; petals 1.5–2 mm wide; fruiting pedicels 4–11 mm; fruits 2–3 mm wide; ovules 40–54 per</description>
       <determination>45. Boechera horizontalis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Cauline leaf blades with auricles to 0.5 mm; petals 1–1.5 mm wide; fruiting pedicels 2–6 mm; fruits 1.6–2.3 mm wide; ovules 28–44 per ovary; seeds 1.3–2 × 1–1.5 mm; Alaska, Alberta, British Columbia, California, Colorado, Idaho, Montana, Nevada, Oregon, Utah,</statement>
+      <description type="morphology">Cauline leaf blades with auricles to 0.5 mm; petals 1–1.5 mm wide; fruiting pedicels 2–6 mm; fruits 1.6–2.3 mm wide; ovules 28–44 per ovary; seeds 1.3–2 × 1–1.5 mm; Alaska, Alberta, British Columbia, California, Colorado, Idaho, Montana, Nevada, Oregon, Utah,</description>
       <determination>53. Boechera lemmonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruits not secund.</statement>
+      <description type="morphology">Fruits not secund.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Biennials, without caudices; petals 2–3.5 mm; fruits 0.7–0.8 mm wide</statement>
+      <description type="morphology">Biennials, without caudices; petals 2–3.5 mm; fruits 0.7–0.8 mm wide</description>
       <determination>19. Boechera dentata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perennials or, rarely, biennials, often with caudices (well-developed); petals 3.5–14 mm; fruits 0.9–3.2 mm wide.</statement>
+      <description type="morphology">Perennials or, rarely, biennials, often with caudices (well-developed); petals 3.5–14 mm; fruits 0.9–3.2 mm wide.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stems proximally with 4–12-rayed trichomes only.</statement>
+      <description type="morphology">Stems proximally with 4–12-rayed trichomes only.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Cauline leaves concealing stems proximally; stems proximally with 7–12-rayed trichomes; ovules 74–190 per ovary.</statement>
+      <description type="morphology">Cauline leaves concealing stems proximally; stems proximally with 7–12-rayed trichomes; ovules 74–190 per ovary.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals 1.2–2 mm wide; basal leaves ciliate proximally, surfaces with trichomes 0.2–0.7 mm; ovules 74–134 per ovary; seeds 1.7–2 × 1–1.5 mm,</statement>
+      <description type="morphology">Petals 1.2–2 mm wide; basal leaves ciliate proximally, surfaces with trichomes 0.2–0.7 mm; ovules 74–134 per ovary; seeds 1.7–2 × 1–1.5 mm,</description>
       <determination>47. Boechera inyoensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Petals 0.8–1.2 mm wide; basal leaves not ciliate proximally, surfaces with trichomes 0.1–0.2 mm; ovules 140–190 per ovary; seeds 1–1.3 × 0.7–0.8 mm, usually with distal wing, rarely not winged; plants sexual, pollen</statement>
+      <description type="morphology">Petals 0.8–1.2 mm wide; basal leaves not ciliate proximally, surfaces with trichomes 0.1–0.2 mm; ovules 140–190 per ovary; seeds 1–1.3 × 0.7–0.8 mm, usually with distal wing, rarely not winged; plants sexual, pollen</description>
       <determination>96. Boechera shockleyi (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Cauline leaves not concealing stems proximally; stems proximally with 4–8 (–10)-rayed trichomes; ovules 30–84 per ovary.</statement>
+      <description type="morphology">Cauline leaves not concealing stems proximally; stems proximally with 4–8 (–10)-rayed trichomes; ovules 30–84 per ovary.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Petals 3.5–5 mm; fruiting pedicels 1.5–5(–7) mm; plants apomictic, pollen spheroid; e California, w Nevada.</statement>
+      <description type="morphology">Petals 3.5–5 mm; fruiting pedicels 1.5–5(–7) mm; plants apomictic, pollen spheroid; e California, w Nevada.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Stems 1.5–3.5 dm; fruits 4–6.2 cm; ovules 48–68 per ovary</statement>
+      <description type="morphology">Stems 1.5–3.5 dm; fruits 4–6.2 cm; ovules 48–68 per ovary</description>
       <determination>4. Boechera bodiensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Stems 0.5–1.5(–2) dm; fruits 1.7–3.5(–4.5) cm; ovules 32–44 per</statement>
+      <description type="morphology">Stems 0.5–1.5(–2) dm; fruits 1.7–3.5(–4.5) cm; ovules 32–44 per</description>
       <determination>20. Boechera depauperata</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Petals 5–12 mm; fruiting pedicels 5–20 mm; plants sexual, pollen ellipsoid; Colorado, c Nevada, Utah.</statement>
+      <description type="morphology">Petals 5–12 mm; fruiting pedicels 5–20 mm; plants sexual, pollen ellipsoid; Colorado, c Nevada, Utah.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals 5–7 mm; basal leaf blade surfaces with trichomes 0.1–0.2 mm;</statement>
+      <description type="morphology">Petals 5–7 mm; basal leaf blade surfaces with trichomes 0.1–0.2 mm;</description>
       <determination>16. Boechera crandallii</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals 7–12 mm; basal leaf blade surfaces with trichomes 0.04–0.1</statement>
+      <description type="morphology">Petals 7–12 mm; basal leaf blade surfaces with trichomes 0.04–0.1</description>
       <determination>31. Boechera fernaldiana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stems proximally with at least some 2- or 3-rayed trichomes, sometimes mixed with 4–6-rayed ones.</statement>
+      <description type="morphology">Stems proximally with at least some 2- or 3-rayed trichomes, sometimes mixed with 4–6-rayed ones.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits erect to suberect, usually appressed to rachises.</statement>
+      <description type="morphology">Fruits erect to suberect, usually appressed to rachises.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Racemes (7–)14–45-flowered; petals 6–10 mm; ovules 60–140 per ovary</statement>
+      <description type="morphology">Racemes (7–)14–45-flowered; petals 6–10 mm; ovules 60–140 per ovary</description>
       <determination>78. Boechera pratincola</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Racemes 4–15-flowered; petals 4–7 mm; ovules 24–60 per ovary.</statement>
+      <description type="morphology">Racemes 4–15-flowered; petals 4–7 mm; ovules 24–60 per ovary.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Basal leaf blade surfaces with sessile or subsessile trichomes; fruits 2–3 mm wide; stems 1–3 dm; plants apomictic, pollen spheroid</statement>
+      <description type="morphology">Basal leaf blade surfaces with sessile or subsessile trichomes; fruits 2–3 mm wide; stems 1–3 dm; plants apomictic, pollen spheroid</description>
       <determination>25. Boechera elkoensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Basal leaf blade surfaces with stalked trichomes; fruits 1.2–1.8 mm</statement>
+      <description type="morphology">Basal leaf blade surfaces with stalked trichomes; fruits 1.2–1.8 mm</description>
       <determination>61. Boechera ophira (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits horizontal to ascending, or pendent, not appressed to rachises.</statement>
+      <description type="morphology">Fruits horizontal to ascending, or pendent, not appressed to rachises.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Racemes 30–120-flowered; fruits 6–12 cm; ovules 140–220 per ovary; s California.</statement>
+      <description type="morphology">Racemes 30–120-flowered; fruits 6–12 cm; ovules 140–220 per ovary; s California.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals purple, 9–14 mm; fruits 1.5–2.5 mm wide; ovules 140–180 per ovary; fruiting pedicels 4–15(–20) mm; plants apomictic, pollen</statement>
+      <description type="morphology">Petals purple, 9–14 mm; fruits 1.5–2.5 mm wide; ovules 140–180 per ovary; fruiting pedicels 4–15(–20) mm; plants apomictic, pollen</description>
       <determination>8. Boechera californica (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Petals white or lavender, 8–10 mm; fruits 2.5–3 mm wide; ovules 170–220 per ovary; fruiting pedicels 10–45 mm; plants sexual, pollen</statement>
+      <description type="morphology">Petals white or lavender, 8–10 mm; fruits 2.5–3 mm wide; ovules 170–220 per ovary; fruiting pedicels 10–45 mm; plants sexual, pollen</description>
       <determination>43. Boechera hoffmannii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Racemes 4–25(–36)-flowered; fruits 2–6.5(–7.5) cm; ovules 26–112 per ovary; not s California (except B. peirsonii ).</statement>
+      <description type="morphology">Racemes 4–25(–36)-flowered; fruits 2–6.5(–7.5) cm; ovules 26–112 per ovary; not s California (except B. peirsonii ).</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Stems usually 2–5 per caudex branch, arising from margins of rosettes or laterally proximal to sterile shoots.</statement>
+      <description type="morphology">Stems usually 2–5 per caudex branch, arising from margins of rosettes or laterally proximal to sterile shoots.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits 2–3.2 mm wide; ovules 26–42 per ovary; seeds 2.5–3.5 × 1.5–2.5 mm; e California, Nevada.</statement>
+      <description type="morphology">Fruits 2–3.2 mm wide; ovules 26–42 per ovary; seeds 2.5–3.5 × 1.5–2.5 mm; e California, Nevada.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Sepals glabrous; basal leaf blades 2–6 mm wide, surfaces with sessile or subsessile trichomes; fruiting pedicels 4–8 mm</statement>
+      <description type="morphology">Sepals glabrous; basal leaf blades 2–6 mm wide, surfaces with sessile or subsessile trichomes; fruiting pedicels 4–8 mm</description>
       <determination>25. Boechera elkoensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Sepals sparsely pubescent; basal leaf blades 1–2.5(–3) mm wide, surfaces with stalked trichomes; fruiting pedicels 2–6</statement>
+      <description type="morphology">Sepals sparsely pubescent; basal leaf blades 1–2.5(–3) mm wide, surfaces with stalked trichomes; fruiting pedicels 2–6</description>
       <determination>74. Boechera pinzliae (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Fruits 1–2 mm wide; ovules 44–86 per ovary; seeds 1.1–1.3 × 0.8–1.1 mm; Colorado Plateau, nc Utah.</statement>
+      <description type="morphology">Fruits 1–2 mm wide; ovules 44–86 per ovary; seeds 1.1–1.3 × 0.8–1.1 mm; Colorado Plateau, nc Utah.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Basal leaf blades 2–4 mm wide, surfaces with 2–5-rayed trichomes; ovules 64–86 per ovary; plants apomictic, pollen</statement>
+      <description type="morphology">Basal leaf blades 2–4 mm wide, surfaces with 2–5-rayed trichomes; ovules 64–86 per ovary; plants apomictic, pollen</description>
       <determination>41. Boechera harrisonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Basal leaf blades 5–11(–13) mm wide, surfaces with 4–8- rayed trichomes; ovules 44–62 per ovary; plants sexual, pollen</statement>
+      <description type="morphology">Basal leaf blades 5–11(–13) mm wide, surfaces with 4–8- rayed trichomes; ovules 44–62 per ovary; plants sexual, pollen</description>
       <determination>64. Boechera pallidifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Stems usually 1 per caudex branch, arising from centers of rosettes.</statement>
+      <description type="morphology">Stems usually 1 per caudex branch, arising from centers of rosettes.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Petals 7–12 mm</statement>
+      <description type="morphology">Petals 7–12 mm</description>
       <determination>31. Boechera fernaldiana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Petals 4–7 mm.</statement>
+      <description type="morphology">Petals 4–7 mm.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Basal leaf blade surfaces with 2- or 3-rayed trichomes only;</statement>
+      <description type="morphology">Basal leaf blade surfaces with 2- or 3-rayed trichomes only;</description>
       <determination>61. Boechera ophira (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Basal leaf blade surfaces with 3–8-rayed trichomes; plants apomictic, pollen spheroid; not Nevada.</statement>
+      <description type="morphology">Basal leaf blade surfaces with 3–8-rayed trichomes; plants apomictic, pollen spheroid; not Nevada.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Plants cespitose, long-lived; fruits 2–2.8 mm wide; petals</statement>
+      <description type="morphology">Plants cespitose, long-lived; fruits 2–2.8 mm wide; petals</description>
       <determination>68. Boechera peirsonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Plants not cespitose, short-lived; fruits 1.2–1.8 mm wide; petals white or lavender; n California, Idaho, Oregon, Wyoming.</statement>
+      <description type="morphology">Plants not cespitose, short-lived; fruits 1.2–1.8 mm wide; petals white or lavender; n California, Idaho, Oregon, Wyoming.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Basal leaf blade surfaces with sessile trichomes 0.15–0.35 mm; petals 5–7 mm; seeds 1.8–2.2</statement>
+      <description type="morphology">Basal leaf blade surfaces with sessile trichomes 0.15–0.35 mm; petals 5–7 mm; seeds 1.8–2.2</description>
       <determination>1. Boechera acutina</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Basal leaf blade surfaces with short-stalked trichomes 0.04–0.15 mm; petals 4–5 mm; seeds 1.1–1.4</statement>
+      <description type="morphology">Basal leaf blade surfaces with short-stalked trichomes 0.04–0.15 mm; petals 4–5 mm; seeds 1.1–1.4</description>
       <determination>91. Boechera saximontana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems proximally with simple and/or branched trichomes or glabrous.</statement>
+      <description type="morphology">Stems proximally with simple and/or branched trichomes or glabrous.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Stems proximally with simple trichomes only.</statement>
+      <description type="morphology">Stems proximally with simple trichomes only.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Basal leaf blade margins lyrate-pinnatifid, surfaces glabrous or sparsely pubescent, with simple trichomes 0.1–0.5 mm; sepals and distalmost cauline leaf blade surfaces</statement>
+      <description type="morphology">Basal leaf blade margins lyrate-pinnatifid, surfaces glabrous or sparsely pubescent, with simple trichomes 0.1–0.5 mm; sepals and distalmost cauline leaf blade surfaces</description>
       <determination>59. Boechera missouriensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Basal leaf blade margins entire or dentate, surfaces pubescent, with simple and/or branched trichomes 0.4–1.7 mm; sepals and distalmost cauline leaf blade surfaces pubescent.</statement>
+      <description type="morphology">Basal leaf blade margins entire or dentate, surfaces pubescent, with simple and/or branched trichomes 0.4–1.7 mm; sepals and distalmost cauline leaf blade surfaces pubescent.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Biennials, caudices not evident; petals 3–5 mm; basal leaf blades 10–30 mm wide; fruiting pedicels horizontal; seeds with wings 0.4–1 mm wide distally</statement>
+      <description type="morphology">Biennials, caudices not evident; petals 3–5 mm; basal leaf blades 10–30 mm wide; fruiting pedicels horizontal; seeds with wings 0.4–1 mm wide distally</description>
       <determination>9. Boechera canadensis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Perennials (long-lived), caudices well-developed; petals 7–12 mm; basal leaf blades 0.5–7(–11) mm wide; fruiting pedicels ascending to divaricate-ascending; seeds with wings 0.1–0.2 mm wide distally.</statement>
+      <description type="morphology">Perennials (long-lived), caudices well-developed; petals 7–12 mm; basal leaf blades 0.5–7(–11) mm wide; fruiting pedicels ascending to divaricate-ascending; seeds with wings 0.1–0.2 mm wide distally.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Basal leaf blades 3–7(–11) mm wide, surfaces with 2–4-rayed trichomes;</statement>
+      <description type="morphology">Basal leaf blades 3–7(–11) mm wide, surfaces with 2–4-rayed trichomes;</description>
       <determination>5. Boechera breweri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Basal leaf blades 0.5–2 mm wide, surfaces with simple and 2-rayed</statement>
+      <description type="morphology">Basal leaf blades 0.5–2 mm wide, surfaces with simple and 2-rayed</description>
       <determination>17. Boechera cusickii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Stems proximally with simple and/or branched trichomes or glabrous (in B. rigidissima ).</statement>
+      <description type="morphology">Stems proximally with simple and/or branched trichomes or glabrous (in B. rigidissima ).</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Biennials or perennials (short-lived), without woody caudices.</statement>
+      <description type="morphology">Biennials or perennials (short-lived), without woody caudices.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Stems usually 2–5 per caudex branch, arising from margins of rosettes or laterally proximal to sterile shoots; cauline leaves 3–9, not concealing stems proximally; petals 4–7 mm.</statement>
+      <description type="morphology">Stems usually 2–5 per caudex branch, arising from margins of rosettes or laterally proximal to sterile shoots; cauline leaves 3–9, not concealing stems proximally; petals 4–7 mm.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Basal leaf blade surfaces with 4–6(–8)-rayed trichomes; petals 6–7 mm; cauline leaf blades with auricles 1–3 mm; fruiting pedicels (7–)10–18 mm; seeds sub-</statement>
+      <description type="morphology">Basal leaf blade surfaces with 4–6(–8)-rayed trichomes; petals 6–7 mm; cauline leaf blades with auricles 1–3 mm; fruiting pedicels (7–)10–18 mm; seeds sub-</description>
       <determination>37. Boechera gracilenta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes; petals 4–6 mm; cauline leaf blades with auricles usually less than 1 mm; fruiting pedicels 5–10 mm; seeds uniseriate; plants sexual, pollen ellipsoid.</statement>
+      <description type="morphology">Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes; petals 4–6 mm; cauline leaf blades with auricles usually less than 1 mm; fruiting pedicels 5–10 mm; seeds uniseriate; plants sexual, pollen ellipsoid.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Distalmost cauline leaf blade surfaces glabrous; fruiting pedicels divaricate-</statement>
+      <description type="morphology">Distalmost cauline leaf blade surfaces glabrous; fruiting pedicels divaricate-</description>
       <determination>34. Boechera glareosa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Distalmost cauline leaf blade surfaces pubescent; fruiting pedicels</statement>
+      <description type="morphology">Distalmost cauline leaf blade surfaces pubescent; fruiting pedicels</description>
       <determination>106. Boechera villosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Stems usually 1 per caudex branch, arising from centers of rosettes; cauline leaves (7–) 15–52, usually concealing stems proximally; petals 6–13 mm.</statement>
+      <description type="morphology">Stems usually 1 per caudex branch, arising from centers of rosettes; cauline leaves (7–) 15–52, usually concealing stems proximally; petals 6–13 mm.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Basal leaf blade surfaces with sessile or subsessile branched trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with sessile or subsessile branched trichomes.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Fruits (1.7–)2–2.5 mm wide; petals purple to lavender; fruiting pedicels 5–10(–12) mm; basal leaf blade surfaces with some 5- or 6-rayed</statement>
+      <description type="morphology">Fruits (1.7–)2–2.5 mm wide; petals purple to lavender; fruiting pedicels 5–10(–12) mm; basal leaf blade surfaces with some 5- or 6-rayed</description>
       <determination>22. Boechera divaricarpa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Fruits 1–1.5(–1.8) mm wide; petals usually white; fruiting pedicels (5–) 8–30 mm; basal leaf blade surfaces with 2–4-rayed trichomes</statement>
+      <description type="morphology">Fruits 1–1.5(–1.8) mm wide; petals usually white; fruiting pedicels (5–) 8–30 mm; basal leaf blade surfaces with 2–4-rayed trichomes</description>
       <determination>39. Boechera grahamii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Basal leaf blade surfaces with stalked branched trichomes.</statement>
+      <description type="morphology">Basal leaf blade surfaces with stalked branched trichomes.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Fruiting pedicels with 2- or 3-rayed trichomes; fruits horizontal; petals 5–8</statement>
+      <description type="morphology">Fruiting pedicels with 2- or 3-rayed trichomes; fruits horizontal; petals 5–8</description>
       <determination>66. Boechera pauciflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Fruiting pedicels glabrous or with predominantly simple trichomes; fruits usually ascending to divaricate-ascending, rarely horizontal; petals 7–13 mm; plants sexual, pollen ellipsoid.</statement>
+      <description type="morphology">Fruiting pedicels glabrous or with predominantly simple trichomes; fruits usually ascending to divaricate-ascending, rarely horizontal; petals 7–13 mm; plants sexual, pollen ellipsoid.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Petals dark reddish purple (drying indigo), 1.5–2 mm wide; stems proximally sparsely pubescent, trichomes to 0.15 mm; ovules 80–100</statement>
+      <description type="morphology">Petals dark reddish purple (drying indigo), 1.5–2 mm wide; stems proximally sparsely pubescent, trichomes to 0.15 mm; ovules 80–100</description>
       <determination>3. Boechera atrorubens</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Petals purple to lavender or white, 2–5 mm wide; stems proximally densely pubescent, trichomes to 1.5 mm; ovules 90–170 per ovary</statement>
+      <description type="morphology">Petals purple to lavender or white, 2–5 mm wide; stems proximally densely pubescent, trichomes to 1.5 mm; ovules 90–170 per ovary</description>
       <determination>97. Boechera sparsiflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Perennials (long-lived), usually with woody caudices (except B. sparsiflora ).</statement>
+      <description type="morphology">Perennials (long-lived), usually with woody caudices (except B. sparsiflora ).</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Stems usually 2–5(–7) per caudex branch, arising from margins of rosettes.</statement>
+      <description type="morphology">Stems usually 2–5(–7) per caudex branch, arising from margins of rosettes.</description>
       <next_statement_id>40.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Fruits secund; ovules 20–32 per ovary; basal leaf blade surfaces with 2- or</statement>
+      <description type="morphology">Fruits secund; ovules 20–32 per ovary; basal leaf blade surfaces with 2- or</description>
       <determination>81. Boechera pusilla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Fruits not secund; ovules 36–84 per ovary; basal leaf blade surfaces with 2–8-rayed trichomes.</statement>
+      <description type="morphology">Fruits not secund; ovules 36–84 per ovary; basal leaf blade surfaces with 2–8-rayed trichomes.</description>
       <next_statement_id>41.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruits 1.7–2 mm wide, usually strongly curved; seeds 1.5–2 × 1.1–1.5</statement>
+      <description type="morphology">Fruits 1.7–2 mm wide, usually strongly curved; seeds 1.5–2 × 1.1–1.5</description>
       <determination>27. Boechera falcatoria</determination>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruits 0.8–1.5 mm wide, straight or slightly curved; seeds 1–1.5 × 0.7–1 mm.</statement>
+      <description type="morphology">Fruits 0.8–1.5 mm wide, straight or slightly curved; seeds 1–1.5 × 0.7–1 mm.</description>
       <next_statement_id>42.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Petals 0.5–0.8 mm wide; cauline leaves (5–)9–16; racemes 10–33</statement>
+      <description type="morphology">Petals 0.5–0.8 mm wide; cauline leaves (5–)9–16; racemes 10–33</description>
       <determination>57. Boechera macounii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Petals 1–2 mm wide; cauline leaves 2–9; racemes 7–15-flowered; plants sexual, pollen ellipsoid.</statement>
+      <description type="morphology">Petals 1–2 mm wide; cauline leaves 2–9; racemes 7–15-flowered; plants sexual, pollen ellipsoid.</description>
       <next_statement_id>43.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Stems proximally with 2–4-rayed trichomes 0.08–0.3 mm; fruits horizontal; ovules 36–54 per ovary; (c Colorado)</statement>
+      <description type="morphology">Stems proximally with 2–4-rayed trichomes 0.08–0.3 mm; fruits horizontal; ovules 36–54 per ovary; (c Colorado)</description>
       <determination>40. Boechera gunnisoniana (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Stems proximally with simple and 2-rayed trichomes 0.3–0.6 mm; fruits usually ascending, rarely horizontal ( B. glareosa ); ovules 50–80 per ovary.</statement>
+      <description type="morphology">Stems proximally with simple and 2-rayed trichomes 0.3–0.6 mm; fruits usually ascending, rarely horizontal ( B. glareosa ); ovules 50–80 per ovary.</description>
       <next_statement_id>44.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes 0.3–0.5 mm; cauline leaf blades with auricles</statement>
+      <description type="morphology">Basal leaf blade surfaces with simple and 2- or 3-rayed trichomes 0.3–0.5 mm; cauline leaf blades with auricles</description>
       <determination>34. Boechera glareosa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Basal leaf blade surfaces with 4–8-rayed trichomes 0.05–0.1 mm; cauline leaf blades with auricles 0.5–1.5 mm</statement>
+      <description type="morphology">Basal leaf blade surfaces with 4–8-rayed trichomes 0.05–0.1 mm; cauline leaf blades with auricles 0.5–1.5 mm</description>
       <determination>58. Boechera microphylla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Stems usually 1 per caudex branch, arising from centers of rosettes.</statement>
+      <description type="morphology">Stems usually 1 per caudex branch, arising from centers of rosettes.</description>
       <next_statement_id>45.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Fruits 2.5–3.5 mm wide; seeds 2.5–3.2 × 1.8–2.5 mm</statement>
+      <description type="morphology">Fruits 2.5–3.5 mm wide; seeds 2.5–3.2 × 1.8–2.5 mm</description>
       <determination>87. Boechera rigidissima</determination>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Fruits 0.8–2.2(–2.5) mm wide; seeds 1–2(–2.5) × 0.9–1.5 mm.</statement>
+      <description type="morphology">Fruits 0.8–2.2(–2.5) mm wide; seeds 1–2(–2.5) × 0.9–1.5 mm.</description>
       <next_statement_id>46.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Fruits erect, appressed to rachises; ovules 24–40 per ovary</statement>
+      <description type="morphology">Fruits erect, appressed to rachises; ovules 24–40 per ovary</description>
       <determination>67. Boechera paupercula (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Fruits ascending, divaricate, or horizontal, not appressed to rachises; ovules 46–250 per ovary.</statement>
+      <description type="morphology">Fruits ascending, divaricate, or horizontal, not appressed to rachises; ovules 46–250 per ovary.</description>
       <next_statement_id>47.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>47.</statement_id>
-      <statement>Petals 0.5–2 mm wide; usually e of Sierra Nevada-Cascade crest.</statement>
+      <description type="morphology">Petals 0.5–2 mm wide; usually e of Sierra Nevada-Cascade crest.</description>
       <next_statement_id>48.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>48.</statement_id>
-      <statement>Basal leaf blade surfaces with trichomes 0.3–0.6 mm; fruits 1.5–2.2 mm wide; ovules 80–162 per ovary; cauline leaves (8–)14–60, blades with</statement>
+      <description type="morphology">Basal leaf blade surfaces with trichomes 0.3–0.6 mm; fruits 1.5–2.2 mm wide; ovules 80–162 per ovary; cauline leaves (8–)14–60, blades with</description>
       <determination>66. Boechera pauciflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>48.</statement_id>
-      <statement>Basal leaf blade surfaces with trichomes 0.05–0.3 mm; fruits 0.8–1.5 mm wide; ovules 46–80 per ovary; cauline leaves 3–16, blades with auricles 0.5–1.5 mm.</statement>
+      <description type="morphology">Basal leaf blade surfaces with trichomes 0.05–0.3 mm; fruits 0.8–1.5 mm wide; ovules 46–80 per ovary; cauline leaves 3–16, blades with auricles 0.5–1.5 mm.</description>
       <next_statement_id>49.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>49.</statement_id>
-      <statement>Distal cauline leaf blades with surfaces pubescent; petals white; stems</statement>
+      <description type="morphology">Distal cauline leaf blades with surfaces pubescent; petals white; stems</description>
       <determination>26. Boechera evadens</determination>
     </key_statement>
     <key_statement>
       <statement_id>49.</statement_id>
-      <statement>Distal cauline leaf blades with surfaces glabrous; petals lavender or purplish; stems proximally with simple and 2- or 3-rayed trichomes only; not sc California.</statement>
+      <description type="morphology">Distal cauline leaf blades with surfaces glabrous; petals lavender or purplish; stems proximally with simple and 2- or 3-rayed trichomes only; not sc California.</description>
       <next_statement_id>50.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>50.</statement_id>
-      <statement>Fruits 0.8–1.2 mm wide; petals 0.5–0.8 mm wide; cauline leaves</statement>
+      <description type="morphology">Fruits 0.8–1.2 mm wide; petals 0.5–0.8 mm wide; cauline leaves</description>
       <determination>57. Boechera macounii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>50.</statement_id>
-      <statement>Fruits 1.2–1.5 mm wide; petals 1–1.8 mm wide; cauline leaves 2–6; racemes 3–15-flowered.</statement>
+      <description type="morphology">Fruits 1.2–1.5 mm wide; petals 1–1.8 mm wide; cauline leaves 2–6; racemes 3–15-flowered.</description>
       <next_statement_id>51.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>51.</statement_id>
-      <statement>Stems proximally with trichomes simple and 2- or 3-rayed 0.1–0.2 mm; basal leaf blade surfaces with (2- or) 3–6-rayed trichomes usually 0.05–0.2(–0.3) mm; seeds with continuous wing; styles 0.8–1.5 mm; plants apomictic, pollen spheroid</statement>
+      <description type="morphology">Stems proximally with trichomes simple and 2- or 3-rayed 0.1–0.2 mm; basal leaf blade surfaces with (2- or) 3–6-rayed trichomes usually 0.05–0.2(–0.3) mm; seeds with continuous wing; styles 0.8–1.5 mm; plants apomictic, pollen spheroid</description>
       <determination>10. Boechera cascadensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>51.</statement_id>
-      <statement>Stems proximally with trichomes simple and 2-rayed 0.3–0.6 mm; basal leaf blade surfaces with some 7- or 8-rayed trichomes 0.05–0.1 mm; seeds with distal wing; styles</statement>
+      <description type="morphology">Stems proximally with trichomes simple and 2-rayed 0.3–0.6 mm; basal leaf blade surfaces with some 7- or 8-rayed trichomes 0.05–0.1 mm; seeds with distal wing; styles</description>
       <determination>58. Boechera microphylla (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>47.</statement_id>
-      <statement>Petals 2–5 mm wide; w of Sierra Nevada-Cascade crest (except B . sparsiflora ).</statement>
+      <description type="morphology">Petals 2–5 mm wide; w of Sierra Nevada-Cascade crest (except B . sparsiflora ).</description>
       <next_statement_id>52.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>52.</statement_id>
-      <statement>Fruiting pedicels with subappressed, 2–4-rayed trichomes</statement>
+      <description type="morphology">Fruiting pedicels with subappressed, 2–4-rayed trichomes</description>
       <determination>2. Boechera arcuata</determination>
     </key_statement>
     <key_statement>
       <statement_id>52.</statement_id>
-      <statement>Fruiting pedicels with spreading, simple and 2-rayed trichomes or glabrous.</statement>
+      <description type="morphology">Fruiting pedicels with spreading, simple and 2-rayed trichomes or glabrous.</description>
       <next_statement_id>53.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>53.</statement_id>
-      <statement>Basal leaf blades 1–3 mm wide; caudices woody, with persistent, crowded, peg-like leaf</statement>
+      <description type="morphology">Basal leaf blades 1–3 mm wide; caudices woody, with persistent, crowded, peg-like leaf</description>
       <determination>49. Boechera koehleri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>53.</statement_id>
-      <statement>Basal leaf blades 3–12 mm wide; caudices woody or not, without persistent, crowded, peg-like leaf bases.</statement>
+      <description type="morphology">Basal leaf blades 3–12 mm wide; caudices woody or not, without persistent, crowded, peg-like leaf bases.</description>
       <next_statement_id>54.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>54.</statement_id>
-      <statement>Distal cauline leaf blades with glabrous surfaces (rarely margins ciliate); cauline leaf blades with auricles 3–10 mm; stems 3–8 dm;usually e of Sierra Nevada-Cascade axis</statement>
+      <description type="morphology">Distal cauline leaf blades with glabrous surfaces (rarely margins ciliate); cauline leaf blades with auricles 3–10 mm; stems 3–8 dm;usually e of Sierra Nevada-Cascade axis</description>
       <determination>97. Boechera sparsiflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>54.</statement_id>
-      <statement>Distal cauline leaf blades with pubescent surfaces; cauline leaf blades with auricles 0.5–3(–5) mm; stems 0.6–3.5(–4.5) dm; w of Sierra Nevada-Cascade axis.</statement>
+      <description type="morphology">Distal cauline leaf blades with pubescent surfaces; cauline leaf blades with auricles 0.5–3(–5) mm; stems 0.6–3.5(–4.5) dm; w of Sierra Nevada-Cascade axis.</description>
       <next_statement_id>55.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>55.</statement_id>
-      <statement>Fruiting pedicels ascending to divaricate-ascending; basal leaf blade surfaces with trichomes 0.4–0.8 mm; petals 7–12 mm; plants sexual, pollen ellipsoid</statement>
+      <description type="morphology">Fruiting pedicels ascending to divaricate-ascending; basal leaf blade surfaces with trichomes 0.4–0.8 mm; petals 7–12 mm; plants sexual, pollen ellipsoid</description>
       <determination>5. Boechera breweri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>55.</statement_id>
-      <statement>Fruiting pedicels horizontal; basal leaf blade surfaces with trichomes 0.1–0.5 mm;</statement>
+      <description type="morphology">Fruiting pedicels horizontal; basal leaf blade surfaces with trichomes 0.1–0.5 mm;</description>
       <determination>90. Boechera rubicundula</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

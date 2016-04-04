@@ -1,55 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>32.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>furcata</species_name>
-    <species_authority>M. Bieberstein</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="M. Bieberstein" date="unknown">furcata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Taur.-Caucas.</publication_title>
       <place_in_publication>3: 567. 1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species furcata;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>furcata</species_name>
-    <variety_name>heterophylla</variety_name>
-    <variety_authority>(Besser) Hultén</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>hyperborea</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>tacomensis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>trifurcata</species_name>
-    <species_authority>Stephani ex Sprengel</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 7–35 cm (not cespitose), faintly aromatic (not rhizomatous, taproots stout, caudices simple or branched, branches clothed with persistent leaf bases). Stems (flowering) 1–5, erect, light brown, simple, strigillose or glabrate. Leaves basal (in rosettes) and cauline, gray-green; blades oval, 2–10(–12) cm (basal) or 1–1.5 × 0.4–0.6 cm (cauline), 1–3-palmately lobed, faces sparsely to densely strigillose. Heads (erect or spreading, some nodding, peduncles 0 or to 30 mm) in racemiform or spiciform arrays 1–6 × 1–2 cm. Involucres broadly campanulate, 3–6 × 4.5–8 mm. Phyllaries (greenish, color often obscured by indument) ovate or lanceolate (margins dark brown), sparsely to densely tomentose. Florets: pistillate 6–7; bisexual 15–26; corollas mostly yellow, sometimes red-tinged, 1–2 mm, glabrous or glabrate. Cypselae oblong (ribbed), 1–1.5 mm, glabrous. 2n = 18, 36, 72, 90.</description>
-  <phenology_info>
-    <text>Flowering late summer.</text>
-    <phenology>late summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>talus slopes or tundra ;</text>
-    <habitat>talus slopes or tundra</habitat>
-  </habitat_info>
-  <elevation>500–2700 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species furcata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">furcata</taxon_name>
+    <taxon_name rank="variety" authority="(Besser) Hultén" date="unknown">heterophylla</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species furcata;variety heterophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">hyperborea</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species hyperborea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Stephani ex Sprengel" date="unknown">tacomensis</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species tacomensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">trifurcata</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species trifurcata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>32.</number>
   <discussion>Artemisia furcata extends from the islands of the Bering Sea into southern and interior Alaska, parts of Canada (disjunct in British Columbia and the northernmost Rocky Mountains of Alberta), and on Mt. Rainier in Washington. The array of names applied to A. furcata shows the taxonomic confusion arising from a myriad of morphologic variants that may indicate introgression with other species.</discussion>
-</treatment>
-
+</bio:treatment>

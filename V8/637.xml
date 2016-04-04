@@ -1,63 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ARDISIA</genus_name>
-    <genus_authority>Swartz</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>John J. Pipoly III,Jon M. Ricketson</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">MYRSINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Swartz" date="unknown">ARDISIA</taxon_name>
     <place_of_publication>
       <publication_title>Prodr.,</publication_title>
       <place_in_publication>3, 48.  1788, name conserved  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Marlberry</common_name>
-  <etymology>[Greek ardis, point of arrow or spear, alluding to anthers and/or corolla lobes]</etymology>
-  <author>John J. Pipoly III</author>
-  <author>Jon M. Ricketson</author>
+    <taxon_hierarchy>family MYRSINACEAE;genus ARDISIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek ardis, point of arrow or spear, alluding to anthers and/or corolla lobes]</other_info_on_name>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Marlberry</other_name>
   <discussion>Icacorea Aublet, name rejected</discussion>
-  <description>Subshrubs, shrubs, or trees, not succulent, hairy, glabrescent.  Leaves persistent, alternate (pseudoverticillate in A. japonica), monomorphic or dimorphic; petiole present [absent]; blade lanceolate, elliptic, or oblanceolate to obovate, base acute to obovate, margins entire, crenate, or undulate, flat, subrevolute, or revolute, apex obtuse or acute to acuminate, surfaces glabrous and/or with lepidote scales, sessile- or stipitate-stellate hairs, or glandular-villous.  Inflorescences terminal, subterminal, axillary, or lateral panicles, racemes, cymes, subumbels, or umbels, sessile (pedunculate in A. japonica), longer than petioles.  Pedicels present [absent].  Flowers: sepals 4–5(–6), green, calyx lobes oblong-ovate to ovate, ± equaling tube; petals 4–5(–6), corolla white to pink, cupuliform to campanulate, lobes ± equaling tube, apex acute to acuminate; stamens (4–)5(–6); filaments connate basally into inconspicuous tube, free from corolla tube; stigma punctiform.  Fruits drupaceous, globose or subglobose (A. elliptica), sometimes longitudinally costate, 4–8 mm, fleshy (endocarp crusty or slightly bony), indehiscent.  Seeds 1, white to black, globose, covered by membranous remnants of placenta.  x = 6.</description>
-  <number_of_infrataxa>Species ca. 400–500 (4 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Indian Ocean Islands (e, se Madagascar)</global_distribution>
-  <us_distribution>Pacific Islands</us_distribution>
-  <global_distribution>Australia.</global_distribution>
-  <references heading="SELECTED REFERENCE">
+  <discussion>Species ca. 400–500 (4 in the flora):</discussion>
+  <references>
     <reference>Ricketson, J. M. and J. J. Pipoly.  2003.  Revision of Ardisia subgenus Auriculardisia (Myrsinaceae).  Ann. Missouri Bot. Gard. 90: 179–317.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants subshrubs, stoloniferous, 0.02–0.3(–0.4) m; leaf blade margins serrulate; inflores- cences 3–5-flowered</statement>
+      <description type="morphology">Plants subshrubs, stoloniferous, 0.02–0.3(–0.4) m; leaf blade margins serrulate; inflores- cences 3–5-flowered</description>
       <determination>4.   Ardisia japonica</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants subshrubs, shrubs, or trees, not stoloniferous, 1–15.2 m; leaf blade margins crenulate, undulate, or entire; inflorescences 5–18+-flowered.</statement>
+      <description type="morphology">Plants subshrubs, shrubs, or trees, not stoloniferous, 1–15.2 m; leaf blade margins crenulate, undulate, or entire; inflorescences 5–18+-flowered.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blade margins crenulate or undulate (bearing vascularized nodules)</statement>
+      <description type="morphology">Leaf blade margins crenulate or undulate (bearing vascularized nodules)</description>
       <determination>1.   Ardisia crenata</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blade margins entire (without vascularized nodules).</statement>
+      <description type="morphology">Leaf blade margins entire (without vascularized nodules).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Branchlets glabrous; inflorescences subumbels or umbels</statement>
+      <description type="morphology">Branchlets glabrous; inflorescences subumbels or umbels</description>
       <determination>2.   Ardisia elliptica</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Branchlets sparsely to densely rufous-papillate, sometimes also with multicellular hairs; inflorescences panicles of racemes</statement>
+      <description type="morphology">Branchlets sparsely to densely rufous-papillate, sometimes also with multicellular hairs; inflorescences panicles of racemes</description>
       <determination>3.   Ardisia escallonioides</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

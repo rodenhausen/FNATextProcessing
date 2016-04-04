@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>22b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brickellia</genus_name><species_name>lemmonii</species_name><species_authority>A. Gray</species_authority><variety_name>conduplicata</variety_name><variety_authority>(B. L. Robinson) B. L. Turner</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>68: 163. 1990</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Brickellia</genus_name><species_name>betonicifolia</species_name><species_authority>A. Gray</species_authority><variety_name>conduplicata</variety_name><variety_authority>B. L. Robinson</variety_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>43: 37. 1907 (as betonicaefolia)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brickellia</genus_name><species_name>conduplicata</species_name><species_authority>(B. L. Robinson) B. L. Robinson</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brickellia</genus_name><species_name>viejensis</species_name><species_authority>Flyr</species_authority></TaxonIdentification><description>Leaf blades broadly ovate to subdeltate, 20–60 × 7--30 mm, lengths 1–2 times widths. Peduncles 2–22 mm. Phyllaries: apices (inner) mostly obtuse to nearly rounded.</description><phenology>aug</phenology><phenology>summer</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>igneous soils</habitat><habitat>montane and canyon slopes</habitat><elevation>1500–2200 m;</elevation><us_distribution>N.Mex.</us_distribution><us_distribution>Tex.</us_distribution><global_distribution>Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brickellia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">lemmonii</taxon_name>
+    <taxon_name rank="variety" authority="(B. L. Robinson) B. L. Turner" date="unknown">conduplicata</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>68: 163. 1990</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Brickellia;species lemmonii;variety conduplicata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brickellia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">betonicifolia</taxon_name>
+    <taxon_name rank="variety" authority="B. L. Robinson" date="unknown">conduplicata</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>43: 37. 1907 (as betonicaefolia)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Brickellia;species betonicifolia;variety conduplicata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brickellia</taxon_name>
+    <taxon_name rank="species" authority="(B. L. Robinson) B. L. Robinson" date="unknown">conduplicata</taxon_name>
+    <taxon_hierarchy>genus Brickellia;species conduplicata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brickellia</taxon_name>
+    <taxon_name rank="species" authority="Flyr" date="unknown">viejensis</taxon_name>
+    <taxon_hierarchy>genus Brickellia;species viejensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22b.</number>
+</bio:treatment>

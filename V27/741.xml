@@ -1,64 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Weissia</genus_name>
-    <species_name>phascopsis</species_name>
-    <species_authority>R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="R. H. Zander" date="unknown">phascopsis</taxon_name>
     <place_of_publication>
       <publication_title>Monogr. Syst. Bot. Missouri Bot. Gard.</publication_title>
       <place_in_publication>11: 196. 1985,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>phascoides</species_name>
-    <species_authority>Drummond</species_authority>
+    <taxon_hierarchy>genus Weissia;species phascopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="Drummond" date="unknown">phascoides</taxon_name>
     <place_of_publication>
       <publication_title>Musc. Amer.,</publication_title>
       <place_in_publication>12. 1828,</place_in_publication>
-      <other_info>not Weissia phascoides (Wilson) Müller Hal.</other_info>
+      <other_info_on_pub>not Weissia phascoides (Wilson) Müller Hal.</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Astomum</genus_name>
-    <species_name>phascoides</species_name>
-    <species_authority>(Drummond) Grout</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hymenostomum</genus_name>
-    <species_name>rostellatum</species_name>
-    <variety_name>phascoides</variety_name>
-    <variety_authority>(Drummond) Cardot</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>rostellata</species_name>
-    <variety_name>phascoides</variety_name>
-    <variety_authority>(Drummond) W. D. Reese &amp; B. A. E. Lemmon</variety_authority>
-  </TaxonIdentification>
-  <description>Leaves long-lanceolate, base broadly elliptical, shoulders absent, distal laminal
-        margins strongly and sharply incurved or inrolled, apex narrowly channeled, acute, mucro
-        strong, of 6–10 cells; costal adaxial stereid band smaller than the abaxial; distal laminal
-        cells 8–10 µm wide. Sexual condition cladautoicous. Seta short, 0.015–0.017 cm not including
-        the vaginula. Capsule cleistocarpic, elliptic to ovoid with a long-rostrate
-        apiculus.</description>
-  <phenology>Capsules mature winter–spring.</phenology>
-  <elevation>moderate elevations;</elevation>
-  <habitat>Soil</habitat>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Gymnostomum;species phascoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Astomum</taxon_name>
+    <taxon_name rank="species" authority="(Drummond) Grout" date="unknown">phascoides</taxon_name>
+    <taxon_hierarchy>genus Astomum;species phascoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hymenostomum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rostellatum</taxon_name>
+    <taxon_name rank="variety" authority="(Drummond) Cardot" date="unknown">phascoides</taxon_name>
+    <taxon_hierarchy>genus Hymenostomum;species rostellatum;variety phascoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rostellata</taxon_name>
+    <taxon_name rank="variety" authority="(Drummond) W. D. Reese &amp; B. A. E. Lemmon" date="unknown">phascoides</taxon_name>
+    <taxon_hierarchy>genus Weissia;species rostellata;variety phascoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
   <discussion>Some capsules of Weissia phascopsis show rudimentary peristomes, of 1–8 teeth, each
         of 1–2 articulations, which may vary in a tuft, and aborted spores were not seen. The
         possible hybrid origin of this species has been discussed by A. L. Andrews (1920, 1922,
@@ -75,4 +59,4 @@
         sporophytes per turf, each with no or few aborted spores, argue against outcrossing. There
         is no evidence for differential timing of maturation and dehiscence of archegonia and
         antheridia.</discussion>
-</treatment>
+</bio:treatment>

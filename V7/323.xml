@@ -1,52 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Alyssum</genus_name>
-    <species_name>obovatum</species_name>
-    <species_authority>(C. A. Meyer) Turczaninow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Alysseae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alyssum</taxon_name>
+    <taxon_name rank="species" authority="(C. A. Meyer) Turczaninow" date="unknown">obovatum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Soc. Imp. Naturalistes Moscou</publication_title>
       <place_in_publication>10: 57. 1837</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Odontarrhena</genus_name>
-    <species_name>obovata</species_name>
-    <species_authority>C. A. Meyer</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Alysseae;genus Alyssum;species obovatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Odontarrhena</taxon_name>
+    <taxon_name rank="species" authority="C. A. Meyer" date="unknown">obovata</taxon_name>
     <place_of_publication>
       <publication_title>in C. F. von Ledebour, Fl. Altaica</publication_title>
       <place_in_publication>3: 61. 1831</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Alyssum</genus_name>
-    <species_name>americanum</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Alyssum</genus_name>
-    <species_name>biovulatum</species_name>
-    <species_authority>N. Busch</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Alyssum</genus_name>
-    <species_name>fallax</species_name>
-    <species_authority>Nyárády</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; (cespitose, caudex often woody); canescent throughout, trichomes 10–25-rayed. Stems often several from base (often with sterile shoots), usually erect or ascending, 0.7–1.5(–2) dm. Cauline leaves subsessile; blade broadly oblanceolate, obovate-spatulate, or obovate, 0.6–1.4(–1.7) cm × (1–)2–6 mm (gradually smaller distally), base attenuate, apex rounded, obtuse, or subacute. (Racemes corymbose, simple, or in panicles terminating each stem.) Fruiting pedicels divaricate, straight, slender, (2–)3–7(–9) mm, trichomes uniformly stellate. Flowers: sepals oblong, 1.5–2 × 0.7–1 mm, stellate-pubescent; petals yellow, broadly spatulate, 2.5–3.5(–4) × 1–1.5 mm, base attenuate, apex often obtuse or rounded, glabrous abaxially; filaments: median pairs unilaterally broadly winged, apically 1-toothed, lateral pair with lanceolate or narrowly oblong basal appendage, apically obtuse or subacute, 1.5–2 mm; anthers oblong, 0.3–0.4 mm. Fruits broadly elliptic or obovate, 3–4.5(–5) × 2.5–3.5 mm, apex obtuse to rounded; valves inflated at middle or on 1 side, flattened at margins, densely stellate-pubescent; ovules (1 or) 2 per ovary; style (slender), 1.5–2 mm, glabrous. Seeds ovoid, compressed, 1–1.7 × 0.8–1.2 mm, not winged or margined. 2n = 16, 32.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>mountain slopes</habitat>
-  <habitat>cliffs</habitat>
-  <habitat>gravel</habitat>
-  <habitat>rocky places</habitat>
-  <elevation>500–1500 m;</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Odontarrhena;species obovata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alyssum</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">americanum</taxon_name>
+    <taxon_hierarchy>genus Alyssum;species americanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alyssum</taxon_name>
+    <taxon_name rank="species" authority="N. Busch" date="unknown">biovulatum</taxon_name>
+    <taxon_hierarchy>genus Alyssum;species biovulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alyssum</taxon_name>
+    <taxon_name rank="species" authority="Nyárády" date="unknown">fallax</taxon_name>
+    <taxon_hierarchy>genus Alyssum;species fallax;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+</bio:treatment>

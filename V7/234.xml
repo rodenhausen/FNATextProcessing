@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>KOEBERLINIA</genus_name>
-    <genus_authority>Zuccarini</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Engler" date="unknown">KOEBERLINIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Zuccarini" date="unknown">KOEBERLINIA</taxon_name>
     <place_of_publication>
       <publication_title>Flora</publication_title>
       <place_in_publication>15(2, Beibl.): 73. 1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Christoph Ludwig Koeberlin, 1794–1862, German clergyman and botanist]</etymology>
-  <common_name>Allthorn</common_name>
-  <common_name>junco</common_name>
-  <common_name>c rown-of-thorns</common_name>
-  <common_name>corona-de-Cristo</common_name>
-  <description>Plants unscented. Leaves evanescent. Flowers: sepals each often subtending a nectary; filaments thickened in middle; anthers ellipsoid; gynophore slender, elongating in fruit; style straight; stigma minute. Berries globose, ± fleshy. Seeds cochleate-reniform or orbicular to reniform, slightly rugulose.</description>
-  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>sw United States</global_distribution>
-  <global_distribution>n Mexico</global_distribution>
-  <global_distribution>South America (Bolivia).</global_distribution>
+    <taxon_hierarchy>family KOEBERLINIACEAE;genus KOEBERLINIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Christoph Ludwig Koeberlin, 1794–1862, German clergyman and botanist]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Allthorn</other_name>
+  <other_name type="common_name">junco</other_name>
+  <other_name type="common_name">c rown-of-thorns</other_name>
+  <other_name type="common_name">corona-de-Cristo</other_name>
+  <discussion>Species 2 (1 in the flora):</discussion>
   <discussion>Koeberlinia holacantha W. C. Holmes, K. L. Yip &amp; Rushing is known only from Departamento Santa Cruz, Bolivia. The Seri tribe of coastal Sonora, Mexico, traditionally fumigate their huts with the black, oily smoke from burning wood of Koeberlinia (R. S. Felger and M. B. Moser 1985).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,51 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Lewisia</genus_name>
-        <species_name>columbiana</species_name>
-        <species_authority>(Howell ex A. Gray) B. L. Robinson</species_authority>
-        <variety_name>rupicola</variety_name>
-        <variety_authority>(English) C. L. Hitchcock</variety_authority>
-        <place_of_publication>
-            <publication_title>in C. L. Hitchcock et al., Vasc. Pl. Pacif. N.W.</publication_title>
-            <place_in_publication>2: 232. 1964</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Lewisia</genus_name>
-        <species_name>rupicola</species_name>
-        <species_authority>English</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Biol. Soc. Wash. </publication_title>
-            <place_in_publication>47: 190. 1934</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Lewisia</genus_name>
-        <species_name>columbiana</species_name>
-        <subspecies_name>rupicola</subspecies_name>
-        <subspecies_authority>(English) Ferris</subspecies_authority>
-    </TaxonIdentification>
-    <description>Basal leaf blades ± linear, mostly 2–3 cm. Cauline leaves usually absent.
-        Inflorescences: basalmost bract margins glandular-toothed. Petals pale pink to deep
-        purple-magenta or rose, (10–)12–13 mm. 2n = 30.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>exposed slopes</habitat>
-    <elevation>800–1700 m;</elevation>
-    <ca_distribution>B.C.</ca_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <discussion>B. Mathew (1989b) noted that the cultivated Lewisia columbiana ‘Rosea’ is this
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(Howell ex A. Gray) B. L. Robinson" date="unknown">columbiana</taxon_name>
+    <taxon_name rank="variety" authority="(English) C. L. Hitchcock" date="unknown">rupicola</taxon_name>
+    <place_of_publication>
+      <publication_title>in C. L. Hitchcock et al., Vasc. Pl. Pacif. N.W.</publication_title>
+      <place_in_publication>2: 232. 1964</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species columbiana;variety rupicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="English" date="unknown">rupicola</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>47: 190. 1934</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lewisia;species rupicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">columbiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(English) Ferris" date="unknown">rupicola</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species columbiana;subspecies rupicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
+  <discussion>B. Mathew (1989b) noted that the cultivated Lewisia columbiana ‘Rosea’ is this
         variety. B. L. Davidson (2000) noted that the United States populations have pink to magenta
         petals, whereas the British Columbia populations have white to pale pink petals
         characteristic of the other varieties. Mathew questioned the assignment of the British
         Columbia plants to this variety.</discussion>
-</treatment>
+</bio:treatment>

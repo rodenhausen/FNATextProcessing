@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4</number><TaxonIdentification Status="ACCEPTED"><genus_name>Notholaena</genus_name><species_name>grayi</species_name><species_authority>Davenport</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club</publication_title><place_in_publication>7: 50, plate 4. 1880</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cheilanthes</genus_name><species_name>grayi</species_name><species_authority>(Davenport) Domin</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Chrysochosma</genus_name><species_name>grayi</species_name><species_authority>(Davenport) Pichi-Sermolli</species_authority></TaxonIdentification><description>Stem  scales concolored to weakly bicolored, margins usually brown, very narrow and poorly defined, thin, ciliate-denticulate.  Leaves  5--20 cm.  Petiole  brown, equal to or somewhat shorter than blade, rounded adaxially, glandular-farinose, bearing scattered hairs and scales.  Blade  linear-lanceolate, 2-pinnate-pinnatifid, 3--6 times longer than wide, abaxially with conspicuous whitish farina and dull, light brown, lanceolate, entire scales scattered along rachises and costae, adaxially distinctly glandular; basal pinnae equal to or slightly larger than adjacent pair, ± equilateral, proximal basiscopic pinnules not greatly enlarged.  Ultimate segments  sessile, broadly adnate to costae; segment margins slightly recurved, rarely concealing sporangia.  Sporangia  containing 16 or 32 spores.</description><discussion>Notholaena grayi comprises two cytotypes here treated as subspecies. Sexually reproducing diploid populations ( N . grayi subsp. sonorensis ) are concentrated in southern Arizona and western Mexico. Apogamous triploids ( N . grayi subsp. grayi ) are more widespread, extending from Arizona to central Texas and northeastern Mexico. Isozyme analyses indicate that subsp. grayi is an autotriploid derivative of subsp. sonorensis (G. J. Gastony and M. D. Windham 1989).</discussion><key><key_statement><statement_id>1</statement_id><statement>Most sporangia containing 16 spores; spores generally more than 55 µm.</statement><determination>4a subsp. grayi</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Most sporangia containing 32 spores; spores generally less than 55 µm.</statement><determination>4b subsp. sonorensis</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="Davenport" date="unknown">grayi</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>7: 50, plate 4. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Notholaena;species grayi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheilanthes</taxon_name>
+    <taxon_name rank="species" authority="(Davenport) Domin" date="unknown">grayi</taxon_name>
+    <taxon_hierarchy>genus Cheilanthes;species grayi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysochosma</taxon_name>
+    <taxon_name rank="species" authority="(Davenport) Pichi-Sermolli" date="unknown">grayi</taxon_name>
+    <taxon_hierarchy>genus Chrysochosma;species grayi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4</number>
+  <discussion>Notholaena grayi comprises two cytotypes here treated as subspecies. Sexually reproducing diploid populations ( N . grayi subsp. sonorensis ) are concentrated in southern Arizona and western Mexico. Apogamous triploids ( N . grayi subsp. grayi ) are more widespread, extending from Arizona to central Texas and northeastern Mexico. Isozyme analyses indicate that subsp. grayi is an autotriploid derivative of subsp. sonorensis (G. J. Gastony and M. D. Windham 1989).</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Most sporangia containing 16 spores; spores generally more than 55 µm.</description>
+      <determination>4a subsp. grayi</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Most sporangia containing 32 spores; spores generally less than 55 µm.</description>
+      <determination>4b subsp. sonorensis</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

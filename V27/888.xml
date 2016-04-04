@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crossidium</genus_name>
-    <species_name>crassinervium</species_name>
-    <species_authority>(De Notaris) Juratzka</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crossidium</taxon_name>
+    <taxon_name rank="species" authority="(De Notaris) Juratzka" date="unknown">crassinervium</taxon_name>
     <place_of_publication>
       <publication_title>Laubm.-Fl. Oesterr.-Ung.,</publication_title>
       <place_in_publication>128.  1882,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>crassinervia</species_name>
-    <species_authority>De Notaris</species_authority>
+    <taxon_hierarchy>genus Crossidium;species crassinervium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="De Notaris" date="unknown">crassinervia</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Reale Accad. Sci. Torino</publication_title>
       <place_in_publication>40: 303.  1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Asia (China, India)</global_distribution>
-  <global_distribution>Atlantic Islands (Canary Islands).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Tortula;species crassinervia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

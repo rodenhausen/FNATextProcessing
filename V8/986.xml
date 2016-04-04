@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">polifolia</taxon_name>
+    <taxon_name rank="variety" authority="B. Boivin" date="unknown">polifolia</taxon_name>
+    <taxon_hierarchy>family ERICACEAE;genus Andromeda;species polifolia;variety polifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">polifolia</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">concolor</taxon_name>
+    <taxon_hierarchy>genus Andromeda;species polifolia;variety concolor;</taxon_hierarchy>
+  </taxon_identification>
   <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Andromeda</genus_name>
-    <species_name>polifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>polifolia</variety_name>
-  </TaxonIdentification>
-  <common_name>Northern bog or wild rosemary</common_name>
-  <common_name>moorwort</common_name>
-  <common_name>andromède à feuilles de polium</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>polifolia</species_name>
-    <variety_name>concolor</variety_name>
-    <variety_authority>B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 5–80 cm.  Stems spreading.  Leaf blades (white-glaucous, sometimes green abaxially), linear to narrowly elliptic, (1–)2–4 cm × 1–6 mm, surfaces glabrous.  Pedicels erect or recurved, reddish, 10–20 mm, 2–3 times length of corolla.  Corymbs erect or lax, 2–3(–4)-flowered, sometimes flowers solitary, on erect or ascending branchlets.  Corollas (pink, fading with age), 5(–7) × 3.5 mm, dilated basally.  Capsules subglobose, to 8 × 4–5 mm, glabrous.  2n = 48.</description>
-  <phenology>Flowering May–Aug; fruiting Jun–Sep</phenology>
-  <habitat>Sphagnum peat bogs, acid swamps, margins of pools throughout boreal forest and arctic</habitat>
-  <elevation>0–1500 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+  <other_name type="common_name">Northern bog or wild rosemary</other_name>
+  <other_name type="common_name">moorwort</other_name>
+  <other_name type="common_name">andromède à feuilles de polium</other_name>
   <discussion>Variety polifolia is circumpolar in its distribution.  In North America it occurs in the northwest arctic from Alaska to the west coast of Greenland, south as far as northern Washington and Idaho, eastward in boreal forests to Hudson Bay, James Bay, and northern Labrador.</discussion>
   <discussion>Plants with the leaves not glaucous abaxially, rather than glaucous, have been distinguished as var. concolor (type from Kodiak Island, Alaska); such plants appear in scattered locations throughout the species range.  A diminutive, narrow-leaved northern form, var. acerosa Hartman, was described from northern Europe, and specimens fitting that description occur in the extreme northern coastal areas of Alaska, Northwest Territories, Nunavut, Quebec, and Yukon.</discussion>
-</treatment>
+</bio:treatment>

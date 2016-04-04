@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>10a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>polyspermum</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>polyspermum</variety_name>
-    </TaxonIdentification>
-    <description>Plants spreading to suberect. Leaf blades green or yellowish green, apex usually
-        obtuse. Inflorescences lax, cymose and axillary.</description>
-    <phenology_fruiting>fruiting summer-fall</phenology_fruiting>
-    <habitat>moist disturbed soils</habitat>
-    <habitat>gardens</habitat>
-    <habitat>waste areas</habitat>
-    <elevation>10–100 m;</elevation>
-    <introduced>introduced;</introduced>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <global_distribution>native to Europe</global_distribution>
-    <global_distribution>n Asia</global_distribution>
-    <global_distribution>introduced in many other regions of the world.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">polyspermum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">polyspermum</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species polyspermum;variety polyspermum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10a.</number>
+</bio:treatment>

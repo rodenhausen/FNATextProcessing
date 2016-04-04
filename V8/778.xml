@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>nummularia</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">nummularia</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 366.  1868  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Glossyleaf manzanita</common_name>
-  <description>Shrubs, prostrate, erect, or mound-forming, 0.1–5 m; burl absent; bark on older stems persistent, gray or red-gray, shredded or rough; twigs densely short-haired with longer gland-tipped hairs.  Leaves bifacial in stomatal distribution; petiole to 3 mm; blade bifacial, light green abaxially, dark green adaxially, shiny, orbiculate to orbiculate-ovate or oblong-elliptic, 1.5–2.2 × 0.3–1.8 cm, base cuneate to obtuse or truncate to ± lobed, margins entire, cupped, surfaces smooth, glabrous, midvein hairy.  Inflorescences panicles, 4–12-branched; immature inflorescence pendent, branches spreading, axis 0.5–1 cm, to 1 mm diam., densely short-haired with longer gland-tipped hairs; bracts appressed, scalelike, deltate, 0.5–2 mm, apex acute, surfaces glabrous.  Pedicels 3–5 mm, glabrous.  Flowers 4-merous; corolla white, urceolate; ovary white-hairy.  Fruits subcylindric, 3–4 mm diam., glabrous.  Stones distinct (breaking apart in mature fruit).</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <us_distribution>California.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species nummularia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Glossyleaf manzanita</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants 0.5–5 m; bark on older stems gray, shredded</statement>
+      <description type="morphology">Plants 0.5–5 m; bark on older stems gray, shredded</description>
       <determination>10a.   Arctostaphylos nummularia subsp. nummularia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants 0.1–0.5 m; bark on older stems gray or reddish, rough or shredded</statement>
+      <description type="morphology">Plants 0.1–0.5 m; bark on older stems gray or reddish, rough or shredded</description>
       <determination>10b.   Arctostaphylos nummularia subsp. mendocinoensis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

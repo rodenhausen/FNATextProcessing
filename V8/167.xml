@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>villosa</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>arkansana</variety_name>
-    <variety_authority>(Rydberg) E. B. Smith</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">villosa</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) E. B. Smith" date="unknown">arkansana</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Arkansas Acad. Sci.</publication_title>
       <place_in_publication>31: 100.  1977  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Arkansas alum-root</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>arkansana</species_name>
-    <species_authority>Rydberg</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species villosa;variety arkansana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">arkansana</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>22: 101.  1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Inflorescences dense, 10–35(–62) × 1–3(–4) cm, internodes in floral branchlets 0.3–1 mm.  Pedicels 0.2–0.9 mm.  Flowers: hypanthium subglobose, gla-brous or sparsely long stipitate-glandular; petals reflexed or tightly coiled, narrowly oblanceolate, 0.2–0.4 mm wide.  2n = 14.</description>
-  <phenology>Flowering Jun–Sep</phenology>
-  <habitat>Shaded rocks and ledges, granite, gneiss, or acidic humus over limestone or shallow rocky soil</habitat>
-  <elevation>300–900 m</elevation>
-  <us_distribution>Ark.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species arkansana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <other_name type="common_name">Arkansas alum-root</other_name>
   <discussion>Variety arkansana is found in the Ozark Mountains.</discussion>
-</treatment>
+</bio:treatment>

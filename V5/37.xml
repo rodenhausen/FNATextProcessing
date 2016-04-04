@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>11.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Spergularia</genus_name><species_name>platensis</species_name><species_authority>(Cambessèdes) Fenzl</species_authority><place_of_publication>
-<publication_title>Ann. Wiener Mus. Narurgesh</publication_title>
-<place_in_publication>2: 272. 1839</place_in_publication></place_of_publication></TaxonIdentification><common_name> La Plata sand-spurrey  </common_name><TaxonIdentification Status="BASIONYM"><genus_name>Balardia</genus_name><species_name>platensis</species_name><species_authority>Cambessèdes</species_authority><place_of_publication><publication_title>in A. St.-Hilaire et al., Fl. Bras. Merid. </publication_title><place_in_publication>2: 130, plate 111. 1830</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>South America (Argentina)</global_distribution><global_distribution>introduced in South America (Chile).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority=" Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority=" Tanfani" date="unknown">Polycarpoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Spergularia</taxon_name>
+    <taxon_name rank="species" authority="(Cambessèdes) Fenzl" date="unknown">platensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Wiener Mus. Narurgesh</publication_title>
+      <place_in_publication>2: 272. 1839</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Polycarpoideae;genus Spergularia;species platensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Balardia</taxon_name>
+    <taxon_name rank="species" authority="Cambessèdes" date="unknown">platensis</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. St.-Hilaire et al., Fl. Bras. Merid.</publication_title>
+      <place_in_publication>2: 130, plate 111. 1830</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Balardia;species platensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <other_name type="common_name"> La Plata sand-spurrey  </other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

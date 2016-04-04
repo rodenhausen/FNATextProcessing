@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Malephora</genus_name>
-    <species_name>crocea</species_name>
-    <species_authority>(Jacquin) Schwantes</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">AIZOACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malephora</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Schwantes" date="unknown">crocea</taxon_name>
     <place_of_publication>
       <publication_title>Deutsche Gärt.-Zeitung</publication_title>
       <place_in_publication>43: 7. 1928</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Crocea iceplant</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Mesembryanthemum</genus_name>
-    <species_name>croceum</species_name>
-    <species_authority>Jacquin</species_authority>
+    <taxon_hierarchy>family AIZOACEAE;genus Malephora;species crocea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mesembryanthemum</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">croceum</taxon_name>
     <place_of_publication>
-      <publication_title>Fragm. Bot. , </publication_title>
+      <publication_title>Fragm. Bot. ,</publication_title>
       <place_in_publication>17. 1800</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crocanthus</genus_name>
-    <species_name>croceus</species_name>
-    <species_authority>(Jacquin) L. Bolus</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hymenocyclus</genus_name>
-    <species_name>croceus</species_name>
-    <species_authority>(Jacquin) Schwantes</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mesembryanthemum</genus_name>
-    <species_name>instititum</species_name>
-    <species_authority>Willdenow</species_authority>
-  </TaxonIdentification>
-  <description>Subshrubs. Stems light gray- brown, exterior fissured, barklike, to 2 cm diam.,
-    corky, becoming woody with age. Leaves crowded at end of short shoots, pale green, sometimes red
-    tinged; blade triangular in cross section, 2.5–6(–12) × 0.6 cm, apex blunt, glaucous.
-    Inflorescences terminal, flowers solitary; pedicel 1–6 cm. Flowers: calyx 0.8–1.5 cm; calyx
-    lobes (4–)5(–6), 3 longer, with translucent margins, 2 shorter, apex acute; petals 40–65,
-    purplish abaxially, orange adaxially, sometimes completely yellow, orange, or red, 4–12 mm;
-    nectary present; stamens 2–5 mm; filaments connate basally, forming dense ring, white-hairy;
-    ovary inferior. Capsules obcuneiform, 8(–12)-loculed; adaxial seed pockets with bifid placental
-    tubercles. Seeds ca. 75, 3–15 per locule, 1 × 0.8 mm. 2n = 36.</description>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>margins of coastal wetlands and bluffs</habitat>
-  <elevation>0–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Mesembryanthemum;species croceum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crocanthus</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) L. Bolus" date="unknown">croceus</taxon_name>
+    <taxon_hierarchy>genus Crocanthus;species croceus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hymenocyclus</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Schwantes" date="unknown">croceus</taxon_name>
+    <taxon_hierarchy>genus Hymenocyclus;species croceus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mesembryanthemum</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">instititum</taxon_name>
+    <taxon_hierarchy>genus Mesembryanthemum;species instititum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Crocea iceplant</other_name>
   <discussion>Malephora crocea is grown as an ornamental and often sold as a ground cover for
     landscaping. It is cultivated along freeways as far north and inland as Fresno,
     California.</discussion>
@@ -69,4 +53,4 @@
     <reference>Ferren, W. R. Jr., J. E. Bleck, and N. J. Vivrette. 1981.
       Malephora crocea (Aizoaceae) naturalized in California. Madroño 28: 80–85.</reference>
   </references>
-</treatment>
+</bio:treatment>

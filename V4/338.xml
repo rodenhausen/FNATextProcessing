@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Selenicereus</genus_name>
-        <species_name>spinulosus</species_name>
-        <species_authority>(de Candolle) Britton &amp; Rose</species_authority>
-        <place_of_publication>
-            <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-            <place_in_publication>12: 431. 1909</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Vinelike moonlight cactus</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Cereus</genus_name>
-        <species_name>spinulosus</species_name>
-        <species_authority>de Candolle</species_authority>
-        <place_of_publication>
-            <publication_title>Mém. Mus. Hist. Nat. </publication_title>
-            <place_in_publication>17: 117. 1828</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants vinelike, clambering. Roots mostly aerial, but also in soil. Stems light
-        green, 200–400 × 1–2 cm; ribs 4–6, acute; areoles 1.5–2.5 cm apart along ribs. Spines 7–8,
-        yellow to blackish, conic, to 1 mm (rarely longer); radial spines 6–7, circular in cross
-        section, hairlike spines absent; central spines 1. Flowers 12–14 × 7–8.5 cm; outer tepals
-        narrow, oblong; inner tepals white to pink, narrowly oblong; areoles of ovary and flower
-        tube spiny; scales and long hairs absent. Fruits not observed. 2n = 22.</description>
-    <habitat>woodlands</habitat>
-    <habitat>[subtropical forests]</habitat>
-    <elevation>0–20 m;</elevation>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (San Luis Potosí).</global_distribution>
-    <global_distribution>Mexico (Tamaulipas).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Selenicereus</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Britton &amp; Rose" date="unknown">spinulosus</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>12: 431. 1909</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Selenicereus;species spinulosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">spinulosus</taxon_name>
+    <place_of_publication>
+      <publication_title>Mém. Mus. Hist. Nat.</publication_title>
+      <place_in_publication>17: 117. 1828</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cereus;species spinulosus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Vinelike moonlight cactus</other_name>
+</bio:treatment>

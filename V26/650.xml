@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>elegans</species_name><species_authority>Hoover</species_authority><subspecies_name>elegans</subspecies_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>coronaria</species_name><species_authority>(Salisbury) Jepson</species_authority><variety_name>mundula</variety_name><variety_authority>Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>elegans</species_name><variety_name>mundula</variety_name><variety_authority>(Jepson) Hoover</variety_authority></TaxonIdentification><description>Flowers: perianth tube 8–19 mm, lobes 15–30 mm; anthers 4–10 mm; staminodia erect distally, margins planate, straight; ovary 9–15 mm; style 7–15 mm. 2n = 12, 16, 24, 32.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>jul</phenology><habitat>grasslands</habitat><habitat>meadows</habitat><habitat>open woodlands</habitat><elevation>0–2200 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Subspecies elegans, like Brodiaea coronaria subsp. coronaria, is very widespread and grows well in a variety of conditions. It has 2n = 16 in the upper foothills of the Sierra Nevada, but elsewhere 2n = 32 or, in a zone of contact with B. coronaria near Sonora, California, 2n = 12 and 24, apparently resulting from hybridization. This subspecies is in cultivation.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Hoover" date="unknown">elegans</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">elegans</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species elegans;subspecies elegans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Salisbury) Jepson" date="unknown">coronaria</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">mundula</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species coronaria;variety mundula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) Hoover" date="unknown">mundula</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species elegans;variety mundula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4a.</number>
+  <discussion>Subspecies elegans, like Brodiaea coronaria subsp. coronaria, is very widespread and grows well in a variety of conditions. It has 2n = 16 in the upper foothills of the Sierra Nevada, but elsewhere 2n = 32 or, in a zone of contact with B. coronaria near Sonora, California, 2n = 12 and 24, apparently resulting from hybridization. This subspecies is in cultivation.</discussion>
+</bio:treatment>

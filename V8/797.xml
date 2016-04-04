@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>viscida</species_name>
-    <species_authority>Parry</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">viscida</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 492.  1887  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sticky whiteleaf manzanita</common_name>
-  <description>Shrubs, erect, 1–3 m; burl absent; twigs glabrous, sparsely short-hairy, or densely glandular-hairy.  Leaves: petiole 5–12 mm; blade white-glaucous, dull, ovate to ± orbiculate, 2–5 × 2–4 cm, base rounded, truncate, or ± lobed, margins entire or ciliate, plane, surfaces smooth-papillate, rough, scabrous, glabrous or sparsely puberulent.  Inflorescences panicles, 4–7-branched; immature inflorescence pendent or ascending, branches spreading, axis 1–3 cm, 1+ mm diam., densely glandular, (sticky); bracts appressed, (glaucous), scalelike, deltate, 3–4 mm, apex acute to acuminate, surfaces viscid-glandular (rarely minutely stipitate-glandular) or glandular-hairy, especially along margins.  Pedicels 6–10 mm, finely to densely glandular-hairy.  Flowers: corolla white, conic to urceolate; ovary glabrous or glandular-hairy.  Fruits depressed-globose, 6–8 mm diam., glabrous or sparsely to densely glandular-hairy, (sometimes viscid).  Stones distinct.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species viscida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
+  <other_name type="common_name">Sticky whiteleaf manzanita</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>Arctostaphylos viscida is distributed widely in the Sierra Nevada and northern Coast Ranges of California and the Cascade Mountains in southern Oregon.  The subspecies occasionally occur in mixed populations, especially subspp. viscida and mariposa.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Twigs densely glandular-hairy; leaf blades sparsely short glandular-hairy</statement>
+      <description type="morphology">Twigs densely glandular-hairy; leaf blades sparsely short glandular-hairy</description>
       <determination>19c.   Arctostaphylos viscida subsp. mariposa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Twigs and leaf blades glabrous (except sometimes near inflorescence).</statement>
+      <description type="morphology">Twigs and leaf blades glabrous (except sometimes near inflorescence).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Ovaries and fruits smooth, glabrous, not viscid</statement>
+      <description type="morphology">Ovaries and fruits smooth, glabrous, not viscid</description>
       <determination>19a.   Arctostaphylos viscida subsp. viscida</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Ovaries and fruits rough, densely glandular, viscid</statement>
+      <description type="morphology">Ovaries and fruits rough, densely glandular, viscid</description>
       <determination>19b.   Arctostaphylos viscida subsp. pulchella</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

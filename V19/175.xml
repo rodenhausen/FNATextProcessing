@@ -1,61 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saussurea</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saussurea</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">angustifolia</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Mus. Natl. Hist. Nat.</publication_title>
       <place_in_publication>16: 200. 1810</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Saussurea;species angustifolia;</taxon_hierarchy>
-  <common_name>Narrow-leaved saw-wort</common_name>
-  <common_name>common saussurea</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Serratula</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>angustifolia</variety_name>
-    <variety_authority>Linnaeus</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Saussurea;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Serratula</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">angustifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 817. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Serratula</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Linnaeus) Willdenow</species_authority>
-  </TaxonIdentification>
-  <description>Plants 3–50 cm; herbage loosely tomentose when young, ± glabrescent. Stems arising from slender rhizomes, usually simple or few, ascending. Leaves basal and cauline, smaller distally, sessile, blades linear to narrowly elliptic, 3–12(–25) cm, bases acute, margins entire or remotely dentate, apices acute. Heads 2–10+ in open or crowded corymbiform arrays; (peduncles 1–5 cm). Involucres 9–14 mm. Phyllaries strongly unequal, the outer ± ovate, inner lanceolate, abaxial faces dark green, usually also tinged dark purplish, pilose or loosely tomentose; tips of outer and mid phyllaries acute. Receptacles scaly. Florets 8–22; corollas purple, 11–15 m, tubes 6–7.5 mm, throats 2–2.5 mm, lobes 3–5. mm; anthers darker purple. Cypselae 3–4 mm; pappus bristles brownish, outer 1–2 mm, the inner 9–10 mm.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>nw Canada</global_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Russian Far East (Chukotka).</global_distribution>
+    <taxon_hierarchy>genus Serratula;species alpina;variety angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Serratula</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Willdenow" date="unknown">angustifolia</taxon_name>
+    <taxon_hierarchy>genus Serratula;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Narrow-leaved saw-wort</other_name>
+  <other_name type="common_name">common saussurea</other_name>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <discussion>Extreme forms of the varieties of Saussurea angustifolia are distinctive, ranging from slender, erect, subglabrous specimens of var. angustifolia to dwarf, densely pubescent forms of vars. viscida and yukonensis. The extremes are connected by intermediates. As is indicated by the synonymy, little unanimity exists in the interpretation of these taxa. I have chosen to follow S. L. Welsh (1974) in treating S. densa as a variety of S. angustifolia rather than as a distinct species. The extent to which the differences among these taxa are genetic or environmentally induced has not been investigated.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Outer phyllaries usually 1.5–2 times longer than wide; stems 10–40(–50) cm; leaves mostly 2–8 mm wide</statement>
+      <description type="morphology">Outer phyllaries usually 1.5–2 times longer than wide; stems 10–40(–50) cm; leaves mostly 2–8 mm wide</description>
       <determination>3a. Saussurea angustifolia var. angustifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Outer phyllaries usually 2–4 times longer than wide; stems usually 3–15 cm; leaves often wider than 8 mm.</statement>
+      <description type="morphology">Outer phyllaries usually 2–4 times longer than wide; stems usually 3–15 cm; leaves often wider than 8 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves tomentose throughout or villous and viscid-glandular on margins and abaxially on midvein; plants mostly 5–15 cm; mostly coastal and insular Alaska</statement>
+      <description type="morphology">Leaves tomentose throughout or villous and viscid-glandular on margins and abaxially on midvein; plants mostly 5–15 cm; mostly coastal and insular Alaska</description>
       <determination>3b. Saussurea angustifolia var. viscida</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves ± arachnoid-tomentose, not or scarcely glandular-viscid, bases usually white tomentose; plants mostly 3–14 cm; interior Alaska and Yukon</statement>
+      <description type="morphology">Leaves ± arachnoid-tomentose, not or scarcely glandular-viscid, bases usually white tomentose; plants mostly 3–14 cm; interior Alaska and Yukon</description>
       <determination>3c. Saussurea angustifolia var. yukonensis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

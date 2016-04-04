@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>163a.9b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Solidago</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <section_name>Solidago</section_name>
-        <subsection_name>Venosae</subsection_name>
-        <series_name>Odorae</series_name>
-        <series_authority>(Mackenzie) Semple</series_authority>
-        <place_of_publication>
-            <publication_title>Sida</publication_title>
-            <place_in_publication>20: 1606. 2003</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Solidago</genus_name>
-        <unranked_epithet_name>Odorae</unranked_epithet_name>
-        <unranked_epithet_authority>Mackenzie</unranked_epithet_authority>
-        <place_of_publication>
-            <publication_title>in J. K. Small, Man. S.E. Fl., </publication_title>
-            <place_in_publication>1345, 1346. 1933</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Solidago</genus_name>
-        <subsection_name>Odorae</subsection_name>
-        <subsection_authority>(Mackenzie) G. L. Nesom</subsection_authority>
-    </TaxonIdentification>
-    <description>leaves usually with only midnerve prominent, never 3-nerved, anise scented when
-        crushed</description>
-    <number_of_infrataxa>Species 1</number_of_infrataxa>
-    <global_distribution>e North America</global_distribution>
-    <global_distribution>Mexico</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="(Mackenzie) G. L. Nesom" date="unknown">Venosae</taxon_name>
+    <taxon_name rank="series" authority="(Mackenzie) Semple" date="unknown">Odorae</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1606. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;section Solidago;subsection Venosae;series Odorae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Mackenzie">Odorae</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. K. Small, Man. S.E. Fl.,</publication_title>
+      <place_in_publication>1345, 1346. 1933</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;unranked Odorae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="unknown" date="unknown">Odorae</taxon_name>
+    <taxon_hierarchy>genus Solidago;subsection Odorae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>163a.9b.</number>
+  <discussion>Species 1</discussion>
+</bio:treatment>

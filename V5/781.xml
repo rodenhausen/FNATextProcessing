@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>143.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eriogonum</genus_name><species_name>hemipterum</species_name><species_authority>(Torrey &amp; A. Gray) Torrey ex S. Stokes</species_authority><place_of_publication>
-    <publication_title>Eriogonum,</publication_title>
-    <place_in_publication>21. 1936</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Eriogonum</genus_name><species_name>hieracifolium</species_name><species_authority>Bentham</species_authority><variety_name>hemipterum</variety_name><variety_authority>Torrey &amp; A. Gray</variety_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>8: 154. 1870</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><global_distribution>sw United States</global_distribution><global_distribution>Mexico (Chihuahua).</global_distribution><global_distribution>Mexico (Coahuila).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Eriogonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Torrey ex S. Stokes" date="unknown">hemipterum</taxon_name>
+    <place_of_publication>
+      <publication_title>Eriogonum,</publication_title>
+      <place_in_publication>21. 1936</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Eriogonoideae;genus Eriogonum;species hemipterum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">hieracifolium</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">hemipterum</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>8: 154. 1870</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eriogonum;species hieracifolium;variety hemipterum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>143.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

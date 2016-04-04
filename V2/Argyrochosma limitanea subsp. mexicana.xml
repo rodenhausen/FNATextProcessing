@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Argyrochosma</genus_name><species_name>limitanea</species_name><subspecies_name>mexicana</subspecies_name><subspecies_authority>(Maxon) Windham</subspecies_authority><place_of_publication><publication_title>Contr. Univ. Michigan Herb.</publication_title><place_in_publication>19: 32. 1993</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Notholaena</genus_name><species_name>limitanea</species_name><species_authority>Maxon</species_authority><subspecies_name>mexicana</subspecies_name><subspecies_authority>Maxon</subspecies_authority><place_of_publication><publication_title>Amer. Fern J. </publication_title><place_in_publication>9: 72. 1919</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Notholaena</genus_name><species_name>limitanea</species_name><species_authority>Maxon</species_authority><variety_name>mexicana</variety_name><variety_authority>(Maxon) M. Broun</variety_authority></TaxonIdentification><description>Leaf blade  lanceolate to oblong, 3--4-pinnate, proximal pinnae 1/4--1/3 as long as blades.  n  = 2 n  = 81, apogamous.</description><phenology>Sporulating summer--fall</phenology><habitat> Rocky slopes and cliffs</habitat><habitat> usually on calcareous or volcanic substrates</habitat><elevation> 1700--2500 m</elevation><us_distribution> Ariz.</us_distribution><us_distribution> N.Mex.</us_distribution><us_distribution> Tex.</us_distribution><global_distribution> n Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Argyrochosma</taxon_name>
+    <taxon_name rank="species" authority="Maxon" date="unknown">limitanea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Maxon) Windham" date="unknown">mexicana</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. Univ. Michigan Herb.</publication_title>
+      <place_in_publication>19: 32. 1993</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Argyrochosma;species limitanea;subspecies mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="Maxon" date="unknown">limitanea</taxon_name>
+    <taxon_name rank="subspecies" authority="Maxon" date="unknown">mexicana</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Fern J.</publication_title>
+      <place_in_publication>9: 72. 1919</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Notholaena;species limitanea;subspecies mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">limitanea</taxon_name>
+    <taxon_name rank="variety" authority="(Maxon) M. Broun" date="unknown">mexicana</taxon_name>
+    <taxon_hierarchy>genus Notholaena;species limitanea;variety mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b</number>
+</bio:treatment>

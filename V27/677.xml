@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PSEUDEPHEMERUM</genus_name>
-    <genus_authority>(Lindberg) I. Hagen</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Kwok Leung Yip</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Lindberg) I. Hagen" date="unknown">PSEUDEPHEMERUM</taxon_name>
     <place_of_publication>
       <publication_title>Kongel. Norske Vidensk. Selsk. Skr. (Trondheim)</publication_title>
       <place_in_publication>1910(1): 45.  1910  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek pseud-, false or resembling, and genus Ephemerum]</etymology>
-  <author>Kwok Leung Yip</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Pleuridium</genus_name>
-    <section_name>Pseudephemerum</section_name>
-    <section_authority>Lindberg</section_authority>
+    <taxon_hierarchy>genus PSEUDEPHEMERUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek pseud-, false or resembling, and genus Ephemerum]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pleuridium</taxon_name>
+    <taxon_name rank="section" authority="Lindberg" date="unknown">Pseudephemerum</taxon_name>
     <place_of_publication>
       <publication_title>Öfvers. Kongl. Vetensk.-Akad. Förh.</publication_title>
       <place_in_publication>21: 583.  1865</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants gregarious to loosely tufted, yellow-green.  Stem 0.04–0.2 cm, branched, rhizoids sparse.  Leaf reflexed-recurved, lanceolate with sheathing base, margins serrulate at apex, occasionally to the base, doubly toothed mostly at angles acute to the long axis; costa thin and narrow, subpercurrent, serrulate abaxially, with a central stereid band, basal cells large, rectangular, distal cells rhombic, smooth.  Sexual condition synoicous; antheridia in axils of leaves, becoming lateral after indeterminate growth of the stem.  Seta very short, erect.  Capsule cleistocarpous, immersed.  Calyptra cucullate.  Spores globose, papillose.</description>
+    <taxon_hierarchy>genus Pleuridium;section Pseudephemerum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
   <discussion>This genus is placed in the Ditrichaceae because the chromosome number of n = 13 (E. Lawton 1971) is essentially that of Ditrichum, the type genus of the family.  A recent study (M. Stech, unpubl.) supported the relationship between Pseudephemerum and Trichodon, both of the Ditrichaceae.</discussion>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand)</us_distribution>
-  <global_distribution>Australia.</global_distribution>
-</treatment>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

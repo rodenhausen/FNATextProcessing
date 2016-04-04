@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cylindropuntia</genus_name><species_name>californica</species_name><species_authority>(Torrey &amp; A. Gray) F. M. Knuth</species_authority><variety_name>californica</variety_name></TaxonIdentification><common_name>Snake cholla</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Opuntia</genus_name><species_name>parryi</species_name><species_authority>Engelmann</species_authority><variety_name>serpentina</variety_name><variety_authority>(Engelmann) L. D. Benson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Opuntia</genus_name><species_name>serpentina</species_name><species_authority>Engelmann</species_authority></TaxonIdentification><description>Shrubs, suberect to decumbent, to 1 m. Stem segments bearing oval tubercles usually 0.7–1.5 cm, larger on old stems. Spines subequal in length. 2n = 22.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>coastal sage scrub</habitat><habitat>sandy soils</habitat><elevation>0–100 m;</elevation><us_distribution>Calif.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cylindropuntia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) F. M. Knuth" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) L. D. Benson" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Cylindropuntia;species californica;variety californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">parryi</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">serpentina</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species parryi;variety serpentina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">serpentina</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species serpentina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15a.</number>
+  <other_name type="common_name">Snake cholla</other_name>
+</bio:treatment>

@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>23c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>incanum</species_name>
-        <species_authority>(S. Watson) A. Heller</species_authority>
-        <variety_name>elatum</variety_name>
-        <variety_authority>Crawford</variety_authority>
-        <place_of_publication>
-            <publication_title>Brittonia</publication_title>
-            <place_in_publication>29: 292, fig. 3. 1977</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants 2.5–7.5 dm. Stems erect, simple or branched from base. Leaf blades 1–2.3 cm,
-        apex obtuse to acute, basal teeth acute to rounded. Inflorescences with glomerules usually
-        well spaced. Seeds (1–)1.1–1.25 mm diam.</description>
-    <phenology_fruiting>fruiting late jun–late sep</phenology_fruiting>
-    <phenology_fruiting>late Jul</phenology_fruiting>
-    <phenology_fruiting>Aug</phenology_fruiting>
-    <phenology_fruiting>late Sep</phenology_fruiting>
-    <habitat>loose or open sandy and rocky soils</habitat>
-    <habitat>banks</habitat>
-    <habitat>slopes</habitat>
-    <habitat>and bottom lands</habitat>
-    <habitat>sometimes on limestone</habitat>
-    <habitat>gypsum</habitat>
-    <habitat>or salt</habitat>
-    <elevation>300–1800 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) A. Heller" date="unknown">incanum</taxon_name>
+    <taxon_name rank="variety" authority="Crawford" date="unknown">elatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>29: 292, fig. 3. 1977</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species incanum;variety elatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>23c.</number>
+</bio:treatment>

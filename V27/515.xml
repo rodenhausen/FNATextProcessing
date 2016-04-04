@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Campylopus</genus_name>
-    <species_name>angustiretis</species_name>
-    <species_authority>(Austin) Lesquereux &amp; James</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="(Austin) Lesquereux &amp; James" date="unknown">angustiretis</taxon_name>
     <place_of_publication>
       <publication_title>Man.,</publication_title>
       <place_in_publication>80.  1884,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>angustirete</species_name>
-    <species_authority>Austin</species_authority>
+    <taxon_hierarchy>genus Campylopus;species angustiretis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Austin" date="unknown">angustirete</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>4: 150.  1879</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>delicatulus</species_name>
-    <species_authority>R. S. Williams</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>gracilicaulis</species_name>
-    <subspecies_name>angustiretis</subspecies_name>
-    <subspecies_authority>(Austin) Kindberg</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>surinamensis</species_name>
-    <variety_name>angustiretis</variety_name>
-    <variety_authority>(Austin) J.-P. Frahm</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 5–20 mm, in loose light green to gray-green mats, evenly foliate with distant, spreading leaves, the distal ones sometimes forming a comal tuft, not tomentose.  Leaves 6 mm, lanceolate, keeled, long-decurrent, gradually narrowed into a fine channelled, concolorous, straight tip that is denticulate at the outermost apex; alar cells large, inflated and auriculate, hyaline; basal laminal cells rectangular, moderately thick-walled, narrower and thin-walled in several marginal rows; distal laminal cells elongate, 6–10:1, not sharply delimited from the basal laminal cells; costa relatively narrow, filling 1/4–1/3 of leaf width, excurrent, in transverse section with a adaxial band of hyalocysts that are slightly smaller than the median deuters, abaxially with groups of stereids, smooth at back.  Specialized asexual reproduction not known.  Sporophytes not known.</description>
-  <habitat>Open sandy soil in wet depressions in coastal lowlands;</habitat>
-  <elevation>0–20 m;</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species angustirete;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="R. S. Williams" date="unknown">delicatulus</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species delicatulus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">gracilicaulis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Austin) Kindberg" date="unknown">angustiretis</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species gracilicaulis;subspecies angustiretis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">surinamensis</taxon_name>
+    <taxon_name rank="variety" authority="(Austin) J.-P. Frahm" date="unknown">angustiretis</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species surinamensis;variety angustiretis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Campylopus angustiretis differs from all other species of the genus by its elongate distal laminal cells.  Thus it is not certain if it actually belongs to this genus.  Because  of the lack of sporophytes a decision cannot be made.  It has been treated as a variety of the sympatric C. surinamensis and superficially resembles certain expressions of that species (described as C. donnellii).  It differs, however, by a narrower costa, the awn not coarsely serrate, the transverse section of the costa showing larger hyalocysts, and distinctly keeled leaves.</discussion>
-</treatment>
+</bio:treatment>

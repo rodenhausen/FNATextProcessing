@@ -1,48 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Tidestromia</genus_name>
-        <species_name>suffruticosa</species_name>
-        <species_authority>(Torrey) Standley</species_authority>
-        <variety_name>suffruticosa</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Tidestromia</genus_name>
-        <species_name>suffruticosa</species_name>
-        <variety_name>coahuilana</variety_name>
-        <variety_authority>I. M. Johnston</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Tidestromia</genus_name>
-        <species_name>gemmata</species_name>
-        <species_authority>I. M. Johnston</species_authority>
-    </TaxonIdentification>
-    <description>Leaf blades usually ovate (lanceolate, ovate, very widely ovate, or reniform).
-        Internodes of secondary branches subtending involucres in fruit usually well defined and not
-        crowded.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <habitat>primary and disturbed vegetation, desert shrub, mesa slopes</habitat>
-    <habitat>disturbed grounds</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>in gypseous limestone</habitat>
-    <habitat>rocky, gravelly alluvial and limestone soils</habitat>
-    <elevation>600–1500 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Chihuahua).</global_distribution>
-    <global_distribution>Mexico (Coahuila).</global_distribution>
-    <global_distribution>Mexico (Durango).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tidestromia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Standley" date="unknown">suffruticosa</taxon_name>
+    <taxon_name rank="variety" authority="I. M. Johnston" date="unknown">suffruticosa</taxon_name>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Tidestromia;species suffruticosa;variety suffruticosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tidestromia</taxon_name>
+    <taxon_name rank="species" authority="I. M. Johnston" date="unknown">suffruticosa</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">coahuilana</taxon_name>
+    <taxon_hierarchy>genus Tidestromia;species suffruticosa;variety coahuilana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tidestromia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">gemmata</taxon_name>
+    <taxon_hierarchy>genus Tidestromia;species gemmata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+</bio:treatment>

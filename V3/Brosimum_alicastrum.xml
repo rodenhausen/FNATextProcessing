@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Brosimum</genus_name>
-        <species_name>alicastrum</species_name>
-        <species_authority>Swartz</species_authority>
-        <place_of_publication>
-            <publication_title> Prodr., </publication_title>
-            <place_in_publication>12. 1788</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Breadnut</common_name>
-    <illustrated>illustrated</illustrated>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alicastrum</genus_name>
-        <species_name>brownei</species_name>
-        <species_authority>Kuntze</species_authority>
-    </TaxonIdentification>
-    <description>Trees, to 30 m. Branchlets gray-brown, glabrous. Leaves: stipules clasping, ca. 4
-        mm; petiole 0.5-0.7 cm. Leaf blade 5-15 × 2-6 cm, base broadly obtuse to rounded, apex
-        obtuse to short-acuminate, nearly cuspidate; surfaces abaxially and adaxially glabrous;
-        veins 12-18 pairs. Inflorescences nearly globose, 3-6 mm diam.; peduncle slender, equal to
-        or shorter than head. Staminate flowers: anther ca. 1 mm diam. Pistillate flowers: style
-        1.5-8.5 mm; stigmas 0.2-8 mm, unequal. Syncarps yellow, 1.5-2 cm diam.</description>
-    <phenology>Flowering all year</phenology>
-    <habitat> Disturbed areas</habitat>
-    <elevation> 0-50 m</elevation>
-    <introduced> introduced</introduced>
-    <us_distribution> Fla.</us_distribution>
-    <global_distribution> Mexico</global_distribution>
-    <global_distribution> West Indies (Cuba and Jamaica)</global_distribution>
-    <global_distribution> Central America</global_distribution>
-    <global_distribution> n South America.</global_distribution>
-    <discussion>Brosimum alicastrum, native to tropical America, is cultivated in tropical Florida
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brosimum</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">alicastrum</taxon_name>
+    <place_of_publication>
+      <publication_title>Prodr.,</publication_title>
+      <place_in_publication>12. 1788</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Brosimum;species alicastrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alicastrum</taxon_name>
+    <taxon_name rank="species" authority="Kuntze" date="unknown">brownei</taxon_name>
+    <taxon_hierarchy>genus Alicastrum;species brownei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Breadnut</other_name>
+  <discussion>illustrated</discussion>
+  <discussion>Brosimum alicastrum, native to tropical America, is cultivated in tropical Florida
         as an ornamental; it rarely escapes.</discussion>
-</treatment>
+</bio:treatment>

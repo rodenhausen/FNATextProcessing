@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Corispermum</genus_name>
-        <species_name>ochotense</species_name>
-        <species_authority>Ignatov</species_authority>
-        <variety_name>ochotense</variety_name>
-    </TaxonIdentification>
-    <description>fruits (2.5–)2.8–3.2 × 1.8–2.2 mm</description>
-    <phenology>Flowering late summer–early fall</phenology>
-    <habitat>Sand dunes</habitat>
-    <habitat>sandy and gravely shores</habitat>
-    <habitat>waste places</habitat>
-    <elevation>not known</elevation>
-    <ca_distribution>N.W.T.</ca_distribution>
-    <us_distribution>Alaska</us_distribution>
-    <global_distribution>Eurasia (ne Russian Far East: Chukotka and Oekhotia)</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corispermum</taxon_name>
+    <taxon_name rank="species" authority="Ignatov" date="unknown">ochotense</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">ochotense</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Corispermum;species ochotense;variety ochotense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a.</number>
+</bio:treatment>

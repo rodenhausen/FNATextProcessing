@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lilium</genus_name><species_name>humboldtii</species_name><species_authority>Roezl &amp; Leichtlin ex Duchartre</species_authority><subspecies_name>humboldtii</subspecies_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lilium</genus_name><species_name>bloomerianum</species_name><species_authority>Kellogg</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lilium</genus_name><species_name>canadense</species_name><species_authority>Linnaeus</species_authority><variety_name>humboldtii</variety_name><variety_authority>Baker</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lilium</genus_name><species_name>canadense</species_name><variety_name>puberulum</variety_name><variety_authority>Torrey</variety_authority></TaxonIdentification><description>Bulbs off white, occasionally flecked with purple; scales unsegmented; stem roots absent. Racemes 1–33(–40)-flowered. Flowers: sepals and petals orange, with magenta spots distributed distally or more proximally; pollen rust, rust-brown, rust-orange, occasionally to warm tan, becoming yellowish.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>ponderosa pine (pinus ponderosa p. &amp; c. douglas) forest and chaparral openings</habitat><elevation>600–1100 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Subspecies humboldtii is distributed from Tehama County south to Calaveras County; reports from farther south are erroneous. An anomalous population documented by A. A. Heller early in the twentieth century as occurring near the Sacramento River at valley elevations (ca. 100 m) in Butte County is unconfirmed and unlikely to be relocated.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lilium</taxon_name>
+    <taxon_name rank="species" authority="Roezl &amp; Leichtlin ex Duchartre" date="unknown">humboldtii</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">humboldtii</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Lilium;species humboldtii;subspecies humboldtii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lilium</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">bloomerianum</taxon_name>
+    <taxon_hierarchy>genus Lilium;species bloomerianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lilium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">canadense</taxon_name>
+    <taxon_name rank="variety" authority="Baker" date="unknown">humboldtii</taxon_name>
+    <taxon_hierarchy>genus Lilium;species canadense;variety humboldtii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lilium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">canadense</taxon_name>
+    <taxon_name rank="variety" authority="Torrey" date="unknown">puberulum</taxon_name>
+    <taxon_hierarchy>genus Lilium;species canadense;variety puberulum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4a.</number>
+  <discussion>Subspecies humboldtii is distributed from Tehama County south to Calaveras County; reports from farther south are erroneous. An anomalous population documented by A. A. Heller early in the twentieth century as occurring near the Sacramento River at valley elevations (ca. 100 m) in Butte County is unconfirmed and unlikely to be relocated.</discussion>
+</bio:treatment>

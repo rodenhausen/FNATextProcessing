@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>19a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Anemone</genus_name><species_name>oregana</species_name><species_authority>A. Gray</species_authority><variety_name>oregana</variety_name></TaxonIdentification><endemic>endemic</endemic><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Anemone</genus_name><species_name>adamsiana</species_name><species_authority>Eastwood</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Anemone</genus_name><species_name>quinquefolia</species_name><species_authority>Linnaeus</species_authority><variety_name>oregana</variety_name><variety_authority>(A. Gray) B.L. Robinson</variety_authority></TaxonIdentification><description>Aerial shoots 8-30(-35) cm. Basal leaves: lateral leaflets 1×-lobed; ultimate lobes 0.4-2 mm wide. Inflorescences: involucral bracts with terminal leaflet 2-8 × 1-3(-3.5) cm, base cuneate, margins crenate to deeply serrate, apex acuminate to acute; lateral leaflets unlobed or 1×-lobed; ultimate lobes 0.5-2 mm wide. Flowers: sepals blue to purple, reddish, or purple to pink, rarely nearly white; stamens 30-60, occasionally more. Achenes: body puberulous to pilose, rarely glabrous. 2n=16.</description><phenology>Flowering spring (Mar-Jun)</phenology><habitat> Shaded, moist woods, open hillsides</habitat><elevation> 100-1800 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">oregana</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) B.L. Robinson" date="unknown">oregana</taxon_name>
+    <taxon_hierarchy>genus Anemone;species oregana;variety oregana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">adamsiana</taxon_name>
+    <taxon_hierarchy>genus Anemone;species adamsiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">quinquefolia</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">oregana</taxon_name>
+    <taxon_hierarchy>genus Anemone;species quinquefolia;variety oregana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19a.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

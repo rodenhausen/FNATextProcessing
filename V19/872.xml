@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>pygmaea</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">pygmaea</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>21: 413. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species pygmaea;</taxon_hierarchy>
-  <common_name>Pygmy sage</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Seriphidium</genus_name>
-    <species_name>pygmaeum</species_name>
-    <species_authority>(A. Gray) W. A. Weber</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 5–10 cm, slightly aromatic; not root-sprouting (caudices coarsely woody, branched). Stems pale to light brown (stiffly erect, densely clothed with appressed foliage), sparsely tomentose. Leaves persistent (sessile, rigid), bright green; blades oblong to ovate, 0.3–0.5 × 0.2–0.3 cm, pinnately lobed (nearly to midribs, 1/3+ widths of blades, lobes 3–7, divergent), faces glabrous or sparsely tomentose, resinous. Heads (sessile, erect) in paniculiform to racemiform arrays (1–)2–3 × 0.5–1 cm. Involucres narrowly turbinate, 2–3 × 3–4 mm. Phyllaries (green) narrowly lanceolate (midribs prominent), glabrous or sparsely tomentose. Florets 2–6; corollas 2.5–3 mm, glandular (style branches flat, erose, exsert). Cypselae (prismatic) 0.4–0.5 mm, glabrous, resinous. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering mid summer–fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>fine-textured soils of gypsum or shale ;</text>
-    <habitat>fine-textured soils of gypsum or shale</habitat>
-  </habitat_info>
-  <elevation>1500–1800 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species pygmaea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Seriphidium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) W. A. Weber" date="unknown">pygmaeum</taxon_name>
+    <taxon_hierarchy>genus Seriphidium;species pygmaeum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <other_name type="common_name">Pygmy sage</other_name>
   <discussion>Artemisia pygmaea is a distinctive, faintly aromatic shrublet, often mistaken for something other than a sagebrush. In early spring its stiff, bright green, deeply pinnatifid leaves are reminiscent of some prickly member of Polemoniaceae. After flowering, its heads and narrow panicles easily identify it as a member of Artemisia; it is unlike other members of the subgenus (which typically have 3-lobed leaves in fascicled lateral shoots). The molecular analysis by L. E. Watson et al. (2002) supported its phylogenetic alignment within subg. Tridentatae.</discussion>
-</treatment>
-
+</bio:treatment>

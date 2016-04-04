@@ -1,73 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Samolus</genus_name>
-    <species_name>ebracteatus</species_name>
-    <species_authority>Kunth</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="D. Don" date="unknown">THEOPHRASTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">ebracteatus</taxon_name>
     <place_of_publication>
       <publication_title>in A. von Humboldt et al.,  Nov. Gen. Sp.</publication_title>
       <place_in_publication>2(fol.): plate 129.  1817</place_in_publication>
     </place_of_publication>
     <place_of_publication>
-      <publication_title />
       <place_in_publication>2(fol.): 181</place_in_publication>
     </place_of_publication>
     <place_of_publication>
-      <publication_title />
       <place_in_publication>2(qto.): 223.  1818  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Limewater brookweed</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samodia</genus_name>
-    <species_name>ebracteata</species_name>
-    <species_authority>(Kunth) Bauda</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samolus</genus_name>
-    <species_name>alyssoides</species_name>
-    <species_authority>A. Heller</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samolus</genus_name>
-    <species_name>cuneatus</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samolus</genus_name>
-    <species_name>ebracteatus</species_name>
-    <subspecies_name>alyssoides</subspecies_name>
-    <subspecies_authority>(A. Heller) R. Knuth</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samolus</genus_name>
-    <species_name>ebracteatus</species_name>
-    <subspecies_name>cuneatus</subspecies_name>
-    <subspecies_authority>(Small) R. Knuth</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Samolus</genus_name>
-    <species_name>ebracteatus</species_name>
-    <variety_name>cuneatus</variety_name>
-    <variety_authority>(Small) Henrickson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants bright-green or glau-cous, not stoloniferous, 1.5–6 dm.  Stems erect or ascending.  Leaves usually crowded near plant base, sessile or petiolate; blade spatulate, 2.5–16 cm, base decurrent, attenuate to cuneate, apex rounded to obtuse, sometimes apiculate.  Inflorescences terminal, racemose, pedunculate; peduncle 5–10 cm, frequently longer than stem.  Pedicels ascending, ebracteate, 1.5–20 mm, glabrous or stipitate-glandular.  Flowers: calyx 2–3 mm, lobes triangular-ovate to triangular-lanceolate, equaling or longer than tube, apex acute, glandular at least near base; corolla pink or whitish, 3–7.5 mm, lobes suborbiculate to broadly cuneate, shorter than tube, base with glandular tuft, apex rounded to truncate, often noticeably erose; staminodes absent.  Capsules 3–4 mm.</description>
-  <phenology>Flowering spring–fall</phenology>
-  <habitat>Moist to wet sites, dunes, coastal strands, salt marshes</habitat>
-  <elevation>0–1200 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America.</global_distribution>
+    <taxon_hierarchy>family THEOPHRASTACEAE;genus Samolus;species ebracteatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samodia</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) Bauda" date="unknown">ebracteata</taxon_name>
+    <taxon_hierarchy>genus Samodia;species ebracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">alyssoides</taxon_name>
+    <taxon_hierarchy>genus Samolus;species alyssoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">cuneatus</taxon_name>
+    <taxon_hierarchy>genus Samolus;species cuneatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ebracteatus</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Heller) R. Knuth" date="unknown">alyssoides</taxon_name>
+    <taxon_hierarchy>genus Samolus;species ebracteatus;subspecies alyssoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ebracteatus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Small) R. Knuth" date="unknown">cuneatus</taxon_name>
+    <taxon_hierarchy>genus Samolus;species ebracteatus;subspecies cuneatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samolus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ebracteatus</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Henrickson" date="unknown">cuneatus</taxon_name>
+    <taxon_hierarchy>genus Samolus;species ebracteatus;variety cuneatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Limewater brookweed</other_name>
   <discussion>J. Henrickson (1983) proposed five varieties of Samolus ebracteatus based on flower size and nature of the pedicel glands.  He indicated that these merely represented the extremes of diversity found in this taxon, with much overlap in expressions of the characters, especially north of Mexico.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Henrickson, J.  1983.  A revision of Samolus ebracteatus sensu lato (Primulaceae).  SouthW. Naturalist 28: 303–314.</reference>
   </references>
-</treatment>
+</bio:treatment>

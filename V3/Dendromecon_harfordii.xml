@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Dendromecon</genus_name><species_name>harfordii</species_name><species_authority>Kellogg</species_authority><place_of_publication><publication_title> Proc. Calif. Acad. Sci. </publication_title><place_in_publication>5: 102. 1873</place_in_publication></place_of_publication></TaxonIdentification><common_name>Island tree-poppy</common_name><endemic>endemic</endemic><TaxonIdentification Status="SYNONYM"><genus_name>Dendromecon</genus_name><species_name>rigida</species_name><species_authority>Bentham</species_authority><subspecies_name>harfordii</subspecies_name><subspecies_authority>(Kellogg) P. H. Raven</subspecies_authority></TaxonIdentification><description>Trees or shrubs, 2-6 m. Leaves 3-8 × 1.5-4.5 cm; blade elliptic, ovate, or oblong; margins entire; apex usually rounded. Flowers: petals 2-3 cm. Capsules curved, 7-10 cm. Seeds 2.5-3 mm.</description><phenology>Flowering spring-early summer (Apr-Jul)</phenology><habitat> Brushy slopes</habitat><elevation> less than 600 m</elevation><us_distribution> Calif.</us_distribution><discussion>Dendromecon harfordii grows only on the Channel Islands. Plants with paler leaves from the southern islands (extant on Santa Catalina Island, once present on San Clemente Island) have been called D. rigida var. rhamnoides (Greene) Munz [= D. rigida Bentham subsp. rhamnoides (Greene) Thorne] and are considered to be of conservation concern.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dendromecon</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">harfordii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>5: 102. 1873</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Dendromecon;species harfordii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dendromecon</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">rigida</taxon_name>
+    <taxon_name rank="subspecies" authority="(Kellogg) P. H. Raven" date="unknown">harfordii</taxon_name>
+    <taxon_hierarchy>genus Dendromecon;species rigida;subspecies harfordii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Island tree-poppy</other_name>
+  <discussion>endemic</discussion>
+  <discussion>Dendromecon harfordii grows only on the Channel Islands. Plants with paler leaves from the southern islands (extant on Santa Catalina Island, once present on San Clemente Island) have been called D. rigida var. rhamnoides (Greene) Munz [= D. rigida Bentham subsp. rhamnoides (Greene) Thorne] and are considered to be of conservation concern.</discussion>
+</bio:treatment>

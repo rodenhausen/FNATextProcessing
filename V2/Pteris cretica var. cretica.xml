@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pteris</genus_name><species_name>cretica</species_name><variety_name>cretica</variety_name><variety_authority>Linnaeus</variety_authority></TaxonIdentification><description>Pinnae  without white or pale green, longitudinal streak along middle; sterile pinnae less than 10 mm wide, fertile segments less than 8 mm wide; terminal pinna somewhat to barely decurrent on rachis.</description><key><key_statement><statement_id>1</statement_id><statement>Pinnae green throughout. 5a. Pteris cretica var. cretica</statement><next_statement_id>1</next_statement_id></key_statement><key_statement><statement_id>1</statement_id><statement>Pinnae with broad, white, central stripe. 5b. Pteris cretica var. albolineata</statement><next_statement_id>1</next_statement_id></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pteris</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cretica</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">cretica</taxon_name>
+    <taxon_hierarchy>genus Pteris;species cretica;variety cretica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5a</number>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Pinnae green throughout. 5a. Pteris cretica var. cretica</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Pinnae with broad, white, central stripe. 5b. Pteris cretica var. albolineata</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+  </key>
+</bio:treatment>

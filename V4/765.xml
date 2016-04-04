@@ -1,51 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SARCOCORNIA</genus_name>
-    <genus_authority>Sarcocornia A. J. Scott</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Ball</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Sarcocornia A. J. Scott" date="unknown">SARCOCORNIA</taxon_name>
     <place_of_publication>
       <publication_title>B ot. J. Linn. Soc.</publication_title>
       <place_in_publication>75: 366. 1978</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Samphire</common_name>
-  <common_name>glasswort</common_name>
-  <common_name>saltwort</common_name>
-  <etymology>[Greek sarco , fleshy, and Latin cornis , horned, in reference to the appearance of the
-    plants]</etymology>
-  <author>Peter W. Ball</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salicornia</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Perennes</section_name>
-    <section_authority>Duval-Jouve ex Moss</section_authority>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus SARCOCORNIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek sarco , fleshy, and Latin cornis , horned, in reference to the appearance of the
+    plants]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salicornia</taxon_name>
+    <taxon_name rank="section" authority="Duval-Jouve ex Moss" date="unknown">Perennes</taxon_name>
     <place_of_publication>
-      <publication_title>J. Bot. </publication_title>
+      <publication_title>J. Bot.</publication_title>
       <place_in_publication>49: 178. 1911</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, glabrous. Stems apparently jointed and fleshy when young, becoming woody and
-    not jointed, not armed; some stems terminated by an inflorescences, others entirely vegetative.
-    Leaves opposite, united at base, petiolate, decurrent forming fleshy joints (sterile segments)
-    fleshy on stem, fleshy; eventually deciduous; blade fleshy triangular projections at tips of
-    joints, edges with narrow scarious margins. Inflorescences terminal and lateral, spikelike,
-    apparently jointed, each joint (fertile segment) consisting of 2 opposite, axillary,
-    3(–5)-flowered cymes embedded in and adnate to fleshy tissue of distal internode; flowers in
-    each cyme arranged in transverse rows, central flower separating lateral flowers, slightly
-    larger; flowers in each cyme partially separated by flaps of tissue which persist on stem when
-    flowers have fallen. Flowers bisexual or unisexual, ± radially symmetric; perianth segments
-    persistent in fruit, 3–4, united except at tip, fleshy; stamens 1–2; styles 2–3. Fruits
-    utriclelike, ellipsoid; pericarp membranous. Seeds vertical, ellipsoid; seed coat light brown,
-    membranous, pubescent; hairs strongly curved or hooked and slender, or conic, straight or
-    slightly curved; perisperm absent. x = 9.</description>
-  <number_of_infrataxa>Species ca. 15 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>Mediterranean region</global_distribution>
-  <global_distribution>s</global_distribution>
-  <global_distribution>e Africa</global_distribution>
-  <global_distribution>Australasia.</global_distribution>
+    <taxon_hierarchy>genus Salicornia;section Perennes;</taxon_hierarchy>
+  </taxon_identification>
+  <number>23.</number>
+  <other_name type="common_name">Samphire</other_name>
+  <other_name type="common_name">glasswort</other_name>
+  <other_name type="common_name">saltwort</other_name>
+  <discussion>Species ca. 15 (3 in the flora):</discussion>
   <discussion>Sarcocornia is taxonomically difficult and has never been the subject of a taxonomic
     revision for the Northern Hemisphere. Although it is possible to identify dry specimens to some
     extent, by comparison, it is impossible to obtain from dried specimens data that can be used in
@@ -71,28 +56,28 @@
   <key>
     <key_statement>
       <statement_id>1. ###</statement_id>
-      <statement>Seeds smooth except for conic, straight papillae on edge; papillae 0.6–0.9 mm;
-        anthers</statement>
+      <description type="morphology">Seeds smooth except for conic, straight papillae on edge; papillae 0.6–0.9 mm;
+        anthers</description>
       <determination>3. Sarcocorn ia utahensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Seeds covered with slender, hooked or strongly curved hairs; hairs mostly 1–2 mm;
-        anthers 0.7–1 mm.</statement>
+      <description type="morphology">Seeds covered with slender, hooked or strongly curved hairs; hairs mostly 1–2 mm;
+        anthers 0.7–1 mm.</description>
       <next_statement_id>2. ###</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2. ###</statement_id>
-      <statement>Plants with creeping, rooting, woody stems; erect stems simple or sparingly
-        branched,</statement>
+      <description type="morphology">Plants with creeping, rooting, woody stems; erect stems simple or sparingly
+        branched,</description>
       <determination>1. Sarcocornia perennis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants with erect or procumbent woody stems, sometimes creeping and rooting at
+      <description type="morphology">Plants with erect or procumbent woody stems, sometimes creeping and rooting at
         base; stems sparingly to much-branched, 10–50 cm; longest terminal spikes onplant
-        with</statement>
+        with</description>
       <determination>2. Sarcocornia pacifica</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

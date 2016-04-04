@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hesperaloe</genus_name><species_name>funifera</species_name><species_authority>(K. Koch) Trelease</species_authority><place_of_publication>
-    <publication_title>Rep. (Annual) Missouri Bot. Gard.</publication_title>
-    <place_in_publication>13: 36. 1902</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Yucca</genus_name><species_name>funifera</species_name><species_authority>K. Koch</species_authority><place_of_publication><publication_title>Belgique Hort. </publication_title><place_in_publication>12: 132. 1862</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Agave</genus_name><species_name>funifera</species_name><species_authority>Lemaire</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hesperaloe</genus_name><species_name>davyi</species_name><species_authority>Baker f.</species_authority></TaxonIdentification><description>Leaf blades yellowish green, slightly constricted near base, widest near middle, 10–20 × 0.2–0.5 dm, margins with coarse threads. Panicles 2–2.5 m. Flowers: perianth broadly campanulate; tepals green, tinged with purple, ca. 2.5 cm. Capsules 8–9 × 5–7 mm. Seeds 8–9 × 5–7 mm.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>rocky slopes and open plains in arid and semiarid regions</habitat><elevation>500–1000(–2100) m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Coahuila).</global_distribution><global_distribution>Mexico (Nuevo León).</global_distribution><global_distribution>Mexico (San Luis Potosí).</global_distribution><discussion>Hesperaloe funifera is occasionally cultivated, although far less frequently than H. parviflora.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="(K. Koch) Trelease" date="unknown">funifera</taxon_name>
+    <place_of_publication>
+      <publication_title>Rep. (Annual) Missouri Bot. Gard.</publication_title>
+      <place_in_publication>13: 36. 1902</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Hesperaloe;species funifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="K. Koch" date="unknown">funifera</taxon_name>
+    <place_of_publication>
+      <publication_title>Belgique Hort.</publication_title>
+      <place_in_publication>12: 132. 1862</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species funifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Lemaire" date="unknown">funifera</taxon_name>
+    <taxon_hierarchy>genus Agave;species funifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="Baker f." date="unknown">davyi</taxon_name>
+    <taxon_hierarchy>genus Hesperaloe;species davyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Hesperaloe funifera is occasionally cultivated, although far less frequently than H. parviflora.</discussion>
+</bio:treatment>

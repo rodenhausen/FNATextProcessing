@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>MYRSINE</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>John J. Pipoly III,Jon M. Ricketson</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">MYRSINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">MYRSINE</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 196.  1753</place_in_publication>
@@ -12,15 +17,12 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 90.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Colicwood</common_name>
-  <etymology>[Greek name for a kind of myrtle]</etymology>
-  <author>John J. Pipoly III</author>
-  <author>Jon M. Ricketson</author>
+    <taxon_hierarchy>family MYRSINACEAE;genus MYRSINE;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek name for a kind of myrtle]</other_info_on_name>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Colicwood</other_name>
   <discussion>Rapanea Aublet</discussion>
-  <description>Shrubs or trees, monoecious or dioecious [polygamous], not succulent, [densely pubescent] glabrous.  Leaves persistent, alternate, monomorphic; petiole present; blade elliptic, oblong, obovate, or oblanceolate, base attenuate to rounded, margins entire, revolute, apex acute to rounded, often emarginate, surfaces glabrous.  Inflorescences lateral (axillary) fascicles [umbels], sessile or subsessile, shorter than petiole; peduncle accrescent, forming short shoot; bracts persistent.  Pedicels present [absent].  Flowers [bisexual] unisexual; sepals 4–6, green, calyx lobes triangular to ovate, ± equaling tube; petals [4–]5[–6], corolla green to white or pink, cupuliform to campanulate, lobes longer than tube, apex acute; stamens 4–6; filaments distinct or connate basally (forming tube); staminodes present; stigmas conic, 3–5-lobed.  Fruits drupaceous, green to black, globose [subglobose, ellipsoid, ovoid, obovoid, or subovoid]; exocarp somewhat fleshy; endocarp crusty or leathery.  Seeds 1, white to black, globose or depressed, usually covered with membranous remnants of placenta.</description>
-  <number_of_infrataxa>Species ca. 300 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>Florida</global_distribution>
-  <global_distribution>pantropical.</global_distribution>
+  <discussion>Species ca. 300 (1 in the flora):</discussion>
   <discussion>J. J. Pipoly (1991, 1992, 1992b, 1996, 2007) and J. M. Ricketson and Pipoly (1997, 1999) have discussed the circumscription of Myrsine to include Rapanea, among others.  Field work has shown that the dioecious plants often have bisexual flowers.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eutrochium</genus_name><species_name>purpureum</species_name><species_authority>(Linnaeus) E. E. Lamont</species_authority><variety_name>holzingeri</variety_name><variety_authority>(Rydberg) E. E. Lamont</variety_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>21: 902. 2004</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Eupatorium</genus_name><species_name>holzingeri</species_name><species_authority>Rydberg</species_authority><place_of_publication><publication_title>Brittonia </publication_title><place_in_publication>1: 97. 1931</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eupatorium</genus_name><species_name>purpureum</species_name><species_authority>Linnaeus</species_authority><variety_name>holzingeri</variety_name><variety_authority>(Rydberg) E. E. Lamont</variety_authority></TaxonIdentification><description>Leaves: petioles glabrous or sparingly puberulent or ciliate; abaxial faces densely and persistently puberulent to villous.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>steep slopes of rocky</habitat><habitat>deciduous woodlands</habitat><habitat>woodland borders</habitat><habitat>shade</habitat><elevation>100–300 m;</elevation><us_distribution>Ark.</us_distribution><us_distribution>Ill.</us_distribution><us_distribution>Iowa</us_distribution><us_distribution>Kans.</us_distribution><us_distribution>Minn.</us_distribution><us_distribution>Mo.</us_distribution><us_distribution>Nebr.</us_distribution><us_distribution>Wis.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eutrochium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) E. E. Lamont" date="unknown">purpureum</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) E. E. Lamont" date="unknown">holzingeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>21: 902. 2004</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Eutrochium;species purpureum;variety holzingeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">holzingeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>1: 97. 1931</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eupatorium;species holzingeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">purpureum</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) E. E. Lamont" date="unknown">holzingeri</taxon_name>
+    <taxon_hierarchy>genus Eupatorium;species purpureum;variety holzingeri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
+</bio:treatment>

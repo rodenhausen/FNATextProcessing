@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>radiata</species_name>
-    <species_authority>Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">radiata</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al.,  N. Amer. Fl.</publication_title>
       <place_in_publication>22: 128.  1905,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>exilis</species_name>
-    <species_authority>Stephan ex Sternberg</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species radiata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Stephan ex Sternberg" date="unknown">exilis</taxon_name>
     <place_of_publication>
       <publication_title>Revis. Saxifrag., suppl.</publication_title>
       <place_in_publication>1: 8, plate 3, fig. 1.  1821,</place_in_publication>
-      <other_info>not Pollini 1816</other_info>
+      <other_info_on_pub>not Pollini 1816</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants in tufts, not stoloniferous, weakly rhizomatous (with bulbils at leaf bases).  Leaves basal and cauline (basal ephemeral); petiole flattened, 5–15 mm; blade reniform, 5–7-lobed usually more than halfway to midvein (cauline less-lobed distally), 5–20 mm, thin to slightly fleshy, margins entire, eciliate, apex obtuse to acute, surfaces glabrous or glabrate to ± long-hairy.  Inflorescences 2–5-flowered cymes, 5–18 cm, purple-tipped stipitate-glandular; bracts petiolate.  Flowers: sepals erect, (sometimes purplish), ovate to lanceolate, margins glandular-ciliate or eciliate, surfaces glabrous; petals white, sometimes with purple veins, not spotted, obovate to narrowly oblanceolate, 7–15 mm, longer than sepals; ovary 1/4–1/3 inferior.  2n = 26, 48, 52.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Snow-bed meadows, stream banks</habitat>
-  <elevation>0–1500 m</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Siberia).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species exilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+</bio:treatment>

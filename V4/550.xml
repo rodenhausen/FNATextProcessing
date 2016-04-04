@@ -1,60 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chenopodium</genus_name>
-    <species_name>incanum</species_name>
-    <species_authority>(S. Watson) A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) A. Heller" date="unknown">incanum</taxon_name>
     <place_of_publication>
       <publication_title>Pl. World</publication_title>
       <place_in_publication>1: 23. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Chenopodium</genus_name>
-    <species_name>fremontii</species_name>
-    <species_authority>S. Watson</species_authority>
-    <variety_name>incanum</variety_name>
-    <variety_authority>S. Watson</variety_authority>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species incanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">incanum</taxon_name>
     <place_of_publication>
-      <publication_title>Proc. Amer. Acad. Arts </publication_title>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>9: 94. 1874</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems erect to spreading, branched from base or simple, 0.6–7.5 dm, farinose. Leaves
-    nonaromatic; petiole 0.5–1 cm; blade broadly triangular to broadly ovate, distal leaves narrowly
-    triangular to narrowly ovate, 1–1.5(–2.3) × 0.5–1.6 cm, thin or thick, base cuneate to
-    subtruncate, margins usually with two basal teeth or lobes, teeth or lobes acute to acuminate,
-    obtuse, or rounded, apex rounded, obtuse, or acute, farinose abaxially. Inflorescences
-    glomerules in terminal and lateral panicles, 3.5–12 × 1–7 cm; glomerules maturing mixed; bracts
-    absent. Flowers: perianth segments 5, distinct nearly to base; lobes ovate, 0.8–1.1 × 0.7–1 mm,
-    apex acute to obtuse, keeled or not, farinose, completely covering fruit at maturity; stamens 5;
-    stigmas 2, 0.2 mm. Utricles ovoid; pericarp nonadherent, smooth. Seeds round, 0.9–1.25 mm diam.,
-    margins rounded with a narrow rim; seed coat dark black, wrinkled. 2n = 18.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Chenopodium;species fremontii;variety incanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>23.</number>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants densely branching from base, branches spreading to ascending, 0.6–1.5(–3)
-        dm; leafblade apices and basal teeth</statement>
+      <description type="morphology">Plants densely branching from base, branches spreading to ascending, 0.6–1.5(–3)
+        dm; leafblade apices and basal teeth</description>
       <next_statement_id>1.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants erect or spreading, unbranched or branching from base with erect ascending
+      <description type="morphology">Plants erect or spreading, unbranched or branching from base with erect ascending
         branches, 1–2.5 dm; leaf blade apices and basal teeth rounded, obtuse, or occasionally
-        acute.</statement>
+        acute.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants erect or spreading, 1–3.5 dm</statement>
+      <description type="morphology">Plants erect or spreading, 1–3.5 dm</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants erect, 2.5–7.5 dm</statement>
+      <description type="morphology">Plants erect, 2.5–7.5 dm</description>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

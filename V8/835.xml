@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>50.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pechoensis</species_name>
-    <species_authority>(Abrams) Dudley ex Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Abrams) Dudley ex Eastwood" date="unknown">pechoensis</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>1: 62.  1933  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pecho manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Uva-ursi</genus_name>
-    <species_name>pechoensis</species_name>
-    <species_authority>Abrams</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species pechoensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Uva-ursi</taxon_name>
+    <taxon_name rank="species" authority="Abrams" date="unknown">pechoensis</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>29: 98.  1914</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, erect, 1–5 m; burl absent; twigs short-hairy with long, white hairs.  Leaves: petiole 1–4 mm; blade glaucous, dull to ± shiny, oblong-ovate, 2–5 × 1–2.5 cm, base auriculate-clasping, margins entire, plane, surfaces smooth, puberulent, glabrescent.  Inflorescences panicles, 1–4-branched; immature inflorescence pendent, (branches dense, framed by bracts), axis 1–1.5 cm, 1+ mm diam., short-hairy with long, white hairs; bracts not appressed, leaflike, linear-lanceolate, 8–15 mm, apex acuminate, surfaces glabrous.  Pedicels 5–10 mm, glabrous.  Flowers: corolla white, conic to urceolate; ovary hairy.  Fruits depressed-globose, 8–12 mm diam., glabrous.  Stones partially to entirely connate.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral on siliceous shale soils</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Uva-ursi;species pechoensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>50.</number>
+  <other_name type="common_name">Pecho manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Arctostaphylos pechoensis is known from the vicinity of the Pecho Hills, San Luis Obispo County.</discussion>
-</treatment>
+</bio:treatment>

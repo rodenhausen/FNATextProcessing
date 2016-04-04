@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Peritoma</genus_name>
-    <species_name>jonesii</species_name>
-    <species_authority>(J. F. Macbride) H. H. Iltis</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peritoma</taxon_name>
+    <taxon_name rank="species" authority="(J. F. Macbride) H. H. Iltis" date="unknown">jonesii</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>17: 449. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Jones bee-plant</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>lutea</species_name>
-    <species_authority>Hooker</species_authority>
-    <variety_name>jonesii</variety_name>
-    <variety_authority>J. F. Macbride</variety_authority>
+    <taxon_hierarchy>family CLEOMACEAE;genus Peritoma;species jonesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">lutea</taxon_name>
+    <taxon_name rank="variety" authority="J. F. Macbride" date="unknown">jonesii</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>65: 39. 1922</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>jonesii</species_name>
-    <species_authority>(J. F. Macbride) Tidestrom</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, 50–100(–200) cm. Stems sparsely branched distally; glabrous or glabrate. Leaves: petiole 1.5–4.5 cm; leaflets 5, (proximal ones sometimes early deciduous), blade linear to elliptic, 1.5–4(–6) × 0.4–1.3 cm, margins serrate, apex long-acuminate, surfaces glabrous. Racemes 1–3 cm (6–40 cm in fruit); bracts unifoliate, obovate to spatulate, 2–15 mm. Pedicels 7–15 mm. Flowers: sepals persistent, connate ca. 1/2 of length, yellow, lanceolate, 1.6–2.6 × 0.8–1.2 mm, margins denticulate, glabrous; petals golden yellow, oblong to ovate, 10–13 × 2–4 mm; stamens yellow, 20–30mm; anthers 1.9–2.6 mm; gynophore 15–25 mm in fruit; ovary 3–6 mm; style 0.5–0.8 mm. Capsules not inflated, 40–60 × 2–5 mm, striate. Seeds 15–30, gray to black, triangular (sharply angled), 3–4 × 2.5–3 mm, rugose.</description>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>dry sandy flats</habitat>
-  <habitat>desert scrub</habitat>
-  <habitat>roadsides</habitat>
-  <elevation>300–1200 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Cleome;species lutea;variety jonesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="(J. F. Macbride) Tidestrom" date="unknown">jonesii</taxon_name>
+    <taxon_hierarchy>genus Cleome;species jonesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Jones bee-plant</other_name>
   <discussion>Often treated as a variety of Peritoma lutea, P. jonesii grows at lower elevations, has a more southerly (though overlapping) range (T. H. Kearney and R. H. Peebles 1960), and differs in morphological features. Most notable are its larger, showier flowers and longer capsules.</discussion>
-</treatment>
+</bio:treatment>

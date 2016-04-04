@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Launaea</genus_name>
-    <species_name>intybacea</species_name>
-    <species_authority>(Jacquin) Beauverd</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Launaea</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Beauverd" date="unknown">intybacea</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Soc. Bot. Genève, sér.</publication_title>
       <place_in_publication>2, 2: 114. 1910</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Launaea;species intybacea;</taxon_hierarchy>
-  <common_name>Wild-lettuce</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lactuca</genus_name>
-    <species_name>intybacea</species_name>
-    <species_authority>Jacquin</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Launaea;species intybacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lactuca</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">intybacea</taxon_name>
     <place_of_publication>
       <publication_title>in J. A. Murray, Syst. Veg. ed.</publication_title>
       <place_in_publication>14, 713. 1784</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Brachyramphus</genus_name>
-    <species_name>intybacea</species_name>
-    <species_authority>(Jacquin) de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Leaves (5–)10–25+ × 2–6(–12) cm, usually runcinately to sinuately lobed, bases ± auri-culate, ultimate margins spinulo-denticulate, apices acute to acuminate. Involucres 10–15 mm. Cypselae 4–5 mm; pappi 6–9 mm. 2n = 18 (as Lactuca runcinata).</description>
-  <habitat_info>
-    <text>disturbed sites , roadsides , coastal strands , agricultural lands ;</text>
-    <habitat>disturbed sites</habitat>
-    <habitat>roadsides coastal strands</habitat>
-    <habitat>agricultural lands</habitat>
-  </habitat_info>
-  <elevation>0–5[–1200+] m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>introduced also in Old World.</global_distribution>
+    <taxon_hierarchy>genus Lactuca;species intybacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brachyramphus</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) de Candolle" date="unknown">intybacea</taxon_name>
+    <taxon_hierarchy>genus Brachyramphus;species intybacea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Wild-lettuce</other_name>
   <discussion>Launaea intybacea is occasionally used for food. It is a very successful r-strategist and is listed as a noxious plant in A Global Compendium of Weeds (R. Randall, http://www.hear.org/gcw/index.html).</discussion>
-  <phenology_info>
-    <text>Flowering year-round.</text>
-    <phenology>year round</phenology>
-    <phenology>summer</phenology>
-    <phenology>spring</phenology>
-    <phenology>winter</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>apr</phenology>
-    <phenology>dec</phenology>
-    <phenology>jan</phenology>
-    <phenology>jun</phenology>
-    <phenology>oct</phenology>
-    <phenology>jul</phenology>
-    <phenology>may</phenology>
-    <phenology>feb</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>mar</phenology>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

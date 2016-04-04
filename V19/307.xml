@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>20b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crepis</genus_name>
-    <species_name>runcinata</species_name>
-    <species_authority>(E. James) Torrey &amp; A. Gray</species_authority>
-    <subspecies_name>andersonii</subspecies_name>
-    <subspecies_authority>(A. Gray) Babcock &amp; Stebbins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="(E. James) Torrey &amp; A. Gray" date="unknown">runcinata</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Babcock &amp; Stebbins" date="unknown">andersonii</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>504: 104. 1938</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species runcinata;subspecies andersonii;</taxon_hierarchy>
-  <common_name>Anderson’s hawksbeard</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>andersonii</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species runcinata;subspecies andersonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">andersonii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>6: 553. 1865</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>runcinata</species_name>
-    <variety_name>andersonii</variety_name>
-    <variety_authority>(A. Gray) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 25–50 cm. Leaves: petioles broadly winged; blades oblance-olate, 2–3 cm wide, margins strongly and coarsely serrate or toothed (teeth prominently white-tipped), faces glabrous or hispidulous. Heads 6–20. Involucres 19–21 mm. Phyllaries broadly lanceolate, apices long-acuminate, faces usually stipitate-glandular. Cypselae pale yellow to reddish brown, 6–8 mm, ± distinctly beaked; pappi 6–9 mm. 2n = 22.</description>
-  <phenology_info>
-    <text>Flowering May–Jul.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>alkaline seeps , grasslands , moist alkaline valley bottoms ;</text>
-    <habitat>alkaline seeps</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>moist alkaline valley bottoms</habitat>
-  </habitat_info>
-  <elevation>1200–1500 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>genus Crepis;species andersonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">runcinata</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">andersonii</taxon_name>
+    <taxon_hierarchy>genus Crepis;species runcinata;variety andersonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20b.</number>
+  <other_name type="common_name">Anderson’s hawksbeard</other_name>
   <discussion>Subspecies andersonii is identified mainly by the relatively large involucres with densely stipitate-glandular phyllaries and the leaf margins with sharp, prominently white-tipped teeth.</discussion>
-</treatment>
-
+</bio:treatment>

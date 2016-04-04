@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>10b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Calochortus</genus_name><species_name>elegans</species_name><species_authority>Pursh</species_authority><variety_name>selwayensis</variety_name><variety_authority>(H. St. John) Ownbey</variety_authority><place_of_publication>
-    <publication_title>Ann. Missouri Bot. Gard.</publication_title>
-    <place_in_publication>27: 419. 1940</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Calochortus</genus_name><species_name>selwayensis</species_name><species_authority>H. St. John</species_authority><place_of_publication><publication_title>Proc. Biol. Soc. Wash. </publication_title><place_in_publication>41: 192. 1928.</place_in_publication></place_of_publication></TaxonIdentification><description>petals only moderately bearded, glands shortly transverse-oblong, not depressed, straight or only slightly arched, membranes deeply fringed.,.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>Grassy hillsides, open woods;</habitat><elevation>1500–2500 m</elevation><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(H. St. John) Ownbey" date="unknown">selwayensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>27: 419. 1940</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Calochortus;species elegans;variety selwayensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="H. St. John" date="unknown">selwayensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>41: 192. 1928.</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calochortus;species selwayensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10b.</number>
+</bio:treatment>

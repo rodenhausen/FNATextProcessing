@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gaylussacia</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>(A. Gray) Pursh ex Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaylussacia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Pursh ex Small" date="unknown">tomentosa</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>24: 443.  1897  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Hairy dangleberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gaylussacia</genus_name>
-    <species_name>frondosa</species_name>
-    <species_authority>(Linnaeus) Torrey &amp; A. Gray</species_authority>
-    <variety_name>tomentosa</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Gaylussacia;species tomentosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaylussacia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Torrey &amp; A. Gray" date="unknown">frondosa</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">tomentosa</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>2: 19.  1878</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Decachaena</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>(A. Gray) Small</species_authority>
-  </TaxonIdentification>
-  <description>Plants 7.5–20 dm, forming small to extensive colonies (by rhizomes); branches spreading; twigs of current season pale green, densely hairy, sessile-glandular.  Leaves: petiole 2–3 mm; blade greenish white, glaucescent abaxially, dull green to yellowish green adaxially, ovate to oblong, 2.5–6 × 2–3 cm, subcoriaceous, base cuneate, margins entire, apex rounded to obtuse, surfaces densely short-hairy (longer hairs to ca. 0.2 mm), sessile-glandular abaxially.  Inflorescences drooping, 2–4-flowered, sometimes flowers solitary, bracteate, 1–2.5 cm, glabrous or pilose, sessile-glandular; bracts early-deciduous, leaflike, 5–6 mm, shorter than pedicels, densely hairy.  Pedicels 8–15(–20) mm, glabrous, sessile-glandular; bracteoles 1–2, 1–2.5 mm.  Flowers: sepals 5, 1–1.2 mm, glabrous or sparsely hairy, sessile-glandular; petals 5, corolla greenish white, campanulate-conic, 3–5 mm, lobes deltate, ca. 1 mm; filaments 0.5–1 mm, ciliate; anthers included (tips barely exserted), 2.5 mm, thecae not divergent distally; ovary glabrous.  Drupes juicy, sweet, dark blue, sometimes black, rarely white, glaucous, 5–8 mm diam., glabrous.  Seeds 1.5 mm.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Moist to wet pine flatwoods and savannas, margins of cypress-gum depressions, margins of blackwater floodplains, streamhead ecotones, sometimes in dry soils</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Gaylussacia;species frondosa;variety tomentosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Decachaena</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Small" date="unknown">tomentosa</taxon_name>
+    <taxon_hierarchy>genus Decachaena;species tomentosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Hairy dangleberry</other_name>
   <discussion>Gaylussacia tomentosa is a coastal plain endemic that replaces G. frondosa from South Carolina south-ward.  The leaves and twigs are covered with dense, tawny hairs, unlike the relatively sparse, white hairs of G. frondosa.</discussion>
-</treatment>
+</bio:treatment>

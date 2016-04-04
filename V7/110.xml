@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>55.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>orestera</species_name>
-    <species_authority>C. K. Schneider</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="C. K. Schneider" date="unknown">orestera</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>1: 164. 1920</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Gray-leaf Sierra willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>commutata</species_name>
-    <species_authority>Bebb</species_authority>
-    <variety_name>rubicunda</variety_name>
-    <variety_authority>Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>glauca</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>orestera</subspecies_name>
-    <subspecies_authority>(C. K. Schneider) Youngberg</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>glauca</species_name>
-    <variety_name>orestera</variety_name>
-    <variety_authority>(C. K. Schneider) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 0.5–2 m. Stems: branches dark red-brown or yellow-brown, not to strongly glaucous, glabrous; branchlets yellow-brown or red-brown, (not or weakly glaucous), pilose or pubescent, hairs straight, wavy, or geniculate, (inner membranaceous bud-scale layer free, separating from outer layer). Leaves: stipules foliaceous, rudimentary, or absent on early ones, foliaceous on late ones, apex acute; petiole convex to flat, or shallowly grooved adaxially, 4–9 mm, pilose adaxially; largest medial blade (sometimes amphistomatous), lorate, narrowly oblong, narrowly elliptic, or oblanceolate, 35–95 × 7.5–20 mm, 3.4–7.1 times as long as wide, base cuneate or convex, margins flat or slightly revolute, entire, apex acute, acuminate, or convex, abaxial surface glaucous (sometimes obscured by hairs), sparsely to moderately densely long- to short-silky or pubescent, hairs (white, sometimes also ferruginous), straight or wavy, adaxial dull or slightly glossy, sparsely or moderately densely pubescent or long- to short-silky, (hairs white, sometimes also ferruginous); proximal blade margins entire or serrulate; juvenile blade densely long-silky abaxially, hairs white, sometimes also ferruginous. Catkins flowering as leaves emerge; staminate stout, 15.5–34 × 7–14 mm, flowering branchlet 1–8 mm; pistillate moderately densely flowered, stout, 20–55(–65 in fruit) × 11–13 mm, flowering branchlet 2–15 mm; floral bract dark brown or bicolor, 1.2–2.5 mm, apex acute or rounded, abaxially hairy, hairs straight or wavy. Staminate flowers: adaxial nectary oblong or ovate, 0.6–1.1 mm; filaments distinct or connate less than 1/2 their lengths, hairy basally; anthers purple turning yellow, 0.6–1 mm. Pistillate flowers: adaxial nectary oblong or flask-shaped, 0.7–1.3 mm, shorter than or equal to stipe; stipe 0.8–2 mm; ovary obclavate or pyriform, short-silky-villous, beak gradually tapering to or slightly bulged below styles; ovules 15–16 per ovary; styles 0.6–1 mm; stigmas flat, abaxially non-papillate with rounded or pointed tip, or broadly cylindrical, 0.24–0.32–0.44 mm. Capsules 5–10 mm.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>subalpine meadows</habitat>
-  <habitat>slopes</habitat>
-  <habitat>lakes</habitat>
-  <habitat>streams</habitat>
-  <habitat>granite substrates</habitat>
-  <elevation>2100–4000 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species orestera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Bebb" date="unknown">commutata</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">rubicunda</taxon_name>
+    <taxon_hierarchy>genus Salix;species commutata;variety rubicunda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">glauca</taxon_name>
+    <taxon_name rank="subspecies" authority="(C. K. Schneider) Youngberg" date="unknown">orestera</taxon_name>
+    <taxon_hierarchy>genus Salix;species glauca;subspecies orestera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glauca</taxon_name>
+    <taxon_name rank="variety" authority="(C. K. Schneider) Jepson" date="unknown">orestera</taxon_name>
+    <taxon_hierarchy>genus Salix;species glauca;variety orestera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>55.</number>
+  <other_name type="common_name">Gray-leaf Sierra willow</other_name>
   <discussion>Salix orestera is so similar to S. glauca var. villosa that it is sometimes included in S. glauca. It is phenetically most similar to S. eastwoodiae and S. lemmonii (G. W. Argus 1997), and the possibility that it is a hybrid or an alloploid involving those species needs study.</discussion>
   <discussion>Salix orestera can be distinguished from S. glauca var. villosa in having largest medial blades usually narrower, 3.4–7.1 times as long as wide, abaxial surfaces distinctly silky with appressed hairs pointing toward apex, hairs sometimes ferruginous, secondary veins raised abaxially and adaxially, branches often strongly glaucous, and staminate flowers without abaxial nectaries; S. glauca var. villosa has largest medial blades usually broader, 2.2–3.9 times as long as wide, abaxial surfaces usually glabrescent or, if hairy, hairs unkempt, slightly spreading, hairs always white, secondary veins raised abaxially, flat or impressed adaxially, branches not glaucous, staminate flowers often with abaxial nectaries.</discussion>
-</treatment>
+</bio:treatment>

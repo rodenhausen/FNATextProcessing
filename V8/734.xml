@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PTEROSPORA</genus_name>
-    <genus_authority>Nuttall</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gary D. Wallace</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Nuttall" date="unknown">PTEROSPORA</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>1: 269.  1818  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek pteron, wing, and spora, sown seed, alluding to membranous wing on each seed]</etymology>
-  <author>Gary D. Wallace</author>
-  <description>Herbs, achlorophyllous, heterotrophic.  Stems absent.  Leaves absent.  Inflorescences racemes, erect at emergence from soil, axis fleshy and fibrous, persistent after seed dispersal, pink to reddish or brownish, 0.5–1.5 cm diam. proximal to proximalmost flower.  Pedicels decurved, somewhat longer in fruit; bracteoles absent.  Flowers radially symmetric, nodding; sepals 5, distinct, lanceolate-ovate; petals 5, connate, cream to yellowish or white, without basal tubercles, (surfaces glabrous), corolla urceolate; intrastaminal nectary disc present; stamens 10, included; filaments broader proximally than distally, glabrous; anthers depressed-ovoid to ovoid, with awns, without tubules, dehiscent by 2 oval slits; pistil 5-carpellate; ovary 5-locular; placentation axile; style straight, slender; stigma capitate, without subtending ring of hairs.  Fruits capsular, pendulous, dehiscence acropetally loculicidal, no cobwebby tissue exposed by splitting valves at dehiscence.  Seeds 100+, ovoid, with broad, rounded, membranous wing attached at 1 end.  x = 8.</description>
+    <taxon_hierarchy>family ERICACEAE;genus PTEROSPORA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek pteron, wing, and spora, sown seed, alluding to membranous wing on each seed]</other_info_on_name>
+  </taxon_identification>
+  <number>5.</number>
   <discussion>Species 1: North America, n Mexico.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Bakshi, T. S.  1958.  Ecological Life History of Pterospora andromedea.  Ph.D. dissertation.  Washington State University.   Bakshi, T. S.  1959.  Ecology and morphology of Pterospora andromedea.  Bot. Gaz. 120: 203–217.</reference>
     <reference>Copeland, H. F.  1941.  Further studies on Monotropoideae.  Madroño 6: 97–119.</reference>
   </references>
-</treatment>
+</bio:treatment>

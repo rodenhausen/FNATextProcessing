@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chrysanthemoides</genus_name>
-    <species_name>monilifera</species_name>
-    <species_authority>(Linnaeus) Norlindh</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Calenduleae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemoides</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Norlindh" date="unknown">monilifera</taxon_name>
     <place_of_publication>
       <publication_title>Stud. Calenduleae,</publication_title>
       <place_in_publication>374. 1943</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Calenduleae;genus Chrysanthemoides;species monilifera;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Osteospermum</genus_name>
-    <species_name>moniliferum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Calenduleae;genus Chrysanthemoides;species monilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Osteospermum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">moniliferum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 923. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades 20–70+ × 8–25(–45+) mm, ± coriaceous. Peduncles 1–3 cm. Involucres 3–5 × 9–12 mm. Ray corolla laminae 5–15+ mm. Disc corollas 3–4 mm. Cypselae 4–7 mm. 2n = 20.</description>
-  <phenology_info>
-    <text>Flowering Apr.</text>
-    <phenology>apr</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed places ;</text>
-    <habitat>disturbed places</habitat>
-  </habitat_info>
-  <elevation>0–200 m;</elevation>
-  <us_distribution>introduced</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>introduced elsewhere.</global_distribution>
+    <taxon_hierarchy>genus Osteospermum;species moniliferum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Chrysanthemoides monilifera is cultivated and rarely escapes and/or persists in the flora. It is reputed to be a pest in Australia and New Zealand.</discussion>
-</treatment>
-
+</bio:treatment>

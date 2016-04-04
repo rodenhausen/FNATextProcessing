@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>abramsii</species_name>
-    <species_authority>Rose</species_authority>
-    <subspecies_name>setchellii</subspecies_name>
-    <subspecies_authority>(Jepson) Moran</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">abramsii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) Moran" date="unknown">setchellii</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Res. Inst. Texas</publication_title>
       <place_in_publication>1: 1015.  2007  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Santa Clara Valley dudleya</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>laxa</species_name>
-    <species_authority>(Lindley) S. Watson</species_authority>
-    <variety_name>setchellii</variety_name>
-    <variety_authority>Jepson</variety_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species abramsii;subspecies setchellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) S. Watson" date="unknown">laxa</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">setchellii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. W. Calif.,</publication_title>
       <place_in_publication>267.  1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>cymosa</species_name>
-    <species_authority>(Lemaire) Britton &amp; Rose</species_authority>
-    <subspecies_name>setchellii</subspecies_name>
-    <subspecies_authority>(Jepson) Moran</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>setchellii</species_name>
-    <species_authority>(Jepson) Britton &amp; Rose</species_authority>
-  </TaxonIdentification>
-  <description>Caudices 2–5-branched, 1–2 cm diam.  Leaves: rosettes 1–5; blade oblong-lanceolate or tapering from base, semiterete, 3–8 × 0.5–1 cm.  Inflorescences: floral shoots 5–20 × 0.2–0.4 cm; proximalmost leaf blades 10–30 mm; branches 2–3, simple.  Pedicels 1–5 mm.  Flowers: calyx 4–5 × 2–5 mm; petals connate 1–1.5 mm, unmarked pale yellow, almost white, not red-lineolate, 7–12 × 2–3 mm, tips erect.  2n = 34.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Rocky outcrops in serpentine grassland</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>100–300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Cotyledon;species laxa;variety setchellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Lemaire) Britton &amp; Rose" date="unknown">cymosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) Moran" date="unknown">setchellii</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species cymosa;subspecies setchellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Jepson) Britton &amp; Rose" date="unknown">setchellii</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species setchellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9d.</number>
+  <other_name type="common_name">Santa Clara Valley dudleya</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies setchellii is known from the Coyote Valley area, Santa Clara County; it is considered seriously threatened (California Native Plant Society, http://cnps.web.aplus.net/cgi-bin/inv/inventory.cgi).  Although placed formerly with Dudleya cymosa, it is clearly closer to D. abramsii and especially to subsp. murina, which also grows on serpentine and at about the same elevation but some 200 kilometers to the south.  Subspecies setchellii tends to be smaller, with petals unmarked and less sharply acute.</discussion>
-</treatment>
+</bio:treatment>

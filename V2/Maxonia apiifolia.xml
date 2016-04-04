@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd">
-    <number>1</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Maxonia</genus_name>
-        <species_name>apiifolia</species_name>
-        <species_authority>(Swartz) C. Christensen</species_authority>
-        <place_of_publication>
-            <publication_title>Smithsonian Misc. Collect.</publication_title>
-            <place_in_publication>66(9): 3. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Dicksonia</genus_name>
-        <species_name>apiifolia</species_name>
-        <species_authority>Swartz</species_authority>
-        <place_of_publication>
-            <publication_title>J. Bot (Schrader) </publication_title>
-            <place_in_publication>1800(2): 91. 1801</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-    <global_distribution>North America,</global_distribution>
-    <global_distribution> West Indies in Greater Antilles,</global_distribution>
-    <global_distribution>Central America,</global_distribution>
-    <global_distribution>South America in Ecuador.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Maxonia</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) C. Christensen" date="unknown">apiifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Smithsonian Misc. Collect.</publication_title>
+      <place_in_publication>66(9): 3. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Maxonia;species apiifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicksonia</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">apiifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Bot (Schrader)</publication_title>
+      <place_in_publication>1800(2): 91. 1801</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Dicksonia;species apiifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,66 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gamochaeta</genus_name>
-    <species_name>ustulata</species_name>
-    <species_authority>(Nuttall) Holub</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gamochaeta</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Holub" date="unknown">ustulata</taxon_name>
     <place_of_publication>
       <publication_title>Folia Geobot. Phytotax.</publication_title>
       <place_in_publication>11: 83. 1976</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Gamochaeta;species ustulata;</taxon_hierarchy>
-  <common_name>Featherweed</common_name>
-  <common_name>Pacific cudweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>ustulatum</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Gamochaeta;species ustulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">ustulatum</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 404. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>pannosum</species_name>
-    <species_authority>Gandoger</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>purpureum</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>ustulatum</variety_name>
-    <variety_authority>(Nuttall) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals, biennials, or perennials, 10–40 cm; fibrous-rooted. Stems erect to ascending (commonly decumbent-ascending and rhizome like), densely white-pannose. Leaves basal and cauline, basal usually withering before flowering, blades spatulate to oblanceolate, 2–5 cm × 6–12(–35) mm (little smaller distally), faces bicolor, abaxial white-pannose, adaxial sparsely to densely arachnose-tomentose. Heads in usually continuous, rarely interrupted (proximally), cylindric arrays 1–6(–8+) cm × 12–18 mm (pressed). Involucres campanulo-urceolate, 4.5–5 mm, bases sparsely arachnose. Phyllaries in 4–6 series, outer (brown or greenish brown) broadly ovate-triangular, lengths ca. 1/2 inner, apices acute to acute-acuminate (mid phyllaries ± keeled near apices), inner oblong, laminae usually dark brown, sometimes purplish (at stereome-lamina junction), apices rounded to obtuse, apiculate. Florets: bisexual (3–)4–6; all corollas usually yellowish, sometimes purplish distally. Cypselae (tan to brownish) 0.7–0.8 mm.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jul(–Oct).</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>mostly coastal and near-coastal sites , dunes , ocean bluffs , sandy fields , and roadsides , clay-loam , roadcuts , ditches , cliffs , pine woods , chaparral slopes , tidal marsh edges ;</text>
-    <habitat>mostly coastal and near-coastal sites dunes</habitat>
-    <habitat>ocean bluffs</habitat>
-    <habitat>sandy fields</habitat>
-    <habitat>roadsides clay-loam</habitat>
-    <habitat>roadcuts</habitat>
-    <habitat>ditches</habitat>
-    <habitat>cliffs</habitat>
-    <habitat>pine woods</habitat>
-    <habitat>chaparral slopes</habitat>
-    <habitat>tidal marsh edges</habitat>
-  </habitat_info>
-  <elevation>0–700(–1100) m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species ustulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Gandoger" date="unknown">pannosum</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species pannosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">purpureum</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) B. Boivin" date="unknown">ustulatum</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species purpureum;variety ustulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Featherweed</other_name>
+  <other_name type="common_name">Pacific cudweed</other_name>
   <discussion>Gamochaeta ustulata usually has been included in G. purpurea; it differs mostly in its longer duration, thicker and shorter stems, larger, more compact arrays of larger, brown heads, and aspects of phyllary morphology.</discussion>
-</treatment>
-
+</bio:treatment>

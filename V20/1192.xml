@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>70a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Symphyotrichum</genus_name><species_name>spathulatum</species_name><species_authority>(Lindley) G. L. Nesom</species_authority><variety_name>yosemitanum</variety_name><variety_authority>(A. Gray) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>77: 292. 1995</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Western bog aster</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Aster</genus_name><species_name>ascendens</species_name><species_authority>Lindley</species_authority><variety_name>yosemitanus</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication><publication_title>in A. Gray et al., Syn. Fl. N. Amer. </publication_title><place_in_publication>1(2): 191. 1884 (as adscendens)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>occidentalis</species_name><species_authority>(Nuttall) Torrey &amp; A. Gray</species_authority><variety_name>yosemitanus</variety_name><variety_authority>(A. Gray) Cronquist</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>paludicola</species_name><species_authority>Piper</species_authority></TaxonIdentification><description>Plants 20–60 cm. Leaves linear. Heads 3–25.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><habitat>damp meadows in oak woodlands and coniferous forests</habitat><elevation>1200–2200 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Variety yosemitanum occurs from southern Oregon to the Sierra Nevada of California.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Symphyotrichum</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) G. L. Nesom" date="unknown">spathulatum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) G. L. Nesom" date="unknown">yosemitanum</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>77: 292. 1995</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Symphyotrichum;species spathulatum;variety yosemitanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">ascendens</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">yosemitanus</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 191. 1884 (as adscendens)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aster;species ascendens;variety yosemitanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Torrey &amp; A. Gray" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">yosemitanus</taxon_name>
+    <taxon_hierarchy>genus Aster;species occidentalis;variety yosemitanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Piper" date="unknown">paludicola</taxon_name>
+    <taxon_hierarchy>genus Aster;species paludicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>70a.</number>
+  <other_name type="common_name">Western bog aster</other_name>
+  <discussion>Variety yosemitanum occurs from southern Oregon to the Sierra Nevada of California.</discussion>
+</bio:treatment>

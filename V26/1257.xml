@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>230d.5b.</number><TaxonIdentification Status="ACCEPTED"><family_name>ORCHIDACEAE</family_name><family_authority>Jussieu</family_authority><tribe_name>EPIDENDREAE</tribe_name><subtribe_name>PLEUROTHALLIDINAE</subtribe_name><subtribe_authority>Lindley</subtribe_authority><place_of_publication>
-    <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
-    <place_in_publication>3. 1830</place_in_publication>
-  </place_of_publication></TaxonIdentification><references>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">EPIDENDREAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">PLEUROTHALLIDINAE</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
+      <place_in_publication>3. 1830</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe EPIDENDREAE;subtribe PLEUROTHALLIDINAE;</taxon_hierarchy>
+  </taxon_identification>
+  <number>230d.5b.</number>
+  <references>
     <reference>  Luer, C. A. 1986. Icones Pleurothallidinarum I. Systematics of the Pleurothallidinae. Monogr. Syst. Bot. Missouri Bot. Gard. 15.</reference>
-  </references></treatment>
+  </references>
+</bio:treatment>

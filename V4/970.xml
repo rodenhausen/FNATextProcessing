@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Lewisia</genus_name>
-        <species_name>cotyledon</species_name>
-        <species_authority>(S. Watson) B. L. Robinson</species_authority>
-        <variety_name>howellii</variety_name>
-        <variety_authority>(S. Watson) Jepson</variety_authority>
-        <place_of_publication>
-            <publication_title>Fl. Calif.</publication_title>
-            <place_in_publication>1: 479. 1915</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Calandrinia</genus_name>
-        <species_name>howellii</species_name>
-        <species_authority>S. Watson</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>23: 262. 1888</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Lewisia</genus_name>
-        <species_name>howellii</species_name>
-        <species_authority>(S. Watson) B. L. Robinson</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Oreobroma</genus_name>
-        <species_name>howellii</species_name>
-        <species_authority>(S. Watson) Howell</species_authority>
-    </TaxonIdentification>
-    <description>Basal leaf blades: margins strongly crisped. Petals 12–20 mm. 2n =
-        28.</description>
-    <habitat>rocky crevices and substrates</habitat>
-    <habitat>sometimes in open woodlands</habitat>
-    <elevation>100–400 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <discussion>Variety howellii is more or less peripheral in distribution to var. cotyledon and
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) B. L. Robinson" date="unknown">cotyledon</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) Jepson" date="unknown">howellii</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Calif.</publication_title>
+      <place_in_publication>1: 479. 1915</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species cotyledon;variety howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calandrinia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">howellii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>23: 262. 1888</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calandrinia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) B. L. Robinson" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oreobroma</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Howell" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Oreobroma;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5c.</number>
+  <discussion>Variety howellii is more or less peripheral in distribution to var. cotyledon and
         generally is found at lower elevations.</discussion>
-</treatment>
+</bio:treatment>

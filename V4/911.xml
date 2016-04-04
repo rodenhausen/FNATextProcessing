@@ -1,46 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Cistanthe</genus_name>
-        <species_name>ambigua</species_name>
-        <species_authority>(S. Watson) Carolin ex Hershkovitz</species_authority>
-        <place_of_publication>
-            <publication_title>Phytologia</publication_title>
-            <place_in_publication>68: 269. 1990</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Claytonia</genus_name>
-        <species_name>ambigua</species_name>
-        <species_authority>S. Watson</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>17: 365. 1882</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Calandrinia</genus_name>
-        <species_name>ambigua</species_name>
-        <species_authority>(S. Watson) Howell</species_authority>
-    </TaxonIdentification>
-    <description>Plants annual, roots fleshy. Stems spreading to erect, 3–18 cm. Leaves cauline, not
-        forming basal rosette; blade linear to spatulate, ± terete, 1.5–6 cm, not glaucous.
-        Inflorescences paniculate with umbel-like clusters, dense, usually not exceeding leaves.
-        Flowers pedicellate; sepals ovate, slightly unequal, 2–5 mm, herbaceous, margins
-        white-scarious; petals disarticulate in fruit, 3–5, white, 2–5 mm; stamens 5–10, anther
-        yellow; style present; stigmas 3; pedicel 1–3 mm. Capsules ovoid, 1–4 mm; valves 3. Seeds
-        6–15, black, ovoid, 1–2 mm, smooth, shiny, reticulate at 30×, not white-hairy.</description>
-    <phenology>nov</phenology>
-    <phenology>fall</phenology>
-    <phenology>dec</phenology>
-    <phenology>winter</phenology>
-    <phenology>jan</phenology>
-    <phenology>feb</phenology>
-    <habitat>sandy washes and slopes</habitat>
-    <habitat>desert shrub communities</habitat>
-    <elevation>0–500 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cistanthe</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Carolin ex Hershkovitz" date="unknown">ambigua</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>68: 269. 1990</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Cistanthe;species ambigua;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">ambigua</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>17: 365. 1882</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Claytonia;species ambigua;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calandrinia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Howell" date="unknown">ambigua</taxon_name>
+    <taxon_hierarchy>genus Calandrinia;species ambigua;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

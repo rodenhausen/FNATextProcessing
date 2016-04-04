@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Livistona</genus_name><species_name>chinensis</species_name><species_authority>(Jacquin) R. Brown ex Martius</species_authority><place_of_publication><publication_title>in C. F. P. von Martius et al.,Historia Naturalis Palmarum</publication_title><place_in_publication>3: 240, plate 146. 1838</place_in_publication></place_of_publication></TaxonIdentification><common_name>Chinese fan palm</common_name><common_name> palmier évantail de Chine</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Latania</genus_name><species_name>chinensis</species_name><species_authority>Jacquin</species_authority><place_of_publication><publication_title>Fragm. Bot., </publication_title><place_in_publication>16, plate 11, fig. 1. 1801</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Saribus</genus_name><species_name>chinensis</species_name><species_authority>(Jacquin) Blume.</species_authority></TaxonIdentification><description>Leaves: segment apices lax. Inflorescences with single primary axis and 3 orders of branching. Fruits usually oblong or olive-shaped (rarely globose), ripening from green to blue-green. 2n = 36.</description><discussion>Livistona chinensis is nNaturalized in Florida (E. H. Butts 1959).</discussion><phenology>Flowering spring--summer</phenology><habitat> Disturbed hammocks and mesic woods</habitat><elevation>0--10 m</elevation><introduced>introduced</introduced><us_distribution>Fla.</us_distribution><global_distribution>native to Asia (southern China, Bonin Islands).</global_distribution><references heading="SELECTED REFERENCE"><reference> Butts, E. H. 1959. Livistona chinensis naturalized in Florida. Principes 3: 133.</reference></references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Livistona</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) R. Brown ex Martius" date="unknown">chinensis</taxon_name>
+    <place_of_publication>
+      <publication_title>in C. F. P. von Martius et al.,Historia Naturalis Palmarum</publication_title>
+      <place_in_publication>3: 240, plate 146. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Livistona;species chinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Latania</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">chinensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Fragm. Bot.,</publication_title>
+      <place_in_publication>16, plate 11, fig. 1. 1801</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Latania;species chinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saribus</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Blume." date="unknown">chinensis</taxon_name>
+    <taxon_hierarchy>genus Saribus;species chinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Chinese fan palm</other_name>
+  <other_name type="common_name">palmier évantail de Chine</other_name>
+  <discussion>Livistona chinensis is nNaturalized in Florida (E. H. Butts 1959).</discussion>
+  <references>
+    <reference>Butts, E. H. 1959. Livistona chinensis naturalized in Florida. Principes 3: 133.</reference>
+  </references>
+</bio:treatment>

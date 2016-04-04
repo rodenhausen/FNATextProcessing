@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arabis</genus_name>
-    <species_name>mcdonaldiana</species_name>
-    <species_authority>Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">mcdonaldiana</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>30: 488, unnumb. fig. (p. 489). 1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>blepharophylla</species_name>
-    <species_authority>Hooker &amp; Arnott</species_authority>
-    <variety_name>mcdonaldiana</variety_name>
-    <variety_authority>(Eastwood) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>serpentinicola</species_name>
-    <species_authority>Rollins</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; (caudex simple or branched, covered with persistent petiolar remains); usually glabrous, rarely sparsely pubescent, trichomes simple, (to 0.5 mm), not bulbous-based. Stems simple or few from base (caudex), erect, unbranched, (0.6–)1.5–3(–4) dm, (glabrous). Basal leaves: petiole 0.3–1.5 cm; blade oblanceolate to obovate, (0.5–)1–3(–4) cm × (2–)3–6(–10) mm, margins entire, repand, or obtusely dentate, apex obtuse, surfaces sometimes with individual trichomes terminating some or all leaf teeth. Cauline leaves (2 or) 3–5 (or 6); blade oblong, 0.3–1(–1.2) cm × 1–3 mm, base not auriculate, margins entire or repand, apex obtuse, surfaces glabrous. Racemes simple, (dense). Fruiting pedicels ascending to suberect, 3–10(–13) mm. Flowers: sepals (purple), oblong, 4–8 × 1.5–2.5 mm, lateral pair saccate basally; petals purple, spatulate, 8–16 × 2–5 mm, apex obtuse; filaments 4–8 mm; anthers oblong, 1.5–2 mm. Fruits ascending to suberect, not torulose, sometimes slightly curved, 2–4 cm × 1.5–2 mm; valves each with prominent midvein extending full length; ovules 20–34 per ovary; style 0.3–1.5 mm. Seeds narrowly winged distally or, rarely, not winged, oblong, 1.5–2.2 × 1–1.3 mm, wing 0.1–0.2 mm wide.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>serpentine scrap and slopes</habitat>
-  <habitat>red serpentinized soil</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>200–1800 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Arabis;species mcdonaldiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">blepharophylla</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) Jepson" date="unknown">mcdonaldiana</taxon_name>
+    <taxon_hierarchy>genus Arabis;species blepharophylla;variety mcdonaldiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">serpentinicola</taxon_name>
+    <taxon_hierarchy>genus Arabis;species serpentinicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Arabis mcdonaldiana is known in California from Del Norte, Mendocino, and Siskiyou counties, and in Oregon from Curry and Jackson counties. It is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
-</treatment>
+</bio:treatment>

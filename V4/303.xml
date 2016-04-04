@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Peniocereus</genus_name>
-        <species_name>greggii</species_name>
-        <species_authority>(Engelmann) Britton &amp; Rose</species_authority>
-        <variety_name>transmontanus</variety_name>
-        <variety_authority>(Engelmann) Backeberg</variety_authority>
-        <place_of_publication>
-            <publication_title>Cactaceae</publication_title>
-            <place_in_publication>4: 1945. 1960</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Cereus</genus_name>
-        <species_name>greggii</species_name>
-        <species_authority>Engelmann</species_authority>
-        <variety_name>transmontanus</variety_name>
-        <variety_authority>Engelmann</variety_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>3: 287. 1856</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Cereus</genus_name>
-        <species_name>greggii</species_name>
-        <variety_name>roseiflorus</variety_name>
-        <variety_authority>Kunze</variety_authority>
-    </TaxonIdentification>
-    <description>areoles nearly circular, 2 × 2 mm, spines radially spreading. Flowers 22–25 × 7–8
-        cm.,.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>Sonoran Desert, sandy or gravelly loams, creosote bush-bursage flats, edges of washes
-        and on slopes of small hills;</habitat>
-    <elevation>300–1100 m</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-    <discussion>Peniocereus greggii var. transmontanus is in the Center for Plant Conservation’s
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peniocereus</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) Britton &amp; Rose" date="unknown">greggii</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) Backeberg" date="unknown">transmontanus</taxon_name>
+    <place_of_publication>
+      <publication_title>Cactaceae</publication_title>
+      <place_in_publication>4: 1945. 1960</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Peniocereus;species greggii;variety transmontanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">greggii</taxon_name>
+    <taxon_name rank="variety" authority="Engelmann" date="unknown">transmontanus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>3: 287. 1856</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cereus;species greggii;variety transmontanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">greggii</taxon_name>
+    <taxon_name rank="variety" authority="Kunze" date="unknown">roseiflorus</taxon_name>
+    <taxon_hierarchy>genus Cereus;species greggii;variety roseiflorus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <discussion>Peniocereus greggii var. transmontanus is in the Center for Plant Conservation’s
         National Collection of Endangered Plants.</discussion>
-</treatment>
+</bio:treatment>

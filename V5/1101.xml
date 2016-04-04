@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Polygonella</genus_name><species_name>polygama</species_name><species_authority>(Ventenat) Engelmann &amp; A. Gray</species_authority><variety_name>croomii</variety_name><variety_authority>( Chapman) Fernald</variety_authority><place_of_publication>
-    <publication_title>Rhodora</publication_title>
-    <place_in_publication>39: 406. 1937</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Polygonella</genus_name><species_name>croomii</species_name><species_authority>Chapman</species_authority><place_of_publication><publication_title>Fl. South. U.S., </publication_title><place_in_publication>387. 1860</place_in_publication></place_of_publication></TaxonIdentification><description>Leaves: ocrea with apex acuminate, tip 1–1.5 mm; blade 0.5–1 mm wide. 2n = 28.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>pinelands</habitat><elevation>0–100 m;</elevation><us_distribution>N.C.</us_distribution><us_distribution>S.C.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polygonella</taxon_name>
+    <taxon_name rank="species" authority="(Ventenat) Engelmann &amp; A. Gray" date="unknown">polygama</taxon_name>
+    <taxon_name rank="variety" authority="( Chapman) Fernald" date="unknown">croomii</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>39: 406. 1937</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Polygonella;species polygama;variety croomii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polygonella</taxon_name>
+    <taxon_name rank="species" authority="Chapman" date="unknown">croomii</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. South. U.S.,</publication_title>
+      <place_in_publication>387. 1860</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Polygonella;species croomii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+</bio:treatment>

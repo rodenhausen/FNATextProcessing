@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SAMOLUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Anita F. Cholewa</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="D. Don" date="unknown">THEOPHRASTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">SAMOLUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 171.  1753</place_in_publication>
@@ -12,43 +17,36 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 78.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Water pimpernel</common_name>
-  <common_name>brookweed</common_name>
-  <etymology>[Ancient Celtic name for plant known to Druids]</etymology>
-  <author>Anita F. Cholewa</author>
-  <description>Herbs, perennial; resin canals apparent.  Stems erect or ascending to prostrate or arching, simple or diffusely branched.  Leaves basal and cauline, cauline mostly alternate; blade spatulate to obovate, elliptic, or orbiculate, base attenuate to cuneate, margins usually entire, sometimes slightly crenate, apex obtuse to rounded (sometimes apiculate), surfaces glabrous, sometimes obscurely punctate.  Inflorescences terminal and axillary racemes or panicles [flowers solitary], 3–70-flowered, sometimes pedunculate.  Pedicels present, bracteate or ebracteate.  Flowers: sepals connate proximally, calyx lobes triangular to ovate, shorter to longer than tube; corolla white to pinkish, campanulate, lobes usually longer than tube, apex rounded to truncate or emarginate, sometimes erose; stamens borne near apex of corolla tube; filaments distinct; anthers closely aggregated initially around style or not; staminodes absent or 5 [10], borne at apex of corolla tube, petaloid or not; stigma capitate, truncate, or 2-lobed.  Capsules pale tan to brown, valvate, globose; valves opening to base of calyx lobes.  Seeds 20–50+, blackish brown to reddish brown, hemispheric, angular, minutely alveolate or reticulate.  x = 12, 13.</description>
-  <number_of_infrataxa>Species 10–12 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa (South Africa).</global_distribution>
-  <references heading="SELECTED REFERENCES">
+    <taxon_hierarchy>family THEOPHRASTACEAE;genus SAMOLUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Ancient Celtic name for plant known to Druids]</other_info_on_name>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Water pimpernel</other_name>
+  <other_name type="common_name">brookweed</other_name>
+  <discussion>Species 10–12 (3 in the flora):</discussion>
+  <references>
     <reference>Crusio, W. E.  1981.  Die Gattung Samolus.  Inform. Z. A. G. Wasserpflanzen 11: 3–8.   Ståhl, B.  2004.  Samolaceae.  In: K. Kubitzki et al., eds.  1990+.  The Families and Genera of Vascular Plants.  9+ vols.  Berlin etc.  Vol. 6, pp. 387–389.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences pedunculate, peduncles 5–10 cm; pedicels ebracteate; staminodes absent</statement>
+      <description type="morphology">Inflorescences pedunculate, peduncles 5–10 cm; pedicels ebracteate; staminodes absent</description>
       <determination>1.   Samolus ebracteatus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences sessile or pedunculate, peduncles to 1.5 cm; pedicels bracteate; staminodes present.</statement>
+      <description type="morphology">Inflorescences sessile or pedunculate, peduncles to 1.5 cm; pedicels bracteate; staminodes present.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems erect or ascending; plants not stoloniferous; pedicels with bract ca. midlength</statement>
+      <description type="morphology">Stems erect or ascending; plants not stoloniferous; pedicels with bract ca. midlength</description>
       <determination>2.   Samolus parviflorus</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems prostrate or arching; plants stoloniferous or mat-forming; pedicels with bract proximal to midlength</statement>
+      <description type="morphology">Stems prostrate or arching; plants stoloniferous or mat-forming; pedicels with bract proximal to midlength</description>
       <determination>3.   Samolus vagans</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

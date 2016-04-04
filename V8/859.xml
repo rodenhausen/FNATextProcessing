@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>60b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>(Pursh) Lindley</species_authority>
-    <subspecies_name>bracteosa</subspecies_name>
-    <subspecies_authority>(de Candolle) J. E. Adams</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Lindley" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(de Candolle) J. E. Adams" date="unknown">bracteosa</taxon_name>
     <place_of_publication>
       <publication_title>J. Elisha Mitchell Sci. Soc.</publication_title>
       <place_in_publication>56: 57.  1940,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>bracteosa</species_name>
-    <species_authority>de Candolle</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species tomentosa;subspecies bracteosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">bracteosa</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>7: 607.  1839</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>bracteosa</species_name>
-    <species_authority>(de Candolle) Abrams</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <variety_name>trichoclada</variety_name>
-    <variety_authority>(de Candolle) Munz</variety_authority>
-  </TaxonIdentification>
-  <description>Twigs densely glandular-hairy.  Leaf blades sparsely glandular-hairy, papillate, scabrous, or ± glabrous abaxially.  Inflorescences densely glandular-hairy.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral in stabilized dunes or on coastal uplands</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Andromeda;species bracteosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Abrams" date="unknown">bracteosa</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species bracteosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="variety" authority="(de Candolle) Munz" date="unknown">trichoclada</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species tomentosa;variety trichoclada;</taxon_hierarchy>
+  </taxon_identification>
+  <number>60b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies bracteosa is found around southern Monterey Bay in the outer Central Coast Range; it often occurs in mixed stands with subsp. tomentosa.</discussion>
-</treatment>
+</bio:treatment>

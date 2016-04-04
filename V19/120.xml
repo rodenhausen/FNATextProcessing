@@ -1,61 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>40f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>occidentale</species_name>
-    <species_authority>(Nuttall) Jepson</species_authority>
-    <variety_name>venustum</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Jepson" date="unknown">occidentale</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">venustum</taxon_name>
     <place_of_publication>
       <publication_title>Man. Fl. Pl. Calif.,</publication_title>
       <place_in_publication>1167. 1925</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species occidentale;variety venustum;</taxon_hierarchy>
-  <common_name>Venus thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>venustus</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species occidentale;variety venustum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">venustus</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>44: 359. 1893</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>occidentale</species_name>
-    <subspecies_name>venustum</subspecies_name>
-    <subspecies_authority>(Greene) Petrak</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>proteanum</species_name>
-    <species_authority>J. T. Howell</species_authority>
-  </TaxonIdentification>
-  <description>Plants usually erect, usually 50–300 cm, variably tomentose, sometimes ± glabrate. Heads sometimes in tight clusters at ends of peduncles, usually long-pedunculate, elevated well above proximal leaves. Involucres usually longer than wide, 2–6 cm, subglabrous to densely arachnoid, usually without fine trichomes connecting tips of adjacent phyllaries. Phyllaries imbricate, outer and mid apices ascending to rigidly spreading or reflexed, straight, 5–20+ × usually 2–3 mm. Corollas usually ± red (white, pink, rarely purple), 23–35 mm. 2n = 30.</description>
-  <phenology_info>
-    <text>Flowering spring–summer (Apr–Jul).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>foothill oak-pine woodlands , grasslands , chaparral , pinyon-juniper woodlands , joshua tree woodlands , roadsides ;</text>
-    <habitat>foothill oak-pine woodlands</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>chaparral</habitat>
-    <habitat>pinyon-juniper woodlands</habitat>
-    <habitat>joshua tree woodlands</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>200–2300 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species venustus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="J. T. Howell" date="unknown">occidentale</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Petrak" date="unknown">venustum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species occidentale;subspecies venustum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">proteanum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species proteanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>40f.</number>
+  <other_name type="common_name">Venus thistle</other_name>
   <discussion>Variety venustum has the widest ecological range of the races of C. occidentale. Populations occur within a few miles of the California coast in the North and South Coast Ranges and western Transverse Range and range eastward across the state into scattered sites in the Sierra Nevada to the higher elevations of the arid mountains of the western Mojave Desert and adjacent areas of the southwestern Great Basin Desert. Most populations of these plants can be recognized by their striking red to reddish pink corollas. The heads are sometimes visited by hummingbirds as well as by a variety of insects. Intermediates have been documented between var. venustum and vars. californicum and candidissimum.</discussion>
-</treatment>
-
+</bio:treatment>

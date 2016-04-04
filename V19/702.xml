@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Helichrysum</genus_name>
-    <species_name>petiolare</species_name>
-    <species_authority>Hilliard &amp; B. L. Burtt</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helichrysum</taxon_name>
+    <taxon_name rank="species" authority="Hilliard &amp; B. L. Burtt" date="unknown">petiolare</taxon_name>
     <place_of_publication>
       <publication_title>Notes Roy. Bot. Gard. Edinburgh</publication_title>
       <place_in_publication>32: 357. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Helichrysum;species petiolare;</taxon_hierarchy>
-  <common_name>Licorice plant</common_name>
-  <common_name>trailing dusty miller</common_name>
-  <description>Shrubs or subshrubs, aromatic, to 60 cm. Stems loosely branched, straggling. Leaves
-        petiolate; blades ovate, 1–2 cm, apices obtuse to subacute, faces concolor, silvery green,
-        woolly-tomentose. Phyllaries creamy white.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>shrubby plants forming a dense thicket on the slope of bolinas ridge above stinson beach ( j. t. howell 1970 ) ;</text>
-    <habitat>shrubby plants forming a dense thicket on the slope of bolinas ridge above stinson beach ( j. t. howell 1970 )</habitat>
-  </habitat_info>
-  <elevation>300–600 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>s Africa (Cape region)</global_distribution>
-  <global_distribution>introduced in Europe.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Helichrysum;species petiolare;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Licorice plant</other_name>
+  <other_name type="common_name">trailing dusty miller</other_name>
   <discussion>The species is included among the invasive species of California (C. C. Bossard et
         al. 2000); it is native to the Cape region of South Africa, long cultivated in Europe, and
         now widely offered for sale on the internet. In contrast to the assessment of invasiveness
@@ -39,5 +30,4 @@
         bright colors.</discussion>
   <discussion>The name Helichrysum petiolatum D. Don has been misapplied to plants of H.
         petiolare.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,57 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>exigua</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>coronaria</subspecies_name>
-    <subspecies_authority>(Greene) Gottlieb</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">exigua</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Gottlieb" date="unknown">coronaria</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>21: 474. 1972</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stephanomeria;species exigua;subspecies coronaria;</taxon_hierarchy>
-  <common_name>Small crown wirelettuce</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>coronaria</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stephanomeria;species exigua;subspecies coronaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">coronaria</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>1: 194. 1885</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>exigua</species_name>
-    <variety_name>coronaria</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Heads borne singly or clustered along branches. Peduncles 2–5 mm, glabrous or puberulent. Calyculi of appressed bractlets. Involucres glabrous or puberulent. Florets 5–11. Cypselae 2.3–3.1 mm; pappi of 7–20 bristles (widened bases persistent, bases connate in groups of 2–4, bristles plumose on distal 60–85%). 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering Jul–Oct.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>equable sites along california coast , sandy meadows in south coast ranges , sandy soils of central valley , openings in yellow pine forest , volcanic soils in eastern sierra nevada , sandy , limestone , or volcanic soils in sagebrush deserts ;</text>
-    <habitat>equable sites along california coast</habitat>
-    <habitat>sandy meadows in south coast ranges</habitat>
-    <habitat>sandy soils of central valley</habitat>
-    <habitat>openings in yellow pine forest</habitat>
-    <habitat>volcanic soils in eastern sierra nevada</habitat>
-    <habitat>sandy limestone</habitat>
-    <habitat>volcanic soils in sagebrush deserts</habitat>
-  </habitat_info>
-  <elevation>0–2800 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Stephanomeria;species coronaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">exigua</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">coronaria</taxon_name>
+    <taxon_hierarchy>genus Stephanomeria;species exigua;variety coronaria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
+  <other_name type="common_name">Small crown wirelettuce</other_name>
   <discussion>Subspecies coronaria occupies the widest range of habitats of any annual stephanomeria, and it shows striking morphologic variability for some characters including number of florets, lengths and widths of corollas, numbers and plumosity of pappus bristles, and degree of “bumpiness” of faces of the cypselae. Populations from the eastern slopes of the Sierra Nevada in California to the mountains of Nevada, central Oregon, and Idaho vary most evidently toward subsp. exigua, native to the deserts, in having heads on longer peduncles, making a quite different architectural appearance than characteristic of the plants with nearly sessile heads in the Coast Ranges and elsewhere in California. The variation in subsp. coronaria presumably results from hybridization with subsp. exigua where the two subspecies make contact at intermediate elevations. Hybrid individuals are readily identifiable wherever subsp. coronaria makes contact with other subspecies of S. exigua (L. D. Gottlieb 1971, 1972).</discussion>
-</treatment>
-
+</bio:treatment>

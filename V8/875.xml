@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>62f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>glandulosa</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>howellii</subspecies_name>
-    <subspecies_authority>(Eastwood) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">glandulosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Eastwood) P. V. Wells" date="unknown">howellii</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>19: 205.  1968,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>howellii</species_name>
-    <species_authority>Eastwood</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species glandulosa;subspecies howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">howellii</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>1: 123.  1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>glandulosa</species_name>
-    <variety_name>howellii</variety_name>
-    <variety_authority>(Eastwood) Adams ex McMinn</variety_authority>
-  </TaxonIdentification>
-  <description>Twigs densely to sparsely short-hairy, not glandular-hairy.  Leaf blades green to gray-green, base cuneate to rounded, surfaces papillate, scabrous, glandular-hairy, or smooth, sparsely puberulent.  Inflorescences: immature inflorescence axis sparsely to densely glandular-hairy; bracts sparsely to densely glandular-hairy.  Pedicels sparsely hairy.  Ovaries densely white-hairy, sometimes glandular.  Fruits slightly depressed-globose.  Stones distinct.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral</habitat>
-  <elevation>500–1800 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glandulosa</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) Adams ex McMinn" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species glandulosa;variety howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>62f.</number>
   <discussion>Subspecies howellii is known from the interior and eastern ranges of the Santa Lucia Mountains, Monterey and San Luis Obispo counties.</discussion>
-</treatment>
+</bio:treatment>

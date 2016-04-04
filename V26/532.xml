@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Crinum</genus_name><species_name>americanum</species_name><species_authority>Linnaeus</species_authority><variety_name>traubii</variety_name><variety_authority>(Moldenke) L. S. Hannibal</variety_authority><place_of_publication>
-    <publication_title>Bull. Louisiana Soc. Hort. Res.</publication_title>
-    <place_in_publication>13: 308. 1972</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Crinum</genus_name><species_name>strictum</species_name><species_authority>Herbert</species_authority><variety_name>traubii</variety_name><variety_authority>Moldenke</variety_authority><place_of_publication><publication_title>Pl. Life </publication_title><place_in_publication>18: 49. 1962</place_in_publication></place_of_publication></TaxonIdentification><description>Leaves longer than scape; blade dark green. Umbels 6–7-flowered.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>swamps</habitat><habitat>marshes</habitat><elevation>0–100 m;</elevation><us_distribution>Tex.</us_distribution><discussion>Variety traubii is known only from specimens grown from bulbs collected in Jefferson and Hardin counties.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crinum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">americanum</taxon_name>
+    <taxon_name rank="variety" authority="(Moldenke) L. S. Hannibal" date="unknown">traubii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Louisiana Soc. Hort. Res.</publication_title>
+      <place_in_publication>13: 308. 1972</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Crinum;species americanum;variety traubii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crinum</taxon_name>
+    <taxon_name rank="species" authority="Herbert" date="unknown">strictum</taxon_name>
+    <taxon_name rank="variety" authority="Moldenke" date="unknown">traubii</taxon_name>
+    <place_of_publication>
+      <publication_title>Pl. Life</publication_title>
+      <place_in_publication>18: 49. 1962</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Crinum;species strictum;variety traubii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <discussion>Variety traubii is known only from specimens grown from bulbs collected in Jefferson and Hardin counties.</discussion>
+</bio:treatment>

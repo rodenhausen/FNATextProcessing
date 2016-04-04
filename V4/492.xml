@@ -1,81 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Dysphania</genus_name>
-        <species_name>anthelmintica</species_name>
-        <species_authority>(Linnaeus) Mosyakin &amp; Clemants</species_authority>
-        <place_of_publication>
-            <publication_title>Ukrayins’k. Bot. Zhur n., n. s.</publication_title>
-            <place_in_publication>59: 382. 2002</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Wormseed</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>anthelminticum</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>1: 220. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>ambrosioides</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>anthelminticum</variety_name>
-        <variety_authority>(Linnaeus) A. Gray</variety_authority>
-    </TaxonIdentification>
-    <description>Plants annual. Stems erect to ascending, branched, 3.7–7.5(–10) dm, ±
-        glandular-pubescent, puberulent, or glabrate. Leaves malodorous, distal leaves sessile;
-        petiole 1.4 mm; blade narrowly ovate to lanceolate, 5–7 × 1.5–3 cm, base cuneate, margins
-        dentate with large, widely spaced teeth, apex acute, gland-dotted (rarely nearly glabrous).
-        Inflorescences terminal and lateral spikes or panicles, 3–8 cm; glomerules globose, 2.5–3.3
-        mm diam.; bracts absent or leaflike, linear, to 2.2 mm, apex acute. Flowers: perianth
-        segments 5, connate for ca. 1/2 their length, distinct portion ovate, 0.7 mm, apex obtuse,
-        rounded abaxially, glabrous, covering fruit at maturity; stamens 5; stigmas 3. Achenes
-        ovoid; pericarp nonadherent, smooth, glandular. Seeds horizontal or vertical, reddish brown,
-        ovoid, 0.6–0.8 × 0.8–1 mm; seed coat smooth.</description>
-    <phenology_fruiting>fruiting summer–fall</phenology_fruiting>
-    <habitat>sand dunes</habitat>
-    <habitat>pinelands</habitat>
-    <habitat>meadows</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>and other waste areas</habitat>
-    <elevation>0–1100 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <global_distribution>Mexico</global_distribution>
-    <global_distribution>West Indies</global_distribution>
-    <global_distribution>Bermuda</global_distribution>
-    <global_distribution>Central America.</global_distribution>
-    <discussion>Dysphania anthelmintica is cultivated and locally naturalized elsewhere in the
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dysphania</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Mosyakin &amp; Clemants" date="unknown">anthelmintica</taxon_name>
+    <place_of_publication>
+      <publication_title>Ukrayins’k. Bot. Zhur n., n. s.</publication_title>
+      <place_in_publication>59: 382. 2002</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Dysphania;species anthelmintica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">anthelminticum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 220. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;species anthelminticum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">ambrosioides</taxon_name>
+    <taxon_name rank="variety" authority="(Linnaeus) A. Gray" date="unknown">anthelminticum</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;species ambrosioides;variety anthelminticum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Wormseed</other_name>
+  <discussion>Dysphania anthelmintica is cultivated and locally naturalized elsewhere in the
         world. It is reported to not have leaves (pseudobracts) subtending the glomerules. In fact,
         it usually has very reduced leaflike bracts that are never longer than the glomerules. This
         species appears to be the most common representative along the Atlantic and Gulf coasts and
         is probably native to that region.</discussion>
-</treatment>
+</bio:treatment>

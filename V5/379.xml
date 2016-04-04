@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>23b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silene</genus_name><species_name>hookeri</species_name><species_authority>Nuttall</species_authority><subspecies_name>bolanderi</subspecies_name><subspecies_authority>(A. Gray) Abrams</subspecies_authority><place_of_publication>
-    <publication_title>in L. Abrams and R. S. Ferris, Ill. Fl. Pacific States</publication_title>
-    <place_in_publication>2: 162. 1944</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Bolander’s Indian pink</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Silene</genus_name><species_name>bolanderi</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>7: 330. 1868</place_in_publication></place_of_publication></TaxonIdentification><description>Plants eglandular. Petals white with greenish center or coral pink, limb with 4 equal linear lobes 15–25 mm, appendages absent.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>oak and douglas fir woodlands</habitat><elevation>100–1000 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Caryophylloideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Abrams" date="unknown">bolanderi</taxon_name>
+    <place_of_publication>
+      <publication_title>in L. Abrams and R. S. Ferris, Ill. Fl. Pacific States</publication_title>
+      <place_in_publication>2: 162. 1944</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Caryophylloideae;genus Silene;species hookeri;subspecies bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bolanderi</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>7: 330. 1868</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Silene;species bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>23b.</number>
+  <other_name type="common_name">Bolander’s Indian pink</other_name>
+</bio:treatment>

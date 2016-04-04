@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Erysimum</genus_name>
-    <species_name>capitatum</species_name>
-    <species_authority>(Douglas ex Hooker) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Erysimeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erysimum</taxon_name>
+    <taxon_name rank="species" authority="(Douglas ex Hooker) Greene" date="unknown">capitatum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Francisc.,</publication_title>
       <place_in_publication>269. 1891</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cheiranthus</genus_name>
-    <species_name>capitatus</species_name>
-    <species_authority>Douglas ex Hooker</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Erysimeae;genus Erysimum;species capitatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheiranthus</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Hooker" date="unknown">capitatus</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 38. 1829,</place_in_publication>
-      <other_info>based on C. asper Chamisso &amp; Schlechtendal, Linnaea 1: 14. 1826, not Nuttall 1818</other_info>
+      <other_info_on_pub>based on C. asper Chamisso &amp; Schlechtendal, Linnaea 1: 14. 1826, not Nuttall 1818</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Biennials or perennials; (short-lived). Trichomes of leaves 2–4(–7)-rayed. Stems erect, often branched distally, sometimes proximally, (0.5–)1.2–10(–12) dm. Basal leaves (often withered by flowering); blade spatulate to narrowly oblanceolate or linear, 2–18(–27) cm × 3–15(–30) mm, base attenuate, margins entire or dentate to denticulate, apex acute. Cauline leaves (distal) sessile; blade margins entire or denticulate. Racemes considerably elongated in fruit. Fruiting pedicels divaricate to ascending, stout or slender, narrower than fruit, 4–17(–25) mm. Flowers: sepals narrowly oblong, 7–14 mm, lateral pair saccate basally; petals usually orange to yellow, rarely lavender or purplish, suborbicular to obovate, 12–25(–30) × (5–)6–10(–13) mm, claw 8–16 mm, apex rounded; median filaments 9–18 mm; anthers linear, 3–4 mm. Fruits divaricate or ascending to erect, narrowly linear, straight or curved upward, not torulose, 3.5–11(–15) cm × 1.3–3.3 mm, 4-angled to latiseptate, not striped; valves with prominent midvein, pubescent outside, trichomes 2–5-rayed, glabrous inside; ovules (40–)54–82 per ovary; style cylindrical, usually stout, rarely slender, 0.2–2.5(–3) mm, sparsely pubescent; stigma 2-lobed, lobes as long as wide. Seeds oblong, 1.5–4 × 1–2 mm; winged apically or not winged. 2n = 36.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Mexico.</global_distribution>
+    <taxon_hierarchy>genus Cheiranthus;species capitatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Erysimum capitatum is extremely widespread, ecologically diverse, morphologically highly variable, and nomenclaturally complex. It has been divided into infraspecific taxa; G. B. Rossbach (1958) recognized three varieties, R. A. Price (1987) eight subspecies, R. C. Rollins (1993) five varieties, Price (1993) four subspecies, and N. H. Holmgren (2005b) three varieties. The majority of these taxa were based on highly variable characters with considerable overlap, including width, margin, shape, and apex of basal leaves, fruit orientation, and development of elongated versus short caudices. Furthermore, there is a substantial degree of disagreement among these authors as to the limits of a given infraspecific taxon, its distribution, and synonymies involved. Except for two distinctive species that were previously treated as infraspecific taxa (arenicola, perenne) the vast majority of the remaining variation in E. capitatum is divided herein into two varieties.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Seeds winged (at least distally, rarely wing rudimentary), 2–4 × (0.8–)1–2 mm; fruits latiseptate, rarely 4-angled; petals usually orange, sometimes orange-yellow or yellow; adaxial surfaces of basal and proximalmost cauline leaf blades with mostly 3(–7)-rayed trichomes</statement>
+      <description type="morphology">Seeds winged (at least distally, rarely wing rudimentary), 2–4 × (0.8–)1–2 mm; fruits latiseptate, rarely 4-angled; petals usually orange, sometimes orange-yellow or yellow; adaxial surfaces of basal and proximalmost cauline leaf blades with mostly 3(–7)-rayed trichomes</description>
       <determination>4a. Erysimum capitatum var. capitatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Seeds not winged, 1.5–2(–2.4) × 0.7–1.2 mm; fruits 4-angled, rarely latiseptate; petals yellow, rarely lavender or purplish; adaxial surfaces of basal and proximalmost cauline leaf blades with mostly 2- or 3-rayed trichomes</statement>
+      <description type="morphology">Seeds not winged, 1.5–2(–2.4) × 0.7–1.2 mm; fruits 4-angled, rarely latiseptate; petals yellow, rarely lavender or purplish; adaxial surfaces of basal and proximalmost cauline leaf blades with mostly 2- or 3-rayed trichomes</description>
       <determination>4b. Erysimum capitatum var. purshii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

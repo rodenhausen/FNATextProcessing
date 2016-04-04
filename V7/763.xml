@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nasturtium</genus_name>
-    <species_name>gambelii</species_name>
-    <species_authority>(S. Watson) O. E. Schulz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nasturtium</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) O. E. Schulz" date="unknown">gambelii</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>66: 98. 1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>gambelii</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Nasturtium;species gambelii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">gambelii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>11: 147. 1876 (as gambellii)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rorippa</genus_name>
-    <species_name>gambelii</species_name>
-    <species_authority>(S. Watson) Rollins &amp; Al-Shehbaz</species_authority>
-  </TaxonIdentification>
-  <description>Plants sparsely to moderately pubescent. Stems 5–12 dm. Cauline leaves: petiole narrowly winged, base auriculate or not; blade 9–17-foliolate, 3–10 cm; lateral leaflets sessile, rachis narrowly winged, blade about same size as terminal; terminal leaflet blade linear to narrowly oblong or lanceolate, 0.5–2.5 cm × 2–8(–10) mm, base decurrent with adjacent pair of leaflets, margins often dentate, rarely sinuate-repand, apex acute. Fruiting pedicels divaricate or descending, straight, 9–25 mm. Flowers: sepals 3–4 × 1–1.5 mm; petals white, spatulate or oblanceolate, 6–8 × 2–2.5 mm, (base to 2 mm), apex obtuse to acute; filaments 5–7 mm; anthers 1–1.2 mm. Fruits 2–3 cm × 1–1.2 mm; ovules 24–40 per ovary; style 1–2.5 mm. Seeds uniseriate, reddish brown, ovate, 1–1.2 × 0.6–0.8 mm, minutely reticulate with 300–450 areolae on each side.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>lake margins</habitat>
-  <habitat>streams</habitat>
-  <habitat>swamps</habitat>
-  <habitat>marshes</habitat>
-  <habitat>ponds</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>5–30 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Chiapas)</global_distribution>
-  <global_distribution>Mexico (Federal District)</global_distribution>
-  <global_distribution>Central America (Guatemala).</global_distribution>
+    <taxon_hierarchy>genus Cardamine;species gambelii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rorippa</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rollins &amp; Al-Shehbaz" date="unknown">gambelii</taxon_name>
+    <taxon_hierarchy>genus Rorippa;species gambelii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Nasturtium gambelii is known from southern California in Los Angeles, San Bernardino, San Luis Obispo, Santa Barbara, and Ventura counties. It is likely to be found also in undisturbed, freshwater habitats elsewhere in southern California and in Mexico and Central America. Intermediates between N. gambelii and N. officinale have been found in southern California, suggesting hybridization between them. Experimental work is needed to confirm this hypothesis.</discussion>
-</treatment>
+</bio:treatment>

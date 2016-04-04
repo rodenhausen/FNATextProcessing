@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oppositifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">oppositifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 402.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Purple or purple mountain saxifrage</common_name>
-  <common_name>saxifrage à feuilles opposées</common_name>
-  <description>Plants mat- or cushion-forming (with trailing, ± woody stems), not stoloniferous, rhizomatous.  Leaves cauline (marcescent, crowded), opposite (rarely alternate); petiole absent; blade oblong to ± broadly obovate, unlobed, 2–5 mm, leathery, margins entire, bristly-ciliate, with 1(–3) lime-secreting hydathodes (in pit, secretion obvious), apex obtuse, surfaces glabrous.  Inflorescences solitary flowers, ebracteate, 1–5 cm, glabrate or sparsely purple-tipped stipitate-glandular.  Flowers: sepals erect, ovate, margins stiffly ciliate or not, surfaces hairy, stipitate-glandular, or glabrous; petals purple to pink, rarely white, often drying violet, not spotted, obovate to elliptic, (2–)5–12(–20) mm, longer than sepals; ovary ± superior.  Capsules ± folliclelike.</description>
-  <number_of_infrataxa>Subspecies 7 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>arctic and alpine.</global_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species oppositifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Purple or purple mountain saxifrage</other_name>
+  <other_name type="common_name">saxifrage à feuilles opposées</other_name>
+  <discussion>Subspecies 7 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepal margins bristly-ciliate</statement>
+      <description type="morphology">Sepal margins bristly-ciliate</description>
       <determination>1a.   Saxifraga oppositifolia subsp. oppositifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepal margins glandular-ciliate</statement>
+      <description type="morphology">Sepal margins glandular-ciliate</description>
       <determination>1b.   Saxifraga oppositifolia subsp. smalliana</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

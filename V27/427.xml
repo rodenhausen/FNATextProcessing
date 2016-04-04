@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Scouleria</genus_name>
-    <species_name>aquatica</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scouleria</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">aquatica</taxon_name>
     <place_of_publication>
       <publication_title>in T. Drummond, Musc. Amer.,</publication_title>
       <place_in_publication>63.  1828,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Scouleria</genus_name>
-    <species_name>muelleri</species_name>
-    <species_authority>Kindberg</species_authority>
-  </TaxonIdentification>
-  <description>Stem leaves ligulate to lanceolate, (2.8–)3–5 × 0.8–2.5 mm, margins 1-stratose or partially (rarely fully) 2-stratose, serrate distally; basal laminal cells isodiametric to shortly rectangular or juxtacostal cells linear to long-rectangular, 15–36 × 10–12 µm; medial and distal laminal cells 10–25 µm; marginal laminal cells similar to the medial or appearing differentiated, darker and walls thicker, 1-stratose to partially to nearly entirely 2-stratose.  Peristome present.</description>
-  <habitat>Aquatic habitats, banks or bed of streams and rivers, on rock;</habitat>
-  <elevation>low to high elevations (0–1900 m);</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Asia (Russia: Amur Region, Siberia).</global_distribution>
+    <taxon_hierarchy>genus Scouleria;species aquatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scouleria</taxon_name>
+    <taxon_name rank="species" authority="Kindberg" date="unknown">muelleri</taxon_name>
+    <taxon_hierarchy>genus Scouleria;species muelleri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>The present concept of Scouleria aquatica is broad, encompassing several forms.  Virtually all the variation is found in the gametophyte.  Leaves vary in size and in particular marginal differentiation: 1-stratose with cells similar or slightly thicker and darker in color, to partially or nearly fully 2-stratose to near the leaf apex.  Smaller plants are found in the northern range of the species (and also in Russia).  Further studies, particularly molecular, could very well differentiate some of these populations as distinct taxa (at the subspecific or specific level).</discussion>
-</treatment>
+</bio:treatment>

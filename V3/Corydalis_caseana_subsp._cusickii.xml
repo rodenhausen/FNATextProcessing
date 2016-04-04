@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2e.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Corydalis</genus_name><species_name>caseana</species_name><species_authority>A. Gray</species_authority><subspecies_name>cusickii</subspecies_name><subspecies_authority>(S. Watson) G. B. Ownbey</subspecies_authority><place_of_publication><publication_title> Ann. Missouri Bot. Gard. </publication_title><place_in_publication>34: 205-206. 1947</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Corydalis</genus_name><species_name>cusickii</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title>Bot. California </publication_title><place_in_publication>2: 430. 1880</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Capnoides</genus_name><species_name>cusickii</species_name><species_authority>(S. Watson) A. Heller</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Corydalis</genus_name><species_name>caseana</species_name><species_authority>A. Gray</species_authority><variety_name>cusickii</variety_name><variety_authority>(S. Watson) C. L. Hitchcock</variety_authority></TaxonIdentification><description>Stems 8-15 dm. Inflorescences not profusely branching. Flowers: outer petals with marginal wing strongly developed, distinctly revolute, not eroded, apex rounded, distinctly notched.</description><phenology>Flowering early-late summer</phenology><habitat> In and along streams</habitat><elevation> 1500-2300 m</elevation><us_distribution> Idaho</us_distribution><us_distribution> Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">caseana</taxon_name>
+    <taxon_name rank="subspecies" authority="(S. Watson) G. B. Ownbey" date="unknown">cusickii</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>34: 205-206. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species caseana;subspecies cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">cusickii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. California</publication_title>
+      <place_in_publication>2: 430. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Capnoides</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) A. Heller" date="unknown">cusickii</taxon_name>
+    <taxon_hierarchy>genus Capnoides;species cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">caseana</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) C. L. Hitchcock" date="unknown">cusickii</taxon_name>
+    <taxon_hierarchy>genus Corydalis;species caseana;variety cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2e.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

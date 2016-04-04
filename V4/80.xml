@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Mirabilis</genus_name><species_name>alipes</species_name><species_authority>(S. Watson) Pilz</species_authority><place_of_publication>
-    <publication_title>Madroño</publication_title>
-    <place_in_publication>25: 120. 1978</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Hermidium</genus_name><species_name>alipes</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title>Botany (Fortieth Parallel), </publication_title><place_in_publication>286, plate 32. 1871</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hermidium</genus_name><species_name>alipes</species_name><variety_name>pallidium</variety_name><variety_authority>Ch. Porter</variety_authority></TaxonIdentification><description>Herbs, forming hemispheric clumps 6–8 dm diam., glabrous or very sparsely puberulent. Stems 2–4 dm. Leaves spreading; petioles of proximal leaves 0.5–0.7 cm; blades of midstem leaves ovate to widely ovate, 4.5–9 × 3.5–5 cm, base obtuse to rounded, often oblique, apex obtuse, rarely acute. Involucres: peduncle 3–10 mm; involucres erect to pendent, 11–30 mm; bracts 6–9, distinct or to 50% connate, apex acute to obtuse, rarely rounded. Flowers 6–9 per involucre; perianth usually magenta, occasionally creamy white, bell-shaped, 1.5–1.8 cm. Fruits mottled olive green, with 10 slender, tan ribs, ellipsoid, 5.5–7 mm, rugulose, glabrous, secreting thick, heavy mucilage when wetted.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>gravelly or sandy soils in arid brushlands or pinyon-juniper woodlands</habitat><elevation>1200–2000 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>Utah.</us_distribution><discussion>Hermidium was once maintained as a genus based on discrete involucral bracts. As discussed by G. E. Pilz (1978), distinct bracts are typical, but involucres with the five outermost bracts united to one-half their length are common.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Pilz" date="unknown">alipes</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>25: 120. 1978</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Mirabilis;species alipes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hermidium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">alipes</taxon_name>
+    <place_of_publication>
+      <publication_title>Botany (Fortieth Parallel),</publication_title>
+      <place_in_publication>286, plate 32. 1871</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hermidium;species alipes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hermidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">alipes</taxon_name>
+    <taxon_name rank="variety" authority="Ch. Porter" date="unknown">pallidium</taxon_name>
+    <taxon_hierarchy>genus Hermidium;species alipes;variety pallidium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Hermidium was once maintained as a genus based on discrete involucral bracts. As discussed by G. E. Pilz (1978), distinct bracts are typical, but involucres with the five outermost bracts united to one-half their length are common.</discussion>
+</bio:treatment>

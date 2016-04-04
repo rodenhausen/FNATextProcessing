@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphaeromeria</genus_name>
-    <species_name>potentilloides</species_name>
-    <species_authority>(A. Gray) A. Heller</species_authority>
-    <variety_name>nitrophila</variety_name>
-    <variety_authority>(Cronquist) A. H. Holmgren, L. M. Shultz &amp; Lowrey</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphaeromeria</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">potentilloides</taxon_name>
+    <taxon_name rank="variety" authority="(Cronquist) A. H. Holmgren, L. M. Shultz &amp; Lowrey" date="unknown">nitrophila</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>28: 261. 1976</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species potentilloides;variety nitrophila;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tanacetum</genus_name>
-    <species_name>potentilloides</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-    <variety_name>nitrophilum</variety_name>
-    <variety_authority>Cronquist</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species potentilloides;variety nitrophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tanacetum</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">potentilloides</taxon_name>
+    <taxon_name rank="variety" authority="Cronquist" date="unknown">nitrophilum</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>6: 49. 1950</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Vesicarpa</genus_name>
-    <species_name>potentilloides</species_name>
-    <species_authority>(A. Gray) Rydberg</species_authority>
-    <variety_name>nitrophilum</variety_name>
-    <variety_authority>(Cronquist) Kartesz</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 3–15 cm. Leaves mostly basal; basal mostly 1-pinnately lobed; cauline (2–)3-fid or entire. Heads 1–3(–4). Involucres 4–5.1 mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering May–Jul.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>highly alkaline sites ;</text>
-    <habitat>highly alkaline sites</habitat>
-  </habitat_info>
-  <elevation>1600–2200 m;</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>genus Tanacetum;species potentilloides;variety nitrophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vesicarpa</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Rydberg" date="unknown">potentilloides</taxon_name>
+    <taxon_name rank="variety" authority="(Cronquist) Kartesz" date="unknown">nitrophilum</taxon_name>
+    <taxon_hierarchy>genus Vesicarpa;species potentilloides;variety nitrophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
   <discussion>Variety nitrophila grows in northern and central Nevada and in the hills north of Snake River Plains in Idaho.</discussion>
-</treatment>
-
+</bio:treatment>

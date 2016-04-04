@@ -1,51 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>4.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Lewisia</genus_name>
-        <species_name>congdonii</species_name>
-        <species_authority>(Rydberg) S. Clay</species_authority>
-        <place_of_publication>
-            <publication_title>Present-day Rock Gard., xx,</publication_title>
-            <place_in_publication>340. 1937</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <past_name>congdoni</past_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Oreobroma</genus_name>
-        <species_name>congdonii</species_name>
-        <species_authority>Rydberg</species_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl. </publication_title>
-            <place_in_publication>21: 322. 1932 (as congdoni)</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Lewisia</genus_name>
-        <species_name>columbiana</species_name>
-        <species_authority>(Howell ex A. Gray) B. L. Robinson</species_authority>
-        <subspecies_name>congdonii</subspecies_name>
-        <subspecies_authority>(Rydb erg) Ferris</subspecies_authority>
-    </TaxonIdentification>
-    <description>Taproots gradually ramified distally. Stems ± erect, becoming lax with age, 20–60
-        cm. Leaves: basal leaves withering after anthesis, abruptly or gradually narrowed to broad
-        petiole, blade oblanceolate, 5–25 cm, margins entire, apex acute to obtuse; cauline leaves
-        withering after anthesis, alternate, ± sessile, distalmost intergrading with bracts,
-        reduced, blade lanceolate or linear-lanceolate, 15–125 mm, margins entire, apex acute to
-        obtuse. Inflorescences 3–7-branched paniculate cymes, 20–100-flowered; bracts alternate
-        proximally, 2 at each flowering node distally, ovate to orbiculate, 10–20 mm, margins
-        glandular-toothed, apex acute proximally to rounded distally. Flowers pedicellate, not
-        disarticulate in fruit; sepals 2, suborbiculate to broadly obovate, 2–4 mm, herbaceous at
-        anthesis, margins glandular-toothed, apex truncate to rounded; petals 6–7, pale pink, veins
-        magenta, base yellow-green, obovate, 7.5–10 mm; stamens 4–5; stigmas 3; pedicel 5–10 mm.
-        Capsules 3–4 mm. Seeds 2 mm, shiny. 2n = ca. 24.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>shaded, mossy, rocky slopes</habitat>
-    <conservation>of conservation concern;</conservation>
-    <elevation>500–2100 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <discussion>Lewisia congdonii is found only in Mariposa County, California.</discussion>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) S. Clay" date="unknown">congdonii</taxon_name>
+    <place_of_publication>
+      <publication_title>Present-day Rock Gard., xx,</publication_title>
+      <place_in_publication>340. 1937</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species congdonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oreobroma</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">congdonii</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 322. 1932 (as congdoni)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Oreobroma;species congdonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(Howell ex A. Gray) B. L. Robinson" date="unknown">columbiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydb erg) Ferris" date="unknown">congdonii</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species columbiana;subspecies congdonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="past_name">congdoni</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Lewisia congdonii is found only in Mariposa County, California.</discussion>
+</bio:treatment>

@@ -1,80 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>alata</species_name>
-    <species_authority>(Hooker) D. Dietrich</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) D. Dietrich" date="unknown">alata</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Pl.</publication_title>
       <place_in_publication>4: 1309. 1847</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species alata;</taxon_hierarchy>
-  <common_name>Western or wing-leaved rattlesnakeroot</common_name>
-  <common_name>white or western white lettuce</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Nabalus</genus_name>
-    <species_name>alatus</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species alata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nabalus</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">alatus</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 294, plate 102. 1833</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sonchus</genus_name>
-    <species_name>hastatus</species_name>
-    <species_authority>Lessing</species_authority>
+    <taxon_hierarchy>genus Nabalus;species alatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sonchus</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">hastatus</taxon_name>
     <place_of_publication>
       <publication_title>Linnaea</publication_title>
       <place_in_publication>6: 99. 1831,</place_in_publication>
-      <other_info>not Prenanthes hastata Thunberg 1784</other_info>
+      <other_info_on_pub>not Prenanthes hastata Thunberg 1784</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>lessingii</species_name>
-    <species_authority>Hultén</species_authority>
-  </TaxonIdentification>
-  <description>Plants 15–80 cm; taproots slender to thickened, tuberous. Stems 1(–10), erect or
-        ascending, green to purple, usually simple, glabrous or glabrate proximally, tomentulose
-        distally. Leaves: proximal present at flowering; petioles winged (2–6 cm); blades triangular
-        to irregularly elliptic, 3–25 × 1–7 cm, thin or slightly coriaceous, bases abruptly
-        constricted, truncate to slightly hastate, margins irregularly dentate or coarsely serrate,
-        apices acute to acuminate, faces glabrate; distal sessile, ovate to lanceolate, reduced.
-        Heads (10–17) in broad, corymbiform arrays, lateral branches often elongate and overtopping
-        main stems. Involucres narrowly campanulate, 10–13 × 5–6 mm. Calyculi of 2–3, dark green,
-        lanceolate or subulate bractlets 1–3 mm, glabrous or finely tomentulose. Phyllaries 8, green
-        to dark green, lanceolate, 8–11 mm, margins scarious, apices acute, finely tomentulose.
-        Florets 7–16; corollas white to purplish, 9–16 mm. Cypselae brown to light tan,
-        subcylindric, 4–7 mm, weakly 7–10-ribbed; pappi pale yellow to dull white, 8–10 mm. 2n =
-        16.</description>
-  <phenology_info>
-    <text>Flowering Jun–Sep.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>stream banks , mountain springs , seeps , cliffs near shore , moist shady places ;</text>
-    <habitat>stream banks</habitat>
-    <habitat>mountain springs</habitat>
-    <habitat>seeps</habitat>
-    <habitat>cliffs near shore</habitat>
-    <habitat>moist shady places</habitat>
-  </habitat_info>
-  <elevation>0–1500 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Sonchus;species hastatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">lessingii</taxon_name>
+    <taxon_hierarchy>genus Prenanthes;species lessingii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Western or wing-leaved rattlesnakeroot</other_name>
+  <other_name type="common_name">white or western white lettuce</other_name>
   <discussion>Prenanthes alata is recognized by its relatively small size, elongate and winged
         petioles, triangular-hastate leaf blades, heads in broad corymbiform arrays, and dark green,
         finely tomentulose phyllaries.</discussion>
-</treatment>
-
+</bio:treatment>

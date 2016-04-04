@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Cyperus</subgenus_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><subgenus_name>Chlorocyperus</subgenus_name><subgenus_authority>Rikli</subgenus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><subgenus_name>Mariscus</subgenus_name><subgenus_authority>(Vahl) C. B. Clarke</subgenus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><subgenus_name>Papyrus</subgenus_name><subgenus_authority>Willdenow</subgenus_authority></TaxonIdentification><description>Culms and leaves with Kranz (chlorocyperoid) anatomy. Inflorescences: spikes loose to dense, ovoid to cylindric; rachilla falling early or persistent, wingless or winged. Spikelets: if rachilla articulate at base, spikelets borne in spikes on conspicuous rachis, falling as achenes mature, if rachilla continuous at base, persistent after achenes mature; floral scales persistent or deciduous; stamens 3 (1, less frequently 2 in C. squarrosus and C. granitophilus). Flowers: stigmas 3. Achenes trigonous, sometimes dorsiventrally flattened.</description><number_of_infrataxa>Species ca. 350–400 (59 in the flora):</number_of_infrataxa><global_distribution>temperate and tropical regions.</global_distribution><references>
-    <reference> Carter, J. R. and S. D. Jones. 1997. Notes on the Cyperus retroflexus complex (Cyperaceae) with three nomenclatural proposals. Rhodora 99: 319–334.</reference>
-  </references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="Rikli" date="unknown">Cyperus</taxon_name>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;subgenus Cyperus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="(Vahl) C. B. Clarke" date="unknown">Chlorocyperus</taxon_name>
+    <taxon_hierarchy>subgenus Chlorocyperus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="Willdenow" date="unknown">Mariscus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;subgenus Mariscus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Papyrus</taxon_name>
+    <taxon_hierarchy>subgenus Papyrus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15d.</number>
+  <discussion>Species ca. 350–400 (59 in the flora):</discussion>
+  <references>
+    <reference>Carter, J. R. and S. D. Jones. 1997. Notes on the Cyperus retroflexus complex (Cyperaceae) with three nomenclatural proposals. Rhodora 99: 319–334.</reference>
+  </references>
+</bio:treatment>

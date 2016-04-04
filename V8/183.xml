@@ -1,52 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>hirsuticaulis</variety_name>
-    <variety_authority>(Wheelock) Rosendahl, Butters &amp; Lakela</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="(Wheelock) Rosendahl, Butters &amp; Lakela" date="unknown">hirsuticaulis</taxon_name>
     <place_of_publication>
       <publication_title>Minnesota Stud. Pl. Sci.</publication_title>
       <place_in_publication>2: 60. 1936,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>hispida</species_name>
-    <species_authority>Pursh</species_authority>
-    <variety_name>hirsuticaulis</variety_name>
-    <variety_authority>Wheelock</variety_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species americana;variety hirsuticaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">hispida</taxon_name>
+    <taxon_name rank="variety" authority="Wheelock" date="unknown">hirsuticaulis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>17: 199. 1890</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <variety_name>interior</variety_name>
-    <variety_authority>Rosendahl, Butters &amp; Lakela</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>hirsuticaulis</species_name>
-    <species_authority>(Wheelock) Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Petioles densely long stipitate-glandular. Flowers: hypanthium free 1.1–2 mm,
-        campanulate; petals greenish, white, or pink, narrower than sepals, margins nearly entire or
-        finely dentate. 2n = 14.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Rich woods or open grasslands often over base-saturated granite and gneiss, or in
-        shallow rocky soil</habitat>
-  <elevation>200–400 m</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species hispida;variety hirsuticaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="(Wheelock) Rydberg" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Rosendahl, Butters &amp; Lakela" date="unknown">interior</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species americana;variety interior;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hirsuticaulis</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species hirsuticaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8c.</number>
   <discussion>Variety hirsuticaulis occurs in a band from Oklahoma to Michigan, where var.
         americana and Heuchera richardsonii overlap; it is intermediate between those taxa in floral
         characters but is densely long stipitate-glandular like H. richardsonii. It is probably the
@@ -54,4 +46,4 @@
         Data from a breeding study involving the two species showed a tendency for the shorter
         hypanthium of var. americana to dominate in the artificial hybrids between H. americana and
         H. richardsonii (E. F. Wells 1979).</discussion>
-</treatment>
+</bio:treatment>

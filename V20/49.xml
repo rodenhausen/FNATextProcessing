@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eucephalus</genus_name><species_name>gormanii</species_name><species_authority>Piper</species_authority><place_of_publication>
-    <publication_title>Proc. Biol. Soc. Wash.</publication_title>
-    <place_in_publication>29: 101. 1916</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>gormani</past_name><common_name>Gorman’s aster</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>gormanii</species_name><species_authority>(Piper) S. F. Blake</species_authority></TaxonIdentification><description>Perennials, 10–40 cm (caudices woody or rhizomes short-creeping; herbage sparsely to moderately glandular-hairy, not glaucous). Stems ascending to erect, sparsely to moderately glandular-hairy. Leaves: mid and distal blades lance-ovate to elliptic, 1.5–3 cm × 4–10 mm. Heads usually 2–5 in racemiform to corymbiform arrays, sometimes borne singly. Peduncles glandular. Involucres turbinate, 6–8 mm. Phyllaries in 2–4 series (whitish), lanceolate to ovate (unequal), apices acute, abaxial face glabrous or glandular-hairy. Rays (5–)8–13, white (often pinkish in bud). Cypselae pilose; pappus bristles in 2 series smooth or ± barbellate. 2n = 18.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><habitat>open rocky slopes and exposed cliffs</habitat><elevation>1200–1900 m;</elevation><us_distribution>Oreg.</us_distribution><discussion>Eucephalus gormanii is known only from the central Cascade Mountains. It is closely related to E. paucicapitatus.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eucephalus</taxon_name>
+    <taxon_name rank="species" authority="Piper" date="unknown">gormanii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>29: 101. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Eucephalus;species gormanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Piper) S. F. Blake" date="unknown">gormanii</taxon_name>
+    <taxon_hierarchy>genus Aster;species gormanii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="past_name">gormani</other_name>
+  <other_name type="common_name">Gorman’s aster</other_name>
+  <discussion>Eucephalus gormanii is known only from the central Cascade Mountains. It is closely related to E. paucicapitatus.</discussion>
+</bio:treatment>

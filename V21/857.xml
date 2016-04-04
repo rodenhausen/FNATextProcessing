@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lasthenia</genus_name><species_name>glabrata</species_name><species_authority>Lindley</species_authority><subspecies_name>coulteri</subspecies_name><subspecies_authority>(A. Gray) Ornduff</subspecies_authority><place_of_publication>
-    <publication_title>Univ. Calif. Publ. Bot.</publication_title>
-    <place_in_publication>40: 74. 1966</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Coulter’s goldfields</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Lasthenia</genus_name><species_name>glabrata</species_name><variety_name>coulteri</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication><publication_title>in A. Gray et al., Syn. Fl. N. Amer. </publication_title><place_in_publication>1(2): 324. 1884</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lasthenia</genus_name><species_name>coulteri</species_name><species_authority>(A. Gray) Greene</species_authority></TaxonIdentification><description>Cypselae ± hairy and papillate (papillae rusty or yellowish, wartlike). 2n = 14.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><habitat>salt marshes</habitat><habitat>vernal pools</habitat><habitat>and wet, alkali flats</habitat><elevation>0–1000 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Baeriinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lasthenia</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">glabrata</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Ornduff" date="unknown">coulteri</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Calif. Publ. Bot.</publication_title>
+      <place_in_publication>40: 74. 1966</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Baeriinae;genus Lasthenia;species glabrata;subspecies coulteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lasthenia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">glabrata</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">coulteri</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 324. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lasthenia;species glabrata;variety coulteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lasthenia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">coulteri</taxon_name>
+    <taxon_hierarchy>genus Lasthenia;species coulteri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9b.</number>
+  <other_name type="common_name">Coulter’s goldfields</other_name>
+</bio:treatment>

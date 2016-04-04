@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>94.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>OMALOTHECA</genus_name>
-    <genus_authority>Omalotheca Cassini</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Guy L. Nesom</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="Omalotheca Cassini" date="unknown">OMALOTHECA</taxon_name>
     <place_of_publication>
       <publication_title>in F. Cuvier, Dict. Sci. Nat. ed.</publication_title>
       <place_in_publication>2, 56: 218. 1828</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus OMALOTHECA;</taxon_hierarchy>
-  <etymology>[Greek omalo , even or equal, and theke , container, envelope, or sheath, perhaps alluding to involucres]</etymology>
-  <author>Guy L. Nesom</author>
-  <description>Perennials, 2–70 cm (fibrous-rooted, rhizomatous, not stoloniferous). Stems usually 1, erect (branched from bases or distally, woolly-tomentose to sericeous). Leaves basal (persistent in rosettes) and cauline; alternate; sessile; blades mostly narrowly lanceolate to oblanceolate, bases cuneate, margins entire, faces bicolor or concolor, abaxial white to gray, thinly tomentose, adaxial white to grayish and sericeous to thinly woolly or greenish and glabrate. Heads disciform, in spiciform or subcapitate arrays. Involucres campanulate to turbinate, 5–6 mm. Phyllaries in 2–3 series, stramineous to brownish (sometimes mottled; hyaline, stereomes not glandular), unequal, chartaceous toward apices. Receptacles flat to concave, smooth, epaleate. Peripheral (pistillate) florets 35–70+ (more numerous than bisexual); corollas purplish or whitish. Inner (bisexual) florets 3–4; corollas purplish or whitish, distally purplish or reddish. Cypselae obovoid to cylindric or fusiform, sometimes slightly compressed, faces strigillose (hairs not myxogenic, lengths 6–12 times diams.) and papillate (carpopodia forming minute stipes); pappi falling readily, of 15–25 distinct (falling separately) or basally connate (falling together), barbellate bristles in 1 series. x = 14.</description>
-  <number_of_infrataxa>Species 8–10 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>mostly Eurasian</global_distribution>
-  <global_distribution>three species reaching North America in native distribution (Omalotheca sylvatica perhaps not native).</global_distribution>
-  <global_distribution>three species reaching North America in native distribution (see below).</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus OMALOTHECA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek omalo , even or equal, and theke , container, envelope, or sheath, perhaps alluding to involucres]</other_info_on_name>
+  </taxon_identification>
+  <number>94.</number>
+  <discussion>Species 8–10 (3 in the flora):</discussion>
   <discussion>The species of Omalotheca have been placed in subg. Omalotheca (capitulescences of 1–10 heads, cypselae compressed-obovoid, and pappus bristles distinct and falling separately) and subg. Gamochaetiopsis Schultz-Bipontinus &amp; F. W. Schultz (capitulescences of 10–100 heads, cypselae cylindric, and pappus bristles basally connate and falling together). In the flora, O. norvegica and O. sylvatica belong in subg. Gamochaetiopsis; O. supina is in subg. Omalotheca.</discussion>
   <references>
     <reference>Nesom, G. L. 1990b. Taxonomic summary of Omalotheca (Asteraceae: Inuleae). Phytologia 68: 241–246.</reference>
@@ -24,24 +26,23 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants 2–8(–12) cm; heads in subcapitate to loose, spiciform arrays; pappus bristles distinct, falling separately</statement>
+      <description type="morphology">Plants 2–8(–12) cm; heads in subcapitate to loose, spiciform arrays; pappus bristles distinct, falling separately</description>
       <determination>1. Omalotheca supina</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants 10–70 cm; heads in compact or loose, spiciform arrays; pappus bristles basally connate, falling together.</statement>
+      <description type="morphology">Plants 10–70 cm; heads in compact or loose, spiciform arrays; pappus bristles basally connate, falling together.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades: basal and proximal cauline 3-nerved, 6–30 mm wide, distal cauline oblanceolate, faces concolor or weakly bicolor; arrays of heads 1.5–5 cm, rarely interrupted; alpine sites</statement>
+      <description type="morphology">Leaf blades: basal and proximal cauline 3-nerved, 6–30 mm wide, distal cauline oblanceolate, faces concolor or weakly bicolor; arrays of heads 1.5–5 cm, rarely interrupted; alpine sites</description>
       <determination>2. Omalotheca norvegica</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades: basal and proximal cauline 1-nerved, 2–10 mm wide, distal cauline linear, faces bicolor; arrays of heads 4–35 cm, usually interrupted; lower elevations</statement>
+      <description type="morphology">Leaf blades: basal and proximal cauline 1-nerved, 2–10 mm wide, distal cauline linear, faces bicolor; arrays of heads 4–35 cm, usually interrupted; lower elevations</description>
       <determination>3. Omalotheca sylvatica</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>12</number><TaxonIdentification Status="ACCEPTED"><genus_name>Equisetum</genus_name><species_name>variegatum</species_name><species_authority>Schleicher ex F. Weber &amp; D. Mohr</species_authority><place_of_publication><publication_title>Bot. Taschenb.</publication_title><place_in_publication>60, 447. 1807</place_in_publication></place_of_publication></TaxonIdentification><common_name>Variegated scouring rush</common_name><common_name> prêle panachée</common_name><description>Aerial stems  persisting more than a year, unbranched, 6--55 cm; lines of stomates single; ridges 3--12.  Sheaths  green with black apical band, spreading, 1--6 × 1--5 mm; teeth 3--14, not articulate.  Cone  apex pointed; spores green, spheric. 2 n =216.</description><number_of_infrataxa>Subspecies 2 (2 in the flora).:</number_of_infrataxa><key><key_statement><statement_id>1</statement_id><statement>Sheath teeth erect, with prominent white margins.</statement><determination>12a subsp. variegatum</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Sheath teeth incurved, with obscure margins or all black.</statement><determination>12b subsp. alaskanum</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Equisetum</taxon_name>
+    <taxon_name rank="species" authority="Schleicher ex F. Weber &amp; D. Mohr" date="unknown">variegatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Taschenb.</publication_title>
+      <place_in_publication>60, 447. 1807</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Equisetum;species variegatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12</number>
+  <other_name type="common_name">Variegated scouring rush</other_name>
+  <other_name type="common_name">prêle panachée</other_name>
+  <discussion>Subspecies 2 (2 in the flora).:</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Sheath teeth erect, with prominent white margins.</description>
+      <determination>12a subsp. variegatum</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Sheath teeth incurved, with obscure margins or all black.</description>
+      <determination>12b subsp. alaskanum</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

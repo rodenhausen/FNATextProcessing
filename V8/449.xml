@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>laxum</species_name>
-    <species_authority>(Britton) A. Berger</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Britton) A. Berger" date="unknown">laxum</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler et al.,  Nat. Pflanzenfam. ed.</publication_title>
       <place_in_publication>2, 18a: 451.  1930,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gormania</genus_name>
-    <species_name>laxa</species_name>
-    <species_authority>Britton</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species laxum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gormania</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">laxa</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton and J. N. Rose, New N. Amer. Crassul.,</publication_title>
       <place_in_publication>29.  1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, cespitose or not, glabrous.  Stems root-stocks, ascending, much-branched, bearing rosettes.  Leaves alternate, erect to spreading, sessile; blade green, glaucous or not, not pruinose, oblanceolate, spatulate, or obovate, subterete or somewhat flattened, 10–50 × (4.5–)6–33 mm, base not spurred, not scarious, apex truncate to rounded or obtuse, emarginate or barely notched.  Flowering shoots erect or decumbent, simple or branched, 4–30(–40) cm; leaf blades oblanceolate, spatulate, obovate, or suborbiculate, base not spurred; offsets not formed.  Inflorescences elongate, paniculate cymes, 12–80-flowered, monochasially 3+-branched; branches not recurved, 2-forked; bracts similar to leaves, smaller.  Pedicels 0.6–6.3 mm.  Flowers 5-merous; sepals erect, (closely appressed to corolla tube), slightly connate basally, pale green, ovate or lanceolate, equal, (2–)2.6–5.1 × 2 mm, apex acute or subacute, (rarely obtuse in var. flavidum); petals basally erect, divergent in distal 1/2, connate basally, pink, pinkish white, or white to yellowish white, lanceolate-oblong, oblanceolate-oblong, or elliptic-oblong, not carinate, 4–11 mm, apex obtuse, shortly mucronate or aristate; filaments white, greenish white, or pink; anthers red, reddish purple, red-brown, or yellow; nectar scales white, yellow, or pink, reniform or transversely oblong.  Carpels erect in fruit, distinct, brown.</description>
-  <number_of_infrataxa>Varieties 5 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>genus Gormania;species laxa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35.</number>
+  <discussion>Varieties 5 (5 in the flora):</discussion>
   <discussion>Sedum laxum is unusual in forming offsets in axils of rosette leaves rather than on a rootstock or creeping stem.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowering shoot leaf bases clasping stems</statement>
+      <description type="morphology">Flowering shoot leaf bases clasping stems</description>
       <determination>35d.   Sedum laxum var. heckneri</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowering shoot leaf bases not clasping stems.</statement>
+      <description type="morphology">Flowering shoot leaf bases not clasping stems.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals pale yellow or white with pink mid- veins; sepal apices obtuse</statement>
+      <description type="morphology">Petals pale yellow or white with pink mid- veins; sepal apices obtuse</description>
       <determination>35c.   Sedum laxum var. flavidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals pink or white; sepal apices acute.</statement>
+      <description type="morphology">Petals pink or white; sepal apices acute.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Flowering shoot leaf blades suborbiculate</statement>
+      <description type="morphology">Flowering shoot leaf blades suborbiculate</description>
       <determination>35b.   Sedum laxum var. eastwoodiae</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Flowering shoot leaf blades spatulate to oblanceolate.</statement>
+      <description type="morphology">Flowering shoot leaf blades spatulate to oblanceolate.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf blades 9–17 mm wide</statement>
+      <description type="morphology">Leaf blades 9–17 mm wide</description>
       <determination>35a.   Sedum laxum var. laxum</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf blades 17–33 mm wide</statement>
+      <description type="morphology">Leaf blades 17–33 mm wide</description>
       <determination>35e.   Sedum laxum var. latifolium</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

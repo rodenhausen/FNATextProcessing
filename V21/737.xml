@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Jensia</genus_name><species_name>rammii</species_name><species_authority>(Greene) B. G. Baldwin</species_authority><place_of_publication>
-    <publication_title>Novon</publication_title>
-    <place_in_publication>9: 465. 1999</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Madia</genus_name><species_name>rammii</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>1: 90. 1885</place_in_publication></place_of_publication></TaxonIdentification><description>Plants 6–60 cm. Leaves: blades 15–100 × 1–3 mm. Involucres urceolate or globose, (3–)4–5 mm. Ray florets 5–12; laminae 4–10 mm. Disc florets 16–65. 2n = 16.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>grassy slopes</habitat><habitat>openings in woodlands and forests</habitat><elevation>400–1100(–1600) m;</elevation><us_distribution>Calif.</us_distribution><discussion>Jensia rammii occurs in the western foothills and ponderosa-pine belt of the northern Sierra Nevada, often in clayey soils.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Madiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jensia</taxon_name>
+    <taxon_name rank="species" authority="(Greene) B. G. Baldwin" date="unknown">rammii</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>9: 465. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Madiinae;genus Jensia;species rammii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Madia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">rammii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 90. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Madia;species rammii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Jensia rammii occurs in the western foothills and ponderosa-pine belt of the northern Sierra Nevada, often in clayey soils.</discussion>
+</bio:treatment>

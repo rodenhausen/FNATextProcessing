@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>minor</species_name><species_authority>(Bentham) S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>14: 236. 1879</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Dwarf brodiaea</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Brodiaea</genus_name><species_name>grandiflora</species_name><species_authority>Smith</species_authority><variety_name>minor</variety_name><variety_authority>Bentham</variety_authority><place_of_publication><publication_title>Pl. Hartw., </publication_title><place_in_publication>340. 1857</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>minor</species_name><variety_name>nana</variety_name><variety_authority>(Hoover) Hoover</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>nana</species_name><species_authority>Hoover</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>minor</species_name><species_authority>(Bentham) Britten ex Greene</species_authority></TaxonIdentification><description>Scape 2–10 cm, slender. Flowers 14–24 mm; perianth pale bluish to lilac, rotate, tube urceolate, strongly constricted above ovary, 6–10 mm, tough, opaque, not splitting in fruit, lobes widely spreading, 11–17 mm, inner 5–7 mm wide; filaments 0.5–4 mm, base not triangular, with narrow abaxial wings, appendages absent; anthers linear, 1–5 mm, apex hooked; staminodia erect, held close to stamens, white, broad, 5–8 mm, margins 1/2 involute at mid-length, apex notched; ovary 3–4 mm; style 5–6 mm; pedicel 1–3 cm. 2n = 12.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>grasslands</habitat><habitat>gravelly clay soils</habitat><elevation>0–500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Brodiaea minor grows along the low foothills of the Sierra Nevada range. It is very similar to B. purdyi, which may be only a subspecies of it.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) S. Watson" date="unknown">minor</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>14: 236. 1879</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species minor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">grandiflora</taxon_name>
+    <taxon_name rank="variety" authority="Bentham" date="unknown">minor</taxon_name>
+    <place_of_publication>
+      <publication_title>Pl. Hartw.,</publication_title>
+      <place_in_publication>340. 1857</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Brodiaea;species grandiflora;variety minor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Hoover" date="unknown">minor</taxon_name>
+    <taxon_name rank="variety" authority="(Hoover) Hoover" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species minor;variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Britten ex Greene" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">minor</taxon_name>
+    <taxon_hierarchy>genus Hookera;species minor;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Dwarf brodiaea</other_name>
+  <discussion>Brodiaea minor grows along the low foothills of the Sierra Nevada range. It is very similar to B. purdyi, which may be only a subspecies of it.</discussion>
+</bio:treatment>

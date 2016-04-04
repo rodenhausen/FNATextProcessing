@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>George W. Argus,James E. Eckenwalder,Robert W. Kiger</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_hierarchy>family SALICACEAE;</taxon_hierarchy>
+  </taxon_identification>
   <number>0</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>SALICACEAE</family_name>
-    <family_authority>Mirbel</family_authority>
-  </TaxonIdentification>
-  <common_name>Willow Family</common_name>
-  <author>George W. Argus</author>
-  <author>James E. Eckenwalder</author>
-  <author>Robert W. Kiger</author>
-  <description>Shrubs or trees, heterophyllous or not, sometimes clonal, forming clones by root shoots, rhizomes, layering, or stem fragmentation; glabrous or glabrescent to pubescent; branching monopodial or sympodial. Stems erect to pendent; branched. Leaves persistent, deciduous or marcescent, alternate (opposite or subopposite in Salix purpurea), spirally arranged, simple; stipules present or not; petiole present; blade margins toothed or entire, sometimes glandular. Peduncles present or absent. Inflorescences racemose or spicate, usually catkins, unbranched, sometimes fasciculate or racemelike cymes, flowering before or as leaves emerge or year-round; floral bract (1) subtending each flower, displaced onto pedicel or distinct, scalelike, apex entire, toothed, or laciniate; bract subtending pistillate flower deciduous or persistent. Pedicels present or absent. Flowers usually unisexual, sometimes bisexual, usually staminate and pistillate on different plants; sepals present or absent, or perianth modified into 1 or 2 nectaries, or a non-nectariferous disc; stamens 1–60(–70); filaments distinct or connate basally, slender; anthers longitudinally dehiscent; ovary 1, 2–7[–10]-carpellate, 1–7[–10]-locular; placentation usually parietal, sometimes axile on intruded, fused placentae; ovules 1–25 per ovary; style 1 per carpel, distinct or connate; stigmas 2–4, truncate, notched-capitate, or 2- or 3-lobed. Fruits capsular, baccate, or drupaceous. Seeds sometimes surrounded by arillate coma of relatively long, silky hairs; endosperm scant or absent.</description>
-  <number_of_infrataxa>Genera 50+, species ca. 1000 (4 genera, 123 species in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide.</global_distribution>
+  <other_name type="common_name">Willow Family</other_name>
+  <discussion>Genera 50+, species ca. 1000 (4 genera, 123 species in the flora):</discussion>
   <discussion>Taxonomic placement of the Salicaceae and the genera included in it have varied greatly. Some botanists (H. G. A. Engler and K. Prantl 1887–1915) treated it as a primitive member of the Dicotyledoneae and grouped it with other families having simple, apetalous, unisexual flowers arranged in catkins, the “Amentiferae.” At about the same time, others (C. E. Bessey 1915) took a different view, regarding the simple flowers as the result of reduction, and placed the taxa in Caryophyllales. As early as 1905, H. Hallier could see that there were similarities between Salicaceae and Flacourtiaceae; at the time, he was vigorously challenged by E. Gilg (1915). A. D. J. Meeuse (1975) summarized evidence for a close relationship between these families, including wood anatomy, phytochemistry, host-parasite relationships (including rust fungi), and morphology. He concluded that the Salicaceae could be combined with the Flacourtiaceae, “perhaps as a tribe.” A. Cronquist (1988) and R. F. Thorne (1992b) placed the Salicaceae, in a narrow sense, in Violales near Flacourtiaceae.</discussion>
   <discussion>Molecular studies support a close relationship between Salicaceae and Flacourtiaceae in Malpighiales and show that Flacourtiaceae, in a broad sense, is paraphyletic. Based on a study of plastid rbcL DNA sequences, Salix and Populus were nested within a subset of 52 genera of Flacourtiaceae (M. W. Chase et al. 2002). Chase et al. proposed moving some genera from broadly circumscribed Flacourtiaceae to Salicaceae. Other studies, based on different gene sequences, came to the same conclusion (O. I. Nandi et al. 1998; V. Savolainen et al. 2000; K. W. Hilu et al. 2003; Angiosperm Phylogeny Group 2003). The discovery of the extinct fossil genus Pseudosalix (L. D. Boucher et al. 2003), from the Eocene Green River Formation of Utah, provided further support for placing some members of Flacourtiaceae in Salicaceae. The well-preserved Pseudosalix fossils, in which reproductive structures are directly associated with the leaves, occur intermixed with Populus fossils. The leaves are slender and have salicoid teeth, inflorescences are cymose, flowers are unisexual, pedicellate, tetrasepalous, and 3- or 4-carpellate, and seeds are comose, i.e., having characteristics intermediate between Salicaceae and Flacourtiaceae.</discussion>
   <discussion>The presence, in both families, of salicoid teeth is often cited in support of their close relationship (W. S. Judd 1997b; O. Nandi et al. 1998; M. W. Chase et al. 2002; H. P. Wilkinson 2007). Salicoid teeth were first recognized and defined as having the tip of the medial vein (seta) of the tooth retained as a dark, but not opaque, non-deciduous spherical callosity fused to the tooth apex and were reported to occur in Salicaceae and Idesia of the Flacourtiaceae (L. J. Hickey and J. A. Wolfe 1975). Nandi et al. reported that a broad survey of angiosperm leaves showed that salicoid teeth occur outside of Flacourtiaceae and Salicaceae only in Tetracentraceae.</discussion>
@@ -26,33 +27,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers in catkins; sepals absent; fruits capsules.</statement>
+      <description type="morphology">Flowers in catkins; sepals absent; fruits capsules.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Buds 3–10-scaled (usually resinous); leaf blades usually less than 2 times as long as wide, venation ± palmate (basal secondary veins strong, paired, except in Populus angustifolia ); stipules caducous; catkins pendulous, sessile; floral bracts: apex deeply or shallowly cut, pistillate floral bracts deciduous after flowering; flowers without nectaries (with a non-glandular, cup- or saucer-like disc); stamens 6–60(–70); stigmas</statement>
+      <description type="morphology">Buds 3–10-scaled (usually resinous); leaf blades usually less than 2 times as long as wide, venation ± palmate (basal secondary veins strong, paired, except in Populus angustifolia ); stipules caducous; catkins pendulous, sessile; floral bracts: apex deeply or shallowly cut, pistillate floral bracts deciduous after flowering; flowers without nectaries (with a non-glandular, cup- or saucer-like disc); stamens 6–60(–70); stigmas</description>
       <determination>1. Populus , p. 5</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Buds 1-scaled (oily in Salix barrattiana ); leaf blades often more than 2 times as long as wide, venation usually pinnate; stipules persistent or absent; catkins erect, spreading, or ± pendulous, sessile or terminating flowering branchlets; floral bracts: apex entire, erose, 2-fid, or irregularly toothed, pistillate floral bracts persistent or deciduous after flowering; flowers: perianth reduced to adaxial nectary (rarely also with abaxial nectary, then distinct or connate into shallow cup); stamens 1, 2, or 3–10; stigmas 2; capsules</statement>
+      <description type="morphology">Buds 1-scaled (oily in Salix barrattiana ); leaf blades often more than 2 times as long as wide, venation usually pinnate; stipules persistent or absent; catkins erect, spreading, or ± pendulous, sessile or terminating flowering branchlets; floral bracts: apex entire, erose, 2-fid, or irregularly toothed, pistillate floral bracts persistent or deciduous after flowering; flowers: perianth reduced to adaxial nectary (rarely also with abaxial nectary, then distinct or connate into shallow cup); stamens 1, 2, or 3–10; stigmas 2; capsules</description>
       <determination>2. Salix , p. 23</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers not in catkins; sepals present; fruits drupes or berries.</statement>
+      <description type="morphology">Flowers not in catkins; sepals present; fruits drupes or berries.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Flowers in racemelike cymes or solitary; fruits drupes, 18–25 mm</statement>
+      <description type="morphology">Flowers in racemelike cymes or solitary; fruits drupes, 18–25 mm</description>
       <determination>3. Flacourtia , p. 163</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Flowers in fascicles; fruits berries, 4–7 mm</statement>
+      <description type="morphology">Flowers in fascicles; fruits berries, 4–7 mm</description>
       <determination>4. Xylosma , p. 163</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

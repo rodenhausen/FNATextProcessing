@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ficus</genus_name><species_name>religiosa</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title> Sp. Pl. </publication_title><place_in_publication>2: 1059. 1753</place_in_publication></place_of_publication></TaxonIdentification><common_name>Bo tree</common_name><common_name> sacred fig</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Urostigma</genus_name><species_name>religiosum</species_name><species_authority>(Linnaeus) Gasparrini</species_authority></TaxonIdentification><description>Trees, evergreen, to 30 m. Bark of trunks and older branches brown, smooth. Branchlets glabrous. Leaves: stipules ovate, to 5 cm; petiole slender, 3.5-13 cm. Leaf blade broadly ovate to ovate-orbiculate, 7-25 × 4-16 cm, thinly leathery, base rounded to truncate, margins entire, occasionally wavy, apex abruptly long-caudate or long-acuminate, tip to 2.5-9 cm; surfaces occasionally glaucous, glabrous; basal veins 2(-3) pairs; lateral veins 6-9 pairs, the main veins finely reticulate. Syconia paired, sessile, dark purple, nearly globose, 1-1.5 × 1-1.5 cm, glabrous; subtending bracts ovate, 3-5 mm, silky-puberulous; ostiole closed by 3 bracts 2-3 mm wide, umbonate.</description><phenology>Flowering all year</phenology><habitat> Disturbed thickets</habitat><elevation> 0-10 m</elevation><introduced> introduced</introduced><us_distribution> Fla.</us_distribution><global_distribution> Asia (native to India and Southeast Asia).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">religiosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1059. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ficus;species religiosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urostigma</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gasparrini" date="unknown">religiosum</taxon_name>
+    <taxon_hierarchy>genus Urostigma;species religiosum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Bo tree</other_name>
+  <other_name type="common_name">sacred fig</other_name>
+</bio:treatment>

@@ -1,46 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>450.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Carex</genus_name>
-        <species_name>scabriuscula</species_name>
-        <species_authority>Mackenzie</species_authority>
-        <place_of_publication>
-            <publication_title>Bull. Torrey Bot. Club</publication_title>
-            <place_in_publication>35: 268. 1908</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>gigas</species_name>
-        <species_authority>(T. Holm) Mackenzie</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>scirpoidea</species_name>
-        <species_authority>Michaux</species_authority>
-        <variety_name>gigas</variety_name>
-        <variety_authority>T. Holm</variety_authority>
-    </TaxonIdentification>
-    <description>Plants cespitose; rhizomes never conspicuous. Culms erect, (30–) 35–65 cm. Leaves:
-        sheaths and bases from previous year’s leaves persistent; ligules rounded; blades glabrous
-        adaxially. Inflorescences unispicate and multispicate (often with 1–2 short peduncled
-        lateral spikes of same sex), mostly erect, ellipsoid; primary inflorescence bracts leaflike,
-        rarely scalelike, equal to or longer than inflorescences. Scales red-brown to purple,
-        lanceolate, to 3 × 1 mm, shorter than perigynia, margins hyaline, central midrib extending
-        to scale apex, apex acute. Perigynia purple-black, lanceolate, (2.5–)3(–4) × (1–)1.6(–2.5)
-        mm, narrower than subtending scale, apex tapering, distal 1/3 with few short hairs; beak 0.5
-        mm, orifice oblique; rachilla absent. Achenes to 2.8 × 1.4 mm, loosely enveloped by
-        perigynia, occupying 1/3–2/3 width and 1/3–3/4 length of perigynia. 2n = 58.</description>
-    <phenology_fruiting>may</phenology_fruiting><phenology_fruiting>spring</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><habitat>serpentine soils</habitat>
-    <elevation>1000–2000 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <discussion>The type locality for Carex scabriuscula is not known. Type specimens refer only to
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Mackenzie" date="unknown">scabriuscula</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>35: 268. 1908</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species scabriuscula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="(T. Holm) Mackenzie" date="unknown">gigas</taxon_name>
+    <taxon_hierarchy>genus Carex;species gigas;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">scirpoidea</taxon_name>
+    <taxon_name rank="variety" authority="T. Holm" date="unknown">gigas</taxon_name>
+    <taxon_hierarchy>genus Carex;species scirpoidea;variety gigas;</taxon_hierarchy>
+  </taxon_identification>
+  <number>450.</number>
+  <discussion>The type locality for Carex scabriuscula is not known. Type specimens refer only to
         a wet meadow in the Cascade range. Searches, using information from Cusick’s notebooks, have
         not relocated the species in the Cascades.</discussion>
-    <discussion>The sectional alignment of this taxon also is problematic. Historically, it has been
+  <discussion>The sectional alignment of this taxon also is problematic. Historically, it has been
         placed in the Scirpinae; ongoing research suggests it should be excluded from the section
         based on its atypical pubescence, chromosome number, leaf anatomy, multispicate
         inflorescences, and unique achene micromorphology.</discussion>
-</treatment>
+</bio:treatment>

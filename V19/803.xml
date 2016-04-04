@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>111.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PLUCHEA</genus_name>
-    <genus_authority>Cassini</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Guy L. Nesom</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="(Cassini ex Dumortier) Anderberg" date="unknown">Plucheeae</taxon_name>
+    <taxon_name rank="genus" authority="Cassini" date="unknown">PLUCHEA</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Sci. Soc. Philom. Paris</publication_title>
       <place_in_publication>1817: 31. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus PLUCHEA;</taxon_hierarchy>
-  <etymology>[For Abbé N. A. Pluche, 1688–1761, French naturalist]</etymology>
-  <author>Guy L. Nesom</author>
-  <description>Annuals, perennials, subshrubs, shrubs, or trees (usually fetid-aromatic), (20–)50–200(–500) cm; taprooted or fibrous-rooted. Stems erect, simple or branched, seldom winged (see P. sagittalis), usually puberulent to tomentose and stipitate- or sessile-glandular, sometimes glabrous. Leaves cauline, alternate; petiolate or sessile; blades mostly elliptic, lanceolate, oblanceolate, oblong, obovate, or ovate, bases clasping or not, margins entire or dentate, abaxial faces mostly arachnose, puberulent, sericeous, strigose, or villous and/or stipitate- or sessile-glandular, adaxial similar or glabrate or glabrous. Heads disciform, in corymbiform or paniculiform arrays (flat-topped or ± elongate). Involucres mostly campanulate, cupulate, cylindric, hemispheric, or turbinate, 3–10(–12) mm diam. Phyllaries persistent or falling, in 3–6+ series, mostly ovate to lanceolate or linear, unequal. Receptacles flat, epaleate. Peripheral (pistillate) florets in 3–10+ series, fertile; corollas creamy white, whitish, yellowish, pinkish, lavender, purplish, or rosy. Inner (functionally staminate) florets 2–40+; corollas creamy white, whitish, yellowish, pinkish, lavender, purplish, or rosy, lobes (4–)5. Cypselae oblong-cylindric, ribs 4–8, faces strigillose and/or minutely sessile-glandular or glabrous (in the flora, only P. sericea); pappi persistent or tardily falling, of distinct or basally connate, barbellate bristles in 1 series. x = 10.</description>
-  <number_of_infrataxa>Species 40–60 (9 in the flora):</number_of_infrataxa>
-  <global_distribution>tropical and warm-temperate regions</global_distribution>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>se Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia</global_distribution>
-  <global_distribution>Pacific Islands.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus PLUCHEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Abbé N. A. Pluche, 1688–1761, French naturalist]</other_info_on_name>
+  </taxon_identification>
+  <number>111.</number>
+  <discussion>Species 40–60 (9 in the flora):</discussion>
   <discussion>As currently treated, Pluchea is a heterogeneous group of species, variable in habit (trees and shrubs to herbs) and foliar, floral, and fruit morphology. The American, primarily herbaceous, species are divided into groups (G. L. Nesom 1989): sect. Pluchea, sect. Amplectifolium G. L. Nesom, and sect. Pterocaulis G. L. Nesom. Among the woody species, segregate genera have been recognized (Tessaria Ruiz &amp; Pavón, Berthelotia de Candolle, Eremohylema A. Nelson); boundaries among segregates have not been clearly drawn.</discussion>
   <references>
     <reference>Ariza E., L. 1979. Contribución al conocimiento del género Tessaria (Compositae), I. Consideraciónes sobre los géneros Tessaria y Pluchea. Kurtziana 12–13: 47–62.</reference>
@@ -33,84 +30,83 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Shrubs or trees; leaves and stems sericeous, not glandular</statement>
+      <description type="morphology">Shrubs or trees; leaves and stems sericeous, not glandular</description>
       <determination>1. Pluchea sericea</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals, perennials, or subshrubs; leaves and stems not sericeous, usually glandular.</statement>
+      <description type="morphology">Annuals, perennials, or subshrubs; leaves and stems not sericeous, usually glandular.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems (winged by decurrent leaf bases)</statement>
+      <description type="morphology">Stems (winged by decurrent leaf bases)</description>
       <determination>2. Pluchea sagittalis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems (not winged, leaf bases sometimes clasping, not decurrent).</statement>
+      <description type="morphology">Stems (not winged, leaf bases sometimes clasping, not decurrent).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves petiolate, blades mostly elliptic, lanceolate, oblanceolate, oblong-elliptic, oblong-ovate, or ovate (bases not clasping).</statement>
+      <description type="morphology">Leaves petiolate, blades mostly elliptic, lanceolate, oblanceolate, oblong-elliptic, oblong-ovate, or ovate (bases not clasping).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Subshrubs, 100–400 cm; leaf margins entire or denticulate (teeth callous-tipped)</statement>
+      <description type="morphology">Subshrubs, 100–400 cm; leaf margins entire or denticulate (teeth callous-tipped)</description>
       <determination>3. Pluchea carolinensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Annuals or perennials, 50–200+ cm; leaf margins serrate.</statement>
+      <description type="morphology">Annuals or perennials, 50–200+ cm; leaf margins serrate.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Involucres 4–6 × 3–4 mm; phyllaries usually cream, sometimes purplish, usually minutely sessile-glandular, sometimes glabrate (the outermost puberulent); stems usually closely arachose (hairs appressed); arrays of heads paniculiform (of rounded-convex corymbiform clusters terminating branches from distal nodes, arrays usually resulting from strongly ascending, bracteate branches, the central axis longest, first to flower, and, rarely, the only component of an array); leaves petiolate; inland, non-saline habitats</statement>
+      <description type="morphology">Involucres 4–6 × 3–4 mm; phyllaries usually cream, sometimes purplish, usually minutely sessile-glandular, sometimes glabrate (the outermost puberulent); stems usually closely arachose (hairs appressed); arrays of heads paniculiform (of rounded-convex corymbiform clusters terminating branches from distal nodes, arrays usually resulting from strongly ascending, bracteate branches, the central axis longest, first to flower, and, rarely, the only component of an array); leaves petiolate; inland, non-saline habitats</description>
       <determination>4. Pluchea camphorata</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Involucres 5–6 × 4–8(–10) mm; phyllaries usually cream, sometimes purplish, minutely sessile-glandular (outer also puberulent, hairs multicellular, viscid), sometimes glabrate; stems not arachnose; arrays of heads corymbiform (flat-topped to rounded, often layered, sometimes incorporating relatively long, leafy, lateral branches, clusters of heads terminal on leafy branches, some lateral branches nearly equaling or surpassing central portion); leaves sessile or petiolate; primarily coastal salt marshes, also inland habitats west of Mississippi River</statement>
+      <description type="morphology">Involucres 5–6 × 4–8(–10) mm; phyllaries usually cream, sometimes purplish, minutely sessile-glandular (outer also puberulent, hairs multicellular, viscid), sometimes glabrate; stems not arachnose; arrays of heads corymbiform (flat-topped to rounded, often layered, sometimes incorporating relatively long, leafy, lateral branches, clusters of heads terminal on leafy branches, some lateral branches nearly equaling or surpassing central portion); leaves sessile or petiolate; primarily coastal salt marshes, also inland habitats west of Mississippi River</description>
       <determination>5. Pluchea odorata</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves sessile, blades mostly elliptic, lanceolate, oblong, or ovate (bases clasping to subclasping).</statement>
+      <description type="morphology">Leaves sessile, blades mostly elliptic, lanceolate, oblong, or ovate (bases clasping to subclasping).</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves mostly 8–20 × 3–7 cm; involucres cylindro-campanulate, 9–12 mm (mid phyllaries 2.5–3 mm wide); phyllaries and corollas creamy white</statement>
+      <description type="morphology">Leaves mostly 8–20 × 3–7 cm; involucres cylindro-campanulate, 9–12 mm (mid phyllaries 2.5–3 mm wide); phyllaries and corollas creamy white</description>
       <determination>9. Pluchea longifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves mostly 3–10 × 1–3 cm; involucres turbinate-campanulate to cylindro-campanulate, 5–8 mm (mid phyllaries 1–1.5 mm wide); phyllaries and corollas yellowish or creamy white to lavender, pale pink, pinkish, purplish, or rosy.</statement>
+      <description type="morphology">Leaves mostly 3–10 × 1–3 cm; involucres turbinate-campanulate to cylindro-campanulate, 5–8 mm (mid phyllaries 1–1.5 mm wide); phyllaries and corollas yellowish or creamy white to lavender, pale pink, pinkish, purplish, or rosy.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems and leaves (slightly succulent, shiny) glandular, otherwise mostly glabrous; involucres 5–6 × 4–5 mm; phyllaries and corollas pink to lavender or cream or pinkish to rosy</statement>
+      <description type="morphology">Stems and leaves (slightly succulent, shiny) glandular, otherwise mostly glabrous; involucres 5–6 × 4–5 mm; phyllaries and corollas pink to lavender or cream or pinkish to rosy</description>
       <determination>8. Pluchea yucatanensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stems and leaves at least puberulent or arachnose as well as glandular; involucres 4–10 × 5–12 mm; phyllaries and corollas rose-pink to purplish, rose-purple, greenish, cream, or creamy white to yellowish, or pale pink.</statement>
+      <description type="morphology">Stems and leaves at least puberulent or arachnose as well as glandular; involucres 4–10 × 5–12 mm; phyllaries and corollas rose-pink to purplish, rose-purple, greenish, cream, or creamy white to yellowish, or pale pink.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Phyllaries and corollas usually creamy white, sometimes cream, greenish, rose-purple, purplish, pale pink, or yellowish; involucres 5–10 × 6–9(–12) mm (bases rounded to impressed); phyllaries thinly arachnose and sessile-glandular</statement>
+      <description type="morphology">Phyllaries and corollas usually creamy white, sometimes cream, greenish, rose-purple, purplish, pale pink, or yellowish; involucres 5–10 × 6–9(–12) mm (bases rounded to impressed); phyllaries thinly arachnose and sessile-glandular</description>
       <determination>6. Pluchea foetida</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Phyllaries and corollas rose-pink to purplish; involucres 4–6 × 5–9 mm (bases obtuse to barely acute); phyllaries usually arachnose (sometimes also with viscid hairs)</statement>
+      <description type="morphology">Phyllaries and corollas rose-pink to purplish; involucres 4–6 × 5–9 mm (bases obtuse to barely acute); phyllaries usually arachnose (sometimes also with viscid hairs)</description>
       <determination>7. Pluchea baccharis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

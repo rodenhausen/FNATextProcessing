@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Blepharizonia</genus_name><species_name>plumosa</species_name><species_authority>(Kellogg) Greene</species_authority><place_of_publication>
-    <publication_title>Bull. Calif. Acad. Sci.</publication_title>
-    <place_in_publication>1: 279. 1885</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Calycadenia</genus_name><species_name>plumosa</species_name><species_authority>Kellogg</species_authority><place_of_publication><publication_title>Proc. Calif. Acad. Sci. </publication_title><place_in_publication>5: 49. 1873</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hemizonia</genus_name><species_name>plumosa</species_name><species_authority>(Kellogg) A. Gray</species_authority></TaxonIdentification><description>Herbage gray-green, sparsely, if at all, stipitate-glandular, usually with scattered tack-glands as well. Heads usually in spiciform-paniculiform arrays (branches often arched-ascending). Involu-cres usually ± canescent (sometimes also with scattered, longer, glandless hairs), usually with scattered tack-glands as well. Disc pappi 1.5–3 mm. 2n = 28.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>dry slopes</habitat><habitat>in grasslands</habitat><conservation>of conservation concern;</conservation><elevation>0–500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Blepharizonia plumosa is found in the eastern San Francisco Bay area and northwestern San Joaquin Valley. Northern and southern populations appear to be evolutionarily divergent and may warrant treatment as distinct taxa (B. G. Baldwin et al. 2001).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Madiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Blepharizonia</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Greene" date="unknown">plumosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 279. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Madiinae;genus Blepharizonia;species plumosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calycadenia</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">plumosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>5: 49. 1873</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calycadenia;species plumosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemizonia</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) A. Gray" date="unknown">plumosa</taxon_name>
+    <taxon_hierarchy>genus Hemizonia;species plumosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Blepharizonia plumosa is found in the eastern San Francisco Bay area and northwestern San Joaquin Valley. Northern and southern populations appear to be evolutionarily divergent and may warrant treatment as distinct taxa (B. G. Baldwin et al. 2001).</discussion>
+</bio:treatment>

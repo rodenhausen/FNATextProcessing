@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Glebionis</genus_name>
-    <species_name>coronaria</species_name>
-    <species_authority>(Linnaeus) Cassini ex Spach</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Glebionis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Cassini ex Spach" date="unknown">coronaria</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Vég.</publication_title>
       <place_in_publication>10: 181. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Glebionis;species coronaria;</taxon_hierarchy>
-  <common_name>Crown daisy</common_name>
-  <common_name>garland chrysanthemum</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>coronarium</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Glebionis;species coronaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">coronarium</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 890. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades oblong to obovate, mostly 30–55+ × 15–30+ mm, mostly 2–3-pinnately lobed, ultimate margins dentate. Ray corollas pale yellow, sometimes white-tipped, laminae oblong to linear, 15–25 mm. Ray cypselae triquetrous, 2.5–3 mm, angles ± winged, faces obscurely nerved or ribbed; disc cypselae ± prismatic, ± compressed, 2.5–3 mm, obscurely ribbed, sometimes with adaxial (rarely the abaxial) rib ± winged. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jul.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–200 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Chrysanthemum;species coronarium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Crown daisy</other_name>
+  <other_name type="common_name">garland chrysanthemum</other_name>
+</bio:treatment>

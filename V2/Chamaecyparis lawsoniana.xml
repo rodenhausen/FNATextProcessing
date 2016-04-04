@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2</number><TaxonIdentification Status="ACCEPTED"><genus_name>Chamaecyparis</genus_name><species_name>lawsoniana</species_name><species_authority>(A. Murray bis) Parlatore</species_authority><place_of_publication><publication_title>Ann. Mus. Imp. Fis. Firenze</publication_title><place_in_publication>n.s. 1: 181. [preprint p. 29]. 1864</place_in_publication></place_of_publication></TaxonIdentification><common_name>Port-Orford-cedar</common_name><common_name> ginger-pine</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Cupressus</genus_name><species_name>lawsoniana</species_name><species_authority>A. Murray bis</species_authority><place_of_publication><publication_title>Edinburgh New Philos. J., ser. </publication_title><place_in_publication>2, 1: 299, plate 10. 1855</place_in_publication></place_of_publication></TaxonIdentification><description>Trees  to 50 m; trunk to 3 m diam.  Bark  reddish brown, l0--20(--25) cm thick, divided into broad, rounded ridges.  Branchlet sprays  predominantly pinnate.  Leaves  of branchlets mostly 2--3 mm, apex acute to acuminate, facial leaves frequently separated by paired bases of lateral leaves; glands usually present, linear.  Pollen cones  2--4 mm, dark brown; pollen sacs red.  Seed cones  maturing and opening first year, 8--12 mm broad, glaucous, purplish to reddish brown, not notably resinous; scales 5--9.  Seeds  2--4 per scale, 2--5 mm, wing equal to or broader than body. 2n = 22.</description><discussion>A. J. Rehder (1949) listed, with bibliographic citations, 66 published varieties and forms best considered as cultivars.</discussion><global_distribution>Forests of the Coast Ranges with isolated inland populations at higher elevations in the Siskiyou Mountains and on Mt. Shasta</global_distribution><elevation> 0--1500 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaecyparis</taxon_name>
+    <taxon_name rank="species" authority="(A. Murray bis) Parlatore" date="unknown">lawsoniana</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Mus. Imp. Fis. Firenze</publication_title>
+      <place_in_publication>n.s. 1: 181. [preprint p. 29]. 1864</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chamaecyparis;species lawsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="A. Murray bis" date="unknown">lawsoniana</taxon_name>
+    <place_of_publication>
+      <publication_title>Edinburgh New Philos. J., ser.</publication_title>
+      <place_in_publication>2, 1: 299, plate 10. 1855</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cupressus;species lawsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Port-Orford-cedar</other_name>
+  <other_name type="common_name">ginger-pine</other_name>
+  <discussion>A. J. Rehder (1949) listed, with bibliographic citations, 66 published varieties and forms best considered as cultivars.</discussion>
+</bio:treatment>

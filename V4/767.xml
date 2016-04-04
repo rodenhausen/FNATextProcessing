@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Sarcocornia</genus_name>
-        <species_name>pacifica</species_name>
-        <species_authority>(Standley) A. J. Scott</species_authority>
-        <place_of_publication>
-            <publication_title>Bot. J. Linn. Soc.</publication_title>
-            <place_in_publication>75: 369. 1978</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Salicornia</genus_name>
-        <species_name>pacifica</species_name>
-        <species_authority>Standley</species_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl. </publication_title>
-            <place_in_publication>21: 83. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Woody stems erect or procumbent, creeping and sometimes rooting at base, 10–50 cm;
-        stems sparingly to much-branched, younger branches with fleshy segments 5–20 × 2–4 mm.
-        Terminal spikes: larger with 12–40 segments, 20–85 mm. Fertile segments: larger 2–4.5 ×
-        2.5–3.8 mm; central flowers 1.6–2.8 × 1–2.5 mm; anthers 0.7–1 mm. Seeds 1.2–1.5 mm,
-        pubescent; hairs curved or hooked, longer hairs 1–2 mm.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>coastal salt marshes</habitat>
-    <habitat>tidal flats</habitat>
-    <elevation>0 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Conn.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>N.H.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>R.I.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <global_distribution>Mexico.</global_distribution>
-    <discussion>Sarcocornia pacifica appears to be endemic to the Americas, although its precise
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarcocornia</taxon_name>
+    <taxon_name rank="species" authority="(Standley) A. J. Scott" date="unknown">pacifica</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. J. Linn. Soc.</publication_title>
+      <place_in_publication>75: 369. 1978</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Sarcocornia;species pacifica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salicornia</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">pacifica</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 83. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Salicornia;species pacifica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Sarcocornia pacifica appears to be endemic to the Americas, although its precise
         delimitation and distribution are unclear. Well-grown plants can be easily recognized by the
         long terminal spikes, but depauperate plants are difficult to distinguish from S. perennis.
         The name Salicornia virginica has often been applied to this species.</discussion>
-    <discussion>Salicornia ambigua Michaux, Fl. Bor.-Amer. 1: 2. 1803, may be the earliest name for
+  <discussion>Salicornia ambigua Michaux, Fl. Bor.-Amer. 1: 2. 1803, may be the earliest name for
         this species, although it could also be a synonym of Sarcocornia perennis. Until the
         taxonomy of the east-coast plants of the genus has been resolved, the application of
         Michaux’s binomial is uncertain.</discussion>
-</treatment>
+</bio:treatment>

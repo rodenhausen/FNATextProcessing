@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>48b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>divaricatum</species_name>
-    <species_authority>Douglas</species_authority>
-    <variety_name>parishii</variety_name>
-    <variety_authority>(A. Heller) Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Douglas" date="unknown">divaricatum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Heller) Jepson" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Calif.</publication_title>
       <place_in_publication>2: 151. 1936 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Parish’s gooseberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>parishii</species_name>
-    <species_authority>A. Heller</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species divaricatum;variety parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>1: 134. 1906</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>parishii</species_name>
-    <species_authority>(A. Heller) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>divaricatum</species_name>
-    <subspecies_name>parishii</subspecies_name>
-    <subspecies_authority>(A. Heller) A. E. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <description>Flowers: hypanthium broadly obconic, 2.8–3.5 × 3.2–4.5 mm, villous; sepals 4.7–6
-        mm; petals pink to red, 2–2.5 mm; filaments 4.5–5.5 mm; styles 9–10 mm.</description>
-  <phenology>Flowering Feb–Apr</phenology>
-  <habitat>Willow swales in riparian habitats</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Ribes;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(A. Heller) Coville &amp; Britton" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">divaricatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Heller) A. E. Murray" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Ribes;species divaricatum;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>48b.</number>
+  <other_name type="common_name">Parish’s gooseberry</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Variety parishii was last seen in 1980 in the Whittier Narrows Nature Center of Los
         Angeles County. It is known from about five historic locations including the San Gabriel
         River, San Bernardino Valley, and the Lexington Wash near El Monte, Los Angeles County.
         According to the California Native Plant Society (http://www.cnps.org/inventory), it was
         probably extirpated due to a combination of dry years, altered stream flows, fires, habitat
         loss, and invasive species.</discussion>
-</treatment>
+</bio:treatment>

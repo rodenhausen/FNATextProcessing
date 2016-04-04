@@ -1,52 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bryoerythrophyllum</genus_name>
-    <species_name>ferruginascens</species_name>
-    <species_authority>(Stirton) Giacomini</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryoerythrophyllum</taxon_name>
+    <taxon_name rank="species" authority="(Stirton) Giacomini" date="unknown">ferruginascens</taxon_name>
     <place_of_publication>
       <publication_title>Atti Ist. Bot. Lab. Crittog. Univ. Pavia, ser.</publication_title>
       <place_in_publication>5, 4: 210. 1947,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>ferruginascens</species_name>
-    <species_authority>Stirton</species_authority>
+    <taxon_hierarchy>genus Bryoerythrophyllum;species ferruginascens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Stirton" date="unknown">ferruginascens</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Scott. Nat. Hist.</publication_title>
       <place_in_publication>9(35): 176. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems to 2.5(–3) cm. Stem leaves ovate-triangular to short-lanceolate, mostly 1–1.8
-        mm, distal lamina 1-stratose, margins recurved in proximal half of leaf, plane distally,
-        entire, acute to narrowly obtuse apically; costa percurrent, often ending in an apiculus,
-        not much widened or tapering, usually 4 epidermal cells wide at mid leaf, adaxial surface of
-        the costa weakly convex or concave; proximal cells differentiated juxtacostally or across
-        leaf, rectangular, 2:1. Specialized asexual reproduction by small, multicellular,
-        irregularly shaped brood bodies often borne on rhizoids. Sexual condition dioicous. [Capsule
-        theca 2.2–2.5 mm, operculum 0.5–0.9 mm, peristome absent to rudimentary. Spores 12–15
-        µm.]</description>
-  <habitat>Sporophytes unknown for the region of the flora. Limestone, dolomite, volcanic rock,
-        thin soil over rock, old musk ox feces(!), cliffs, scree and fell fields, bluffs,
-        seep;</habitat>
-  <elevation>low to high elevations (100–1100 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America (Bolivia)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (nearly circumarctic, possibly Japan, New Guinea,
-        Philippines)</global_distribution>
-  <global_distribution>Asia (nearly circumarctic, possibly Japan, New Guinea, Philippines) Africa
-        (Ethiopia, Tanzania).</global_distribution>
+    <taxon_hierarchy>genus Barbula;species ferruginascens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>Bryoerythrophyllum ferruginascens is rather variable in the length of the leaves.
         Reduced specimens are as commonly encountered as the more lush expression. As in B.
         recurvirostrum, unusually short leaves seem to retain their usual width, and these leaves
@@ -65,4 +43,4 @@
         apex, margins recurved nearly throughout and proximal cells fairly well differentiated, but
         is tentatively referred here by the abundant characteristic brood bodies and proximal cells
         rather papillose.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>barbata</species_name>
-    <species_authority>(Torrey &amp; A. Gray) Milstead ex Cronquist</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Milstead ex Cronquist" date="unknown">barbata</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>29: 223. 1977</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species barbata;</taxon_hierarchy>
-  <common_name>Barbed rattlesnakeroot</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Nabalus</genus_name>
-    <species_name>fraseri</species_name>
-    <species_authority>de Candolle</species_authority>
-    <variety_name>barbatus</variety_name>
-    <variety_authority>Torrey &amp; A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species barbata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nabalus</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">fraseri</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">barbatus</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>2: 481. 1843</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>serpentaria</species_name>
-    <species_authority>Pursh</species_authority>
-    <variety_name>barbata</variety_name>
-    <variety_authority>(Torrey &amp; A. Gray) A. Gray</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 50–150 cm; taproots thickened, tuberous, with lateral side roots. Stems erect, purplish, glabrous proximally, finely tomentulose or setose distally. Leaves: proximal withered by flowering; petiolate (petioles 2–3 cm, winged; blades ± elliptic, 4–10 × 1–4 cm, coriaceous, bases narrowed (not hastate), margins coarsely and irregularly dentate or serrate (unlobed), apices acute, faces glabrous or papillose-hispid; mid cauline cuneate or sessile and clasping; distal sessile and reduced. Heads (15–50) in (much-branched) paniculiform or thyrsiform arrays (nodding). Calyculi of 7–11, dark green to purple, triangular to lance-ovate bractlets 2–5 mm, hispid or setose along midveins. Involucres cylindric to campanulate, 12–16 × 4–6 mm. Phyllaries 6–8, usually purple or lavender, subulate to lanceolate, 11–14 mm, margins scarious, coarsely hispid or setose along midveins. Florets 10–15; corollas white to yellowish white, 13–16 mm. Cypselae tan, subcylindric, subterete to 5-angled, 8–10 mm, indistinctly 8–10-ribbed; pappi yellowish white, 7–8 mm.</description>
-  <phenology_info>
-    <text>Flowering Aug–Oct.</text>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy oak-hickory-pine woods , savannas , prairies , pine barrens ;</text>
-    <habitat>sandy oak-hickory-pine woods</habitat>
-    <habitat>savannas</habitat>
-    <habitat>prairies</habitat>
-    <habitat>pine barrens</habitat>
-  </habitat_info>
-  <elevation>10–100 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Nabalus;species fraseri;variety barbatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">serpentaria</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey &amp; A. Gray) A. Gray" date="unknown">barbata</taxon_name>
+    <taxon_hierarchy>genus Prenanthes;species serpentaria;variety barbata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Barbed rattlesnakeroot</other_name>
   <discussion>Prenanthes barbata is identified by its erect habit, irregularly dentate leaves, heads with 6–8 purple phyllaries, coarsely setose calyculi and phyllaries, and white to yellowish white corollas.</discussion>
-</treatment>
-
+</bio:treatment>

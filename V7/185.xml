@@ -1,55 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>108.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>sitchensis</species_name>
-    <species_authority>Sanson ex Bongard</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Sanson ex Bongard" date="unknown">sitchensis</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Acad. Imp. Sci. St.-Pétersbourg, Sér.</publication_title>
       <place_in_publication>6, Sci. Math. 2: 162. 1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sitka willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>coulteri</species_name>
-    <species_authority>Andersson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>sitchensis</species_name>
-    <variety_name>parvifolia</variety_name>
-    <variety_authority>(Jepson) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 1–8 m, (sometimes forming clones by stem fragmentation). Stems: branches (sometimes highly brittle at base), yellow-brown or red-brown, not glaucous, glabrous or pilose; branchlets yellow-brown, gray-brown, or red-brown, densely short-silky, velvety, or villous, (buds caprea-type or intermediate). Leaves: stipules absent or rudimentary on early ones, rudimentary or foliaceous on late ones, apex acute; petiole convex to flat, or shallowly grooved adaxially, 3–13(–16) mm, tomentose or velvety adaxially; largest medial blade elliptic, narrowly oblanceolate, oblanceolate, or obovate, 31–70–120 × 17–48 mm, 2.1–3.1–4 times as long as wide, base cuneate or convex, margins slightly revolute or flat, strongly revolute proximally, entire, irregularly serrate, or sinuate, (glands submarginal or epilaminal), apex acuminate or convex, abaxial surface not evidently glaucous, (obscured by hairs), densely short-silky, woolly, or silky-woolly, hairs straight, wavy, or curved, adaxial slightly glossy (sometimes dull and glaucous), pilose or moderately densely short-silky; proximal blade margins entire or shallowly serrulate; juvenile blade green, densely long-silky or woolly abaxially, (sparsely silky-tomentose adaxially), hairs white. Catkins flowering just before or as leaves emerge; staminate slender or stout, (17–)22–54 × 8–15 mm, flowering branchlet 1–9 mm; pistillate moderately densely flowered, slender to stout, 25–73(–115 in fruit) × 5–15 mm, flowering branchlet 1–20 mm; floral bract tawny to dark brown, 1.4–2.4 mm, apex rounded or acute, abaxially hairy, hairs straight or wavy. Staminate flowers: adaxial nectary narrowly oblong, oblong, ovate, or flask-shaped, 0.4–1.3 mm; stamens 1; filaments distinct, glabrous; anthers purple turning yellow, shortly cylindrical, 0.5–0.7 mm. Pistillate flowers: adaxial nectary square, ovate, or flask-shaped, 0.5–0.9 mm, shorter to longer than stipe; stipe 0.4–1.4 mm; ovary ovoid to pyriform, long- or short-silky or villous, beak sometimes slightly bulged below styles; ovules 14–20 per ovary; styles 0.4–0.8 mm; stigmas flat, abaxially non-papillate with rounded tip, or broadly cylindrical, 0.16–0.28–0.4 mm. Capsules 3.5–5.6 mm. 2n = 38.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>mar</phenology>
-  <habitat>tidal swamps and marshes</habitat>
-  <habitat>coastal fog belts and headlands</habitat>
-  <habitat>sand dunes</habitat>
-  <habitat>springs</habitat>
-  <habitat>gravelly streambeds and deltas</habitat>
-  <habitat>glacial moraines</habitat>
-  <habitat>avalanche tracks</habitat>
-  <habitat>dry canyons</habitat>
-  <habitat>clearings and edges of forests</habitat>
-  <habitat>shade tolerant</habitat>
-  <elevation>0–1800 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species sitchensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Andersson" date="unknown">coulteri</taxon_name>
+    <taxon_hierarchy>genus Salix;species coulteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">sitchensis</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) Jepson" date="unknown">parvifolia</taxon_name>
+    <taxon_hierarchy>genus Salix;species sitchensis;variety parvifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>108.</number>
+  <other_name type="common_name">Sitka willow</other_name>
   <discussion>Ovary hairiness in some Salix sitchensis populations varies from uniformly hairy to glabrescent, with intermediates with patchy or streaky hairiness. All three variations can occur together and do not seem to indicate hybridization.</discussion>
   <discussion>Both Salix sitchensis and S. scouleriana have similar variants with leaves having very densely curly hairs on abaxial surfaces [S. sitchensis forma coulteri (Andersson) Jepson and S. scouleriana forma poikila (C. K. Schneider) C. K. Schneider]. Plants resembling S. drummondiana but with similar indumentum probably are hybrids with S. alaxensis (see 84. S. drummondiana). The coulteri taxon resembles S. delnortensis in having stipules with adaxial surfaces glabrous and very sparsely glandular toward the base, densely hairy abaxially, and with gland-dotted margins; its branchlets have wavy to crinkly hairs. The possible hybrid origin of S. delnortensis needs study (R. D. Dorn 2000).</discussion>
   <discussion>Hybrids:</discussion>
   <discussion>Salix sitchensis forms natural hybrids with S. alaxensis var. longistylis and S. melanopsis. Hybridization with S. geyeriana reported by J. K. Henry (1915) is not based on convincing specimens.</discussion>
-</treatment>
+</bio:treatment>

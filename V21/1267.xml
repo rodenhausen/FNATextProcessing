@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>18a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Brickellia</genus_name>
-        <species_name>hinckleyi</species_name>
-        <species_authority>Standley</species_authority>
-        <variety_name>hinckleyi</variety_name>
-    </TaxonIdentification>
-    <description>Plants 20–90 cm. Stems coarsely scabrous. Leaves: petioles 1–5 mm; blades
-        relatively thin, (20–)25–45 × 7–20 mm, margins entire or serrate, faces sparsely pubescent,
-        stipitate-glandular.</description>
-    <phenology>jul</phenology>
-    <phenology>summer</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <habitat>Mixed woodlands, forests, igneous slopes, canyons;</habitat>
-    <conservation>of conservation concern</conservation>
-    <elevation>1700–2300 m</elevation>
-    <us_distribution>Tex.</us_distribution>
-    <discussion>Variety hinckleyi occurs in the Chisos Mountains.</discussion>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brickellia</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">hinckleyi</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">hinckleyi</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Brickellia;species hinckleyi;variety hinckleyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>18a.</number>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>Variety hinckleyi occurs in the Chisos Mountains.</discussion>
+</bio:treatment>

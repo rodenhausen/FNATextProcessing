@@ -1,98 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>118.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SPHAEROMERIA</genus_name>
-    <genus_authority>Nuttall</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Timothy K. Lowrey,Leila M. Shultz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="Nuttall" date="unknown">SPHAEROMERIA</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 401. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus SPHAEROMERIA;</taxon_hierarchy>
-  <etymology>[Greek sphaira , sphere, and meros , a part, alluding to the capitate arrays of heads in S. capitata ]</etymology>
-  <common_name>False sagebrush</common_name>
-  <common_name>chickensage</common_name>
-  <author>Timothy K. Lowrey</author>
-  <author>Leila M. Shultz</author>
-  <description>Perennials or subshrubs, (1–)5–60(–70) cm (usually aromatic). Stems 1–5+ (with interxylary cork), lax to erect, branched from bases or throughout, glabrous or sericeous to tomentose (hairs medifixed), usually gland-dotted as well. Leaves mostly basal (sometimes in rosettes) or basal and cauline; alternate; petiolate or sessile; blades obovate to cuneate or linear, usually 1–2-pinnately or -palmately lobed (ultimate lobes oblanceolate to linear) or apically 3-toothed or -lobed, ultimate margins entire, faces glabrous or ± sericeous to tomentose and usually gland-dotted. Heads disciform, borne singly or (2–60+) in usually corymbiform, rarely paniculiform, arrays or in subcapitate clusters. Involucres hemispheric to campanulate, 3–5(–12) mm diam. Phyllaries persistent, (8–)12–20+ in 2–3+ series, mostly obovate, unequal to subequal, margins and apices (colorless, pinkish, or brownish) scarious. Receptacles conic to nearly flat (villous in S. potentilloides), epaleate. Ray florets 0 (peripheral pistillate florets 4–15+; corollas ± filiform, lobes usually 3). Disc florets 30–50+, bisexual, fertile; corollas usually bright yellow (ochroleucous in S. cana), tubes ± cylindric, throats ± campanulate, lobes 5, ± deltate (tips glabrous or hairy). Cypselae columnar or obovoid to obconic, ribs 2–3 or 5–10, faces glabrous or gland-dotted (pericarps with myxogenic cells only in S. potentilloides, without resin sacs); pappi usually 0 (of 3–5 subulate scales in S. compacta). x = 9.</description>
-  <number_of_infrataxa>Species 9 (8 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus SPHAEROMERIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek sphaira , sphere, and meros , a part, alluding to the capitate arrays of heads in S. capitata ]</other_info_on_name>
+  </taxon_identification>
+  <number>118.</number>
+  <other_name type="common_name">False sagebrush</other_name>
+  <other_name type="common_name">chickensage</other_name>
+  <discussion>Species 9 (8 in the flora):</discussion>
   <references>
     <reference>Holmgren, A. H., L. M. Shultz, and T. K. Lowrey. 1976. Sphaeromeria, a genus closer to Artemisia than to Tanacetum (Asteraceae: Anthemideae). Brittonia 28: 255–262.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Receptacles villous; cypselae becoming mucilaginous when wet</statement>
+      <description type="morphology">Receptacles villous; cypselae becoming mucilaginous when wet</description>
       <determination>1. Sphaeromeria potentilloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Receptacles glabrous; cypselae not mucilaginous when wet.</statement>
+      <description type="morphology">Receptacles glabrous; cypselae not mucilaginous when wet.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Subshrubs, 20–70 cm; leaves mostly cauline (not forming basal clusters).</statement>
+      <description type="morphology">Subshrubs, 20–70 cm; leaves mostly cauline (not forming basal clusters).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas ochroleucous, lobes villous</statement>
+      <description type="morphology">Corollas ochroleucous, lobes villous</description>
       <determination>2. Sphaeromeria cana</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas yellow, lobes glabrous or gland-dotted.</statement>
+      <description type="morphology">Corollas yellow, lobes glabrous or gland-dotted.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves glabrous; heads 5–20 in corymbiform or subumbelliform arrays (as wide as or wider than long)</statement>
+      <description type="morphology">Leaves glabrous; heads 5–20 in corymbiform or subumbelliform arrays (as wide as or wider than long)</description>
       <determination>3. Sphaeromeria diversifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves tomentose; heads (8–)10–30(–60) in paniculiform arrays (longer than wide)</statement>
+      <description type="morphology">Leaves tomentose; heads (8–)10–30(–60) in paniculiform arrays (longer than wide)</description>
       <determination>4. Sphaeromeria ruthiae</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perennials, 1–20 cm (often cespitose); leaves mostly basal (commonly forming clusters).</statement>
+      <description type="morphology">Perennials, 1–20 cm (often cespitose); leaves mostly basal (commonly forming clusters).</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Heads 1–7 ( S. argentea ) or 8–20.</statement>
+      <description type="morphology">Heads 1–7 ( S. argentea ) or 8–20.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf blades (± cuneate, 7–15 mm) entire or apices 3(–5)-toothed or -lobed, faces silvery-canescent; heads usually in subcapitate to corymbiform arrays (1–1.5 cm across), sometimes borne singly</statement>
+      <description type="morphology">Leaf blades (± cuneate, 7–15 mm) entire or apices 3(–5)-toothed or -lobed, faces silvery-canescent; heads usually in subcapitate to corymbiform arrays (1–1.5 cm across), sometimes borne singly</description>
       <determination>5. Sphaeromeria argentea</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf blades (± cuneate, 8–20 mm) usually 1–2-pinnati-palmately lobed (ultimate lobes ± linear), faces ± tomentose; heads in tight, capitate arrays (1–1.3 cm across)</statement>
+      <description type="morphology">Leaf blades (± cuneate, 8–20 mm) usually 1–2-pinnati-palmately lobed (ultimate lobes ± linear), faces ± tomentose; heads in tight, capitate arrays (1–1.3 cm across)</description>
       <determination>6. Sphaeromeria capitata</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Heads 1–3(–5).</statement>
+      <description type="morphology">Heads 1–3(–5).</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves: blades (10–25 mm) pinnati-palmately lobed (lobes 3–6+, ± oblanceolate to linear) or linear, faces sericeous (pappi of 3–5, subulate scales)</statement>
+      <description type="morphology">Leaves: blades (10–25 mm) pinnati-palmately lobed (lobes 3–6+, ± oblanceolate to linear) or linear, faces sericeous (pappi of 3–5, subulate scales)</description>
       <determination>7. Sphaeromeria compacta</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves: blades (15–30 × 1.5–8 mm) pinnati-palmately lobed (lobes 2–3, linear, 1–2 mm wide) or linear, faces silvery-canescent</statement>
+      <description type="morphology">Leaves: blades (15–30 × 1.5–8 mm) pinnati-palmately lobed (lobes 2–3, linear, 1–2 mm wide) or linear, faces silvery-canescent</description>
       <determination>8. Sphaeromeria simplex</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

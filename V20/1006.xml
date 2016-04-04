@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Isocoma</genus_name>
-    <species_name>acradenia</species_name>
-    <species_authority>(Greene) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">acradenia</taxon_name>
     <place_of_publication>
       <publication_title>Erythea</publication_title>
       <place_in_publication>2: 111. 1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Alkali jimmyweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bigelowia</genus_name>
-    <species_name>acradenia</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Isocoma;species acradenia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bigelowia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">acradenia</taxon_name>
     <place_of_publication>
-      <publication_title>Bull. Torrey Bot. Club </publication_title>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>10: 126. 1883 (as Bigelovia)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Haplopappus</genus_name>
-    <species_name>acradenius</species_name>
-    <species_authority>(Greene) S. F. Blake</species_authority>
-  </TaxonIdentification>
-  <description>Herbage usually glabrous, sometimes minutely hispidulous, often stipitate-glandular,
-    often resinous. Leaf blades oblanceolate to narrowly obovate, 20–150 mm, margins entire or
-    toothed or lobed (teeth or lobes apically rounded-obtuse). Involucres 5–8 × 5–7 mm. Phyllary
-    apices yellowish to greenish yellow, sometimes spinulose-aristate, usually not gland-dotted,
-    usually with single, strongly developed, subepidermal resin pocket nearly as wide as bracts,
-    sometimes a central pocket and 2+ smaller, lateral ones (resin pockets sometimes formed from
-    numerous, coalesced, sessile glands). Florets 12–27; corollas 5–7(–8) mm. Cypsela ribs not
-    forming apical horns.</description>
+    <taxon_hierarchy>genus Bigelowia;species acradenia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(Greene) S. F. Blake" date="unknown">acradenius</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species acradenius;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Alkali jimmyweed</other_name>
   <discussion>isocoma acradenia is distinctive in its whitish stems and narrow, whitish-indurate
     phyllaries with an apical resin pocket (or pockets). the leaves often occur in axillary
     fascicles</discussion>
-  <number_of_infrataxa>Varieties 3 (3 in the flora)</number_of_infrataxa>
-  <global_distribution>sw United States</global_distribution>  <global_distribution>nw Mexico.</global_distribution>  <key>
+  <discussion>Varieties 3 (3 in the flora)</discussion>
+  <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves 50–150 mm; florets 20–27; phyllaryapices spinulose-aristate</statement>
+      <description type="morphology">Leaves 50–150 mm; florets 20–27; phyllaryapices spinulose-aristate</description>
       <determination>1b. Isocoma acradenia var. bracteosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves 20–50 mm; florets 12–24; phyllary apices usually rounded, not spinulose,
-        sometimes with weakly developed aristae.</statement>
+      <description type="morphology">Leaves 20–50 mm; florets 12–24; phyllary apices usually rounded, not spinulose,
+        sometimes with weakly developed aristae.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves usually entire, proximal rarely toothed or lobed</statement>
+      <description type="morphology">Leaves usually entire, proximal rarely toothed or lobed</description>
       <determination>1a. Isocoma acradenia var. acradenia</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves all toothed to pinnatifid</statement>
+      <description type="morphology">Leaves all toothed to pinnatifid</description>
       <determination>1c. Isocoma acradenia var. eremophila</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,41 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micranthes</genus_name>
-    <species_name>odontoloma</species_name>
-    <species_authority>(Piper) A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micranthes</taxon_name>
+    <taxon_name rank="species" authority="(Piper) A. Heller" date="unknown">odontoloma</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>8: 60.  1912  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Brook saxifrage</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>odontoloma</species_name>
-    <species_authority>Piper</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Micranthes;species odontoloma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Piper" date="unknown">odontoloma</taxon_name>
     <place_of_publication>
       <publication_title>Smithsonian Misc. Collect.</publication_title>
       <place_in_publication>50: 200.  1907,</place_in_publication>
-      <other_info>based on S. odontophylla Piper, Contr. U.S. Natl. Herb. 11: 314.  1906, not Wallich ex Sternberg 1831</other_info>
+      <other_info_on_pub>based on S. odontophylla Piper, Contr. U.S. Natl. Herb. 11: 314.  1906, not Wallich ex Sternberg 1831</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants solitary or sometimes grouped, rhizomatous.  Leaves basal; petiole rounded, 2–30 cm; blade round, 7–40 cm, thin to slightly fleshy, base cordate to truncate, margins regularly dentate, eciliate, surfaces sparsely brownish hairy abaxially, glabrous adaxially.  Inflorescences 10–30+-flowered, open, lax, flat-topped thyrses, 20–65(–85) cm, glabrous proximally, purple-tipped subsessile-glandular distally.  Flowers: sepals reflexed, ovate to elliptic; petals white, each with 2 basal yellow spots, round to broadly elliptic, clawed, 3–4.5 mm, longer than sepals; filaments strongly club-shaped, (to 6 mm); pistils connate ca. 1/2 their lengths; ovary superior.  Capsules green to purple, ± folliclelike.  2n = 24, 48.</description>
-  <phenology>Flowering summer–early autumn</phenology>
-  <habitat>Wet meadows and stream banks</habitat>
-  <elevation>1500–4000 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species odontoloma;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Brook saxifrage</other_name>
+</bio:treatment>

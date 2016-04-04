@@ -1,53 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctous</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Niedenzu</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctous</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Niedenzu" date="unknown">alpina</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>11: 144.  1889  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Torpedoberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arbutus</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctous;species alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arbutus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">alpina</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 395.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Sprengel</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mairania</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Desvaux</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs 3–20(–30) cm; twigs terete, with persistent old leaves or petioles.  Leaves: petiole winged, 1–4 mm, ciliate on margins, or hairy; blade obovate to oblanceolate, 4–15 × 0.7–8(–20) mm, base attenuate-cuneate, decurrent onto petiole, apex acute, obtuse, or rounded, surfaces rugose, glabrous or hairy.  Inflorescences 2–4(–7)-flowered; bracts ovate, membranous.  Pedicels 0.1–0.6 mm.  Flowers: sepals pale green or yellow, 0.8–1.2 mm, apex acute; corolla yellow, whitish, or green (pale yellowish green), 3.5–4.5 mm, lobes recurved, greenish, rounded, 0.5 mm, glabrous; stamens 1–2 mm; anthers reddish, becoming yellow, 0.6–0.7 mm, horns 0.1–0.2 mm.  Fruits black-purple, 6–9 mm diam.  Pyrenes 2.7–4.6 × 2–3.6 mm.  2n = 26, 28.</description>
-  <phenology>Flowering early summer</phenology>
-  <habitat>Tundra, gravelly beach ridges, lichen heaths, open, boggy, coniferous woods, dry, wind-swept and snow-free fellfields in arctic and alpine tundra</habitat>
-  <elevation>0–2500 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Arbutus;species alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Sprengel" date="unknown">alpina</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mairania</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Desvaux" date="unknown">alpina</taxon_name>
+    <taxon_hierarchy>genus Mairania;species alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Torpedoberry</other_name>
   <discussion>In Greenland, Arctous alpina reaches 77º north latitude on the eastern coast.</discussion>
-</treatment>
+</bio:treatment>

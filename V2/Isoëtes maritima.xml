@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><TaxonIdentification Status="ACCEPTED"><genus_name>Isoëtes</genus_name><species_name>maritima</species_name><species_authority>L. Underwood</species_authority><place_of_publication><publication_title>Bot. Gaz.</publication_title><place_in_publication>13: 94. 1888.</place_in_publication></place_of_publication></TaxonIdentification><common_name>Maritime quillwort</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Isoëtes</genus_name><species_name>beringgensis</species_name><species_authority>Komarov</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Isoëtes</genus_name><species_name>echinospora</species_name><species_authority>Durieu</species_authority><subspecies_name>maritima</subspecies_name><subspecies_authority>(L. Underwood) A. Löve</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Isoëtes</genus_name><species_name>echinospora</species_name><variety_name>maritima</variety_name><variety_authority>(L. Underwood) A. A. Eaton</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Isoëtes</genus_name><species_name>macounii</species_name><species_authority>A. A. Eaton</species_authority></TaxonIdentification><description>Plant usually aquatic, occasionally emergent.  Rootstock nearly globose, 2-lobed.  Leaves ± deciduous, bright green, pale toward base, spirally arranged, to 12 cm, pliant, gradually tapering toward tip.  Velum covering less than 1/2 of sporangium.  Sporangium wall ± brown-streaked.  Megaspores whtie, 380--600 μm diam., echinate to short-cristate with stout blunt spines and crests; girdle densely echinate.  Microspores gray to brown in mass, 30--40 μm, papillose.  2 n = 44.</description><discussion>Isoëtes maritima hybridizes with I. echinospora and I. occidentalis [ = I. truncata (A. A. Eaton) Clute].</discussion><phenology>Spores mature late summer</phenology><habitat>  Lakes and streams</habitat><ca_distribution> B.C.</ca_distribution><us_distribution> Alaska</us_distribution><us_distribution> Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isoëtes</taxon_name>
+    <taxon_name rank="species" authority="L. Underwood" date="unknown">maritima</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>13: 94. 1888.</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Isoëtes;species maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isoëtes</taxon_name>
+    <taxon_name rank="species" authority="Komarov" date="unknown">beringgensis</taxon_name>
+    <taxon_hierarchy>genus Isoëtes;species beringgensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isoëtes</taxon_name>
+    <taxon_name rank="species" authority="Durieu" date="unknown">echinospora</taxon_name>
+    <taxon_name rank="subspecies" authority="(L. Underwood) A. Löve" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Isoëtes;species echinospora;subspecies maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isoëtes</taxon_name>
+    <taxon_name rank="species" authority="A. A. Eaton" date="unknown">echinospora</taxon_name>
+    <taxon_name rank="variety" authority="(L. Underwood) A. A. Eaton" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Isoëtes;species echinospora;variety maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isoëtes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Isoëtes;species macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <other_name type="common_name">Maritime quillwort</other_name>
+  <discussion>Isoëtes maritima hybridizes with I. echinospora and I. occidentalis [ = I. truncata (A. A. Eaton) Clute].</discussion>
+</bio:treatment>

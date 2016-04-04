@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>carinata</species_name>
-    <species_authority>(Rollins) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Rollins) O’Kane &amp; Al-Shehbaz" date="unknown">carinata</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 322. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Idaho bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>carinata</species_name>
-    <species_authority>Rollins</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species carinata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">carinata</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>171: 42, fig. 1E–H. 1950</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials; caudex simple, (often enlarged by persistent leaf bases); densely pubescent, trichomes (sessile or short-stalked), rays furcate or bifurcate, (nearly smooth to finely tuberculate). Stems simple from base, decumbent, (occasionally few-branched), 0.5–1.5(–2) dm. Basal leaves: blade elliptic to broadly obovate, triangular, rhombic, or round, 1.5–3(–4) cm, margins often sinuate or shallowly lobed. Cauline leaves (sessile or shortly petiolate); blade elliptic to oblanceolate to obovate, 0.5–1.5 cm, (base narrowed to petiole), margins entire. Racemes compact to loose. Fruiting pedicels (ascending or divaricate-spreading, straight to loosely sigmoid or curved), 4–10 mm. Flowers: sepals oblong to broadly elliptic, 4–7.5 mm, (lateral pair saccate or not); petals spatulate, 7.5–10 mm. Fruits (sessile or substipitate), elliptic, suborbicular, or oblong, strongly compressed (angustiseptate), 5–9 mm, (rounded to sharply keeled on 1 side, edges ± keeled); valves: (margins covering replum edges or not), usually pubescent throughout or, rarely, glabrous inside; ovules (4–)8–14(–16) per ovary; style 2–4.5(–5) mm. Seeds slightly flattened.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>wc United States.</global_distribution>
+    <taxon_hierarchy>genus Lesquerella;species carinata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="common_name">Idaho bladderpod</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>Differences in fruit morphology become blurred and the three subspecies are often indistinguishable where their ranges meet near the intersection of Idaho, Montana, and Wyoming.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits elliptic, not keeled, valve margins (thin, rounded), not covering replum edges</statement>
+      <description type="morphology">Fruits elliptic, not keeled, valve margins (thin, rounded), not covering replum edges</description>
       <determination>14b. Physaria carinata subsp. paysonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits elliptic, suborbicular, or broadly oblong, keeled on one side, valve margins covering replum edges.</statement>
+      <description type="morphology">Fruits elliptic, suborbicular, or broadly oblong, keeled on one side, valve margins covering replum edges.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits elliptic, bases narrow-rounded to acute,</statement>
+      <description type="morphology">Fruits elliptic, bases narrow-rounded to acute,</description>
       <determination>14a. Physaria carinata subsp . carinata</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits suborbicular to elliptic or broadly oblong, bases and apices rounded</statement>
+      <description type="morphology">Fruits suborbicular to elliptic or broadly oblong, bases and apices rounded</description>
       <determination>14c. Physaria carinata subsp . pulchella</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

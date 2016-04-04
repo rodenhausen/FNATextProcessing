@@ -1,46 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Trematodon</genus_name>
-    <species_name>longicollis</species_name>
-    <species_authority>Michaux</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trematodon</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">longicollis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 289.  1803,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trematodon</genus_name>
-    <species_name>ambiguus</species_name>
-    <variety_name>longicollis</variety_name>
-    <variety_authority>(Michaux) Arnott</variety_authority>
-  </TaxonIdentification>
-  <description>Leaves ovate-lanceolate to long-subulate from an ovate or obovate base, serrulate at apex; costa percurrent or ending before the apex.  Seta long, 10–30 mm.  Capsule inclined, curved; neck 2–3 times as long as urn when dry, long-cylindric, strumose at base; peristome teeth 2-fid or irregularly perforate, not fragile, commonly persistent; annulus compound, revoluble.</description>
-  <phenology>Capsules mature spring–summer.</phenology>
-  <habitat>Soil, sand;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Cuba, Puerto Rico)</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>West Indies (Cuba, Puerto Rico) Asia (China, Japan, Papua New Guinea)</global_distribution>
-  <us_distribution>Pacific Islands (New Caledonia).</us_distribution>
+    <taxon_hierarchy>genus Trematodon;species longicollis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trematodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ambiguus</taxon_name>
+    <taxon_name rank="variety" authority="(Michaux) Arnott" date="unknown">longicollis</taxon_name>
+    <taxon_hierarchy>genus Trematodon;species ambiguus;variety longicollis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>Trematodon longicollis is much like T. ambiguus but differs in the relative lengths of capsule urn and neck when dry, and is clearly more southern in distribution.  The peristome may occasionally adhere to the operculum on dehiscence and the capsule may then falsely appear gymnostomous.</discussion>
-</treatment>
+</bio:treatment>

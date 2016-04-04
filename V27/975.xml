@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Calymperes</genus_name>
-    <species_name>afzelii</species_name>
-    <species_authority>Swartz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">afzelii</taxon_name>
     <place_of_publication>
       <publication_title>Jahrb. Gewächsk.</publication_title>
       <place_in_publication>1: 3, plate 1.  1818,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calymperes</genus_name>
-    <species_name>brittoniae</species_name>
-    <species_authority>Bescherelle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calymperes</genus_name>
-    <species_name>donnellii</species_name>
-    <species_authority>Austin</species_authority>
-  </TaxonIdentification>
-  <description>Plants gregarious or tufted, dark-green to yellowish brown, uncinate-curved at tips when dry, to 10 mm.  Leaves dimorphic, the vegetative 3–4 mm; distal lamina lanceolate; margins thickened and toothed distally; costa in cross section showing ad- and abaxial bands of stereid cells; medial cells obscure, 5–6 µm, bulging adaxially, minutely papillose abaxially; teniolae prominent at leaf shoulders and above; cancellinae ending in acute angles distally, adaxial cells smooth distally; gemmiferous leaves with constricted apices consisting of the costa with narrowly revolute marginal laminae, bearing gemmae only on adaxial surface of apex.</description>
-  <habitat>Not producing sporophytes in flora area.  Tree trunks, bases, exposed roots, and rotted wood, hammocks and forests;</habitat>
-  <elevation>low elevations (0 m);</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Indian Ocean Islands</us_distribution>
-  <us_distribution>Pacific Islands</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Calymperes;species afzelii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="Bescherelle" date="unknown">brittoniae</taxon_name>
+    <taxon_hierarchy>genus Calymperes;species brittoniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calymperes</taxon_name>
+    <taxon_name rank="species" authority="Austin" date="unknown">donnellii</taxon_name>
+    <taxon_hierarchy>genus Calymperes;species donnellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>In the flora area, Calymperes afzelii occurs sparingly in peninsular Florida, but it is weedy in other parts of its wide range.  It is somewhat similar to C. erosum but easily distinguished by the smooth distal adaxial cells of its cancellinae, which are distally acute, and by its gemmae borne only on the adaxial surface of the leaf apex.</discussion>
-</treatment>
+</bio:treatment>

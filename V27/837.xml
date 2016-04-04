@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Plaubelia</genus_name>
-    <species_name>sprengelii</species_name>
-    <variety_name>stomatodonta</variety_name>
-    <variety_authority>(Cardot) R. H. Zander</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Plaubelia</taxon_name>
+    <taxon_name rank="species" authority="Cardot" date="unknown">sprengelii</taxon_name>
+    <taxon_name rank="variety" authority="(Cardot) R. H. Zander" date="unknown">stomatodonta</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 176.  1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hyophila</genus_name>
-    <species_name>stomatodonta</species_name>
-    <species_authority>Cardot</species_authority>
+    <taxon_hierarchy>genus Plaubelia;species sprengelii;variety stomatodonta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hyophila</taxon_name>
+    <taxon_name rank="species" authority="(Cardot) R. S. Williams" date="unknown">stomatodonta</taxon_name>
     <place_of_publication>
       <publication_title>Rev. Bryol.</publication_title>
       <place_in_publication>36: 76.  1909</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Desmatodon</genus_name>
-    <species_name>stomatodontus</species_name>
-    <species_authority>(Cardot) R. S. Williams</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hyophila</genus_name>
-    <species_name>sprengelii</species_name>
-    <variety_name>stomatodonta</variety_name>
-    <variety_authority>(Cardot) R. H. Zander</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Neohyophila</genus_name>
-    <species_name>stomatodonta</species_name>
-    <species_authority>(Cardot) H. A. Crum</species_authority>
-  </TaxonIdentification>
-  <description>Leaves with apiculus sometimes lacking; costa percurrent or ending short of the leaf apex; adaxial distal laminal cells mammillose, also papillose on one or both surfaces.</description>
-  <phenology>Capsules mature winter–spring.</phenology>
-  <habitat>Thin crusts on limestone rock;</habitat>
-  <elevation>low elevations;</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Cuba, Jamaica)</global_distribution>
-  <global_distribution>West Indies (Cuba, Jamaica) Central America (Guatemala, Honduras)</global_distribution>
-  <global_distribution>South America (Brazil).</global_distribution>
+    <taxon_hierarchy>genus Hyophila;species stomatodonta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmatodon</taxon_name>
+    <taxon_name rank="species" authority="(Cardot) H. A. Crum" date="unknown">stomatodontus</taxon_name>
+    <taxon_hierarchy>genus Desmatodon;species stomatodontus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hyophila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">sprengelii</taxon_name>
+    <taxon_name rank="variety" authority="(Cardot) R. H. Zander" date="unknown">stomatodonta</taxon_name>
+    <taxon_hierarchy>genus Hyophila;species sprengelii;variety stomatodonta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Neohyophila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">stomatodonta</taxon_name>
+    <taxon_hierarchy>genus Neohyophila;species stomatodonta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
   <discussion>The extensive variation of Plaubelia sprengelii var. stomatodonta was described by R. H. Zander (1983); specimens of intermediate morphology can be found both from Mexico and those that derive from the flora region.  All specimens of this variety seen from Florida regularly had two stereid bands and a hydroid strand in the costa, characters displayed even in minute specimens.</discussion>
-</treatment>
+</bio:treatment>

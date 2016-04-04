@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>106b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erigeron</genus_name><species_name>breweri</species_name><species_authority>A. Gray</species_authority><variety_name>covillei</variety_name><variety_authority>(Greene) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>72: 172. 1992</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Erigeron</genus_name><species_name>covillei</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Erythea </publication_title><place_in_publication>3: 20. 1895</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erigeron</genus_name><species_name>foliosus</species_name><species_authority>Nuttall</species_authority><variety_name>covillei</variety_name><variety_authority>(Greene) G. R. Compton</variety_authority></TaxonIdentification><description>Plants (30–)40–75 cm; woody roots or caudices with relatively long and slender branches. Stems ascending-erect, not wiry or brittle. Phyllaries hispido-hirsute (hairs white, ascending, relatively thick-based, dense on outermost phyllaries, much less so on mid and inner), eglandular.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>open, rocky sites in sagebrush</habitat><habitat>chaparral</habitat><habitat>juniper</habitat><elevation>1000–1900 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">breweri</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) G. L. Nesom" date="unknown">covillei</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>72: 172. 1992</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species breweri;variety covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">covillei</taxon_name>
+    <place_of_publication>
+      <publication_title>Erythea</publication_title>
+      <place_in_publication>3: 20. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Erigeron;species covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">foliosus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) G. R. Compton" date="unknown">covillei</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species foliosus;variety covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>106b.</number>
+</bio:treatment>

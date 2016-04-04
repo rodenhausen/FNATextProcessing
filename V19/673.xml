@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">monocephala</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. E. Porsild) Hultén" date="unknown">monocephala</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species monocephala;subspecies monocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">exilis</taxon_name>
+    <taxon_hierarchy>genus A.;species exilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">monocephala</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Hultén" date="unknown">exilis</taxon_name>
+    <taxon_hierarchy>genus A.;species monocephala;variety exilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">monocephala</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">latisquamea</taxon_name>
+    <taxon_hierarchy>genus A.;species monocephala;variety latisquamea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">monocephala</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">philonipha</taxon_name>
+    <taxon_hierarchy>genus A.;species monocephala;subspecies philonipha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">nitens</taxon_name>
+    <taxon_hierarchy>genus A.;species nitens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">philonipha</taxon_name>
+    <taxon_hierarchy>genus A.;species philonipha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">shumaginensis</taxon_name>
+    <taxon_hierarchy>genus A.;species shumaginensis;</taxon_hierarchy>
+  </taxon_identification>
   <number>32b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>monocephala</species_name>
-    <species_authority>de Candolle</species_authority>
-    <subspecies_name>monocephala</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species monocephala;subspecies monocephala;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>exilis</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>monocephala</species_name>
-    <variety_name>exilis</variety_name>
-    <variety_authority>(Greene) Hultén</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>monocephala</species_name>
-    <variety_name>latisquamea</variety_name>
-    <variety_authority>Hultén</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>monocephala</species_name>
-    <species_authority>de Candolle</species_authority>
-    <subspecies_name>philonipha</subspecies_name>
-    <subspecies_authority>(A. E. Porsild) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>nitens</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>philonipha</species_name>
-    <species_authority>A. E. Porsild</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>shumaginensis</species_name>
-    <species_authority>A. E. Porsild</species_authority>
-  </TaxonIdentification>
-  <description>Dioecious (staminates and pistillates in equal frequencies in populations). Stems stipitate-glandular. Basal leaves narrowly spatulate to oblanceolate, mostly abaxially tomentose, adaxially green-glabrous to glabrescent, sometimes both gray-pubescent. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist tundra , often on disturbed margins of solifluction lobes or on unstable , gravelly slopes ;</text>
-    <habitat>moist tundra on disturbed margins of solifluction lobes or on unstable , gravelly slopes</habitat>
-  </habitat_info>
-  <elevation>0–1800 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Russian Far East (Chukotka Peninsula).</global_distribution>
   <discussion>E. Hultén’s (1968) key distinctions between subsp. monocephala and subsp. philonipha are obscure and seemingly arbitrary (R. J. Bayer 1991). Antennaria exilis is a pubescent form of A. monocephala; complete intergradation occurs between the forms. Taxonomic recognition for the two forms does not seem warranted. Antennaria monocephala subsp. monocephala is the diploid progenitor of the apomictic clones that make up subsp. angustata, and a progenitor of the A. alpina agamic complex.</discussion>
-</treatment>
-
+</bio:treatment>

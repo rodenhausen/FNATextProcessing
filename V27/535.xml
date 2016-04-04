@@ -1,41 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cynodontium</genus_name>
-    <species_name>jenneri</species_name>
-    <species_authority>(Schimper) Stirton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynodontium</taxon_name>
+    <taxon_name rank="species" authority="(Schimper) Stirton" date="unknown">jenneri</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Scott. Nat. Hist.</publication_title>
       <place_in_publication>15(58): 106.  1906,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>jenneri</species_name>
-    <species_authority>Schimper</species_authority>
+    <taxon_hierarchy>genus Cynodontium;species jenneri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="Schimper" date="unknown">jenneri</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Bot. Soc. Edinburgh</publication_title>
       <place_in_publication>9: 314, fig. 5.  1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cynodontium</genus_name>
-    <species_name>polycarpum</species_name>
-    <variety_name>laxirete</variety_name>
-    <variety_authority>(Schimper) Stirton</variety_authority>
-  </TaxonIdentification>
-  <description>Stems to 5 cm.  Leaves to 6 mm, narrowly lanceolate, long-acuminate to aciculose; leaf margins plane or some leaves shortly recurved at mid leaf, never to the apex, 1-stratose with patches of 2-stratose cells on one or both margins; cells of lamina essentially smooth with scattered low papilla, nearly smooth in apical region, thin-walled, often lax, angular, distal cells 12–14(–20) µm wide.  Perigonium sessile.  Seta ca. 1 cm, straight wet or dry.  Capsule symmetrical, erect, not strumose; annulus well developed, deciduous, of 2 rows of large, separating cells.</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Shady rock, soil over rock, occasionally rotting wood;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Atlantic Islands (Faroes).</global_distribution>
+    <taxon_hierarchy>genus Didymodon;species jenneri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynodontium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">polycarpum</taxon_name>
+    <taxon_name rank="variety" authority="(Schimper) Stirton" date="unknown">laxirete</taxon_name>
+    <taxon_hierarchy>genus Cynodontium;species polycarpum;variety laxirete;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Cynodontium jenneri is a tall, luxuriant species with long, flexuose leaves of a dilute yellow color, and pellucid areolation due to the relative scarcity of  cell ornamen-tation (papillae) or distortion (mammillae).  This is an oceanic species of western Europe, the Pacific Northwest, and the Avalon Peninsula of Newfoundland (H. A. Crum and L. E. Anderson 1981).  See discussion under 8. C. polycarpon.</discussion>
-</treatment>
+</bio:treatment>

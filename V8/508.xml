@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chrysophyllum</genus_name>
-    <species_name>oliviforme</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysophyllum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">oliviforme</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 937. 1759 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Satin leaf</common_name>
-  <common_name>damson-plum</common_name>
-  <common_name>saffron-tree</common_name>
-  <number_of_infrataxa>Subspecies 2 (1 in the flora)</number_of_infrataxa>
-  <us_distribution>Florida</us_distribution>
-  <global_distribution>West Indies</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SAPOTACEAE;genus Chrysophyllum;species oliviforme;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Satin leaf</other_name>
+  <other_name type="common_name">damson-plum</other_name>
+  <other_name type="common_name">saffron-tree</other_name>
+  <discussion>Subspecies 2 (1 in the flora)</discussion>
+</bio:treatment>

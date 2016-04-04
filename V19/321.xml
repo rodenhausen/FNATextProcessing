@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>palustre</species_name>
-    <species_authority>(Lyons) Symons</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="(Lyons) Symons" date="unknown">palustre</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Pl. Ins. Brit.,</publication_title>
       <place_in_publication>172. 1798</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species palustre;</taxon_hierarchy>
-  <common_name>Marsh dandelion</common_name>
-  <common_name>pissenlit palustre</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Leontodon</genus_name>
-    <species_name>palustris</species_name>
-    <species_authority>Lyons</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species palustre;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leontodon</taxon_name>
+    <taxon_name rank="species" authority="Lyons" date="unknown">palustris</taxon_name>
     <place_of_publication>
       <publication_title>Fasc. Pl. Cantabr.,</publication_title>
       <place_in_publication>48. 1763 (as palustre)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>turfosum</species_name>
-    <species_authority>(Schultz-Bipontinus) van Soest</species_authority>
-  </TaxonIdentification>
-  <description>Plants 5–6.5(–10 in fruit) cm; taproots seldom branched. Stems 1–5+, decumbent to ascending, purple, (rarely exceeding foliage before fruiting), sparsely villous or glabrate to ± densely villous distally. Leaves 10+, horizontal to ± erect; petioles often purplish (midveins also), ± narrowly winged; blades oblanceolate to linear-oblanceolate, 2.5–9 × 0.2–1.1 cm, bases attenuate to long-cuneate, margins usually toothed, sometimes pinnately, shallowly lobed, lobes fewer than 10 per side, remote, (and teeth) straight to retrorse, narrow, deltate to narrowly triangular, often acuminate, apices obtuse to acute, faces glabrous or sparsely villous (particularly along midveins). Calyculi 10–15, appressed to spreading, pale to dark purplish green, ovate to elliptic bracklets in 2 series, 6–8.5 × 2–5 mm, margins ± purplish, widely scarious, apices acuminate to caudate, hornless. Involucres green to grayish green, campanulate, 12–16 mm. Phyllaries 14–16 in 2 series, lanceolate to lance-linear, 1.5–2.5 mm wide, margins scarious to narrowly scarious in proximal 1/2, apices long-acuminate, erose-scarious, hornless. Florets ca. 50; corollas yellow, outer abaxially gray-striped, 13–14 × 1.4–2.2 mm. Cypselae straw-colored to olivaceous, bodies narrowly obovoid, 2.8–4 mm, cones terete, 0.8–1 mm, beaks slender, 7–9 mm, ribs ca. 6, sharp, faces slightly muricate in distal 1/3; pappi white to cream, 4.5–6.5 mm. 2n = 24, 32, 40 (reported for complex in Europe).</description>
-  <phenology_info>
-    <text>Flowering early spring.</text>
-    <phenology>early spring</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>wet ditches , roadsides , and waste grounds of temperate climates ;</text>
-    <habitat>wet ditches</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>waste grounds of temperate climates</habitat>
-  </habitat_info>
-  <elevation>10–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Leontodon;species palustris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="(Schultz-Bipontinus) van Soest" date="unknown">turfosum</taxon_name>
+    <taxon_hierarchy>genus Taraxacum;species turfosum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Marsh dandelion</other_name>
+  <other_name type="common_name">pissenlit palustre</other_name>
   <discussion>This small dandelion has only recently been reported from North America (D. F. Brunton 1989). It has now spread east into Quebec, where it is known beyond the Montreal area, west into Michigan, and south into northern New York state. It is mostly spreading in wet ditches along highways and flowers in early spring.</discussion>
   <discussion>It clearly belongs to sect. Palustria. Until it is firmly associated with a European species, I am using the name Taraxacum palustre. The name T. cognatum Štepánek &amp; Kirschner, which designates a microspecies from central Europe, has been applied to a North American specimen sent by D. F. Brunton to J. Kirschner.</discussion>
-</treatment>
-
+</bio:treatment>

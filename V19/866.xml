@@ -1,48 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>bigelovii</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bigelovii</taxon_name>
     <place_of_publication>
       <publication_title>in War Department [U.S.], Pacif. Railr. Rep.</publication_title>
       <place_in_publication>4(5): 110. 1857</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species bigelovii;</taxon_hierarchy>
-  <common_name>Bigelow sagebrush</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>petrophila</species_name>
-    <species_authority>Wooton &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Seriphidium</genus_name>
-    <species_name>bigelovii</species_name>
-    <species_authority>(A. Gray) K. Bremer &amp; Humphries</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 20–40(–60) cm (branched from bases, rounded), mildly aromatic; not root-sprouting. Stems silvery, canescent (bark gray-brown). Leaves persistent, light gray-green; blades narrowly cuneate, 0.5–3 × 0.2–0.5 cm, entire or 3(–5)-lobed (lobes 1.5–2 mm, less than 1/3 blade lengths, acute), faces silvery canescent. Heads (usually nodding) in arrays 6–25 × 1–4 cm (branches erect, somewhat curved). Involucres globose, 2–3 × 1.5–2.5 mm. Phyllaries (8–15) ovate, canescent or tomentose. Florets: pistillate 0–2 (raylike, laminae to 1 mm); bisexual 1–3; corollas 1–1.5 mm (style branches of ray florets elongate, exsert, epapillate, tips acute; of disc florets, short, truncate, papillate). Cypselae (ellipsoid, 5-ribbed) 0.8–1 mm, glabrous. 2n = 18, 36, 72.</description>
-  <phenology_info>
-    <text>Flowering early summer–late fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>deserts , sandy or alkaline soils , rock outcrops ;</text>
-    <habitat>deserts</habitat>
-    <habitat>sandy or alkaline soils</habitat>
-    <habitat>rock</habitat>
-    <habitat>outcrops</habitat>
-  </habitat_info>
-  <elevation>1000–2500 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Wooton &amp; Standley" date="unknown">petrophila</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species petrophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Seriphidium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) K. Bremer &amp; Humphries" date="unknown">bigelovii</taxon_name>
+    <taxon_hierarchy>genus Seriphidium;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10</number>
+  <other_name type="common_name">Bigelow sagebrush</other_name>
   <discussion>Artemisia bigelovii of the southwestern deserts is easily confused in the field with A. tridentata, even though it is well distinguished ecologically and morphologically. Systematic placement within subg. Tridentatae remains problematic. Presence of “ray” florets (though rare) and vestigial spines on the pollen (R. P. Wodehouse 1935) suggest a relationship with groups ancestral to Tridentatae. The species also has the unusual characteristic of lignified trichomes (L. M. Shultz 1986b). Further research may help to determine proper placement; its affinities may be with members of subg. Artemisia.</discussion>
-</treatment>
-
+</bio:treatment>

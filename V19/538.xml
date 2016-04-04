@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>bigelovii</species_name>
-    <species_authority>(A. Gray) Schultz-Bipontinus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Schultz-Bipontinus" date="unknown">bigelovii</taxon_name>
     <place_of_publication>
       <publication_title>Jahresber. Pollichia</publication_title>
       <place_in_publication>22–24: 308. 1866</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species bigelovii;</taxon_hierarchy>
-  <past_name>bigelowii</past_name>
-  <common_name>Coastal silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Calaïs</genus_name>
-    <species_name>bigelovii</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calaïs</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bigelovii</taxon_name>
     <place_of_publication>
       <publication_title>in War Department [U.S.], Pacif. Railr. Rep.</publication_title>
       <place_in_publication>4(5): 113, plate 17, figs. 1–5. 1857</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, 3–60 cm; taprooted. Stems 0. Leaves basal; petiolate; blades linear to narrowly elliptic or spatulate, 3–25 cm, margins entire, dentate, or pinnately lobed, apices acuminate to obtuse, faces glabrous or lightly scurfy-puberulent. Peduncles erect or curved-ascending, ebracteate. Involucres ovoid to fusiform in fruit, 5–14 mm. Phyllaries: apices acute to acuminate, faces glabrous; outer deltate; inner lanceolate (midveins often purple, thickened). Florets 5–100; corollas yellow or orange, equaling or surpassing phyllaries by 1–3 mm. Cypselae truncate-fusiform, 2.5–5.5 mm; pappi of 5 silvery to blackish, deltate to lanceolate, aristate scales 1–4 mm (slightly arched at bases, flat, glabrous, midveins linear, widths less than 1/5 bodies, thicker at bases), aristae (brown, fine) barbellulate. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jul.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy and loam soils , open sites , on coastal terraces , hillsides , rocky headlands , and bird-nesting islands ;</text>
-    <habitat>sandy and loam soils</habitat>
-    <habitat>open sites on coastal terraces , hillsides , rocky headlands , and bird-nesting islands</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Calaïs;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="past_name">bigelowii</other_name>
+  <other_name type="common_name">Coastal silverpuffs</other_name>
   <discussion>Microseris bigelovii is the most characteristically coastal of the annual taxa and the only one to include plants with obtuse, spatulate leaves (K. Bachmann et al. 1984). A statistical analysis of its morphologic variation was published by Bachmann (1992). It sometimes has been collected at inland sites at 500–600 m, where the cypselae may have been introduced by domestic animals. The northern populations near Victoria, British Columbia, and the San Juan Islands, Washington, are disjunct from the main range, which extends from Oregon to Santa Barbara County, California.</discussion>
-</treatment>
-
+</bio:treatment>

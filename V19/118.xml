@@ -1,66 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>40d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>occidentale</species_name>
-    <species_authority>(Nuttall) Jepson</species_authority>
-    <variety_name>californicum</variety_name>
-    <variety_authority>(A. Gray) D. J. Keil &amp; C. E. Turner</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Jepson" date="unknown">occidentale</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) D. J. Keil &amp; C. E. Turner" date="unknown">californicum</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>73: 315. 1992</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species occidentale;variety californicum;</taxon_hierarchy>
-  <common_name>California thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>californicum</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species occidentale;variety californicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californicum</taxon_name>
     <place_of_publication>
       <publication_title>in War Department [U.S.], Pacif. Railr. Rep.</publication_title>
       <place_in_publication>4(5): 112. 1857</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>bernardinum</species_name>
-    <species_authority>(Greene) Petrak</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>californicum</species_name>
-    <variety_name>bernardinum</variety_name>
-    <variety_authority>(Greene) Petrak</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>californicum</species_name>
-    <subspecies_name>pseudoreglense</subspecies_name>
-    <subspecies_authority>Petrak</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants erect, usually 50–200 cm, thinly to densely gray-tomentose, sometimes glabrate. Leaf faces abaxially green to gray, adaxially gray. Heads in ± open clusters, short- to long-pedunculate, elevated well above proximal leaves. Involucres usually about as wide as long, 1.5–5 cm, subglabrous to densely arachnoid. Phyllaries usually imbricate, mid apices appressed to loosely spreading or ascending, sometimes twisted, usually less than 1 cm (but sometimes much longer, 1–3 mm. Corollas white to light purple or rose, 18–35 mm. 2n = 28, 29, 30 (as C. californicum).</description>
-  <phenology_info>
-    <text>Flowering spring–summer (Apr–Aug).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>pine-oak woodlands , riparian woodlands , chaparral , openings in mixed evergreen forests , roadsides ;</text>
-    <habitat>pine-oak woodlands</habitat>
-    <habitat>riparian woodlands</habitat>
-    <habitat>chaparral</habitat>
-    <habitat>openings in mixed evergreen forests</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>100–2200 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Cirsium;species californicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Petrak" date="unknown">bernardinum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species bernardinum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicum</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Petrak" date="unknown">bernardinum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species californicum;variety bernardinum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicum</taxon_name>
+    <taxon_name rank="subspecies" authority="Petrak" date="unknown">pseudoreglense</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species californicum;subspecies pseudoreglense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>40d.</number>
+  <other_name type="common_name">California thistle</other_name>
   <discussion>Variety californicum occurs in both coastal and interior mountains of California from the northern South Coast Range and the northern Sierra Nevada to the mountains of southwestern California. Considerable variation exists in head size, corolla color, and in length and display of phyllary appendages. In several areas of its range, the predominantly white- to light purple-flowered var. californicum occurs with red-flowered var. venustum. These plants are highly interfertile (H. Wells 1983; D. J. Keil and C. E. Turner 1992). Introgressive hybridization among them has resulted in a variety of emergent phenotypes and may have contributed to the variation within var. californicum.</discussion>
-</treatment>
-
+</bio:treatment>

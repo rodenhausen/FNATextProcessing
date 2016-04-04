@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>25.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>nevadense</species_name>
-        <species_authority>Standley</species_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
-            <place_in_publication>21: 16. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Stems erect to ascending, much-branched, 1.2–3.5 dm, glabrous to sparsely farinose.
-        Leaves non-aromatic; petiole 0.2–1 cm; blade rhombic-ovate to elliptic or oblong, 3-veined,
-        0.5–2 × 0.3–1 cm, base cuneate, margins entire or occasionally with few teeth or lobes, apex
-        rounded or obtuse, sparsely farinose. Inflorescences glomerules in terminal panicles, 5–29 ×
-        8–27 cm; glomerules small, maturing mixed; bracts linear. Flowers: perianth segments 5,
-        distinct nearly to base; lobes ovate to oblong, slightly keeled, 0.6–0.7 × 0.3–0.5 mm, apex
-        acute to obtuse, glabrous, irregularly covering fruit at maturity; stamens 5; stigmas 2, 0.2
-        mm. Achenes ovoid; pericarp adherent, warty, smooth. Seeds 0.7–0.8 × 0.4–0.5 mm, margins
-        rounded; seed coat black, smooth.</description>
-    <phenology_fruiting>fruiting spring–fall</phenology_fruiting>
-    <habitat>sand</habitat>
-    <habitat>gravel</habitat>
-    <habitat>or clay flats</habitat>
-    <habitat>sandy alkaline soils</habitat>
-    <habitat>sandy calcareous alluvium</habitat>
-    <elevation>1200–1800 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Nev.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">nevadense</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 16. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species nevadense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
+</bio:treatment>

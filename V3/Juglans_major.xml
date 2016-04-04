@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Juglans</genus_name>
-        <species_name>major</species_name>
-        <species_authority>(Torrey) A. Heller</species_authority>
-        <place_of_publication>
-            <publication_title> Muhlenbergia </publication_title>
-            <place_in_publication>1: 50. 1904</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Juglans</genus_name>
-        <species_name>rupestris</species_name>
-        <species_authority>Engelmann ex Torrey</species_authority>
-        <variety_name>(ß) major</variety_name>
-        <variety_authority>Torrey</variety_authority>
-        <place_of_publication>
-            <publication_title>in L. Sitgreaves, Rep. Exped. Zuni Colorado Rivers, </publication_title>
-            <place_in_publication>171, plate 16. 1853</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Juglans</genus_name>
-        <species_name>microcarpa</species_name>
-        <species_authority>Berlandier</species_authority>
-        <variety_name>major</variety_name>
-        <variety_authority>(Torrey) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-    <global_distribution> United States</global_distribution>
-    <global_distribution> Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juglans</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) A. Heller" date="unknown">major</taxon_name>
+    <place_of_publication>
+      <publication_title>Muhlenbergia</publication_title>
+      <place_in_publication>1: 50. 1904</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juglans;species major;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juglans</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex Torrey" date="unknown">rupestris</taxon_name>
+    <taxon_name rank="variety" authority="Torrey" date="unknown">(ß) major</taxon_name>
+    <place_of_publication>
+      <publication_title>in L. Sitgreaves, Rep. Exped. Zuni Colorado Rivers,</publication_title>
+      <place_in_publication>171, plate 16. 1853</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juglans;species rupestris;variety (ß) major;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juglans</taxon_name>
+    <taxon_name rank="species" authority="Berlandier" date="unknown">microcarpa</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey) L. D. Benson" date="unknown">major</taxon_name>
+    <taxon_hierarchy>genus Juglans;species microcarpa;variety major;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

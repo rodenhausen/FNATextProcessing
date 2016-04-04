@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>attenuata</species_name>
-    <species_authority>(S. Watson) Moran</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Moran" date="unknown">attenuata</taxon_name>
     <place_of_publication>
       <publication_title>Desert Pl. Life</publication_title>
       <place_in_publication>14: 191.  1943,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>attenuata</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species attenuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">attenuata</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>22: 472.  1887</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>attenuatum</species_name>
-    <species_authority>(S. Watson) Britton &amp; Rose</species_authority>
-  </TaxonIdentification>
-  <number_of_infrataxa>Subspecies 2 (1 in the flora):</number_of_infrataxa>
-  <us_distribution>California</us_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>genus Cotyledon;species attenuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Britton &amp; Rose" date="unknown">attenuatum</taxon_name>
+    <taxon_hierarchy>genus Stylophyllum;species attenuatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <discussion>Subspecies 2 (1 in the flora):</discussion>
   <discussion>Subspecies australis Moran occurs in Baja California.</discussion>
-</treatment>
+</bio:treatment>

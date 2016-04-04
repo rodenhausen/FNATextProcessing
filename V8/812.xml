@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pringlei</species_name>
-    <species_authority>Parry</species_authority>
-    <subspecies_name>drupacea</subspecies_name>
-    <subspecies_authority>(Parry) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">pringlei</taxon_name>
+    <taxon_name rank="subspecies" authority="(Parry) P. V. Wells" date="unknown">drupacea</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>21: 271.  1972  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pinkbracted manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pringlei</species_name>
-    <variety_name>drupacea</variety_name>
-    <variety_authority>Parry</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species pringlei;subspecies drupacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Parry) J. F. Macbride" date="unknown">pringlei</taxon_name>
+    <taxon_name rank="variety" authority="Parry" date="unknown">drupacea</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 495.  1887</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>drupacea</species_name>
-    <species_authority>(Parry) J. F. Macbride</species_authority>
-  </TaxonIdentification>
-  <description>Stones connate into single sphere.  2n = 26.</description>
-  <phenology>Flowering early–late spring</phenology>
-  <habitat>Chaparral, open forests</habitat>
-  <elevation>1500–2600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species pringlei;variety drupacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">drupacea</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species drupacea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29b.</number>
+  <other_name type="common_name">Pinkbracted manzanita</other_name>
   <discussion>Subspecies drupacea is found in southern California peninsular mountain ranges.</discussion>
-</treatment>
+</bio:treatment>

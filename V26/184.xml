@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>31a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Calochortus</genus_name><species_name>palmeri</species_name><species_authority>S. Watson</species_authority><variety_name>palmeri</variety_name></TaxonIdentification><common_name>Palmer’s mariposa-lily</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>palmeri</species_name><variety_name>paludicola</variety_name><variety_authority>(Davidson) Jepson &amp; Ames</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>paludicola</species_name><species_authority>Davidson</species_authority></TaxonIdentification><description>Stems bearing bulbels at base. Inflorescence bracts alternate. Petal glands yellow-hairy, hairs straight.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>meadows</habitat><habitat>vernally moist places in pine forest and chaparral</habitat><conservation>of conservation concern;</conservation><elevation>1200–2200 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">palmeri</taxon_name>
+    <taxon_name rank="variety" authority="(Davidson) Jepson &amp; Ames" date="unknown">palmeri</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Calochortus;species palmeri;variety palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="Davidson" date="unknown">palmeri</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">paludicola</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species palmeri;variety paludicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">paludicola</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species paludicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>31a.</number>
+  <other_name type="common_name">Palmer’s mariposa-lily</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

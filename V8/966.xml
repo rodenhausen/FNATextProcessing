@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>34.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HARRIMANELLA</genus_name>
-    <genus_authority>Coville</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gary D. Wallace</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Coville" date="unknown">HARRIMANELLA</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Wash. Acad. Sci.</publication_title>
       <place_in_publication>3: 570, figs. 62, 66.  1901  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Moss heather</common_name>
-  <etymology>[For Edward H. Harriman, 1848–1909, American financier and patron of science]</etymology>
-  <author>Gary D. Wallace</author>
-  <description>Subshrubs small; branches prostrate, spreading, or ascending, mat-forming.  Leaves densely crowded on stems; petiole very short, leaving small pegs on stem when leaves fall off; blade linear-oblong to subulate, margins entire or erose, surfaces glabrous.  Pedicels nodding in flower, erect in fruit, slender; bracteoles absent.  Flowers: sepals distinct or connate basally, ovate to oblong-ovate; petals connate ca. 1/2 their lengths, white or tinged with pink, apex blunt; stamens not exserted; filaments swollen at base; anthers inverted at anthesis, with awns; ovary globose to ovoid; style ovoid or conic; stigma simple.  Capsules borne on erect pedicels, globose to ovoid, dehiscent basipetally.  x = 16.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>n Asia.</global_distribution>
-  <references heading="SELECTED REFERENCE">
+    <taxon_hierarchy>family ERICACEAE;genus HARRIMANELLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Edward H. Harriman, 1848–1909, American financier and patron of science]</other_info_on_name>
+  </taxon_identification>
+  <number>34.</number>
+  <other_name type="common_name">Moss heather</other_name>
+  <discussion>Species 2 (2 in the flora):</discussion>
+  <references>
     <reference>Stevens, P. F.  1970.  Calluna, Cassiope and Harrimanella: A taxonomic and evolutionary problem.  New Phytol. 69: 1131–1148.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves divergent, blade linear-oblong, apex obtuse to broadly acute; pedicels barely exceeding leaves at anthesis; capsules 4–5 mm diam.</statement>
+      <description type="morphology">Leaves divergent, blade linear-oblong, apex obtuse to broadly acute; pedicels barely exceeding leaves at anthesis; capsules 4–5 mm diam.</description>
       <determination>1.   Harrimanella stelleriana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves loosely appressed, blade linear to subulate, apex acute; pedicels 3+ times longer than leaves at anthesis; capsules 2–3.5 mm diam.</statement>
+      <description type="morphology">Leaves loosely appressed, blade linear to subulate, apex acute; pedicels 3+ times longer than leaves at anthesis; capsules 2–3.5 mm diam.</description>
       <determination>2.   Harrimanella hypnoides</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

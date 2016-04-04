@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>63.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>BRODIAEA</genus_name>
-    <genus_authority>Smith</genus_authority>
-  <place_of_publication>
-    <publication_title>Trans. Linn. Soc. London</publication_title>
-    <place_in_publication>10: 2. 1811</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[for James Brodie, 1744–1824, Scottish cryptogamic botanist]</etymology>
-  
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Cluster-lily</common_name>
-  <author>J. Chris Pires</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hookera</genus_name>
-    <genus_authority>Salisbury</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>J. Chris Pires</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Smith" date="unknown">BRODIAEA</taxon_name>
+    <place_of_publication>
+      <publication_title>Trans. Linn. Soc. London</publication_title>
+      <place_in_publication>10: 2. 1811</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus BRODIAEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[for James Brodie, 1744–1824, Scottish cryptogamic botanist]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Salisbury" date="unknown">Hookera</taxon_name>
     <place_of_publication>
       <place_in_publication>[1 March] 1808</place_in_publication>
-      <other_info>name rejected</other_info>
-      <other_info>not Hookeria Smith [1 June] 1808, name conserved</other_info>
+      <other_info_on_pub>name rejected</other_info_on_pub>
+      <other_info_on_pub>not Hookeria Smith [1 June] 1808, name conserved</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, scapose, from fibrous-coated corms. Leaves 1–6, basal; blade
-    linear, crescent-shaped in cross section. Scape solitary, cylindrical, usually slender,
-    occasionally stout, rigid. Inflorescences umbellate, open, bracteate; bracts scarious, not
-    enclosing flower buds. Flowers: perianth 6-tepaled, distinctly connate proximally into tube,
-    shiny, abaxial perianth usually bluish purple, tube narrowly campanulate or funnelform, outer 3
-    lobes narrower than inner 3; stamens 3, epitepalous, opposite inner perianth lobes, alternating
-    with 3 staminodia (staminodia absent in B. orcuttii) opposite outer perianth lobes; filaments
-    adnate to perianth tube, linear, base sometimes dilated to form triangular flap, or sometimes
-    with abaxial wings or appendages; anthers basifixed, appressed to style; pistil 3-carpellate;
-    ovary superior, green (purple in B. jolonensis), sessile, 3-locular, ovules several; style
-    erect; stigma 3-lobed, lobes distinctly spreading and recurved; pedicel erect, articulate at
-    base. Fruits capsular, ovoid, dehiscence loculicidal. Seeds black, rounded to flattened, coat
-    with crust with longitudinal surface striations. x = 6, 8, 12, 16, 18, 20, or 24.</description>
-  <number_of_infrataxa>Species 14 (14 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America including Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Hookera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>63.</number>
+  <other_name type="common_name">Cluster-lily</other_name>
+  <discussion>Species 14 (14 in the flora):</discussion>
   <discussion>Two schools of thought have existed regarding generic limits within the complex of
     species recognized under Brodiaea, Triteleia, and Dichelostemma: a single large genus (Brodiaea
     s.l.) with three subgenera (S. Watson 1879; W. L. Jepson 1923–1925; P. A. Munz 1959), or three
@@ -65,146 +56,146 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Staminode apex subulate or cuspidate, or staminodia absent.</statement>
+      <description type="morphology">Staminode apex subulate or cuspidate, or staminodia absent.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Staminodia absent</statement>
+      <description type="morphology">Staminodia absent</description>
       <determination>10.  Brodiaea orcuttii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Staminodia present.</statement>
+      <description type="morphology">Staminodia present.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Staminode apex subulate; perianth tube splitting in fruit</statement>
+      <description type="morphology">Staminode apex subulate; perianth tube splitting in fruit</description>
       <determination>5.  Brodiaea filifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Staminode apex cuspidate; perianth tube not splitting in fruit</statement>
+      <description type="morphology">Staminode apex cuspidate; perianth tube not splitting in fruit</description>
       <determination>8.  Brodiaea kinkiensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Staminode apex rounded or notched (2-lobed in B. insignis ).</statement>
+      <description type="morphology">Staminode apex rounded or notched (2-lobed in B. insignis ).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Flowers 24–38 mm.</statement>
+      <description type="morphology">Flowers 24–38 mm.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Staminodia narrowly linear, margins 1 / 4 – 1 / 2 involute; perianth tube splitting
-        in fruit.</statement>
+      <description type="morphology">Staminodia narrowly linear, margins 1 / 4 – 1 / 2 involute; perianth tube splitting
+        in fruit.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Filaments with 2 threadlike appendages at base; perianth lobes usually less than
-        twice length of perianth tube; anthers obcordate, 3–6 mm</statement>
+      <description type="morphology">Filaments with 2 threadlike appendages at base; perianth lobes usually less than
+        twice length of perianth tube; anthers obcordate, 3–6 mm</description>
       <determination>1.  Brodiaea appendiculata</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Filaments without appendages at base, or appendages rudimentary;
-        perianth</statement>
+      <description type="morphology">Filaments without appendages at base, or appendages rudimentary;
+        perianth</description>
       <determination>2.  Brodiaea californica</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Staminodia broad, margins mostly involute or planate; perianth tube not splitting
-        in fruit.</statement>
+      <description type="morphology">Staminodia broad, margins mostly involute or planate; perianth tube not splitting
+        in fruit.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perianth tube ovoid to narrowly campanulate; staminodia curving inward
-        to-</statement>
+      <description type="morphology">Perianth tube ovoid to narrowly campanulate; staminodia curving inward
+        to-</description>
       <determination>3.  Brodiaea coronaria</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perianth tube funnelform; staminodia erect or recurved distally, distant
-        from</statement>
+      <description type="morphology">Perianth tube funnelform; staminodia erect or recurved distally, distant
+        from</description>
       <determination>4.  Brodiaea elegans</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Flowers 14–24(–33) mm.</statement>
+      <description type="morphology">Flowers 14–24(–33) mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Staminodia leaning inward, margins 1 / 4 involute, apex broad, hooded; perianth
-        tube cylindrical or campanulate.</statement>
+      <description type="morphology">Staminodia leaning inward, margins 1 / 4 involute, apex broad, hooded; perianth
+        tube cylindrical or campanulate.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Scape 0.5–20 cm; ovary green</statement>
+      <description type="morphology">Scape 0.5–20 cm; ovary green</description>
       <determination>14.  Brodiaea terrestris</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Scape 6–15 cm; ovary light purple</statement>
+      <description type="morphology">Scape 6–15 cm; ovary light purple</description>
       <determination>7.  Brodiaea jolonensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Staminodia erect, margins 1 / 2 – 3 / 4 involute ( 1 / 4 involute in B. stellaris
+      <description type="morphology">Staminodia erect, margins 1 / 2 – 3 / 4 involute ( 1 / 4 involute in B. stellaris
         ), apex notched (2-lobed in B. insignis ); perianth tube usually urceolate, sometimes
-        campanulate or narrowly cylindrical.</statement>
+        campanulate or narrowly cylindrical.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Filaments with 2 conspicuous, broad, white, abaxial appendages appearing
-        as</statement>
+      <description type="morphology">Filaments with 2 conspicuous, broad, white, abaxial appendages appearing
+        as</description>
       <determination>13.  Brodiaea stellaris</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Filaments lacking broad white appendages, or appendages narrow and
-        inconspicuous.</statement>
+      <description type="morphology">Filaments lacking broad white appendages, or appendages narrow and
+        inconspicuous.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Perianth tube not constricted above ovary; staminodia margins 3 / 4
-        involute</statement>
+      <description type="morphology">Perianth tube not constricted above ovary; staminodia margins 3 / 4
+        involute</description>
       <determination>6.  Brodiaea insignis</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Perianth tube slightly to strongly constricted above ovary, staminodia margins 1 /
-        2 – 3 / 4 involute.</statement>
+      <description type="morphology">Perianth tube slightly to strongly constricted above ovary, staminodia margins 1 /
+        2 – 3 / 4 involute.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Anthers obcordate</statement>
+      <description type="morphology">Anthers obcordate</description>
       <determination>11.  Brodiaea pallida</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Anthers linear.</statement>
+      <description type="morphology">Anthers linear.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Scape 2–10 cm; inner perianth lobes 5–7 mm wide; style 5–6</statement>
+      <description type="morphology">Scape 2–10 cm; inner perianth lobes 5–7 mm wide; style 5–6</description>
       <determination>9.  Brodiaea minor</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Scape 10–25 cm; inner perianth lobes 4–5 mm wide; style 7–9 mm</statement>
+      <description type="morphology">Scape 10–25 cm; inner perianth lobes 4–5 mm wide; style 7–9 mm</description>
       <determination>12.  Brodiaea purdyi</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

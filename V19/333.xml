@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CHONDRILLA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>L. D. Gottlieb</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CHONDRILLA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 796. 1753</place_in_publication>
@@ -12,17 +18,13 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 348. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus CHONDRILLA;</taxon_hierarchy>
-  <etymology>[Name used by Dioscorides for plant that exudes milky juice or gum]</etymology>
-  <common_name>Gum or Spanish succory</common_name>
-  <author>L. D. Gottlieb</author>
-  <description>Perennials, 40–150 cm; taprooted. Stems 1–6, erect or ascending, much branched, basally setose, distally glabrous. Leaves basal and cauline; petiolate (basal and proximal cauline, petioles winged); blades (at least basal) oblanceolate, pinnatifid (often runcinate) or coarsely and irregularly toothed (apices acute; distal cauline reduced, entire). Heads (terminal and axillary) usually borne singly (sometimes clustered along stems and branches). Peduncles (nearly 0) not inflated, not bracteate. Calyculi of 3–4, minute bractlets. Involucres cylindric, 2.5–5 mm diam. Phyllaries 5–9 in ± 1 series, linear-lanceolate, equal. Receptacles pitted, glabrous, epaleate. Florets 7–15; corollas (soon withering) yellow. Cypselae tan to black, nearly cylindric, beaks slender or stout, ribs 5+ (with alternating grooves), faces glabrous; pappi persistent (on expanded discs at tips of beaks), of 40–50+, distinct, white, smooth bristles in 1 series. x = 5.</description>
-  <number_of_infrataxa>Species ca. 25 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus CHONDRILLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Name used by Dioscorides for plant that exudes milky juice or gum]</other_info_on_name>
+  </taxon_identification>
+  <number>38.</number>
+  <other_name type="common_name">Gum or Spanish succory</other_name>
+  <discussion>Species ca. 25 (1 in the flora):</discussion>
   <references>
     <reference>Heap, J. W. 1993. Control of rush skeletonweed (Chondrilla juncea) with herbicides. Weed Technol. 7: 954–959.</reference>
   </references>
-</treatment>
-
+</bio:treatment>

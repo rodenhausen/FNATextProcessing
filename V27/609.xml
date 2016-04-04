@@ -1,80 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Paraleucobryum</genus_name>
-    <species_name>longifolium</species_name>
-    <species_authority>(Ehrhart ex Hedwig) Loeske</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Paraleucobryum</taxon_name>
+    <taxon_name rank="species" authority="(Ehrhart ex Hedwig) Loeske" date="unknown">longifolium</taxon_name>
     <place_of_publication>
       <publication_title>Hedwigia</publication_title>
       <place_in_publication>47: 171. 1908,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>longifolium</species_name>
-    <species_authority>Ehrhart ex Hedwig</species_authority>
+    <taxon_hierarchy>genus Paraleucobryum;species longifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Ehrhart ex Hedwig" date="unknown">longifolium</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>130. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>canadensis</species_name>
-    <species_authority>Kindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>serratum</species_name>
-    <species_authority>Kindberg</species_authority>
-  </TaxonIdentification>
-  <description>Plants whitish green to grayish green, sometimes yellowish, lighter in color at
-        leaf bases. Stems 1–4(–7) cm. Leaves spreading, usually falcate-secund, 4–8 × 0.2–0.8 mm,
-        margins usually serrulate in distal half; costa covering 1/2–2/3 of leaf base, with
-        longitudinal striations (ridges), appearing as rows of teeth at high magnifications, on
-        abaxial surface, especially conspicuous in distal half, in cross section with adaxial
-        hyalocysts, median chlorocysts and abaxial hyalocysts with scattered chlorocysts in some
-        abaxial cells. Seta 8–20 mm. Capsule 1.5–3 mm; operculum 1–2 mm. Spores 22–35
-        µm.</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Commonly on soil over noncalcareous boulders and cliffs, sometimes on tree trunks,
-    stumps, and rotten logs</habitat>
-  <elevation>moderate to high (400–2900 m)</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species longifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="Kindberg" date="unknown">canadensis</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species canadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Kindberg" date="unknown">serratum</taxon_name>
+    <taxon_hierarchy>genus Dicranum;species serratum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Paraleucobryum longifolium is best distinguished by its 4–8 mm, whitish green to
         grayish green, glossy leaves that are falcate-secund, particularly at stem tips, slenderly
         subulate with margins usually serrulate in distal half. The costa has conspicuous fine
@@ -108,4 +68,4 @@
         for this flora because I believe that a detailed study of the P. longifolium-P. sauteri
         complex is necessary, especially in regard to the plants from the western part of the
         continent.</discussion>
-</treatment>
+</bio:treatment>

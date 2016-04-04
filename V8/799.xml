@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>viscida</species_name>
-    <species_authority>Parry</species_authority>
-    <subspecies_name>pulchella</subspecies_name>
-    <subspecies_authority>(Howell) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">viscida</taxon_name>
+    <taxon_name rank="subspecies" authority="(Howell) P. V. Wells" date="unknown">pulchella</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>19: 204.  1968,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pulchella</species_name>
-    <species_authority>Howell</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species viscida;subspecies pulchella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">pulchella</taxon_name>
     <place_of_publication>
       <publication_title>Flora N.W. Amer.,</publication_title>
       <place_in_publication>416.  1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>oblongifolia</species_name>
-    <species_authority>Howell</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>serpenticola</species_name>
-    <species_authority>Roof</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>viscida</species_name>
-    <variety_name>oblongifolia</variety_name>
-    <variety_authority>(Howell) J. E. Adams ex McMinn</variety_authority>
-  </TaxonIdentification>
-  <description>Twigs glabrous or sparsely short-hairy near inflorescence.  Leaf blades: margins entire, surfaces smooth, glabrous.  Ovaries rough, densely glandular-hairy, viscid.  Fruits rough, densely glandular-hairy, viscid.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral, open forests</habitat>
-  <elevation>100–1200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species pulchella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">oblongifolia</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species oblongifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Roof" date="unknown">serpenticola</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species serpenticola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">viscida</taxon_name>
+    <taxon_name rank="variety" authority="(Howell) J. E. Adams ex McMinn" date="unknown">oblongifolia</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species viscida;variety oblongifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19b.</number>
   <discussion>Subspecies pulchella occurs in the North Coast Ranges, northward into Oregon, usually restricted to serpentine soils.</discussion>
-</treatment>
+</bio:treatment>

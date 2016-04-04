@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Camassia</genus_name><species_name>leichtlinii</species_name><species_authority>(Baker) S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>20: 376. 1885</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Leichtlin camas</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Chlorogalum</genus_name><species_name>leichtlinii</species_name><species_authority>Baker</species_authority><place_of_publication><publication_title>Gard. Chron., n. s. </publication_title><place_in_publication>1: 689. 1874</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Camassia</genus_name><species_name>esculenta</species_name><species_authority>Lindley</species_authority><variety_name>leichtlinii</variety_name><variety_authority>(Baker) Baker</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Quamasia</genus_name><species_name>leichtlinii</species_name><species_authority>(Baker) Coville</species_authority></TaxonIdentification><description>Bulbs usually solitary, ovoid, 1.5–3 cm diam. Leaves 3–9, 2–6 dm × 5–25 mm. Inflorescences 20–130 cm; sterile bracts 0, bracts subtending flowers usually shorter than pedicel. Flowers actinomorphic; tepals strongly connivent over capsules after anthesis, deciduous as capsules develop, bluish violet to bright blue or creamy white, each 5-, 7-, or 9-veined, 20–40 × 4–10 mm; anthers yellow, 4–7 mm; fruiting pedicel spreading-erect, 15–50 mm. Capsules often deciduous from pedicel, dull green, ovoid to ellipsoid, 10–25 × 6–12 mm. Seeds 6–12 per locule. 2n = 30.</description><number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa><global_distribution>w United States and Canada.</global_distribution><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="(Baker) S. Watson" date="unknown">leichtlinii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>20: 376. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Camassia;species leichtlinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chlorogalum</taxon_name>
+    <taxon_name rank="species" authority="Baker" date="unknown">leichtlinii</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Chron., n. s.</publication_title>
+      <place_in_publication>1: 689. 1874</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chlorogalum;species leichtlinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">esculenta</taxon_name>
+    <taxon_name rank="variety" authority="(Baker) Baker" date="unknown">leichtlinii</taxon_name>
+    <taxon_hierarchy>genus Camassia;species esculenta;variety leichtlinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quamasia</taxon_name>
+    <taxon_name rank="species" authority="(Baker) Coville" date="unknown">leichtlinii</taxon_name>
+    <taxon_hierarchy>genus Quamasia;species leichtlinii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Leichtlin camas</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perianth always creamy white</statement>
+      <description type="morphology">Perianth always creamy white</description>
       <determination>2a.  Camassia leichtlinii subsp. leichtlinii</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perianth usually bluish violet to bright blue, occasionally white</statement>
+      <description type="morphology">Perianth usually bluish violet to bright blue, occasionally white</description>
       <determination>2b.  Camassia leichtlinii subsp. suksdorfii</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

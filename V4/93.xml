@@ -1,70 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>9c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>laevis</species_name>
-        <species_authority>(Bentham) Curran</species_authority>
-        <variety_name>retrorsa</variety_name>
-        <variety_authority>(A. Heller) Jepson</variety_authority>
-        <place_of_publication>
-            <publication_title>Man. Fl. Pl. Calif.,</publication_title>
-            <place_in_publication>340. 1923</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>retrorsa</species_name>
-        <species_authority>A. Heller</species_authority>
-        <place_of_publication>
-            <publication_title>Muhlenbergia </publication_title>
-            <place_in_publication>2: 193. 1906</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Hesperonia</genus_name>
-        <species_name>retrorsa</species_name>
-        <species_authority>(A. Heller) Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>bigelovii</species_name>
-        <species_authority>A. Gray</species_authority>
-        <variety_name>retrorsa</variety_name>
-        <variety_authority>(A. Heller) Munz</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>californica</species_name>
-        <species_authority>A. Gray</species_authority>
-        <variety_name>retrorsa</variety_name>
-        <variety_authority>(A. Heller) Jepson</variety_authority>
-    </TaxonIdentification>
-    <description>Stems usually many, clumped, often glabrous or glabrate basally, sparsely to
-        densely retrorse-puberulent distally. Leaf blades 0.5–3.5 × 1–3.5 cm. Inflorescences cymose,
-        usually broad; branches ± equal throughout; involucres 5–7 mm; bracts 60–70% connate, lobes
-        ovate-triangular orovate-oblong, base often 70–100% of height, apex obtuse or acute.
-        Flowers: perianth usually white, (rarely white tinged with pink at base, or pale pink).
-        Fruits gray-brown, dark charcoal brown, often dark mottled, often faintly marked with 10
-        paler longitudinal lines, ellipsoid, obovoid, or almost spheric, occasionally wider than
-        long, 3.5–5 × 2.6–4 mm. 2n = 62, 64, 66.</description>
-    <phenology>late winter</phenology>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>desert brushlands</habitat>
-    <habitat>banks</habitat>
-    <elevation>100–2000 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Nev.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Utah</us_distribution>
-    <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Curran" date="unknown">laevis</taxon_name>
+    <taxon_name rank="variety" authority="(A. Heller) Jepson" date="unknown">retrorsa</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. Fl. Pl. Calif.,</publication_title>
+      <place_in_publication>340. 1923</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Mirabilis;species laevis;variety retrorsa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">retrorsa</taxon_name>
+    <place_of_publication>
+      <publication_title>Muhlenbergia</publication_title>
+      <place_in_publication>2: 193. 1906</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Mirabilis;species retrorsa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperonia</taxon_name>
+    <taxon_name rank="species" authority="(A. Heller) Standley" date="unknown">retrorsa</taxon_name>
+    <taxon_hierarchy>genus Hesperonia;species retrorsa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bigelovii</taxon_name>
+    <taxon_name rank="variety" authority="(A. Heller) Munz" date="unknown">retrorsa</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species bigelovii;variety retrorsa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(A. Heller) Jepson" date="unknown">retrorsa</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species californica;variety retrorsa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9c.</number>
+</bio:treatment>

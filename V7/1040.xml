@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) A. Gray" date="unknown">didymocarpa</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">didymocarpa</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species didymocarpa;subspecies didymocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="Blankinship" date="unknown">macrantha</taxon_name>
+    <taxon_hierarchy>genus Physaria;species macrantha;</taxon_hierarchy>
+  </taxon_identification>
   <number>22a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>didymocarpa</species_name>
-    <species_authority>(Hooker) A. Gray</species_authority>
-    <subspecies_name>didymocarpa</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>macrantha</species_name>
-    <species_authority>Blankinship</species_authority>
-  </TaxonIdentification>
-  <description>Trichomes somewhat spreading (on herbage), loose and spreading (on fruits). Basal leaves: blade margins repand to dentate. Fruits moderately inflated, (firm); ovules 8 per ovary. 2n = 16, 24, 56?</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>gravel bars</habitat>
-  <habitat>steep shale outcrops</habitat>
-  <habitat>rocky flats</habitat>
-  <habitat>gravelly prairies</habitat>
-  <habitat>talus slopes</habitat>
-  <habitat>dry hillsides</habitat>
-  <habitat>road cuts</habitat>
-  <habitat>mountains and foothills</habitat>
-  <elevation>500–3100 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+</bio:treatment>

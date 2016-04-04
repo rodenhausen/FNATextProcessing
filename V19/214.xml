@@ -1,95 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Centaurea</genus_name>
-    <species_name>nigrescens</species_name>
-    <species_authority>Willdenow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">nigrescens</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>3: 2288. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Centaurea;species nigrescens;</taxon_hierarchy>
-  <common_name>Tyrol or short-fringed or Vochin knapweed</common_name>
-  <common_name>centaurée noirâtre</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>dubia</species_name>
-    <species_authority>Suter</species_authority>
-    <subspecies_name>nigrescens</subspecies_name>
-    <subspecies_authority>(Willdenow) Hayek</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>dubia</species_name>
-    <subspecies_name>vochinensis</subspecies_name>
-    <subspecies_authority>(Bernhardi ex Reichenbach) Hayek</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>jacea</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>nigrescens</subspecies_name>
-    <subspecies_authority>(Willdenow) Celakovsky</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>transalpina</species_name>
-    <species_authority>Schleicher ex de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>vochinensis</species_name>
-    <species_authority>Bernhardi ex Reichenbach</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 30–150 cm. Stems 1–few, erect or ascending, openly branched distally, villous to scabrous with septate hairs and loosely tomentose, ± glabrate. Leaves: basal and proximal cauline, petiolate, blades oblanceolate or elliptic, 5–25 cm, margins entire or shallowly dentate to irregularly pinnately lobed; distal cauline sessile, not decurrent, blades linear to lanceolate, gradually smaller, entire or dentate. Heads radiant or discoid, in few-headed corymbiform arrays, borne on leafy-bracted peduncles. Involucres 15–l8 mm, subcylindric to ovoid or campanulate, usually longer than wide, even when pressed. Principal phyllaries: bodies lanceolate to ovate, loosely tomentose or glabrous, usually not fully covered by narrow appendages, these erect, overlapping, dark brown to black, flat, margins pectinately dissected into 6–8 pairs of wiry lobes. Inner phyllaries: tips truncate, irregularly dentate or lobed. Florets 40–100+, all fertile or peripheral sterile; corollas purple (rarely white), those of sterile florets ± expanded and exceeding corollas of fertile florets, those of fertile florets 15–18 mm. Cypselae tan, 2.5–3 mm, finely hairy; pappi 0 or of many unequal, sometimes caducous bristles 0.5–1 mm. 2n = 22 (Hungary), 44 (Hungary; Italy).</description>
-  <phenology_info>
-    <text>Flowering summer–fall (Jun–Oct).</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>roadsides , fields , waste areas ;</text>
-    <habitat>roadsides</habitat>
-    <habitat>fields</habitat>
-    <habitat>waste areas</habitat>
-  </habitat_info>
-  <elevation>0–1000 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Centaurea;species nigrescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Suter" date="unknown">dubia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Willdenow) Hayek" date="unknown">nigrescens</taxon_name>
+    <taxon_hierarchy>genus Centaurea;species dubia;subspecies nigrescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">dubia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Bernhardi ex Reichenbach) Hayek" date="unknown">vochinensis</taxon_name>
+    <taxon_hierarchy>genus Centaurea;species dubia;subspecies vochinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Schleicher ex de Candolle" date="unknown">jacea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Willdenow) Celakovsky" date="unknown">nigrescens</taxon_name>
+    <taxon_hierarchy>genus Centaurea;species jacea;subspecies nigrescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Bernhardi ex Reichenbach" date="unknown">transalpina</taxon_name>
+    <taxon_hierarchy>genus Centaurea;species transalpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vochinensis</taxon_name>
+    <taxon_hierarchy>genus Centaurea;species vochinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Tyrol or short-fringed or Vochin knapweed</other_name>
+  <other_name type="common_name">centaurée noirâtre</other_name>
   <discussion>Tyrol knapweed is considered to be a noxious weed in Washington and Oregon.</discussion>
   <discussion>In recent years there has been much controversy regarding the name(s) to be applied to the North American Tyrol knapweeds. The names Centaurea vochinensis, C. nigrescens, and C. dubia have all been used in twentieth-century North American floras, and J. T. Kartesz and C. A. Meacham (1999) have accepted C. transalpina as well. R. J. Moore (1972) tentatively accepted two species, C. nigrescens and C. dubia, placing C. transalpina and C. vochinensis as synonyms through application beneath both species. Moore discussed the considerable similarities and practical difficulties of differentiating the taxa. H. A. Gleason and A. Cronquist (1991) recognized C. dubia as including C. nigrescens and C. vochinensis. E. G. Voss (1972–1996, vol. 3) recognized C. nigrescens as including C. dubia and C. vochinensis. Kartesz and Meacham accept C. nigrescens as a species, including C. vochinensis; they also accept C. transalpina with C. dubia as a synonym. In our investigation of the North American Tyrol knapweeds we have not been able to distinguish more than one (admittedly variable) entity. At the species level the correct name for this taxon is Centaurea nigrescens.</discussion>
   <discussion>Centaurea dubia Suter, sometimes applied to plants that belong here, is not a valid name.</discussion>
-</treatment>
-
+</bio:treatment>

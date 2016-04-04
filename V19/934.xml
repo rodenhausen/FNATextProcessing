@@ -1,66 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctanthemum</genus_name>
-    <species_name>arcticum</species_name>
-    <species_authority>(Linnaeus) Tzvelev</species_authority>
-    <subspecies_name>polare</subspecies_name>
-    <subspecies_authority>(Hultén) Tzvelev</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Tzvelev" date="unknown">arcticum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hultén) Tzvelev" date="unknown">polare</taxon_name>
     <place_of_publication>
       <publication_title>in A. I. Tolmatchew, Fl. Arct. URSS</publication_title>
       <place_in_publication>10: 116. 1987</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Arctanthemum;species arcticum;subspecies polare;</taxon_hierarchy>
-  <common_name>Polar daisy</common_name>
-  <common_name>chrysanthème polaire</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>arcticum</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>polare</subspecies_name>
-    <subspecies_authority>Hultén</subspecies_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Arctanthemum;species arcticum;subspecies polare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">arcticum</taxon_name>
+    <taxon_name rank="subspecies" authority="Hultén" date="unknown">polare</taxon_name>
     <place_of_publication>
       <publication_title>Svensk Bot. Tidskr.</publication_title>
       <place_in_publication>43: 776. 1949</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctanthemum</genus_name>
-    <species_name>hultenii</species_name>
-    <species_authority>(Á. Löve &amp; D. Löve) Tzvelev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dendranthema</genus_name>
-    <species_name>arcticum</species_name>
-    <species_authority>(Linnaeus) Tzvelev</species_authority>
-    <subspecies_name>polare</subspecies_name>
-    <subspecies_authority>(Hultén) Heywood</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dendranthema</genus_name>
-    <species_name>hultenii</species_name>
-    <species_authority>(Á. Löve &amp; D. Löve) Tzvelev</species_authority>
-  </TaxonIdentification>
-  <description>Plants (2.5–)5–20(–26) cm (more in fruit). Stems not branched. Leaves mostly basal (cauline to midstem at most); basal and proximal: petioles 4–50 mm, blades cuneate to spatulate, 6–30 × 4–16 mm, mostly 0–3-lobed; cauline: petioles 0 or 10–25 mm, blades 4–23 × 1–8 mm. Heads 1(–2), 13–20 mm diam. (flattened, excluding rays). Peduncular bracts 6–12 × 1 mm. Ray laminae (7–)9–18(–21) × (1.5–)1.8–4.3 mm, veins 4–5(–12). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open , coastal , wet , brackish habitats on clay , sand , gravel , or rocks , beaches near tideline , coastal dunes , beach meadows , carex salt marshes , estuarine marshes and flood plains , coastal tundra ;</text>
-    <habitat>open , coastal , wet , brackish habitats on clay , sand , gravel , or rocks , beaches near tideline , coastal dunes , beach meadows , carex salt marshes , estuarine marshes and flood plains , coastal tundra</habitat>
-  </habitat_info>
-  <elevation>0–10 m;</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>arctic Russia.</global_distribution>
+    <taxon_hierarchy>genus Chrysanthemum;species arcticum;subspecies polare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Á. Löve &amp; D. Löve) Tzvelev" date="unknown">hultenii</taxon_name>
+    <taxon_hierarchy>genus Arctanthemum;species hultenii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dendranthema</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Tzvelev" date="unknown">arcticum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hultén) Heywood" date="unknown">polare</taxon_name>
+    <taxon_hierarchy>genus Dendranthema;species arcticum;subspecies polare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dendranthema</taxon_name>
+    <taxon_name rank="species" authority="(Á. Löve &amp; D. Löve) Tzvelev" date="unknown">hultenii</taxon_name>
+    <taxon_hierarchy>genus Dendranthema;species hultenii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">Polar daisy</other_name>
+  <other_name type="common_name">chrysanthème polaire</other_name>
   <discussion>In North America, subsp. polare ranges more or less continuously from St. Lawrence Island and the Seward Peninsula (Alaska) in the west, to the Ungava Peninsula (Quebec) in the east, along the low arctic continental coast, the coast of Hudson Bay, and the southern coast of the lower islands of the Arctic Archipelago.</discussion>
-</treatment>
-
+</bio:treatment>

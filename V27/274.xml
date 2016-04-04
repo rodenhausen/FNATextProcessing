@@ -1,42 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Discelium</genus_name>
-    <species_name>nudum</species_name>
-    <species_authority>(Dickson) Bridel</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Discelium</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) Bridel" date="unknown">nudum</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 366.  1826,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bryum</genus_name>
-    <species_name>nudum</species_name>
-    <species_authority>Dickson</species_authority>
+    <taxon_hierarchy>genus Discelium;species nudum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryum</taxon_name>
+    <taxon_name rank="species" authority="Dickson" date="unknown">nudum</taxon_name>
     <place_of_publication>
       <publication_title>Fasc. Pl. Crypt. Brit.</publication_title>
       <place_in_publication>4: 7, plate 10, fig. 15.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants gregarious to widely spaced, obvious only when sporophytes present on persistent protonema.</description>
-  <phenology>Capsules mature spring.</phenology>
-  <habitat>Moist silty to fine sandy banks of somewhat shaded sites;</habitat>
-  <elevation>low to moderate elevations (5–1500 m);</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Bryum;species nudum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Discelium nudum is a very distinctive species: red-brown peristome on subspherical to elongate horizontal capsule arise on twisted seta from reduced brownish gametophyte and persistent green protonema making it unlike any other North American moss.  On the Pacific coast in southwestern British Columbia and adjacent Washington, the sporophyte is often 4–5 times the size noted in the rest of its world range.  The capsules are often elongate rather than subspheric and setae can exceed 3 cm, compared to less than 1 cm elsewhere in its range.</discussion>
-</treatment>
+</bio:treatment>

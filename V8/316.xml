@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>integra</species_name>
-    <species_authority>(Medikus) Kuntze</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="(Medikus) Kuntze" date="unknown">integra</taxon_name>
     <place_of_publication>
       <publication_title>Revis. Gen. Pl.</publication_title>
       <place_in_publication>1: 229. 1891,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>integra</species_name>
-    <species_authority>Medikus</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Kalanchoë;species integra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="Medikus" date="unknown">integra</taxon_name>
     <place_of_publication>
       <publication_title>Hist. &amp; Commentat. Acad. Elect. Sci. Theod.-Palat.</publication_title>
       <place_in_publication>3: 200, plate 9. 1775</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>coccinea</species_name>
-    <species_authority>Welwitsch ex Oliver</species_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous or glandular-pubescent distally. Stems 3–20 dm. Leaf blades
-        obovate, 5–20 cm, margins shallowly and irregularly crenate, apex obtuse. Cymes often lax,
-        compound, glandular-pubescent. Pedicels 0.5–2 cm. Flowers fragrant; sepals ascending,
-        triangular-lanceolate, 4–10 mm; corolla yellow or red-orange, flask-shaped (inflated on
-        abaxial side), tube 15–16 mm, lobes spreading, 8–10 mm.</description>
-  <phenology>Flowering winter</phenology>
-  <habitat>Hummocks, waste places, roadsides</habitat>
-  <elevation>0–50 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>South America (Brazil)</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Cotyledon;species integra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="Welwitsch ex Oliver" date="unknown">coccinea</taxon_name>
+    <taxon_hierarchy>genus Kalanchoë;species coccinea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Kalanchoë integra is sometimes included in K. laciniata. In any case it is a
         difficult complex needing more study.</discussion>
-</treatment>
+</bio:treatment>

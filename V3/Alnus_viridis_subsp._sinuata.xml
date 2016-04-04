@@ -1,72 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Alnus</genus_name>
-        <species_name>viridis</species_name>
-        <species_authority>(Villars) de Candolle</species_authority>
-        <subspecies_name>sinuata</subspecies_name>
-        <subspecies_authority>(Regel) A. Löve &amp; D. Löve</subspecies_authority>
-        <place_of_publication>
-            <publication_title> Univ. Colorado Stud., Ser. Biol. </publication_title>
-            <place_in_publication>17: 20. 1965</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Sitka alder</common_name>
-    <common_name> mountain alder</common_name>
-    <endemic>endemic</endemic>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>viridis</species_name>
-        <variety_name>(d) sinuata</variety_name>
-        <variety_authority>Regel</variety_authority>
-        <place_of_publication>
-            <publication_title>Bull. Soc. Imp. Naturalistes Moscou </publication_title>
-            <place_in_publication>38(3): 422. 1865</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>crispa</species_name>
-        <species_authority>(Aiton) Pursh</species_authority>
-        <subspecies_name>sinuata</subspecies_name>
-        <subspecies_authority>(Regel) Hultén</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>sinuata</species_name>
-        <species_authority>(Regel) Rydberg</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>sitchensis</species_name>
-        <species_authority>(Regel) Sargent</species_authority>
-    </TaxonIdentification>
-    <description>Shrubs, spreading, to 5(--10) m. Bark light gray to reddish brown; lenticels
-        inconspicuous. Leaf blade light or yellowish green, narrowly to broadly ovate, 4--10 × 3--8
-        cm, thin, papery, base rounded to cordate, margins flat, sharply and coarsely doubly
-        serrate, apex acuminate; surfaces abaxially glabrous to sparsely pubescent, lightly to
-        moderately resin-coated. Inflorescences: staminate catkins 2.5--13 cm. Infructescences
-        1.5--2.5 × 0.8--1.3 cm; peduncles 1--3 cm. 2n = 28.</description>
-    <phenology>Flowering spring</phenology>
-    <habitat> Along gravelly or rocky stream banks, lakeshores, and coasts, on moist rocky slopes,
-        outcrops, in open coniferous woodlands</habitat>
-    <elevation> 0--2500 m</elevation>
-    <ca_distribution> Alta.</ca_distribution>
-    <ca_distribution> B.C.</ca_distribution>
-    <ca_distribution> N.W.T.</ca_distribution>
-    <ca_distribution> Yukon</ca_distribution>
-    <us_distribution> Alaska</us_distribution>
-    <us_distribution> Calif.</us_distribution>
-    <us_distribution> Idaho</us_distribution>
-    <us_distribution> Mont.</us_distribution>
-    <us_distribution> Oreg.</us_distribution>
-    <us_distribution> Wash.</us_distribution>
-    <us_distribution> Wyo.</us_distribution>
-    <discussion>Alnus viridis subsp. sinuata is one of the first successional taxa to appear in the
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Villars) de Candolle" date="unknown">viridis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Regel) A. Löve &amp; D. Löve" date="unknown">sinuata</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Colorado Stud., Ser. Biol.</publication_title>
+      <place_in_publication>17: 20. 1965</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Alnus;species viridis;subspecies sinuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Aiton) Pursh" date="unknown">viridis</taxon_name>
+    <taxon_name rank="variety" authority="Regel" date="unknown">(d) sinuata</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Soc. Imp. Naturalistes Moscou</publication_title>
+      <place_in_publication>38(3): 422. 1865</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Alnus;species viridis;variety (d) sinuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Regel) Rydberg" date="unknown">crispa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Regel) Hultén" date="unknown">sinuata</taxon_name>
+    <taxon_hierarchy>genus Alnus;species crispa;subspecies sinuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Regel) Sargent" date="unknown">sinuata</taxon_name>
+    <taxon_hierarchy>genus Alnus;species sinuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">sitchensis</taxon_name>
+    <taxon_hierarchy>genus Alnus;species sitchensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7c.</number>
+  <other_name type="common_name">Sitka alder</other_name>
+  <other_name type="common_name">mountain alder</other_name>
+  <discussion>endemic</discussion>
+  <discussion>Alnus viridis subsp. sinuata is one of the first successional taxa to appear in the
         northwestern mountains following disruption of the mature vegetation. It often forms dense
         thickets on avalanche and talus slopes. Sitka alder differs from the two previous subspecies
         in its paper-thin, light or yellowish green, doubly serrate leaves.</discussion>
-    <discussion>The Bella Coola used Alnus viridis subsp. sinuata medicinally although D. E. Moerman
+  <discussion>The Bella Coola used Alnus viridis subsp. sinuata medicinally although D. E. Moerman
         (1986) did not specify the nature of the remedies.</discussion>
-</treatment>
+</bio:treatment>

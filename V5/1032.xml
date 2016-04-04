@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>26c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Rumex</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Rumex</subgenus_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><subgenus_name>Lapathum</subgenus_name><subgenus_authority>Miller</subgenus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Rumex</genus_name><section_name>Lapathum</section_name><section_authority>(Miller) Campderá</section_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Rumex</genus_name><subgenus_name>Lapathum</subgenus_name><subgenus_authority>(Miller) Rechinger f.</subgenus_authority></TaxonIdentification><description>Plants synoecious (rarely polygamodioecious or dioecious individuals occur in some species). Leaf blades variable, cuneate, truncate, rounded, or cordate at base, but never hastate or sagittate, unlobed or in some species with rounded basal lobes. Pedicels articulated near middle or in proximal part (sometimes articulation indistinct). Flowers normally bisexual or, sometimes, bisexual and unisexual (staminate and pistillate on same plant) within same inflorescence; outer tepals normally angled towards inner tepals, or sometimes spreading; inner tepals distinctly enlarged, always distinctly wider and longer than achene; tubercles present or absent.</description><number_of_infrataxa>Species at least 150 (53 in the flora):</number_of_infrataxa><global_distribution>nearly wordwide.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="subgenus" authority="Miller" date="unknown">Rumex</taxon_name>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Rumex;subgenus Rumex;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="(Miller) Rechinger f." date="unknown">Lapathum</taxon_name>
+    <taxon_hierarchy>subgenus Lapathum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="section" authority="(Miller) Campderá" date="unknown">Lapathum</taxon_name>
+    <taxon_hierarchy>genus Rumex;section Lapathum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Lapathum</taxon_name>
+    <taxon_hierarchy>genus Rumex;subgenus Lapathum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26c.</number>
+  <discussion>Species at least 150 (53 in the flora):</discussion>
+</bio:treatment>

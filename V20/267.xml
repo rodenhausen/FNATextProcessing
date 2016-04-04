@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>29a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Solidago</genus_name>
-        <species_name>arguta</species_name>
-        <species_authority>Aiton</species_authority>
-        <subspecies_name>arguta</subspecies_name>
-    </TaxonIdentification>
-    <description>cypselae glabrous or strigillose (at least distally)</description>
-    <number_of_infrataxa>Varieties 2 (2 in the flora)</number_of_infrataxa>
-    <global_distribution>e North America</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">arguta</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">arguta</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species arguta;subspecies arguta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29a.</number>
+  <discussion>Varieties 2 (2 in the flora)</discussion>
+</bio:treatment>

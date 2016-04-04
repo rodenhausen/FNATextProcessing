@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PHYSCOMITRELLA</genus_name>
-    <genus_authority>Bruch &amp; Schimper</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Bernard Goffinet</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Bruch &amp; Schimper" date="unknown">PHYSCOMITRELLA</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>1: 13.  1849  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Genus Physcomitrium and Latin -ella, diminutive]</etymology>
-  <author>Bernard Goffinet</author>
-  <description>Plants small, scattered to gregarious.  Stems 3–3.5 mm, erect, simple or forked.  Leaves somewhat crisped when dry, erect-spreading when moist, lanceolate, ovate-lanceolate, or obovate, plane to weakly concave, 2–2.5 mm; margins entire to serrulate distally; apices acuminate; costa single, extending 1/2–2/3 of the leaf length, occasionally slightly forked at apex, or percurrent; proximal laminal cells rectangular, distal cells short-rectangular to rhombic with narrow ends.  Sexual condition paroicous.  Seta erect, to 0.2 mm.  Capsule cleistocarpous, erect, immersed, symmetric, globose and apiculate, to 0.8 mm, wrinkled upon aging; exothecial cells irregular in shape, usually thin-walled; stomata with single guard cell, restricted to base of capsule, superficial; annulus none; operculum not differentiated, dehiscence irregular; peristome absent.  Calyptra conic-mitrate, not or slightly lobed, small, covering apiculus of capsule only, smooth.  Spores spherical to slightly elliptical, densely papillose to slightly spinulose.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>Asia (China, Japan, w Siberia)</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus PHYSCOMITRELLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Genus Physcomitrium and Latin -ella, diminutive]</other_info_on_name>
+  </taxon_identification>
+  <number>4.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
   <discussion>Physcomitrella is distinguished from other Funariaceae by the immersed capsule with irregular dehiscence, and the thin-walled, translucent exothecial cells.  The generic name implies a resemblance to Physcomitrium, which is named, however, for its large calyptra, unlike that of Physcomitrella.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Costa extending to at most 2/3 the length of the leaf</statement>
+      <description type="morphology">Costa extending to at most 2/3 the length of the leaf</description>
       <determination>1.   Physcomitrella readeri</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Costa extending to leaf apex</statement>
+      <description type="morphology">Costa extending to leaf apex</description>
       <determination>2.   Physcomitrella patens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

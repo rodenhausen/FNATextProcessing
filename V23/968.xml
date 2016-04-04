@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>403.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Carex</genus_name>
-        <species_name>frankii</species_name>
-        <species_authority>Kunth</species_authority>
-        <place_of_publication>
-            <publication_title>Enum. Pl.</publication_title>
-            <place_in_publication>2: 498. 1837</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>stenolepis</species_name>
-        <species_authority>Torrey</species_authority>
-        <place_of_publication>
-            <place_in_publication>1836</place_in_publication>
-            <other_info>not Lessing 1831</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>shortii</species_name>
-        <species_authority>Steudel</species_authority>
-    </TaxonIdentification>
-    <description>Plants cespitose, short-rhizomatous. Culms 18–80 cm. Leaves 2.5–11.5 mm wide,
-        sparingly scabrous. Spikes 3–7(–9), erect; lateral spikes pistillate with few staminate
-        flowers at base and rarely also at apex, narrowly elliptic, 12–50 × 7–13 mm; terminal spike
-        usually staminate, sometimes gynecandrous, pistillate, or abortive, 6–45 × 2–6 mm.
-        Pistillate scales narrow, with indistinct body, 3.6–9(–11) × 0.1–0.4 mm, apex with long,
-        scabrous awn exceeding perigynium. Staminate scales loosely to irregularly imbricate with
-        tips spreading, linear, 4.3–15 × 0.3–0.8 mm, apex with long, scabrous awn. Perigynia
-        horizontal, 3.5–6 × 1.4–2.6 mm, minutely pustulate; beak 1.3–2.2 mm, smooth. Achenes
-        obovoid, sides strongly concave, 1.4–2.1 × 1–1.4 mm, less than 2 times as long as wide;
-        style deciduous, straight or sinuous.</description>
-    <phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>wet meadows and woods</habitat>
-    <habitat>muddy margins of lakes and ponds</habitat>
-    <habitat>roadside ditches</habitat>
-    <elevation>0–1500 m;</elevation>
-    <ca_distribution>Ont.</ca_distribution>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>D.C.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Iowa</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>Nebr.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Carex frankii and the similar C. aureolensis are two of the most easily recognized
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">frankii</taxon_name>
+    <place_of_publication>
+      <publication_title>Enum. Pl.</publication_title>
+      <place_in_publication>2: 498. 1837</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species frankii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">stenolepis</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1836</place_in_publication>
+      <other_info_on_pub>not Lessing 1831</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carex;species stenolepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Steudel" date="unknown">shortii</taxon_name>
+    <taxon_hierarchy>genus Carex;species shortii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>403.</number>
+  <discussion>Carex frankii and the similar C. aureolensis are two of the most easily recognized
         species of sedge; they are identified by the approximate, erect pistillate spikes and the
         long-awned pistillate scales that exceed the perigynia bodies.</discussion>
-</treatment>
+</bio:treatment>

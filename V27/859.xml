@@ -1,48 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tortula</genus_name>
-    <species_name>guepinii</species_name>
-    <species_authority>(Bruch &amp; Schimper) Brotherus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="(Bruch &amp; Schimper) Brotherus" date="unknown">guepinii</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler and K. Prantl, Nat. Pflanzenfam.</publication_title>
       <place_in_publication>214[I,3]: 430. 1902,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Desmatodon</genus_name>
-    <species_name>guepinii</species_name>
-    <species_authority>Bruch &amp; Schimper</species_authority>
+    <taxon_hierarchy>genus Tortula;species guepinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmatodon</taxon_name>
+    <taxon_name rank="species" authority="Bruch &amp; Schimper" date="unknown">guepinii</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>2: 58, plate 133. 1843</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves ovate to short-elliptic, apex broadly acute, awned, margins recurved in mid
-        4/5 of leaf, usually bordered distally with 2–4 rows of smooth or less papillose, some-what
-        thicker-walled cells; costa excurrent in the awn, lacking an adaxial pad of cells, distally
-        narrow, 2–4 cells across the convex adaxial surface; distal laminal cells hexagonal, 16–19
-        µm wide, 1:1, papillose with 4–6 1- to 2-fid papillae. Sexual condition autoicous.
-        Sporophytes exerted. Seta 0.7–0.8 cm. Capsule stegocarpic, not systylius, cylindric, erect
-        and nearly straight, urn 1.2–1.4 mm; peristome ca. 500 µm, of 16 teeth, weakly twisted,
-        divided to below the middle, basal membrane to 75 µm high; operculum ca. 0.8 mm. Spores
-        13–18 µm, spheric, papillose.</description>
-  <phenology>Capsules mature spring.</phenology>
-  <elevation>low elevations;</elevation>
-  <habitat>Soil</habitat>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>sw Europe.</global_distribution>
+    <taxon_hierarchy>genus Desmatodon;species guepinii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
   <discussion>Tortula guepinii resembles T. hoppeana of montane and subarctic distribution in
         North America and elsewhere, but it is smaller, with leaves less than 2 mm, and cells of the
         leaf margin are distinctly less papillose at the apex. Tortula plinthobia of the
         southeastern and southwestern United States has distal laminal cells only 10–13 µm
         wide.</discussion>
-</treatment>
+</bio:treatment>

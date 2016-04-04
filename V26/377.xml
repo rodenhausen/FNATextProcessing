@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eremocrinum</genus_name><species_name>albomarginatum</species_name><species_authority>(M. E. Jones) M. E. Jones</species_authority><place_of_publication>
-    <publication_title>Zoë</publication_title>
-    <place_in_publication>4: 53. 1893</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Sand lily</common_name><common_name>lonely lily</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Hesperanthes</genus_name><species_name>albomarginata</species_name><species_authority>M. E. Jones</species_authority><place_of_publication><publication_title>Zoë </publication_title><place_in_publication>2: 251. 1891</place_in_publication></place_of_publication></TaxonIdentification><description>Plants 1.5–3.5(–4) dm. Leaves erect to spreading, 10–40 × 0.1–0.3 cm; sheaths (4–)5–8(–10) × 0.5–0.9 cm. Inflorescences: bracts thin, membranous and whitish or sometimes chartaceous and greenish, triangular to awl-shaped, 0.3–2 cm. Flowers numerous; perianth 1–2 cm, tube 0.4–0.8(–1) cm; anthers 2.5–3 mm; style 3–4 mm; pedicel erect, peglike, 1 mm, concealed by bracts. Capsules 0.4–0.6 cm. Seeds 2–2.5 mm.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>sandy flats</habitat><habitat>dunes</habitat><elevation>1300–1800 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Utah.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eremocrinum</taxon_name>
+    <taxon_name rank="species" authority="(M. E. Jones) M. E. Jones" date="unknown">albomarginatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Zoë</publication_title>
+      <place_in_publication>4: 53. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Eremocrinum;species albomarginatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperanthes</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">albomarginata</taxon_name>
+    <place_of_publication>
+      <publication_title>Zoë</publication_title>
+      <place_in_publication>2: 251. 1891</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hesperanthes;species albomarginata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Sand lily</other_name>
+  <other_name type="common_name">lonely lily</other_name>
+</bio:treatment>

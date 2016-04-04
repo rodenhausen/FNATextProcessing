@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Yucca</genus_name><species_name>faxoniana</species_name><species_authority>Sargent</species_authority><place_of_publication>
-    <publication_title>Man. Trees,</publication_title>
-    <place_in_publication>121. 1905</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Faxon yucca</common_name><common_name>Spanish dagger</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Samuela</genus_name><species_name>faxoniana</species_name><species_authority>Trelease</species_authority></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Yucca</genus_name><species_name>australis</species_name><species_authority>Trelease</species_authority><place_of_publication><place_in_publication>1893</place_in_publication><other_info>not (Engelmann) Trelease 1902</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Yucca</genus_name><species_name>macrocarpa</species_name><species_authority>Coville</species_authority><place_of_publication><place_in_publication>1893</place_in_publication><other_info>not Engelmann 1881</other_info></place_of_publication></TaxonIdentification><description>Plants solitary, erect, arborescent, 2.5–6.9 m, including inflorescence. Stems 1, simple or with 2–4 branches, to 5.1 m, average diam. 32 cm. Leaf blade erect, yellowish green, 43–115 × 3.1–8.4 cm, rigid, smooth, glabrous, margins conspicuous, curling, filiferous, brown. Inflorescences erect, paniculate, often with proximal branches arising beyond rosettes, broadly ovoid, 5.5–25.5 dm, glabrous; peduncle 0.3–0.6 m. Flowers pendent, 4.4–12.4 cm; perianth campanulate; tepals connate basally into floral cup 1–32 mm, white to greenish white, ovate, 3.9–10.8 cm; filaments averaging 2.2 cm from base of tepals, glabrous; anthers 1–6 mm; pistil 2.8–8 × 0.7 cm; ovary ca. 4.5–5 times longer than wide; style 4.5 mm; stigmas distinct. Fruits pendent, baccate, indehiscent, elongate, 3.6–13.6 × 1.8–3.6 cm, fleshy, succulent. Seeds black, 7.7 mm diam., 2.9 mm thick, smooth.</description><phenology>winter</phenology><phenology>dec</phenology><phenology>jan</phenology><phenology>feb</phenology><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>rocky slopes</habitat><habitat>flat plains</habitat><elevation>800–2100 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Chihuahua).</global_distribution><global_distribution>Mexico (Coahuila).</global_distribution><discussion>Trelease described the genus Samuela based on two species, Samuela faxoniana and S. carnerosana. K. H. Clary’s DNA study (1997) shows them to be closely related but genetically distinct.</discussion><discussion>Yucca faxoniana is often used for landscaping in arid and semiarid regions of Texas and New Mexico.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Sargent" date="unknown">faxoniana</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. Trees,</publication_title>
+      <place_in_publication>121. 1905</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Yucca;species faxoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Samuela</taxon_name>
+    <taxon_name rank="species" authority="Trelease" date="unknown">faxoniana</taxon_name>
+    <taxon_hierarchy>genus Samuela;species faxoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Trelease" date="unknown">australis</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1893</place_in_publication>
+      <other_info_on_pub>not (Engelmann) Trelease 1902</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Coville" date="unknown">macrocarpa</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1893</place_in_publication>
+      <other_info_on_pub>not Engelmann 1881</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Faxon yucca</other_name>
+  <other_name type="common_name">Spanish dagger</other_name>
+  <discussion>Trelease described the genus Samuela based on two species, Samuela faxoniana and S. carnerosana. K. H. Clary’s DNA study (1997) shows them to be closely related but genetically distinct.</discussion>
+  <discussion>Yucca faxoniana is often used for landscaping in arid and semiarid regions of Texas and New Mexico.</discussion>
+</bio:treatment>

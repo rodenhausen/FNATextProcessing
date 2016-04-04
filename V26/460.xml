@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>45a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allium</genus_name><species_name>fimbriatum</species_name><species_authority>S. Watson</species_authority><variety_name>fimbriatum</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>anserinum</species_name><species_authority>Jepson</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>fimbriatum</species_name><variety_name>aboriginum</variety_name><variety_authority>Jepson</variety_authority></TaxonIdentification><description>Scape 10–20 cm × 0.5–1 mm. Umbel 6–35-flowered. Flowers: tepals dark reddish purple, apex ± spreading or recurved at tip; ovary crest process margins denticulate to laciniate. 2n = 14.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>open clay (including serpentine) slopes and flats</habitat><elevation>300–2700 m;</elevation><us_distribution>Calif.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">fimbriatum</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">fimbriatum</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Allium;species fimbriatum;variety fimbriatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">anserinum</taxon_name>
+    <taxon_hierarchy>genus Allium;species anserinum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fimbriatum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">aboriginum</taxon_name>
+    <taxon_hierarchy>genus Allium;species fimbriatum;variety aboriginum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>45a.</number>
+</bio:treatment>

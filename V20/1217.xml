@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>amplectens</species_name><species_authority>A. Gray</species_authority><variety_name>holmii</variety_name><variety_authority>(Greene) H. D. Harrington</variety_authority><place_of_publication>
-    <publication_title>Man. Pl. Colorado,</publication_title>
-    <place_in_publication>641. 1954</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Senecio</genus_name><species_name>holmii</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Pittonia </publication_title><place_in_publication>4: 120. 1900</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ligularia</genus_name><species_name>holmii</species_name><species_authority>(Greene) W. A. Weber</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>seridophyllus</species_name><species_authority>Greene</species_authority></TaxonIdentification><description>Plants (5–)10–20(–30) cm (herbage glabrous or glabrate at flowering). Stems usually clustered (arching upward). Leaves mostly basal and proximal; mid and distal leaves reduced; herbage glabrous or at least glabrate at maturity. Phyllaries green or light purplish, glabrous.</description><habitat>loose, rocky soil at or above timberline</habitat><elevation>2900–4200 m;</elevation><us_distribution>Colo.</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Utah</us_distribution><us_distribution>Wyo.</us_distribution><discussion>Plants of var. holmii from the Ruby Mountains, Nevada, have heads that are less prominently nodding and ray corollas with shorter laminae than are usual for plants of the variety from elsewhere; those plants are extremes within the variation for the variety as it is circumscribed here.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">amplectens</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) H. D. Harrington" date="unknown">holmii</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. Pl. Colorado,</publication_title>
+      <place_in_publication>641. 1954</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species amplectens;variety holmii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">holmii</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>4: 120. 1900</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Senecio;species holmii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ligularia</taxon_name>
+    <taxon_name rank="species" authority="(Greene) W. A. Weber" date="unknown">holmii</taxon_name>
+    <taxon_hierarchy>genus Ligularia;species holmii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">seridophyllus</taxon_name>
+    <taxon_hierarchy>genus S.;species seridophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9b.</number>
+  <discussion>Plants of var. holmii from the Ruby Mountains, Nevada, have heads that are less prominently nodding and ray corollas with shorter laminae than are usual for plants of the variety from elsewhere; those plants are extremes within the variation for the variety as it is circumscribed here.</discussion>
+</bio:treatment>

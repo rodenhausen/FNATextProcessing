@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>breweri</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">breweri</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>23: 260. 1888</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>breweri</species_name>
-    <variety_name>sublaxa</variety_name>
-    <variety_authority>Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; (cespitose, grayish pubescent); caudex branched (sometimes covered with persistent leaf bases, branches short, compact); sometimes scapose. Stems unbranched, (0.1–)0.2–1(–1.5) dm, pubescent throughout, trichomes stalked, 4–10-rayed, 0.1–0.3 mm. Basal leaves rosulate; petiolate; petiole base ciliate, margin not ciliate, (trichomes simple and 2-rayed, 0.3–0.8 mm); blade oblanceolate to obovate, (0.3–)0.4–1.5(–2.5) cm × 1.5–3(–5) mm, margins usually entire, rarely dentate, surfaces densely pubescent with stalked, 4–10-rayed, stellate trichomes, 0.1–0.2 mm (sometimes 1 or more rays spurred). Cauline leaves 0–3(–6); sessile; blade oblong or lanceolate to ovate, margins entire (sometimes ciliate at base), surfaces usually pubescent as basal. Racemes (5–)7–18(–24)-flowered, ebracteate, slightly to considerably elongated in fruit; rachis not flexuous, pubescent with stalked, 4–10-rayed trichomes, (0.1–0.3 mm). Fruiting pedicels ascending, (sometimes slightly appressed to rachis), straight, 1.5–3(–4) mm, pubescent as rachis. Flowers: sepals (persistent), ovate, 1.2–2 mm, pubescent, (trichomes short-stalked, 2–6-rayed); petals white, spatulate to oblanceolate, 2–3 × 0.7–1.1 mm; anthers ovate, 0.2–0.25 mm. Fruits lanceolate or oblong to linear, usually slightly to strongly twisted, rarely plane, flattened, 3.5–9(–11) × 1.5–2.5 mm; valves pubescent, trichomes short-stalked, 2–5-rayed, 0.05–0.25 mm; ovules 28–40 per ovary; style 0.1–0.3(–0.4) mm. Seeds ovoid, 0.5–0.7 × 0.3–0.5 mm. 2n = 32.</description>
-  <phenology>jul</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>rock outcrops</habitat>
-  <habitat>talus</habitat>
-  <habitat>exposed ridges</habitat>
-  <habitat>alpine areas</habitat>
-  <elevation>3100–4100 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species breweri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">breweri</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">sublaxa</taxon_name>
+    <taxon_hierarchy>genus Draba;species breweri;variety sublaxa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
   <discussion>The circumscription of Draba breweri was expanded by R. C. Rollins (1993) to include D. cana. Plants of D. cana differ from those of D. breweri by being non-cespitose (versus cespitose) and taller [(4–)10–30(–38) versus (1–)2–9(–15) cm], and by having basally bracteate (versus ebracteate) racemes, and stems, pedicels, and sepals pubescent with a mixture of simple and branched (versus exclusively branched) trichomes. Draba breweri is known to us from Alpine, Fresno, Inyo, Mono, Plumas, Tulare, and Tuolumne counties.</discussion>
-</treatment>
+</bio:treatment>

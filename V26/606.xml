@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>55.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CHLOROGALUM</genus_name>
-    <genus_authority>Kunth</genus_authority>
-  <place_of_publication>
-    <publication_title>Enum. Pl.</publication_title>
-    <place_in_publication>4: 681. 1843</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[Greek chloros , green, and gala , milk, alluding to the lather-producing juice of the
-    bulbs]</etymology>
-  
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Soap plant</common_name>
-  <common_name>amole</common_name>
-  <author>Judy Jernstedt</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Laothoë</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Judy Jernstedt</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Kunth" date="unknown">CHLOROGALUM</taxon_name>
+    <place_of_publication>
+      <publication_title>Enum. Pl.</publication_title>
+      <place_in_publication>4: 681. 1843</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus CHLOROGALUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek chloros , green, and gala , milk, alluding to the lather-producing juice of the
+    bulbs]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">Laothoë</taxon_name>
     <place_of_publication>
       <place_in_publication>1837</place_in_publication>
-      <other_info>name rejected</other_info>
+      <other_info_on_pub>name rejected</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, from tunicate bulbs. Leaves basal; blade linear, reduced to
-    scarious bracts in inflorescence. Inflorescences paniculate. Flowers scattered at intervals
-    along branches, 1–several per node, each subtended by small bract; perianth white, purple, or
-    pinkish; tepals 6, distinct, linear to oblong, with nectaries at base, persisting in fruit and
-    twisting together above capsule; stamens 6, inserted on bases of tepals; anthers versatile;
-    style slightly 3-lobed at apex; pedicel articulate. Fruits capsular, 3-valved, dehiscence
-    loculicidal. Seeds 1 or 2 per locule.</description>
-  <number_of_infrataxa>Species 5 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
-  <us_distribution>mainly California.</us_distribution>
+    <taxon_hierarchy>genus Laothoë;</taxon_hierarchy>
+  </taxon_identification>
+  <number>55.</number>
+  <other_name type="common_name">Soap plant</other_name>
+  <other_name type="common_name">amole</other_name>
+  <discussion>Species 5 (5 in the flora):</discussion>
   <discussion>Based on floral characters, chromosome numbers, and karyotypes, Chlorogalum probably
     is closely related to Camassia, from which it differs primarily in the number of ovules per
     locule (1 or 2 in Chlorogalum, more than 2 in Camassia).</discussion>
@@ -44,44 +40,44 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers diurnal.</statement>
+      <description type="morphology">Flowers diurnal.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Tepals white or pinkish; flowers or buds 2 or more per axil</statement>
+      <description type="morphology">Tepals white or pinkish; flowers or buds 2 or more per axil</description>
       <determination>4.  Chlorogalum parviflorum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Tepals deep blue to purple; flowers and buds occurring singly along inflorescence
-        axis</statement>
+      <description type="morphology">Tepals deep blue to purple; flowers and buds occurring singly along inflorescence
+        axis</description>
       <determination>5.  Chlorogalum purpureum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers vespertine.</statement>
+      <description type="morphology">Flowers vespertine.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves 2–5 mm wide, margins not strongly undulate</statement>
+      <description type="morphology">Leaves 2–5 mm wide, margins not strongly undulate</description>
       <determination>3.  Chlorogalum angustifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves 6–25 mm wide, margins strongly undulate.</statement>
+      <description type="morphology">Leaves 6–25 mm wide, margins strongly undulate.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Pedicel 5–35 mm, ca. equal to or exceeding perianth</statement>
+      <description type="morphology">Pedicel 5–35 mm, ca. equal to or exceeding perianth</description>
       <determination>1.  Chlorogalum pomeridianum</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Pedicel 2–5 mm, much shorter than perianth</statement>
+      <description type="morphology">Pedicel 2–5 mm, much shorter than perianth</description>
       <determination>2.  Chlorogalum grandiflorum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

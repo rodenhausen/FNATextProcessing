@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>conjugens</species_name>
-    <species_authority>Greene</species_authority>
-    <variety_name>viscidum</variety_name>
-    <variety_authority>(Piper) H. Mason ex H. St. John</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">conjugens</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) H. Mason ex H. St. John" date="unknown">viscidum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. S.E. Washington,</publication_title>
       <place_in_publication>311.  1937  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sticky shootingstar</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>viscidum</species_name>
-    <species_authority>Piper</species_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species conjugens;variety viscidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Piper" date="unknown">viscidum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>28: 43.  1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>conjugens</species_name>
-    <variety_name>beamishiae</variety_name>
-    <variety_authority>B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>conjugens</species_name>
-    <subspecies_name>viscidum</subspecies_name>
-    <subspecies_authority>(Piper) H. J. Thompson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>conjugens</species_name>
-    <variety_name>viscida</variety_name>
-    <variety_authority>(Piper) Mast &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Scapes usually glandular-puberulent proximally.  Leaf blades usually glandular-puberulent at least marginally.  Pedicels usually glandular-puberulent.  Flowers: calyx usually glabrous, sometimes glandular; connective usually yellow at least apically, sometimes fading to whitish, sometimes maroon.  2n = 44.</description>
-  <phenology>Flowering spring–early summer</phenology>
-  <habitat>Moist slopes and meadows in sagebrush communities and conifer woodlands</habitat>
-  <elevation>(500–)1100–2800 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Dodecatheon;species viscidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">conjugens</taxon_name>
+    <taxon_name rank="variety" authority="B. Boivin" date="unknown">beamishiae</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species conjugens;variety beamishiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">conjugens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Piper) H. J. Thompson" date="unknown">viscidum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species conjugens;subspecies viscidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">conjugens</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) Mast &amp; Reveal" date="unknown">viscida</taxon_name>
+    <taxon_hierarchy>genus Primula;species conjugens;variety viscida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">Sticky shootingstar</other_name>
   <discussion>Variety viscidum is found throughout the northern range of the species from southeastern British Columbia, southern Alberta, and southwestern Saskatchewan to eastern Washington (Lincoln and Spokane counties), northern Idaho (as far south as Fremont County), and western Montana to the edge of the Great Plains.  It appears to be disjunct near Tompkins, Saskatchewan (Looman 10304, OSC, UBC, UC, UTC); it approaches Dodecatheon pulchellum var. cusickii (not otherwise known from here); plants with both smooth and rugose connectives have been seen.</discussion>
   <discussion>The distribution of the glands varies within plants.  Most plants have at least the proximal portion of the scape glandular-puberulent; leaves and pedicels can be glandular or glabrous.  Rarely is the entire scape glandular; these plants are confined mainly to the Waterton Lakes National Park area and are sometimes found elsewhere in Alberta.  The calyx is rarely glandular.  Even within the established range of var. viscidum, some populations may consist of both glandular and nonglandular individuals.  Sometimes, only the pedicels have glands; in Wyoming such plants are assigned arbitrarily to var. conjugens.  Plants with distinctly rugose connectives are termed here var. viscidum.  H. J. Thompson (1953) assigned some Montana specimens with smooth or longitudinally wrinkled connectives to var. viscidum; here they are assigned to Dodecatheon pulchellum var. cusickii.</discussion>
-</treatment>
+</bio:treatment>

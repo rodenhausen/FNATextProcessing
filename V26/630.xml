@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hyacinthoides</genus_name><species_name>non-scripta</species_name><species_authority>(Linnaeus) Chouard</species_authority><place_of_publication>
-    <publication_title>Bull. Soc. Bot. France</publication_title>
-    <place_in_publication>81: 625. 1934</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>English bluebell</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Hyacinthus</genus_name><species_name>non-scriptus</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>1: 316. 1753 (as non scriptus)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Endymion</genus_name><species_name>non-scriptus</species_name><species_authority>(Linnaeus) Garcke</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Scilla</genus_name><species_name>non-scripta</species_name><species_authority>(Linnaeus) Hoffmannsegg &amp; Link</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Scilla</genus_name><species_name>nutans</species_name><species_authority>Smith</species_authority></TaxonIdentification><description>Plants 20–30 cm; bulb 1–1.5 mm diam. Leaves 3–6; blade linear to linear-lanceolate, 20–50 cm × 7–15(–25) mm. Racemes 6–12-flowered, 1-sided, apex drooping. Flowers erect in bud, all becoming pendent, fragrant; perianth cylindrical-campanulate; tepals erect proximally, reflexed distally, violet-blue or rarely white or pink, oblong-lanceolate, 1.5–2 cm; stamens unequal, outer inserted near middle of perianth, inner near base; anthers cream; pedicel 4–10 mm, ± equaling perianth. 2n = 16, 24.</description><phenology>late spring</phenology><habitat>escaped from gardens</habitat><elevation>0–1500 m;</elevation><introduced>introduced;</introduced><ca_distribution>B.C.</ca_distribution><us_distribution>Ind.</us_distribution><us_distribution>Ky.</us_distribution><us_distribution>N.Y.</us_distribution><us_distribution>Ohio</us_distribution><us_distribution>Pa.</us_distribution><us_distribution>Va.</us_distribution><us_distribution>Wash.</us_distribution><global_distribution>w Europe.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hyacinthoides</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Chouard" date="unknown">non-scripta</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Soc. Bot. France</publication_title>
+      <place_in_publication>81: 625. 1934</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Hyacinthoides;species non-scripta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hyacinthus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">non-scriptus</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 316. 1753 (as non scriptus)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hyacinthus;species non-scriptus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Endymion</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Garcke" date="unknown">non-scriptus</taxon_name>
+    <taxon_hierarchy>genus Endymion;species non-scriptus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scilla</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Hoffmannsegg &amp; Link" date="unknown">non-scripta</taxon_name>
+    <taxon_hierarchy>genus Scilla;species non-scripta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scilla</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">nutans</taxon_name>
+    <taxon_hierarchy>genus Scilla;species nutans;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">English bluebell</other_name>
+</bio:treatment>

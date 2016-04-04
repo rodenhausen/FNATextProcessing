@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>42.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Packera</genus_name><species_name>porteri</species_name><species_authority>(Greene) C. Jeffrey</species_authority><place_of_publication>
-    <publication_title>Kew Bull.</publication_title>
-    <place_in_publication>47: 101. 1992</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Porter’s groundsel</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Senecio</genus_name><species_name>porteri</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Pittonia </publication_title><place_in_publication>3: 186. 1897,</place_in_publication><other_info>based on S. renifolius Porter, Syn. Fl. Colorado, 83. 1874, not Schultz-Bipontinus 1845</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>aureus</species_name><species_authority>Linnaeus</species_authority><variety_name>alpinus</variety_name><variety_authority>A. Gray</variety_authority></TaxonIdentification><description>Perennials, 3–10+ cm; rhizomatous (rhizomes branched). Stems 1 (often cyanic), glabrous. Basal leaves (relatively turgid, abaxial faces cyanic) petiolate; blades reniform to subreniform, 5–15+ × 5–25+ mm, bases abruptly contracted to cordate, margins usually crenate, sometimes wavy. Cauline leaves abruptly reduced (1–4, sessile; bractlike, entire). Heads borne singly. Peduncles ebracteate, glabrous. Calyculi conspicuous (bractlets often cyanic). Phyllaries 13 or 21, deep red, 8–10+ mm, glabrous. Ray florets 8 or 13; corolla laminae 8–10+ mm. Disc florets 40–50+; corolla tubes 2.5–3.5 mm, limbs 2.5–3.5 mm. Cypselae 1.5–2.5 mm, glabrous; pappi 4–5.5 mm.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><habitat>steep talus slopes in alpine habitats</habitat><elevation>2800–3900 m;</elevation><us_distribution>Colo.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution><discussion>Multiple collections of Packera porteri are known from Colorado; single collections are known from Oregon (1899; collector indicated few plants were seen) and Washington (1996).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Packera</taxon_name>
+    <taxon_name rank="species" authority="(Greene) C. Jeffrey" date="unknown">porteri</taxon_name>
+    <place_of_publication>
+      <publication_title>Kew Bull.</publication_title>
+      <place_in_publication>47: 101. 1992</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Packera;species porteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">porteri</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>3: 186. 1897,</place_in_publication>
+      <other_info_on_pub>based on S. renifolius Porter, Syn. Fl. Colorado, 83. 1874, not Schultz-Bipontinus 1845</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Senecio;species porteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">aureus</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">alpinus</taxon_name>
+    <taxon_hierarchy>genus Senecio;species aureus;variety alpinus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>42.</number>
+  <other_name type="common_name">Porter’s groundsel</other_name>
+  <discussion>Multiple collections of Packera porteri are known from Colorado; single collections are known from Oregon (1899; collector indicated few plants were seen) and Washington (1996).</discussion>
+</bio:treatment>

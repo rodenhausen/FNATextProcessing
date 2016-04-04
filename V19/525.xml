@@ -1,49 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Schultz-Bipontinus" date="unknown">laciniata</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">laciniata</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;subspecies laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calaïs</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) A. Gray" date="unknown">glauca</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Calaïs;species glauca;variety procera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Microseris;species procera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scorzonella</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Scorzonella;species procera;</taxon_hierarchy>
+  </taxon_identification>
   <number>3a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>(Hooker) Schultz-Bipontinus</species_authority>
-    <subspecies_name>laciniata</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;subspecies laciniata;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calaïs</genus_name>
-    <species_name>glauca</species_name>
-    <species_authority>(Hooker) A. Gray</species_authority>
-    <variety_name>procera</variety_name>
-    <variety_authority>A. Gray</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Microseris</genus_name>
-    <species_name>procera</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Scorzonella</genus_name>
-    <species_name>procera</species_name>
-    <species_authority>(A. Gray) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Stems usually branched. Leaves usually lanceolate or oblanceolate, entire or pinnately lobed. Outer phyllaries often purple-spotted, broadly lanceolate to ovate, smallest 2.5–9 mm wide, apices (erect) acute to cuspidate, abaxial faces glabrous. Pappi of 5–10, white, deltate to lanceolate, glabrous, aristate scales 0.5–3(–4) mm, aristae barbellulate. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Apr–Aug.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>clay , loam , or gravelly soils ;</text>
-    <habitat>clay</habitat>
-    <habitat>loam</habitat>
-    <habitat>gravelly soils</habitat>
-  </habitat_info>
-  <elevation>10–1900 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
   <discussion>Subspecies laciniata occurs principally away from the coast, in interior valleys and hills, rarely reaching high elevations. The width of the outer phyllaries is a convenient way to separate it from subsp. leptosepala, with which it intergrades in the Klamath Mountains and at various sites east of the Cascade Range. Intergradation with subsp. detlingii occurs in Jackson County, Oregon.</discussion>
-</treatment>
-
+</bio:treatment>

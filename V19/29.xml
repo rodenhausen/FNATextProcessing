@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ECHINOPS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ECHINOPS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 814. 1753</place_in_publication>
@@ -12,37 +18,32 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 356. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus ECHINOPS;</taxon_hierarchy>
-  <etymology>[Greek echinos , hedgehog, spiny, and ops , face, appearance, alluding to spiny heads]</etymology>
-  <common_name>Globe thistle</common_name>
-  <author>David J. Keil</author>
-  <description>Perennials, 100–200 cm, herbage usually ± tomentose, spiny. Stems usually erect, simple or branched. Leaves basal and cauline; sessile or petiolate; blade margins dentate to pinnately 1–3-pinnately lobed or divided, lobes and teeth spiny, faces ± tomentose, sometimes glandular. Heads discoid, many, each with 1 floret, sessile, in pedunculate, spheric secondary heads. Secondary involucres of reflexed, laciniate-pinnatifid bracts. Primary involucres ellipsoid, subtended by bristles. Phyllaries many in several series, unequal, lanceolate (outer) to linear (inner), entire, apices sometimes expanded and fringed, not spine-tipped. Receptacles turbinate, bearing elongate subulate scales. Florets 1 per primary head; corollas white to greenish, blue-gray, blue, or purple, tubes elongate, throats very short, lobes linear; anther bases sharply tailed, apical appendages narrowly triangular, acute; style branches: fused portions with minutely hairy rings, distinct portions divergent, linear-oblong. Cypselae ± cylindric, 4-angled, apices ± truncate, without crowns, densely villous with long, stiff, appressed or ascending, multicellular hairs, attachment scars basal; pappi of many, short, ± connate [or distinct] scales. x = 13, 14, 15, 16.</description>
-  <number_of_infrataxa>Species ca. 120 (3 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus ECHINOPS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek echinos , hedgehog, spiny, and ops , face, appearance, alluding to spiny heads]</other_info_on_name>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Globe thistle</other_name>
+  <discussion>Species ca. 120 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lobes of leaf blades linear or narrowly oblong</statement>
+      <description type="morphology">Lobes of leaf blades linear or narrowly oblong</description>
       <determination>3. Echinops ritro</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lobes of leaf blades lanceolate to triangular.</statement>
+      <description type="morphology">Lobes of leaf blades lanceolate to triangular.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Adaxial leaf faces glandular</statement>
+      <description type="morphology">Adaxial leaf faces glandular</description>
       <determination>1. Echinops sphaerocephalus</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Adaxial leaf faces glabrous or sparsely strigose</statement>
+      <description type="morphology">Adaxial leaf faces glabrous or sparsely strigose</description>
       <determination>2. Echinops exaltatus</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

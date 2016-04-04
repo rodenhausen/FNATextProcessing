@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Moran" date="unknown">virens</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">virens</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species virens;subspecies virens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Rose) P. H. Thomson" date="unknown">albida</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species albida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">albidum</taxon_name>
+    <taxon_hierarchy>genus Stylophyllum;species albidum;</taxon_hierarchy>
+  </taxon_identification>
   <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>virens</species_name>
-    <species_authority>(Rose) Moran</species_authority>
-    <subspecies_name>virens</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>albida</species_name>
-    <species_authority>(Rose) P. H. Thomson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>albidum</species_name>
-    <species_authority>Rose</species_authority>
-  </TaxonIdentification>
-  <description>Caudices to 2+ dm × 1–3 cm.  Rosette leaf blades usually green, triangular-lanceolate to linear-lanceolate, 5–15 × 1–1.5 cm, surfaces sometimes farinose.  Inflorescences: floral shoots 2–4.5 dm × 4–7 mm; cyme mostly obpyramidal; branches 1–3 times bifurcate; cincinni 5–12-flowered, 3–5 cm.  Corollas ca. 16–20 mm diam.  2n = 34.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Cliffs, flat terraces, and rocky banks near sea</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–400 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies virens is endemic to San Clemente Island.</discussion>
-</treatment>
+</bio:treatment>

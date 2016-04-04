@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>flagellaris</species_name>
-    <species_authority>Willdenow</species_authority>
-    <subspecies_name>setigera</subspecies_name>
-    <subspecies_authority>(Pursh) Tolmatchew</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">flagellaris</taxon_name>
+    <taxon_name rank="subspecies" authority="(Pursh) Tolmatchew" date="unknown">setigera</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Mater. Gerb. Bot. Inst. Komarova Acad. Nauk S.S.S.R.</publication_title>
       <place_in_publication>19: 170.  1959,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>setigera</species_name>
-    <species_authority>Pursh</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species flagellaris;subspecies setigera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">setigera</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>1: 312.  1813</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Inflorescences 4–15 cm; bract blade shorter than internode.  Flowers: hypanthium whitish-tipped stipitate-glandular; sepals mostly green, narrowly elliptic to oblong, whitish stipitate-glandular; petals obovate, length ca. 2 times sepals; ovary superior.  2n = 16.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Rocky, open mountain slopes, sandy or gravelly arctic tundra</habitat>
-  <elevation>0–3000[–4000+] m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Russian Far East, Siberia)</global_distribution>
-  <global_distribution>Atlantic Islands (Svalbard).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species setigera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6a.</number>
+</bio:treatment>

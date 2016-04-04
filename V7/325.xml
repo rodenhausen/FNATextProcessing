@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>AURINIA</genus_name>
-    <genus_authority>Desvaux</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Alysseae</taxon_name>
+    <taxon_name rank="genus" authority="Desvaux" date="unknown">AURINIA</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Agric.</publication_title>
       <place_in_publication>3: 162. 1815</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin aurum , gold, and -inia , colored, alluding to flower]</etymology>
-  <common_name>Goldentuft</common_name>
-  <common_name>rock-alyssum</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Perennials [biennials, subshrubs]; (caudex woody); not scapose; pubescent, trichomes minutely stalked to sessile, stellate, 6–10-rayed [lepidote]. Stems erect or ascending, often (paniculately) branched distally. Leaves basal and cauline; petiolate; basal rosulate, petiolate (petioles deeply grooved), blade margins repand, sinuate, dentate, or pinnatifid; cauline petiolate, blade (much smaller than basal), margins entire [dentate, sinuate]. Racemes (corymbose, several-flowered, buds globose), slightly or considerably elongated in fruit. Fruiting pedicels divaricate or ascending, slender. Flowers: sepals spreading, ovate, lateral pair not saccate basally; petals yellow [white], obovate to spatulate, claw slightly differentiated from blade, (apex emarginate, [2-fid or obtuse]); stamens tetradynamous; filaments dilated (winged or minutely appendaged) basally; anthers ovate; nectar glands lateral, 1 on each side of lateral stamen. Fruits sessile, ellipsoid to obovoid, or broadly obovate to orbicular [globose, elliptic], not torulose, terete or latiseptate; valves each not veined, glabrous [pubescent]; replum rounded; septum usually complete, rarely perforate; ovules 4–8(–16) per ovary; stigma capitate, usually 2-lobed, rarely subentire. Seeds uniseriate or biseriate, flattened, winged [not winged], suborbicular [orbicular or elliptic]; seed coat not mucilaginous when wetted; cotyledons incumbent or oblique. x = 8.</description>
-  <number_of_infrataxa>Species 10 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>c</global_distribution>
-  <global_distribution>se Europe (Caucasus)</global_distribution>
-  <global_distribution>sw Asia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Alysseae;genus AURINIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin aurum , gold, and -inia , colored, alluding to flower]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Goldentuft</other_name>
+  <other_name type="common_name">rock-alyssum</other_name>
+  <discussion>Species 10 (2 in the flora):</discussion>
   <references>
     <reference>Dudley, T. R. 1966. Ornamental madworts (Alyssum) and the correct name of the goldentuft alyssum. Arnoldia (Jamaica Plain) 26: 33–48.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits ellipsoid to obovoid, inflated; seeds 1.5–1.8 mm diam.; wing 0.1–0.3 mm wide</statement>
+      <description type="morphology">Fruits ellipsoid to obovoid, inflated; seeds 1.5–1.8 mm diam.; wing 0.1–0.3 mm wide</description>
       <determination>1. Aurinia petraea</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits broadly obovate to orbicular, flattened; seeds 2–3 mm diam.; wing 0.3–1.1 mm</statement>
+      <description type="morphology">Fruits broadly obovate to orbicular, flattened; seeds 2–3 mm diam.; wing 0.3–1.1 mm</description>
       <determination>2. Aurinia saxatilis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

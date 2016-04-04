@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>193a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eriogonum</genus_name><species_name>inerme</species_name><species_authority>(S. Watson) Jepson</species_authority><variety_name>inerme</variety_name></TaxonIdentification><common_name>Unarmed wild buckwheat</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Eriogonum</genus_name><species_name>vagans</species_name><species_authority>S. Watson</species_authority></TaxonIdentification><description>involucres glabrous,.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>Sandy to gravelly flats and slopes, mixed grassland and chaparral communities, oak and mon-tane conifer woodlands;</habitat><elevation>600–2200 m</elevation><us_distribution>Calif.</us_distribution><us_distribution>Idaho.</us_distribution><discussion>Variety inerme is rare to infrequent at scattered sites in Coast and Transverse ranges of California in Contra Costa, Kern, Lake, Monterey, San Benito, San Luis Obispo, Santa Clara, Tulare, and Ventura counties. The Idaho population (near New Centerville, Boise County) is a recent intro-duction, probably having come from California with mining equipment.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Eriogonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Jepson" date="unknown">inerme</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">inerme</taxon_name>
+    <taxon_hierarchy>family Polygonaceae;subfamily Eriogonoideae;genus Eriogonum;species inerme;variety inerme;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">vagans</taxon_name>
+    <taxon_hierarchy>genus Eriogonum;species vagans;</taxon_hierarchy>
+  </taxon_identification>
+  <number>193a.</number>
+  <other_name type="common_name">Unarmed wild buckwheat</other_name>
+  <discussion>Variety inerme is rare to infrequent at scattered sites in Coast and Transverse ranges of California in Contra Costa, Kern, Lake, Monterey, San Benito, San Luis Obispo, Santa Clara, Tulare, and Ventura counties. The Idaho population (near New Centerville, Boise County) is a recent intro-duction, probably having come from California with mining equipment.</discussion>
+</bio:treatment>

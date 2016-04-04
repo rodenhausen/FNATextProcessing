@@ -1,60 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hulteniella</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>(Richardson) Tzvelev</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hulteniella</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) Tzvelev" date="unknown">integrifolia</taxon_name>
     <place_of_publication>
       <publication_title>in A. I. Tolmatchew, Fl. Arct. URSS</publication_title>
       <place_in_publication>10: 118. 1987</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Hulteniella;species integrifolia;</taxon_hierarchy>
-  <common_name>Entire-leaved daisy</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>Richardson</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Hulteniella;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">integrifolium</taxon_name>
     <place_of_publication>
       <publication_title>in J. Franklin et al., Narr. Journey Polar Sea,</publication_title>
       <place_in_publication>749. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctanthemum</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Richardson) Tzvelev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dendranthema</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Richardson) Tzvelev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucanthemum</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Richardson) de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Rhizomes 1–3 mm diam. Leaves: blades (2–)4–18(–30) × 0.8–1.2(–2) mm. Peduncular bracts 0–3, remote, distal (mostly beyond midstem), 4.5–7 mm, margins and apices brown, hyaline, erose, scarious. Phyllaries 5–8 × 2–3 mm. Ray laminae (4–)6–7 × 2–3.2 mm, with 2–5 hairs inside opening of tube. Disc corollas 2.5–3 mm, tubes greenish, lobes 0.35–0.5 mm, reflexed, tips brown and callous. Cypselae brown, 1.5–2 mm, ribs pale. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>alpine zones , moist to mesic gravelly sites , arctic tundra , moist to well-drained , exposed areas with low organic content , on rock , gravel , sand , silt , clay , till , or moss , calcareous or not , seldom on sea beaches or areas exposed to salt spray ;</text>
-    <habitat>alpine zones</habitat>
-    <habitat>moist to mesic gravelly sites arctic tundra moist to well-drained exposed areas with low organic content</habitat>
-    <habitat>on rock , gravel , sand , silt , clay , till , or moss , calcareous or not</habitat>
-    <habitat>seldom on sea beaches or areas exposed to salt spray</habitat>
-  </habitat_info>
-  <elevation>0–500+ m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Chrysanthemum;species integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) Tzvelev" date="unknown">integrifolium</taxon_name>
+    <taxon_hierarchy>genus Arctanthemum;species integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dendranthema</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) Tzvelev" date="unknown">integrifolium</taxon_name>
+    <taxon_hierarchy>genus Dendranthema;species integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) de Candolle" date="unknown">integrifolium</taxon_name>
+    <taxon_hierarchy>genus Leucanthemum;species integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Entire-leaved daisy</other_name>
+</bio:treatment>

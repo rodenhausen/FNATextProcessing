@@ -1,56 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Corydalis</genus_name>
-        <species_name>crystallina</species_name>
-        <species_authority>(Torrey &amp; A. Gray) A. Gray</species_authority>
-        <place_of_publication>
-            <publication_title> Manual ed. </publication_title>
-            <place_in_publication>5, 62. 186</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    
-    <endemic>endemic</endemic>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Corydalis</genus_name>
-        <species_name>aurea</species_name>
-        <species_authority>Willdenow</species_authority>
-        <variety_name>(ß) crystallina</variety_name>
-        <variety_authority>Torrey &amp; A. Gray</variety_authority>
-        <place_of_publication>
-            <publication_title>Fl. N. Amer. </publication_title>
-            <place_in_publication>1: 665. 1840</place_in_publication>
-        </place_of_publication>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) A. Gray" date="unknown">crystallina</taxon_name>
     <place_of_publication>
-        <publication_title> Bot. Gaz. </publication_title>
-        <place_in_publication>11: 189. 1886</place_in_publication>
-    </place_of_publication></TaxonIdentification>
-    <description>Plants winter annual, glaucous, from somewhat succulent roots. Stems 1-several,
-        erect or ascending, 2-4 dm. Leaves compound; blade with 2 orders of leaflets and lobes;
-        ultimate lobes lanceolate to linear-lanceolate, margins incised, apex subapiculate.
-        Inflorescences racemose, (8-)12-15(-18)-flowered, primary racemes exceeding leaves, later
-        secondary racemes fewer flowered, exceeded by leaves; bracts ovate to ovate-acuminate, 5-12
-        × 3-6 mm, distal usually much reduced. Flowers erect; pedicel stout, ca. 1 mm; sepals
-        broadly ovate to cordate, somewhat attenuate, to 2 mm, margins sometimes incised; petals
-        bright yellow; spurred petal 16-22 mm, spur straight, 6-8 mm, apex distinctly globose, crest
-        very high, wrinkled or toothed, marginal wing very broad, revolute, unspurred outer petal
-        12-14 mm, marginal wing broad, not revolute, enclosing margins of spurred petal in bud;
-        inner petals oblanceolate, 9-11 mm, blade apex ca. 2 times wider than base, basal lobes
-        small, claw narrow, 4-5 mm; nectariferous spur clavate, 3.5-5 mm, curved near apex; style
-        slender, ca. 4 mm; stigma wider than long, with 8 papillae. Capsules erect, linear, stout,
-        straight to slightly incurved, 14-18 mm, with numerous basally pustulate whitish hairs or
-        rarely glabrate. Seeds ca. 2 mm diam., minutely decorated, marginal ring
-        absent.</description>
-    <phenology>Flowering mid-late spring</phenology>
-    <habitat> Prairies, fields, open woods, and wasteland</habitat>
-    <elevation> 10-500 m</elevation>
-    <us_distribution> Ark.</us_distribution>
-    <us_distribution> Kans.</us_distribution>
-    <us_distribution> Mo.</us_distribution>
-    <us_distribution> Okla.</us_distribution>
-    <us_distribution> Tex.</us_distribution>
-    <discussion>The peculiar pubescence of the capsules distinguishes Corydalis crystallina from all
+      <publication_title>Manual ed.</publication_title>
+      <place_in_publication>5, 62. 186</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species crystallina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">aurea</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">(ß) crystallina</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 665. 1840</place_in_publication>
+    </place_of_publication>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>11: 189. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species aurea;variety (ß) crystallina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <discussion>endemic</discussion>
+  <discussion>The peculiar pubescence of the capsules distinguishes Corydalis crystallina from all
         others in the genus. Also, the crest and marginal wing of the spurred petal are more highly
         developed than in any other yellow-flowered species.</discussion>
-</treatment>
+</bio:treatment>

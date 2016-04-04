@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DISCELIUM</genus_name>
-    <genus_authority>Bridel</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Bridel" date="unknown">DISCELIUM</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 365.  1826  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek di-, two, and skielos, legs, alluding to peristome teeth perforated proximally]</etymology>
-  <description>Protonema green, bearing minute perichaetia and perigonia.  Seta red-brown, smooth.  Capsule inclined to horizontal, subglobose to short-cylindric.</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus DISCELIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek di-, two, and skielos, legs, alluding to peristome teeth perforated proximally]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

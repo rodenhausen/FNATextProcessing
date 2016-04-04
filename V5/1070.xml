@@ -1,84 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>45.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Rumex</genus_name>
-        <species_name>longifolius</species_name>
-        <species_authority>de Candolle</species_authority>
-        <place_of_publication>
-            <publication_title>in J. Lamarck and A. P. de Candolle, Fl. Franç.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">longifolius</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Lamarck and A. P. de Candolle, Fl. Franç.
                 ed.</publication_title>
-            <place_in_publication>3, 6: 368. 1815</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Long-leaved or northern or dooryard dock</common_name>
-    <common_name>rumex a feuilles longues</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Rumex</genus_name>
-        <species_name>domesticus</species_name>
-        <species_authority>Hartman</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Rumex</genus_name>
-        <species_name>hippolapathum</species_name>
-        <species_authority>Fries</species_authority>
-    </TaxonIdentification>
-    <description>Plants perennial, glabrous or very indistinctly papillose normally only on branches
-        of inflorescence, or on veins of leaf blades abax-ially, with fusiform, vertical rootstock.
-        Stems erect, branched distal to middle, 50–120(–160) cm. Leaves: ocrea deciduous or
-        partially per-sistent at maturity; blade broadly lanceolate to ovate-lanceolate or
-        oblong-lanceolate, normally 25–50(–60) × 7–15 cm, ca. 3–4 times as long as wide, base
-        broadly cuneate, rounded-truncate, or slightly cordate, margins entire, undulate or weakly
-        crisped, occasionally flat, apex acute or subacute. Inflorescences terminal, occupying
-        distal 1/2 of stem, normally dense, narrowly paniculate, branches usually straight or
-        arcuate. Pedicels articulated in proximal 1/3, filiform, 4–9 mm, articulation distinctly
-        swollen. Flowers 10–20 in whorls; inner tepals broadly orbiculate or reniform, (4.5–)5–6(–7)
-        × (4.5–)5–7(–7.5) mm, base usually distinctly cordate, margins entire or subentire to very
-        weakly erose, flat, apex obtuse or, rarely, subacute; tubercles normally absent,sometimes
-        with 1 indistinct tubercle or slightly thickened midvein less than 1–1.3 mm wide. achenes
-        dark brown or brown, (2.5–)3–3.5(–4) × 1.5–2 mm. 2n = 60,.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>Waste places, roadsides, cultivated fields, river valleys, meadows;</habitat>
-    <elevation>0–1000 m</elevation>
-    <introduced>introduced</introduced>
-    <global_distribution>Greenland</global_distribution>
-    <ca_distribution>Alta.</ca_distribution>
-    <ca_distribution>B.C.</ca_distribution>
-    <ca_distribution>Man.</ca_distribution>
-    <ca_distribution>N.B.</ca_distribution>
-    <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-    <ca_distribution>N.S.</ca_distribution>
-    <ca_distribution>Ont.</ca_distribution>
-    <ca_distribution>P.E.I.</ca_distribution>
-    <ca_distribution>Que.</ca_distribution>
-    <ca_distribution>Sask.</ca_distribution>
-    <ca_distribution>Yukon</ca_distribution>
-    <us_distribution>Alaska</us_distribution>
-    <us_distribution>Conn.</us_distribution>
-    <us_distribution>Maine</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Minn.</us_distribution>
-    <us_distribution>N.H.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.Dak.</us_distribution>
-    <us_distribution>R.I.</us_distribution>
-    <us_distribution>Vt.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-    <global_distribution>n temperate Europe</global_distribution>
-    <global_distribution>w temperate Asia</global_distribution>
-    <global_distribution>introduced elsewhere.</global_distribution>
-    <discussion>Most records of Rumex longifolius from the Great Plains (Great Plains Flora
+      <place_in_publication>3, 6: 368. 1815</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Rumex;species longifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="species" authority="Hartman" date="unknown">domesticus</taxon_name>
+    <taxon_hierarchy>genus Rumex;species domesticus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="species" authority="Fries" date="unknown">hippolapathum</taxon_name>
+    <taxon_hierarchy>genus Rumex;species hippolapathum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>45.</number>
+  <other_name type="common_name">Long-leaved or northern or dooryard dock</other_name>
+  <other_name type="common_name">rumex a feuilles longues</other_name>
+  <discussion>Most records of Rumex longifolius from the Great Plains (Great Plains Flora
         Association 1977; R. B. Kaul 1986) refer to R. pseudonatronatus (J. E. Dawson 1979), which
         can be distinguished from R. longifolius by its narrower leaves, smaller and more distinctly
         triangular inner tepals, and purplish or reddish brown stems at maturity. The two species
         are closely related; they were placed by K. H. Rechinger (1949) in subsect. Longifolii
         Rechinger f.</discussion>
-</treatment>
+</bio:treatment>

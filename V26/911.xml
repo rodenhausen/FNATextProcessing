@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hesperoyucca</genus_name><species_name>newberryi</species_name><species_authority>(McKelvey) Clary</species_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>19: 845. 2001</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Yucca</genus_name><species_name>newberryi</species_name><species_authority>McKelvey</species_authority><place_of_publication><publication_title>Yuccas Southw. U.S. </publication_title><place_in_publication>2: 49. 1947</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Yucca</genus_name><species_name>whipplei</species_name><species_authority>Torrey</species_authority><subspecies_name>newberryi</subspecies_name><subspecies_authority>(McKelvey) Hochstätter</subspecies_authority></TaxonIdentification><description>Plants monocarpic; rosettes single. Leaves 50–60 × 0.7–2 cm wide at base in narrow forms, 2–2.5 cm in broader forms. Scape 1.4–1.6 m × 10–14 cm diam. Inflorescences 14–16 dm, 4–5.5 dm at widest point. Capsules with slight or inconspicuous placental wings at maturity.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>desert, rocky granite</habitat><habitat>western slopes of colorado river canyon</habitat><elevation>400–1300 m;</elevation><us_distribution>Ariz.</us_distribution><discussion>Hesperoyucca newberryi is found in Mohave County, in the vicinity of the Colorado River.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperoyucca</taxon_name>
+    <taxon_name rank="species" authority="(McKelvey) Clary" date="unknown">newberryi</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>19: 845. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Hesperoyucca;species newberryi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="McKelvey" date="unknown">newberryi</taxon_name>
+    <place_of_publication>
+      <publication_title>Yuccas Southw. U.S.</publication_title>
+      <place_in_publication>2: 49. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species newberryi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">whipplei</taxon_name>
+    <taxon_name rank="subspecies" authority="(McKelvey) Hochstätter" date="unknown">newberryi</taxon_name>
+    <taxon_hierarchy>genus Yucca;species whipplei;subspecies newberryi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Hesperoyucca newberryi is found in Mohave County, in the vicinity of the Colorado River.</discussion>
+</bio:treatment>

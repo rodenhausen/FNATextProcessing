@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Jepsonia</genus_name>
-    <species_name>malvifolia</species_name>
-    <species_authority>(Greene) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jepsonia</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Small" date="unknown">malvifolia</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>23: 19.  1896 (as malvaefolia)  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Island jepsonia</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>malvifolia</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Jepsonia;species malvifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">malvifolia</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>9: 121.  1882 (as malvaefolia)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Caudices branched, ovoid or flat.  Leaves 2–3.  Inflorescences diffuse or dense, (3–)4–17(–25)-flowered; bracts scalelike; peduncle greenish or olive, drying greenish or brown, branched distally, 6–23 cm.  Flowers: hypanthium campanulate, 1–2 mm, ± equaling sepals; sepals yellow-green or pinkish, 1–2 mm, base flattened, glandular-viscid; petals persistent, alternate with sepals, distinct, white with red veins, 3–3.5 mm.  Pollen yellowish.  Capsules yellow-green with tan striations, beaks divergent.  Seeds dark brown.  2n = 14.</description>
-  <phenology>Flowering Sep–Nov</phenology>
-  <habitat>Rocky outcrops, coastal bluffs, chaparral, oak woodlands</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California [Guadalupe Island]).</global_distribution>
+    <taxon_hierarchy>genus Saxifraga;species malvifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Island jepsonia</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Jepsonia malvifolia is uncommon and occurs on all of the Channel Islands except Anacapa, Santa Barbara, and San Miguel.  Individuals of this species produce flowers that usually last longer than those of the other two members of the genus.  Prior to 1992, this species was in decline on Santa Cruz and Santa Rosa islands because feral pigs ate the fleshy caudices.  Populations have apparently rebounded to some extent since removal of the pigs.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Ornduff, R.  1970.  Heteromorphic incompatibility in Jepsonia malvifolia.  Bull. Torrey Bot. Club 97: 258–261.</reference>
   </references>
-</treatment>
+</bio:treatment>

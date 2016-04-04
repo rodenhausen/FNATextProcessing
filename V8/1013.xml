@@ -1,67 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>vitis-idaea</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vitis-idaea</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 351. 1753 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Lingonberry</common_name>
-  <common_name>partridgeberry</common_name>
-  <common_name>foxberry</common_name>
-  <common_name>airelle vigne-d’Ida</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>vitis-idaea</species_name>
-    <subspecies_name>minus</subspecies_name>
-    <subspecies_authority>(Loddiges, G. Loddiges &amp; W. Loddiges) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>vitis-idaea</species_name>
-    <variety_name>minus</variety_name>
-    <variety_authority>Loddiges, G. Loddiges &amp; W. Loddiges</variety_authority>
-  </TaxonIdentification>
-  <description>Plants densely colonial, frequently mat-forming; twigs of previous year green,
-        terete, puberulent, not verrucose. Leaf blades pale and glandular abaxially, bright green
-        adaxially, elliptic to obovate, 5–18 × 3–9 mm, glaucous-coriaceous, margins entire, slightly
-        revolute. Pedicels 4–6 mm. Flowers: corolla pinkish white, 3–5 mm; filaments puberulent.
-        Berries red, 8–10 mm diam. 2n = 24.</description>
-  <phenology>Flowering late spring–early summer</phenology>
-  <habitat>Boreal taiga in jack-pine stands, muskegs, raised bogs, dry, rocky barrens, lichen
-        woodlands, exposed habitats, heaths, high moors, headlands, tundras, cliffs, mountain
-        summits</habitat>
-  <elevation>0–1800 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>n Eurasia</global_distribution>
-  <global_distribution>circumboreal.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Vaccinium;species vitis-idaea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vitis-idaea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Loddiges, G. Loddiges &amp; W. Loddiges) Hultén" date="unknown">minus</taxon_name>
+    <taxon_hierarchy>genus Vaccinium;species vitis-idaea;subspecies minus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vitis-idaea</taxon_name>
+    <taxon_name rank="variety" authority="Loddiges, G. Loddiges &amp; W. Loddiges" date="unknown">minus</taxon_name>
+    <taxon_hierarchy>genus Vaccinium;species vitis-idaea;variety minus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Lingonberry</other_name>
+  <other_name type="common_name">partridgeberry</other_name>
+  <other_name type="common_name">foxberry</other_name>
+  <other_name type="common_name">airelle vigne-d’Ida</other_name>
   <discussion>The distribution of Vaccinium vitis-idaea in North America extends from northwestern
         Greenland at 77° north latitude, south to Connecticut at 42° north latitude, and from 45°
         west longitude (southern tip of Greenland) west to 170° west longitude (Aleutian Islands);
@@ -73,15 +44,9 @@
   <discussion>45e. Vaccinium Linnaeus sect. Polycodium (Rafinesque) Rehder, Man. Cult. Trees, 725.
         1927</discussion>
   <discussion>Polycodium Rafinesque, Amer. Monthly Mag. &amp; Crit. Rev. 2: 266. 1818</discussion>
-  <description>Shrubs, erect, 2–50 dm, often weakly rhizomatous. Leaves usually tardily deciduous,
-        rarely persistent. Inflorescences axillary, racemes, (leafy), borne on previous year’s
-        shoots. Pedicels continuous with calyx tube. Flowers: sepals 5; petals 5, connate for nearly
-        their entire lengths, corolla (open in bud), campanulate; stamens 10, exserted; anthers with
-        awns, tubules 4–6 mm, terminating in lacinate pores. Berries pseudo 10-locular. Seeds
-        5–16.</description>
   <discussion>Species 1: North America, n Mexico.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Ford, B. A. 1996. Status of the deerberry, Vaccinium stamineum L. (Ericaceae), in
             Canada. Rhodora 97: 255–263.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,74 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>36.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>ruderale</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">ruderale</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 645. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>texanum</species_name>
-    <species_authority>Buckley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>virginicum</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>texanum</subspecies_name>
-    <subspecies_authority>(Buckley) Thellung</subspecies_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials; (fetid); puberulent (trichomes cylind-rical). Stems simple from base, erect ascending, branched (several) distally, (0.5–)1–3.5(–5.5) dm. Basal leaves rosulate; petiole 1–3.2(–5.3) cm; blade (1- or) 2- or 3-pinnatisect (lobes oblong), (1.5–)3–5(–7.2) cm, margins (of lobes) usually entire, rarely dentate. Cauline leaves sessile; blade linear, (0.4–)1–2(–3) cm × 0.5–2.5(–3.5) mm, base cuneate, not auriculate, margins entire. Racemes considerably elongated in fruit; rachis puberulent, trichomes straight, cylindrical. Fruiting pedicels divaricate to horizontal, straight, (terete), (1.5–)2–4(–5) × 0.1–0.15 mm, puberulent. Flowers: sepals oblong, 0.5–0.9(–1) × 0.2–0.4 mm; petals (absent or rudimentary), white, linear, 0.2–0.5 × 0.1 mm, claw absent; stamens 2, median; filaments 0.7–0.8 mm; anthers 0.1–0.2 mm. Fruits elliptic, (1.5–)1.8–2.5(–3) × 1.5–2(–2.3) mm, apically winged, apical notch 0.1–0.2 mm deep; valves thin, smooth, not veined, glabrous; style obsolete or to 0.1 mm, included in apical notch. Seeds oblong to ovate-oblong, 1–1.5 × 0.6–0.8 mm. 2n = 16, 32.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>fields</habitat>
-  <habitat>pastures</habitat>
-  <habitat>waste places</habitat>
-  <habitat>roadsides</habitat>
-  <habitat>gardens</habitat>
-  <elevation>0–300 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>introduced also in South America</global_distribution>
-  <global_distribution>Australia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species ruderale;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">texanum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species texanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virginicum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Buckley) Thellung" date="unknown">texanum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species virginicum;subspecies texanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>36.</number>
+</bio:treatment>

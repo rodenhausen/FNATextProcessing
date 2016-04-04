@@ -1,62 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pseudocrossidium</genus_name>
-    <species_name>obtusulum</species_name>
-    <species_authority>(Lindberg) H. A. Crum &amp; L. E. Anderson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudocrossidium</taxon_name>
+    <taxon_name rank="species" authority="(Lindberg) H. A. Crum &amp; L. E. Anderson" date="unknown">obtusulum</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>92: 533. 1989,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>obtusula</species_name>
-    <species_authority>Lindberg</species_authority>
+    <taxon_hierarchy>genus Pseudocrossidium;species obtusulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Lindberg" date="unknown">obtusula</taxon_name>
     <place_of_publication>
       <publication_title>Musc. Scand.,</publication_title>
       <place_in_publication>22. 1879</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>platyneura</species_name>
-    <species_authority>Macoun &amp; Kindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Desmatodon</genus_name>
-    <species_name>ellesmerensis</species_name>
-    <species_authority>Brassard</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pseudocrossidium</genus_name>
-    <species_name>revolutum</species_name>
-    <variety_name>obtusulum</variety_name>
-    <variety_authority>(Lindberg) B. C. Tan, R. H. Zander &amp; T. T. Taylor</variety_authority>
-  </TaxonIdentification>
-  <description>Stems to 2 cm. Stem leaves ovate to ovate-deltoid, 0.7–1.2 mm, distal margins once
-        to almost twice-revolute; apex broadly acute; costa ending in an apiculus, adaxial surface
-        of costa at mid leaf convex, with 2–3 guide cells; distal laminal cells 10–13 µm wide, 1:1.
-        Specialized asexual reproduction occasionally present as spheric to clavate gemmae, 40–50
-        µm, borne on the adaxial surface of the costa, or as rhizoid-borne brood bodies.
-        Perichaetial leaves not or weakly differentiated. Seta 1–2 cm. Capsule 1–2 mm, peristome of
-        32 linear, yellow teeth, straight or twisted counterclockwise a half turn, operculum
-        conic-rostrate. Spores yellow, essentially smooth, 8–12 µm.</description>
-  <phenology>Capsules mature in summer (Jun).</phenology>
-  <habitat>Soil, calcareous outcrops;</habitat>
-  <elevation>low to moderate elevations; 30–1100 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Barbula;species obtusula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Macoun &amp; Kindberg" date="unknown">platyneura</taxon_name>
+    <taxon_hierarchy>genus Barbula;species platyneura;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmatodon</taxon_name>
+    <taxon_name rank="species" authority="Brassard" date="unknown">ellesmerensis</taxon_name>
+    <taxon_hierarchy>genus Desmatodon;species ellesmerensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudocrossidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">revolutum</taxon_name>
+    <taxon_name rank="variety" authority="(Lindberg) B. C. Tan, R. H. Zander &amp; T. T. Taylor" date="unknown">obtusulum</taxon_name>
+    <taxon_hierarchy>genus Pseudocrossidium;species revolutum;variety obtusulum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>Pseudocrossidium obtusulum differs from P. revolutum (Bridel) R. H. Zander of Europe
         and Africa (absent in North America), by not or weakly differentiated perichaetial leaves,
         and cauline leaves ovate to deltoid, broadly acute, once-revolute, and revolute only in
@@ -70,4 +54,4 @@
         appearance, but have merely strongly recurved distal laminal margins and an indistinct apex.
         This species has been collected widely in Alaska (B. M. Murray 1992), California (D. H.
         Norris and J. R. Shevock 2004), and Washington (T. T. McIntosh, unpubl.).</discussion>
-</treatment>
+</bio:treatment>

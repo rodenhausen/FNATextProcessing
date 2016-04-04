@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26c.1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rumex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Rumex</subgenus_name>
-    <section_name>Axillares</section_name>
-    <section_authority>Rechinger f.</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="section" authority="Rechinger f." date="unknown">Axillares</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Field Mus. Nat. Hist., Bot. Ser.</publication_title>
       <place_in_publication>17: 6. 1937</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants not developing basal rosette of leaves, sometimes with long-creeping rhizomes.
-    Stems erect, ascending, procumbent, or decumbent, normally with regular, leafy axillary shoots
-    that tend to develop 2d-order axillary inflorescences (often overtopping 1st-order ones). Leaf
-    blades mostly lanceolate, elliptic, ovate-lanceolate, or ovate-elliptic, base cuneate, or in
-    some species broadly cuneate, rounded, truncate-cuneate, or indistinctly cordate. Inner tepals
-    with margins entire, rarely minutely erose-denticulate.</description>
-  <number_of_infrataxa>Species ca. 40 (21) in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <global_distribution>Pacific Islands (Hawaii).</global_distribution>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Rumex;subgenus Rumex;section Axillares;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26c.1.</number>
+  <discussion>Species ca. 40 (21) in the flora):</discussion>
   <discussion>North american representatives of this section (except Rumex venosus, a distinctive
     species) form a polymorphic complex consisting of often interfertile races (N. M. Sarkar 1958).
     In most cases those races are separated morphologically and restricted geographically. They may
@@ -45,4 +42,4 @@
     <reference>Sarkar, N. M. 1958. Cytotaxonomic studies on Rumex sect.
       Axillares. Canad. J. Bot. 36: 947–996.</reference>
   </references>
-</treatment>
+</bio:treatment>

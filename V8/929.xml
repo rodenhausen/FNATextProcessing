@@ -1,65 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PHYLLODOCE</genus_name>
-    <genus_authority>Salisbury</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>John G. Packer,A. Joyce Gould</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Salisbury" date="unknown">PHYLLODOCE</taxon_name>
     <place_of_publication>
       <publication_title>Parad. Lond.</publication_title>
       <place_in_publication>1: plate 36.  1806  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mountain heather</common_name>
-  <etymology>[A sea-nymph in Greek mythology, allusion obscure]</etymology>
-  <author>John G. Packer</author>
-  <author>A. Joyce Gould</author>
-  <description>Shrubs.  Stems spreading to erect, (much-branched); young branches usually glandular-hairy, older branches glabrous or puberulent, (roughened peglike projections remaining after fall of leaves, exfoliating).  Leaves persistent, alternate; petiole present; blade coriaceous, margins entire, serrulate, or glandular-serrulate, (appearing revolute, abaxial surface less than 1/3 visible).  Inflorescences terminal, umbellate, corymbiform, or spikelike clusters, 2–30-flowered, sometimes flowers solitary; perulae absent.  Flowers bisexual, radially symmetric, sepals 5, connate basally; petals 5, connate for 1/2+ their lengths, corolla deciduous, urceolate, campanulate, or cylindric; stamens (8–)10, included or exserted; anthers not awned, dehiscent by terminal slits; ovary 5-locular; style included or exserted; stigma capitate.  Fruits capsular, broadly ovoid to globose, dehiscence basipetally septicidal.  Seeds 100+, ellipsoid, narrowly winged, not tailed; testa smooth.  x = 12.</description>
-  <number_of_infrataxa>Species 8 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
-  <references heading="SELECTED REFERENCE">
+    <taxon_hierarchy>family ERICACEAE;genus PHYLLODOCE;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[A sea-nymph in Greek mythology, allusion obscure]</other_info_on_name>
+  </taxon_identification>
+  <number>26.</number>
+  <other_name type="common_name">Mountain heather</other_name>
+  <discussion>Species 8 (5 in the flora):</discussion>
+  <references>
     <reference>Watson, T. J.  1977b.  An analysis of populations formed by hybridization between Phyllodoce empetriformis and P. glanduliflora (Ericaceae).  Rhodora 79: 1–16.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas yellow or yellowish green.</statement>
+      <description type="morphology">Corollas yellow or yellowish green.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas not glandular; filaments glabrous</statement>
+      <description type="morphology">Corollas not glandular; filaments glabrous</description>
       <determination>1.   Phyllodoce aleutica</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas glandular; filaments hairy</statement>
+      <description type="morphology">Corollas glandular; filaments hairy</description>
       <determination>5.   Phyllodoce glanduliflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas purple, pink, or white.</statement>
+      <description type="morphology">Corollas purple, pink, or white.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas urceolate, constricted at mouth, sepals glandular abaxially, margins not ciliate</statement>
+      <description type="morphology">Corollas urceolate, constricted at mouth, sepals glandular abaxially, margins not ciliate</description>
       <determination>3.   Phyllodoce caerulea</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas campanulate, not constricted at mouth; sepals glabrous abaxially, margins ciliate.</statement>
+      <description type="morphology">Corollas campanulate, not constricted at mouth; sepals glabrous abaxially, margins ciliate.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stamens exserted</statement>
+      <description type="morphology">Stamens exserted</description>
       <determination>2.   Phyllodoce breweri</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stamens included</statement>
+      <description type="morphology">Stamens included</description>
       <determination>4.   Phyllodoce empetriformis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eucephalus</genus_name><species_name>ledophyllus</species_name><species_authority>(A. Gray) Greene</species_authority><variety_name>covillei</variety_name><variety_authority>(Greene) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>77: 255. 1995</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Eucephalus</genus_name><species_name>covillei</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Pittonia </publication_title><place_in_publication>3: 162. 1897</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>covillei</species_name><species_authority>(Greene) S. F. Blake ex M. Peck</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>ledophyllus</species_name><species_authority>(A. Gray) A. Gray</species_authority><variety_name>covillei</variety_name><variety_authority>(Greene) Cronquist</variety_authority></TaxonIdentification><description>Peduncles glandular, not cottony. Rays usually 5 or 8. 2n = 18.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><habitat>montane meadows</habitat><habitat>openings in montane to subalpine coniferous forest</habitat><elevation>400–2500 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Variety covillei is most common in central and southern Oregon and California.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eucephalus</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">ledophyllus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) G. L. Nesom" date="unknown">covillei</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>77: 255. 1995</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Eucephalus;species ledophyllus;variety covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eucephalus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">covillei</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>3: 162. 1897</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eucephalus;species covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Greene) S. F. Blake ex M. Peck" date="unknown">covillei</taxon_name>
+    <taxon_hierarchy>genus Aster;species covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">ledophyllus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Cronquist" date="unknown">covillei</taxon_name>
+    <taxon_hierarchy>genus Aster;species ledophyllus;variety covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+  <discussion>Variety covillei is most common in central and southern Oregon and California.</discussion>
+</bio:treatment>

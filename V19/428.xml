@@ -1,73 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leontodon</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">saxatilis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Villars) Schinz &amp; Thellung" date="unknown">saxatilis</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Leontodon;species saxatilis;subspecies saxatilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leontodon</taxon_name>
+    <taxon_name rank="species" authority="Mérat" date="unknown">nudicaulis</taxon_name>
+    <taxon_hierarchy>genus Leontodon;species nudicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leontodon</taxon_name>
+    <taxon_name rank="species" authority="(Wallroth) G. Beck" date="unknown">nudicaulis</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">taraxacoides</taxon_name>
+    <taxon_hierarchy>genus Leontodon;species nudicaulis;subspecies taraxacoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leontodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">leysseri</taxon_name>
+    <taxon_hierarchy>genus Leontodon;species leysseri;</taxon_hierarchy>
+  </taxon_identification>
   <number>3a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Leontodon</genus_name>
-    <species_name>saxatilis</species_name>
-    <species_authority>Lamarck</species_authority>
-    <subspecies_name>saxatilis</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Leontodon;species saxatilis;subspecies saxatilis;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leontodon</genus_name>
-    <species_name>nudicaulis</species_name>
-    <species_authority>Mérat</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leontodon</genus_name>
-    <species_name>nudicaulis</species_name>
-    <subspecies_name>taraxacoides</subspecies_name>
-    <subspecies_authority>(Villars) Schinz &amp; Thellung</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leontodon</genus_name>
-    <species_name>leysseri</species_name>
-    <species_authority>(Wallroth) G. Beck</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, rarely biennials; inner cypselae with beaks ca. 1 mm. 2n = 8.</description>
-  <phenology_info>
-    <text>Flowering May–Nov.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>lawns , waste areas , dunes , grassy areas ;</text>
-    <habitat>lawns waste areas</habitat>
-    <habitat>dunes</habitat>
-    <habitat>grassy areas</habitat>
-  </habitat_info>
-  <elevation>100–1000 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
-
+</bio:treatment>

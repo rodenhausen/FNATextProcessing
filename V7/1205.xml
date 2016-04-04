@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stanleya</genus_name>
-    <species_name>pinnata</species_name>
-    <species_authority>(Pursh) Britton</species_authority>
-    <variety_name>texana</variety_name>
-    <variety_authority>B. L. Turner</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stanleya</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Britton" date="unknown">pinnata</taxon_name>
+    <taxon_name rank="variety" authority="B. L. Turner" date="unknown">texana</taxon_name>
     <place_of_publication>
       <publication_title>Lundellia</publication_title>
       <place_in_publication>7: 39, figs. 2, 3. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Cauline leaves: blade linear-lanceolate, margins entire. Flowers: sepals 8–10 mm; petals 8–9(–10) mm, claw 4–5 mm; gynophore 10–20 mm, glabrous or nearly so. Fruits 5–8 cm; ovules 10–20 per ovary. Seeds 2–3 mm.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>silty flats</habitat>
-  <habitat>desert washes</habitat>
-  <habitat>bare calcareous-gypseous outcrops</habitat>
-  <habitat>betonite clay hills</habitat>
-  <conservation>of conservation concern;</conservation>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Stanleya;species pinnata;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5c.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>R. C. Rollins (1939c, 1993) treated plants of var. texana under both var. integrifolia and var. pinnata. As shown by Turner, var. texana is somewhat distinct morphologically and is disjunct by ca. 800 km from the nearest populations of var. pinnata. Also, it grows on gypseous instead of seleniferous soils. It is found only in Brewster County.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>aleutica</species_name>
-    <species_authority>Hultén</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">aleutica</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Not.</publication_title>
       <place_in_publication>1939: 829, fig. 2. 1939</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species aleutica;</taxon_hierarchy>
-  <common_name>Aleutian wormwood</common_name>
-  <description>Perennials, 5–10 cm (cespitose), mildly aromatic; caudices branched. Stems usually 1, reddish brown to gray, tomentose to glabrate. Leaves persistent, mostly basal, gray-green; (petioles often expanded) blades (at least proximal) obovate, 1.5–5 × 0.5–1 cm, 2-palmately lobed, lobes relatively narrow, apices acute, faces densely white-villous (brownish in age); cauline smaller, distally 1-ternate. Heads (sessile or peduncles 2–15 mm) in racemiform or spiciform arrays, 1.5–3 × 0.5–1 cm. Involucres hemispheric or globose, (2–)5–7 × (2–)6–8 mm. Phyllaries villous. Florets: pistillate 4–6; functionally staminate 15–30; corollas purplish red, 1.5–2 mm, hairy. Cypselae oblong, ca. 1 mm, faintly nerved, glabrous.</description>
-  <habitat_info>
-    <text>open areas , fellfield tundra ;</text>
-    <habitat>open areas</habitat>
-    <habitat>fellfield tundra</habitat>
-  </habitat_info>
-  <conservation>of conservation concern;</conservation>
-  <elevation>0–100 m;</elevation>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species aleutica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Aleutian wormwood</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Artemisia aleutica is known only from the western Aleutian Islands. It is morphologically similar to A. borealis, and the relationships of these species complexes warrant further study.</discussion>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

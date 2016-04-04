@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>terrestris</species_name><species_authority>Kellogg</species_authority><place_of_publication>
-    <publication_title>Proc. Calif. Acad. Sci.</publication_title>
-    <place_in_publication>2: 6. 1859</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>terrestria</past_name><common_name>Dwarf brodiaea</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>terrestris</species_name><species_authority>(Kellogg) Britten ex Greene</species_authority></TaxonIdentification><description>Scape 0.5–20 cm, slender. Flowers 16–33 mm; perianth pinkish purple or rose, tube narrowly campanulate, 6–13 mm, opaque, not splitting in fruit, lobes ascending, recurved distally, 10–20 mm; filaments 2–3 mm, base dilated to form triangular flap; anthers linear, 3–6 mm, apex separated; staminodia leaning inward slightly but held away from stamens, violet to whitish, broad, 4–5 mm, margins 1/4 involute, apex broad, slightly hooded, 2-notched; ovary 7–9 mm; style 4–9 mm; pedicel 1–15 cm.</description><number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa><us_distribution>California</us_distribution><us_distribution>s Oregon.</us_distribution><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">terrestris</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>2: 6. 1859</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species terrestris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) Britten ex Greene" date="unknown">terrestris</taxon_name>
+    <taxon_hierarchy>genus Hookera;species terrestris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="past_name">terrestria</other_name>
+  <other_name type="common_name">Dwarf brodiaea</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Scape 0.5–7 cm; flowers 16–25 mm; pedicel 3–15 cm; leaves lunate in cross section</statement>
+      <description type="morphology">Scape 0.5–7 cm; flowers 16–25 mm; pedicel 3–15 cm; leaves lunate in cross section</description>
       <determination>14a.  Brodiaea terrestris subsp. terrestris</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Scape 2–20 cm; flowers 26–33 mm; pedicel 1–7 cm; leaves not very lunate in cross section</statement>
+      <description type="morphology">Scape 2–20 cm; flowers 26–33 mm; pedicel 1–7 cm; leaves not very lunate in cross section</description>
       <determination>14b.  Brodiaea terrestris subsp. kernensis</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

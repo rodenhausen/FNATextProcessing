@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>8.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Abronia</genus_name>
-        <species_name>mariti</species_name>
-        <species_authority>ma Nuttall ex S. Watson</species_authority>
-        <place_of_publication>
-            <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
-            <place_in_publication>2: 4. 1880</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Red sand-verbena</common_name>
-    <description>Plants perennial. Stems prostrate, often buried, often extensively branched,
-        forming large mats, succulent, densely glandular-pubescent. Leaves: petiole 0.5–3 cm; blade
-        elliptic to oblong or nearly obovate, 5–6.8 × 2.3–4.3 cm, margins usually entire, sometimes
-        ± repand and undulate, surfaces minutely viscid-puberulent. Inflorescences: peduncle longer
-        than subtending petiole; bracts lanceolate to lance-ovate, 7–11 × 3–4 mm, papery, minutely
-        glandular to glandular-pubescent; flowers 10–18. Perianth: tube red to reddish green, 6–10
-        mm, limb deep purplish red, 7–10 mm diam., lobes tightly reflexed. Fruits turbinate, 10–14 ×
-        6–18 mm, thick, indurate, apex irregularly truncate and ± beaked; wings 3–5, without
-        cavities.</description>
-    <habitat>foredunes and unstable dunes near strand</habitat>
-    <elevation>0–50 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <global_distribution>Mexico (Baja California).</global_distribution>
-    <global_distribution>Mexico (Baja California Sur).</global_distribution>
-    <global_distribution>Mexico (Sinaloa).</global_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Abronia</taxon_name>
+    <taxon_name rank="species" authority="ma Nuttall ex S. Watson" date="unknown">mariti</taxon_name>
+    <place_of_publication>
+      <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
+      <place_in_publication>2: 4. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Abronia;species mariti;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Red sand-verbena</other_name>
+</bio:treatment>

@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>micrantha</species_name>
-    <species_authority>Douglas ex Lindley</species_authority>
-    <variety_name>hartwegii</variety_name>
-    <variety_authority>(S. Watson ex Wheelock) Rosendahl</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Lindley" date="unknown">micrantha</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson ex Wheelock) Rosendahl" date="unknown">hartwegii</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>37(2, Beibl. 83): 77.  1905,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>pilosissima</species_name>
-    <species_authority>Fischer &amp; C. A. Meyer</species_authority>
-    <variety_name>hartwegii</variety_name>
-    <variety_authority>S. Watson ex Wheelock</variety_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species micrantha;variety hartwegii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Fischer &amp; C. A. Meyer" date="unknown">pilosissima</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson ex Wheelock" date="unknown">hartwegii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>17: 195.  1890 (as hartwegi)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>hartwegii</species_name>
-    <species_authority>(S. Watson ex Wheelock) Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Leaves: petiole short stipitate-glandular mixed with long stipitate-glandular; blade pen-tagonal or heptagonal, deeply lobed.  Inflorescences long stipitate-glandular.  Flowers: hypanthium broadly turbinate, 1.5–4.7 × 1.5–3.8 mm, long stipitate-glandular; sepals 0.5–1.3 mm, apex rounded to acute; petals 0.3–0.7 mm wide; styles 1.8–4.2 mm.  2n = 14, 28.</description>
-  <phenology>Flowering Apr–Jul</phenology>
-  <habitat>Redwood or pine forest over sandstone, granite, or serpentine soils</habitat>
-  <elevation>0–1600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species pilosissima;variety hartwegii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson ex Wheelock) Rydberg" date="unknown">hartwegii</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species hartwegii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4d.</number>
   <discussion>Variety hartwegii occurs in the Coast Ranges.</discussion>
-</treatment>
+</bio:treatment>

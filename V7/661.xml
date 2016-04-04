@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>27.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>RAPHANUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Suzanne I. Warwick</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">RAPHANUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 669. 1753</place_in_publication>
@@ -12,30 +18,27 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 300. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek raphanos , radish]</etymology>
-  <common_name>Radish</common_name>
-  <author>Suzanne I. Warwick</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quidproquo</genus_name>
-    <genus_authority>Greuter &amp; Burdet</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials; (roots slender or fleshy, size, shape, and color variable in cultivated forms); not scapose; glabrous or pubescent. Stems erect, unbranched or branched. Leaves basal and cauline; petiolate or subsessile; basal not rosulate, petiolate, blade margins lyrately lobed or pinnatifid to pinnatisect; cauline shortly petiolate or subsessile, blade (base not auriculate), margins dentate or lobed, (smaller and fewer-lobed than basal). Racemes (corymbose, several-flowered), usually greatly elongated in fruit. Fruiting pedicels divaricate, ascending, or spreading [reflexed]. Flowers: sepals erect, narrowly oblong [linear], lateral pair slightly saccate basally; petals white, creamy white, yellow, pink, or purple [lilac] (usually with darker veins), broadly obovate [suborbicular], claw differentiated from blade, (± longer than sepals, apex obtuse or emarginate [rounded]); stamens strongly tetradynamous; filaments not dilated basally; anthers oblong or oblong-linear, (apex obtuse); nectar glands (4), median pair present. Fruits siliques or silicles, indehiscent, sessile, segments 2, (lomentaceous, often breaking into 1-seeded units), cylindrical, fusiform, lanceolate, or ovoid, [linear, oblong, ellipsoid], smooth or torulose to strongly moniliform, (constricted or not between seeds), terete or polygonal; (valvular segment seedless, rudimentary, or aborted, nearly as wide as pedicel; terminal segment several-seeded, corky); valves glabrous, antrorsely scabrous, or hispid; replum and septum not differentiated; ovules 2–22 per ovary; (style slender); stigma capitate, slightly 2-lobed. Seeds uniseriate, plump, not winged, oblong, ovoid, or globose [subglobose]; seed coat (nearly smooth to reticulate), not mucilaginous when wetted; cotyledons conduplicate. x = 9.</description>
-  <number_of_infrataxa>Species 3 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>introduced also nearly worldwide.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus RAPHANUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek raphanos , radish]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Greuter &amp; Burdet" date="unknown">Quidproquo</taxon_name>
+    <taxon_hierarchy>genus Quidproquo;</taxon_hierarchy>
+  </taxon_identification>
+  <number>27.</number>
+  <other_name type="common_name">Radish</other_name>
+  <discussion>Species 3 (2 in the flora):</discussion>
   <discussion>Natural hybridization between Raphanus raphanistrum and R. sativus has been known since 1788, and the hybrid has been named R. ×micranthus (Uechtritz) O. E. Schulz. The transfer of some of the weedy characters from R. raphanistrum to R. sativus through natural hybridization may have played a major role in converting the latter from a crop plant into a successful weed near the coastal areas of central California (C. A. Panetsos and H. G. Baker 1968). Raphanus confusus (Greuter &amp; Burdet) Al-Shehbaz &amp; Warwick is known from Asia (Israel, Lebanon).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals pale or creamy white; fruits (2.5–)3–8(–11) mm wide, strongly constricted between</statement>
+      <description type="morphology">Petals pale or creamy white; fruits (2.5–)3–8(–11) mm wide, strongly constricted between</description>
       <determination>1. Raphanus raphanistrum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals usually purple or pink, sometimes white; fruits (5–)7–13(–15) mm wide, rarely slightly constricted between seeds and usually not breaking, not ribbed, beak narrowly to</statement>
+      <description type="morphology">Petals usually purple or pink, sometimes white; fruits (5–)7–13(–15) mm wide, rarely slightly constricted between seeds and usually not breaking, not ribbed, beak narrowly to</description>
       <determination>2. Raphanus sativus</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

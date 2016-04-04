@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>33.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Opuntia</genus_name>
-        <species_name>×columbiana</species_name>
-        <species_authority>Griffiths</species_authority>
-        <place_of_publication>
-            <publication_title>Bull. Torrey Bot. Club</publication_title>
-            <place_in_publication>43: 523. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <other_info>as species</other_info>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>erinacea</species_name>
-        <species_authority>Engelmann &amp; J. M. Bigelow</species_authority>
-        <variety_name>columbiana</variety_name>
-        <variety_authority>(Griffiths) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <description>Shrubs, low, forming mats, 10–30 cm. Stem segments easily detached to firmly
-        attached, green, flattened, narrowly to broadly obovate, 3.5–9 × 2.5–5 cm, low tuberculate,
-        glabrous; areoles 4–6(–7) per diagonal row across midstem segment, oval, 3.5 × 2.5 mm; wool
-        white. Spines in most areoles, straight, acicular, terete; major spines 0–1 per areole,
-        reflexed to porrect (rarely ascending), gray-white to brown, (15–)25–40(–60) mm;
-        intermediate spines 0–3, reflexed, 12–20 mm; minor spines 2–4, reflexed, yellow-gray, 3–6
-        mm. Glochids loosely packed, in small tuft or crescent at adaxial margin of areole,
-        yellowish, inconspicuous, to 4 mm. Flowers: inner tepals yellow throughout, 30–45 mm;
-        filaments white to red; anthers yellow; style white; stigma lobes green. Fruits rarely set,
-        top-shaped to barrel-shaped, 15–20 × 15 mm, glabrous; areoles 10–15, most bearing 3–12
-        spines or distal spines bearing 1–3 spines. Seeds tan, large, 5–7 mm; girdle protruding
-        1–1.5 mm. 2n = 66.</description>
-    <phenology>summer</phenology>
-    <phenology>aug</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <habitat>dark basaltic cliffs and derived sands</habitat>
-    <elevation>100–800 m;</elevation>
-    <ca_distribution>B.C.</ca_distribution>
-    <us_distribution>Idaho</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Griffiths" date="unknown">×columbiana</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>43: 523. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Opuntia;species ×columbiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann &amp; J. M. Bigelow" date="unknown">erinacea</taxon_name>
+    <taxon_name rank="variety" authority="(Griffiths) L. D. Benson" date="unknown">columbiana</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species erinacea;variety columbiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>33.</number>
+</bio:treatment>

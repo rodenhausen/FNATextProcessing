@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>92b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>calcicola</species_name>
-    <species_authority>Fernald &amp; Wiegand</species_authority>
-    <variety_name>glandulosior</variety_name>
-    <variety_authority>B. Boivin</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Fernald &amp; Wiegand" date="unknown">calcicola</taxon_name>
+    <taxon_name rank="variety" authority="B. Boivin" date="unknown">glandulosior</taxon_name>
     <place_of_publication>
       <publication_title>Naturaliste Canad.</publication_title>
       <place_in_publication>75: 221. 1948</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves: largest medial blade margins green, teeth or glands 5–22 per cm, apex acuminate or acute, adaxial surface slightly glossy or dull. Pistillate flowers: adaxial nectary 0.2–1.1 mm; stipe 0.3–0.6 mm; ovary pyriform; styles 0.9–1.8 mm; stigmas 0.2–0.28–0.36 mm.</description>
-  <habitat>no data are available on flowering time (probably early). boreal floodplains</habitat>
-  <habitat>alpine wet meadows</habitat>
-  <habitat>dwarf birch thickets</habitat>
-  <habitat>limestone substrates</habitat>
-  <elevation>1200–3700 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species calcicola;variety glandulosior;</taxon_hierarchy>
+  </taxon_identification>
+  <number>92b.</number>
+</bio:treatment>

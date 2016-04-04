@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ephemerum</genus_name>
-    <species_name>crassinervium</species_name>
-    <species_authority>(Schwägrichen) Hampe</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephemerum</taxon_name>
+    <taxon_name rank="species" authority="(Schwägrichen) Hampe" date="unknown">crassinervium</taxon_name>
     <place_of_publication>
       <publication_title>Flora</publication_title>
       <place_in_publication>20: 285.  1837,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Phascum</genus_name>
-    <species_name>crassinervium</species_name>
-    <species_authority>Schwägrichen</species_authority>
+    <taxon_hierarchy>genus Ephemerum;species crassinervium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="species" authority="Schwägrichen" date="unknown">crassinervium</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond. Suppl.</publication_title>
       <place_in_publication>1(1): 4, plate 2.  1811</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants up to 2.5 mm, scattered in sparse protonemata.  Leaves lanceolate, broadly linear or ligulate, acuminate, sometimes narrowed distally from shoulders, 0.8–2.5 × 0.15–0.4 mm; margins serrulate or serrate, with teeth sometimes recurved up to 45°; apex acuminate and papillose; costa at the base thin or not always apparent, stronger distally, often filling the acumen, percurrent or excurrent, papillose; areolation firm proximally and distally compact to dense; median laminal cells in ± vertical rows, smooth or slightly papillose; distal laminal cells papillose.  Capsule with columella resorbed before meiosis; stomates in proximal half or scattered throughout.  Spores various, 43–120 × 35–80 µm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand).</us_distribution>
+    <taxon_hierarchy>genus Phascum;species crassinervium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Distal leaves lanceolate to broadly linear and acuminate, with compact to rather dense areolation in the distal two-thirds var. crassinervium</statement>
+      <description type="morphology">Distal leaves lanceolate to broadly linear and acuminate, with compact to rather dense areolation in the distal two-thirds var. crassinervium</description>
       <determination>3a.   Ephemerum crassinervium var. crassinervium</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Distal leaves broadly lanceolate to oblong-lanceolate or ligulate and subulate, often narrowed from a slight to prominent shoulder, densely papillose in the distal half var. texanum</statement>
+      <description type="morphology">Distal leaves broadly lanceolate to oblong-lanceolate or ligulate and subulate, often narrowed from a slight to prominent shoulder, densely papillose in the distal half var. texanum</description>
       <determination>3b.   Ephemerum crassinervium var. texanum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

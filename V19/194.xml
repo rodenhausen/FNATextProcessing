@@ -1,59 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Volutaria</genus_name>
-    <species_name>muricata</species_name>
-    <species_authority>(Linnaeus) Maire</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Volutaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Maire" date="unknown">muricata</taxon_name>
     <place_of_publication>
       <publication_title>in É. Jahandiez et al., Cat. Pl. Maroc,</publication_title>
       <place_in_publication>3. 817. 1934</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Volutaria;species muricata;</taxon_hierarchy>
-  <common_name>Morocco knapweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>muricata</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Volutaria;species muricata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">muricata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 918. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Amberboa</genus_name>
-    <species_name>muricata</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyanopsis</genus_name>
-    <species_name>muricata</species_name>
-    <species_authority>(Linnaeus) Dostál</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Volutarella</genus_name>
-    <species_name>muricata</species_name>
-    <species_authority>(Linnaeus) Bentham &amp; Hooker f.</species_authority>
-  </TaxonIdentification>
-  <description>Leaves: proximal oblanceolate, margins denticulate to deeply pinnatifid, distal smaller, linear, ± entire or lobed, faces villous with septate hairs, minutely resin-gland-dotted. Heads 3–5 cm diam. Peduncles 5–15 cm, distally leafless, finely arachnoid-tomentose, especially near tips. Involucres 15–18 mm. Phyllaries in 5–7 series, minutely spinulose-serrulate, finely pilose, outer and mid ovate, appressed, dark-margined, abruptly tipped by spreading or reflexed, flattened spine tips 3–5 mm, inner lanceolate, with erect or flaring, flattened, ± spineless tips. Florets: corolla lobes of sterile 10–15 mm, spreading; corollas of fertile 13–14 mm, tubes 5–6 mm, throats 2–4 mm, lobes 5–6 mm. Cypselae pale gray-brown, scars with cartilaginous rims; pappi of irregularly toothed scales 1–2.5 mm, outer shorter and narrower than inner. 2n = 24 (n Africa, as Cyanopsis muricata).</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites , sparingly established , in coastal regions , probably escaped from cultivation ;</text>
-    <habitat>disturbed sites</habitat>
-    <habitat>sparingly established , in coastal regions</habitat>
-    <habitat>escaped from cultivation</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>sw Europe</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Centaurea;species muricata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Amberboa</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">muricata</taxon_name>
+    <taxon_hierarchy>genus Amberboa;species muricata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyanopsis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Dostál" date="unknown">muricata</taxon_name>
+    <taxon_hierarchy>genus Cyanopsis;species muricata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Volutarella</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Bentham &amp; Hooker f." date="unknown">muricata</taxon_name>
+    <taxon_hierarchy>genus Volutarella;species muricata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Morocco knapweed</other_name>
+</bio:treatment>

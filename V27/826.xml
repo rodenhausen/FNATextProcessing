@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Leptodontium</genus_name>
-    <species_name>viticulosoides</species_name>
-    <species_authority>(P. Beauvois) Wijk &amp; Margadant</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leptodontium</taxon_name>
+    <taxon_name rank="species" authority="(P. Beauvois) Wijk &amp; Margadant" date="unknown">viticulosoides</taxon_name>
     <place_of_publication>
       <publication_title>Taxon</publication_title>
       <place_in_publication>9: 51.  1960,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Neckera</genus_name>
-    <species_name>viticulosoides</species_name>
-    <species_authority>P. Beauvois</species_authority>
+    <taxon_hierarchy>genus Leptodontium;species viticulosoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Neckera</taxon_name>
+    <taxon_name rank="species" authority="P. Beauvois" date="unknown">viticulosoides</taxon_name>
     <place_of_publication>
       <publication_title>Prodr. Aethéogam.,</publication_title>
       <place_in_publication>78.  1805</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 5 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>se Asia</global_distribution>
-  <us_distribution>Indian Ocean Islands.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Neckera;species viticulosoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Varieties 5 (1 in the flora):</discussion>
+</bio:treatment>

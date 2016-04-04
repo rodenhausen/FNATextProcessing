@@ -1,76 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>6.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Smilax</genus_name>
-        <species_name>glauca</species_name>
-        <species_authority>Walter</species_authority>
-        <place_of_publication>
-            <publication_title>Fl. Carol.,</publication_title>
-            <place_in_publication>245. 1788</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Wild sarsaparilla</common_name>
-    <common_name>sawbrier</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Smilax</genus_name>
-        <species_name>glauca</species_name>
-        <variety_name>leurophylla</variety_name>
-        <variety_authority>S. F. Blake</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Smilax</genus_name>
-        <species_name>spinulosa</species_name>
-        <species_authority>Smith</species_authority>
-    </TaxonIdentification>
-    <description>Vines; rhizomes tuberous, or spinose, linear. Stems perennial, climbing, branching,
-        green, often mottled, terete, to 5+ m, woody, glaucous, glabrous; prickles, when present,
-        thin, 1–5 mm. Leaves deciduous to semi evergreen, ± evenly disposed; petiole 0.5–1.5 cm;
-        blade green to glaucous-green, often mottled adaxially, silvery grayish abaxially, drying to
-        brownish tan adaxially, broadly ovate, elliptic to reniform, with 3 (or 5) conspicuous
-        veins, 4.5–11 × 2.5–6.6 cm, glabrous and glaucous abaxially, base truncate, subcordate, or
-        attenuate, margins entire, apex rounded, tapering, or short-acuminate. Umbels few to many,
-        axillary to leaves, 5–12+-flowered, open, umbellate to hemispherical; peduncle 2–5 cm.
-        Flowers: perianth yellow to bronze; tepals 3–7 mm; anthers longer than filaments; ovule 1
-        per locule; pedicel 0.5–1 cm. Berries blue to black, subglobose, 8–10 mm, shiny black at
-        maturity, glaucous. 2n = 28, 32.</description>
-    <phenology>may</phenology>    
-    <phenology>jun</phenology>    
-    <phenology>jul</phenology>    
-    <phenology>spring</phenology> 
-    <phenology>summer</phenology>        
-    <habitat>dry to wet woods</habitat>
-    <habitat>thickets</habitat>
-    <habitat>hedge- rows</habitat>
-    <habitat>roadsides</habitat>
-    <elevation>0–800 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Conn.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>D.C.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Smilax glauca is easily recognized by its glaucous to whitened abaxial leaf
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Ventenat" date="unknown">SMILACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">glauca</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Carol.,</publication_title>
+      <place_in_publication>245. 1788</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family SMILACACEAE;genus Smilax;species glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">glauca</taxon_name>
+    <taxon_name rank="variety" authority="S. F. Blake" date="unknown">leurophylla</taxon_name>
+    <taxon_hierarchy>genus Smilax;species glauca;variety leurophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spinulosa</taxon_name>
+    <taxon_hierarchy>genus Smilax;species spinulosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Wild sarsaparilla</other_name>
+  <other_name type="common_name">sawbrier</other_name>
+  <discussion>Smilax glauca is easily recognized by its glaucous to whitened abaxial leaf
         surfaces, which, however, may be altered by heat in drying. It is reportedly the most weedy
         species of the genus. The plants tend to be evergreen in the more southern part of the
         distribution.</discussion>
-</treatment>
+</bio:treatment>

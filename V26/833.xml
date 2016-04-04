@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14.</number><TaxonIdentification Status="ACCEPTED"><genus_name>FREESIA</genus_name><genus_authority>Ecklon ex Klatt</genus_authority><place_of_publication>
-    <publication_title>Linnaea</publication_title>
-    <place_in_publication>34: 672. 1866</place_in_publication>
-  </place_of_publication></TaxonIdentification><etymology>[for F. H. T. Freese, d. 1876, student of C. F. Ecklon, 1795–1868, who first used the name (as Freesea), although in a different sense]</etymology><conserved_name>name conserved</conserved_name><common_name>Freesia</common_name><author>Peter Goldblatt</author><TaxonIdentification Status="SYNONYM"><genus_name>Anomatheca</genus_name><genus_authority>Ker Gawler</genus_authority></TaxonIdentification><description>Herbs, perennial, from corms. Corms tunicate, conic, ca. 10 mm diam.; tunics fibrous; fibers fine, pale, reticulate. Stems simple or branched. Leaves several, sometimes prostrate; blade plane, lanceolate [ensiform or oblong]. Inflorescences spicate, secund, usually strongly flexed basally, ± horizontal, several–many-flowered; bract green [pale straw colored], coriaceous or membranous. Flowers often strongly fragrant, zygomorphic; tepals connate into tube, mostly white or yellow, sometimes pink or red, subequal, outer whorl slightly larger than inner; perianth tube cylindric or funnel-shaped, short or long proximally, abruptly expanded into short to long tube or flared distally; stamens asymmetrically disposed, unilateral; anthers usually parallel; style arching over filaments, dividing into 3 filiform branches. Capsules irregularly globose, usually rugose. Seeds several per locule, globose, without wings; seed coat light to dark brown, hard, shiny. x = 11.</description><number_of_infrataxa>Species 15 (2 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>South Africa.</global_distribution><discussion>Critical phylogenetic study has shown Freesia to be nested in Anomatheca, and the two genera have been united.</discussion><references>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter Goldblatt</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">IRIDACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Ecklon ex Klatt" date="unknown">FREESIA</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>34: 672. 1866</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family IRIDACEAE;genus FREESIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[for F. H. T. Freese, d. 1876, student of C. F. Ecklon, 1795–1868, who first used the name (as Freesea), although in a different sense]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Ker Gawler" date="unknown">Anomatheca</taxon_name>
+    <taxon_hierarchy>genus Anomatheca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="common_name">Freesia</other_name>
+  <discussion>Species 15 (2 in the flora):</discussion>
+  <discussion>Critical phylogenetic study has shown Freesia to be nested in Anomatheca, and the two genera have been united.</discussion>
+  <references>
     <reference>  Goldblatt, P. 1982. Systematics of Freesia Klatt (Iridaceae). J. S. African Bot. 48: 39–91.  Goldblatt, P. and J. C. Manning. 1995. Phylogeny of the African genera Anomatheca and Freesia (Iridaceae–Ixioideae), and a new genus Xenoscapa. Syst. Bot. 20: 161–178.</reference>
-  </references><key><key_statement>
+  </references>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perianth hypocrateriform; tepals pink to red with dark red markings on lower 3 tepals; tube</statement>
+      <description type="morphology">Perianth hypocrateriform; tepals pink to red with dark red markings on lower 3 tepals; tube</description>
       <determination>1.  Freesia laxa</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perianth funnel-shaped; tepals predominantly white, sometimes with yellow markings on lower tepals, tepals and tube lightly flushed with purple abaxially; distal part of tube longer</statement>
+      <description type="morphology">Perianth funnel-shaped; tepals predominantly white, sometimes with yellow markings on lower tepals, tepals and tube lightly flushed with purple abaxially; distal part of tube longer</description>
       <determination>2.  Freesia alba</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

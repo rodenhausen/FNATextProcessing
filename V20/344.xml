@@ -1,95 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>163a.11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Solidago</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Solidago</section_name>
-    <subsection_name>&gt;Nemorales</subsection_name>
-    <subsection_authority>(Mackenzie) G. L. Nesom</subsection_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="(Mackenzie) G. L. Nesom" date="unknown">&gt;Nemorales</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>75: 8. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Solidago</genus_name>
-    <unranked_epithet_name>Nemorales</unranked_epithet_name>
-    <unranked_epithet_authority>Mackenzie</unranked_epithet_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;section Solidago;subsection &gt;Nemorales;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Mackenzie">Nemorales</taxon_name>
     <place_of_publication>
-      <publication_title>in J. K. Small, Man. S.E. Fl., </publication_title>
+      <publication_title>in J. K. Small, Man. S.E. Fl.,</publication_title>
       <place_in_publication>1348. 1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Solidago</genus_name>
-    <unranked_epithet_name>Incanae</unranked_epithet_name>
-    <unranked_epithet_authority>Rydberg</unranked_epithet_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Solidago</genus_name>
-    <unranked_epithet_name>Radulae</unranked_epithet_name>
-    <unranked_epithet_authority>Rydberg</unranked_epithet_authority>
-  </TaxonIdentification>
-  <description>Stems and leaves usually moderately to densely strigoso-canescent. Leaves: basal
-    often present in rosettes at flowering, proximalmost cauline petiolate to subpetiolate,
-    sometimes present at flower-ing, largest sometimes with two prominent lateral nerves (3-nerved).
-    Heads in variously thyrsiform-paniculiform, open to usually congested, cone-shaped, ± secund (to
-    reflexed in S. nemoralis) arrays, proximal branches arching, secund; phyllaries 1-nerved, not
-    stipitate-glandular, not striate. Pappus bristles usually in 2 series (inner usually weakly to
-    moderately clavate).</description>
-  <number_of_infrataxa>Species 6 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico.</global_distribution>
+    <taxon_hierarchy>genus Solidago;unranked Nemorales;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Rydberg">Incanae</taxon_name>
+    <taxon_hierarchy>genus Solidago;unranked Incanae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Rydberg">Radulae</taxon_name>
+    <taxon_hierarchy>genus Solidago;unranked Radulae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>163a.11.</number>
+  <discussion>Species 6 (5 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads secund, in rounded, secund, pseudo-corymbiform paniculiform arrays;
-        oftenalkaline meadows and flats, Montana and Idaho s to New Mexico and Arizona</statement>
+      <description type="morphology">Heads secund, in rounded, secund, pseudo-corymbiform paniculiform arrays;
+        oftenalkaline meadows and flats, Montana and Idaho s to New Mexico and Arizona</description>
       <determination>69. Solidago nana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads usually in narrowly to broadly pyramidal, paniculiform arrays, branches
-        secund.</statement>
+      <description type="morphology">Heads usually in narrowly to broadly pyramidal, paniculiform arrays, branches
+        secund.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants with short-branched caudices; arrays secund to apically recurved; prairies
-        and open ground in e deciduous forests</statement>
+      <description type="morphology">Plants with short-branched caudices; arrays secund to apically recurved; prairies
+        and open ground in e deciduous forests</description>
       <determination>67. Solidago nemoralis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants creeping-rhizomatous; heads in thyrsiform to secund-pyramidal, paniculiform
-        arrays.</statement>
+      <description type="morphology">Plants creeping-rhizomatous; heads in thyrsiform to secund-pyramidal, paniculiform
+        arrays.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves finely scabrous, not or weakly 3-nerved; e United States</statement>
+      <description type="morphology">Leaves finely scabrous, not or weakly 3-nerved; e United States</description>
       <determination>71. Solidago radula</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves coarsely scabrous, hispid or soft-canescent, sometimes strongly 3-nerved;
-        prairies and w United States.</statement>
+      <description type="morphology">Leaves coarsely scabrous, hispid or soft-canescent, sometimes strongly 3-nerved;
+        prairies and w United States.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Heads in paniculiform arrays, usually compact, branches broadly thyrsiform to
+      <description type="morphology">Heads in paniculiform arrays, usually compact, branches broadly thyrsiform to
         somewhat secund pyramidal, proximal branches reflexed-recurved distally,basal leaves
-        withering by flowering; prairies of Great Plains</statement>
+        withering by flowering; prairies of Great Plains</description>
       <determination>70. Solidago mollis</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Heads in cone-shaped arrays with branches narrowly secund, or open, lax, pyramidal;
+      <description type="morphology">Heads in cone-shaped arrays with branches narrowly secund, or open, lax, pyramidal;
         basal leaves often present at flowering; from near sea to mid montane elevations, Wyoming to
-        s Oregon, s to central Mexico</statement>
+        s Oregon, s to central Mexico</description>
       <determination>68. Solidago velutina</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Oönopsis</genus_name><species_name>foliosa</species_name><species_authority>(A. Gray) Greene</species_authority><variety_name>monocephala</variety_name><variety_authority>(A. Nelson) Kartesz &amp; Gandhi</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>71: 60. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Oönopsis</genus_name><species_name>monocephala</species_name><species_authority>A. Nelson</species_authority><place_of_publication><publication_title>Bot. Gaz. </publication_title><place_in_publication>31: 399. 1901</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>fremontii</species_name><species_authority>A. Gray</species_authority><subspecies_name>monocephalus</subspecies_name><subspecies_authority>(A. Nelson) H. M. Hall</subspecies_authority></TaxonIdentification><description>Heads 1–5(–6). Ray florets 0. Disc florets 66–150. 2n = 20.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>sparsely vegetated clay flats</habitat><habitat>gullies</habitat><habitat>and eroding toeslopes of limestone hills</habitat><habitat>alkaline, clayey, and calcareous soils with moderate to high erosion potential, usually in shortgrass prairies</habitat><habitat>also with artemisia</habitat><habitat>yucca glauca, krascheninnikovia, sometimes in sarcobatus flats</habitat><conservation>of conservation concern;</conservation><elevation>1200–1800 m;</elevation><us_distribution>Colo.</us_distribution><discussion>Variety monocephala is known only from Las Animas County. It is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oönopsis</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">foliosa</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Kartesz &amp; Gandhi" date="unknown">monocephala</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>71: 60. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Oönopsis;species foliosa;variety monocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oönopsis</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">monocephala</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>31: 399. 1901</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Oönopsis;species monocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Nelson) H. M. Hall" date="unknown">monocephalus</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species fremontii;subspecies monocephalus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Variety monocephala is known only from Las Animas County. It is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
+</bio:treatment>

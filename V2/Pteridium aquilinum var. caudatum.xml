@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pteridium</genus_name><species_name>aquilinum</species_name><variety_name>caudatum</variety_name><variety_authority>(Linnaeus) Sadebeck</variety_authority><place_of_publication><publication_title>Jahrb. Hamburg. Wiss. Anst. Beih.</publication_title><place_in_publication>3: 5. 1897</place_in_publication></place_of_publication></TaxonIdentification><common_name>Lacy bracken</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Pteris</genus_name><species_name>caudata</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>2: 1075. 1753</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pteridium</genus_name><species_name>caudatum</species_name><species_authority>(Linnaeus) Maxon</species_authority></TaxonIdentification><description>Petiole  20--75 cm.  Blade  broadly ovate to deltate, 2--3-pinnate-pinnatifid, 30--100 × 20--80 cm; blades, rachises, and costae usually densely covered abaxially with abundant, straight, stiff, subappressed to spreading hairs.  Pinnae  all narrowly to broadly triangular; terminal segment of each pinna ca. 10 times longer than wide, longer ultimate segments several times their width apart, ca. 1--2.5 mm wide.  Pinnules  at nearly 90° angle to costa; fertile ultimate segments only decurrent, or more decurrent than surcurrent.  Outer indusia  entire, glabrous.</description><discussion>In Florida and West Indies material, the abaxial surfaces are quite hairy; in Central American material they are often much less hairy.</discussion><habitat>In barrens, pine woodlands, and edges of deciduous woods in strongly acid to circumneutral soil, forming large colonies in exposed sites</habitat><elevation> 0 m</elevation><us_distribution> Fla.</us_distribution><global_distribution> Mexico</global_distribution><global_distribution> West Indies</global_distribution><global_distribution> Bermuda</global_distribution><global_distribution> Central America</global_distribution><global_distribution> South America from Colombia to Peru.</global_distribution><key><key_statement><statement_id>1</statement_id><statement>Fertile ultimate segments only decurrent or more decurrent than surcurrent, mostly 1–2 mm wide; hairs on abaxial surface of blades abundant, straight, stiff, subappressed to spreading. 1a. Pteridium aquilinum var. caudatum</statement><next_statement_id>1</next_statement_id></key_statement><key_statement><statement_id>1</statement_id><statement>Fertile ultimate segments adnate or equally decurrent and surcurrent, mostly 3–6 mm wide; hairs on abaxial surface of blades abundant to sparse, twisted and flexible, if abundant then lax, spreading.</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Pinnules at nearly 90° angle to costa; outer indusium pilose on margin and often on surface; hairs on abaxial surface of blades abundant, lax, and spreading. 1b. Pteridium aquilinum var. pubescens</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Pinnules at 45°–60° angle to costa; outer indusium glabrous; hairs on abaxial surface of blades sparse or blades nearly glabrous.</statement><next_statement_id>3</next_statement_id></key_statement><key_statement><statement_id>3</statement_id><statement>Terminal segments of pinnules 2–4 times longer than wide; segment margins and abaxial surface of blade midrib and costae shaggy. 1c. Pteridium aquilinum var. latiusculum</statement><next_statement_id>3</next_statement_id></key_statement><key_statement><statement_id>3</statement_id><statement>Terminal segments of pinnules ca. 6–15 times longer than wide; segment margins and abaxial surface of blade midrib and costae sparsely pilose to glabrous. 1d. Pteridium aquilinum var. pseudocaudatum</statement><next_statement_id>1</next_statement_id></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pteridium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">aquilinum</taxon_name>
+    <taxon_name rank="variety" authority="(Linnaeus) Sadebeck" date="unknown">caudatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Jahrb. Hamburg. Wiss. Anst. Beih.</publication_title>
+      <place_in_publication>3: 5. 1897</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pteridium;species aquilinum;variety caudatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pteris</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Maxon" date="unknown">caudata</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1075. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pteris;species caudata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pteridium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">caudatum</taxon_name>
+    <taxon_hierarchy>genus Pteridium;species caudatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a</number>
+  <other_name type="common_name">Lacy bracken</other_name>
+  <discussion>In Florida and West Indies material, the abaxial surfaces are quite hairy; in Central American material they are often much less hairy.</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Fertile ultimate segments only decurrent or more decurrent than surcurrent, mostly 1–2 mm wide; hairs on abaxial surface of blades abundant, straight, stiff, subappressed to spreading. 1a. Pteridium aquilinum var. caudatum</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Fertile ultimate segments adnate or equally decurrent and surcurrent, mostly 3–6 mm wide; hairs on abaxial surface of blades abundant to sparse, twisted and flexible, if abundant then lax, spreading.</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Pinnules at nearly 90° angle to costa; outer indusium pilose on margin and often on surface; hairs on abaxial surface of blades abundant, lax, and spreading. 1b. Pteridium aquilinum var. pubescens</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Pinnules at 45°–60° angle to costa; outer indusium glabrous; hairs on abaxial surface of blades sparse or blades nearly glabrous.</description>
+      <next_statement_id>3</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Terminal segments of pinnules 2–4 times longer than wide; segment margins and abaxial surface of blade midrib and costae shaggy. 1c. Pteridium aquilinum var. latiusculum</description>
+      <next_statement_id>3</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Terminal segments of pinnules ca. 6–15 times longer than wide; segment margins and abaxial surface of blade midrib and costae sparsely pilose to glabrous. 1d. Pteridium aquilinum var. pseudocaudatum</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+  </key>
+</bio:treatment>

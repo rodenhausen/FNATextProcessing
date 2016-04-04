@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SCHISTOSTEGA</genus_name>
-    <genus_authority>D. Mohr</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="D. Mohr" date="unknown">SCHISTOSTEGA</taxon_name>
     <place_of_publication>
       <publication_title>Observ. Bot.,</publication_title>
       <place_in_publication>26.  1803  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek schistos, split or divided, and stego, cover, apparently alluding to erroneous observation that operculum splits]</etymology>
-  <description>Plants fernlike, bluish gray-green, occasionally with a reddish purple tint, scattered, as clustered or tufted frondiform shoots.  Stems 4–7 mm from a protonema composed of filamentous strands of tiny, clear, spheric cells.</description>
-</treatment>
+    <taxon_hierarchy>genus SCHISTOSTEGA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek schistos, split or divided, and stego, cover, apparently alluding to erroneous observation that operculum splits]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

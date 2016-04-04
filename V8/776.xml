@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>hookeri</species_name>
-    <species_authority>G. Don</species_authority>
-    <subspecies_name>hearstiorum</subspecies_name>
-    <subspecies_authority>(Hoover &amp; Roof) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="G. Don" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hoover &amp; Roof) P. V. Wells" date="unknown">hearstiorum</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>19: 200.  1968  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Hearst’s manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>hearstiorum</species_name>
-    <species_authority>Hoover &amp; Roof</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species hookeri;subspecies hearstiorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Hoover &amp; Roof" date="unknown">hearstiorum</taxon_name>
     <place_of_publication>
       <publication_title>Four Seasons</publication_title>
       <place_in_publication>2(1): 2.  1966</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants prostrate, sparsely mat-forming, 0.1–0.2 m.  Leaves: petiole 1–3 mm; blade narrow-elliptic (diamond-shaped), 0.8–1.2 × 0.4–0.7 cm.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Coastal prairies</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species hearstiorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8b.</number>
+  <other_name type="common_name">Hearst’s manzanita</other_name>
   <discussion>Subspecies hearstiorum is known from the northern coastal region of San Luis Obispo County.</discussion>
-</treatment>
+</bio:treatment>

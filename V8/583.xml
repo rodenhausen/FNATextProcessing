@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>incana</species_name>
-    <species_authority>M. E. Jones</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">incana</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
       <place_in_publication>2, 5: 706.  1895  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Silvery primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>farinosa</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>incana</subspecies_name>
-    <subspecies_authority>(M. E. Jones) W. W. Smith &amp; Forrest</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>farinosa</species_name>
-    <variety_name>incana</variety_name>
-    <variety_authority>(M. E. Jones) Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 2–46 cm, herbaceous; rhizomes thin, short; rosettes not clumped; vegetative parts usually heavily whitish or yellowish farinose, sometimes efarinose, especially in age.  Leaves not aromatic, indistinctly petiolate; petiole broadly winged; blade without deep reticulate veins abaxially, elliptic to oblanceolate, 1–6 × 0.3–1.6 cm, thin, margins remotely denticulate, apex acute to obtuse, surfaces glabrous.  Inflorescences 4–19-flowered; involucral bracts saccate, ± equal.  Pedicels erect, thin, 3–9 mm, length ± 1 times bracts, stiff.  Flowers homostylous; calyx green, broadly cylindric, 4–10 mm; corolla lavender, tube 4–10 mm, length 1 times calyx, eglandular, limb 4–8 mm diam., lobes 2–4 mm, apex emarginate.  Capsules cylindric to ellipsoid, length 1.5–2 times calyx.  Seeds without flanged edges, reticulate.  2n = 54, 72.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Alkaline clay soil in floodplains and moist open meadows</habitat>
-  <elevation>0–3500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species incana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">americana</taxon_name>
+    <taxon_hierarchy>genus Primula;species americana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">farinosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(M. E. Jones) W. W. Smith &amp; Forrest" date="unknown">incana</taxon_name>
+    <taxon_hierarchy>genus Primula;species farinosa;subspecies incana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">farinosa</taxon_name>
+    <taxon_name rank="variety" authority="(M. E. Jones) Fernald" date="unknown">incana</taxon_name>
+    <taxon_hierarchy>genus Primula;species farinosa;variety incana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Silvery primrose</other_name>
   <discussion>Primula incana is usually heavily farinose, at least when young, and has relatively tall scapes and tight umbels of homostylous flowers.  As with some species of the genus, anthesis often begins before the scape is fully elongated; plants at first are quite small, but elongate throughout anthesis and typically become relatively tall and lanky in age.  This has led to confusion with other arctic species, especially P. stricta, which has considerably less farina, a shorter scape, and a more maritime distribution.  In fruiting stage, P. incana has been confused with P. laurentiana, which has looser umbels throughout anthesis, larger flowers, and a more eastern distribution.  Primula incana generally replaces P. laurentiana to the west and south of Hudson Bay.  The single octoploid count for P. incana is questionable; the species appears to be consistently hexaploid in other counts.</discussion>
-</treatment>
+</bio:treatment>

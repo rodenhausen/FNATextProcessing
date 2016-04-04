@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>pulcherrima</species_name>
-    <species_authority>(Hooker) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Greene" date="unknown">pulcherrima</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>3: 176. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species pulcherrima;</taxon_hierarchy>
-  <common_name>Showy or handsome pussytoes</common_name>
-  <common_name>antennaire magnifique</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>carpatica</species_name>
-    <species_authority>(Hooker) R. Brown</species_authority>
-    <variety_name>pulcherrima</variety_name>
-    <variety_authority>Hooker</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species pulcherrima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) R. Brown" date="unknown">carpatica</taxon_name>
+    <taxon_name rank="variety" authority="Hooker" date="unknown">pulcherrima</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 329. 1834</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>pulcherrima</species_name>
-    <variety_name>angustisquama</variety_name>
-    <variety_authority>A. E. Porsild</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>pulcherrima</species_name>
-    <variety_name>sordida</variety_name>
-    <variety_authority>B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <description>Dioecious. Plants (8–)30–65 cm (caudices branching or rhizomes stout). Stolons none. Basal leaves 3–5-nerved, spatulate to oblanceolate or lanceolate, 50–200 × 4–25 mm, tips acute, mucronate, faces gray-pubescent or silvery sericeous. Cauline leaves linear, 8–140 mm, distal flagged or not. Heads 3–30 in corymbiform to paniculiform arrays. Involucres: staminate 5–8 mm; pistillate 7–12 mm. Phyllaries distally black, dark brown, light brown, castaneous, or olivaceous. Corollas: staminate 3–5 mm; pistillate 3–6 mm. Cypselae 1–1.5 mm, glabrous; pappi: staminate 4–6 mm; pistillate (5–)8–10 mm. 2n = 28, 56.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>genus Antennaria;species carpatica;variety pulcherrima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulcherrima</taxon_name>
+    <taxon_name rank="variety" authority="A. E. Porsild" date="unknown">angustisquama</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species pulcherrima;variety angustisquama;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulcherrima</taxon_name>
+    <taxon_name rank="variety" authority="B. Boivin" date="unknown">sordida</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species pulcherrima;variety sordida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Showy or handsome pussytoes</other_name>
+  <other_name type="common_name">antennaire magnifique</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <discussion>Antennaria pulcherrima is characterized by relatively large basal leaves, rhizomatous growth, and dark-colored phyllaries, each with a relatively large black spot at the base (R. J. Bayer and G. L. Stebbins 1987).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves: distal usually flagged; corollas: staminate 3.5–5 mm; pistillate 4–6 mm; wet sites, willow thickets, subalpine or subarctic, Colorado to Alaska, e to Ontario, w Quebec</statement>
+      <description type="morphology">Cauline leaves: distal usually flagged; corollas: staminate 3.5–5 mm; pistillate 4–6 mm; wet sites, willow thickets, subalpine or subarctic, Colorado to Alaska, e to Ontario, w Quebec</description>
       <determination>10a. Antennaria pulcherrima subsp. pulcherrima</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves: mostly not flagged (sometimes flagged near heads); corollas: staminate 3–4 mm; pistillate 3–4.3 mm; limestone near sea level, w Newfoundland, Anticosti Island</statement>
+      <description type="morphology">Cauline leaves: mostly not flagged (sometimes flagged near heads); corollas: staminate 3–4 mm; pistillate 3–4.3 mm; limestone near sea level, w Newfoundland, Anticosti Island</description>
       <determination>10b. Antennaria pulcherrima subsp. eucosma</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

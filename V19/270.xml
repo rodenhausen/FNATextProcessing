@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Scolymus</genus_name>
-    <species_name>maculatus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scolymus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">maculatus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 813. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Scolymus;species maculatus;</taxon_hierarchy>
-  <description>Annuals. Stem wings ± con-tinuous, margins spinose, usually white and thickened. Leaf blades 40–200 × 20–80 mm, margins usually white and thickened. Involucres 12–18 × 8–12 mm, larger in fruit. Phyllaries ovate-lanceolate to lanceolate, glabrous. Cypsela/palea units ± obovate, 2.5–4 mm; pappi 0. 2n = 20.</description>
-  <phenology_info>
-    <text>Flowering Jul.</text>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>N.C.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Scolymus;species maculatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

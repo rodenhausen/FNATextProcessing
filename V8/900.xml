@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>minus</species_name>
-    <species_authority>Michaux</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">minus</taxon_name>
     <place_of_publication>
       <publication_title>J. Hist. Nat.</publication_title>
       <place_in_publication>1: 412.  1792  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Piedmont rhododendron</common_name>
-  <description>Shrubs, to 3(–5) mm, often rhizomatous.  Stems: bark smooth to vertically furrowed, shredding; twigs with ferrugi-neous, multicellular, broad-rimmed, glandular-peltate scales.  Leaves persistent; petiole with ferruginous, broad-rimmed, glandular-peltate scales and unicellular-hairy; blade narrowly elliptic to elliptic or oval, sometimes obovate, (1–)5–8(–13) × (1–)2–3.5(–5.5) cm, thick, coriaceous, margins entire, plane to conspicuously revolute, with scattered, glandular-peltate scales, apex acute or acuminate or obtuse to rounded, surfaces with scattered, ferruginous, broad-rimmed, glandular-peltate scales abaxially, (scales ± deciduous adaxially).  Floral bud scales ferruginous-lepidote, sometimes also unicellular-hairy abaxially, margins unicellular-ciliate.  Inflorescences 5–10-flowered; bracts similar to bud scales.  Pedicels 5–15 mm, with ferruginous scales.  Flowers opening before or after development of leaves, erect to horizontal, fragrant; calyx lobes 0.5–2 mm, with ferruginous scales; corolla dark to very pale pink or white, upper lobe usually with greenish spots, campanulate to funnelform, 15–37 mm, with scattered, ferruginous, peltate scales on outer surface, petals connate (for 3/4+ their lengths), lobes 8–19 mm, tube gradually expanding into lobes, 8–22 mm; stamens 10, included to slightly exserted, ± unequal, 13–26 mm.  Capsules borne on erect pedicels, 6–14 × 2.9–5 mm, with ferruginous, peltate scales.  Seeds with short, blunt/truncate tails at each end; testa closely appressed.  2n = 26.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Rhododendron;species minus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Piedmont rhododendron</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Rhododendron minus is here circumscribed broadly, including R. carolinianum and R. chapmanii, and the latter is considered to be a distinct variety (W. H. Duncan and T. M. Pullen 1962).  Variety chapmanii is federally listed.  This species is often grown as an ornamental.</discussion>
   <discussion>Rhododendron minus and R. lapponicum are members of subg. Rhododendron, as indicated by their glandular-peltate scales; the subgenus is represented by hundreds of species in eastern and southern Asia (see J. Cullen 1980).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades: apex usually acute or acuminate; petioles (5–)6–20 mm; branches not rigidly ascending</statement>
+      <description type="morphology">Leaf blades: apex usually acute or acuminate; petioles (5–)6–20 mm; branches not rigidly ascending</description>
       <determination>4a.   Rhododendron minus var. minus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades: apex usually rounded or obtuse; petioles 2–6(–7) mm; branches usually rigidly erect-ascending</statement>
+      <description type="morphology">Leaf blades: apex usually rounded or obtuse; petioles 2–6(–7) mm; branches usually rigidly erect-ascending</description>
       <determination>4b.   Rhododendron minus var. chapmanii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

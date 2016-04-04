@@ -1,76 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>50.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Rhynchospora</genus_name>
-        <species_name>grayi</species_name>
-        <species_authority>Kunth</species_authority>
-        <place_of_publication>
-            <publication_title>Enum. Pl.</publication_title>
-            <place_in_publication>2: 539. 1837</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <past_name>grayii</past_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Phaeocephalum</genus_name>
-        <species_name>grayi</species_name>
-        <species_authority>(Kunth) House</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Rhynchospora</genus_name>
-        <species_name>distans</species_name>
-        <species_authority>Elliott</species_authority>
-        <place_of_publication>
-            <place_in_publication>1816</place_in_publication>
-            <other_info>not (Michaux) Vahl 1805</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Rhynchospora</genus_name>
-        <species_name>elliottii</species_name>
-        <species_authority>A. Gray</species_authority>
-        <place_of_publication>
-            <place_in_publication>1835</place_in_publication>
-            <other_info>not A. Dietrich 1833</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Schoenus</genus_name>
-        <species_name>distans</species_name>
-        <species_authority>Muhlenberg</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Schoenus</genus_name>
-        <species_name>fuscus</species_name>
-        <species_authority>Muhlenberg</species_authority>
-    </TaxonIdentification>
-    <description>Plants perennial, cespitose, 10–100 cm; rhizomes absent. Culms erect or excurved,
-        leafy, obscurely trigonous, slender, firm. Leaves shorter than culms; blades spreading to
-        ascending, linear, proximally flat, 2–4 mm wide, apex involute, then trigonous, subulate.
-        Inflorescences: spikelet clusters 1–4, loose to dense, broadly turbinate, lobed or
-        hemispheric; peduncles and branches ascending; leafy bracts exceeding proximal, sometimes
-        distal, clusters. Spikelets light redbrown, ellipsoid or narrowly ovoid, 4–5 mm, apex acute
-        to acuminate; fertile scales broadly ovate, 3.5–4.5 mm, apex acute or acuminate, apiculate.
-        Flowers: perianth bristles mostly 6, reaching from fruit midbody to tubercle tip or beyond,
-        antrorsely barbellate. Fruits 1(–2) per spikelet, 2.5–3 mm; body dark brown, broadly,
-        tumidly obovoid, 2–2.5 × 2–2.5 mm, apically buttressed to tubercle; surfaces finely
-        transversely rugulose or nearly level, with fine transverse rows of pits or low papillae,
-        often appearing nearly smooth; tubercle lowconic, 0.4–0.6 mm, apiculate.</description>
-    <phenology_fruiting>spring</phenology_fruiting><phenology_fruiting>mar</phenology_fruiting><phenology_fruiting>apr</phenology_fruiting><phenology_fruiting>may</phenology_fruiting><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>sandy pinelands and sandhills</habitat>
-    <habitat>particularly in longleaf pine type</habitat>
-    <elevation>0–300 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <global_distribution>West Indies.</global_distribution>
-    <discussion>Of all North American species of Rhynchospora, R. grayi appears best adapted to the
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhynchospora</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">grayi</taxon_name>
+    <place_of_publication>
+      <publication_title>Enum. Pl.</publication_title>
+      <place_in_publication>2: 539. 1837</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Rhynchospora;species grayi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phaeocephalum</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) House" date="unknown">grayi</taxon_name>
+    <taxon_hierarchy>genus Phaeocephalum;species grayi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhynchospora</taxon_name>
+    <taxon_name rank="species" authority="Elliott" date="unknown">distans</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1816</place_in_publication>
+      <other_info_on_pub>not (Michaux) Vahl 1805</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Rhynchospora;species distans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhynchospora</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">elliottii</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1835</place_in_publication>
+      <other_info_on_pub>not A. Dietrich 1833</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Rhynchospora;species elliottii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Schoenus</taxon_name>
+    <taxon_name rank="species" authority="Muhlenberg" date="unknown">distans</taxon_name>
+    <taxon_hierarchy>genus Schoenus;species distans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Schoenus</taxon_name>
+    <taxon_name rank="species" authority="Muhlenberg" date="unknown">fuscus</taxon_name>
+    <taxon_hierarchy>genus Schoenus;species fuscus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>50.</number>
+  <other_name type="past_name">grayii</other_name>
+  <discussion>Of all North American species of Rhynchospora, R. grayi appears best adapted to the
         xeric conditions found in the coarser sands of the longleaf pine-scrub oak–dominated yellow
         sandhills. Interestingly, it seems seldom to mix with its closest relative, R. megalocarpa,
         which is more often found in white sandhills.</discussion>
-</treatment>
+</bio:treatment>

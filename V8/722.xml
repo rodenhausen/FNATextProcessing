@@ -1,64 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pyrola</genus_name>
-    <species_name>grandiflora</species_name>
-    <species_authority>Radius</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Radius" date="unknown">grandiflora</taxon_name>
     <place_of_publication>
       <publication_title>Pyrola &amp; Chimaphila,</publication_title>
       <place_in_publication>27, plate 3, fig. 2. 1821 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Large-flower or arctic wintergreen</common_name>
-  <common_name>pyrole à grandes fleurs</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>grandiflora</species_name>
-    <variety_name>canadensis</variety_name>
-    <variety_authority>(Andres) A. E. Porsild</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>grandiflora</species_name>
-    <variety_name>gormanii</variety_name>
-    <variety_authority>(Rydberg) A. E. Porsild</variety_authority>
-  </TaxonIdentification>
-  <description>Plants rhizomatous, 0.5–1.9(–2.5) dm. Leaves: petiole 10–65(–80) mm, channeled
-        adaxially, glabrous; blade not or, sometimes, maculate, dull and light green to purplish
-        abaxially, shiny and dark green, sometimes with white tissue bordering larger veins
-        adaxially, ovate to elliptic or round to subreniform, 9–33(–45) × 10–50 mm, coriaceous, base
-        truncate to rounded or cordate, margins subentire to crenate or crenate-serrulate, apex
-        rounded to acute. Inflorescences 1 per stem, 4–12-flowered; peduncular bracts absent or 1–3,
-        ovate-lanceolate to ovate, 6–12 × (2–)3–5 mm, chartaceous or membranous, margins entire;
-        inflorescence bracts ovate-lanceolate to ovate, longer than subtended pedicels, 4.5–10 ×
-        1.8–3.4 mm, chartaceous. Pedicels 3–8 mm. Flowers: calyx lobes appressed or spreading in
-        fruit, green, pinkish, or reddish with margins hyaline to white or pinkish, oblong-ovate to
-        lanceolate, (2.2–)2.8–6 × (0.9–)1.2–2 mm, margins entire or erose-denticulate, apices obtuse
-        to rounded; petals white, often suffused with pink, obovate to round, 6–10(–11) × 4.2–6 mm,
-        margins entire or erose-denticulate, especially distally; stamens 4–7.5 mm; filament base
-        0.2–0.3 mm wide; anthers 1.6–3 mm, apiculations absent or less than 0.1 mm, thecae creamy
-        yellow to golden yellow, tubules yellow to yellowish brown, 0.1–0.3 mm, scarcely narrowed
-        above thecae, lateral walls touching for most of their lengths, pores 0.1–0.2 × 0.1–0.2 mm;
-        ovary smooth; style scarcely exserted, 4.5–8 mm; stigma 0.7–1.1 mm wide, lobes erect.
-        Capsules depressed-globose, 2.9–4 × 3.8–6 mm. 2n = 46, 69.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Arctic and alpine tundra, heathlands, coniferous forests, boreal forests and
-        woodlands</habitat>
-  <elevation>10–2000 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Pyrola;species grandiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">grandiflora</taxon_name>
+    <taxon_name rank="variety" authority="(Andres) A. E. Porsild" date="unknown">canadensis</taxon_name>
+    <taxon_hierarchy>genus Pyrola;species grandiflora;variety canadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">grandiflora</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) A. E. Porsild" date="unknown">gormanii</taxon_name>
+    <taxon_hierarchy>genus Pyrola;species grandiflora;variety gormanii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Large-flower or arctic wintergreen</other_name>
+  <other_name type="common_name">pyrole à grandes fleurs</other_name>
   <discussion>A. E. Porsild (1939) recognized three varieties in Pyrola grandiflora (var.
         canadensis, var. gormanii, and var. grandiflora) differing subtly in leaf and floral
         morphology, floral fragrance, and habitat. Variation among these taxa appears to be
@@ -66,4 +38,4 @@
         subsp. grandiflora (Radius) Andres] without discussion. Hybrids between P. grandiflora and
         P. minor have been reported from western Greenland; they were discussed by T. W. Böcher
         (1961).</discussion>
-</treatment>
+</bio:treatment>

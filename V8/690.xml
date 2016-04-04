@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sarracenia</genus_name>
-    <species_name>alata</species_name>
-    <species_authority>(Alph. Wood) Alph. Wood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">SARRACENIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarracenia</taxon_name>
+    <taxon_name rank="species" authority="(Alph. Wood) Alph. Wood" date="unknown">alata</taxon_name>
     <place_of_publication>
       <publication_title>Leaves Flowers,</publication_title>
       <place_in_publication>159.  1863  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pale or winged pitcher plant</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sarracenia</genus_name>
-    <species_name>gronovii</species_name>
-    <species_authority>Alph. Wood</species_authority>
-    <variety_name>alata</variety_name>
-    <variety_authority>Alph. Wood</variety_authority>
+    <taxon_hierarchy>family SARRACENIACEAE;genus Sarracenia;species alata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarracenia</taxon_name>
+    <taxon_name rank="species" authority="Alph. Wood" date="unknown">gronovii</taxon_name>
+    <taxon_name rank="variety" authority="Alph. Wood" date="unknown">alata</taxon_name>
     <place_of_publication>
       <publication_title>Class-book Bot. ed. s.n.(b),</publication_title>
       <place_in_publication>222.  1861</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sarracenia</genus_name>
-    <species_name>sledgei</species_name>
-    <species_authority>Macfarlane</species_authority>
-  </TaxonIdentification>
-  <description>Plants forming dense clumps; rhizomes 0.8–1.5 cm diam.  Pitchers marcescent, appearing shortly after first flowers, spring flush of pitchers followed by delayed flush of similarly shaped, more robust pitchers in late summer, erect; distal portion of tube typically yellow-green, sometimes purple-lined, purple reticulate-veined, or strongly purple, without white areolae, 15–75 cm, firm, surfaces glabrous or finely pubescent, wings 1–2 cm wide; orifice oval, 2–5 cm diam., rim green, tightly revolute, not or scarcely indented distal to wing; hood recurved adaxially, held well beyond and covering orifice, proximal margins not reflexed, usually yellow-green, sometimes purple-lined, purple reticulate-veined, or strongly purple, without white areolae, ovate, not undulate, 3.5–6 × 4–6 cm, usually wider than long, base cordate, necks not constricted, 0.5–1 cm, apiculum 1–3 mm, adaxial surface glabrate or with hairs to 0.5 mm.  Phyllodia usually absent, rarely 1–2, erect, oblanciform, to 40 × 1–2 cm.  Scapes 15–60 cm, shorter than pitchers; bracts 1–1.5 cm.  Flowers moderately ill-scented; sepals yellowish green, rarely suffused with purple, 3–6 × 2.5–4 cm; petals pale to deep yellow, distal portion ovate-orbiculate, 5–7 × 2.2–4 cm, margins entire; style disc green, 5–8 cm diam.  Capsules 1.2–1.8 cm diam.  Seeds 1.9–2.3 mm.  2n = 26.</description>
-  <phenology>Flowering Mar–Apr</phenology>
-  <habitat>Wet pine savannas and flatwoods, bogs, pineland seepage slopes, sometimes in mineral soils low in organic matter</habitat>
-  <elevation>0–50 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Sarracenia;species gronovii;variety alata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarracenia</taxon_name>
+    <taxon_name rank="species" authority="Macfarlane" date="unknown">sledgei</taxon_name>
+    <taxon_hierarchy>genus Sarracenia;species sledgei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Pale or winged pitcher plant</other_name>
   <discussion>Sarracenia alata occurs from Baldwin, Mobile, and Washington counties, Alabama, across southern Mississippi and Louisiana, to Robertson County, Texas.  Its pitchers are consistent in shape but extremely variable in color.  The late summer pitchers are the largest of the year.  It produces flowers similar in shape to, but larger than, those of members of the S. rubra complex.  In Texas, it grows in wetlands that do not have longleaf pine, in regions dominated by xeric species of oak.  There, it grows in bogs, seeps, and meadows, where ground-water seepage, not rainfall, keeps the plants wet.</discussion>
-</treatment>
+</bio:treatment>

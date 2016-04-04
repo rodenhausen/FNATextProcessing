@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>214d.1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Symphyotrichum</genus_name>
-    <genus_authority>Nees</genus_authority>
-    <subgenus_name>Symphyotrichum</subgenus_name>
-    <section_name>Conyzopsis</section_name>
-    <section_authority>(Torrey &amp; A. Gray) G. L. Nesom</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Nees" date="unknown">Symphyotrichum</taxon_name>
+    <taxon_name rank="subgenus" authority="(Torrey &amp; A. Gray) A. Gray" date="unknown">Symphyotrichum</taxon_name>
+    <taxon_name rank="section" authority="(Torrey &amp; A. Gray) G. L. Nesom" date="unknown">Conyzopsis</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>77: 271. 1975</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Aster</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <unranked_epithet_name>Conyzopsis</unranked_epithet_name>
-    <unranked_epithet_authority>Torrey &amp; A. Gray</unranked_epithet_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Symphyotrichum;subgenus Symphyotrichum;section Conyzopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Aster</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Torrey &amp; A. Gray">Conyzopsis</taxon_name>
     <place_of_publication>
-      <publication_title>Fl. N. Amer. </publication_title>
+      <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>2: 162. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Aster</genus_name>
-    <subgenus_name>Conyzopsis</subgenus_name>
-    <subgenus_authority>(Torrey &amp; A. Gray) A. Gray</subgenus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <section_name>Brachyactis</section_name>
-    <section_authority>Ledebour</section_authority>
-  </TaxonIdentification>
-  <description>Annuals (sometimes perennials in S. frondosum); taprooted. Stems usually branched.
-    Heads radiate or disciform. Ray (or pistillate) florets more numerous than disc florets, in 2–5+
-    series (corollas reduced to narrow laminae or to tubes). Disc corollas barely ampliate, lobes
-    erect. Pappi longer than disc florets at flowering. x = 7.</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>nw Mexico</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Aster;unranked Conyzopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Conyzopsis</taxon_name>
+    <taxon_hierarchy>genus Aster;subgenus Conyzopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="section" authority="Ledebour" date="unknown">Brachyactis</taxon_name>
+    <taxon_hierarchy>section Brachyactis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>214d.1.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <discussion>A. G. Jones (1989) segregated Brachyactis from Aster in a broad sense. Recent
     molecular phylogenetic analyses (J. C. Semple et al. 2002) do not support this relationship,
     species of sect. Conyzopsis clearly belonging in Symphyotrichum.</discussion>
   <references>
-    <reference> Houle, F. 1988. Étude Biosystématique de la Section
+    <reference>Houle, F. 1988. Étude Biosystématique de la Section
       Conyzopsis du Genre Aster (Asteraceae). Ph.D. thesis. Université de Montréal.</reference>
   </references>
-</treatment>
+</bio:treatment>

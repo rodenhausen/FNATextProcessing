@@ -1,56 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>TIDESTROMIA</genus_name>
-    <genus_authority>Standley</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ivonne Sánchez del Pino,Steven E. Clemants</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Standley" date="unknown">TIDESTROMIA</taxon_name>
     <place_of_publication>
       <publication_title>J. Wash. Acad. Sci.</publication_title>
       <place_in_publication>6: 70. 1916</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Ivar T. Tidestrom, 1864–1956, Swedish-born American botanist noted for floras of
-    central and western United States]</etymology>
-  <author>Ivonne Sánchez del Pino</author>
-  <author>Steven E. Clemants</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Alternanthera</genus_name>
-    <genus_authority>Forsskål</genus_authority>
-    <section_name>Cladothrix</section_name>
-    <section_authority>Moquin-Tandon</section_authority>
+    <taxon_hierarchy>family AMARANTHACEAE;genus TIDESTROMIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Ivar T. Tidestrom, 1864–1956, Swedish-born American botanist noted for floras of
+    central and western United States]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Forsskål" date="unknown">Alternanthera</taxon_name>
+    <taxon_name rank="section" authority="Moquin-Tandon" date="unknown">Cladothrix</taxon_name>
     <place_of_publication>
-      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. </publication_title>
+      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>13(2): 359. 1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cladothrix</genus_name>
-    <genus_authority>(Moquin-Tandon) Nuttall ex Bentham &amp; Hooker f.</genus_authority>
+    <taxon_hierarchy>genus Alternanthera;section Cladothrix;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="(Moquin-Tandon) Nuttall ex Bentham &amp; Hooker f." date="unknown">Cladothrix</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Pl.</publication_title>
       <place_in_publication>3: 37. 1880,</place_in_publication>
-      <other_info>not F. Cohn 1875 [Bacteria]</other_info>
+      <other_info_on_pub>not F. Cohn 1875 [Bacteria]</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs or subshrubs, annual or perennial, densely pubescent or glabrous, rhizomatous.
-    Stems ascending, decumbent, or prostrate, herbaceous or suffrutescent, usually bearing buds at
-    base in perennial species. Leaves: distal leaves opposite, proximal leaves sometimes alternate,
-    sessile or petiolate; blade lanceolate to circular, chartaceous to fleshy, base attenuate,
-    cuneate, cordate, or oblique, margins entire, apex acute to obtuse. Inflorescences axillary,
-    sessile dichasium, subtended by 2 subopposite, involucral leaves that become indurate and
-    connate in age. Flowers bisexual, sessile or short-pedicellate; tepals 5, distinct, keeled,
-    inner 2 distinctly shorter than outer 3, scarious or coriaceous, base cuneate, margins entire or
-    distally crenate, apex acute or obtuse [aristate], glabrous or lanuginose; trichomes completely
-    and partially candelabriform or with random projections [barbed]; stamens 5; filaments connate
-    at base into low cups, usually equal; anthers 2-locular; pseudostaminodes triangular short lobes
-    [linear, equalling filaments] or absent; staminodes present or absent; ovule 1, membranous;
-    styles absent or short; stigmas 2-fid or seldom irregularly 3-fid (in var. oblongifolia),
-    deltoid. Utricules subglobose, proximally membranous, distally hyaline, indehiscent. Seeds 1,
-    brown-red or white, obovoid. x = 10.</description>
-  <number_of_infrataxa>Species 6 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Mexico</global_distribution>
-  <global_distribution>West Indies.</global_distribution>
+    <taxon_hierarchy>genus Cladothrix;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <discussion>Species 6 (3 in the flora):</discussion>
   <discussion>Tidestromia species traditionally have been characterized by habit, texture,
     pubescence, forms of tepal trichomes, and size of pseudostaminodes. The phyllotaxy of
     Tidestromia has been the source of some confusion. It has been characterized as opposite (C. F.
@@ -73,26 +59,26 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants perennial subshrubs;buds present on stem bases, rarely absent</statement>
+      <description type="morphology">Plants perennial subshrubs;buds present on stem bases, rarely absent</description>
       <determination>1. Tidestromia suffruticosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants annual herbs; buds absent on stem bases.</statement>
+      <description type="morphology">Plants annual herbs; buds absent on stem bases.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades usually chartaceous, gray-green, canescent, lanuginose, or glabrous;
+      <description type="morphology">Leaf blades usually chartaceous, gray-green, canescent, lanuginose, or glabrous;
         involucral leaf petioles adnate with stems, or with leaf petioles and stem, into
-        involucreson secondary branches</statement>
+        involucreson secondary branches</description>
       <determination>2. Tidestromia lanuginosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades fleshy, membranous when dry, yellowish green, glabrous or nearly so;
+      <description type="morphology">Leaf blades fleshy, membranous when dry, yellowish green, glabrous or nearly so;
         involucral leaf bases connate and sometimes adnate with leaf bases into involucres
-        onsecondary branches 3.Tidestromia carnosa</statement>
+        onsecondary branches 3.Tidestromia carnosa</description>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

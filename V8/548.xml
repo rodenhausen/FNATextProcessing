@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DODECATHEON</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>James L. Reveal</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">DODECATHEON</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 144.  1753</place_in_publication>
@@ -12,16 +17,13 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 71.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Shootingstar</common_name>
-  <etymology>[Greek dodeka, twelve, and theoi, gods, fanciful name given by Pliny to a primrose purportedly protected by the gods]</etymology>
-  <author>James L. Reveal</author>
+    <taxon_hierarchy>family PRIMULACEAE;genus DODECATHEON;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek dodeka, twelve, and theoi, gods, fanciful name given by Pliny to a primrose purportedly protected by the gods]</other_info_on_name>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Shootingstar</other_name>
   <discussion>Primula Linnaeus sect. Dodecatheon (Linnaeus) Mast &amp; Reveal</discussion>
-  <description>Herbs perennial, not cushion- or mat-forming.  Rhizomes (or caudices) usually present; roots fibrous, bulblets sometimes present.  Stems (scapes) erect or nearly so, simple.  Leaves in basal rosettes, simple; petiole ± winged, (sometimes sheathing); blade linear to oval, base abruptly or gradually tapering to petiole, margins entire, dentate, or crenulate, (sometimes undulate), apex mostly acute to rounded, surfaces glabrous or glandular-pubescent or -puberulent.  Inflorescences usually umbels, 2–25(–125)-flowered, sometimes solitary flowers; bracts usually ternate.  Pedicels recurved, usually straight and longer in fruit.  Flowers homostylous; sepals 4–5, usually green, calyx tubular, not keeled, glabrous or minutely glandular, lobes spreading to reflexed, usually longer than tube; petals 4–5, white to pink or violet, or magenta to purple with yellowish and/or whitish base, often with purple, maroon, or reddish ring, corolla short-tubular, lobes strongly reflexed, length 2+ times tube, apex mostly acute; stamens ± exserted; filaments distinct or ± connate, forming tube; anthers connivent.  Capsules cylindric, dehiscence valvate or operculate and lid opening as 5(–10+) toothlike segments.  Seeds 50–200, dark brown to black, globose to ovoid or quadrate, sometimes with thin, membranous margins, irregularly alveolate, alveolae formed by collapse of minute bulbous cells.  x = 22.</description>
-  <number_of_infrataxa>Species 17 (17 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Mexico</global_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+  <discussion>Species 17 (17 in the flora):</discussion>
   <discussion>Members of Dodecatheon are widespread throughout much of North America, extending from northwestern Mexico to the Arctic in Alaska and northwestern Canada.  Taxonomic boundaries between species are sometimes blurred, and the variation within the more widespread species (such as the eastern D. meadia and the western D. pulchellum) can be bewildering.  Nearly all recognized species have an array of synonyms, and some names used in the past have proven to be illegitimate or misapplied, adding to the nomenclatural morass.</discussion>
   <discussion>The genus can be subdivided into two groups (but not the three recognized by H. J. Thompson 1953), based primarily on the rugose (sect. Purpureo-tubulosa R. Knuth) versus smooth (sect. Dodecatheon) anther connective (A. R. Mast et al. 2004).  Species with an enlarged stigma (notably Dodecatheon jeffreyi, the type of sect. Capitata H. J. Thompson) fall into the latter taxon.  Even so, as noted in the key, both D. hendersonii and D. subalpinum occasionally have smooth connectives, and D. poeticum, a member of sect. Dodecatheon, has rugose connectives.</discussion>
   <discussion>Recognition of Dodecatheon creates a paraphyletic Primula (M. Källersjö et al. 2000; A. R. Mast et al. 2001, 2004; L. Martins et al. 2003).  Dodecatheon falls within Primula subg. Auriculastrum Schott (as sect. Dodecatheon) and is seemingly allied with the Sierra Nevada endemic P. suffrutescens A. Gray.  The two share an involute leaf vernation.  While Primula has a base number of x = 11, Dodecatheon has x = 22; H. J. Thompson (1953) has shown that 2n = 66 plants are triploids, not hexaploids.  These observations have resulted in the transfer of all species of Dodecatheon to Primula (A. R. Mast and J. L. Reveal 2007).  For those wishing to adopt this concept, the appropriate names are provided here in synonymy.</discussion>
@@ -33,214 +35,214 @@
   <discussion>Adding to the complexity is the need to observe the valvate or operculate dehiscence of the capsule, and the degree of firmness of the capsule wall.  Dehiscence of the capsule is clearly valvate in some species (e.g., Dodecatheon pulchellum) with no hint of a line of separation.  In other species (e.g., D. jeffreyi), the capsule opens on a transverse line near the top of the fruit, shedding a cap (operculum) often with an intact style.  There are specimens that have both valvate and operculate dehiscence even on the same plant (e.g., D. clevelandii).  The distinction is further complicated by the “line of separation,” which is often distinguished by the distal portion of the capsule being a darker color and also, (in some) glandular.  The operculum may consist of little more than the base of the style and may be well apical of the “line” that is indicative of the depth to which the capsule will split into five, ten, or more toothlike segments.  With age, the (usually) inwardly curved teeth shed the operculum and then fall away resulting in what appears to be a toothless, circumscissile capsule.  In contrast, valvate capsules develop teeth at the apex of the fruit, resulting (often) in a splitting of the style into parts.  With age, the (usually) outwardly curved teeth shed the fragments of the style.  The teeth usually remain attached to the body of valvate capsules; sometimes they are shed, resulting in what appears to be a toothless, circumscissile capsule.</discussion>
   <discussion>Finally, be aware that occasionally two or more species may occur in proximity.  Because the distinguishing features used here to recognize species can be difficult to observe without a critical examination of the flower, and in some cases the root system and capsules, a seemingly variable population may, in fact, be a mixture of plants of two different species with an occasional sterile hybrid added to the mix.  This can result in herbarium collections composed of two species, adding even more difficulty to the identification of these plants.</discussion>
   <discussion>Shootingstars are widely cultivated, and some cultivars have been selected.  Essentially all species are found in nurseries.  Most can be grown in sunny to lightly shaded places in dampish soil that slowly dries.  Most flower during the spring months and are especially attractive when planted in masses.  None of the species has much of a history of medicinal use by Native Americans.  Flowers of some species were used decoratively, to attract men, and to aid youngsters to sleep.  Roasted leaves and roots were eaten in California, and in the Pacific Northwest an infusion of roots was occasionally used as an eye wash, a treatment of cold sores, or an oral gargle (V. K. Chestnut 1902; J. Goodrich et al. 1980; J. C. Hellson 1974; E. V. Steedman 1930; N. J. Turner et al. 1980, 1990).</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Thompson, H. J.  1953.  The biosystematics of Dodecatheon.  Contr. Dudley Herb. 4: 73–154.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Connective transversely rugose.</statement>
+      <description type="morphology">Connective transversely rugose.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stigmas enlarged compared to styles; seeds with membrane along edges.</statement>
+      <description type="morphology">Stigmas enlarged compared to styles; seeds with membrane along edges.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 4; capsules valvate; leaf blades linear to linear-oblanceolate, surfaces glab-rous; pedicels and bracts glabrous, sometimes sparsely glandular-puberulent</statement>
+      <description type="morphology">Petals 4; capsules valvate; leaf blades linear to linear-oblanceolate, surfaces glab-rous; pedicels and bracts glabrous, sometimes sparsely glandular-puberulent</description>
       <determination>7.   Dodecatheon alpinum</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 4–5; capsules operculate or valvate; leaf blades narrowly oblanceolate to oblanceolate or spatulate, surfaces glabrous or glandular-pubescent; pedicels and bracts usually distinctly glandular-pubescent.</statement>
+      <description type="morphology">Petals 4–5; capsules operculate or valvate; leaf blades narrowly oblanceolate to oblanceolate or spatulate, surfaces glabrous or glandular-pubescent; pedicels and bracts usually distinctly glandular-pubescent.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals 5; capsules valvate; leaf blades, petioles, and bracts glandular-pubescent; anther tips acute; corolla tube usually covering base of anthers, yellow leaf blades, petioles, and bracts glabrous or glandular-pubescent; anther tips truncate to obtuse; corolla tube not covering base of anthers, usually cream, rarely yellow</statement>
+      <description type="morphology">Petals 5; capsules valvate; leaf blades, petioles, and bracts glandular-pubescent; anther tips acute; corolla tube usually covering base of anthers, yellow leaf blades, petioles, and bracts glabrous or glandular-pubescent; anther tips truncate to obtuse; corolla tube not covering base of anthers, usually cream, rarely yellow</description>
       <determination>5.   Dodecatheon redolens leaf blades, petioles, and bracts glabrous or glandular-pubescent; anther tips truncate to obtuse; corolla tube not covering base of anthers, usually cream, rarely yellow</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stigmas not enlarged compared to styles; seeds without membrane along edges.</statement>
+      <description type="morphology">Stigmas not enlarged compared to styles; seeds without membrane along edges.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants usually producing bulblets among roots at anthesis.</statement>
+      <description type="morphology">Plants usually producing bulblets among roots at anthesis.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves somewhat decurrent; petioles slightly, if at all, winged; petals 4–5 (often on same plant); plants (7–)10–50(–55) cm; corolla lobes 6–25(–28) mm; below 2100 m</statement>
+      <description type="morphology">Leaves somewhat decurrent; petioles slightly, if at all, winged; petals 4–5 (often on same plant); plants (7–)10–50(–55) cm; corolla lobes 6–25(–28) mm; below 2100 m</description>
       <determination>2.   Dodecatheon hendersonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves usually slightly decurrent; petioles seldom winged; petals 5; plants 7–</statement>
+      <description type="morphology">Leaves usually slightly decurrent; petioles seldom winged; petals 5; plants 7–</description>
       <determination>3.   Dodecatheon subalpinum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants not producing bulblets among roots at anthesis.</statement>
+      <description type="morphology">Plants not producing bulblets among roots at anthesis.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Filaments usually distinct, rarely partially connate; plants usually glabrous, if glandular-puberulent, then of sw Alberta, se British Columbia, Saskatchewan, n Idaho, w Montana, and e Washington</statement>
+      <description type="morphology">Filaments usually distinct, rarely partially connate; plants usually glabrous, if glandular-puberulent, then of sw Alberta, se British Columbia, Saskatchewan, n Idaho, w Montana, and e Washington</description>
       <determination>1.   Dodecatheon conjugens</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Filaments connate; plants usually glabrous, if glandular-puberulent, then of nc Oregon and sc Washington.</statement>
+      <description type="morphology">Filaments connate; plants usually glabrous, if glandular-puberulent, then of nc Oregon and sc Washington.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaf blades gradually tapering to petiole; plants glandular-puberulent throughout; nc Oregon, sc Washington</statement>
+      <description type="morphology">Leaf blades gradually tapering to petiole; plants glandular-puberulent throughout; nc Oregon, sc Washington</description>
       <determination>14.   Dodecatheon poeticum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaf blades narrowing abruptly to petiole; plants not glandular-puberulent throughout; California.</statement>
+      <description type="morphology">Leaf blades narrowing abruptly to petiole; plants not glandular-puberulent throughout; California.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Pedicels glandular or glabrous; calyces glabrous or glandular- puberulent</statement>
+      <description type="morphology">Pedicels glandular or glabrous; calyces glabrous or glandular- puberulent</description>
       <determination>2.   Dodecatheon hendersonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Pedicels glandular-puberulent, calyces glandular-puberulent</statement>
+      <description type="morphology">Pedicels glandular-puberulent, calyces glandular-puberulent</description>
       <determination>4.   Dodecatheon clevelandii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Connective usually smooth, sometimes longitudinally wrinkled.</statement>
+      <description type="morphology">Connective usually smooth, sometimes longitudinally wrinkled.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Caudices often horizontal, often woody; roots reddish; inland arctic or subarctic regions</statement>
+      <description type="morphology">Caudices often horizontal, often woody; roots reddish; inland arctic or subarctic regions</description>
       <determination>8.   Dodecatheon frigidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Caudices usually vertical to slightly horizontal, not woody, sometimes absent; roots usually whitish, sometimes reddish, tan, or brownish; not of inland arctic or subarctic regions.</statement>
+      <description type="morphology">Caudices usually vertical to slightly horizontal, not woody, sometimes absent; roots usually whitish, sometimes reddish, tan, or brownish; not of inland arctic or subarctic regions.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Plants usually producing bulblets among roots at anthesis.</statement>
+      <description type="morphology">Plants usually producing bulblets among roots at anthesis.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Leaves somewhat decurrent; petioles slightly, if at all, winged; petals 4–5 (often on same plant); plants (7–)10–50(–55) cm; corolla lobes 6–25(–28) mm; below 2100 m</statement>
+      <description type="morphology">Leaves somewhat decurrent; petioles slightly, if at all, winged; petals 4–5 (often on same plant); plants (7–)10–50(–55) cm; corolla lobes 6–25(–28) mm; below 2100 m</description>
       <determination>2.   Dodecatheon hendersonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Leaves slightly decurrent; petioles usually not winged; petals 5; plants 7–15</statement>
+      <description type="morphology">Leaves slightly decurrent; petioles usually not winged; petals 5; plants 7–15</description>
       <determination>3.   Dodecatheon subalpinum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Plants usually not producing bulblets among roots at anthesis.</statement>
+      <description type="morphology">Plants usually not producing bulblets among roots at anthesis.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Capsule walls relatively thick, rigid.</statement>
+      <description type="morphology">Capsule walls relatively thick, rigid.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Filament tubes deep purple; Pacific Northwest</statement>
+      <description type="morphology">Filament tubes deep purple; Pacific Northwest</description>
       <determination>14.   Dodecatheon poeticum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Filament tubes yellow; e United States.</statement>
+      <description type="morphology">Filament tubes yellow; e United States.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Leaf blade bases abruptly tapering to petioles</statement>
+      <description type="morphology">Leaf blade bases abruptly tapering to petioles</description>
       <determination>16.   Dodecatheon frenchii</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Leaf blade bases gradually tapering to petioles</statement>
+      <description type="morphology">Leaf blade bases gradually tapering to petioles</description>
       <determination>17.   Dodecatheon meadia</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Capsule walls relatively thin, pliable.</statement>
+      <description type="morphology">Capsule walls relatively thin, pliable.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaf blade bases abruptly tapering to petioles; corolla lobes usually white, rarely pale lavender to pink; w North America.</statement>
+      <description type="morphology">Leaf blade bases abruptly tapering to petioles; corolla lobes usually white, rarely pale lavender to pink; w North America.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Filaments and basal portions of connectives yellow; corollas usually white, rarely lavender; Arizona, New Mexico</statement>
+      <description type="morphology">Filaments and basal portions of connectives yellow; corollas usually white, rarely lavender; Arizona, New Mexico</description>
       <determination>12.   Dodecatheon ellisiae</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Filaments and connectives dark maroon to black, sometimes filaments merely maroon speckled or striped; corollas white or pale lavender to pink.</statement>
+      <description type="morphology">Filaments and connectives dark maroon to black, sometimes filaments merely maroon speckled or striped; corollas white or pale lavender to pink.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Corolla lobes white; Pacific Northwest</statement>
+      <description type="morphology">Corolla lobes white; Pacific Northwest</description>
       <determination>9.   Dodecatheon dentatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Corolla lobes pale lavender to pink; Utah</statement>
+      <description type="morphology">Corolla lobes pale lavender to pink; Utah</description>
       <determination>11.   Dodecatheon utahense</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaf blade bases gradually tapering to petioles; corolla lobes usually magenta to lavender or, if white, then plants of e North America.</statement>
+      <description type="morphology">Leaf blade bases gradually tapering to petioles; corolla lobes usually magenta to lavender or, if white, then plants of e North America.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Filaments distinct; coastal mountains, nw Oregon, sw Washington</statement>
+      <description type="morphology">Filaments distinct; coastal mountains, nw Oregon, sw Washington</description>
       <determination>10.   Dodecatheon austrofrigidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Filaments connate; widespread.</statement>
+      <description type="morphology">Filaments connate; widespread.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Pollen sacs usually reddish, sometimes maroon; midwestern and mid-Atlantic North America</statement>
+      <description type="morphology">Pollen sacs usually reddish, sometimes maroon; midwestern and mid-Atlantic North America</description>
       <determination>15.   Dodecatheon amethystinum</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Pollen sacs maroon to black or yellow; w North America.</statement>
+      <description type="morphology">Pollen sacs maroon to black or yellow; w North America.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Filament tubes usually yellow, if purplish, then connectives smooth or longitudinally wrinkled at anthesis and scapes glabrous</statement>
+      <description type="morphology">Filament tubes usually yellow, if purplish, then connectives smooth or longitudinally wrinkled at anthesis and scapes glabrous</description>
       <determination>13.   Dodecatheon pulchellum</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Filament tubes deep purple, connectives transversely rugose, if (rarely) smooth and appearing transversely wrinkled, then scape glandular</statement>
+      <description type="morphology">Filament tubes deep purple, connectives transversely rugose, if (rarely) smooth and appearing transversely wrinkled, then scape glandular</description>
       <determination>14.   Dodecatheon poeticum (in part)</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

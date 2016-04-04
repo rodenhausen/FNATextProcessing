@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Empetrum</genus_name>
-    <species_name>eamesii</species_name>
-    <species_authority>Fernald &amp; Wiegand</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Fernald &amp; Wiegand" date="unknown">eamesii</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>15: 215.  1913,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>nigrum</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>eamesii</variety_name>
-    <variety_authority>(Fernald &amp; Wiegand) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>rubrum</species_name>
-    <species_authority>Vahl ex Willdenow</species_authority>
-    <variety_name>eamesii</variety_name>
-    <variety_authority>(Fernald &amp; Wiegand) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <description>Branches green, brown, or reddish, distally white-tomentose, eglandular.  Leaves ascending, becoming divergent; blade 4–5 mm.  Flowers unisexual (plants dioecious); sepals greenish pink becoming reddish purple.  Drupes pink or red, translucent, 3–5 mm diam.  Seeds light brown, 1.2–1.5 mm.  2n = 26.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Sand dunes, acidic coastal rock barrens, alpine heath</habitat>
-  <elevation>0–900 m</elevation>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-</treatment>
+    <taxon_hierarchy>family ERICACEAE;genus Empetrum;species eamesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">nigrum</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald &amp; Wiegand) B. Boivin" date="unknown">eamesii</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species nigrum;variety eamesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Vahl ex Willdenow" date="unknown">rubrum</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald &amp; Wiegand) Cronquist" date="unknown">eamesii</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species rubrum;variety eamesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+</bio:treatment>

@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>bronchialis</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">bronchialis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 400.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Spotted saxifrage</common_name>
-  <description>Plants mat-forming, (stems trailing), not stoloniferous, rhizomatous.  Leaves basal and cauline, (marcescent, crowded); petiole absent; blade (sometimes reddish), linear or linear-lanceolate to narrowly elliptic, unlobed, 3–15 mm, leathery, margins entire, stiffly, often hooked, white-ciliate, sometimes also glandular-ciliate, apex acute, white spinulose-mucronate (spine 1–1.5 mm), surfaces glabrous, sometimes adaxially sparsely sessile-glandular.  Inflorescences 2–15-flowered cymes or thyrses, sometimes solitary flowers, 5–20 cm, sparsely short stipitate-glandular; bracts sessile.  Flowers: sepals ± erect, (purplish), ovate to triangular, margins eciliate or sparsely glandular, surfaces glabrous or sparsely sessile-glandular; petals yellowish white, purple- or red- to yellow-spotted, oblong to elliptic, 3–7 mm, longer than sepals; ovary superior.</description>
-  <number_of_infrataxa>Subspecies 4 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>arctic and alpine areas.</global_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species bronchialis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <other_name type="common_name">Spotted saxifrage</other_name>
+  <discussion>Subspecies 4 (2 in the flora):</discussion>
   <discussion>The Saxifraga bronchialis complex, including S. cherlerioides, S. taylorii, S. tricuspidata, and S. vespertina, needs a thorough study.</discussion>
   <discussion>Saxifraga firma Litvinov ex Losina-Losinskaja has been cited for North America; the name belongs in synonymy of a Eurasian subspecies and appears to have been misapplied to North American specimens.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals yellow-spotted, distinctly clawed</statement>
+      <description type="morphology">Petals yellow-spotted, distinctly clawed</description>
       <determination>11a.   Saxifraga bronchialis subsp. funstonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals yellow-spotted proximally, purple- or red-spotted distally, not clawed</statement>
+      <description type="morphology">Petals yellow-spotted proximally, purple- or red-spotted distally, not clawed</description>
       <determination>11b.   Saxifraga bronchialis subsp. austromontana</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

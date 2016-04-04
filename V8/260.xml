@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifragopsis</genus_name>
-    <species_name>fragarioides</species_name>
-    <species_authority>(Greene) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifragopsis</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Small" date="unknown">fragarioides</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>23: 20.  1896,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>fragarioides</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifragopsis;species fragarioides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">fragarioides</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>8: 121.  1881</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants forming loose mats from trailing rhizomes.  Leaves: petiole 1.5–4 cm; blade 1.5–4 cm.  Inflorescences 6–25 cm, stipitate-glandular; bracts subtending pedicel scalelike.  Flowers: hypanthium campanulate, 1 mm, sparsely to moderately stipitate-glandular; sepals spreading to reflexed, triangular to ovate, 2 mm, apex acute to rounded; petals spreading, obovate to oblanceolate, 1.5–3 mm; stamens included, 1 mm; styles included, 0.8–1 mm.  Capsules brown, ovoid, (3–)4–5 mm.  Seeds 50–75.  2n = 14.</description>
-  <phenology>Flowering Jun–Aug</phenology>
-  <habitat>Rock crevices, talus slopes</habitat>
-  <elevation>(500–)1500–3000 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Saxifraga;species fragarioides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Saxifragopsis fragarioides is nearly limited to the Siskiyou Mountains of California and Oregon; disjunct populations have been found in Washington (S. Gage 1992, 1995).  The known colonies in Washington are at about 500 meters, lower than those in California and Oregon.</discussion>
-</treatment>
+</bio:treatment>

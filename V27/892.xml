@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crossidium</genus_name>
-    <species_name>squamiferum</species_name>
-    <variety_name>pottioideum</variety_name>
-    <variety_authority>(Notaris) Mönkemeyer</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crossidium</taxon_name>
+    <taxon_name rank="species" authority="(Juratzka) Juratzka" date="unknown">squamiferum</taxon_name>
+    <taxon_name rank="variety" authority="(Notaris) Mönkemeyer" date="unknown">pottioideum</taxon_name>
     <place_of_publication>
       <publication_title>Laubm. Eur.,</publication_title>
       <place_in_publication>315.  1927,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>squamifera</species_name>
-    <variety_name>pottioidea</variety_name>
-    <variety_authority>De Notaris</variety_authority>
+    <taxon_hierarchy>genus Crossidium;species squamiferum;variety pottioideum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">squamifera</taxon_name>
+    <taxon_name rank="variety" authority="De Notaris" date="unknown">pottioidea</taxon_name>
     <place_of_publication>
       <publication_title>Musci Ital.,</publication_title>
       <place_in_publication>22.  1862</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crossidium</genus_name>
-    <species_name>griseum</species_name>
-    <species_authority>(Juratzka) Juratzka</species_authority>
-  </TaxonIdentification>
-  <description>Leaves with margins recurved to erect and whitish distally, undifferentiated proximally.  Seta 5–8 mm.  Capsule urn short-cylindric, 1–2.1 mm; operculum 0.6–1.1 mm; peristome short, nearly straight, cribrose, 198–520 µm.</description>
-  <phenology>Capsule mature May–Aug(–Dec).</phenology>
-  <habitat>Banks, sandy soil or rocks along dry washes;</habitat>
-  <elevation>1000–1500 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands (Canary Islands).</global_distribution>
+    <taxon_hierarchy>genus Tortula;species squamifera;variety pottioidea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crossidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">griseum</taxon_name>
+    <taxon_hierarchy>genus Crossidium;species griseum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
   <discussion>M. J. Cano et al. (1993) did not recognize var. pottioideum as a distinct taxon.  However, the character states given in the key offer good reasons to retain it, despite some intergradation with var. squamiferum.</discussion>
-</treatment>
+</bio:treatment>

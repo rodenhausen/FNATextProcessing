@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>37.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micranthes</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>(Hooker) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micranthes</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Small" date="unknown">integrifolia</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al.,  N. Amer. Fl.</publication_title>
       <place_in_publication>22: 137.  1905  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Whole-leaf saxifrage</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Micranthes;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">integrifolia</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 249, plate 86.  1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants solitary or in clumps, (sometimes gynodioecious), often with bulbils on caudices, or short-rhizomatous.  Leaves basal; petiole flattened, 0.5–4 cm; blade narrowly to broadly ovate, 2–7 cm, ± leathery, base attenuate, margins entire or minutely denticulate, usually ciliate, surfaces sparsely to moderately hairy.  Inflorescences (15–)20+-flowered, open to ± congested, conic thyrses, (usually branched, lateral cymules ± open), 12–35 cm, densely pink- to purple-tipped stipitate-glandular.  Flowers: sepals spreading to slightly reflexed, ovate; petals white, not spotted, obovate, clawed, 2–4 mm, longer than sepals; filaments linear, flattened; pistils connate to 1/2 their lengths; ovary 1/2+ inferior.  Capsules reddish or purplish, folliclelike.  2n = 38.</description>
-  <phenology>Flowering late winter–spring</phenology>
-  <habitat>Vernally moist mead-ows, grassy slopes, rock outcrops</habitat>
-  <elevation>0–1800 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Saxifraga;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>37.</number>
+  <other_name type="common_name">Whole-leaf saxifrage</other_name>
   <discussion>The occasional occurrence of sterile pollen has been noted in this as well as in other species of Micranthes (as Saxifraga, K. I. Beamish 1961).  Some populations exhibit gynodioecism (P. E. Elvander 1982).</discussion>
-</treatment>
+</bio:treatment>

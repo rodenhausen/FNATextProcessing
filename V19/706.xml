@@ -1,52 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Xerochrysum</genus_name>
-    <species_name>bracteatum</species_name>
-    <species_authority>(Ventenat) Tzvelev</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Xerochrysum</taxon_name>
+    <taxon_name rank="species" authority="(Ventenat) Tzvelev" date="unknown">bracteatum</taxon_name>
     <place_of_publication>
       <publication_title>Novosti Sist. Vyssh. Rast.</publication_title>
       <place_in_publication>27: 151. 1990</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Xerochrysum;species bracteatum;</taxon_hierarchy>
-  <common_name>Strawflower</common_name>
-  <common_name>golden everlasting</common_name>
-  <common_name>paper daisy</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Xeranthemum</genus_name>
-    <species_name>bracteatum</species_name>
-    <species_authority>Ventenat</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Xerochrysum;species bracteatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Xeranthemum</taxon_name>
+    <taxon_name rank="species" authority="Ventenat" date="unknown">bracteatum</taxon_name>
     <place_of_publication>
       <publication_title>Jard. Malmaison</publication_title>
       <place_in_publication>1: plate 2. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bracteantha</genus_name>
-    <species_name>bracteata</species_name>
-    <species_authority>(Ventenat) Anderberg &amp; Haegi</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Helichrysum</genus_name>
-    <species_name>bracteatum</species_name>
-    <species_authority>(Ventenat) Andrews</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or perennials, 20–90 cm (dwarf varieties mostly less than 30 cm); taprooted. Stems scabrellous and minutely glandular, sometimes lightly arachnoid as well. Leaf blades narrowly elliptic or oblong to oblong-lanceolate, 2–5(–10) cm, sometimes slightly fleshy, vestiture like stems. Heads 3–5 cm diam. (across open involucres). Phyllaries yellow (wild form) or white to pink, red, and purple (cultivars), 10–20 mm. 2n = 24, 26, 28.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>20–50 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Xeranthemum;species bracteatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bracteantha</taxon_name>
+    <taxon_name rank="species" authority="(Ventenat) Anderberg &amp; Haegi" date="unknown">bracteata</taxon_name>
+    <taxon_hierarchy>genus Bracteantha;species bracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helichrysum</taxon_name>
+    <taxon_name rank="species" authority="(Ventenat) Andrews" date="unknown">bracteatum</taxon_name>
+    <taxon_hierarchy>genus Helichrysum;species bracteatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Strawflower</other_name>
+  <other_name type="common_name">golden everlasting</other_name>
+  <other_name type="common_name">paper daisy</other_name>
   <discussion>Known in horticulture as Helichrysum bracteatum, Xerochrysum bracteatum is widely cultivated for its relatively large, spreading, and spectacularly colored involucral bracts. It apparently rarely escapes from cultivation.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>62.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HESPERIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Hesperideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">HESPERIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 663. 1753</place_in_publication>
@@ -12,19 +18,12 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 297. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek hesperos , evening, alluding to time when flowers of some species are most fragrant]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Plants with caudex; not scapose; pubescent or glabrous, trichomes simple and/or forked, often mixed with unicellular glands on uniseriate stalks. Stems erect, unbranched or branched. Leaves basal and cauline; petiolate [sessile]; basal rosulate [not rosulate], blade margins entire, dentate, or pinnatifid; cauline similar to basal. Racemes (corymbose), considerably elongated in fruit. Fruiting pedicels divaricate or ascending [reflexed], slender or stout. Flowers: sepals oblong [linear], (sometimes connivent), lateral pair strongly saccate basally, (pubescent or glabrous); petals obovate [oblong], (much longer than sepals), claw distinctly differentiated from blade, (apex rounded [obtuse]); stamens strongly tetradynamous; filaments (erect), slender or dilated basally; anthers linear [oblong], (apex obtuse); nectar glands (2), lateral, annular or lunar. Fruits tardily dehiscent, sessile, linear, torulose; valves each with prominent midvein, glabrous; replum rounded; septum complete; ovules 4–40 per ovary; style obsolete or distinct (relatively short); stigma conical (lobes prominent, connivent or distinct, decurrent). Seeds plump, not winged, oblong; seed coat (reticulate), not mucilaginous when wetted; cotyledons incumbent.</description>
-  <number_of_infrataxa>Species 25 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>se Europe</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>introduced also in South America (Argentina).</global_distribution>
-  <global_distribution>introduced also in South America (Chile).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Hesperideae;genus HESPERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek hesperos , evening, alluding to time when flowers of some species are most fragrant]</other_info_on_name>
+  </taxon_identification>
+  <number>62.</number>
+  <discussion>Species 25 (1 in the flora):</discussion>
   <references>
     <reference>Dvoák, F. 1966. A contribution to the study of the evolution of Hesperis series Matronales Cvl. emend. Dvoák. Feddes Repert. 73: 94–99. Dvoák, F. 1973. Infrageneric classification of Hesperis. Feddes Repert. 84: 259–272.</reference>
   </references>
-</treatment>
+</bio:treatment>

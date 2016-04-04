@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>33a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pinus</genus_name><species_name>contorta</species_name><variety_name>contorta</variety_name></TaxonIdentification><common_name>Shore pine</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Pinus</genus_name><species_name>bolanderi</species_name><species_authority>Parlatore</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pinus</genus_name><species_name>contorta</species_name><subspecies_name>bolanderi</subspecies_name><subspecies_authority>(Parlatore) Critchfield</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pinus</genus_name><species_name>contorta</species_name><variety_name>bolanderi</variety_name><variety_authority>Lemmon</variety_authority></TaxonIdentification><description>Trees  to 10m; trunk to 0.5m diam., straight, leaning landward in protected stands, or contorted and bent when not, or reduced to shrub form by wind shear and salt spray; mature crown irregularly rounded or flat.  Bark  evidently and irregularly furrowed, cross-checked into small, square or rectangular, orange-brown to purple-brown scaly plates.  Branches  spreading, often contorted.  Leaves  2--7cm × 0.7--0.9(--1.1)mm, dark green, apex acute to broadly acute or blunt.  Seed cones  maturing and shedding seeds in 2 years, persistent or variously serotinous, strongly asymmetric, strongly recurved, often in whorls, proximal outer apophyses strongly domed.</description><discussion>Pinus contorta var. contorta is fire successional. It is mostly a low-quality tree for timber use.</discussion><habitat>Maritime fog forests, bogs, and dry foothills</habitat><elevation> 0--600m</elevation><ca_distribution> B.C.</ca_distribution><us_distribution> Alaska</us_distribution><us_distribution> Calif.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="Parlatore" date="unknown">contorta</taxon_name>
+    <taxon_name rank="variety" authority="Lemmon" date="unknown">contorta</taxon_name>
+    <taxon_hierarchy>genus Pinus;species contorta;variety contorta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bolanderi</taxon_name>
+    <taxon_hierarchy>genus Pinus;species bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">contorta</taxon_name>
+    <taxon_name rank="subspecies" authority="(Parlatore) Critchfield" date="unknown">bolanderi</taxon_name>
+    <taxon_hierarchy>genus Pinus;species contorta;subspecies bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">contorta</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">bolanderi</taxon_name>
+    <taxon_hierarchy>genus Pinus;species contorta;variety bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>33a</number>
+  <other_name type="common_name">Shore pine</other_name>
+  <discussion>Pinus contorta var. contorta is fire successional. It is mostly a low-quality tree for timber use.</discussion>
+</bio:treatment>

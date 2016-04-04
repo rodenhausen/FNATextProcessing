@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>13b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Sagittaria</genus_name><species_name>graminea</species_name><subspecies_name>chapmanii</subspecies_name><subspecies_authority>(J. G. Smith) R. R. Haynes &amp; Hellquist</subspecies_authority><place_of_publication><publication_title>Novon</publication_title><place_in_publication>6: 370. 1996</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Sagittaria</genus_name><species_name>graminea</species_name><variety_name>chapmanii</variety_name><variety_authority>J. G. Smith</variety_authority><place_of_publication><publication_title>N. Amer. Sagittaria, </publication_title><place_in_publication>26, plate 21. 1894 (as chapmani)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Sagittaria</genus_name><species_name>chapmanii</species_name><species_authority>(J. G. Smith) C. Mohr</species_authority></TaxonIdentification><description>Phyllodia to 1 cm wide. Inflorescences panicles; pistillate pedicels 0.5--3 cm.</description><phenology>Flowering summer--fall</phenology><habitat> Margins of swamps, ponds, and small streams</habitat><elevation>0--100 m</elevation><us_distribution>Ala.</us_distribution><us_distribution> Fla.</us_distribution><us_distribution> Ga.</us_distribution><us_distribution> S.C.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="(J. G. Smith) C. Mohr" date="unknown">graminea</taxon_name>
+    <taxon_name rank="subspecies" authority="(J. G. Smith) R. R. Haynes &amp; Hellquist" date="unknown">chapmanii</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>6: 370. 1996</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species graminea;subspecies chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">graminea</taxon_name>
+    <taxon_name rank="variety" authority="J. G. Smith" date="unknown">chapmanii</taxon_name>
+    <place_of_publication>
+      <publication_title>N. Amer. Sagittaria,</publication_title>
+      <place_in_publication>26, plate 21. 1894 (as chapmani)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species graminea;variety chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">chapmanii</taxon_name>
+    <taxon_hierarchy>genus Sagittaria;species chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13b</number>
+</bio:treatment>

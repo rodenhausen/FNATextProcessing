@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>holmenianum</species_name>
-    <species_authority>Sahlin</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="Sahlin" date="unknown">holmenianum</taxon_name>
     <place_of_publication>
       <publication_title>Folia Geobot. Phytotax.</publication_title>
       <place_in_publication>18: 445. 1983</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species holmenianum;</taxon_hierarchy>
-  <common_name>Holmen’s dandelion</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>pumilum</species_name>
-    <species_authority>Dahlstedt</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species holmenianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="Dahlstedt" date="unknown">pumilum</taxon_name>
     <place_of_publication>
       <publication_title>Ark. Bot.</publication_title>
       <place_in_publication>4(8): 27, fig. 5. 1905,</place_in_publication>
-      <other_info>not Gaudichaud 1825</other_info>
+      <other_info_on_pub>not Gaudichaud 1825</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 5–15(–20) cm; taproots branched. Stems 1–7+, ascending, purple, glabrous or glabrate. Leaves ca. 10+, horizontal to widely patent, rarely ± erect, (dark green); petioles winged mostly narrowly; blades oblanceolate to oblong-oblanceolate (runcinate), (1.5–)2–6(–9) × 0.3–1.3 cm, bases attenuate, margins lobed regularly, ± alternately, shallowly to deeply, lobes usually straight to slightly retrorse, sometimes slightly antrorse, deltate to triangular, acute to acuminate, apices acute to acuminate, faces glabrous. Calyculi of 10–14, appressed to slightly spreading, purplish, ovate to lance-ovate bractlets in 2 series, 3–6(–7.5) × 1.8–2.5(–3) mm, not or narrowly scarious, hyaline purplish, apices long-acuminate to short-caudate, tips scarious, erose. Involucres dark olive green, sometimes purplish, tips purplish, campanulate, 11–15(–20) mm. Phyllaries ca. 14 in 2 series, lanceolate to lance-ovate, 1–3 mm wide, margins not scarious or narrowly to widely scarious in proximal 1/2, sometimes distally, apices sometimes callous, sometimes also some small-horned, tips scarious, erose. Florets 30–50(–60); corollas dark yellow (outer with distinct, central greenish gray or pinkish stripe, tips dark), 15–20 × 1–3 mm. Cypselae yellowish or straw-colored, bodies obovoid to oblanceoloid, 3.5–4.2 mm wide, cones narrowly conic, 0.9–1.1 mm, beaks slender, 4.5–5 mm, ribs 12–16 (3–4 prominent), sharp, faces proximally tuberculate, muricate in distal 1/2; pappi white to yellowish, 5.5–6.5 mm. 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>tundra hummocks and polygons , open slopes , on clay or gravel ;</text>
-    <habitat>tundra hummocks and polygons</habitat>
-    <habitat>open slopes</habitat>
-    <habitat>on clay or gravel</habitat>
-  </habitat_info>
-  <elevation>0–300+ m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut.</ca_distribution>
+    <taxon_hierarchy>genus Taraxacum;species pumilum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <other_name type="common_name">Holmen’s dandelion</other_name>
   <discussion>Taraxacum holmenianum is a strictly Arctic species. It is distinguished by its deep yellow ligules.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,80 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Halesia</genus_name>
-    <species_name>carolina</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">carolina</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1044, 1369.  1759  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Carolina silverbell</common_name>
-  <common_name>opossum-wood</common_name>
-  <common_name>shittim-wood</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>carolina</species_name>
-    <variety_name>monticola</variety_name>
-    <variety_authority>Rehder</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>monticola</species_name>
-    <species_authority>(Rehder) Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>monticola</species_name>
-    <variety_name>vestita</variety_name>
-    <variety_authority>Sargent</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>parviflora</species_name>
-    <species_authority>Michaux</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>tetraptera</species_name>
-    <species_authority>J. Ellis</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Halesia</genus_name>
-    <species_name>tetraptera</species_name>
-    <variety_name>monticola</variety_name>
-    <variety_authority>(Rehder) Reveal &amp; Seldin</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees to 24 m.  Leaves: petiole 11–29 mm; blade whitish green or grayish green abaxially, ovate-oblong, elliptic, or obovate to oblanceolate, 8.7–22.5 × 3.8–11.4 cm, length 1.5–3.3 times width, margins 25–80-toothed, abaxial surface not shiny, quaternary veins not raised abaxially.  Inflorescences appearing fasciculate, 2–6-flowered, sometimes solitary flowers, ebracteolate.  Flowers: sepals 2–5 × 1.5–3 mm; corolla open prior to anthesis, 10–29 mm, glabrous, tube 7–26 mm, lobes 3–7 × 5–12 mm; stamens 12–16, 9–17 mm; filaments adnate to corolla 2–3 mm, free portion connate 1–3 mm, distinct portion 5–14 mm, glabrous abaxially, hairy adaxially; anthers 2.5–4 mm; style glabrous.  Fruits ± equally 4-winged, ellipsoid to clavate, 2.4–5 × 0.7–2.6 cm.  2n = 24.</description>
-  <phenology>Flowering Mar–May; fruiting Jun–Nov</phenology>
-  <habitat>Moist, often slightly acidic and sandy soils, wooded floodplains, stream banks, borders of swamps, hammocks, roadsides</habitat>
-  <elevation>0–1600 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>family STYRACACEAE;genus Halesia;species carolina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="(Rehder) Sargent" date="unknown">carolina</taxon_name>
+    <taxon_name rank="variety" authority="Rehder" date="unknown">monticola</taxon_name>
+    <taxon_hierarchy>genus Halesia;species carolina;variety monticola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">monticola</taxon_name>
+    <taxon_hierarchy>genus Halesia;species monticola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="J. Ellis" date="unknown">monticola</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">vestita</taxon_name>
+    <taxon_hierarchy>genus Halesia;species monticola;variety vestita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">parviflora</taxon_name>
+    <taxon_hierarchy>genus Halesia;species parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tetraptera</taxon_name>
+    <taxon_hierarchy>genus Halesia;species tetraptera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halesia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tetraptera</taxon_name>
+    <taxon_name rank="variety" authority="(Rehder) Reveal &amp; Seldin" date="unknown">monticola</taxon_name>
+    <taxon_hierarchy>genus Halesia;species tetraptera;variety monticola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Carolina silverbell</other_name>
+  <other_name type="common_name">opossum-wood</other_name>
+  <other_name type="common_name">shittim-wood</other_name>
   <discussion>Two poorly defined taxa have been segregated from Halesia carolina at the species level or below.  The mountain entity, H. monticola, is a tree to 20 meters or more with relatively large flowers, deeply included stamens, and relatively large fruits.  The more often recognized coastal-plain entity H. parviflora is a shrub with smaller flowers, exserted stamens, and clavate fruits.  P. W. Fritsch and S. A. Lucas (2000) have demonstrated that the characters used to delimit segregates vary either irregularly or more or less continuously with latitude.</discussion>
   <discussion>Halesia carolina is not native in Michigan, New York, Pennsylvania, and Rhode Island but has been locally naturalized in these states.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Fritsch, P. W. and S. A. Lucas.  2000.  Clinal variation in the Halesia carolina complex (Styracaceae).  Syst. Bot. 25: 197–210.</reference>
     <reference>Giersbach, J. and L. V. Barton.  1932.  Germination of seeds of the silverbell, Halesia carolina.  Contr. Boyce Thompson Inst. Pl. Res. 4: 27–37.</reference>
     <reference>Reveal, J. L. and M. J. Seldin.  1976.  On the identity of Halesia carolina L. (Styracaceae).  Taxon 25: 123–140.</reference>
   </references>
-</treatment>
+</bio:treatment>

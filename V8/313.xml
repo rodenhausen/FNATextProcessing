@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>orbiculata</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">orbiculata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 429.  1753,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 5 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <us_distribution>California</us_distribution>
-  <global_distribution>s Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family CRASSULACEAE;genus Cotyledon;species orbiculata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 5 (1 in the flora):</discussion>
+</bio:treatment>

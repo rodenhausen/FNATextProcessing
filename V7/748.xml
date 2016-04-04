@@ -1,62 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>39.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cardamine</genus_name>
-    <species_name>umbellata</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">umbellata</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>3: 154. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>hirsuta</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>kamtschatica</subspecies_name>
-    <subspecies_authority>(Regel) O. E. Schulz</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>kamtschatica</species_name>
-    <species_authority>(Regel) Piper</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>oligosperma</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>kamtschatica</variety_name>
-    <variety_authority>(Regel) Detling</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>sylvatica</species_name>
-    <species_authority>Link</species_authority>
-    <variety_name>kamtschatica</variety_name>
-    <variety_authority>Regel</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; usually glabrous. Rhizomes often elongated, usually slender, rarely thickened, 1–2(–5) mm diam., (not fleshy). Stems (simple or few to several from base), erect to ascending, (not flexuous), unbranched basally, sometimes branched distally, (0.3–)0.8–2.5(–3) dm. Basal leaves (sometimes withered by anthesis), rosulate, pinnately compound, (3 or) 5 or 7 (or 9)-foliolate, 2–5(–9) cm, leaflets petiolulate or subsessile; lateral leaflets shortly petiolulate or subsessile, blade usually broadly ovate, rarely broadly obovate or orbicular, smaller than terminal, margins usually entire, rarely slightly 3 (or 5)-lobed or crenate; terminal leaflet subsessile, blade reniform or orbicular, 0.4–0.8(–1.2) cm × 5–9(–16) mm, margins entire or 3 (or 5)-lobed or crenate. Cauline leaves 3–5(–7), 3–7 (or 9)-foliolate, petiolate, leaflets subsessile or sessile; base not auriculate; lateral leaflets: blade narrowly obovate, oblanceolate to linear, margins similar to terminal; terminal leaflet blade narrowly obovate, ovate, oblanceolate, lanceolate, oblong, margins usually entire, sometimes 3-lobed or crenate. Racemes ebracteate, (subumbellate, 2–8(–14)-flowered, rachis usually 3–20 mm). Fruiting pedicels suberect to ascending, 3–8(–10) mm. Flowers: sepals (greenish or purplish), oblong, 1–2 × 0.5–1 mm, lateral pair not saccate basally; petals white, narrowly obovate, 2.5–5 × 1–3 mm. Fruits linear, (torulose), (1.3–)1.8–2.5(–3) cm × 0.8–1.5(–2) mm; (valves glabrous or sparsely pubescent); style 0.5–2 mm. Seeds brown, oblong, 1–1.5 × 0.8–1 mm. 2n = 32, 36, 48.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>stream banks</habitat>
-  <habitat>tundra</habitat>
-  <habitat>alpine slopes</habitat>
-  <habitat>wetlands</habitat>
-  <habitat>damp, swampy and mossy areas</habitat>
-  <habitat>beach gravel and sand</habitat>
-  <habitat>alpine stream margins</habitat>
-  <elevation>0–1800 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Cardamine;species umbellata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hirsuta</taxon_name>
+    <taxon_name rank="subspecies" authority="(Regel) O. E. Schulz" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species hirsuta;subspecies kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="(Regel) Piper" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">oligosperma</taxon_name>
+    <taxon_name rank="variety" authority="(Regel) Detling" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species oligosperma;variety kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Link" date="unknown">sylvatica</taxon_name>
+    <taxon_name rank="variety" authority="Regel" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species sylvatica;variety kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>39.</number>
   <discussion>Recent molecular data (J. Lihová et al. 2006) indicate that Cardamine umbellata, often treated as a variety of C. oligosperma, represents a distinct lineage more closely related to taxa from New Zealand; this does not exclude C. oligosperma as one of the possible parents of this polyploid.</discussion>
-</treatment>
+</bio:treatment>

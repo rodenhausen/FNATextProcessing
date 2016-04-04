@@ -1,68 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>macrocarpon</species_name>
-    <species_authority>Aiton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">macrocarpon</taxon_name>
     <place_of_publication>
       <publication_title>Hort. Kew.</publication_title>
       <place_in_publication>2: 13, plate 7. 1789 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Cranberry</common_name>
-  <common_name>canneberge à gros fruits</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Oxycoccus</genus_name>
-    <species_name>macrocarpus</species_name>
-    <species_authority>(Aiton) Persoon</species_authority>
-  </TaxonIdentification>
-  <description>Plants often ascending, shoots 0.4–1.5 dm. Leaf blades glaucous abaxially, green
-        adaxially, usually narrowly elliptic to elliptic, rarely oblong, 5–18 × 2–55 mm, margins
-        entire, slightly revolute. Inflorescences in axils of leaflike bracts at base of current
-        year’s shoots. Pedicels nodding, slender, 2–3 cm, bracteolate; bracteoles 2, greenish white,
-        scalelike, 1–2 mm wide. Flowers: calyx lobes relatively small; corolla strongly reflexed at
-        anthesis, white to pink; filaments hairy; anther tubules 1–2 mm. Berries red to pink, 9–14
-        mm diam., smooth. 2n = 24.</description>
-  <phenology>Flowering late spring–early summer</phenology>
-  <habitat>Bogs, swamps, mires, wet shores and headlands</habitat>
-  <elevation>0–1400 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>introduced in Europe.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Vaccinium;species macrocarpon;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oxycoccus</taxon_name>
+    <taxon_name rank="species" authority="(Aiton) Persoon" date="unknown">macrocarpus</taxon_name>
+    <taxon_hierarchy>genus Oxycoccus;species macrocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Cranberry</other_name>
+  <other_name type="common_name">canneberge à gros fruits</other_name>
   <discussion>Vaccinium macrocarpon is introduced and escaping elsewhere (British Columbia,
         Oregon, Washington) with respect to its normal range in eastern North America.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Bruederle, L. P., M. S. Hugan, and J. M. Dignan. 1996. Genetic variation in
             natural populations of the large cranberry, Vaccinium macrocarpon Ait. (Ericaceae).
             Bull. Torrey Bot. Club 123: 41–47.</reference>
@@ -71,4 +35,4 @@
     <reference>Upton, R., ed. 2002. Cranberry Fruit: Vaccinium macrocarpon Aiton. Standards of
             Analysis, Quality Control, and Therapeutics. Santa Cruz.</reference>
   </references>
-</treatment>
+</bio:treatment>

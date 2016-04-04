@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Camassia</genus_name><species_name>cusickii</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>22: 479. 1887</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Cusick camas</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Quamasia</genus_name><species_name>cusickii</species_name><species_authority>(S. Watson) Coville</species_authority></TaxonIdentification><description>Bulbs clustered, ellipsoid, 2–7 cm diam. Leaves rarely fewer than 10, 2.5–5 dm × 2–5 cm. Inflorescences 50–80 cm; sterile bracts 0, bracts subtending flowers exceeding pedicel. Flowers slightly zygomorphic; tepals withering separately after anthesis, pale blue or bluish violet, each 3(–5)-veined, 25–35 × 3–5 mm; anthers yellow, 3.5–4(–5) mm; fruiting pedicel incurving-erect or slightly spreading, 15–25 mm. Capsules not deciduous, light brown, ovoid or ellipsoid, 15–25 mm. Seeds 5–10 per locule. 2n = 30.</description><habitat>hillsides</habitat><elevation>1000–2000 m;</elevation><us_distribution>Idaho</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">cusickii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>22: 479. 1887</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Camassia;species cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quamasia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Coville" date="unknown">cusickii</taxon_name>
+    <taxon_hierarchy>genus Quamasia;species cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Cusick camas</other_name>
+</bio:treatment>

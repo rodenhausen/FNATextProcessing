@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Vulpinae</section_name>
-    <section_authority>(Heuffel) H. Christ</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Lisa A. Standley</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Heuffel) H. Christ" date="unknown">Vulpinae</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Soc. Roy. Bot. Belgique</publication_title>
       <place_in_publication>24: 18. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Lisa A. Standley</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vignea</genus_name>
-    <unranked_epithet_name>Vulpinae</unranked_epithet_name>
-    <unranked_epithet_authority>Heuffel</unranked_epithet_authority>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Vulpinae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vignea</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Heuffel">Vulpinae</taxon_name>
     <place_of_publication>
-      <publication_title>Flora </publication_title>
+      <publication_title>Flora</publication_title>
       <place_in_publication>27: 529. 1844</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants cespitose, short-rhizomatous. Culms dark brown to black at base, usually more
-    than 1 mm wide. Leaves: basal sheaths fibrous or not; sheath fronts sometimes dotted brown,
-    yellow, or red, at least a narrow hyaline or whitish hyaline band on distal leaves, membranous,
-    transversely rugose or smooth; blades V-shaped in cross section when young, glabrous.
-    Inflorescences racemose or paniculate, often condensed, with 4–20+ spikes; proximal bracts
-    filiform or scalelike, sheathless; lateral spikes androgynous or pistillate, sessile,
-    prophyllate; terminal spike androgynous. Proximal pistillate scales with apex obtuse to
-    acuminate or short-awned. Perigynia ascending to spreading, veined abaxially, veined or veinless
-    adaxially, stipitate, lanceolate to ovate, plano-convex in cross section, mostly 2 times as long
-    as wide, widest at base, base rounded or truncate, with spongy tissue, margins acutely angled,
-    apex tapering or abruptly contracted to beak, glabrous; beak with apex bidentate or subentire,
-    with abaxial suture. Stigmas 2. Achenes biconvex, smaller than bodies of perigynia; style
-    deciduous.</description>
-  <number_of_infrataxa>Species ca. 15 (9 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>temperate Eurasia</global_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>e</global_distribution>
-  <global_distribution>s Africa</global_distribution>
-  <global_distribution>s Australia.</global_distribution>
+    <taxon_hierarchy>genus Vignea;unranked Vulpinae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26a.</number>
+  <discussion>Species ca. 15 (9 in the flora):</discussion>
   <discussion>Carex sect. Vulpinae is not clearly distinguished from several other sections,
     especially sect. Multiflorae. Features that generally distinguish sect. Vulpinae from sect.
     Multiflorae include the presence of spongy tissue in the perigynium bases, the perigynia tapered
@@ -57,97 +43,97 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences very condensed, globose to ovoid or shortly cylindric; proximal
+      <description type="morphology">Inflorescences very condensed, globose to ovoid or shortly cylindric; proximal
         branches not distinguishable and proximal internode not visible, to 3 mm; bracts scalelike,
-        not visible.</statement>
+        not visible.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves clustered at base; proximal sheaths with long blades, fronts hyaline;
-        perigynium</statement>
+      <description type="morphology">Leaves clustered at base; proximal sheaths with long blades, fronts hyaline;
+        perigynium</description>
       <determination>7. Carex jonesii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves not clustered at base; proximal sheaths with short blades, fronts
-        herbaceous; perigynium beak smooth or scabrous.</statement>
+      <description type="morphology">Leaves not clustered at base; proximal sheaths with short blades, fronts
+        herbaceous; perigynium beak smooth or scabrous.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Distal sheath fronts smooth, apex coriaceous, concave; perigynium beak
-        smooth</statement>
+      <description type="morphology">Distal sheath fronts smooth, apex coriaceous, concave; perigynium beak
+        smooth</description>
       <determination>8. Carex nervina</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Distal sheath fronts rugose, apex hyaline, convex; perigynium beak
-        scabrous</statement>
+      <description type="morphology">Distal sheath fronts rugose, apex hyaline, convex; perigynium beak
+        scabrous</description>
       <determination>9. Carex neurophora</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences elongated, cylindric; proximal branches distinguishable and proximal
+      <description type="morphology">Inflorescences elongated, cylindric; proximal branches distinguishable and proximal
         internode usually visible, usually more than 3 mm; at least proximal bracts setaceous,
-        apparent.</statement>
+        apparent.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Apex of sheath front yellow, thickened, not fragile; leaf blades papillose
-        adaxially</statement>
+      <description type="morphology">Apex of sheath front yellow, thickened, not fragile; leaf blades papillose
+        adaxially</description>
       <determination>1. Carex laevivaginata</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Apex of sheath front not yellow, thin, usually fragile; leaf blades not
-        papillose.</statement>
+      <description type="morphology">Apex of sheath front not yellow, thin, usually fragile; leaf blades not
+        papillose.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Larger perigynia 6–8 mm, prominently distended at base and forming basal
-        disk;</statement>
+      <description type="morphology">Larger perigynia 6–8 mm, prominently distended at base and forming basal
+        disk;</description>
       <determination>2. Carex crus-corvi</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perigynia less than 6 mm, prominent basal disk absent, sometimes somewhat distended
-        at base; sheath fronts smooth or rugose, dotted or not.</statement>
+      <description type="morphology">Perigynia less than 6 mm, prominent basal disk absent, sometimes somewhat distended
+        at base; sheath fronts smooth or rugose, dotted or not.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia veinless adaxially, not distended at base.</statement>
+      <description type="morphology">Perigynia veinless adaxially, not distended at base.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Sheath fronts smooth; achenes circular; perigynia with 3–5 faint veins</statement>
+      <description type="morphology">Sheath fronts smooth; achenes circular; perigynia with 3–5 faint veins</description>
       <determination>3. Carex alopecoidea</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Sheath fronts rugose; achenes ovate; perigynia with 3–5 prominent veins</statement>
+      <description type="morphology">Sheath fronts rugose; achenes ovate; perigynia with 3–5 prominent veins</description>
       <determination>4. Carex conjuncta</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia veined adaxially, distended at base.</statement>
+      <description type="morphology">Perigynia veined adaxially, distended at base.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Sheath fronts smooth, with tubular extension above blade junction;
-        ligules</statement>
+      <description type="morphology">Sheath fronts smooth, with tubular extension above blade junction;
+        ligules</description>
       <determination>5. Carex oklahomensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Sheath fronts rugose, not forming tubular extension above blade junction; ligules
-        to 10 mm; culms easily compressed, proximal sheaths usually with</statement>
+      <description type="morphology">Sheath fronts rugose, not forming tubular extension above blade junction; ligules
+        to 10 mm; culms easily compressed, proximal sheaths usually with</description>
       <determination>6. Carex stipata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

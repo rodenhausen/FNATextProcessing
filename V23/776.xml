@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26z.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Bicolores</section_name>
-    <section_authority>(Tuckerman ex L. H. Bailey) Rouy</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Ball</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Tuckerman ex L. H. Bailey) Rouy" date="unknown">Bicolores</taxon_name>
     <place_of_publication>
       <publication_title>Fl. France</publication_title>
       <place_in_publication>13: 508. 1912</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Peter W. Ball</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carex</genus_name>
-    <unranked_epithet_name>Bicolores</unranked_epithet_name>
-    <unranked_epithet_authority>Tuckerman ex L. H. Bailey</unranked_epithet_authority>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Bicolores;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Tuckerman ex L. H. Bailey">Bicolores</taxon_name>
     <place_of_publication>
-      <publication_title>Proc. Amer. Acad. Arts </publication_title>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>22: 119. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose, rhizomatous. Culms brown at base. Leaves: basal sheaths not
-    fibrous; sheath fronts membranous; blades V-shaped in cross section when young, glabrous.
-    Inflorescences racemose, with 2–6 spikes, rachis of spikes papillose; bracts usually leaflike,
-    rarely scalelike, sheathing or sheathless; lateral spikes pistillate, sometimes the proximal,
-    pedunculate, prophyllate, not much longer than wide; terminal spike staminate or gynecandrous.
-    Proximal pistillate scales with apex obtuse to acuminate. Perigynia ascending to spreading,
-    weakly veined, stipitate, sometimes inflated, elliptic-obovate, biconvex to subcircular in cross
-    section, base tapering to rounded, margins rounded, apex rounded, beakless or short-beaked,
-    glabrous, sometimes papillose; beak orifice entire. Stigmas 2. Achenes biconvex, smaller than
-    bodies of perigynia; style deciduous.</description>
-  <number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>temperate and low arctic regions of the Northern
-    Hemisphere.</global_distribution>
+    <taxon_hierarchy>genus Carex;unranked Bicolores;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26z.</number>
+  <discussion>Species 4 (4 in the flora):</discussion>
   <discussion>Carex sect. Bicolores is a small apparently natural section of uncertain
     relationships. The species are superficially very different, which has led some authors to
     allocate them to different sections. Carex aurea was included in sect. Paniceae by G. Kükenthal
@@ -49,52 +42,52 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lateral spikes lax, middle internodes (0.5–)0.7–1.5 mm; terminal spike usually
-        staminate.</statement>
+      <description type="morphology">Lateral spikes lax, middle internodes (0.5–)0.7–1.5 mm; terminal spike usually
+        staminate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Terminal spike 0.9–2 mm wide; proximal staminate scales 2–3.5(–4) mm;
-        perigynia</statement>
+      <description type="morphology">Terminal spike 0.9–2 mm wide; proximal staminate scales 2–3.5(–4) mm;
+        perigynia</description>
       <determination>245. Carex aurea</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Terminal spike (1.8–)2–3.5 mm wide; proximal staminate scales 3–6(–15) mm;
-        perygynia</statement>
+      <description type="morphology">Terminal spike (1.8–)2–3.5 mm wide; proximal staminate scales 3–6(–15) mm;
+        perygynia</description>
       <determination>246. Carex hassei (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lateral spikes dense, middle internodes 0.2–0.7 mm; terminal spike usually
-        gynecandrous.</statement>
+      <description type="morphology">Lateral spikes dense, middle internodes 0.2–0.7 mm; terminal spike usually
+        gynecandrous.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Terminal spike with usually not more than 1 / 3 of total number of flowers
+      <description type="morphology">Terminal spike with usually not more than 1 / 3 of total number of flowers
         staminate, staminate portion 1.1–1.8 mm wide; pistillate scales usually black with green
-        midvein,</statement>
+        midvein,</description>
       <determination>248. Carex bicolor</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Terminal spike with more than 1 / 3 of total number of flowers staminate, staminate
-        portion (1.2–)1.5–3.5 mm wide; pistillate scales pale to dark brown.</statement>
+      <description type="morphology">Terminal spike with more than 1 / 3 of total number of flowers staminate, staminate
+        portion (1.2–)1.5–3.5 mm wide; pistillate scales pale to dark brown.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Proximal staminate scales (2–)2.5–3.7 mm, apex obtuse to acute; pistillate
-        scales</statement>
+      <description type="morphology">Proximal staminate scales (2–)2.5–3.7 mm, apex obtuse to acute; pistillate
+        scales</description>
       <determination>247. Carex garberi</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Proximal staminate scales 3–6(–15) mm, apex often long-acuminate; pistillate
-        scales</statement>
+      <description type="morphology">Proximal staminate scales 3–6(–15) mm, apex often long-acuminate; pistillate
+        scales</description>
       <determination>246. Carex hassei (in part)</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>columbiana</species_name>
-    <species_authority>Piper</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Piper" date="unknown">columbiana</taxon_name>
     <place_of_publication>
       <publication_title>in C. V. Piper and R. K. Beattie,  Fl. N.W. Coast,</publication_title>
       <place_in_publication>279.  1915  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Hairy manzanita</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>columbiana</species_name>
-    <variety_name>tracyi</variety_name>
-    <variety_authority>(Eastwood) J. E. Adams ex McMinn</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tracyi</species_name>
-    <species_authority>Eastwood</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, erect, 2–5 m; burl absent; twigs densely short-hairy, usually with long, white hairs, often glandular.  Leaves: petiole 4–10 mm; blade dark green, dull, lanceolate-ovate to narrowly oblong-ovate, 4–6 × 2–3 cm, base cuneate to ± rounded, margins entire, plane, surfaces ± papillate, finely scabrous, finely hairy, sparsely glandular-hairy.  Inflorescences panicles, 3–8-branched; immature inflorescence pendent, branches ± spreading, axis 1.5–2.5 cm, 1+ mm diam., densely short-hairy, usually with long, white hairs, sometimes glandular; bracts not appressed, (green), leaflike, oblong-lanceolate, 10–18 mm, apex acuminate, surfaces finely glandular-hairy.  Pedicels 2–4 mm, finely glandular-hairy.  Flowers: corolla white, conic to urceolate; ovary densely white-hairy, sometimes sparsely glandular.  Fruits depressed-globose, 8–11 mm diam., sparsely hairy.  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral, gaps and margins of conifer forests along coast, sometimes extending inland, open areas around rock outcrops</habitat>
-  <elevation>0–1000(–1400) m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species columbiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">columbiana</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) J. E. Adams ex McMinn" date="unknown">tracyi</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species columbiana;variety tracyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tracyi</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species tracyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <other_name type="common_name">Hairy manzanita</other_name>
   <discussion>Arctostaphylos columbiana is widespread near the coast from northern California to southern British Columbia; it extends inland along the Columbia River Gorge in Oregon and Washington, and inland in Oregon to the western base of the Cascades.  Some variation in twig indument occurs in the prominence of longer, stiff hairs, and in the degree of glandulosity.  Some plants along the immediate coast of northern California into Oregon lack the longer hairs and have been distinguished as var. tracyi.  Hybrids with A. uva-ursi are low shrubs (0.5–1 m) with intermediate vegetative characters.  Referred to as A. ×media Piper, these hybrids have been reported from British Columbia, California, Oregon, and Washington.</discussion>
-</treatment>
+</bio:treatment>

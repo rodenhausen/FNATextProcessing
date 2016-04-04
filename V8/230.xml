@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tiarella</genus_name>
-    <species_name>trifoliata</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>unifoliata</variety_name>
-    <variety_authority>(Hooker) Kurtz</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tiarella</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">trifoliata</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Kurtz" date="unknown">unifoliata</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>19: 378.  1894,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tiarella</genus_name>
-    <species_name>unifoliata</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Tiarella;species trifoliata;variety unifoliata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tiarella</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">unifoliata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 238, plate 81.  1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tiarella</genus_name>
-    <species_name>trifoliata</species_name>
-    <subspecies_name>unifoliata</subspecies_name>
-    <subspecies_authority>(Hooker) P. M. Kern</subspecies_authority>
-  </TaxonIdentification>
-  <description>Basal leaves usually simple; blade 2–9 × 3–10 cm; leaflets sessile, deeply to shallowly lobed.  Cauline leaves rarely 3-foliolate; blade 2 × 3 cm; leaflet lobes ca. 1/2 length of leaflet, distal segments laciniate.  2n = 14.</description>
-  <phenology>Flowering Jun–Sep</phenology>
-  <habitat>Moist, dense woods</habitat>
-  <elevation>300–1900 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Tiarella;species unifoliata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tiarella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">trifoliata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) P. M. Kern" date="unknown">unifoliata</taxon_name>
+    <taxon_hierarchy>genus Tiarella;species trifoliata;subspecies unifoliata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2c.</number>
   <discussion>Variety unifoliata is relatively uniform throughout its range.  Locally in Alberta, it grades into a more deeply lobed leaf form.</discussion>
-</treatment>
+</bio:treatment>

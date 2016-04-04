@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CYNARA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CYNARA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 827. 1753</place_in_publication>
@@ -12,18 +18,12 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 359. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CYNARA;</taxon_hierarchy>
-  <etymology>[Greek kynara , artichoke]</etymology>
-  <author>David J. Keil</author>
-  <description>Annuals or perennials, 50–250 cm, herbage ± arachnoid-tomentose. Stems ± erect, simple or branched, (leafy), stout. Leaves basal and cauline; petiolate (basal and proximal cauline) or sessile (distal cauline); blade margins 1–3-pinnately lobed or divided, sometimes essentially compound, spineless or with slender to very stout marginal spines, cauline progressively smaller and less divided distally, distalmost bractlike, abaxial faces pilose to densely gray-tomentose, adaxial glabrous or thinly tomentose, sometimes glandular. Heads discoid, borne singly or in few-headed, terminal, cymiform arrays. Involucres hemispheric or ovoid, sometimes constricted distally, 5–15 cm diam. Phyllaries many in 5–8+ series, unequal; outer lanceolate to broadly ovate, leathery, margins entire, with appressed bases and spreading apical appendages, acute to broadly obtuse or truncate, spine-tipped or spineless; inner scarious. Receptacles concave to flat or convex, epaleate, densely long-bristly. Florets many; corollas white, blue, or purple, tubes very slender, throats abruptly expanded, cylindric, lobes linear; anther bases long-sagittate, fringed, apical appendages oblong; style branches: fused portions long, cylindric, minutely papillate, distinct portions minute. Cypselae ± cylindric to obpyramidal, ± 4-angled, finely ribbed, sometimes ± flattened, glabrous, apices truncate, smooth, attachment scars basal; pappi falling in rings of many (white or brownish), stiff bristles in 3–7 series, connate at bases, plumose proximally, often merely barbed distally. x = 34.</description>
-  <number_of_infrataxa>Species 8 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Mediterranean region</global_distribution>
-  <global_distribution>Macaronesia</global_distribution>
-  <global_distribution>w Asia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CYNARA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek kynara , artichoke]</other_info_on_name>
+  </taxon_identification>
+  <number>11.</number>
+  <discussion>Species 8 (1 in the flora):</discussion>
   <references>
     <reference>Wiklund, A. 1992. The genus Cynara L. (Asteraceae–Cardueae). Bot. J. Linn. Soc. 109: 75–123.</reference>
   </references>
-</treatment>
-
+</bio:treatment>

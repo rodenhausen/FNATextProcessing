@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pluchea</genus_name>
-    <species_name>carolinensis</species_name>
-    <species_authority>(Jacquin) G. Don</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="(Cassini ex Dumortier) Anderberg" date="unknown">Plucheeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pluchea</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) G. Don" date="unknown">carolinensis</taxon_name>
     <place_of_publication>
       <publication_title>in R. Sweet, Hort Brit. ed.</publication_title>
       <place_in_publication>3, 350. 1839</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species carolinensis;</taxon_hierarchy>
-  <common_name>Cure-for-all</common_name>
-  <common_name>cough bush</common_name>
-  <common_name>wild tobacco</common_name>
-  <common_name>sourbush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Conyza</genus_name>
-    <species_name>carolinensis</species_name>
-    <species_authority>Jacquin</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species carolinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conyza</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">carolinensis</taxon_name>
     <place_of_publication>
       <publication_title>Collectanea</publication_title>
       <place_in_publication>2: 271. 1789</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Subshrubs, 100–400 cm; tap-rooted. Stems matted-villous with viscid, vitreous
-        hairs, proximally glabrescent, not evidently glandu-lar. Leaves petiolate (petioles 10–40
-        mm); blades (thickish, strongly bicolor) elliptic to oblong-obovate or ovate, 5–16(–20) ×
-        2–6(–8) cm, margins entire or denticulate (teeth callous-tipped), abaxial faces moderately
-        or sparsely matted-villous to crinkly-puberulent, adaxial (green) glabrate. Heads in dense,
-        corymbiform arrays (held beyond the leaves, axes minutely bracteate, bracts abruptly
-        differentiated from cauline leaves). Involucres broadly campanulate to cupulate, 4.5–6 ×
-        5–10 mm. Phyllaries greenish to creamy or tan, sometimes slightly purple,
-        glandular-tomentose. Corollas whitish to pink-lavender. Pappi tardily falling, bristles
-        distinct. 2n = 20.</description>
-  <phenology>late feb–jun.</phenology>
-  <phenology>feb</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <habitat_info>
-    <text>late feb jun. roadsides , borders of hammocks ;</text>
-    <habitat>late feb jun. roadsides borders of hammocks</habitat>
-  </habitat_info>
-  <elevation>0 m;</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Bermuda</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>introduced in Pacific Islands.</global_distribution>
+    <taxon_hierarchy>genus Conyza;species carolinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Cure-for-all</other_name>
+  <other_name type="common_name">cough bush</other_name>
+  <other_name type="common_name">wild tobacco</other_name>
+  <other_name type="common_name">sourbush</other_name>
   <discussion>Pluchea carolinensis is naturalized in the Hawaiian Islands and other Pacific
         Islands.</discussion>
   <discussion>The names Pluchea odorata of authors, not (Linnaeus) Cassini, and P. symphytifolia
@@ -61,5 +39,4 @@
         odorata (R. K. Godfrey 1952) and was known as P. [Conyza] symphytifolia (Miller) Gillis for
         a while. Conyza symphytifolia Miller is a synonym of Neurolaena lobata (Linnaeus) Cassini
         (R. Khan and C. E. Jarvis 1989).</discussion>
-</treatment>
-
+</bio:treatment>

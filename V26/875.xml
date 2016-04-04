@@ -1,69 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Yucca</genus_name>
-        <species_name>baccata</species_name>
-        <species_authority>Torrey</species_authority>
-        <variety_name>brevifolia</variety_name>
-        <variety_authority>L. D. Benson &amp; R. A. Darrow</variety_authority>
-        <place_of_publication>
-            <publication_title>Amer. J. Bot.</publication_title>
-            <place_in_publication>30: 234. 1943</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Thornber yucca</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Yucca</genus_name>
-        <species_name>brevifolia</species_name>
-        <species_authority>Schott ex Trelease</species_authority>
-        <place_of_publication>
-            <publication_title>Rep. (Annual) Missouri Bot. Gard. </publication_title>
-            <place_in_publication>13: 100, plates 57–59. 1902,</place_in_publication>
-            <other_info>not Engelmann 1871</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Yucca</genus_name>
-        <species_name>arizonica</species_name>
-        <species_authority>McKelvey</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Yucca</genus_name>
-        <species_name>confinis</species_name>
-        <species_authority>McKelvey</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Yucca</genus_name>
-        <species_name>thornberi</species_name>
-        <species_authority>McKelvey</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Yucca</genus_name>
-        <species_name>treleasei</species_name>
-        <species_authority>J. F. Macbride</species_authority>
-        <place_of_publication>
-            <place_in_publication>1918</place_in_publication>
-            <other_info>not Sprenger 1906</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants caulescent. Stems 1–24, aerial, often branched, some reaching 2 m. Leaf
-        margins filiferous. Inflorescences arising almost completely within to mostly extending
-        beyond rosettes; peduncle to 0.3 m.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>hills</habitat>
-    <habitat>mesas</habitat>
-    <habitat>flats in sonoran desert, desert grasslands</habitat>
-    <habitat>oak woodlands</habitat>
-    <elevation>500–2000 m</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">baccata</taxon_name>
+    <taxon_name rank="variety" authority="L. D. Benson &amp; R. A. Darrow" date="unknown">brevifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. J. Bot.</publication_title>
+      <place_in_publication>30: 234. 1943</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Yucca;species baccata;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Schott ex Trelease" date="unknown">brevifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Rep. (Annual) Missouri Bot. Gard.</publication_title>
+      <place_in_publication>13: 100, plates 57–59. 1902,</place_in_publication>
+      <other_info_on_pub>not Engelmann 1871</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="McKelvey" date="unknown">arizonica</taxon_name>
+    <taxon_hierarchy>genus Yucca;species arizonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="McKelvey" date="unknown">confinis</taxon_name>
+    <taxon_hierarchy>genus Yucca;species confinis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="McKelvey" date="unknown">thornberi</taxon_name>
+    <taxon_hierarchy>genus Yucca;species thornberi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="J. F. Macbride" date="unknown">treleasei</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1918</place_in_publication>
+      <other_info_on_pub>not Sprenger 1906</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species treleasei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
+  <other_name type="common_name">Thornber yucca</other_name>
+</bio:treatment>

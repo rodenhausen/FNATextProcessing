@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>42b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Delphinium</genus_name><species_name>hansenii</species_name><species_authority>(Greene) Greene</species_authority><subspecies_name>kernense</subspecies_name><subspecies_authority>(Davidson) Ewan</subspecies_authority><place_of_publication><publication_title> Univ. Colorado Stud., Ser. D, Phys. Sci. </publication_title><place_in_publication>2: 193. 1945</place_in_publication></place_of_publication></TaxonIdentification><common_name>Kern County larkspur</common_name><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Delphinium</genus_name><species_name>hansenii</species_name><variety_name>kernense</variety_name><variety_authority>Davidson</variety_authority><place_of_publication><publication_title>Muhlenbergia </publication_title><place_in_publication>4: 37. 1908</place_in_publication></place_of_publication></TaxonIdentification><description>Stems (34-)50-80(-120) cm, base simple-puberulent. Leaves nearly all basal, often present but dried at anthesis, rarely on herbarium specimens; cauline leaves usually fewer than 3, abruptly smaller than basal leaves. Inflorescences 1-8 flowers per 5 cm, open. Flowers: sepals bright blue to white, lateral sepals 7-13 mm, spurs 8-16 mm. 2n = 16.</description><phenology>Flowering spring</phenology><habitat> Open oak woods, s Sierra chaparral</habitat><elevation> 800-1900 m</elevation><us_distribution> Calif.</us_distribution><discussion>Delphinium hansenii subsp. kernense hybridizes with D. gypsophilum, D. parishii, and D. purpusii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">hansenii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Davidson) Ewan" date="unknown">kernense</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Colorado Stud., Ser. D, Phys. Sci.</publication_title>
+      <place_in_publication>2: 193. 1945</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species hansenii;subspecies kernense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hansenii</taxon_name>
+    <taxon_name rank="variety" authority="Davidson" date="unknown">kernense</taxon_name>
+    <place_of_publication>
+      <publication_title>Muhlenbergia</publication_title>
+      <place_in_publication>4: 37. 1908</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species hansenii;variety kernense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>42b.</number>
+  <other_name type="common_name">Kern County larkspur</other_name>
+  <discussion>endemic</discussion>
+  <discussion>Delphinium hansenii subsp. kernense hybridizes with D. gypsophilum, D. parishii, and D. purpusii.</discussion>
+</bio:treatment>

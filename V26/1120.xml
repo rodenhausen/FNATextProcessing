@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pseudorchis</genus_name><species_name>albida</species_name><species_authority>(Linnaeus) Á. Löve &amp; D. Löve</species_authority><place_of_publication>
-    <publication_title>Taxon</publication_title>
-    <place_in_publication>18: 312. 1969</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Satyrium</genus_name><species_name>albidum</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>2: 944. 1753</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Subspecies 2 (1 in the flora):</number_of_infrataxa><global_distribution>North America</global_distribution><global_distribution>Iceland</global_distribution><global_distribution>Europe.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudorchis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Á. Löve &amp; D. Löve" date="unknown">albida</taxon_name>
+    <place_of_publication>
+      <publication_title>Taxon</publication_title>
+      <place_in_publication>18: 312. 1969</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Pseudorchis;species albida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Satyrium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">albidum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 944. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Satyrium;species albidum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Subspecies 2 (1 in the flora):</discussion>
+</bio:treatment>

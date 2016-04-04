@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>CYPHOMERIS</genus_name><genus_authority>Standley</genus_authority><place_of_publication>
-    <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-    <place_in_publication>13: 428. 1911</place_in_publication>
-  </place_of_publication></TaxonIdentification><etymology>[Greek, kyphos , bent, humped, and meris , part, in reference to the gibbous fruit]</etymology><author>Matthew Mahrt</author><author>Richard W. Spellenberg</author><TaxonIdentification Status="BASIONYM"><genus_name>Lindenia</genus_name><genus_authority>M. Martens &amp; Galeotti</genus_authority><place_of_publication><publication_title>Bull. Acad. Roy. Sci. Bruxelles </publication_title><place_in_publication>10: 357. 1843,</place_in_publication><other_info>not Bentham 1841</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Senkenbergia</genus_name><genus_authority>S. Schauer 1847</genus_authority><place_of_publication><other_info>not Senckenbergia P. Gaertner, B. Meyer &amp; Scherbius 1800</other_info></place_of_publication></TaxonIdentification><description>Herbs, perennial, glabrous or pubescent, from stout, ± woody taproots. Stems erect to reclining, often clambering through other vegetation, unarmed, with glutinous bands on internodes. Leaves subsessile to long petiolate, unequal in size in each pair; blade thin or thick and slightly fleshy, base ± asymmetric. Inflorescences terminal and axillary, pedunculate, racemose; bracts deciduous, 1 at base of each pedicel, distinct, lanceolate, thin, translucent. Flowers bisexual, chasmogamous and/or cleistogamous; perianth of cleistogamous flowers forming low dome atop basal portion; perianth of chasmogamous flowers slightly bilaterally symmetric, funnelform, strongly oblique, constricted beyond ovary, tube flared, limbs 5-lobed; stamens 5 (fewer in cleistogamous flowers), exserted; styles exserted beyond anthers; stigmas capitate. Fruits clavate, ± gibbous abaxially, often gently incurved adaxially, stiffly coriaceous; ribs 10, not well defined, with or without interrupted ridges or tubercules, glabrous.</description><number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa><global_distribution>sw United States</global_distribution><global_distribution>Mexico.</global_distribution><discussion>In its racemose inflorescence and clavate fruits, Cyphomeris resembles some species of Boerhavia Linnaeus, where its retention has been suggested by F. R. Fosberg (1978).</discussion><references>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Matthew Mahrt,Richard W. Spellenberg</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Standley" date="unknown">CYPHOMERIS</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>13: 428. 1911</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus CYPHOMERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek, kyphos , bent, humped, and meris , part, in reference to the gibbous fruit]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="M. Martens &amp; Galeotti" date="unknown">Lindenia</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Acad. Roy. Sci. Bruxelles</publication_title>
+      <place_in_publication>10: 357. 1843,</place_in_publication>
+      <other_info_on_pub>not Bentham 1841</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lindenia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="S. Schauer 1847" date="unknown">Senkenbergia</taxon_name>
+    <place_of_publication>
+      <other_info_on_pub>not Senckenbergia P. Gaertner, B. Meyer &amp; Scherbius 1800</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Senkenbergia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
+  <discussion>In its racemose inflorescence and clavate fruits, Cyphomeris resembles some species of Boerhavia Linnaeus, where its retention has been suggested by F. R. Fosberg (1978).</discussion>
+  <references>
     <reference>Mahrt, M. and R. Spellenberg. 1995. Taxonomy of Cyphomeris (Nyctaginaceae) based on multivariate analyses of geographic variation. Sida 16: 679–697.</reference>
-  </references><key><key_statement>
+  </references>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades glabrous or glabrate, lanceolate to linear, margins entire; fruits 8–11(–14) mm, striate, sometimes weakly warty</statement>
+      <description type="morphology">Leaf blades glabrous or glabrate, lanceolate to linear, margins entire; fruits 8–11(–14) mm, striate, sometimes weakly warty</description>
       <determination>1. Cyphomeris gypsophiloides</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1. ###</statement_id>
-      <statement>Leaf blades pubescent, ovate, broadly oblong, or rhombic, margins usually sinuate; fruits 6–8 mm, usually prominently warty on gibbous side</statement>
+      <description type="morphology">Leaf blades pubescent, ovate, broadly oblong, or rhombic, margins usually sinuate; fruits 6–8 mm, usually prominently warty on gibbous side</description>
       <determination>2. Cyphomeris crassifolia</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

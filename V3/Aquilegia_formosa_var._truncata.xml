@@ -1,47 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>16b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Aquilegia</genus_name>
-        <species_name>formosa</species_name>
-        <species_authority>Fischer ex de Candolle</species_authority>
-        <variety_name>truncata</variety_name>
-        <variety_authority>(Fischer &amp; Meyer) Baker</variety_authority>
-        <place_of_publication>
-            <publication_title> Gard. Chron., ser. </publication_title>
-            <place_in_publication>2, 10: 111. 1878</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <endemic>endemic</endemic>
-    <illustrated>illustrated</illustrated>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Aquilegia</genus_name>
-        <species_name>truncata</species_name>
-        <species_authority>Fischer &amp; Meyer</species_authority>
-        <place_of_publication>
-            <publication_title>in F. E. L. von Fischer et al., Index Sem. Hort. Petrop. </publication_title>
-            <place_in_publication>9, suppl.: 8. 1844</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Aquilegia</genus_name>
-        <species_name>formosa</species_name>
-        <variety_name>pauciflora</variety_name>
-        <variety_authority>(Greene) Munz</variety_authority>
-    </TaxonIdentification>
-    <description>Stems and petioles glabrous or sparsely pilose, not viscid. Flowers: sepals 10-20
-        mm, 0.7-1.1 times as long as spurs; petal blades 0-3 mm. 2n = 14.</description>
-    <phenology>Flowering spring-summer (Apr-Aug)</phenology>
-    <habitat> Mesic woods or shrublands</habitat>
-    <elevation> 0-3500 m</elevation>
-    <us_distribution> Calif.</us_distribution>
-    <us_distribution> Nev.</us_distribution>
-    <us_distribution> Oreg.</us_distribution>
-    <discussion>Aquilegia formosa var. truncata replaces A. formosa var. formosa from the Sierra
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Fischer ex de Candolle" date="unknown">formosa</taxon_name>
+    <taxon_name rank="variety" authority="(Fischer &amp; Meyer) Baker" date="unknown">truncata</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Chron., ser.</publication_title>
+      <place_in_publication>2, 10: 111. 1878</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aquilegia;species formosa;variety truncata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Fischer &amp; Meyer" date="unknown">truncata</taxon_name>
+    <place_of_publication>
+      <publication_title>in F. E. L. von Fischer et al., Index Sem. Hort. Petrop.</publication_title>
+      <place_in_publication>9, suppl.: 8. 1844</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aquilegia;species truncata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">formosa</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Munz" date="unknown">pauciflora</taxon_name>
+    <taxon_hierarchy>genus Aquilegia;species formosa;variety pauciflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16b.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>Aquilegia formosa var. truncata replaces A. formosa var. formosa from the Sierra
         Nevada westward. The two varieties intergrade where they come together.</discussion>
-    <discussion>The common form of Aquilegia formosa var. truncata is 50-100 cm, with well-developed
+  <discussion>The common form of Aquilegia formosa var. truncata is 50-100 cm, with well-developed
         stem leaves. Montane forms with short stems and very small stem leaves are often separated
         as A. formosa var. pauciflora. Similar dwarf montane races with the floral characters of A.
         formosa var. formosa occur in the Pacific Northwest; these have never been separated
         taxonomically.</discussion>
-</treatment>
+</bio:treatment>

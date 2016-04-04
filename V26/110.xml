@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Trillium</genus_name><species_name>pusillum</species_name><species_authority>Michaux</species_authority><variety_name>pusillum</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Trillium</genus_name><species_name>ozarkanum</species_name><species_authority>E. J. Palmer &amp; Steyermark</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Trillium</genus_name><species_name>pusillum</species_name><variety_name>monticulum</variety_name><variety_authority>Bodkin &amp; Reveal</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Trillium</genus_name><species_name>pusillum</species_name><variety_name>ozarkanum</variety_name><variety_authority>(E. J. Palmer &amp; Steyermark) Steyermark</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Trillium</genus_name><species_name>pusillum</species_name><variety_name>texanum</variety_name><variety_authority>(Buckley) Reveal &amp; C. R. Broome</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Trillium</genus_name><species_name>texanum</species_name><species_authority>Buckley</species_authority></TaxonIdentification><description>Flower pedicellate; pedicel usually 0.5–2 cm.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>low, swampy woodlands</habitat><habitat>sometimes sphagnous, mixed deciduous forests</habitat><habitat>often associated with cherty rock or decomposing shale in beech and oak forests</habitat><elevation>0–600 m;</elevation><us_distribution>Ala.</us_distribution><us_distribution>Ark.</us_distribution><us_distribution>Ky.</us_distribution><us_distribution>La.</us_distribution><us_distribution>Miss.</us_distribution><us_distribution>Mo.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>Okla.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Tenn.</us_distribution><us_distribution>Tex.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">pusillum</taxon_name>
+    <taxon_name rank="variety" authority="Bodkin &amp; Reveal" date="unknown">pusillum</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Trillium;species pusillum;variety pusillum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="E. J. Palmer &amp; Steyermark" date="unknown">ozarkanum</taxon_name>
+    <taxon_hierarchy>genus Trillium;species ozarkanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">pusillum</taxon_name>
+    <taxon_name rank="variety" authority="(E. J. Palmer &amp; Steyermark) Steyermark" date="unknown">monticulum</taxon_name>
+    <taxon_hierarchy>genus Trillium;species pusillum;variety monticulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pusillum</taxon_name>
+    <taxon_name rank="variety" authority="(Buckley) Reveal &amp; C. R. Broome" date="unknown">ozarkanum</taxon_name>
+    <taxon_hierarchy>genus Trillium;species pusillum;variety ozarkanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pusillum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">texanum</taxon_name>
+    <taxon_hierarchy>genus Trillium;species pusillum;variety texanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trillium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">texanum</taxon_name>
+    <taxon_hierarchy>genus Trillium;species texanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9a.</number>
+</bio:treatment>

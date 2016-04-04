@@ -1,61 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>22c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Anemone</genus_name>
-        <species_name>virginiana</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>alba</variety_name>
-        <variety_authority>(Oakes) A.W. Wood</variety_authority>
-        <place_of_publication>
-            <publication_title> Class-book Bot. ed. </publication_title>
-            <place_in_publication>2(a), 140. 1847</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <endemic>endemic</endemic>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Anemone</genus_name>
-        <species_name>cylindrica</species_name>
-        <species_authority>A. Gray</species_authority>
-        <variety_name>alba</variety_name>
-        <variety_authority>Oakes</variety_authority>
-        <place_of_publication>
-            <publication_title>Mag. Hort. Bot. </publication_title>
-            <place_in_publication>7: 182. 1841</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Anemone</genus_name>
-        <species_name>riparia</species_name>
-        <species_authority>Fernald</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Anemone</genus_name>
-        <species_name>virginiana</species_name>
-        <variety_name>riparia</variety_name>
-        <variety_authority>(Fernald) B.Boivin</variety_authority>
-    </TaxonIdentification>
-    <description>Inflorescences: involucral bracts with base often truncate to subtruncate,
-        sometimes reniform or cordate; terminal leaflets dark green, margins proximally concave to
-        straight-sided, distally incised, abaxially thinly pubescent. Flowers: sepals (9-)10-21 mm,
-        abaxially thinly pubescent; anthers 0.8-1.2(-1.7) mm. Heads of achenes ±ovoid-cylindric,
-        8-10(-11) mm diam. 2n=16.</description>
-    <phenology>Flowering spring-summer (May-Jul)</phenology>
-    <habitat> Riparian areas, moist cliffs and ledges</habitat>
-    <elevation> 10-1000 m</elevation>
-    <ca_distribution> N.B.</ca_distribution>
-    <ca_distribution> Nfld.</ca_distribution>
-    <ca_distribution> N.S.</ca_distribution>
-    <ca_distribution> Ont.</ca_distribution>
-    <ca_distribution> Que.</ca_distribution>
-    <us_distribution> Conn.</us_distribution>
-    <us_distribution> Maine</us_distribution>
-    <us_distribution> Mass.</us_distribution>
-    <us_distribution> Mich.</us_distribution>
-    <us_distribution> Minn.</us_distribution>
-    <us_distribution> N.H.</us_distribution>
-    <us_distribution> N.J.</us_distribution>
-    <us_distribution> N.Y.</us_distribution>
-    <us_distribution> Vt.</us_distribution>
-    <us_distribution> Wis.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="(Oakes) A.W. Wood" date="unknown">alba</taxon_name>
+    <place_of_publication>
+      <publication_title>Class-book Bot. ed.</publication_title>
+      <place_in_publication>2(a), 140. 1847</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Anemone;species virginiana;variety alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">cylindrica</taxon_name>
+    <taxon_name rank="variety" authority="Oakes" date="unknown">alba</taxon_name>
+    <place_of_publication>
+      <publication_title>Mag. Hort. Bot.</publication_title>
+      <place_in_publication>7: 182. 1841</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Anemone;species cylindrica;variety alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="Fernald" date="unknown">riparia</taxon_name>
+    <taxon_hierarchy>genus Anemone;species riparia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald) B.Boivin" date="unknown">riparia</taxon_name>
+    <taxon_hierarchy>genus Anemone;species virginiana;variety riparia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22c.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

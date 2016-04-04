@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Guilleminea</genus_name><species_name>densa</species_name><species_authority>(Humboldt &amp; Bonpland ex Schultes) Moquin-Tandon</species_authority><place_of_publication>
-    <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
-    <place_in_publication>13(2): 338. 1849</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Illecebrum</genus_name><species_name>densum</species_name><species_authority>Humboldt &amp; Bonp land ex Schultes</species_authority><place_of_publication><publication_title>in J. J. Roemer et al., Syst. Veg. </publication_title><place_in_publication>5: 517. 1819</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brayulinea</genus_name><species_name>densa</species_name><species_authority>(Willdenow ex Roemer &amp; Schultes) Small</species_authority></TaxonIdentification><number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa><global_distribution>North America</global_distribution><global_distribution>South America</global_distribution><global_distribution>naturalized in s Africa and e Australia.</global_distribution><discussion>Guilleminea densa var. densa has been reported from several U. S. states (e.g., J. T. Kartesz and C. A. Meacham 1999). J. Henrickson (1987) implicitly rejected those records, stating that the variety “as considered here is widespread in South America, naturalized in southern Africa, and Queensland, Australia, but does not occur in North America.”</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Guilleminea</taxon_name>
+    <taxon_name rank="species" authority="(Humboldt &amp; Bonpland ex Schultes) Moquin-Tandon" date="unknown">densa</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
+      <place_in_publication>13(2): 338. 1849</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Guilleminea;species densa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Illecebrum</taxon_name>
+    <taxon_name rank="species" authority="Humboldt &amp; Bonp land ex Schultes" date="unknown">densum</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. J. Roemer et al., Syst. Veg.</publication_title>
+      <place_in_publication>5: 517. 1819</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Illecebrum;species densum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brayulinea</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow ex Roemer &amp; Schultes) Small" date="unknown">densa</taxon_name>
+    <taxon_hierarchy>genus Brayulinea;species densa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+  <discussion>Guilleminea densa var. densa has been reported from several U. S. states (e.g., J. T. Kartesz and C. A. Meacham 1999). J. Henrickson (1987) implicitly rejected those records, stating that the variety “as considered here is widespread in South America, naturalized in southern Africa, and Queensland, Australia, but does not occur in North America.”</discussion>
+</bio:treatment>

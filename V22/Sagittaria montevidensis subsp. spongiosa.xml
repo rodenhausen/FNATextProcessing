@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Sagittaria</genus_name><species_name>montevidensis</species_name><subspecies_name>spongiosa</subspecies_name><subspecies_authority>(Engelmann) Bogin</subspecies_authority><place_of_publication><publication_title>Memoirs of the New York Botanical Garden</publication_title><place_in_publication>9: 198. 1955</place_in_publication></place_of_publication></TaxonIdentification><common_name>Tidal arrowhead</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Sagittaria</genus_name><species_name>calycina</species_name><species_authority>Engelmann</species_authority><variety_name>spongiosa</variety_name><variety_authority>Engelmann</variety_authority><place_of_publication><publication_title>in A. Gray, Manual ed. </publication_title><place_in_publication>5, 493. 1867</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lophotocarpus</genus_name><species_name>spongiosus</species_name><species_authority>(Engelmann) J. G. Smith</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Sagittaria</genus_name><species_name>spatulata</species_name><species_authority>(J. G. Smith) Buchenau</species_authority></TaxonIdentification><description>Herbs, annual, often stranded by low tide. Leaves emersed, sessile, phyllodial, lanceolate, or petiolate with blade spatulate, rarely sagittate. Inflorescences of 1--4 whorls, emersed; bracts connate. Flowers: pistillate with ring of sterile stamens; petals without purple spot at base. 2n = 22.</description><phenology>Flowering summer--fall (Jul--Oct)</phenology><habitat> Brackish to freshwater tidal mud flats and salt marshes</habitat><elevation>0--5 m</elevation><ca_distribution>N.B.</ca_distribution><us_distribution>Conn.</us_distribution><us_distribution> Del.</us_distribution><us_distribution> Maine</us_distribution><us_distribution> Md.</us_distribution><us_distribution> Mass.</us_distribution><us_distribution> N.H.</us_distribution><us_distribution> N.J.</us_distribution><us_distribution> N.Y.</us_distribution><us_distribution> Pa.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">montevidensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Engelmann) Bogin" date="unknown">spongiosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Memoirs of the New York Botanical Garden</publication_title>
+      <place_in_publication>9: 198. 1955</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species montevidensis;subspecies spongiosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) J. G. Smith" date="unknown">calycina</taxon_name>
+    <taxon_name rank="variety" authority="Engelmann" date="unknown">spongiosa</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray, Manual ed.</publication_title>
+      <place_in_publication>5, 493. 1867</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species calycina;variety spongiosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lophotocarpus</taxon_name>
+    <taxon_name rank="species" authority="(J. G. Smith) Buchenau" date="unknown">spongiosus</taxon_name>
+    <taxon_hierarchy>genus Lophotocarpus;species spongiosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spatulata</taxon_name>
+    <taxon_hierarchy>genus Sagittaria;species spatulata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b</number>
+  <other_name type="common_name">Tidal arrowhead</other_name>
+</bio:treatment>

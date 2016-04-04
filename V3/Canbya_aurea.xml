@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Canbya</genus_name><species_name>aurea</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title> Proc. Amer. Acad. Arts </publication_title><place_in_publication>21: 445. 1886</place_in_publication></place_of_publication></TaxonIdentification><common_name>Yellow pygmy-poppy</common_name><endemic>endemic</endemic><description>Plants 1-2 cm. Leaves 3-10 mm. Inflorescences: peduncle 1-6 cm. Flowers: sepals 2 mm; petals deciduous, 6, bright yellow, broadly ovate, 3-4 mm; stamens 6-15; filaments longer than anthers. Capsules 2-4 mm. 2n = 16.</description><phenology>Flowering Apr-Jul</phenology><habitat> Dry, sandy ground, usually with sagebrush</habitat><elevation> 900-1700 m</elevation><us_distribution> Oreg.</us_distribution><us_distribution> Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Canbya</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">aurea</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>21: 445. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Canbya;species aurea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Yellow pygmy-poppy</other_name>
+  <discussion>endemic</discussion>
+</bio:treatment>

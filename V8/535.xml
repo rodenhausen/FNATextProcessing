@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Androsace</genus_name>
-    <species_name>filiformis</species_name>
-    <species_authority>Retzius</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Androsace</taxon_name>
+    <taxon_name rank="species" authority="Retzius" date="unknown">filiformis</taxon_name>
     <place_of_publication>
       <publication_title>Observ. Bot.</publication_title>
       <place_in_publication>2: 10.  1781  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Filiform rock jasmine</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Androsace</genus_name>
-    <species_name>capillaris</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Plants annual, slender, not mat-forming.  Leaves in single rosette; petiole present; blade ovate to deltate, 5–25 × 2–6 mm, base abruptly narrowing to winged petiole, margins without hairs, surfaces glabrous or slightly glandular, glands not stipitate.  Scapes (often multiple), 5–25, 3–12 cm, glabrescent.  Inflorescences 5–20-flowered; involucral bracts lanceolate, relatively narrow.  Pedicels erect to arcuate, filiform, unequal, 1–6 cm.  Flowers: calyx campanulate to hemispheric, without prominent ridges, ca. 2 mm, lobes erect, triangular, apex acute; corolla tube shorter than calyx, limb ca. 2 mm diam.  Capsules slightly shorter than calyx, 2–4 mm.  2n = 20 (Asia).</description>
-  <phenology>Flowering early–mid summer</phenology>
-  <habitat>Wet meadows</habitat>
-  <elevation>100–3000 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Androsace;species filiformis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Androsace</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">capillaris</taxon_name>
+    <taxon_hierarchy>genus Androsace;species capillaris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Filiform rock jasmine</other_name>
   <discussion>Androsace filiformis grows in wetlands and is easily identified by the tiny flowers and delicate, filiform inflorescence that give the plants a graceful appearance.  No other North American Androsace occurs in wetlands.  Androsace filiformis occurs widely across Europe and Asia (including the Russian Far East) and in the western continental United States, with a notable gap in Alaska and Canada.</discussion>
-</treatment>
+</bio:treatment>

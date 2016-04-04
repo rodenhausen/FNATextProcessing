@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eschscholzia</genus_name><species_name>lemmonii</species_name><species_authority>Greene</species_authority><subspecies_name>kernensis</subspecies_name><subspecies_authority>(Munz) C. Clark</subspecies_authority><place_of_publication><publication_title> Madroño </publication_title><place_in_publication>33: 225. 1986</place_in_publication></place_of_publication></TaxonIdentification><conservation>of conservation concern</conservation><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Eschscholzia</genus_name><species_name>caespitosa</species_name><species_authority>Bentham</species_authority><subspecies_name>kernensis</subspecies_name><subspecies_authority>Munz</subspecies_authority><place_of_publication><publication_title>Aliso </publication_title><place_in_publication>4: 90. 1958</place_in_publication></place_of_publication></TaxonIdentification><description>Plants erect. Inflorescences: buds generally erect. Flowers: calyx glabrous; petals 20-40 mm. Seeds spheric to ellipsoid.</description><phenology>Flowering spring (Mar-May)</phenology><habitat> Open grasslands</habitat><conservation> of conservation concern</conservation><elevation> 500-800 m</elevation><us_distribution> Calif.</us_distribution><discussion>This subspecies grows in the southwestern Tehachapi Mountains and in the northern part of the western Transverse Ranges.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">lemmonii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Munz) C. Clark" date="unknown">kernensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>33: 225. 1986</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eschscholzia;species lemmonii;subspecies kernensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">caespitosa</taxon_name>
+    <taxon_name rank="subspecies" authority="Munz" date="unknown">kernensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Aliso</publication_title>
+      <place_in_publication>4: 90. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eschscholzia;species caespitosa;subspecies kernensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>This subspecies grows in the southwestern Tehachapi Mountains and in the northern part of the western Transverse Ranges.</discussion>
+</bio:treatment>

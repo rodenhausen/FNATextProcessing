@@ -1,83 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Listera</genus_name>
-        <species_name>australis</species_name>
-        <species_authority>Lindley</species_authority>
-        <place_of_publication>
-            <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
-            <place_in_publication>456. 1840</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Southern twayblade</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Bifolium</genus_name>
-        <species_name>australe</species_name>
-        <species_authority>(Lindley) Nieuwland</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Diphryllum</genus_name>
-        <species_name>australe</species_name>
-        <species_authority>Kuntze</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Neottia</genus_name>
-        <species_name>australis</species_name>
-        <species_authority>(Lindley) Szlachetko</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Ophrys</genus_name>
-        <species_name>australis</species_name>
-        <species_authority>(Lindley) House</species_authority>
-    </TaxonIdentification>
-    <description>Plants 8–29 cm. Stems purplish green, succulent, glabrous. Leaves: blade dark
-        green, ovate, ovate-oblong, or elliptic, 1.3–4 × 0.5–2.1 cm, base often subcordate, apex
-        obtuse to apiculate. Inflorescences 5–25-flowered, lax, 45–110 mm; floral bracts
-        suborbiculate-ovate, 2 × 1 mm, apex obtuse; peduncle and rachis slightly
-        glandular-puberulent; bracts, pedicel, and ovary glabrous. Flowers reddish purple; pedicel
-        filiform, 4–6 mm; dorsal sepal ovate-elliptic, concave, 1.5 × 1 mm, apex obtuse; lateral
-        sepals ovate, falcate, 1.5 × 1 mm, apex obtuse; petals recurved, oblong, 1.5 × 0.5 mm, apex
-        obtuse; lip linear, 6–12 × 1.5–2 mm, base extended into 2 rounded, linear lobes, projecting
-        distally, partially surrounding column, distal half split into 2 linear-lanceolate lobes
-        with minute tooth in sinus; column 0.5–1 × 0.5–1 mm. Capsules horizontal, ovoid, 8 × 5 mm,
-        with relatively few large seeds.</description>
-    <phenology>jan</phenology>
-    <phenology>winter</phenology>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <habitat>rich humus of low moist woods</habitat>
-    <habitat>marshes</habitat>
-    <habitat>sphagnum bogs</habitat>
-    <habitat>usually in association with rhizomes of cinnamon fern (osmunda cinnamomea).and royal
-        fern (o. regalis)</habitat>
-    <elevation>0–1000 m;</elevation>
-    <ca_distribution>N.B.</ca_distribution>
-    <ca_distribution>N.S.</ca_distribution>
-    <ca_distribution>Ont.</ca_distribution>
-    <ca_distribution>Que.</ca_distribution>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Vt.</us_distribution>
-    <discussion>Perianth parts of Listera australis persist as capsules mature. This is such a small
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Listera</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">australis</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
+      <place_in_publication>456. 1840</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Listera;species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bifolium</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Nieuwland" date="unknown">australe</taxon_name>
+    <taxon_hierarchy>genus Bifolium;species australe;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diphryllum</taxon_name>
+    <taxon_name rank="species" authority="Kuntze" date="unknown">australe</taxon_name>
+    <taxon_hierarchy>genus Diphryllum;species australe;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Neottia</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Szlachetko" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Neottia;species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ophrys</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) House" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Ophrys;species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Southern twayblade</other_name>
+  <discussion>Perianth parts of Listera australis persist as capsules mature. This is such a small
         orchid that it can easily be overlooked; it may have a wider distribution than recorded
         here.</discussion>
-</treatment>
+</bio:treatment>

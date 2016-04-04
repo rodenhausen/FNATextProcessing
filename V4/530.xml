@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7b.2a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>CHENOPODIUM</subgenus_name>
-        <section_name>CHENOPODIUM</section_name>
-        <subsection_name>POLYSPERMA</subsection_name>
-        <subsection_authority>(Standley) Kowal ex Mosyakin &amp; Clemants</subsection_authority>
-        <place_of_publication>
-            <publication_title>Novon</publication_title>
-            <place_in_publication>6: 400. 1996</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chenopodium</genus_name>
-        <unranked_epithet_name>Polysperma</unranked_epithet_name>
-        <unranked_epithet_authority>Standley</unranked_epithet_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl. </publication_title>
-            <place_in_publication>21: 13. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Leaf blades ovate, thin, margins entire, glabrous. Inflorescences cymes, sometimes
-        spikelike panicles. Seeds margins rounded; seed coat smooth.</description>
-    <number_of_infrataxa>Species 1:</number_of_infrataxa>
-    <introduced>introduced;</introduced>
-    <global_distribution>Europe</global_distribution>
-    <global_distribution>n Asia.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">CHENOPODIUM</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">CHENOPODIUM</taxon_name>
+    <taxon_name rank="subsection" authority="(Standley) Kowal ex Mosyakin &amp; Clemants" date="unknown">POLYSPERMA</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>6: 400. 1996</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;subgenus CHENOPODIUM;section CHENOPODIUM;subsection POLYSPERMA;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Standley">Polysperma</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 13. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;unranked Polysperma;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.2a.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

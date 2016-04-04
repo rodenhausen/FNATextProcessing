@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>37f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>ludoviciana</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>redolens</subspecies_name>
-    <subspecies_authority>(A. Gray) D. D. Keck</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">ludoviciana</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) D. D. Keck" date="unknown">redolens</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
       <place_in_publication>4, 25: 454. 1946</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species ludoviciana;subspecies redolens;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>redolens</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species ludoviciana;subspecies redolens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">redolens</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>21: 393. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>redolens</subspecies_name>
-    <subspecies_authority>(A. Gray) H. M. Hall &amp; Clements</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems 20–80 cm, mostly unbranched, glabrous. Leaves bicolor (white and green); blades lanceolate to ovate, 5–7 × 0.5–1 cm, irregularly pinnatifid; abaxial faces tomentose (abaxial) or glabrate (adaxial). Involucres campanulate, 2–3 × 2–3 mm. Heads in paniculiform or racemiform arrays 10–15 × 2–6 cm. Florets: pistillate ca. 10; bisexual 3–8; corollas 2 mm.</description>
-  <habitat_info>
-    <text>rocky loam soils ;</text>
-    <habitat>rocky loam soils</habitat>
-  </habitat_info>
-  <elevation>100–300 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico.</global_distribution>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+    <taxon_hierarchy>genus Artemisia;species redolens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) H. M. Hall &amp; Clements" date="unknown">redolens</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species vulgaris;subspecies redolens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>37f.</number>
+</bio:treatment>

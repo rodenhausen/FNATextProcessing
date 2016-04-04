@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pluchea</genus_name>
-    <species_name>odorata</species_name>
-    <species_authority>(Linnaeus) Cassini</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="(Cassini ex Dumortier) Anderberg" date="unknown">Plucheeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pluchea</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Cassini" date="unknown">odorata</taxon_name>
     <place_of_publication>
       <publication_title>in F. Cuvier, Dict. Sci. Nat. ed.</publication_title>
       <place_in_publication>2, 42: 3. 1826</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species odorata;</taxon_hierarchy>
-  <common_name>Sweetscent</common_name>
-  <common_name>shrubby camphor-weed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Conyza</genus_name>
-    <species_name>odorata</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species odorata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conyza</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">odorata</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1213. 1759</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals or perennials, 20–200 cm; fibrous-rooted. Stems stipitate- to sessile-glan-dular (commonly with eglandular but viscid hairs as well), not arachnose. Leaves petiolate or sessile; blades (succulent, drying thin) lance-ovate to ovate or ovate-elliptic, mostly 4–15 × 1–7 cm, margins shallowly serrate, faces glabrate to moderately or densely pubescent (hairs crinkly). Heads in corymbiform arrays (flat-topped to rounded, often layered, sometimes incorporating relatively long, leafy, lateral branches, clusters of heads terminal on branches, some lateral branches nearly equaling or surpassing central portions). Involucres cylindro-campanulate, 5–6 × 4–8(–10) mm. Phyllaries usually cream, sometimes purplish, minutely sessile-glandular (outer usually also puberulent), sometimes glabrate. Corollas pink to rosy or purple. Pappi persistent, bristles distinct. 2n = 20.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>w Africa</global_distribution>
-  <global_distribution>Pacific Islands.</global_distribution>
+    <taxon_hierarchy>genus Conyza;species odorata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Sweetscent</other_name>
+  <other_name type="common_name">shrubby camphor-weed</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Involucres 5–6 × 4–6(–7) mm; functionally staminate florets 6–13(–19); plants 20–80(–200) cm</statement>
+      <description type="morphology">Involucres 5–6 × 4–6(–7) mm; functionally staminate florets 6–13(–19); plants 20–80(–200) cm</description>
       <determination>5a. Pluchea odorata var. odorata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Involucres 5–6 × 7–8(–10) mm; functionally staminate florets (14–)21–34; plants 20–60 cm</statement>
+      <description type="morphology">Involucres 5–6 × 7–8(–10) mm; functionally staminate florets (14–)21–34; plants 20–60 cm</description>
       <determination>5b. Pluchea odorata var. succulenta</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

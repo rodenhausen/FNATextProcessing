@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gaylussacia</genus_name>
-    <species_name>orocola</species_name>
-    <species_authority>(Small) Camp</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaylussacia</taxon_name>
+    <taxon_name rank="species" authority="(Small) Camp" date="unknown">orocola</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>62: 132.  1935  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Blue Ridge huckleberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lasiococcus</genus_name>
-    <species_name>orocola</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Gaylussacia;species orocola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lasiococcus</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">orocola</taxon_name>
     <place_of_publication>
       <publication_title>Man. S.E. Fl.,</publication_title>
       <place_in_publication>1009, 1506.  1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 4–10 dm, forming small colonies (by rhizomes); branches ascending; twigs of current season grayish brown, puberulent and sparsely stipitate-glandular, becoming glabrate.  Leaves: petiole 0.5–1.5 mm; blade light green abaxially, dark green adaxially, oblanceolate to obovate, 1.9–2.9 × 0.9–1.2 cm, subcoriaceous, base cuneate, margins entire, (scattered stipitate-glandular-hairy and ciliate, 6–8 cilia per mm), apex subacute, mucronate, surfaces persistently stipitate-glandular-hairy and sessile-glandular (often sparsely stellate-eglandular-hairy abaxially).  Inflorescences erect or arching, 4–8-flowered, bracteate, 2–5 cm, hairy and stipitate-glandular; bracts persistent, leaflike, 2–5 mm, expanding to 5–10 mm, longer than pedicels, densely stipitate-glandular-hairy (hairs 0.3–0.5 mm).  Pedicels 2–3 mm, stipitate-glandular-hairy; bracteoles 1–2, 2–5 mm.  Flowers: sepals 5, 2 mm, densely stipitate-glandular-hairy (hairs 0.3–0.5 mm); petals 5, corolla white, campanulate, 5.5–6.5 mm (averaging 6 mm), lobes triangular, 1–1.5 mm; filaments 0.3–0.5 mm, sparsely hairy; anthers included, 2.5–3.2 mm (averaging 2.8 mm), thecae divergent distally; ovary glandular-hairy (hairs 0.3–0.5 mm).  Drupes juicy, insipid, black, 6–8 mm diam., sparsely glandular-hairy.  Seeds 1.5–1.8 mm.</description>
-  <phenology>Flowering late spring–early summer</phenology>
-  <habitat>Peaty montane seepage bogs</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>500–1800 m</elevation>
-  <us_distribution>N.C.</us_distribution>
+    <taxon_hierarchy>genus Lasiococcus;species orocola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Blue Ridge huckleberry</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Gaylussacia orocola is known from five counties in western North Carolina, where it inhabits montane bogs in the Blue Ridge Mountains with other rare or disjunct taxa, such as Sarracenia jonesii, S. purpurea var. montana, and Myrica gale.</discussion>
-</treatment>
+</bio:treatment>

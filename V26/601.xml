@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Camassia</genus_name><species_name>leichtlinii</species_name><species_authority>(Baker) S. Watson</species_authority><subspecies_name>suksdorfii</subspecies_name><subspecies_authority>(Greenman) Gould</subspecies_authority><place_of_publication>
-    <publication_title>Amer. Midl. Naturalist</publication_title>
-    <place_in_publication>28: 723. 1942</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Camassia</genus_name><species_name>suksdorfii</species_name><species_authority>Greenman</species_authority><place_of_publication><publication_title>Bot. Gaz. </publication_title><place_in_publication>34: 307. 1902</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Quamasia</genus_name><species_name>suksdorfii</species_name><species_authority>(Greenman) Piper</species_authority></TaxonIdentification><description>perianth usually bluish violet to bright blue, occasionally white,.</description><phenology>late spring</phenology><habitat>Wet meadows;</habitat><elevation>600–2400 m</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="(Baker) S. Watson" date="unknown">leichtlinii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greenman) Gould" date="unknown">suksdorfii</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Midl. Naturalist</publication_title>
+      <place_in_publication>28: 723. 1942</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Camassia;species leichtlinii;subspecies suksdorfii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="Greenman" date="unknown">suksdorfii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>34: 307. 1902</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Camassia;species suksdorfii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quamasia</taxon_name>
+    <taxon_name rank="species" authority="(Greenman) Piper" date="unknown">suksdorfii</taxon_name>
+    <taxon_hierarchy>genus Quamasia;species suksdorfii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

@@ -1,54 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>53.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ZEPHYRANTHES</genus_name>
-    <genus_authority>Herbert</genus_authority>
-  <place_of_publication>
-    <publication_title>Appendix,</publication_title>
-    <place_in_publication>36. 1821</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[Greek Zephyros , west wind, and anthos , flower]</etymology>
-  
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Rain-lily</common_name>
-  <common_name>fairy-lily</common_name>
-  <common_name>zephyr-lily</common_name>
-  <author>Raymond O. Flagg</author>
-  <author>Gerald L. Smith</author>
-  <author>Walter S. Flory†</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Atamosco</genus_name>
-    <genus_authority>Adanson</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Raymond O. Flagg,Gerald L. Smith,Walter S. Flory†</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Herbert" date="unknown">ZEPHYRANTHES</taxon_name>
+    <place_of_publication>
+      <publication_title>Appendix,</publication_title>
+      <place_in_publication>36. 1821</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus ZEPHYRANTHES;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek Zephyros , west wind, and anthos , flower]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Adanson" date="unknown">Atamosco</taxon_name>
     <place_of_publication>
       <place_in_publication>1763</place_in_publication>
-      <other_info>name rejected</other_info>
+      <other_info_on_pub>name rejected</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cooperia</genus_name>
-    <genus_authority>Herbert</genus_authority>
-  </TaxonIdentification>
-  <description>Herbs, perennial, scapose, from bulbs. Bulbs black or brown, tunicate, ovoid or
-    globose, sometimes with long neck. Leaves sessile, erect or recumbent, with overlapping
-    sheathing bases; blade linear, rarely exceeding 1 cm wide, smooth. Scape hollow. Inflorescence
-    1-flowered (rarely 2-flowered in Z. drummondii), spathaceous, otherwise ebracteate; spathe
-    proximally tubular. Flowers erect to declinate, actinomorphic; perianth subrotate to funnelform
-    to salverform, connate basally into tube, 2–16 cm; tepals subequal; stamens 6, of 2 different
-    lengths, appearing equal or subequal (anthers in 2 overlapping sets of 3) to unequal (anthers of
-    the sets not overlapping in Z. longifolia); filaments inserted just above perianth tube, erect,
-    diverging except when shorter than tube, long-filiform to short-subulate, those inserted on
-    distal tepals usually 1+ mm longer than those inserted on proximal ones; anthers submedially
-    dorsifixed, usually parallel with floral axis, linear-oblong; ovary inferior; style filiform;
-    stigma capitate or 3-fid with lobes linear; pedicel sometimes absent, hollow. Fruits capsular,
-    thin-walled, 3-locular, subglobose or ± oblate. Seeds numerous, black, flat, D- or wedge-shaped,
-    lustrous. x = 6.</description>
-  <number_of_infrataxa>Species ca. 70 (16 in the flora):</number_of_infrataxa>
-  <global_distribution>se and sc United States</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Atamosco;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Herbert" date="unknown">Cooperia</taxon_name>
+    <taxon_hierarchy>genus Cooperia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>53.</number>
+  <other_name type="common_name">Rain-lily</other_name>
+  <other_name type="common_name">fairy-lily</other_name>
+  <other_name type="common_name">zephyr-lily</other_name>
+  <discussion>Species ca. 70 (16 in the flora):</discussion>
   <discussion>In Zephyranthes, the degree of fusion of the perianth into a tube is reflected in
     flower form, filament length, staminal position, and the opening of the bud. Flowers with
     much-abbreviated perianth tubes are subrotate; with increasing degrees of perianth fusion,
@@ -93,158 +77,158 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stigma capitate.</statement>
+      <description type="morphology">Stigma capitate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perianth white, sometimes tinged pink.</statement>
+      <description type="morphology">Perianth white, sometimes tinged pink.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perianth tube shorter than spathe, shorter than filaments</statement>
+      <description type="morphology">Perianth tube shorter than spathe, shorter than filaments</description>
       <determination>16.  Zephyranthes candida</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perianth tube longer than spathe, longer than filaments.</statement>
+      <description type="morphology">Perianth tube longer than spathe, longer than filaments.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stigma exserted 2 mm or more beyond anthers</statement>
+      <description type="morphology">Stigma exserted 2 mm or more beyond anthers</description>
       <determination>14.  Zephyranthes traubii</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stigma among or very near anthers</statement>
+      <description type="morphology">Stigma among or very near anthers</description>
       <determination>15.  Zephyranthes chlorosolen</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perianth yellow.</statement>
+      <description type="morphology">Perianth yellow.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perianth tube shorter than filaments.</statement>
+      <description type="morphology">Perianth tube shorter than filaments.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Stamens in 2 distinctly subequal sets</statement>
+      <description type="morphology">Stamens in 2 distinctly subequal sets</description>
       <determination>9.  Zephyranthes citrina</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Stamens appearing equal</statement>
+      <description type="morphology">Stamens appearing equal</description>
       <determination>10.  Zephyranthes pulchella</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perianth tube longer than filaments.</statement>
+      <description type="morphology">Perianth tube longer than filaments.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perianth tube longer than spathe, more than 7 times as long as
-        filaments</statement>
+      <description type="morphology">Perianth tube longer than spathe, more than 7 times as long as
+        filaments</description>
       <determination>13.  Zephyranthes jonesii</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perianth tube usually shorter than spathe, less than 6 times as long as
-        filaments.</statement>
+      <description type="morphology">Perianth tube usually shorter than spathe, less than 6 times as long as
+        filaments.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Perianth tube ca. 2 times as long as filaments</statement>
+      <description type="morphology">Perianth tube ca. 2 times as long as filaments</description>
       <determination>11.  Zephyranthes refugiensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Perianth tube ca. 3–5 times as long as filaments</statement>
+      <description type="morphology">Perianth tube ca. 3–5 times as long as filaments</description>
       <determination>12.  Zephyranthes smallii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stigma 3-fid.</statement>
+      <description type="morphology">Stigma 3-fid.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Perianth yellow</statement>
+      <description type="morphology">Perianth yellow</description>
       <determination>8.  Zephyranthes longifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Perianth white or pink.</statement>
+      <description type="morphology">Perianth white or pink.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Stigma included within perianth tube</statement>
+      <description type="morphology">Stigma included within perianth tube</description>
       <determination>5.  Zephyranthes drummondii</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Stigma exserted beyond perianth tube.</statement>
+      <description type="morphology">Stigma exserted beyond perianth tube.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Anthers 13–22 mm</statement>
+      <description type="morphology">Anthers 13–22 mm</description>
       <determination>4.  Zephyranthes grandiflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Anthers 8 mm or shorter.</statement>
+      <description type="morphology">Anthers 8 mm or shorter.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Perianth tube 0.4 cm or shorter.</statement>
+      <description type="morphology">Perianth tube 0.4 cm or shorter.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Perianth rose pink; distal tepals not erect; stamens in 2 slightly
-        subequal</statement>
+      <description type="morphology">Perianth rose pink; distal tepals not erect; stamens in 2 slightly
+        subequal</description>
       <determination>6.  Zephyranthes rosea</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Perianth white, sometimes flushed pink abaxially; distal tepals erect;</statement>
+      <description type="morphology">Perianth white, sometimes flushed pink abaxially; distal tepals erect;</description>
       <determination>7.  Zephyranthes insularum</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Perianth tube 0.8 cm or longer.</statement>
+      <description type="morphology">Perianth tube 0.8 cm or longer.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Stigma very near, among, or below anthers; perianth tube 1 / 3 or more
-        as</statement>
+      <description type="morphology">Stigma very near, among, or below anthers; perianth tube 1 / 3 or more
+        as</description>
       <determination>3.  Zephyranthes simpsonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Stigma exserted more than 2 mm beyond anthers; perianth tube 1 / 3 or less as long
-        as perianth.</statement>
+      <description type="morphology">Stigma exserted more than 2 mm beyond anthers; perianth tube 1 / 3 or less as long
+        as perianth.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Perianth tube less than 1 / 4 as long as perianth, ca. 1 / 2 as long as</statement>
+      <description type="morphology">Perianth tube less than 1 / 4 as long as perianth, ca. 1 / 2 as long as</description>
       <determination>1.  Zephyranthes atamasca</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Perianth tube 1 / 4 or more as long as perianth, ± equaling filaments</statement>
+      <description type="morphology">Perianth tube 1 / 4 or more as long as perianth, ± equaling filaments</description>
       <determination>2.  Zephyranthes treatiae</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

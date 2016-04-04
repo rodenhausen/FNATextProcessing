@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>95.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>alaxensis</species_name>
-    <species_authority>(Andersson) Coville</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="(Andersson) Coville" date="unknown">alaxensis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Wash. Acad. Sci.</publication_title>
       <place_in_publication>2: 280. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Felt-leaf willow</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>speciosa</species_name>
-    <species_authority>Hooker &amp; Arnott</species_authority>
-    <variety_name>alaxensis</variety_name>
-    <variety_authority>Andersson</variety_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species alaxensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">speciosa</taxon_name>
+    <taxon_name rank="variety" authority="Andersson" date="unknown">alaxensis</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>16(2): 275. 1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 1–7 m. Stems: branches yellow-brown or red-brown, not glaucous, glabrous or villous; branchlets gray-brown or red-brown, glabrescent or villous. Leaves: stipules (sometimes marcescent), foliaceous, (3–23 mm), apex acuminate to acute; petiole convex to flat, or shallowly grooved adaxially, 3–20 mm, tomentose adaxially, (strongly ventricose around floral buds); largest medial blade broadly oblong, narrowly oblong, narrowly elliptic to elliptic, narrowly oblanceolate, oblanceolate, obovate, or broadly obovate, 50–110 × 13–35 mm, 2–4 times as long as wide, base cuneate or convex, margins strongly revolute, entire or crenate, apex acuminate, acute, or convex, abaxial surface glaucous or not (usually obscured by hairs, midrib yellowish), densely tomentose or villous-tomentose, hairs wavy, adaxial dull, sparsely or moderately densely villous (floccose) to glabrescent, (hairs white or gray); proximal blade margins entire; juvenile blade reddish or yellowish green (color often obscured by hairs), very densely woolly-tomentose abaxially, hairs white. Catkins flowering before leaves emerge; staminate stout, 23–55 × 13–27 mm, flowering branchlet 0–6 mm; pistillate densely flowered, slender to stout, 33–103 × 8–22 mm, flowering branchlet 0–13 mm; floral bract brown or black, 1.5–2–2.5 mm, apex acute to convex, abaxially sparsely hairy, hairs straight. Staminate flowers: adaxial nectary narrowly oblong to oblong, 0.5–1.4 mm; filaments distinct; anthers purple turning yellow, long-cylindrical, 0.6–0.9 mm. Pistillate flowers: adaxial nectary narrowly oblong, 0.6–1.6 mm; stipe 0–0.4 mm; ovary pyriform, (hairs refractive, wavy), beak gradually tapering to styles; ovules 14–18 per ovary; styles 1.3–2.8 mm; stigmas 0.4–0.99–1.28 mm. Capsules 4–5 mm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>n North America</global_distribution>
-  <global_distribution>Asia (n).</global_distribution>
-  <global_distribution>Asia (e Siberia).</global_distribution>
+    <taxon_hierarchy>genus Salix;species speciosa;variety alaxensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>95.</number>
+  <other_name type="common_name">Felt-leaf willow</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Salix alaxensis is often used in northern regions for revegetation of disturbed sites and for wildlife habitat restoration (R. A. Densmore et al. 1987).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Branchlets not noticeably glaucous, very densely villous; largest medial blades: midrib evident, moderately densely tomentose to sparsely pubescent, abaxial surface not noticeably</statement>
+      <description type="morphology">Branchlets not noticeably glaucous, very densely villous; largest medial blades: midrib evident, moderately densely tomentose to sparsely pubescent, abaxial surface not noticeably</description>
       <determination>95a. Salix alaxensis var. alaxensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Branchlets strongly glaucous, glabrescent or sparsely villous; largest medial blades: midrib prominent, sparsely pubescent to glabrescent, abaxial surface noticeably glaucous or not</statement>
+      <description type="morphology">Branchlets strongly glaucous, glabrescent or sparsely villous; largest medial blades: midrib prominent, sparsely pubescent to glabrescent, abaxial surface noticeably glaucous or not</description>
       <determination>95b. Salix alaxensis var. longistylis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

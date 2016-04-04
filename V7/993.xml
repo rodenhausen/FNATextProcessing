@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dithyrea</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>Harvey</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dithyrea</taxon_name>
+    <taxon_name rank="species" authority="Harvey" date="unknown">californica</taxon_name>
     <place_of_publication>
       <publication_title>London J. Bot.</publication_title>
       <place_in_publication>4: 77, plate 5. 1845</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Biscutella</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>(Harvey) Bentham &amp; Hooker f. ex W. H. Brewer &amp; S. Watson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dithyrea</genus_name>
-    <species_name>californica</species_name>
-    <variety_name>clinata</variety_name>
-    <variety_authority>(J. F. Macbride &amp; Payson) Wiggins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dithyrea</genus_name>
-    <species_name>clinata</species_name>
-    <species_authority>J. F. Macbride &amp; Payson</species_authority>
-  </TaxonIdentification>
-  <description>Annuals. Stems few to several from base, erect, branched distally, (0.7–)1–6(–7) dm. Basal leaves: petiole (0.5–)1–4(–5) cm; blade lanceolate, oblanceolate, or ovate, (1.2–)2–5(–6) cm × (5–)10–20(–30) mm, base cuneate, margins usually dentate, sinuate, rarely pinnatifid. Cauline leaves (distal) shortly petiolate or sessile; blade ovate, lanceolate, or oblong, 1–4(–5) cm × (3–)10–20(–30) mm, base cuneate, margins entire, dentate, or repand. Racemes considerably elongated in fruit. Fruiting pedicels 1.5–2.5 mm. Flowers: sepals purple to lavender, linear, (6–)7–9(–10) × 0.8–1.2 mm; petals white to pale lavender, (10–)12–15 × (1.5–)2–3 mm; filaments 6–7 mm; anthers 1.5–2(–2.5) mm. Fruits: valves transversely ovate to suborbicular, 3.5–5(–6) × 4–6(–7) mm, base and apex rounded, pubescent, trichomes clavate, simple, papillate (branched trichomes rarely present on fruit margin); style 0.1–0.5(–1) mm. Seeds 3–4 × 1.5–2.5 mm. 2n = 20.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <phenology>oct</phenology>
-  <habitat>sandy deserts</habitat>
-  <habitat>sand dunes</habitat>
-  <elevation>50–1400 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Dithyrea;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Biscutella</taxon_name>
+    <taxon_name rank="species" authority="(Harvey) Bentham &amp; Hooker f. ex W. H. Brewer &amp; S. Watson" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Biscutella;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dithyrea</taxon_name>
+    <taxon_name rank="species" authority="J. F. Macbride &amp; Payson" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(J. F. Macbride &amp; Payson) Wiggins" date="unknown">clinata</taxon_name>
+    <taxon_hierarchy>genus Dithyrea;species californica;variety clinata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dithyrea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">clinata</taxon_name>
+    <taxon_hierarchy>genus Dithyrea;species clinata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Dithyrea californica is known in Arizona from Maricopa, Mohave, and Yuma counties and in Nevada from Clark and Lincoln counties. In material with immature fruits and lacking the proximal portion of stems, the species is readily distinguished from D. maritima by the presence of clavate trichomes, quite visible even on the ovaries of developing fruits. By contrast, D. maritima has branched instead of clavate trichomes.</discussion>
-</treatment>
+</bio:treatment>

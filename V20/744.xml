@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>131b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erigeron</genus_name><species_name>peregrinus</species_name><species_authority>(Banks ex Pursh) Greene</species_authority><variety_name>thompsonii</variety_name><variety_authority>(S. F. Blake ex J. W. Thompson) Cronquist</variety_authority><place_of_publication>
-    <publication_title>Brittonia</publication_title>
-    <place_in_publication>6: 144. 1947</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>thompsoni</past_name><TaxonIdentification Status="BASIONYM"><genus_name>Erigeron</genus_name><species_name>thompsonii</species_name><species_authority>S. F. Blake ex J. W. Thompson</species_authority><place_of_publication><publication_title>Rhodora </publication_title><place_in_publication>34: 238. 1932 (as thompsoni)</place_in_publication></place_of_publication></TaxonIdentification><description>Leaf faces sparsely villosulous to glabrate. Peduncles finely villous (hairs spreading-crinkly), sometimes loosely strigose distally. Phyllaries: margins sometimes barely ciliate, abaxial faces sparsely hirsuto-villous to glabrate, essentially eglandular or sparsely minutely glandular. Ray corollas white.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>clearings in conifer woodlands</habitat><habitat>subalpine meadows</habitat><habitat>bogs</habitat><conservation>of conservation concern;</conservation><elevation>900–1800 m;</elevation><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="(Banks ex Pursh) Greene" date="unknown">peregrinus</taxon_name>
+    <taxon_name rank="variety" authority="(S. F. Blake ex J. W. Thompson) Cronquist" date="unknown">thompsonii</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>6: 144. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species peregrinus;variety thompsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="S. F. Blake ex J. W. Thompson" date="unknown">thompsonii</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>34: 238. 1932 (as thompsoni)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Erigeron;species thompsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>131b.</number>
+  <other_name type="past_name">thompsoni</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Anagallis</genus_name>
-    <species_name>pumila</species_name>
-    <species_authority>Swartz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">MYRSINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anagallis</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">pumila</taxon_name>
     <place_of_publication>
       <publication_title>Prodr.</publication_title>
       <place_in_publication>1: 40.  1788  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Florida pimpernel</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Centunculus</genus_name>
-    <species_name>pumilus</species_name>
-    <species_authority>(Swartz) Kuntze</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Micropyxis</genus_name>
-    <species_name>pumila</species_name>
-    <species_authority>(Swartz) Duby</species_authority>
-  </TaxonIdentification>
-  <description>Plants annual.  Stems mostly erect, 1–3(–5) dm.  Leaves alternate or opposite; blade elliptic to narrowly lanceolate, 4.5–8 × 1–3.5 mm.  Pedicels erect in fruit, 2.5–4 mm, mostly equaling or shorter than subtending leaf.  Flowers: sepals (4–)5, calyx divided nearly to base, 2–2.5 mm, equaling or longer than corolla, margins entire, narrowly or not scarious, apex acuminate; petals 5, corolla white, salverform (almost rotate), 1.5–2.3 mm.  Capsules 1–1.5 mm.  Seeds 5–12.</description>
-  <phenology>Flowering spring–early winter</phenology>
-  <habitat>Ditch banks, other open sites</habitat>
-  <elevation>0–20 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Jamaica)</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America (Colombia, Ecuador).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family MYRSINACEAE;genus Anagallis;species pumila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centunculus</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) Kuntze" date="unknown">pumilus</taxon_name>
+    <taxon_hierarchy>genus Centunculus;species pumilus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropyxis</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) Duby" date="unknown">pumila</taxon_name>
+    <taxon_hierarchy>genus Micropyxis;species pumila;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Florida pimpernel</other_name>
+</bio:treatment>

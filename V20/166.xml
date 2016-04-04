@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Thurovia</genus_name><species_name>triflora</species_name><species_authority>Rose</species_authority><place_of_publication>
-    <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-    <place_in_publication>3: 321, plate 15. 1895</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Three-flower snakeweed</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Gutierrezia</genus_name><species_name>triflora</species_name><species_authority>(Rose) M. A. Lane</species_authority></TaxonIdentification><description>Leaves ascending-appressed, 2–10(–15) mm, gradually reduced distally. Heads 10–20, borne singly in leaf axils, sessile or subsessile. Disc corollas 2.3–2.8 mm. Cypselae 0.9–1.7 mm; pappi equaling corollas, erose, apiculate. 2n = 10.</description><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>clay soil</habitat><habitat>less commonly sandy loam, coastal flats and shallow banks</habitat><habitat>“slick spots” in coastal prairie grasslands</habitat><habitat>upper margins of ecotone between salty prairies and tidal flats</habitat><habitat>openings in thickets</habitat><conservation>of conservation concern;</conservation><elevation>0–10 m;</elevation><us_distribution>Tex.</us_distribution><discussion>Thurovia triflora is known only from Calhoun, Harris, Jackson, and Matagorda counties on the Gulf coastal plain of southeastern Texas.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thurovia</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">triflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>3: 321, plate 15. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Thurovia;species triflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gutierrezia</taxon_name>
+    <taxon_name rank="species" authority="(Rose) M. A. Lane" date="unknown">triflora</taxon_name>
+    <taxon_hierarchy>genus Gutierrezia;species triflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Three-flower snakeweed</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Thurovia triflora is known only from Calhoun, Harris, Jackson, and Matagorda counties on the Gulf coastal plain of southeastern Texas.</discussion>
+</bio:treatment>

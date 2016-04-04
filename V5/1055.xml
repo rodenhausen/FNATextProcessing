@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>26c.2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Rumex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Rumex</subgenus_name>
-        <section_name>Rumex</section_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Rumex</genus_name>
-        <section_name>Simplices</section_name>
-        <section_authority>Rechinger f.</section_authority>
-    </TaxonIdentification>
-    <description>Plants developing basal rosette of leaves (sometimes, especially in annual species,
-        not persistent at maturity); rootstock usually vertical (in some species creeping). Stems
-        mostly erect, solitary or several from base, not branching below terminal paniculate
-        inflorescence, without axillary shoots. Leaf blades variable in shape, base cordate to
-        narrowly cuneate. Inner tepals with margins entire or variously dentate.</description>
-    <number_of_infrataxa>Species ca. 110 (33 in the flora):</number_of_infrataxa>
-    <global_distribution>nearly worldwide.</global_distribution>
-    <references>
-        <reference>Dawson, J. E. 1979. A Biosystematic Study of Rumex
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="section" authority="Rechinger f." date="unknown">Rumex</taxon_name>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Rumex;subgenus Rumex;section Rumex;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rumex</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Simplices</taxon_name>
+    <taxon_hierarchy>genus Rumex;section Simplices;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26c.2.</number>
+  <discussion>Species ca. 110 (33 in the flora):</discussion>
+  <references>
+    <reference>Dawson, J. E. 1979. A Biosystematic Study of Rumex
             Section Rumex in Canada and the United States. Ph.D. thesis. Carleton
             University.</reference>
-    </references>
-</treatment>
+  </references>
+</bio:treatment>

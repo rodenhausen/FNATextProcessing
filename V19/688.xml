@@ -1,60 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pseudognaphalium</genus_name>
-    <species_name>helleri</species_name>
-    <species_authority>(Britton) Anderberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudognaphalium</taxon_name>
+    <taxon_name rank="species" authority="(Britton) Anderberg" date="unknown">helleri</taxon_name>
     <place_of_publication>
       <publication_title>Opera Bot.</publication_title>
       <place_in_publication>104: 147. 1991</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species helleri;</taxon_hierarchy>
-  <common_name>Heller’s rabbit-tobacco</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>helleri</species_name>
-    <species_authority>Britton</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species helleri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">helleri</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>20: 280. 1893</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>obtusifolium</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>helleri</variety_name>
-    <variety_authority>(Britton) S. F. Blake</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals (fragrant), 30–100 cm; fibrous-rooted (roots relatively thick and lignescent). Stems greenish, glandular-villous (without persistent tomentum, stipitate glands mostly 0.3–1 mm, often variable, stalks broadened toward bases, about equaling gland widths). Leaf blades mostly oblong-lanceolate, 2.5–7 cm × 4–20 mm, bases not clasping, not decurrent, margins flat, faces bicolor, abaxial white to gray with lightly persistent tomentum, adaxial green, both minutely stipitate-glandular. Heads in corymbiform arrays. Involucres campanulate, 6–7 mm. Phyllaries in 4–6 series, white (opaque, shiny), ovate to ovate-oblong or oblong, ± tomentose. Pistillate florets 83–107. Bisexual florets 9–15. Cypselae ridged, smooth.</description>
-  <phenology_info>
-    <text>Flowering Sep–Oct(–Nov).</text>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry woods and openings , clay and sandy clay , sand hills ;</text>
-    <habitat>dry woods and openings</habitat>
-    <habitat>clay</habitat>
-    <habitat>sandy clay</habitat>
-    <habitat>sand hills</habitat>
-  </habitat_info>
-  <elevation>10–300 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species helleri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">obtusifolium</taxon_name>
+    <taxon_name rank="variety" authority="(Britton) S. F. Blake" date="unknown">helleri</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species obtusifolium;variety helleri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Heller’s rabbit-tobacco</other_name>
   <discussion>Pseudognaphalium helleri and P. micradenium are similar to P. obtusifolium in most features; both differ in their glandular stems without the persistent whitish tomentum of P. obtusifolium.</discussion>
-</treatment>
-
+</bio:treatment>

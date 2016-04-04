@@ -1,68 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nasturtium</genus_name>
-    <species_name>floridanum</species_name>
-    <species_authority>(Al-Shehbaz &amp; Rollins) Al-Shehbaz &amp; R. A.
-            Price</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nasturtium</taxon_name>
+    <taxon_name rank="species" authority="(Al-Shehbaz &amp; Rollins) Al-Shehbaz &amp; R. A.&#xA;            Price" date="unknown">floridanum</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>8: 125. 1998</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Rorippa</genus_name>
-    <species_name>floridana</species_name>
-    <species_authority>Al-Shehbaz &amp; Rollins</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Nasturtium;species floridanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rorippa</taxon_name>
+    <taxon_name rank="species" authority="Al-Shehbaz &amp; Rollins" date="unknown">floridana</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>69: 68. 1988,</place_in_publication>
-      <other_info>based on Cardamine curvisiliqua Shuttleworth ex Chapman Fl. South. U.S. ed.
+      <other_info_on_pub>based on Cardamine curvisiliqua Shuttleworth ex Chapman Fl. South. U.S. ed.
                 2, 605. 1883, not R. curvisiliqua (Hooker) Bessey ex Britton 1894, not Nasturtium
-                curvisiliqua (Hooker) Nuttall 1838</other_info>
+                curvisiliqua (Hooker) Nuttall 1838</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nasturtium</genus_name>
-    <species_name>stylosum</species_name>
-    <species_authority>Shuttleworth ex O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <description>Plants usually glabrous throughout, rarely sparsely pubescent. Stems 1.5–9 dm.
-        Cauline leaves: petiole not winged, base not auriculate; blade 3–5(–7)-foliolate,
-        (1.5–)3–7(–10) cm; lateral leaflets petiolulate, rachis not winged, blade often much smaller
-        than terminal; terminal leaflets (or simple blade) subreniform, orbicular, ovate to oblong,
-        or obovate, 0.5–3.5 × 0.5–3 cm, base obtuse, subcordate, rounded, or cuneate, margins
-        repand, entire, or, rarely, obtusely dentate, apex obtuse or rounded. Fruiting pedicels
-        divaricate, straight or slightly recurved, 5–15 mm. Flowers: sepals 2–3 × 1–1.5 mm; petals
-        white, spatulate, 4–5 × 1.5–2 mm, apex rounded; filaments 2–3 mm; anthers 0.6–0.9 mm. Fruits
-        1.5–3 cm × 0.9–1.2 mm; ovules 34–50 per ovary; style 0.5–2.5 mm. Seeds uniseriate, light or
-        yellowish brown, ovoid, 0.6–0.8(–0.9) × 0.4–0.7 mm, minutely reticulate with 400–500 areolae
-        on each side. 2n = 32.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <phenology>oct</phenology>
-  <habitat>flowing streams</habitat>
-  <habitat>hummock margins</habitat>
-  <habitat>springs</habitat>
-  <habitat>swamps</habitat>
-  <habitat>stream banks</habitat>
-  <elevation>0–50 m;</elevation>
-  <us_distribution>Fla.</us_distribution>
+    <taxon_hierarchy>genus Rorippa;species floridana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nasturtium</taxon_name>
+    <taxon_name rank="species" authority="Shuttleworth ex O. E. Schulz" date="unknown">stylosum</taxon_name>
+    <taxon_hierarchy>genus Nasturtium;species stylosum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Nasturtium floridanum is known from Brevard, Citrus, Clay, Collier, Columbia, Dade,
         Duval, Gilchrist, Hillsborough, Lake, Levy, Manatee, Marion, Seminole, Sumter, Taylor,
         Volusia, and Wakulla counties.</discussion>
   <discussion>Nasturtium stylosum Shuttleworth ex O. E. Schulz (1936), not (de Candolle) O. E.
         Schulz ex Cheesman (1911) is an illegitimate name, sometimes found in synonymy with N.
         floridanum.</discussion>
-</treatment>
+</bio:treatment>

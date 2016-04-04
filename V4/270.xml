@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>25.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Opuntia</genus_name><species_name>rufida</species_name><species_authority>Engelmann</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>3: 298. 1856</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Blind pricklypear</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Opuntia</genus_name><species_name>microdasys</species_name><species_authority>(Lehmann) Pfeiffer</species_authority><variety_name>rufida</variety_name><variety_authority>(Engelmann) K. Schumann</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Opuntia</genus_name><species_name>rufida</species_name><variety_name>tortiflora</variety_name><variety_authority>M. S. Anthony</variety_authority></TaxonIdentification><description>Shrubs or trees, with short trunk, many branched, 0.5–1.5 m. Stem segments not disarticulating, grayish green, flattened, reni-form, circular, elliptic, or obovate, (7.5–)10–18(–25) × 5–25 cm, low tuberculate, pubescent; areoles 8–13 per diagonal row across midstem segment, circular, 3–3.2 mm diam.; wool white to tan, aging gray. Spines absent. Glochids numerous, nearly filling areole, red-brown to white, 1–2.5 mm. Flowers: inner tepals yellow throughout, aging apricot to orange, obovate-apiculate, 25–38 mm; filaments whitish; anthers yellow; style green; stigma lobes dark green. Fruits red with green flesh, obovate, 20–35 × 15–23 mm, fleshy, short pubescent, spineless; umbilicus 5–7 mm deep; areoles (30–)36–52. Seeds yellowish, elliptic to subcircular, angular, 3–3.5 × 2.5–2.8 mm, thick, sides smooth or with 1–2 depressions; girdle protruding about 0.3 mm. 2n = 22.</description><phenology>spring</phenology><phenology>may</phenology><phenology>mar</phenology><phenology>apr</phenology><habitat>calcareous to volcanic flats</habitat><habitat>hillsides</habitat><habitat>sandy to gravelly desert soils</habitat><elevation>600–1300 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Chihuahua).</global_distribution><global_distribution>Mexico (Coahuila).</global_distribution><global_distribution>Mexico (Durango).</global_distribution><discussion>Opuntia rufida hybridizes in Mexico with O. microdasys.</discussion><discussion>The vernacular name is derived from the tendency for the glochids to shed into the eyes of grazing cattle that bump against the plant.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">rufida</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>3: 298. 1856</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Opuntia;species rufida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="(Lehmann) Pfeiffer" date="unknown">microdasys</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) K. Schumann" date="unknown">rufida</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species microdasys;variety rufida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rufida</taxon_name>
+    <taxon_name rank="variety" authority="M. S. Anthony" date="unknown">tortiflora</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species rufida;variety tortiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
+  <other_name type="common_name">Blind pricklypear</other_name>
+  <discussion>Opuntia rufida hybridizes in Mexico with O. microdasys.</discussion>
+  <discussion>The vernacular name is derived from the tendency for the glochids to shed into the eyes of grazing cattle that bump against the plant.</discussion>
+</bio:treatment>

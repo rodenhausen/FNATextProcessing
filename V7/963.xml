@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>39.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>strictum</species_name>
-    <species_authority>(S. Watson) Rattan ex B. L. Robinson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rattan ex B. L. Robinson" date="unknown">strictum</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>1(1,1): 129. 1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>oxycarpum</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-    <variety_name>strictum</variety_name>
-    <variety_authority>S. Watson</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species strictum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">oxycarpum</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">strictum</taxon_name>
     <place_of_publication>
       <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
       <place_in_publication>1: 46. 1876</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>reticulatum</species_name>
-    <species_authority>Howell</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; hirsute. Stems often several from base, usually ascending or decumbent to prostrate, rarely erect, branched distally, (0.4–)0.7–1.7(–2) dm. Basal leaves not rosulate; petiole 0.5–3 cm; blade 2-pinnatifid (lobes lanceolate to oblong), 1.5–5.6 cm, margins (of lobes) entire. Cauline leaves shortly petiolate; blade pinnatifid, 0.8–3 cm × 0.3–8 mm, base cuneate to attenuate, not auriculate, margins (of lobes) entire. Racemes elongated, (dense) in fruit; rachis puberulent, trichomes straight, cylindrical. Fruiting pedicels suberect and subappressed at base, recurved and becoming divaricate distally, strongly curved, (often flattened and narrowly winged), (1–)1.4–2.5(–3) × 0.2–0.4 mm, puberulent adaxially. Flowers: sepals (persistent), oblong, 0.7–1(–1.2) × 0.3–0.4 mm; petals (rudimentary), white, linear, 0.2–0.5 × 0.05 mm, claw absent; stamens 2, median; filaments 0.5–0.8 mm; anthers 0.1–0.15 mm. Fruits ovate-orbicular to ovate, 2.5–3.3 × 2–3 mm,apically winged, apical notch 0.3–0.6 mm deep; valves (enclosing seeds), thin, smooth, reticulate-veined, glabrous or puberulent on margin; style obsolete or to 0.1 mm, included in apical notch. Seeds oblong, 1.2–1.6 × 0.7–0.8 mm. 2n = 32.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>waste grounds</habitat>
-  <habitat>woodlands</habitat>
-  <habitat>hillsides</habitat>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>South America (Chile).</global_distribution>
+    <taxon_hierarchy>genus Lepidium;species oxycarpum;variety strictum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">reticulatum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species reticulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>39.</number>
   <discussion>Lepidium strictum was reported from Utah (C. L. Hitchcock 1936) and Colorado (W. A. Weber 1989), but we have been unable to verify those records. The species is easily distinguished by a combination of reticulate-veined fruits, persistent sepals, flattened and narrowly winged fruiting pedicels, and filiform nectaries.</discussion>
-</treatment>
+</bio:treatment>

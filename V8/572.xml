@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <species_authority>(Rafinesque) Merrill</species_authority>
-    <variety_name>shoshonense</variety_name>
-    <variety_authority>(A. Nelson) Reveal</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Merrill" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Reveal" date="unknown">shoshonense</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>22: 864.  2006  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Alkali-meadows shootingstar</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pauciflorum</species_name>
-    <species_authority>Greene</species_authority>
-    <variety_name>shoshonense</variety_name>
-    <variety_authority>A. Nelson</variety_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species pulchellum;variety shoshonense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pauciflorum</taxon_name>
+    <taxon_name rank="variety" authority="A. Nelson" date="unknown">shoshonense</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>54: 143.  1912 (as shoshonensis)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>spilantherum</species_name>
-    <species_authority>Eastwood</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>pauciflora</species_name>
-    <species_authority>(Greene) Mast &amp; Reveal</species_authority>
-    <variety_name>shoshonensis</variety_name>
-    <variety_authority>(A. Nelson) Mast &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous.  Leaves 4–15(–22) × 0.5–3.5 cm; blade oblanceolate to elliptic or spatulate.  Pedicels glabrous.  Flowers: calyx glabrous; corolla tube yellow or white with or without reddish, thin, wavy ring, lobes magenta to lavender, (8–)10–20 mm; filament tube yellow, (0.7–)1–2.5(–3) mm; anthers 3.5–5 mm; pollen sacs yellow, connective yellow basally, maroon apically.</description>
-  <phenology>Flowering late spring–summer</phenology>
-  <habitat>Moist, alkaline, inland, meadow communities</habitat>
-  <elevation>700–2400(–2800) m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Dodecatheon;species pauciflorum;variety shoshonense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">spilantherum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species spilantherum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Mast &amp; Reveal" date="unknown">pauciflora</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Mast &amp; Reveal" date="unknown">shoshonensis</taxon_name>
+    <taxon_hierarchy>genus Primula;species pauciflora;variety shoshonensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13e.</number>
+  <other_name type="common_name">Alkali-meadows shootingstar</other_name>
   <discussion>Variety shoshonense is found in widely scattered, nearly always alkaline meadows mainly in the valley bottoms of the northern Mojave Desert and the Intermountain West.  Populations occur from Inyo and Mono counties, California, across Nevada to western Utah.  To the north, it occurs from Malheur County, Oregon, across the Snake River Plain of Idaho to Bannock County, with some populations extending northward in the low valleys of Custer and Idaho counties.  Large-leaved plants occur on streamside cliff faces in the Three Forks of the Owyhee area in Oregon.  A population from 2800 meters in the House Range in Millard County, Utah (subvar. atwoodii), is here assigned to var. shoshonense.  Apparently, the plants are locally abundant at the bases of limestone cliffs.</discussion>
-</treatment>
+</bio:treatment>

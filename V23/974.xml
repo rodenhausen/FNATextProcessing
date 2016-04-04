@@ -1,78 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26ww.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Spirostachyae</section_name>
-    <section_authority>(Drejer) L. H. Bailey</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>William J. Crins,A. A. Reznicek</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Drejer) L. H. Bailey" date="unknown">Spirostachyae</taxon_name>
     <place_of_publication>
       <publication_title>in J. M. Coulter, Man. Bot. Rocky Mt.,</publication_title>
       <place_in_publication>381. 1885</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>William J. Crins</author>
-  <author>A. A. Reznicek</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carex</genus_name>
-    <unranked_epithet_name>Spirostachyae</unranked_epithet_name>
-    <unranked_epithet_authority>Drejer</unranked_epithet_authority>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Spirostachyae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Drejer">Spirostachyae</taxon_name>
     <place_of_publication>
-      <publication_title>Symb. Caricol., </publication_title>
+      <publication_title>Symb. Caricol.,</publication_title>
       <place_in_publication>10. 1844</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants cespitose, short-rhizomatous. Culms red-brown at base. Leaves: basal sheaths
-    not fibrous; sheath fronts membranous; blades not or sparingly septate-nodulose, V-shaped in
-    cross section when young, glabrous. Inflorescences racemose, with 3–6 spikes; proximal nonbasal
-    bracts leaflike, long-sheathing, sheath 4+ mm, longer than diameter of stem; lateral spikes
-    pistillate, pedunculate, peduncle usually not longer than spike, prophyllate; terminal spike
-    staminate. Proximal pistillate scales with apex acute or cuspidate. Perigynia ascending or
-    spreading, yellow-or gray-green or brown, usually speckled reddish brown, strongly 10–16-veined,
-    elliptic or ovate, rounded-trigonous in cross section, base cuneate, apex tapering to beak,
-    glabrous; beak 0.4–1.4 mm, bidentate, teeth 0.2–0.4 mm. Stigmas 3. Achenes trigonous, smaller
-    than bodies of perigynia; style deciduous.</description>
-  <number_of_infrataxa>Species ca. 15 (3 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Carex;unranked Spirostachyae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26ww.</number>
+  <discussion>Species ca. 15 (3 in the flora):</discussion>
   <discussion>Carex sect. Spirostachyae is closely related to sect. Ceratocystis Dumortier and has
     often been included with it under the name “Extensae.” W. J. Crins and P. W. Ball (1988)
     clarified the distinctions between the two sections.</discussion>
   <references>
-    <reference> Crins, W. J. and P. W. Ball. 1988. Sectional limits and
+    <reference>Crins, W. J. and P. W. Ball. 1988. Sectional limits and
       phylogenetic considerations in Carex section Ceratocystis (Cyperaceae). Brittonia 40:
       38–47.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves of flowering stems channelled or involute, widest blades 1–3.5(–4.3) mm
+      <description type="morphology">Leaves of flowering stems channelled or involute, widest blades 1–3.5(–4.3) mm
         wide; distal 2–3 pistillate spikes usually clustered near stem apex beside staminate spike;
-        staminate spikes</statement>
+        staminate spikes</description>
       <determination>408. Carex extensa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves of flowering stems flat, widest blades 3.3–5 mm wide; pistillate spikes
+      <description type="morphology">Leaves of flowering stems flat, widest blades 3.3–5 mm wide; pistillate spikes
         widely spaced, with at most 1 or 2 near, but not clustered about, staminate spike; staminate
         spikes on peduncles 1–5(–8.5) cm; proximal bract shorter than to no more than 1.5 times as
-        long as inflorescence.</statement>
+        long as inflorescence.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynia 3.5–4.6 mm, apex contracted; beak (0.8–)1–1.4 mm, scabrous; proximal
+      <description type="morphology">Perigynia 3.5–4.6 mm, apex contracted; beak (0.8–)1–1.4 mm, scabrous; proximal
         bract usually shorter than the inflorescence; longer peduncles of staminate spikes
-        2–5(–8.5)</statement>
+        2–5(–8.5)</description>
       <determination>409. Carex distans</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perigynia 2.6–3.5 mm, apex gradually tapered; beak 0.4–0.7 mm, smooth; proximal
+      <description type="morphology">Perigynia 2.6–3.5 mm, apex gradually tapered; beak 0.4–0.7 mm, smooth; proximal
         bract mostly equaling or exceeding inflorescence; longer peduncles of staminate spikes
         1–2(–4) cm; distal 1–2 pistillate spikes usually aggregated near staminate spike;
-        leaves</statement>
+        leaves</description>
       <determination>410. Carex diluta</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

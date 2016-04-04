@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>20b.1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Atriplex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Obione</subgenus_name>
-    <section_name>Pleianthae</section_name>
-    <section_authority>S. L. Welsh</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="W. A. Weber" date="unknown">Obione</taxon_name>
+    <taxon_name rank="section" authority="S. L. Welsh" date="unknown">Pleianthae</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>102: 418. 2001</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Atriplex</genus_name>
-    <subgenus_name>Proatriplex</subgenus_name>
-    <subgenus_authority>W. A. Weber</subgenus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <section_name>Proatriplex</section_name>
-    <section_authority>(W. A. Weber) Stutz &amp; G. L. Chu</section_authority>
-  </TaxonIdentification>
-  <description>Plants annual, monoecious. Leaves with normal (non-Kranz) anatomy. Staminate flowers
-    with calyx lobes not crested. Pistillate flowers 2–5, typically with a 5-lobed perianth.
-    Bracteoles triangular-ovate, united to middle or beyond, faces lacking tubercles. Seeds: radicle
-    lateral, declined (the tip at opposite end from styles).</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Obione;section Pleianthae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Proatriplex</taxon_name>
+    <taxon_hierarchy>genus Atriplex;subgenus Proatriplex;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="section" authority="(W. A. Weber) Stutz &amp; G. L. Chu" date="unknown">Proatriplex</taxon_name>
+    <taxon_hierarchy>section Proatriplex;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20b.1.</number>
+  <discussion>Species 1:</discussion>
   <discussion>The similarity of the single taxon in this section, Atriplex pleiantha, with other
     species of Atriplex in the Colorado Plateau is illusory. Great weight has been given to the
     presence of apparently primitive inflorescences within the flowering bracteoles, but that
@@ -50,4 +51,4 @@
       studies of Atriplex: Phylogenetic relationships of Atriplex pleiantha. Amer. J. Bot. 77:
       364–369.</reference>
   </references>
-</treatment>
+</bio:treatment>

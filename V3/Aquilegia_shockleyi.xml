@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>17.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Aquilegia</genus_name><species_name>shockleyi</species_name><species_authority>Eastwood</species_authority><place_of_publication><publication_title> Bull. Torrey Bot. Club </publication_title><place_in_publication>32: 193-194. 1905</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="SYNONYM"><genus_name>Aquilegia</genus_name><species_name>formosa</species_name><species_authority>Fischer ex de Candolle</species_authority><variety_name>caelifax</variety_name><variety_authority>(Payson) Munz</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aquilegia</genus_name><species_name>mohavensis</species_name><species_authority>Munz</species_authority></TaxonIdentification><description>Stems 40-100 cm. Basal leaves 2-3×-ternately compound, 9-45 cm, much shorter than stems; leaflets to 11-38 mm, sometimes viscid, glaucous on both surfaces; primary petiolules 23-80 mm (leaflets not crowded), glabrous or pilose. Flowers nodding; sepals perpendicular to floral axis, red (or sometimes partly yellow or green), lanceolate to elliptic, 10-20 × 4-8 mm, apex acuminate or acute; petals: spurs red or pink, straight, ± parallel, 12-25(-30) mm, rather stout, usually abruptly narrowed near middle, blades yellow, oblong or rounded, 2-5 × 4-7 mm; stamens 12-16 mm. Follicles 14-25 mm; beak 9-12 mm.</description><phenology>Flowering spring-summer (Apr-Aug)</phenology><habitat> Moist places in dry woodlands and shrublands</habitat><elevation> 1200-2700 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">shockleyi</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>32: 193-194. 1905</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aquilegia;species shockleyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Fischer ex de Candolle" date="unknown">formosa</taxon_name>
+    <taxon_name rank="variety" authority="(Payson) Munz" date="unknown">caelifax</taxon_name>
+    <taxon_hierarchy>genus Aquilegia;species formosa;variety caelifax;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Munz" date="unknown">mohavensis</taxon_name>
+    <taxon_hierarchy>genus Aquilegia;species mohavensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

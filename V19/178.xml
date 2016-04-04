@@ -1,46 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saussurea</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
-    <variety_name>yukonensis</variety_name>
-    <variety_authority>A. E. Porsild</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saussurea</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">angustifolia</taxon_name>
+    <taxon_name rank="variety" authority="A. E. Porsild" date="unknown">yukonensis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Natl. Mus. Canada</publication_title>
       <place_in_publication>101: 28. 1945</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Saussurea;species angustifolia;variety yukonensis;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saussurea</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Willdenow) de Candolle</species_authority>
-    <subspecies_name>yukonensis</subspecies_name>
-    <subspecies_authority>(A. E. Porsild) W. J. Cody</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saussurea</genus_name>
-    <species_name>viscida</species_name>
-    <species_authority>Hultén</species_authority>
-    <variety_name>yukonensis</variety_name>
-    <variety_authority>(A. E. Porsild) Hultén</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 3–14 cm. Stems simple, lightly arachnoid. Leaves often wider than 8 mm; basal lanceolate to elliptic, margins denticulate, arachnoid throughout; cauline narrower, crowded, usually surpassing heads. Heads crowded. Phyllaries unequal in 3–5 series; outer usually 2–4 times longer than wide.</description>
-  <phenology_info>
-    <text>Flowering Jul–Aug.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>usually dry sites , arctic and alpine tundras ;</text>
-    <habitat>dry sites</habitat>
-    <habitat>arctic and alpine tundras</habitat>
-  </habitat_info>
-  <elevation>10–1300 m;</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Saussurea;species angustifolia;variety yukonensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saussurea</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) de Candolle" date="unknown">angustifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. E. Porsild) W. J. Cody" date="unknown">yukonensis</taxon_name>
+    <taxon_hierarchy>genus Saussurea;species angustifolia;subspecies yukonensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saussurea</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">viscida</taxon_name>
+    <taxon_name rank="variety" authority="(A. E. Porsild) Hultén" date="unknown">yukonensis</taxon_name>
+    <taxon_hierarchy>genus Saussurea;species viscida;variety yukonensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3c.</number>
+</bio:treatment>

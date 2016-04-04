@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>AMIANTHIUM</genus_name>
-    <genus_authority>A. Gray</genus_authority>
-  <place_of_publication>
-    <publication_title>Ann. Lyceum Nat. Hist. New York</publication_title>
-    <place_in_publication>4: 121. 1837</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[merged Greek amiantos , unsoiled, and anthos , flower, alluding to the glandless
-    tepals]</etymology>
-  
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Fly-poison</common_name>
-  <common_name>crow-poison</common_name>
-  <common_name>St. Elmo’s-feather</common_name>
-  <common_name>staggergrass</common_name>
-  <author>Frederick H. Utech</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Chrosperma</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Frederick H. Utech</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="A. Gray" date="unknown">AMIANTHIUM</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Lyceum Nat. Hist. New York</publication_title>
+      <place_in_publication>4: 121. 1837</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus AMIANTHIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[merged Greek amiantos , unsoiled, and anthos , flower, alluding to the glandless
+    tepals]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">Chrosperma</taxon_name>
     <place_of_publication>
       <place_in_publication>1825</place_in_publication>
-      <other_info>name rejected</other_info>
+      <other_info_on_pub>name rejected</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, from bulbs; bulbs tunicate, ovoid-oblong, ca. 5 × 2.5 cm; roots
-    contractile. Stems erect, simple. Leaves mostly basal, reduced distally, spiral, arching
-    downward, sheathing proximally; blade linear-elongate, strap-shaped, glabrous, apex obtuse to
-    abruptly acute. Inflorescences terminal, racemose, dense, bracteate, glabrous. Flowers bisexual
-    or both bisexual and unisexual flowers borne on the same or on different plants, cup-shaped to
-    widely spreading, pedicellate; tepals persistent, 6, distinct, white, turning reddish green,
-    claws absent, oblong-obovate, equal to subequal, apex acute; tepal glands absent; stamens 6,
-    perigynous, distinct; filaments subulate, apex acute; anthers basifixed, 1-locular,
-    cordate-ovate, extrorse, opening into peltate disc (apical/valvate dehiscence); pollen sacs
-    apically confluent; ovary superior to partly inferior, 3-locular, diverging; septal nectaries
-    absent; styles persistent, 3, widely diverging, distinct; stigmas terminal, minute. Fruits
-    capsular, deeply 3-lobed, thin-walled, dehiscence septicidal, then adaxially loculicidal. Seeds
-    1–2 per locule, brownish to purplish black, wingless, ellipsoid, lustrous; testa fleshy. x =
-    8.</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>e North America.</global_distribution>
+    <taxon_hierarchy>genus Chrosperma;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15.</number>
+  <other_name type="common_name">Fly-poison</other_name>
+  <other_name type="common_name">crow-poison</other_name>
+  <other_name type="common_name">St. Elmo’s-feather</other_name>
+  <other_name type="common_name">staggergrass</other_name>
+  <discussion>Species 1:</discussion>
   <discussion>Amianthium is frequently included in a broadly circumscribed Zigadenus (J. D. Ambrose
     1975, 1980; S. M. Kupchan et al. 1961; S. J. Preece 1956; W. B. Zomlefer 1997b). The absence of
     tepal nectaries or glands is a major generic characteristic of this Appalachian–Ozark taxon (F.
@@ -57,8 +47,8 @@
     1986). Root extracts mixed with molasses or honey have been used as a housefly insecticide (C.
     D. Marsh et al. 1918).</discussion>
   <references>
-    <reference> Utech, F. H. 1986. Floral morphology and vascular anatomy of
+    <reference>Utech, F. H. 1986. Floral morphology and vascular anatomy of
       Amianthium muscaetoxicum (Walter) A. Gray (Liliaceae–Veratreae) with notes on distribution and
       taxonomy. Ann. Carnegie Mus. 55: 481–504. </reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,99 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>14.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>coccineus</species_name>
-        <species_authority>Engelmann</species_authority>
-        <place_of_publication>
-            <publication_title>in F. A. Wislizenus, Mem. Tour N. Mexico,</publication_title>
-            <place_in_publication>93. 1848</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Claret-cup cactus</common_name>
-    <common_name>scarlet hedgehog cactus</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>coccineus</species_name>
-        <subspecies_name>aggregatus</subspecies_name>
-        <subspecies_authority>(Engelmann ex S. Watson) W. Blum</subspecies_authority>
-        <place_of_publication>
-            <publication_title>Mich. Lange &amp; Rutow</publication_title>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinoce</genus_name>
-        <species_name>triglochidiatus</species_name>
-        <species_authority>Engelmann</species_authority>
-        <variety_name>melanacanthus</variety_name>
-        <variety_authority>(Engelmann) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <description>Plants commonly 20–100(–500)-branched, loosely aggregated into clumps or tightly
-        packed into rounded mounds, to 100 cm diam. Stems erect, cylindric (or spheric), 5–40 × 4–15
-        cm; ribs (5–)6–14, crests slightly (or conspicuously) undulate; areoles 10–20(–42) mm apart.
-        Spines (1–)5–16(–22) per areole, mostly straight except on unusually long-spined
-        individuals, ashy white to gray, brown, yellowish, reddish, or black, often dark tipped;
-        radial spines (1–)4–13(–18) per areole, appressed to slightly projecting, (3–)5–40(–49) mm;
-        central spines 0–6 per areole, spreading to projecting outward, terete (to angular),
-        (5–)10–80 mm. Flowers unisexual, (2.5–)3.8–8(–9) × (1.5–)3–7 cm; flower tube (12–)15–40 ×
-        8–30 mm; flower tube hairs usually 1–2 mm; inner tepals crimson or scarlet, less often
-        orange-red (very rarely rose-pink), with or without whitish or yellowish (or pink) proximal
-        portion, usually 14–40 × 5–16 mm, tips thick and rigid; anthers usually pink or purple
-        (rarely yellow); nectar chamber 4–10 mm (longer if measurement includes tube formed by
-        connate stamen bases). Fruits greenish or yellowish to pinkish, bright red or brownish
-        tinged, 20–40(–72) mm or less, pulp white. 2n = 44.</description>
-    <phenology>mar</phenology>
-    <phenology>spring</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <habitat>chihuahuan desert</habitat>
-    <habitat>desert scrub</habitat>
-    <habitat>desert grasslands</habitat>
-    <habitat>pinyon-juniper and oak woodlands</habitat>
-    <habitat>great plains grasslands</habitat>
-    <habitat>montane forest</habitat>
-    <habitat>bajadas</habitat>
-    <habitat>rocky slopes</habitat>
-    <habitat>and cliffs</habitat>
-    <habitat>igneous, metamorphic, and limestone substrates</habitat>
-    <elevation>150–2700(–3000) m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>Colo.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Chihuahua).</global_distribution>
-    <global_distribution>Mexico (Coahuila).</global_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-    <discussion>Tetraploids belonging to Echinocereus coccineus constituted the greater part of L.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">coccineus</taxon_name>
+    <place_of_publication>
+      <publication_title>in F. A. Wislizenus, Mem. Tour N. Mexico,</publication_title>
+      <place_in_publication>93. 1848</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Echinocereus;species coccineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">coccineus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Engelmann ex S. Watson) W. Blum" date="unknown">aggregatus</taxon_name>
+    <place_of_publication>
+      <publication_title>Mich. Lange &amp; Rutow</publication_title>
+    </place_of_publication>
+    <taxon_hierarchy>genus Echinocereus;species coccineus;subspecies aggregatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinoce</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">triglochidiatus</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) L. D. Benson" date="unknown">melanacanthus</taxon_name>
+    <taxon_hierarchy>genus Echinoce;species triglochidiatus;variety melanacanthus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="common_name">Claret-cup cactus</other_name>
+  <other_name type="common_name">scarlet hedgehog cactus</other_name>
+  <discussion>Tetraploids belonging to Echinocereus coccineus constituted the greater part of L.
         D. Benson’s concept (1969, 1969b, 1969c, 1982) of E. triglochidiatus var. melanacanthus (see
         also discussion under 12. E. triglochidiatus). Where sympatric, the diploids and tetraploids
         are usually different in appearance, except in southeastern Arizona and extreme southwestern
         New Mexico (see discussion under 13. E. arizonicus), and in northern Arizona.</discussion>
-    <discussion>The common, tetraploid, claret-cup cacti of southeastern Arizona mountain ranges
+  <discussion>The common, tetraploid, claret-cup cacti of southeastern Arizona mountain ranges
         have bisexual flowers, and they have been named Echinocereus santaritensis W. Blum &amp;
         Rutow. Similar plants from southwestern New Mexico are the basis for E. coccineus subsp.
         aggregatus [also called E. aggregatus (Engelmann ex S. Watson) Rydberg].</discussion>
-    <discussion>Populations of Echinocereus coccineus form an intergrading series from densely
+  <discussion>Populations of Echinocereus coccineus form an intergrading series from densely
         spine-covered typical coccineus in Colorado and northern New Mexico to sparsely spined
         plants in west-central Texas. Populations in the mildest climates have strikingly large
         stems, but shrink when transplanted (D. Weniger 1970). Populations intermediate between
         those extremes in the El Paso region sometimes are segregated as E. coccineus subsp.
         rosei.</discussion>
-    <discussion>Populations in northwestern Arizona with unusually small, narrow flowers
+  <discussion>Populations in northwestern Arizona with unusually small, narrow flowers
         Echinocereus toroweapensis (P. C. Fisher) Fuersch appear identical to E. canyonensis Clover
         &amp; Jotter (M. A. Baker, pers. comm.). A type specimen for E. toroweapensis was apparently
         never preserved, so the name may be invalid.</discussion>
-    <discussion>Populations in the granitic region of central Texas (chromosome number unknown),
+  <discussion>Populations in the granitic region of central Texas (chromosome number unknown),
         probably belonging in Echinocereus coccineus, have been called E. coccineus subsp. roemeri
         (Muehlenpfordt) W. Blum, Mich. Lange &amp; Rutow. Spines are more numerous than in the
         surrounding populations on limestone.</discussion>
-    <discussion>Echinocereus coccineus var. gurneyi (L. D. Benson) D. Ferguson was based on a
+  <discussion>Echinocereus coccineus var. gurneyi (L. D. Benson) D. Ferguson was based on a
         short-spined plant, apparently introgressed from E. dasyacanthus, and so it pertains to E.
         ×roetteri Rümpler in the broad sense. It is not a true geographic race of E.
         coccineus.</discussion>
-    <discussion>Echinocereus santaritensis and the diploid called E. nigrihorridispinus (see
+  <discussion>Echinocereus santaritensis and the diploid called E. nigrihorridispinus (see
         discussion under 13. E. arizonicus) are ecologically and reproductively segregated but
         difficult to distinguish morphologically, especially when sterile. Spines of E.
         santaritensis tend to be thinner but only extremes are identifiable by spine thickness
@@ -102,4 +71,4 @@
         as E. triglochidiatus var. melanacanthus. Arizona reports of E. polyacanthus were based on
         either the hairy salverform flowers of E. santaritensis or the robust plants of E.
         nigrihorridispinus.</discussion>
-</treatment>
+</bio:treatment>

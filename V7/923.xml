@@ -1,47 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>acutidens</species_name>
-    <species_authority>(A. Gray) Howell</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Howell" date="unknown">acutidens</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N.W. Amer.,</publication_title>
       <place_in_publication>64. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>dictyotum</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>acutidens</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species acutidens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">dictyotum</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">acutidens</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>12: 54. 1877</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>oxycarpum</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-    <variety_name>acutidens</variety_name>
-    <variety_authority>(A. Gray) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals; hirsute or puberulent. Stems few to several from base, erect to ascending, unbranched, (0.5–)0.8–3 dm. Basal leaves (soon withered); not rosulate; petiole 1–4 cm; blade linear or pinnatisect, (2–)2.5–6.1(–7.2) cm × (0.5–)1–2(–3) mm, (lobes linear to narrowly oblong), margins entire. Cauline leaves sessile; blade linear, 1.2–5.8 cm × 0.5–2(–3) mm, base attenuate, not auriculate, margins entire. Racemes elongated, (dense or lax) in fruit; rachis puberulent or hirsute, trichomes straight, cylindrical. Fruiting pedicels erect to slightly ascending, straight and appressed to rachis or distally slightly recurved, (strongly flattened), (2–)3–4.2 × 0.4–0.6 mm (width proximal to apex), puberulent throughout. Flowers: sepals oblong to ovate, 0.7–1.1 × 0.2–0.6 mm; petals absent; stamens 4, median; filaments 0.5–1 mm; anthers ca. 0.1 mm. Fruits ovate to ovate-oblong, (3–)4–6 × 2.5–3.5 mm, apically winged, apical notch (V-shaped), (0.8–)1–2 mm deep; valves thin, smooth, strongly reticulate-veined, usually glabrous, rarely pubescent; style absent or obsolete, included in apical notch. Seeds ovate, 1.3–2 × 0.8–1.2 mm.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <habitat>alkaline flats</habitat>
-  <habitat>gullies</habitat>
-  <habitat>or fields</habitat>
-  <habitat>saline vernal flats</habitat>
-  <habitat>grassy fields</habitat>
-  <elevation>0–400 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Lepidium;species dictyotum;variety acutidens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">oxycarpum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Jepson" date="unknown">acutidens</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species oxycarpum;variety acutidens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Lepidium acutidens was treated by C. L. Hitchcock (1936) and R. C. Rollins (1993) as a variety of L. dictyotum. The differences in the fruits as well as the absence of intermediates between them, despite the overlap of their ranges in California, justify their recognition as independent species.</discussion>
-</treatment>
+</bio:treatment>

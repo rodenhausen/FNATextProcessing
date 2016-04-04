@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bryoerythrophyllum</genus_name>
-    <species_name>columbianum</species_name>
-    <species_authority>(F. J. Hermann &amp; E. Lawton) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryoerythrophyllum</taxon_name>
+    <taxon_name rank="species" authority="(F. J. Hermann &amp; E. Lawton) R. H. Zander" date="unknown">columbianum</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>81: 548.  1979,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>columbianus</species_name>
-    <species_authority>F. J. Hermann &amp; E. Lawton</species_authority>
+    <taxon_hierarchy>genus Bryoerythrophyllum;species columbianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="F. J. Hermann &amp; E. Lawton" date="unknown">columbianus</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>95: 388, figs. 1–11.  1968</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems to 0.4–0.6 cm.  Stem leaves ovate to shortly ovate-lanceolate, to 1–1.4 mm, distal lamina 1-stratose, margins narrowly recurved to near apex, entire, sharply acute apically, the excurrent costa forming a sharp mucro made up of elongate cells; costa wider (to 8 cells wide) at mid leaf, adaxial surface of the costa bulging in an 1-stratose pad of cells; proximal cells poorly differentiated, quadrate.  Specialized asexual reproduction lacking or possibly by fragile leaf apices.  Sexual condition dioicous.  Theca 1–1.4 mm, operculum 0.5–0.8 mm, peristome rudimentary or absent.  Spores 8–13 µm.</description>
-  <phenology>Sporophytes rare, capsules mature early spring (Mar).</phenology>
-  <habitat>Soil on largely acid rock, sandy soil, grassland steppe or ledges and bluffs near rivers, often forming or part of crusts;</habitat>
-  <elevation>moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Didymodon;species columbianus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Bryoerythrophyllum columbianum may be confused with Pseudocrossidium hornschuchianum, which may be quickly distinguished by its narrowly grooved adaxial surface of the costa.  A second stereid band could not be demonstrated in the type material (holotype and paratype at US) of B. columbianum, although illustrated in the original description; it must be rare.  Instead, a second layer of guide cells was evident, the second layer being occasionally present in the paratype (Holzinger, Musci Boreali Americana 233, US) as illustrated in the original description.  Asexual reproduction is, apparently, by fragile leaf apices.  This species may be a recently evolved and not yet quite stable in that the peristome is not always entirely absent (occasionally rudimentary) and the cells of the operculum are slightly twisted counterclockwise.</discussion>
-</treatment>
+</bio:treatment>

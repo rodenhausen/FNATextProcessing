@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pseudognaphalium</genus_name>
-    <species_name>biolettii</species_name>
-    <species_authority>Anderberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudognaphalium</taxon_name>
+    <taxon_name rank="species" authority="Anderberg" date="unknown">biolettii</taxon_name>
     <place_of_publication>
       <publication_title>Opera Bot.</publication_title>
       <place_in_publication>104: 147. 1991</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species biolettii;</taxon_hierarchy>
-  <common_name>Bioletti’s rabbit-tobacco</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>bicolor</species_name>
-    <species_authority>Bioletti</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species biolettii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Bioletti" date="unknown">bicolor</taxon_name>
     <place_of_publication>
       <publication_title>Erythea</publication_title>
       <place_in_publication>1: 16. 1893,</place_in_publication>
-      <other_info>not (Lindley) Schultz-Bipontinus 1845</other_info>
+      <other_info_on_pub>not (Lindley) Schultz-Bipontinus 1845</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials (fragrant), 20–70(–120) cm; taprooted. Stems (sometimes lignescent near bases) proximally glabrescent, distally persistently tomentose, at least in the region of the heads, not glandular. Leaf blades (not crowded, internodes mostly 5+ mm), oblong-oblanceolate to oblanceolate (the distal lanceolate), 1.5–5(–8) cm × 4–10(–15) mm, bases auriculate-clasping, not decurrent, margins flat or slightly revolute, often undulate, faces bicolor (at least basal and proximal cauline), abaxial white-tomentose, adaxial bright green and ± densely glandular. Heads in corymbiform arrays. Involucres turbinate-campanulate, 5–5.5(–6) mm. Phyllaries in 4–5 series, white or sometimes slightly pinkish (opaque, shiny), ovate to oblong-ovate or oblong (often longitudinally wrinkled or grooved), glabrous. Pistillate florets 41–73. Bisexual florets 5–13. Cypselae ridged, smooth.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jun(–Oct).</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>rocky slopes , roadsides , sandy plains with larrea , coastal strand , matorral , and chaparral ;</text>
-    <habitat>rocky slopes</habitat>
-    <habitat>roadsides sandy plains with larrea , coastal strand , matorral , and chaparral</habitat>
-  </habitat_info>
-  <elevation>5–600(–1200) m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-  <global_distribution>Mexico (Baja California Sur).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Gnaphalium;species bicolor;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16.</number>
+  <other_name type="common_name">Bioletti’s rabbit-tobacco</other_name>
+</bio:treatment>

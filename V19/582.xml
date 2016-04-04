@@ -1,45 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Krigia</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Krigia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
     <place_of_publication>
       <publication_title>J. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>7: 104. 1834</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Krigia;species occidentalis;</taxon_hierarchy>
-  <common_name>Western dwarfdandelion</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cymbia</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>(Nuttall) Standley</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, 4–16 cm; taprooted. Stems 1–20+, ± scapiform, erect, eglandular or lightly glandular-villous. Leaves basal (rosettes) and proximally cauline (on scarcely elongated branches close to ground); petiolate (petioles sometimes ciliate-glandular); blades linear, oblanceolate, or obovate, 1–7 cm, margins entire or sparingly lobed, lobes linear or triangular to rounded, apices acute or obtuse, faces eglandular. Heads borne singly. Peduncles from basal rosettes. Involucres 2.5–6.5 mm. Phyllaries 4–7, erect in fruit, lanceolate in flower, becoming ovate-lanceolate in fruit, midveins and sometimes secondary veins becoming prominent in fruit, curving inward at bases to form keels, apices acute. Florets 5–25; corollas yellow, 5–9 mm. Cypselae reddish brown, broadly obconic, 1.2–1.8 mm (apical areas broader than basal areoles), 10–15-ribbed; pappi of 5, hyaline, rounded outer scales 0.4–0.6 mm plus usually 5, sometimes 0, scabrous inner bristles 1.2–2 mm. 2n = 12.</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy or clay soils , meadows , prairies , edges of open oak-hickory and pine woods ;</text>
-    <habitat>sandy or clay soils</habitat>
-    <habitat>meadows</habitat>
-    <habitat>prairies</habitat>
-    <habitat>edges of open oak-hickory and pine woods</habitat>
-  </habitat_info>
-  <elevation>10–400 m;</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Krigia;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cymbia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Standley" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Cymbia;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Western dwarfdandelion</other_name>
   <discussion>Krigia occidentalis grows in the Eastern deciduous forest biome, tallgrass prairie, and mixedgrass prairie. It has superficial similarity in pappus form to K. virginica; it was consistently placed as the sister species to K. cespitosa in chloroplast cpDNA and nuclear rDNA studies by K. J. Kim et al. (1992b, 1992c). In morphology, it is most similar to the polyploid species K. wrightii, with 2n = 18.</discussion>
-</treatment>
-
+</bio:treatment>

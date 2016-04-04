@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>48.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>viridissima</species_name>
-    <species_authority>(Eastwood) McMinn</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) McMinn" date="unknown">viridissima</taxon_name>
     <place_of_publication>
       <publication_title>Man. Calif. Shrubs,</publication_title>
       <place_in_publication>419.  1939  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Whitehair manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pechoensis</species_name>
-    <species_authority>(Abrams) Dudley ex Eastwood</species_authority>
-    <variety_name>viridissima</variety_name>
-    <variety_authority>Eastwood</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species viridissima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Abrams) Dudley ex Eastwood" date="unknown">pechoensis</taxon_name>
+    <taxon_name rank="variety" authority="Eastwood" date="unknown">viridissima</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>1: 62.  1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, erect, 1–4 m; burl absent; twigs short-hairy with longer, white hairs.  Leaves: petiole 1–4 mm; blade dark green, shiny, narrowly ovate to oblong-ovate, 2–3.5 × 1.5–2.5 cm, base truncate to ± auriculate-clasping, margins entire, plane, surfaces smooth, puberulent, glabrescent.  Inflorescences racemes, simple or 1-branched; immature inflorescence pendent, (branches ± concealed by bracts), axis 1–1.5 cm, 1+ mm diam., short-hairy with long, white hairs; bracts not appressed, (crowded), leaflike, lanceolate, 6–10 mm, apex acute, surfaces lightly hairy.  Pedicels 2–3 mm, sparsely hairy.  Flowers: corolla white, conic to urceolate; ovary densely white-hairy.  Fruits subglobose, 10–15 mm diam., sparsely hairy or glabrous.  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Island chaparral, open forests</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>100–600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species pechoensis;variety viridissima;</taxon_hierarchy>
+  </taxon_identification>
+  <number>48.</number>
+  <other_name type="common_name">Whitehair manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Arctostaphylos viridissima is known from siliceous shale on the eastern part of Santa Cruz Island.</discussion>
-</treatment>
+</bio:treatment>

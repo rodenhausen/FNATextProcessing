@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micranthes</genus_name>
-    <species_name>texana</species_name>
-    <species_authority>(Buckley) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micranthes</taxon_name>
+    <taxon_name rank="species" authority="(Buckley) Small" date="unknown">texana</taxon_name>
     <place_of_publication>
       <publication_title>Fl. S.E. U.S.,</publication_title>
       <place_in_publication>501.  1903  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Texas saxifrage</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>texana</species_name>
-    <species_authority>Buckley</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Micranthes;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">texana</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>13: 455.  1862</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants solitary or in clumps, with bulbils on caudices.  Leaves basal; petiole flattened, 1–3 cm; blade broadly ovate to oblong, 1.5–3 cm, ± leathery, base ± abruptly attenuate, margins subentire to slightly crenate, eciliate, surfaces glabrate to sparsely hairy.  Inflorescences 20+-flowered, branched, ± capitate thyrses, 10–15 cm, hairy, sometimes purple-tipped stipitate-glandular.  Flowers: sepals erect, ovate; petals white, not spotted, ± obovate, clawed, 2–3.5 mm, ± equaling sepals; filaments linear, flattened; pistils 3+, connate to 1/2 their lengths; ovary 1/2+ inferior, appearing more superior in fruit.  Capsules reddish to purplish, valvate.</description>
-  <phenology>Flowering late winter–spring</phenology>
-  <habitat>Sandy flats, rocky, open, wooded areas, granite outcrops</habitat>
-  <elevation>50–500 m</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>38.</number>
+  <other_name type="common_name">Texas saxifrage</other_name>
+</bio:treatment>

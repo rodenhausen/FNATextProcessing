@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>eastwoodiae</species_name>
-    <species_authority>Wooton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Wooton" date="unknown">eastwoodiae</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>25: 258. 1898</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>alyssoides</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>eastwoodiae</variety_name>
-    <variety_authority>(Wooton) Rollins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>moabense</species_name>
-    <species_authority>S. L. Welsh</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>montanum</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>eastwoodiae</variety_name>
-    <variety_authority>(Wooton) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals, biennials, or perennials; (base woody); glabrous or pubescent. Stems simple from base, erect, branched distally, (3.5–)4.5–16(–18) dm. Basal leaves (soon deciduous), not rosulate; petiole (1–)2–5.5(–7.5) cm; blade pinnatifid, (2–)3–6.8(–9) cm × 10–30 mm, margins (of lobes) dentate to serrate. Cauline leaves shortly petiolate or sessile; blade narrowly lanceolate or oblanceolate to linear, 3–7 cm × (2.5–)4–10mm (smaller distally), base attenuate to cuneate, not auriculate, margins usually entire, rarely dentate. Racemes elongated in fruit; rachis puberulent, trichomes straight or curved. Fruiting pedicels divaricate-ascending to horizontal, usually slightly recurved or somewhat sigmoid, rarely straight, (not winged), (3–)3.5–7.5(–8) × 0.2–0.3 mm, puberulent adaxially. Flowers: sepals suborbicular to oblong, 0.8–1.5 × 0.7–1.2 mm; petals white, suborbicular, 2.2–3.5(4) × 1.5–2.5 mm, claw 0.7–1.5 mm; stamens 6; filaments 1.5–2.5 mm, (glabrous); anthers 0.3–0.4 mm. Fruits broadly ovate, 2–3.5(–4) × 1.8–2.6(–3) mm, apically winged, apical notch 0.1–0.2mm deep; valves thin, smooth, not veined, glabrous; style (0.2–)0.3–0.6(–0.7) mm, exserted beyond apical notch. Seeds (dark brown), ovate, 1.4–1.8 × 0.8–1.1 mm.</description>
-  <phenology>jul</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>pinyon-juniper</habitat>
-  <habitat>sagebrush</habitat>
-  <habitat>or mixed desert shrub communities</habitat>
-  <elevation>900–2200 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species eastwoodiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">alyssoides</taxon_name>
+    <taxon_name rank="variety" authority="(Wooton) Rollins" date="unknown">eastwoodiae</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species alyssoides;variety eastwoodiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="S. L. Welsh" date="unknown">moabense</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species moabense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">montanum</taxon_name>
+    <taxon_name rank="variety" authority="(Wooton) C. L. Hitchcock" date="unknown">eastwoodiae</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species montanum;variety eastwoodiae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15.</number>
   <discussion>C. L. Hitchcock (1936) and R. C. Rollins (1993) reduced Lepidium eastwoodiae to a variety of L. montanum and L. alyssoides, respectively. However, the differences in morphology and flowering periods support its recognition as an independent species.</discussion>
   <discussion>We have not examined the holotype of Lepidium moabense and follow N. H. Holmgren (2005b) in reducing it to synonymy of L. eastwoodiae.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>58b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allium</genus_name><species_name>bolanderi</species_name><species_authority>S. Watson</species_authority><variety_name>mirabile</variety_name><variety_authority>(L. F. Henderson) McNeal</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>73: 307. 1992</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Allium</genus_name><species_name>mirabile</species_name><species_authority>L. F. Henderson</species_authority><place_of_publication><publication_title>Rhodora </publication_title><place_in_publication>32: 22. 1930</place_in_publication></place_of_publication></TaxonIdentification><description>Bulbs oblique-oblong, ± irregularly shaped, suggesting small tuber, 0.9–1.4 cm; outer coats pale brown, breaking with irregular edges, cells of reticulum wavy. Flowers 9–14 mm; tepals narrowly lanceolate, apex acute. 2n = 14.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>clay soils</habitat><habitat>including serpentine</habitat><elevation>50–1000 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">bolanderi</taxon_name>
+    <taxon_name rank="variety" authority="(L. F. Henderson) McNeal" date="unknown">mirabile</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>73: 307. 1992</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Allium;species bolanderi;variety mirabile;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="L. F. Henderson" date="unknown">mirabile</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>32: 22. 1930</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Allium;species mirabile;</taxon_hierarchy>
+  </taxon_identification>
+  <number>58b.</number>
+</bio:treatment>

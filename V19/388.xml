@@ -1,72 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hieracium</genus_name>
-    <species_name>pilosella</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">pilosella</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 800. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species pilosella;</taxon_hierarchy>
-  <common_name>Mouse-ear hawkweed</common_name>
-  <common_name>épervière piloselle</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hieracium</genus_name>
-    <species_name>pilosella</species_name>
-    <variety_name>niveum</variety_name>
-    <variety_authority>Müller Argoviensis</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pilosella</genus_name>
-    <species_name>officinarum</species_name>
-    <species_authority>F. W. Schultz &amp; Schultz-Bipontinus</species_authority>
-  </TaxonIdentification>
-  <description>Plants 10–25(–40+) cm. Stems proximally piloso-hirsute (hairs 1–3+ mm) and stellate-pubescent, distally piloso-hirsute (hairs 1–2 mm), stellate-pubescent, and stipitate-glandular. Leaves: basal (2–)5–10+, cauline 0(–3); blades elliptic to ± oblanceolate, 10–45(–75+) × 5–12(–18+) mm, lengths 2–4(–6+) times widths, bases cuneate, margins entire, apices acute, faces piloso-hirsute (hairs 2–7+ mm) and stellate-pubescent. Heads usually borne singly, rarely 2(–3). Peduncles piloso-hirsute and stellate-pubescent. Calyculi: bractlets 8–15+. Involucres hemispheric to obconic, 7.5–9 mm. Phyllaries 20–34+, apices acuminate, abaxial faces stellate-pubescent and stipitate-glandular, sometimes piloso-hirsute as well. Florets 60–120+; corollas yellow (often each with abaxial red stripe), 8–13+ mm. Cypselae columnar, 1.5–2 mm; pappi of 30+, white bristles in 1 series, 4–5 mm.</description>
-  <phenology_info>
-    <text>Flowering May–Aug.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ( sandy or gravelly soils , fields , lawns , roadsides ) ;</text>
-    <habitat>disturbed sites ( sandy or gravelly soils , fields , lawns , roadsides )</habitat>
-  </habitat_info>
-  <introduced>introduced;</introduced>
-  <elevation>10–100+ m;</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species pilosella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="F. W. Schultz &amp; Schultz-Bipontinus" date="unknown">pilosella</taxon_name>
+    <taxon_name rank="variety" authority="Müller Argoviensis" date="unknown">niveum</taxon_name>
+    <taxon_hierarchy>genus Hieracium;species pilosella;variety niveum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pilosella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">officinarum</taxon_name>
+    <taxon_hierarchy>genus Pilosella;species officinarum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Mouse-ear hawkweed</other_name>
+  <other_name type="common_name">épervière piloselle</other_name>
+</bio:treatment>

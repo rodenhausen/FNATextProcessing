@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">edule</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">edule</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species edule;variety edule;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) M. E. Jones" date="unknown">hallii</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species hallii;</taxon_hierarchy>
+  </taxon_identification>
   <number>46a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>edule</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>edule</variety_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species edule;variety edule;</taxon_hierarchy>
-  <common_name>Hall’s thistle</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>hallii</species_name>
-    <species_authority>(A. Gray) M. E. Jones</species_authority>
-  </TaxonIdentification>
-  <description>Heads usually crowded at stem tips. Peduncles 0–1(–4) cm. Involucres 1.5–2.5 × 1.5–3 cm, thinly to densely arachnoid. Phyllary apices ascending or ± spreading, plane to acicular, spines 1–5 mm. Corollas 14–21 mm, tubes 5–11 mm, throats 4–8 mm, lobes 4–6 mm; style tips 3–4 mm. Cypselae light to dark brown, 3.5–4.5 mm; pappi 9–13 mm.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sea bluffs , roadsides , damp soil at edge of woods , openings in conifer or conifer-hardwood forests ;</text>
-    <habitat>sea bluffs</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>damp soil at edge of woods , openings in conifer or conifer-hardwood forests</habitat>
-  </habitat_info>
-  <elevation>0–900 m;</elevation>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+  <other_name type="common_name">Hall’s thistle</other_name>
   <discussion>Variety edule is known from the coast and coast ranges of Oregon and Washington. Some coastal populations of var. edule approach montane forms of var. macounii in stature, head size, and involucre pubescence. Some of the variation in var. edule may be a result of past introgression with Cirsium remotifolium. Populations of var. edule from within the ranges of C. remotifolium vars. odontolepis, remotifolium, and rivulare often show features of those taxa.</discussion>
-</treatment>
-
+</bio:treatment>

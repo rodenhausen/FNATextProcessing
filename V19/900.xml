@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>33.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>globularia</species_name>
-    <species_authority>Chamisso ex Besser</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Chamisso ex Besser" date="unknown">globularia</taxon_name>
     <place_of_publication>
       <publication_title>Nouv. Mém. Soc. Imp. Naturalistes Moscou</publication_title>
       <place_in_publication>3: 64. 1833</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species globularia;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ajania</genus_name>
-    <species_name>globularia</species_name>
-    <species_authority>(Besser) Poljakov</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>norvegica</species_name>
-    <species_authority>Fries</species_authority>
-    <subspecies_name>globularia</subspecies_name>
-    <subspecies_authority>(Besser) H. M. Hall &amp; Clements</subspecies_authority>
-  </TaxonIdentification>
-  <description>Perennials, (3–)5–16(–30) cm (cespitose), faintly aromatic (not rhizomatous, taproots stout, caudices simple or branched, proximal branches clothed with persistent leaf bases). Stems 1–5, erect, whitish gray, densely tomentose. Leaves mostly basal (cauline 1–4), greenish to whitish green; blades (basal) 1–4.5 × 0.6–1.5 cm, 1–2-ternately to palmately lobed (flowering-stem blades 3-lobed), faces sparsely hairy. Heads (2–20, peduncles 0 or to 25 mm) in subcapitate to capitate arrays 2–3 × 2–3 cm. Involucres campanulate or hemispheric, 3.5–6 × 6–11 mm. Phyllaries lanceolate (margins brown), pilose. Florets: pistillate 9–10; bisexual 20–30; corollas yellow or reddish black, 2–3 mm, sometimes glandular. Cypselae oblong, 1.5–2.5 mm, (apices flattened) glabrous.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>nw North America</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species globularia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ajania</taxon_name>
+    <taxon_name rank="species" authority="(Besser) Poljakov" date="unknown">globularia</taxon_name>
+    <taxon_hierarchy>genus Ajania;species globularia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Fries" date="unknown">norvegica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Besser) H. M. Hall &amp; Clements" date="unknown">globularia</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species norvegica;subspecies globularia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>33.</number>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas reddish black; cypselae ca. 2.5 mm, margins with relatively narrow ribs.</statement>
+      <description type="morphology">Corollas reddish black; cypselae ca. 2.5 mm, margins with relatively narrow ribs.</description>
       <determination>33a. Artemisia globularia subsp. globularia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1 .</statement_id>
-      <statement>Corollas yellow; cypselae 1.5–2 mm, margins with relatively broad ribs.</statement>
+      <description type="morphology">Corollas yellow; cypselae 1.5–2 mm, margins with relatively broad ribs.</description>
       <determination>33b. Artemisia globularia subsp. lutea</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

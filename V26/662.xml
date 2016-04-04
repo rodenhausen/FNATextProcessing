@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>terrestris</species_name><species_authority>Kellogg</species_authority><subspecies_name>terrestris</subspecies_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>coronaria</species_name><variety_name>macropoda</variety_name><variety_authority>(Torrey) Hoover</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>grandiflora</species_name><species_authority>Smith</species_authority><variety_name>macropoda</variety_name><variety_authority>Torrey</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>torreyi</species_name><species_authority>Alph. Wood</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>macropoda</species_name><species_authority>(Torrey) Kuntze</species_authority></TaxonIdentification><description>Leaves lunate in cross section. Scape 0.5–7 cm. Flowers 16–25 mm; perianth tube 6–9 mm, lobes 10–16 mm; anthers 3–4 mm; ovary 7–9 mm; style 4–5 mm; pedicel 3–15 cm. 2n = 12, 36.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>coastal prairies</habitat><habitat>foothill woodlands</habitat><elevation>0–400 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">terrestris</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">terrestris</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species terrestris;subspecies terrestris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">coronaria</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey) Hoover" date="unknown">macropoda</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species coronaria;variety macropoda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Alph. Wood" date="unknown">grandiflora</taxon_name>
+    <taxon_name rank="variety" authority="Torrey" date="unknown">macropoda</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species grandiflora;variety macropoda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Kuntze" date="unknown">torreyi</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species torreyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macropoda</taxon_name>
+    <taxon_hierarchy>genus Hookera;species macropoda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14a.</number>
+</bio:treatment>

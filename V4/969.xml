@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lewisia</genus_name><species_name>cotyledon</species_name><species_authority>(S. Watson) B. L. Robinson</species_authority><variety_name>heckneri</variety_name><variety_authority>(C. V. Morton) Munz</variety_authority><place_of_publication>
-    <publication_title>Aliso</publication_title>
-    <place_in_publication>4: 90. 1958</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Oreobroma</genus_name><species_name>heckneri</species_name><species_authority>C. V. Morton</species_authority><place_of_publication><publication_title>Proc. Biol. Soc. Wash. </publication_title><place_in_publication>44: 9. 1931</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lewisia</genus_name><species_name>heckneri</species_name><species_authority>(C. V. Morton) R. B. Smith</species_authority></TaxonIdentification><description>Basal leaf blades: margins toothed. Petals 12–20 mm. 2n = 28.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>rocky crevices and slopes</habitat><habitat>400–2200 m</habitat><us_distribution>Calif.</us_distribution><discussion>Variety heckneri is known only from the southern Klamath Ranges in Trinity County.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) B. L. Robinson" date="unknown">cotyledon</taxon_name>
+    <taxon_name rank="variety" authority="(C. V. Morton) Munz" date="unknown">heckneri</taxon_name>
+    <place_of_publication>
+      <publication_title>Aliso</publication_title>
+      <place_in_publication>4: 90. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species cotyledon;variety heckneri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oreobroma</taxon_name>
+    <taxon_name rank="species" authority="C. V. Morton" date="unknown">heckneri</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>44: 9. 1931</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Oreobroma;species heckneri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(C. V. Morton) R. B. Smith" date="unknown">heckneri</taxon_name>
+    <taxon_hierarchy>genus Lewisia;species heckneri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion>Variety heckneri is known only from the southern Klamath Ranges in Trinity County.</discussion>
+</bio:treatment>

@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agave</genus_name><species_name>utahensis</species_name><species_authority>Engelmann</species_authority><subspecies_name>kaibabensis</subspecies_name><subspecies_authority>(McKelvey) Gentry</subspecies_authority><place_of_publication>
-    <publication_title>Agaves Continental N. Amer.,</publication_title>
-    <place_in_publication>259. 1982</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Kaibab agave</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Agave</genus_name><species_name>kaibabensis</species_name><species_authority>McKelvey</species_authority><place_of_publication><publication_title>J. Arnold Arbor. </publication_title><place_in_publication>30: 227, plate 1. 1949</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Agave</genus_name><species_name>utahensis</species_name><variety_name>kaibabensis</variety_name><variety_authority>(McKelvey) Breitung</variety_authority></TaxonIdentification><description>Rosettes (2–)3–6 × 4–10 dm. Leaves (25–)27–50 × 3–5.5 cm; blade lanceolate; marginal teeth (2–)3–5 mm, 2–4 cm apart; apical spine stout, subulate, 2–4 cm. Scape 3.5–5 m. Inflorescences narrowly paniculate; longer lateral branches (1–)4–10 cm. Flowers 4–12 per cluster, (2.6–)2.9–4.3 cm; ovary 1.5–2.9 cm. 2n = 60.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>calcareous or sandstone outcrops in desert scrub</habitat><habitat>pinyon-juniper, or adjacent conifer woodlands</habitat><elevation>700–2500 m;</elevation><us_distribution>Ariz.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">utahensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(McKelvey) Gentry" date="unknown">kaibabensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Agaves Continental N. Amer.,</publication_title>
+      <place_in_publication>259. 1982</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species utahensis;subspecies kaibabensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="McKelvey" date="unknown">kaibabensis</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Arnold Arbor.</publication_title>
+      <place_in_publication>30: 227, plate 1. 1949</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Agave;species kaibabensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">utahensis</taxon_name>
+    <taxon_name rank="variety" authority="(McKelvey) Breitung" date="unknown">kaibabensis</taxon_name>
+    <taxon_hierarchy>genus Agave;species utahensis;variety kaibabensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9a</number>
+  <other_name type="common_name">Kaibab agave</other_name>
+</bio:treatment>

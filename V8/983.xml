@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lyonia</genus_name>
-    <species_name>fruticosa</species_name>
-    <species_authority>(Michaux) G. S. Torrey</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) G. S. Torrey" date="unknown">fruticosa</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>51: 527.  1916  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Poor-grub</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>ferruginea</species_name>
-    <species_authority>Walter</species_authority>
-    <variety_name>fruticosa</variety_name>
-    <variety_authority>Michaux</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Lyonia;species fruticosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">ferruginea</taxon_name>
+    <taxon_name rank="variety" authority="Michaux" date="unknown">fruticosa</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 252.  1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Xolisma</genus_name>
-    <species_name>fruticosa</species_name>
-    <species_authority>(Michaux) Nash</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, (ultimate branches rigidly ascending), to 1.5(–3) m.  Stems erect, slightly angled.  Leaves persistent; blade obovate to elliptic, 0.5–6 × 0.3–4 cm (usually conspicuously smaller toward branch tips), coriaceous, base attenuate to narrowly or widely cuneate, margins entire or undulate, plane to very slightly revolute distally, apex acute, abruptly acuminate, or rounded, abaxial surface ferrugineous-lepidote, otherwise usually densely hairy, scales all ± quickly deciduous, veins frequently raised-reticulate, adaxial surface lepidote (scales caducous), hairy along midvein, veins not depressed.  Inflorescences fascicles, flowers frequent on current year’s branchlets (some flowers borne on branches of previous year); bracts 1 per flower, linear-lanceolate, 1–2 mm.  Pedicels glabrous, lepidote.  Flowers: calyx lobes 1–1.5 × 0.5–1 mm, glabrous or hairy, lepidote; corolla white, urceolate, 2.5–5 × 2.5–4 mm; filaments 1–2.5 mm, roughened, without appendages or with 2 minute spurs.  Capsules ovoid to ellipsoid, 3–5 × 2.5–4.5 mm, apex not constricted, lepidote, otherwise hairy; sutures separating as unit from adjacent valves; placentae subapical.  2n = 24.</description>
-  <phenology>Flowering early spring–summer</phenology>
-  <habitat>Pine flatwoods, oak-pine forests, shrub bogs</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Andromeda;species ferruginea;variety fruticosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Xolisma</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Nash" date="unknown">fruticosa</taxon_name>
+    <taxon_hierarchy>genus Xolisma;species fruticosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Poor-grub</other_name>
   <discussion>Although most plants of Lyonia fruticosa are densely hairy on the abaxial leaf surface, occasional individuals with relatively few unicellular hairs (or rarely none at all) can be found.</discussion>
-</treatment>
+</bio:treatment>

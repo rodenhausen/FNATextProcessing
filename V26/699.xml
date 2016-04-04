@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Triteleia</genus_name><species_name>ixioides</species_name><species_authority>(W. T. Aiton) Greene</species_authority><subspecies_name>cookii</subspecies_name><subspecies_authority>(Hoover) L. W. Lenz</subspecies_authority><place_of_publication>
-    <publication_title>Aliso</publication_title>
-    <place_in_publication>8: 237. 1975</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Cook’s triteleia</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Triteleia</genus_name><species_name>ixioides</species_name><variety_name>cookii</variety_name><variety_authority>Hoover</variety_authority><place_of_publication><publication_title>Pl. Life </publication_title><place_in_publication>1: 19, plate 2(left). 1955</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>lutea</species_name><species_authority>(Lindley) C. V. Morton</species_authority><variety_name>cookii</variety_name><variety_authority>(Hoover) Munz</variety_authority></TaxonIdentification><description>Leaves 1–2, 10–20 cm. Scape 20–25 cm, slightly scabrous. Flowers: perianth white to pale straw-colored, sometimes with darker midvein color extending into distal portion of tepal lobe, tube 6–10 mm, nearly equal to lobes, lobes strongly reflexed, 6–10 mm; short filaments 3 mm, long filaments 4 mm, apical appendages straight or slightly recurved; anthers white; pedicel 1–12 cm. 2n = 14, 28.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>stream sides</habitat><habitat>wet ravines on serpentine</habitat><habitat>often near cypresses</habitat><elevation>0–500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Subspecies cookii is restricted to San Luis Obispo County and is recognized by its long pedicels and relatively long perianth tube in relation to the length of the perianth lobes.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Triteleia</taxon_name>
+    <taxon_name rank="species" authority="(W. T. Aiton) Greene" date="unknown">ixioides</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hoover) L. W. Lenz" date="unknown">cookii</taxon_name>
+    <place_of_publication>
+      <publication_title>Aliso</publication_title>
+      <place_in_publication>8: 237. 1975</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Triteleia;species ixioides;subspecies cookii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Triteleia</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) C. V. Morton" date="unknown">ixioides</taxon_name>
+    <taxon_name rank="variety" authority="Hoover" date="unknown">cookii</taxon_name>
+    <place_of_publication>
+      <publication_title>Pl. Life</publication_title>
+      <place_in_publication>1: 19, plate 2(left). 1955</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Triteleia;species ixioides;variety cookii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lutea</taxon_name>
+    <taxon_name rank="variety" authority="(Hoover) Munz" date="unknown">cookii</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species lutea;variety cookii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8c.</number>
+  <other_name type="common_name">Cook’s triteleia</other_name>
+  <discussion>Subspecies cookii is restricted to San Luis Obispo County and is recognized by its long pedicels and relatively long perianth tube in relation to the length of the perianth lobes.</discussion>
+</bio:treatment>

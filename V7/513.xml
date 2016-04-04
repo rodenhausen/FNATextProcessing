@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>20.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Boechera</genus_name>
-    <species_name>depauperata</species_name>
-    <species_authority>(A. Nelson &amp; P. B. Kennedy) Windham &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Boechereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Boechera</taxon_name>
+    <taxon_name rank="species" authority="(A. Nelson &amp; P. B. Kennedy) Windham &amp; Al-Shehbaz" date="unknown">depauperata</taxon_name>
     <place_of_publication>
       <publication_title>Harvard Pap. Bot.</publication_title>
       <place_in_publication>11: 262. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>depauperata</species_name>
-    <species_authority>A. Nelson &amp; P. B. Kennedy</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Boechereae;genus Boechera;species depauperata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson &amp; P. B. Kennedy" date="unknown">depauperata</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Biol. Soc. Wash.</publication_title>
       <place_in_publication>19: 36. 1906</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>lemmonii</species_name>
-    <species_authority>S. Watson</species_authority>
-    <variety_name>depauperata</variety_name>
-    <variety_authority>(A. Nelson &amp; P. B. Kennedy) Rollins</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; usually long-lived; (cespitose); apomictic; caudex woody. Stems usually 1 per caudex branch, arising from center of rosette near ground surface, 0.5–1.5(–2) dm, densely pubescent proximally, trichomes short-stalked, 4–8-rayed, 0.07–0.4 mm, usually sparsely pubescent distally, rarely glabrous. Basal leaves: blade narrowly oblanceolate, 0.7–3(–5) mm wide, margins entire, sometimes ciliate proximally, trichomes to 0.4 mm, surfaces densely pubescent, trichomes short-stalked, 5–8-rayed, 0.05–0.25 mm. Cauline leaves: 3–7, not concealing stem; blade auricles 0.5–1.5 mm, surfaces of distalmost leaves usually pubescent, rarely glabrous. Racemes 9–23-flowered, unbranched. Fruiting pedicels divaricate-ascending, straight, 1.5–7 mm, usually pubescent, rarely glabrous, trichomes appressed, branched. Flowers ascending at anthesis; sepals pubescent; petals lavender to purplish, 3.5–5 × 0.8–1.2 mm, glabrous; pollen spheroid. Fruits divaricate-ascending, not appressed to rachis, not secund, straight, edges parallel, 1.7–3.5(–4.5) cm × 1–1.5 mm; valves glabrous; ovules 32–44 per ovary; style 0.05–0.2 mm. Seeds uniseriate, 1.2–1.5 × 1–1.2 mm; wing continuous, 0.1–0.15 mm wide.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>exposed ridges and talus slopes in subalpine and alpine habitats</habitat>
-  <elevation>2700–3900 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>genus Arabis;species depauperata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">lemmonii</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson &amp; P. B. Kennedy) Rollins" date="unknown">depauperata</taxon_name>
+    <taxon_hierarchy>genus Arabis;species lemmonii;variety depauperata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20.</number>
   <discussion>Morphological evidence suggests that Boechera depauperata is an apomictic species that arose through hybridization between B. lemmonii and B. paupercula (see M. D. Windham and I. A. Al-Shehbaz 2007 for detailed comparison). It is known in California from Fresno, Mono, and Tulare counties and in Nevada from Washoe County.</discussion>
-</treatment>
+</bio:treatment>

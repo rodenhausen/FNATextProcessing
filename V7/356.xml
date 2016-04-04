@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ATHYSANUS</genus_name>
-    <genus_authority>Greene</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="Greene" date="unknown">ATHYSANUS</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>1: 72. 1885</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek a- , without, and thysanos , fringe, alluding to fruit margin]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heterodraba</genus_name>
-    <genus_authority>Greene</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals; not scapose; glabrous or pubescent, trichomes simple mixed with short-stalked, forked, 3-rayed, or cruciform ones. Stems (few from base), ascending, branched. Leaves basal and cauline; petiolate or sessile; basal not rosulate, shortly petiolate, blade margins entire or dentate; cauline shortly petiolate or sessile, blade (base not auriculate), margins entire or dentate. Racemes (corymbose, several-flowered, secund, lax), considerably elongated in fruit. Fruiting pedicels recurved or reflexed, slender or stout, (glabrous or pubescent). Flowers (cleistogamous and/or chasmogamous); sepals suberect, oblong, lateral pair not saccate basally, (glabrous or pubescent); petals white, (usually rudimentary, or well-developed and exceeding sepals, rarely absent), spatulate or oblong, claw indistinct; stamens subequal; filaments slightly dilated or not basally; anthers ovate to globose; nectar glands lateral, each side of lateral stamens. Fruits (pendulous), silicles, indehiscent or very tardily dehiscent, sessile, usually orbicular or obovate to elliptic, rarely oblong, twisted or flattened, latiseptate; valves each not veined or veins prominent, pubescent or glabrous; replum rounded; septum absent or complete; ovules 2–12 per ovary; style obsolete or distinct; stigma capitate. Seeds uniseriate, flattened, not winged, oblong; seed coat not mucilaginous when wetted; cotyledons accumbent.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus ATHYSANUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek a- , without, and thysanos , fringe, alluding to fruit margin]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Greene" date="unknown">Heterodraba</taxon_name>
+    <taxon_hierarchy>genus Heterodraba;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
   <discussion>Athysanus and Heterodraba are strikingly similar in almost all aspects except for the differences in the key below. Although R. C. Rollins (1993) mentioned nothing about their relationship, he keyed them out in one couplet. Their species are more closely related to each other than to other Brassicaceae. In my opinion, the recognition of two independent monotypic genera obscures their sister phylogenetic relationship. Both genera were described simultaneously by Greene, and since W. L. Jepson (1901) transferred the type of Heterodraba to Athysanus, the latter name has nomenclatural priority.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits 1-locular, not twisted; valves usually pubescent, rarely glabrous, some or all trichomes</statement>
+      <description type="morphology">Fruits 1-locular, not twisted; valves usually pubescent, rarely glabrous, some or all trichomes</description>
       <determination>1. Athysanus pusillus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits 2-locular, flat or slightly twisted; valves glabrous or pubescent, trichomes not hooked;</statement>
+      <description type="morphology">Fruits 2-locular, flat or slightly twisted; valves glabrous or pubescent, trichomes not hooked;</description>
       <determination>2. Athysanus unilateralis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cynodontium</genus_name>
-    <species_name>alpestre</species_name>
-    <species_authority>(Wahlenberg) Milde</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynodontium</taxon_name>
+    <taxon_name rank="species" authority="(Wahlenberg) Milde" date="unknown">alpestre</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Siles.,</publication_title>
       <place_in_publication>51.  1869,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>alpestre</species_name>
-    <species_authority>Wahlenberg</species_authority>
+    <taxon_hierarchy>genus Cynodontium;species alpestre;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Wahlenberg" date="unknown">alpestre</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Lapp.,</publication_title>
       <place_in_publication>339, fig. 21.  1812</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cnestrum</genus_name>
-    <species_name>alpestre</species_name>
-    <species_authority>(Wahlenberg) Nyholm</species_authority>
-  </TaxonIdentification>
-  <description>Stems to 1.5 cm.  Leaves to 1.5 mm, broadly lanceolate, nearly all leaves with bluntly rounded apices; leaf margins recurved proximally, the cells mostly 1-stratose; cells of distal lamina (6–)8–9 µm wide, with moderately developed or high mammillae and 1(–2) papillae per cell, walls rather thin, angular to somewhat rounded.  Perigonium short-stalked.  Seta ca. 0.6 cm, straight wet or dry.  Capsule symmetrical, erect, not strumose; annulus weakly developed, adherent.</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Rock crevices, commonly on calcareous substrates;</habitat>
-  <elevation>moderate to high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>n Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species alpestre;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cnestrum</taxon_name>
+    <taxon_name rank="species" authority="(Wahlenberg) Nyholm" date="unknown">alpestre</taxon_name>
+    <taxon_hierarchy>genus Cnestrum;species alpestre;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>The description of Cynodontium alpestre above follows authors who did not consider the species to be a variant of C. tenellum.  Authors who do unite the two (as C. alpestre) conflate the characters, emphasizing those of C. tenellum.  The present description and that of, for example, H. A. Crum and L. E. Anderson (1981) for C. alpestre would not be parallel and would be misleading.  Cynodontium tenellum as C. alpestre, for example, would have strongly 2- to multistratose margins and sessile perigonial buds, and the cells would be smooth on the lamina; all these features are contradicted by the present description.  The distribution in the flora area is poorly known for the United States because of confusion with C. tenellum, and here follows W. C. Steere (1978) and R. R. Ireland et al. (1987).  See G. S. Mogensen (1980) for clarification of the taxonomic position of Cynodontium alpestre.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Mogensen, G. S.  1980.  Cnestrum alpestre, with notes on the nomenclature of Dicranum alpestre Wahlenb.  Lindbergia 6: 118–120.</reference>
   </references>
-</treatment>
+</bio:treatment>

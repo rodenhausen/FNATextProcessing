@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Funaria</genus_name>
-    <species_name>arctica</species_name>
-    <species_authority>(Berggren) Kindberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="(Berggren) Kindberg" date="unknown">arctica</taxon_name>
     <place_of_publication>
       <publication_title>Eur. N. Amer. Bryin.</publication_title>
       <place_in_publication>2: 330.  1897,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>hygrometrica</species_name>
-    <variety_name>arctica</variety_name>
-    <variety_authority>Berggren</variety_authority>
+    <taxon_hierarchy>genus Funaria;species arctica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="Fife" date="unknown">hygrometrica</taxon_name>
+    <taxon_name rank="variety" authority="Berggren" date="unknown">arctica</taxon_name>
     <place_of_publication>
       <publication_title>Kongl. Svenska Vetensk. Acad. Handl., n. s.</publication_title>
       <place_in_publication>13(7): 57.  1875</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>groutiana</species_name>
-    <species_authority>Fife</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>microstoma</species_name>
-    <variety_name>obtusifolia</variety_name>
-    <variety_authority>Grout</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 2–5 mm, green to yellow-green, stem with a few scale-like leaves proximally becoming crowded and bulbiform distally.  Leaves few and small proximally, distal leaves 1.5–2.5 mm, concave, broadly oblong-ovate to broadly obovate distally, some approaching a length-width ratio of 1.2:1, broadly acute to (mostly) obtuse with a few tiny teeth at the point, entire basally; costa percurrent; distal laminal cells thin-walled, elongate-hexagonal, soon becoming elongate oblong-rectangular proximally.  Seta usually 7–12 mm, hygroscopic, sometimes cygneous when young and becoming variously contorted at maturity.  Capsule 1.5–2 mm, obovate, weakly to moderately curved, inclined to horizontal, wrinkled when dry, mouth slightly oblique and nearly the diameter of the capsule, annulus revoluble, operculum convex; peristome inserted just below the rim at the mouth of the capsule, teeth lanceolate, golden brown below and hyaline at the tips, trabeculate and papillate-striate basally becoming spiculate-papillate toward the hyaline tip that is appendiculate and papillate distally, endostome a low, transparent, almost smooth membrane 3–5 cells high with rounded segments of 1–3 cells.  Calyptra cucullate, smooth.  Spores 25–32 µm, finely papillose.</description>
-  <habitat>Sand or mineral soil along rivers but not yet reported from the mouth of lemming burrows, moderate to high latitudes;</habitat>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Funaria;species hygrometrica;variety arctica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">groutiana</taxon_name>
+    <taxon_hierarchy>genus Funaria;species groutiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">microstoma</taxon_name>
+    <taxon_name rank="variety" authority="Grout" date="unknown">obtusifolia</taxon_name>
+    <taxon_hierarchy>genus Funaria;species microstoma;variety obtusifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
   <discussion>Two small species of Funaria, F. polaris and F. arctica, are found in somewhat similar habitats in higher latitudes on sand or other mineral soil.  They grow in admixture with other pioneer species of mosses as well as with each other, on newly exposed sites.  In order to be certain of the identity of a particular plant, the collection should be examined individually and the desired species selected and isolated.  In practice, it can be done quickly and efficiently using a dissecting microscope at about 30× depending on the condition of the material.  Blunt-leaved forms belong to F. arctica and those with acuminate tips are F. polaris.  Additional features separating them include the curved versus straight capsule, spore size, and the appendiculae combined with surface of the hyaline portion of the peristome teeth.</discussion>
-</treatment>
+</bio:treatment>

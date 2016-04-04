@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arnoseris</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Linnaeus) Schweigger &amp; Körte</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arnoseris</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Schweigger &amp; Körte" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Erlang.</publication_title>
       <place_in_publication>2: 72. 1811</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Arnoseris;species minima;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hyoseris</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Arnoseris;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hyoseris</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 809. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades 5–75+ × 3–15(–20+) mm. Peduncles 5–3+ cm. Phyllaries: keels stramineous and thickened in fruit, abaxial faces scabrellous or glabrate. Cypselae 1.5–2+ mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Jun–Sep.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites , sandy soils ;</text>
-    <habitat>disturbed sites sandy soils</habitat>
-  </habitat_info>
-  <elevation>10–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Hyoseris;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

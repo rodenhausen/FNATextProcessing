@@ -1,61 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Alnus</genus_name>
-        <species_name>rubra</species_name>
-        <species_authority>Bongard</species_authority>
-        <place_of_publication>
-            <publication_title> Mém. Acad. Sci. St.-Pétersbourg, Sér. </publication_title>
-            <place_in_publication>6, Sci. Math. 2: 162. 1833</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Red alder</common_name>
-    <common_name> Oregon alder</common_name>
-    <endemic>endemic</endemic>
-    <illustrated>illustrated</illustrated>
-    <weedy>weedy</weedy>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>oregona</species_name>
-        <species_authority>Nuttall</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>rubra</species_name>
-        <variety_name>pinnatisecta</variety_name>
-        <variety_authority>Starker</variety_authority>
-    </TaxonIdentification>
-    <description>Trees, to 28 m; trunks often several, crowns narrow or pyramidal. Bark gray,
-        smooth, darkening and breaking into shallow rectangular plates in age; lenticels
-        inconspicuous. Winter buds stipitate, ellipsoid, 6--10 mm, apex rounded, long; stalks 2--8
-        mm; scales 2--3, outer 2 equal and valvate, usually heavily resin-coated. Leaf blade ovate
-        to elliptic, 6--16 × 3--11 cm, leathery, base broadly cuneate to rounded, margins strongly
-        revolute, deeply doubly serrate or crenate, with distinctly larger secondary teeth, apex
-        acute to obtuse; surfaces abaxially glabrous to sparsely pubescent. Inflorescences formed
-        season before flowering and exposed during winter; staminate catkins in 1 or more clusters
-        of 2--6, 3.5--14 cm; sistillate catkins in 1 or more clusters of 3--8. Flowering before new
-        growth in spring. Infructescences ovoid to nearly globose, 1--3.5 × 0.6--1.5 cm; peduncles
-        1--10 mm. Samaras ovate or elliptic, wings much narrower than body, irregularly elliptic to
-        obovate, leathery. 2n = 28.</description>
-    <phenology>Flowering early spring</phenology>
-    <habitat> Stream banks, moist flood plains, lake shores, wet slopes, and sandy, open
-        coasts</habitat>
-    <elevation> 0--300 m</elevation>
-    <ca_distribution> B.C.</ca_distribution>
-    <ca_distribution> Yukon</ca_distribution>
-    <us_distribution> Alaska</us_distribution>
-    <us_distribution> Calif.</us_distribution>
-    <us_distribution> Idaho</us_distribution>
-    <us_distribution> Oreg.</us_distribution>
-    <us_distribution> Wash.</us_distribution>
-    <discussion>Alnus rubra is the largest alder in North America north of Mexico; it often forms
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="Bongard" date="unknown">rubra</taxon_name>
+    <place_of_publication>
+      <publication_title>Mém. Acad. Sci. St.-Pétersbourg, Sér.</publication_title>
+      <place_in_publication>6, Sci. Math. 2: 162. 1833</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Alnus;species rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">oregona</taxon_name>
+    <taxon_hierarchy>genus Alnus;species oregona;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rubra</taxon_name>
+    <taxon_name rank="variety" authority="Starker" date="unknown">pinnatisecta</taxon_name>
+    <taxon_hierarchy>genus Alnus;species rubra;variety pinnatisecta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Red alder</other_name>
+  <other_name type="common_name">Oregon alder</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
+  <discussion>Alnus rubra is the largest alder in North America north of Mexico; it often forms
         extensive stands along streams and on low-lying flood plains in the Pacific Northwest. The
         strongly revolute margins of its leaf blades make it easily distinguished from all of the
         other alders in the flora. It is an important commercial tree; the wood is used to make
         inexpensive furniture, small wooden items, and paper pulp.</discussion>
-    <discussion>Native Americans used various parts of plants of Alnus rubra medicinally as a
+  <discussion>Native Americans used various parts of plants of Alnus rubra medicinally as a
         purgative, an emetic, for aching bones, headaches, coughs, biliousness, stomach problems,
         scrofula sores, tuberculosis, asthma, and eczema, and as a general panacea (D. E. Moerman
         1986).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>18.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>darrowii</species_name>
-    <species_authority>Camp</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Camp" date="unknown">darrowii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>69: 240.  1942 (as darrowi)  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Darrow’s evergreen blueberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>myrsinites</species_name>
-    <species_authority>Lamarck</species_authority>
-    <variety_name>glaucum</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Vaccinium;species darrowii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">myrsinites</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">glaucum</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>2: 21.  1878,</place_in_publication>
-      <other_info>not V. glaucum Lamarck 1783</other_info>
+      <other_info_on_pub>not V. glaucum Lamarck 1783</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants forming extensive open colonies, 1–15 dm; twigs pale green, glaucous, ± terete, puberulent.  Leaves persistent for 1+ years; blade usually pale green abaxially, dark green adaxially, elliptic, 7–11 × 3–5 mm, coriaceous, margins entire, (often inrolled), surfaces usually glabrous abaxially (rarely minutely hairy along midvein.  Flowers: calyx greenish, glabrous; corolla white tinged with pink or red, ± urceolate, 4–6 mm; filaments ciliate.  Berries blue, glaucous, 8–10 mm diam., glabrous.  Seeds 10–20, ca. 1 mm.  2n = 24.</description>
-  <phenology>Flowering winter–spring</phenology>
-  <habitat>Low flatwoods, scrubby flatwoods, oak-scrub, palmetto scrubs and swales</habitat>
-  <elevation>0–30 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Vaccinium;species myrsinites;variety glaucum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>18.</number>
+  <other_name type="common_name">Darrow’s evergreen blueberry</other_name>
+</bio:treatment>

@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pterocaulon</genus_name>
-    <species_name>virgatum</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="(Cassini ex Dumortier) Anderberg" date="unknown">Plucheeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pterocaulon</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">virgatum</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>5: 454. 1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pterocaulon;species virgatum;</taxon_hierarchy>
-  <common_name>Wand blackroot</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>virgatum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pterocaulon;species virgatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virgatum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1211. 1759</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 4–15 dm. Leaf blades linear to narrowly elliptic or linear-lanceolate, 5–10(–15) cm × (2–)5–10(–14) mm, lengths mostly 6–8 times widths, margins entire or minutely denticulate (revolute). Heads in open, inter-rupted, ± cylindric arrays (5–)8–20 cm (main axes visible between glomerules of heads). Involucres campanulate to cylindric, 4–5 mm. Pistillate florets 25–50. Functionally staminate florets 2–4(–5). Cypselae 1–1.4 mm.</description>
-  <phenology_info>
-    <text>Flowering Aug–Oct.</text>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>marshy areas , ditches , moist places in woods , in sand , sandy loam , and sandy clay ;</text>
-    <habitat>marshy areas</habitat>
-    <habitat>ditches</habitat>
-    <habitat>moist places in woods</habitat>
-    <habitat>in sand , sandy loam , and sandy clay</habitat>
-  </habitat_info>
-  <elevation>0–20 m;</elevation>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Tamaulipas)</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Gnaphalium;species virgatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Wand blackroot</other_name>
+</bio:treatment>

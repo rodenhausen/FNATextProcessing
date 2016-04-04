@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Boechera</genus_name>
-    <species_name>acutina</species_name>
-    <species_authority>(Greene) Windham &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Boechereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Boechera</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Windham &amp; Al-Shehbaz" date="unknown">acutina</taxon_name>
     <place_of_publication>
       <publication_title>Harvard Pap. Bot.</publication_title>
       <place_in_publication>12: 236. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>acutina</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Boechereae;genus Boechera;species acutina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">acutina</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
       <place_in_publication>2: 82. 1910</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>divaricarpa</species_name>
-    <species_authority>A. Nelson</species_authority>
-    <variety_name>interposita</variety_name>
-    <variety_authority>(Greene) Rollins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>drummondii</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>interposita</variety_name>
-    <variety_authority>(Greene) Rollins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>interposita</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Biennials or perennials; short-lived; apomictic; caudex present or absent. Stems usually 1 per caudex branch, arising from center of rosette near ground surface, 1.5–6 dm, densely pubescent proximally, trichomes sessile, 2–4-rayed, 0.15–0.4 mm, usually sparsely pubescent distally, rarely glabrous. Basal leaves: blade oblanceolate, 1.5–6 mm wide, margins usually entire, rarely denticulate, ciliate proximally, trichomes (simple), to 0.5 mm, surfaces sparsely to moderately pubescent, trichomes sessile, 3–5 (or 6)-rayed, 0.15–0.35 mm. Cauline leaves: 2–20(–38), often concealing stem proximally; blade auricles 0.3–2 mm, surfaces of distalmost leaves sparsely pubescent or glabrous. Racemes 5–20(–36)-flowered, usually unbranched. Fruiting pedicels erect to ascending, usually straight, 3–10 mm, pubescent or glabrous, trichomes appressed, branched. Flowers ascending at anthesis; sepals pubescent; petals white or lavender, 5–7 × 0.9–1.3 mm, glabrous; pollen spheroid. Fruits ascending, not appressed to rachis, not secund, straight, edges parallel, 2.5–7.5 cm × 1.2–1.8 mm; valves glabrous; ovules 46–100 per ovary; style 0.3–1 mm. Seeds uniseriate, 1.8–2.2 × 1–1.4 mm; wing continuous, 0.1–0.4 mm wide.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>gravelly slopes in meadows</habitat>
-  <habitat>open forests</habitat>
-  <elevation>1400–1900 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Arabis;species acutina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">divaricarpa</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Rollins" date="unknown">interposita</taxon_name>
+    <taxon_hierarchy>genus Arabis;species divaricarpa;variety interposita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">drummondii</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Rollins" date="unknown">interposita</taxon_name>
+    <taxon_hierarchy>genus Arabis;species drummondii;variety interposita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">interposita</taxon_name>
+    <taxon_hierarchy>genus Arabis;species interposita;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Boechera acutina is an apomictic hybrid that clearly contains a genome derived from B. stricta; the other parent remains uncertain. Plants of B. acutina are superficially similar to B. pratincola and are often misidentified as Arabis (Boechera) divaricarpa; the species is easily distinguished from both of those (see M. D. Windham and I. A. Al-Shehbaz 2007b for detailed comparison).</discussion>
-</treatment>
+</bio:treatment>

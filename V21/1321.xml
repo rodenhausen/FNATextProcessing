@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>10c.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Liatris</genus_name>
-        <species_name>elegans</species_name>
-        <species_authority>(Walter) Michaux</species_authority>
-        <variety_name>bridgesii</variety_name>
-        <variety_authority>Mayfield</variety_authority>
-        <place_of_publication>
-            <publication_title>Sida</publication_title>
-            <place_in_publication>20: 598, fig. 1. 2001</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>corms depressed-globose. heads crowded. phyllaries: apices petaloid, usually creamy
-        white, sometimes initially lemon yellow fading to creamy white, rarely pale lavender,
-        elongate and strongly recurving, petaloid portions short relative to herbaceous bases.
-        corollas creamy white.</description>
-    <phenology>jul</phenology>
-    <phenology>summer</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>Post oak savannas, open, sandy woodlands, oak and pine woodland, roadsides,
-        fields;</habitat>
-    <elevation>100–200 m</elevation>
-    <us_distribution>Tex.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Liatris</taxon_name>
+    <taxon_name rank="species" authority="(Walter) Michaux" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="Mayfield" date="unknown">bridgesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 598, fig. 1. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Liatris;species elegans;variety bridgesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10c.</number>
+</bio:treatment>

@@ -1,62 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Soliva</genus_name>
-    <species_name>stolonifera</species_name>
-    <species_authority>(Brotero) Sweet</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Soliva</taxon_name>
+    <taxon_name rank="species" authority="(Brotero) Sweet" date="unknown">stolonifera</taxon_name>
     <place_of_publication>
       <publication_title>Hort. Brit.,</publication_title>
       <place_in_publication>243. 1826</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Soliva;species stolonifera;</taxon_hierarchy>
-  <common_name>Carpet burrweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hippia</genus_name>
-    <species_name>stolonifera</species_name>
-    <species_authority>Brotero</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Soliva;species stolonifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hippia</taxon_name>
+    <taxon_name rank="species" authority="Brotero" date="unknown">stolonifera</taxon_name>
     <place_of_publication>
       <publication_title>Phytogr. Lusitan. Select., no.</publication_title>
       <place_in_publication>14. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gymnostyles</genus_name>
-    <species_name>nasturtifolia</species_name>
-    <species_authority>Jussieu</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gymnostyles</genus_name>
-    <species_name>stolonifera</species_name>
-    <species_authority>(Brotero) Tutin</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Soliva</genus_name>
-    <species_name>nasturtifolia</species_name>
-    <species_authority>(Jussieu) de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Plants 2–5(–15+) cm (high or across), ± strigillose to villous (stems procumbent, rooting at nodes). Leaves basal and cauline, blades ± spatulate, 1–2(–3) cm, 1(–2)-pinnati-palmately lobed. Heads mostly scattered along stems. Involucres 3–6(–8) mm diam. Pistillate florets (20–)40–60+ in 2–4+ series. Disc florets 4–6+; corollas 1.5–2 mm. Cypselae: bodies oblanceolate to oblong-cuneate, 1.8–2.2 mm, wings transversely rugulose or ribbed on proximal 9/10, shoulders ± spinose laterally, faces distally villous to pilose or arachnose; pappi 0 (persistent stylar sheaths indurate, spinelike, 0.8–1.5 mm, usually inflexed). 2n = ca. 114 (as S. nasturtifolia).</description>
-  <phenology_info>
-    <text>Flowering Mar–Apr(–Aug).</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>10–100+ m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>introduced also in Europe.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Hippia;species stolonifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostyles</taxon_name>
+    <taxon_name rank="species" authority="Jussieu" date="unknown">nasturtifolia</taxon_name>
+    <taxon_hierarchy>genus Gymnostyles;species nasturtifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostyles</taxon_name>
+    <taxon_name rank="species" authority="(Brotero) Tutin" date="unknown">stolonifera</taxon_name>
+    <taxon_hierarchy>genus Gymnostyles;species stolonifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Soliva</taxon_name>
+    <taxon_name rank="species" authority="(Jussieu) de Candolle" date="unknown">nasturtifolia</taxon_name>
+    <taxon_hierarchy>genus Soliva;species nasturtifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Carpet burrweed</other_name>
+</bio:treatment>

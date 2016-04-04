@@ -1,40 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26yy.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Circinatae</section_name>
-    <section_authority>Meinshausen</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David F. Murray</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Meinshausen" date="unknown">Circinatae</taxon_name>
     <place_of_publication>
       <publication_title>Trudy Imp. S.-Petersburgsk. Bot. Sada</publication_title>
       <place_in_publication>18(3): 280. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>David F. Murray</author>
-  <description>Plants cespitose or not, short- or long-rhizomatous. Culms pale brown at base.
-    Leaves: basal sheaths not or scarcely fibrous; sheath fronts membranous; blades threadlike or
-    V-shaped in cross section, glabrous. Inflorescence 1 spike; bracts absent; spike androgynous or
-    pistillate, lax. Proximal pistillate scales persistent, exceeding perigynia, apex cuspidate or
-    awned. Perigynia not more than 15, erect, weakly veined, linear-lanceolate, obscurely trigonous,
-    3–6 mm, 3–4 times as long as wide, base tapering, margins rounded, apex tapering to beak,
-    glabrous; beak less than 2 mm, orifice obliquely cleft. Stigmas (2–)3. Achenes usually
-    trigonous, 1.5–2.5 mm, smaller than bodies of perigynia; style deciduous.</description>
-  <number_of_infrataxa>Species 4 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>amphi-Pacific.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Circinatae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26yy.</number>
+  <discussion>Species 4 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants cespitose, short-rhizomatous; leaves involute; distal margins of perigynia
-        finely ser-</statement>
+      <description type="morphology">Plants cespitose, short-rhizomatous; leaves involute; distal margins of perigynia
+        finely ser-</description>
       <determination>416. Carex circinata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants not cespitose, long-rhizomatous; leaves flat; distal margins of perigynia
-        smooth</statement>
+      <description type="morphology">Plants not cespitose, long-rhizomatous; leaves flat; distal margins of perigynia
+        smooth</description>
       <determination>417. Carex anthoxanthea</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,77 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Anagallis</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Linnaeus) E. H. L. Krause</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">MYRSINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anagallis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) E. H. L. Krause" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>in J. Sturm et al.,  Deutschl. Fl. ed.</publication_title>
       <place_in_publication>2, 9: 251.  1901  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chaffweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Centunculus</genus_name>
-    <species_name>minimus</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family MYRSINACEAE;genus Anagallis;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">minimus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 116.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Anagallidastrum</genus_name>
-    <species_name>exiguum</species_name>
-    <species_authority>Bubani</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Micropyxis</genus_name>
-    <species_name>exigua</species_name>
-    <species_authority>(Bubani) Lunell</species_authority>
-  </TaxonIdentification>
-  <description>Plants annual.  Stems erect, 0.1–0.4(–1) dm.  Leaves alternate (proximal sometimes opposite); blade ovate or obovate, 1–5(–11) × 1–5 mm.  Pedicels absent or erect in fruit, to 1 mm, shorter than subtending leaf.  Flowers: sepals 4–5, calyx divided to ca. 3/4, 1.5–3 mm, longer than corolla, margins entire or minutely crenulate, narrowly or not scarious, apex long-acuminate; petals 4–5, corolla white or pink, salverform (almost rotate) to slightly campanulate, 1.4–1.7(–2) mm.  Capsules 1.5–2 mm.  Seeds 5–13.  2n = 22 (Eurasia).</description>
-  <phenology>Flowering spring–fall</phenology>
-  <habitat>Moist to dry roadsides, disturbed meadows, forest edges, stream banks, swales</habitat>
-  <elevation>0–300 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>nearly cosmopolitan.</global_distribution>
+    <taxon_hierarchy>genus Centunculus;species minimus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anagallidastrum</taxon_name>
+    <taxon_name rank="species" authority="Bubani" date="unknown">exiguum</taxon_name>
+    <taxon_hierarchy>genus Anagallidastrum;species exiguum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropyxis</taxon_name>
+    <taxon_name rank="species" authority="(Bubani) Lunell" date="unknown">exigua</taxon_name>
+    <taxon_hierarchy>genus Micropyxis;species exigua;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Chaffweed</other_name>
   <discussion>Canadian populations of Anagallis minima are found in the Columbia River region of southeastern British Columbia to the South Saskatchewan River region of Alberta and Saskatchewan.  The species also occurs on the southern tip of Nova Scotia.  It is scattered across the Great Plains of the United States and is historically reported from Minnesota and New York, where it was last collected in 1901 and 1878, respectively.</discussion>
-</treatment>
+</bio:treatment>

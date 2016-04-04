@@ -1,71 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>rubrum</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rubrum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 200.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Red garden currant</common_name>
-  <common_name>groseillier rouge</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>rubrum</species_name>
-    <variety_name>sativum</variety_name>
-    <variety_authority>Reichenbach</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>sativum</species_name>
-    <species_authority>(Reichenbach) Syme</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>sylvestre</species_name>
-    <species_authority>(Lamarck) Mertens &amp; Koch</species_authority>
-  </TaxonIdentification>
-  <description>Plants (not strong-smelling), 0.5–1.5 m.  Stems erect, nearly glabrous, crisped-puberulent (somewhat stipitate-glandular on young growth); spines at nodes absent; prickles on internodes absent.  Leaves: petiole 3–6 cm, glabrous; blade suborbiculate, 5-lobed, cleft 1/3–1/2 to midrib, 2.5–4.5 cm, base truncate to cordate, surfaces not glandular, sparsely hairy on veins abaxially, glabrous adaxially, lobes broadly ovate-triangular, margins bicrenate-serrate, apex acute.  Inflorescences ascending to pendent, 8–20-flowered racemes, 2–6 cm, axis glabrous, not glandular, flowers evenly spaced.  Pedicels jointed, to 6 mm, glabrous, not glandular; bracts broadly ovate, 0.5–1 mm, glabrous.  Flowers: hypanthium ochroleucous or greenish, saucer-shaped, 1 mm, glabrous; sepals nearly overlapping, spreading (revolute at tips), green or greenish brown, broadly deltate-ovate (abruptly narrowed to slender base), 2–2.5 mm; petals widely separated, erect, cream to pinkish, cuneate-flabellate, not conspicuously revolute or inrolled, 0.3–1 mm; nectary disc prominent, green, raised, 5-angled, covering top of ovary; stamens nearly as long as petals; filaments linear, 0.2–0.3 mm, glabrous; anthers white, dumbbell-shaped, 0.2–0.3 mm (broader than long), apex with U-shaped depression, (anther sacs distinctly separated by connective as broad as sac); ovary glabrous; styles connate 1/2 their lengths, 1+ mm, glabrous.  Berries sour, bright red, globose, 6–10 mm, glabrous.</description>
-  <phenology>Flowering Apr–May</phenology>
-  <habitat>Mesic habitats in disturbed woods, thickets, roadsides, old homesteads, garden neighborhoods, tamarack swamps</habitat>
-  <elevation>0–2200 m</elevation>
-  <introduced>introduced</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>cultivated and naturalized throughout Europe.</global_distribution>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species rubrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="(Reichenbach) Syme" date="unknown">rubrum</taxon_name>
+    <taxon_name rank="variety" authority="Reichenbach" date="unknown">sativum</taxon_name>
+    <taxon_hierarchy>genus Ribes;species rubrum;variety sativum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Mertens &amp; Koch" date="unknown">sativum</taxon_name>
+    <taxon_hierarchy>genus Ribes;species sativum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">sylvestre</taxon_name>
+    <taxon_hierarchy>genus Ribes;species sylvestre;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Red garden currant</other_name>
+  <other_name type="common_name">groseillier rouge</other_name>
   <discussion>The leaves of Ribes rubrum are rather thick.  Cultivated red currants may have originated from a cross between R. rubrum and R. spicatum E. Robson, a rare species native in northern Britain (R. Mabey 1996).  Many of the state and province records of occurrence may be the result of repeated escape from cultivation rather than true naturalization.</discussion>
-</treatment>
+</bio:treatment>

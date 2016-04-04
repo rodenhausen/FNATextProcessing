@@ -1,69 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Leibnitzia</genus_name>
-    <species_name>lyrata</species_name>
-    <species_authority>(Schultz-Bipontinus) G. L. Nesom</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Mutisieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leibnitzia</taxon_name>
+    <taxon_name rank="species" authority="(Schultz-Bipontinus) G. L. Nesom" date="unknown">lyrata</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>78: 169. 1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Leibnitzia;species lyrata;</taxon_hierarchy>
-  <common_name>Seemann’s sunbonnet</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gerbera</genus_name>
-    <species_name>lyrata</species_name>
-    <species_authority>Schultz-Bipontinus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Leibnitzia;species lyrata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gerbera</taxon_name>
+    <taxon_name rank="species" authority="Schultz-Bipontinus" date="unknown">lyrata</taxon_name>
     <place_of_publication>
       <publication_title>in B. Seemann, Bot. Voy. Herald,</publication_title>
       <place_in_publication>313. 1856,</place_in_publication>
-      <other_info>based on Chaptalia lyrata D. Don, Trans. Linn. Soc. London 16: 243. 1830, not (Willdenow) Sprengel 1826</other_info>
+      <other_info_on_pub>based on Chaptalia lyrata D. Don, Trans. Linn. Soc. London 16: 243. 1830, not (Willdenow) Sprengel 1826</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>C.</genus_name>
-    <species_name>alsophila</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>C.</genus_name>
-    <species_name>leucocephala</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leibnitzia</genus_name>
-    <species_name>seemannii</species_name>
-    <species_authority>(Schultz-Bipontinus) G. L. Nesom</species_authority>
-  </TaxonIdentification>
-  <description>Leaves: petioles 1/8–5/8 lengths of blades; blades 3–19 cm. Peduncles 8–64 cm in fruit, often dilated distally. Heads: vernal chasmogamous, autumnal cleistogamous. Cypselae tan to purplish, 6–10 mm. 2n = 46.</description>
-  <phenology_info>
-    <text>Flowering (chasmogamous) Mar–early Jun, (cleistogamous) Aug–Nov.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>grassy , partially open areas in pine , pine-oak , or oak woods , often in disturbed sites ;</text>
-    <habitat>grassy , partially open areas in pine , pine-oak , or oak woods , in disturbed sites</habitat>
-  </habitat_info>
-  <elevation>2000–2500 m (to 3400 m in Mexico);</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-  <global_distribution>Mexico (Durango).</global_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
-  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
-  <global_distribution>Mexico (Zacatecas).</global_distribution>
-  <global_distribution>Mexico (and southward).</global_distribution>
+    <taxon_hierarchy>genus Gerbera;species lyrata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">C.</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">alsophila</taxon_name>
+    <taxon_hierarchy>genus C.;species alsophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">C.</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">leucocephala</taxon_name>
+    <taxon_hierarchy>genus C.;species leucocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leibnitzia</taxon_name>
+    <taxon_name rank="species" authority="(Schultz-Bipontinus) G. L. Nesom" date="unknown">seemannii</taxon_name>
+    <taxon_hierarchy>genus Leibnitzia;species seemannii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Seemann’s sunbonnet</other_name>
   <discussion>Plants of Leibnitzia lyrata with cleistogamous heads are encountered and collected much more often than those with chasmogamous heads.</discussion>
   <discussion>The combination Leibnitzia lyrata proposed by G. L. Nesom (1995) appeared to be based on Chaptalia lyrata D. Don (an illegitimate later homonym) but was actually based on Gerbera lyrata Schultz-Bipontinus, which was cited in synonymy by Nesom.</discussion>
-</treatment>
-
+</bio:treatment>

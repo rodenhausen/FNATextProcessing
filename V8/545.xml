@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Douglasia</genus_name>
-    <species_name>montana</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">montana</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 371.  1868  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Rocky Mountain dwarf primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Douglasia</genus_name>
-    <species_name>biflora</species_name>
-    <species_authority>A. Nelson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Douglasia</genus_name>
-    <species_name>montana</species_name>
-    <variety_name>biflora</variety_name>
-    <variety_authority>(A. Nelson) R. Knuth</variety_authority>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose cushions with branched caudex.  Stems prostrate to ascending with marcescent, imbricate, gray to light brown leaves.  Leaves spreading to erect, thin; blade linear-subulate, 4–10 × 0.5 mm, margins entire, ciliolate, hairs simple, apex acute, surfaces glabrous.  Scapes 5–20 mm, elongating little in fruit, densely hairy, hairs branched and stellate.  Inflorescences 1–2-flowered, ebracteate or bracteate; bracts 1–3, subulate, 2–3 × 0.5 mm, hairy, hairs simple or forked.  Pedicels present, 0.5–10 mm.  Flowers: calyx 4–8 × 3–5 mm, glabrous or slightly hairy, hairs branched and stellate; corolla rose-pink, limb 6–10 mm diam., lobes 3–5 × 1–2 mm, margins erose or entire.</description>
-  <phenology>Flowering early–mid summer</phenology>
-  <habitat>Foothills, open ridges, scree slopes</habitat>
-  <elevation>1000–3500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Douglasia;species montana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">biflora</taxon_name>
+    <taxon_hierarchy>genus Douglasia;species biflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">montana</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) R. Knuth" date="unknown">biflora</taxon_name>
+    <taxon_hierarchy>genus Douglasia;species montana;variety biflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Rocky Mountain dwarf primrose</other_name>
   <discussion>Specimens of Douglasia montana from Wyoming tend to have two flowers per inflorescence (once recognized as var. biflora); those from the northern part of the range tend to have only one.  Because both one- and two-flowered inflorescences occur together on individual plants throughout the range, and no other morphological differences separate the forms, the varietal distinction is not recognized here.</discussion>
   <discussion>In Alberta, Douglasia montana is known only from Waterton Lakes National Park near the Montana border.</discussion>
-</treatment>
+</bio:treatment>

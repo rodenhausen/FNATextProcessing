@@ -1,42 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>187h.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Asteraceae</family_name>
-    <family_authority>Martinov</family_authority>
-    <tribe_name>Inuleae</tribe_name>
-    <tribe_authority>Cassini</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Inuleae</taxon_name>
     <place_of_publication>
       <publication_title>J. Phys. Chim. Hist. Nat. Arts</publication_title>
       <place_in_publication>88: 193. 1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Inuleae;</taxon_hierarchy>
-  <description>Annuals or perennials [subshrubs, shrubs, or trees]. Leaves basal and/or cauline
-    (basal often withering before flowering); alternate [opposite]; petiolate or sessile; margins
-    entire or dentate to serrate [pinnately divided]. Heads heterogamous (radiate [disciform])
-    [homogamous (discoid)], usually in corymbiform, paniculiform, or racemiform arrays, sometimes
-    borne singly (on ± leafy stems). Calyculi 0. Phyllaries persistent [falling], in (2–)3–7+
-    series, distinct, unequal to subequal, herbaceous to chartaceous or membranous, margins and/or
-    apices usually scarious. Receptacles flat to convex [concave], epaleate [paleate]. Ray florets
-    [0] in 1(–2+) series, pistillate and fertile [neuter]; corollas usually yellow, sometimes
-    reddish [ochroleucous or purplish] (laminae often linear). Disc florets bisexual, fertile;
-    corollas usually yellow, sometimes reddish [ochroleucous or purplish], not 2-lipped, lobes
-    (4–)5, usually ± deltate; anther bases ± tailed, apical appendages ovate to lance-ovate or
-    linear; styles abaxially glabrous or papillate (distally), branches ± linear, adaxially
-    stigmatic in 2 lines from bases to apices (lines often confluent distally), apices rounded to
-    truncate, appendages essentially none. Cypselae usually monomorphic within heads, usually
-    ellipsoid or columnar to prismatic [compressed or obcompressed], not beaked (sometimes abruptly
-    constricted at each end), bodies often ribbed (glabrous or hairy, often glandular, hairs not
-    myxogenic); pappi persistent (fragile), of ± barbellate [plumose] scales (sometimes setiform or
-    aristate) and/or bristles.</description>
-  <number_of_infrataxa>Genera ca. 40, species ca. 500 (3 genera, 5 species in the
-    flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Old World</global_distribution>
-  <global_distribution>especially Eurasia and n Africa</global_distribution>
-  <global_distribution>some species widely introduced and established in local
-    floras.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Inuleae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>187h.</number>
+  <discussion>Genera ca. 40, species ca. 500 (3 genera, 5 species in the
+    flora):</discussion>
   <discussion>Following A. A. Anderberg (1994) and others, some 180 genera and 2000 species have
     been segregated from traditionally circumscribed Inuleae as Gnaphalieae, and another 25+ genera
     and 200+ species as Plucheeae.</discussion>
@@ -49,28 +30,27 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappi of outer, ± connate, ± erose scales in 1 series and inner, distinct bristles
-        in 1 series</statement>
+      <description type="morphology">Pappi of outer, ± connate, ± erose scales in 1 series and inner, distinct bristles
+        in 1 series</description>
       <determination>106. Pulicaria, p. 471</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappi of distinct or basally connate bristles and/or setiform-scales in 1
-        series.</statement>
+      <description type="morphology">Pappi of distinct or basally connate bristles and/or setiform-scales in 1
+        series.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Annuals (pilosulous to hispid and stipitate-glandular, viscid); involucres 3–8 mm
-        diam.; laminae of ray corollas 2–5(–7) mm</statement>
+      <description type="morphology">Annuals (pilosulous to hispid and stipitate-glandular, viscid); involucres 3–8 mm
+        diam.; laminae of ray corollas 2–5(–7) mm</description>
       <determination>107. Dittrichia, p. 473</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perennials; involucres 10–40 mm diam.; laminae of ray corollas 10–30+
-        mm</statement>
+      <description type="morphology">Perennials; involucres 10–40 mm diam.; laminae of ray corollas 10–30+
+        mm</description>
       <determination>108. Inula, p. 473</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

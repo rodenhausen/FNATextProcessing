@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>(S. Watson) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) O’Kane &amp; Al-Shehbaz" date="unknown">douglasii</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 322. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Douglas’s bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">douglasii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>23: 255. 1888</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials; caudex simple; densely pubescent, trichomes (sessile or nearly so), 4–6(–10)-rayed, rays usually furcate near base, rarely bifurcate, (umbonate, tuberculate throughout). Stems simple from base, erect, (usually unbranched), to 4.5 dm. Basal leaves: blade suborbicular to elliptic, 2–9.5(–11.5) cm, margins entire, sinuate, coarsely dentate, or almost lyrate-pinnatifid. Cauline leaves similar to basal, blade narrowly linear or, sometimes, orbicular. Racemes loose (lax). Fruiting pedicels (recurved, straight, curved, or sigmoid), 6–20 mm. Flowers: sepals elliptic or ovate, (2–)3.5–7.5 mm, (cucullate); petals 6–11 mm. Fruits obovoid to subglobose, not inflated (not angustiseptate), 3–6 mm; valves sparsely pubescent, sometimes glabrous inside, trichomes sessile or stalked; ovules 4(–8) per ovary; style (1.6–)3–6 mm. Seeds flattened. 2n = 10, 30.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Lesquerella;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <other_name type="common_name">Douglas’s bladderpod</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruit valves: trichomes sessile; cauline leaves loosely arranged, blades narrowly linear; British Columbia, Idaho, Montana, Oregon, Washington</statement>
+      <description type="morphology">Fruit valves: trichomes sessile; cauline leaves loosely arranged, blades narrowly linear; British Columbia, Idaho, Montana, Oregon, Washington</description>
       <determination>24a. Physaria douglasii subsp . douglasii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruit valves: trichomes stalked; cauline leaves imbricate, blades sometimes orbicular; White Bluffs adjacent to Columbia River of Washington</statement>
+      <description type="morphology">Fruit valves: trichomes stalked; cauline leaves imbricate, blades sometimes orbicular; White Bluffs adjacent to Columbia River of Washington</description>
       <determination>24b. Physaria douglasii subsp . tuplashensis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

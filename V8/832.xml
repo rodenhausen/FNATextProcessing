@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>47.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>pallida</species_name>
-    <species_authority>Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">pallida</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>1: 76.  1933  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Alameda manzanita</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>andersonii</species_name>
-    <variety_name>pallida</variety_name>
-    <variety_authority>(Eastwood) J. E. Adams ex McMinn</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, erect, 2–4 m; burl absent; twigs hairy.  Leaves: petiole to 2 mm, (hairy); blade glaucous-green, dull, ovate or oblong-ovate, 2.5–4.5 × 2–3 cm, base auriculate-clasping, margins entire, plane, surfaces smooth, glabrous.  Inflorescences panicles, 3–5-branched; immature inflorescence pendent, (branches compact, framed by bracts), axis 0.5–1 cm, 1+ mm diam., short-hairy to hispid-hairy, usually eglandular; bracts not appressed, leaflike, widely lanceolate, 5–9 mm, apex acute, surfaces finely glandular-hairy.  Pedicels 8–12 mm, finely glandular-hairy.  Flowers: corolla white, conic to urceolate; ovary finely glandular-hairy.  Fruits depressed-globose, 8–10 mm diam., glandular-hairy, (viscid).  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral, gaps in open forests</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>200–400 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">andersonii</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) J. E. Adams ex McMinn" date="unknown">pallida</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species andersonii;variety pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>47.</number>
+  <other_name type="common_name">Alameda manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Arctostaphylos pallida is found on shale barrens in the East Bay Hills, western Contra Costa County, overlooking San Francisco Bay.</discussion>
-</treatment>
+</bio:treatment>

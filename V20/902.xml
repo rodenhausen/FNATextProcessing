@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Dieteria</genus_name><species_name>asteroides</species_name><species_authority>Torrey</species_authority><variety_name>asteroides</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>canescens</species_name><species_authority>Pursh</species_authority><variety_name>tephrodes</variety_name><variety_authority>A. Gray</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>tephrodes</species_name><species_authority>(A. Gray) S. F. Blake</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Machaeranthera</genus_name><species_name>tephrodes</species_name><species_authority>(A. Gray) Greene</species_authority></TaxonIdentification><description>Stems hairy to canescent, sometimes sparsely glandular. Leaves: mid blades 6–20 mm wide, margins usually serrate or serrulate, faces puberulent or canescent, sometimes sparsely stipitate-glandular. Involucres hemispheric, 8–15 mm. Phyllary apices long-acuminate, 3–6 mm, faces puberulent or canescent, sparsely stipitate-glandular. 2n = 8.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>grasslands</habitat><habitat>creosote bush scrublands</habitat><habitat>pine/oak woodlands</habitat><habitat>often along streams</habitat><elevation>300–2400 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>N.Mex.</us_distribution><global_distribution>Mexico (Chihuahua).</global_distribution><global_distribution>Mexico (Sonora).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dieteria</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">asteroides</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">asteroides</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Dieteria;species asteroides;variety asteroides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">canescens</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">tephrodes</taxon_name>
+    <taxon_hierarchy>genus Aster;species canescens;variety tephrodes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) S. F. Blake" date="unknown">tephrodes</taxon_name>
+    <taxon_hierarchy>genus Aster;species tephrodes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Machaeranthera</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">tephrodes</taxon_name>
+    <taxon_hierarchy>genus Machaeranthera;species tephrodes;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+</bio:treatment>

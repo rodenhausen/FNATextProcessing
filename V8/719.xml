@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pyrola</genus_name>
-    <species_name>asarifolia</species_name>
-    <species_authority>Michaux</species_authority>
-    <subspecies_name>bracteata</subspecies_name>
-    <subspecies_authority>(Hooker) Haber</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">asarifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) Haber" date="unknown">bracteata</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Bot.</publication_title>
       <place_in_publication>8: 298.  1983  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Long-bract wintergreen</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>bracteata</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Pyrola;species asarifolia;subspecies bracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">bracteata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 47.  1834</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>asarifolia</species_name>
-    <variety_name>bracteata</variety_name>
-    <variety_authority>(Hooker) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Leaf blades ovate or elliptic, margins denticulate or, rarely, entire.  Proximal inflorescence bracts longer than subtended pedicels.  Flowers: calyx lobes (2.8–)3–5.5(–5.8) mm, apices acuminate; anthers (2.2–)2.7–3.5(–3.9) mm.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Moist, coniferous forests, swampy woods, riparian thickets, dry and open hillsides</habitat>
-  <elevation>100–2000 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Pyrola;species bracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">asarifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Jepson" date="unknown">bracteata</taxon_name>
+    <taxon_hierarchy>genus Pyrola;species asarifolia;variety bracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <other_name type="common_name">Long-bract wintergreen</other_name>
+</bio:treatment>

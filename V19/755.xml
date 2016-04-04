@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micropus</genus_name>
-    <species_name>californicus</species_name>
-    <species_authority>Fischer &amp; C. A. Meyer</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropus</taxon_name>
+    <taxon_name rank="species" authority="Fischer &amp; C. A. Meyer" date="unknown">californicus</taxon_name>
     <place_of_publication>
       <publication_title>Index Seminum (St. Petersburg)</publication_title>
       <place_in_publication>2: 42. 1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Micropus;species californicus;</taxon_hierarchy>
-  <common_name>Slender cottonseed</common_name>
-  <common_name>Q-tips</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bombycilaena</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>(Fischer &amp; C. A. Meyer) Holub</species_authority>
-  </TaxonIdentification>
-  <description>Plants 1–50 cm. Heads depressed-spheric, 2–4 × 3–6 mm. Receptacles depressed-spheric, mostly 0.3–0.6 mm, heights 0.5–0.8 times diams. Pistillate paleae 4–7(–8) in 1 series, longest 2–4 mm; wings obscure, withering, lateral, ± erect, narrowly oblanceolate, involute; bodies galeate, cartilaginous to bony throughout, sericeous to lanuginose. Staminate paleae 0. Staminate corollas 1–2 mm, lobes usually 5. Cypselae 1.4–2.6 mm, corolla scars ± median; pappi: staminate 0 or of 1, ± smooth bristle 0.9–1.5 mm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Micropus;species californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bombycilaena</taxon_name>
+    <taxon_name rank="species" authority="(Fischer &amp; C. A. Meyer) Holub" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Bombycilaena;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Slender cottonseed</other_name>
+  <other_name type="common_name">Q-tips</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Though common and often found on recent disturbances within its range, Micropus californicus does not appear to be particularly invasive or weedy. The mature pistillate paleae, with roughly the profile of a harp or of an inverted lower-case letter “q,” are distinctive. That shape and the accompanying dense, cottony indument of the common variety explain the vernacular names. By contrast, pistillate paleae of M. amphibolus have roughly the profile of a human head wearing a billed cap.</discussion>
   <discussion>Within the more limited range of var. subvestitus, the two varieties are broadly sympatric, usually in separate populations, occasionally in mixed populations that sometimes include intermediate plants.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pistillate paleae densely and loosely lanuginose, longest usually 3–4 mm</statement>
+      <description type="morphology">Pistillate paleae densely and loosely lanuginose, longest usually 3–4 mm</description>
       <determination>2a. Micropus californicus var. californicus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pistillate paleae thinly sericeous-lanuginose, longest usually 2–3 mm</statement>
+      <description type="morphology">Pistillate paleae thinly sericeous-lanuginose, longest usually 2–3 mm</description>
       <determination>2b. Micropus californicus var. subvestitus</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

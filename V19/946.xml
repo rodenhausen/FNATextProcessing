@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>126.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>COTULA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Linda E. Watson</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">COTULA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 891. 1753</place_in_publication>
@@ -12,29 +18,22 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 380. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus COTULA;</taxon_hierarchy>
-  <etymology>[Greek kotule , small cup]</etymology>
-  <author>Linda E. Watson</author>
-  <description>Annuals or perennials, 2–25[–50+] cm (sometimes aromatic). Stems usually 1, erect or prostrate to decumbent or ascending (sometimes rooting at nodes), usually branched, glabrous or ± strigillose to villous (hairs mostly basifixed). Leaves usually mostly cauline [basal]; alternate [opposite]; petiolate or sessile; blades obovate or spatulate to lanceolate or linear, sometimes 1–3-pinnately [palmati-pinnately] lobed, ultimate margins entire or irregularly toothed, faces glabrous or ± strigillose to villous [lanate] (hairs mostly basifixed). Heads disciform [discoid or radiate], borne singly (peduncles sometimes dilated). Involucres broadly hemispheric to saucer-shaped, 3–12+[–15+] mm diam. Phyllaries persistent, 13–30+ in 2–3+ series, margins and apices (colorless, light to dark brown, or purplish) scarious. Receptacles flat to convex [conic], epaleate (sometimes ± covered with persistent stalks of florets). Ray florets 0 [5–8+, pistillate, fertile; corollas white] (peripheral pistillate florets 8–80+ in 1–3+ series; corollas usually none). Disc florets 12–200+[–600+], bisexual, fertile [functionally staminate]; corollas ochroleucous or yellow, tubes ± cylindric (bases sometimes adaxially saccate), throats abruptly ampliate, lobes (3–)4, ± deltate (sometimes one larger than others, usually each with central resin canal). Cypselae obovoid to oblong, ob-compressed or -flattened, ribs 2, lateral, sometimes becoming wings, faces ± papillate (pericarps relatively thin, sometimes with myxogenic cells and/or 2 lateral resin sacs); pappi 0. x = 10.</description>
-  <number_of_infrataxa>Species 55 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>s Old World</global_distribution>
-  <global_distribution>introduced also (perhaps some native) in Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>s Oceanic Islands.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus COTULA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek kotule , small cup]</other_info_on_name>
+  </taxon_identification>
+  <number>126.</number>
+  <discussion>Species 55 (2 in the flora):</discussion>
   <discussion>Some species of Cotula are widely naturalized. F. Hrusa et al. (2002) reported Cotula mexicana (de Candolle) Cabrera as established on golf courses in California; it is similar to C. australis and differs in leaf blades mostly 1-pinnate, receptacles pilose, and disc florets functionally staminate.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals (± villous); leaf blades 2–3-pinnately lobed; involucres 3–4(–6) mm diam.; pistillate florets 8–40(–80+) in ± 1–3+ series</statement>
+      <description type="morphology">Annuals (± villous); leaf blades 2–3-pinnately lobed; involucres 3–4(–6) mm diam.; pistillate florets 8–40(–80+) in ± 1–3+ series</description>
       <determination>1. Cotula australis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials (glabrous); leaf blades entire or irregularly toothed or lobed; involucres 6–9</statement>
+      <description type="morphology">Perennials (glabrous); leaf blades entire or irregularly toothed or lobed; involucres 6–9</description>
       <determination>2. Cotula coronopifolia</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

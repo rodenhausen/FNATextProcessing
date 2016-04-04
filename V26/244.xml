@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Clintonia</genus_name><species_name>uniflora</species_name><species_authority>(Menzies ex Schultes) Kunth</species_authority><place_of_publication>
-    <publication_title>Enum. Pl.</publication_title>
-    <place_in_publication>5: 159. 1850</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Queen’s-cup</common_name><common_name>bride’s- bonnet</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Smilacina</genus_name><species_name>borealis</species_name><species_authority>Ker Gawler</species_authority><variety_name>uniflora</variety_name><variety_authority>Menzies ex Schultes</variety_authority><place_of_publication><publication_title>in J. J. Roemer et al., Syst. Veg. </publication_title><place_in_publication>7(1): 307. 1829</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Smilacina</genus_name><species_name>uniflora</species_name><species_authority>(Menzies ex Schultes) Hooker</species_authority></TaxonIdentification><description>Plants 1.5–2.5 dm; rhizomes elongate. Cauline leaves 2–3; blade pale green adaxially, oblanceolate to obovate, 8–20 × 2.5–6.5 cm. Inflorescences 1(–2)-flowered, erect; bract 1, narrowly linear. Flowers: tepals creamy white, broadly obovate to oblanceolate, 18–25 × 5–7 mm; filaments 11–18 mm; anthers oblong-linear, 3.5–5.5 mm. Berries deep lustrous blue, subglobose to pyriform, 10–18-seeded, 6–12 mm. Seeds 3–4 mm. 2n = 28.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>montane coniferous forests</habitat><elevation>0–2600 m;</elevation><ca_distribution>Alta.</ca_distribution><ca_distribution>B.C.</ca_distribution><us_distribution>Alaska</us_distribution><us_distribution>Calif.</us_distribution><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clintonia</taxon_name>
+    <taxon_name rank="species" authority="(Menzies ex Schultes) Kunth" date="unknown">uniflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Enum. Pl.</publication_title>
+      <place_in_publication>5: 159. 1850</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Clintonia;species uniflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilacina</taxon_name>
+    <taxon_name rank="species" authority="Ker Gawler" date="unknown">borealis</taxon_name>
+    <taxon_name rank="variety" authority="Menzies ex Schultes" date="unknown">uniflora</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. J. Roemer et al., Syst. Veg.</publication_title>
+      <place_in_publication>7(1): 307. 1829</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Smilacina;species borealis;variety uniflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilacina</taxon_name>
+    <taxon_name rank="species" authority="(Menzies ex Schultes) Hooker" date="unknown">uniflora</taxon_name>
+    <taxon_hierarchy>genus Smilacina;species uniflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Queen’s-cup</other_name>
+  <other_name type="common_name">bride’s- bonnet</other_name>
+</bio:treatment>

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>40.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>marshallii</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">marshallii</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>1: 31.  1887  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Marshall’s or Hupa gooseberry</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>marshallii</species_name>
-    <species_authority>(Greene) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <description>Plants 1–2 m.  Stems arched, puberulent; spines at nodes 3, 5–10 mm; prickles on internodes absent.  Leaves: petiole 1–4 cm, villous, pubescent, or glabrous; blade round-ovate, 3–5-lobed, cleft less than 1/2 to midrib, 2.5–3.5 cm, base shallowly cordate, surfaces sparsely pubescent, with nonglandular and stipitate-glandular hairs on veins and margins, lobes cuneate-rounded, margins with 2–5 rounded teeth, apex rounded to broadly acute.  Inflorescences pendent, solitary flowers or 2–3-flowered racemes, 2–3 cm, axis pubescent, stipitate-glandular.  Pedicels not jointed, 2–3 mm, pubescent, stipitate-glandular; bracts broadly ovate, 2–3 mm, pubescent, stipitate-glandular.  Flowers: hypanthium green or tinged with purple, campanulate (± as long as wide), 2–4 mm, pubescent; sepals not overlapping, strongly reflexed, purple or rust-red, long-triangular, 10–15 mm; petals connivent, erect, bright yellow, oblong-deltate-spatulate, strongly concave abaxially, 5–6 mm; nectary disc not prominent; stamens nearly 2.5 times as long as petals; filaments linear, 10–15 mm, glabrous; anthers cream, oval, 1–2 mm, apex rounded; ovary villous with weak, glandless bristles; styles connate nearly to stigmas, 10–15 mm, glabrous.  Berries palatability not known, dark red, oblong, 10–20 mm, prickles nonglandular, hairs sparse, appressed.</description>
-  <phenology>Flowering May–Jul</phenology>
-  <habitat>Subalpine and upper montane coniferous forests</habitat>
-  <elevation>1200–2200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species marshallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Coville &amp; Britton" date="unknown">marshallii</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species marshallii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>40.</number>
+  <other_name type="common_name">Marshall’s or Hupa gooseberry</other_name>
   <discussion>Ribes marshallii occurs in the Coast Ranges of northernmost California and in the Klamath Mountains in Josephine County, Oregon.</discussion>
-</treatment>
+</bio:treatment>

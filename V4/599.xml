@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Kochia</genus_name><species_name>scoparia</species_name><species_authority>(Linnaeus) Schrader</species_authority><place_of_publication>
-    <publication_title>Neues J. Bot.</publication_title>
-    <place_in_publication>3: 85. 1809</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Chenopodium</genus_name><species_name>scoparium</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>1: 221. 1753 (as scoparia)</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Subspecies 2–4 (1 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>Europe</global_distribution><global_distribution>Asia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kochia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Schrader" date="unknown">scoparia</taxon_name>
+    <place_of_publication>
+      <publication_title>Neues J. Bot.</publication_title>
+      <place_in_publication>3: 85. 1809</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Kochia;species scoparia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">scoparium</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 221. 1753 (as scoparia)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;species scoparium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Subspecies 2–4 (1 in the flora):</discussion>
+</bio:treatment>

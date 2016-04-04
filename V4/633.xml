@@ -1,79 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <species_name>gmelinii</species_name>
-        <species_authority>C. A. Meyer ex Bongard</species_authority>
-        <variety_name>gmelinii</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>drymarioides</species_name>
-        <species_authority>Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>gmelinii</species_name>
-        <variety_name>zosterifolia</variety_name>
-        <variety_authority>(Hooker) Moquin-Tandon</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>patula</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <subspecies_name>obtusa</subspecies_name>
-        <subspecies_authority>(Chamisso) H. M. Hall &amp; Clements</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>patula</species_name>
-        <variety_name>obtusa</variety_name>
-        <variety_authority>(Chamisso) C. L. Hitchcock</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>patula</species_name>
-        <subspecies_name>zosterifolia</subspecies_name>
-        <subspecies_authority>(Hooker) H. M. Hall &amp; Clements</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>patula</species_name>
-        <variety_name>zosterifolia</variety_name>
-        <variety_authority>(Hooker) C. L. Hitchcock</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>zosterifolia</species_name>
-        <species_authority>(Hooker) S. Watson</species_authority>
-    </TaxonIdentification>
-    <description>Stems sprawling or erect to ascending, branched from base or rarely simple, 0.5–7.5
-        dm; proximal branches mostly elongated and prostrate. Leaves alternate, except proximalmost;
-        petiole 0.5–1.5 cm; blade green on both sides, oblong to lance-oblong or linear, 9–100 ×
-        1–50 mm, base mostly rounded to tapering into petiole or more rarely broadly cuneate from
-        hastate base, margin entire, apex acute or acuminate or more rarely obtuse, glabrous or
-        nearly so. Flowers glomerate in rather loose, spiciform inflorescences; staminate ones
-        5-merous. Fruiting bracteoles darkening at maturity, sessile or stipitate, ovate or
-        lance-oblong to orbiculate, (0.5–)4–10(–25) mm, distinct nearly to base, margin entire or
-        rarely with 1–3 teeth, apex acuminate to acute, often bulging on both sides of impressed
-        midnerve, at first mealy, finally glabrate. Seeds dimorphic: some black, convex, 1.5–2 mm
-        wide, lustrous, others pale brown, flat, 1.7–3 mm wide; radicle inferior or
-        subascending.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>seashores</habitat>
-    <habitat>strands</habitat>
-    <habitat>salt marshes</habitat>
-    <elevation>0–50 m;</elevation>
-    <ca_distribution>B.C.</ca_distribution>
-    <ca_distribution>N.W.T.</ca_distribution>
-    <us_distribution>Alaska</us_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <discussion>Atriplex gmelinii var. gmelinii occurs with Elymus, Juncus, Salicornia, Distichlis,
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="C. A. Meyer ex Bongard" date="unknown">gmelinii</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Moquin-Tandon" date="unknown">gmelinii</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species gmelinii;variety gmelinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">drymarioides</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species drymarioides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">gmelinii</taxon_name>
+    <taxon_name rank="variety" authority="(Chamisso) C. L. Hitchcock" date="unknown">zosterifolia</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species gmelinii;variety zosterifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) S. Watson" date="unknown">patula</taxon_name>
+    <taxon_name rank="subspecies" authority="(Chamisso) H. M. Hall &amp; Clements" date="unknown">obtusa</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species patula;subspecies obtusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">patula</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) C. L. Hitchcock" date="unknown">obtusa</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species patula;variety obtusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">patula</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) H. M. Hall &amp; Clements" date="unknown">zosterifolia</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species patula;subspecies zosterifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">patula</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">zosterifolia</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species patula;variety zosterifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">zosterifolia</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species zosterifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5a.</number>
+  <discussion>Atriplex gmelinii var. gmelinii occurs with Elymus, Juncus, Salicornia, Distichlis,
         Arenaria, Glaux, and Mertensia. Plants included herein vary considerably both in stature
         from diminutive plants a few centimeters to very large ones to more than 7 dm, and they also
         vary in size and shape of leaves from linear to lanceolate or ovate. Dwarf plants with
@@ -82,4 +63,4 @@
         occur commonly below the high-level oceanic tides, while plants with broad, thin and
         occasionally hastate leaves are present in immediately adjacent areas above the level of the
         tide.</discussion>
-</treatment>
+</bio:treatment>

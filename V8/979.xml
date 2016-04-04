@@ -1,58 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lyonia</genus_name>
-    <species_name>ligustrina</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
-    <variety_name>foliosiflora</variety_name>
-    <variety_authority>(Michaux) Fernald</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">ligustrina</taxon_name>
+    <taxon_name rank="variety" authority="(Michaux) Fernald" date="unknown">foliosiflora</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>10: 53. 1908,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>paniculata</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>foliosiflora</variety_name>
-    <variety_authority>Michaux</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Lyonia;species ligustrina;variety foliosiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">paniculata</taxon_name>
+    <taxon_name rank="variety" authority="Michaux" date="unknown">foliosiflora</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 255. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lyonia</genus_name>
-    <species_name>ligustrina</species_name>
-    <variety_name>capreifolia</variety_name>
-    <variety_authority>(P. Watson) de Candolle</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lyonia</genus_name>
-    <species_name>ligustrina</species_name>
-    <variety_name>salicifolia</variety_name>
-    <variety_authority>(P. Watson) de Candolle</variety_authority>
-  </TaxonIdentification>
-  <description>Buds glabrous or densely hairy. Inflorescences conspicuously bracteate, or at least
-        proximal inflorescences with leaflike bracts; bracts variable, some leaflike, 5–30 mm,
-        others 1–2 mm, similar to bracteoles. Pedicels 2.5–10 mm.</description>
-  <phenology>Flowering spring–early summer</phenology>
-  <habitat>Moist pine forests and flatwoods, acid shrub thickets and shrub bogs, streamhead
-        pocosins and baygalls, marshy areas, beaver pond margins, stream or pond margins, acidic
-        swamps</habitat>
-  <elevation>0–300 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Andromeda;species paniculata;variety foliosiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ligustrina</taxon_name>
+    <taxon_name rank="variety" authority="(P. Watson) de Candolle" date="unknown">capreifolia</taxon_name>
+    <taxon_hierarchy>genus Lyonia;species ligustrina;variety capreifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ligustrina</taxon_name>
+    <taxon_name rank="variety" authority="(P. Watson) de Candolle" date="unknown">salicifolia</taxon_name>
+    <taxon_hierarchy>genus Lyonia;species ligustrina;variety salicifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+</bio:treatment>

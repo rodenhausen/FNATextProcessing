@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Barbula</genus_name>
-    <species_name>convoluta</species_name>
-    <species_authority>Hedwig</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">convoluta</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>120.  1801,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems to 1–1.5 cm.  Leaves firm when wet, long-ligulate to broadly lanceolate from an oblong base, seldom ovate, 1–1.7 mm, base often elliptic, widened not strongly sheathing, margins plane or weakly recurved in proximal 1/3, apex broadly acute to rounded, entire or apiculate; costa ending 1–6 cells before the apex, rarely excurrent, abaxial costal surface with scattered solid papillae, hydroids absent; distal laminal cells firm-walled, quadrate, 8–10 µm wide, 1:1, papillose.  Specialized asexual reproduction by large, spheric to elliptic, red-brown tubers born on an often dense mass of rhizoids buried in soil, 100 to 250 µm long, or in var. gallinula by large gemmae, 120–250 µm, occurring usually singly in leaf axils.  Perichaetial leaves obtuse to broadly acute strongly sheathing and convolute; antheridiate plants short-stemmed (to 2 mm), appearing as buds on soil at base of archegoniate plants.  Seta 1–1.8 cm.  Theca 0.8–1.2 mm.  Spores 10–12 µm.</description>
-  <number_of_infrataxa>Varieties 6 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand).</us_distribution>
+    <taxon_hierarchy>genus Barbula;species convoluta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 6 (3 in the flora):</discussion>
   <discussion>The yellow seta, mostly plane margins, and large tubers, when present, buried in the soil, and the operculum commonly as long as the theca readily distinguish Barbula convoluta from the similar B. unguiculata.  Bryoerythrophyllum ferruginascens also has tubers, but the lamina is red in KOH solution.  The small antheridiate plants that appear as buds on the soil indicate the possibility of rhizautoicy, as noted by A. Casares-Gil and A. Caballero (1919–1932, vol. 2), but, because they are usually grouped, they may have been generated on protonema of a separate spore.  This is one of the few species of the family to fruit in the Arctic.  When sterile, Barbula convoluta may be quickly distinguished from the hygrophile Gymnostomum aeruginosum by its leaves very deeply keeled distal to mid leaf, and leaf tips more commonly reflexed and more broadly acute or rounded.  Barbula convoluta differs from B. indica by its simple papillae on the abaxial surface of the costa and the commonly papillose clear cell of the apiculus, when present.  Syntrichia amplexa is occasionally mistaken for B. convoluta but is immediately identified by its recurved leaf margins and red color in KOH.  Although var. eustegia is clearly a western taxon, attempting to ascribe North American sterile collections to either var. eustegia or the typical variety (or fertile collections to any European variety with consistency in character combination) is presently futile (R. H. Zander 1997).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves ovate; specialized asexual reproduction as very large, oval gemmae in axils of distal leaves</statement>
+      <description type="morphology">Leaves ovate; specialized asexual reproduction as very large, oval gemmae in axils of distal leaves</description>
       <determination>3c.   Barbula convoluta var. gallinula</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves long-ligulate to broadly lanceolate, seldom ovate; specialized asexual reproduction as spheric tubers on proximal rhizoids buried in soil.</statement>
+      <description type="morphology">Leaves long-ligulate to broadly lanceolate, seldom ovate; specialized asexual reproduction as spheric tubers on proximal rhizoids buried in soil.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perichaetial leaves highly differentiated, strongly sheathing the seta, apex obtuse to rounded and laminal cells mostly rhomboid and smooth throughout</statement>
+      <description type="morphology">Perichaetial leaves highly differentiated, strongly sheathing the seta, apex obtuse to rounded and laminal cells mostly rhomboid and smooth throughout</description>
       <determination>3a.   Barbula convoluta var. convoluta</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perichaetial leaves weakly differentiated, more loosely sheathing the seta, apex abruptly acute to subulate and laminal cells often quadrate and papillose in distal 1/4</statement>
+      <description type="morphology">Perichaetial leaves weakly differentiated, more loosely sheathing the seta, apex abruptly acute to subulate and laminal cells often quadrate and papillose in distal 1/4</description>
       <determination>3b.   Barbula convoluta var. eustegia</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

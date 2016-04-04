@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="R. Brown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="section" authority="C. T. Mason" date="unknown">Limnanthes</taxon_name>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Limnanthes;section Limnanthes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Reflexae</taxon_name>
+    <taxon_hierarchy>genus Limnanthes;section Reflexae;</taxon_hierarchy>
+  </taxon_identification>
   <number>2a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Limnanthes</genus_name>
-    <genus_authority>R. Brown</genus_authority>
-    <section_name>Limnanthes</section_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Limnanthes</genus_name>
-    <section_name>Reflexae</section_name>
-    <section_authority>C. T. Mason</section_authority>
-  </TaxonIdentification>
-  <description>Herbage glabrous. Flowers usually 5-merous (4 in L. macounii); sepals not accrescent; petals flexed outward (reflexed) as fruits mature, white, bright to pale yellow, or yellow with white tips, veins translucent, purplish, pink, rose, white, or cream, sometimes aging or drying lilac, pink, chartreuse, or pale yellow, longer than sepals, with marginal hairs basally.</description>
-  <number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+  <discussion>Species 4 (4 in the flora):</discussion>
   <references>
     <reference>Kesseli, R. V. and S. K. Jain. 1984b. New variation and biosystematic patterns detected by allozyme and morphological comparison in Limnanthes sect. Reflexae (Limnanthaceae). Pl. Syst. Evol. 147: 133–164.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals 4; petals 4; stems decumbent (sometimes upcurved apically)</statement>
+      <description type="morphology">Sepals 4; petals 4; stems decumbent (sometimes upcurved apically)</description>
       <determination>3. Limnanthes macounii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals 5; petals 5; stems erect or ascending.</statement>
+      <description type="morphology">Sepals 5; petals 5; stems erect or ascending.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaflet blade margins usually toothed or lobed, sometimes entire; sepals 4–10 mm</statement>
+      <description type="morphology">Leaflet blade margins usually toothed or lobed, sometimes entire; sepals 4–10 mm</description>
       <determination>4. Limnanthes douglasii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaflet blade margins usually entire (rarely 2- or 3-lobed); sepals 5–7 mm.</statement>
+      <description type="morphology">Leaflet blade margins usually entire (rarely 2- or 3-lobed); sepals 5–7 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 7–9 mm; styles 2–3 mm</statement>
+      <description type="morphology">Petals 7–9 mm; styles 2–3 mm</description>
       <determination>1. Limnanthes bakeri</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 12–18 mm; styles 4.5–6.5 mm</statement>
+      <description type="morphology">Petals 12–18 mm; styles 4.5–6.5 mm</description>
       <determination>2. Limnanthes vinculans</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

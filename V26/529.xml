@@ -1,34 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>46.</number><TaxonIdentification Status="ACCEPTED"><genus_name>CRINUM</genus_name><genus_authority>Linnaeus</genus_authority><place_of_publication>
-    <publication_title>Sp. Pl.</publication_title>
-    <place_in_publication>1: 291. 1753</place_in_publication>
-  </place_of_publication><place_of_publication>
-    <publication_title>Gen. Pl. ed.</publication_title>
-    <place_in_publication>5, 141. 1754</place_in_publication>
-  </place_of_publication></TaxonIdentification><etymology>[Greek krinon , a lily]</etymology><common_name>String-lily</common_name><common_name>swamp-lily</common_name><author>Walter C. Holmes</author><description>Herbs, perennial, scapose, from bulbs with elongate columnar apices. Leaves basal, thick; blade lorate or ensiform, not narrowed near base. Scape solid. Inflorescences umbellate, few- to many-flowered, subtended by 2 large, lanceolate, scarious bracts. Flowers sessile or pedicellate; perianth connate proximally, red to white, often striped, streaked, or overlaid with red abaxially, funnelform to salverform to semicampanulate, tube straight to curved, ca. same length as limb lobes; stamens inserted on perianth tube throat; filaments thin, often declinate; ovary inferior, globose; style slender; stigma capitate. Fruits capsular, globose or subglobose, usually prominently beaked. Seeds fleshy, testa often corky.</description><number_of_infrataxa>Species ca. 100 (4 in the flora):</number_of_infrataxa><global_distribution>tropical and warm regions worldwide</global_distribution><global_distribution>mostly in Africa.</global_distribution><references>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Walter C. Holmes</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CRINUM</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 291. 1753</place_in_publication>
+    </place_of_publication>
+    <place_of_publication>
+      <publication_title>Gen. Pl. ed.</publication_title>
+      <place_in_publication>5, 141. 1754</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus CRINUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek krinon , a lily]</other_info_on_name>
+  </taxon_identification>
+  <number>46.</number>
+  <other_name type="common_name">String-lily</other_name>
+  <other_name type="common_name">swamp-lily</other_name>
+  <discussion>Species ca. 100 (4 in the flora):</discussion>
+  <references>
     <reference>  Moldenke, H. N. 1962. Amaryllid genera and species. Pl. Life 18: 48–50.  Wunderlin, R. P., B. F. Hansen, and D. W. Hall. 1985. The vascular flora of central Florida: Taxonomic and nomenclatural changes, additional taxa. Sida 11: 232–244.</reference>
-  </references><key><key_statement>
+  </references>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers sessile or nearly so.</statement>
+      <description type="morphology">Flowers sessile or nearly so.</description>
       <next_statement_id>2.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perianth white</statement>
+      <description type="morphology">Perianth white</description>
       <determination>1.  Crinum americanum</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perianth purplish red, particularly abaxially</statement>
+      <description type="morphology">Perianth purplish red, particularly abaxially</description>
       <determination>4.  Crinum zeylanicum</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowers distinctly pedicellate.</statement>
+      <description type="morphology">Flowers distinctly pedicellate.</description>
       <next_statement_id>3.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perianth pink to red; leaves 3–5 cm wide; umbels 8–13-flowered</statement>
+      <description type="morphology">Perianth pink to red; leaves 3–5 cm wide; umbels 8–13-flowered</description>
       <determination>3.  Crinum bulbispermum</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perianth white; leaves 7.5–12 cm wide; umbels 20–100-flowered</statement>
+      <description type="morphology">Perianth white; leaves 7.5–12 cm wide; umbels 20–100-flowered</description>
       <determination>2.  Crinum asiaticum</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

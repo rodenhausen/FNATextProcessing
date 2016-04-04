@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silphium</genus_name><species_name>radula</species_name><species_authority>Nuttall</species_authority><variety_name>gracile</variety_name><variety_authority>(A. Gray) J. A. Clevinger</variety_authority><place_of_publication>
-    <publication_title>Novon</publication_title>
-    <place_in_publication>14: 277. 2004</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Slender rosinweed</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Silphium</genus_name><species_name>gracile</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>8: 653. 1873</place_in_publication></place_of_publication></TaxonIdentification><description>Plants 30–100 cm. Basal leaves persistent. Heads to 15. Ray florets 12–18. Disc florets 100–150. 2n = 14.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>prairies</habitat><habitat>fencerows</habitat><habitat>roadsides</habitat><elevation>0–300 m;</elevation><us_distribution>La.</us_distribution><us_distribution>Tex.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">radula</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) J. A. Clevinger" date="unknown">gracile</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>14: 277. 2004</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Silphium;species radula;variety gracile;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">gracile</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>8: 653. 1873</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Silphium;species gracile;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8b.</number>
+  <other_name type="common_name">Slender rosinweed</other_name>
+</bio:treatment>

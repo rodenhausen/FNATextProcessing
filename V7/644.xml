@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Coincya</genus_name>
-    <species_name>monensis</species_name>
-    <species_authority>(Linnaeus) Greuter &amp; Burdet</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Coincya</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Greuter &amp; Burdet" date="unknown">monensis</taxon_name>
     <place_of_publication>
       <publication_title>Willdenowia</publication_title>
       <place_in_publication>13: 87. 1983</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>monense</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus Coincya;species monensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">monense</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 658. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Subspecies 5 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>Africa (Morocco).</global_distribution>
+    <taxon_hierarchy>genus Sisymbrium;species monense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Subspecies 5 (1 in the flora):</discussion>
   <discussion>Coincya monensis is a variable species, within which, in spite of lack of clear discontinuities in variation patterns, E. A. Leadlay and V. H. Heywood (1990) recognized five subspecies and divided subsp. recurvata into four varieties, not recognized here.</discussion>
-</treatment>
+</bio:treatment>

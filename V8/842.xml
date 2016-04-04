@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>55b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>nevadensis</species_name>
-    <species_authority>A. Gray</species_authority>
-    <subspecies_name>knightii</subspecies_name>
-    <subspecies_authority>(Gankin &amp; Hildreth) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">nevadensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Gankin &amp; Hildreth) P. V. Wells" date="unknown">knightii</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>35: 335.  1989  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Knight’s manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>knightii</species_name>
-    <species_authority>Gankin &amp; Hildreth</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species nevadensis;subspecies knightii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Gankin &amp; Hildreth" date="unknown">knightii</taxon_name>
     <place_of_publication>
       <publication_title>Four Seasons</publication_title>
       <place_in_publication>3(3): 24.  1970</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants resprouting after fire; burl basal or epicormic.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>High-elevation forests and montane chaparral</habitat>
-  <elevation>600–2000 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species knightii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>55b.</number>
+  <other_name type="common_name">Knight’s manzanita</other_name>
   <discussion>Subspecies knightii occurs in the northern North Coast Ranges (Del Norte and Humboldt counties), sometimes at lower elevations on serpentinelike soils.  It probably extends into southern Oregon but this has yet to be confirmed by field observation and collections.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Pycreus</subgenus_name><subgenus_authority>(Palisot de Beauvois) J. Carey</subgenus_authority><place_of_publication>
-    <publication_title>Carices North. U. S.,</publication_title>
-    <place_in_publication>517. 1847</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><subgenus_name>Pycreus</subgenus_name><subgenus_authority>Palisot de Beauvois</subgenus_authority><place_of_publication><publication_title>Fl. Oware </publication_title><place_in_publication>2: 48. 1816</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><section_name>Pycreus</section_name><section_authority>(Palisot de Beauvois) Grisebach</section_authority></TaxonIdentification><description>Culms and leaves with Kranz (chlorocyperoid) anatomy. Inflorescences: spikes; rachilla persistent, wingless or nearly so. Spikelets borne in loosely spicate to ± digitate clusters; floral scales deciduous, 2-keeled or folded. Flowers: stamens (1–)2–3; pistils 2; stigmas 2. Achenes biconvex or ± cylindric, laterally compressed, edge borne toward rachilla.</description><number_of_infrataxa>Species ca. 100 (11 in the flora):</number_of_infrataxa><global_distribution>worldwide.</global_distribution><discussion>Laterally compressed, biconvex achenes, a feature not occurring elsewhere in the family, distinguish Cyperus subg. Pycreus. The taxon has been treated as a genus in Flora Mesoamericana (C. D. Adams 1994), an idea that may have merit.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Palisot de Beauvois) J. Carey" date="unknown">Pycreus</taxon_name>
+    <place_of_publication>
+      <publication_title>Carices North. U. S.,</publication_title>
+      <place_in_publication>517. 1847</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;subgenus Pycreus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Palisot de Beauvois" date="unknown">Pycreus</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Oware</publication_title>
+      <place_in_publication>2: 48. 1816</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>subgenus Pycreus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="section" authority="(Palisot de Beauvois) Grisebach" date="unknown">Pycreus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;section Pycreus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15b.</number>
+  <discussion>Species ca. 100 (11 in the flora):</discussion>
+  <discussion>Laterally compressed, biconvex achenes, a feature not occurring elsewhere in the family, distinguish Cyperus subg. Pycreus. The taxon has been treated as a genus in Flora Mesoamericana (C. D. Adams 1994), an idea that may have merit.</discussion>
+</bio:treatment>

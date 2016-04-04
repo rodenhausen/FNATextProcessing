@@ -1,49 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tortula</genus_name>
-    <species_name>porteri</species_name>
-    <species_authority>(James) Brotherus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="(James) Brotherus" date="unknown">porteri</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler and K. Prantl, Nat. Pflanzenfam.</publication_title>
       <place_in_publication>214[I,3]: 430.  1902,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Desmatodon</genus_name>
-    <species_name>porteri</species_name>
-    <species_authority>James</species_authority>
+    <taxon_hierarchy>genus Tortula;species porteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmatodon</taxon_name>
+    <taxon_name rank="species" authority="James" date="unknown">porteri</taxon_name>
     <place_of_publication>
       <publication_title>in C. F. Austin, Musci Appalach.,</publication_title>
       <place_in_publication>123.  1870</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Desmatodon</genus_name>
-    <species_name>fisherae</species_name>
-    <species_authority>H. A. Crum</species_authority>
-  </TaxonIdentification>
-  <description>Leaves broadly ovate-lanceolate, apex broadly acute or occasionally rounded, not or weakly apiculate, margins plane, always distinctly bordered nearly throughout with 2–4 rows of narrower, thicker-walled, smooth or weakly papillose cells; costa percurrent or ending in an apiculus, lacking an adaxial pad of cells, distally of even thickness, 4(–6) cells across adaxial surface; distal laminal cells hexagonal or sometimes subquadrate, width 11–15 µm, 1:1; hollow-papillose medially.  Sexual condition dioicous.  Sporophytes exerted.  Seta 0.5–0.8(–1) cm.  Capsule stegocarpic, not systylius, cylindric, erect and nearly straight, urn 1.1–1.5(–1.8) mm; peristome 200–350 µm, weakly twisted, teeth of 32 rather short filaments variously anastomosing proximally, basal membrane 60–100 µm; operculum 0.4–0.8 mm.  Spores 8–10 µm, spheric, finely papillose or nearly smooth.</description>
-  <phenology>Capsules mature spring.</phenology>
-  <habitat>Limestone or dolomitic rock;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <global_distribution>South America (Venezuela).</global_distribution>
+    <taxon_hierarchy>genus Desmatodon;species porteri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Desmatodon</taxon_name>
+    <taxon_name rank="species" authority="H. A. Crum" date="unknown">fisherae</taxon_name>
+    <taxon_hierarchy>genus Desmatodon;species fisherae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
   <discussion>A report of Tortula porteri by Ced. L. Porter (1937) from Wyoming is doubtful.  This species is quite like Hennediella in leaf traits such as plane margins, flattened superficial laminal cell walls, and border of elongate, thick-walled cells, but is yellow in KOH solution and lacks marginal teeth.  The two genera intergrade somewhat and a less arbitrary distinction than simple emphasis on KOH color reaction awaits more study.  This species is distinguished from T. obtusifolia by the more acute leaves with plane margins.</discussion>
-</treatment>
+</bio:treatment>

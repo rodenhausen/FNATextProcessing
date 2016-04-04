@@ -1,59 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Glaucium</genus_name>
-        <species_name>flavum</species_name>
-        <species_authority>Crantz</species_authority>
-        <place_of_publication>
-            <publication_title> Stirp. Austr. Fasc. </publication_title>
-            <place_in_publication>2: 133. 1763</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Yellow horned-poppy</common_name>
-    <illustrated>illustrated</illustrated>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chelidonium</genus_name>
-        <species_name>glaucium</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>1: 506. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Glaucium</genus_name>
-        <species_name>luteum</species_name>
-        <species_authority>Scopoli</species_authority>
-    </TaxonIdentification>
-    <description>Plants biennial or perennial, to 8 dm. Stems branching. Leaves to 30 cm; basal
-        numerous, blade densely pubescent; basal and proximal cauline with blade lyrate, 7-9-lobed;
-        distal with blade ovate, cordate, distinctly clasping stem; margins deeply dentate. Flowers:
-        pedicels stout, to 4 cm; sepals 20-30 mm; petals yellow, sometimes orangish, sometimes with
-        reddish to violet basal spot, obovate, 25-40 mm. Capsules sublinear, mostly distinctly
-        curved, sometimes straight, to 30 cm, glabrous, tuberculate, or scabrous. 2n =
-        12.</description>
-    <phenology>Flowering summer</phenology>
-    <habitat> Open sandy shores and flats, waste places, and on ballast</habitat>
-    <elevation> 0-200 m</elevation>
-    <introduced> introduced</introduced>
-    <ca_distribution> Ont.</ca_distribution>
-    <us_distribution> Colo.</us_distribution>
-    <us_distribution> Conn.</us_distribution>
-    <us_distribution> Md.</us_distribution>
-    <us_distribution> Mass.</us_distribution>
-    <us_distribution> Mich.</us_distribution>
-    <us_distribution> N.J.</us_distribution>
-    <us_distribution> N.Y.</us_distribution>
-    <us_distribution> Okla.</us_distribution>
-    <us_distribution> Oreg.</us_distribution>
-    <us_distribution> Pa.</us_distribution>
-    <us_distribution> R.I.</us_distribution>
-    <us_distribution> Va.</us_distribution>
-    <global_distribution> Europe</global_distribution>
-    <global_distribution> sw Asia.</global_distribution>
-    <discussion>Native from the Black Sea and Transcaucasus to coastal southern and western Europe,
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Glaucium</taxon_name>
+    <taxon_name rank="species" authority="Crantz" date="unknown">flavum</taxon_name>
+    <place_of_publication>
+      <publication_title>Stirp. Austr. Fasc.</publication_title>
+      <place_in_publication>2: 133. 1763</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Glaucium;species flavum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chelidonium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">glaucium</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 506. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chelidonium;species glaucium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Glaucium</taxon_name>
+    <taxon_name rank="species" authority="Scopoli" date="unknown">luteum</taxon_name>
+    <taxon_hierarchy>genus Glaucium;species luteum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Yellow horned-poppy</other_name>
+  <discussion>illustrated</discussion>
+  <discussion>Native from the Black Sea and Transcaucasus to coastal southern and western Europe,
         and also well established as a ruderal in central Europe, Glaucium flavum has spread far
         beyond that range as a ballast waif and occasional garden escape. It should be expected
         elsewhere in the flora.</discussion>
-</treatment>
+</bio:treatment>

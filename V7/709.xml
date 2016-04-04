@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>40.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CARDAMINE</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz,Karol Marhold,Judita Lihová</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CARDAMINE</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 654. 1753</place_in_publication>
@@ -12,27 +18,24 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 295. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek kardamon , name for a cress]</etymology>
-  <common_name>Bittercress</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <author>Karol Marhold</author>
-  <author>Judita Lihová</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dentaria</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dracamine</genus_name>
-    <genus_authority>Nieuwland</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Loxostemon</genus_name>
-    <genus_authority>Hooker f. &amp; Thomson</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals, biennials, or perennials; (perennials usually rhizomatous, sometimes tuberiform, stolons present in C. flagellifera, caudex present in C. bellidifolia); not scapose (subscapose in C. bellidifolia); glabrous or pubescent. Stems erect, ascending, decumbent, or prostrate, unbranched or branched. Leaves: cauline, rhizomal, or basal; rhizomal and basal rosulate or not, petiolate, blade margins entire, toothed, or 1–3-pinnatisect, or palmately lobed, sometimes trifoliolate, pinnately, palmately, or bipinnately compound (leaflets petiolulate, subsessile, or sessile); cauline (usually alternate, rarely opposite or whorled) petiolate or sessile, blade (base cuneate, attenuate, or auriculate to sagittate), margins entire, dentate, or variously lobed, (leaflets petiolulate or sessile). Racemes (corymbose or paniculate, bracteate in C. pattersonii), elongated in fruit. Fruiting pedicels erect, ascending, divaricate, or reflexed, slender or stout. Flowers: sepals (caducous), usually erect, rarely spreading or ascending, ovate or oblong, lateral pair saccate or not basally, (usually glabrous, rarely pubescent); petals (rarely absent), white, pink, purple, or lilac, obovate, spatulate, or oblanceolate, claw absent or strongly differentiated from blade, (apex obtuse, rounded, emarginate, or subemarginate); stamens (6, rarely 4), equal in length; filaments not dilated basally; anthers ovate, oblong, or linear, (apex obtuse), glabrous [rarely pubescent]; nectar glands confluent, lateral glands annular or semiannular, subtending bases of stamens, median glands present (2, rarely 4) or absent. Fruits siliques, sessile, usually linear, rarely narrowly oblong or narrowly lanceolate, smooth or torulose, latiseptate; valves (papery, elastically dehiscent, becoming spirally or circinately coiled) each not veined, glabrous or, rarely, pubescent; replum strongly flattened; septum complete, (membranous); ovules 4–80 per ovary; style usually distinct, rarely obsolete; stigma capitate. Seeds uniseriate, flattened, usually not winged, rarely margined or winged, oblong, ovoid, or globose; seed coat (smooth, minutely reticulate, colliculate, or rugose) mucilaginous or not when wetted; cotyledons accumbent, rarely incumbent. x = 7, 8.</description>
-  <number_of_infrataxa>Species ca. 200 (39 in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus CARDAMINE;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek kardamon , name for a cress]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Dentaria</taxon_name>
+    <taxon_hierarchy>genus Dentaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Nieuwland" date="unknown">Dracamine</taxon_name>
+    <taxon_hierarchy>genus Dracamine;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Hooker f. &amp; Thomson" date="unknown">Loxostemon</taxon_name>
+    <taxon_hierarchy>genus Loxostemon;</taxon_hierarchy>
+  </taxon_identification>
+  <number>40.</number>
+  <other_name type="common_name">Bittercress</other_name>
+  <discussion>Species ca. 200 (39 in the flora):</discussion>
   <discussion>R. C. Rollins (1993) recognized 50 species and 18 varieties of Cardamine in North America minus Greenland. Of these, 14 species are restricted to Central America and one, C. ×incisa (Eames) K. Schumann, is not recognized here. The oversplitting of some species into poorly delimited varieties is avoided in this account, and four species (C. blaisdellii, C. holmgrenii, C. nymanii, C. umbellata) are added to the flora. Cardamine corymbosa Hooker f., a native of New Zealand, apparently is becoming naturalized in greenhouses and in some gardens in British Columbia, as evidenced from Lomer 4368 (MO), a specimen collected in Sechelt Peninsula on 6 June 2002.</discussion>
   <references>
     <reference>Detling, L. E. 1936. The genus Dentaria in the Pacific states. Amer. J. Bot. 23: 570–576.</reference>
@@ -47,413 +50,413 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Racemes bracteate</statement>
+      <description type="morphology">Racemes bracteate</description>
       <determination>32. Cardamine pattersonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Racemes ebracteate.</statement>
+      <description type="morphology">Racemes ebracteate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves (at least some) simple (rarely absent).</statement>
+      <description type="morphology">Cauline leaves (at least some) simple (rarely absent).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petioles of cauline leaves auriculate basally</statement>
+      <description type="morphology">Petioles of cauline leaves auriculate basally</description>
       <determination>8. Cardamine clematitis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petioles of cauline leaves not auriculate basally (rarely these leaves absent).</statement>
+      <description type="morphology">Petioles of cauline leaves not auriculate basally (rarely these leaves absent).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants with distinct caudices; rhizomes absent; cauline leaves 0 or 1 (or 2)</statement>
+      <description type="morphology">Plants with distinct caudices; rhizomes absent; cauline leaves 0 or 1 (or 2)</description>
       <determination>3. Cardamine bellidifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants without caudices; rhizomes present; cauline leaves 2–23 (sometimes 1 in C. purpurea ).</statement>
+      <description type="morphology">Plants without caudices; rhizomes present; cauline leaves 2–23 (sometimes 1 in C. purpurea ).</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petals 0–0.7 mm; fruiting pedicels 0.5–2(–4) mm</statement>
+      <description type="morphology">Petals 0–0.7 mm; fruiting pedicels 0.5–2(–4) mm</description>
       <determination>21. Cardamine longii</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petals 3.5–28 mm; fruiting pedicels (5–)7–50 mm.</statement>
+      <description type="morphology">Petals 3.5–28 mm; fruiting pedicels (5–)7–50 mm.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Ovules 40–80 per ovary</statement>
+      <description type="morphology">Ovules 40–80 per ovary</description>
       <determination>37. Cardamine rotundifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Ovules 10–24 per ovary.</statement>
+      <description type="morphology">Ovules 10–24 per ovary.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruits 0.8–1.6 cm × 0.8–1 mm; anthers ovate, ca. 0.2 mm; petals</statement>
+      <description type="morphology">Fruits 0.8–1.6 cm × 0.8–1 mm; anthers ovate, ca. 0.2 mm; petals</description>
       <determination>24. Cardamine micranthera</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruits (1.5–)2–6 cm × 1.2–4 mm; anthers oblong to linear, 0.6–3 mm; petals (5–)7–28 × 3–7 mm.</statement>
+      <description type="morphology">Fruits (1.5–)2–6 cm × 1.2–4 mm; anthers oblong to linear, 0.6–3 mm; petals (5–)7–28 × 3–7 mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Rhizomes (not fleshy), 1–3 mm diam.; rhizomal leaves usually absent.</statement>
+      <description type="morphology">Rhizomes (not fleshy), 1–3 mm diam.; rhizomal leaves usually absent.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Petals 15–28 mm; sepals 6–8 mm</statement>
+      <description type="morphology">Petals 15–28 mm; sepals 6–8 mm</description>
       <determination>10. Cardamine constancei</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Petals 5–12 mm; sepals 2–4.5 mm.</statement>
+      <description type="morphology">Petals 5–12 mm; sepals 2–4.5 mm.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cauline leaves (3–)5–17(–23); petals white, 7–12 mm; fruits (2–)2.5–3.7(–4) cm; stems 2–7(–10.2) dm</statement>
+      <description type="morphology">Cauline leaves (3–)5–17(–23); petals white, 7–12 mm; fruits (2–)2.5–3.7(–4) cm; stems 2–7(–10.2) dm</description>
       <determination>11. Cardamine cordifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cauline leaves 1–3; petals usually purple to pink, rarely white, 5–7(–9) mm; fruits 1.5–2.5 cm; stems to</statement>
+      <description type="morphology">Cauline leaves 1–3; petals usually purple to pink, rarely white, 5–7(–9) mm; fruits 1.5–2.5 cm; stems to</description>
       <determination>36. Cardamine purpurea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Rhizomes (fleshy), (3–)4–18 mm diam.; rhizomal leaves present.</statement>
+      <description type="morphology">Rhizomes (fleshy), (3–)4–18 mm diam.; rhizomal leaves present.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Petals 3–5 mm wide; fruits 1.4–2 mm wide; e, c North America.</statement>
+      <description type="morphology">Petals 3–5 mm wide; fruits 1.4–2 mm wide; e, c North America.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals usually white, rarely pale pink; stem distally</statement>
+      <description type="morphology">Petals usually white, rarely pale pink; stem distally</description>
       <determination>6. Cardamine bulbosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Petals usually purple or pink, rarely white; stem distally with trichomes (0.2–)0.3–0.6(–0.8) mm</statement>
+      <description type="morphology">Petals usually purple or pink, rarely white; stem distally with trichomes (0.2–)0.3–0.6(–0.8) mm</description>
       <determination>15. Cardamine douglassii</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Petals 4–8 mm wide; fruits 2–4 mm; California.</statement>
+      <description type="morphology">Petals 4–8 mm wide; fruits 2–4 mm; California.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals white or pale rose, rarely purple, 8–13(–17) mm; ovules 12–22 per ovary; stems (2–)2.7–6(–7) dm; rhizomal leaves usually 3(–7)-foliolate, rarely simple</statement>
+      <description type="morphology">Petals white or pale rose, rarely purple, 8–13(–17) mm; ovules 12–22 per ovary; stems (2–)2.7–6(–7) dm; rhizomal leaves usually 3(–7)-foliolate, rarely simple</description>
       <determination>7. Cardamine californica (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Petals usually purple or pink, rarely white, 14–18 mm; ovules 10–14 per ovary; stems 1–3 dm; rhizomal</statement>
+      <description type="morphology">Petals usually purple or pink, rarely white, 14–18 mm; ovules 10–14 per ovary; stems 1–3 dm; rhizomal</description>
       <determination>30. Cardamine pachystigma</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves pinnately or palmately compound, 3–25-foliolate, sometimes pinnatisect and appearing compound.</statement>
+      <description type="morphology">Cauline leaves pinnately or palmately compound, 3–25-foliolate, sometimes pinnatisect and appearing compound.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Petiole of cauline leaves basally auriculate.</statement>
+      <description type="morphology">Petiole of cauline leaves basally auriculate.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Cauline leaves 3-foliolate; perennials (rhizomatous)</statement>
+      <description type="morphology">Cauline leaves 3-foliolate; perennials (rhizomatous)</description>
       <determination>8. Cardamine clematitis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Cauline leaves (9–)13–25-foliolate; annuals or biennials</statement>
+      <description type="morphology">Cauline leaves (9–)13–25-foliolate; annuals or biennials</description>
       <determination>20. Cardamine impatiens</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Petiole of cauline leaves not basally auriculate.</statement>
+      <description type="morphology">Petiole of cauline leaves not basally auriculate.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Annuals or biennials, not rhizomatous.</statement>
+      <description type="morphology">Annuals or biennials, not rhizomatous.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Rachises strongly flexuous to geniculate; petals 6–8 mm; fruits (2.5–)3–4.6 × 1.7–2.1 mm</statement>
+      <description type="morphology">Rachises strongly flexuous to geniculate; petals 6–8 mm; fruits (2.5–)3–4.6 × 1.7–2.1 mm</description>
       <determination>22. Cardamine macrocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Rachises not flexuous (slightly so in C. flexuosa ); petals 1.5–4(–5) mm; fruits (0.5–) 1–2.5(–3.2) × 0.6–1.5 mm.</statement>
+      <description type="morphology">Rachises not flexuous (slightly so in C. flexuosa ); petals 1.5–4(–5) mm; fruits (0.5–) 1–2.5(–3.2) × 0.6–1.5 mm.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaves rosulate, persistent to anthesis.</statement>
+      <description type="morphology">Basal leaves rosulate, persistent to anthesis.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Stamens usually 4, rarely 5 or 6; fruiting pedicels erect to ascending; fruitsoften appressed to rachis, valves glabrous; seeds narrowly margined</statement>
+      <description type="morphology">Stamens usually 4, rarely 5 or 6; fruiting pedicels erect to ascending; fruitsoften appressed to rachis, valves glabrous; seeds narrowly margined</description>
       <determination>18. Cardamine hirsuta</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Stamens 6; fruiting pedicels divaricate-ascending; fruits often not appressed to rachis, valves sparsely pubescent or glabrous; seeds often not margined</statement>
+      <description type="morphology">Stamens 6; fruiting pedicels divaricate-ascending; fruits often not appressed to rachis, valves sparsely pubescent or glabrous; seeds often not margined</description>
       <determination>29. Cardamine oligosperma</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaves not rosulate, often withered by anthesis.</statement>
+      <description type="morphology">Basal leaves not rosulate, often withered by anthesis.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Lateral leaflets of cauline leaves narrowly oblong, linear or filiform, 1–3 mm</statement>
+      <description type="morphology">Lateral leaflets of cauline leaves narrowly oblong, linear or filiform, 1–3 mm</description>
       <determination>31. Cardamine parviflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Lateral leaflets of cauline leaves orbicular, ovate, elliptic, or oblong, 4–25 mm wide; fruits 0.8–1.5 mm wide.</statement>
+      <description type="morphology">Lateral leaflets of cauline leaves orbicular, ovate, elliptic, or oblong, 4–25 mm wide; fruits 0.8–1.5 mm wide.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Rachises slightly flexuous; ovules 18–40 per ovary; plants of waste grounds,</statement>
+      <description type="morphology">Rachises slightly flexuous; ovules 18–40 per ovary; plants of waste grounds,</description>
       <determination>17. Cardamine flexuosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Rachises straight; ovules 40–80 per ovary; plants of margins of wet</statement>
+      <description type="morphology">Rachises straight; ovules 40–80 per ovary; plants of margins of wet</description>
       <determination>34. Cardamine pensylvanica</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Perennials, rhizomatous.</statement>
+      <description type="morphology">Perennials, rhizomatous.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Rhizomes tuberiform, usually segmented, fragile (segments fusiform, ovoid, oblong, or globose).</statement>
+      <description type="morphology">Rhizomes tuberiform, usually segmented, fragile (segments fusiform, ovoid, oblong, or globose).</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Cauline leaves biternate, distal lobes linear</statement>
+      <description type="morphology">Cauline leaves biternate, distal lobes linear</description>
       <determination>14. Cardamine dissecta</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Cauline leaves 3–11-foliolate, distal lobes not linear.</statement>
+      <description type="morphology">Cauline leaves 3–11-foliolate, distal lobes not linear.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Cauline leaves 5–11-foliolate</statement>
+      <description type="morphology">Cauline leaves 5–11-foliolate</description>
       <determination>33. Cardamine penduliflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Cauline leaves usually 3-, sometimes 5–7-foliolate, rarely simple.</statement>
+      <description type="morphology">Cauline leaves usually 3-, sometimes 5–7-foliolate, rarely simple.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Rhizomes moniliform; e, c United States.</statement>
+      <description type="morphology">Rhizomes moniliform; e, c United States.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Cauline leaves different from rhizomal leaves, usually alternate, rarely</statement>
+      <description type="morphology">Cauline leaves different from rhizomal leaves, usually alternate, rarely</description>
       <determination>2. Cardamine angustata</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Cauline leaves similar to rhizomal leaves, usually whorled or opposite,</statement>
+      <description type="morphology">Cauline leaves similar to rhizomal leaves, usually whorled or opposite,</description>
       <determination>9. Cardamine concatenata</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Rhizomes not moniliform; Pacific North America.</statement>
+      <description type="morphology">Rhizomes not moniliform; Pacific North America.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Middle cauline leaves 5- or 7-foliolate; sepals 1.7–2 mm; petals 4–6</statement>
+      <description type="morphology">Middle cauline leaves 5- or 7-foliolate; sepals 1.7–2 mm; petals 4–6</description>
       <determination>28. Cardamine occidentalis</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Middle cauline leaves 3(–5)-foliolate; sepals 3.5–5.5 mm; petals 8–15 mm.</statement>
+      <description type="morphology">Middle cauline leaves 3(–5)-foliolate; sepals 3.5–5.5 mm; petals 8–15 mm.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Cauline leaves 2–5; stems (2–)2.7–6(–7) dm; ovules 12–22 per</statement>
+      <description type="morphology">Cauline leaves 2–5; stems (2–)2.7–6(–7) dm; ovules 12–22 per</description>
       <determination>7. Cardamine californica (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Cauline leaves 1–3; stems 0.5–2(–3) dm; ovules 8–16 per ovary; petals usually purple to pale pink, rarely white; British Columbia,</statement>
+      <description type="morphology">Cauline leaves 1–3; stems 0.5–2(–3) dm; ovules 8–16 per ovary; petals usually purple to pale pink, rarely white; British Columbia,</description>
       <determination>26. Cardamine nuttallii</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Rhizomes cylindrical, segments not fragile.</statement>
+      <description type="morphology">Rhizomes cylindrical, segments not fragile.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Cauline leaves pinnatisect or (7–)9–21-foliolate.</statement>
+      <description type="morphology">Cauline leaves pinnatisect or (7–)9–21-foliolate.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Leaves thick, veins impressed</statement>
+      <description type="morphology">Leaves thick, veins impressed</description>
       <determination>27. Cardamine nymanii</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Leaves thin, veins raised</statement>
+      <description type="morphology">Leaves thin, veins raised</description>
       <determination>35. Cardamine pratensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Cauline leaves 3–5(–7)-foliolate.</statement>
+      <description type="morphology">Cauline leaves 3–5(–7)-foliolate.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Rhizomes compact at stem base, stolons present</statement>
+      <description type="morphology">Rhizomes compact at stem base, stolons present</description>
       <determination>16. Cardamine flagellifera</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Rhizomes slender, stolons absent.</statement>
+      <description type="morphology">Rhizomes slender, stolons absent.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Rhizomes fleshy, with dentate leaf scars; plants of North America east of the 110 th meridian.</statement>
+      <description type="morphology">Rhizomes fleshy, with dentate leaf scars; plants of North America east of the 110 th meridian.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Rhizomes somewhat uniform in diameter; cauline leaves (sub)</statement>
+      <description type="morphology">Rhizomes somewhat uniform in diameter; cauline leaves (sub)</description>
       <determination>13. Cardamine diphylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Rhizomes not uniform in diameter (distinctly constricted at intervals);</statement>
+      <description type="morphology">Rhizomes not uniform in diameter (distinctly constricted at intervals);</description>
       <determination>23. Cardamine maxima</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Rhizomes not fleshy, without dentate leaf scars; plants of North America west of the 110 th meridian.</statement>
+      <description type="morphology">Rhizomes not fleshy, without dentate leaf scars; plants of North America west of the 110 th meridian.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Plants cespitose, hirsute; petals purple or pink, rarely white</statement>
+      <description type="morphology">Plants cespitose, hirsute; petals purple or pink, rarely white</description>
       <determination>36. Cardamine purpurea (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Plants not cespitose, glabrous or sparsely pubescent or pilose; petals usually white, rarely pink.</statement>
+      <description type="morphology">Plants not cespitose, glabrous or sparsely pubescent or pilose; petals usually white, rarely pink.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Basal leaves rosulate; fruiting racemes subumbellate</statement>
+      <description type="morphology">Basal leaves rosulate; fruiting racemes subumbellate</description>
       <determination>39. Cardamine umbellata</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Basal leaves absent; fruiting racemes not subumbellate.</statement>
+      <description type="morphology">Basal leaves absent; fruiting racemes not subumbellate.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Sepals 1.2–1.5 mm; petals 2–2.5 × 0.8–1 mm; anthers 0.2–0.3 mm</statement>
+      <description type="morphology">Sepals 1.2–1.5 mm; petals 2–2.5 × 0.8–1 mm; anthers 0.2–0.3 mm</description>
       <determination>19. Cardamine holmgrenii</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Sepals 2–5 mm; petals 3.5–15 × 1.5–8 mm; anthers 0.7–1.5 mm.</statement>
+      <description type="morphology">Sepals 2–5 mm; petals 3.5–15 × 1.5–8 mm; anthers 0.7–1.5 mm.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Rhizomal leaves absent; ovules 14–28 per ovary</statement>
+      <description type="morphology">Rhizomal leaves absent; ovules 14–28 per ovary</description>
       <determination>5. Cardamine breweri</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Rhizomal leaves present; ovules 6–16(–24) per ovary.</statement>
+      <description type="morphology">Rhizomal leaves present; ovules 6–16(–24) per ovary.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Stems hirsute at base; cauline leaves (3 or) 4–8</statement>
+      <description type="morphology">Stems hirsute at base; cauline leaves (3 or) 4–8</description>
       <determination>1. Cardamine angulata</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Stems usually glabrous at base, rarely sparsely pilose; cauline leaves 1–3 (or 4).</statement>
+      <description type="morphology">Stems usually glabrous at base, rarely sparsely pilose; cauline leaves 1–3 (or 4).</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Rhizomal leaves palmately or subpalmately compound, fleshy;</statement>
+      <description type="morphology">Rhizomal leaves palmately or subpalmately compound, fleshy;</description>
       <determination>38. Cardamine rupicola</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Rhizomal leaves pinnately compound, not fleshy; Alaska, Northwest Territories, Yukon.</statement>
+      <description type="morphology">Rhizomal leaves pinnately compound, not fleshy; Alaska, Northwest Territories, Yukon.</description>
       <next_statement_id>40.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Rhizomal leaves with terminal leaflet blade broadly obovateto suborbicular, margins often 3–5-toothed</statement>
+      <description type="morphology">Rhizomal leaves with terminal leaflet blade broadly obovateto suborbicular, margins often 3–5-toothed</description>
       <determination>4. Cardamine blaisdellii</determination>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Rhizomal leaves with terminal leaflet blade linear, narrowly oblong, narrowly oblanceolate, ovate, or elliptic, margins entire.</statement>
+      <description type="morphology">Rhizomal leaves with terminal leaflet blade linear, narrowly oblong, narrowly oblanceolate, ovate, or elliptic, margins entire.</description>
       <next_statement_id>41.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Cauline leaves with terminal leaflet narrowly lanceolate</statement>
+      <description type="morphology">Cauline leaves with terminal leaflet narrowly lanceolate</description>
       <determination>12. Cardamine digitata</determination>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Cauline leaves with terminal leaflet ovate to elliptic,</statement>
+      <description type="morphology">Cauline leaves with terminal leaflet ovate to elliptic,</description>
       <determination>25. Cardamine microphylla</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

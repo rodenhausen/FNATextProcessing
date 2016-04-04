@@ -1,43 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ERPODIUM</genus_name>
-    <genus_authority>(Bridel) Bridel</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Bridel) Bridel" date="unknown">ERPODIUM</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. L. Reichenbach, Consp. Regn. Veg.,</publication_title>
       <place_in_publication>32.  1828  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek erpo, creeping, alluding to growth habit]</etymology>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Anoectangium</genus_name>
-    <subgenus_name>Erpodium</subgenus_name>
-    <subgenus_authority>Bridel</subgenus_authority>
+    <taxon_hierarchy>genus ERPODIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek erpo, creeping, alluding to growth habit]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anoectangium</taxon_name>
+    <taxon_name rank="subgenus" authority="Bridel" date="unknown">Erpodium</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>2: 167.  1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants dull or shiny, light to dark green.  Leaves ± monomorphic, spirally arranged, appressed or spreading and complanate when dry, spreading and often complanate when wet, bilaterally symmetric to asymmetric, ovate, elliptic, or lanceolate, rounded to obtuse, or acute, acuminate to subulate; laminal cells smooth or pluripapillose, distal cells rhombic to hexagonal, proximal cells oblate-oblong in several marginal rows.  Perichaetial leaves enlarged or not, sheathing.  Seta short, usually straight.  Capsule immersed to shortly exserted, stomata few; annulus none to broad and persistent; peristome absent (or present); operculum usually rostrate.  Calyptra mitrate, lobed at base, ± plicate.</description>
-  <number_of_infrataxa>Species 17–24  (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Anoectangium;subgenus Erpodium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species 17–24  (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves hyaline-subulate; laminal cells smooth</statement>
+      <description type="morphology">Leaves hyaline-subulate; laminal cells smooth</description>
       <determination>1.   Erpodium acrifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves obtuse to rounded; laminal cells pluripapillose</statement>
+      <description type="morphology">Leaves obtuse to rounded; laminal cells pluripapillose</description>
       <determination>2.   Erpodium domingense</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

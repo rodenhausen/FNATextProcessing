@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>29b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Helianthus</genus_name>
-        <species_name>occidentalis</species_name>
-        <species_authority>Riddell</species_authority>
-        <subspecies_name>plantagineus</subspecies_name>
-        <subspecies_authority>(Torrey &amp; A. Gray) Heiser</subspecies_authority>
-        <place_of_publication>
-            <publication_title>Mem. Torrey Bot. Club</publication_title>
-            <place_in_publication>22(3): 107. 1969</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Shinner’s sunflower</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Helianthus</genus_name>
-        <species_name>occidentalis</species_name>
-        <variety_name>plantagineus</variety_name>
-        <variety_authority>Torrey &amp; A. Gray</variety_authority>
-        <place_of_publication>
-            <publication_title>Fl. N. Amer. </publication_title>
-            <place_in_publication>2: 323. 1842</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>leaves usually serrate, strigose or glabrous, smooth to touch.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>Dry, open areas;</habitat>
-    <elevation>10–100+ m</elevation>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Cassini ex Dumortier" date="unknown">Helianthinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthus</taxon_name>
+    <taxon_name rank="species" authority="Riddell" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Torrey &amp; A. Gray) Heiser" date="unknown">plantagineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Mem. Torrey Bot. Club</publication_title>
+      <place_in_publication>22(3): 107. 1969</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Helianthinae;genus Helianthus;species occidentalis;subspecies plantagineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">plantagineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. N. Amer.</publication_title>
+      <place_in_publication>2: 323. 1842</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Helianthus;species occidentalis;variety plantagineus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29b.</number>
+  <other_name type="common_name">Shinner’s sunflower</other_name>
+</bio:treatment>

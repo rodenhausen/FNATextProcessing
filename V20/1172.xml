@@ -1,55 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>60.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Symphyotrichum</genus_name>
-    <species_name>novi-belgii</species_name>
-    <species_authority>(Linnaeus) G. L. Nesom</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Symphyotrichum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) G. L. Nesom" date="unknown">novi-belgii</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>77: 287. 1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>New York aster</common_name>
-  <common_name>aster de New York</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Aster</genus_name>
-    <species_name>novi-belgii</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Symphyotrichum;species novi-belgii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">novi-belgii</taxon_name>
     <place_of_publication>
-      <publication_title>Sp. Pl. </publication_title>
+      <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 877. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials, 17–100(–140) cm, loosely to densely colonial or sometimes cespitose;
-    long-rhizomatous. Stems 1–5+, erect (straight, stout to slender, often reddish), glabrous and
-    hairy in lines distally or sometimes wholly strigoso-pilose (var. villicaule). Leaves thick,
-    firm, ± fleshy, margins scabrous, apices mucronate, faces glabrous, abaxial midveins sometimes
-    villosulous (var. villicaule); basal withering by flowering, petiolate (petioles winged, bases
-    sheathing), blades ovate to ovate-lanceolate or lanceolate, 17–60+ × 6–11+ mm, bases attenuate
-    to cuneate, apices obtuse; proximal cauline withering by flowering, sessile or widely
-    winged-petiolate (petioles clasping), blades lance-ovate or -obovate to elliptic to
-    linear-lanceolate, 40–200 × 4–40 mm, bases cuneate or sometimes slightly attenuate, sometimes
-    rounded or slightly auriculate, slightly clasping, apices acute to acuminate; distal sessile,
-    blades lance-ovate to linear-lanceolate, 13–62 × 3–15 mm, progressively reduced distally, bases
-    cuneate or ± rounded, sometimes slightly auriculate, ± clasping, margins sparsely serrulate or
-    entire. Heads in open to dense, paniculiform arrays, branches ± divaricate to ascending, leafy
-    with remote, small, gradually reduced branch leaves. Peduncles 4–41 mm, glabrous or moderately
-    pilose, bracts 1–3, lanceolate or ovate to linear-oblanceolate, subtending ones sometimes
-    exceeding involucres, sometimes grading into phyllaries. Involucres campanulate, 6–9 mm.
-    Phyllaries in 3–4 series, oblong-oblanceolate or -spatulate (outer) or oblong-lanceolate to
-    linear-lanceolate or linear (inner), ± unequal to subequal, bases indurate 1/5–1/3, margins
-    hyaline, scarious, erose and sparsely ciliolate distally, green zones lanceolate, sometimes
-    foliaceous, apices spreading to ± squarrose, usually acute to obtuse or ± long-acuminate,
-    mucronulate, faces glabrous. Ray florets 15–35; corollas usually blue-violet or purple, rarely
-    pink or white, laminae (6–)10–19 × 0.9–2.1 mm. Disc florets 28–68; corollas yellow becoming
-    reddish brown to purple, 4–7.5 mm, tubes shorter than funnelform-campanulate throats, lobes
-    lanceolate, 1–1.5 mm. Cypselae tan to brown, obovoid, compressed, 2–4 mm, 4–6-nerved, faces
-    sparsely strigose to glabrate; pappi sordid to yellowish, 4–6 mm.</description>
-  <number_of_infrataxa>varieties 4 (4 in the flora)</number_of_infrataxa>
-  <global_distribution>e North America</global_distribution>
-  <global_distribution>mostly coastal</global_distribution>
-  <global_distribution>introduced in Europe.</global_distribution>
+    <taxon_hierarchy>genus Aster;species novi-belgii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>60.</number>
+  <other_name type="common_name">New York aster</other_name>
+  <other_name type="common_name">aster de New York</other_name>
+  <discussion>varieties 4 (4 in the flora)</discussion>
   <discussion>Symphyotrichum novi-belgii is morphologically variable (J. Labrecque and L. Brouillet
     1996) and this variation appears to have both genetic and environmental bases. The name Aster
     foliaceus has been misapplied to members of this complex in eastern North America; various other
@@ -57,44 +37,44 @@
     the varieties below. Hybrids of S. novi-belgii, probably mostly var. novi-belgii or var. elodes,
     have been reported with S. lanceolatum and S. lateriflorum.</discussion>
   <references>
-    <reference> Labrecque, J. and L. Brouillet. 1996. Biosystématique du complexe de l’Aster
+    <reference>Labrecque, J. and L. Brouillet. 1996. Biosystématique du complexe de l’Aster
       novi-belgii (Asteraceae: Astereae) au Québec. Canad. J. Bot. 74: 162–188.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Proximal stems uniformly and densely hirsute; Maine, New Brunswick, and adjacent
-        Quebec</statement>
+      <description type="morphology">Proximal stems uniformly and densely hirsute; Maine, New Brunswick, and adjacent
+        Quebec</description>
       <determination>60a. Symphyotrichum novi-belgii var. villicaule</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Proximal stems glabrous or slightly hirsute in lines.</statement>
+      <description type="morphology">Proximal stems glabrous or slightly hirsute in lines.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves: lengths 4–5 times widths, bases strongly clasping; plants robust, compact;
-        New Brunswick</statement>
+      <description type="morphology">Leaves: lengths 4–5 times widths, bases strongly clasping; plants robust, compact;
+        New Brunswick</description>
       <determination>60b. Symphyotrichum novi-belgii var. crenifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves: lengths 7–10+ times widths, bases ± clasping or subclasping; plants slender
-        to ± compact.</statement>
+      <description type="morphology">Leaves: lengths 7–10+ times widths, bases ± clasping or subclasping; plants slender
+        to ± compact.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves lance-ovate or lanceolate to ob lanceolate, lengths less than 10 times
-        widths, bases ± clasping</statement>
+      <description type="morphology">Leaves lance-ovate or lanceolate to ob lanceolate, lengths less than 10 times
+        widths, bases ± clasping</description>
       <determination>60c. Symphyotrichum novi-belgii var. novi-belgii</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves linear-lanceolate, lengths more than 10 times widths, bases
-        subclasping</statement>
+      <description type="morphology">Leaves linear-lanceolate, lengths more than 10 times widths, bases
+        subclasping</description>
       <determination>60d. Symphyotrichum novi-belgii var. elodes</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

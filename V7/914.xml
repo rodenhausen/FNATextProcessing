@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>65.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>IDAHOA</genus_name>
-    <genus_authority>A. Nelson &amp; J. F. Macbride</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Burnett Idahoa Group" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Webb &amp; Berthelot" date="unknown">Iberideae</taxon_name>
+    <taxon_name rank="genus" authority="A. Nelson &amp; J. F. Macbride" date="unknown">IDAHOA</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>56: 474. 1913</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For the state Idaho]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Platyspermum</genus_name>
-    <genus_authority>Hooker</genus_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Iberideae;genus IDAHOA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For the state Idaho]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Hooker" date="unknown">Platyspermum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 68, plate 18, fig. B. 1830,</place_in_publication>
-      <other_info>not Hoffmann 1814</other_info>
+      <other_info_on_pub>not Hoffmann 1814</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants scapose. Stems absent. Leaves basal, rosulate, petiolate, blade margins entire or lyrately lobed. Inflorescences (few to many) on peduncle from basal rosette. Fruiting pedicels ascending or erect, slender. Flowers: sepals ovate or oblong; petals oblanceolate, (slightly longer than sepals, apex obtuse); stamens (erect), slightly tetradynamous; filaments not dilated basally; anthers ovate or broadly so, (apex obtuse); nectar glands lateral, semiannular, intrastaminal, median glands present (smaller, distinct). Fruits sessile or, rarely, stipitate, orbicular or orbicular-ovate, smooth, strongly latiseptate; valves not veined or obscurely veined; replum slightly flattened; septum complete, (hyaline); stigma capitate. Seeds flattened, broadly winged, orbicular; seed coat (coarsely reticulate at center), not mucilaginous when wetted; cotyledons accumbent. x = 8.</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Platyspermum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>65.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

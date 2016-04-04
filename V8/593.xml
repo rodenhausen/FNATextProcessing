@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Ledebour" date="unknown">cuneifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">cuneifolia</taxon_name>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species cuneifolia;subspecies cuneifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cuneifolia</taxon_name>
+    <taxon_name rank="variety" authority="Pax" date="unknown">dubyi</taxon_name>
+    <taxon_hierarchy>genus Primula;species cuneifolia;variety dubyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cuneifolia</taxon_name>
+    <taxon_name rank="variety" authority="E. A. Busch" date="unknown">elongata</taxon_name>
+    <taxon_hierarchy>genus Primula;species cuneifolia;variety elongata;</taxon_hierarchy>
+  </taxon_identification>
   <number>13a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>cuneifolia</species_name>
-    <species_authority>Ledebour</species_authority>
-    <subspecies_name>cuneifolia</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>cuneifolia</species_name>
-    <variety_name>dubyi</variety_name>
-    <variety_authority>Pax</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>cuneifolia</species_name>
-    <variety_name>elongata</variety_name>
-    <variety_authority>E. A. Busch</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 8–15 cm, (elongating in fruit).  Leaf blades 3–6 × 0.8–1 cm.  Inflorescences 3–9-flowered.  Flowers heterostylous; corolla lobes 12–25 mm.  2n = 22.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Moist meadows on acidic bedrock</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia.</global_distribution>
   <discussion>Subspecies cuneifolia is generally taller and more robust than subsp. saxifragifolia.  It is known in Alaska from the outermost Aleutian Islands of Attu and Agattu; in Asia it occurs south through the Pacific Rim to the northern Japanese Islands.  This subspecies predominates in Asia; the homostylous one occurs there only as rare outliers.  The situation is reversed in Alaska, where the homostylous taxon is geographically widespread as far south as Vancouver Island.</discussion>
-</treatment>
+</bio:treatment>

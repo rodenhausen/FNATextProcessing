@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>latifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">latifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 391.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mountain laurel</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaedaphne</genus_name>
-    <species_name>latifolia</species_name>
-    <species_authority>(Linnaeus) Kuntze</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalmia</genus_name>
-    <species_name>latifolia</species_name>
-    <variety_name>laevipes</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or, rarely, trees, erect, (1–)2–8(–12) m.  Twigs terete, viscid, stipitate-glandular, glabrescent.  Leaves alternate (seemingly whorled on slow-growing twigs); petiole 10–30 mm, glabrous or puberulent, sometimes stipitate-glandular; blade elliptic to elliptic-lanceolate, 4–12 × 1.5–5 cm, margins plane, apex acute, surfaces stipitate-glandular, glabrescent abaxially, glabrous, midrib puberulent adaxially.  Inflorescences terminal, panicles, (12–)20–40-flowered.  Pedicels 20–40 mm.  Flowers: sepals green to reddish, usually oblong, 3–3.5 mm, apex acute, surfaces glabrous or stipitate-glandular; petals connate nearly their entire lengths, usually pink (ranging from deep red to white) with purple spots around each anther pocket, 20–25 × 15–30 mm, abaxial surface usually lightly stipitate-glandular, adaxial puberulent; filaments 4–5 mm; style 10–18 mm.  Capsules 5-locular, 3–5 × 4–7 mm, stipitate-glandular.  Seeds winged, obovoid and curved, 0.5–1 mm.  2n = 24.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Rocky or sandy hardwood forests on mountain slopes, stream bluffs, ravines, or in pure, dense thickets</habitat>
-  <elevation>0–1900 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <global_distribution>introduced in Europe (England).</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species latifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedaphne</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Kuntze" date="unknown">latifolia</taxon_name>
+    <taxon_hierarchy>genus Chamaedaphne;species latifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">latifolia</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">laevipes</taxon_name>
+    <taxon_hierarchy>genus Kalmia;species latifolia;variety laevipes;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Mountain laurel</other_name>
   <discussion>Kalmia latifolia is a showy and beautiful American indigenous plant.  E. S. Rand (1871) wrote that “no words can describe the beauty of this plant on the mountains of the Middle States, where it covers acres, and sheets whole hillsides with pink and white.”</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Kress, A.  1988.  Beobachtungen an Blüten von Kalmia latifolia L. (Ericaceae).  Phytologia 65: 249–284.</reference>
   </references>
-</treatment>
+</bio:treatment>

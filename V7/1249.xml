@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>maculatus</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">maculatus</taxon_name>
     <place_of_publication>
       <publication_title>J. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>5: 134, plate 7. 1825</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>maculatus</species_name>
-    <subspecies_name>obtusifolius</subspecies_name>
-    <subspecies_authority>(Hooker) Rollins</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>obtusifolius</species_name>
-    <species_authority>Hooker</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; (glaucous), usually glabrous throughout (sometimes stem bases pubescent). Stems unbranched or branched distally, 1.7–10.6 dm, (trichomes 0.05–0.5 mm). Basal leaves (soon withered); rosulate; petiolate; blade similar to cauline. Cauline leaves: blade broadly ovate to broadly oblong or lanceolate, 2–15 cm × 10–80 mm, (smaller distally), base amplexicaul, margins entire, (apex acute to acuminate or rounded). Racemes ebracteate, (dense or lax). Fruiting pedicels divaricate-ascending, (straight), 4–7 mm. Flowers: calyx campanulate; sepals (erect), purplish, 4–9 mm, (lateral pair rarely with subapical callus, 0.1–0.3 mm), not keeled; petals (widely spreading to somewhat reflexed), magenta (with deep purple center), 11–21 mm, blade 6–12 × 5–11 mm, margins not crisped, claw 5–10 mm, narrower than blade; stamens tetradynamous; filaments: median pairs (distinct), 5–7 mm, lateral pair 3–5 mm; anthers (all) fertile, 3–4 mm; gynophore 0.7–1.5 mm. Fruits ascending, smooth, straight, flattened, 6–11.4 cm × 2–3 mm; valves each with prominent midvein; replum straight; ovules 56–92 per ovary; style 1–2.5 mm; stigma strongly 2-lobed. Seeds broadly oblong, 2–2.5 × 1–1.3 mm; wing 0.2–0.3 mm wide, continuous.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <habitat>near creeks</habitat>
-  <habitat>roadside banks</habitat>
-  <habitat>moist bottoms</habitat>
-  <habitat>open oak woods</habitat>
-  <habitat>moist land in woods</habitat>
-  <habitat>rocky bluffs</habitat>
-  <habitat>ledges</habitat>
-  <habitat>dry talus slopes</habitat>
-  <habitat>rock crevices</habitat>
-  <habitat>pine-hickory forests</habitat>
-  <elevation>200–500 m;</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Streptanthus;species maculatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">maculatus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) Rollins" date="unknown">obtusifolius</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species maculatus;subspecies obtusifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">obtusifolius</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species obtusifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
   <discussion>Streptanthus maculatus is distributed in Arkansas in Garland, Hot Springs, Montgomery, Pike, Polk, Pulaski, and Saline counties; in Oklahoma in Latimer, Le Flore, McCurtain, and Pushmataha counties; and in Texas in Anderson, Cherokee, Gregg, and Smith counties.</discussion>
   <discussion>R. C. Rollins (1993) divided Streptanthus maculatus into two subspecies based on the presence versus absence of the subapical callus on sepals and on leaf shape. Subspecies maculatus was said to differ from subsp. obtusifolius by the absence (versus presence) of the sepal callus and by having lanceolate (versus broadly ovate) cauline leaves. These highly variable characters do not covary.</discussion>
-</treatment>
+</bio:treatment>

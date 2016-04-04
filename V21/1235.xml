@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Isocarpha</genus_name><species_name>oppositifolia</species_name><species_authority>(Linnaeus) Cassini</species_authority><place_of_publication>
-    <publication_title>in F. Cuvier, Dict. Sci. Nat. ed.</publication_title>
-    <place_in_publication>2, 24: 19. 1822</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Rio Grande pearlhead</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Santolina</genus_name><species_name>oppositifolia</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Syst. Nat. ed. </publication_title><place_in_publication>10, 2: 1207. 1759</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><us_distribution>Texas</us_distribution><global_distribution>Mexico</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocarpha</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Cassini" date="unknown">oppositifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>in F. Cuvier, Dict. Sci. Nat. ed.</publication_title>
+      <place_in_publication>2, 24: 19. 1822</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Isocarpha;species oppositifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Santolina</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">oppositifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Nat. ed.</publication_title>
+      <place_in_publication>10, 2: 1207. 1759</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Santolina;species oppositifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Rio Grande pearlhead</other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

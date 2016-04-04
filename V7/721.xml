@@ -1,56 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cardamine</genus_name>
-    <species_name>digitata</species_name>
-    <species_authority>Richardson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">digitata</taxon_name>
     <place_of_publication>
       <publication_title>in J. Franklin, Narr. Journey Polar Sea,</publication_title>
       <place_in_publication>743. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>digitata</species_name>
-    <variety_name>oxyphylla</variety_name>
-    <variety_authority>Trautvetter</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>hyperborea</species_name>
-    <species_authority>O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>hyperborea</species_name>
-    <variety_name>oxyphylla</variety_name>
-    <variety_authority>(Trautvetter) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>richardsonii</species_name>
-    <species_authority>Hultén</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; glabrous throughout. Rhizomes cylindrical, slender, 0.5–1.5 mm diam. Stems erect, unbranched, (0.6–)1–2(–3) dm. Rhizomal leaves pinnately 5 or 7-foliolate, (2–)4–10 cm, (not fleshy), leaflets sessile; petiole (1.5–)3–7(–9) cm; lateral leaflets similar to terminal, blade sometimes smaller; terminal leaflet blade linear to narrowly oblong or narrowly lanceolate, (0.5–)1–2.5(–3.3) cm × 0.5–4(–8) mm, base cuneate to attenuate, margins entire. Cauline leaves (1 or) 2 or 3, 5 or 7-foliolate, petiolate, leaflets sessile; petiole (0.2–)0.5–1.2(–1.5) cm, base not auriculate; lateral leaflets similar to terminal, blade smaller; terminal leaflet blade narrowly lanceolate to linear, 1–3.2(–4) cm × 0.8–2.5(–3.5) mm, base cuneate to attenuate, margins entire (apex acute to acuminate). Racemes ebracteate. Fruiting pedicels suberect to divaricate-ascending, (7–)10–25 mm. Flowers: sepals ovate, 2.5–3.5 × 1.5–2.5 mm, lateral pair not saccate basally; petals white, obovate, 5–9 × 2.5–5 mm (clawed, apex rounded); filaments: median pairs 3–4.5 mm, lateral pair 1.5–2.5 mm; anthers oblong, 1–1.5 mm. Fruits linear, (1.5–)2–4 cm × 1.5–2 mm; ovules 6–12 per ovary; style (1–)1.5–2.5(–4) mm. Seeds brown, oblong, 1.8–2.2 × 0.9–1.1 mm. 2n = 28, 42.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>damp flats</habitat>
-  <habitat>stream banks</habitat>
-  <habitat>tundra</habitat>
-  <habitat>meadows</habitat>
-  <habitat>bluffs</habitat>
-  <habitat>hummocks</habitat>
-  <habitat>sandy beaches</habitat>
-  <habitat>slopes</habitat>
-  <habitat>mossy mats</habitat>
-  <habitat>sedge swales</habitat>
-  <elevation>0–1400 m;</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>ne Asia (Russian Far East).</global_distribution>
-  <global_distribution>ne Asia (Siberia).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Cardamine;species digitata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="O. E. Schulz" date="unknown">digitata</taxon_name>
+    <taxon_name rank="variety" authority="Trautvetter" date="unknown">oxyphylla</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species digitata;variety oxyphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">hyperborea</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species hyperborea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hyperborea</taxon_name>
+    <taxon_name rank="variety" authority="(Trautvetter) O. E. Schulz" date="unknown">oxyphylla</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species hyperborea;variety oxyphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">richardsonii</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species richardsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+</bio:treatment>

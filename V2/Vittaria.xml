@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Vittaria</genus_name><genus_authority>Smith</genus_authority><place_of_publication><place_in_publication>5: 413. 1793</place_in_publication></place_of_publication></TaxonIdentification><common_name>Shoestring fern</common_name><etymology>[Latin vitt(a), fillet, ribbon, stripe]</etymology><description>Stems  densely scaly.  Leaves  pendent, linear.  Veins  anastamosing in single row of areolae on each side of midrib.  Sori  in single submarginal groove on each side of midrib.  Gametophytes  0.5--2 × 0.5--1 cm; gemmae uniseriate, 2--5 mm, borne at apices of aerial branches; body cells 2--16; rhizoid primordia cells 0--4.</description><number_of_infrataxa>Species ca. 50 (3 in the flora):</number_of_infrataxa><global_distribution> worldwide in tropics and subtropics.</global_distribution><author>Donald R. Farrar</author><key><key_statement><statement_id>1</statement_id><statement>Stem scales tapering to long filiform tips; soral paraphyses without dilated terminal cells; spores monolete.</statement><determination>1 Vittaria lineata</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Gemmae variable in length; body cells 2-16, rhizoid primordia present or absent.</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Gemmae with 4-16 body cells, end cells equal to or smaller than medial cells; rhizoid primordia on some medial cells and regularly on end cells; sporophytes frequently produced.</statement><determination>1 Vittaria lineata</determination></key_statement><key_statement><statement_id>2</statement_id><statement>Gemmae with 2-12 body cells but at least some 2-3-celled gemmae present, end cells often swollen and larger than medial cells; rhizoid primordia often absent on 1 or both end cells, seldom present on medial cells; sporophytes not produced.</statement><determination>3 Vittaria appalachiana</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Donald R. Farrar</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Smith" date="unknown">Vittaria</taxon_name>
+    <place_of_publication>
+      <place_in_publication>5: 413. 1793</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Vittaria;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin vitt(a), fillet, ribbon, stripe]</other_info_on_name>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Shoestring fern</other_name>
+  <discussion>Species ca. 50 (3 in the flora):</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Stem scales tapering to long filiform tips; soral paraphyses without dilated terminal cells; spores monolete.</description>
+      <determination>1 Vittaria lineata</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Gemmae variable in length; body cells 2-16, rhizoid primordia present or absent.</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Gemmae with 4-16 body cells, end cells equal to or smaller than medial cells; rhizoid primordia on some medial cells and regularly on end cells; sporophytes frequently produced.</description>
+      <determination>1 Vittaria lineata</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Gemmae with 2-12 body cells but at least some 2-3-celled gemmae present, end cells often swollen and larger than medial cells; rhizoid primordia often absent on 1 or both end cells, seldom present on medial cells; sporophytes not produced.</description>
+      <determination>3 Vittaria appalachiana</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>polyceratium</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Sisymbrieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">polyceratium</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 658. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaeplium</genus_name>
-    <species_name>polyceratium</species_name>
-    <species_authority>(Linnaeus) Wallroth</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; (densely leafy through-out); often glabrous. Stems (simple or few to several from base), erect or ascending to subprostrate, branched distally, 1–5(–7) dm, glabrous. Basal leaves (soon withered); initially rosulate; petiole (1–)2–5(–6.5) cm; blade oblanceolate to lanceolate (in outline), 2–7(–10) cm × 10–30(–45) mm, margins sinuate- or runcinate-pinnatifid to coarsely dentate; lobes 3–6 on each side, often triangular, slightly smaller than terminal lobe, margins dentate or subentire. Cauline leaves (sometimes bracts, several), similar to basal, (shortly petiolate); blade margins dentate or subentire, (surfaces glabrous or sparsely puberulent at and near margin). (Inflorescences 2–4(–6)-fasciculate, or flowers solitary and axillary, bracteate throughout.) Fruiting pedicels ascending to erect, stout, narrower than fruit base, 0.5–1(–2) mm. Flowers: sepals erect, oblong, 1–1.5 × 0.3–0.5 mm; petals spatulate, 1.5–2 × 0.4–0.6 mm, claw 0.6–1 mm; filaments (erect, yellowish), 1.2–1.7mm; anthers ovate, 0.3–0.5 mm. Fruits (erect to ascending), subulate-linear, recurved, straight, slightly torulose, stout (widest at base), 1–2(–2.3) cm × 0.9–1.7 mm; valves usually glabrous, rarely puberulent; ovules 20–44(–54) per ovary; style 0.5–1 mm; stigma slightly 2-lobed. Seeds 0.7–1 × 0.4–0.5 mm. 2n = 28.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>waste grounds</habitat>
-  <habitat>disturbed sites</habitat>
-  <habitat>roadsides</habitat>
-  <elevation>0–200 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>w</global_distribution>
-  <global_distribution>c Asia</global_distribution>
-  <global_distribution>nw Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Sisymbrieae;genus Sisymbrium;species polyceratium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaeplium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Wallroth" date="unknown">polyceratium</taxon_name>
+    <taxon_hierarchy>genus Chamaeplium;species polyceratium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+</bio:treatment>

@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>71.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>oblongata</species_name>
-    <species_authority>R. Brown ex de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="R. Brown ex de Candolle" date="unknown">oblongata</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>2: 342. 1821</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>arctica</species_name>
-    <species_authority>J. Vahl</species_authority>
-    <subspecies_name>groenlandica</subspecies_name>
-    <subspecies_authority>(E. Ekman) Böcher</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>cinerea</species_name>
-    <species_authority>Adams</species_authority>
-    <subspecies_name>groenlandica</subspecies_name>
-    <subspecies_authority>(E. Ekman) Böcher</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>groenlandica</species_name>
-    <species_authority>E. Ekman</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; (cespitose); caudex branched (with persistent leaf remains); sometimes scapose. Stems unbranched, (0.2–)0.4–1.5(–1.9) dm, pubescent throughout, trichomes simple, 0.4–0.8 mm, and short-stalked, 4–10-rayed, 0.05–0.3 mm, (mostly branched distally). Basal leaves rosulate; petiolate; petiole base and margin ciliate, (trichomes simple, 0.3–1 mm); blade oblanceolate to lanceolate, 0.4–1.5 cm × 1.5–5 mm, margins entire, surfaces pubescent with simple and stalked, 2- or 3-rayed trichomes, 0.4–1 mm, with short-stalked, 8–12-rayed, stellate ones, 0.1–0.2 mm. Cauline leaves 0–2; sessile; blade oblong to broadly ovate, margins entire, surfaces pubescent as basal. Racemes 5–13(–18)-flowered, ebracteate, elongated in fruit; rachis not flexuous, pubescent as stem distally. Fruiting pedicels divaricate to ascending, straight, 2–6(–8) mm, pubescent as rachis. Flowers: sepals ovate, 2–3 mm, pubescent, (trichomes simple and short-stalked, mostly 2-rayed); petals white, spatulate to obovate, 3.5–5 × 1.5–2.5 mm; anthers ovate, 0.2–0.3 mm. Fruits elliptic to oblong, plane, slightly flattened, 4–8(–9.5) × 2–3(–4) mm; valves pubescent, trichomes short-stalked, (2–)5–12-rayed, 0.05–3 mm; ovules 24–36 per ovary; style 0.2–0.8 mm (stigma considerably wider than style, often appearing 2-lobed). Seeds ovate, 0.7–1 × 0.5–0.6 mm. 2n = 64.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>ridges and hillsides</habitat>
-  <habitat>sand and gravel flood plains</habitat>
-  <habitat>swales</habitat>
-  <habitat>tundra</habitat>
-  <elevation>0–400 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
-  <global_distribution>e Asia (Siberia).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species oblongata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="J. Vahl" date="unknown">arctica</taxon_name>
+    <taxon_name rank="subspecies" authority="(E. Ekman) Böcher" date="unknown">groenlandica</taxon_name>
+    <taxon_hierarchy>genus Draba;species arctica;subspecies groenlandica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Adams" date="unknown">cinerea</taxon_name>
+    <taxon_name rank="subspecies" authority="(E. Ekman) Böcher" date="unknown">groenlandica</taxon_name>
+    <taxon_hierarchy>genus Draba;species cinerea;subspecies groenlandica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="E. Ekman" date="unknown">groenlandica</taxon_name>
+    <taxon_hierarchy>genus Draba;species groenlandica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>71.</number>
   <discussion>Plants of Draba oblongata are occasionally misidentified as decaploid (2n = 80) D. arctica, but the former is readily separated by a preponderance of simple (versus stellate) trichomes on both leaf blade surfaces. Draba oblongata is sometimes confused with D. micropetala, but the latter has pale yellow (versus white) flowers, fruits pubescent with simple and spurred (versus (2–)5–12-rayed) trichomes, and stigmas as wide as (versus much wider than) the style.</discussion>
-</treatment>
+</bio:treatment>

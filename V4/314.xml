@@ -1,56 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>dasyacanthus</species_name>
-        <species_authority>Engelmann</species_authority>
-        <place_of_publication>
-            <publication_title>in F. A. Wislizenus, Mem. Tour N. Mexico,</publication_title>
-            <place_in_publication>100. 1848</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Texas rainbow cactus</common_name>
-    <common_name>spiny hedgehog cactus</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>pectinatus</species_name>
-        <species_authority>(Scheidweiler) Engelmann</species_authority>
-        <variety_name>dasyacanthus</variety_name>
-        <variety_authority>(Engelmann) W. Earle ex N. P. Taylor</variety_authority>
-    </TaxonIdentification>
-    <description>Plants unbranched or few branched, forming loose clumps of fewer than 20 stiff
-        branches in old age. Stems erect, ovoid, becoming cylindric with age, 11–23(–40) ×
-        (4.5–)5.5–7(–10) cm; ribs (13–)15–19(–21), crests rather sharply undulate; areoles 5–11 mm
-        apart. Spines 19–28 per areole, straight, appressed (radial spines) or spreading in all
-        directions (central spines), presenting relatively bristly appearance (except when spines
-        very short, and then having relatively smooth appearance as in E. pectinatus), pink to pale
-        yellow, white, or tan, less often dark brown or purplish, annual growth increments marked
-        (often vaguely) by rings of spines with contrasting colors; radial spines (16–)17–25(–28)
-        per areole, 5–15(–25) mm; central spines (2–)8–12(–15) per areole, terete, largest spines
-        4.5–9.5(–14) mm. Flowers 7–8.5(–10) × 7–12 cm; flower tube 10–20 × to 10 mm; flower tube
-        hairs 1–3 mm; inner tepals either yellow (rarely orange-yellow, sometimes becoming salmon-
-        or rose-pink with age), or rose-pink to magenta, proximal 5–30% green in either case,
-        (25–)32–69(–77) × 8–23 mm, tips relatively thin and delicate; anthers yellow; nectar chamber
-        2–6 mm. Fruits dark dull purplish to maroon (sometimes remaining green), 2–3.5 cm, pulp
-        white to purplish pink. 2n = 44.</description>
-    <phenology>mar</phenology>
-    <phenology>spring</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>chihuahuan desert scrub</habitat>
-    <habitat>valleys to rocky canyonsides</habitat>
-    <habitat>limestone</habitat>
-    <elevation>600–1500 m;</elevation>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Chihuahua).</global_distribution>
-    <global_distribution>Mexico (Coahuila).</global_distribution>
-    <discussion>Flower color of Echinocereus dasyacanthus is spectacularly polymorphic. Unlike E.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">dasyacanthus</taxon_name>
+    <place_of_publication>
+      <publication_title>in F. A. Wislizenus, Mem. Tour N. Mexico,</publication_title>
+      <place_in_publication>100. 1848</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Echinocereus;species dasyacanthus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="(Scheidweiler) Engelmann" date="unknown">pectinatus</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) W. Earle ex N. P. Taylor" date="unknown">dasyacanthus</taxon_name>
+    <taxon_hierarchy>genus Echinocereus;species pectinatus;variety dasyacanthus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Texas rainbow cactus</other_name>
+  <other_name type="common_name">spiny hedgehog cactus</other_name>
+  <discussion>Flower color of Echinocereus dasyacanthus is spectacularly polymorphic. Unlike E.
         pectinatus var. wenigeri, however, the inner tepals are never white proximally. No hybrids
         are known to occur where the tetraploid E. dasyacanthus grows sympatrically with the diploid
         E. pectinatus, near the Pecos River. The names E. pectinatus var. neomexicanus and var.
@@ -60,4 +36,4 @@
         E. pectinatus var. wenigeri, E. pectinatus var. pectinatus, and E. ctenoides (Engelmann)
         Lemaire. Reports from Arizona were apparently misidentifications of E.
         pseudopectinatus.</discussion>
-</treatment>
+</bio:treatment>

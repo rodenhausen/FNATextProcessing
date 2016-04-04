@@ -1,49 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Phedimus</genus_name>
-    <species_name>spurius</species_name>
-    <species_authority>(M. Bieberstein) ’t Hart</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phedimus</taxon_name>
+    <taxon_name rank="species" authority="(M. Bieberstein) ’t Hart" date="unknown">spurius</taxon_name>
     <place_of_publication>
       <publication_title>in H. ’t Hart and U. Eggli, Evol. Syst. Crassulaceae,</publication_title>
       <place_in_publication>168. 1995 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Caucasian stonecrop</common_name>
-  <common_name>orpin bâtard</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>spurium</species_name>
-    <species_authority>M. Bieberstein</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Phedimus;species spurius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="M. Bieberstein" date="unknown">spurium</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Taur.-Caucas.</publication_title>
       <place_in_publication>1: 352. 1808</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Flowering stems creeping, 0.5–1.5 dm. Leaves opposite; blade obovate or orbiculate,
-        1–3 cm, margins prominently glandular, coarsely crenate apically. Flowers: sepals deltate to
-        lanceolate, 4–4.5 mm, apex subobtuse; petals erect basally, recurved at tips, white to pink,
-        ovate, 8–11 mm, apex shortly mucronate. Carpels erect in fruit, connate
-        basally.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Rocky places, roadsides, fields, waste places</habitat>
-  <elevation>0–2000 m</elevation>
-  <introduced>introduced</introduced>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <global_distribution>c Asia (Caucasus).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Sedum;species spurium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Caucasian stonecrop</other_name>
+  <other_name type="common_name">orpin bâtard</other_name>
+</bio:treatment>

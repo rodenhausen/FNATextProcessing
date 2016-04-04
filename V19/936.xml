@@ -1,88 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Anthemis</genus_name>
-    <species_name>arvensis</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anthemis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">arvensis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 894. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Anthemis;species arvensis;</taxon_hierarchy>
-  <common_name>Corn chamomile</common_name>
-  <common_name>fausse camomille</common_name>
-  <common_name>anthémis des champs</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Anthemis</genus_name>
-    <species_name>arvensis</species_name>
-    <variety_name>agrestis</variety_name>
-    <variety_authority>(Wallroth) de Candolle</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaemelum</genus_name>
-    <species_name>arvense</species_name>
-    <species_authority>(Linnaeus) Hoffmannsegg &amp; Link</species_authority>
-  </TaxonIdentification>
-  <description>Annuals (sometimes persisting), (5–)10–30+[–80] cm, not notably scented. Stems green or reddish, decumbent (sometimes rooting at nodes) or ascending to erect, branched mostly proximally, ± strigoso-sericeous or villous, glabrescent. Leaf blades 15–35 × 8–16 mm, 1–2-pinnately lobed (ultimate lobes triangular to narrowly elliptic or linear). Peduncles mostly 4–15 cm (sometimes clavate in fruit). Involucres 6–13 mm diam., ± villous. Receptacles paleate throughout; paleae lanceolate to oblanceolate, weakly navicular (± carinate), 3–4+ mm (including acuminate-spinose tips). Ray florets 5–20, pistillate, fertile; corollas white, rarely tinged with pink, laminae 5–15 mm. Disc corollas (sometimes tinged with purple) 2–3(–4) mm. Cypselae 1.7–2+ mm, ribs smooth or weakly tuberculate (sometimes separated by relatively deep furrows); pappi 0 or coroniform (0.01+ mm). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering May–Jul(–Sep).</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites , abandoned plantings ;</text>
-    <habitat>disturbed sites abandoned plantings</habitat>
-  </habitat_info>
-  <elevation>10–400+ m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Anthemis;species arvensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anthemis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Hoffmannsegg &amp; Link" date="unknown">arvensis</taxon_name>
+    <taxon_name rank="variety" authority="(Wallroth) de Candolle" date="unknown">agrestis</taxon_name>
+    <taxon_hierarchy>genus Anthemis;species arvensis;variety agrestis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaemelum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">arvense</taxon_name>
+    <taxon_hierarchy>genus Chamaemelum;species arvense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Corn chamomile</other_name>
+  <other_name type="common_name">fausse camomille</other_name>
+  <other_name type="common_name">anthémis des champs</other_name>
   <discussion>Anthemis arvensis is morphologically variable; it is found throughout much of North America.</discussion>
-</treatment>
-
+</bio:treatment>

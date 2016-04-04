@@ -1,65 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">lasiocarpum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) Thellung" date="unknown">lasiocarpum</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species lasiocarpum;subspecies lasiocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">georginum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species georginum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lasiocarpum</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">georginum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species lasiocarpum;subspecies georginum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lasiocarpum</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) C. L. Hitchcock" date="unknown">georginum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species lasiocarpum;variety georginum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lasiocarpum</taxon_name>
+    <taxon_name rank="variety" authority="C. L. Hitchcock" date="unknown">rosulatum</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species lasiocarpum;variety rosulatum;</taxon_hierarchy>
+  </taxon_identification>
   <number>22a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>lasiocarpum</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>lasiocarpum</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>georginum</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>lasiocarpum</species_name>
-    <subspecies_name>georginum</subspecies_name>
-    <subspecies_authority>(Rydberg) Thellung</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>lasiocarpum</species_name>
-    <variety_name>georginum</variety_name>
-    <variety_authority>(Rydberg) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>lasiocarpum</species_name>
-    <variety_name>rosulatum</variety_name>
-    <variety_authority>C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>Fruiting pedicels 0.2–0.4(–0.6) mm wide, usually less than 3 times as wide as thick. Nectar glands toothlike, 0.1–0.2 mm. Fruit valves hirsute or minutely fringed on margin, trichomes not pustular-based. 2n = 32.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>pinyon-juniper woodlands</habitat>
-  <habitat>sagebrush and other shrub communities</habitat>
-  <habitat>open deserts</habitat>
-  <habitat>dry washes and flats</habitat>
-  <habitat>waste places</habitat>
-  <habitat>streambeds</habitat>
-  <habitat>roadsides</habitat>
-  <habitat>sandy areas</habitat>
-  <habitat>rock slides</habitat>
-  <habitat>stony slopes</habitat>
-  <elevation>-50–2700 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
-  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
-  <global_distribution>Mexico (Sinaloa).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
   <discussion>In subsp. lasiocarpum there is considerable variation in the density and location of trichomes on the fruit valve; in some populations (e.g., Rollins &amp; Munz 6741, GH), the trichomes are present over the entire valve; in others they are restricted as a fringe along part of the fruit margin.</discussion>
-</treatment>
+</bio:treatment>

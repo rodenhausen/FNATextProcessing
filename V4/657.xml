@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Obione</subgenus_name>
-        <subgenus_authority>(Gaertner) S. L. Welsh</subgenus_authority>
-        <place_of_publication>
-            <publication_title>Rhodora</publication_title>
-            <place_in_publication>102: 418. 2001</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <subgenus_name>Obione</subgenus_name>
-        <subgenus_authority>Gaertner</subgenus_authority>
-        <place_of_publication>
-            <publication_title>Fruct. Sem. Pl. </publication_title>
-            <place_in_publication>2: 198, plate 126. 1791</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <section_name>Obione</section_name>
-        <section_authority>(Gaertner) Reichenbach</section_authority>
-    </TaxonIdentification>
-    <description>Plants annual or perennial, monoecious to subdioecious or less commonly dioecious.
-        Leaves usually with or, uncommonly, without Kranz anatomy. Staminate flowers with calyx
-        lobes crested or not. Pistillate flowers lacking or rarely with a perianth (in A. covillei,
-        A. pleiantha, and A. suckleyi), enclosed by a pair of bracteoles. Bracteoles cuneate to
-        ovate or obovate united at least to middle, faces with tubercles or crests or smooth. Seeds
-        erect; radicle typically superior (except in A. pleiantha), erect, tip adjacent to
-        styles.</description>
-    <number_of_infrataxa>Species ca. 33 (27 in the flora):</number_of_infrataxa>
-    <global_distribution>mainly w North America</global_distribution>
-    <global_distribution>also Old World.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="(Gaertner) S. L. Welsh" date="unknown">Obione</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>102: 418. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Obione;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Gaertner" date="unknown">Obione</taxon_name>
+    <place_of_publication>
+      <publication_title>Fruct. Sem. Pl.</publication_title>
+      <place_in_publication>2: 198, plate 126. 1791</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>subgenus Obione;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="section" authority="(Gaertner) Reichenbach" date="unknown">Obione</taxon_name>
+    <taxon_hierarchy>genus Atriplex;section Obione;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20b.</number>
+  <discussion>Species ca. 33 (27 in the flora):</discussion>
+</bio:treatment>

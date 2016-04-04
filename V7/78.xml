@@ -1,45 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>ovalifolia</species_name>
-    <species_authority>Trautvetter</species_authority>
-    <variety_name>cyclophylla</variety_name>
-    <variety_authority>(Rydberg) C. R. Ball</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Trautvetter" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) C. R. Ball" date="unknown">cyclophylla</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Natl. Acad. Sci. U.S.A.</publication_title>
       <place_in_publication>21: 184. 1935</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>cyclophylla</species_name>
-    <species_authority>Rydberg</species_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species ovalifolia;variety cyclophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">cyclophylla</taxon_name>
     <place_of_publication>
       <publication_title>Bull. New York Bot. Gard.</publication_title>
       <place_in_publication>1: 274. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>ovalifolia</species_name>
-    <subspecies_name>cyclophylla</subspecies_name>
-    <subspecies_authority>(Rydberg) Jurtsev &amp; V. V. Petrovsky</subspecies_authority>
-  </TaxonIdentification>
-  <description>Leaves: petiole 2–7 mm; largest medial blade subcircular to circular, 13–28 × 7–18 mm, 1–1.5 times as long as wide, base subcordate, cordate, or convex, apex convex, rounded, or retuse, abaxial surface glabrous, pilose or villous. Catkins: staminate 12.5–15.5 × 8–10 mm, flowering branchlet 3–12 mm; pistillate stout, subglobose, or globose, 10–31 × 6–12 mm, flowering branchlet 3.5–15 mm. Staminate flowers: abaxial nectary 0.8–1.1 mm, adaxial nectary 0.7–1.1 mm, nectaries connate and cup-shaped. Pistillate flowers: abaxial nectary absent, adaxial nectary ovate, 0.5–2.1 mm; stipe 0.2–1.4 mm; ovary glaucous or not, usually glabrous, sometimes pubescent, or villous. Capsules 5.2–6.5 mm.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>arctic and possibly subarctic, shores of lakes and lagoons</habitat>
-  <habitat>empetrum tundra</habitat>
-  <habitat>in moss on rocky pavements</habitat>
-  <habitat>meadows</habitat>
-  <habitat>beach ridges</habitat>
-  <elevation>10–600 m;</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Chukotka).</global_distribution>
-  <global_distribution>Asia (Russia).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Salix;species cyclophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) Jurtsev &amp; V. V. Petrovsky" date="unknown">cyclophylla</taxon_name>
+    <taxon_hierarchy>genus Salix;species ovalifolia;subspecies cyclophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>38b.</number>
+</bio:treatment>

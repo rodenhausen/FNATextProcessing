@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Rugelia</genus_name><species_name>nudicaulis</species_name><species_authority>Shuttleworth ex Chapman</species_authority><place_of_publication>
-    <publication_title>Fl. S.E. U.S.,</publication_title>
-    <place_in_publication>246. 1860</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>rugelia</species_name><species_authority>A. Gray</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cacalia</genus_name><species_name>rugelia</species_name><species_authority>(A. Gray) T. M. Barkley &amp; Cronquist</species_authority></TaxonIdentification><description>Leaf blades 5–15+ × 3–10+ cm, marginal teeth 17–22 on each side. Phyllaries 10–13(–14) mm. Corollas 8–10 mm. Cypselae 4–6 mm; pappi 8–10+ mm. 2n = 56.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>forests</habitat><habitat>edges of openings in spruce-fir and hardwood regions</habitat><conservation>of conservation concern;</conservation><elevation>1400–2000 m;</elevation><us_distribution>N.C.</us_distribution><us_distribution>Tenn.</us_distribution><discussion>Rugelia nudicaulis is known mostly from the Great Smoky Mountains National Park on the North Carolina–Tennessee border.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rugelia</taxon_name>
+    <taxon_name rank="species" authority="Shuttleworth ex Chapman" date="unknown">nudicaulis</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. S.E. U.S.,</publication_title>
+      <place_in_publication>246. 1860</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Rugelia;species nudicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">rugelia</taxon_name>
+    <taxon_hierarchy>genus Senecio;species rugelia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cacalia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) T. M. Barkley &amp; Cronquist" date="unknown">rugelia</taxon_name>
+    <taxon_hierarchy>genus Cacalia;species rugelia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Rugelia nudicaulis is known mostly from the Great Smoky Mountains National Park on the North Carolina–Tennessee border.</discussion>
+</bio:treatment>

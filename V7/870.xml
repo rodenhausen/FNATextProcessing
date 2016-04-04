@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Braya</genus_name>
-    <species_name>glabella</species_name>
-    <species_authority>Richardson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Euclidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">glabella</taxon_name>
     <place_of_publication>
       <publication_title>in J. Franklin et al., Narr. Journey Polar Sea,</publication_title>
       <place_in_publication>743. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Braya</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>Sternberg &amp; Hoppe</species_authority>
-    <variety_name>glabella</variety_name>
-    <variety_authority>(Richardson) S. Watson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants scapose; sparsely to densely pubescent, trichomes simple, 2- or 3-forked. Stems simple or few to several from base, ascending or erect, rarely decumbent to prostrate, (0.1–)0.3–1.7(–2.3) dm. Basal leaves: blade (often somewhat fleshy), linear-oblanceolate to broadly spatulate, (0.4–)0.8–6(–7.9) cm × (0.3–)0.6–4(–6) mm, base (membranous), broadly expanded near point of attachment, margins usually entire, sometimes weakly dentate with 1 or 2 teeth per side, apex obtuse, (often with a tuft of long, simple hairs, surfaces sparsely to moderately pubescent). Cauline leaves 0 or 1 (or a leaflike bract subtending proximalmost pedicel). (Racemes elongated or not in fruit.) Fruiting pedicels ascending-erect to divaricate, (0.9–)1.9–7.5(–8.6) mm. Flowers: sepals (1.6–)1.9–3.7 × (0.7–)1–2 mm; petals white or purplish (broadly obovate or spatulate), (2.1–)2.4–4.5(–4.7) × (0.7–)1–3(–3.2) mm, (apex rounded); filaments 1.7–2.2 mm; anthers oblong, 0.3–0.5 mm. Fruits oval-elliptic, oblong-elliptic, oblong, or oblong-lanceoloid, sometimes slightly torulose, (straight or somewhat curved), (0.3–)0.5–1.2(–1.5) cm × (0.8–)1.1–3(–3.6) mm; valves sparsely to densely pubescent or glabrous, trichomes simple or 2 (or 3)-forked; septum margin not expanded or not basally; ovules (5–)16–20 per ovary; style (0.3–)0.5–1.8(–2) mm; stigma entire or strongly 2-lobed, (narrow or broad). Seeds biseriate, oblong, (0.7–)0.9–1.6 × 0.4–0.8(–0.9) mm.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>n North America</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Euclidieae;genus Braya;species glabella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="Sternberg &amp; Hoppe" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="(Richardson) S. Watson" date="unknown">glabella</taxon_name>
+    <taxon_hierarchy>genus Braya;species alpina;variety glabella;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>Braya glabella is extremely variable, sometimes even within a population, and the species has often been split into taxa based primarily on fruit attributes. When the species is examined from its entire range, the perceived morphological gaps blur into a bewildering array of overlapping forms. On the basis of morphological and molecular evidence (S. I. Warwick et al. 2004) it is difficult to justify the recognition of more than one species in this very plastic group, but it does seem useful to divide the species into three fairly distinctive subspecies. Some populations will be readily separable into one of these subspecies, but others will likely defy unequivocal placement, particularly those from areas where the ranges of the subspecies meet.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits oblong to narrowly oblong-lanceoloid, 3.5–8.3 times as long as wide; racemes often loosely elongated in fruit</statement>
+      <description type="morphology">Fruits oblong to narrowly oblong-lanceoloid, 3.5–8.3 times as long as wide; racemes often loosely elongated in fruit</description>
       <determination>2a. Braya glabella subsp. glabella</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits oval-elliptic to oblong-elliptic, rarely broadly oblong-lanceoloid, 2.5–3.7 times as long as wide; racemes not elongated in fruit, often compact.</statement>
+      <description type="morphology">Fruits oval-elliptic to oblong-elliptic, rarely broadly oblong-lanceoloid, 2.5–3.7 times as long as wide; racemes not elongated in fruit, often compact.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems decumbent to prostrate, sometimes weakly ascending; leaf blades not fleshy, to 6 mm wide; fruits 0.8–1.2 cm; styles 0.8–1.8</statement>
+      <description type="morphology">Stems decumbent to prostrate, sometimes weakly ascending; leaf blades not fleshy, to 6 mm wide; fruits 0.8–1.2 cm; styles 0.8–1.8</description>
       <determination>2b. Braya glabella subsp. prostrata</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems ascending to erect; leaf blades often fleshy, to 4 mm wide; fruits 0.5–1 cm; styles 0.5–</statement>
+      <description type="morphology">Stems ascending to erect; leaf blades often fleshy, to 4 mm wide; fruits 0.5–1 cm; styles 0.5–</description>
       <determination>2c. Braya glabella subsp. purpurascens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

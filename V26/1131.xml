@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Platanthera</genus_name><species_name>tipuloides</species_name><species_authority>(Linnaeus f.) Lindley</species_authority><place_of_publication>
-    <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
-    <place_in_publication>285. 1835</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Orchis</genus_name><species_name>tipuloides</species_name><species_authority>Linnaeus f.</species_authority><place_of_publication><publication_title>Suppl. Pl., </publication_title><place_in_publication>401. 1782</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><us_distribution>Alaska</us_distribution><global_distribution>Aleutian Islands</global_distribution><global_distribution>e Asia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platanthera</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus f.) Lindley" date="unknown">tipuloides</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. Sp. Orchid. Pl.,</publication_title>
+      <place_in_publication>285. 1835</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Platanthera;species tipuloides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Orchis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus f." date="unknown">tipuloides</taxon_name>
+    <place_of_publication>
+      <publication_title>Suppl. Pl.,</publication_title>
+      <place_in_publication>401. 1782</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Orchis;species tipuloides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

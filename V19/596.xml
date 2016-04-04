@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lygodesmia</genus_name>
-    <species_name>grandiflora</species_name>
-    <species_authority>(Nuttall) Torrey &amp; A. Gray</species_authority>
-    <variety_name>dianthopsis</variety_name>
-    <variety_authority>(D. C. Eaton) S. L. Welsh</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodesmia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Torrey &amp; A. Gray" date="unknown">grandiflora</taxon_name>
+    <taxon_name rank="variety" authority="(D. C. Eaton) S. L. Welsh" date="unknown">dianthopsis</taxon_name>
     <place_of_publication>
       <publication_title>Great Basin Naturalist</publication_title>
       <place_in_publication>43: 314. 1983</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lygodesmia;species grandiflora;variety dianthopsis;</taxon_hierarchy>
-  <common_name>Antelope Island skeletonplant</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lygodesmia</genus_name>
-    <species_name>juncea</species_name>
-    <species_authority>(Pursh) D. Don ex Hooker</species_authority>
-    <variety_name>dianthopsis</variety_name>
-    <variety_authority>D. C. Eaton</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lygodesmia;species grandiflora;variety dianthopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodesmia</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) D. Don ex Hooker" date="unknown">juncea</taxon_name>
+    <taxon_name rank="variety" authority="D. C. Eaton" date="unknown">dianthopsis</taxon_name>
     <place_of_publication>
       <publication_title>in S. Watson, Botany (Fortieth Parallel),</publication_title>
       <place_in_publication>200. 1871</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lygodesmia</genus_name>
-    <species_name>dianthopsis</species_name>
-    <species_authority>(D. C. Eaton) Tomb</species_authority>
-  </TaxonIdentification>
-  <description>Plants (5–)20–60 cm. Stems erect or ascending, purple proximally, slender, simple or sparingly branched from bases or distally, smooth (glabrous or tomentulose). Leaves: (proxi-malmost reduced to scales at ground level) proximal blades linear, 50–110 × 2–6 mm, ± lax; distal linear, less than 10 mm, distally reduced to linear scales. Heads 2–13, in loose, corymbiform arrays. Involucres subcylindric, 15–22 × 4–5 mm, apices narrow. Phyllaries 5–6. Florets 5; corollas purple to lavender or white. Cypselae 12–19 mm, abaxial faces smooth, adaxial distinctly rugose, weakly sulcate. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Jun–Jul.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy and gravelly soils in juniper-pinyon scrub , open fields , sandy roadsides ;</text>
-    <habitat>sandy and gravelly soils in juniper-pinyon scrub , open fields , sandy roadsides</habitat>
-  </habitat_info>
-  <elevation>1300–2500 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Lygodesmia;species juncea;variety dianthopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodesmia</taxon_name>
+    <taxon_name rank="species" authority="(D. C. Eaton) Tomb" date="unknown">dianthopsis</taxon_name>
+    <taxon_hierarchy>genus Lygodesmia;species dianthopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2c.</number>
+  <other_name type="common_name">Antelope Island skeletonplant</other_name>
   <discussion>Variety dianthopsis is recognized by its slender, erect, leafy stems, purplish at base, persistent cauline leaves, phyllaries with appendages, 5–6 florets per head, and distinctive rugose-roughened cypselae. It usually is taller than var. arizonica. The stems and leaves are occasionally sparsely tomentulose.</discussion>
-</treatment>
-
+</bio:treatment>

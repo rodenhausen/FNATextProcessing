@@ -1,66 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Omalotheca</genus_name>
-    <species_name>sylvatica</species_name>
-    <species_authority>(Linnaeus) Schultz-Bipontinus &amp; F. W. Schultz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Omalotheca</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Schultz-Bipontinus &amp; F. W. Schultz" date="unknown">sylvatica</taxon_name>
     <place_of_publication>
       <publication_title>in F. W. Schultz, Arch. Fl.,</publication_title>
       <place_in_publication>311. 1861</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Omalotheca;species sylvatica;</taxon_hierarchy>
-  <common_name>Woodland Arctic-cudweed</common_name>
-  <common_name>gnaphale des bois</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>sylvaticum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Omalotheca;species sylvatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">sylvaticum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 856. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 10–70 cm. Leaves basal and cauline; blades 1-nerved, linear to narrowly oblanceolate or lanceolate, 2–8 cm × 2–10 mm, distal cauline smaller, linear, faces bicolor, abaxial gray, silvery sericeous, adaxial green, glabrescent. Heads (20–90) in loose, spiciform (leafy-bracteate, interrupted) arrays (4–35 cm, occupying 1/3–5/6 plant heights, simple or branched at bases, primary axes mostly visible). Involucres campanulo-turbinate, 5–6.5 mm. Phyllaries some or all with conspicuous dark brown spot distal to middle. Cypselae cylindric to fusiform, minutely strigose; pappus bristles basally connate, falling together. 2n = 56.</description>
-  <phenology_info>
-    <text>Flowering Jul–Sep(–Oct).</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open woods , boggy woods , rocky slopes , clearings , fields , borders of woods , roadsides , muddy banks , disturbed sites ;</text>
-    <habitat>open woods</habitat>
-    <habitat>boggy woods</habitat>
-    <habitat>rocky slopes</habitat>
-    <habitat>clearings</habitat>
-    <habitat>fields</habitat>
-    <habitat>borders of woods</habitat>
-    <habitat>roadsides muddy banks</habitat>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>10–500 m;</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (Caucasus).</global_distribution>
-  <global_distribution>Asia (Iran).</global_distribution>
-  <global_distribution>Asia (Siberia).</global_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species sylvaticum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Woodland Arctic-cudweed</other_name>
+  <other_name type="common_name">gnaphale des bois</other_name>
   <discussion>The circumboreal Omalotheca sylvatica may have been introduced from Eurasia (Frére Marie-Victorin 1995). Omalotheca alpigena (K. Koch) Holub and O. caucasica (Sommier &amp; Levier) S. K. Cherepanov were treated as synonyms of O. sylvatica by A. J. C. Grierson (1975); they have been recognized as distinct species in other treatments.</discussion>
-</treatment>
-
+</bio:treatment>

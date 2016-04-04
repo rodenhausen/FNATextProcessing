@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Aquilegia</genus_name><species_name>jonesii</species_name><species_authority>Parry</species_authority><place_of_publication><publication_title> Amer. Naturalist </publication_title><place_in_publication>8: 211. 1874</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Aquilegia</genus_name><species_name>jonesii</species_name><variety_name>elatior</variety_name><variety_authority>Boothman</variety_authority></TaxonIdentification><description>Stems 3.5-12 cm. Basal leaves 1-2×-ternately compound, 2.5-10 cm, not much shorter than stems; leaflets to 3-12 mm, not viscid, glaucous on both sides; primary petiolules 1-10 mm (leaflets very crowded), pilose. Flowers usually erect; sepals divergent from floral axis, blue or purple, oblong-elliptic, 15-22 × 6-10 mm, apex acute to obtuse; petals: spurs blue, straight, ± parallel, 8-15 mm, stout (at least proximally), evenly tapered from base, blades blue, oblong to spatulate, 8-13 × 5-6 mm; stamens 9-14 mm. Follicles 14-22 mm; beak 8-12 mm. 2n = 14.</description><phenology>Flowering summer (Jun-Jul)</phenology><habitat> Rocky places in limestone areas, usually subalpine</habitat><elevation> 1800-3400 m</elevation><ca_distribution> Alta.</ca_distribution><us_distribution> Mont.</us_distribution><us_distribution> Wyo.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">jonesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Naturalist</publication_title>
+      <place_in_publication>8: 211. 1874</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aquilegia;species jonesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aquilegia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">jonesii</taxon_name>
+    <taxon_name rank="variety" authority="Boothman" date="unknown">elatior</taxon_name>
+    <taxon_hierarchy>genus Aquilegia;species jonesii;variety elatior;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Iresine</genus_name>
-        <species_name>heterophylla</species_name>
-        <species_authority>Standley</species_authority>
-        <place_of_publication>
-            <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-            <place_in_publication>18: 95. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Standley’s bloodleaf</common_name>
-    <description>Herbs, perennial, 5–10 dm. Stems erect to ascending or sprawling, sparsely
-        pubescent. Leaves opposite; blade ovate, 3–6 × 2–4 cm, apex rounded to acute, pubescent.
-        Inflorescences: panicles 1.5–4 dm; bracts and bracteoles 1/2–1/3 as long as tepals. Flowers
-        pedicellate; tepals whitish to stramineous, ovate, 1–1.3 mm, apex acute, densely lanate.
-        Utricles included in tepals, greenish, ovoid, 0.8 mm, apex acute. Seeds 0.6
-        mm.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>sheltered ravines</habitat>
-    <habitat>canyons</habitat>
-    <habitat>pastures</habitat>
-    <elevation>1400–2000 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Chihuahua).</global_distribution>
-    <global_distribution>Mexico (Coahuila).</global_distribution>
-    <global_distribution>Mexico (Durango).</global_distribution>
-    <global_distribution>Mexico (Nuevo León).</global_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Iresine</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">heterophylla</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>18: 95. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Iresine;species heterophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Standley’s bloodleaf</other_name>
+</bio:treatment>

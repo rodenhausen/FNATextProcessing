@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>POPULUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>James E. Eckenwalder</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">POPULUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 1034. 1753</place_in_publication>
@@ -12,19 +17,11 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 456. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin populus , the people, many fanciful allusions supposed but none certain]</etymology>
-  <author>James E. Eckenwalder</author>
-  <description>Trees, usually heterophyllous, usually clonal, clones formed by root shoots; branching usually monopodial [or sympodial]. Stems not spinose. Buds 3–10-scaled (resinous or not, terminal buds present [or absent]). Leaves deciduous; stipules present (caducous, usually minute, sometimes prominent on sucker shoots); petiole not glandular; (blade usually less than twice as long as wide, venation ± palmate, basal secondary veins strong, paired, except in Populus angustifolia, margins subentire or crenate, basilaminar glands 0–6). Inflorescences axillary or terminal, catkins, pendulous, sessile, unbranched, (leafless, flowering before leaves emerge); floral bract caducous, apex deeply or shallowly cut, (sometimes ciliate, usually glabrous, except pubescent abaxially in P. heterophylla); pistillate bract deciduous after flowering. Pedicels present. Flowers: perianth modified into non-nectariferous disc, (persistent, caducous in P. heterophylla), cup- or saucer-shaped; stamens 6–60(–70); filaments distinct; ovary 2–4-carpellate; ovules (1 or) 2–25 per ovary; styles distinct; stigmas 2–4, cylindrical to platelike, often rolled or convoluted, entire or 2-lobed. Fruits capsular, (2–4-valved, ovoid or spherical). Seeds: aril present. x = 19.</description>
-  <number_of_infrataxa>Species ca. 30 (8 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide</global_distribution>
-  <global_distribution>mostly in northern hemisphere in moist to wet habitats</global_distribution>
-  <global_distribution>Arctic Circle to s Mexico</global_distribution>
-  <global_distribution>Asia (s China)</global_distribution>
-  <global_distribution>Asia (n India)</global_distribution>
-  <global_distribution>Asia (s Arabian Peninsula)</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>outlier in Kenya.</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus POPULUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin populus , the people, many fanciful allusions supposed but none certain]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species ca. 30 (8 in the flora):</discussion>
   <discussion>Populus has six well-marked sections, of which four occur in the flora area: swamp poplars [sect. Leucoides Spach (P. heterophylla)]; balsam poplars [sect. Tacamahaca Spach (P. angustifolia, P. balsamifera, and P. trichocarpa)]; cottonwoods [sect. Aigeiros Duby (P. deltoides and P. fremontii)]; and aspens [sect. Populus (P. grandidentata and P. tremuloides)]. Species within a section usually have separate distributions and hybridize freely where they come in contact. Species of different sections often have overlapping ranges and do not hybridize, except that members of sect. Aigeiros hybridize with all species of both sect. Leucoides and sect. Tacamahaca with which they are sympatric (J. E. Eckenwalder 1984). All known natural hybrids in the flora area are discussed under their parent species. Although some were originally described as species, they are not self-perpetuating. Because they can persist for decades by clonal growth, they can often be found in the absence of one or both parents.</discussion>
   <discussion>All poplars are capable of clonal expansion, producing new trees from sprouts of root systems (soboliferous habit). Different species vary greatly in their propensity for cloning. The cottonwoods, Populus deltoides and P. fremontii, rarely produce root-borne shoots under natural conditions, with most clonal suckers arising from buried branches (S. B. Rood et al. 1994); the aspens, P. grandidentata and P. tremuloides, regularly form characteristic, dome-shaped clonal groves, some hectares in extent, with thousands of individual stems (B. V. Barnes 1966). Other species fall between these extremes. As a consequence of clonal growth, whole patches of trees may be solely staminate or pistillate and have uniform leaf morphology and phenology, sometimes making it difficult to find individuals of both sexes (Barnes 1969).</discussion>
   <discussion>Collecting representative materials and identifying poplars is also complicated by seasonal heterophylly (variation in leaves along a shoot over the course of a growing season; W. B. Critchfield 1960; J. E. Eckenwalder 1980c, 1996). Two principal categories of leaves may differ in some characteristics, including size, shape, and marginal teeth. Preformed leaves (also known as early leaves) overwinter in buds as usually 3–10 tiny rolled up leaves before expanding with spring flush following flowering. Neoformed leaves (also known as late leaves) are initiated and expand during the growing season as shoots continue to lengthen after spring flush. Some neoformed leaves of rapidly growing suckers and young trees are the largest produced by each species, often more than twice as long as the largest leaves of mature trees. Preformed leaves are clustered at shoot bases, separated by internodes less than 1 cm. On long shoots (and all leaves on clonal sucker shoots in their first year), neoformed leaves are produced with internodes of 2 cm or more throughout the growing season until formation of winter buds, which contain next year’s preformed leaves. By the time winter buds form, most preformed leaves may already have fallen, leaving only neoformed leaves. As a result of this seasonality and unisexuality, individual staminate and pistillate trees should be marked and collected on three separate occasions: 1) at flowering; 2) when preformed leaves are mature (and when capsules are just opening on pistillate trees); and 3) with formation of mature winter buds, but before leaves have turned color and developed their abscission layer.</discussion>
@@ -48,229 +45,229 @@
     <key_head>Key to flowering specimens of Populus</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Floral bracts ciliate; stamens 6–12; flower discs narrowly cup-shaped, oblique; stigmas 2, filiform; capsules narrowly ovoid to lanceoloid; winter buds not or slightly resinous.</statement>
+      <description type="morphology">Floral bracts ciliate; stamens 6–12; flower discs narrowly cup-shaped, oblique; stigmas 2, filiform; capsules narrowly ovoid to lanceoloid; winter buds not or slightly resinous.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Branchlets and terminal buds densely to sparsely tomentose; floral bracts: apex shallowly cut.</statement>
+      <description type="morphology">Branchlets and terminal buds densely to sparsely tomentose; floral bracts: apex shallowly cut.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Hairs bright whitePopulus alba [p. 21]</statement>
+      <description type="morphology">Hairs bright whitePopulus alba [p. 21]</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Hairs grayish, brownish, or dirty whitePopulus × canescens [p. 21]</statement>
+      <description type="morphology">Hairs grayish, brownish, or dirty whitePopulus × canescens [p. 21]</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Branchlets and terminal buds glabrous or pubescent; floral bracts: apex deeply cut.</statement>
+      <description type="morphology">Branchlets and terminal buds glabrous or pubescent; floral bracts: apex deeply cut.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Winter buds pubescent proximally (dull); catkins (4–)6–10 cm; flowers: discs</statement>
+      <description type="morphology">Winter buds pubescent proximally (dull); catkins (4–)6–10 cm; flowers: discs</description>
       <determination>7. Populus grandidentata</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Winter buds glabrous proximally (shiny); catkins (1.7–)4–7 cm; flowers: discs</statement>
+      <description type="morphology">Winter buds glabrous proximally (shiny); catkins (1.7–)4–7 cm; flowers: discs</description>
       <determination>8. Populus tremuloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Floral bracts not ciliate; stamens 10–60(–70); flower discs broadly cup- or saucer-shaped, not oblique; stigmas 2–4, not filiform; capsules ovoid to spherical; winter buds resinous or not.</statement>
+      <description type="morphology">Floral bracts not ciliate; stamens 10–60(–70); flower discs broadly cup- or saucer-shaped, not oblique; stigmas 2–4, not filiform; capsules ovoid to spherical; winter buds resinous or not.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Floral bracts pubescent abaxially; anthers apiculate; catkins 10–15(–45)-flowered;</statement>
+      <description type="morphology">Floral bracts pubescent abaxially; anthers apiculate; catkins 10–15(–45)-flowered;</description>
       <determination>1. Populus heterophylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Floral bracts glabrous abaxially; anthers usually truncate; catkins (3–)15–150(–175)-flowered; flowers: discs entire; winter buds resinous throughout or partly.</statement>
+      <description type="morphology">Floral bracts glabrous abaxially; anthers usually truncate; catkins (3–)15–150(–175)-flowered; flowers: discs entire; winter buds resinous throughout or partly.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Winter buds with yellow resin.</statement>
+      <description type="morphology">Winter buds with yellow resin.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stamens 30–40(–55); pedicels 1–10(–17 in fruit) mm; ovaries ovoid, discs saucer-shaped, 1–3(–4) mm diam.; branchlets usually glabrous or thinly long-</statement>
+      <description type="morphology">Stamens 30–40(–55); pedicels 1–10(–17 in fruit) mm; ovaries ovoid, discs saucer-shaped, 1–3(–4) mm diam.; branchlets usually glabrous or thinly long-</description>
       <determination>5. Populus deltoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Stamens (30–)40–60(–70); pedicels 1–4(–5.5 in fruit) mm; ovaries spherical, discs cup-shaped, (2.5–)4–7(–9) mm diam.; branchlets glabrous, glabrate, or</statement>
+      <description type="morphology">Stamens (30–)40–60(–70); pedicels 1–4(–5.5 in fruit) mm; ovaries spherical, discs cup-shaped, (2.5–)4–7(–9) mm diam.; branchlets glabrous, glabrate, or</description>
       <determination>6. Populus fremontii</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Winter buds with red resin.</statement>
+      <description type="morphology">Winter buds with red resin.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Ovaries usually 3- or 4-carpelled; stamens 30+.</statement>
+      <description type="morphology">Ovaries usually 3- or 4-carpelled; stamens 30+.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Ovaries spherical, hairy to glabrate; discs 4–6 mm diam.; plants pistillate</statement>
+      <description type="morphology">Ovaries spherical, hairy to glabrate; discs 4–6 mm diam.; plants pistillate</description>
       <determination>2. Populus trichocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Ovaries broadly ovoid, glabrous; discs 1–3.5 mm diam.; plants pistillate</statement>
+      <description type="morphology">Ovaries broadly ovoid, glabrous; discs 1–3.5 mm diam.; plants pistillate</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Ovaries usually 2-carpelled; stamens 10–30.</statement>
+      <description type="morphology">Ovaries usually 2-carpelled; stamens 10–30.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Terminal buds (3–)6–9(–13) mm; branchlets round or 5-angled, whitish tan by third year; catkins 3–8 cm.</statement>
+      <description type="morphology">Terminal buds (3–)6–9(–13) mm; branchlets round or 5-angled, whitish tan by third year; catkins 3–8 cm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Stamens 10–20; plants staminate or pistillate (dioecious)</statement>
+      <description type="morphology">Stamens 10–20; plants staminate or pistillate (dioecious)</description>
       <determination>4. Populus angustifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Stamens usually fewer than 12; plants staminatePopulus simonii [p. 15]</statement>
+      <description type="morphology">Stamens usually fewer than 12; plants staminatePopulus simonii [p. 15]</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Terminal buds usually (8–)12–16(–20) mm; branchlets usually round, tan or gray by third year; catkins (4–)7–15 cm.</statement>
+      <description type="morphology">Terminal buds usually (8–)12–16(–20) mm; branchlets usually round, tan or gray by third year; catkins (4–)7–15 cm.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Branchlets grayish brown by third year, first year reddish brown; resin of winter buds red, fragrant (balsamic); plants staminate or pistillate</statement>
+      <description type="morphology">Branchlets grayish brown by third year, first year reddish brown; resin of winter buds red, fragrant (balsamic); plants staminate or pistillate</description>
       <determination>3. Populus balsamifera</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Branchlets tan by third year, first year bright orange-brown to reddish brown; resin of winter buds orange-red, fragrant (not balsamic); plants staminate only.</statement>
+      <description type="morphology">Branchlets tan by third year, first year bright orange-brown to reddish brown; resin of winter buds orange-red, fragrant (not balsamic); plants staminate only.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Stamens 12–20(–30); first year branchlets reddish brown; habit</statement>
+      <description type="morphology">Stamens 12–20(–30); first year branchlets reddish brown; habit</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Stamens (15–)20–30; first year branchlets orange-brown; habit</statement>
+      <description type="morphology">Stamens (15–)20–30; first year branchlets orange-brown; habit</description>
     </key_statement>
   </key>
   <key>
     <key_head>Key to fruiting specimens of Populus</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules usually 2-valved.</statement>
+      <description type="morphology">Capsules usually 2-valved.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Capsules ovoid to spherical, 3–8 mm.</statement>
+      <description type="morphology">Capsules ovoid to spherical, 3–8 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Capsules (3–)5–8 mm; seeds 15–22 per placenta; petioles (0.2–)1.5–5 cm</statement>
+      <description type="morphology">Capsules (3–)5–8 mm; seeds 15–22 per placenta; petioles (0.2–)1.5–5 cm</description>
       <determination>3. Populus balsamifera</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Capsules 3–5 mm; seeds (2–)4–7(–9) per placenta; petioles 0.2–0.8(–1.7) cm</statement>
+      <description type="morphology">Capsules 3–5 mm; seeds (2–)4–7(–9) per placenta; petioles 0.2–0.8(–1.7) cm</description>
       <determination>4. Populus angustifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Capsules lanceoloid or narrowly ovoid, 2–5(–7) mm.</statement>
+      <description type="morphology">Capsules lanceoloid or narrowly ovoid, 2–5(–7) mm.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Seeds (1 or) 2 (or 3) per placenta; floral bracts densely tomentosePopulus alba [p. 21]</statement>
+      <description type="morphology">Seeds (1 or) 2 (or 3) per placenta; floral bracts densely tomentosePopulus alba [p. 21]</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Seeds (3–)5–8 (or 9) per placenta; floral bracts glabrous or tomentose.</statement>
+      <description type="morphology">Seeds (3–)5–8 (or 9) per placenta; floral bracts glabrous or tomentose.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades: abaxial surface glabrous or densely silky at emergence.</statement>
+      <description type="morphology">Leaf blades: abaxial surface glabrous or densely silky at emergence.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Discs shallowly toothed; catkins (4–)6–10(–14 in fruit) cm; preformed blades densely silky at emergence, with (1–)5–12(–16) teeth on each side</statement>
+      <description type="morphology">Discs shallowly toothed; catkins (4–)6–10(–14 in fruit) cm; preformed blades densely silky at emergence, with (1–)5–12(–16) teeth on each side</description>
       <determination>7. Populus grandidentata</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Discs entire; catkins 4–7(–12.5 in fruit) cm; preformed blades glabrous or sparsely sericeous at emergence, with (12–)18–30(–42) teeth on each side</statement>
+      <description type="morphology">Discs entire; catkins 4–7(–12.5 in fruit) cm; preformed blades glabrous or sparsely sericeous at emergence, with (12–)18–30(–42) teeth on each side</description>
       <determination>8. Populus tremuloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules usually 3- or 4-valved.</statement>
+      <description type="morphology">Capsules usually 3- or 4-valved.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Seeds 6–9 per placenta; branchlets tomentose to glabrate; discs caducous</statement>
+      <description type="morphology">Seeds 6–9 per placenta; branchlets tomentose to glabrate; discs caducous</description>
       <determination>1. Populus heterophylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Seeds (3–)7–15(–25) per placenta; branchlets glabrous, glabrate, or long-hairy; discs persistent.</statement>
+      <description type="morphology">Seeds (3–)7–15(–25) per placenta; branchlets glabrous, glabrate, or long-hairy; discs persistent.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Discs cup-shaped, 4–8 mm diam.; capsules spherical, (6–)7–9 mm.</statement>
+      <description type="morphology">Discs cup-shaped, 4–8 mm diam.; capsules spherical, (6–)7–9 mm.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Capsules densely hairy to glabrate; blades: abaxial surface white to grayish white or greenish white (with red resin stain); margins not ciliate; preformed blade margins with (20–)35–40(–50) teeth on each side, sinuses 0.1–0.4 mm</statement>
+      <description type="morphology">Capsules densely hairy to glabrate; blades: abaxial surface white to grayish white or greenish white (with red resin stain); margins not ciliate; preformed blade margins with (20–)35–40(–50) teeth on each side, sinuses 0.1–0.4 mm</description>
       <determination>2. Populus trichocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Capsules glabrous; blades: abaxial surface yellowish green (red resin stain not evident); margins ciliate; preformed blade margins with 3–10(–15) teeth</statement>
+      <description type="morphology">Capsules glabrous; blades: abaxial surface yellowish green (red resin stain not evident); margins ciliate; preformed blade margins with 3–10(–15) teeth</description>
       <determination>6. Populus fremontii</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Discs saucer-shaped, 1–4 mm diam.; capsules ovoid, (4–)8–11(–16) mm.</statement>
+      <description type="morphology">Discs saucer-shaped, 1–4 mm diam.; capsules ovoid, (4–)8–11(–16) mm.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Pedicels to 3 mm; branchlets and petioles hairy; preformed blade margins</statement>
+      <description type="morphology">Pedicels to 3 mm; branchlets and petioles hairy; preformed blade margins</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Pedicels 1–13 mm; branchlets and petioles glabrous or thinly long-hairy; preformed blade margins with (3–)5–15(–30) teeth on each side, sinuses</statement>
+      <description type="morphology">Pedicels 1–13 mm; branchlets and petioles glabrous or thinly long-hairy; preformed blade margins with (3–)5–15(–30) teeth on each side, sinuses</description>
       <determination>5. Populus deltoides</determination>
     </key_statement>
   </key>
@@ -278,143 +275,143 @@
     <key_head>Key to leafy specimens of Populus</key_head>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades usually 5–8(–10) cm, abaxial surface densely tomentose when young, retaining dense tomentum on at least some intervein regions.</statement>
+      <description type="morphology">Leaf blades usually 5–8(–10) cm, abaxial surface densely tomentose when young, retaining dense tomentum on at least some intervein regions.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades: abaxial surface tomentum bright white; neoformed blades (3 or) 5-lobed</statement>
+      <description type="morphology">Leaf blades: abaxial surface tomentum bright white; neoformed blades (3 or) 5-lobed</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades: abaxial surface tomentum dull grayish, tannish, or dirty white;</statement>
+      <description type="morphology">Leaf blades: abaxial surface tomentum dull grayish, tannish, or dirty white;</description>
       <next_statement_id>1.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades (1–)3–20(–27.5) cm, abaxial surface glabrous, glabrate, densely hairy, silky, or pubescent (not densely tomentose when young, not tomentose on intervein regions).</statement>
+      <description type="morphology">Leaf blades (1–)3–20(–27.5) cm, abaxial surface glabrous, glabrate, densely hairy, silky, or pubescent (not densely tomentose when young, not tomentose on intervein regions).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petioles round, cylindrical, or slightly flattened distally to plane of blades.</statement>
+      <description type="morphology">Petioles round, cylindrical, or slightly flattened distally to plane of blades.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf blades: base deeply cordate to subsagittate, apex obtuse to apiculate, abaxial surface pubescent to partly glabrate, retaining tomentum at least basally and on</statement>
+      <description type="morphology">Leaf blades: base deeply cordate to subsagittate, apex obtuse to apiculate, abaxial surface pubescent to partly glabrate, retaining tomentum at least basally and on</description>
       <determination>1. Populus heterophylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf blades: base acute, cuneate, rounded, truncate, or shallowly cordate, apex obtuse, acute, or acuminate, abaxial surface glabrous or hairy (hairs short and stiff).</statement>
+      <description type="morphology">Leaf blades: base acute, cuneate, rounded, truncate, or shallowly cordate, apex obtuse, acute, or acuminate, abaxial surface glabrous or hairy (hairs short and stiff).</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petioles 0.2–0.8(–1.7) cm; leaf blades: abaxial surface whitish green (not obviously stained with reddish resin).</statement>
+      <description type="morphology">Petioles 0.2–0.8(–1.7) cm; leaf blades: abaxial surface whitish green (not obviously stained with reddish resin).</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf blades usually lanceolate to narrowly ovate</statement>
+      <description type="morphology">Leaf blades usually lanceolate to narrowly ovate</description>
       <determination>4. Populus angustifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf blades elliptic-rhombate to obovatePopulus simonii [p. 15]</statement>
+      <description type="morphology">Leaf blades elliptic-rhombate to obovatePopulus simonii [p. 15]</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Petioles 0.2–9.5 cm; leaf blades: abaxial surface white to grayish or greenish white, stained with reddish resin.</statement>
+      <description type="morphology">Petioles 0.2–9.5 cm; leaf blades: abaxial surface white to grayish or greenish white, stained with reddish resin.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Petioles densely pubescent, at least distallyPopulus × jackii [p. 15]</statement>
+      <description type="morphology">Petioles densely pubescent, at least distallyPopulus × jackii [p. 15]</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Petioles glabrous or sparsely pubescent.</statement>
+      <description type="morphology">Petioles glabrous or sparsely pubescent.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaf blades usually triangular-ovate or narrowly ovate to cordate, base rounded to cordate; petioles often markedly swollen distally;</statement>
+      <description type="morphology">Leaf blades usually triangular-ovate or narrowly ovate to cordate, base rounded to cordate; petioles often markedly swollen distally;</description>
       <determination>2. Populus trichocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaf blades usually narrowly ovate to ovate (rarely broadly ovate), base rounded to broadly cuneate or subcordate; petioles not conspicuously</statement>
+      <description type="morphology">Leaf blades usually narrowly ovate to ovate (rarely broadly ovate), base rounded to broadly cuneate or subcordate; petioles not conspicuously</description>
       <determination>3. Populus balsamifera</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petioles flattened at right angle to plane of blades distally.</statement>
+      <description type="morphology">Petioles flattened at right angle to plane of blades distally.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf blade: margins not translucent, not ciliate.</statement>
+      <description type="morphology">Leaf blade: margins not translucent, not ciliate.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Preformed blade: margins coarsely serrate, teeth (1–)5–12(–16) on each side,</statement>
+      <description type="morphology">Preformed blade: margins coarsely serrate, teeth (1–)5–12(–16) on each side,</description>
       <determination>7. Populus grandidentata</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Preformed blade: margins subentire to finely crenate-serrate, teeth (12–)18–30</statement>
+      <description type="morphology">Preformed blade: margins subentire to finely crenate-serrate, teeth (12–)18–30</description>
       <determination>8. Populus tremuloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf blade: margins translucent, ciliate.</statement>
+      <description type="morphology">Leaf blade: margins translucent, ciliate.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Leaves: basilaminar glands (0 or) 1–6.</statement>
+      <description type="morphology">Leaves: basilaminar glands (0 or) 1–6.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Basilaminar glands 0 or 1; blade bases broadly cuneate, apices gradually</statement>
+      <description type="morphology">Basilaminar glands 0 or 1; blade bases broadly cuneate, apices gradually</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Basilaminar glands 0–6; blade bases truncate to subcordate, apices abruptly</statement>
+      <description type="morphology">Basilaminar glands 0–6; blade bases truncate to subcordate, apices abruptly</description>
       <determination>5. Populus deltoides (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Leaves: basilaminar glands 0.</statement>
+      <description type="morphology">Leaves: basilaminar glands 0.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Largest preformed blade: margins with sinuses less than 1.2 mm deepPopulus nigra [p. 17]</statement>
+      <description type="morphology">Largest preformed blade: margins with sinuses less than 1.2 mm deepPopulus nigra [p. 17]</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Largest preformed blade: margins with sinuses 2(–7) mm deep.</statement>
+      <description type="morphology">Largest preformed blade: margins with sinuses 2(–7) mm deep.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Neoformed blade: margins with (10–)25–40(–55) teeth on each side; preformed blade: margins with (3–)5–15(–30) teeth on each side</statement>
+      <description type="morphology">Neoformed blade: margins with (10–)25–40(–55) teeth on each side; preformed blade: margins with (3–)5–15(–30) teeth on each side</description>
       <determination>5. Populus deltoides (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Neoformed blade: margins with (10–)20–30(–45) teeth on each side;</statement>
+      <description type="morphology">Neoformed blade: margins with (10–)20–30(–45) teeth on each side;</description>
       <determination>6. Populus fremontii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

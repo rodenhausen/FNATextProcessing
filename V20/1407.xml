@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cacaliopsis</genus_name><species_name>nardosmia</species_name><species_authority>(A. Gray) A. Gray</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>19: 50. 1883</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Cacalia</genus_name><species_name>nardosmia</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>7: 361. 1868</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cacalia</genus_name><species_name>nardosmia</species_name><variety_name>glabrata</variety_name><variety_authority>(Piper) B. Boivin</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Luina</genus_name><species_name>nardosmia</species_name><species_authority>(A. Gray) Cronquist</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Luina</genus_name><species_name>nardosmia</species_name><variety_name>glabrata</variety_name><variety_authority>(Piper) Cronquist</variety_authority></TaxonIdentification><description>Leaves: petioles 7–30 cm; blades 7–35 cm diam. Peduncles 1–14 cm. Corollas 10–20 mm. Cypselae 6–8.5 mm; pappi 10–18 mm. 2n = 60 (as Luina).</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>meadows</habitat><habitat>open places</habitat><habitat>pine and oak forests</habitat><habitat>sometimes on serpentine</habitat><elevation>180–1900 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cacaliopsis</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">nardosmia</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>19: 50. 1883</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Cacaliopsis;species nardosmia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cacalia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">nardosmia</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>7: 361. 1868</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cacalia;species nardosmia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cacalia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Cronquist" date="unknown">nardosmia</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) B. Boivin" date="unknown">glabrata</taxon_name>
+    <taxon_hierarchy>genus Cacalia;species nardosmia;variety glabrata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Luina</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nardosmia</taxon_name>
+    <taxon_hierarchy>genus Luina;species nardosmia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Luina</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nardosmia</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) Cronquist" date="unknown">glabrata</taxon_name>
+    <taxon_hierarchy>genus Luina;species nardosmia;variety glabrata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

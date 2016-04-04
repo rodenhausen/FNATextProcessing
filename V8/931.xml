@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Phyllodoce</genus_name>
-    <species_name>breweri</species_name>
-    <species_authority>(A. Gray) A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phyllodoce</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">breweri</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>1: 1.  1900  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Brewer’s mountain heather</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bryanthus</genus_name>
-    <species_name>breweri</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Phyllodoce;species breweri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryanthus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">breweri</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 367.  1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants decumbent, branched, 1–4 dm; young branches densely glandular.  Leaves spreading, not imbricate; blade linear, 5–20 × 1–2 mm, margins entire or finely serrulate, glabrous.  Inflorescences spikelike, 8–30-flowered.  Pedicels 10–15 mm, glandular; bracteoles 2.  Flowers nodding; sepals narrowly ovate to lanceolate, 3–4.5 mm, margins ciliate distally, glabrous abaxially; corolla white, pink, or purplish, campanulate, not constricted at mouth, 7–9 mm, not glandular, lobes recurved, 3–4 mm; stamens 9–10, exserted; filaments 5–8 mm, ciliate proximally; anthers purple, 1.5–2.5 mm; ovary globose, 1–2 mm, densely glandular; style exserted, 6–8 mm.  Capsules 5-valved, globose, 3–3.5 mm, glandular-hairy.</description>
-  <phenology>Flowering Jun–Aug</phenology>
-  <habitat>Subalpine meadows and rocky slopes</habitat>
-  <elevation>1200–3500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>genus Bryanthus;species breweri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Brewer’s mountain heather</other_name>
   <discussion>Phyllodoce breweri is known from California and Nevada, where it occurs in the high Cascade range, the high Sierra Nevada, and the San Bernadino Mountains.</discussion>
-</treatment>
+</bio:treatment>

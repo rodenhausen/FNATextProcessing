@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Pottiaceae</family_name>
-    <family_authority>Schimper</family_authority>
-    <subfamily_name>Barbuloideae</subfamily_name>
-    <subfamily_authority>(Herzog) Hilpert</subfamily_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aschisma</taxon_name>
+    <taxon_name rank="species" authority="A. L. Andrews" date="unknown">kansanum</taxon_name>
+    <taxon_name rank="family" authority="Schimper" date="unknown">Pottiaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="(Herzog) Hilpert" date="unknown">Barbuloideae</taxon_name>
     <place_of_publication>
       <publication_title>Beih. Bot. Centralbl.</publication_title>
       <place_in_publication>20(2): 612. 1933,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <family_name>Pottiaceae</family_name>
-    <tribe_name>Barbuleae</tribe_name>
-    <tribe_authority>Herzog</tribe_authority>
+    <taxon_hierarchy>genus Aschisma;species kansanum;family Pottiaceae;subfamily Barbuloideae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="family" authority="unknown" date="unknown">Pottiaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Herzog" date="unknown">Barbuleae</taxon_name>
     <place_of_publication>
       <publication_title>Geogr. Moose,</publication_title>
       <place_in_publication>98. 1926</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants green to tan. Stem central strand and sclerodermis usually present,
-        hyalodermis rare. Leaves usually broadly lanceolate to narrowly elliptical, apex blunt to
-        acute, margins recurved basally; distal laminal cells if 2-stratose stacked directly over
-        one another, walls smooth or papillose, KOH yellow or red; costa with or without a
-        differentiated abaxial epidermis; gemmae occasionally present, usually clavate. Peristome
-        usually present.</description>
-  <number_of_infrataxa>Genera 33 (16 in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide.</global_distribution>
-  <references heading="SELECTED REFERENCES">
+    <taxon_hierarchy>family Pottiaceae;tribe Barbuleae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29d.</number>
+  <discussion>Genera 33 (16 in the flora):</discussion>
+  <references>
     <reference>Newton, M. E. 1983. Natural variation and diagnostic characters in Gymnostomum,
             Anoectangium and Molendoa. J. Bryol. 12: 343–349.</reference>
     <reference>Zander, R. H. 1979. Notes on Barbula and Pseudocrossidium (Bryopsida) in North
@@ -36,4 +36,4 @@
     <reference>Zander, R. H. 1981. Descriptions and illustrations of Barbula, Pseudocrossidium
             and Bryoerythrophyllum (p.p.) of Mexico. Cryptog. Bryol. Lichénol. 2: 1–22.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,60 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>macrospermum</species_name>
-        <species_authority>Hooker f.</species_authority>
-        <place_of_publication>
-            <publication_title>Fl. Antarct.</publication_title>
-            <place_in_publication>2: 341. 1846</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>farinosum</species_name>
-        <species_authority>Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>murale</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>farinosum</variety_name>
-        <variety_authority>S. Watson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>macrospermum</species_name>
-        <variety_name>halophilum</variety_name>
-        <variety_authority>(Philippi) Aellen</variety_authority>
-    </TaxonIdentification>
-    <description>Stems erect to decumbent, branched from base, 1–6 dm, farinose. Leaves nonaromatic;
-        petiole 0.01–0.25 cm; blade deltate or trullate to narrowly trullate, rarely lanceolate,
-        0.8–6 × 0.4–3.6 cm, base cuneate, margins serrate, apex acute. Inflorescences glomerules in
-        terminal dense spikes; glomerules subglobose, 3–5 mm diam.; bracts absent. Flowers: perianth
-        segments connate into 0.5 mm tube; lobes deltate, 0.2–0.3 × 0.7–0.8 mm, apex acute, not
-        keeled, glabrous, covering fruit at maturity; stamen 1; stigmas 2. Achenes ovoid; pericarp
-        adherent, smooth. Seeds ovoid, 0.9–1.1 mm diam., margins rounded; seed coat black,
-        reticulate-punctate. 2n = 36.</description>
-    <phenology_fruiting>fruiting jun–sep</phenology_fruiting>
-    <phenology_fruiting>Jun</phenology_fruiting>
-    <phenology_fruiting>Jul</phenology_fruiting>
-    <phenology_fruiting>Aug</phenology_fruiting>
-    <phenology_fruiting>Sep</phenology_fruiting>
-    <habitat>beach, dry lake and creek beds</habitat>
-    <habitat>marshes and muddy areas</habitat>
-    <habitat>waste areas</habitat>
-    <elevation>0–10 m;</elevation>
-    <introduced>introduced;</introduced>
-    <ca_distribution>B.C.</ca_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <global_distribution>South America (Argentina).</global_distribution>
-    <global_distribution>South America (Bolivia).</global_distribution>
-    <global_distribution>South America (Paraguay).</global_distribution>
-    <discussion>Chenopodium macrospermum is native and diverse in South America. Much, if not all,
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Hooker f." date="unknown">macrospermum</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Antarct.</publication_title>
+      <place_in_publication>2: 341. 1846</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species macrospermum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">farinosum</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;species farinosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">murale</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">farinosum</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;species murale;variety farinosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macrospermum</taxon_name>
+    <taxon_name rank="variety" authority="(Philippi) Aellen" date="unknown">halophilum</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;species macrospermum;variety halophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>Chenopodium macrospermum is native and diverse in South America. Much, if not all,
         of the North American material is introduced from there and appears to represent more than
         one part of the variation. Until a reliable treatment of the South American material is
         published we are not assigning names to the variants in North America.</discussion>
-</treatment>
+</bio:treatment>

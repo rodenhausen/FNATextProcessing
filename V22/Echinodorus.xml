@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Echinodorus</genus_name><genus_authority>Richard &amp; Engelmann ex A. Gray</genus_authority><place_of_publication><publication_title>Manual</publication_title><place_in_publication>460. 1848</place_in_publication></place_of_publication></TaxonIdentification><common_name /><etymology>[Greek echius, rough husk, and doros, leathern bottle, alluding to ovaries, which in some species are armed with persistent styles, forming prickly head of fruit]</etymology><TaxonIdentification Status="SYNONYM"><genus_name>Helianthium</genus_name><genus_authority>(Engelmann ex Hooker f.) J. G. Smith</genus_authority></TaxonIdentification><description>Plants annual or perennial, emersed, floating-leaved, or rarely submersed, glabrous to stellate-pubescent; rhizomes present or absent; stolons absent; corms absent; tubers absent. Roots not septate. Leaves sessile or petiolate; petioles triangular, rarely terete; blade with translucent markings as dots or lines present or absent, linear to lanceolate to ovate, base attenuate to cordate, margins entire or undulating, apex obtuse to acute. Inflorescences racemes or panicles, rarely umbels, of 1--18 whorls, erect or decumbent, emersed; bracts coarse, apex obtuse to acute, surfaces smooth or papillose along veins, apex obtuse to acute. Flowers bisexual, subsessile to pedicellate; bracts subtending pedicels, subulate to lanceolate, shorter than to longer than pedicels, apex obtuse to acute; pedicels ascending to recurved; receptacle convex; sepals recurved to spreading, herbaceous to leathery, sculpturing absent; petals white, entire; stamens 9--25; filaments linear, glabrous; pistils 15--250 or more, spirally arranged on convex receptacle, forming head, distinct; ovules 1; style terminal or lateral. Fruits plump, often longitudinally ribbed, sometimes flattened, rarely abaxially keeled, abaxial wings absent, lateral wings absent, glands often present.</description><number_of_infrataxa>Species 26 (4 in the flora):</number_of_infrataxa><global_distribution> Western Hemisphere.</global_distribution><references heading="SELECTED REFERENCES"><reference> Fassett, N. C. 1955. Echinodorus in the American tropics. Rhodora 57: 133--156, 174--188, 202--212.</reference><reference> Haynes, R. R. and L. B. Holm-Nielsen. 1986. Notes on Echinodorus (Alismataceae). Brittonia 38: 325--332.</reference><reference> Rataj, K. 1975. Revizion [sic] of the Genus Echinodorus Rich. Prague.</reference></references><key><key_statement><statement_id>1</statement_id><statement>Pistils 15--20; submersed leaves mostly present, sessile; emersed leaves narrowly lanceolate to ovate; plants relatively delicate</statement><determination>1 Echinodorus tenellus</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Pistils 45--250; submersed leaves mostly absent, when present, petiolate; emersed</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Inflorescence decumbent to arching, proliferating; sepal veins papillate</statement><determination>3a subsp. cordifolius</determination></key_statement><key_statement><statement_id>2</statement_id><statement>Inflorescence erect, not proliferating; sepal veins not papillate.</statement><next_statement_id>3</next_statement_id></key_statement><key_statement><statement_id>3</statement_id><statement>Stamens 9--15; plants to 70 cm.</statement><determination>2 Echinodorus berteroi</determination></key_statement><key_statement><statement_id>3</statement_id><statement>Stamens 21; plants to 200 cm .</statement><determination>4 Echinodorus floridanus</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Richard &amp; Engelmann ex A. Gray" date="unknown">Echinodorus</taxon_name>
+    <place_of_publication>
+      <publication_title>Manual</publication_title>
+      <place_in_publication>460. 1848</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Echinodorus;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek echius, rough husk, and doros, leathern bottle, alluding to ovaries, which in some species are armed with persistent styles, forming prickly head of fruit]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="(Engelmann ex Hooker f.) J. G. Smith" date="unknown">Helianthium</taxon_name>
+    <taxon_hierarchy>genus Helianthium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <discussion>Species 26 (4 in the flora):</discussion>
+  <references>
+    <reference>Fassett, N. C. 1955. Echinodorus in the American tropics. Rhodora 57: 133--156, 174--188, 202--212.</reference>
+    <reference>Haynes, R. R. and L. B. Holm-Nielsen. 1986. Notes on Echinodorus (Alismataceae). Brittonia 38: 325--332.</reference>
+    <reference>Rataj, K. 1975. Revizion [sic] of the Genus Echinodorus Rich. Prague.</reference>
+  </references>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Pistils 15--20; submersed leaves mostly present, sessile; emersed leaves narrowly lanceolate to ovate; plants relatively delicate</description>
+      <determination>1 Echinodorus tenellus</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Pistils 45--250; submersed leaves mostly absent, when present, petiolate; emersed</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Inflorescence decumbent to arching, proliferating; sepal veins papillate</description>
+      <determination>3a subsp. cordifolius</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Inflorescence erect, not proliferating; sepal veins not papillate.</description>
+      <next_statement_id>3</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Stamens 9--15; plants to 70 cm.</description>
+      <determination>2 Echinodorus berteroi</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Stamens 21; plants to 200 cm .</description>
+      <determination>4 Echinodorus floridanus</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

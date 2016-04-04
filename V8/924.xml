@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ELLIOTTIA</genus_name>
-    <genus_authority>Muhlenberg ex Elliott</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Muhlenberg ex Elliott" date="unknown">ELLIOTTIA</taxon_name>
     <place_of_publication>
       <publication_title>Sketch Bot. S. Carolina</publication_title>
       <place_in_publication>1: 448.  1817  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Stephen Elliott, 1771–1830, American botanist and banker]</etymology>
-  <author>Gordon C. Tucker</author>
+    <taxon_hierarchy>family ERICACEAE;genus ELLIOTTIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Stephen Elliott, 1771–1830, American botanist and banker]</other_info_on_name>
+  </taxon_identification>
+  <number>24.</number>
   <discussion>Cladothamnus Bongard; Tripetaleia Siebold &amp; Zuccarini</discussion>
-  <description>Shrubs or trees.  Stems erect; twigs glabrous.  Leaves deciduous [persistent], alternate, sometimes seemingly whorled; petiole present; blade subcoriaceous, margins entire.  Inflorescences terminal racemes, panicles, or cymes, 2–80-flowered, sometimes flowers solitary; perulae absent.  Flowers bisexual, radially symmetric; sepals [3–]5, ± distinct; petals 4–5, distinct or connate to 1/4 their lengths, corolla deciduous, rotate; stamens 8(–10), exserted; anthers without awns, dehiscent laterally; ovary 5–6-locular; style exserted; stigma expanded, discoid.  Fruits capsular, spheroidal or oblate-spheroidal, dehiscence ± septicidal.  Seeds 30–100, ovoid, flattened, not tailed, sometimes winged; testa pitted.  x = 11.</description>
-  <number_of_infrataxa>Species 4 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>se</global_distribution>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>e Asia (Japan).</global_distribution>
+  <discussion>Species 4 (2 in the flora):</discussion>
   <discussion>Although Cladothamnus, Elliottia, and Tripetaleia were long treated as distinct genera, B. A. Bohm et al. (1978) concluded that they should be merged in a single genus.  This was followed by P. F. Stevens et al. (2004).  The two species endemic to Japan are E. bracteata Bentham &amp; Hooker f. and E. paniculata Bentham &amp; Hooker f.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Shrubs, 0.5–3 m; inflorescences solitary flowers or cymes; petals pinkish to copper colored</statement>
+      <description type="morphology">Shrubs, 0.5–3 m; inflorescences solitary flowers or cymes; petals pinkish to copper colored</description>
       <determination>1.   Elliottia pyroliflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Shrubs or trees, (2–)3–5(–12) m; inflorescences racemose or paniculate; petals white</statement>
+      <description type="morphology">Shrubs or trees, (2–)3–5(–12) m; inflorescences racemose or paniculate; petals white</description>
       <determination>2.   Elliottia racemosa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

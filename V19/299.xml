@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crepis</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>costata</subspecies_name>
-    <subspecies_authority>(A. Gray) Babcock &amp; Stebbins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Babcock &amp; Stebbins" date="unknown">costata</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>504: 124. 1938</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species occidentalis;subspecies costata;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>occidentalis</species_name>
-    <variety_name>costata</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species occidentalis;subspecies costata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">costata</taxon_name>
     <place_of_publication>
       <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
       <place_in_publication>1: 435. 1876</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 8–40 cm. Stems tomentose, sometimes stipitate-glandular distally. Leaves 5–20 × 2–3.5 cm, pinnately lobed (lobes dentate; distal cauline stipitate-glandular and with large dark or black setae). Heads 15–30. Peduncles stipitate-glandular. Phyllaries 7–8, stipitate-glandular and with dark or black, glandular setae. Florets 10–14. Cypselae golden brown. 2n = 44.</description>
-  <phenology_info>
-    <text>Flowering Jun–Jul.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>grassy banks , dry rocky hillsides , black shale or sandstone , juniper-oak woods ;</text>
-    <habitat>grassy banks</habitat>
-    <habitat>dry rocky hillsides</habitat>
-    <habitat>black shale</habitat>
-    <habitat>sandstone , juniper-oak woods</habitat>
-  </habitat_info>
-  <elevation>1200–2500 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Crepis;species occidentalis;variety costata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15c.</number>
   <discussion>The major distinguishing characteristic of subsp. costata appears to be the relatively large, dark or black setae on the phyllaries. As defined by E. B. Babcock (1947), subsp. costata is a series of polyploid apomictic forms that are difficult to distinguish from subsp. occidentalis, as well as other species such as C. intermedia and C. bakeri. Reports for Arizona and South Dakota were not confirmed for this treatment.</discussion>
-</treatment>
-
+</bio:treatment>

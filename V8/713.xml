@@ -1,59 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cyrilla</genus_name>
-    <species_name>racemiflora</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Lindley" date="unknown">CYRILLACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyrilla</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">racemiflora</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>12, 2: 182. 1767</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Titi</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyrilla</genus_name>
-    <species_name>arida</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family CYRILLACEAE;genus Cyrilla;species racemiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyrilla</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">arida</taxon_name>
     <place_of_publication>
       <publication_title>Mant. Pl.</publication_title>
       <place_in_publication>1: 50. 1767 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyrilla</genus_name>
-    <species_name>parvifolia</species_name>
-    <species_authority>Rafinesque</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyrilla</genus_name>
-    <species_name>racemiflora</species_name>
-    <variety_name>subglobosa</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Plants to 10 m, frequently forming dense thickets. Leaves: petiole distinct; blade
-        green, oblanceolate to elliptic, 1–10 × 0.5–2.5 cm, chartaceous to coriaceous, base cuneate,
-        apex acute, rounded, or emarginate. Flowers fragrant; petals white or creamy white, 2.5–3.5
-        mm. Fruits ovoid to subglobose, 2–2.5 mm.</description>
-  <phenology>Flowering May–Jul, sometimes again Sep–Oct</phenology>
-  <habitat>Bottomlands, swamps, stream margins, streamheads and baygalls, acidic seepage bogs,
-        peat-based pocosins, Carolina bays, cypress-gum depressions in pine savannas, wet
-        flatwoods</habitat>
-  <elevation>0–200 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>s Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>n South America.</global_distribution>
+    <taxon_hierarchy>genus Cyrilla;species arida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyrilla</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">parvifolia</taxon_name>
+    <taxon_hierarchy>genus Cyrilla;species parvifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyrilla</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">racemiflora</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">subglobosa</taxon_name>
+    <taxon_hierarchy>genus Cyrilla;species racemiflora;variety subglobosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Titi</other_name>
   <discussion>Populations of Cyrilla racemiflora in northern Florida and southern Georgia often
         comprise individuals with smaller leaves (1–4 × 0.5–1 cm), inflorescences (4–9 cm), and
         petals (to 3 mm), and have been segregated by some authors as C. parvifolia (A. S. Weakley
@@ -64,4 +48,4 @@
         horizontal roots produce ascending shoots giving rise to extensive clones that often form
         dense thickets and may cover a sizeable area. The species is sometimes planted and has
         escaped locally, as in Delaware.</discussion>
-</treatment>
+</bio:treatment>

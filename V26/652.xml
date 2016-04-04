@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>filifolia</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>17: 381. 1882</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>filifolia</species_name><species_authority>(S. Watson) Greene</species_authority></TaxonIdentification><description>Scape 20–30 cm, slender. Flowers 14–20 mm; perianth violet-reddish purple, tube narrowly cylindrical, 6–8 mm, transparent, splitting in fruit, lobes widely spreading, 10–14 mm; filaments 0.5–1 mm, base not triangular, with narrow abaxial wings; anthers linear, 3–5 mm, apex widely notched; staminodia inconspicuous, reflexed against perianth, purple, threadlike, 2–4 mm, apex subulate; ovary 4–5 mm; style 6–7 mm; pedicel 1–4 cm. 2n = 24.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>grasslands</habitat><habitat>vernal pools</habitat><conservation>of conservation concern;</conservation><elevation>0–300 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Brodiaea filifolia is endangered. It grows on clay soils at the edges of vernal pools and flood plains in southern California. It has been extirpated from Los Angeles and San Bernadino counties and is seriously threatened by development, vehicles, and agriculture in Riverside and San Diego counties. It is in cultivation.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">filifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>17: 381. 1882</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species filifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">filifolia</taxon_name>
+    <taxon_hierarchy>genus Hookera;species filifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Brodiaea filifolia is endangered. It grows on clay soils at the edges of vernal pools and flood plains in southern California. It has been extirpated from Los Angeles and San Bernadino counties and is seriously threatened by development, vehicles, and agriculture in Riverside and San Diego counties. It is in cultivation.</discussion>
+</bio:treatment>

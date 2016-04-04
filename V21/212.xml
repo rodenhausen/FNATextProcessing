@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Echinacea</genus_name>
-        <species_name>paradoxa</species_name>
-        <species_authority>(Norton) Britton</species_authority>
-        <variety_name>neglecta</variety_name>
-        <variety_authority>McGregor</variety_authority>
-        <place_of_publication>
-            <publication_title>Trans. Kansas Acad. Sci.</publication_title>
-            <place_in_publication>70: 370. 1968</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Bush’s purple coneflower</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinacea</genus_name>
-        <species_name>atrorubens</species_name>
-        <species_authority>(Nuttall) Nuttall</species_authority>
-        <variety_name>neglecta</variety_name>
-        <variety_authority>(McGregor) Binns, B. R. Baum &amp; Arnason</variety_authority>
-    </TaxonIdentification>
-    <description>Ray corollas light purple, pink, or white. Cypselae (rays) ± hairy (at least on
-        distal margins); disc cypselae glabrous. 2n = 22.</description>
-    <phenology>late spring</phenology>
-    <habitat>rocky prairies</habitat>
-    <habitat>open, wooded hillsides</habitat>
-    <conservation>of conservation concern;</conservation>
-    <elevation>100–400 m;</elevation>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinacea</taxon_name>
+    <taxon_name rank="species" authority="(Norton) Britton" date="unknown">paradoxa</taxon_name>
+    <taxon_name rank="variety" authority="McGregor" date="unknown">neglecta</taxon_name>
+    <place_of_publication>
+      <publication_title>Trans. Kansas Acad. Sci.</publication_title>
+      <place_in_publication>70: 370. 1968</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Echinacea;species paradoxa;variety neglecta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinacea</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Nuttall" date="unknown">atrorubens</taxon_name>
+    <taxon_name rank="variety" authority="(McGregor) Binns, B. R. Baum &amp; Arnason" date="unknown">neglecta</taxon_name>
+    <taxon_hierarchy>genus Echinacea;species atrorubens;variety neglecta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <other_name type="common_name">Bush’s purple coneflower</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

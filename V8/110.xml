@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micranthes</genus_name>
-    <species_name>palmeri</species_name>
-    <species_authority>Bush</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micranthes</taxon_name>
+    <taxon_name rank="species" authority="Bush" date="unknown">palmeri</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>11: 221.  1928   ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Palmer’s saxifrage</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>palmeri</species_name>
-    <species_authority>Bush</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>virginiensis</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>subintegra</variety_name>
-    <variety_authority>Goodman</variety_authority>
-  </TaxonIdentification>
-  <description>Plants solitary or in clumps, with bulbils on caudices.  Leaves basal; petiole flattened, 1–9 cm; blade ovate to elliptic, 2–8 cm, slightly fleshy, base attenuate, margins entire or subentire, ciliate, surfaces tangled, reddish brown-hairy.  Inflorescences 30+-flowered, (flowers sometimes almost secund), very open, lax thyrses, 6–50 cm, hairy proximally, densely so distally.  Flowers: sepals erect to ascending, ovate to triangular; petals white, not spotted, broadly oblong to elliptic, not clawed, 3–6 mm, 2+ times as long as sepals; filaments linear, flattened; pistils distinct almost to base; ovary ± superior, (to 1/3 adnate to hypanthium).  Capsules green with reddish or purplish tinge, or reddish purple, folliclelike.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Rocky, open woodlands</habitat>
-  <elevation>100–1000 m</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Micranthes;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Bush" date="unknown">palmeri</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">virginiensis</taxon_name>
+    <taxon_name rank="variety" authority="Goodman" date="unknown">subintegra</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species virginiensis;variety subintegra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Palmer’s saxifrage</other_name>
+</bio:treatment>

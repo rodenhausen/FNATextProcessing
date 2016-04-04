@@ -1,46 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Trientalis</genus_name>
-    <species_name>latifolia</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">MYRSINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trientalis</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">latifolia</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 121.  1838  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Western starflower</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Alsinanthemum</genus_name>
-    <species_name>europaeum</species_name>
-    <species_authority>(Linnaeus) Greene</species_authority>
-    <variety_name>latifolium</variety_name>
-    <variety_authority>(Hooker) Greene</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trientalis</genus_name>
-    <species_name>borealis</species_name>
-    <species_authority>Rafinesque</species_authority>
-    <subspecies_name>latifolia</subspecies_name>
-    <subspecies_authority>(Hooker) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trientalis</genus_name>
-    <species_name>europaea</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>latifolia</variety_name>
-    <variety_authority>(Hooker) Torrey</variety_authority>
-  </TaxonIdentification>
-  <description>Stems 10–25 cm.  Leaves mostly whorled at stem apex, some alternate on proximal stem; blades of distal leaves elliptic to suborbiculate, (2.4–)4–11 cm × 15–55 mm (narrower in some plants along Vancouver Island and Washington coast), widest ± at midlength (proximal leaves abruptly much smaller, 0.1–0.5 cm × 0.7–1.3 mm, ± scalelike), apex rounded to acute.  Pedicels 1–5, 2.9–4.6 cm, shorter than to equaling leaves (sometimes longer in fruit), glabrous or sparsely glandular.  Flowers: corolla pink, rose, or pinkish lavender, 4.5–8.8 mm, lobes ovate to lanceolate, apex acuminate or abruptly acute.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Moist coniferous forests, stream banks, ocean cliffs</habitat>
-  <elevation>0–1500 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family MYRSINACEAE;genus Trientalis;species latifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alsinanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Greene" date="unknown">europaeum</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Greene" date="unknown">latifolium</taxon_name>
+    <taxon_hierarchy>genus Alsinanthemum;species europaeum;variety latifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trientalis</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">borealis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) Hultén" date="unknown">latifolia</taxon_name>
+    <taxon_hierarchy>genus Trientalis;species borealis;subspecies latifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trientalis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">europaea</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Torrey" date="unknown">latifolia</taxon_name>
+    <taxon_hierarchy>genus Trientalis;species europaea;variety latifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Western starflower</other_name>
   <discussion>In British Columbia, Trientalis latifolia is known from scattered populations along the coast and the American border.  Specimens from a disjunct population in central Yukon (E. Hultén 1968; W. J. Cody 1996) were not examined.</discussion>
-</treatment>
+</bio:treatment>

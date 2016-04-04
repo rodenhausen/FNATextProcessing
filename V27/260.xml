@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Funaria</genus_name>
-    <species_name>muhlenbergii</species_name>
-    <species_authority>Turner</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="Turner" date="unknown">muhlenbergii</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Bot. (Koenig &amp; Sims)</publication_title>
       <place_in_publication>2: 198.  1805,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>calcarea</species_name>
-    <species_authority>Wahlenberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>mediterranea</species_name>
-    <species_authority>Lindberg</species_authority>
-  </TaxonIdentification>
-  <description>Plants 2–6 mm, green to yellow-green, leaves crowded at the tip.  Leaves few and scale-like prox-imally, distal leaves 1.5–3  mm, oblong-lanceolate to ovate or occasionally oblong-ovate, nar-rowed to a slender acuminate tip to about 1/6 the leaf length, entire to serrulate distally and entire proximally, costa ending at the base of or before the acumen; distal laminal cells short-rhomboid to rhomboid-hexagonal, becoming oblong-rectangular proximally and narrowing at the basal margins.  Seta 5–15 mm, reddish, nearly straight.  Capsule 2–3 mm, inclined, asymmetric, pyriform with the neck as long as the spore sac, scarcely wrinkled and little contracted below the mouth when dry; annulus none; operculum conic-rounded; peristome teeth linear-lanceolate, reddish brown basally, hyaline at the tips, strongly trabeculate and appendiculate, papillose-striate throughout; endostome segments narrowly lanceolate and about 2/3 the length of the teeth, papillose.  Calyptra  cucullate, long-rostrate.  Spores 21–30 µm, baccate insulate.</description>
-  <habitat>Bare, apparently alkaline, soils;</habitat>
-  <elevation>moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (Israel)</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
+    <taxon_hierarchy>genus Funaria;species muhlenbergii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="Wahlenberg" date="unknown">calcarea</taxon_name>
+    <taxon_hierarchy>genus Funaria;species calcarea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="Lindberg" date="unknown">mediterranea</taxon_name>
+    <taxon_hierarchy>genus Funaria;species mediterranea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
   <discussion>The apparent rarity of Funaria muhlenbergii in semi-arid portions of the West may be due to the maturation of the species in early spring when the weather is cool and wet, and moisture is available from winter rains and melting snow.  S. Flowers (1973) provided a good illustration of American plants.</discussion>
-</treatment>
+</bio:treatment>

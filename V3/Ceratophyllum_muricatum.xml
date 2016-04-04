@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ceratophyllum</genus_name><species_name>muricatum</species_name><species_authority>Chamisso</species_authority><place_of_publication><publication_title> Linnaea </publication_title><place_in_publication>4: 504. 1829</place_in_publication></place_of_publication></TaxonIdentification><common_name>Hornwort</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Ceratophyllum</genus_name><species_name>submersum</species_name><species_authority>Linnaeus</species_authority><subspecies_name>muricatum</subspecies_name><subspecies_authority>(Chamisso) Wilmot-Dear</subspecies_authority></TaxonIdentification><number_of_infrataxa>Subspecies 3 (1 in the flora):</number_of_infrataxa><global_distribution> nearly worldwide.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ceratophyllum</taxon_name>
+    <taxon_name rank="species" authority="Chamisso" date="unknown">muricatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>4: 504. 1829</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ceratophyllum;species muricatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ceratophyllum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">submersum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Chamisso) Wilmot-Dear" date="unknown">muricatum</taxon_name>
+    <taxon_hierarchy>genus Ceratophyllum;species submersum;subspecies muricatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Hornwort</other_name>
+  <discussion>Subspecies 3 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thysanocarpus</genus_name>
-    <species_name>laciniatus</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thysanocarpus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">laciniatus</taxon_name>
     <place_of_publication>
       <publication_title>in J. Torrey and A. Gray, Fl. N. Amer.</publication_title>
       <place_in_publication>1: 118. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems 1–6 dm. Basal leaves: blade oblanceolate to elliptic, 1–6 cm, margins often pinnatifid with narrow lobes (lobes 0.5–1.5 mm), sometimes sinuate-dentate or subentire, surfaces usually glabrous, rarely sparsely hirsute, trichomes whitish, 0.3–0.4 mm. Cauline leaves: blade linear to narrowly elliptic, widest near middle or equally wide throughout, base not auriculate or with small, inconspicuous auricles (not extending around stem). Racemes: internodes (1.5–)2–4.5 mm in fruit. Fruiting pedicels smoothly recurved or straight and stiffly spreading, (proximal) 3–6(–10) mm. Fruits flat or plano-convex, obovate to nearly orbicular, (2.5–5 mm wide); valves often glabrous, sometimes pubescent, trichomes clavate, 0.05–0.4 mm; wing entire or deeply crenate, rays absent or indistinct.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>sw United States</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thysanocarpus;species laciniatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <discussion>Thysanocarpus laciniatus presents some of the same problems as does T. curvipes. Variety laciniatus contains both diploids and tetraploids (M. D. Windham, unpubl.) and varies in fruit characters, pubescence, and basal leaf shape. Specimens with sinuate-dentate basal leaf margins and small auricles on cauline leaves can be difficult to distinguish from T. curvipes. Preliminary molecular phylogenetic analyses support the distinction between T. curvipes and T. laciniatus var. laciniatus, but suggest that tetraploid populations of the latter may have arisen through hybridization between T. curvipes and a diploid member of the T. laciniatus clade (P. Alexander, unpubl.). Varieties hitchcockii and rigidus are distinctive diploids (Windham, unpubl.) with restricted ranges and may deserve specific rank. Variety rigidus (known to us from only four collections) can be difficult to distinguish from the more purplish specimens of var. laciniatus, but the latter have at least some recurved pedicels and often have pinnatifid leaves.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruit valves pubescent, trichomes 0.05–0.1 mm</statement>
+      <description type="morphology">Fruit valves pubescent, trichomes 0.05–0.1 mm</description>
       <determination>3b. Thysanocarpus laciniatus var. hitchcockii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruit valves usually glabrous, or trichomes 0.2–0.4 mm.</statement>
+      <description type="morphology">Fruit valves usually glabrous, or trichomes 0.2–0.4 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Foliage usually greenish throughout, sometimes purplish basally; basal leaf blade margins pinnatifid or sinuate-dentate; fruiting pedicels smoothly recurved</statement>
+      <description type="morphology">Foliage usually greenish throughout, sometimes purplish basally; basal leaf blade margins pinnatifid or sinuate-dentate; fruiting pedicels smoothly recurved</description>
       <determination>3a. Thysanocarpus laciniatus var. laciniatus</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Foliage purplish throughout; basal leaf blade margins subentire to sinuate-dentate; fruiting pedicels straight or nearly so</statement>
+      <description type="morphology">Foliage purplish throughout; basal leaf blade margins subentire to sinuate-dentate; fruiting pedicels straight or nearly so</description>
       <determination>3c. Thysanocarpus laciniatus var. rigidus</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

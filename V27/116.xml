@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Andreaea</genus_name>
-    <species_name>nivalis</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">nivalis</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Linn. Soc. London</publication_title>
       <place_in_publication>10: 395, plate 31, fig. 4.  1811,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>baileyi</species_name>
-    <species_authority>(Holzinger) Holzinger</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>macounii</species_name>
-    <species_authority>Kindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>nivalis</species_name>
-    <variety_name>baileyi</variety_name>
-    <variety_authority>Holzinger</variety_authority>
-  </TaxonIdentification>
-  <description>Plants reddish brown to brownish green.  Leaves secund to falcate-secund, mostly subulate, widest in proximal half of leaf, apex sym-metric; costa present, percurrent and filling the leaf apices, strong, terete, reaching the leaf insertion; leaf margins crenulate to strongly denticulate; basal and medial laminal cells quadrate to short-rectangular, 1-stratose, walls thin and straight, lumens smoothly rounded, quadrate to short-rectangular on the margins; laminal papillae strong, usually distant.  Sexual condition dioicous; perichaetial leaves not differentiated beyond being larger than the cauline.  Spores (18–)20–30(–40) µm.</description>
-  <habitat>Wet rocks in streams, snow flushes, seeping outcrops;</habitat>
-  <elevation>moderate to high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (Japan, Russia).</global_distribution>
+    <taxon_hierarchy>genus Andreaea;species nivalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="(Holzinger) Holzinger" date="unknown">baileyi</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species baileyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="Kindberg" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nivalis</taxon_name>
+    <taxon_name rank="variety" authority="Holzinger" date="unknown">baileyi</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species nivalis;variety baileyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
   <discussion>The salient distinguishing traits of Andreaea nivalis are the crenulate to strongly denticulate leaf margins, strong papillae occurring mostly on the abaxial surface of the lamina, and perichaetial leaves larger, more sharply cordate at the basal angles, but otherwise not much different from the cauline leaves.</discussion>
-</treatment>
+</bio:treatment>

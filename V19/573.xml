@@ -1,52 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pleiacanthus</genus_name>
-    <species_name>spinosus</species_name>
-    <species_authority>(Nuttall) Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pleiacanthus</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Rydberg" date="unknown">spinosus</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Rocky Mts.,</publication_title>
       <place_in_publication>1069. 1917</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Pleiacanthus;species spinosus;</taxon_hierarchy>
-  <common_name>Thorny skeletonweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lygodesmia</genus_name>
-    <species_name>spinosa</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Pleiacanthus;species spinosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodesmia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">spinosa</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 444. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stephanomeria</genus_name>
-    <species_name>spinosa</species_name>
-    <species_authority>(Nuttall) Tomb</species_authority>
-  </TaxonIdentification>
-  <description>Stems: branches 4–8 cm. Leaves: proximal 3–7 cm. Peduncles 1–4 mm. Calyculi: bractlets 4–8 × 1.5–2.5 mm, glabrous. Involucres 7–12 mm. Cypselae 6–8 mm; pappus bristles: the longer 7–11 mm, shorter 5–7 mm. 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering Jul–Sep.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open , sandy , gravelly washes and slopes , desert shrub , pinyon-juniper communities ;</text>
-    <habitat>open , sandy , gravelly washes and slopes</habitat>
-    <habitat>desert shrub</habitat>
-    <habitat>pinyon-juniper communities</habitat>
-  </habitat_info>
-  <elevation>1500–2900 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Lygodesmia;species spinosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stephanomeria</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Tomb" date="unknown">spinosa</taxon_name>
+    <taxon_hierarchy>genus Stephanomeria;species spinosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Thorny skeletonweed</other_name>
   <discussion>Pleiacanthus spinosus was first collected by Nuttall, who placed it in Lygodesmia. Rydberg elevated it to the genus level; his proposal was not taken up by others. The species remained in Lygodesmia until A. S. Tomb (1970) transferred it to Stephanomeria. Tomb made the transfer because P. spinosus has the same base chromosome number as Stephanomeria (x = 8) as well as similar echinate pollen grains (Tomb 1974; Tomb et al. 1974) and thereby differs from Lygodesmia, which has x = 9 and echinolophate pollen. Pleiacanthus spinosus also has morphologic traits not shared with any stephanomeria. These include dense, long tufts of wool in the ground-level axils of the bud scales of the stems, sharp-tipped branches and stems, and pappus bristles that are of two lengths and not plumose. Recent results of DNA sequencing studies of Stephanomeria and related North American genera showed that P. spinosus is not a member of the clade of all stephanomerias (J. Lee et al. 2002).</discussion>
-</treatment>
-
+</bio:treatment>

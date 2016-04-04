@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HYOPHILA</genus_name>
-    <genus_authority>Bridel</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Patricia M. Eckel</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Bridel" date="unknown">HYOPHILA</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 760.  1827,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conserved_name>name conserved</conserved_name>
-  <etymology>[Greek hyo, rain, and philia, fondness, alluding to wet habitats]</etymology>
-  <author>Patricia M. Eckel</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Rottleria</genus_name>
-    <genus_authority>Bridel</genus_authority>
+    <taxon_hierarchy>genus HYOPHILA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek hyo, rain, and philia, fondness, alluding to wet habitats]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Bridel" date="unknown">Rottleria</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 105.  1826,</place_in_publication>
-      <other_info>not Willdenow 1797</other_info>
+      <other_info_on_pub>not Willdenow 1797</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants turf-forming, sometimes loosely cespitose, dull, green distally, red to reddish brown or dark green proximally.  Stem erect, rarely branched, to 1 cm, hyalodermis absent or weakly present and thin-walled, sclerodermis usually present, central cylinder of thick-walled cells, central strand usually strong; radiculose; axillary hairs 6–10 cells long, hyaline.  Leaves tubulose-twisted, incurved, sometimes contorted when dry, spreading when moist, commonly spathulate or ligulate, ovate, oblong-elliptic, usually constricted at the base; distal lamina broadly channeled, occasionally concave, shallowly grooved along the costa; base not different in shape; margins plane to broadly incurved, sometimes narrowly recurved in proximal 2/3, entire or denticulate to dentate in distal 1/4 or at the apex; apex broadly acute to rounded, rarely cucullate or emarginate; costa subpercurrent or percurrent, ending in an apiculus or mucro, adaxial surface cells quadrate to short-rectangular, adaxial and abaxial epidermis present, stereid bands 2, guide cells 4(–6) in one layer; hydroid strand sometimes present; basal cells differentiated across the leaf to only in the median basal region, usually only in a small area near the insertion; distal cells rounded-quadrate to hexagonal, small, walls evenly thickened, bulging equally on both sides or bulging adaxially and plane abaxially, papillae absent or simple.  Specialized asexual reproduction by axillary gemmae, these clavate, stellate or dentate-elliptic in the leaf axils on densely-branched stalks.  Sexual condition dioicous or monoicous; perigonia terminal on perigoniate plants or as lateral buds on perichaetiate plants; perichaetia terminal, perichaetial leaves similar to or smaller than cauline leaves.  Seta elongate.  Capsule long-ovoid to cylindric, operculum conic to long-conic or rostrate, peristome teeth absent.  Calyptra cucullate.  Spores 7–10 µm, papillose.</description>
-  <number_of_infrataxa>Species 85 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide in temperate and tropical areas.</global_distribution>
-  <references heading="SELECTED REFERENCES">
+    <taxon_hierarchy>genus Rottleria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
+  <discussion>Species 85 (1 in the flora):</discussion>
+  <references>
     <reference>Andrews, S. and P. L. Redfearn Jr.  1965.  Observations on the germination of the gemmae of Hyophila tortula (Schwaegr.) Hampe.  Bryologist 68: 345–347.</reference>
     <reference>Britton, E. G.  1904.  Hyophila—A new genus to the United States.  Bryologist 7: 69–71.</reference>
     <reference>Sharp, A. J.  1955.  Factors in the distribution of Hyophila tortula and an extension of its known range to include Michigan.  Mitt. Thüring. Bot. Ges. 1: 222–224.</reference>
   </references>
-</treatment>
+</bio:treatment>

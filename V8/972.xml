@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pieris</genus_name>
-    <species_name>phillyreifolia</species_name>
-    <species_authority>(Hooker) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pieris</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) de Candolle" date="unknown">phillyreifolia</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle,  Prodr.</publication_title>
       <place_in_publication>7: 599.  1839  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Vine-wicky</common_name>
-  <common_name>climbing fetterbush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>phillyreifolia</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Pieris;species phillyreifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">phillyreifolia</taxon_name>
     <place_of_publication>
       <publication_title>Icon. Pl.</publication_title>
       <place_in_publication>2: plate 122.  1837</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ampelothamnus</genus_name>
-    <species_name>phillyreifolius</species_name>
-    <species_authority>(Hooker) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or vines, to 1 m, climbing to 10 m within fibrous bark of Taxodium or Chamaecyparis by means of flattened rhizomes that, at intervals, give rise to emergent branches; twigs multicellular stipitate-glandular-hairy, otherwise sparsely to moderately unicellular-hairy.  Stems ± terete.  Leaf blades ovate, elliptic, or slightly obovate, (1–)2–6(–7) × (0.3–)0.3–2(–2.7) cm, base narrowly cuneate to rounded, margins obscurely to clearly toothed, especially near apex, revolute, apex acute to rounded.  Inflorescences axillary racemes, from near stem apex; bracteoles near apex to middle of pedicel.  Flowers: calyx lobes 3.5–5 × 1–1.5 mm; corolla cylindric-urceolate, weakly 5-ridged, 6–8(–8.5) × 4–5 mm; filaments geniculate, 4–6 mm, glabrous; style strongly sunken into ovary apex.  Capsules subglobose, 2.5–4 × 3.5–5.3 mm, glabrous; placentae central to nearly basal.  Seeds angular-ovoid to obovoid or narrowly conic, not winged; testa cells isodiametric.</description>
-  <phenology>Flowering winter–spring</phenology>
-  <habitat>Taxodium, Chamaecyparis, or broad-leaved swamps, wet depressions in pine forests</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Andromeda;species phillyreifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ampelothamnus</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Small" date="unknown">phillyreifolius</taxon_name>
+    <taxon_hierarchy>genus Ampelothamnus;species phillyreifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Vine-wicky</other_name>
+  <other_name type="common_name">climbing fetterbush</other_name>
   <discussion>Pieris phillyreifolia is the only viny member of the Ericaceae in the United States; like P. cubensis Small of Cuba and P. swinhoei Hemsley of China, it has more or less isodiametric testa cells; it has been placed in sect. Phillyreoides Bentham &amp; Hooker f.</discussion>
-</treatment>
+</bio:treatment>

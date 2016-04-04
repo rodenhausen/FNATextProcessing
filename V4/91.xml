@@ -1,101 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>9a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>laevis</species_name>
-        <species_authority>(Bentham) Curran</species_authority>
-        <variety_name>crassifolia</variety_name>
-        <variety_authority>(Choisy) Spellenberg</variety_authority>
-        <place_of_publication>
-            <publication_title>Sida</publication_title>
-            <place_in_publication>19: 549. 2001</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Oxybaphus</genus_name>
-        <species_name>glabrifolius</species_name>
-        <species_authority>(Ortega) Vahl</species_authority>
-        <variety_name>crassifolius</variety_name>
-        <variety_authority>Choisy</variety_authority>
-        <place_of_publication>
-            <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. </publication_title>
-            <place_in_publication>13(2): 431. 1849</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Hesperonia</genus_name>
-        <species_name>californica</species_name>
-        <species_authority>(A. Gray) Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Hesperonia</genus_name>
-        <species_name>cedrosensis</species_name>
-        <species_authority>Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Hesperonia</genus_name>
-        <species_name>heimerlii</species_name>
-        <species_authority>Standley</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>californica</species_name>
-        <species_authority>A. Gray</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>californica</species_name>
-        <variety_name>cedrosensis</variety_name>
-        <variety_authority>(Standley) J. F. Macbride</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>californica</species_name>
-        <variety_name>cordifolia</variety_name>
-        <variety_authority>(Dunkle) Dunkle</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>heimerlii</species_name>
-        <species_authority>(Standley) J. F. Macbride</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>laevis</species_name>
-        <variety_name>cedrosensis</variety_name>
-        <variety_authority>(Standley) Munz</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Mirabilis</genus_name>
-        <species_name>laevis</species_name>
-        <variety_name>cordifolia</variety_name>
-        <variety_authority>Dunkle</variety_authority>
-    </TaxonIdentification>
-    <description>Stems few to many in clumps, often glabrous basally, viscid-pubescent or ± scabrous
-        distally. Leaf blades 1–4.5 × 0.4–3.5 cm. Inflorescences ± thyrselike, often narrow;
-        involucres in clusters on short branches along main axis after first few dichotomous
-        branches, 5–9 mm; bracts 30–70% connate, lobes ovate or ovate-oblong, base often 50–70% of
-        height, apex obtuse or acute. Flowers: perianth usually pink, lavender, or magenta, rarely
-        white. Fruits dark to pale gray-brown and mottled with dark gray-brown, tan, or red-brown,
-        sometimes also faintly and irregularly pale striped, ovoid, 3–5 × 2.7–3.7 mm.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>brush or open woodlands</habitat>
-    <habitat>banks</habitat>
-    <habitat>bluffs</habitat>
-    <habitat>open hillsides</habitat>
-    <habitat>washes</habitat>
-    <elevation>0–1800 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <global_distribution>Mexico (Baja California).</global_distribution>
-    <global_distribution>Mexico (Baja California Sur).</global_distribution>
-    <discussion>In recent floras Mirabilis laevis var. crassifolia has been treated as M.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Curran" date="unknown">laevis</taxon_name>
+    <taxon_name rank="variety" authority="(Choisy) Spellenberg" date="unknown">crassifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>19: 549. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Mirabilis;species laevis;variety crassifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oxybaphus</taxon_name>
+    <taxon_name rank="species" authority="(Ortega) Vahl" date="unknown">glabrifolius</taxon_name>
+    <taxon_name rank="variety" authority="Choisy" date="unknown">crassifolius</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
+      <place_in_publication>13(2): 431. 1849</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Oxybaphus;species glabrifolius;variety crassifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperonia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Standley" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Hesperonia;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperonia</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">cedrosensis</taxon_name>
+    <taxon_hierarchy>genus Hesperonia;species cedrosensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperonia</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">heimerlii</taxon_name>
+    <taxon_hierarchy>genus Hesperonia;species heimerlii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="(Standley) J. F. Macbride" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) J. F. Macbride" date="unknown">cedrosensis</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species californica;variety cedrosensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Dunkle) Dunkle" date="unknown">cordifolia</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species californica;variety cordifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">heimerlii</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species heimerlii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">laevis</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) Munz" date="unknown">cedrosensis</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species laevis;variety cedrosensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">laevis</taxon_name>
+    <taxon_name rank="variety" authority="Dunkle" date="unknown">cordifolia</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;species laevis;variety cordifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9a.</number>
+  <discussion>In recent floras Mirabilis laevis var. crassifolia has been treated as M.
         californica or M. laevis. The California specimen of M. tenuiloba var. polyphylla (Standley)
         J. F. Macbride cited by Macbride (1918) [M. polyphylla (Standley) Standley] is considered to
         be M. laevis var. crassifolia. It has fruiting involucres at the upper range of its length,
         similar to some plants from the Channel Islands. In Baja California, indigenous peoples have
         used the plants of var. crassifolia to alleviate stomach ailments.</discussion>
-</treatment>
+</bio:treatment>

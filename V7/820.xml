@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Descurainia</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>(A. Gray) O. E. Schulz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Descurainieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Descurainia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) O. E. Schulz" date="unknown">californica</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>86[IV,105]: 330. 1924</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Smelowskia</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>A. Gray</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Descurainieae;genus Descurainia;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smelowskia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californica</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>6: 520. 1865</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>californicum</species_name>
-    <species_authority>(A. Gray) S. Watson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sophia</genus_name>
-    <species_name>leptostylis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials; eglan-dular; usually pubescent, trichomes dendritic, sometimes glabrous distally. Stems erect, unbranched basally, branched distally, (1.3–)2–10.5(–13.5) dm. Basal leaves: petiole 0.4–4.2 cm; blade pinnate, oblanceolate to obovate in outline, 1.5–6 cm, lateral lobes [2–4 (or 5) pairs], lanceolate, (5–22 × 1–5 mm), margins usually entire or crenate to incised, rarely lobed. Cauline leaves sessile or shortly petiolate; blade smaller distally, distal lobes often narrower, surfaces sparsely pubescent. Racemes considerably elongated in fruit. Fruiting pedicels divaricate to ascending or suberect, often straight, 3–9(–11) mm. Flowers: sepals spreading, yellowish, oblong, 0.9–1.5 mm, glabrous; petals oblanceolate, 1.1–1.8 × 0.4–0.6 mm; median filaments 0.8–1.4 mm; anthers 0.3–0.4 mm. Fruits divaricate to erect, fusiform, not torulose, (2–)3–5(–6) × (0.8–)1–1.3 mm, (long-acute at both ends); valves each with obscure midvein; septum not veined; ovules 4–12 per ovary; style (0.2–)0.3–0.6(–0.8) mm, glabrous. Seeds uniseriate, light brown, ellipsoid, 1–1.4 × 0.6–0.8 mm. 2n = 14.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>disturbed areas in pinyon-juniper</habitat>
-  <habitat>dry hillsides</habitat>
-  <habitat>decomposed granite slopes</habitat>
-  <habitat>sagebrush</habitat>
-  <habitat>moist roadsides</habitat>
-  <habitat>open woods</habitat>
-  <habitat>fir-spruce or aspen communities</habitat>
-  <habitat>gravel and talus slopes</habitat>
-  <elevation>1700–3400 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Smelowskia;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) S. Watson" date="unknown">californicum</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species californicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sophia</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">leptostylis</taxon_name>
+    <taxon_hierarchy>genus Sophia;species leptostylis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+</bio:treatment>

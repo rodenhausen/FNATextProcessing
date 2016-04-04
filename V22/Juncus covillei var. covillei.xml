@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>36a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juncus</genus_name><species_name>covillei</species_name><variety_name>covillei</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><species_name>falcatus</species_name><species_authority>E. Meyer</species_authority><variety_name>paniculatus</variety_name><variety_authority>Engelmann</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><species_name>falcatus</species_name><species_authority>E. Meyer</species_authority><variety_name>prominens</variety_name><variety_authority>Buchenau</variety_authority></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Juncus</genus_name><species_name>latifolius</species_name><variety_name>paniculatus</variety_name><variety_authority>Buchenau</variety_authority><place_of_publication><other_info>not Hoppe</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><species_name>prominens</species_name><species_authority>Miyabe &amp; Kud&amp;ocirc</species_authority></TaxonIdentification><description>Perianth dark brown, apex of inner series rounded. Capsules dark brown, 1 mm longer than perianth. 2n = 36.</description><phenology>Flowering and fruiting summer--early fall</phenology><habitat> Wet areas along lakes, streams and rivers, especially on spray areas or occasionally flooded outcrops, coastal to low montane areas</habitat><elevation>below 300 m</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution> Idaho</us_distribution><us_distribution> Mont.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution><global_distribution>Asia (Japan)</global_distribution><global_distribution>Pacific Islands (Kuriles).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="E. Meyer" date="unknown">covillei</taxon_name>
+    <taxon_name rank="variety" authority="Engelmann" date="unknown">covillei</taxon_name>
+    <taxon_hierarchy>genus Juncus;species covillei;variety covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="E. Meyer" date="unknown">falcatus</taxon_name>
+    <taxon_name rank="variety" authority="Buchenau" date="unknown">paniculatus</taxon_name>
+    <taxon_hierarchy>genus Juncus;species falcatus;variety paniculatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Miyabe &amp; Kud&amp;ocirc" date="unknown">falcatus</taxon_name>
+    <taxon_name rank="variety" authority="Buchenau" date="unknown">prominens</taxon_name>
+    <taxon_hierarchy>genus Juncus;species falcatus;variety prominens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">latifolius</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">paniculatus</taxon_name>
+    <place_of_publication>
+      <other_info_on_pub>not Hoppe</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;species latifolius;variety paniculatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">prominens</taxon_name>
+    <taxon_hierarchy>genus Juncus;species prominens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>36a</number>
+</bio:treatment>

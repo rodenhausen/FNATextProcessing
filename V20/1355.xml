@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erechtites</genus_name><species_name>hieraciifolius</species_name><species_authority>(Linnaeus) Rafinesque ex de Candolle</species_authority><variety_name>megalocarpus</variety_name><variety_authority>(Fernald) Cronquist</variety_authority><place_of_publication>
-    <publication_title>Rhodora</publication_title>
-    <place_in_publication>48: 122. 1946</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>megalocarpa</past_name><TaxonIdentification Status="BASIONYM"><genus_name>Erechtites</genus_name><species_name>megalocarpus</species_name><species_authority>Fernald</species_authority><place_of_publication><publication_title>Rhodora </publication_title><place_in_publication>19: 24. 1917 (as megalocarpa)</place_in_publication></place_of_publication></TaxonIdentification><description>Stems and leaves succulent. Receptacles 9–12+ mm diam. Cypselae 4–5 mm, nerves 16–20.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>saline coastal marshes</habitat><elevation>0–20 m;</elevation><us_distribution>Conn.</us_distribution><us_distribution>Mass.</us_distribution><us_distribution>N.J.</us_distribution><us_distribution>N.Y.</us_distribution><discussion>Variety megalocarpus is a highly restricted ecotype.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erechtites</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Rafinesque ex de Candolle" date="unknown">hieraciifolius</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald) Cronquist" date="unknown">megalocarpus</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>48: 122. 1946</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Erechtites;species hieraciifolius;variety megalocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erechtites</taxon_name>
+    <taxon_name rank="species" authority="Fernald" date="unknown">megalocarpus</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>19: 24. 1917 (as megalocarpa)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Erechtites;species megalocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b</number>
+  <other_name type="past_name">megalocarpa</other_name>
+  <discussion>Variety megalocarpus is a highly restricted ecotype.</discussion>
+</bio:treatment>

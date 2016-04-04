@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Brachydontium</genus_name>
-    <species_name>trichodes</species_name>
-    <species_authority>(F. Weber) Fürnrohr</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brachydontium</taxon_name>
+    <taxon_name rank="species" authority="(F. Weber) Fürnrohr" date="unknown">trichodes</taxon_name>
     <place_of_publication>
       <publication_title>Flora</publication_title>
       <place_in_publication>10(2,Beil.): 37.  1827,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>trichodes</species_name>
-    <species_authority>F. Weber</species_authority>
+    <taxon_hierarchy>genus Brachydontium;species trichodes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="F. Weber" date="unknown">trichodes</taxon_name>
     <place_of_publication>
       <publication_title>Arch. Syst. Naturgesch.</publication_title>
       <place_in_publication>1: 124.  1804</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems 0.6–1.2 mm.  Leaves 0.5–2 mm, distal lamina cells irregularly short-rhombic with a few cells quadrate, about (1–)2–3:1, prox-imal cells longer.  Seta 2–2.5 mm, straight and twisted above when dry.  Capsule ovate-cylindric, 0.6–0.8 mm.  Peristome of 16, very short, truncate teeth.  Spores 8–12 µm.</description>
-  <habitat>Moist, acidic cliff faces;</habitat>
-  <elevation>higher elevations;</elevation>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>South America (Colombia)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Australia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Gymnostomum;species trichodes;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+</bio:treatment>

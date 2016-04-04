@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chlorocrambe</genus_name>
-    <species_name>hastata</species_name>
-    <species_authority>(S. Watson) Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chlorocrambe</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rydberg" date="unknown">hastata</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>34: 436. 1907</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Caulanthus</genus_name>
-    <species_name>hastatus</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Chlorocrambe;species hastata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Caulanthus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">hastatus</taxon_name>
     <place_of_publication>
       <publication_title>Botany (Fortieth Parallel),</publication_title>
       <place_in_publication>28, plate 3. 1871</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>hastatus</species_name>
-    <species_authority>(S. Watson) M. Peck</species_authority>
-  </TaxonIdentification>
-  <description>Stems 5–15 dm, (stout). Cauline leaves: petiole 6–15 cm (shorter distally); blade deltate to lanceolate, lyrate, or sinuately lobed, or (distally) narrowly lanceolate, 5–20 cm × 30–70 mm (smaller distally), margins entire or subapically denticulate, apex acute. Fruiting pedicels 5–12 mm, (thicker than gynophore). Flowers: sepals yellowish green, 4–6 × 1–1.5 mm; petals white, 5–7 mm, blade 2.5–4 × 0.5–1 mm, claw 2–3.5 × 1–1.7 mm, margins dentate or incised (sublaciniate); filaments 5–9 mm; anthers 2.5–3.5 mm; gynophore (1–)2–8(–10) mm. Fruits divaricate, 4–13 cm × 1.5–2.5 mm; style obsolete or, rarely, to 0.5 mm. Seeds brown, 3–5 × 1.7–2.2 mm; wing to 0.7 mm wide.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>mountain slopes</habitat>
-  <habitat>canyons</habitat>
-  <habitat>alder thickets</habitat>
-  <habitat>shady damp areas</habitat>
-  <habitat>stony and brushy hillsides</habitat>
-  <elevation>1500–2800 m;</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Caulanthus;species hastatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) M. Peck" date="unknown">hastatus</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species hastatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Chlorocrambe hastata is rare and known from only a few counties in Idaho (Washington County), Oregon (Baker and Wallowa counties), and Utah (Cache, Salt Lake, Utah, and Wasatch counties). It is easily distinguished from the other North American species of Brassicaceae by having yellowish green, reflexed flowers in lax racemes, hastate and petiolate cauline leaves, and fruits borne on distinct gynophores.</discussion>
-</treatment>
+</bio:treatment>

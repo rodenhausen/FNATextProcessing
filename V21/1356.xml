@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>35c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Liatris</genus_name><species_name>scariosa</species_name><species_authority>(Linnaeus) Willdenow</species_authority><variety_name>novae-angliae</variety_name><variety_authority>(Lunell) Gandhi, S. M. Young &amp; P. Somers</variety_authority><place_of_publication>
-    <publication_title>Taxon</publication_title>
-    <place_in_publication>52: 316. 2003</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Lacinaria</genus_name><species_name>scariosa</species_name><species_authority>(Linnaeus) Willdenow</species_authority><variety_name>novae-angliae</variety_name><variety_authority>Lunell</variety_authority><place_of_publication><publication_title>Amer. Midl. Naturalist </publication_title><place_in_publication>2: 177. 1912 (as Laciniaria)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Liatris</genus_name><species_name>novae-angliae</species_name><species_authority>(Lunell) Shinners</species_authority></TaxonIdentification><description>Plants 30–100 cm. Stems with 20–85 leaves or leafy bracts proximal to heads. Leaves: basal and proximal cauline lanceolate to lanceolate- or oblanceolate-spatulate, mostly 110–270 × 5–25 mm, glabrous or hirtello-puberulent, weakly, if at all, gland-dotted. Heads usually 5–30. Florets 35–60.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>sandy fields</habitat><habitat>woods</habitat><habitat>railroads</habitat><habitat>road banks</habitat><elevation>20–100 m;</elevation><us_distribution>Conn.</us_distribution><us_distribution>Maine</us_distribution><us_distribution>Mass.</us_distribution><us_distribution>N.H.</us_distribution><us_distribution>N.J.</us_distribution><us_distribution>N.Y.</us_distribution><us_distribution>Pa.</us_distribution><us_distribution>R.I.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Liatris</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Willdenow" date="unknown">scariosa</taxon_name>
+    <taxon_name rank="variety" authority="(Lunell) Gandhi, S. M. Young &amp; P. Somers" date="unknown">novae-angliae</taxon_name>
+    <place_of_publication>
+      <publication_title>Taxon</publication_title>
+      <place_in_publication>52: 316. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Liatris;species scariosa;variety novae-angliae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lacinaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Willdenow" date="unknown">scariosa</taxon_name>
+    <taxon_name rank="variety" authority="Lunell" date="unknown">novae-angliae</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Midl. Naturalist</publication_title>
+      <place_in_publication>2: 177. 1912 (as Laciniaria)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lacinaria;species scariosa;variety novae-angliae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Liatris</taxon_name>
+    <taxon_name rank="species" authority="(Lunell) Shinners" date="unknown">novae-angliae</taxon_name>
+    <taxon_hierarchy>genus Liatris;species novae-angliae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35c.</number>
+</bio:treatment>

@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Diospyros</genus_name>
-    <species_name>texana</species_name>
-    <species_authority>Scheele</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Gürke" date="unknown">EBENACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diospyros</taxon_name>
+    <taxon_name rank="species" authority="Scheele" date="unknown">texana</taxon_name>
     <place_of_publication>
       <publication_title>Linnaea</publication_title>
       <place_in_publication>22: 145.  1849  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Black persimmon</common_name>
-  <common_name>chapote</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Brayodendron</genus_name>
-    <species_name>texanum</species_name>
-    <species_authority>(Scheele) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, to 15 m.  Bark light reddish gray, smooth and flaking.  Leaves tardily deciduous; petiole 0.1–0.5 cm; blade dark green and glossy adaxially, obovate, 2–5 × 1–3 cm, thick, apex rounded to emarginate, abaxial surface tomentose, without basilaminar glands.  Inflorescences solitary flowers or 2–3-flowered cymes, borne on twigs of previous season.  Flowers 0.8–1.6 cm; sepals 5; petals 5; stamens usually 16; anthers dehiscent by subapical slits; pistillate flowers without staminodes; styles usually 4, connate for most of their lengths; ovary pubescent.  Berries black, not glaucous, subglobose, 1.5–2.5 cm diam., pubescent.  Seeds light red, trianguloid, ca. 0.8 cm.  2n = 30.</description>
-  <phenology>Flowering Feb–Mar; fruiting Aug</phenology>
-  <habitat>Open woodlands of bottomlands, prairie margins, rocky hillsides</habitat>
-  <elevation>0–1800 m</elevation>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua, Coahuila, Nuevo León, Tamaulipas).</global_distribution>
+    <taxon_hierarchy>family EBENACEAE;genus Diospyros;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brayodendron</taxon_name>
+    <taxon_name rank="species" authority="(Scheele) Small" date="unknown">texanum</taxon_name>
+    <taxon_hierarchy>genus Brayodendron;species texanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Black persimmon</other_name>
+  <other_name type="common_name">chapote</other_name>
   <discussion>Brayodendron, based on Diospyros texana and segregated because of its apically dehiscent anthers, lack of staminodes, and coherent styles, can hardly stand up within a worldwide view of the Ebenaceae.  As well as being eaten by people and wildlife, the fruits also are used in dying.  The heartwood turns dark sooner than in D. virginiana; the small size of the stems limits its use.</discussion>
-</treatment>
+</bio:treatment>

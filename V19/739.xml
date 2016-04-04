@@ -1,56 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Logfia</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Smith) Dumortier</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Logfia</taxon_name>
+    <taxon_name rank="species" authority="(Smith) Dumortier" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Belg.,</publication_title>
       <place_in_publication>68. 1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Logfia;species minima;</taxon_hierarchy>
-  <common_name>Little cottonrose</common_name>
-  <common_name>cotonnière naine</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>minimum</species_name>
-    <species_authority>Smith</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Logfia;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">minimum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Brit.,</publication_title>
       <place_in_publication>873. 1804</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Filago</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Smith) Persoon</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Oglifa</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Smith) Reichenbach f.</species_authority>
-  </TaxonIdentification>
-  <description>Plants 2–20[–30] cm. Stems 1, ± erect, or 2–5, ascending to spreading; branches leafy between proximal forks, remaining grayish, arachnoid-sericeous. Leaves narrowly elliptic to narrowly ovate, largest 7–10(–12) × 1–1.5(–2) mm, pliant; longest capitular leaves 0.8–1.5 times head heights, acute. Heads in glomerules of 3–7 in mostly dichasiiform, sometimes racemiform or paniculiform arrays, ± pyriform, largest 3–3.5 × 2 mm. Phyllaries usually 5, equal, ± like paleae. Receptacles ± fungiform, mostly 0.3–0.4 mm, heights 0.4–0.6 times diams. Pistillate paleae (except innermost) 8–12 in 1–2 series, ± vertically ranked, saccate, inflexed 70–90° proximally, gibbous, ± galeate, longest 2.6–3.1 mm, distal 15–30% of lengths glabrous abaxially; bodies ± bony, ± terete; wings prominent. Innermost paleae ± 8, spreading in 2 series, pistillate. Pistillate florets: outer 8–12 epappose, inner 18–30+ pappose. Bisexual florets 3–5; corollas 1.6–2.1 mm, lobes mostly 4, brownish to yellowish. Cypselae: outer incurved, proximally ± horizontal, distally erect, compressed, 0.8–0.9 mm; inner papillate; pappi mostly of 13–16 bristles falling in 1s or 2s, 1.8–2.1 mm. 2n = 28 (Byelorussia, former Czechoslovakia, Germany)</description>
-  <phenology_info>
-    <text>Flowering and fruiting Jun–Aug.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>ballast dumps ( probably temporary ) , sometimes open disturbed sites away from coast ;</text>
-    <habitat>ballast dumps ( temporary )</habitat>
-    <habitat>open disturbed sites away from coast</habitat>
-  </habitat_info>
-  <elevation>0–400 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species minimum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Filago</taxon_name>
+    <taxon_name rank="species" authority="(Smith) Persoon" date="unknown">minima</taxon_name>
+    <taxon_hierarchy>genus Filago;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oglifa</taxon_name>
+    <taxon_name rank="species" authority="(Smith) Reichenbach f." date="unknown">minima</taxon_name>
+    <taxon_hierarchy>genus Oglifa;species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Little cottonrose</other_name>
+  <other_name type="common_name">cotonnière naine</other_name>
   <discussion>Reports of Logfia minima from British Columbia and Washington have not been confirmed by me. A report from California was erroneous. The earliest known specimen from the flora area came from Girard Point, Pennsylvania, in 1878.</discussion>
-</treatment>
-
+</bio:treatment>

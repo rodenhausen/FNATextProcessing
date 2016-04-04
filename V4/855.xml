@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Achyranthes</genus_name><species_name>aspera</species_name><species_authority>Linnaeus</species_authority><variety_name>aspera</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Achyranthes</genus_name><species_name>aspera</species_name><variety_name>indica</variety_name><variety_authority>Linnaeus</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Achyranthes</genus_name><species_name>indica</species_name><species_authority>(Linnaeus) Miller</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Centrostachys</genus_name><species_name>indica</species_name><species_authority>(Linnaeus) Standley</species_authority></TaxonIdentification><description>Leaf blades orbiculate, obovate-orbiculate, or broadly rhombate, 1–4(–6) × 1–4(–6) cm, base round-ed or tapering, apex rounded, apiculate. Tepals 3–4 mm. Utricles 2–2.5 mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>dry, sandy waste places</habitat><habitat>near woolen mills</habitat><elevation>0–100 m;</elevation><introduced>introduced;</introduced><us_distribution>Ala.</us_distribution><us_distribution>Fla.</us_distribution><us_distribution>La.</us_distribution><us_distribution>S.C.</us_distribution><global_distribution>Asia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achyranthes</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">aspera</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">aspera</taxon_name>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Achyranthes;species aspera;variety aspera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achyranthes</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Miller" date="unknown">aspera</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">indica</taxon_name>
+    <taxon_hierarchy>genus Achyranthes;species aspera;variety indica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achyranthes</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Standley" date="unknown">indica</taxon_name>
+    <taxon_hierarchy>genus Achyranthes;species indica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centrostachys</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">indica</taxon_name>
+    <taxon_hierarchy>genus Centrostachys;species indica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+</bio:treatment>

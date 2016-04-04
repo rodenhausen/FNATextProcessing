@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13g.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <species_authority>(Rafinesque) Merrill</species_authority>
-    <variety_name>cusickii</variety_name>
-    <variety_authority>(Greene) Reveal</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Merrill" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Reveal" date="unknown">cusickii</taxon_name>
     <place_of_publication>
       <publication_title>SouthW. Naturalist</publication_title>
       <place_in_publication>18: 399.  1974  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Cusick’s shootingstar</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>cusickii</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species pulchellum;variety cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">cusickii</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>2: 73.  1890</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <subspecies_name>cusickii</subspecies_name>
-    <subspecies_authority>(Greene) Calder &amp; Roy L. Taylor</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>pauciflora</species_name>
-    <species_authority>(Greene) Mast &amp; Reveal</species_authority>
-    <variety_name>cusickii</variety_name>
-    <variety_authority>(Greene) Mast &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Plants usually densely glandular-puberulent or glandular-pubescent.  Leaves 5–18 × (0.7–)1.3–4.5 cm; blade oblanceolate to ovate.  Pedicels glandular-pubescent or -puberulent.  Flowers: calyx glandular-pubescent or -puberulent; corolla tube yellow with reddish, thin, wavy ring, lobes magenta to lavender, rarely white, 7–12 mm; filament tube yellow, 1.5–2.5 mm; anthers 3–4.5 mm; pollen sacs usually yellow, sometimes reddish to maroon, connective maroon.  2n = 44, 88.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Flats and slopes mainly in grassland and sagebrush communities, sometimes in oak and/or conifer woodlands</habitat>
-  <elevation>(100–)200–1900(–2200) m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Dodecatheon;species cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Mast &amp; Reveal" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Calder &amp; Roy L. Taylor" date="unknown">cusickii</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pulchellum;subspecies cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pauciflora</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Mast &amp; Reveal" date="unknown">cusickii</taxon_name>
+    <taxon_hierarchy>genus Primula;species pauciflora;variety cusickii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13g.</number>
+  <other_name type="common_name">Cusick’s shootingstar</other_name>
   <discussion>Variety cusickii is densely glandular-pubescent to glandular-puberulent.  It occurs from northeastern Oregon to southeastern British Columbia, thence across Idaho to western Montana, with a disjunct population at Birdseye, Wyoming (A. Nelson 9610, 4 May 1911; DS, RM-mixed with Dodecatheon conjugens).  Its range is well within that of var. pulchellum.  The whole plant (leaves, scapes, pedicels, and calyx) is densely glandular, unlike D. conjugens var. viscidum, which usually has sparsely and minutely glandular-puberulent pedicels, leaves, and scapes that are (typically) glandular-pubescent proximally.  Plants from Alberta and Saskatchewan assigned previously to var. cusickii are var. viscidum.</discussion>
-</treatment>
+</bio:treatment>

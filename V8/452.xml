@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>laxum</species_name>
-    <species_authority>(Britton) A. Berger</species_authority>
-    <variety_name>flavidum</variety_name>
-    <variety_authority>(Denton) H. Ohba</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Britton) A. Berger" date="unknown">laxum</taxon_name>
+    <taxon_name rank="variety" authority="(Denton) H. Ohba" date="unknown">flavidum</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Res. Inst. Texas</publication_title>
       <place_in_publication>1: 889.  2007,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>laxum</species_name>
-    <subspecies_name>flavidum</subspecies_name>
-    <subspecies_authority>Denton</subspecies_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species laxum;variety flavidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">laxum</taxon_name>
+    <taxon_name rank="subspecies" authority="Denton" date="unknown">flavidum</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>30: 233, fig. 1.  1978</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades slightly glaucous, obovate, 15–25 × 4.5–10 mm, apex obtuse.  Flowering shoots 10–24 cm; leaf blades slightly glaucous, obovate, base often truncate, not clasping stem.  Flowers: sepals 2.5–4 mm, apex obtuse; petals pale yellow or white with pink midveins, 7.5–10 mm; anthers yellow to ± red-brown.  2n = 60.</description>
-  <phenology>Flowering late spring–mid summer</phenology>
-  <habitat>Serpentine or basalt outcrops</habitat>
-  <elevation>700–900 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Sedum;species laxum;subspecies flavidum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35c.</number>
   <discussion>Variety flavidum is restricted to the Trinity Mountains.</discussion>
-</treatment>
+</bio:treatment>

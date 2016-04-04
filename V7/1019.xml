@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>(Richardson) O’Kane &amp; Al-Shehbaz</species_authority>
-    <subspecies_name>argillosa</subspecies_name>
-    <subspecies_authority>(Rollins &amp; E. A. Shaw) O’Kane &amp; Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) O’Kane &amp; Al-Shehbaz" date="unknown">arenosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rollins &amp; E. A. Shaw) O’Kane &amp; Al-Shehbaz" date="unknown">argillosa</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 321. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Secund or sidesaddle bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>(Richardson) Rydberg</species_authority>
-    <variety_name>argillosa</variety_name>
-    <variety_authority>Rollins &amp; E. A. Shaw</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species arenosa;subspecies argillosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) Rydberg" date="unknown">arenosa</taxon_name>
+    <taxon_name rank="variety" authority="Rollins &amp; E. A. Shaw" date="unknown">argillosa</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Lesquerella,</publication_title>
       <place_in_publication>178. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>arenosa</species_name>
-    <variety_name>argillosa</variety_name>
-    <variety_authority>(Rollins &amp; E. A. Shaw) B. L. Turner</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; long-lived. Fruit valves: trichomes closely appressed. 2n = 26, 30.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>open, barren sites of grasslands and badlands with clayey or sandy-clay soils derived from limestone</habitat>
-  <elevation>700–1600 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Lesquerella;species arenosa;variety argillosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">arenosa</taxon_name>
+    <taxon_name rank="variety" authority="(Rollins &amp; E. A. Shaw) B. L. Turner" date="unknown">argillosa</taxon_name>
+    <taxon_hierarchy>genus Physaria;species arenosa;variety argillosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6b.</number>
+  <other_name type="common_name">Secund or sidesaddle bladderpod</other_name>
+</bio:treatment>

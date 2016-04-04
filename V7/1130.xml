@@ -1,46 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>80.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>sessilis</species_name>
-    <species_authority>(S. Watson) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) O’Kane &amp; Al-Shehbaz" date="unknown">sessilis</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 328. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sessile bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>gracilis</species_name>
-    <species_authority>(Hooker) S. Watson</species_authority>
-    <variety_name>sessilis</variety_name>
-    <variety_authority>S. Watson</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species sessilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) S. Watson" date="unknown">gracilis</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">sessilis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>23: 253. 1888</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>sessilis</species_name>
-    <species_authority>(S. Watson) Small</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials; with a fine taproot; densely pubescent, trichomes (sessile or short-stalked), 4–6-rayed, rays usually furcate, rarely bifurcate, (moderately tuberculate or nearly smooth). Stems simple or few to several from base, erect, (often distal 1/2 branched), to 6 dm. Basal leaves: blade oblanceolate, to 9 cm, margins entire, dentate, or sinuate to lyrate-pinnatifid. Cauline leaves: (proximal shortly petiolate, distal sessile); blade narrowly elliptic to linear, 2–4(–6) cm, margins entire or repand to shallowly dentate. Racemes loose. Fruiting pedicels (divaricate-ascending to widely spreading, straight), 8–20 mm. Flowers: sepals elliptic or elongate-ovate, 3.4–5.2(–6.5) mm, (lateral pair subsaccate, median pair thickened apically, cucullate); petals obovate or deltate, 5–10 mm, (sometimes with short claw, margins undulate). Fruits globose or subglobose, sometimes slightly compressed, 3–6 mm; valves (not retaining seeds after dehiscence), densely papillose, densely pubescent inside, trichomes raised; replum as wide as or wider than fruit; ovules 8–18 per ovary; style 1.5–3.5 mm. Seeds flattened. 2n = 12.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>limestone chip, black soils</habitat>
-  <habitat>grassy roadsides</habitat>
-  <habitat>fields</habitat>
-  <habitat>limestone</habitat>
-  <habitat>oak woodlands</habitat>
-  <habitat>mesquite brush lands</habitat>
-  <habitat>pastures</habitat>
-  <habitat>open dry hills</habitat>
-  <elevation>30–700 m;</elevation>
-  <us_distribution>Tex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Lesquerella;species gracilis;variety sessilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Small" date="unknown">sessilis</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species sessilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>80.</number>
+  <other_name type="common_name">Sessile bladderpod</other_name>
+</bio:treatment>

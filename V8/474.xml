@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Graptopetalum</genus_name>
-    <species_name>bartramii</species_name>
-    <species_authority>Rose</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Graptopetalum</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">bartramii</taxon_name>
     <place_of_publication>
       <publication_title>Addisonia</publication_title>
       <place_in_publication>11: 1, plate 353.  1926,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Echeveria</genus_name>
-    <species_name>bartramii</species_name>
-    <species_authority>(Rose) Kearney &amp; Peebles</species_authority>
-  </TaxonIdentification>
-  <description>Stems without slender branches, 1–3 cm thick.  Leaves: rosettes solitary or multiple, 15–70-leaved, 7–16 cm diam.; blade blue-green, cuneate-oblanceolate or -obovate, 3–10 × 1–4 cm, smooth, apex scarcely apiculate, surfaces somewhat glaucous.  Inflorescences paniculate cymes; floral stems 1–3 dm; proximal leaves 12–35 mm; branches 7–18, not circinate, 1–6-flowered.  Pedicels 4–18 mm.  Flowers mostly 5-merous; corolla 19–28 mm diam., tube 3–3.5 mm, lobes 8–15 × 2–3.5 mm; pistils hollowed abaxially at base, abruptly narrowed to conic styles 0.5–1 mm.  2n = 62.</description>
-  <phenology>Flowering fall–winter</phenology>
-  <habitat>Rock crevices and gravelly slopes in mountains</habitat>
-  <elevation>1200–2100 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <global_distribution>Mexico (Chihuahua, Sonora).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family CRASSULACEAE;genus Graptopetalum;species bartramii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echeveria</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Kearney &amp; Peebles" date="unknown">bartramii</taxon_name>
+    <taxon_hierarchy>genus Echeveria;species bartramii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

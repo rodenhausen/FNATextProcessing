@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ARABIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ARABIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 664. 1753</place_in_publication>
@@ -12,19 +18,12 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 298. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin Arabia ]</etymology>
-  <common_name>Rockcress</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Annuals, biennials, or perennials; (sometimes stoloniferous with vegetative rosettes, or caudex simple or branched); not scapose; often pubescent or hirsute, sometimes glabrous or glabrate, trichomes stalked, stellate, sometimes mixed with fewer, simple or forked ones. Stems erect, ascending, or decumbent, unbranched or branched distally. Leaves basal and cauline; petiolate or sessile; basal rosulate, petiolate or sessile, blade margins usually entire or dentate to denticulate, rarely lyrate-pinnatifid; cauline usually sessile, rarely shortly petiolate, blade (base often auriculate, sagittate, or amplexicaul), margins entire or dentate. Racemes (sometimes paniculate, usually simple, sometimes branched). Fruiting pedicels erect, ascending, or divaricate, (not reflexed or secund), slender. Flowers: sepals erect or ascending, ovate or oblong, lateral pair saccate or not basally, (margins membranous); petals white, pink, or purple, usually spatulate, oblong, or oblanceolate, rarely obovate, claw differentiated from blade, (shorter than sepals, apex obtuse or rounded); stamens tetradynamous; filaments usually not dilated basally; anthers ovate, oblong, or linear, (apex obtuse); nectar glands confluent, subtending bases of stamens, lateral glands semiannular or annular, median glands rarely absent, (sometimes toothlike and distinct). Fruits siliques, usually sessile, rarely shortly stipitate, linear, smooth or torulose, (usually straight, sometimes slightly curved), flattened, latiseptate; valves (papery), each with obscure or prominent midvein, glabrous; replum (visible), rounded; septum complete, (membranous, translucent, veinless); ovules 10–86[–110] per ovary; style obsolete or distinct; stigma capitate, (sometimes slightly 2-lobed). Seeds uniseriate, flattened, winged or margined, oblong or orbicular; seed coat (smooth or minutely reticulate), not mucilaginous when wetted; cotyledons accumbent. x = 8.</description>
-  <number_of_infrataxa>Species ca. 70 (15 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>alpine</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>e Africa.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus ARABIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin Arabia ]</other_info_on_name>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Rockcress</other_name>
+  <discussion>Species ca. 70 (15 in the flora):</discussion>
   <discussion>As treated by most North American authors (e.g., M. Hopkins 1937; R. C. Rollins 1941, 1993; G. A. Mulligan 1996), Arabis was so broadly delimited that it included species presently assigned to six genera in five tribes (I. A. Al-Shehbaz et al. 2006). These are: Arabidopsis and Turritis (Camelineae), Arabis (Arabideae), Boechera (Boechereae), Pennellia (Halimolobeae), and Streptanthus (Thelypodieae) (see Al-Shehbaz 2003b; M. D. Windham and Al-Shehbaz 2006, 2007).</discussion>
   <discussion>R. C. Rollins (1993) recognized 80 species of Arabis in North America, of which 24 were divided into 40 varieties. By contrast, G. A. Mulligan (1996) recognized 30 species and six varieties in Canada alone. The combination of characteristics that they used to circumscribe the genus (e.g., linear and latiseptate fruits, accumbent cotyledons, and often branched trichomes) evolved repeatedly in Brassicaceae and cannot be relied on in the delimitation of genera (O. Appel and I. A. Al-Shehbaz 2003). The vast majority of North American species have been transferred to Boechera (x = 7), a genus distinct morphologically, cytologically, and molecularly (Al-Shehbaz 2003b; M. D. Windham and Al-Shehbaz 2006, 2007, 2007b). As currently circumscribed, Arabis (x = 8) is a primarily Eurasian genus with only 15 species in North America.</discussion>
   <references>
@@ -35,143 +34,143 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves: blade bases auriculate, subcordate, amplexicaul or subamplexicaul.</statement>
+      <description type="morphology">Cauline leaves: blade bases auriculate, subcordate, amplexicaul or subamplexicaul.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perennials, stoloniferous; lateral sepals conspicuously saccate basally; fruits ascending to spreading.</statement>
+      <description type="morphology">Perennials, stoloniferous; lateral sepals conspicuously saccate basally; fruits ascending to spreading.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 5–8(–9) × 2–3.5 mm; fruits 1.7–3.5(–4) cm; basal leaves: blade trichomes</statement>
+      <description type="morphology">Petals 5–8(–9) × 2–3.5 mm; fruits 1.7–3.5(–4) cm; basal leaves: blade trichomes</description>
       <determination>1. Arabis alpina</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals 10–19 × 4–8 mm; fruits (3–)4–7 cm; basal leaves: blade trichomes stellate</statement>
+      <description type="morphology">Petals 10–19 × 4–8 mm; fruits (3–)4–7 cm; basal leaves: blade trichomes stellate</description>
       <determination>2. Arabis caucasica</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Biennials or perennials, not stoloniferous; lateral sepals not or slightly saccate basally, or not conspicuously so; fruits erect, erect-ascending, or nearly so (except A. patens ).</statement>
+      <description type="morphology">Biennials or perennials, not stoloniferous; lateral sepals not or slightly saccate basally, or not conspicuously so; fruits erect, erect-ascending, or nearly so (except A. patens ).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits divaricate to erect-ascending (not appressed to rachises); ovules 16–28 per</statement>
+      <description type="morphology">Fruits divaricate to erect-ascending (not appressed to rachises); ovules 16–28 per</description>
       <determination>6. Arabis patens</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits usually erect, rarely erect-ascending (often appressed to rachises); ovules 38–86 per ovary.</statement>
+      <description type="morphology">Fruits usually erect, rarely erect-ascending (often appressed to rachises); ovules 38–86 per ovary.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits 0.7–0.8 mm wide; petals 6–9 mm; basal leaf blades: abaxial surface</statement>
+      <description type="morphology">Fruits 0.7–0.8 mm wide; petals 6–9 mm; basal leaf blades: abaxial surface</description>
       <determination>5. Arabis georgiana</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits 0.8–1.8(–2) mm wide; petals 3.5–5(–5.5) mm (longer in A. eschscholtziana ); basal leaf blades: abaxial surface usually with mix of simple, forked, and stalked, stellate trichomes, rarely subglabrate; not Alabama, not Georgia.</statement>
+      <description type="morphology">Fruits 0.8–1.8(–2) mm wide; petals 3.5–5(–5.5) mm (longer in A. eschscholtziana ); basal leaf blades: abaxial surface usually with mix of simple, forked, and stalked, stellate trichomes, rarely subglabrate; not Alabama, not Georgia.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Petals 3.5–5(–5.5) mm; lateral sepals not saccate basally; fruits 0.8–1</statement>
+      <description type="morphology">Petals 3.5–5(–5.5) mm; lateral sepals not saccate basally; fruits 0.8–1</description>
       <determination>3. Arabis pycnocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Petals (5.5–)6.5–9(–10) mm; lateral sepals saccate basally; fruits 1.2–1.8(–2) mm wide; cauline leaves (2–)4–12(–18), not overlapping or rarely</statement>
+      <description type="morphology">Petals (5.5–)6.5–9(–10) mm; lateral sepals saccate basally; fruits 1.2–1.8(–2) mm wide; cauline leaves (2–)4–12(–18), not overlapping or rarely</description>
       <determination>4. Arabis eschscholtziana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves: blade bases not auriculate or amplexicaul, sometimes cuneate.</statement>
+      <description type="morphology">Cauline leaves: blade bases not auriculate or amplexicaul, sometimes cuneate.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Petals white, 3.5–11 mm.</statement>
+      <description type="morphology">Petals white, 3.5–11 mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Trichomes of basal leaf blades short-stalked, stellate</statement>
+      <description type="morphology">Trichomes of basal leaf blades short-stalked, stellate</description>
       <determination>7. Arabis crucisetosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Trichomes of basal leaf blades simple and forked, or only simple.</statement>
+      <description type="morphology">Trichomes of basal leaf blades simple and forked, or only simple.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits and fruiting pedicels erect, (sub)appressed to rachises; petals 3.5–4 mm</statement>
+      <description type="morphology">Fruits and fruiting pedicels erect, (sub)appressed to rachises; petals 3.5–4 mm</description>
       <determination>9. Arabis olympica</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits and fruiting pedicels ascending to divaricate or suberect, not appressed to rachises; petals (5–)6–11 mm.</statement>
+      <description type="morphology">Fruits and fruiting pedicels ascending to divaricate or suberect, not appressed to rachises; petals (5–)6–11 mm.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruits 1.7–2.2 mm wide; seeds winged, (1.5–)1.8–2.5(–3) mm; petals 7–11</statement>
+      <description type="morphology">Fruits 1.7–2.2 mm wide; seeds winged, (1.5–)1.8–2.5(–3) mm; petals 7–11</description>
       <determination>8. Arabis furcata</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Fruits 0.8–1.2(–1.5) mm wide; seeds not winged, 0.6–1.2(–1.5) mm; petals</statement>
+      <description type="morphology">Fruits 0.8–1.2(–1.5) mm wide; seeds not winged, 0.6–1.2(–1.5) mm; petals</description>
       <determination>10. Arabis nuttallii</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Petals purple or pink, 8–18(–20) mm.</statement>
+      <description type="morphology">Petals purple or pink, 8–18(–20) mm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blades: surfaces with short-stalked, stellate trichomes</statement>
+      <description type="morphology">Basal leaf blades: surfaces with short-stalked, stellate trichomes</description>
       <determination>11. Arabis modesta</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Basal leaf blades: surfaces with simple, forked, and sometimes 2-, 3-, or 4-rayed trichomes, or, rarely, with fewer, stellate ones.</statement>
+      <description type="morphology">Basal leaf blades: surfaces with simple, forked, and sometimes 2-, 3-, or 4-rayed trichomes, or, rarely, with fewer, stellate ones.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Seeds orbicular or nearly so, 2–2.5 mm diam.; fruits 2–3 mm wide</statement>
+      <description type="morphology">Seeds orbicular or nearly so, 2–2.5 mm diam.; fruits 2–3 mm wide</description>
       <determination>15. Arabis blepharophylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Seeds oblong, 1–1.3 mm wide; fruits 1.5–2 mm wide.</statement>
+      <description type="morphology">Seeds oblong, 1–1.3 mm wide; fruits 1.5–2 mm wide.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants glabrous or with simple trichomes (terminating teeth of basal leaf</statement>
+      <description type="morphology">Plants glabrous or with simple trichomes (terminating teeth of basal leaf</description>
       <determination>14. Arabis mcdonaldiana</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants moderately pubescent with simple and forked trichomes; simple trichomes often bulbous-based; fruits (3–)3.5–6.5 cm.</statement>
+      <description type="morphology">Plants moderately pubescent with simple and forked trichomes; simple trichomes often bulbous-based; fruits (3–)3.5–6.5 cm.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Plants with at least some 3-rayed, stellate trichomes; cauline leaves 1–3(–6) cm; fruits</statement>
+      <description type="morphology">Plants with at least some 3-rayed, stellate trichomes; cauline leaves 1–3(–6) cm; fruits</description>
       <determination>12. Arabis oregana</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Plants without 3-rayed, stellate trichomes; cauline leaves 0.4–1(–1.5) cm; fruits not</statement>
+      <description type="morphology">Plants without 3-rayed, stellate trichomes; cauline leaves 0.4–1(–1.5) cm; fruits not</description>
       <determination>13. Arabis aculeolata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

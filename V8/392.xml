@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>blochmaniae</species_name>
-    <species_authority>(Eastwood) Moran</species_authority>
-    <subspecies_name>insularis</subspecies_name>
-    <subspecies_authority>(Moran) Moran</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Moran" date="unknown">blochmaniae</taxon_name>
+    <taxon_name rank="subspecies" authority="(Moran) Moran" date="unknown">insularis</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>7: 110.  1953,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>blochmaniae</species_name>
-    <species_authority>(Eastwood) Rose</species_authority>
-    <subspecies_name>insularis</subspecies_name>
-    <subspecies_authority>Moran</subspecies_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species blochmaniae;subspecies insularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Rose" date="unknown">blochmaniae</taxon_name>
+    <taxon_name rank="subspecies" authority="Moran" date="unknown">insularis</taxon_name>
     <place_of_publication>
       <publication_title>Desert Pl. Life</publication_title>
       <place_in_publication>22: 78, fig. 3.  1950</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Rosette leaves 15–30(–50); blade clavate-oblanceolate, 1–3.5 cm.  Inflorescences: floral shoots 3–7 cm; leaves 0.6–1.2 cm; young stems and leaves gray-glaucous.  Petals 6–8 mm.  2n = 34.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Heavy soil on flats near coast</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>ca. 0–100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Hasseanthus;species blochmaniae;subspecies insularis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies insularis is endemic to Santa Rosa Island, where it is known only from near Old Ranch Point and is considered seriously threatened (California Native Plant Society, http://cnps.web.aplus.net/cgi-bin/inv/inventory.cgi).  It is remarkable for its small size and for the large number of rosette leaves.</discussion>
-</treatment>
+</bio:treatment>

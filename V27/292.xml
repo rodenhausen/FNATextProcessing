@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Schistidium</genus_name>
-    <species_name>flaccidum</species_name>
-    <species_authority>(De Notaris) Ochyra</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Schistidium</taxon_name>
+    <taxon_name rank="species" authority="(De Notaris) Ochyra" date="unknown">flaccidum</taxon_name>
     <place_of_publication>
       <publication_title>Nova Hedwigia</publication_title>
       <place_in_publication>48: 94.  1989,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Anictangium</genus_name>
-    <species_name>flaccidum</species_name>
-    <species_authority>De Notaris</species_authority>
+    <taxon_hierarchy>genus Schistidium;species flaccidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anictangium</taxon_name>
+    <taxon_name rank="species" authority="De Notaris" date="unknown">flaccidum</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Reale Accad. Sci. Torino</publication_title>
       <place_in_publication>39: 254.  1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grimmia</genus_name>
-    <species_name>flaccida</species_name>
-    <species_authority>(De Notaris) Lindberg</species_authority>
-  </TaxonIdentification>
-  <description>Plants in cushions, olivaceous, light brown, or green.  Stems 0.5–2 cm, central strand indistinct.  Leaves erect or weakly curved when dry, ovate-lanceolate to ovate-triangular strongly keeled distally, 1.3–1.9(–2.4) mm, 1-stratose, rarely with a few 2-stratose striae distally; margins recurved to just before the apex, smooth, 2-stratose with 1-stratose patches; apices acute; costa excurrent as an often long, finely denticulate, straight or flexuose, and sometimes decurrent awn, often embracing part of the lamina, rarely percurrent, smooth; basal marginal cells short-rectangular, usually with transverse walls thicker than longitudinal walls; distal cells mainly ovate or short-rectangular, 7–10 µm wide, smooth, straight or slightly sinuose.  Sexual condition autoicous.  Capsule orange-brown or yellow-brown, cupulate, 0.6–0.9 mm; exothecial often irregularly angular, short-elongate or isodiametric, thin-walled or slightly thickened, occasionally with small trigones; rim red; stomata present; operculum mamillate; peristome absent or rudimentary, consisting of basal segments, to 30 µm, yellowish or orange-red, papillose.  Spores 8–10 µm, granulose or verruculose.</description>
-  <phenology>Capsules mature late spring to early summer.</phenology>
-  <habitat>Rock in open to shaded habitats;</habitat>
-  <elevation>moderate to high elevations (1500–3200 m);</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Atlantic Islands</global_distribution>
-  <us_distribution>Pacific Islands.</us_distribution>
+    <taxon_hierarchy>genus Anictangium;species flaccidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grimmia</taxon_name>
+    <taxon_name rank="species" authority="(De Notaris) Lindberg" date="unknown">flaccida</taxon_name>
+    <taxon_hierarchy>genus Grimmia;species flaccida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
   <discussion>Schistidium flaccidum is characterized by long and broad-based awns, light-colored capsules with red rims, the rudimentary peristome, and the mamillate rostrum.  For comparison to the similar arctic taxon 10. S. cryptocarpum, see the discussion thereunder.</discussion>
-</treatment>
+</bio:treatment>

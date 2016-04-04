@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>103.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>sobolifera</species_name>
-    <species_authority>Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">sobolifera</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>30: 251. 1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>sobolifera</species_name>
-    <variety_name>uncinalis</variety_name>
-    <variety_authority>(Rydberg) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>uncinalis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; (cespitose); caudex often branched (with persistent leaf bases, branches elongated, sometimes terminating in sterile rosettes); scapose. Stems unbranched, (0.15–)0.25–0.6(–0.7) dm, pubescent basally, trichomes simple and 2- or 3-rayed, 0.1–0.5 mm. Basal leaves rosulate; subsessile; petiole (0–0.5 cm) margin ciliate, (trichomes simple, 0.2–1 mm); blade oblanceolate to spatulate or obovate, (0.3–)0.4–1.4(–2) cm × (1.5–)2–4(–6) mm, margins entire, (ciliate as petiole), surfaces usually pubescent, sometimes glabrescent, abaxially with stalked, 2–4-rayed trichomes, 0.1–0.5 mm, adaxially often with simple and 2-rayed trichomes, to 0.9 mm. Cauline leaves 0 (or 1); sessile; blade similar to basal. Racemes (5–)9–18(–23)-flowered, ebracteate, slightly elongated in fruit; rachis not flexuous, pubescent as stems proximally (trichomes often crisped). Fruiting pedicels divaricate-ascending, usually straight, rarely curved upward, 3–6(–10) mm, pubescent, trichomes simple and 2- or 3-rayed, (crisped, 0.1–0.5 mm). Flowers: sepals ovate or broadly oblong, 1.7–2.5 mm, pubescent, (trichomes simple and stalked, 2-rayed); petals yellow, spatulate to oblanceolate, 3–4 × 1.5–2 mm; anthers ovate, 0.4–0.5 mm. Fruits ovoid or ovoid-lanceolate, plane, inflated at least basally, (3–)4–6(–7) × 2–4 mm; valves glabrous or pubescent, trichomes simple and 2-rayed, 0.07–0.3 mm; ovules (4–)8–12 per ovary; style (0.3–)0.4–0.6 mm. Seeds oblong, 1–1.4 × 0.6–0.8 mm. 2n = 26.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>igneous rock outcrops</habitat>
-  <habitat>fellfields</habitat>
-  <habitat>rocky slopes in mixed conifer and alpine meadow communities</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>3100–3600 m;</elevation>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species sobolifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">sobolifera</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) O. E. Schulz" date="unknown">uncinalis</taxon_name>
+    <taxon_hierarchy>genus Draba;species sobolifera;variety uncinalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">uncinalis</taxon_name>
+    <taxon_hierarchy>genus Draba;species uncinalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>103.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Draba sobolifera is related to, and sympatric with, D. ramulosa, and occasional sterile hybrids are encountered. There is no evidence of introgression and the two species are easily distinguished (see discussion of 90. D. ramulosa). Draba sobolifera is known from the Tushar Mountains in south-central Utah (Beaver and Piute counties).</discussion>
-</treatment>
+</bio:treatment>

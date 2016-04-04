@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>H. L. Sherman</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Torrey ex Durand" date="unknown">SCHOENOLIRION</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Acad. Nat. Sci. Philadelphia, ser.</publication_title>
+      <place_in_publication>2, 3: 103. 1855</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus SCHOENOLIRION;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek schoenos , rush, and lirion , white lily]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">Amblystima</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1837</place_in_publication>
+      <other_info_on_pub>name rejected</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Amblystima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">Oxytria</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1837</place_in_publication>
+      <other_info_on_pub>name rejected</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Oxytria;</taxon_hierarchy>
+  </taxon_identification>
   <number>57.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SCHOENOLIRION</genus_name>
-    <genus_authority>Torrey ex Durand</genus_authority>
-  <place_of_publication>
-    <publication_title>J. Acad. Nat. Sci. Philadelphia, ser.</publication_title>
-    <place_in_publication>2, 3: 103. 1855</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[Greek schoenos , rush, and lirion , white lily]</etymology>
-  
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Rush-lily</common_name>
-  <author>H. L. Sherman</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Amblystima</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
-    <place_of_publication>
-      <place_in_publication>1837</place_in_publication>
-      <other_info>name rejected</other_info>
-    </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Oxytria</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
-    <place_of_publication>
-      <place_in_publication>1837</place_in_publication>
-      <other_info>name rejected</other_info>
-    </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, scapose, glabrous, from rootstocks; rootstock vertical, 1–12 cm,
-    fleshy, sometimes bulbose; principal roots contractile, arising from tops of rootstocks. Bulbs,
-    when present, ovoid or elongate, scales lunate. Leaves 2–7, basal; blade flat to nearly terete,
-    sometimes keeled. Inflorescences racemose or 1–3(–6)-branched, bracteate, flowers initially
-    crowded, internodes elongating after anthesis. Flowers soon deciduous if unfertilized; tepals
-    persistent, withering separately to base, distinct, yellow or white, each 3–7-veined, equal, 2–6
-    mm; stamens 6; filaments equal, shorter than tepals, 1–2 mm, inner 3 nectariferous at base;
-    anthers introrse; ovary superior, globose, 3-lobed, 3-locular, placentation axile, ovules 2 per
-    locule; style 1; stigma unlobed or slightly 3-lobed; pedicel 6–15(–30 mm). Fruits capsular,
-    dehiscent, flattened or indented at top, prominently 3-lobed. Seeds glossy black, globose,
-    flattened on 1 side, smooth. x = 12.</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States</global_distribution>
-  <us_distribution>including e Texas.</us_distribution>
+  <other_name type="common_name">Rush-lily</other_name>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <references>
     <reference>  Gray, A. 1876. Schoenolirion Torr. Amer. Naturalist 10:
       426–427.  Pollard, C. L. 1897. The genus Oxytria of Rafinesque. Bull. Torrey Bot. Club 24:
@@ -53,26 +45,26 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves without fleshy bases, arising from tops of vertical rootstocks, withering to
-        persistent</statement>
+      <description type="morphology">Leaves without fleshy bases, arising from tops of vertical rootstocks, withering to
+        persistent</description>
       <determination>3.  Schoenolirion albiflorum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves with fleshy bases, arising from bulbs at tops of vertical rootstocks, not
+      <description type="morphology">Leaves with fleshy bases, arising from bulbs at tops of vertical rootstocks, not
         withering to persistent fibers; inflorescences seldom branched; tepals white or
-        yellow.</statement>
+        yellow.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Tepals yellow</statement>
+      <description type="morphology">Tepals yellow</description>
       <determination>1.  Schoenolirion croceum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Tepals white</statement>
+      <description type="morphology">Tepals white</description>
       <determination>2.  Schoenolirion wrightii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

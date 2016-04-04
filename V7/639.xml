@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5a2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cakile</genus_name>
-    <species_name>edentula</species_name>
-    <species_authority>(Bigelow) Hooker</species_authority>
-    <variety_name>lacustris</variety_name>
-    <variety_authority>Fernald</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="(Bigelow) Hooker" date="unknown">edentula</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">lacustris</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>24: 23. 1922</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cakile</genus_name>
-    <species_name>lacustris</species_name>
-    <species_authority>(Fernald) Pobedimova</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades not especially fleshy. Petals rarely aborted. Fruits 4-angled, 16–26 × 3–5 mm; terminal segment 4-angled, apex usually blunt, (flattened), relatively long. 2n = 18.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <phenology>oct</phenology>
-  <habitat>great lakes beaches</habitat>
-  <elevation>ca. 0 m;</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus Cakile;species edentula;variety lacustris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="(Fernald) Pobedimova" date="unknown">lacustris</taxon_name>
+    <taxon_hierarchy>genus Cakile;species lacustris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5a2.</number>
   <discussion>Variety lacustris is sometimes sympatric with var. edentula; hybridization has not been demonstrated.</discussion>
-</treatment>
+</bio:treatment>

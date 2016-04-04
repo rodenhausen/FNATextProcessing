@@ -1,40 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>10a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Liatris</genus_name>
-        <species_name>elegans</species_name>
-        <species_authority>(Walter) Michaux</species_authority>
-        <variety_name>elegans</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Lacinaria</genus_name>
-        <species_name>flabellata</species_name>
-        <species_authority>Small</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Liatris</genus_name>
-        <species_name>elegans</species_name>
-        <variety_name>flabellata</variety_name>
-        <variety_authority>(Small) Gaiser</variety_authority>
-    </TaxonIdentification>
-    <description>corms depressed-globose. heads crowded. phyllaries: apices petaloid, lavender,
-        magenta, or pink, elongate and strongly recurving, petaloid portions short relative to
-        herbaceous bases. corollas creamy white.</description>
-    <phenology>aug</phenology>
-    <phenology>summer</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <habitat>Dry, sandy sites, sandy clays, dunes, pine-hardwoods, pine-live oak, longleaf pine,
-        turkey oak;</habitat>
-    <elevation>0–200 m</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Liatris</taxon_name>
+    <taxon_name rank="species" authority="(Walter) Michaux" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Gaiser" date="unknown">elegans</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Liatris;species elegans;variety elegans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lacinaria</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">flabellata</taxon_name>
+    <taxon_hierarchy>genus Lacinaria;species flabellata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Liatris</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">flabellata</taxon_name>
+    <taxon_hierarchy>genus Liatris;species elegans;variety flabellata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10a.</number>
+</bio:treatment>

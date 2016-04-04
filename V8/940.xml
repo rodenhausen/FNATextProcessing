@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">angustifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 391.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sheep laurel</common_name>
-  <common_name>lambkill</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaedaphne</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Linnaeus) Kuntze</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs erect, 0.3–1.5 m.  Twigs terete, viscid, glabrous or puberulent.  Leaves usually in whorls of 3, rarely alternate or opposite; petiole 6–16 mm, usually puberulent; blade oblong to elliptic-lanceolate, 1.5–8 × 0.5–2.5 cm, margins usually plane, apex obtuse to acute, usually apiculate, abaxial surface glabrous or puberulent, sometimes stipitate-glandular, adaxial lightly puberulent (hairs white, to 0.1 mm), sometimes glabrescent, midrib puberulent.  Inflorescences axillary near distal end, corymbiform racemes, 4–12-flowered.  Pedicels 5–20 mm.  Flowers: sepals usually green, sometimes reddish apically or throughout, ovate, 2–2.8 mm, apex usually acuminate, surfaces puberulent; petals connate nearly their entire lengths, usually reddish purple to pink, rarely white or bluish pink, usually deeper colored near anther pockets and with ring of red to purple spots just proximal to pockets, 7.5–9.5 × 6–13 mm, abaxial surface puberulent, adaxial glabrous, puberulent toward base; filaments 2.5–3.5 mm; style 3.5–4.5 mm.  Capsules 5-locular, 2–3.5 × 3–5 mm, puberulent, stipitate-glandular.  Seeds winged, obovoid, 0.6–1 mm.  2n = 24.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>e North America</global_distribution>
-  <global_distribution>introduced in n Europe.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaedaphne</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Kuntze" date="unknown">angustifolia</taxon_name>
+    <taxon_hierarchy>genus Chamaedaphne;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Sheep laurel</other_name>
+  <other_name type="common_name">lambkill</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>The two varieties of Kalmia angustifolia are largely separate geographically and show different flavonoid profiles (S. Liu 1993).  Southeastern Virginia has long been known as a region of overlap of these two entities; field and herbarium work (B. A. Sorrie and A. S. Weakley, unpubl.) has demonstrated that the two taxa retain their distinctiveness and that hybrids are rare.  Sorrie and Weakley concluded that the two should be treated as separate species.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Calyces densely stipitate-glandular; leaf blade surfaces glabrous or scattered, stipitate-glandular trichomes</statement>
+      <description type="morphology">Calyces densely stipitate-glandular; leaf blade surfaces glabrous or scattered, stipitate-glandular trichomes</description>
       <determination>2a.   Kalmia angustifolia var. angustifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Calyces usually not stipitate-glandular; leaf blade surfaces densely puberulent abaxially, usually not stipitate-glandular</statement>
+      <description type="morphology">Calyces usually not stipitate-glandular; leaf blade surfaces densely puberulent abaxially, usually not stipitate-glandular</description>
       <determination>2b.   Kalmia angustifolia var. carolina</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

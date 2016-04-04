@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Chenopodium</subgenus_name>
-    </TaxonIdentification>
-    <description>Plants annual [perennial]. Leaf blades usually farinose. Inflorescences dense
-        axillary glomerules or loose cymes. Flowers: perianth segments (4–)5; stamens usually 5.
-        Seeds all horizontal (rarely some vertical in C. urbicum).</description>
-    <number_of_infrataxa>Species 100+ (26 in the flora):</number_of_infrataxa>
-    <global_distribution>worldwide.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;subgenus Chenopodium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+  <discussion>Species 100+ (26 in the flora):</discussion>
+</bio:treatment>

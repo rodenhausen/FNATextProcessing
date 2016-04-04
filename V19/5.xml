@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ACOURTIA</genus_name>
-    <genus_authority>D. Don</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Beryl B. Simpson</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Mutisieae</taxon_name>
+    <taxon_name rank="genus" authority="D. Don" date="unknown">ACOURTIA</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Linn. Soc. London</publication_title>
       <place_in_publication>16: 203. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus ACOURTIA;</taxon_hierarchy>
-  <etymology>[For Mrs. A’Court, a British amateur botanist]</etymology>
-  <common_name>Desertpeony</common_name>
-  <author>Beryl B. Simpson</author>
-  <description>Perennials, (2.5–)5–50(–150+) cm (caudices brown-woolly, aerial stems glabrate or resinous-punctate). Leaves basal, cauline, or both; shortly petiolate or sessile; blades elliptic-oblong, lanceolate, oblong, oblong-lanceolate, oblong-oblanceolate, orbiculate, ovate, ovate-elliptic, or rhombic-orbiculate (thin and chartaceous to thick and coriaceous), bases cuneate to cordate or clasping, margins entire or lobed or pinnately parted, dentate, or serrate, faces usually minutely stipitate-glandular and/or hirtellous. Heads quasi-radiate [discoid] (see florets), borne singly or in paniculiform or corymbiform arrays. Involucres turbinate or obconic to campanulate, 6–17+ mm. Phyllaries in 1–7 series, lanceolate to oblanceolate or linear, unequal (rigid, margins scarious), apices obtuse to acute, acuminate, or mucronate. Receptacles concave, flat, or convex, usually foveolate, alveolate, or reticulate, pubescent, sometimes paleate (paleae apically pubescent). Florets 3–25(–80), bisexual, fertile; corollas pink to lavender or white [yellow], zygomorphic (2-lipped; outer lip liguliform, 3-toothed, inner usually smaller, 2-lobed, lobes often curled); anther basal appendages entire, elongate, rounded, apical appendages lanceolate; style branches relatively short, apices blunt-penicillate (abaxial faces usually glabrous, i.e., without collecting hairs). Cypselae ± fusiform or terete to cylindric, 4–10 mm, not beaked, usually ± ribbed, faces glabrous or stipitate-glandular; pappi of 40–60(–80+) tan or white, ± barbellate to nearly smooth bristles in 1–3(–9) series. x = 27.</description>
-  <number_of_infrataxa>Species ca. 41 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>warm regions of North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus ACOURTIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Mrs. A’Court, a British amateur botanist]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Desertpeony</other_name>
+  <discussion>Species ca. 41 (5 in the flora):</discussion>
   <discussion>Acourtia consists of two clades, one with species that have scapiform stems and the other with species that have leafy flowering stems. From about 1873 to 1973, Acourtia species were treated as members of Perezia, usually as Perezia sect. Acourtia (D. Don) A. Gray. J. L. Reveal and R. M. King (1973) reestablished Acourtia for the leafy-stemmed North American species, and B. L. Turner (1978) added the scapiform species. Molecular evidence (H. G. Kim et al. 2002) indicated Acourtia is most closely related to Proustia and Trixis and not to Perezia.</discussion>
   <references>
     <reference>Bacigalupi, R. 1931. A monograph of the genus Perezia, section Acourtia, with a provisional key to the section Euperezia. Contr. Gray Herb. 97: 1–81. Cabrera R., L. 1992. Systematics of Rzedowskiela Gen. Nov. (Asteraceae: Mutisieae: Nassauviinae). Ph.D. dissertation. University of Texas. Cabrera R., L. 2001. Six new species of Acourtia (Asteraceae) and a historical account of Acourtia mexicana. Brittonia 53: 416–429.</reference>
@@ -28,44 +30,43 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves basal (blades pinnately lobed); heads borne singly (or 2–3, on scapiform peduncles)</statement>
+      <description type="morphology">Leaves basal (blades pinnately lobed); heads borne singly (or 2–3, on scapiform peduncles)</description>
       <determination>1. Acourtia runcinata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves cauline (blades not pinnately lobed); heads borne singly (at tips of branches) or in corymbiform or paniculiform arrays.</statement>
+      <description type="morphology">Leaves cauline (blades not pinnately lobed); heads borne singly (at tips of branches) or in corymbiform or paniculiform arrays.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants 2.5–30 cm; leaf blades rhombic-orbiculate to suborbiculate (hollylike, lengths about equaling widths)</statement>
+      <description type="morphology">Plants 2.5–30 cm; leaf blades rhombic-orbiculate to suborbiculate (hollylike, lengths about equaling widths)</description>
       <determination>2. Acourtia nana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants 30–150 cm; leaf blades elliptic, elliptic-oblong, lance-oblong, oblong-lanceolate, oblong-ovate, oval, ovate, or ovate-elliptic (not hollylike, lengths mostly greater than widths).</statement>
+      <description type="morphology">Plants 30–150 cm; leaf blades elliptic, elliptic-oblong, lance-oblong, oblong-lanceolate, oblong-ovate, oval, ovate, or ovate-elliptic (not hollylike, lengths mostly greater than widths).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaf blades oval to ovate-elliptic; phyllaries acuminate; florets 3–6</statement>
+      <description type="morphology">Leaf blades oval to ovate-elliptic; phyllaries acuminate; florets 3–6</description>
       <determination>3. Acourtia thurberi</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaf blades elliptic, elliptic-oblong, oblong-lanceolate, or oblong-ovate; phyllaries obtuse to acute or mucronate; florets 8–20.</statement>
+      <description type="morphology">Leaf blades elliptic, elliptic-oblong, oblong-lanceolate, or oblong-ovate; phyllaries obtuse to acute or mucronate; florets 8–20.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf margins dentate to denticulate; phyllary apices obtuse to shortly acute; florets 8–12</statement>
+      <description type="morphology">Leaf margins dentate to denticulate; phyllary apices obtuse to shortly acute; florets 8–12</description>
       <determination>4. Acourtia wrightii</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaf margins spinulose-denticulate; phyllary apices acute to acuminate or mucronate; florets 10–20</statement>
+      <description type="morphology">Leaf margins spinulose-denticulate; phyllary apices acute to acuminate or mucronate; florets 10–20</description>
       <determination>5. Acourtia microcephala</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

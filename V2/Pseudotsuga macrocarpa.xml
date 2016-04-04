@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pseudotsuga</genus_name><species_name>macrocarpa</species_name><species_authority>(Vasey) Mayr</species_authority><place_of_publication><publication_title>Wald. Nordamer.</publication_title><place_in_publication>278, plates 6, 8, 9. 1890</place_in_publication></place_of_publication></TaxonIdentification><common_name>Bigcone Douglas-fir</common_name><common_name> bigcone-spruce</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Abies</genus_name><species_name>macrocarpa</species_name><species_authority>Vasey</species_authority><place_of_publication><publication_title>Gard. Monthly &amp; Hort. </publication_title><place_in_publication>18: 21. 1876 (Jan.)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pseudotsuga</genus_name><species_name>californica</species_name><species_authority>Flous</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Pseudotsuga</genus_name><species_name>douglasii</species_name><species_authority>(Lindley) Carrière</species_authority><variety_name>macrocarpa</variety_name><variety_authority>(Vasey) Engelmann</variety_authority></TaxonIdentification><description>Trees  to 44m; trunk to 2.3m diam.; crown broadly conic.  Twigs  slender, glabrous or pubescent.  Leaves  (20--)25--45 × 1--1.5mm, bluish green, apex mucronulate.  Pollen cones  pale yellow.  Seed cones  9--20 × 4--7cm.  Seeds  9--12mm. 2 n =24.</description><discussion>Pseudotsuga macrocarpa , a tree of scattered occurrence and of no concern for timber, is valuable for esthetics and watershed protection. The northernmost stands of the species, in Kern County, are about 35 kilometers east of the closest approach of P . menziesii .</discussion><habitat>Slopes, cliffs, and canyons, in chaparral and mixed coniferous forests</habitat><elevation> 200--2400m</elevation><us_distribution> Calif.</us_distribution><references heading="SELECTED REFERENCES"><reference>Minnich, R.A. 1982.  Pseudotsuga macrocarpa  in Baja California? Madroño 29: 22--31.</reference></references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Vasey) Mayr" date="unknown">macrocarpa</taxon_name>
+    <place_of_publication>
+      <publication_title>Wald. Nordamer.</publication_title>
+      <place_in_publication>278, plates 6, 8, 9. 1890</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pseudotsuga;species macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Abies</taxon_name>
+    <taxon_name rank="species" authority="Vasey" date="unknown">macrocarpa</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Monthly &amp; Hort.</publication_title>
+      <place_in_publication>18: 21. 1876 (Jan.)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Abies;species macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="Flous" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Pseudotsuga;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Carrière" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="variety" authority="(Vasey) Engelmann" date="unknown">macrocarpa</taxon_name>
+    <taxon_hierarchy>genus Pseudotsuga;species douglasii;variety macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Bigcone Douglas-fir</other_name>
+  <other_name type="common_name">bigcone-spruce</other_name>
+  <discussion>Pseudotsuga macrocarpa , a tree of scattered occurrence and of no concern for timber, is valuable for esthetics and watershed protection. The northernmost stands of the species, in Kern County, are about 35 kilometers east of the closest approach of P . menziesii .</discussion>
+  <references>
+    <reference>Minnich, R.A. 1982.  Pseudotsuga macrocarpa  in Baja California? Madroño 29: 22--31.</reference>
+  </references>
+</bio:treatment>

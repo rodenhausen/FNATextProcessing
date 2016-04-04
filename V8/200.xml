@@ -1,75 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>cylindrica</species_name>
-    <species_authority>Douglas</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Douglas" date="unknown">cylindrica</taxon_name>
     <place_of_publication>
       <publication_title>in W. J. Hooker, Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 236. 1832 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Poker alum-root</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>cylindrica</species_name>
-    <variety_name>alpina</variety_name>
-    <variety_authority>S. Watson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>cylindrica</species_name>
-    <variety_name>glabella</variety_name>
-    <variety_authority>(Torrey &amp; A. Gray) Wheelock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>cylindrica</species_name>
-    <variety_name>orbicularis</variety_name>
-    <variety_authority>(Rosendahl, Butters &amp; Lakela) Calder &amp; Savile</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>glabella</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>ovalifolia</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>woodsiaphila</species_name>
-    <species_authority>P. J. Alexander</species_authority>
-  </TaxonIdentification>
-  <description>Herbs acaulecent; caudex branched. Flowering stems 10–90 cm, short or long
-        stipitate-glandular. Leaves: petiole glabrous or short to long stipitate-glandular; blade
-        ovate to orbiculate, deeply 5–7-lobed, 2.2–8 cm, base cordate, truncate, or cuneate, lobes
-        rounded, margins dentate, apex acute to obtuse, surfaces glabrous or short or long
-        stipitate-glandular. Inflorescences dense; (bracts subtending pedicels sometimes strongly
-        fringed). Flowers: hypanthium weakly bilaterally symmetric, free 1–2 mm, cream or yellow,
-        often tinged red or green, especially at base, broadly campanulate, 6–8.5 mm, short
-        stipitate-glandular and sometimes long stipitate-glandular; sepals erect, sometimes
-        red-tinged, equal, 2.5–5 mm, apex rounded or obtuse; petals absent or 1–5, erect, green,
-        narrowly oblanceolate, unlobed, 1 mm, margins entire; stamens included 1–2 mm; (filaments
-        erect, straight, stout, to 2 times length of anthers); styles included 2–3 mm, 0.5–1 mm,
-        0.1+ mm diam. Capsules ovoid, 6–10 mm, beaks divergent, not papillose. Seeds dark brown,
-        oblong-ellipsoid, 0.6–0.9 mm. 2n = 14, 28.</description>
-  <phenology>Flowering Apr–Aug</phenology>
-  <habitat>Rocky soil, cliffs, to subalpine and alpine talus slopes</habitat>
-  <elevation>1000–3400 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species cylindrica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">cylindrica</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">alpina</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species cylindrica;variety alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">cylindrica</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey &amp; A. Gray) Wheelock" date="unknown">glabella</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species cylindrica;variety glabella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="P. J. Alexander" date="unknown">cylindrica</taxon_name>
+    <taxon_name rank="variety" authority="(Rosendahl, Butters &amp; Lakela) Calder &amp; Savile" date="unknown">orbicularis</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species cylindrica;variety orbicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glabella</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species glabella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ovalifolia</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species ovalifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">woodsiaphila</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species woodsiaphila;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
+  <other_name type="common_name">Poker alum-root</other_name>
   <discussion>Some features of Heuchera cylindrica show great variation, including the type and
         amount of indument on the leaves, petioles, and stems, lobation and shape of leaf base,
         difference in flower size, complicated by rapid growth of the hypanthium during and after
@@ -94,4 +75,4 @@
         a salve for diaper rash. The Shuswap Indians took decoctions of leaves and roots for
         diarrhea. The Thompson Indians applied chewed leaves and roots on sores or wounds and drank
         an infusion of roots for liver trouble (D. E. Moerman 1998).</discussion>
-</treatment>
+</bio:treatment>

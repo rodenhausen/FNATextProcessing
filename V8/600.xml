@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>cusickiana</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-    <variety_name>domensis</variety_name>
-    <variety_authority>(Kass &amp; S. L. Welsh) N. H. Holmgren &amp; S. Kelso</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">cusickiana</taxon_name>
+    <taxon_name rank="variety" authority="(Kass &amp; S. L. Welsh) N. H. Holmgren &amp; S. Kelso" date="unknown">domensis</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>53: 155.  2001  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>House Range primrose</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>domensis</species_name>
-    <species_authority>Kass &amp; S. L. Welsh</species_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species cusickiana;variety domensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Kass &amp; S. L. Welsh" date="unknown">domensis</taxon_name>
     <place_of_publication>
       <publication_title>Great Basin Naturalist</publication_title>
       <place_in_publication>45: 548, fig. 1.  1985</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>cusickiana</species_name>
-    <subspecies_name>domensis</subspecies_name>
-    <subspecies_authority>(Kass &amp; S. L. Welsh) Halda</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants glandular-pubescent, at least in inflorescences, white-farinose on involucral bracts and calyces.  Leaves shorter than scape; blade broadly lanceolate to spatulate, margins minutely dentate.  Corolla tubes 8–14 mm, length 1.5+ times calyx.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Limestone cliffs</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>2400–2800 m</elevation>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Primula;species domensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cusickiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Kass &amp; S. L. Welsh) Halda" date="unknown">domensis</taxon_name>
+    <taxon_hierarchy>genus Primula;species cusickiana;subspecies domensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17b.</number>
+  <other_name type="common_name">House Range primrose</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Variety domensis is intermediate in morphology and geographic distribution between var. maguirei and var. nevadensis.  It differs from the former in the longer corolla tube and less broadly spatulate leaf blades and from the latter in its taller scape and slightly longer corolla tube.  It has been found in the House Range, about 80 kilometers east of the Snake Range, where Primula nevadensis occurs.  Recent studies (S. Kelso et al. unpubl.) do not reveal significant genetic differentiation between var. nevadensis and var. domensis; given their similar morphology and ecology, it may be appropriate to consider them as a single taxon.</discussion>
-</treatment>
+</bio:treatment>

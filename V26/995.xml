@@ -1,64 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>16.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Smilax</genus_name>
-        <species_name>pumila</species_name>
-        <species_authority>Walter</species_authority>
-        <place_of_publication>
-            <publication_title>Fl. Carol.,</publication_title>
-            <place_in_publication>244. 1788</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Sarsaparilla vine</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Smilax</genus_name>
-        <species_name>humilis</species_name>
-        <species_authority>Miller</species_authority>
-       
-            <other_info>name proposed for rejection</other_info>
-        
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Smilax</genus_name>
-        <species_name>pubera</species_name>
-        <species_authority>Michaux</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Smilax</genus_name>
-        <species_name>puberula</species_name>
-        <species_authority>Kunth</species_authority>
-    </TaxonIdentification>
-    <description>Subshrubs or vines; rhizomes black, knotted, 5–6 × 2 cm, often with white to
-        pinkish stolons. Stems perennial, prostrate to clambering, branching, slender, to 1 m, ±
-        woody, densely woolly-pubescent, usually prickly (especially at base). Leaves mostly
-        evergreen, ± evenly disposed; petiole 0.05–0.25 cm, often longer on sterile shoots; blade
-        gray-green, drying to ashy gray-green, obovate to ovate-lanceolate, with 3 prominent veins,
-        6–10.5 × 5–8 cm, glabrous adaxially, densely puberulent abaxially, base cordate to deeply
-        notched, margins entire, apex bluntly pointed. Umbels 1–7, axillary to leaves,
-        5–16-flowered, loose, spherical; peduncle 0.2–0.8 cm, shorter than to 1.5 as long as petiole
-        of subtending leaf. Flowers: perianth yellowish; tepals 3–4 mm; anthers much shorter than
-        filaments; ovule 1 per locule; pedicel thin, 0.1–0.4 cm. Berries red, ovoid, 5–8 mm, with
-        acute beaks, not glaucous.</description>
-    <phenology>oct</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <habitat>woods</habitat>
-    <habitat>along streams</habitat>
-    <habitat>sandy soil</habitat>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <discussion>The red, pointed fruits and densely pubescent herbage of Smilax pumila are
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Ventenat" date="unknown">SMILACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">pumila</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Carol.,</publication_title>
+      <place_in_publication>244. 1788</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family SMILACACEAE;genus Smilax;species pumila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">humilis</taxon_name>
+    <taxon_hierarchy>genus Smilax;species humilis;</taxon_hierarchy>
+    <other_info_on_name>name proposed for rejection</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">pubera</taxon_name>
+    <taxon_hierarchy>genus Smilax;species pubera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Smilax</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">puberula</taxon_name>
+    <taxon_hierarchy>genus Smilax;species puberula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16.</number>
+  <other_name type="common_name">Sarsaparilla vine</other_name>
+  <discussion>The red, pointed fruits and densely pubescent herbage of Smilax pumila are
         distinctive. In Louisiana, the dried leaves are used to prepare a tea for upset
         stomach.</discussion>
-    <discussion>The name Smilax humilis Miller, which predates S. pumila by 20 years and recently
+  <discussion>The name Smilax humilis Miller, which predates S. pumila by 20 years and recently
         has been determined to apply also to this species, has been proposed for rejection (J. L.
         Reveal 2000). If that proposal is not adopted, the correct name will be S.
         humilis.</discussion>
-</treatment>
+</bio:treatment>

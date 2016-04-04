@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2</number><TaxonIdentification Status="ACCEPTED"><genus_name>Livistona</genus_name><species_name>rotundifolia</species_name><species_authority>(Lamarck) Martius</species_authority><place_of_publication><publication_title>in C. F. P. von Martius et al.,Historia Naturalis Palmarum</publication_title><place_in_publication>3: 241, plate 102. 1838</place_in_publication></place_of_publication></TaxonIdentification><common_name>Footstool palm</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Corypha</genus_name><species_name>rotundifolia</species_name><species_authority>Lamarck</species_authority><place_of_publication><publication_title>in J. Lamarck et al., Encycl. </publication_title><place_in_publication>2: 131. 1786</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Saribus</genus_name><species_name>rotundifolia</species_name><species_authority>(Lamarck) Blume</species_authority></TaxonIdentification><description>Leaves: segment apices stiff. Inflorescences dividing into 3 main axes, each axis bearing up to 4 orders of branching. Fruits globose, ripening from green through orange to black. 2n = 36.</description><phenology>Flowering spring--summer</phenology><habitat> Disturbed hammocks and mesic woods</habitat><elevation>0--10 m</elevation><introduced>introduced</introduced><us_distribution>Fla.</us_distribution><global_distribution>native to Malay Peninsula</global_distribution><global_distribution> Java.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Livistona</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Martius" date="unknown">rotundifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>in C. F. P. von Martius et al.,Historia Naturalis Palmarum</publication_title>
+      <place_in_publication>3: 241, plate 102. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Livistona;species rotundifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corypha</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">rotundifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Lamarck et al., Encycl.</publication_title>
+      <place_in_publication>2: 131. 1786</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corypha;species rotundifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saribus</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Blume" date="unknown">rotundifolia</taxon_name>
+    <taxon_hierarchy>genus Saribus;species rotundifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Footstool palm</other_name>
+</bio:treatment>

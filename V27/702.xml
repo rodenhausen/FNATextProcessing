@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Scopelophila</genus_name>
-    <species_name>ligulata</species_name>
-    <species_authority>(Spruce) Spruce</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scopelophila</taxon_name>
+    <taxon_name rank="species" authority="(Spruce) Spruce" date="unknown">ligulata</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot.</publication_title>
       <place_in_publication>19: 14.  1881,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>ligulata</species_name>
-    <species_authority>Spruce</species_authority>
+    <taxon_hierarchy>genus Scopelophila;species ligulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="Spruce" date="unknown">ligulata</taxon_name>
     <place_of_publication>
       <publication_title>Musci Pyren., no.</publication_title>
       <place_in_publication>331.  1847</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Merceya</genus_name>
-    <species_name>ligulata</species_name>
-    <species_authority>(Spruce) Schimper</species_authority>
-  </TaxonIdentification>
-  <description>Stems with sparse brown rhizoids.  Cauline leaves brownish black proximally; margins usually bordered by thick-walled cells; apex obtuse to acute; costa with 1 layer of parenchymatous cells adaxial to the stereid band.  Sporophytes not seen in area of the flora.</description>
-  <habitat>Soil and rock, cliffs and road cuts;</habitat>
-  <elevation>moderate to high elevations (300–1900 m);</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>w South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Encalypta;species ligulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Merceya</taxon_name>
+    <taxon_name rank="species" authority="(Spruce) Schimper" date="unknown">ligulata</taxon_name>
+    <taxon_hierarchy>genus Merceya;species ligulata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>The blackened proximal leaves and nearly isodiametric distal laminal cells help separate Scopelophila ligulata from Tortula.  Leaf blackening, possibly associated with iron in the soil, also occurs in the common species Barbula unguiculata, which, however, has lanceolate leaves.  Two variants are weakly distinguishable, a “hydric” form with a loosely pulvinate habit and flaccid, spreading leaves with the distal laminal cells thin-walled and the enlarged basal cells often extending beyond mid leaf, and a “montane” form with a densely pulvinate habit and narrow, firm, appressed leaves with the distal laminal cells mostly thick-walled and the enlarged basal cells mostly confined to the proximal third of the leaf (R. H. Zander 1967).</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Shaw, A. J. and L. E. Anderson.  1988.  Factors affecting the distribution and abundance of the “copper moss,”  Scopelophila ligulata, in North America.  Lindbergia 14: 55–58.</reference>
   </references>
-</treatment>
+</bio:treatment>

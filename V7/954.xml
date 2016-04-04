@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>30.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>oxycarpum</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">oxycarpum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>1: 116. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nasturtium</genus_name>
-    <species_name>oxycarpum</species_name>
-    <species_authority>(Torrey &amp; A. Gray) Kuntze</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; glabrous or puber-ulent. Stems several from base, usually erect to ascending, rarely decumbent, branched, 0.4–1.5(–2) dm. Basal leaves (soon withered); not rosulate; petiole 0.5–1.5(–2) cm; blade margins entire or pinnatifid (lobes 2–5 pairs, linear to filiform), 1.5–5 cm × 0.5–2 mm. Cauline leaves petiolate; blade linear, 0.1–0.3 cm × 0.5–2 mm, base attenuate, not auriculate, margins entire. Racemes considerably elongated, (lax) in fruit; rachis glabrous or puberulent, trichomes straight, cylindrical. Fruiting pedicels divaricate to horizontal or descending, usually recurved, rarely straight, (terete or slightly flattened), 2–4(–6) × 0.2–0.3 mm, glabrous or puberulent adaxially. Flowers: sepals oblong, 0.6–0.8 × 0.4–0.5 mm; petals absent; stamens 4, median; filaments 0.6–0.7; anthers ca. 0.1 mm. Fruit ovate, 2.4–3.6 × 1.8–2.5 mm, apically winged, apical notch (V-shaped), 0.3–0.8 mm deep; valves thin, smooth, strongly reticulate-veined, glabrous; style obsolete or to 0.1 mm, included in apical notch. Seeds oblong, 1.4–1.8 × 0.8–0.9 mm.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>borders of vernal pools</habitat>
-  <habitat>grassy fields</habitat>
-  <habitat>roadsides ditches</habitat>
-  <habitat>alkaline flats</habitat>
-  <habitat>margins of salt marshes</habitat>
-  <elevation>0–400 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species oxycarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nasturtium</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Kuntze" date="unknown">oxycarpum</taxon_name>
+    <taxon_hierarchy>genus Nasturtium;species oxycarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>30.</number>
   <discussion>Lepidium oxycarpum apparently did not persist in British Columbia following its introduction there over 110 years ago (G. A. Mulligan 2002b). That record is based on Macoun s.n. (GH, MO, NY, US), which was collected on 31 May 1893 from the vicinity of Victoria, Vancouver Island.</discussion>
-</treatment>
+</bio:treatment>

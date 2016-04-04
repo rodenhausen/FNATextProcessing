@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hesperaloe</genus_name><species_name>parviflora</species_name><species_authority>(Torrey) J. M. Coulter</species_authority><place_of_publication>
-    <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-    <place_in_publication>2: 436. 1894</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Red yucca</common_name><common_name>red hesperaloe</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Yucca</genus_name><species_name>parviflora</species_name><species_authority>J. Torrey</species_authority><place_of_publication><publication_title>in W. H. Emory, Rep. U.S. Mex. Bound. </publication_title><place_in_publication>2(1): 221. 1859</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aloe</genus_name><species_name>yuccaefolia</species_name><species_authority>A. Gray</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hesperaloe</genus_name><species_name>engelmannii</species_name><species_authority>Krauskopf</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hesperaloe</genus_name><species_name>parviflora</species_name><variety_name>engelmannii</variety_name><variety_authority>(Krauskopf) Trelease</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hesperaloe</genus_name><species_name>yuccaefolia</species_name><species_authority>(A. Gray) Engelmann</species_authority></TaxonIdentification><description>Leaf blades dark green, barely constricted along length, 5–12.5 × 0.1–0.25 dm, margins with slender threads. Panicles 1–2.5 m. Flowers: perianth narrowly tubular; tepals rosy red to salmon, 2.5–3.5 cm. Capsules 2.5–3 cm. Seeds 9–10 × 6–7 mm.</description><phenology>winter</phenology><phenology>dec</phenology><phenology>jan</phenology><phenology>feb</phenology><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>prairies</habitat><habitat>rocky slopes</habitat><habitat>and mesquite thickets</habitat><elevation>to 600 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Coahuila).</global_distribution><discussion>Hesperaloe parviflora is widely cultivated in arid and semiarid regions, both as roadside plantings and as landscaping elements.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) J. M. Coulter" date="unknown">parviflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>2: 436. 1894</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Hesperaloe;species parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="J. Torrey" date="unknown">parviflora</taxon_name>
+    <place_of_publication>
+      <publication_title>in W. H. Emory, Rep. U.S. Mex. Bound.</publication_title>
+      <place_in_publication>2(1): 221. 1859</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Yucca;species parviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aloe</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">yuccaefolia</taxon_name>
+    <taxon_hierarchy>genus Aloe;species yuccaefolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="Krauskopf" date="unknown">engelmannii</taxon_name>
+    <taxon_hierarchy>genus Hesperaloe;species engelmannii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Engelmann" date="unknown">parviflora</taxon_name>
+    <taxon_name rank="variety" authority="(Krauskopf) Trelease" date="unknown">engelmannii</taxon_name>
+    <taxon_hierarchy>genus Hesperaloe;species parviflora;variety engelmannii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperaloe</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">yuccaefolia</taxon_name>
+    <taxon_hierarchy>genus Hesperaloe;species yuccaefolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Red yucca</other_name>
+  <other_name type="common_name">red hesperaloe</other_name>
+  <discussion>Hesperaloe parviflora is widely cultivated in arid and semiarid regions, both as roadside plantings and as landscaping elements.</discussion>
+</bio:treatment>

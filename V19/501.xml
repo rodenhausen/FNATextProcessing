@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Agoseris</genus_name>
-    <species_name>monticola</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agoseris</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">monticola</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 37. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Agoseris;species monticola;</taxon_hierarchy>
-  <common_name>Sierra Nevada agoseris</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Agoseris</genus_name>
-    <species_name>covillei</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Agoseris</genus_name>
-    <species_name>decumbens</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Agoseris</genus_name>
-    <species_name>glauca</species_name>
-    <species_authority>(Pursh) Rafinesque</species_authority>
-    <variety_name>monticola</variety_name>
-    <variety_authority>(Greene) Q. Jones</variety_authority>
-  </TaxonIdentification>
-  <description>Stems 0. Leaves mostly decumbent to prostrate; petioles rarely purplish, margins not ciliate; blades oblanceolate to spatulate, 2–10(–14) cm, margins usually dentate to lobed or laciniately pinnatifid, rarely entire, lobes 2–3 pairs, linear to oblanceolate, proximal lobes often retrorse, distal often antrorse, lobules often present, faces mostly puberulent to villous, sometimes glabrous and glaucous. Peduncles not elongating after flowering, 2–25 cm in fruit, basally lanate, apically stipitate-glandular. Involucres obconic to campanulate, 1–2 cm in fruit. Phyllaries in 2–4(–6) series, usually rosy purple, rarely green, sometimes spotted, often with a purple-black midstripes, unequal, faces ± hairy, stipitate-glandular; outer usually erect, sometimes spreading apically, adaxially glabrous; inner erect, not elongating after flowering. Receptacles epaleate, rarely paleate (outer florets only). Florets 10–40; corollas yellow, tubes 4–10 mm, ligules 5–11 × 2–4 mm; anthers 3–5 mm. Cypselae 6–10 mm; bodies fusiform, 6–9 mm, beaks 1–3 mm, lengths to 1/2 times bodies; ribs ridged to flattened, straight; pappus bristles in 2 series, 8–11 mm. 2n = 18, 36.</description>
-  <phenology_info>
-    <text>Flowering Jul–Aug.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>mesic subalpine meadows and forests to alpine tundra and rocky slopes , volcanic or pyroclastic soils ;</text>
-    <habitat>mesic subalpine meadows and forests to alpine tundra and rocky slopes</habitat>
-    <habitat>volcanic or pyroclastic soils</habitat>
-  </habitat_info>
-  <elevation>2000–3500 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Agoseris;species monticola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agoseris</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">covillei</taxon_name>
+    <taxon_hierarchy>genus Agoseris;species covillei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agoseris</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">decumbens</taxon_name>
+    <taxon_hierarchy>genus Agoseris;species decumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agoseris</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Rafinesque" date="unknown">glauca</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Q. Jones" date="unknown">monticola</taxon_name>
+    <taxon_hierarchy>genus Agoseris;species glauca;variety monticola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Sierra Nevada agoseris</other_name>
   <discussion>Agoseris monticola occurs mainly in the Sierra Nevada and sporadically eastward in the Great Basin (Jarbridge and Ruby Mountains) and northward to the Cascade Range and Blue Mountains of Oregon. It appears to be allied with A. glauca and has been treated as a variety of the latter. Ecologically, it approaches A. glauca var. dasycephala; the two are morphologically and geographically separate from each other. Intermediates between A. monticola and A. aurantiaca, A. glauca, and A. parviflora are known.</discussion>
-</treatment>
-
+</bio:treatment>

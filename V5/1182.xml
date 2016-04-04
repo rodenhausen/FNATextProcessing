@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Persicaria</genus_name><species_name>meisneriana</species_name><species_authority>(Chamisso &amp; Schlechtendal) M. Gómez</species_authority><place_of_publication>
-    <publication_title>Anales Inst. Segunda Enseñ.</publication_title>
-    <place_in_publication>2: 278. 1896</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Mexican tearthumb</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Polygonum</genus_name><species_name>meisnerianum</species_name><species_authority>Chamisso &amp; Schlechtendal</species_authority><place_of_publication><publication_title>Linnaea </publication_title><place_in_publication>3: 40. 1828</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><global_distribution>se United States</global_distribution><global_distribution>Mexico</global_distribution><global_distribution>West Indies</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America</global_distribution><global_distribution>se Africa.</global_distribution><discussion>Variety meisneriana has leaves with petioles 0.3–1 cm, blades prominently sagittate to hastate at bases, and ocreae usually moderately to densely pubescent. It is found only in South America (Argentina, Brazil, Paraguay).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Polygonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Persicaria</taxon_name>
+    <taxon_name rank="species" authority="(Chamisso &amp; Schlechtendal) M. Gómez" date="unknown">meisneriana</taxon_name>
+    <place_of_publication>
+      <publication_title>Anales Inst. Segunda Enseñ.</publication_title>
+      <place_in_publication>2: 278. 1896</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Polygonoideae;genus Persicaria;species meisneriana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polygonum</taxon_name>
+    <taxon_name rank="species" authority="Chamisso &amp; Schlechtendal" date="unknown">meisnerianum</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>3: 40. 1828</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Polygonum;species meisnerianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Mexican tearthumb</other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+  <discussion>Variety meisneriana has leaves with petioles 0.3–1 cm, blades prominently sagittate to hastate at bases, and ocreae usually moderately to densely pubescent. It is found only in South America (Argentina, Brazil, Paraguay).</discussion>
+</bio:treatment>

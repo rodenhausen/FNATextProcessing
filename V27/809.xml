@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Molendoa</genus_name>
-    <species_name>hornschuchiana</species_name>
-    <species_authority>(Hooker) Lindberg ex Limpricht</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Molendoa</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Lindberg ex Limpricht" date="unknown">hornschuchiana</taxon_name>
     <place_of_publication>
       <publication_title>Laubm. Deutschl.</publication_title>
       <place_in_publication>1: 248.  1886,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hedwigia</genus_name>
-    <species_name>hornschuchiana</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>genus Molendoa;species hornschuchiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hedwigia</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">hornschuchiana</taxon_name>
     <place_of_publication>
       <publication_title>Musci Exot.</publication_title>
       <place_in_publication>2: no. 103.  1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems to 2 cm, sclerodermis present.  Leaves long-lanceolate, 3–4 mm, proximal shoulders denticulate by projecting corners of marginal cells, apex subulate; leaf base much widened, ovate-rectangular, sheathing the stem; costa excurrent as a mucro, semilunar in section at mid leaf, guide cells 4–9; distal laminal cells often longitudinally elongate medially, 1–2:1, rarely 2-stratose in patches.</description>
+    <taxon_hierarchy>genus Hedwigia;species hornschuchiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Mesic, quartzitic-slatey outcrops; low evelations (100–150 m); Alaska; c Europe; Asia; n Africa.</discussion>
   <discussion>Molendoa hornschuchiana is known (R. H. Zander 1979b) from only one site in the flora area, in southern Alaska (Valdez Area, Chugach Mountains, between Delta Junction and Valdez, Keystone Canyon, alongside Hwy. 4, near Bridal Veil Falls).  This distinctive species is the largest of the genus, with stems reaching several centimeters in European specimens seen, and perichaetial leaves to 3 mm.  The Alaskan material lacks sporophytes but has lateral perichaetia.  Worldwide, the species is disjunctive between mountainous areas with high annual precipitation in temperate climates.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Zander, R. H.  1979b.  Molendoa hornschuchiana new to the Americas from the Pacific coast of Alaska.  Bryologist 82: 487–489.</reference>
   </references>
-</treatment>
+</bio:treatment>

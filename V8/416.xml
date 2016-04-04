@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>radiatum</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">radiatum</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>18: 193.  1883,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>stenopetalum</species_name>
-    <species_authority>Pursh</species_authority>
-    <subspecies_name>radiatum</subspecies_name>
-    <subspecies_authority>(S. Watson) R. T. Clausen</subspecies_authority>
-  </TaxonIdentification>
-  <description>Herbs, annual or biennial, multi-stemmed from base, glabrous, pedicels and leaves of offsets sometimes ciliate.  Stems erect or horizontal proximally and erect distally, simple or branched, bearing elevated rosettes.  Leaves alternate, ascending, sessile; blade yellow-green (rosette leaves with 5 green to purple veins), not glaucous, oblong-elliptic, oblong-lanceolate, lanceolate, or ovate, subterete, 4.4–14 × 1.8–3 mm (somewhat longer and wider on flowering shoots), base short-spurred, scarious, apex acuminate or acute, (unlobed to 3-lobed on flowering shoots, surfaces sometimes ciliate marginally, papillose).  Flowering shoots erect or slightly recurved, simple, 5.5–19 cm, (sometimes ciliate, papillose); leaf blades lanceolate, base spurred (spurs unlobed or 3-lobed); offsets caducous, axillary.  Inflorescences cymes, 4–25-flowered, 3-branched; branches recurved or not, sometimes dichotomously forked; bracts similar to leaves, smaller.  Pedicels to 1 mm, (sometimes ciliate, papillose).  Flowers 5-merous; sepals erect, distinct, green to yellow, lanceolate or ovate, equal, ca. 1.5–3.5 × 0.8–2 mm, (base broadly spurred), apex acuminate or acute, (sometimes papillose apically); petals spreading, distinct, white, creamy white, or yellow, elliptic-lanceolate, carinate basally, 5–11 mm, apex acute with mucronate appendage; filaments white; anthers yellow, orange, or red; nectar scales orange or yellow, square.  Carpels stellately spreading in fruit, connate basally, straw colored streaked with reddish brown.  2n = 16.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species radiatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">stenopetalum</taxon_name>
+    <taxon_name rank="subspecies" authority="(S. Watson) R. T. Clausen" date="unknown">radiatum</taxon_name>
+    <taxon_hierarchy>genus Sedum;species stenopetalum;subspecies radiatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Primary branches of cymes simple, rarely dichotomously forked; petals yellow; anthers yellow</statement>
+      <description type="morphology">Primary branches of cymes simple, rarely dichotomously forked; petals yellow; anthers yellow</description>
       <determination>11a.   Sedum radiatum var. radiatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Primary branches of cymes often dichotomously forked; petals white or creamy white, sometimes drying yellowish; anthers red, orange, or yellow.</statement>
+      <description type="morphology">Primary branches of cymes often dichotomously forked; petals white or creamy white, sometimes drying yellowish; anthers red, orange, or yellow.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals 7–11 mm; anthers yellow</statement>
+      <description type="morphology">Petals 7–11 mm; anthers yellow</description>
       <determination>11b.   Sedum radiatum var. ciliosum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals 6–7 mm; anthers red, orange, or yellow</statement>
+      <description type="morphology">Petals 6–7 mm; anthers red, orange, or yellow</description>
       <determination>11c.   Sedum radiatum var. depauperatum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

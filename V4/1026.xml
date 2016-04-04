@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Talinum</genus_name><species_name>fruticosum</species_name><species_authority>(Linnaeus) Jussieu</species_authority><place_of_publication>
-    <publication_title>Gen. Pl.,</publication_title>
-    <place_in_publication>312. 1789</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Portulaca</genus_name><species_name>fruticosa</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Syst. Nat. ed. </publication_title><place_in_publication>10, 2: 1045. 1759</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Portulaca</genus_name><species_name>triangularis</species_name><species_authority>Jacquin</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Talinum</genus_name><species_name>triangulare</species_name><species_authority>(Jacquin) Willdenow</species_authority></TaxonIdentification><description>Plants to 15 dm. Stems usually stout. Leaves to 9 cm; blade obovate to oblanceolate, base attenuate. Inflorescences race-mose or cymose. Flowers: sepals persistent, lanceolate to ovate, 5–6 mm; petals purplish, pink, or white, sometimes yellow, elliptic to ovate, 7–13 mm; stamens 20–35; stigma 1, 3-lobed; pedicel triquetrous, distally thickened, to 12 mm. Capsules subglobose, 4–6 mm; exocarp and endocarp usually not separating after dehiscence, valves wholly deciduous. 2n = 24, 48.</description><habitat>pinelands</habitat><habitat>hammocks</habitat><habitat>and disturbed areas</habitat><habitat>sandy soils</habitat><elevation>0–100 m;</elevation><us_distribution>Fla.</us_distribution><global_distribution>Mexico</global_distribution><global_distribution>West Indies</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America</global_distribution><global_distribution>Africa.</global_distribution><discussion>Talinum fruticosum is a primarily tropical species that may not be native in the flora area. In western Africa, the leaves are eaten as a potherb.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Jussieu" date="unknown">fruticosum</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. Pl.,</publication_title>
+      <place_in_publication>312. 1789</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Talinum;species fruticosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Portulaca</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">fruticosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Nat. ed.</publication_title>
+      <place_in_publication>10, 2: 1045. 1759</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Portulaca;species fruticosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Portulaca</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">triangularis</taxon_name>
+    <taxon_hierarchy>genus Portulaca;species triangularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) Willdenow" date="unknown">triangulare</taxon_name>
+    <taxon_hierarchy>genus Talinum;species triangulare;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Talinum fruticosum is a primarily tropical species that may not be native in the flora area. In western Africa, the leaves are eaten as a potherb.</discussion>
+</bio:treatment>

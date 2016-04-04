@@ -1,61 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hypochaeris</genus_name>
-    <species_name>chillensis</species_name>
-    <species_authority>(Kunth) Britton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hypochaeris</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) Britton" date="unknown">chillensis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>19: 371. 1892</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hypochaeris;species chillensis;</taxon_hierarchy>
-  <past_name>chilensis</past_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Apargia</genus_name>
-    <species_name>chillensis</species_name>
-    <species_authority>Kunth</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hypochaeris;species chillensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Apargia</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">chillensis</taxon_name>
     <place_of_publication>
       <publication_title>in A. von Humboldt et al., Nov. Gen. Sp.</publication_title>
       <place_in_publication>4(fol.): 2. 1818;  4(qto.): 3. 1820</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Achyrophorus</genus_name>
-    <species_name>chillensis</species_name>
-    <species_authority>(Kunth) Schultz-Bipontinus</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hypochaeris</genus_name>
-    <species_name>brasiliensis</species_name>
-    <species_authority>(Lessing) Bentham &amp; Hooker f. ex Grisebach</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Porcellites</genus_name>
-    <species_name>brasiliensis</species_name>
-    <species_authority>Lessing</species_authority>
-  </TaxonIdentification>
-  <description>Biennials or perennials, 30–70 cm; taproots vertical, deep, thick, caudices stout. Stems (1–5) erect or ascending, simple or sparingly branched distally, glabrous or pilose proximally. Leaves basal and proximally cauline; basal blades elliptic to oblanceolate, 60–200 × 10–50 mm, margins coarsely and sharply dentate or 2-dentate, ciliate, faces glabrous or coarsely hirsute (cauline sessile, blades lanceolate, 50–100 × 10–30 mm, margins sharply dentate or pinnatifid; distal reduced, entire). Heads 1–10, in loose, paniculiform to corymbiform arrays. Involucres broadly campanulate, 10–20 × 5–20 mm. Phyllaries 20–30, linear-lanceolate, 4–15 mm, unequal, ± hirsute (at least medially). Florets 50–100+; corollas yellow, 5–7 mm, equaling phyllaries at flowering. Cypselae monomorphic, all beaked; bodies golden brown, fusiform, 8–10 mm, muricate, ribs 4–5; pappi of white, plumose bristles in 1 series, 6–8 mm. 2n = 8, 10.</description>
-  <phenology_info>
-    <text>Flowering Apr.</text>
-    <phenology>apr</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>waste areas with sandy soil , roadsides , lawns ;</text>
-    <habitat>waste areas with sandy soil , roadsides , lawns</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Apargia;species chillensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achyrophorus</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) Schultz-Bipontinus" date="unknown">chillensis</taxon_name>
+    <taxon_hierarchy>genus Achyrophorus;species chillensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hypochaeris</taxon_name>
+    <taxon_name rank="species" authority="(Lessing) Bentham &amp; Hooker f. ex Grisebach" date="unknown">brasiliensis</taxon_name>
+    <taxon_hierarchy>genus Hypochaeris;species brasiliensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Porcellites</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">brasiliensis</taxon_name>
+    <taxon_hierarchy>genus Porcellites;species brasiliensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="past_name">chilensis</other_name>
   <discussion>Hypochaeris chillensis is recognized by the sharply dentate or pinnatifid cauline leaves, yellow corollas, and monomorphic, beaked cypselae. Plants in the flora area differ from those found elsewhere mainly in having the outer phyllaries somewhat more hirsute medially.</discussion>
-</treatment>
-
+</bio:treatment>

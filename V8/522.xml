@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Jacquinia</genus_name>
-    <species_name>arborea</species_name>
-    <species_authority>Vahl</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="D. Don" date="unknown">THEOPHRASTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jacquinia</taxon_name>
+    <taxon_name rank="species" authority="Vahl" date="unknown">arborea</taxon_name>
     <place_of_publication>
       <publication_title>Eclog. Amer.</publication_title>
       <place_in_publication>1: 26.  1797  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Braceletwood</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Jacquinia</genus_name>
-    <species_name>armillaris</species_name>
-    <species_authority>Jacquin</species_authority>
-    <variety_name>arborea</variety_name>
-    <variety_authority>(Vahl) Grisebach</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees to 5 m; twigs grayish brown, lepidote when young, glabrescent.  Stems gray, nearly smooth.  Leaves usually distinctly pseudoverticillate; petiole to 7 mm, glabrous or sparsely puberulous; blade 3–8(–12) × 1.5–4(–5) cm, coriaceous, margins slightly revolute, apex rounded or retuse, mucronate or mucro absent.  Racemes 7–25(–40)-flowered, to 6(–12) cm, commonly exceeding leaves.  Pedicels 7–13 mm; bracts lanceolate, 1–1.5 mm.  Flowers: sepals 2.2–3.2 mm, margins entire or slightly erose; petals 7–9 mm, lobes ca. as long as or slightly shorter than tube; stamens shorter than staminodes; staminodes oblong to ovate, 1.8–3 × 2–3 mm, apex rounded or retuse.  Berries orange-red or red, 7–11 mm diam., pericarp smooth.  Seeds light brown, 3–5 mm.</description>
-  <phenology>Flowering winter–spring</phenology>
-  <habitat>Coastal strands, disturbed sites, mangrove forest edges</habitat>
-  <elevation>0–10 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Jamaica, Lesser Antilles, Puerto Rico)</global_distribution>
-  <global_distribution>Central America (Honduras).</global_distribution>
+    <taxon_hierarchy>family THEOPHRASTACEAE;genus Jacquinia;species arborea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jacquinia</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">armillaris</taxon_name>
+    <taxon_name rank="variety" authority="(Vahl) Grisebach" date="unknown">arborea</taxon_name>
+    <taxon_hierarchy>genus Jacquinia;species armillaris;variety arborea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Braceletwood</other_name>
   <discussion>Cultivated and escaped in Florida, Jacquinia arborea is occasional in disurbed coastal communities of Broward and Miami-Dade counties and the Monroe County keys.</discussion>
-</treatment>
+</bio:treatment>

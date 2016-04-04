@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmiopsis</genus_name>
-    <species_name>leachiana</species_name>
-    <species_authority>(L. F. Henderson) Rehder</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmiopsis</taxon_name>
+    <taxon_name rank="species" authority="(L. F. Henderson) Rehder" date="unknown">leachiana</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>13: 32.  1932  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Siskiyou kalmiopsis</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>leachianum</species_name>
-    <species_authority>L. F. Henderson</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmiopsis;species leachiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="L. F. Henderson" date="unknown">leachianum</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>33: 205.  1931</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhodothamnus</genus_name>
-    <species_name>leachianus</species_name>
-    <species_authority>(L. F. Henderson) H. F. Copeland</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, erect, rarely trailing, usually tufted, 2–4(–8) dm.  Twigs pale reddish to purplish, becoming gray to dark gray, puberulent and sparsely stipitate-glandular, becoming glabrate.  Leaves aromatic; petiole 0.5–2 mm, sparsely puberulent and sessile-glandular; blade dark green abaxially, light green adaxially, elliptic to elliptic-oblong, 10–25 × 5–12 mm, base cuneate, margins entire, usually plane, apex obtuse, usually apiculate, surfaces glabrous or sparsely sessile dotted-glandular abaxially, densely covered with sessile crystalline-punctate glands adaxially.  Inflorescences erect, (5–)7–12(–15)-flowered; bracts leaflike.  Pedicels 1–2 cm, hairy, glandular.  Flowers: calyx lobes light purple, ovate, 3–5 mm, margins ± glandular-ciliate; corolla rose to deep pink, (12–)14–20 mm diam., petal ridges connected between corolla lobes, lobes connate ca. 1/2 their lengths, abaxial surface ± puberulent and glandular apically (throat puberulent or glabrous); filaments 3–7(–10) mm, rarely ciliate basally; anthers purple, oblong, 0.7–1.8 mm; style dimorphic, 7–10 mm (long form), 3–6 mm (short form); ovary puberulent, dotted-glandular.  Seeds 0.3–0.7 mm.  2n = 24.</description>
-  <phenology>Flowering late spring–early summer</phenology>
-  <habitat>Open sunny ridges in xeric shrub community or sparse woodland, rooted in shallow or, more often, deeper soils, on a range of substrates, often including ultramafics</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>(200–)600–1400(–2100) m</elevation>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Rhododendron;species leachianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodothamnus</taxon_name>
+    <taxon_name rank="species" authority="(L. F. Henderson) H. F. Copeland" date="unknown">leachianus</taxon_name>
+    <taxon_hierarchy>genus Rhodothamnus;species leachianus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Siskiyou kalmiopsis</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Kalmiopsis leachiana is known from the Siskiyou Mountains in Curry and Josephine counties.</discussion>
-</treatment>
+</bio:treatment>

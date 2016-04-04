@@ -1,42 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26jjj.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Lamprochlaenae</section_name>
-    <section_authority>(Drejer) L. H. Bailey</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Ball,David F. Murray</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Drejer) L. H. Bailey" date="unknown">Lamprochlaenae</taxon_name>
     <place_of_publication>
       <publication_title>in J. M. Coulter, Man. Bot. Rocky Mt.,</publication_title>
       <place_in_publication>377. 1885</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Peter W. Ball</author>
-  <author>David F. Murray</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carex</genus_name>
-    <unranked_epithet_name>Lamprochlaenae</unranked_epithet_name>
-    <unranked_epithet_authority>Drejer</unranked_epithet_authority>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Lamprochlaenae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Drejer">Lamprochlaenae</taxon_name>
     <place_of_publication>
-      <publication_title>Symb. Caricol., </publication_title>
+      <publication_title>Symb. Caricol.,</publication_title>
       <place_in_publication>10. 1844</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants densely or loosely cespitose, short to long rhizomatous. Culms red or purple
-    at base. Leaves: basal sheaths fibrous or not; sheath fronts membranous; sheaths and larger
-    leaves sometimes septate-nodulose; blades V-shaped in cross section when young, widest leaf
-    blades 1–2 mm wide, glabrous. Inflorescences racemose, with 2–4(–5) spikes; bracts sheathless or
-    short-sheathing, less than 4 mm, scalelike or with short threadlike blade; lateral spikes
-    pistillate, subsessile to short-pedunculate, prophyllate; terminal spike staminate. Proximal
-    pistillate scales white-hyaline or red-brown, apex obtuse to acuminate. Perigynia ascending to
-    spreading, veinless or obscurely veined with 2 distinct marginal veins, ovate to obovate,
-    rounded-trigonous in cross section, base tapering or rounded and shortly stipitate, apex to
-    abrupt beak, glabrous; beak 0.3–0.9 mm, orifice entire or shortly bidentate. Stigmas 3. Achenes
-    trigonous, almost as large as bodies of perigynia; styles deciduous.</description>
-  <number_of_infrataxa>Species 12 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>and nw Africa.</global_distribution>
+    <taxon_hierarchy>genus Carex;unranked Lamprochlaenae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26jjj.</number>
+  <discussion>Species 12 (2 in the flora):</discussion>
   <discussion>K. K. Mackenzie (1931–1935, parts 2–3, pp. 182, 221) did not recognize the section. He
     placed C. supina in sect. Obtusatae and C. glacialis in sect. Petraeae (sect. Rupestres). Other
     authors have not associated these species with unispicate species and, recently, sect.
@@ -46,15 +36,15 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia yellow-green to brown, 2.5–3.3 × 1.2–2 mm; staminate scales 3–4.5 mm,
-        light</statement>
+      <description type="morphology">Perigynia yellow-green to brown, 2.5–3.3 × 1.2–2 mm; staminate scales 3–4.5 mm,
+        light</description>
       <determination>456. Carex supina</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia reddish black to dark brown distally, 1.5–2.5 × 0.9–1.2 mm; staminate
-        scales 2–3</statement>
+      <description type="morphology">Perigynia reddish black to dark brown distally, 1.5–2.5 × 0.9–1.2 mm; staminate
+        scales 2–3</description>
       <determination>457. Carex glacialis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

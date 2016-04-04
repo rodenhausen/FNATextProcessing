@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>11.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agave</genus_name><species_name>asperrima</species_name><species_authority>Jacobi</species_authority><place_of_publication>
-    <publication_title>Hamburger Garten- Blumenzeitung</publication_title>
-    <place_in_publication>20: 561. 1864</place_in_publication>
-  </place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 4 (1 in the flora):</number_of_infrataxa><global_distribution>sc United States</global_distribution><global_distribution>n Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Jacobi" date="unknown">asperrima</taxon_name>
+    <place_of_publication>
+      <publication_title>Hamburger Garten- Blumenzeitung</publication_title>
+      <place_in_publication>20: 561. 1864</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species asperrima;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <discussion>Varieties 4 (1 in the flora):</discussion>
+</bio:treatment>

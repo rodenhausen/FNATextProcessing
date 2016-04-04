@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Zenobia</genus_name>
-    <species_name>pulverulenta</species_name>
-    <species_authority>(Bartram ex Willdenow) Pollard</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Zenobia</taxon_name>
+    <taxon_name rank="species" authority="(Bartram ex Willdenow) Pollard" date="unknown">pulverulenta</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>22: 232.  1895  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Honey-cup</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>pulverulenta</species_name>
-    <species_authority>W. Bartram ex Willdenow</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Zenobia;species pulverulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="W. Bartram ex Willdenow" date="unknown">pulverulenta</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 610.  1799</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>cassinefolia</species_name>
-    <species_authority>Ventenat</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Zenobia</genus_name>
-    <species_name>cassinefolia</species_name>
-    <species_authority>(Ventenat) Pollard</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Zenobia</genus_name>
-    <species_name>pulverulenta</species_name>
-    <variety_name>nuda</variety_name>
-    <variety_authority>(Ventenat) Rehder</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 1–2 m, rhizomes extensive.  Leaves: petiole 3–6 mm; blade 2–8(–10) × (0.5–)1.2–4.5 cm, base cuneate to rounded, apex acute, apiculate, rounded, or retuse.  Pedicels: bracteoles absent.  Flowers fragrant; sepal lobes triangular; corolla 6.5–10 mm; nectariferous disc 10-lobed; ovary 5-lobed.  Capsules erect, 3.2–5 × 4.8–6.5 mm.  Seeds ca. 1 × 0.5 mm, not winged.  2n = ca. 66.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Damp, sandy, or peaty pine savannas, shrub bogs, natural depression ponds, and swamp margins</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Andromeda;species pulverulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Ventenat" date="unknown">cassinefolia</taxon_name>
+    <taxon_hierarchy>genus Andromeda;species cassinefolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Zenobia</taxon_name>
+    <taxon_name rank="species" authority="(Ventenat) Pollard" date="unknown">cassinefolia</taxon_name>
+    <taxon_hierarchy>genus Zenobia;species cassinefolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Zenobia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulverulenta</taxon_name>
+    <taxon_name rank="variety" authority="(Ventenat) Rehder" date="unknown">nuda</taxon_name>
+    <taxon_hierarchy>genus Zenobia;species pulverulenta;variety nuda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Honey-cup</other_name>
   <discussion>Some forms of Zenobia pulverulenta have been recognized.  Plants with glaucous leaves and twigs occur primarily in the Sandhills region of North Carolina and South Carolina (inner coastal plain); nonglaucous plants occur primarily eastward.  Zenobia is cultivated occasionally outside its native range as far north as Massachusetts.  It is particularly appropriate for garden areas with wet soil.  The flowers are anise-scented.</discussion>
-</treatment>
+</bio:treatment>

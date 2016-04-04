@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agnorhiza</genus_name><species_name>reticulata</species_name><species_authority>(Greene) W. A. Weber</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>85: 20. 1999</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Wyethia</genus_name><species_name>reticulata</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>1: 9. 1884</place_in_publication></place_of_publication></TaxonIdentification><description>Plants mostly 40–70 cm. Stems erect, usually branched distally. Cauline leaves: blades (green) ovate-lanceolate to deltate, 6–15 cm, bases truncate or subcordate, margins entire or serrulate to crenate, faces sparsely hispid or scabrous (and finely gland-dotted, often vernicose). Heads held beyond or among the leaves. Involucres hemispheric, 15–30 mm diam. Outer phyllaries oblong to lanceolate or oblanceolate, 12–20+ mm (± equaling discs, tips usually spreading to squarrose). Ray florets 10–16(–21), laminae 20–25 mm. Cypselae ca. 6 mm, glabrous; pappi coroniform, 0.1–1 mm. 2n = 38.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>chaparral</habitat><habitat>oak woodlands</habitat><conservation>of conservation concern;</conservation><elevation>300–500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Agnorhiza reticulata is known only from foothills of the Sierra Nevada and is considered to be globally endangered.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agnorhiza</taxon_name>
+    <taxon_name rank="species" authority="(Greene) W. A. Weber" date="unknown">reticulata</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>85: 20. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Agnorhiza;species reticulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Wyethia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">reticulata</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 9. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Wyethia;species reticulata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Agnorhiza reticulata is known only from foothills of the Sierra Nevada and is considered to be globally endangered.</discussion>
+</bio:treatment>

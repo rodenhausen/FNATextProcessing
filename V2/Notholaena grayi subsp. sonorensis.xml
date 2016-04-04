@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Notholaena</genus_name><species_name>grayi</species_name><subspecies_name>sonorensis</subspecies_name><subspecies_authority>Windham</subspecies_authority><place_of_publication><publication_title>Contr. Univ. Michigan Herb.</publication_title><place_in_publication>19: 36. 1993</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Notholaena</genus_name><species_name>hypoleuca</species_name><species_authority>Goodding</species_authority></TaxonIdentification><description>Most sporangia containing 32 spores; spores generally less than 55 µm. 2 n  = 60.</description><phenology>Sporulating summer--fall</phenology><habitat> Rocky slopes and cliffs, usually on granitic or volcanic substrates</habitat><elevation> 1200--1900 m</elevation><us_distribution> Ariz.</us_distribution><global_distribution> w Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="Goodding" date="unknown">grayi</taxon_name>
+    <taxon_name rank="subspecies" authority="Windham" date="unknown">sonorensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. Univ. Michigan Herb.</publication_title>
+      <place_in_publication>19: 36. 1993</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Notholaena;species grayi;subspecies sonorensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hypoleuca</taxon_name>
+    <taxon_hierarchy>genus Notholaena;species hypoleuca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b</number>
+</bio:treatment>

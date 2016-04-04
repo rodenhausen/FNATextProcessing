@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>90.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Eriogonum</genus_name>
-    <species_name>apricum</species_name>
-    <species_authority>J. T. Howell</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Eriogonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="J. T. Howell" date="unknown">apricum</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>7: 237. 1955</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, erect to spreading or prostrate, not scapose, 0.08–0.2 × 0.1–0.25 dm,
-    glabrous, usually grayish. Stems spreading, with persistent leaf bases, up to 1/5 height of
-    plant; caudex stems matted; aerial flowering stems erect to slightly spreading or prostrate,
-    slender, solid, not fistulose, 0.4–0.8 dm, glabrous. Leaves basal, 1 per node; petiole
-    0.3–1(–2.5) cm, tomentose; blade round-ovate, 0.3–0.5(–1) × 0.3–0.5(–1) cm, densely
-    white-tomentose abaxially, floccose or glabrous and green adaxially, margins plane.
-    Inflorescences cymose, 0.5–1.5 × 1–2 cm; branches dichotomous, glabrous; bracts 3, scalelike,
-    1–2 mm. Peduncles absent. Involucres 1 per node, campanulate, 2–2.5 × 2–2.5 mm, glabrous; teeth
-    5, erect, 0.5–0.8 mm. Flowers 2–3 mm; perianth white, glabrous; tepals connate proximal 1/4,
-    monomorphic, oblong; stamens exserted, 2.5–3 mm; filaments sparsely pubescent proximally.
-    Achenes light brown, 2.5–3 mm, glabrous.</description>
+    <taxon_hierarchy>family Polygonaceae;subfamily Eriogonoideae;genus Eriogonum;species apricum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>90.</number>
   <discussion>eriogonum apricum appears to be more akin to the pacific coast e. nudum complex than to
     the e. brevicaule complex of the rocky mountain west. the plants are sometimes infected by
     coniothrium eriogoni earle, a rust fungus that also attacks e. nudum</discussion>
-  <number_of_infrataxa>Varieties 2 (2 in the flora)</number_of_infrataxa>
-  <us_distribution>California</us_distribution>
+  <discussion>Varieties 2 (2 in the flora)</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowering stems erect to slightly spreading</statement>
+      <description type="morphology">Flowering stems erect to slightly spreading</description>
       <determination>90a. Eriogonum apricum var. apricum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Flowering stems prostrate</statement>
+      <description type="morphology">Flowering stems prostrate</description>
       <determination>90b. Eriogonum apricum var. prostratum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

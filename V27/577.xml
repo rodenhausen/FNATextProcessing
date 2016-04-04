@@ -1,72 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dicranum</genus_name>
-    <species_name>ontariense</species_name>
-    <species_authority>W. L. Peterson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="W. L. Peterson" date="unknown">ontariense</taxon_name>
     <place_of_publication>
       <publication_title>Canad. J. Bot.</publication_title>
       <place_in_publication>55: 988. 1977,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>drummondii</species_name>
-    <species_authority>Sullivant ex Lindberg</species_authority>
+    <taxon_hierarchy>genus Dicranum;species ontariense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Sullivant ex Lindberg" date="unknown">drummondii</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Not.</publication_title>
       <place_in_publication>1865: 79. 1865,</place_in_publication>
-      <other_info>not Müller Hal. 1848</other_info>
+      <other_info_on_pub>not Müller Hal. 1848</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants in loose tufts, dark to light green, dull. Stems 3–8 cm, densely tomentose
-        below with reddish brown rhizoids. Leaves falcate-secund, flexuose, contorted when dry,
-        slightly undulate, (5–)6.5–9(–10) mm × 1–1.5 mm, concave below, keeled above, from a
-        lanceolate base to a long-acuminate apex; margins plane, strongly serrate above; laminae
-        1-stratose, rarely with 2-stratose regions on margins or near costa; costa percurrent to
-        slightly excurrent, 1/6–1/5 the width of the leaves at base, papillose to spinose above on
-        numerous, low abaxial ridges, with a row of guide cells, two thick, well-developed stereid
-        bands above and below extending to apex, adaxial epidermal layer of cells not
-        differentiated, the abaxial layer differentiated; cell walls between lamina cells not
-        bulging or weakly bulging; leaf cells prorate on abaxial surface, sometimes papillose
-        adaxially; alar cells 2-stratose, rarely 3-stratose in parts, differentiated, not extending
-        to costa; proximal laminal cells rectangular, pitted, (22–)40–64(–126) × (2–)7–8(–10) µm;
-        distal laminal cells short-rectangular to rectangular, not pitted, ± in longitudinal rows,
-        marginal cells usually more elongate, some distal cells with long toothlike projections,
-        scattered on abaxial surface, (7–)12–18(–42) × (5–)8–12(–16) µm. Sexual condition
-        pseudomonoicous; dwarf males on stem rhizoids of female plants; interior perichaetial leaves
-        abruptly long-acuminate, convolute-sheathing. Seta 2–3.5 cm, often aggregate 2–5 per
-        perichaetium, sometimes solitary, yellow, brown or reddish yellow. Capsule 2–3 mm, arcuate,
-        inclined to horizontal, furrowed when dry, yellow to light brown; operculum 1.5–3 mm. Spores
-        9–20 µm.</description>
-  <phenology>Capsules mature spring.</phenology>
-  <habitat>Humus, soil, or soil over rock, rarely rotten logs or stumps, usually in mesic to dry
-        coniferous woods, sometimes swamps and bogs;</habitat>
-  <elevation>60–1200 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Dicranum;species drummondii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
   <discussion>W. L. Peterson (1979) recorded Dicranum ontariense from Alberta. This is a North
         American endemic species that was previously mistaken for D. drummondii Müller Hal., a
         predominately Eurasian species which was unknown on this continent until it was discovered
@@ -90,4 +49,4 @@
         are thick-walled and usually not in well defined rows. When fruiting, the aggregate setae on
         some of the plants of D. ontariense will immediately distinguish it from D. condensatum,
         which has solitary setae.</discussion>
-</treatment>
+</bio:treatment>

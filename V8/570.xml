@@ -1,56 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <species_authority>(Rafinesque) Merrill</species_authority>
-    <variety_name>monanthum</variety_name>
-    <variety_authority>(Greene) B. Boivin</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Merrill" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) B. Boivin" date="unknown">monanthum</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>17: 74.  1968  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Greene’s shootingstar</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pauciflorum</species_name>
-    <species_authority>Greene</species_authority>
-    <variety_name>monanthum</variety_name>
-    <variety_authority>Greene</variety_authority>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species pulchellum;variety monanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pauciflorum</taxon_name>
+    <taxon_name rank="variety" authority="Greene" date="unknown">monanthum</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>2: 73.  1890</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>pulchellum</species_name>
-    <subspecies_name>monanthum</subspecies_name>
-    <subspecies_authority>(Greene) H. J. Thompson ex Munz</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>radicatum</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>monanthum</subspecies_name>
-    <subspecies_authority>(Greene) H. J. Thompson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>pauciflora</species_name>
-    <species_authority>(Greene) Mast &amp; Reveal</species_authority>
-    <variety_name>monantha</variety_name>
-    <variety_authority>(Greene) Mast &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous.  Leaves 3–10(–20) × 0.5–2(–2.7) cm; blade usually oblanceolate to spatulate or narrowly elliptic, rarely broadly elliptic.  Pedicels glabrous.  Flowers: calyx glabrous; corolla tube yellow with maroon, thin, wavy ring, lobes magenta to lavender, (5–)8–15(–18) mm; filament tube maroon to black, sometimes yellow at base, 1.5–2 mm; anthers (3.5–)4–6 mm; pollen sacs usually maroon, connective maroon.</description>
-  <phenology>Flowering spring–summer</phenology>
-  <habitat>Moist flats and slopes, meadows or grassy places, sagebrush, oak and conifer woodlands, sagebrush and mixed aspen and montane conifer communities</habitat>
-  <elevation>400–3000 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Dodecatheon;species pauciflorum;variety monanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pulchellum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) H. J. Thompson ex Munz" date="unknown">monanthum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species pulchellum;subspecies monanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Mast &amp; Reveal" date="unknown">radicatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) H. J. Thompson" date="unknown">monanthum</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species radicatum;subspecies monanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pauciflora</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Mast &amp; Reveal" date="unknown">monantha</taxon_name>
+    <taxon_hierarchy>genus Primula;species pauciflora;variety monantha;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13c.</number>
+  <other_name type="common_name">Greene’s shootingstar</other_name>
   <discussion>Variety monanthum is a spring-flowering plant in widely scattered areas (400–1800 m) in the Wallowa Valley, near Pendleton, the John Day Valley area, and Illinois River area in Oregon.  The variety is found also in Del Norte County, California, and in Garfield County, Washington.  The disjunct Utah populations flower in the summer and occur at 2000 to 3000 meters in the southern Wasatch Mountains, basically from Mount Nebo of eastern Juab County south to near Orderville, Kane County.  The Utah phase requires more study; the maroon filament tube is almost certainly due to a shift in pollinators, and there is some question as to whether it is the same taxon as the Oregon plants.</discussion>
-</treatment>
+</bio:treatment>

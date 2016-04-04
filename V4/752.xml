@@ -1,42 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>61.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Atriplex</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>(Pursh) Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Nuttall" date="unknown">canescens</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>1: 197. 1818</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Four-wing saltbu sh</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Calligonum</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>Pursh</species_authority>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species canescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calligonum</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">canescens</taxon_name>
     <place_of_publication>
-      <publication_title>Fl. Amer Sept. </publication_title>
+      <publication_title>Fl. Amer Sept.</publication_title>
       <place_in_publication>2: 370. 1814</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Atriplex</genus_name>
-    <species_name>nuttallii</species_name>
-    <species_authority>S. Watson</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, dioecious or rarely monoecious, mainly 8–20 dm, as wide or wider, not
-    especially armed. Leaves persistent, alternate, sessile or nearly so, blade linear to
-    oblanceolate, oblong, or obovate, mainly 10–40 × 3–8 mm, margin entire, apex retuse to obtuse.
-    Staminate flowers yellow (rarely brown), in clusters 2–3 mm wide, borne in panicles 3–15 cm.
-    Pistillate flowers borne in panicles 5–40 cm. Fruiting bracteoles 8–25 mm, as wide, on stipes
-    1–8 mm, with 4 prominent wings extending the bract length, united throughout, wings dentate to
-    entire, apex toothed, surface of wings and body smooth or reticulate. Seeds 1.5–2.5 mm wide. 2n
-    = 18, 36+.</description>
-  <discussion>This species forms hybrids with Atriplex confertifolia and A. gardneri varieties (see var. bonnevillensis).  Materials from the vicinity of the type locality of the species in South Dakota are low subherbaceous plants that differ from our shrubby tall material.  However, the type area is presently covered with water from a dam on the Missouri River, and it is not possible to exclude the possibility of A. canescens as it has been interpreted for the past century to have existed at that site during the Lewis and Clark Expedition, if that is indeed where the lectotype was collected.  </discussion>
-  <number_of_infrataxa>Varieties 4 (4 in the flora)</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
+    <taxon_hierarchy>genus Calligonum;species canescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">nuttallii</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species nuttallii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>61.</number>
+  <other_name type="common_name">Four-wing saltbu sh</other_name>
+  <discussion>This species forms hybrids with Atriplex confertifolia and A. gardneri varieties (see var. bonnevillensis).  Materials from the vicinity of the type locality of the species in South Dakota are low subherbaceous plants that differ from our shrubby tall material.  However, the type area is presently covered with water from a dam on the Missouri River, and it is not possible to exclude the possibility of A. canescens as it has been interpreted for the past century to have existed at that site during the Lewis and Clark Expedition, if that is indeed where the lectotype was collected.</discussion>
+  <discussion>Varieties 4 (4 in the flora)</discussion>
   <discussion>Nuttall’s new combination Atriplex canescens was based on Calligonum canescens Pursh.
     Watson based his new name A. nuttallii directly on A. canescens Nuttall, i.e., including the
     citation of Nuttall’s “Genera, 1. 197,” and on its basionym, C. canescens. The name A. nuttallii
@@ -64,37 +61,37 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruiting bracteoles merely dentate to entire, commonly 8–25 mm wide; plants of
-        broad or other distribution.</statement>
+      <description type="morphology">Fruiting bracteoles merely dentate to entire, commonly 8–25 mm wide; plants of
+        broad or other distribution.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Bracteoles mainl y less than 12 mm wide; plants not layering in sand dunes,
-        widespread</statement>
+      <description type="morphology">Bracteoles mainl y less than 12 mm wide; plants not layering in sand dunes,
+        widespread</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Bracteoles mainly 15– mm wide; plants layering in sand dunes, cw Utah</statement>
+      <description type="morphology">Bracteoles mainly 15– mm wide; plants layering in sand dunes, cw Utah</description>
       <next_statement_id>1.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruiting bracteoles dentate to laciniate, mainly 5–10 mm wide; plants of s
-        California.</statement>
+      <description type="morphology">Fruiting bracteoles dentate to laciniate, mainly 5–10 mm wide; plants of s
+        California.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting bracteoles mainly 4–8 mm wide, dentate or laciniate; shrubs mainly 3–10
-        dm</statement>
+      <description type="morphology">Fruiting bracteoles mainly 4–8 mm wide, dentate or laciniate; shrubs mainly 3–10
+        dm</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting bracteoles mainly 8–11 mm wide, la-ciniate; shrubs mainly 10–20
-        dm</statement>
+      <description type="morphology">Fruiting bracteoles mainly 8–11 mm wide, la-ciniate; shrubs mainly 10–20
+        dm</description>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

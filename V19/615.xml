@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>84.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DIMORPHOTHECA</genus_name>
-    <genus_authority>Moench</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>John L. Strother</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Calenduleae</taxon_name>
+    <taxon_name rank="genus" authority="Moench" date="unknown">DIMORPHOTHECA</taxon_name>
     <place_of_publication>
       <publication_title>Methodus,</publication_title>
       <place_in_publication>585. 1794</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Calenduleae;genus DIMORPHOTHECA;</taxon_hierarchy>
-  <etymology>[Greek di- , two, morphe , shape, and theca , case or container, alluding to two forms of cypselae within each head]</etymology>
-  <conserved_name>name conserved</conserved_name>
-  <common_name>African daisy</common_name>
-  <common_name>Cape marigold</common_name>
-  <author>John L. Strother</author>
-  <description>Annuals [perennials, subshrubs, shrubs], 5–40[150+] cm. Stems procumbent to erect [prostrate], glabrous or arachnose to piloso-hirtellous and/or stipitate-glandular. Leaves ± sessile or petiolate; blades oblong or oblanceolate to linear, margins entire or dentate [pinnately lobed], faces sparsely arachnose and/or stipitate-glandular. Heads borne singly. Involucres campanulate to hemispheric or broader, 5–20+ mm diam. Phyllaries 15–21 in 2(–3) series, lanceolate to lance-linear. Receptacles flat to conic. Ray florets 10–21+ in ± 1 series; corollas usually yellow to orange or white, sometimes purplish abaxially and/or at bases or apices, laminae oblong-elliptic to oblanceolate. Disc florets 15–50+, bisexual, all or mostly fertile (inner sometimes functionally staminate); corollas whitish or yellow, red, or purplish, tubes much shorter than ± campanulate throats (lobes sometimes with terete or dilated appendages). Cypselae (ray) triquetrous-prismatic to clavate, ± tuberculate or ridged; (disc) compressed, often winged, ± smooth. x = 9.</description>
-  <number_of_infrataxa>Species 7–18+ (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>s Africa.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Calenduleae;genus DIMORPHOTHECA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek di- , two, morphe , shape, and theca , case or container, alluding to two forms of cypselae within each head]</other_info_on_name>
+  </taxon_identification>
+  <number>84.</number>
+  <other_name type="common_name">African daisy</other_name>
+  <other_name type="common_name">Cape marigold</other_name>
+  <discussion>Species 7–18+ (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Ray corollas mostly yellow to orange adaxially</statement>
+      <description type="morphology">Ray corollas mostly yellow to orange adaxially</description>
       <determination>1. Dimorphotheca sinuata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Ray corollas mostly whitish adaxially</statement>
+      <description type="morphology">Ray corollas mostly whitish adaxially</description>
       <determination>2. Dimorphotheca pluvialis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

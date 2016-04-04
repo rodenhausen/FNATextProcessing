@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>flagellaris</species_name>
-    <species_authority>Willdenow</species_authority>
-    <subspecies_name>platysepala</subspecies_name>
-    <subspecies_authority>(Trautvetter) A. E. Porsild</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">flagellaris</taxon_name>
+    <taxon_name rank="subspecies" authority="(Trautvetter) A. E. Porsild" date="unknown">platysepala</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Tidsskr.</publication_title>
       <place_in_publication>51: 295.  1954,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>flagellaris</species_name>
-    <variety_name>platysepala</variety_name>
-    <variety_authority>Trautvetter</variety_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species flagellaris;subspecies platysepala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="(Trautvetter) Tolmatchev" date="unknown">flagellaris</taxon_name>
+    <taxon_name rank="variety" authority="Trautvetter" date="unknown">platysepala</taxon_name>
     <place_of_publication>
       <publication_title>in A. T. von Middendorff, Reise Siber.</publication_title>
       <place_in_publication>1(2): 42.  1847</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>platysepala</species_name>
-    <species_authority>(Trautvetter) Tolmatchev</species_authority>
-  </TaxonIdentification>
-  <description>Inflorescences 1–4(–6) cm; bract blade longer than internode.  Flowers: hypanthia black-tipped stipitate-glandular; sepals reddish purple, ovate, black-tipped stipitate-glandular; petals broadly obovate, length 2+ times sepals; ovary ca. 1/2 inferior.  2n = 32.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Sandy or gravelly arctic tundra, rocky mountain slopes, damp, open ground, often coastal</habitat>
-  <elevation>0–1500 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Atlantic Islands (Svalbard).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species flagellaris;variety platysepala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">platysepala</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species platysepala;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6c.</number>
+</bio:treatment>

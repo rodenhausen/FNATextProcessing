@@ -1,87 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>18.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>teres</species_name>
-    <species_authority>Ångström</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Ångström" date="unknown">teres</taxon_name>
     <place_of_publication>
       <publication_title>in C. J. Hartman, Handb. Skand Fl. ed.</publication_title>
       <place_in_publication>8, 417. 1861,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>squarrosum</species_name>
-    <variety_name>teres</variety_name>
-    <variety_authority>Schimper</variety_authority>
+    <taxon_hierarchy>genus Sphagnum;species teres;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">squarrosum</taxon_name>
+    <taxon_name rank="variety" authority="Schimper" date="unknown">teres</taxon_name>
     <place_of_publication>
       <publication_title>Vers. Entw.-Gesch. Torfm.,</publication_title>
       <place_in_publication>64. 1858</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>teres</species_name>
-    <variety_name>squarrosulum</variety_name>
-    <variety_authority>(Schimper) Warnstorf</variety_authority>
-  </TaxonIdentification>
-  <description>Plants fairly slender to moderate-sized, pale green to yellowish, or reddish brown
-        in sun-grown forms; forms loose to dense carpets. Stems pale green to red-brown; 3–4 layers
-        of superficial cells. Stem leaves generally larger than branch leaves, 1.3– 1.8 × 0.8–1 mm;
-        elliptic to lingulate-spatulate, widest above middle, hyaline cells nonseptate. Branches
-        long-cylindrical, branch leaves terete to sometimes distinctly squarrose in shade forms.
-        Branch fascicles typically with 3 spreading (sometimes 2) and 2 pendent branches. Branch
-        stems with single layer of cortical cells. Branch leaves 1–1.4 mm, ovate to
-        ovate-lanceolate, gradually narrowed to an involute tip, hyaline cells somewhat bulging on
-        concave surface and nearly plane on convex surface, with 4–8 large, elliptic, unringed pores
-        per cell on convex surface and 1–4 irregularly rounded pores per cell on concave surface,
-        internal commissural walls smooth to rather strongly papillose, chlorophyllous cells
-        ovate-triangular with the widest part at or close to the convex surface. Sexual condition
-        dioicous. Spores 21–26 µm; proximal and distal surfaces smooth, papillae indistinct;
-        proximal laesura 0.5–0.6 spore radius.</description>
-  <phenology>Sporophytes uncommon, capsules mature late spring to early summer.</phenology>
-  <habitat>Strongly minerotrophic, in open to medium rich fens, less frequent in coniferous
-        mires, characteristic species of rich, weakly acidic to slightly basic mires;</habitat>
-  <elevation>low to high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species squarrosum;variety teres;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">teres</taxon_name>
+    <taxon_name rank="variety" authority="(Schimper) Warnstorf" date="unknown">squarrosulum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species teres;variety squarrosulum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>18.</number>
   <discussion>Shade forms of Sphagnum teres are often squarrose but these are usually considerably
         smaller than S. squarrosum. For other distinctions between these species, see discussion
         under the latter.</discussion>
-</treatment>
+</bio:treatment>

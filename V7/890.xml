@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>59.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>EUTREMA</genus_name>
-    <genus_authority>R. Brown</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Eutremeae</taxon_name>
+    <taxon_name rank="genus" authority="R. Brown" date="unknown">EUTREMA</taxon_name>
     <place_of_publication>
       <publication_title>Chlor. Melvill.,</publication_title>
       <place_in_publication>9, plate A. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek eu- , well, and trema , hole, alluding to perforation in fruit septum]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Neomartinella</genus_name>
-    <genus_authority>Pilger</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platycraspedum</genus_name>
-    <genus_authority>O. E. Schulz</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thellungiella</genus_name>
-    <genus_authority>O. E. Schulz</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Wasabia</genus_name>
-    <genus_authority>Matsumura</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals or perennials; (caudex simple or branched), [rhizomatous]; not scapose. Stems erect or ascending [decumbent], unbranched or branched distally. Leaves basal and cauline; petiolate or sessile; basal rosulate or not, petiolate, blade margins usually entire or palmately lobed, rarely dentate or pinnatifid, (pinnately or palmately veined); cauline petiolate or sessile, blade (base cuneate or sagittate-amplexicaul), margins entire or repand [dentate, crenate], (pinnately or palmately veined, ultimate veins sometimes ending with apiculate callosities). Racemes (corymbose). Fruiting pedicels divaricate to ascending, slender or stout. Flowers: sepals ovate or oblong; petals usually spatulate, rarely obovate, claw not differentiated from blade, (apex obtuse to emarginate); stamens slightly tetradynamous; filaments slightly dilated basally; anthers ovate or oblong, (apex obtuse); nectar glands confluent, often subtending bases of stamens, median glands present or absent. Fruits sessile or shortly stipitate, linear or oblong [ovoid, lanceoloid], smooth or torulose, terete, slightly 4-angled, latiseptate, or angustiseptate; valves each with obscure or prominent midvein; replum rounded; septum complete or perforated; ovules [2–](6–)8–96 per ovary; stigma capitate. Seeds usually uniseriate, rarely biseriate, plump, not winged, oblong or ovoid; seed coat (usually obscurely reticulate, rarely foveolate or papillate), often not mucilaginous when wetted; cotyledons incumbent [rarely accumbent].</description>
-  <number_of_infrataxa>Species 26 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>e Asia (Himalayas).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Eutremeae;genus EUTREMA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek eu- , well, and trema , hole, alluding to perforation in fruit septum]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Pilger" date="unknown">Neomartinella</taxon_name>
+    <taxon_hierarchy>genus Neomartinella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="O. E. Schulz" date="unknown">Platycraspedum</taxon_name>
+    <taxon_hierarchy>genus Platycraspedum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="O. E. Schulz" date="unknown">Thellungiella</taxon_name>
+    <taxon_hierarchy>genus Thellungiella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Matsumura" date="unknown">Wasabia</taxon_name>
+    <taxon_hierarchy>genus Wasabia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>59.</number>
+  <discussion>Species 26 (2 in the flora):</discussion>
   <discussion>The fleshy rhizomes of the eastern Asian Eutrema japonicum (Siebold) Maximowicz are pungent and are the main source of true wasabi (W. H. Hodge 1974). Paste of horseradish (Armoracia rusticana) is often used as an inexpensive substitute.</discussion>
   <discussion>Molecular studies, combined with a critical evaluation of morphology, have shown that Thellungiella is nested within, and hardly distinct from, the earlier-published Eutrema, and therefore the two genera have been combined (I. A. Al-Shehbaz and S. I. Warwick 2005; Warwick et al. 2006).</discussion>
   <references>
@@ -40,13 +43,13 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials; cauline leaf blades: bases cuneate, not auriculate or sagittate; ovules (6–)8–12</statement>
+      <description type="morphology">Perennials; cauline leaf blades: bases cuneate, not auriculate or sagittate; ovules (6–)8–12</description>
       <determination>1. Eutrema edwardsii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals; cauline leaf blades: bases usually sagittate-amplexicaul, rarely auriculate; ovules</statement>
+      <description type="morphology">Annuals; cauline leaf blades: bases usually sagittate-amplexicaul, rarely auriculate; ovules</description>
       <determination>2. Eutrema salsugineum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

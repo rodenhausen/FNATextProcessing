@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Bogler</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Zuccarini" date="unknown">DASYLIRION</taxon_name>
+    <place_of_publication>
+      <publication_title>Allg. Gartenzeitung</publication_title>
+      <place_in_publication>6: 258. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus DASYLIRION;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek dasy- , thick- or dense-, and lirion , white lily, alluding to the compact
+    arrangement of flowers in the inflorescence]</other_info_on_name>
+  </taxon_identification>
   <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DASYLIRION</genus_name>
-    <genus_authority>Zuccarini</genus_authority>
-  <place_of_publication>
-    <publication_title>Allg. Gartenzeitung</publication_title>
-    <place_in_publication>6: 258. 1838</place_in_publication>
-  </place_of_publication></TaxonIdentification>
-  <etymology>[Greek dasy- , thick- or dense-, and lirion , white lily, alluding to the compact
-    arrangement of flowers in the inflorescence]</etymology>
-  
-  <common_name>Sotol</common_name>
-  <author>David J. Bogler</author>
-  <description>Plants perennial, polycarpic; roots spreading, 2–8 mm diam. Stems short or elongate,
-    often with erect or reclining trunk. Leaves persistent, numerous, forming rosettes, spreading;
-    blade long-linear, fibrous, glabrous, sometimes waxy-glaucous, bases expanded, overlapping,
-    spoon-shaped, margins with sharp, curved prickles, apex fibrous. Inflorescences paniculate,
-    racemose, bracteate; panicles narrow, borne on long, woody stalks; bracts leaflike proximally,
-    stramineous distally, lanceolate; fascicles of dense racemes in axils of bracts. Flowers small,
-    functionally unisexual, some plants with only male flowers, others with only female flowers;
-    floral bracts laciniate, membranous; tepals 6, distinct, whitish, greenish, or purple, obovate,
-    margins denticulate; stamens 6, rudimentary in pistillate flowers; ovary superior, 3-angled,
-    abortive in staminate flowers; style short, ± strap-shaped, slightly expanded at tip; stigma
-    3-lobed, lobes weakly connate into tube; pedicel of pistillate flowers articulate. Fruits
-    capsular, 1-locular, dry, indehiscent, 3-winged. Seed 1, golden brown, 3-angled, turbinate. x =
-    19.</description>
-  <number_of_infrataxa>dasylirion species 17 (3 in the flora)</number_of_infrataxa>
-  <global_distribution>arid, mountainous regions of sw united states and
-    mexico</global_distribution>
+  <other_name type="common_name">Sotol</other_name>
+  <discussion>dasylirion species 17 (3 in the flora)</discussion>
   <discussion>Dasylirion was once a major food source in the desert southwest. The bulbs were
     roasted in rock-lined pits and pounded into cakes. A potent alcoholic beverage, known as
     “sotol,” is distilled from the baked and fermented bulbs. Leaves of Dasylirion are widely used
@@ -41,31 +32,31 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves whitish or bluish green, waxy-glaucous, papillose, dull; marginal prickles
+      <description type="morphology">Leaves whitish or bluish green, waxy-glaucous, papillose, dull; marginal prickles
         all antrorse; fascicles of flowers elongate, branches lateral, pendent, 10–20 cm from base
         to tip; capsules obovoid, 5–8 × 4–5(–7) mm, distal wing lobes 2–2.5 mm, often indented;
-        Arizona, New</statement>
+        Arizona, New</description>
       <determination>1.  Dasylirion wheeleri</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves bright green, glabrous, not waxy, smooth, shiny; marginal prickles antrorse,
+      <description type="morphology">Leaves bright green, glabrous, not waxy, smooth, shiny; marginal prickles antrorse,
         retrorse, or mix of both; fascicles of flowers short, condensed, branches mostly basal, not
         pendent, 5–12 cm from base to tip; capsules ellipsoid or obovoid, 5–7 × 4–5 mm, distal wing
-        lobes less than 2 mm, rounded, not indented; New Mexico, Texas.</statement>
+        lobes less than 2 mm, rounded, not indented; New Mexico, Texas.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Majority of prickles antrorse; leaves 1–2 cm wide; capsules ellipsoid, 5.5–6 × 4–5
-        mm,</statement>
+      <description type="morphology">Majority of prickles antrorse; leaves 1–2 cm wide; capsules ellipsoid, 5.5–6 × 4–5
+        mm,</description>
       <determination>2.  Dasylirion texanum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Majority of leaf prickles retrorse; leaves 1.5–3 cm wide; capsules ellipsoid to
-        obovoid,</statement>
+      <description type="morphology">Majority of leaf prickles retrorse; leaves 1.5–3 cm wide; capsules ellipsoid to
+        obovoid,</description>
       <determination>3.  Dasylirion leiophyllum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

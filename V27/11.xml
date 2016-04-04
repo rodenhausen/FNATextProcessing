@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>centrale</species_name>
-    <species_authority>C. E. O. Jensen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="C. E. O. Jensen" date="unknown">centrale</taxon_name>
     <place_of_publication>
       <publication_title>Bih. Kongl. Svenska. Vetensk.-Akad. Handl.</publication_title>
       <place_in_publication>21(10): 34.  1896,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>palustre</species_name>
-    <subspecies_name>intermedium</subspecies_name>
-    <subspecies_authority>Russow</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>subbicolor</species_name>
-    <species_authority>Hampe</species_authority>
-  </TaxonIdentification>
-  <description>Plants moderate-sized to robust, capitulum compact and well rounded in open-grown forms, lax to somewhat compact; green in shade forms to golden yellow to golden brown in open-grown forms, occasionally with a pinkish tinge; lawns, loose low hummocks to larger, ± firm hummocks.  Stems pale brown to brown, superficial cortical cells with spiral reinforcing fibrils clearly visible, 2 pores or more per cell, comb-fibrils lacking on interior wall.  Stem leaves to 1.2–2.2 × 0.8–1 mm; rarely hemiisophyllous; hyaline cells non-ornamented, rarely septate, comb-lamellae absent.  Branches tapering, leaves spreading to somewhat imbricate.  Branch fascicles with 2 spreading and 1–2 pendent branches.  Branch stems with cortical cells non-ornamented, no or weak funnel-like projections on the interior end walls, often with large round pores on the superficial walls.  Branch leaves broadly ovate, to 1.7 × 1.5 mm; hyaline cells non-ornamented, convex surface with elliptic to rarely round pores along the commissures; chlorophyllous cells lenticular to narrowly elliptical in transverse section, narrowly exposed on both ends, but more so on concave surface, end walls thickened at both ends.  Sexual condition dioicous.  Capsule with inconspicuous pseudostomata.  Spores 23–30 µm; surface finely roughened to smooth; laesura on proximal surface more than 0.5 spore radius.</description>
-  <phenology>Capsules uncommon, mature late summer.</phenology>
-  <habitat>Medium to rich fens, especially prominent in coniferous fens and sedge fens;</habitat>
-  <elevation>low to high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Sphagnum;species centrale;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Hampe" date="unknown">palustre</taxon_name>
+    <taxon_name rank="subspecies" authority="Russow" date="unknown">intermedium</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species palustre;subspecies intermedium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">subbicolor</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species subbicolor;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Sphagnum centrale is most similar to S. alaskense but seems to have no range overlap with that species and is also considerably more minerotrophic.  In the field it lacks the often reddish tinge of S. palustre and is larger than S. affine. See also discussion under 2. S. alaskense and 9. S. papillosum.</discussion>
-</treatment>
+</bio:treatment>

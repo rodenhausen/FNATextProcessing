@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>36d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Delphinium</genus_name><species_name>carolinianum</species_name><species_authority>Walter</species_authority><subspecies_name>virescens</subspecies_name><subspecies_authority>(Nuttall) R. E. Brooks</subspecies_authority><place_of_publication><publication_title> Phytologia </publication_title><place_in_publication>60: 8. 1982</place_in_publication></place_of_publication></TaxonIdentification><common_name>Plains larkspur</common_name><common_name> white larkspur</common_name><common_name> Penard's larkspur</common_name><endemic>endemic</endemic><weedy>weedy</weedy><TaxonIdentification Status="BASIONYM"><genus_name>Delphinium</genus_name><species_name>virescens</species_name><species_authority>Nuttall</species_authority><place_of_publication><publication_title>Gen. N. Amer. Pl. </publication_title><place_in_publication>2: 14. 1818</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>virescens</species_name><variety_name>macroseratilis</variety_name><variety_authority>(Rydberg) Cory</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>virescens</species_name><variety_name>penardii</variety_name><variety_authority>(Huth) L. M. Perry</variety_authority></TaxonIdentification><description>Roots without elongate central axis; fascicles 2-8, ± horizontal. Stems 50-80 cm. Leaves mostly cauline at anthesis; distalmost petioles more than 5 mm. Leaf blade with 5 or more major divisions; ultimate lobes of midcauline leaf blades 5-15, width 2-6 mm. Flowers: sepals white to very pale blue. 2n = 16.</description><phenology>Flowering late winter-early summer</phenology><habitat> Prairies, sandy, loamy, or clay soils</habitat><elevation> 250-2000 m</elevation><ca_distribution> Man.</ca_distribution><us_distribution> Colo.</us_distribution><us_distribution> Iowa</us_distribution><us_distribution> Kans.</us_distribution><us_distribution> Minn.</us_distribution><us_distribution> Mo.</us_distribution><us_distribution> Nebr.</us_distribution><us_distribution> N.Dak.</us_distribution><us_distribution> Okla.</us_distribution><us_distribution> S.Dak.</us_distribution><us_distribution> Tex.</us_distribution><us_distribution> Wis.</us_distribution><discussion>Delphinium carolinianum subsp. virescens is known to hybridize with D. madrense and with D. wootonii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">carolinianum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) R. E. Brooks" date="unknown">virescens</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>60: 8. 1982</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species carolinianum;subspecies virescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">virescens</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. N. Amer. Pl.</publication_title>
+      <place_in_publication>2: 14. 1818</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species virescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virescens</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) Cory" date="unknown">macroseratilis</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species virescens;variety macroseratilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virescens</taxon_name>
+    <taxon_name rank="variety" authority="(Huth) L. M. Perry" date="unknown">penardii</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species virescens;variety penardii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>36d.</number>
+  <other_name type="common_name">Plains larkspur</other_name>
+  <other_name type="common_name">white larkspur</other_name>
+  <other_name type="common_name">Penard's larkspur</other_name>
+  <discussion>endemic</discussion>
+  <discussion>weedy</discussion>
+  <discussion>Delphinium carolinianum subsp. virescens is known to hybridize with D. madrense and with D. wootonii.</discussion>
+</bio:treatment>

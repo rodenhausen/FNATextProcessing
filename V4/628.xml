@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20a.2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Atriplex</subgenus_name>
-        <section_name>Teutliopsis</section_name>
-        <section_authority>Dumortier</section_authority>
-        <place_of_publication>
-            <publication_title>Fl. Belg.,</publication_title>
-            <place_in_publication>20. 1827</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <unranked_epithet_name>Hastatae</unranked_epithet_name>
-        <unranked_epithet_authority>Standley</unranked_epithet_authority>
-    </TaxonIdentification>
-    <description>Plants annual, monoecious or subdioecious, erect or procumbent. Leaves without
-        Kranz anatomy. Pistillate flowers lacking a perianth, enclosed by a pair of bracteoles.
-        Bracteoles linear to deltoid, distinct almost to base. Seeds vertical; radicle inferior,
-        basal, or lateral.</description>
-    <number_of_infrataxa>Species ca. 18 (10 in the flora):</number_of_infrataxa>
-    <global_distribution>North America</global_distribution>
-    <global_distribution>Europe</global_distribution>
-    <global_distribution>Asia</global_distribution>
-    <global_distribution>Africa.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="section" authority="Dumortier" date="unknown">Teutliopsis</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Belg.,</publication_title>
+      <place_in_publication>20. 1827</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Atriplex;section Teutliopsis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Standley">Hastatae</taxon_name>
+    <taxon_hierarchy>genus Atriplex;unranked Hastatae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20a.2.</number>
+  <discussion>Species ca. 18 (10 in the flora):</discussion>
+</bio:treatment>

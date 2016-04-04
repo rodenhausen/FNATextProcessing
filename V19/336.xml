@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ixeris</genus_name>
-    <species_name>stolonifera</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ixeris</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">stolonifera</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Amer. Acad. Arts, n. s.</publication_title>
       <place_in_publication>6: 396. 1858</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Ixeris;species stolonifera;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lactuca</genus_name>
-    <species_name>stolonifera</species_name>
-    <species_authority>(A. Gray) Bentham ex Maximowicz</species_authority>
-  </TaxonIdentification>
-  <description>Plants stoloniferous. Aerial stems ± scapiform. Leaf blades 5–30+ × 5–30+ mm, margins often with 1(–2), ± retrorse teeth near bases. Peduncles (1–)5–15+ cm. Involucres 8–10 mm. Cypselae 6 mm; pappi 4–7 mm. 2n = 16, 24.</description>
-  <phenology_info>
-    <text>Flowering Jun–Aug.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <global_distribution>Asia (Japan).</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Ixeris;species stolonifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lactuca</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Bentham ex Maximowicz" date="unknown">stolonifera</taxon_name>
+    <taxon_hierarchy>genus Lactuca;species stolonifera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>The combination Lactuca stolonifera has been mistakenly attributed to “(A. Gray) Bentham &amp; Hooker f.”</discussion>
-</treatment>
-
+</bio:treatment>

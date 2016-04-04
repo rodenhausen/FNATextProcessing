@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sullivantia</taxon_name>
+    <taxon_name rank="species" authority="(J. M. Coulter &amp; Fisher) J. M. Coulter" date="unknown">hapemanii</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">hapemanii</taxon_name>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Sullivantia;species hapemanii;variety hapemanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sullivantia</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson ex Small" date="unknown">halmicola</taxon_name>
+    <taxon_hierarchy>genus Sullivantia;species halmicola;</taxon_hierarchy>
+  </taxon_identification>
   <number>3a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sullivantia</genus_name>
-    <species_name>hapemanii</species_name>
-    <species_authority>(J. M. Coulter &amp; Fisher) J. M. Coulter</species_authority>
-    <variety_name>hapemanii</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sullivantia</genus_name>
-    <species_name>halmicola</species_name>
-    <species_authority>A. Nelson ex Small</species_authority>
-  </TaxonIdentification>
-  <description>Flowering stems 5–60 cm. Leaf blades 1–11 cm wide, 5–13-lobed for 1/4–1/2 length,
-        lobes cuneate-oblong to subovate, 1–2 times dentate to subcrenate. Flowers: sepals
-        triangular-ovate, 0.6–1.3 × 0.6–1 mm; petals ovate and abruptly clawed to ovate-lanceolate
-        and more gradually narrowed into claw; ovary ± as long as wide. Capsules cylindric-ovate,
-        3.2–8 × 1.5–4 mm, to 2.5 times longer than wide. Seeds 0.9–1.6 mm. 2n = 14.</description>
-  <phenology>Flowering Jun–Aug</phenology>
-  <habitat>Moist cliffs, stream banks, springs, near waterfalls, typically on limestone</habitat>
-  <elevation>900–2500 m</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
   <discussion>Variety hapemanii occurs in the Bighorn Mountains of north-central Wyoming and
         Bighorn Canyon of south-central Montana, with outliers in the Owl Creek Mountains and
         northern Laramie Range, Wyoming. It is also disjunct in the middle fork of the Salmon River
         in central Idaho.</discussion>
-</treatment>
+</bio:treatment>

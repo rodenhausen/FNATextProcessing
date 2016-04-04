@@ -1,67 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>BRYOPHYLLUM</genus_name>
-    <genus_authority>Salisbury</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Reid V. Moran</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Salisbury" date="unknown">BRYOPHYLLUM</taxon_name>
     <place_of_publication>
       <publication_title>Parad. Lond., plate</publication_title>
       <place_in_publication>3.  1805  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek bryo, swell, and phyllon, leaf]</etymology>
-  <author>Reid V. Moran</author>
+    <taxon_hierarchy>family CRASSULACEAE;genus BRYOPHYLLUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek bryo, swell, and phyllon, leaf]</other_info_on_name>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Kalanchoë Adanson sect. Bryophyllum (Salisbury) Boiteau &amp; Mannoni</discussion>
-  <description>Herbs [shrubs], perennial, (sometimes suckering at base), usually viviparous (with plantlets on leaf margins and inflorescences), 5–80 dm, glabrous [pubescent].  Stems mostly erect [scandent], branching or often simple proximal to cyme, often bare by anthesis, succulent.  Leaves persistent, cauline, sometimes subrosulate, mostly opposite, sometimes in whorls of 3, sessile or petiolate, subclasping basally, (narrowed apically); blade obovate or triangular to lanceolate or elliptic-oblong, laminar (B. delagoense subcylindric), 2–50 cm, fleshy, base not spurred, margins entire, lobed, or 1–2 times imparipinnate; veins not conspicuous.  Inflorescences terminal cymes, often paniculate (branches 1–5 times bifurcate with flower in fork).  Pedicels present.  Flowers pendulous, 4-merous; sepals connate basally or into tube (calyx often inflated and accrescent in fruit), all alike; petals erect, connate into tube, orange, yellow-green marked with lavender, pale yellow flecked with red, orange-red, scarlet, pink, lavender, yellow-green flecked with violet-red, or greenish white with maroon distally, (corolla throat 2–4 times subglobose tube, often constricted against pistils at base, lobes shorter than throat); calyx and corolla not circumscissile in fruit; nectaries semicircular to linear; stamens [mostly] 8; filaments adnate on corolla tube; pistils erect, (often connate basally); ovary base somewhat narrowed, tapering to styles; styles 2–4 times longer than ovary.  Fruits [mostly] erect.  Seeds ellipsoid, ribbed, finely cross-ribbed.  x = 17.</description>
-  <number_of_infrataxa>Species ca. 30 (5 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <us_distribution>Indian Ocean Islands (Madagascar)</us_distribution>
-  <global_distribution>1 widespread in the tropics.</global_distribution>
+  <discussion>Species ca. 30 (5 in the flora):</discussion>
   <discussion>Because of some intermediates, Bryophyllum is often included in Kalanchoë, as by P. Boiteau and L. Allorge-Boiteau (1995).  M. Lauzac-Marchal (1974) argued for separation; the case is not clear.</discussion>
   <discussion>Some species of Bryophyllum are widely naturalized in Australia, southern Africa, and elsewhere.  The five species and one hybrid that infest over 10,000 hectares in Queensland are highly toxic to livestock, particularly cattle, with bufadienolides that cause cardiac glycoside poisoning (P. I. Forster 1996; R. A. McKenzie and P. J. Dunster 1986; McKenzie et al. 1987).  The widespread B. pinnatum is commonly used to treat rheumatism, ulcers, burns, infections, and inflammations, as well as for old-fashioned magic, and has been the subject of many biological and phytochemical studies  Some other species have similar uses and have also been studied (S. S. Costa et al. 1995).</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Lauzac-Marchal, M.  1974.  Réhabilitation du genre Bryophyllum Salisb. (Crassulacées Kalanchoidées).  Compt. Rend. Hebd. Séances Acad. Sci., Sér. D 278: 2505–2508.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves mostly pinnate (or the 1st simple), blade elliptic-oblong, margins crenate-serrate; calyx 25–50 mm, inflated</statement>
+      <description type="morphology">Leaves mostly pinnate (or the 1st simple), blade elliptic-oblong, margins crenate-serrate; calyx 25–50 mm, inflated</description>
       <determination>5.   Bryophyllum pinnatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves all simple, blade triangular to obovate, lanceolate, or subcylindric, margins crenate, sinuate, serrate, or entire; calyx 6–25 mm, inflated or not.</statement>
+      <description type="morphology">Leaves all simple, blade triangular to obovate, lanceolate, or subcylindric, margins crenate, sinuate, serrate, or entire; calyx 6–25 mm, inflated or not.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas to 2 times length of calyx, contracted basally; calyx lobes shorter than tube; bulbils borne in notches of leaf margins; herbage not mottled.</statement>
+      <description type="morphology">Corollas to 2 times length of calyx, contracted basally; calyx lobes shorter than tube; bulbils borne in notches of leaf margins; herbage not mottled.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves evenly spaced, petiole terete, blade obovate, 2–10 cm, lavender-gray; calyx</statement>
+      <description type="morphology">Leaves evenly spaced, petiole terete, blade obovate, 2–10 cm, lavender-gray; calyx</description>
       <determination>1.   Bryophyllum fedtschenkoi</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves crowded near base, subrosulate, petiole indefinite, broad, blade lanceolate, 15–50 cm, green or gray-green, sometimes with maroon or dark green blotches; calyx 18–25 mm; corolla 40–50 mm; plants monocarpic</statement>
+      <description type="morphology">Leaves crowded near base, subrosulate, petiole indefinite, broad, blade lanceolate, 15–50 cm, green or gray-green, sometimes with maroon or dark green blotches; calyx 18–25 mm; corolla 40–50 mm; plants monocarpic</description>
       <determination>4.   Bryophyllum gastonis-bonnieri</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas 3–4 times length of calyx, not contracted basally; calyx lobes equaling or longer than tube; bulbils borne on spoon-shaped spur in notch of leaf margins; herbage mottled.</statement>
+      <description type="morphology">Corollas 3–4 times length of calyx, not contracted basally; calyx lobes equaling or longer than tube; bulbils borne on spoon-shaped spur in notch of leaf margins; herbage mottled.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves petiolate, opposite, blade triangular to lanceolate, margins serrate and bulbiferous</statement>
+      <description type="morphology">Leaves petiolate, opposite, blade triangular to lanceolate, margins serrate and bulbiferous</description>
       <determination>2.   Bryophyllum daigremontianum</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Leaves with blades and petioles indistinguishable, mostly in 3s, blade and petiole subcylindric, margins entire except for 3–9 teeth at apex, bulbiferous at apex</statement>
+      <description type="morphology">Leaves with blades and petioles indistinguishable, mostly in 3s, blade and petiole subcylindric, margins entire except for 3–9 teeth at apex, bulbiferous at apex</description>
       <determination>3.   Bryophyllum delagoense</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

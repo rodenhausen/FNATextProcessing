@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cardamine</genus_name>
-    <species_name>angustata</species_name>
-    <species_authority>O. E. Schulz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="O. E. Schulz" date="unknown">angustata</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>32: 349. 1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>angustata</species_name>
-    <variety_name>ouachitana</variety_name>
-    <variety_authority>E. B. Smith</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dentaria</genus_name>
-    <species_name>heterophylla</species_name>
-    <species_authority>Nuttall</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; usually glabrous, rarely sparsely pubescent. Rhizomes (tuberiform, fragile) moniliform, segments fusiform, 3–6 mm diam. (fleshy). Stems erect, unbranched, 1.2–3(–4) dm, glabrous or pubescent. Rhizomal leaves 3-foliolate, to 24 cm, leaflets petiolulate or subsessile; petiole (3–)5–12(–16) cm; lateral leaflets subsessile or petiolulate (0.2–1 cm), blade similar to terminal leaflet or smaller; terminal leaflet (petiolule (0.2–)0.5–1.5(–2) cm, blade broadly ovate to rhombic-obovate, 1.5–6(–8) cm, base usually cuneate, rarely subtruncate, margins coarsely dentate to crenate or 3-lobed, surfaces puberulent or not. Cauline leaves 2 (or 3), 3-foliolate (usually alternate, rarely opposite, different in morphology from rhizomal), petiolate, leaflets petiolulate or sessile; petiole 0.5–2 cm, base not auriculate; lateral leaflets sessile, blade similar to terminal, smaller, margins usually dentate, rarely entire; terminal leaflet sessile or petiolulate, blade narrowly lanceolate to narrowly oblong or oblong-lanceolate, 2–7 × 0.3–0.6 cm, margins minutely puberulent. Racemes ebracteate. Fruiting pedicels ascending to divaricate, 15–40 mm. Flowers: sepals oblong, 5–7.5 × 1–2 mm, lateral pair slightly saccate basally; petals purple to pale pink, oblanceolate, 9–18 × 2–5 mm (clawed, apex rounded); filaments: median pairs 5–10 mm, lateral pair 3.5–8 mm; anthers linear, 1.5–3 mm. Fruits linear, 2.5–4 cm × 1.5–2.5 mm; ovules 8–12 per ovary; style (5–)7–11 mm. Seeds dark brown, oblong, 2–2.5 × 1–1.5 mm. 2n = ca. 128.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>moist woods</habitat>
-  <habitat>wooded ridges and bottomlands</habitat>
-  <habitat>floodplains</habitat>
-  <habitat>shady ravines</habitat>
-  <habitat>streambeds</habitat>
-  <elevation>300–1300 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Cardamine;species angustata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">angustata</taxon_name>
+    <taxon_name rank="variety" authority="E. B. Smith" date="unknown">ouachitana</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species angustata;variety ouachitana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dentaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">heterophylla</taxon_name>
+    <taxon_hierarchy>genus Dentaria;species heterophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Cardamine heterophylla (Nuttall) Alph. Wood (1870), not Host (1797) is an illegitimate name, sometimes found in synonymy with C. angustata.</discussion>
-</treatment>
+</bio:treatment>

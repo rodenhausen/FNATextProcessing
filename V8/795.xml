@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>insularis</species_name>
-    <species_authority>Greene ex Parry</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Greene ex Parry" date="unknown">insularis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 494.  1887  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Island manzanita</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>insularis</species_name>
-    <variety_name>pubescens</variety_name>
-    <variety_authority>Eastwood</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, erect, (arborescent), 2–5 m; burl absent; (lower stems reddish with glaucous patches); twigs glabrous, sometimes sparsely short-hairy or sparsely glandular-hairy.  Leaves bifacial in stomatal distribution; petiole 4–8 mm; blade bright green, lustrous, oblong-elliptic, 2.5–4.5 × 1–3 cm, base rounded, margins entire, ± cupped, surfaces smooth, glabrous.  Inflorescences panicles, 5–10-branched; immature inflorescence pendent, branches spreading, ascending, or erect, axis 2–3 cm, 1+ mm diam., glabrous, sometimes sparsely short-hairy or sparsely glandular-hairy, (buds ± spread apart); bracts not appressed, scalelike, deltate, 1.5–3 mm, apex acute, surfaces finely glandular-hairy.  Pedicels 6–9 mm, finely glandular-hairy.  Flowers: corolla white, conic to urceolate; ovary glabrous or sparsely glandular-hairy.  Fruits depressed-globose, 8–15 mm diam., sparsely hairy or glabrous.  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Island chaparral and woodlands</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>200–400 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species insularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">insularis</taxon_name>
+    <taxon_name rank="variety" authority="Eastwood" date="unknown">pubescens</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species insularis;variety pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Island manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Arctostaphylos insularis is known from Santa Cruz Island.</discussion>
-</treatment>
+</bio:treatment>

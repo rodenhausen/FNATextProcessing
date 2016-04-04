@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micropsis</genus_name>
-    <species_name>dasycarpa</species_name>
-    <species_authority>(Grisebach) Beauverd</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropsis</taxon_name>
+    <taxon_name rank="species" authority="(Grisebach) Beauverd" date="unknown">dasycarpa</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Soc. Bot. Genève, sér.</publication_title>
       <place_in_publication>2, 5: 224. 1913</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Micropsis;species dasycarpa;</taxon_hierarchy>
-  <common_name>Bighead straitjackets</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Filago</genus_name>
-    <species_name>dasycarpa</species_name>
-    <species_authority>Grisebach</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Micropsis;species dasycarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Filago</taxon_name>
+    <taxon_name rank="species" authority="Grisebach" date="unknown">dasycarpa</taxon_name>
     <place_of_publication>
       <publication_title>Abh. Königl. Ges. Wiss. Göttingen</publication_title>
       <place_in_publication>24: 185. 1879</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants mostly 5–8 cm. Leaves 6–9 × 2–4 mm. Heads congested distally, mostly 4–5 mm. Bisexual corollas: lobes usually 4.</description>
-  <phenology_info>
-    <text>Flowering and fruiting Mar–May.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>drying mud at edge of pool ;</text>
-    <habitat>drying mud at edge of pool</habitat>
-  </habitat_info>
-  <elevation>± 20 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>se South America.</global_distribution>
+    <taxon_hierarchy>genus Filago;species dasycarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Bighead straitjackets</other_name>
   <discussion>Micropsis dasycarpa is known in the flora area from one gathering (Victoria County, Gulf Coast prairie with Mimosa strigillosa Torrey &amp; A. Gray, in 1987). For this treatment, I have assumed the Texas population to be a recent introduction; R. Barneby provided evidence that M. dasycarpa could be an overlooked amphitropical native (J. D. Morefield 2004; see also discussion under 101. Psilocarphus).</discussion>
-</treatment>
-
+</bio:treatment>

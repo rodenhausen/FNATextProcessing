@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Corispermum</genus_name>
-        <species_name>ochotense</species_name>
-        <species_authority>Ignatov</species_authority>
-        <variety_name>alaskanum</variety_name>
-        <variety_authority>Mosyakin</variety_authority>
-        <place_of_publication>
-            <publication_title>Novon</publication_title>
-            <place_in_publication>5: 351. 1995</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>fruits 3.2–4 × 2.2–2.7 mm,.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>Sandy river bars and dunes;</habitat>
-    <elevation>0–100 m</elevation>
-    <us_distribution>Alaska.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corispermum</taxon_name>
+    <taxon_name rank="species" authority="Ignatov" date="unknown">ochotense</taxon_name>
+    <taxon_name rank="variety" authority="Mosyakin" date="unknown">alaskanum</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>5: 351. 1995</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Corispermum;species ochotense;variety alaskanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+</bio:treatment>

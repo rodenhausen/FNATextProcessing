@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pereskia</genus_name><species_name>grandifolia</species_name><species_authority>Haworth</species_authority><place_of_publication>
-    <publication_title>Suppl. Pl. Succ.,</publication_title>
-    <place_in_publication>85. 1819</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Rose cactus</common_name><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><global_distribution>tropical and subtropical regions of the New World.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Engelmann" date="unknown">Pereskioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pereskia</taxon_name>
+    <taxon_name rank="species" authority="Haworth" date="unknown">grandifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Suppl. Pl. Succ.,</publication_title>
+      <place_in_publication>85. 1819</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Pereskioideae;genus Pereskia;species grandifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Rose cactus</other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

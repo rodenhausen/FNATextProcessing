@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">reclinatum</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">reclinatum</taxon_name>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species reclinatum;subspecies reclinatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">microcarpa</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species microcarpa;</taxon_hierarchy>
+  </taxon_identification>
   <number>7a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>reclinatum</species_name>
-    <species_authority>Michaux</species_authority>
-    <subspecies_name>reclinatum</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>microcarpa</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, to 5 m.  Stems glabrous or glabrate.  Leaves deciduous; petiole 1.5–6 mm; blade 9–52 mm, abaxial surface glabrous or sparsely villous along midrib.  Pedicels 2–16 mm, glabrous.  Flowers: sepals glabrous; ovary sparsely strigose.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Floodplain forests, low pine woodlands and savannas, glades</habitat>
-  <elevation>10–100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-</treatment>
+</bio:treatment>

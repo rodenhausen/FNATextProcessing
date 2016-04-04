@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>ovalifolia</species_name>
-    <species_authority>Trautvetter</species_authority>
-    <variety_name>arctolitoralis</variety_name>
-    <variety_authority>(Hultén) Argus</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Trautvetter" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Hultén) Argus" date="unknown">arctolitoralis</taxon_name>
     <place_of_publication>
       <publication_title>Canad. J. Bot.</publication_title>
       <place_in_publication>47: 795. 1969</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>arctolitoralis</species_name>
-    <species_authority>Hultén</species_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species ovalifolia;variety arctolitoralis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">arctolitoralis</taxon_name>
     <place_of_publication>
       <publication_title>Svensk Bot. Tidskr.</publication_title>
       <place_in_publication>34: 373, fig. 1. 1940</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves: petiole 4–16 mm; largest medial blade narrowly to broadly elliptic or obovate, 25–46 × 10–20 mm, 1.6–3.4 times as long as wide, base convex, apex convex, acute, acuminate, or rounded, abaxial surface glabrous, sparsely pubescent, or pilose. Catkins: staminate 23–46 × 8–11 mm, flowering branchlet 3–24 mm; pistillate stout to subglobose, 28–48 × 10–28 mm, flowering branchlet 5–22 mm. Staminate flowers: abaxial nectary 0.8–1.1 mm, adaxial nectary 0.7–1.1 mm, nectaries connate and cup-shaped. Pistillate flowers: abaxial nectary absent, adaxial nectary ovate, 0.5–1.9 mm; stipe 0.2–1.4 mm; ovary often glaucous, glabrous. Capsules 5.2–9.6 mm.</description>
-  <phenology>jul</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>arctic, coastal beach ridges</habitat>
-  <habitat>sand spits</habitat>
-  <habitat>tundra meadows</habitat>
-  <elevation>10–30 m;</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Salix;species arctolitoralis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>38c.</number>
+</bio:treatment>

@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Commelina</genus_name><species_name>diffusa</species_name><variety_name>gigas</variety_name><variety_authority>(Small) Faden</variety_authority><place_of_publication><publication_title>Annals of the Missouri Botanical Garden</publication_title><place_in_publication>80: 213. 1993</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Commelina</genus_name><species_name>gigas</species_name><species_authority>Small</species_authority><place_of_publication><publication_title>Man. S.E. Fl., </publication_title><place_in_publication>264. 1933</place_in_publication></place_of_publication></TaxonIdentification><description>Herbs, perennial, robust, spreading, sometimes scrambling in shrubs. Leaves: blade narrowly lanceolate to lanceolate-elliptic, 6--14 &amp;#180; 1--3.3 cm, apex acuminate. Inflorescences: distal cyme usually exserted, 1--3-flowered; proximal cyme 2--5-flowered; spathes pedunculate, falcate, 2.3--4 &amp;#180; 0.5--1.1 cm, apex acuminate; peduncles 1--2(--4) cm. Flowers blue; medial stamen anther connective without dark band. Capsules 3-locular, 2-valved. Seeds typically only 1--2 developing, dark brown, 2.1--2.8 mm, deeply reticulate. 2n = 90.</description><discussion>Commelina diffusa is a very variable species throughout its vast range. I have not been able to match C. diffusa var. gigas with specific herbarium specimens from elsewhere. It probably arrived as an introduction instead of arising from diploid C. diffusa through in situ autopolyploidy.</discussion><phenology>Flowering spring--fall (perhaps all year round)</phenology><habitat> Hammocks, streamsides, ditches, cypress swamps, wet woods, and lake shores</habitat><introduced>introduced</introduced><us_distribution>Fla.</us_distribution><habitat>Asia.</habitat><references heading="SELECTED REFERENCE"><reference> Austin, D. F. 1985. Commelina gigas rediscovered and lost. Palmetto 5(4): 11.</reference></references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Commelina</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">diffusa</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Faden" date="unknown">gigas</taxon_name>
+    <place_of_publication>
+      <publication_title>Annals of the Missouri Botanical Garden</publication_title>
+      <place_in_publication>80: 213. 1993</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Commelina;species diffusa;variety gigas;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Commelina</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">gigas</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. S.E. Fl.,</publication_title>
+      <place_in_publication>264. 1933</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Commelina;species gigas;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b</number>
+  <discussion>Commelina diffusa is a very variable species throughout its vast range. I have not been able to match C. diffusa var. gigas with specific herbarium specimens from elsewhere. It probably arrived as an introduction instead of arising from diploid C. diffusa through in situ autopolyploidy.</discussion>
+  <references>
+    <reference>Austin, D. F. 1985. Commelina gigas rediscovered and lost. Palmetto 5(4): 11.</reference>
+  </references>
+</bio:treatment>

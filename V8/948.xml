@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>polifolia</species_name>
-    <species_authority>Wangenheim</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Wangenheim" date="unknown">polifolia</taxon_name>
     <place_of_publication>
       <publication_title>Schriften Ges. Naturf. Freunde Berlin</publication_title>
       <place_in_publication>8(3): 130, plate 5.  1788  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bog</common_name>
-  <common_name>swamp</common_name>
-  <common_name>or pale laurel</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalmia</genus_name>
-    <species_name>glauca</species_name>
-    <species_authority>Aiton</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs erect, to 1 m.  Twigs slightly flattened, 2-angled, viscid, glabrous or puberulent in decurrent, ciliolate lines from petiole base.  Leaves opposite; petiole 0.1–3 mm, glabrous or puberulent (base ciliate); blade usually oblong to linear, sometimes oval, 1.5–4.5 × 0.3–1.5 cm, margins usually revolute, apex obtuse to acute, abaxial surface puberulent, adaxial glabrate with puberulent bands on either side of midrib, midribs on both surfaces covered with purple, clavate trichomes.  Inflorescences solitary flowers or terminal, corymbiform racemes, 3–8(–17)-flowered.  Pedicels 15–30 mm.  Flowers: sepals pale, translucent, white to light pink, ovate, 2.9–4 mm, apex obtuse, surfaces glabrous, margins ciliate; petals connate their entire lengths, usually rose-purple or pink, rarely white, 9–11 × 12–18 mm, glabrous except puberulent near base abaxially; filaments 4–5 mm; style 4.5–7 mm.  Capsules 5-locular, 4–6 × 4–7 mm, glabrous.  Seeds winged, oblong, 1.5–2.2 mm.  2n = 48.</description>
-  <phenology>Flowering May–Jul</phenology>
-  <habitat>Open bogs, swamps, wet alpine slopes</habitat>
-  <elevation>0–800 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>introduced in Europe (England).</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species polifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">glauca</taxon_name>
+    <taxon_hierarchy>genus Kalmia;species glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Bog</other_name>
+  <other_name type="common_name">swamp</other_name>
+  <other_name type="common_name">or pale laurel</other_name>
   <discussion>Kalmia polifolia is very closely related to K. microphylla and there is no general agreement on their taxonomic treatment.  The two taxa have different flavonoid profiles and are distinctly separated (S. Liu 1993).  The controversial Pacific lowland (Washington to Alaska) entity occidentalis resembles K. polifolia in structure; it is closely related to typical microphylla chemically and is separable from K. polifolia by key characters.</discussion>
-</treatment>
+</bio:treatment>

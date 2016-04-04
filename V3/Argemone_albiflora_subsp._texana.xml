@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Argemone</genus_name><species_name>albiflora</species_name><species_authority>Hornemann</species_authority><subspecies_name>texana</subspecies_name><subspecies_authority>G. B. Ownbey</subspecies_authority><place_of_publication><publication_title> Mem. Torrey Bot. Club </publication_title><place_in_publication>21: 141. 1958</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="SYNONYM"><genus_name>Argemone</genus_name><species_name>albiflora</species_name><variety_name>texana</variety_name><variety_authority>(G. B. Ownbey) Shinners</variety_authority></TaxonIdentification><description>Stems sparsely to moderately prickly. Leaf blades: basal and proximal lobed nearly to midrib. Inflorescences: sepal horns 4-6(-l0) mm, unarmed or sparingly prickly near base. Capsules usually narrowly ellipsoid, surface partially obscured, longer prickles widely spaced, interspersed with numerous, shorter, unequal ones. 2n = 28.</description><phenology>Flowering early spring-summer; fruiting spring-fall</phenology><habitat> Pastures and waste ground</habitat><elevation> 0-300 m</elevation><us_distribution> Ark.</us_distribution><us_distribution> La.</us_distribution><us_distribution> Mo.</us_distribution><us_distribution> Tex.</us_distribution><discussion>Argemone albiflora subsp. texana is introduced in Arkansas and Missouri.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Argemone</taxon_name>
+    <taxon_name rank="species" authority="Hornemann" date="unknown">albiflora</taxon_name>
+    <taxon_name rank="subspecies" authority="G. B. Ownbey" date="unknown">texana</taxon_name>
+    <place_of_publication>
+      <publication_title>Mem. Torrey Bot. Club</publication_title>
+      <place_in_publication>21: 141. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Argemone;species albiflora;subspecies texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Argemone</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">albiflora</taxon_name>
+    <taxon_name rank="variety" authority="(G. B. Ownbey) Shinners" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Argemone;species albiflora;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15b.</number>
+  <discussion>endemic</discussion>
+  <discussion>Argemone albiflora subsp. texana is introduced in Arkansas and Missouri.</discussion>
+</bio:treatment>

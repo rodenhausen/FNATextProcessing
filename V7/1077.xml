@@ -1,95 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>kingii</species_name>
-    <species_authority>(S. Watson) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) O’Kane &amp; Al-Shehbaz" date="unknown">kingii</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 324. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>King bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vesicaria</genus_name>
-    <species_name>kingii</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species kingii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vesicaria</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">kingii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>20: 353. 1885</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>kingii</species_name>
-    <species_authority>(S. Watson) S. Watson</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex usually simple, sometimes branched, (not thickened); usually densely pubescent, trichomes (sessile or short-stalked), 3–7-rayed, rays distinct or slightly fused at base, typically furcate near base, bifurcate or 3-partite, (not to slightly umbonate, smooth or moderately to strongly tuberculate). Stems few to several from base, prostrate to decumbent or erect, 0.5–2(–4) dm. Basal leaves: blade suborbicular to narrowly or broadly oblanceolate to broadly elliptic or rhombic, (1.2–)2–6(–8) cm, (base usually abruptly narrowed to petiole), margins entire, sinuate, or lobed. Cauline leaves: (proximal petiolate, distal sessile); blade obovate or elliptic to spatulate, 0.5–2 cm, margins entire. Racemes (usually not secund), dense, (sometimes elongated in fruit). Fruiting pedicels (erect to divaricate-ascending or recurved, erect in distal 1/3, usually sigmoid, sometimes straight or slightly curved), 4.5–10(–15) mm. Flowers: sepals lanceolate, 4–6(–7) mm; petals (yellow, cream-yellow, cream-white, or white), obovate to oblanceolate, 6–13 mm, (claw weakly differentiated from blade). Fruits (sessile or substipitate), subglobose, obovoid, or ellipsoid, compressed (sometimes slightly angustiseptate), 3–9 mm, (rigid, apex truncate, retuse, or rounded-acute); valves sparsely or densely pubescent, sometimes sparsely pubescent inside; (septum sometimes fenestrate, perforate, or obsolete); ovules 4–16 per ovary; style 1–9 mm. Seeds flattened (sometimes slightly).</description>
-  <number_of_infrataxa>Subspecies 7 (7 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>genus Vesicaria;species kingii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) S. Watson" date="unknown">kingii</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species kingii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>44.</number>
+  <other_name type="common_name">King bladderpod</other_name>
+  <discussion>Subspecies 7 (7 in the flora):</discussion>
   <discussion>The Physaria kingii complex is in need of further study. It is widespread in the western United States, mostly in montane environments. This treatment recognizes a highly variable species with generally well-marked, geographically coherent subspecies. Hybridization may be involved in some of the subspecies, especially in subsp. kaibabensis, where molecular data indicate intra-individual genetic variation (pers. obs.).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits slightly wider than long, apices truncate or retuse, valves pubescent inside.</statement>
+      <description type="morphology">Fruits slightly wider than long, apices truncate or retuse, valves pubescent inside.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blades: margins ± entire (sometimes slightly lobed or widened at base); California, Idaho, Nevada, Oregon</statement>
+      <description type="morphology">Basal leaf blades: margins ± entire (sometimes slightly lobed or widened at base); California, Idaho, Nevada, Oregon</description>
       <determination>44a. Physaria kingii subsp. kingii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blades: margins sinuate or lobed, or, sometimes, lyrate; Wallowa and Elkhorn mountains, Oregon</statement>
+      <description type="morphology">Basal leaf blades: margins sinuate or lobed, or, sometimes, lyrate; Wallowa and Elkhorn mountains, Oregon</description>
       <determination>44d. Physaria kingii subsp. diversifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits as wide as or longer than wide, apices rounded-acute, valves glabrous inside.</statement>
+      <description type="morphology">Fruits as wide as or longer than wide, apices rounded-acute, valves glabrous inside.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting pedicels recurved</statement>
+      <description type="morphology">Fruiting pedicels recurved</description>
       <determination>44c. Physaria kingii subsp. cobrensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruiting pedicels not recurved (divaricate-ascending or ± erect, straight or sigmoid).</statement>
+      <description type="morphology">Fruiting pedicels not recurved (divaricate-ascending or ± erect, straight or sigmoid).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals cream-white or white; styles 1–2 mm; Kaibab Plateau, n Arizona</statement>
+      <description type="morphology">Petals cream-white or white; styles 1–2 mm; Kaibab Plateau, n Arizona</description>
       <determination>44e. Physaria kingii subsp. kaibabensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals yellow (occasionally cream-yellow or cream-white on Kaibab Plateau, Arizona); styles (4–)4.5–9 mm; n Arizona (including Kaibab Plateau), California, Nevada, Utah.</statement>
+      <description type="morphology">Petals yellow (occasionally cream-yellow or cream-white on Kaibab Plateau, Arizona); styles (4–)4.5–9 mm; n Arizona (including Kaibab Plateau), California, Nevada, Utah.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants erect; styles 6–9 mm; ovules 4–8 per ovary; se California</statement>
+      <description type="morphology">Plants erect; styles 6–9 mm; ovules 4–8 per ovary; se California</description>
       <determination>44b. Physaria kingii subsp. bernardina</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants ascending, erect, decumbent, or prostrate; styles (4–)4.5–7 mm; ovules (6–)8–16 per ovary; n Arizona, e California, s Nevada, Utah.</statement>
+      <description type="morphology">Plants ascending, erect, decumbent, or prostrate; styles (4–)4.5–7 mm; ovules (6–)8–16 per ovary; n Arizona, e California, s Nevada, Utah.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Plants prostrate, decumbent, or erect; racemes not or somewhat secund in fruit; ovules usually 8–16 per ovary; n Arizona, e California, s Nevada, Utah</statement>
+      <description type="morphology">Plants prostrate, decumbent, or erect; racemes not or somewhat secund in fruit; ovules usually 8–16 per ovary; n Arizona, e California, s Nevada, Utah</description>
       <determination>44f. Physaria kingii subsp. latifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Plants ascending; racemes secund in fruit; ovules (6–)8–12 per ovary; n Utah</statement>
+      <description type="morphology">Plants ascending; racemes secund in fruit; ovules (6–)8–12 per ovary; n Utah</description>
       <determination>44g. Physaria kingii subsp. utahensis</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

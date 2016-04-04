@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Campylopus</genus_name>
-    <species_name>gracilis</species_name>
-    <species_authority>(Mitten) A. Jaeger</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="(Mitten) A. Jaeger" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Ber. Thätigk. St. Gallischen Naturwiss. Ges.</publication_title>
       <place_in_publication>1870–1871: 427.  1872,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>gracile</species_name>
-    <species_authority>Mitten</species_authority>
+    <taxon_hierarchy>genus Campylopus;species gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Mitten" date="unknown">gracile</taxon_name>
     <place_of_publication>
       <publication_title>J. Linn. Soc., Bot., suppl.</publication_title>
       <place_in_publication>1: 17.  1859</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>schwarzii</species_name>
-    <species_authority>Schimper</species_authority>
-  </TaxonIdentification>
-  <description>Plants 1–8 cm, glossy yellowish green or golden green, not tomentose.  Leaves 5–8 mm, erect when wet, appressed when dry, rarely falcate, narrowly lanceolate, ending in a long and fine, concolorous subula; alar cells conspicuous, hyaline, projecting into the costa; basal laminal cells hyaline, thin-walled, long-rectangular, lamina very short, ending at mid leaf, distal laminal cells short-rectangular or oblique, very small; costa very broad, occupying 3/4–4/5 of leaf width, long-excurrent in a fine almost entire subula, in transverse section showing very large, lax adaxial hyalocysts filling half of the costa thickness and no abaxial stereids, faintly abaxially ridged.  Specialized asexual reproduction by deciduous leaves or broken leaf tips.  Sporophytes not known.</description>
-  <habitat>Wet soil and soil covered rocks, wet cliffs in boggy slopes in subalpine habitats;</habitat>
-  <elevation>low elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species gracile;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="Schimper" date="unknown">schwarzii</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species schwarzii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
   <discussion>Campylopus gracilis is easily recognized by a very broad costa, occupying 3/4 or more of the leaf width, very small shortly rectangular, distal laminal cells and large auricles projecting distinctly into the costa.  In Europe, the species is found in similar situations in the highly oceanic parts as in the west coast of North America, where it is found on Queen Charlotte Islands and adjacent mainland. It is also found (as in C. atrovirens) in the Alps.</discussion>
-</treatment>
+</bio:treatment>

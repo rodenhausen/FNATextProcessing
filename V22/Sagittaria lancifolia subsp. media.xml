@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Sagittaria</genus_name><species_name>lancifolia</species_name><subspecies_name>media</subspecies_name><subspecies_authority>(Micheli) Bogin</subspecies_authority><place_of_publication><publication_title>Memoirs of the New York Botanical Garden</publication_title><place_in_publication>9: 214. 1955</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Sagittaria</genus_name><species_name>lancifolia</species_name><variety_name>media</variety_name><variety_authority>Micheli</variety_authority><place_of_publication><publication_title>in A. L. P. de Candolle and C. de Candolle, Monogr. Phan. </publication_title><place_in_publication>3: 73. 1881</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Sagittaria</genus_name><species_name>falcata</species_name><species_authority>Pursh</species_authority></TaxonIdentification><description>Leaves lanceolate to broadly ovate. Inflorescences: bracts papillose. Flowers: sepals papillose. 2n = 22.</description><phenology>Flowering summer--fall</phenology><habitat> Brackish marshes near coast</habitat><elevation>0--50 m</elevation><us_distribution>Ala.</us_distribution><us_distribution> Fla.</us_distribution><us_distribution> Ga.</us_distribution><us_distribution> La.</us_distribution><us_distribution> Miss.</us_distribution><us_distribution> N.C.</us_distribution><us_distribution> S.C.</us_distribution><us_distribution> Tex.</us_distribution><us_distribution> Va.</us_distribution><global_distribution>coastal s Mexico</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America (Colombia and Ecuador).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">lancifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Micheli) Bogin" date="unknown">media</taxon_name>
+    <place_of_publication>
+      <publication_title>Memoirs of the New York Botanical Garden</publication_title>
+      <place_in_publication>9: 214. 1955</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species lancifolia;subspecies media;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lancifolia</taxon_name>
+    <taxon_name rank="variety" authority="Micheli" date="unknown">media</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. L. P. de Candolle and C. de Candolle, Monogr. Phan.</publication_title>
+      <place_in_publication>3: 73. 1881</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sagittaria;species lancifolia;variety media;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sagittaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">falcata</taxon_name>
+    <taxon_hierarchy>genus Sagittaria;species falcata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14b</number>
+</bio:treatment>

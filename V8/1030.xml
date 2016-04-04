@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>hirsutum</species_name>
-    <species_authority>Buckley</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">hirsutum</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Sci. Arts</publication_title>
       <place_in_publication>45: 175.  1843   ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Hairy blueberry</common_name>
-  <common_name>woolly berry</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyanococcus</genus_name>
-    <species_name>hirsutus</species_name>
-    <species_authority>(Buckley) Small</species_authority>
-  </TaxonIdentification>
-  <description>Plants forming open colonies, 2–5(–7.5) dm; twigs green, slightly angled, pilose or hairy.  Leaves deciduous; blade green, elliptic, 23–62 × 10–36 mm, subcoriaceous, margins entire, surfaces densely hairy, eglandular abaxially.  Flowers: calyx green, glandular-hairy; corolla white, cylindric, 5–9 mm, (glandular-hairy); filaments hairy.  Berries black, 7–9 mm diam., hairy.  Seeds 3–9, ca. 1 mm.  2n = 48.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Dry oak-pine ridges and mountain meadows</habitat>
-  <elevation>600–1500 m</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Vaccinium;species hirsutum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyanococcus</taxon_name>
+    <taxon_name rank="species" authority="(Buckley) Small" date="unknown">hirsutus</taxon_name>
+    <taxon_hierarchy>genus Cyanococcus;species hirsutus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
+  <other_name type="common_name">Hairy blueberry</other_name>
+  <other_name type="common_name">woolly berry</other_name>
   <discussion>Vaccinium hirsutum is uncommon (but not threatened) in Tennessee, rare in North Carolina, and probably extirpated in Georgia.</discussion>
-</treatment>
+</bio:treatment>

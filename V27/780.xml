@@ -1,68 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Didymodon</genus_name>
-    <species_name>rigidulus</species_name>
-    <variety_name>icmadophilus</variety_name>
-    <variety_authority>(Schimper ex Müller Hal.) R. H. Zander</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="Schimper ex Müller Hal." date="unknown">rigidulus</taxon_name>
+    <taxon_name rank="variety" authority="(Schimper ex Müller Hal.) R. H. Zander" date="unknown">icmadophilus</taxon_name>
     <place_of_publication>
       <publication_title>Cryptog. Bryol. Lichénol.</publication_title>
       <place_in_publication>2: 394.  1981,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>icmadophila</species_name>
-    <species_authority>Schimper ex Müller Hal.</species_authority>
+    <taxon_hierarchy>genus Didymodon;species rigidulus;variety icmadophilus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="(Schimper ex Müller Hal.) K. Saito" date="unknown">icmadophila</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>1: 614.  1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>acuta</species_name>
-    <variety_name>icmadophila</variety_name>
-    <variety_authority>(Schimper ex Müller Hal.) H. A. Crum</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>acutus</species_name>
-    <variety_name>icmadophilus</variety_name>
-    <variety_authority>(Schimper ex Müller Hal.) R. H. Zander</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>icmadophilus</species_name>
-    <species_authority>(Schimper ex Müller Hal.) K. Saito</species_authority>
-  </TaxonIdentification>
-  <description>Stem leaves appressed to weakly spreading when dry, long-lanceolate, abruptly broadened, oval; costa usually long-excurrent as a straight or flexuose, often fragile subula; proximal cells usually quadrate; distal laminal cells usually smooth, quadrate, with angular lumens, distal lamina rarely 2-stratose in patches; gemmae very rare.  Peristome teeth short and straight to long and twisted.</description>
-  <phenology>Capsules mature summer–fall.</phenology>
-  <habitat>Marble, limestone, sandstone, ledges, soil, sand of beaches and dunes, frost boil, old musk ox feces;</habitat>
-  <elevation>low to high elevations (40–2800 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland).</global_distribution>
+    <taxon_hierarchy>genus Barbula;species icmadophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">acuta</taxon_name>
+    <taxon_name rank="variety" authority="(Schimper ex Müller Hal.) H. A. Crum" date="unknown">icmadophila</taxon_name>
+    <taxon_hierarchy>genus Barbula;species acuta;variety icmadophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">acutus</taxon_name>
+    <taxon_name rank="variety" authority="(Schimper ex Müller Hal.) R. H. Zander" date="unknown">icmadophilus</taxon_name>
+    <taxon_hierarchy>genus Didymodon;species acutus;variety icmadophilus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">icmadophilus</taxon_name>
+    <taxon_hierarchy>genus Didymodon;species icmadophilus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1e.</number>
   <discussion>Variety icmadophilus is similar to var. gracilis in general aspect but the leaf apices are usually hairlike and protuberant, the distal laminal cells are usually smooth and their lumens usually angular.  It is common on the North American Plains, where it may occur in association with Didymodon fallax.  The former plant is green in young parts, sometimes with a blue-black cast, but commonly red basally, and has boat-shaped elongate, erect leaves that are only slightly incurved when dry, laminal cells smooth and costa excurrent and often flexuose.  Didymodon fallax has light green to reddish green color throughout and triangular leaves that are often incurved or even catenulate when dry, costa percurrent and leaves papillose.  Variety icmadophilus is rare in the East: Tennessee, Sharp 34606, TENN, and New York, Drummond 120, NY, are apparently this variety.</discussion>
-</treatment>
+</bio:treatment>

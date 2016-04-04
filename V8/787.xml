@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>parryana</species_name>
-    <species_authority>Lemmon</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Lemmon" date="unknown">parryana</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>2: 68.  1890  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Parry manzanita</common_name>
-  <description>Shrubs, prostrate, erect, or mound-forming, 0.5–2 m; burl present or absent; twigs sparsely to moderately short-hairy.  Leaves: petiole 5–10 mm; blade bright green or gray-glaucous, usually shiny, sometimes dull, oblong-ovate to wide-elliptic, 2.5–5 × 1.5–2.5 cm, base obtuse to truncate, margins entire, plane, surfaces smooth, glabrous or sparsely puberulent.  Inflorescences panicles, 3–5-branched; immature inflorescence pendent, branches spreading, axis 0.5–1.5 cm, 1+ mm diam., sparsely to moderately short-hairy; bracts ± appressed, scalelike, deltate to wide-ovate, 2–4 mm, apex mucronate, surfaces glabrous.  Pedicels 4–9 mm, glabrous.  Flowers: corolla white, conic to urceolate; ovary glabrous.  Fruits globose, 7–10 mm diam., glabrous.  Stones connate into single sphere.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <us_distribution>California.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species parryana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
+  <other_name type="common_name">Parry manzanita</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades gray-glaucous, dull; burls present</statement>
+      <description type="morphology">Leaf blades gray-glaucous, dull; burls present</description>
       <determination>14c.   Arctostaphylos parryana subsp. desertica</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades bright green, shiny; burls present or absent.</statement>
+      <description type="morphology">Leaf blades bright green, shiny; burls present or absent.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Burls absent</statement>
+      <description type="morphology">Burls absent</description>
       <determination>14a.   Arctostaphylos parryana subsp. parryana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Burls present</statement>
+      <description type="morphology">Burls present</description>
       <determination>14b.   Arctostaphylos parryana subsp. tumescens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3a.1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Amaranthus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Acnida</subgenus_name><section_name>Acnida</section_name><section_authority>(Linnaeus) Mosyakin &amp; K. R. Robertson</section_authority><place_of_publication>
-    <publication_title>Ann. Bot. Fenn.</publication_title>
-    <place_in_publication>33: 277. 1996</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><section_name>Acnida</section_name><section_authority>Linnaeus</section_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>2: 1027. 1753</place_in_publication></place_of_publication><place_of_publication><publication_title>Gen. Pl. ed. </publication_title><place_in_publication>5, 452. 1754</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Acnida</genus_name><section_name>Acnidastrum</section_name><section_authority>Moquin-Tandon</section_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Acnida</genus_name><section_name>Montelia</section_name><section_authority>Moquin-Tandon</section_authority></TaxonIdentification><description>Plants annual, glabrous. Bracts not enfolding flower, not leaflike, narrowly elliptic to subulate-linear, margins entire, plane (or in some species indistinctly undulate). Pistillate flowers: tepals absent or 1–2, reduced-linear or linear-lanceolate. Utricles usually indehiscent (dehiscent in some forms of A. tuberculatus).</description><number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa><global_distribution>North America</global_distribution><global_distribution>Mexico</global_distribution><global_distribution>West Indies</global_distribution><global_distribution>South America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Amaranthus</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Acnida</taxon_name>
+    <taxon_name rank="section" authority="(Linnaeus) Mosyakin &amp; K. R. Robertson" date="unknown">Acnida</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Bot. Fenn.</publication_title>
+      <place_in_publication>33: 277. 1996</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Amaranthus;subgenus Acnida;section Acnida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="Linnaeus" date="unknown">Acnida</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1027. 1753</place_in_publication>
+    </place_of_publication>
+    <place_of_publication>
+      <publication_title>Gen. Pl. ed.</publication_title>
+      <place_in_publication>5, 452. 1754</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>section Acnida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Acnida</taxon_name>
+    <taxon_name rank="section" authority="Moquin-Tandon" date="unknown">Acnidastrum</taxon_name>
+    <taxon_hierarchy>genus Acnida;section Acnidastrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Acnida</taxon_name>
+    <taxon_name rank="section" authority="Moquin-Tandon" date="unknown">Montelia</taxon_name>
+    <taxon_hierarchy>genus Acnida;section Montelia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3a.1.</number>
+  <discussion>Species 4 (4 in the flora):</discussion>
+</bio:treatment>

@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>hydrophilum</species_name>
-    <species_authority>(Greene) Jepson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Jepson" date="unknown">hydrophilum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. W. Calif.,</publication_title>
       <place_in_publication>507. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species hydrophilum;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>hydrophilus</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species hydrophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">hydrophilus</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>44: 358. 1893</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>vaseyi</species_name>
-    <species_authority>(A. Gray) Jepson</species_authority>
-    <variety_name>hydrophilum</variety_name>
-    <variety_authority>(Greene) Petrak</variety_authority>
-  </TaxonIdentification>
-  <description>Biennials or monocarpic perennials, 100–220 cm; taprooted. Stems 1–several, erect, (hollow), openly branched distally or throughout, thinly arachnoid with fine, non-septate trichomes, glabrate. Leaves: blades elliptic to broadly oblanceolate, 10–40+ cm, pinnatifid 1/2–2/3 distance to midveins, larger usually with broad sinuses, lobes broad, few lobed or dentate, main spines 2–9 mm, abaxial faces ± gray-tomentose, sometimes ± glabrate, adaxial thinly arachnoid-tomentose, soon glabrescent; basal present or withered at flowering, winged-petiolate; principal cauline sessile, progressively reduced distally, bases auriculate-clasping or shortly decurrent; distal cauline reduced, bractlike, often spinier than proximal. Heads borne singly or few at branch tips, sometimes subtended by clustered, ± leafy bracts, collectively forming ± open, many-headed paniculiform arrays. Peduncles 0–10+ cm. Involucres ovoid to campanulate, 1.5–2.5 × 1.5–3 cm, thinly arachnoid, glabrate. Phyllaries in 6–9 series, imbricate, dark green to brownish, lanceolate (outer) to linear (inner), abaxial faces with narrow glutinous ridge; outer and middle appressed, apices spreading, finely serrulate, spines slender, 1–2 mm; apices of inner erect, ± flexuous. Corollas pale rose-purple, 18–23 mm, tubes 8–10 mm, throats 5–6 mm, lobes 5–7 mm; style tips 3.5–4.5 mm. Cypselae dark brown to black, 4–5 mm, collars very narrow, stramineous; pappi ca. 15 mm. 2n = 32.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <us_distribution>California.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species hydrophilus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Jepson" date="unknown">vaseyi</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Petrak" date="unknown">hydrophilum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species vaseyi;variety hydrophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads usually 2.5–3 cm; cypselae ca. 5 mm, oblong; tidal marshes</statement>
+      <description type="morphology">Heads usually 2.5–3 cm; cypselae ca. 5 mm, oblong; tidal marshes</description>
       <determination>35a. Cirsium hydrophilum var. hydrophilum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads usually 3–3.5 cm; cypselae 4–5 mm, oblong or elliptic; serpentine springs</statement>
+      <description type="morphology">Heads usually 3–3.5 cm; cypselae 4–5 mm, oblong or elliptic; serpentine springs</description>
       <determination>35b. Cirsium hydrophilum var. vaseyi</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

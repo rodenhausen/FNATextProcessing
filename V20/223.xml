@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Solidago</genus_name><species_name>simplex</species_name><species_authority>Kunth</species_authority><subspecies_name>randii</subspecies_name><subspecies_authority>(Porter) G. S. Ringius</subspecies_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>70: 397. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Solidago</genus_name><species_name>virgaurea</species_name><species_authority>Linnaeus</species_authority><variety_name>randii</variety_name><variety_authority>Porter</variety_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>20: 208. 1893</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>glutinosa</species_name><subspecies_name>randii</subspecies_name><subspecies_authority>(Porter) Cronquist</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>glutinosa</species_name><species_authority>Nuttall</species_authority><variety_name>randii</variety_name><variety_authority>(Porter) Cronquist</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>randii</species_name><species_authority>(Porter) Britton</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>spathulata</species_name><species_authority>de Candolle</species_authority><subspecies_name>randii</subspecies_name><subspecies_authority>(Porter) Cronquist ex Gleason</subspecies_authority></TaxonIdentification><description>Leaves: cauline and basal spatulate to obovate, apices usually acute. Cypselae sparsely to moderately strigose. 2n = 36, 54.</description><number_of_infrataxa>Varieties 4 (4 in the flora):</number_of_infrataxa><global_distribution>North America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">simplex</taxon_name>
+    <taxon_name rank="subspecies" authority="(Porter) G. S. Ringius" date="unknown">randii</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>70: 397. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species simplex;subspecies randii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virgaurea</taxon_name>
+    <taxon_name rank="variety" authority="Porter" date="unknown">randii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>20: 208. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;species virgaurea;variety randii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glutinosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Porter) Cronquist" date="unknown">randii</taxon_name>
+    <taxon_hierarchy>genus Solidago;species glutinosa;subspecies randii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="(Porter) Britton" date="unknown">glutinosa</taxon_name>
+    <taxon_name rank="variety" authority="(Porter) Cronquist" date="unknown">randii</taxon_name>
+    <taxon_hierarchy>genus Solidago;species glutinosa;variety randii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">randii</taxon_name>
+    <taxon_hierarchy>genus Solidago;species randii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spathulata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Porter) Cronquist ex Gleason" date="unknown">randii</taxon_name>
+    <taxon_hierarchy>genus Solidago;species spathulata;subspecies randii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion>Varieties 4 (4 in the flora):</discussion>
+</bio:treatment>

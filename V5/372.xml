@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>19.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silene</genus_name><species_name>flos-cuculi</species_name><species_authority>(Linnaeus) Clairville</species_authority><place_of_publication>
-    <publication_title>Man. Herbor. Suisse,</publication_title>
-    <place_in_publication>146. 1811</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Ragged robin</common_name><common_name>lychnide fleur-de-coucou</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Lychnis</genus_name><species_name>flos-cuculi</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>1: 436. 1753</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Coronaria</genus_name><species_name>flos-cuculi</species_name><species_authority>(Linnaeus) A. Braun</species_authority></TaxonIdentification><number_of_infrataxa>Subspecies 2 (1 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>Europe.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Caryophylloideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Clairville" date="unknown">flos-cuculi</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. Herbor. Suisse,</publication_title>
+      <place_in_publication>146. 1811</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Caryophylloideae;genus Silene;species flos-cuculi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lychnis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">flos-cuculi</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 436. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lychnis;species flos-cuculi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Coronaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) A. Braun" date="unknown">flos-cuculi</taxon_name>
+    <taxon_hierarchy>genus Coronaria;species flos-cuculi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
+  <other_name type="common_name">Ragged robin</other_name>
+  <other_name type="common_name">lychnide fleur-de-coucou</other_name>
+  <discussion>Subspecies 2 (1 in the flora):</discussion>
+</bio:treatment>

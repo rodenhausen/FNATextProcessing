@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Isocoma</genus_name><species_name>coronopifolia</species_name><species_authority>(A. Gray) Greene</species_authority><place_of_publication>
-    <publication_title>Erythea</publication_title>
-    <place_in_publication>2: 111. 1894</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Common jimmyweed</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Linosyris</genus_name><species_name>coronopifolia</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Smithsonian Contr. Knowl. </publication_title><place_in_publication>3(5): 96. 1852</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Isocoma</genus_name><species_name>coronopifolia</species_name><variety_name>pedicellata</variety_name><variety_authority>(Greene) G. L. Nesom</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Isocoma</genus_name><species_name>pedicellata</species_name><species_authority>Greene</species_authority></TaxonIdentification><description>Herbage usually glabrous, leaves never stipitate-glandular, almost always resinous. Leaf blades oblanceolate, 15–30(–50) mm, margins usually pinnatifid (lobes in 1–3 pairs, spreading, linear, apically spinescent), sometimes entire or only proximal leaves pinnatifid. Involucres 5–6(–7) × 2.5–4 mm. Phyllary apices green to greenish yellow or yellowish (markedly thickened), not aristate, slightly or not gland-dotted, without resin pockets. Florets 12–15; corollas 4.5–6 mm. Cypsela ribs not forming hornlike extensions. 2n = 12.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>alkaline sandy flats</habitat><habitat>matorral</habitat><habitat>shrublands</habitat><elevation>200–500 m;</elevation><us_distribution>Texas</us_distribution><global_distribution>Mexico (Coahuila).</global_distribution><global_distribution>Mexico (Nuevo León).</global_distribution><global_distribution>Mexico (Tamaulipas).</global_distribution><discussion>Populations with at least the distal leaves entire have been called Isocoma pedicellata, and these apparently segregate geographically, at least to some extent (G. L. Nesom 1991c). Some plants have both entire and pinnatifid leaves; the distinction does not appear to warrant formal recognition.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">coronopifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Erythea</publication_title>
+      <place_in_publication>2: 111. 1894</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Isocoma;species coronopifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Linosyris</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">coronopifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Smithsonian Contr. Knowl.</publication_title>
+      <place_in_publication>3(5): 96. 1852</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Linosyris;species coronopifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">coronopifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) G. L. Nesom" date="unknown">pedicellata</taxon_name>
+    <taxon_hierarchy>genus Isocoma;species coronopifolia;variety pedicellata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocoma</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pedicellata</taxon_name>
+    <taxon_hierarchy>genus Isocoma;species pedicellata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Common jimmyweed</other_name>
+  <discussion>Populations with at least the distal leaves entire have been called Isocoma pedicellata, and these apparently segregate geographically, at least to some extent (G. L. Nesom 1991c). Some plants have both entire and pinnatifid leaves; the distinction does not appear to warrant formal recognition.</discussion>
+</bio:treatment>

@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>52.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>montaraensis</species_name>
-    <species_authority>Roof</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Roof" date="unknown">montaraensis</taxon_name>
     <place_of_publication>
       <publication_title>Four Seasons</publication_title>
       <place_in_publication>2(3): 8, figs. pp. 8, 10, 11.  1967  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Montara manzanita</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>imbricata</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>montaraensis</subspecies_name>
-    <subspecies_authority>(Roof) P. V. Wells</subspecies_authority>
-  </TaxonIdentification>
-  <description>Shrubs, erect or mound-forming, 0.5–5 m; burl absent; twigs densely fine-hairy with long, gland-tipped hairs.  Leaves: petiole to 2 mm; blade light green, dull, ovate, 2.5–4.5 × 1.5–2.5 cm, base auriculate-clasping, margins entire, plane, surfaces ± scabrous, sparsely glandular-puberulent.  Inflorescences panicles, 4–6-branched; immature inflorescence pendent, (branches densely clustered, sessile), axis 1–1.5 cm, 1+ mm diam., densely fine-hairy with long, gland-tipped hairs; bracts not appressed, leaflike, lanceolate, 6–9 mm, apex acuminate, surfaces finely glandular-hairy.  Pedicels 5–6 mm, finely glandular-hairy.  Flowers: corolla white, urceolate; ovary finely glandular-hairy.  Fruits depressed-globose, 6–7 mm diam., glandular-hairy, (± viscid).  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>100–500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species montaraensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">imbricata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Roof) P. V. Wells" date="unknown">montaraensis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species imbricata;subspecies montaraensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>52.</number>
+  <other_name type="common_name">Montara manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Arctostaphylos montaraensis grows mostly on granitic rocks at Montara Mountain and sandstones at San Bruno Mountain, northern San Mateo County.</discussion>
-</treatment>
+</bio:treatment>

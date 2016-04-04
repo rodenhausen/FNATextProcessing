@@ -1,53 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">villosa</taxon_name>
+    <taxon_name rank="variety" authority="Rosendahl, Butters &amp; Lakela" date="unknown">villosa</taxon_name>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species villosa;variety villosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">macrorhiza</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species macrorhiza;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">villosa</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Rosendahl, Butters &amp; Lakela" date="unknown">intermedia</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species villosa;variety intermedia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">villosa</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">macrorhiza</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species villosa;variety macrorhiza;</taxon_hierarchy>
+  </taxon_identification>
   <number>2a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>villosa</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>villosa</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>macrorhiza</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>villosa</species_name>
-    <variety_name>intermedia</variety_name>
-    <variety_authority>Rosendahl, Butters &amp; Lakela</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>villosa</species_name>
-    <variety_name>macrorhiza</variety_name>
-    <variety_authority>(Small) Rosendahl, Butters &amp; Lakela</variety_authority>
-  </TaxonIdentification>
-  <description>Inflorescences dense to diffuse, 21–85 × 2–14 cm, internodes in floral branchlets
-        0.7–3 mm. Pedicels 0.9–3 mm. Flowers: hypanthium obconic or subglobose, long
-        stipitate-glandular; petals tightly coiled, linear or narrowly lanceolate, 0.1–0.2 mm wide.
-        2n = 14.</description>
-  <phenology>Flowering Jun–Sep</phenology>
-  <habitat>Shaded rocks and ledges, granite, gneiss, or acidic humus over limestone or shallow
-        rocky soil</habitat>
-  <elevation>100–2000 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
   <discussion>Variety villosa is found east of the Prairies in the southern Appalachian Mountains
         and Interior Plateau of Indiana, Kentucky, Ohio, and Tennessee. In the high mountains of
         North Carolina and Tennessee, the leaf lobes tend to be very sharp and narrowly triangular,
         and in the Interior Plateau the lobes tend to be rounded; considerable variation in lobe
         shape occurs throughout the range.</discussion>
-</treatment>
+</bio:treatment>

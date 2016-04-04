@@ -1,60 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gaultheria</genus_name>
-    <species_name>hispidula</species_name>
-    <species_authority>(Linnaeus) Muhlenberg ex Bigelow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaultheria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Muhlenberg ex Bigelow" date="unknown">hispidula</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Boston. ed.</publication_title>
       <place_in_publication>2, 165.  1824  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Creeping snowberry</common_name>
-  <common_name>cancer wintergreen</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>hispidulum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Gaultheria;species hispidula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hispidulum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 352.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chiogenes</genus_name>
-    <species_name>hispidula</species_name>
-    <species_authority>(Linnaeus) Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Subshrubs (vinelike), creeping, mat-forming, stoloniferous; roots adventitious or fibrous.  Stems repent, 10–14 cm, densely strigose.  Leaf blades elliptic to oval, 0.3–1 cm, base cuneate to rounded, margins ciliate, (slightly revolute), apex acute, abaxial surface strigose, adaxial glabrous.  Inflorescences axillary, solitary flowers; bracts light green, broadly lanceolate, 1.5–2 mm, exceeding sepals, sparsely strigose.  Pedicels light green, 1.5–3 mm, strigose; bracteoles absent.  Flowers: sepals 4, connate ca. 1/2 their lengths, white, ovate, 1–1.5 mm, hairy basally (hairs dark red); petals 4, connate 1/3 their lengths, white, 2–3.5 mm, glabrous, corolla campanulate, lobes 1.5–2 mm; filaments broadest in middle and narrowing distally and proximally, glabrous; anthers with 2 bifurcating awns, dehiscent by subterminal pores.  Fruits white, 2.5–6 mm wide.  2n = 22.</description>
-  <phenology>Flowering Jun–early Aug; fruiting Jul–Sep</phenology>
-  <habitat>Sphagnum bogs, fens and mossy, coniferous woodland forests and swamps, often on moss-covered or rotting logs</habitat>
-  <elevation>30–1400 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Vaccinium;species hispidulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chiogenes</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Torrey &amp; A. Gray" date="unknown">hispidula</taxon_name>
+    <taxon_hierarchy>genus Chiogenes;species hispidula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Creeping snowberry</other_name>
+  <other_name type="common_name">cancer wintergreen</other_name>
+</bio:treatment>

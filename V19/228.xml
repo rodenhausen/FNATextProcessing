@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>187c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Asteraceae</family_name>
-    <family_authority>Martinov</family_authority>
-    <tribe_name>Arctotideae</tribe_name>
-    <tribe_authority>Cassini</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Arctotideae</taxon_name>
     <place_of_publication>
       <publication_title>J. Phys. Chim. Hist. Nat. Arts</publication_title>
       <place_in_publication>88: 159. 1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Arctotideae;</taxon_hierarchy>
-  <description>Annuals, perennials [shrubs] (sometimes prickly, sap sometimes milky, e.g., Gazania).
-    Leaves basal and/or cauline; alternate; petiolate or sessile; margins usually pinnately lobed to
-    dissected, sometimes dentate or entire (sometimes revolute and/or prickly). Heads usually
-    heterogamous (usually radiate) [homogamous, discoid], borne singly (on scapiform peduncles) [in
-    corymbiform, racemiform, or umbelliform arrays, sometimes aggregated in second-order heads].
-    Calyculi 0. Phyllaries usually persistent, in (2–)3–6+ series, distinct or ± connate, usually
-    unequal, usually herbaceous [sometimes fleshy], margins and/or apices sometimes notably scarious
-    (at least inner; sometimes prickly-ciliate). Receptacles flat to conic, epaleate [paleate]
-    (often foveolate). Ray florets in 1–2 series, usually pistillate and fertile or styliferous and
-    sterile, sometimes neuter (sometimes with 4–5 staminodes); corollas mostly white, yellow,
-    orange, blue, red, or purple (rarely with 2 teeth opposite the 3- or 4-toothed laminae). Disc
-    florets usually bisexual and fertile, sometimes functionally staminate; corollas yellow or dark
-    brown to purple, actinomorphic, lobes [4–]5, narrowly triangular or lanceolate to deltate;
-    anther bases obtuse to acute (sometimes ± sagittate, not tailed), apical appendages ± ovate to
-    lanceolate; styles (in bisexual, fertile florets) proximally glabrous, usually distally dilated
-    and ± cylindric (usually hispidulous near bases of cylinders), branches linear (sometimes
-    adhering almost to minutely parted tips or essentially lacking), adaxially continuously
-    stigmatic from bases to apices, apices rounded to acute, appendages essentially none. Cypselae
-    usually monomorphic within heads, mostly ellipsoid, obovoid, or ovoid, ± terete, angled, or ±
-    flattened, not beaked, bodies usually ribbed, sometimes winged (often sericeous, tomentulose, or
-    woolly, sometimes glabrous); pappi (sometimes 0) usually persistent, usually of 4–8[–16+] scales
-    in ± 2+ series, sometimes coroniform.</description>
-  <number_of_infrataxa>Genera 16, species ca. 200 (3 genera, 4 species in the
-    flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>mostly Old World (especially s Africa)</global_distribution>
-  <global_distribution>some species widely introduced as horticultural
-    escapes.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Arctotideae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>187c.</number>
+  <discussion>Genera 16, species ca. 200 (3 genera, 4 species in the
+    flora):</discussion>
   <discussion>The circumscription for Arctotideae adopted here follows that of K. Bremer (1994) and
     is narrower than that of N. T. Norlindh (1977[1978]). Arctotideae have been thought to be
     closely allied to members of Cynareae, chiefly on similarities in styles of some taxa and
@@ -61,29 +39,28 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Phyllaries connate 1 / 3 – 3 / 4 their lengths; laminae of ray corollas 5-nerved,
-        4-lobed or -toothed</statement>
+      <description type="morphology">Phyllaries connate 1 / 3 – 3 / 4 their lengths; laminae of ray corollas 5-nerved,
+        4-lobed or -toothed</description>
       <determination>25. Gazania, p. 196</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Phyllaries distinct; laminae of ray corollas 4-nerved, 3-lobed or
-        -toothed.</statement>
+      <description type="morphology">Phyllaries distinct; laminae of ray corollas 4-nerved, 3-lobed or
+        -toothed.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Ray florets neuter, corollas adaxially yellow (sometimes drying bluish) or ±
-        bluish; pappi of 7–8+ scales ca. 0.5 mm (usually hidden by hairs on cypselae)</statement>
+      <description type="morphology">Ray florets neuter, corollas adaxially yellow (sometimes drying bluish) or ±
+        bluish; pappi of 7–8+ scales ca. 0.5 mm (usually hidden by hairs on cypselae)</description>
       <determination>26. Arctotheca, p. 197</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Ray florets pistillate, corollas adaxially whitish to purplish, or yellow to orange
+      <description type="morphology">Ray florets pistillate, corollas adaxially whitish to purplish, or yellow to orange
         (then purple at bases); pappi 0 or of 5–8 scales 0.5–4 mm (usually not hidden by hairs on
-        cypselae)</statement>
+        cypselae)</description>
       <determination>27. Arctotis, p. 198</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

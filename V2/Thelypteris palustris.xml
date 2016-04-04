@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6</number><TaxonIdentification Status="ACCEPTED"><genus_name>Thelypteris</genus_name><species_name>palustris</species_name><species_authority>Schott</species_authority><place_of_publication><publication_title>Gen. Fil.</publication_title><place_in_publication>plate 10. 1834</place_in_publication></place_of_publication></TaxonIdentification><common_name>Marsh fern</common_name><common_name> thélyptère des marais</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Acrostichum</genus_name><species_name>thelypteris</species_name><species_authority>Linnaeus</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Dryopteris</genus_name><species_name>thelypteris</species_name><species_authority>(Linnaeus) A. Gray</species_authority></TaxonIdentification><discussion>The name Thelypteris thelypterioides (Michaux) Holub has been applied to T . palustris , but A. F. Tryon et al. (1980) have shown that this was a result of an incorrect typification by C. V. Morton (1967).</discussion><discussion>Thelypteris palustris var. palustris occurs in Eurasia.</discussion><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><global_distribution> North America</global_distribution><global_distribution> Europe</global_distribution><global_distribution> Asia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypteris</taxon_name>
+    <taxon_name rank="species" authority="Schott" date="unknown">palustris</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. Fil.</publication_title>
+      <place_in_publication>plate 10. 1834</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Thelypteris;species palustris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Acrostichum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">thelypteris</taxon_name>
+    <taxon_hierarchy>genus Acrostichum;species thelypteris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dryopteris</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) A. Gray" date="unknown">thelypteris</taxon_name>
+    <taxon_hierarchy>genus Dryopteris;species thelypteris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6</number>
+  <other_name type="common_name">Marsh fern</other_name>
+  <other_name type="common_name">thélyptère des marais</other_name>
+  <discussion>The name Thelypteris thelypterioides (Michaux) Holub has been applied to T . palustris , but A. F. Tryon et al. (1980) have shown that this was a result of an incorrect typification by C. V. Morton (1967).</discussion>
+  <discussion>Thelypteris palustris var. palustris occurs in Eurasia.</discussion>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

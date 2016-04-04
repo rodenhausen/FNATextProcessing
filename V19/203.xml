@@ -1,59 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carthamus</genus_name>
-    <species_name>creticus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carthamus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">creticus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl. ed.</publication_title>
       <place_in_publication>2, 2: 1163. 1763</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Carthamus;species creticus;</taxon_hierarchy>
-  <common_name>Smooth distaff thistle</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carthamus</genus_name>
-    <species_name>baeticus</species_name>
-    <species_authority>Boissier &amp; Reuter</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carthamus</genus_name>
-    <species_name>lanatus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>baeticus</subspecies_name>
-    <subspecies_authority>(Boissier &amp; Reuter) Nyman</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carthamus</genus_name>
-    <species_name>lanatus</species_name>
-    <subspecies_name>creticus</subspecies_name>
-    <subspecies_authority>(Linnaeus) Holmboe</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants 40–100 cm, herbage ± sparsely hairy. Stems rigidly erect, openly branched above, stramineous. Leaves basal and cauline; basal often absent at anthesis, petioles winged, blades pinnately 1–2-divided into linear or lanceolate spine-tipped lobes, cauline spreading or recurved, lanceolate to ovate, rigid, clasping, margins spiny-lobed, spine-tipped. Involucres ovoid, 20–25 mm, very thinly cobwebby or becoming glabrous. Outer phyllaries ascending or ± spreading, 35–55 mm, usually 2 times as long as inner, terminal appendages spreading to ascending, spiny-lobed, prominently spine-tipped. Corollas pale yellow, 25–35 mm, throats abruptly expanded; anthers white with purple stripes; pollen white. Cypselae brown, 4–6 mm, outer roughened; pappus scales 1–10 mm. 2n = 64.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>fields , roadsides ;</text>
-    <habitat>fields</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>0–500 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Carthamus;species creticus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carthamus</taxon_name>
+    <taxon_name rank="species" authority="Boissier &amp; Reuter" date="unknown">baeticus</taxon_name>
+    <taxon_hierarchy>genus Carthamus;species baeticus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carthamus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">lanatus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Boissier &amp; Reuter) Nyman" date="unknown">baeticus</taxon_name>
+    <taxon_hierarchy>genus Carthamus;species lanatus;subspecies baeticus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carthamus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lanatus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Linnaeus) Holmboe" date="unknown">creticus</taxon_name>
+    <taxon_hierarchy>genus Carthamus;species lanatus;subspecies creticus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Smooth distaff thistle</other_name>
   <discussion>Carthamus creticus has been reported for British Columbia in all recent floras, as C. lanatus subsp. baeticus. It is native to the Mediterranean region.</discussion>
   <discussion>Apparently an allohexaploid derived by hybridization between Carthamus leucocaulos (2n = 20) and C. lanatus (2n = 44) (M. O. Khidir and P. F. Knowles 1970b), C. creticus is similar to C. lanatus and was treated as a subspecies of the latter (P. Hanelt 1963, 1976).</discussion>
   <discussion>Most American botanists have recognized this taxon at species rank, using the name Carthamus baeticus ascribed to (Boissier &amp; Reuter) Nyman, based on the assumption that Nyman (Consp. Fl. Eur., 419. 1879) had proposed a new combination at the species level based on Kentrophyllum baeticum Boissier &amp; Reuter. P. Hanelt (1963) used the name C. lanatus subsp. creticus for this taxon and treated both C. creticus and C. baeticus as synonyms. However, Hanelt (1976) substituted C. lanatus subsp. baeticus as the name for the taxon, ascribing the combination to the same Nyman publication. Hanelt (pers. comm.) has indicated that the contradictory nomenclatural citations were a result of Nyman’s peculiar way of presenting taxa that he considered to be subspecies: “in the work of Nyman the small-printed taxa subsumed under a ‘true’ species name and characterized by an asterisk had to be accepted as subspecies.” As a subspecific epithet, baeticus (1879) has nomenclatural priority over creticus (1914), hence Hanelt’s 1976 use of the former.</discussion>
   <discussion>Like Carthamus lanatus, C. creticus is a noxious weed that can severely degrade infested rangelands.</discussion>
-</treatment>
-
+</bio:treatment>

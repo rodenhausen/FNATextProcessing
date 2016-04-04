@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26ddd.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Pictae</section_name>
-    <section_authority>Kükenthal</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Ball</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Kükenthal" date="unknown">Pictae</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>20[IV,38]: 82. 1909</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Peter W. Ball</author>
-  <description>Plants loosely cespitose, short- and stout-rhizomatous. Culms red-purple or red-brown
-    at base. Leaves: basal sheaths fibrous; sheath fronts membranous; blades V-shaped in cross
-    section when young, widest blades 4 mm or wider, distal leaves sometimes bladeless, glabrous.
-    Inflorescences solitary or racemose, with 3–8 spikes; proximal nonbasal bracts bladeless or
-    blade not more than 2 mm, sheathing; solitary inflorescences unisexual, bractless spikes;
-    racemose inflorescences with lateral spikes pistillate or androgynous, some basal, pedunculate,
-    prophyllate; terminal spike staminate or androgynous. Proximal pistillate scales with apex
-    obtuse to awned. Perigynia ascending, veined, stipitate, oblong-obovate, trigonous in cross
-    section, 4–5 mm, base tapering, apex tapering, beakless or beaked, pubescent; beak orifice
-    emarginate. Stigmas 3. Achenes trigonous, almost as large as bodies of perigynia; style
-    deciduous.</description>
-  <number_of_infrataxa>Species 2 (2 in flora):</number_of_infrataxa>
-  <global_distribution>e North America.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Pictae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26ddd.</number>
+  <discussion>Species 2 (2 in flora):</discussion>
   <discussion>Carex sect. Pictae appears to be closely related to sections Digitatae, Scirpinae, and
     Acrocystis.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Staminate and pistillate flowers on same plant; spikes 3–8, terminal spike mainly
+      <description type="morphology">Staminate and pistillate flowers on same plant; spikes 3–8, terminal spike mainly
         staminate, usually with pistillate flowers at base; lateral spikes mainly pistillate;
-        proximal leaf blades</statement>
+        proximal leaf blades</description>
       <determination>446. Carex baltzellii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Staminate and pistillate flowers on different plants; spike 1, unisexual; proximal
-        leaf blades</statement>
+      <description type="morphology">Staminate and pistillate flowers on different plants; spike 1, unisexual; proximal
+        leaf blades</description>
       <determination>447. Carex picta</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Blechnum</genus_name><genus_authority>Linnaeus</genus_authority><place_of_publication><publication_title>Sp. Pl.</publication_title><place_in_publication>2: 1077. 1753; Gen. Pl. ed. 5, 485, 1754</place_in_publication></place_of_publication></TaxonIdentification><common_name>Deer ferns</common_name><etymology>[Greek blechnon, an ancient name for ferns in general]</etymology><description>Plants  terrestrial or rarely on rock.  Stems  creeping to ascending or erect, slender to stout, sometimes climbing [rarely subarborescent]; scales brown or black.  Leaves  monomorphic or variously dimorphic, cespitose to scattered.  Blades  pinnatifid to 1-pinnate, rarely simple or 2-pinnate.  Rachis  and costae glabrous, scaly, or hairy abaxially.  Veins  free, often forked.  Sori  borne on vascular commissures parallel to costae, 1 per side, normally uninterrupted, linear, continuous along length of costa.  Spores  with perine smooth to variously winged or rugose.  x  = 28, 29, 31, 32, 34, 36.</description><number_of_infrataxa>Species ca. 220 (3 in the flora):</number_of_infrataxa><global_distribution> mostly tropical</global_distribution><global_distribution> especially Southern Hemisphere.</global_distribution><author>Clifton E. Nauman</author><key><key_statement><statement_id>1</statement_id><statement>Leaves strongly dimorphic, fertile leaves notably more erect, longer, and with narrower pinnae than sterile leaves; sterile blades tapering at base.</statement><determination>1 Blechnum spicant</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Leaves ± monomorphic, fertile leaves only slightly longer and somewhat contracted relative to sterile leaves; sterile blades ± truncate at base.</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Blades 1-pinnate proximally and pinnatifid distally or pinnatifid nearly throughout, usually less than 50 cm; pinna margins ± entire.</statement><determination>2a var. minor</determination></key_statement><key_statement><statement_id>2</statement_id><statement>Blades 1-pinnate throughout, usually more than 50 cm; pinna margins ± evenly serrulate.</statement><determination>3 Blechnum serrulatum</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Clifton E. Nauman</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Blechnum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1077. 1753; Gen. Pl. ed. 5, 485, 1754</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Blechnum;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek blechnon, an ancient name for ferns in general]</other_info_on_name>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Deer ferns</other_name>
+  <discussion>Species ca. 220 (3 in the flora):</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Leaves strongly dimorphic, fertile leaves notably more erect, longer, and with narrower pinnae than sterile leaves; sterile blades tapering at base.</description>
+      <determination>1 Blechnum spicant</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Leaves ± monomorphic, fertile leaves only slightly longer and somewhat contracted relative to sterile leaves; sterile blades ± truncate at base.</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Blades 1-pinnate proximally and pinnatifid distally or pinnatifid nearly throughout, usually less than 50 cm; pinna margins ± entire.</description>
+      <determination>2a var. minor</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Blades 1-pinnate throughout, usually more than 50 cm; pinna margins ± evenly serrulate.</description>
+      <determination>3 Blechnum serrulatum</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

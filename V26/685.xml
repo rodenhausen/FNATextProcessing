@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Bloomeria</genus_name><species_name>crocea</species_name><species_authority>(Torrey) Coville</species_authority><variety_name>montana</variety_name><variety_authority>(Greene) J. W. Ingram</variety_authority><place_of_publication>
-    <publication_title>Madroño</publication_title>
-    <place_in_publication>12: 23. 1953</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Mountain golden star</common_name><common_name>inland golden star</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Bloomeria</genus_name><species_name>montana</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>1: 281. 1885</place_in_publication></place_of_publication></TaxonIdentification><description>Flowers: tepals yellow, 11–13 mm; basal filament appendages 2-cuspidate, aristate, cusps 3–3.5 mm, ca. 1/2 length of filaments, apex attenuate. 2n = 18.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>chaparral</habitat><habitat>yellow pine forests</habitat><elevation>300–1000 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Variety montana is restricted to the southern Coast Ranges and the Tehachapi Mountains.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bloomeria</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Coville" date="unknown">crocea</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) J. W. Ingram" date="unknown">montana</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>12: 23. 1953</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Bloomeria;species crocea;variety montana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bloomeria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">montana</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 281. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Bloomeria;species montana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1c.</number>
+  <other_name type="common_name">Mountain golden star</other_name>
+  <other_name type="common_name">inland golden star</other_name>
+  <discussion>Variety montana is restricted to the southern Coast Ranges and the Tehachapi Mountains.</discussion>
+</bio:treatment>

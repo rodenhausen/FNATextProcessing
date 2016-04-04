@@ -1,69 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Listera</genus_name>
-    <species_name>auriculata</species_name>
-    <species_authority>Wiegand</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Listera</taxon_name>
+    <taxon_name rank="species" authority="Wiegand" date="unknown">auriculata</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>26: 166, plate 356, fig. 2. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Auricled twayblade</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bifolium</genus_name>
-    <species_name>auriculatum</species_name>
-    <species_authority>(Wiegand) Nieuwland</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Neottia</genus_name>
-    <species_name>auriculata</species_name>
-    <species_authority>(Wiegand) Szlachetko</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ophrys</genus_name>
-    <species_name>auriculata</species_name>
-    <species_authority>(Wiegand) House</species_authority>
-  </TaxonIdentification>
-  <description>Plants 5–25 cm. Stems pale green, succulent, glabrous. Leaves: blade pale green,
-    suborbiculate to suborbiculate-ovate or elliptic-ovate, 2.5–6 × 1.5–4.2 cm, apex subobtuse.
-    Inflorescences 5–20-flowered, lax, 20–100 mm; floral bracts broadly elliptic to
-    oblong-lanceolate, 2–7 × 1–2 mm, apex obtuse; peduncle and rachis densely glandular-puberulent;
-    bracts, pedicel, and ovary glabrous to rarely glabrate. Flowers pale green to blue-green, fading
-    whitish with age; pedicels stout, 2.5–5 mm, glabrous, rarely glabrate; sepals and petals
-    reflexed away from column and lip; dorsal sepal elliptic-obovate, 3–3.5 × 1.5–2 mm, apex
-    subobtuse; lateral sepals elliptic, oblong, or ovate-lanceolate, strongly falcate, 3–4 × 1–1.5
-    mm, apex subobtuse to acute; petals linear-oblong to linear, falcate, 3–3.7 × 0.8 mm, apex
-    obtuse; lip obovate to oblong, base of lip with auricles curving around and clasping base of
-    column, apex slightly expanded, cleft approximately 1/5–1/3 its length, forming 2 broadly
-    rounded lobes, margins ciliate; disc 3-veined with lateral veins branched, base with ridge in
-    center; column arcuate, 2.5–3.3 × 1 mm, dilated at distal end. Capsules horizontal to
-    semi-erect, ellipsoid, 8 × 4 mm.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>alluvial soils in low, moist, hardwood forests or mixed hardwood-coniferous
-    forests</habitat>
-  <habitat>shrub swamps</habitat>
-  <habitat>sphagnum bogs</habitat>
-  <habitat>requires soil that remains cool throughout summer, with high degree of acidity;</habitat> <elevation>0–1000
-    m;</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Listera;species auriculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bifolium</taxon_name>
+    <taxon_name rank="species" authority="(Wiegand) Nieuwland" date="unknown">auriculatum</taxon_name>
+    <taxon_hierarchy>genus Bifolium;species auriculatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Neottia</taxon_name>
+    <taxon_name rank="species" authority="(Wiegand) Szlachetko" date="unknown">auriculata</taxon_name>
+    <taxon_hierarchy>genus Neottia;species auriculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ophrys</taxon_name>
+    <taxon_name rank="species" authority="(Wiegand) House" date="unknown">auriculata</taxon_name>
+    <taxon_hierarchy>genus Ophrys;species auriculata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Auricled twayblade</other_name>
   <discussion>Leaves of Listera auriculata forma trifolia (Lepage) Lepage are three in a
     whorl.</discussion>
   <discussion>Listera auriculata crosses with L. convallarioides to produce a natural hybrid L.
@@ -76,32 +47,32 @@
     rachis; in L. convallarioides the glandular pubescence is as dense and long on pedicels as on
     the rachis, continuing on the ribs of the ovary. Pedicels and ovaries of L. auriculata are
     glabrous. The hybrids may be distinguished by using the following key.</discussion>
+  <discussion>Listera ×veltmanii flowers in July and August. Its habitat is intermediate
+      between those typical of the parents and apparently is often disturbed; 500–800 m. It is known
+      from New Brunswick, Newfoundland and Labrador, Quebec, Ontario, Michigan, and
+      Wisconsin.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lip not clawed, sessile or essentially so; auricles or lobes at base of lip curving
-        around and clasping</statement>
+      <description type="morphology">Lip not clawed, sessile or essentially so; auricles or lobes at base of lip curving
+        around and clasping</description>
       <next_statement_id>1.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Lip clawed, not sessile; auricles or lobes absent or projecting laterally away from
-        column.</statement>
+      <description type="morphology">Lip clawed, not sessile; auricles or lobes absent or projecting laterally away from
+        column.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Auricles or lobes at base of lip absent</statement>
+      <description type="morphology">Auricles or lobes at base of lip absent</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Auricles or lobes present at base of lip, projecting laterally away from
-        column</statement>
+      <description type="morphology">Auricles or lobes present at base of lip, projecting laterally away from
+        column</description>
     </key_statement>
-    <key_discussion>Listera ×veltmanii flowers in July and August. Its habitat is intermediate
-      between those typical of the parents and apparently is often disturbed; 500–800 m. It is known
-      from New Brunswick, Newfoundland and Labrador, Quebec, Ontario, Michigan, and
-      Wisconsin.</key_discussion>
   </key>
-</treatment>
+</bio:treatment>

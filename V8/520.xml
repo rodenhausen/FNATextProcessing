@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>JACQUINIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>R. David Whetstone,Richard P. Wunderlin</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="D. Don" date="unknown">THEOPHRASTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">JACQUINIA</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Jamaic.,</publication_title>
       <place_in_publication>27.  1759 (as Jaquinia), name and orthography conserved  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Cudjoe-wood</common_name>
-  <etymology>[For Nicolaus Joseph von Jacquin, 1727–1817, Austrian botanist]</etymology>
-  <author>R. David Whetstone</author>
-  <author>Richard P. Wunderlin</author>
-  <description>Shrubs or trees, resin canals absent.  Stems erect, much-branched; young branches lepidote, hairs irregularly branched, thick-walled.  Leaves alternate, sometimes pseudoverticillate; blade oblong-obovate to spatulate, base attenuate, margins entire, apex obtuse to rounded or retuse, mucronate or mucro absent, surfaces glabrous, punctate.  Inflorescences terminal [axillary] racemes, 4–30(–40)-flowered, pedunculate.  Pedicels present, bracteate.  Flowers: sepals distinct; corolla white or cream, darkening to yellow with age, salverform or short-campanulate, lobes shorter to longer than tube, apex rounded to acute; stamens borne at base of corolla tube; filaments distinct; anthers at first aggregated around stigma and style, later spreading; staminodes borne at apex of corolla tube, petaloid; stigma capitate, lobed.  Berries orange-red or red, ovoid or globose, apex apiculate.  Seeds 2–8, brown or light brown, oblong to elliptic, subglobose, alveolate, completely covered by placental tissue.  x = 18.</description>
-  <number_of_infrataxa>Species 13 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>Florida</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>family THEOPHRASTACEAE;genus JACQUINIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Nicolaus Joseph von Jacquin, 1727–1817, Austrian botanist]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Cudjoe-wood</other_name>
+  <discussion>Species 13 (2 in the flora):</discussion>
   <discussion>Bonellia, with a total of 22 species, was until recently included in Jacquinia.  We follow B. Ståhl and M. Källersjö (2004) in treating them separately here.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Ståhl, B.  1995.  A synopsis of Jacquinia (Theophrastaceae) in the Antilles and South America.  Nordic J. Bot. 15: 493–511.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves alternate or indistinctly pseudoverticillate, blade 1–4.5 × 0.5–2.5 cm, petiole puberulous-lepidote</statement>
+      <description type="morphology">Leaves alternate or indistinctly pseudoverticillate, blade 1–4.5 × 0.5–2.5 cm, petiole puberulous-lepidote</description>
       <determination>1.   Jacquinia keyensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves usually distinctly pseudoverticillate, blade 3–8(–12) × 1.5–5 cm, petiole glabrous or sparsely puberulous</statement>
+      <description type="morphology">Leaves usually distinctly pseudoverticillate, blade 3–8(–12) × 1.5–5 cm, petiole glabrous or sparsely puberulous</description>
       <determination>2.   Jacquinia arborea</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

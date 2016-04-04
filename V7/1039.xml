@@ -1,54 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>didymocarpa</species_name>
-    <species_authority>(Hooker) A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) A. Gray" date="unknown">didymocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Gen. Amer. Bor.</publication_title>
       <place_in_publication>1: 162. 1848</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Common twinpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vesicaria</genus_name>
-    <species_name>didymocarpa</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species didymocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vesicaria</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">didymocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 49, plate 16. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Coulterina</genus_name>
-    <species_name>didymocarpa</species_name>
-    <species_authority>(Hooker) Kuntze</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex branched, (cespitose); densely pubescent, trichomes (often stalked, appressed to wavy and spreading), several-rayed, rays furcate or simple, (slightly to strongly umbonate, nearly smooth to strongly tuberculate). Stems several from base, decumbent, (unbranched, leafy for the genus), ca. 1 dm. Basal leaves (forming a strong rosette; long-petiolate); blade obovate, 1.5–4(–8) cm, (base ± abruptly narrowing to petiole), margins usually repand or dentate, rarely entire, (apex usually angular, surfaces silvery). Cauline leaves: blade oblanceolate, 1–2 cm (width 4–8 mm), margins entire or with occasional tooth, (apex acute). Racemes congested, (elongated in fruit, greatly exceeding leaves). Fruiting pedicels (spreading, straight or slightly curved), 8–12 mm. Flowers: sepals lanceolate to oblong, 6–8 mm, (often keeled); petals spatulate, 10–12 mm. Fruits (erect), didymous, inflated, 10–20 × 10–20 mm, (papery or firm, basal sinus shallow to deep, sometimes barely notched, apical sinus deep, narrow, usually closed); valves (retaining seeds after dehiscence), loosely pubescent, trichomes spreading (appearing fuzzy; replum obovate to broadly oblong, not constricted, 3–4 mm, as wide as or wider than fruit, apex obtuse; ovules (4–)8 per ovary; style 7–9 mm. Seeds flattened.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Vesicaria;species didymocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Coulterina</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Kuntze" date="unknown">didymocarpa</taxon_name>
+    <taxon_hierarchy>genus Coulterina;species didymocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
+  <other_name type="common_name">Common twinpod</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>The characters used to differentiate Physaria didymocarpa from P. saximontana (especially subsp. dentata) appear to be weak at best: whether there are 4 or 8 ovules per ovary and whether the silicle lacks a basal sinus or one is present. There appears to be intergradation in each of those characters. A traditional circumscription of these species is followed here. Further work is needed at both the species and subspecies level in these taxa.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Trichomes spreading throughout; basal leaf blade margins dentate</statement>
+      <description type="morphology">Trichomes spreading throughout; basal leaf blade margins dentate</description>
       <determination>22b. Physaria didymocarpa subsp. lanata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Trichomes appressed (except fruits in subsp. didymocarpa ); basal leaf blade margins repand to dentate, ± lyrate or, rarely, entire.</statement>
+      <description type="morphology">Trichomes appressed (except fruits in subsp. didymocarpa ); basal leaf blade margins repand to dentate, ± lyrate or, rarely, entire.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits moderately inflated, trichomes spreading</statement>
+      <description type="morphology">Fruits moderately inflated, trichomes spreading</description>
       <determination>22a. Physaria didymocarpa subsp. didymocarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits highly inflated (papery), trichomes appressed</statement>
+      <description type="morphology">Fruits highly inflated (papery), trichomes appressed</description>
       <determination>22c. Physaria didymocarpa subsp. lyrata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

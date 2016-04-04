@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15e.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Diclidium</subgenus_name><subgenus_authority>(Schrader ex Nees) C. B. Clarke</subgenus_authority><place_of_publication>
-    <publication_title>J. Linn. Soc., Bot.</publication_title>
-    <place_in_publication>21: 34. 1884</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><subgenus_name>Diclidium</subgenus_name><subgenus_authority>Schrader ex Nees</subgenus_authority><place_of_publication><publication_title>in C. F. P. von Martius et al., Fl. Bras. </publication_title><place_in_publication>2(1): 51. 1842</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><subgenus_name>Torulinium</subgenus_name><subgenus_authority>(Desvaux) Kükenthal</subgenus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><subgenus_name>Torulinium</subgenus_name><subgenus_authority>Desvaux</subgenus_authority></TaxonIdentification><description>Culms and leaves with Kranz (chlorocyperoid) anatomy. Inflorescences: spikes loose to dense, ovoid to cylindric; rachilla articulate at base of each scale. Spikelets: mature spikelets breaking into 1-fruited segments, each including internode of rachilla; floral scales persistent, achene clasped by rachilla wings. Flowers: stamens 3; stigmas 3. Achenes trigonous, slightly dorsiventrally flattened.</description><number_of_infrataxa>Species 8 (2 in the flora):</number_of_infrataxa><global_distribution>pantropical and warm-temperate regions.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Schrader ex Nees) C. B. Clarke" date="unknown">Diclidium</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Linn. Soc., Bot.</publication_title>
+      <place_in_publication>21: 34. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;subgenus Diclidium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Schrader ex Nees" date="unknown">Diclidium</taxon_name>
+    <place_of_publication>
+      <publication_title>in C. F. P. von Martius et al., Fl. Bras.</publication_title>
+      <place_in_publication>2(1): 51. 1842</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>subgenus Diclidium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Desvaux) Kükenthal" date="unknown">Torulinium</taxon_name>
+    <taxon_hierarchy>genus Cyperus;subgenus Torulinium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="Desvaux" date="unknown">Torulinium</taxon_name>
+    <taxon_hierarchy>subgenus Torulinium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15e.</number>
+  <discussion>Species 8 (2 in the flora):</discussion>
+</bio:treatment>

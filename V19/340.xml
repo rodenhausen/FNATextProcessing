@@ -1,91 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Youngia</genus_name>
-    <species_name>japonica</species_name>
-    <species_authority>(Linneaus) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Youngia</taxon_name>
+    <taxon_name rank="species" authority="(Linneaus) de Candolle" date="unknown">japonica</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>7: 194. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Youngia;species japonica;</taxon_hierarchy>
-  <common_name>Oriental false hawksbeard</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>japonica</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Youngia;species japonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">japonica</taxon_name>
     <place_of_publication>
       <publication_title>Mant. Pl.,</publication_title>
       <place_in_publication>107. 1767</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>japonica</species_name>
-    <species_authority>(Linnaeus) Bentham</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Youngia</genus_name>
-    <species_name>japonica</species_name>
-    <subspecies_name>elstonii</subspecies_name>
-    <subspecies_authority>(Hochreutiner) Babcock &amp; Stebbins</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems terete, fistulose. Leaves: petioles 1–10 cm, glabrous, puberulent, or densely hairy (hairs often brownish, crinkled); blades 3–12(–25) × 2–4(–6) cm, lateral lobes 0–20, mostly gradually reduced proximally, terminal lobes elliptic, ovate, obovate, or oblong-truncate, larger than laterals, apices obtuse or acute. Peduncles 1–5(–15) mm. Phyllaries 3.5–6 mm, bases and midribs becoming ± spongy, abaxial faces glabrous, glabrate, or hairy (hairs appressed, shining). Florets: corollas mostly 4.5–6.5 mm; anthers dark green (drying purplish); styles and style-branches yellow. Cypselae 1.5–2.5 mm, bases hollow, lightly calloused; pappi 2.5–3.5 mm, slightly surpassing phyllaries. 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering spring–summer (year-round south).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>year round</phenology>
-    <phenology>summer</phenology>
-    <phenology>spring</phenology>
-    <phenology>winter</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>apr</phenology>
-    <phenology>dec</phenology>
-    <phenology>jan</phenology>
-    <phenology>jun</phenology>
-    <phenology>oct</phenology>
-    <phenology>jul</phenology>
-    <phenology>may</phenology>
-    <phenology>feb</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>mar</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>waste places , lawns , etc. ;</text>
-    <habitat>waste places</habitat>
-    <habitat>lawns etc.</habitat>
-  </habitat_info>
-  <elevation>0–2400 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>se Asia</global_distribution>
-  <global_distribution>introduced also in Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Pacific Islands</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Prenanthes;species japonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Bentham" date="unknown">japonica</taxon_name>
+    <taxon_hierarchy>genus Crepis;species japonica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Youngia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">japonica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hochreutiner) Babcock &amp; Stebbins" date="unknown">elstonii</taxon_name>
+    <taxon_hierarchy>genus Youngia;species japonica;subspecies elstonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Oriental false hawksbeard</other_name>
   <discussion>Youngia japonica is now considered a pantropical weed. Relatively few specimens in the flora match what Babcock and Stebbins called subsp. elstonii, with cauline leaves almost as large as the basal and with conspicuous, lobed bracts at the bases of the proximalmost branches of the capitulescence. In subsp. japonica, to which most of our specimens are referred, the cauline leaves are much reduced or lacking, as are the bracts of the capitulescence.</discussion>
-</treatment>
-
+</bio:treatment>

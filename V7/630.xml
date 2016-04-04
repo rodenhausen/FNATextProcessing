@@ -1,51 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cakile</genus_name>
-    <species_name>lanceolata</species_name>
-    <species_authority>(Willdenow) O. E. Schulz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) O. E. Schulz" date="unknown">lanceolata</taxon_name>
     <place_of_publication>
       <publication_title>in I. Urban, Symb. Antill.</publication_title>
       <place_in_publication>3: 504. 1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Raphanus</genus_name>
-    <species_name>lanceolatus</species_name>
-    <species_authority>Willdenow</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus Cakile;species lanceolata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Raphanus</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">lanceolatus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>3: 562. 1800</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, (usually sprawling). Stems erect to prostrate, (much-branched), often 5+ dm. Cauline leaves (shortly petiolate or sessile); blade broadly ovate to ovate-lanceolate, or (distal) oblanceolate, (not especially fleshy, smaller distally), margins entire, dentate, or pinnatisect. Racemes often 3+ dm; rachis straight. Fruiting pedicels 1.5–4 mm. Flowers: sepals 3.5–5 mm, lateral pair saccate basally; petals usually white, rarely lavender, 4.9–9.4 × 3–4.5 mm, claw distinct. Fruits (weakly 4-angled to terete, striate or sulcate), fusiform or lanceoloid [turbinate], 15–31 × 3–4 mm; proximal segment terete, (5–10 mm); terminal segment slenderly conical, (9–18 mm), apex usually acute. Seeds: cotyledons accumbent or, occasionally, incumbent.</description>
-  <number_of_infrataxa>Subspecies 4 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>s United States</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America.</global_distribution>
+    <taxon_hierarchy>genus Raphanus;species lanceolatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Subspecies 4 (3 in the flora):</discussion>
   <discussion>Subspecies alacranensis is known from the Yucatán Peninsula.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits lanceoloid, apex not tapering abruptly, terminal segment at least 2 times length of proximal segment; leaf blades: margins usually sinuately or crenately lobed, rarely pinnatisect</statement>
+      <description type="morphology">Fruits lanceoloid, apex not tapering abruptly, terminal segment at least 2 times length of proximal segment; leaf blades: margins usually sinuately or crenately lobed, rarely pinnatisect</description>
       <determination>2a. Cakile lanceolata subsp. lanceolata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits fusiform or lanceoloid, apex tapering abruptly, terminal segment less than 2 times length of proximal segment; leaf blades: margins pinnatifid or entire.</statement>
+      <description type="morphology">Fruits fusiform or lanceoloid, apex tapering abruptly, terminal segment less than 2 times length of proximal segment; leaf blades: margins pinnatifid or entire.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits fusiform, not constricted at articulation, 4- or 8-sulcate</statement>
+      <description type="morphology">Fruits fusiform, not constricted at articulation, 4- or 8-sulcate</description>
       <determination>2b. Cakile lanceolata subsp. fusiformis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruits lanceoloid, usually constricted at articulation, weakly 4-angled or terete</statement>
+      <description type="morphology">Fruits lanceoloid, usually constricted at articulation, weakly 4-angled or terete</description>
       <determination>2c. Cakile lanceolata subsp. pseudoconstricta</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

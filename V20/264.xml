@@ -1,111 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>163a.6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Solidago</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Solidago</section_name>
-    <subsection_name>Argutae</subsection_name>
-    <subsection_authority>(Mackenzie) G. L. Nesom</subsection_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="Torrey &amp; A. Gray" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="subsection" authority="(Mackenzie) G. L. Nesom" date="unknown">Argutae</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>75: 9. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Solidago</genus_name>
-    <unranked_epithet_name>Argutae</unranked_epithet_name>
-    <unranked_epithet_authority>Mackenzie</unranked_epithet_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;section Solidago;subsection Argutae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Mackenzie">Argutae</taxon_name>
     <place_of_publication>
-      <publication_title>in J. K. Small, Man. S.E. Fl., </publication_title>
+      <publication_title>in J. K. Small, Man. S.E. Fl.,</publication_title>
       <place_in_publication>1345, 1347. 1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Solidago</genus_name>
-    <section_name>Secundiflorae</section_name>
-    <section_authority>Torrey &amp; A. Gray</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Solidago</genus_name>
-    <unranked_epithet_name>Vernae</unranked_epithet_name>
-    <unranked_epithet_authority>Mackenzie</unranked_epithet_authority>
-  </TaxonIdentification>
-  <description>Leaves: basal sometimes present (rosettes) at flowering, proximalmost cauline
-    petiolate, often present at flowering, largest, not 3-nerved. Heads secund in open, secund,
-    cone-shaped arrays, lowest branches often elongate and repeating pattern, not
-    stipitate-glandular. Phyllaries not striate, eglandular. Pappus bristles usually in 2 series
-    (inner usually moderately clavate).</description>
-  <number_of_infrataxa>Species 9 (9 in the flora):</number_of_infrataxa>
-  <global_distribution>e North America.</global_distribution>
+    <taxon_hierarchy>genus Solidago;unranked Argutae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Secundiflorae</taxon_name>
+    <taxon_hierarchy>genus Solidago;section Secundiflorae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Mackenzie">Vernae</taxon_name>
+    <taxon_hierarchy>genus Solidago;unranked Vernae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>163a.6.</number>
+  <discussion>Species 9 (9 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves minutely scabrous, puberulent or short-villous.</statement>
+      <description type="morphology">Leaves minutely scabrous, puberulent or short-villous.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves scabrous on abaxial faces (hairs short with swollen bases); bogs and
-        swamps</statement>
+      <description type="morphology">Leaves scabrous on abaxial faces (hairs short with swollen bases); bogs and
+        swamps</description>
       <determination>35. Solidago patula</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves soft-villous or puberulent.</statement>
+      <description type="morphology">Leaves soft-villous or puberulent.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Rays usually 7–12; leaves moderately to densely short-villous; spring blooming;
-        coastal plain of North Carolina, South Carolina</statement>
+      <description type="morphology">Rays usually 7–12; leaves moderately to densely short-villous; spring blooming;
+        coastal plain of North Carolina, South Carolina</description>
       <determination>33. Solidago verna</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Rays 0–(1–2); leaves densely and finely puberulent; fall blooming; open woods,
-        coastal plain and piedmont; North Carolina to Alabama (possibly Mississippi)</statement>
+      <description type="morphology">Rays 0–(1–2); leaves densely and finely puberulent; fall blooming; open woods,
+        coastal plain and piedmont; North Carolina to Alabama (possibly Mississippi)</description>
       <determination>34. Solidago brachyphylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves glabrous or nearly so.</statement>
+      <description type="morphology">Leaves glabrous or nearly so.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Phyllaries striate, several nerves enlarged; involucres 4.5–6(–7) mm; Kentucky,
-        West Virginia</statement>
+      <description type="morphology">Phyllaries striate, several nerves enlarged; involucres 4.5–6(–7) mm; Kentucky,
+        West Virginia</description>
       <determination>30. Solidago faucibus</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Phyllaries not striate, only main nerve enlarged (very rarely more striate in S.
-        arguta ); involucres 2.5–5.6 mm.</statement>
+      <description type="morphology">Phyllaries not striate, only main nerve enlarged (very rarely more striate in S.
+        arguta ); involucres 2.5–5.6 mm.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants without slender stoloniferous rhizomes</statement>
+      <description type="morphology">Plants without slender stoloniferous rhizomes</description>
       <determination>29. Solidago arguta</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants with slender stoloniferous rhizomes in addition to main, deeper rhizomes or
-        caudices.</statement>
+      <description type="morphology">Plants with slender stoloniferous rhizomes in addition to main, deeper rhizomes or
+        caudices.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Proximal leaves elliptic to obovate (ovate), acute or obtuse, with narrowly
-        attenuate bases; distal cauline leaves quickly reduced, ascending to appressed</statement>
+      <description type="morphology">Proximal leaves elliptic to obovate (ovate), acute or obtuse, with narrowly
+        attenuate bases; distal cauline leaves quickly reduced, ascending to appressed</description>
       <determination>31. Solidago ludoviciana</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Proximal leaves mostly ovate, acute to acuminate, with truncate to obtuse bases;
-        distal cauline leaves gradually reduced, rarely appressed</statement>
+      <description type="morphology">Proximal leaves mostly ovate, acute to acuminate, with truncate to obtuse bases;
+        distal cauline leaves gradually reduced, rarely appressed</description>
       <determination>32. Solidago tarda</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

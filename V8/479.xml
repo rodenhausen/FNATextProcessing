@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PENTHORUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Rydberg ex Britton" date="unknown">PENTHORACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">PENTHORUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 432.  1753</place_in_publication>
@@ -12,13 +17,11 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 197.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Ditch-stonecrop</common_name>
-  <etymology>[Greek pente, five, and horos, limit or landmark, alluding to 5-merous flower]</etymology>
-  <description>Plants rhizomatous or stoloniferous.  Stems decumbent or ascending to erect, glabrous proximally, stipitate-glandular distally.  Leaf blades elliptic-lanceolate to oblanceolate, base acuminate, apex acuminate.  Inflorescences pedunculate, branches stipitate-glandular.  Pedicels present, stipitate-glandular.  Flowers: hypanthium stipitate-glandular; sepals green or reddish, triangular to narrowly triangular; petals inconspicuous, white or greenish white; filaments white, yellow, or pink, glabrous; anthers yellow or pink.  Seeds minutely tuberculate.  x = 8 or 9.</description>
-  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe (Russia)</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family PENTHORACEAE;genus PENTHORUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek pente, five, and horos, limit or landmark, alluding to 5-merous flower]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Ditch-stonecrop</other_name>
+  <discussion>Species 2 (1 in the flora):</discussion>
   <discussion>Penthorum chinense Pursh is known from European Russia and Asia.</discussion>
-</treatment>
+</bio:treatment>

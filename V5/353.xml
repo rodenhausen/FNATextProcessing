@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silene</genus_name><species_name>caroliniana</species_name><species_authority>Walter</species_authority><subspecies_name>pensylvanica</subspecies_name><subspecies_authority>(Michaux) R. T. Clausen</subspecies_authority><place_of_publication>
-    <publication_title>Rhodora</publication_title>
-    <place_in_publication>41: 580. 1939</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Pennsylvania wild pink</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Silene</genus_name><species_name>pensylvanica</species_name><species_authority>Michaux</species_authority><place_of_publication><publication_title>Fl. Bor.-Amer. </publication_title><place_in_publication>1: 272. 1803</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Silene</genus_name><species_name>caroliniana</species_name><variety_name>pensylvanica</variety_name><variety_authority>(Michaux) Fernald</variety_authority></TaxonIdentification><description>Basal leaves: petiole very narrowly winged; blade narrowly ob-lanceolate, usually 0.5–1.5 cm broad, apex acute, glabrous or nearly so on both surfaces (margins and veins pubescent abaxially). Calyces 15–18(–20) mm, glandular-pubescent. Capsules ca. 8(–10) mm. 2n = 48.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>open, often gravelly or rocky, mainly deciduous woodlands</habitat><elevation>0–1200 m;</elevation><us_distribution>Conn.</us_distribution><us_distribution>Del.</us_distribution><us_distribution>D.C.</us_distribution><us_distribution>Md.</us_distribution><us_distribution>Mass.</us_distribution><us_distribution>N.H.</us_distribution><us_distribution>N.J.</us_distribution><us_distribution>N.Y.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>Ohio</us_distribution><us_distribution>Pa.</us_distribution><us_distribution>R.I.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Tenn.</us_distribution><us_distribution>Va.</us_distribution><us_distribution>W.Va.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Caryophylloideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">caroliniana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Michaux) R. T. Clausen" date="unknown">pensylvanica</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>41: 580. 1939</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Caryophylloideae;genus Silene;species caroliniana;subspecies pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">pensylvanica</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Bor.-Amer.</publication_title>
+      <place_in_publication>1: 272. 1803</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Silene;species pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silene</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">caroliniana</taxon_name>
+    <taxon_name rank="variety" authority="(Michaux) Fernald" date="unknown">pensylvanica</taxon_name>
+    <taxon_hierarchy>genus Silene;species caroliniana;variety pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8b.</number>
+  <other_name type="common_name">Pennsylvania wild pink</other_name>
+</bio:treatment>

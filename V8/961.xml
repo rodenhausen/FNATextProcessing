@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>33.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ERICA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ERICA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 352.  1753</place_in_publication>
@@ -12,47 +17,43 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 167.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Heath</common_name>
-  <etymology>[Greek ereiko, to break, alluding to brittle stems]</etymology>
-  <author>Gordon C. Tucker</author>
-  <description>Subshrubs or shrubs [trees].  Stems erect, spreading, or creeping, (much-branched); twigs glabrous or hairy.  Leaves persistent, whorled; petiole present; blade coriaceous, margins ciliate, prickled, or glabrous.  Inflorescences terminal or axillary, umbels, racemes, or panicles, 10–30-flowered; perulae absent; (bracteoles 2–3).  Flowers bisexual, radially symmetric; sepals 4–5, distinct, (shorter than petals); petals 4–5, connate nearly their entire lengths [connate ca. 1/2 their lengths], corolla persistent, campanulate; stamens 10, included or exserted; (filaments glabrous); anthers with or without awns, dehiscent through narrowly oblong, subterminal pores; ovary pseudo-10-locular; style (slender, straight), included or exserted, (glabrous); stigma filiform, obconic, or capitate.  Fruits capsular [drupaceous], ellipsoid, dehiscence loculicidal [indehiscent].  Seeds ca. 10, ellipsoid to obovoid, not winged, not tailed; testa reticulate or foveolate.  x = 12.</description>
-  <number_of_infrataxa>Species ca. 860 (4 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus ERICA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek ereiko, to break, alluding to brittle stems]</other_info_on_name>
+  </taxon_identification>
+  <number>33.</number>
+  <other_name type="common_name">Heath</other_name>
+  <discussion>Species ca. 860 (4 in the flora):</discussion>
   <discussion>All of the naturalized species of Erica, as well as some others and hybrids, are cultivated, especially in the northeastern and northwestern coastal areas (D. Metheny 1991).  Most require acid soils, although E. carnea, E. vagans, and E. ×darleyensis (E. carnea × E. erigena) will accept neutral soils (A. Mikolajski 1997).  Over 700 species are endemic to the Cape region of southern Africa; recent molecular phylogenetic studies suggest that the genus originated in Europe, and that the southern African species represent radiation from an ancestor of E. arborea (A. F. McGuire and K. A. Kron 2005).</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pedicels 5–8 mm; corollas 2.5–3.5 mm; anthers without awns; petioles 0.5–1 mm</statement>
+      <description type="morphology">Pedicels 5–8 mm; corollas 2.5–3.5 mm; anthers without awns; petioles 0.5–1 mm</description>
       <determination>1.   Erica vagans</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pedicels 1–3 mm; corollas 4–6 mm; anthers with awns; petioles 0.1–0.3 mm.</statement>
+      <description type="morphology">Pedicels 1–3 mm; corollas 4–6 mm; anthers with awns; petioles 0.1–0.3 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stigmas obconic, exserted; calyx lobes ovate</statement>
+      <description type="morphology">Stigmas obconic, exserted; calyx lobes ovate</description>
       <determination>2.   Erica lusitanica</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stigmas capitate, not (or slightly) exserted; calyx lobes deltate.</statement>
+      <description type="morphology">Stigmas capitate, not (or slightly) exserted; calyx lobes deltate.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves in whorls of 3, surfaces glabrous, but with marginal prickles; ovaries glabrous; corolla lobes rounded apically</statement>
+      <description type="morphology">Leaves in whorls of 3, surfaces glabrous, but with marginal prickles; ovaries glabrous; corolla lobes rounded apically</description>
       <determination>3.   Erica cinerea</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves in whorls of 4, surfaces with scattered hairs and glands; ovaries hairy; corolla lobes acute apically</statement>
+      <description type="morphology">Leaves in whorls of 4, surfaces with scattered hairs and glands; ovaries hairy; corolla lobes acute apically</description>
       <determination>4.   Erica tetralix</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

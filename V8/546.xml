@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Douglasia</genus_name>
-    <species_name>nivalis</species_name>
-    <species_authority>Lindley</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">nivalis</taxon_name>
     <place_of_publication>
       <publication_title>Quart. J. Sci. Lit. Arts [</publication_title>
       <place_in_publication>24]: 383.  1827  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Snow dwarf primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Douglasia</genus_name>
-    <species_name>dentata</species_name>
-    <species_authority>S. Watson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Douglasia</genus_name>
-    <species_name>nivalis</species_name>
-    <variety_name>dentata</variety_name>
-    <variety_authority>(S. Watson) A. Gray</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>Kuntze</species_authority>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose mats with branched caudex.  Stems prostrate to ascending, loosely covered with marcescent, gray to light brown leaves (becoming remote in age).  Leaves spreading, slightly reflexed in age, thin; blade linear to oblanceolate, 5–2 × 1.5–4 mm, margins entire or distinctly toothed, apex obtuse, surfaces densely hairy, hairs minute, branched and stellate.  Scapes 10–70 mm, elongating little in fruit, densely stellate-pubescent.  Inflorescences 2–8-flowered, bracteate; bracts 4–10, lanceolate to ovate, 3–8 × 2–3 mm, stellate-pubescent.  Pedicels present, 1–10(–20) mm.  Flowers: calyx 4–7 × 3–5 mm, stellate-pubescent to glabrate; corolla rose-pink, limb 8–12 mm diam., lobes 3–5 × 1–2 mm, margins erose or entire.</description>
-  <phenology>Flowering early–mid summer</phenology>
-  <habitat>Sagebrush slopes, alpine ridges, talus</habitat>
-  <elevation>700–2400 m</elevation>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Douglasia;species nivalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">dentata</taxon_name>
+    <taxon_hierarchy>genus Douglasia;species dentata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="Kuntze" date="unknown">nivalis</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) A. Gray" date="unknown">dentata</taxon_name>
+    <taxon_hierarchy>genus Douglasia;species nivalis;variety dentata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">douglasii</taxon_name>
+    <taxon_hierarchy>genus Primula;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Snow dwarf primrose</other_name>
   <discussion>Previous treatments of Douglasia nivalis have recognized two varieties that differ in the degree of dentation on leaf margins.  The most common is var. nivalis, with almost entire leaf blade margins, found in the Wenatchee Mountains and north to Chelan and Douglas counties.  Variety dentata has more distinctly toothed leaves and is known only from the Wenatchee Mountains.  Because there is a great deal of overlapping variation, particularly in the Wenatchee Mountains, those varieties are not given formal recognition here.</discussion>
   <discussion>Presence of Douglasia nivalis in Canada is uncertain.  The original collection was described by Lindley as collected on the Alberta–British Columbia border near Mount Robson; no other collections of the species from either province are known.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Zaluzania</genus_name><species_name>grayana</species_name><species_authority>B. L. Robinson &amp; Greenman</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>34: 531. 1899</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Gymnolomia</genus_name><species_name>triloba</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>17: 217. 1882,</place_in_publication><other_info>not Zaluzania triloba Persoon</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Viguiera</genus_name><species_name>triloba</species_name><species_authority>(A. Gray) J. Olsen</species_authority></TaxonIdentification><description>Leaf blades 2–8 × 1–6 cm, ultimate margins coarsely toothed, faces sparsely strigillose and gland-dotted. Ray laminae 15–20 mm. Cypselae 2–3 mm. 2n = 34.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>rocky sites</habitat><habitat>canyon walls</habitat><elevation>1500–2700 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>N.Mex.</us_distribution><global_distribution>Mexico (Chihuahua).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Zaluzaniiae H. Robinson" date="unknown">Zaluzaniinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Zaluzania</taxon_name>
+    <taxon_name rank="species" authority="B. L. Robinson &amp; Greenman" date="unknown">grayana</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>34: 531. 1899</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Zaluzaniinae;genus Zaluzania;species grayana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnolomia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">triloba</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>17: 217. 1882,</place_in_publication>
+      <other_info_on_pub>not Zaluzania triloba Persoon</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Gymnolomia;species triloba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Viguiera</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) J. Olsen" date="unknown">triloba</taxon_name>
+    <taxon_hierarchy>genus Viguiera;species triloba;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

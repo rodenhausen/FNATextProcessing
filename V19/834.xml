@@ -1,48 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Picrothamnus</genus_name>
-    <species_name>desertorum</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Picrothamnus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">desertorum</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 417. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Picrothamnus;species desertorum;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>spinescens</species_name>
-    <species_authority>D. C. Eaton</species_authority>
-  </TaxonIdentification>
-  <description>Stems diffusely branched from bases, some laterals ending in spinelike tips. Leaf blades or lobes orbiculate to linear, 1–5(–20) × 1–5(–20) mm. Phyllaries whitish green. Cypselae 1–1.5 mm. 2n = 18, 36.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jun.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>arid slopes and valleys , sands or clays , sometimes saline soils ;</text>
-    <habitat>arid slopes and valleys</habitat>
-    <habitat>sands or clays</habitat>
-    <habitat>saline soils</habitat>
-  </habitat_info>
-  <elevation>1800–2200 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Picrothamnus;species desertorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="D. C. Eaton" date="unknown">spinescens</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species spinescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Budsage provides nutritious forage for wildlife and domestic sheep in winter; it can be poisonous or fatal to calves and lambs, if consumed in great quantity during spring months.</discussion>
-  <references>
-    <reference />
-  </references>
-</treatment>
-
+</bio:treatment>

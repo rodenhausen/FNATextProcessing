@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>34.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>obtusatum</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">obtusatum</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 342.  1868,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gormania</genus_name>
-    <species_name>obtusata</species_name>
-    <species_authority>(A. Gray) Britton</species_authority>
-  </TaxonIdentification>
-  <description>Herbs, perennial, tufted, glabrous.  Stems rootstocks, horizontal, branched, bearing terminal rosettes.  Leaves alternate, ascending, sessile; blade green, blue-green, green suffused with red, or red, margins not white, not pruinose, not glaucous, obovate, spatulate, or oblanceolate, subterete to somewhat flattened, (4–)12–22(–33) × 4–10 mm, base not spurred, not scarious, apex rounded or truncate, obscurely mucronate, retuse, or emarginate.  Flowering shoots (terminal or axillary), ascending, simple or branched, 2–10(–12) cm; leaf blades truncately obovate or spatulate, base not spurred; offsets not formed.  Inflorescences paniculate cymes, 5–45-flowered, 4–15-branched; branches not recurved, simple or 1–2-forked; bracts spatulate to linear-oblong, 3–5 mm, base not spurred; offsets not formed.  Pedicels 2–5 mm.  Flowers ca. 5-merous; sepals erect, (loosely appressed to corolla), slightly connate basally, pale green or purplish, glaucous, ovate or lanceolate, (slightly subterete), equal, 1.8–5.3(–6) × 2 mm, apex acute to obtuse; petals (convolute in bud), erect proximally, connate basally, spreading distally, greenish white or creamy white to yellow or pale orange, or pale orange suffused with pink, oblanceolate-oblong, spatulate or obovate, somewhat carinate, 4–10 mm, apex abruptly mucronate; filaments white or yellow; anthers yellow; nectar scales white, truncately reniform.  Carpels erect in fruit, distinct, brown.  2n = 30, 60 (in var. retusum).</description>
-  <number_of_infrataxa>Varieties 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species obtusatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gormania</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Britton" date="unknown">obtusata</taxon_name>
+    <taxon_hierarchy>genus Gormania;species obtusata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>34.</number>
+  <discussion>Varieties 4 (4 in the flora):</discussion>
   <discussion>R. T. Clausen (1975) noted that Sedum obtusatum, S. laxum, and S. oregonense are remarkably similar; S. obtusatum is distinct where it occurs with the other two but is difficult to distinguish by any single feature.  Sedum obtusatum is unusual in having offsets produced in the axils of rosette leaves rather than on a rootstock or creeping stem.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals yellow, sometimes with reddish veins; anthers 1.7–1.8 mm</statement>
+      <description type="morphology">Petals yellow, sometimes with reddish veins; anthers 1.7–1.8 mm</description>
       <determination>34a.   Sedum obtusatum var. obtusatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals white, greenish or creamy white, pale orange, or pale orange suffused with pink; anthers 0.8–1.5 mm.</statement>
+      <description type="morphology">Petals white, greenish or creamy white, pale orange, or pale orange suffused with pink; anthers 0.8–1.5 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Flowering shoots 9–12 cm</statement>
+      <description type="morphology">Flowering shoots 9–12 cm</description>
       <determination>34b.   Sedum obtusatum var. boreale</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Flowering shoots 2–9 cm.</statement>
+      <description type="morphology">Flowering shoots 2–9 cm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Rosettes dense, internodes not visible</statement>
+      <description type="morphology">Rosettes dense, internodes not visible</description>
       <determination>34c.   Sedum obtusatum var. paradisum</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Rosettes loose, internodes visible</statement>
+      <description type="morphology">Rosettes loose, internodes visible</description>
       <determination>34d.   Sedum obtusatum var. retusum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

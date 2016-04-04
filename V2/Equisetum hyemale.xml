@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>10</number><TaxonIdentification Status="ACCEPTED"><genus_name>Equisetum</genus_name><species_name>hyemale</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl.</publication_title><place_in_publication>2: 1062. 1753</place_in_publication></place_of_publication></TaxonIdentification><common_name>Common scouring rush</common_name><common_name> prêle d'hiver</common_name><description>Subspecies 2 (1 in the flora): North America, Mexico, Central America in Guatemala, Europe, Asia.</description></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Equisetum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hyemale</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1062. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Equisetum;species hyemale;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10</number>
+  <other_name type="common_name">Common scouring rush</other_name>
+  <other_name type="common_name">prêle d'hiver</other_name>
+</bio:treatment>

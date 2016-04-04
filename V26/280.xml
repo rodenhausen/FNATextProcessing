@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Fritillaria</genus_name><species_name>agrestis</species_name><species_authority>Greene</species_authority><place_of_publication>
-    <publication_title>Erythea</publication_title>
-    <place_in_publication>3: 67. 1895</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Stinkbells</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Fritillaria</genus_name><species_name>biflora</species_name><species_authority>Lindley</species_authority><variety_name>agrestis</variety_name><variety_authority>Greene</variety_authority></TaxonIdentification><description>Bulb scales: large 2–9; small 0–2. Stem 3–6 dm. Leaves 5–12, alternate, crowded near proximal center of stem, 5–15 cm; blade linear to lanceolate-oblong. Flowers nodding, odor definitely unpleasant; tepals greenish to purplish brown adaxially, white or yellow abaxially, ovate, 1.8–3.5 cm, apex not recurved; nectaries prominent, green, narrowly linear, forming narrow band 2/3 to equaling tepal length; style obviously branched for 1/2 its length, branches longer than 1.5 mm. Capsules angled. 2n = 24.</description><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><habitat>depressions with clay or other heavy soils</habitat><elevation>0–500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>This species is uncommon.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fritillaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">agrestis</taxon_name>
+    <place_of_publication>
+      <publication_title>Erythea</publication_title>
+      <place_in_publication>3: 67. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Fritillaria;species agrestis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fritillaria</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">biflora</taxon_name>
+    <taxon_name rank="variety" authority="Greene" date="unknown">agrestis</taxon_name>
+    <taxon_hierarchy>genus Fritillaria;species biflora;variety agrestis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Stinkbells</other_name>
+  <discussion>This species is uncommon.</discussion>
+</bio:treatment>

@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>carolina</variety_name>
-    <variety_authority>(Small) Fernald</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">angustifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Fernald" date="unknown">carolina</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>39: 437.  1937  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Carolina wicky or bog myrtle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Kalmia</genus_name>
-    <species_name>carolina</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species angustifolia;variety carolina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">carolina</taxon_name>
     <place_of_publication>
       <publication_title>Fl. S.E. U.S.,</publication_title>
       <place_in_publication>886, 1336 [as caroliniana].  1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades pale green abaxially, usually deep green adaxially, abaxial surface densely puber-ulent with scattered, stipitate-glandular trichomes.  Flowers: calyx strongly puberulent, usually not stipitate-glandular; corolla usually densely puberulent adaxially.</description>
-  <phenology>Flowering Apr–May</phenology>
-  <habitat>Shrubby bogs, pocosins, streamhead ecotones, pine savannas</habitat>
-  <elevation>0–1300 m</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Kalmia;species carolina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <other_name type="common_name">Carolina wicky or bog myrtle</other_name>
+</bio:treatment>

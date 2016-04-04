@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>stanfordiana</species_name>
-    <species_authority>Parry</species_authority>
-    <subspecies_name>decumbens</subspecies_name>
-    <subspecies_authority>(P. V. Wells) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">stanfordiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(P. V. Wells) P. V. Wells" date="unknown">decumbens</taxon_name>
     <place_of_publication>
       <publication_title>Four Seasons</publication_title>
       <place_in_publication>9(2): 61.  1992  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Rincon manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>stanfordiana</species_name>
-    <species_authority>forma decumbens P. V. Wells</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species stanfordiana;subspecies decumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="forma decumbens P. V. Wells" date="unknown">stanfordiana</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>35: 338.  1989,</place_in_publication>
-      <other_info>based on A. standfordiana var. repens Roof, Four Seasons 4(2): 16.  1972</other_info>
+      <other_info_on_pub>based on A. standfordiana var. repens Roof, Four Seasons 4(2): 16.  1972</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants prostrate to decumbent, mat-forming, 0.1–1 m; twigs sparsely short-hairy.  Petioles 4–8 mm, smooth, glabrous.  Inflorescences: axis glabrous or sparsely short-hairy; bracts glabrous or sparsely short-hairy.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral, clay barrens</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species stanfordiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12b.</number>
+  <other_name type="common_name">Rincon manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies decumbens is found only at Rincon Ridge, Sonoma County.</discussion>
-</treatment>
+</bio:treatment>

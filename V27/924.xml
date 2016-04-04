@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microbryum</genus_name>
-    <species_name>davallianum</species_name>
-    <species_authority>(Smith) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microbryum</taxon_name>
+    <taxon_name rank="species" authority="(Smith) R. H. Zander" date="unknown">davallianum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 240.  1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>davallianum</species_name>
-    <species_authority>Smith</species_authority>
+    <taxon_hierarchy>genus Microbryum;species davallianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">davallianum</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Bot. (König &amp; Sims)</publication_title>
       <place_in_publication>1: 577.  1805</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pottia</genus_name>
-    <species_name>davalliana</species_name>
-    <species_authority>(Smith) C. Jensen</species_authority>
-  </TaxonIdentification>
-  <description>Distal laminal cells weakly convex superficially, adaxial surface of costa not mammillose.  Seta elongate.  Capsule cylindrical, stegocarpous but never cleisto-carpous.  Spores granulose, low-papillose or spiculose, large, 28–39 µm.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand).</us_distribution>
+    <taxon_hierarchy>genus Gymnostomum;species davallianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pottia</taxon_name>
+    <taxon_name rank="species" authority="(Smith) C. Jensen" date="unknown">davalliana</taxon_name>
+    <taxon_hierarchy>genus Pottia;species davalliana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules commonly wide-mouthed when dehisced, with a single row of thickened cells below mouth, peristome absent, spores spiculose, 31–39 µm var. davallianum</statement>
+      <description type="morphology">Capsules commonly wide-mouthed when dehisced, with a single row of thickened cells below mouth, peristome absent, spores spiculose, 31–39 µm var. davallianum</description>
       <determination>2a.   Microbryum davallianum var. davallianum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules narrow mouthed when dehisced, with usually 2 or more rows of thickened cells below mouth, peristome variously absent or present, spores merely papillose, 27–34 µm.</statement>
+      <description type="morphology">Capsules narrow mouthed when dehisced, with usually 2 or more rows of thickened cells below mouth, peristome variously absent or present, spores merely papillose, 27–34 µm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Peristome well developed var. commutatum</statement>
+      <description type="morphology">Peristome well developed var. commutatum</description>
       <determination>2b.   Microbryum davallianum var. commutatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Peristome rudimentary or absent var. conicum</statement>
+      <description type="morphology">Peristome rudimentary or absent var. conicum</description>
       <determination>2c.   Microbryum davallianum var. conicum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

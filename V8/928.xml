@@ -1,67 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Epigaea</genus_name>
-    <species_name>repens</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Epigaea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">repens</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 395.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mayflower</common_name>
-  <common_name>ground laurel</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Epigaea</genus_name>
-    <species_name>repens</species_name>
-    <variety_name>glabrifolia</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Epigaea</genus_name>
-    <species_name>repens</species_name>
-    <variety_name>rubicunda</variety_name>
-    <variety_authority>D. Don</variety_authority>
-  </TaxonIdentification>
-  <description>Plants prostrate or creeping; branches spreading.  Stems to 30(–50) cm.  Twigs often hirsute-hispid, especially when young.  Leaves alternate (distal leaves sometimes closely spaced, appearing subopposite or opposite); petiole 1–5 cm, with unicellular hairs of varying lengths; blade ovate-elliptic, (2–)3–8(–10) × 1.5–5.5 cm, base rounded or cordate, margins ciliate with stiff hairs, plane, apex obtuse to acute and mucronate, abaxial surface with distinctive reticulate venation, adaxial and abaxial surfaces with long, soft or stiff hairs, becoming glabrate.  Inflorescences axillary and terminal clusters, 2–5 cm; bracteoles persistent, 2, 4–7 mm (often extending to calyx lobes), hirsute.  Flowers bisexual or unisexual due to undeveloped or sterile stamens or ovary (staminate flowers larger than carpellate), with spicy fragrance; sepals distinct nearly to base, 5–6 mm, hirsute; corolla tube 6–10(–15) mm, lobes 5, spreading, rose or pink to white, 6–10 mm; filaments adnate to base of corolla tube, hairy basally; ovary glandular-hairy; style slender, with collar or ring of tissue partly adnate to stigma.  Capsules depressed-globose, 5-lobed, 5–8 mm diam., fleshy, outer surface glandular-hirsute, white and pulpy within due to persistent, fleshy placentae.  Seeds brown, 0.5 mm.  2n = 24.</description>
-  <phenology>Flowering Feb–Jul</phenology>
-  <habitat>Moist to xeric pine or deciduous forests, clearings, in sandy, rocky, or peaty soil</habitat>
-  <elevation>0–1500 m</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Epigaea;species repens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Epigaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">repens</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">glabrifolia</taxon_name>
+    <taxon_hierarchy>genus Epigaea;species repens;variety glabrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Epigaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">repens</taxon_name>
+    <taxon_name rank="variety" authority="D. Don" date="unknown">rubicunda</taxon_name>
+    <taxon_hierarchy>genus Epigaea;species repens;variety rubicunda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Mayflower</other_name>
+  <other_name type="common_name">ground laurel</other_name>
   <discussion>Although common in much of its range, Epigaea repens is rare in Florida, occurring only in the western part of the state.  Although documented from Illinois, it has not been seen there since the late 1800s.  It is a well known member of the early spring flora, usually beginning to flower well before deciduous trees leaf out.  Commonly known as mayflower, it was designated the state flower of Massachusetts in 1918 and received legal protection there in 1925.  The flowers are sweetly fragrant.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2d8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Chamaetia</subgenus_name>
-    <section_name>Glaucae</section_name>
-    <section_authority>(Fries) Andersson</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Chamaetia</taxon_name>
+    <taxon_name rank="section" authority="(Fries) Andersson" date="unknown">Glaucae</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle,
                 Prodr.</publication_title>
       <place_in_publication>16(2): 273. 1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <family_name>Salix</family_name>
-    <tribe_name>Glaucae</tribe_name>
-    <tribe_authority>Fries</tribe_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Chamaetia;section Glaucae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="family" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="tribe" authority="Fries" date="unknown">Glaucae</taxon_name>
     <place_of_publication>
       <publication_title>Physiogr. Sällsk. Årsberätt.</publication_title>
       <place_in_publication>2: 35. 1825</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 0.2–6 m, not clonal or clonal by layering. Largest medial blades
-        hypostomatous, hemiamphistomatous, or amphistomatous, abaxial surface glaucous (sometimes
-        obscured by hairs). Catkins from lateral buds. Staminate flowers: filaments glabrous or
-        hairy. Pistillate flowers: abaxial nectary sometimes present, then distinct or connate to
-        adaxial one and forming a cup; ovary pubescent or moderately to very densely villous,
-        tomentose, woolly, or silky, hairs white, cylindrical or flattened.</description>
-  <number_of_infrataxa>Species 8 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family Salix;tribe Glaucae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2d8.</number>
+  <discussion>Species 8 (3 in the flora):</discussion>
   <discussion>Section Glaucae is placed here in subg. Chamaetia but it clusters with members of
         subg. Vetrix (G. W. Argus 1997) and could equally well be included there. It includes high
         polyploids, which probably incorporate genes from members of other sections and
         subgenera.</discussion>
-</treatment>
+</bio:treatment>

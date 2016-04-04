@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Andreaea</genus_name>
-    <species_name>megistospora</species_name>
-    <species_authority>B. M. Murray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="B. M. Murray" date="unknown">megistospora</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>90: 18, figs. 9–23, 25–28.  1987,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>megistospora</species_name>
-    <variety_name>epapillosa</variety_name>
-    <variety_authority>(B. M. Murray) H. A. Crum &amp; L. E. Anderson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>megistospora</species_name>
-    <subspecies_name>epapillosa</subspecies_name>
-    <subspecies_authority>B. M. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants brown to black.  Leaves erect-spreading or secund, subulate-lanceolate from an ovate base, widest in proximal half of leaf, apex symmetric; costa present, percurrent and sometimes filling the leaf apices, strong but narrow, bulging abaxially, usually reaching the leaf insertion; leaf margins entire or occasionally weakly crenulate; basal laminal cells quadrate to short-rectangular, marginal cells mostly rounded-quadrate, walls weakly pitted-sinuose; medial laminal cells rounded-quadrate, 1-stratose or 2-stratose in patches or completely, lumens rounded; laminal papillae smooth to papillose.  Sexual condition cladautoicous or gonioatoicous; perichaetial leaves differentiated, convolute-sheathing.  Spores (40–)50–90(–110) µm.</description>
-  <habitat>Acidic rock;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>nw Europe.</global_distribution>
+    <taxon_hierarchy>genus Andreaea;species megistospora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">megistospora</taxon_name>
+    <taxon_name rank="variety" authority="(B. M. Murray) H. A. Crum &amp; L. E. Anderson" date="unknown">epapillosa</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species megistospora;variety epapillosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">megistospora</taxon_name>
+    <taxon_name rank="subspecies" authority="B. M. Murray" date="unknown">epapillosa</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species megistospora;subspecies epapillosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
   <discussion>Andreaea megistospora is distinguished from the similar A. rothii by its large spores, and may simply prove to be a large form of the latter.  The variety epapillosa is a minor variant commonly occurring in mixture with the typical variety, and doubtfully warrants a name.</discussion>
-</treatment>
+</bio:treatment>

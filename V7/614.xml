@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SANDBERGIA</genus_name>
-    <genus_authority>Greene</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Boechereae</taxon_name>
+    <taxon_name rank="genus" authority="Greene" date="unknown">SANDBERGIA</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
       <place_in_publication>2: 136. 1911</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For John Herman Sandberg, 1848–1917, Swedish-born American botanist and physician who collected extensively in the Pacific Northwest]</etymology>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Biennials or perennials; (caudex simple or branched, covered with persistent leaf remains); not scapose; pubescent throughout, trichomes shortly stalked or subsessile, cruciform, Y-shaped, or forked. Stems erect or decumbent, unbranched or branched distally. Leaves basal and cauline; petiolate or sessile; basal usually rosulate, petiolate, blade margins entire, dentate, or lyrate-pinnatifid, (apex obtuse to acute); cauline sessile, blade (base attenuate, not auriculate), margins entire, subentire, dentate, or pinnatifid. Racemes (corymbose, several-flowered), considerably elongated in fruit. Fruiting pedicels ascending to subdivaricate, (straight), slender, (terete). Flowers: sepals (erect), oblong; petals white, oblanceolate-spatulate, (longer than sepals, claw obscurely differentiated from blade, apex rounded); stamens slightly tetradynamous; filaments not dilated basally, (slender); anthers ovate or oblong, (apex obtuse); nectar glands confluent, subtending bases of stamens. Fruits subsessile or shortly stipitate (gynophore less than 1 mm), linear, slightly to strongly torulose, subterete to strongly latiseptate; valves each without midvein or with obscure one on proximal 1/2, sparsely to densely pubescent or glabrescent; replum rounded; septum complete; ovules 12–30 per ovary; (style obsolete or distinct); stigma capitate. Seeds uniseriate, plump, not winged, oblong; seed coat (minutely reticulate), not mucilaginous when wetted; cotyledons incumbent. x = 7.</description>
-  <number_of_infrataxa>Species 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>nw North America.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Boechereae;genus SANDBERGIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For John Herman Sandberg, 1848–1917, Swedish-born American botanist and physician who collected extensively in the Pacific Northwest]</other_info_on_name>
+  </taxon_identification>
+  <number>16.</number>
+  <discussion>Species 2 (2 in the flora):</discussion>
   <discussion>Although both species of Sandbergia were placed by R. C. Rollins (1993) in Halimolobos, the two genera are not closely related. Sandbergia is most closely related to Boechera, whereas Halimolobos is sister to Mancoa and Sphaerocardamum Schauer in the tribe Halimolobeae. For an account of the generic boundaries of Sandbergia, see under 60. Halimolobos.</discussion>
   <references>
     <reference>Al-Shehbaz, I. A. 2007b. The North American genus Sandbergia (Boechereae, Brassicaceae). Harvard Pap. Bot. 12: 425–427.</reference>
@@ -21,13 +26,13 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaf blade margins usually entire, rarely denticulate; fruits slightly torulose</statement>
+      <description type="morphology">Cauline leaf blade margins usually entire, rarely denticulate; fruits slightly torulose</description>
       <determination>1. Sandbergia whitedii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaf blade margins coarsely dentate to pinnatifid; fruits strongly torulose</statement>
+      <description type="morphology">Cauline leaf blade margins coarsely dentate to pinnatifid; fruits strongly torulose</description>
       <determination>2. Sandbergia perplexa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

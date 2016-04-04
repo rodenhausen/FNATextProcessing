@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>124.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>MATRICARIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Luc Brouillet</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">MATRICARIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 890. 1753</place_in_publication>
@@ -12,48 +18,41 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 380. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus MATRICARIA;</taxon_hierarchy>
-  <etymology>[Greek matrix , womb, and - aria , pertaining to; alluding to reputed medicinal properties]</etymology>
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Mayweed</common_name>
-  <common_name>chamomile</common_name>
-  <common_name>matricary</common_name>
-  <common_name>matricaire</common_name>
-  <common_name>chamomille</common_name>
-  <author>Luc Brouillet</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamomilla</genus_name>
-    <genus_authority>Gray</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals, (1–)10–25(–80) cm (taprooted; often aromatic). Stems 1–10+, usually erect or ascending, sometimes decumbent, branched or not, glabrous or glabrate to sparsely hairy (hairs basifixed). Leaves (not marcescent) basal (soon withering) and cauline; alternate; subpetiolate or sessile; blades spatulate to oblong or ovate (bases sheathing or clasping, often pinnately auriculate), (1–)2–3-pinnately lobed (lobes linear, often curved distally), ultimate margins entire (± recurved), mucronate, faces glabrous or glabrate to sparsely hairy (hairs basifixed). Heads radiate or discoid, borne singly or in open, corymbiform arrays. Involucres patelliform, 4–14 mm diam. Phyllaries persistent, 25–50 in [2–]3–4[–5] series, distinct, oblong or ovate to spatulate or linear-spatulate (membranous, not carinate, bases not indurate), subequal, margins and apices (hyaline) scarious (apices rounded to obtuse). Receptacles conic to oblong-ovoid [subulate] (hollow), epaleate. Ray florets 0 or 10–22, pistillate, fertile; corollas white, laminae elliptic-ovate. Disc florets 120–750+, bisexual, fertile; corollas (persisting in fruit, often slightly asymmetric, sometimes with scattered, sessile, golden glands) yellow to greenish yellow or yellowish green, tubes ± dilated), throats urceolate to campanulate, lobes 4–5 (spreading), deltate [with resin sacs]. Cypselae obconic, slightly compressed (usually asymmetric, apices oblique), ribs [3–]5, faces glabrous, smooth between ribs (pericarps sometimes with myxogenic cells abaxially and/or in ribs; embryo sac development monosporic); pappi 0, coroniform, or (sometimes on ray cypselae) adaxial auricles. x = 9.</description>
-  <number_of_infrataxa>Species 7 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>North Africa</global_distribution>
-  <global_distribution>some species widespread weeds in the southern hemisphere.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus MATRICARIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek matrix , womb, and - aria , pertaining to; alluding to reputed medicinal properties]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Gray" date="unknown">Chamomilla</taxon_name>
+    <taxon_hierarchy>genus Chamomilla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>124.</number>
+  <other_name type="common_name">Mayweed</other_name>
+  <other_name type="common_name">chamomile</other_name>
+  <other_name type="common_name">matricary</other_name>
+  <other_name type="common_name">matricaire</other_name>
+  <other_name type="common_name">chamomille</other_name>
+  <discussion>Species 7 (3 in the flora):</discussion>
   <discussion>Matricaria has been confused with Tripleurospermum (see discussion under the latter). Typification of Matricaria was discussed by K. Bremer and C. J. Humphries (1993), who rejected the arguments of S. Rauschert (1974) in favor of the use of Chamomilla over Matricaria.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads radiate (ray corollas white); disc corollas yellow to greenish yellow, lobes 5; cypselae 0.75–0.9 mm; pappi usually 0, sometimes coroniform (entire or lobed) or (on ray cypselae) each a toothed auricle</statement>
+      <description type="morphology">Heads radiate (ray corollas white); disc corollas yellow to greenish yellow, lobes 5; cypselae 0.75–0.9 mm; pappi usually 0, sometimes coroniform (entire or lobed) or (on ray cypselae) each a toothed auricle</description>
       <determination>3. Matricaria chamomilla</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads discoid; disc corollas greenish yellow, lobes 4(–5); cypselae 1–1.5 mm (ribs, at least 2 lateral, each with longitudinal mucilage gland); pappi coroniform, entire or lobed.</statement>
+      <description type="morphology">Heads discoid; disc corollas greenish yellow, lobes 4(–5); cypselae 1–1.5 mm (ribs, at least 2 lateral, each with longitudinal mucilage gland); pappi coroniform, entire or lobed.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Heads (1–)4–50(–300); discs 4–7(–11) × 4–7.5(–10) mm; cypselae: 2 lateral ribs each with mucilage gland along ± entire length; pappi coroniform, entire; plants aromatic (pineapple odor when bruised); stems 1–10+, usually erect or ascending, sometimes decumbent, branched from bases</statement>
+      <description type="morphology">Heads (1–)4–50(–300); discs 4–7(–11) × 4–7.5(–10) mm; cypselae: 2 lateral ribs each with mucilage gland along ± entire length; pappi coroniform, entire; plants aromatic (pineapple odor when bruised); stems 1–10+, usually erect or ascending, sometimes decumbent, branched from bases</description>
       <determination>1. Matricaria discoidea</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Heads 1–15+; discs 5–12.5 × 6–14 mm; cypselae: 2 lateral ribs each with mucilage gland in distal 1 / 2 (glands expanding into lobes); pappi coroniform, lobed (lobes 2, abaxio-lateral); plants not notably aromatic; stems usually erect, sometimes ascending, simple or branched mostly distally, sometimes proximally (then ascending)</statement>
+      <description type="morphology">Heads 1–15+; discs 5–12.5 × 6–14 mm; cypselae: 2 lateral ribs each with mucilage gland in distal 1 / 2 (glands expanding into lobes); pappi coroniform, lobed (lobes 2, abaxio-lateral); plants not notably aromatic; stems usually erect, sometimes ascending, simple or branched mostly distally, sometimes proximally (then ascending)</description>
       <determination>2. Matricaria occidentalis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

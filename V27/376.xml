@@ -1,115 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bucklandiella</genus_name>
-    <section_name>Laevifoliae</section_name>
-    <section_authority>(Kindberg) Bednarek-Ochyra &amp; Ochyra</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bucklandiella</taxon_name>
+    <taxon_name rank="section" authority="(Kindberg) Bednarek-Ochyra &amp; Ochyra" date="unknown">Laevifoliae</taxon_name>
     <place_of_publication>
       <publication_title>in R. Ochyra et al., Cens. Cat. Polish Mosses,</publication_title>
       <place_in_publication>142.  2003,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Racomitrium</genus_name>
-    <unranked_epithet_name>Laevifolia</unranked_epithet_name>
-    <unranked_epithet_authority>Kindberg</unranked_epithet_authority>
+    <taxon_hierarchy>genus Bucklandiella;section Laevifoliae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Racomitrium</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Kindberg">Laevifolia</taxon_name>
     <place_of_publication>
       <publication_title>Eur. N. Amer. Bryin.,</publication_title>
       <place_in_publication>235.  1898</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Racomitrium</genus_name>
-    <section_name>Laevifolia</section_name>
-    <section_authority>(Kindberg) Noguchi</section_authority>
-  </TaxonIdentification>
-  <description>Plants moderately sized to large, fairly slender to coarse and rigid, often hoary.  Stems 1–12 cm long, creeping, curved-ascending to erect, sparingly or profusely branched.  Leaves lanceolate, straight to strongly curved; margins recurved to revolute on both sides to the apex, or less often to 2/3–3/4 of the leaf length, 1-stratose or less often 2-stratose; muticous or piliferous, awns often long, erect, flexuose, flattened, distantly denticulate at the margins and sometimes spinulose on the abaxial side; costa  3–4-stratose and strongly convex abaxially in the proximal portion; alar cells undifferentiated; basal marginal border absent.  Inner perichaetial leaves strongly modified, hyaline and epilose, or very seldom shortly piliferous and then chlorophyllose close to the apex.  Peristome teeth with a basal membrane.</description>
-  <number_of_infrataxa>Species 7 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Atlantic Islands (Azores, Canary Islands, Iceland, Madeira).</global_distribution>
+    <taxon_hierarchy>genus Racomitrium;unranked Laevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Racomitrium</taxon_name>
+    <taxon_name rank="section" authority="(Kindberg) Noguchi" date="unknown">Laevifolia</taxon_name>
+    <taxon_hierarchy>genus Racomitrium;section Laevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6b.</number>
+  <discussion>Species 7 (5 in the flora):</discussion>
   <discussion>The strongly differentiated innermost perichaetial bracts that are ovate, epilose, and hyaline to yellowish hyaline throughout are diagnostic of section Laevifoliae.  This is a Euro-American taxon consisting of two species that are endemic to Europe, three endemic to North America, and two that are Euro-American disjuncts.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves epilose, with a chlorophyllose apex, awns absent.</statement>
+      <description type="morphology">Leaves epilose, with a chlorophyllose apex, awns absent.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf margins recurved to 2/3–3/4 of the leaf length; alar cells differentiated, short, thick- walled and porose, forming a well-defined, sometimes auriculate group</statement>
+      <description type="morphology">Leaf margins recurved to 2/3–3/4 of the leaf length; alar cells differentiated, short, thick- walled and porose, forming a well-defined, sometimes auriculate group</description>
       <determination>6.   Bucklandiella pacifica</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf margins recurved to revolute to the apex; alar cells not or weakly differentiated.</statement>
+      <description type="morphology">Leaf margins recurved to revolute to the apex; alar cells not or weakly differentiated.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaf margins 1-stratose, occasionally with 2-stratose patches and smooth in the distal part; costa broader, 80–100 µm, and mostly (3–)4-stratose basally (epilose plants)</statement>
+      <description type="morphology">Leaf margins 1-stratose, occasionally with 2-stratose patches and smooth in the distal part; costa broader, 80–100 µm, and mostly (3–)4-stratose basally (epilose plants)</description>
       <determination>3.   Bucklandiella affinis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaf margins usually 2-stratose for 1–3 cell rows, wavy and lumpy in the distal part; costa narrow, 50–80 µm, and usually 3-stratose basally (epilose plants)</statement>
+      <description type="morphology">Leaf margins usually 2-stratose for 1–3 cell rows, wavy and lumpy in the distal part; costa narrow, 50–80 µm, and usually 3-stratose basally (epilose plants)</description>
       <determination>7.   Bucklandiella venusta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>At least some leaves with a short or long, hyaline to subhyaline awn.</statement>
+      <description type="morphology">At least some leaves with a short or long, hyaline to subhyaline awn.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Costa broadly canaliculate in mid leaf, moderately convex on the abaxial side and with 4–9 cells on the adaxial side.</statement>
+      <description type="morphology">Costa broadly canaliculate in mid leaf, moderately convex on the abaxial side and with 4–9 cells on the adaxial side.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants moderately robust and less coarse; leaf margins 1-stratose with infrequent 2-stratose patches and smooth distally; awns weakly flexuose</statement>
+      <description type="morphology">Plants moderately robust and less coarse; leaf margins 1-stratose with infrequent 2-stratose patches and smooth distally; awns weakly flexuose</description>
       <determination>4.   Bucklandiella heterosticha (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Plants coarse and robust; leaf margins 2-stratose for 1–3 cell rows and lumpy distally, broadly recurved to revolute throughout; awns stiff, not flexuose</statement>
+      <description type="morphology">Plants coarse and robust; leaf margins 2-stratose for 1–3 cell rows and lumpy distally, broadly recurved to revolute throughout; awns stiff, not flexuose</description>
       <determination>5.   Bucklandiella obesa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Costa narrowly canaliculate or carinate in mid leaf, strongly convex on the abaxial side and with 3–4 adaxial cells.</statement>
+      <description type="morphology">Costa narrowly canaliculate or carinate in mid leaf, strongly convex on the abaxial side and with 3–4 adaxial cells.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf margins usually 2-stratose for 1–2(–3) cell rows and lumpy in the distal portion; awns stout, not or weakly flexuose, strongly spinulose.</statement>
+      <description type="morphology">Leaf margins usually 2-stratose for 1–2(–3) cell rows and lumpy in the distal portion; awns stout, not or weakly flexuose, strongly spinulose.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Plants robust, almost unbranched; costa broad, 80–120 µm with 4–9 adaxial cells in the basal portion; leaves long, 3–4 mm</statement>
+      <description type="morphology">Plants robust, almost unbranched; costa broad, 80–120 µm with 4–9 adaxial cells in the basal portion; leaves long, 3–4 mm</description>
       <determination>5.   Bucklandiella obesa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Plants small to medium-sized, copiously branched; costa narrow, 50–80 µm with 3–5 adaxial cells in the basal portion; leaves short, 1.7–2.4 mm</statement>
+      <description type="morphology">Plants small to medium-sized, copiously branched; costa narrow, 50–80 µm with 3–5 adaxial cells in the basal portion; leaves short, 1.7–2.4 mm</description>
       <determination>7.   Bucklandiella venusta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaf margins usually 1-stratose with occasional 2-stratose spots and not lumpy distally; awns soft, usually flexuose and faintly spinulose.</statement>
+      <description type="morphology">Leaf margins usually 1-stratose with occasional 2-stratose spots and not lumpy distally; awns soft, usually flexuose and faintly spinulose.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Costa carinate and predominantly 3-stratose in the middle and lower distal portion</statement>
+      <description type="morphology">Costa carinate and predominantly 3-stratose in the middle and lower distal portion</description>
       <determination>3.   Bucklandiella affinis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Costa canaliculate and predominantly 2-stratose in the middle and lower distal portion</statement>
+      <description type="morphology">Costa canaliculate and predominantly 2-stratose in the middle and lower distal portion</description>
       <determination>4.   Bucklandiella heterosticha (in part)</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

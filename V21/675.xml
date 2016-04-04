@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Centromadia</genus_name><species_name>pungens</species_name><species_authority>(Hooker &amp; Arnott) Greene</species_authority><place_of_publication>
-    <publication_title>Man. Bot. San Francisco,</publication_title>
-    <place_in_publication>196. 1894</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Hartmannia</genus_name><species_name>pungens</species_name><species_authority>Hooker &amp; Arnott</species_authority><place_of_publication><publication_title>Bot. Beechey Voy., </publication_title><place_in_publication>357. 1839</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hemizonia</genus_name><species_name>pungens</species_name><species_authority>(Hooker &amp; Arnott) Torrey &amp; A. Gray</species_authority></TaxonIdentification><description>Plants 10–120 cm. Leaves glabrous (but for bristly-ciliate margins and midribs), scabrous, or hirsute (not glandular). Involucres 3–6 mm. Anthers yellow to brownish. Pappi 0.</description><number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa><global_distribution>w United States (plus New York)</global_distribution><global_distribution>nw Mexico.</global_distribution><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Madiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centromadia</taxon_name>
+    <taxon_name rank="species" authority="(Hooker &amp; Arnott) Greene" date="unknown">pungens</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. Bot. San Francisco,</publication_title>
+      <place_in_publication>196. 1894</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Madiinae;genus Centromadia;species pungens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hartmannia</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">pungens</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Beechey Voy.,</publication_title>
+      <place_in_publication>357. 1839</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hartmannia;species pungens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemizonia</taxon_name>
+    <taxon_name rank="species" authority="(Hooker &amp; Arnott) Torrey &amp; A. Gray" date="unknown">pungens</taxon_name>
+    <taxon_hierarchy>genus Hemizonia;species pungens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves: margins bristly-ciliate, faces glabrous but for bristly midribs; paleae little, if at all, exserted, apices obtuse to acute, sometimes apiculate</statement>
+      <description type="morphology">Leaves: margins bristly-ciliate, faces glabrous but for bristly midribs; paleae little, if at all, exserted, apices obtuse to acute, sometimes apiculate</description>
       <determination>1a. Centromadia pungens subsp. laevis</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves: margins sometimes ciliate, faces glabrous, scabrous, or hirsute, midribs sometimes bristly; paleae often conspicuously exserted, apices ± atten-uate, spine-tipped</statement>
+      <description type="morphology">Leaves: margins sometimes ciliate, faces glabrous, scabrous, or hirsute, midribs sometimes bristly; paleae often conspicuously exserted, apices ± atten-uate, spine-tipped</description>
       <determination>1b. Centromadia pungens subsp. pungens</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

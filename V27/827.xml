@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Leptodontium</genus_name>
-    <species_name>viticulosoides</species_name>
-    <variety_name>sulphureum</variety_name>
-    <variety_authority>(Müller Hal.) R. H. Zander</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leptodontium</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">viticulosoides</taxon_name>
+    <taxon_name rank="variety" authority="(Müller Hal.) R. H. Zander" date="unknown">sulphureum</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>86: 156.  1983,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Trichostomum</genus_name>
-    <species_name>sulphureum</species_name>
-    <species_authority>Müller Hal.</species_authority>
+    <taxon_hierarchy>genus Leptodontium;species viticulosoides;variety sulphureum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichostomum</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) E. Britton" date="unknown">sulphureum</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>2: 626.  1851</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leptodontium</genus_name>
-    <species_name>excelsum</species_name>
-    <species_authority>(Sullivant) E. Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leptodontium</genus_name>
-    <species_name>sulphureum</species_name>
-    <variety_name>panamense</variety_name>
-    <variety_authority>Lorentz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Syrrhopodon</genus_name>
-    <species_name>excelsus</species_name>
-    <species_authority>Sullivant</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Zygodon</genus_name>
-    <species_name>sullivantii</species_name>
-    <species_authority>Müller Hal.</species_authority>
-  </TaxonIdentification>
-  <description>Stems to 5 cm.  Leaves 2.0–2.5 mm, long-lanceolate, not bordered by differentiated cells; apex narrowly acute; costa percurrent, abaxially smooth; distal laminal cells 8–11 µm wide, 1:1 or medially longitudinally elongate to 2:1, walls thickened throughout the distal portion of the leaf, lumens irregularly rounded, proximal cell walls thickened and porose above but thin-walled below.</description>
-  <habitat>Mainly on branches of balsam fir (Abies balsamea), also Sorbus;</habitat>
-  <elevation>moderate to high elevations (1700–2100 m);</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Trichostomum;species sulphureum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leptodontium</taxon_name>
+    <taxon_name rank="species" authority="Sullivant" date="unknown">excelsum</taxon_name>
+    <taxon_hierarchy>genus Leptodontium;species excelsum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leptodontium</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">sulphureum</taxon_name>
+    <taxon_name rank="variety" authority="Lorentz" date="unknown">panamense</taxon_name>
+    <taxon_hierarchy>genus Leptodontium;species sulphureum;variety panamense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Syrrhopodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">excelsus</taxon_name>
+    <taxon_hierarchy>genus Syrrhopodon;species excelsus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Zygodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">sullivantii</taxon_name>
+    <taxon_hierarchy>genus Zygodon;species sullivantii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
   <discussion>Only archegoniate plants of var. sulphureum appear in the flora area.  The description here is based solely on populations in that area; the variety has otherwise a large synonymy (see R. H. Zander  1972).  The typical variety is widely distributed, but this one is known only from the New World.  The southern Appalachian plants are flagellate (with distant leaves that become smaller distally) in comparison with most populations in Latin America but are matched by certain specimens from Mexico.  The Appalachian plants are not autoicous as reported by H. A. Crum and L. E. Anderson (1981); perhaps galls, seen in some specimens, were mistaken for perigonia.  The distribution of this taxon in the southern Appalachians is associated with the spread of the balsam woolly aphid; damaged, defoliating bark is preferentially colonized by this moss.  The priority of the epithet “sulphureum” at the rank of variety as an autonym is due to the valid publication of the Lorentz name L. sulphureum var. panamense.</discussion>
-</treatment>
+</bio:treatment>

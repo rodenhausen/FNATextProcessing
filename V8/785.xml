@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>stanfordiana</species_name>
-    <species_authority>Parry</species_authority>
-    <subspecies_name>raichei</subspecies_name>
-    <subspecies_authority>W. Knight</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">stanfordiana</taxon_name>
+    <taxon_name rank="subspecies" authority="W. Knight" date="unknown">raichei</taxon_name>
     <place_of_publication>
       <publication_title>Four Seasons</publication_title>
       <place_in_publication>7(3): 18, fig. p. 20.  1985  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Raiche’s manzanita</common_name>
-  <description>Plants, erect or mound-forming, 1–3 m; twigs short glandular-hairy.  Petioles 4–8 mm, ± rough, papillate, short-glandular-hairy.  Inflorescences: axis short glandular-hairy; bracts short glandular-hairy.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral, on or near serpentine</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>400–600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species stanfordiana;subspecies raichei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12c.</number>
+  <other_name type="common_name">Raiche’s manzanita</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies raichei occurs in the interior Coast Range near the border of Mendocino and Lake counties.</discussion>
-</treatment>
+</bio:treatment>

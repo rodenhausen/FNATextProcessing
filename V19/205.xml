@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CENTAUREA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil,Jörg Ochsmann</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CENTAUREA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 909. 1753</place_in_publication>
@@ -12,41 +18,35 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 389. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CENTAUREA;</taxon_hierarchy>
-  <etymology>[Greek kentaurieon , ancient plant name associated with Chiron, a centaur famous for knowledge of medicinal plants]</etymology>
-  <common_name>Knapweed</common_name>
-  <common_name>star thistle</common_name>
-  <common_name>cornflower</common_name>
-  <common_name>centaurée</common_name>
-  <author>David J. Keil</author>
-  <author>Jörg Ochsmann</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Acosta</genus_name>
-    <genus_authority>Adanson</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cnicus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossheimia</genus_name>
-    <genus_authority>Sosnowsky &amp; Takhtajan</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Jacea</genus_name>
-    <genus_authority>Miller</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucacantha</genus_name>
-    <genus_authority>Nieuwland &amp; Lunell</genus_authority>
-  </TaxonIdentification>
-  <description>Annuals, biennials, or perennials, 20–300 cm, glabrous or tomentose. Stems erect, ascending, or spreading, simple or branched. Leaves basal and cauline; petiolate or sessile; proximal blade margins often ± deeply lobed, (spiny in C. benedicta), distal ± smaller, often entire, faces glabrous or ± tomentose, sometimes also villous, strigose, or puberulent, often glandular-punctate. Heads discoid, disciform, or radiant, borne singly or in corymbiform arrays. Involucres cylindric or ovoid to hemispheric. Phyllaries many in 6–many series, unequal, proximal part appressed, body margins entire, distal parts expanded into erect to spreading, usually ± dentate or fringed, linear to ovate appendages, spine-tipped or spineless. Receptacles flat, epaleate, bristly. Florets 10–many; outer usually sterile, corollas slender and inconspicuous to much expanded, ± bilateral; inner fertile, corollas white to blue, pink, purple, or yellow, bilateral or radial, often bent at junction of tubes and throats, lobes linear-oblong, acute; anther bases tailed, apical appendages oblong; style branches: fused portions with minutely hairy nodes, distinct portions minute. Cypselae ± barrel-shaped, ± compressed, smooth or ribbed, apices entire (denticulate in C. benedicta), glabrous or with fine, 1-celled hairs, attachment scars lateral (with or without elaiosomes); pappi 0 or ± persistent, of 1–3 series of smooth or minutely barbed, stiff bristles or narrow scales. x = 8, 9, 10, 11, 12, 13, 15.</description>
-  <number_of_infrataxa>Species ca. 500 (20 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>widely introduced worldwide.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CENTAUREA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek kentaurieon , ancient plant name associated with Chiron, a centaur famous for knowledge of medicinal plants]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Adanson" date="unknown">Acosta</taxon_name>
+    <taxon_hierarchy>genus Acosta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cnicus</taxon_name>
+    <taxon_hierarchy>genus Cnicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Sosnowsky &amp; Takhtajan" date="unknown">Grossheimia</taxon_name>
+    <taxon_hierarchy>genus Grossheimia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Miller" date="unknown">Jacea</taxon_name>
+    <taxon_hierarchy>genus Jacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Nieuwland &amp; Lunell" date="unknown">Leucacantha</taxon_name>
+    <taxon_hierarchy>genus Leucacantha;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24.</number>
+  <other_name type="common_name">Knapweed</other_name>
+  <other_name type="common_name">star thistle</other_name>
+  <other_name type="common_name">cornflower</other_name>
+  <other_name type="common_name">centaurée</other_name>
+  <discussion>Species ca. 500 (20 in the flora):</discussion>
   <discussion>Taxonomic limits of Centaurea have been controversial. The genus has great morphologic diversity, and studies have revealed much cytologic (e.g., N. Garcia-Jacas et al. 1996) and palynologic (e.g., G. Wagenitz 1955) variation as well. During the nineteenth and twentieth centuries, various taxonomists attempted, with limited success, to divide Centaurea into smaller genera or workable infrageneric taxa. The relations of several satellite genera have been controversial as well.</discussion>
   <discussion>Recent molecular phylogenetic studies (A. Susanna et al. 1995; N. Garcia-Jacas et al. 2000, 2001) have begun to clarify relationships within Centaurea and between Centaurea and other genera. These studies make it clear that Centaurea as traditionally defined is polyphyletic, and that generic boundaries should be realigned if monophyletic taxa are to be recognized. Some taxa traditionally included within Centaurea (e.g., the two native North American species, Centaurea americana and C. rothrockii) fall outside the redefined generic boundaries and are here treated in Plectocephalus. Others usually placed into segregate genera (e.g., Cnicus benedictus) are firmly nested within Centaurea. Because the type species of Centaurea (C. centaurium Linnaeus, an African species) falls outside the main lineage of the genus, a proposal has been made to conserve Centaurea with a different type species (W. Greuter et al. 2001), thereby maintaining the nomenclatural stability of most of the numerous species that do fall within the principal Centaurea clade.</discussion>
   <discussion>Although several Centaurea species are widely established as members of the North American flora, and some of these are widely distributed invasive weeds, some of the taxa listed by J. T. Kartesz and C. A. Meacham (1999) are apparently waifs and not permanent members of the flora. These taxa are discussed informally immediately below.</discussion>
@@ -64,199 +64,198 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas yellow.</statement>
+      <description type="morphology">Corollas yellow.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Phyllary appendages broadly scarious, ± covering phyllary bodies, lacerate fringed, spineless or tipped by weak spines 1–2 mm</statement>
+      <description type="morphology">Phyllary appendages broadly scarious, ± covering phyllary bodies, lacerate fringed, spineless or tipped by weak spines 1–2 mm</description>
       <determination>4. Centaurea macrocephala</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Phyllary appendages spiny fringed, not covering phyllary bodies, tipped with spines 5–25 mm.</statement>
+      <description type="morphology">Phyllary appendages spiny fringed, not covering phyllary bodies, tipped with spines 5–25 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Heads sessile, each closely subtended and ± concealed by involucrelike cluster of expanded, foliar bracts</statement>
+      <description type="morphology">Heads sessile, each closely subtended and ± concealed by involucrelike cluster of expanded, foliar bracts</description>
       <determination>16. Centaurea benedicta</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Heads evidently pedunculate, or if sessile, each not concealed by involucrelike cluster of expanded, foliar bracts.</statement>
+      <description type="morphology">Heads evidently pedunculate, or if sessile, each not concealed by involucrelike cluster of expanded, foliar bracts.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Corollas usually longer than 25 mm</statement>
+      <description type="morphology">Corollas usually longer than 25 mm</description>
       <determination>20. Centaurea sulphurea</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Corollas usually 10–20 mm.</statement>
+      <description type="morphology">Corollas usually 10–20 mm.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Central spines of principal phyllaries 5–10 mm</statement>
+      <description type="morphology">Central spines of principal phyllaries 5–10 mm</description>
       <determination>18. C entaurea melitensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Central spines of principal phyllaries 10–25 mm</statement>
+      <description type="morphology">Central spines of principal phyllaries 10–25 mm</description>
       <determination>19. Centaurea solstitialis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas white to pink, blue, or purple.</statement>
+      <description type="morphology">Corollas white to pink, blue, or purple.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Principal phyllaries tipped with spines.</statement>
+      <description type="morphology">Principal phyllaries tipped with spines.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Central spines of principal phyllaries 10–25 mm.</statement>
+      <description type="morphology">Central spines of principal phyllaries 10–25 mm.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Young leaves ± gray tomentose when young; involucre bodies 6–8 mm diam.; florets 25–40</statement>
+      <description type="morphology">Young leaves ± gray tomentose when young; involucre bodies 6–8 mm diam.; florets 25–40</description>
       <determination>14. Centaurea calcitrapa</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Young leaves minutely bristly, green; involucre bodies 8–14 mm diam.; florets many</statement>
+      <description type="morphology">Young leaves minutely bristly, green; involucre bodies 8–14 mm diam.; florets many</description>
       <determination>15. Centaurea iberica</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Central spines of principal phyllaries usually 1–5 mm.</statement>
+      <description type="morphology">Central spines of principal phyllaries usually 1–5 mm.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Involucres 8–15 mm diam.</statement>
+      <description type="morphology">Involucres 8–15 mm diam.</description>
       <determination>17. Centaurea diluta</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Involucres 3–5 mm diam.</statement>
+      <description type="morphology">Involucres 3–5 mm diam.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Corollas 12–13 mm; involucres 10–13 mm</statement>
+      <description type="morphology">Corollas 12–13 mm; involucres 10–13 mm</description>
       <determination>12. Centaurea diffusa</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Corollas 7–9 mm; involucres 7–8 mm</statement>
+      <description type="morphology">Corollas 7–9 mm; involucres 7–8 mm</description>
       <determination>13. Centaurea virgata</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Principal phyllaries not spine-tipped.</statement>
+      <description type="morphology">Principal phyllaries not spine-tipped.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Annuals.</statement>
+      <description type="morphology">Annuals.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Proximal leaves lanceolate, acute; phyllary appendages white to dark brown or black, teeth ± 1 mm; pappi 2–4 mm</statement>
+      <description type="morphology">Proximal leaves lanceolate, acute; phyllary appendages white to dark brown or black, teeth ± 1 mm; pappi 2–4 mm</description>
       <determination>1. Centaurea cyanus</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Proximal leaves oblong, obtuse; phyllary appendages silvery white to brown, teeth 1.5–2 mm; pappi 6–8 mm</statement>
+      <description type="morphology">Proximal leaves oblong, obtuse; phyllary appendages silvery white to brown, teeth 1.5–2 mm; pappi 6–8 mm</description>
       <determination>2. Centaurea depressa</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Perennials.</statement>
+      <description type="morphology">Perennials.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Phyllary appendages tapering to long, often recurved, pectinately dissected, filiform tips</statement>
+      <description type="morphology">Phyllary appendages tapering to long, often recurved, pectinately dissected, filiform tips</description>
       <determination>10. Centaurea phrygia</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Phyllary appendages obtuse to acute, erect or ascending.</statement>
+      <description type="morphology">Phyllary appendages obtuse to acute, erect or ascending.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Involucres 10–13 mm</statement>
+      <description type="morphology">Involucres 10–13 mm</description>
       <determination>11. Centaurea stoebe</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Involucres 15–25 mm.</statement>
+      <description type="morphology">Involucres 15–25 mm.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Phyllary appendages evidently decurrent along phyllary margins.</statement>
+      <description type="morphology">Phyllary appendages evidently decurrent along phyllary margins.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaves decurrent, entire or remotely dentate, or proximal some- times pinnately lobed</statement>
+      <description type="morphology">Leaves decurrent, entire or remotely dentate, or proximal some- times pinnately lobed</description>
       <determination>3. C entaurea montana</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaves not decurrent, 1–2-pinnately divided or distal entire</statement>
+      <description type="morphology">Leaves not decurrent, 1–2-pinnately divided or distal entire</description>
       <determination>5. Centaurea scabiosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Phyllary appendages not or only slightly decurrent along phyllary margins.</statement>
+      <description type="morphology">Phyllary appendages not or only slightly decurrent along phyllary margins.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Phyllary appendages roundish, seldom triangular, scarious, light to dark brown, ± undivided to irregularly lacerate.</statement>
+      <description type="morphology">Phyllary appendages roundish, seldom triangular, scarious, light to dark brown, ± undivided to irregularly lacerate.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Pappus absent</statement>
+      <description type="morphology">Pappus absent</description>
       <determination>6. Centaurea jacea</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Pappus present, 3–5 mm, of many white bristles</statement>
+      <description type="morphology">Pappus present, 3–5 mm, of many white bristles</description>
       <determination>17. Centaurea diluta</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Phyllary appendages ± triangular, brown to black, ± wholly pectinately fimbriate; pappus present or absent.</statement>
+      <description type="morphology">Phyllary appendages ± triangular, brown to black, ± wholly pectinately fimbriate; pappus present or absent.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Heads discoid; peripheral florets not expanded, showy; pappus blackish, shorter than 1 mm; green parts of phyllaries ± totally covered by black appendages, involucres appearing totally black</statement>
+      <description type="morphology">Heads discoid; peripheral florets not expanded, showy; pappus blackish, shorter than 1 mm; green parts of phyllaries ± totally covered by black appendages, involucres appearing totally black</description>
       <determination>7. Centaurea nigra</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Heads relatively broad, the pressed involucres usually as wide as or wider than long; green parts of phyllaries usually fully covered by ± brown, variably pectinately fimbriate appendages, involucres light to dark brown</statement>
+      <description type="morphology">Heads relatively broad, the pressed involucres usually as wide as or wider than long; green parts of phyllaries usually fully covered by ± brown, variably pectinately fimbriate appendages, involucres light to dark brown</description>
       <determination>8. Centaurea × moncktonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Heads relatively narrow, the pressed involucres usually longer than wide; green parts of phyllaries not fully covered by black appendages, involucres black and green</statement>
+      <description type="morphology">Heads relatively narrow, the pressed involucres usually longer than wide; green parts of phyllaries not fully covered by black appendages, involucres black and green</description>
       <determination>9. Centaurea nigrescens</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

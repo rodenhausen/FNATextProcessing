@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ITEA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Agardh" date="unknown">ITEACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ITEA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 199.  1753</place_in_publication>
@@ -12,13 +17,10 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 92.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sweetspire</common_name>
-  <etymology>[Greek itea, willow, alluding to willowlike leaves]</etymology>
-  <description>Shrubs without bristles and spines.  Leaves: stipules minute, subulate; blade elliptic or obovate, surfaces glabrous or glabrate abaxially, glabrous adaxially, pinnately veined.  Inflorescences: bracts subtending pedicels caducous.  Flowers: hypanthium cup-shaped; sepals green; petals white; styles connate and grooved at anthesis, distinct in fruit.  Capsules 2-locular, longitudinally 2-grooved.  x = 11.</description>
-  <number_of_infrataxa>Species 29 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>c</global_distribution>
-  <global_distribution>e United States</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family ITEACEAE;genus ITEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek itea, willow, alluding to willowlike leaves]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Sweetspire</other_name>
+  <discussion>Species 29 (1 in the flora):</discussion>
+</bio:treatment>

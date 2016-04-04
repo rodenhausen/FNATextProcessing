@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>serpyllifolia</species_name>
-    <species_authority>Pursh</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">serpyllifolia</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>1: 310.  1813  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Thyme-leaved saxifrage</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>serpyllifolia</species_name>
-    <variety_name>purpurea</variety_name>
-    <variety_authority>Hultén</variety_authority>
-  </TaxonIdentification>
-  <description>Plants mat-forming, not stoloniferous, rhizomatous.  Leaves basal and cauline, (cauline 1–4); petiole absent; blade linear (cauline) or oblong to oblanceolate or spatulate, unlobed, 2–8.5 mm, fleshy, margins (recurved), entire, eciliate, apex obtuse, not mucronate, surfaces glabrous or glabrate.  Inflorescences solitary flowers, 2–7 cm, sparsely to densely pink- to purple-tipped stipitate-glandular; bracts sessile.  Flowers: sepals erect to spreading (reflexed in fruit, often purplish), broadly ovate to elliptic, margins eciliate or sometimes sparsely ciliate, surfaces glabrous; petals pale yellow, rarely purple, faded when dried, not spotted, elliptic to obovate, 4–8 mm, longer than sepals; ovary superior.  2n = 16 (Russia).</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Moist to dry sandy areas, cliffs, gravelly ridges, scree, tundra</habitat>
-  <elevation>0–2200 m</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Japan, Siberia).</global_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species serpyllifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">serpyllifolia</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">purpurea</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species serpyllifolia;variety purpurea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Thyme-leaved saxifrage</other_name>
   <discussion>The purple-flowered variant of Saxifraga serpyllifolia has been called var. purpurea.</discussion>
-</treatment>
+</bio:treatment>

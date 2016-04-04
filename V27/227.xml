@@ -1,49 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Encalypta</genus_name>
-    <species_name>affinis</species_name>
-    <species_authority>R. Hedwig</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="R. Hedwig" date="unknown">affinis</taxon_name>
     <place_of_publication>
       <publication_title>in F. Weber and D. M. H. Mohr, Beitr. Naturk.</publication_title>
       <place_in_publication>1: 121.  1805,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>affinis</species_name>
-    <subspecies_name>macounii</subspecies_name>
-    <subspecies_authority>(Austin) D. G. Horton</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>affinis</species_name>
-    <variety_name>macounii</variety_name>
-    <variety_authority>(Austin) H. A. Crum &amp; L. E. Anderson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>apophysata</species_name>
-    <species_authority>Nees &amp; Hornschuch</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>macounii</species_name>
-    <species_authority>Austin</species_authority>
-  </TaxonIdentification>
-  <description>Stems 10–25 mm, central strand absent.  Leaves ligulate to lingulate or narrowly lanceolate, 3.5–5.5 mm, apices broadly acute to rounded, mucronate to apiculate, margins irregularly recurved or sometimes plane; costa excurrent to percurrent or subpercurrent; laminal cells 9–14 µm; basal cells rectangular, 40–110 µm, papillose more or less in rows across leaf above; basal marginal cells not differentiated, papillose.  Specialized asexual reproduction absent.  Seta 6–19 mm, dark red.  Capsule cylindric, 3–4 mm, smooth, yellowish brown, exothecial cell walls rectangular, thickened; peristome double, yellowish brown, 16 teeth, linear-lanceolate, 0.5 mm, papillose, erect, endostome without basal membrane, fused to teeth, papillose, almost as long as teeth; operculum 2 mm.  Calyptra 5–7 mm, lacerate at base, papillose from apex to mid body.  Spores 20–26 µm, warty-papillose yellowish brown.</description>
-  <habitat>Exposed soil and rock, protected mountain or alpine habitats;</habitat>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw</global_distribution>
-  <global_distribution>c Asia (Himalayan Nepal, Kazakstan, Russia).</global_distribution>
+    <taxon_hierarchy>genus Encalypta;species affinis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="Nees &amp; Hornschuch" date="unknown">affinis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Austin) D. G. Horton" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species affinis;subspecies macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="Austin" date="unknown">affinis</taxon_name>
+    <taxon_name rank="variety" authority="(Austin) H. A. Crum &amp; L. E. Anderson" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species affinis;variety macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">apophysata</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species apophysata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
   <discussion>Encalypta affinis is the only species of the genus in the flora area with papillae on the basal leaf cells.  Specimens with short, excurrent costae and cuspidate leaf apices have been referred to var. affinis while the other extreme, costae ending below apex and leaves muticous, to var. macounii.  This species could be confused with E. ciliata, also with a double peristome but with pitted instead of heavily papillose spores.  Encalypta procera has a longer double peristome, granulate spores, and propagula on the stem tomentum.</discussion>
-</treatment>
+</bio:treatment>

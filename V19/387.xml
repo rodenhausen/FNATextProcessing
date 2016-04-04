@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>51.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HIERACIUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>John L. Strother</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">HIERACIUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 799. 1753</place_in_publication>
@@ -12,25 +18,17 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 350. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus HIERACIUM;</taxon_hierarchy>
-  <etymology>[No etymology in protologue; said to be from Greek hierax , hawk]</etymology>
-  <common_name>Hawkweed</common_name>
-  <common_name>épervière</common_name>
-  <author>John L. Strother</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pilosella</genus_name>
-    <genus_authority>Hill</genus_authority>
-  </TaxonIdentification>
-  <description>Perennials, (5–)20–150+ cm; taprooted (rootstocks sometimes woody, branched; stolons produced in some taxa). Stems usually 1, usually erect, usually branched distally, sometimes throughout, sometimes scapiform, glabrous or hairy (induments often complex, see discussion). Leaves basal, basal and cauline, or cauline; petiolate or sessile; blades mostly elliptic, lanceolate, oblanceolate, oblong, or spatulate, margins entire, denticulate, or dentate [laciniate to pinnatifid] (faces glabrous or hairy, induments often complex, see discussion). Heads borne singly or in corymbiform, paniculiform, thyrsiform, umbelliform, or nearly racemiform arrays. Peduncles (terminal and axillary) not inflated, often bracteate. Calyculi 0 or of 3–13(–16+), deltate to lanceolate or linear bractlets (in 1–2+ series; sometimes intergrading with phyllaries). Involucres hemispheric or campanulate to cylindric, 3–9[–12+] mm diam. Phyllaries 5–21(–40+) in 2+ series, lanceolate to linear, subequal to unequal (reflexed in fruit), margins usually little, if at all, scarious, apices obtuse to acute or acuminate. Receptacles flat, pitted, glabrous, epaleate. Florets 6–150+; corollas usually yellow, sometimes white or ochroleucous, sometimes tinged with cyan or red, rarely orange (then often drying scarlet or purplish). Cypselae usually red-brown or black (tan in H. horridum), usually ± columnar or prismatic, sometimes ± urceolate (slightly bulbous proximally and narrower distally) or nearly fusiform, not distinctly beaked, ribs (or grooves) usually 10, faces glabrous; pappi persistent (fragile), of 20–80+, distinct, white, sordid, stramineous, or rufous, ± equal or unequal, barbellulate bristles in 1–2+ series. x = 9.</description>
-  <number_of_infrataxa>Species 250–1000+ (36 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus HIERACIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[No etymology in protologue; said to be from Greek hierax , hawk]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Hill" date="unknown">Pilosella</taxon_name>
+    <taxon_hierarchy>genus Pilosella;</taxon_hierarchy>
+  </taxon_identification>
+  <number>51.</number>
+  <other_name type="common_name">Hawkweed</other_name>
+  <other_name type="common_name">épervière</other_name>
+  <discussion>Species 250–1000+ (36 in the flora):</discussion>
   <discussion>Most plants referable to Hieracium are apomictic (reproducing from asexually produced seeds). Apomictic reproduction often results in perpetuation of morphologic variants at populational and regional levels. Temptation to name such variants as species has proven irresistible to some botanists; upward of 9,000 species names have been published in Hieracium. Circumscriptions of “species” in Hieracium seem to be more artificial than in most genera of composites. Under these circumstances, I feel it would be irresponsible to recognize any infraspecific taxa here. For the most part, the “species” recognized here are those that have been recognized in local and regional floras of the past 50 or so years. Accepted names and/or changes in synomymies for some species reflect changes suggested by J. H. Beaman (1990), A. Cronquist (1980), and E. G. Voss (1972–1996, vol. 3).</discussion>
   <discussion>I have maintained a traditional generic circumscription of Hieracium. Some other botanists exclude some species (including numbers 1–6 here) from Hieracium and treat them in Pilosella Hill, which differs from Hieracium in having stolons often produced, ribs of cypselae slightly projecting distally, and bristles of the pappi in one series.</discussion>
   <discussion>For Greenland, T. W. Böcher et al. (1968) reported 18 species of Hieracium: 16 said to be endemic to Greenland plus H. alpinum Linnaeus (known from Greenland and Eurasia) and H. groenlandicum Arvet-Touvet (= H. vulgatum Fries; known from Greenland and continental North America). Following H. J. Scoggan (1978–1979, part 4), I have placed 15 names of Greenland “endemics” as synonyms of other names. The type of the 16th “endemic,” H. trigonophorum Oskarsson, is probably conspecific with that of H. alpinum.</discussion>
@@ -43,464 +41,463 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas yellow (often each with abaxial red stripe) or orange (drying scarlet to purple); cypselae 1–2.5 mm; pappi of 25–40+, white or sordid bristles in 1 series (plants sometimes stoloniferous).</statement>
+      <description type="morphology">Corollas yellow (often each with abaxial red stripe) or orange (drying scarlet to purple); cypselae 1–2.5 mm; pappi of 25–40+, white or sordid bristles in 1 series (plants sometimes stoloniferous).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades elliptic to ± oblanceolate, lengths 2–4(–6+) times widths; heads usually borne singly</statement>
+      <description type="morphology">Leaf blades elliptic to ± oblanceolate, lengths 2–4(–6+) times widths; heads usually borne singly</description>
       <determination>1. Hieracium pilosella</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades obovate or oblanceolate to spatulate or lanceolate, lengths (2–)3–8+ times widths; heads usually (2–)5–30+ in corymbiform to paniculiform or ± umbelliform arrays, rarely borne singly.</statement>
+      <description type="morphology">Leaf blades obovate or oblanceolate to spatulate or lanceolate, lengths (2–)3–8+ times widths; heads usually (2–)5–30+ in corymbiform to paniculiform or ± umbelliform arrays, rarely borne singly.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas orange (drying scarlet to purple)</statement>
+      <description type="morphology">Corollas orange (drying scarlet to purple)</description>
       <determination>2. Hieracium aurantiacum</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corollas yellow (often each with abaxial red stripe).</statement>
+      <description type="morphology">Corollas yellow (often each with abaxial red stripe).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Heads (1–)2–5+, in ± umbelliform arrays.</statement>
+      <description type="morphology">Heads (1–)2–5+, in ± umbelliform arrays.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally piloso-hirsute (hairs 2–4+ mm) and stellate-pubescent; involucres (9–)12–13 mm</statement>
+      <description type="morphology">Stems proximally piloso-hirsute (hairs 2–4+ mm) and stellate-pubescent; involucres (9–)12–13 mm</description>
       <determination>3. Hieracium flagellare</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Stems proximally piloso-hirsute (hairs 1–2+ mm), sometimes stipitate- glandular as well; involucres 6–8 mm</statement>
+      <description type="morphology">Stems proximally piloso-hirsute (hairs 1–2+ mm), sometimes stipitate- glandular as well; involucres 6–8 mm</description>
       <determination>4. Hieracium lactucella</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Heads (2–)10–30+, usually in corymbiform to paniculiform, sometimes ± umbelliform, arrays (rarely borne singly in H. triste ).</statement>
+      <description type="morphology">Heads (2–)10–30+, usually in corymbiform to paniculiform, sometimes ± umbelliform, arrays (rarely borne singly in H. triste ).</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves usually piloso-hirsute and stellate-pubescent; corollas 8–12+ mm</statement>
+      <description type="morphology">Leaves usually piloso-hirsute and stellate-pubescent; corollas 8–12+ mm</description>
       <determination>5. Hieracium caespitosum</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves usually glabrous, sometimes piloso-hirsute (on midribs and at margins) or scabrellous and/or stipitate-glandular (not both piloso-hirsute and stellate-pubescent); corollas 5–9 mm.</statement>
+      <description type="morphology">Leaves usually glabrous, sometimes piloso-hirsute (on midribs and at margins) or scabrellous and/or stipitate-glandular (not both piloso-hirsute and stellate-pubescent); corollas 5–9 mm.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves glabrous or piloso-hirsute (on midribs and at margins); involucres 5–6(–7) mm; florets (40–)60–80+; pappi 3–4 mm</statement>
+      <description type="morphology">Leaves glabrous or piloso-hirsute (on midribs and at margins); involucres 5–6(–7) mm; florets (40–)60–80+; pappi 3–4 mm</description>
       <determination>6. Hieracium piloselloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves glabrous or scabrellous and/or stipitate-glandular; involucres (6–)7–10 mm; florets 20–60+; pappi 4–5 mm</statement>
+      <description type="morphology">Leaves glabrous or scabrellous and/or stipitate-glandular; involucres (6–)7–10 mm; florets 20–60+; pappi 4–5 mm</description>
       <determination>29. Hieracium triste (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas yellow or ochroleucous to white (pinkish in H. carneum ); cypselae (2–)2.5–7 mm; pappi of (30–)40–80, white or stramineous to sordid bristles in 1–2+ series (plants not stoloniferous).</statement>
+      <description type="morphology">Corollas yellow or ochroleucous to white (pinkish in H. carneum ); cypselae (2–)2.5–7 mm; pappi of (30–)40–80, white or stramineous to sordid bristles in 1–2+ series (plants not stoloniferous).</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Cypselae ± urceolate (slightly bulbous in proximal 1 / 3 – 1 / 2 +, narrower in distal 1 / 3 – 1 / 2 +, not distinctly beaked).</statement>
+      <description type="morphology">Cypselae ± urceolate (slightly bulbous in proximal 1 / 3 – 1 / 2 +, narrower in distal 1 / 3 – 1 / 2 +, not distinctly beaked).</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Corollas yellow.</statement>
+      <description type="morphology">Corollas yellow.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cauline leaves 0–3; cypselae 5–5.5 mm</statement>
+      <description type="morphology">Cauline leaves 0–3; cypselae 5–5.5 mm</description>
       <determination>7. Hieracium bolanderi</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cauline leaves (1–)3–12+; cypselae 3–4.5 mm.</statement>
+      <description type="morphology">Cauline leaves (1–)3–12+; cypselae 3–4.5 mm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Stems proximally piloso-hirsute (hairs 6–15+ mm); blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths</statement>
+      <description type="morphology">Stems proximally piloso-hirsute (hairs 6–15+ mm); blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths</description>
       <determination>8. Hieracium longipilum</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Stems proximally piloso-hirsute (hairs 1–4+ mm); blades of cauline leaves elliptic to obovate or oblanceolate, lengths 2–4+ times widths.</statement>
+      <description type="morphology">Stems proximally piloso-hirsute (hairs 1–4+ mm); blades of cauline leaves elliptic to obovate or oblanceolate, lengths 2–4+ times widths.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Heads in ± thyrsiform arrays (lengths of arrays 3–6+ times diams.); phyllaries usually glabrous or stellate-pubescent, sometimes stipitate- glandular; florets 12–20+; corollas 8–9 mm</statement>
+      <description type="morphology">Heads in ± thyrsiform arrays (lengths of arrays 3–6+ times diams.); phyllaries usually glabrous or stellate-pubescent, sometimes stipitate- glandular; florets 12–20+; corollas 8–9 mm</description>
       <determination>9. Hieracium gronovii</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Heads in ± corymbiform arrays (lengths of arrays ± 2 times diams.); phyllaries stellate-pubescent and stipitate-glandular; florets 20–50+; corollas 10–12+ mm</statement>
+      <description type="morphology">Heads in ± corymbiform arrays (lengths of arrays ± 2 times diams.); phyllaries stellate-pubescent and stipitate-glandular; florets 20–50+; corollas 10–12+ mm</description>
       <determination>10. Hieracium megacephalum</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Corollas usually ochroleucous to whitish, sometimes pale yellow or pinkish.</statement>
+      <description type="morphology">Corollas usually ochroleucous to whitish, sometimes pale yellow or pinkish.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Cauline leaves 0–1(–3+); involucres (10–)12–15+ mm; phyllaries usually piloso-hirsute (hairs 1–3+ mm) and stellate-pubescent, sometimes stipitate-glandular as well</statement>
+      <description type="morphology">Cauline leaves 0–1(–3+); involucres (10–)12–15+ mm; phyllaries usually piloso-hirsute (hairs 1–3+ mm) and stellate-pubescent, sometimes stipitate-glandular as well</description>
       <determination>11. Hieracium fendleri</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Cauline leaves (0–)3–8+; involucres 7–11 mm; phyllaries glabrous or stellate-pubescent and/or stipitate-glandular (not piloso-hirsute).</statement>
+      <description type="morphology">Cauline leaves (0–)3–8+; involucres 7–11 mm; phyllaries glabrous or stellate-pubescent and/or stipitate-glandular (not piloso-hirsute).</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Leaves glabrous or piloso-hirsute (hairs 3–6+ mm); corollas whitish to pinkish; pappi 4–5 mm</statement>
+      <description type="morphology">Leaves glabrous or piloso-hirsute (hairs 3–6+ mm); corollas whitish to pinkish; pappi 4–5 mm</description>
       <determination>12. Hieracium carneum</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Leaves glabrous or piloso-hirsute (hairs 0.5–2+ mm); corollas ochroleucous to whitish or pale yellow; pappi 5–6 mm.</statement>
+      <description type="morphology">Leaves glabrous or piloso-hirsute (hairs 0.5–2+ mm); corollas ochroleucous to whitish or pale yellow; pappi 5–6 mm.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Leaf blades elliptic to oblanceolate, 30–85 × 16–35 mm, lengths 2.5–5 times widths; florets 25–40; cypselae 3.5–4.5(–5+) mm</statement>
+      <description type="morphology">Leaf blades elliptic to oblanceolate, 30–85 × 16–35 mm, lengths 2.5–5 times widths; florets 25–40; cypselae 3.5–4.5(–5+) mm</description>
       <determination>13. Hieracium crepidispermum</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Leaf blades oblanceolate to lanceolate, 35–120 × 10–18 mm, lengths 4–10+ times widths; florets 15–25+; cypselae 5–6 mm</statement>
+      <description type="morphology">Leaf blades oblanceolate to lanceolate, 35–120 × 10–18 mm, lengths 4–10+ times widths; florets 15–25+; cypselae 5–6 mm</description>
       <determination>14. Hieracium brevipilum</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Cypselae columnar or prismatic (little, if at all, bulbous proximally and narrower in distal 1 / 3 – 1 / 2 ).</statement>
+      <description type="morphology">Cypselae columnar or prismatic (little, if at all, bulbous proximally and narrower in distal 1 / 3 – 1 / 2 ).</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaves all or mostly cauline (basal leaves usually wanting or withered, cauline leaves usually 6–45+) at flowering.</statement>
+      <description type="morphology">Leaves all or mostly cauline (basal leaves usually wanting or withered, cauline leaves usually 6–45+) at flowering.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Corollas white, ochroleucous, or pale yellow.</statement>
+      <description type="morphology">Corollas white, ochroleucous, or pale yellow.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Involucres 6–7 mm; corollas 5–8 mm; cypselae 2–2.5 mm; pappi 4–5 m</statement>
+      <description type="morphology">Involucres 6–7 mm; corollas 5–8 mm; cypselae 2–2.5 mm; pappi 4–5 m</description>
       <determination>15. Hieracium paniculatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Involucres (7–)8–10(–11) mm; corollas 9–10 mm; cypselae 2.5–4 mm; pappi (4–)5–7 mm</statement>
+      <description type="morphology">Involucres (7–)8–10(–11) mm; corollas 9–10 mm; cypselae 2.5–4 mm; pappi (4–)5–7 mm</description>
       <determination>30. Hieracium albiflorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Corollas yellow.</statement>
+      <description type="morphology">Corollas yellow.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Phyllaries piloso-hirsute, sometimes stellate-pubescent and/or stipitate-glandular as well.</statement>
+      <description type="morphology">Phyllaries piloso-hirsute, sometimes stellate-pubescent and/or stipitate-glandular as well.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Stems usually glabrous, sometimes distally stellate-pubescent; leaves usually glabrous, sometimes scabrous near distal margins (not piloso-hirsute)</statement>
+      <description type="morphology">Stems usually glabrous, sometimes distally stellate-pubescent; leaves usually glabrous, sometimes scabrous near distal margins (not piloso-hirsute)</description>
       <determination>16. Hieracium umbellatum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Stems usually piloso-hirsute, sometimes stellate-pubescent as well, sometimes glabrous ( H. scouleri ); leaves piloso-hirsute, sometimes glabrous ( H. scouleri ).</statement>
+      <description type="morphology">Stems usually piloso-hirsute, sometimes stellate-pubescent as well, sometimes glabrous ( H. scouleri ); leaves piloso-hirsute, sometimes glabrous ( H. scouleri ).</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Leaf blades: lengths (3–)4–8+ times widths; pappi 6–7 mm</statement>
+      <description type="morphology">Leaf blades: lengths (3–)4–8+ times widths; pappi 6–7 mm</description>
       <determination>20. Hieracium scouleri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Leaf blades: lengths 2.5–5+ times widths; pappi 5–6 mm.</statement>
+      <description type="morphology">Leaf blades: lengths 2.5–5+ times widths; pappi 5–6 mm.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Involucres 7–10 (× 4–5) mm; phyllaries piloso-hirsute (hairs 2–5 mm) and stellate-pubescent; florets 12–24+</statement>
+      <description type="morphology">Involucres 7–10 (× 4–5) mm; phyllaries piloso-hirsute (hairs 2–5 mm) and stellate-pubescent; florets 12–24+</description>
       <determination>21. Hieracium longiberbe (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Involucres 8–12 (× 6–10) mm; phyllaries piloso-hirsute (hairs 2–5 mm) and stellate-pubescent and stipitate-glandular; florets 25–40+</statement>
+      <description type="morphology">Involucres 8–12 (× 6–10) mm; phyllaries piloso-hirsute (hairs 2–5 mm) and stellate-pubescent and stipitate-glandular; florets 25–40+</description>
       <determination>17. Hieracium schultzii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Phyllaries usually stellate-pubescent and/or stipitate-glandular (not piloso-hirsute).</statement>
+      <description type="morphology">Phyllaries usually stellate-pubescent and/or stipitate-glandular (not piloso-hirsute).</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Peduncles stipitate-glandular, sometimes piloso-hirsute and/or stellate-pubescent as well.</statement>
+      <description type="morphology">Peduncles stipitate-glandular, sometimes piloso-hirsute and/or stellate-pubescent as well.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Leaves: margins of some or all sinuately toothed; florets 15–30+</statement>
+      <description type="morphology">Leaves: margins of some or all sinuately toothed; florets 15–30+</description>
       <determination>35. Hieracium argutum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Leaves: margins usually entire, sometimes denticulate; florets 30–60+.</statement>
+      <description type="morphology">Leaves: margins usually entire, sometimes denticulate; florets 30–60+.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Peduncles stipitate-glandular (not stellate-pubescent); involucres 10–12+ mm; phyllaries stipitate-glandular (not stellate-pubescent)</statement>
+      <description type="morphology">Peduncles stipitate-glandular (not stellate-pubescent); involucres 10–12+ mm; phyllaries stipitate-glandular (not stellate-pubescent)</description>
       <determination>24. Hieracium parryi (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Peduncles stellate-pubescent and stipitate-glandular; involucres 7–9 mm; phyllaries stellate-pubescent and stipitate- glandular</statement>
+      <description type="morphology">Peduncles stellate-pubescent and stipitate-glandular; involucres 7–9 mm; phyllaries stellate-pubescent and stipitate- glandular</description>
       <determination>18. Hieracium scabrum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Peduncles piloso-hirsute and/or stellate-pubescent (not stipitate-glandular).</statement>
+      <description type="morphology">Peduncles piloso-hirsute and/or stellate-pubescent (not stipitate-glandular).</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Stems distally usually glabrous, sometimes stellate-pubescent (not piloso-hirsute); leaf lengths (3–)5–10(–15) times widths.</statement>
+      <description type="morphology">Stems distally usually glabrous, sometimes stellate-pubescent (not piloso-hirsute); leaf lengths (3–)5–10(–15) times widths.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Florets 15–30+; pappi white, 3.5–5 mm (California)</statement>
+      <description type="morphology">Florets 15–30+; pappi white, 3.5–5 mm (California)</description>
       <determination>35. Hieracium argutum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Florets 30–80+; pappi stramineous to sordid, 6–7 mm</statement>
+      <description type="morphology">Florets 30–80+; pappi stramineous to sordid, 6–7 mm</description>
       <determination>16. Hieracium umbellatum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Stems distally piloso-hirsute, sometimes stellate-pubescent as well; leaf lengths 2–4 times widths.</statement>
+      <description type="morphology">Stems distally piloso-hirsute, sometimes stellate-pubescent as well; leaf lengths 2–4 times widths.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Leaves abaxially usually glabrous, sometimes piloso-hirsute on midribs; involucres 10–15 mm; phyllaries 25–35 (apices acuminate-caudate)</statement>
+      <description type="morphology">Leaves abaxially usually glabrous, sometimes piloso-hirsute on midribs; involucres 10–15 mm; phyllaries 25–35 (apices acuminate-caudate)</description>
       <determination>27. Hieracium robinsonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Leaves abaxially piloso-hirsute (bases of hairs swollen); involu- cres 8–9 mm; phyllaries ca. 21 (apices rounded)</statement>
+      <description type="morphology">Leaves abaxially piloso-hirsute (bases of hairs swollen); involu- cres 8–9 mm; phyllaries ca. 21 (apices rounded)</description>
       <determination>19. Hieracium sabaudum</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Leaves all basal or basal and cauline (basal leaves usually 3–12+, cauline leaves usually 0–8+) at flowering.</statement>
+      <description type="morphology">Leaves all basal or basal and cauline (basal leaves usually 3–12+, cauline leaves usually 0–8+) at flowering.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Phyllaries usually stellate-pubescent and/or stipitate-glandular (rarely, if ever, piloso-hirsute), rarely glabrous.</statement>
+      <description type="morphology">Phyllaries usually stellate-pubescent and/or stipitate-glandular (rarely, if ever, piloso-hirsute), rarely glabrous.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Florets 4–15+ (15–30+ in 35. Hieracium argutum with sinuately toothed leaf margins; California).</statement>
+      <description type="morphology">Florets 4–15+ (15–30+ in 35. Hieracium argutum with sinuately toothed leaf margins; California).</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems proximally piloso-hirsute (hairs at bases of stems 5–8+ mm, often curled and tangled); involucres (7–)8–9 mm; pappi 4–5+ mm</statement>
+      <description type="morphology">Stems proximally piloso-hirsute (hairs at bases of stems 5–8+ mm, often curled and tangled); involucres (7–)8–9 mm; pappi 4–5+ mm</description>
       <determination>22. Hieracium pringlei</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems proximally stellate-pubescent, rarely piloso-hirsute (hairs at bases of stems 1–3+ mm, not or rarely curled and tangled); involucres 9–12 mm; pappi 7–9 mm</statement>
+      <description type="morphology">Stems proximally stellate-pubescent, rarely piloso-hirsute (hairs at bases of stems 1–3+ mm, not or rarely curled and tangled); involucres 9–12 mm; pappi 7–9 mm</description>
       <determination>23. Hieracium greenei</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Florets 30–80+.</statement>
+      <description type="morphology">Florets 30–80+.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Margins of some or all leaves entire or denticulate.</statement>
+      <description type="morphology">Margins of some or all leaves entire or denticulate.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stems distally piloso-hirsute and stipitate-glandular</statement>
+      <description type="morphology">Stems distally piloso-hirsute and stipitate-glandular</description>
       <determination>24. Hieracium parryi (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stems distally usually glabrous or stellate-pubescent, sometimes piloso-hirsute (not stipitate-glandular).</statement>
+      <description type="morphology">Stems distally usually glabrous or stellate-pubescent, sometimes piloso-hirsute (not stipitate-glandular).</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Leaf blades oblanceolate to spatulate, lengths 3–5 times widths; peduncles stellate-pubescent and stipitate-glandular; pappi 6–7 mm</statement>
+      <description type="morphology">Leaf blades oblanceolate to spatulate, lengths 3–5 times widths; peduncles stellate-pubescent and stipitate-glandular; pappi 6–7 mm</description>
       <determination>33. Hieracium traillii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Leaf blades elliptic or obovate to oblanceolate, lengths 2–3(–4) times widths; peduncles usually stipitate-glandular, rarely glabrous or glabrate (not stellate-pubescent); pappi 4–5 mm</statement>
+      <description type="morphology">Leaf blades elliptic or obovate to oblanceolate, lengths 2–3(–4) times widths; peduncles usually stipitate-glandular, rarely glabrous or glabrate (not stellate-pubescent); pappi 4–5 mm</description>
       <determination>32. H. venosum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Margins of some or all leaves usually dentate.</statement>
+      <description type="morphology">Margins of some or all leaves usually dentate.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Leaf blades spatulate or oblanceolate to lance-linear, lengths 5–10(–15+) widths (California)</statement>
+      <description type="morphology">Leaf blades spatulate or oblanceolate to lance-linear, lengths 5–10(–15+) widths (California)</description>
       <determination>35. Hieracium argutum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Leaf blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths.</statement>
+      <description type="morphology">Leaf blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Basal leaves 2–4, cauline (2–)4–10, abaxial faces usually glabrous, sometimes piloso-hirsute on midribs; involucres 10–15 mm; pappi ca. 6 mm</statement>
+      <description type="morphology">Basal leaves 2–4, cauline (2–)4–10, abaxial faces usually glabrous, sometimes piloso-hirsute on midribs; involucres 10–15 mm; pappi ca. 6 mm</description>
       <determination>27. Hieracium robinsonii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Basal leaves 3–8+, cauline (0–)1–5+, abaxial faces usually piloso-hirsute, sometimes stellate-pubescent as well; involucres 8–10 mm; pappi 4–5 mm.</statement>
+      <description type="morphology">Basal leaves 3–8+, cauline (0–)1–5+, abaxial faces usually piloso-hirsute, sometimes stellate-pubescent as well; involucres 8–10 mm; pappi 4–5 mm.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Leaf blades ± elliptic, lengths 1.5–3+ widths, bases usually rounded to truncate, apices ± obtuse (apiculate); corollas 12–13(–16) mm</statement>
+      <description type="morphology">Leaf blades ± elliptic, lengths 1.5–3+ widths, bases usually rounded to truncate, apices ± obtuse (apiculate); corollas 12–13(–16) mm</description>
       <determination>25. Hieracium murorum</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Leaf blades lance-elliptic to lanceolate, lengths 2.5–4 widths, bases usually cuneate, sometimes rounded to truncate, apices acute; corollas 13–18 mm</statement>
+      <description type="morphology">Leaf blades lance-elliptic to lanceolate, lengths 2.5–4 widths, bases usually cuneate, sometimes rounded to truncate, apices acute; corollas 13–18 mm</description>
       <determination>26. Hieracium vulgatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Phyllaries usually piloso-hirsute, often stellate-pubescent and/or stipitate-glandular as well, rarely glabrous.</statement>
+      <description type="morphology">Phyllaries usually piloso-hirsute, often stellate-pubescent and/or stipitate-glandular as well, rarely glabrous.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Heads 1(–2+); involucres 13–18+ mm (Greenland)</statement>
+      <description type="morphology">Heads 1(–2+); involucres 13–18+ mm (Greenland)</description>
       <determination>28. Hieracium alpinum</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Heads (1–)3–30(–60+); involucres 6–8(–11) mm.</statement>
+      <description type="morphology">Heads (1–)3–30(–60+); involucres 6–8(–11) mm.</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Leaf blades obovate to spatulate or oblanceolate, (15–)25–40(–60+) mm, lengths 2–3+ times widths, apices rounded to obtuse (often apiculate), abaxial faces usually glabrous, sometimes scabrellous and/or stipitate-glandular (not piloso-hirsute)</statement>
+      <description type="morphology">Leaf blades obovate to spatulate or oblanceolate, (15–)25–40(–60+) mm, lengths 2–3+ times widths, apices rounded to obtuse (often apiculate), abaxial faces usually glabrous, sometimes scabrellous and/or stipitate-glandular (not piloso-hirsute)</description>
       <determination>29. Hieracium triste (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Leaf blades elliptic, lance-linear, lanceolate, oblanceolate, oblong, or spatulate (15–)50–100(–300) mm, lengths (2–)4–15+ times widths, apices usually rounded, obtuse, or acute (not apiculate), abaxial faces usually piloso-hirsute (hairs 1–7+ mm), sometimes stellate-pubescent as well, rarely glabrous (some H. scouleri , H. albiflorum , H. nudicaule ).</statement>
+      <description type="morphology">Leaf blades elliptic, lance-linear, lanceolate, oblanceolate, oblong, or spatulate (15–)50–100(–300) mm, lengths (2–)4–15+ times widths, apices usually rounded, obtuse, or acute (not apiculate), abaxial faces usually piloso-hirsute (hairs 1–7+ mm), sometimes stellate-pubescent as well, rarely glabrous (some H. scouleri , H. albiflorum , H. nudicaule ).</description>
       <next_statement_id>40.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Peduncles usually glabrous, sometimes stipitate-glandular (not stellate- pubescent); corollas white</statement>
+      <description type="morphology">Peduncles usually glabrous, sometimes stipitate-glandular (not stellate- pubescent); corollas white</description>
       <determination>30. Hieracium albiflorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Peduncles usually stellate-pubescent and/or stipitate-glandular, sometimes piloso-hirsute as well, rarely glabrous (some H. scouleri , H. venosum ); corollas yellow (sometimes pale in H. venosum ).</statement>
+      <description type="morphology">Peduncles usually stellate-pubescent and/or stipitate-glandular, sometimes piloso-hirsute as well, rarely glabrous (some H. scouleri , H. venosum ); corollas yellow (sometimes pale in H. venosum ).</description>
       <next_statement_id>41.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Involucres ± cylindric (6–9 × 3–4 mm); florets 6–12(–15+); cypselae 3–3.5 mm (tan to red- brown)</statement>
+      <description type="morphology">Involucres ± cylindric (6–9 × 3–4 mm); florets 6–12(–15+); cypselae 3–3.5 mm (tan to red- brown)</description>
       <determination>31. Hieracium horridum</determination>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Involucres campanulate, hemispheric, obconic, or turbinate (6–10+ × 4–9+ mm); florets (15–)20–60+; cypselae 2–4 mm (usually black, sometimes red-brown).</statement>
+      <description type="morphology">Involucres campanulate, hemispheric, obconic, or turbinate (6–10+ × 4–9+ mm); florets (15–)20–60+; cypselae 2–4 mm (usually black, sometimes red-brown).</description>
       <next_statement_id>42.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Cauline leaves 0–1(–2); florets 30–60+ (mostly e of Mississippi River).</statement>
+      <description type="morphology">Cauline leaves 0–1(–2); florets 30–60+ (mostly e of Mississippi River).</description>
       <next_statement_id>43.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Peduncles usually stipitate-glandular, rarely glabrous or glabrate; pappi 4–5 mm</statement>
+      <description type="morphology">Peduncles usually stipitate-glandular, rarely glabrous or glabrate; pappi 4–5 mm</description>
       <determination>32. Hieracium venosum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Peduncles stipitate-glandular and stellate-pubescent; pappi 6–7 mm</statement>
+      <description type="morphology">Peduncles stipitate-glandular and stellate-pubescent; pappi 6–7 mm</description>
       <determination>33. Hieracium traillii (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Cauline leaves 0–10+; florets 15–45+ (w of Mississippi River).</statement>
+      <description type="morphology">Cauline leaves 0–10+; florets 15–45+ (w of Mississippi River).</description>
       <next_statement_id>44.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Faces of leaf blades piloso-hirsute; florets 20–24; corollas 6–9 mm</statement>
+      <description type="morphology">Faces of leaf blades piloso-hirsute; florets 20–24; corollas 6–9 mm</description>
       <determination>34. Hieracium abscissum</determination>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Faces of leaf blades piloso-hirsute and stellate-pubescent; florets 15–45+; corollas 8–12 mm.</statement>
+      <description type="morphology">Faces of leaf blades piloso-hirsute and stellate-pubescent; florets 15–45+; corollas 8–12 mm.</description>
       <next_statement_id>45.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Margins of some or all leaf blades sinuately toothed</statement>
+      <description type="morphology">Margins of some or all leaf blades sinuately toothed</description>
       <determination>35. Hieracium argutum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>45.</statement_id>
-      <statement>Margins of leaf blades usually entire, sometimes denticulate.</statement>
+      <description type="morphology">Margins of leaf blades usually entire, sometimes denticulate.</description>
       <next_statement_id>46.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Cauline leaves (3–)5–10+; pappi 6–7 mm</statement>
+      <description type="morphology">Cauline leaves (3–)5–10+; pappi 6–7 mm</description>
       <determination>20. Hieracium scouleri (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>46.</statement_id>
-      <statement>Cauline leaves 0–3(–5); pappi 4–6 mm</statement>
+      <description type="morphology">Cauline leaves 0–3(–5); pappi 4–6 mm</description>
       <determination>36. Hieracium nudicaule</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

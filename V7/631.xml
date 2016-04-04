@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) O. E. Schulz" date="unknown">lanceolata</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">lanceolata</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus Cakile;species lanceolata;subspecies lanceolata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="L’Heritier ex de Candolle" date="unknown">aequalis</taxon_name>
+    <taxon_hierarchy>genus Cakile;species aequalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">cubensis</taxon_name>
+    <taxon_hierarchy>genus Cakile;species cubensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="Scopoli" date="unknown">maritima</taxon_name>
+    <taxon_name rank="variety" authority="(de Candolle) Chapman" date="unknown">cubensis</taxon_name>
+    <taxon_hierarchy>genus Cakile;species maritima;variety cubensis;</taxon_hierarchy>
+  </taxon_identification>
   <number>2a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cakile</genus_name>
-    <species_name>lanceolata</species_name>
-    <species_authority>(Willdenow) O. E. Schulz</species_authority>
-    <subspecies_name>lanceolata</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cakile</genus_name>
-    <species_name>aequalis</species_name>
-    <species_authority>L’Heritier ex de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cakile</genus_name>
-    <species_name>cubensis</species_name>
-    <species_authority>Kunth</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cakile</genus_name>
-    <species_name>maritima</species_name>
-    <species_authority>Scopoli</species_authority>
-    <variety_name>cubensis</variety_name>
-    <variety_authority>(de Candolle) Chapman</variety_authority>
-  </TaxonIdentification>
-  <description>Plants sprawling. Leaves: blade (ovate to lanceolate), margins usually sinuately or crenately lobed, rarely pinnatisect. Fruits (slenderly) lanceoloid, 19–31 mm, usually not constricted at articulation; terminal segment at least 2 times length of proximal, apex acute to blunt, relatively long. 2n = 18.</description>
-  <habitat>sandy beaches</habitat>
-  <elevation>ca. 0 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>West Indies.</global_distribution>
-</treatment>
+</bio:treatment>

@@ -1,71 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Verbesina</genus_name>
-        <species_name>virginica</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl.</publication_title>
-            <place_in_publication>2: 901. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Verbesina</genus_name>
-        <species_name>laciniata</species_name>
-        <species_authority>Walter</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Verbesina</genus_name>
-        <species_name>virginica</species_name>
-        <variety_name>laciniata</variety_name>
-        <variety_authority>A. Gray</variety_authority>
-        <other_info>(based on V. laciniata Nuttall, not Walter)</other_info>
-    </TaxonIdentification>
-    <description>Plants (50–)100–250+ cm (perennating bases ± erect, internodes winged, at least
-        proximal). Leaves all or mostly alternate (proximal sometimes opposite); blades lance-ovate
-        or lance-elliptic to lance-linear, 5–12(–22+) × 1–6(–12+) cm, sometimes pinnately lobed,
-        bases ± cuneate, ultimate margins usually coarsely toothed to subentire, sometimes sinuate,
-        apices acute, faces ± scabrellous to strigillose. Heads (20–)60–100+ in corymbiform to
-        paniculiform arrays. Involucres ± obconic to turbinate, 3–5 mm diam. Phyllaries 8–12+ in 1–2
-        series, ± erect, spatulate to oblanceolate, 2.5–5(–7) mm. Ray florets (1–)2–3(–7); laminae
-        3–4(–7+) mm. Disc florets 8–12(–15); corollas ochroleucous or white. Cypselae dark brown to
-        blackish, oblanceolate, 3.5–5+ mm, faces ± scabrellous; pappi 1.5–3+ mm. 2n = 32,
-        34.</description>
-    <phenology>jul</phenology>
-    <phenology>summer</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <phenology>dec</phenology>
-    <phenology>winter</phenology>
-    <habitat>bottomlands</habitat>
-    <habitat>flood plains</habitat>
-    <habitat>thickets</habitat>
-    <habitat>borders of woodlands</habitat>
-    <habitat>disturbed sites</habitat>
-    <elevation>10–300 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>D.C.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Plants of Verbesina virginica from near the Atlantic Coast with margins of some or
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Verbesina</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virginica</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 901. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Verbesina;species virginica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Verbesina</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">laciniata</taxon_name>
+    <taxon_hierarchy>genus Verbesina;species laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Verbesina</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginica</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">laciniata</taxon_name>
+    <taxon_hierarchy>genus Verbesina;species virginica;variety laciniata;</taxon_hierarchy>
+    <other_info_on_name>(based on V. laciniata Nuttall, not Walter)</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Plants of Verbesina virginica from near the Atlantic Coast with margins of some or
         most leaf blades sinuate to pinnately 3–5(–7+)-lobed have been called V. laciniata or V.
         virginica var. laciniata.</discussion>
-</treatment>
+</bio:treatment>

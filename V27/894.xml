@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Aloina</genus_name>
-    <species_name>bifrons</species_name>
-    <species_authority>(De Notaris) Delgadillo</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aloina</taxon_name>
+    <taxon_name rank="species" authority="(De Notaris) Delgadillo" date="unknown">bifrons</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>76: 273.  1973,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tortula</genus_name>
-    <species_name>bifrons</species_name>
-    <species_authority>De Notaris</species_authority>
+    <taxon_hierarchy>genus Aloina;species bifrons;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="De Notaris" date="unknown">bifrons</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Reale Accad. Sci. Torino</publication_title>
       <place_in_publication>40: 305.  1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Aloina</genus_name>
-    <species_name>pilifera</species_name>
-    <species_authority>(De Notaris) H. A. Crum &amp; Steere</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Aloina</genus_name>
-    <species_name>rigida</species_name>
-    <variety_name>pilifera</variety_name>
-    <variety_authority>(De Notaris) Limpricht</variety_authority>
-  </TaxonIdentification>
-  <description>Plants to 3 mm.  Leaves lingulate to ovate-lingulate, 1–2.5 mm, margins entire to serrulate, undifferentiated at base, apex piliferous, open, broadly obtuse or rounded; costa undifferentiated, with few or no stereid cells, filaments of 4–8 cells, cells subspheric to cylindric; cells of leaf base 18–37 µm, medial and distal cells 9–22 µm, papillae none.  Sexual condition dioicous.  Seta 6–14 mm.  Capsule urn cylindric to ovoid cylindric, 1.7–3.2 mm; operculum conical, rostrate, erect or slightly inclined, 0.9–1.4 mm; peristome 800–1230 µm, strongly twisted; spores 9–24 µm.</description>
-  <phenology>Capsules mature Jan–Jul(–Aug).</phenology>
-  <habitat>Sunny sandy soil or soil over limestone in dry areas;</habitat>
-  <elevation>moderate elevations (300–800 m);</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <global_distribution>Mexico (Baja California, San Luis Potosí, Nuevo León, Puebla and Zacatecas)</global_distribution>
-  <global_distribution>s South America</global_distribution>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>sw Asia (Jordan)</global_distribution>
-  <global_distribution>Mexico (Baja California, San Luis Potosí, Nuevo León, Puebla and Zacatecas) Africa (Egypt, South Africa)</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand)</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Tortula;species bifrons;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aloina</taxon_name>
+    <taxon_name rank="species" authority="(De Notaris) H. A. Crum &amp; Steere" date="unknown">pilifera</taxon_name>
+    <taxon_hierarchy>genus Aloina;species pilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aloina</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rigida</taxon_name>
+    <taxon_name rank="variety" authority="(De Notaris) Limpricht" date="unknown">pilifera</taxon_name>
+    <taxon_hierarchy>genus Aloina;species rigida;variety pilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Aloina bifrons is readily identified by the hyaline hair of the leaf apex and the poorly developed costa that is only evident toward the leaf base, but inconspicuous in the distal half of the leaf.  No other North American species of the genus exhibits a piliferous leaf apex.</discussion>
-</treatment>
+</bio:treatment>

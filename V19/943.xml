@@ -1,87 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Matricaria</genus_name>
-    <species_name>chamomilla</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Matricaria</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">chamomilla</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 891. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Matricaria;species chamomilla;</taxon_hierarchy>
-  <common_name>German chamomile</common_name>
-  <common_name>matricaire camomille</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamomilla</genus_name>
-    <species_name>recutita</species_name>
-    <species_authority>(Linnaeus) Rauschert</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Matricaria</genus_name>
-    <species_name>courrantiana</species_name>
-    <species_authority>de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Matricaria</genus_name>
-    <species_name>recutita</species_name>
-    <species_authority>Linnaeus</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, (2–)8–60(–80) cm; aromatic (when bruised). Stems 1–8+, erect or ascending, branched distally. Leaf blades 5–78 × 3–18 mm. Heads radiate, (1–)8–120(–900), borne singly. Peduncles (5–)20–50(–75+) mm. Involucres 2–3.2 mm. Phyllaries 34–42+ in 3 series, margins entire or distally erose. Receptacles (with reddish brown, longitudinal mucilaginous glands), 4–6 mm, acute to obtuse. Ray florets [1] (10–)14–26; corollas white, tubes narrowly winged, laminae soon deflexed, 7–8.5 × 2.4–3.3 mm. Discs obovoid or spheroid to ovoid, 5–7 × 5–9.5 mm. Disc florets 250–570+; corollas yellow to greenish yellow, 1.6–1.8 mm, lobes 5. Cypselae tan, obconic, 0.75–0.9 mm, ribs white, 3 abaxial, 2 nearly marginal, faces glandular; pappi usually 0, sometimes coroniform (entire or lobed) or (ray florets) toothed auricles as long as or longer than cypselae [minute crowns]. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering spring.</text>
-    <phenology>spring</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry roadsides , railroads , other waste places ;</text>
-    <habitat>dry roadsides railroads</habitat>
-    <habitat>other waste places</habitat>
-  </habitat_info>
-  <elevation>0–2700 m;</elevation>
-  <introduced>introduced;</introduced>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Matricaria;species chamomilla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamomilla</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Rauschert" date="unknown">recutita</taxon_name>
+    <taxon_hierarchy>genus Chamomilla;species recutita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Matricaria</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">courrantiana</taxon_name>
+    <taxon_hierarchy>genus Matricaria;species courrantiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Matricaria</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">recutita</taxon_name>
+    <taxon_hierarchy>genus Matricaria;species recutita;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">German chamomile</other_name>
+  <other_name type="common_name">matricaire camomille</other_name>
   <discussion>Matricaria chamomilla has numerous, and ages-old, usages, particularly as herb tea, as a natural medicine, and for pharmaceutical extracts. It has anti-inflammatory, antibacterial, anti-allergic, and sedative properties. It is grown commercially on all continents. Reports for New Brunswick have not been confirmed, all specimens having been redetermined to Anthemis cotula (H. R. Hinds 2000). Although the name Matricaria chamomilla has been considered to be misapplied (e.g., S. Rauschert 1974; A. Cronquist 1994; E. G. Voss 1972–1996, vol. 3), W. L. Applequist (2002) argued convincingly that the name is indeed correctly applied to the taxon described here. Among the North American material, specimens with coronate ray cypselae (var. chamomilla), or wholly without coronas [var. recutita (Linnaeus) Grierson] have been encountered but none with fully coronate cypselae (var. coronata J. Gay ex Boissier), even though synonymy under this name includes M. courrantiana, reported for Texas and New Mexico (specimens not seen). The varieties may not be worth recognizing (Applequist; Q. O. N. Kay 1976) and are not treated formally here.</discussion>
-</treatment>
-
+</bio:treatment>

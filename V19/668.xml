@@ -1,57 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>pulchella</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pulchella</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
       <place_in_publication>2: 149. 1911</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species pulchella;</taxon_hierarchy>
-  <common_name>Sierra pussytoes</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Gaertner</species_authority>
-    <variety_name>scabra</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>media</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>ciliata</subspecies_name>
-    <subspecies_authority>E. E. Nelson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>media</species_name>
-    <subspecies_name>pulchella</subspecies_name>
-    <subspecies_authority>(Greene) Chmielewski</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>scabra</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Dioecious. Plants (1–)3–12 cm (stems usually stipitate-glandular). Stolons 1–4(–9) cm. Basal leaves 1-nerved, spatulate to linear-cuneate, 6–12 × 1.5–4.5 mm, tips mucronate, faces glabrescent-scabrous to gray-pubescent (often with purple glandular hairs). Cauline leaves linear, 3–11(–13) mm, usually not flagged (apices acute to acuminate), rarely distal flagged. Heads 4–6 in corymbiform arrays. Involucres: staminate 4–5 mm; pistillate 3.5–4.5 mm. Phyllaries (relatively wide) distally dark brown-black (sometimes light brown or whitish at very tips; apices blunt). Corollas: staminate 1.9–2.8 mm; pistillate 2–3 mm. Cypselae 0.7–1.3 mm, glabrous or slightly papillate; pappi: staminate 2.5–3.5 mm; pistillate 2.5–3.5 mm. 2n = 28 (as A. media).</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist subalpine-alpine meadows , snow basins , margins of tarns , streams , or run-off from snow masses ;</text>
-    <habitat>moist subalpine-alpine meadows</habitat>
-    <habitat>snow basins</habitat>
-    <habitat>margins of tarns</habitat>
-    <habitat>streams , or run-off from snow masses</habitat>
-  </habitat_info>
-  <elevation>2800–3700 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species pulchella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gaertner" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">scabra</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species alpina;variety scabra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">media</taxon_name>
+    <taxon_name rank="subspecies" authority="E. E. Nelson" date="unknown">ciliata</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species media;subspecies ciliata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">media</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Chmielewski" date="unknown">pulchella</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species media;subspecies pulchella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">scabra</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species scabra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29.</number>
+  <other_name type="common_name">Sierra pussytoes</other_name>
   <discussion>Antennaria pulchella is the diploid progenitor of A. media and, consequently, a progenitor of the A. alpina complex (R. J. Bayer 1990d). The A. rosea and A. parvifolia complexes also have the genome of A. pulchella, shown in the high elevation clones with dark phyllaries in these two polyploid complexes. Antennaria pulchella is differentiated from A. media by shorter pistillate or staminate corollas and shorter cauline leaves (Bayer). This sexually reproducing diploid ranges from the area around Lake Tahoe to the Mt. Whitney region (Bayer).</discussion>
-</treatment>
-
+</bio:treatment>

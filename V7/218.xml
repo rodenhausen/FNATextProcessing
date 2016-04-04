@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>R. Brown</species_authority>
-    <subspecies_name>striata</subspecies_name>
-    <subspecies_authority>(Jepson) Morin</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) Morin" date="unknown">striata</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Res. Inst. Texas</publication_title>
       <place_in_publication>1: 1017. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>striata</species_name>
-    <species_authority>Jepson</species_authority>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Limnanthes;species douglasii;subspecies striata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">striata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Calif.</publication_title>
       <place_in_publication>2: 411. 1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaflets: blade linear to ovate, margins entire, irregularly toothed, or 2- or 3-lobed. Flowers funnel-shaped; sepals linear-lanceolate, 4–6(–7) mm; petals white with greenish yellow bases (veins usually dark), spatulate (with narrow claw and narrowly ovate blade), 8–17 mm (apex truncate to slightly emarginate); filaments 2–4 mm; anthers usually cream, rarely dark, almost round, 0.8–1 mm. Tubercles absent or not, light brown, pinkish, or gray, rounded, blunt, lamellar, or conic. 2n = 10.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <habitat>vernal pools</habitat>
-  <habitat>stream edges</habitat>
-  <elevation>0–800 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Limnanthes;species striata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4d.</number>
   <discussion>C. T. Mason (1952) treated Limnanthes striata as a distinct species and suggested that it is closely related to L. douglasii and possibly should be included there. R. V. Kesseli and S. K. Jain (1984b) found the “striata” cluster to be an integral component of the “douglasii” complex. They identified two populations that keyed as subsp. striata but did not share alleles with other populations of subsp. striata. Of the two populations, the one in the eastern foothills of the Coast Range near Junction City, Trinity County, had fleshy sepals and long pedicels. The other population is in Bear Valley, Mariposa County, at the highest and southernmost point of the distribution of subsp. striata. The Bear Valley population has relatively small flowers with relatively short petals, but relatively longer sepals and dense hairs on the sepals and leaves. Kesseli (pers. comm.) reported that he was unable to cross subsp. striata with other L. douglasii subspecies and had not seen hybrids in the field. Subspecies striata warrants further study.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>32b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>californicum</species_name>
-    <species_authority>Hooker &amp; Arnott</species_authority>
-    <variety_name>hesperium</variety_name>
-    <variety_authority>(McClatchie) Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">californicum</taxon_name>
+    <taxon_name rank="variety" authority="(McClatchie) Jepson" date="unknown">hesperium</taxon_name>
     <place_of_publication>
       <publication_title>Man. Fl. Pl. Calif.,</publication_title>
       <place_in_publication>473.  1925,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>hesperium</species_name>
-    <species_authority>McClatchie</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species californicum;variety hesperium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="McClatchie" date="unknown">hesperium</taxon_name>
     <place_of_publication>
       <publication_title>Erythea</publication_title>
       <place_in_publication>2: 79.  1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>hesperia</species_name>
-    <species_authority>(McClatchie) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades hairy.  Flowers: sepals red; stamens 0.9–1 times as long as petals.</description>
-  <phenology>Flowering Dec–Mar</phenology>
-  <habitat>Chaparral, woodlands</habitat>
-  <elevation>100–1700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Ribes;species hesperium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(McClatchie) Coville &amp; Britton" date="unknown">hesperia</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species hesperia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>32b.</number>
   <discussion>Variety hesperium occurs in the Transverse and Peninsular ranges and the San Gabriel Mountains.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,57 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Batis</genus_name>
-    <species_name>maritima</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martius ex Perleb" date="unknown">BATACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Batis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">maritima</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1289. 1759</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Vidrillos</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Batis</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>Torrey</species_authority>
-  </TaxonIdentification>
-  <description>Plants usually less than 1 m. Main stems 2–4 cm diam. at base; branches rooting at nodes and tips. Leaf blades 5–20 × 2–3 mm, apex rounded to acuminate, adaxial surface flattened. Spikes 6 × 4 mm, flowers inconspicuous. Staminate flowers: tepals spatulate or tapered, 3 × 3 mm; filaments 2 mm; anthers 0.7 mm. Pistillate flowers connate at maturity, subsessile, 6 × 4 mm. Syncarps green, 10 × 6–7 mm, spongy. Seeds 3 × 1 mm. 2n = 22.</description>
-  <phenology>jan</phenology>
-  <phenology>winter</phenology>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>saline or brackish, often wet, open, maritime shores</habitat>
-  <habitat>salt marshes</habitat>
-  <habitat>dune swales</habitat>
-  <habitat>saline or brackish lagoons</habitat>
-  <habitat>sandy shell plateaus</habitat>
-  <habitat>shore hummocks</habitat>
-  <habitat>muddy or sandy tidal flats</habitat>
-  <habitat>often with mangroves</habitat>
-  <habitat>especially avicennia</habitat>
-  <elevation>0–10 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>n South America</global_distribution>
-  <global_distribution>Pacific Islands (Galapagos Islands).</global_distribution>
-  <global_distribution>Pacific Islands (Hawaii).</global_distribution>
+    <taxon_hierarchy>family BATACEAE;genus Batis;species maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Batis</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Batis;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Vidrillos</other_name>
   <discussion>Batis maritima probably is naturalized in Hawaii (W. Hillebrand 1888). Plants frequently cover large areas in dense, tangled stands and are tolerant of very high salinity and water-logging, including inundation for considerable periods (R. F. Thorne 1954).</discussion>
   <discussion>The salty leaves and stems of Batis maritima have been eaten in salads, used as potherbs, or pickled (G. K. Rogers 1982c). According to K. D. Perkins and W. W. Payne (1978), when eaten in large quantities by livestock, B. maritima is thought to be poisonous. Like other halophytes, it has been burned for ash. Also, it has been used medicinally to prevent or treat skin problems, ulcers, kidney and bladder stones, and other medicinal problems (Rogers).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,55 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>(Hooker) Schultz-Bipontinus</species_authority>
-    <subspecies_name>leptosepala</subspecies_name>
-    <subspecies_authority>(Nuttall) K. L. Chambers</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Schultz-Bipontinus" date="unknown">laciniata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) K. L. Chambers" date="unknown">leptosepala</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Dudley Herb.</publication_title>
       <place_in_publication>5: 61. 1957</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;subspecies leptosepala;</taxon_hierarchy>
-  <common_name>Slender-bracted silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Scorzonella</genus_name>
-    <species_name>leptosepala</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;subspecies leptosepala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scorzonella</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">leptosepala</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 426. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Microseris</genus_name>
-    <species_name>leptosepala</species_name>
-    <species_authority>(Nuttall) A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Stems usually branched. Leaves linear to narrowly lanceolate, entire or pinnately lobed. Outer phyllaries rarely purple-spotted, linear to lanceolate or deltate, smallest 0.5–2.5 mm wide, apices (erect) acute to acuminate, abaxial faces often scurfy-puberulent and black-villous. Pappi of 5–10, white, glabrous, aristate scales 0.5–2.5 mm, aristae usually barbellulate, rarely barbellate. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering May–Aug.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>clay , loam , and gravelly , sometimes serpentine-derived soils , open sites , meadows , hillsides , pine , oak and mixed evergreen woods ;</text>
-    <habitat>clay</habitat>
-    <habitat>loam</habitat>
-    <habitat>and gravelly</habitat>
-    <habitat>serpentine-derived soils</habitat>
-    <habitat>open sites meadows</habitat>
-    <habitat>hillsides</habitat>
-    <habitat>pine oak and mixed evergreen woods</habitat>
-  </habitat_info>
-  <elevation>30–2000 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Scorzonella;species leptosepala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) A. Gray" date="unknown">leptosepala</taxon_name>
+    <taxon_hierarchy>genus Microseris;species leptosepala;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
+  <other_name type="common_name">Slender-bracted silverpuffs</other_name>
   <discussion>Subspecies leptosepala is known from the Klamath Mountains of California and Oregon and rare northward. It also occurs, intergrading with subsp. laciniata, in the California North Coast Range and east of the Cascade Range in central Oregon and northeastern California. It intergrades with subsp. siskiyouensis in the valleys of the Illinois and Smith rivers, southwestern Oregon and adjacent California (K. L. Chambers 2004b).</discussion>
-</treatment>
-
+</bio:treatment>

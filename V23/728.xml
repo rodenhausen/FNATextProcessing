@@ -1,72 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>206.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Carex</genus_name>
-        <species_name>media</species_name>
-        <species_authority>R. Brown ex Richardson</species_authority>
-        <place_of_publication>
-            <publication_title>in J. Franklin et al., Narr. Journey Polar Sea,</publication_title>
-            <place_in_publication>750. 1823</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Carex moyen</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>alpina</species_name>
-        <species_authority>Liljeblad</species_authority>
-        <variety_name>inferalpina</variety_name>
-        <variety_authority>Wahlenberg</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>angare</species_name>
-        <species_authority>Steudel</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <species_name>norvegica</species_name>
-        <species_authority>Retzius</species_authority>
-        <subspecies_name>inferalpina</subspecies_name>
-        <subspecies_authority>(Wahlenberg) Hultén</subspecies_authority>
-    </TaxonIdentification>
-    <description>Plants densely or loosely cespitose. Culms 15–50(–70) cm, distally scabrous. Leaves
-        2–4 mm wide. Inflorescences: proximal bracts shorter than or exceeding inflorescence;
-        lateral 1–2(–4) spikes pistillate; proximal spikes distant, erect, and short-pedunculate;
-        distal lateral and/or terminal spikes overlapping, sessile, contiguous, and forming dense
-        terminal cluster, globose or oblong, 5–12 × 3–6 mm; terminal spike gynecandrous. Pistillate
-        scales dark brown to black to margins or distally hyaline, ovate or lanceolate, shorter than
-        (often 1/2 the length), as broad as perigynia, midvein same color as body, inconspicuous.
-        Perigynia erect or spreading, proximal ones sometimes reflexed, pale green becoming golden
-        brown, veinless or few-veined from base to summit, ovate, 2.5–3.5 mm, distal margins
-        occasionally serrulate, apex gradually or abruptly beaked, smooth or papillose; beak 0.3–0.4
-        mm, bidentate, smooth or serrulate. Achenes nearly filling body of perigynia.</description>
-    <phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>forest openings</habitat>
-    <habitat>meadows</habitat>
-    <habitat>bog margins</habitat>
-    <elevation>100–1800 m;</elevation>
-    <ca_distribution>Alta.</ca_distribution>
-    <ca_distribution>B.C.</ca_distribution>
-    <ca_distribution>Man.</ca_distribution>
-    <ca_distribution>N.B.</ca_distribution>
-    <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
-    <ca_distribution>N.W.T.</ca_distribution>
-    <ca_distribution>Ont.</ca_distribution>
-    <ca_distribution>Que.</ca_distribution>
-    <ca_distribution>Sask.</ca_distribution>
-    <ca_distribution>Yukon</ca_distribution>
-    <us_distribution>Alaska</us_distribution>
-    <us_distribution>Iowa</us_distribution>
-    <us_distribution>Maine</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Mont.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-    <global_distribution>Eurasia.</global_distribution>
-    <discussion>Carex media is circumboreal with extensions southward to the mountains of Montana,
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="R. Brown ex Richardson" date="unknown">media</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Franklin et al., Narr. Journey Polar Sea,</publication_title>
+      <place_in_publication>750. 1823</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species media;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Liljeblad" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="Wahlenberg" date="unknown">inferalpina</taxon_name>
+    <taxon_hierarchy>genus Carex;species alpina;variety inferalpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Steudel" date="unknown">angare</taxon_name>
+    <taxon_hierarchy>genus Carex;species angare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Retzius" date="unknown">norvegica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Wahlenberg) Hultén" date="unknown">inferalpina</taxon_name>
+    <taxon_hierarchy>genus Carex;species norvegica;subspecies inferalpina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>206.</number>
+  <other_name type="common_name">Carex moyen</other_name>
+  <discussion>Carex media is circumboreal with extensions southward to the mountains of Montana,
         Oregon, and Washington, the driftless area of Iowa and Wisconsin, and the maritime provinces
         of eastern Canada. It occurs together with C. norvegica only in Quebec and Newfoundland
         (Labrador), where intermediates are known. All references to C. norvegica west of Hudson Bay
         are to this species.</discussion>
-</treatment>
+</bio:treatment>

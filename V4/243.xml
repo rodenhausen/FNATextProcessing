@@ -1,98 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>4a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Opuntia</genus_name>
-        <species_name>humifusa</species_name>
-        <species_authority>(Rafinesque) Rafinesque</species_authority>
-        <variety_name>humifusa</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>austrina</species_name>
-        <species_authority>Small</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>calcicola</species_name>
-        <species_authority>Wherry</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>compressa</species_name>
-        <variety_name>austrina</variety_name>
-        <variety_authority>(Small) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>humifusa</species_name>
-        <variety_name>ammophila</variety_name>
-        <variety_authority>(Small) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>humifusa</species_name>
-        <variety_name>austrina</variety_name>
-        <variety_authority>(Small) Dress</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>impedata</species_name>
-        <species_authority>Small ex Britton &amp; Rose</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>rafinesquei</species_name>
-        <species_authority>Engelmann</species_authority>
-    </TaxonIdentification>
-    <description>Shrubs forming clumps, often prostrate, usually only 1 or 2 stem segments tall, to
-        0.5 m. Stem segments fleshy, flabby, or firm, cross-wrinkled under stress. 2n = 22,
-        44.</description>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>feb</phenology>
-    <phenology>winter</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>sandy habitats</habitat>
-    <habitat>openings on dry, sometimes wooded hillsides</habitat>
-    <elevation>0–1000 m;</elevation>
-    <ca_distribution>Ont.</ca_distribution>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Conn.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Iowa</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Minn.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>Nebr.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>R.I.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>S.Dak.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Rafinesque" date="unknown">humifusa</taxon_name>
+    <taxon_name rank="variety" authority="(Small) L. D. Benson" date="unknown">humifusa</taxon_name>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Opuntia;species humifusa;variety humifusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">austrina</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species austrina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Wherry" date="unknown">calcicola</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species calcicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Small ex Britton &amp; Rose" date="unknown">compressa</taxon_name>
+    <taxon_name rank="variety" authority="(Small) L. D. Benson" date="unknown">austrina</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species compressa;variety austrina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">humifusa</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Dress" date="unknown">ammophila</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species humifusa;variety ammophila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">humifusa</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">austrina</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species humifusa;variety austrina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">impedata</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species impedata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rafinesquei</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species rafinesquei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4a.</number>
+</bio:treatment>

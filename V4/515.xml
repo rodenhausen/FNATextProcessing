@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7a.3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>BLITUM</subgenus_name>
-        <section_name>DEGENIA</section_name>
-        <section_authority>Aellen</section_authority>
-        <place_of_publication>
-            <publication_title>Magyar Bot. Lapok</publication_title>
-            <place_in_publication>25: 56. 1926</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants annual. Leaf blades usually triangular or rhombic, rarely lanceolate, green
-        and farinose abaxially. Flowers: perianth segments 3, connate nearly to apex, margins
-        entire; stigmas 0.2–0.5 mm. Seeds vertical and horizontal.</description>
-    <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-    <introduced>introduced;</introduced>
-    <global_distribution>South America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">BLITUM</taxon_name>
+    <taxon_name rank="section" authority="Aellen" date="unknown">DEGENIA</taxon_name>
+    <place_of_publication>
+      <publication_title>Magyar Bot. Lapok</publication_title>
+      <place_in_publication>25: 56. 1926</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;subgenus BLITUM;section DEGENIA;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a.3.</number>
+  <discussion>Species 2 (1 in the flora):</discussion>
+</bio:treatment>

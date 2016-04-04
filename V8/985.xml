@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Andromeda</genus_name>
-    <species_name>polifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">polifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 393.  1753,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 5–80 cm, (without multicellular hairs); rootstocks creeping, ± horizontal.  Leaf blades white-glaucous or, sometimes, green abaxially, (1–)2–5 cm × 1–8 mm.  Pedicels erect or recurved, reddish or pale-glaucous, 6–20 mm.  Flowers: sepals valvate in bud, soon wide-spreading, whitish to reddish, especially marginally, 1–1.7 mm, apex blunt to acute, calyx saucer-shaped, without stomata; petals short-spreading or recurved, hairy adaxially, minutely papillate on margins, corolla 5–8 × 3.5–7 mm, without stomata; nectariferous tissue at ovary base; ovary depressed-globose; placentae attached next to summit of columella; style ± equaling corolla tube.  Capsules 5-locular, 4–8 × 4–5 mm, deeply depressed apically obscuring style base, conspicuously glaucous when young, glabrous or hairy at base.  Seeds brown, ca. 1 mm; testa smooth, lustrous.  2n = 48.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>n North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Andromeda;species polifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Infection of Andromeda polifolia by species of the ascomycete genus Rhytisma Fries appears to result in leaves broadened and reddish, often not glaucous (A. L. Jacquemart 1998).</discussion>
   <discussion>A hybrid of var. latifolia with var. polifolia [Andromeda ×jamesiana Lepage; A. polifolia var. jamesiana (Lepage) B. Boivin] is known from southern Nunavut and from the James Bay and southern Hudson Bay regions of Ontario and Quebec (J. Cayouette 1986); it is characterized by the abaxial surfaces of leaves being both glaucous and white-puberulent.  Other specimens having abaxial surfaces of leaves both glaucous and puberulent are scattered through the range of A. polifolia.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades (1–)2–4 cm, abaxial surface white-glaucous (sometimes green), glabrous; corollas 5(–7) mm; corymbs 2–3(–4)-flowered, sometimes flowers solitary, erect or lax, on erect or ascending branchlets; pedicels 10–20 mm</statement>
+      <description type="morphology">Leaf blades (1–)2–4 cm, abaxial surface white-glaucous (sometimes green), glabrous; corollas 5(–7) mm; corymbs 2–3(–4)-flowered, sometimes flowers solitary, erect or lax, on erect or ascending branchlets; pedicels 10–20 mm</description>
       <determination>1a.   Andromeda polifolia var. polifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades (2–)3–5 cm, abaxial surface not glaucous, white-hairy to white-velutinous; corollas 6(–8) mm; corymbs (2–)4–8-flowered, nodding, on curved branchlets; pedicels seldom more than 6–8 mm</statement>
+      <description type="morphology">Leaf blades (2–)3–5 cm, abaxial surface not glaucous, white-hairy to white-velutinous; corollas 6(–8) mm; corymbs (2–)4–8-flowered, nodding, on curved branchlets; pedicels seldom more than 6–8 mm</description>
       <determination>1b.   Andromeda polifolia var. latifolia</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Salix</subgenus_name>
-    <section_name>Triandrae</section_name>
-    <section_authority>Dumortier</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="section" authority="Dumortier" date="unknown">Triandrae</taxon_name>
     <place_of_publication>
       <publication_title>Bijdr. Natuurk. Wetensch.</publication_title>
       <place_in_publication>1: 58. 1826</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <section_name>Amygdalinae</section_name>
-    <section_authority>W. D. J. Koch</section_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 2–7(–10) m. Stems: (bark flaking in plates), branches ± brittle at
-        base. Leaves: stipules on late ones and vigorous shoots foliaceous, apex acute to acuminate;
-        petiole with paired, clustered, or stalked spherical glands or foliaceous glands distally;
-        largest medial blade hypostomatous, abaxial surface glaucous or not; juvenile blade
-        puberulent or pubescent abaxially, hairs white and ferruginous. Pistillate floral bracts
-        persistent or deciduous after flowering. Staminate flowers: stamens 3 or, rarely, 2; anthers
-        (dry), 0.4–0.6 mm. Pistillate flowers: adaxial nectary shorter than stipe; stipe 1–2 mm;
-        ovary glabrous.</description>
-  <number_of_infrataxa>Species 5 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Salix;section Triandrae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="section" authority="W. D. J. Koch" date="unknown">Amygdalinae</taxon_name>
+    <taxon_hierarchy>genus Salix;section Amygdalinae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b5.</number>
+  <discussion>Species 5 (1 in the flora):</discussion>
   <discussion>A study of genetic relationships in Salix using AFLP (S. Trybush et al. 2008) showed
         that the genetic similarity of S. triandra to subg. Salix and subg. Vetrix was similar and
         greater than the genetic similarity between these subgenera. Further study may support
         treating sect. Triandrae as a distinct subgenus.</discussion>
-</treatment>
+</bio:treatment>

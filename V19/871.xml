@@ -1,65 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>nova</species_name>
-    <species_authority>A. Nelson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">nova</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>27: 274. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species nova;</taxon_hierarchy>
-  <common_name>Black sagebrush</common_name>
-  <common_name>black sage</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>arbuscula</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>nova</subspecies_name>
-    <subspecies_authority>(A. Nelson) G. H. Ward</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>arbuscula</species_name>
-    <variety_name>nova</variety_name>
-    <variety_authority>(A. Nelson) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>tridentata</species_name>
-    <species_authority>Nuttall</species_authority>
-    <subspecies_name>nova</subspecies_name>
-    <subspecies_authority>(A. Nelson) H. M. Hall &amp; Clements</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Seriphidium</genus_name>
-    <species_name>novum</species_name>
-    <species_authority>(A. Nelson) W. A. Weber</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 10–30(–50) cm (trunks relatively short, widely and loosely branched), pungently aromatic; not root-sprouting. Stems brown, glabrescent (vegetative of approximately equal heights, giving plants a ‘hedged’ appearance; bark dark gray, exfoliating with age). Leaves persistent, usually bright green to dark green, sometimes gray-green; blades cuneate, 3-lobed (lobes to 1/3 blade lengths, 0.5–2 × 0.2–1 cm, rounded), faces sparsely hairy, gland-dotted. Heads in paniculiform arrays 4–10 × 0.5–3 cm (branches ± erect; peduncles slender). Involucres narrowly turbinate, 2–3 × 2 mm. Phyllaries (straw-colored or light green) ovate to elliptic (margins hyaline, shiny-resinous), sparsely hairy or glabrous. Florets 2–6; corollas 2–3 mm, glabrous (style branches scarcely exsert). Cypselae (ribbed) 0.8–1.5 mm, glabrous or resinous. 2n = 18, 36.</description>
-  <phenology_info>
-    <text>Flowering mid summer–late fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>shallow soils , desert valleys , exposed mountain slopes ;</text>
-    <habitat>shallow soils</habitat>
-    <habitat>desert valleys</habitat>
-    <habitat>exposed mountain slopes</habitat>
-  </habitat_info>
-  <elevation>1500–2300 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species nova;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">arbuscula</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Nelson) G. H. Ward" date="unknown">nova</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species arbuscula;subspecies nova;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">arbuscula</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Cronquist" date="unknown">nova</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species arbuscula;variety nova;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="(A. Nelson) W. A. Weber" date="unknown">tridentata</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Nelson) H. M. Hall &amp; Clements" date="unknown">nova</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species tridentata;subspecies nova;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Seriphidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">novum</taxon_name>
+    <taxon_hierarchy>genus Seriphidium;species novum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+  <other_name type="common_name">Black sagebrush</other_name>
+  <other_name type="common_name">black sage</other_name>
   <discussion>Artemisia nova is the common low-growing dark-green (“black”) sagebrush of desert valleys or south-southwest-facing slopes. It is prized by sheep ranchers as forage in areas where little else is available for grazing. It is conspicuous by its low growth habit, dark green foliage, and, in late season, by its pale orange to light brown flowering branches that rise beyond the vegetative growth. Often confused in herbarium collections with A. arbuscula, A. nova is easily distinguished by the entire leaves of the flowering stems, pedunculate heads, narrowly turbinate involucres, and often straw-colored, glabrous or sparsely hairy phyllaries.</discussion>
-</treatment>
-
+</bio:treatment>

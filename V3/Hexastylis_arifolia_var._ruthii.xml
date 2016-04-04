@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hexastylis</genus_name><species_name>arifolia</species_name><species_authority>(Michaux) Small</species_authority><variety_name>ruthii</variety_name><variety_authority>(Ashe) H. L. Blomquist</variety_authority><place_of_publication><publication_title> Brittonia </publication_title><place_in_publication>8: 268. 1957</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Asarum</genus_name><species_name>ruthii</species_name><species_authority>Ashe</species_authority><place_of_publication><publication_title>J. Elisha Mitchell Sci. Soc. </publication_title><place_in_publication>14: 35-36. 1897</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Asarum</genus_name><species_name>arifolium</species_name><species_authority>Michaux</species_authority><variety_name>ruthii</variety_name><variety_authority>(Ashe) Barringer</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hexastylis</genus_name><species_name>ruthii</species_name><species_authority>(Ashe) Small</species_authority></TaxonIdentification><description>Flowers: calyx tube ovoid, 10-20 × 8-10 mm; lobes erect, 2-4 × 2-4 mm. 2n = 26.</description><phenology>Flowering late winter-spring (Mar-Jun)</phenology><habitat> Upland deciduous and mixed deciduous-conifer forests</habitat><elevation> 300-800 m</elevation><global_distribution> often associated with shrubby Ericaceae in n part of range</global_distribution><us_distribution> Ala.</us_distribution><us_distribution> Ga.</us_distribution><us_distribution> Ky.</us_distribution><us_distribution> N.C.</us_distribution><us_distribution> Tenn.</us_distribution><us_distribution> Va.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hexastylis</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Small" date="unknown">arifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Ashe) H. L. Blomquist" date="unknown">ruthii</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>8: 268. 1957</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hexastylis;species arifolia;variety ruthii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Asarum</taxon_name>
+    <taxon_name rank="species" authority="Ashe" date="unknown">ruthii</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Elisha Mitchell Sci. Soc.</publication_title>
+      <place_in_publication>14: 35-36. 1897</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Asarum;species ruthii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Asarum</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">arifolium</taxon_name>
+    <taxon_name rank="variety" authority="(Ashe) Barringer" date="unknown">ruthii</taxon_name>
+    <taxon_hierarchy>genus Asarum;species arifolium;variety ruthii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hexastylis</taxon_name>
+    <taxon_name rank="species" authority="(Ashe) Small" date="unknown">ruthii</taxon_name>
+    <taxon_hierarchy>genus Hexastylis;species ruthii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1c.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

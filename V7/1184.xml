@@ -1,53 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dryopetalon</genus_name>
-    <species_name>runcinatum</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dryopetalon</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">runcinatum</taxon_name>
     <place_of_publication>
       <publication_title>Smithsonian Contr. Knowl.</publication_title>
       <place_in_publication>5(6): 12, plate 11. 1853</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Coelophragmus</genus_name>
-    <species_name>umbrosus</species_name>
-    <species_authority>(B. L. Robinson) O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dryopetalon</genus_name>
-    <species_name>runcinatum</species_name>
-    <variety_name>laxiflorum</variety_name>
-    <variety_authority>Rollins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>umbrosum</species_name>
-    <species_authority>B. L. Robinson</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials; usually sparsely to densely hirsute proximally, rarely glabrous throughout. Stems erect, unbranched or branched basally, branched distally, 2–8 dm. Basal leaves: petiole (1–)2–6(–8) cm; blade spatulate to obovate in outline, lyrate, pinnatifid, or bipinnately lobed, (2–)4–20(–25) cm × 30–80 mm, surfaces glabrous or hirsute. Cauline leaves shortly petiolate or sessile; blade base not auriculate, similar to basal, smaller distally. Racemes lax or dense. Fruiting pedicels divaricate-ascending, 5–15(–20) mm, glabrous or pubescent. Flowers: sepals (2.5–)3.5–4.5(–5) × 1.5–2 mm; petals white to purplish, spatulate, 6–9(–11) × 2.5–3.5(–4.5) mm, claw 2.5–4(–5) mm, margins pinnatifid, 5–7(–11)-lobed, papillate basally; filaments papillate basally, median pairs 3–5 mm, lateral pair 2.5–4 mm; anthers oblong, 0.7–1 mm. Fruits linear, (straight or arcuate), 2–6 cm × 0.5–1.2 mm; ovules 60–110 per ovary; style 0.1–0.7(–1) mm. Seeds 0.6–0.8 × 0.4–0.6 mm, not winged. 2n = 24.</description>
-  <phenology>jan</phenology>
-  <phenology>winter</phenology>
-  <phenology>feb</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>ledges</habitat>
-  <habitat>shade of boulders and cliffs</habitat>
-  <habitat>foothills</habitat>
-  <habitat>canyons</habitat>
-  <habitat>scrub woodlands</habitat>
-  <habitat>streambeds</habitat>
-  <habitat>rocky basalt</habitat>
-  <habitat>crevices</habitat>
-  <elevation>800–1900 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Sinaloa).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Dryopetalon;species runcinatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Coelophragmus</taxon_name>
+    <taxon_name rank="species" authority="(B. L. Robinson) O. E. Schulz" date="unknown">umbrosus</taxon_name>
+    <taxon_hierarchy>genus Coelophragmus;species umbrosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dryopetalon</taxon_name>
+    <taxon_name rank="species" authority="B. L. Robinson" date="unknown">runcinatum</taxon_name>
+    <taxon_name rank="variety" authority="Rollins" date="unknown">laxiflorum</taxon_name>
+    <taxon_hierarchy>genus Dryopetalon;species runcinatum;variety laxiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbrosum</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species umbrosum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Dryopetalon runcinatum is easily distinguished from other mustards in the flora area by having divided petals. In the United States, it is restricted to Cochise, Pima, Pinal, and Santa Cruz counties in Arizona, Catron, Dona Ana, Hidalgo, and Luna counties in New Mexico, and El Paso County in Texas.</discussion>
-</treatment>
+</bio:treatment>

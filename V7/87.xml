@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2d7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Chamaetia</subgenus_name>
-    <section_name>Myrtilloides</section_name>
-    <section_authority>(Borrer) Andersson</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Chamaetia</taxon_name>
+    <taxon_name rank="section" authority="(Borrer) Andersson" date="unknown">Myrtilloides</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle,
                 Prodr.</publication_title>
       <place_in_publication>16(2): 229. 1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <unranked_epithet_name>Myrtilloides</unranked_epithet_name>
-    <unranked_epithet_authority>Borrer</unranked_epithet_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Chamaetia;section Myrtilloides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Borrer">Myrtilloides</taxon_name>
     <place_of_publication>
       <publication_title>in J. C. Loudon, Arbor. Frutic. Brit.</publication_title>
       <place_in_publication>3: 1587. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 0.15–1.8 m, not clonal or clonal by layering. Largest medial blades
-        hypostomatous, abaxial surface glaucous. Catkins from lateral buds. Staminate flowers:
-        filaments glabrous or hairy. Pistillate flowers: abaxial nectary sometimes present, then
-        distinct or connate to adaxial and forming a cup; ovary glaucous or not, glabrous or
-        puberulent to very densely long-silky, hairs white or white and ferruginous,
-        flattened.</description>
-  <number_of_infrataxa>Species 5 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Salix;unranked Myrtilloides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2d7.</number>
+  <discussion>Species 5 (4 in the flora):</discussion>
   <discussion>Salix myrtilloides Linnaeus is found in Eurasia.</discussion>
-</treatment>
+</bio:treatment>

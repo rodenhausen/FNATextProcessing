@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>t.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Brassicaceae</family_name>
-    <family_authority>Burnett</family_authority>
-    <tribe_name>Iberideae</tribe_name>
-    <tribe_authority>Webb &amp; Berthelot</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Webb &amp; Berthelot" date="unknown">Iberideae</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Îles Canaries</publication_title>
       <place_in_publication>3(2,1): 92. 1837</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, perennials, or subshrubs [biennials]; eglandular. Trichomes simple or
-        absent. Cauline leaves (sometimes absent), petiolate or sessile; blade base not auriculate,
-        margins usually entire, sometimes dentate or lobed. Racemes ebracteate, usually elongated in
-        fruit. Flowers usually zygomorphic, rarely actinomorphic; sepals erect, ascending, or
-        spreading, lateral pair not saccate basally; petals white, pink, or purple, claw present,
-        often distinct; filaments not or rarely appendaged; pollen 3-colpate. Fruits silicles,
-        dehiscent, unsegmented, angustiseptate; ovules 2 or 4 per ovary; style usually distinct
-        (sometimes absent in Teesdalia); stigma entire or 2-lobed. Seeds usually aseriate, rarely
-        uniseriate; cotyledons accumbent.</description>
-  <number_of_infrataxa>Genera 2, species 30 (2 genera, 5 species in the
-        flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Iberideae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>t.</number>
+  <discussion>Genera 2, species 30 (2 genera, 5 species in the
+        flora):</discussion>
   <discussion>The position of Teesdalia in Iberideae is not entirely resolved; further studies are
         needed to finalize its tribal assignment.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2</number><TaxonIdentification Status="ACCEPTED"><genus_name>Phoenix</genus_name><species_name>reclinata</species_name><species_authority>Jacquin</species_authority><place_of_publication><publication_title>Fragmenta Botanica</publication_title><place_in_publication>27, plate 24. 1801</place_in_publication></place_of_publication></TaxonIdentification><common_name>Senegal date palm</common_name><common_name> dattier du Sénégal</common_name><description>Stems multiple, usually ascending, to 8 m, diam. 10--15 cm. Fruits ripening from green through orange to reddish brown, ellipsoid, length 12--18 mm, diam. 7--8 mm. 2n = 36.</description><discussion>Phoenix reclinata is commonly cultivated in central and southern Florida. Its seeds are dispersed by birds and raccoons.</discussion><phenology>Flowering throughout year</phenology><habitat> Volunteer in waste places and disturbed areas</habitat><elevation>0--10 m</elevation><introduced>introduced</introduced><us_distribution>Fla.</us_distribution><global_distribution>native</global_distribution><global_distribution> to Africa (including Madagascar).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phoenix</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">reclinata</taxon_name>
+    <place_of_publication>
+      <publication_title>Fragmenta Botanica</publication_title>
+      <place_in_publication>27, plate 24. 1801</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Phoenix;species reclinata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Senegal date palm</other_name>
+  <other_name type="common_name">dattier du Sénégal</other_name>
+  <discussion>Phoenix reclinata is commonly cultivated in central and southern Florida. Its seeds are dispersed by birds and raccoons.</discussion>
+</bio:treatment>

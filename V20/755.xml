@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>138b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Erigeron</genus_name>
-        <species_name>glabellus</species_name>
-        <species_authority>Nuttall</species_authority>
-        <variety_name>pubescens</variety_name>
-        <variety_authority>Hooker</variety_authority>
-        <place_of_publication>
-            <publication_title>Fl. Bor.-Amer.</publication_title>
-            <place_in_publication>2: 19. 1834</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Erigeron</genus_name>
-        <species_name>asper</species_name>
-        <species_authority>Nuttall</species_authority>
-        <variety_name>pubescens</variety_name>
-        <variety_authority>(Hooker) Breitung</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Erigeron</genus_name>
-        <species_name>glabellus</species_name>
-        <subspecies_name>pubescens</subspecies_name>
-        <subspecies_authority>(Hooker) Cronquist</subspecies_authority>
-    </TaxonIdentification>
-    <description>stems hirsute to hirsuto-villous (hairs spreading).</description>
-    <phenology>may</phenology>
-    <phenology>spring</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>Gravel river bars, streamsides, gravelly hillsides, meadows, open woods;</habitat>
-    <elevation>900–3100 m</elevation>
-    <ca_distribution>Alta.</ca_distribution>
-    <ca_distribution>B.C.</ca_distribution>
-    <ca_distribution>Man.</ca_distribution>
-    <ca_distribution>N.W.T.</ca_distribution>
-    <ca_distribution>Ont.</ca_distribution>
-    <ca_distribution>Sask.</ca_distribution>
-    <ca_distribution>Yukon</ca_distribution>
-    <us_distribution>Alaska</us_distribution>
-    <us_distribution>Colo.</us_distribution>
-    <us_distribution>Idaho</us_distribution>
-    <us_distribution>Minn.</us_distribution>
-    <us_distribution>Mont.</us_distribution>
-    <us_distribution>N.Dak.</us_distribution>
-    <us_distribution>S.Dak.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-    <us_distribution>Wyo.</us_distribution>
-    <discussion>A. E. Porsild (1975) noted that in Yukon, var. pubescens “is well established along
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glabellus</taxon_name>
+    <taxon_name rank="variety" authority="Hooker" date="unknown">pubescens</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Bor.-Amer.</publication_title>
+      <place_in_publication>2: 19. 1834</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species glabellus;variety pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">asper</taxon_name>
+    <taxon_name rank="variety" authority="(Hooker) Breitung" date="unknown">pubescens</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species asper;variety pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glabellus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) Cronquist" date="unknown">pubescens</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species glabellus;subspecies pubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>138b.</number>
+  <discussion>A. E. Porsild (1975) noted that in Yukon, var. pubescens “is well established along
         highways and townsites, near existing and former gold-mining camps, and was most likely
         introduced with shipments of baled hay in the early years of gold mining.”</discussion>
-    <discussion>Plants with appressed cauline vestiture (var. glabellus) are more common in the
+  <discussion>Plants with appressed cauline vestiture (var. glabellus) are more common in the
         southern range, while, at least in Alaska, Yukon, Northwest Territories, Alberta, and
         British Columbia, plants mostly have spreading cauline vestiture (var. pubescens). The two
         taxa apparently overlap over a considerable area, however, and some individual collections
@@ -63,4 +44,4 @@
         emphasized by the many names proposed at specific rank for forms of the species, mostly by
         Greene and Lunell (see A. Cronquist 1947). The biology and taxonomy of this complex need
         modern study.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,75 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Ancistrocactus</genus_name>
-        <species_name>scheeri</species_name>
-        <species_authority>(Salm-Dyck) Britton &amp; Rose</species_authority>
-        <place_of_publication>
-            <publication_title>Cact.</publication_title>
-            <place_in_publication>4: 4. 1923</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Root cactus</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>scheeri</species_name>
-        <species_authority>Salm-Dyck</species_authority>
-        <place_of_publication>
-            <publication_title>Cact. Hort. Dyck. </publication_title>
-            <place_in_publication>1849, 155. 1849</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Ancistrocactus</genus_name>
-        <species_name>megarhizus</species_name>
-        <species_authority>(Rose) Britton &amp; Rose</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Sclerocactus</genus_name>
-        <species_name>scheeri</species_name>
-        <species_authority>(Salm-Dyck) N. P. Taylor</species_authority>
-    </TaxonIdentification>
-    <description>Plants unbranched (unless injured) until very old age, then few branched from
-        ground level, precociously conspicuous. Roots long, fleshy, tuberlike taproots with bulbous
-        swellings, sometimes having bulbous secondary roots, frequently horizontally oriented. Stem
-        cylindric to club-shaped and stipitate, or spheric, to 17 × 8 cm. Spines: radial spines
-        13–28 per areole, translucent yellowish, tips red-brown, longest spines 6–28 × 0.15–0.55 mm;
-        central spines 3–4 per areole; abaxial central spine 1 per areole, hooked (very rarely
-        straight), ± terete or adaxially flattened, generally whitish or light brown, sometimes
-        adaxially dark striped with brown to black, 12–38 mm; adaxial central spines (2–)3 per
-        areole, erect, straight, dorsiventrally compressed, abaxially tan to whitish, adaxially
-        brown to dark reddish brown, 19–50 mm. Flowers: inner tepals consistently bright green to
-        yellowish (rarely pink to pale reddish). Fruits 19–35 mm. 2n = 22.</description>
-    <phenology>nov</phenology>
-    <phenology>fall</phenology>
-    <phenology>dec</phenology>
-    <phenology>winter</phenology>
-    <phenology>jan</phenology>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-    <phenology>spring</phenology>
-    <habitat>tamaulipan thorn scrub</habitat>
-    <habitat>plains and low hills</habitat>
-    <habitat>sandy, loamy, silty, or gravelly soils [rarely on shale</habitat>
-    <elevation>20–500 m;</elevation>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Nuevo León).</global_distribution>
-    <global_distribution>Mexico (Tamaulipas).</global_distribution>
-    <discussion>The roots of Ancistrocactus scheeri are diagnostic at all ages; frequently they are
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ancistrocactus</taxon_name>
+    <taxon_name rank="species" authority="(Salm-Dyck) Britton &amp; Rose" date="unknown">scheeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact.</publication_title>
+      <place_in_publication>4: 4. 1923</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Ancistrocactus;species scheeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="Salm-Dyck" date="unknown">scheeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact. Hort. Dyck.</publication_title>
+      <place_in_publication>1849, 155. 1849</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Echinocactus;species scheeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ancistrocactus</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Britton &amp; Rose" date="unknown">megarhizus</taxon_name>
+    <taxon_hierarchy>genus Ancistrocactus;species megarhizus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sclerocactus</taxon_name>
+    <taxon_name rank="species" authority="(Salm-Dyck) N. P. Taylor" date="unknown">scheeri</taxon_name>
+    <taxon_hierarchy>genus Sclerocactus;species scheeri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Root cactus</other_name>
+  <discussion>The roots of Ancistrocactus scheeri are diagnostic at all ages; frequently they are
         horizontally oriented, sausage-shaped or otherwise strongly tuberlike, but always separated
         from the stem by a fragile constriction, in contrast to the short, succulent, vertical
         taproots of A. brevihamatus. When separated from the tuberlike roots, stems of A. scheeri in
         horticulture will develop their peculiar succulent root systems, even in the artificial
         environment of a container.</discussion>
-    <discussion>Seedlings and immature plants of A. scheeri often have narrowly cylindric stems and
+  <discussion>Seedlings and immature plants of A. scheeri often have narrowly cylindric stems and
         numerous tightly appressed, pectinately arranged, short radial spines. With age, the stems
         broaden distally and new spines are longer, coarser, and less tightly
         appressed.</discussion>
-    <discussion>Adult plants of Ancistrocactus scheeri and A. brevihamatus are relatively similar
+  <discussion>Adult plants of Ancistrocactus scheeri and A. brevihamatus are relatively similar
         above ground. The stems of immature A. brevihamatus, however, are not obscured by spines and
         are often flush with the soil surface, whereas those of A. scheeri are nearly hidden by
         spines and fully exposed above the soil.</discussion>
-    <discussion>Ribs on the stems of Ancistrocactus scheeri seem straighter and better defined than
+  <discussion>Ribs on the stems of Ancistrocactus scheeri seem straighter and better defined than
         ribs of A. brevihamatus, even prior to sexual maturity.</discussion>
-</treatment>
+</bio:treatment>

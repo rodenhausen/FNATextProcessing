@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>20.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Claytonia</genus_name><species_name>scammaniana</species_name><species_authority>Hultén</species_authority><place_of_publication>
-    <publication_title>Bot. Not.</publication_title>
-    <place_in_publication>1939: 826. 1939</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Scamman’s claytoni a</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Montia</genus_name><species_name>scammaniana</species_name><species_authority>(Hultén) S. L. Welsh</species_authority></TaxonIdentification><description>Plants perennial, rhizomatous; rhizomes 0.5–3 mm diam. Stems 4–10 cm. Leaves: basal leaves petiolate, sheathing at base, blade linear or oblong to narrowly spatulate, 1–10 × 0.1–1 cm, tapering to elongate petiole; cauline leaves sessile, blade narrowly lanceolate to ovate, 0.2–1.5 × 0.1–0.5 cm. Inflorescences ebracteate. Flowers 10–20 mm diam.; sepals 4–7 mm, petals pink to rich purple, 10–18 mm; ovules 6. Seeds (1–)6, 2–3 mm, smooth, elaiosome 0.5 mm. 2n = 16, ca. 40.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>talus and scree slopes on serpentine</habitat><elevation>50–2000 m;</elevation><ca_distribution>Yukon</ca_distribution><us_distribution>Alaska</us_distribution><global_distribution>Eurasia (Russia).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">scammaniana</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Not.</publication_title>
+      <place_in_publication>1939: 826. 1939</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Claytonia;species scammaniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="(Hultén) S. L. Welsh" date="unknown">scammaniana</taxon_name>
+    <taxon_hierarchy>genus Montia;species scammaniana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20.</number>
+  <other_name type="common_name">Scamman’s claytoni a</other_name>
+</bio:treatment>

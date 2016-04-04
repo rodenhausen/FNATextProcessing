@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Agarista</genus_name>
-    <species_name>populifolia</species_name>
-    <species_authority>(Lamarck) Judd</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agarista</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Judd" date="unknown">populifolia</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>60: 495.  1979  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pipe-plant</common_name>
-  <common_name>pipe-stem wood</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>populifolia</species_name>
-    <species_authority>Lamarck</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Agarista;species populifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">populifolia</taxon_name>
     <place_of_publication>
       <publication_title>in J. Lamarck et al., Encycl.</publication_title>
       <place_in_publication>1: 159.  1783</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucothoë</genus_name>
-    <species_name>acuminata</species_name>
-    <species_authority>(Aiton) G. Don</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leucothoë</genus_name>
-    <species_name>populifolia</species_name>
-    <species_authority>(Lamarck) Dipple</species_authority>
-  </TaxonIdentification>
-  <description>Plants to 7 m.  Stems terete, with chambered pith.  Leaf blades 2.6–9(–11.2) × 0.9–4(–5) cm, base narrowly cuneate to rounded, apex acuminate, surfaces sometimes stipitate-glandular-hairy, hairy on midvein adaxially.  Flowers: calyx lobes 0.9–2 × 0.6–1.5 mm; corolla 6–9.5 × 3–5 mm, glabrous; filaments 4–5.5 mm; style impressed into ovary apex.  Capsules 3–4 × 4.5–6.5 mm, placentae subapical.  Seeds brown, 1.4–2 mm.  2n = 24.</description>
-  <phenology>Flowering early spring–spring</phenology>
-  <habitat>Acid swamps to moist broadleaved forests, especially along streams, in ravines, or near springs</habitat>
-  <elevation>0–50 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Andromeda;species populifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucothoë</taxon_name>
+    <taxon_name rank="species" authority="(Aiton) G. Don" date="unknown">acuminata</taxon_name>
+    <taxon_hierarchy>genus Leucothoë;species acuminata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucothoë</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Dipple" date="unknown">populifolia</taxon_name>
+    <taxon_hierarchy>genus Leucothoë;species populifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Pipe-plant</other_name>
+  <other_name type="common_name">pipe-stem wood</other_name>
   <discussion>Agarista populifolia is occasionally used as an ornamental; it is the northernmost species of the genus, and is closely related to A. sleumeri Judd of Mexico.  Agarista populifolia is rather variable in glandular indumentum and in the size and margins of the leaves.  The plants are apparently very rare in Georgia, and the two known collections from that state lack exact localities; W. Bartram (1791) reported it growing along Saint Mary’s River.</discussion>
-</treatment>
+</bio:treatment>

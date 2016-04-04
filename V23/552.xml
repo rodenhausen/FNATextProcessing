@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>70b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Carex</genus_name><species_name>glareosa</species_name><species_authority>Wahlenberg</species_authority><subspecies_name>pribylovensis</subspecies_name><subspecies_authority>(Macoun) G. Halliday &amp; Chater</subspecies_authority><place_of_publication>
-    <publication_title>Feddes Repert.</publication_title>
-    <place_in_publication>80: 100. 1969</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Carex</genus_name><species_name>pribylovensis</species_name><species_authority>Macoun</species_authority><place_of_publication><publication_title>in D. S. Jordan et al., Fur Seals N. Pacific </publication_title><place_in_publication>3: 572. 1899</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Carex</genus_name><species_name>lagopina</species_name><species_authority>Wahlenberg</species_authority><variety_name>pribylovensis</variety_name><variety_authority>(Macoun) Kükenthal</variety_authority></TaxonIdentification><description>Culms erect, slender, 20–40 cm. Leaves ± pale green usually flat, 1.5–2.5 mm wide. Inflorescences 13–20 × 8–12 mm. Pistillate scales 2.7–3.5 mm, mostly enveloping perigynia. Perigynia lightly or obscurely several-veined, 2.5–3.2 × 1.2–1.5 mm.</description><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>salt marshes</habitat><habitat>gravelly seashores</habitat><conservation>of conservation concern;</conservation><elevation>0 m;</elevation><us_distribution>Alaska.</us_distribution><discussion>Carex glareosa subsp. pribylovensis is known only from the Pribilof and Aleutian islands.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Wahlenberg" date="unknown">glareosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Macoun) G. Halliday &amp; Chater" date="unknown">pribylovensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Feddes Repert.</publication_title>
+      <place_in_publication>80: 100. 1969</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species glareosa;subspecies pribylovensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Macoun" date="unknown">pribylovensis</taxon_name>
+    <place_of_publication>
+      <publication_title>in D. S. Jordan et al., Fur Seals N. Pacific</publication_title>
+      <place_in_publication>3: 572. 1899</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carex;species pribylovensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Wahlenberg" date="unknown">lagopina</taxon_name>
+    <taxon_name rank="variety" authority="(Macoun) Kükenthal" date="unknown">pribylovensis</taxon_name>
+    <taxon_hierarchy>genus Carex;species lagopina;variety pribylovensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>70b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Carex glareosa subsp. pribylovensis is known only from the Pribilof and Aleutian islands.</discussion>
+</bio:treatment>

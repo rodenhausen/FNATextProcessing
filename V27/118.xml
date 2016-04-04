@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Andreaea</genus_name>
-    <species_name>heinemannii</species_name>
-    <species_authority>Hampe &amp; Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="Hampe &amp; Müller Hal." date="unknown">heinemannii</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Zeitung (Berlin)</publication_title>
       <place_in_publication>4: 324, plate 2.  1846,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>blyttii</species_name>
-    <variety_name>angustata</variety_name>
-    <variety_authority>(Limpricht) Schultze-Motel</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>blyttii</species_name>
-    <variety_name>obtusifolia</variety_name>
-    <variety_authority>(Berggren) Sharp</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andreaea</genus_name>
-    <species_name>crassinervia</species_name>
-    <variety_name>obtusifolia</variety_name>
-    <variety_authority>Berggren</variety_authority>
-  </TaxonIdentification>
-  <description>Plants brown to black.  Leaves erect to spreading, occasionally secund, broadly subulate from an ovate base, widest in proximal half of leaf, apex symmetric; costa present, percurrent and filling the leaf apices, weak, flattened distally, often not reaching the leaf insertion; leaf margins entire or occasionally weakly crenulate; basal laminal cells quadrate to occasionally short-rectangular, a few marginal cells rectangular, walls usually sinuose; medial laminal cells quadrate, 1-stratose or sometimes 2-stratose in patches, lumens rounded-quadrate; laminal papillae rare, low.  Sexual condition apparently autoicous; perichaetial leaves differentiated, convolute-sheathing.  Spores 20–30(–40) µm.</description>
-  <habitat>Acidic rocks;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>se Asia</global_distribution>
-  <global_distribution>Atlantic Islands (Canary Islands, Kerguelen Island, Madiera Island).</global_distribution>
+    <taxon_hierarchy>genus Andreaea;species heinemannii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">blyttii</taxon_name>
+    <taxon_name rank="variety" authority="(Limpricht) Schultze-Motel" date="unknown">angustata</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species blyttii;variety angustata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">blyttii</taxon_name>
+    <taxon_name rank="variety" authority="(Berggren) Sharp" date="unknown">obtusifolia</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species blyttii;variety obtusifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andreaea</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">crassinervia</taxon_name>
+    <taxon_name rank="variety" authority="Berggren" date="unknown">obtusifolia</taxon_name>
+    <taxon_hierarchy>genus Andreaea;species crassinervia;variety obtusifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
   <discussion>Andreaea heinemannii is a relatively small species in the genus, having irregularly divergent leaf apices of a flat subula.  The weak costa commonly does not reach the leaf insertion, and this species may be mistaken for A. rupestris.</discussion>
-</treatment>
+</bio:treatment>

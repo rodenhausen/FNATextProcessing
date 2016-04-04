@@ -1,50 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ARCTOA</genus_name>
-    <genus_authority>Bruch &amp; Schimper</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Steven G. Newmaster</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Bruch &amp; Schimper" date="unknown">ARCTOA</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>1: 151.  1846  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek arktos, bear, alluding to an arctic or northern distribution]</etymology>
-  <author>Steven G. Newmaster</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranum</genus_name>
-    <section_name>Arctoa</section_name>
-    <section_authority>(Bruch &amp; Schimper) Braithwaite</section_authority>
-  </TaxonIdentification>
-  <description>Plants in dense tufts, dark green to yellowish brown, shiny.  Stems (0.5–)1–2(–5) cm,  branches simple, sparsely radiculose.  Leaves lanceolate, subulate, erect-spreading, sometimes falcate-secund; margins erect, entire, or serrulate near the tips; costa excurrent as an awn, narrow, stereids poorly differentiated from median guide cells; distal laminal cells rectangular to subquadrate, smooth or slightly mammillose; basal laminal cells elongate, smooth, sometimes porose, alar cells sometimes differentiated and inflated.  Perichaetial leaves with a sheathing base.  Sexual condition autoicous.  Seta solitary, 3–6 mm, erect, stout, yellow.  Capsule erect, exserted or immersed in perichaetial leaves, symmetric, obovoid, constricted below mouth, furrowed when dry, urn 0.5–1.2 mm; operculum obliquely rostrate; peristome single, of 16 red-brown teeth, divided halfway into two segments, vertically or irregularly striolate.  Calyptra cucullate, smooth.  Spores spheric, 16–30 µm, finely roughened, green.</description>
-  <number_of_infrataxa>Species ca. 4 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus ARCTOA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek arktos, bear, alluding to an arctic or northern distribution]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="section" authority="(Bruch &amp; Schimper) Braithwaite" date="unknown">Arctoa</taxon_name>
+    <taxon_hierarchy>genus Dicranum;section Arctoa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Species ca. 4 (3 in the flora):</discussion>
   <discussion>A rare northern and alpine genus, Arctoa occurs on rock or soil and is distinguished by its medium-sized, Dicranum-like habit, with poorly differentiated stereid and guide cells. It may be confused with Kiaeria, which differs by a longer seta, and capsules often strumose, with narrow mouths.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Allen, B. H.  1998.  The genus Arctoa (Musci: Dicranaceae) in Maine.  Evansia 15: 131–137.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peristome teeth not wide-spreading; distal leaf cells 1–2:1; costa short-excurrent</statement>
+      <description type="morphology">Peristome teeth not wide-spreading; distal leaf cells 1–2:1; costa short-excurrent</description>
       <determination>3.   Arctoa hyperborea</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peristome teeth wide-spreading; distal leaf cells 2–5:1; costa long-excurrent.</statement>
+      <description type="morphology">Peristome teeth wide-spreading; distal leaf cells 2–5:1; costa long-excurrent.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Capsule straight, immersed; seta short; awn entire</statement>
+      <description type="morphology">Capsule straight, immersed; seta short; awn entire</description>
       <determination>1.   Arctoa anderssonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Capsule curved, exserted; seta long; awn toothed</statement>
+      <description type="morphology">Capsule curved, exserted; seta long; awn toothed</description>
       <determination>2.   Arctoa fulvella</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

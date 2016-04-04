@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>26mmm.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Carex</genus_name>
-        <genus_authority>Linneaus</genus_authority>
-        <section_name>Leptocephalae</section_name>
-        <section_authority>L. H. Bailey</section_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts</publication_title>
-            <place_in_publication>22: 131. 1886</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <author>Theodore S. Cochrane</author>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Carex</genus_name>
-        <section_name>Polytrichoideae</section_name>
-        <section_authority>(Tuckerman) Mackenzie</section_authority>
-    </TaxonIdentification>
-    <description>Plants cespitose, short-rhizomatous. Culms brown at base. Leaves: basal sheaths not
-        fibrous; sheath fronts membranous; blades V-shaped in cross section when young, glabrous.
-        Inflorescence 1 spike per culm; bracts absent; spike androgynous. Proximal pistillate scales
-        less than 10 mm, apex obtuse to acute or short-awned. Perigynia appressed-ascending, weakly
-        veined, substipitate, elliptic to narrowly oblong, rounded- or flattened-trigonous in cross
-        section, base long tapering, apex rounded or truncate, orifice entire or emarginate,
-        glabrous; beak absent. Stigmas 3. Achenes obtusely to sharply trigonous, smaller than bodies
-        of perigynia; style deciduous.</description>
-    <number_of_infrataxa>Species 1:</number_of_infrataxa>
-    <global_distribution>North America</global_distribution>
-    <global_distribution>West Indies.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Theodore S. Cochrane</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linneaus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="L. H. Bailey" date="unknown">Leptocephalae</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>22: 131. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Leptocephalae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Tuckerman) Mackenzie" date="unknown">Polytrichoideae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Polytrichoideae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26mmm.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lloydia</genus_name><species_name>serotina</species_name><species_authority>(Linnaeus) Salisbury ex Reichenbach</species_authority><variety_name>flava</variety_name><variety_authority>( Calder &amp; Roy L. Taylor) B. Boivin</variety_authority><place_of_publication>
-    <publication_title>Naturaliste Canad.</publication_title>
-    <place_in_publication>94: 525. 1967</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Golden alpine-lily</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Lloydia</genus_name><species_name>serotina</species_name><subspecies_name>flava</subspecies_name><subspecies_authority>Calder &amp; Roy L. Taylor</subspecies_authority><place_of_publication><publication_title>Canad. J. Bot. </publication_title><place_in_publication>43: 1392. 1965</place_in_publication></place_of_publication></TaxonIdentification><description>Perianth yellow with yellowish to greenish veins. 2n = 24.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>rocky slopes and exposed habitats of subalpine zones</habitat><elevation>100–1000 m;</elevation><ca_distribution>B.C.</ca_distribution><discussion>Variety flava from the Queen Charlotte Islands (Graham and Moresby islands) differs from the typical variety in floral color and is more robust with well-developed leaves that nearly always exceed the flowering or fruiting scapes (J. A. Calder and R. L. Taylor 1965).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lloydia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Salisbury ex Reichenbach" date="unknown">serotina</taxon_name>
+    <taxon_name rank="variety" authority="( Calder &amp; Roy L. Taylor) B. Boivin" date="unknown">flava</taxon_name>
+    <place_of_publication>
+      <publication_title>Naturaliste Canad.</publication_title>
+      <place_in_publication>94: 525. 1967</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Lloydia;species serotina;variety flava;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lloydia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">serotina</taxon_name>
+    <taxon_name rank="subspecies" authority="Calder &amp; Roy L. Taylor" date="unknown">flava</taxon_name>
+    <place_of_publication>
+      <publication_title>Canad. J. Bot.</publication_title>
+      <place_in_publication>43: 1392. 1965</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lloydia;species serotina;subspecies flava;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">Golden alpine-lily</other_name>
+  <discussion>Variety flava from the Queen Charlotte Islands (Graham and Moresby islands) differs from the typical variety in floral color and is more robust with well-developed leaves that nearly always exceed the flowering or fruiting scapes (J. A. Calder and R. L. Taylor 1965).</discussion>
+</bio:treatment>

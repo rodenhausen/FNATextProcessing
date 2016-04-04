@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>31.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>densifolia</species_name>
-    <species_authority>A. E. Porsild</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">densifolia</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Natl. Mus. Canada</publication_title>
       <place_in_publication>101: 26. 1945</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species densifolia;</taxon_hierarchy>
-  <common_name>Denseleaf pussytoes</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>ellyae</species_name>
-    <species_authority>A. E. Porsild</species_authority>
-  </TaxonIdentification>
-  <description>Dioecious. Plants 3.5–16 cm. Stolons 1–2 cm. Basal leaves 1-nerved, spatulate to cuneate, 3–7 × 2–5 mm, tips mucronate, faces gray-tomentose. Cauline leaves linear, 2–13 mm, distal flagged. Heads 2–5 in corymbiform arrays. Involucres: staminate 3–6.5 mm; pistillate 4.5–7.5 mm. Pistillate involucres 4.5–7.5 mm. Phyllaries distally light brown, dark brown, or black. Corollas: staminate 2–3.5 mm; pistillate 2.5–4.5 mm. Cypselae 0.8–1.5 mm, glabrous; pappi: staminate 2.5–3.5 mm; pistillate 2.5–3.5 mm. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>subalpine-alpine limestone talus ;</text>
-    <habitat>subalpine-alpine limestone talus</habitat>
-  </habitat_info>
-  <elevation>700–2800 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Mont.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species densifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">ellyae</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species ellyae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>31.</number>
+  <other_name type="common_name">Denseleaf pussytoes</other_name>
   <discussion>Antennaria densifolia is found on limestone talus below treeline in the MacKenzie, Richardson, and Ogilvie mountains of the District of MacKenzie and Yukon Territory and in Granite County, Montana (R. J. Bayer 1989c). It differs from A. aromatica in being non-glandular and in other characters. Herbarium specimens (in DAO) from British Columbia that morphologically appear to be a strictly gynoecious form of A. densifolia may be apomicts related to A. alpina that are derived from A. densifolia, a sexual progenitor of the complex.</discussion>
-</treatment>
-
+</bio:treatment>

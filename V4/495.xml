@@ -1,43 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>6b.1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Dysphania</genus_name>
-        <genus_authority>R. Brown (sect. Botryoides )</genus_authority>
-        <subsection_name>Botrys</subsection_name>
-        <subsection_authority>(W . D. J. Koch) Mosyakin &amp; Clemants</subsection_authority>
-        <place_of_publication>
-            <publication_title>Ukrayins’k. Bot. Zhurn., n. s.</publication_title>
-            <place_in_publication>59: 383. 2002</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chenopodium</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <section_name>Botrys</section_name>
-        <section_authority>W. D. J. Koch</section_authority>
-        <place_of_publication>
-            <publication_title>Syn. Fl. Germ. Helv., </publication_title>
-            <place_in_publication>607. 1837</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <subsection_name>Botrys</subsection_name>
-        <subsection_authority>(W. D. J. Koch) Aellen &amp; Iljin</subsection_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chenopodium</genus_name>
-        <unranked_epithet_name>Botrys</unranked_epithet_name>
-        <unranked_epithet_authority>(W. D. J. Koch) Standley</unranked_epithet_authority>
-    </TaxonIdentification>
-    <description>Leaf blades ovate to elliptic, margins shallowly to deeply lobate, lyrate-sinuate,
-        sinuate-dentate, erose-dentate, or pinnatifid, occasionally entire. Inflorescences with
-        terminal branches bearing glomerules. Perianth segments without appendages or with lateral
-        keel.</description>
-    <number_of_infrataxa>Species 4–5 (1 in the flora):</number_of_infrataxa>
-    <introduced>introduced;</introduced>
-    <global_distribution>worldwide</global_distribution>
-    <global_distribution>native to s Eurasia</global_distribution>
-    <global_distribution>Africa.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="R. Brown (sect. Botryoides )" date="unknown">Dysphania</taxon_name>
+    <taxon_name rank="subsection" authority="(W . D. J. Koch) Mosyakin &amp; Clemants" date="unknown">Botrys</taxon_name>
+    <place_of_publication>
+      <publication_title>Ukrayins’k. Bot. Zhurn., n. s.</publication_title>
+      <place_in_publication>59: 383. 2002</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Dysphania;subsection Botrys;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="section" authority="W. D. J. Koch" date="unknown">Botrys</taxon_name>
+    <place_of_publication>
+      <publication_title>Syn. Fl. Germ. Helv.,</publication_title>
+      <place_in_publication>607. 1837</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;section Botrys;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="subsection" authority="(W. D. J. Koch) Aellen &amp; Iljin" date="unknown">Botrys</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;subsection Botrys;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="(W. D. J. Koch) Standley">Botrys</taxon_name>
+    <taxon_hierarchy>genus Chenopodium;unranked Botrys;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6b.1.</number>
+  <discussion>Species 4–5 (1 in the flora):</discussion>
+</bio:treatment>

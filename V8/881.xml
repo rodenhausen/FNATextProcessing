@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cassiope</genus_name>
-    <species_name>tetragona</species_name>
-    <species_authority>(Linnaeus) D. Don</species_authority>
-    <subspecies_name>saximontana</subspecies_name>
-    <subspecies_authority>(Small) A. E. Porsild</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) D. Don" date="unknown">tetragona</taxon_name>
+    <taxon_name rank="subspecies" authority="(Small) A. E. Porsild" date="unknown">saximontana</taxon_name>
     <place_of_publication>
       <publication_title>Canad. Field-Naturalist</publication_title>
       <place_in_publication>54: 68.  1940,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cassiope</genus_name>
-    <species_name>saximontana</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Cassiope;species tetragona;subspecies saximontana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">saximontana</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>29: 59.  1914</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cassiope</genus_name>
-    <species_name>tetragona</species_name>
-    <variety_name>saximontana</variety_name>
-    <variety_authority>(Small) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>Leaves (3–)5(–6) mm.  Pedicels to 8 mm, not extending beyond branch tips, usually to 3 times leaf length, not elongating in fruit.  Corollas 4–6 mm.</description>
-  <phenology>Flowering Jun–Aug</phenology>
-  <habitat>Rocky slopes and alpine tundra</habitat>
-  <elevation>1700–2800 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Cassiope;species saximontana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tetragona</taxon_name>
+    <taxon_name rank="variety" authority="(Small) C. L. Hitchcock" date="unknown">saximontana</taxon_name>
+    <taxon_hierarchy>genus Cassiope;species tetragona;variety saximontana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+</bio:treatment>

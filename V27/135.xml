@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tetrodontium</genus_name>
-    <species_name>brownianum</species_name>
-    <variety_name>ovatum</variety_name>
-    <variety_authority>(Funck) Wijk &amp; Margadant</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetrodontium</taxon_name>
+    <taxon_name rank="species" authority="Funck" date="unknown">brownianum</taxon_name>
+    <taxon_name rank="variety" authority="(Funck) Wijk &amp; Margadant" date="unknown">ovatum</taxon_name>
     <place_of_publication>
       <publication_title>Taxon</publication_title>
       <place_in_publication>9: 52.  1960,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tetraphis</genus_name>
-    <species_name>ovata</species_name>
-    <species_authority>Funck</species_authority>
+    <taxon_hierarchy>genus Tetrodontium;species brownianum;variety ovatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetraphis</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">ovata</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Taschenb. Anfänger Wiss. Apothekerkunst</publication_title>
       <place_in_publication>13: 41.  1802</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tetraphis</genus_name>
-    <species_name>rigida</species_name>
-    <species_authority>Hedwig</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tetrodontium</genus_name>
-    <species_name>ovatum</species_name>
-    <species_authority>(Funck) Schwägrichen</species_authority>
-  </TaxonIdentification>
-  <description>Protonematal flaps ovate-lingulate, less than 0.5 mm, dentate, with a large acute apical cell, often mixed in with linear, mucronate flaps.  Stem leaves obtuse.</description>
-  <phenology>Capsules rare to very rare, mature late summer.</phenology>
-  <global_distribution>Often growing inverted under rock ledges or in crevices</global_distribution>
-  <global_distribution>especially in areas of high humidity</global_distribution>
-  <global_distribution>sometimes mixed in with other bryophytes</global_distribution>
-  <global_distribution>in North America predominantly coastal</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <global_distribution>c Europe.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Tetraphis;species ovata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetraphis</taxon_name>
+    <taxon_name rank="species" authority="(Funck) Schwägrichen" date="unknown">rigida</taxon_name>
+    <taxon_hierarchy>genus Tetraphis;species rigida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetrodontium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ovatum</taxon_name>
+    <taxon_hierarchy>genus Tetrodontium;species ovatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

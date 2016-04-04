@@ -1,54 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>94.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>THYSANOCARPUS</genus_name>
-    <genus_authority>Hooker</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Patrick J. Alexander,Michael D. Windham</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="Hooker" date="unknown">THYSANOCARPUS</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 69, plate 18, fig. A. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek thysanos , fringe, and karpos , fruit, alluding to fruit margin]</etymology>
-  <common_name>Fringepod</common_name>
-  <common_name>lacepod</common_name>
-  <author>Patrick J. Alexander</author>
-  <author>Michael D. Windham</author>
-  <description>Annuals; not scapose; (glaucous), glabrous or pubescent. Stems erect, unbranched or branched distally. Leaves basal and cauline; petiolate or sessile; basal (often withered by anthesis or fruiting), not or, rarely, rosulate, shortly petiolate, blade margins subentire, dentate, pinnatifid, or pinnatisect [rarely entire]; cauline sessile, blade (base usually auriculate), margins entire, dentate, or pinnatifid to pinnatisect. Racemes (corymbose, several-flowered), considerably elongated in fruit. Fruiting pedicels often recurved, sometimes divaricate-ascending, slender. Flowers: sepals ascending, oblong to ovate, lateral pair not saccate basally; petals white to purplish, spatulate to oblong, (subequaling or longer than sepals), claw not differentiated from blade; stamens slightly tetradynamous; filaments slightly dilated basally; anthers ovate; nectary glands each side of lateral stamen or semi-annular, median glands absent. Fruits (pendulous), sessile, cymbiform, orbicular, obovate [ovate, elliptic], smooth, strongly latiseptate; valves each with prominent midvein, glabrous or pubescent; replum entire or crenate, often perforated, (winged, wing flattened, with radiating rays); septum obsolete; ovule 1 per ovary; style distinct (relatively short) or obsolete; stigma entire. Seeds aseriate, flattened, not winged, elliptical to orbicular; seed coat not mucilaginous when wetted; cotyledons accumbent.</description>
-  <number_of_infrataxa>Species 5 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>nw Mexico.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus THYSANOCARPUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek thysanos , fringe, and karpos , fruit, alluding to fruit margin]</other_info_on_name>
+  </taxon_identification>
+  <number>94.</number>
+  <other_name type="common_name">Fringepod</other_name>
+  <other_name type="common_name">lacepod</other_name>
+  <discussion>Species 5 (4 in the flora):</discussion>
   <discussion>Thysanocarpus erectus S. Watson occurs in northwestern Mexico on Cedros and Guadalupe islands and on the mainland of Baja California.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits cymbiform, wings strongly incurved (toward flat side of fruit); raceme internodes</statement>
+      <description type="morphology">Fruits cymbiform, wings strongly incurved (toward flat side of fruit); raceme internodes</description>
       <determination>1. Thysanocarpus conchuliferus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits flat or plano-convex, wings not strongly incurved; raceme internodes (1.5–)2–18 mm in fruit.</statement>
+      <description type="morphology">Fruits flat or plano-convex, wings not strongly incurved; raceme internodes (1.5–)2–18 mm in fruit.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruiting pedicels weakly ascending, straight or nearly so (geniculately reflexed apically),</statement>
+      <description type="morphology">Fruiting pedicels weakly ascending, straight or nearly so (geniculately reflexed apically),</description>
       <determination>4. Thysanocarpus radians</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Fruiting pedicels smoothly recurved or straight and stiffly spreading, 2–7(–12) mm; fruits 2.5–6(–9) mm wide, wings with indistinct rays or (0–)0.2–0.5 mm wide.</statement>
+      <description type="morphology">Fruiting pedicels smoothly recurved or straight and stiffly spreading, 2–7(–12) mm; fruits 2.5–6(–9) mm wide, wings with indistinct rays or (0–)0.2–0.5 mm wide.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Cauline leaf blades lanceolate, widest at base, bases auriculate-clasping, auricles extending around stems (at least some leaves); basal leaf blade margins subentire to sinuate-dentate, never pinnatifid, surfaces often hirsute, sometimes glabrous</statement>
+      <description type="morphology">Cauline leaf blades lanceolate, widest at base, bases auriculate-clasping, auricles extending around stems (at least some leaves); basal leaf blade margins subentire to sinuate-dentate, never pinnatifid, surfaces often hirsute, sometimes glabrous</description>
       <determination>2. Thysanocarpus curvipes</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Cauline leaf blades linear to narrowly elliptic, widest near middle or equally wide throughout, bases not auriculate or inconspicuous auricles not extending around stems; basal leaf blade margins pinnatifid, sinuate-dentate, or subentire, surfaces</statement>
+      <description type="morphology">Cauline leaf blades linear to narrowly elliptic, widest near middle or equally wide throughout, bases not auriculate or inconspicuous auricles not extending around stems; basal leaf blade margins pinnatifid, sinuate-dentate, or subentire, surfaces</description>
       <determination>3. Thysanocarpus laciniatus</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

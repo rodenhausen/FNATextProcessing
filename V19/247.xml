@@ -1,65 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cyanthillium</genus_name>
-    <species_name>cinereum</species_name>
-    <species_authority>(Linnaeus) H. Robinson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Vernonieae Cassini" date="unknown">Vernonieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyanthillium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) H. Robinson" date="unknown">cinereum</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Biol. Soc. Wash.</publication_title>
       <place_in_publication>103: 252. 1990</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Vernonieae;genus Cyanthillium;species cinereum;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Conyza</genus_name>
-    <species_name>cinerea</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Vernonieae;genus Cyanthillium;species cinereum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conyza</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cinerea</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 862. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Vernonia</genus_name>
-    <species_name>cinerea</species_name>
-    <species_authority>(Linnaeus) Lessing</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades 20–35(–50+) × 12–25(–30+) mm (including petioles). Peduncles 3–10(–20+) mm. Bracts ± linear at proximal nodes, wanting distally. Phyllaries 3–4 mm. Cypselae 1.5–2 mm; pappi white, outer scales 0.1–0.3 mm, inner bristles 3–4 mm. 2n = 36.</description>
-  <habitat_info>
-    <text>disturbed places ;</text>
-    <habitat>disturbed places</habitat>
-  </habitat_info>
-  <elevation>0–10 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Indian Ocean Islands</global_distribution>
-  <global_distribution>Pacific Islands.</global_distribution>
-  <phenology_info>
-    <text>Flowering year-round.</text>
-    <phenology>year round</phenology>
-    <phenology>summer</phenology>
-    <phenology>spring</phenology>
-    <phenology>winter</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>apr</phenology>
-    <phenology>dec</phenology>
-    <phenology>jan</phenology>
-    <phenology>jun</phenology>
-    <phenology>oct</phenology>
-    <phenology>jul</phenology>
-    <phenology>may</phenology>
-    <phenology>feb</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>mar</phenology>
-  </phenology_info>
-</treatment>
-
+    <taxon_hierarchy>genus Conyza;species cinerea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vernonia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Lessing" date="unknown">cinerea</taxon_name>
+    <taxon_hierarchy>genus Vernonia;species cinerea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

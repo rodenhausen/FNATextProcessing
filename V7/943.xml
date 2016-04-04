@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>21.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lepidium</genus_name>
-    <species_name>jaredii</species_name>
-    <species_authority>Brandegee</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="Brandegee" date="unknown">jaredii</taxon_name>
     <place_of_publication>
       <publication_title>Zoë</publication_title>
       <place_in_publication>4: 398. 1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>jaredi</past_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lepidium</genus_name>
-    <species_name>jaredii</species_name>
-    <subspecies_name>album</subspecies_name>
-    <subspecies_authority>Hoover</subspecies_authority>
-  </TaxonIdentification>
-  <description>Annuals; sparsely pilose (at least distally). Stems simple or several from base,
-        erect to ascending, branched distally, 1–6(–7) dm. Basal leaves (withered by anthesis); not
-        rosulate. Cauline leaves sessile; blade lanceolate to linear, 2–7.5(–10) cm × 2–10 mm, base
-        cuneate to attenuate, not auriculate, margins entire or sparsely dentate subapically.
-        Racemes considerably elongated in fruit, (lax); rachis usually pilose, rarely glabrous,
-        trichomes usually curved, cylindrical. Fruiting pedicels divaricate to horizontal, straight
-        or slightly sigmoid, (terete), 5–15 × 0.15–0.2 mm, pilose adaxially. Flowers: sepals oblong,
-        1.8–2.5 × 0.9–1.5 mm; petals lemon yellow (fading whitish), spatulate, 2.8–4 × 1.2–1.8 mm,
-        claw 1–1.4 mm; stamens 6; filaments 1.8–2.5 mm, (glabrous); anthers 0.5–0.6 mm. Fruits
-        broadly ovate, 3–3.8(–4) × 2.8–3.2(–3.5) mm, apically not winged, apical notch 0(–0.1) mm
-        deep; valves thin, obscurely veined, smooth or minutely papillate, glabrous; style
-        0.3–0.8(–1) mm, exserted beyond apical notch. Seeds (reddish brown), oblong, 1.8–2.2 × 1–1.4
-        mm. 2n = 16.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <habitat>arroyos</habitat>
-  <habitat>washes</habitat>
-  <habitat>alkaline bottoms and meadows</habitat>
-  <habitat>dry hillsides</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>500–700 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus Lepidium;species jaredii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lepidium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">jaredii</taxon_name>
+    <taxon_name rank="subspecies" authority="Hoover" date="unknown">album</taxon_name>
+    <taxon_hierarchy>genus Lepidium;species jaredii;subspecies album;</taxon_hierarchy>
+  </taxon_identification>
+  <number>21.</number>
+  <other_name type="past_name">jaredi</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Lepidium jaredii is known from Fresno, San Benito, and San Luis Obispo
         counties.</discussion>
-</treatment>
+</bio:treatment>

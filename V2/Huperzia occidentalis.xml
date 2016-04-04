@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5</number><TaxonIdentification Status="ACCEPTED"><genus_name>Huperzia</genus_name><species_name>occidentalis</species_name><species_authority>(Clute) Kartesz &amp; Gandhi</species_authority><place_of_publication><publication_title>Phytologia</publication_title><place_in_publication>70: 201. 1991</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Lycopodium</genus_name><species_name>lucidulum</species_name><species_authority>Michaux forma occidentale Clute</species_authority><place_of_publication><publication_title>Fern Bull. </publication_title><place_in_publication>11: 13. 1903</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lycopodium</genus_name><species_name>lucidulum</species_name><species_authority>Michaux</species_authority><variety_name>occidentale</variety_name><variety_authority>(Clute) L. R. Wilson</variety_authority></TaxonIdentification><description>Shoots  erect, indeterminate, 12--20 cm, becoming long-decumbent, 4--20 cm; leaves in mature portion slightly smaller than in juvenile portion; distinct annual constrictions present; juvenile growth erect.  Leaves  reflexed (juvenile portion) or spreading to reflexed (mature portion), light green to whitish green, lustrous; largest leaves oblanceolate, broadest at 1/2--3/4 length, 6--10 mm; smallest leaves narrowly triangular, broadest at base, 4--7 mm; margins with small papillae; stomates present on both surfaces, numerous (36--80 per 1/2 leaf) on adaxial surface.  Gemmiferous branchlets  produced in 1 pseudowhorl at end of annual growth; gemmae 4--4.5 X 3.5--4 mm; lateral leaves broadly obtuse, widest above middle, 1.25--1.5 mm wide.  Spores  30--38 µm.</description><discussion>Huperzia occidentalis is similar to the eastern H . lucidula and occupies similar habitats.</discussion><habitat>Terrestrial in shaded conifer forests and swamps, often along streams and in marshes</habitat><habitat> 10--1000(--2000) m</habitat><ca_distribution> Alta.</ca_distribution><ca_distribution> B.C.</ca_distribution><ca_distribution> Yukon</ca_distribution><us_distribution> Alaska</us_distribution><us_distribution> Idaho</us_distribution><us_distribution> Mont.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Huperzia</taxon_name>
+    <taxon_name rank="species" authority="(Clute) Kartesz &amp; Gandhi" date="unknown">occidentalis</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>70: 201. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Huperzia;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lycopodium</taxon_name>
+    <taxon_name rank="species" authority="Michaux forma occidentale Clute" date="unknown">lucidulum</taxon_name>
+    <place_of_publication>
+      <publication_title>Fern Bull.</publication_title>
+      <place_in_publication>11: 13. 1903</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Lycopodium;species lucidulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lycopodium</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">lucidulum</taxon_name>
+    <taxon_name rank="variety" authority="(Clute) L. R. Wilson" date="unknown">occidentale</taxon_name>
+    <taxon_hierarchy>genus Lycopodium;species lucidulum;variety occidentale;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5</number>
+  <discussion>Huperzia occidentalis is similar to the eastern H . lucidula and occupies similar habitats.</discussion>
+</bio:treatment>

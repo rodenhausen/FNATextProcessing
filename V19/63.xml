@@ -1,76 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>horridulum</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>horridulum</variety_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species horridulum;variety horridulum;</taxon_hierarchy>
-  <common_name>Horrid thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>spinosissimus</species_name>
-    <species_authority>Walter</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">horridulum</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">horridulum</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species horridulum;variety horridulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">spinosissimus</taxon_name>
     <place_of_publication>
       <place_in_publication>1788</place_in_publication>
-      <other_info>not Cirsium spinosissimum (Linnaeus) Scopoli 1772</other_info>
+      <other_info_on_pub>not Cirsium spinosissimum (Linnaeus) Scopoli 1772</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>horridulum</species_name>
-    <variety_name>elliottii</variety_name>
-    <variety_authority>Torrey &amp; A. Gray</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 15–180 cm. Stems densely tomentose. Leaves: blades oblanceolate or
-        oblong-elliptic, 10–30 cm, shallowly to deeply pinnatifid, main spines mostly 5–10 mm,
-        abaxial faces loosely tomentose. Heads 1–10. Involucres 4–5 × 5–7 cm, ± densely tomentose.
-        Phyllaries: outer and middle bodies scabridulous or minutely spinulose, marginal spinules
-        usually 1 mm or shorter. Corollas yellow or crimson to red-purple. 2n = 32,
-        34.</description>
-  <phenology_info>
-    <text>Flowering winter–spring (Apr–Jun).</text>
-    <phenology>winter</phenology>
-    <phenology>spring</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>fields , meadows , pinelands , roadsides , often weedy , often in damp soil ;</text>
-    <habitat>fields</habitat>
-    <habitat>meadows</habitat>
-    <habitat>pinelands</habitat>
-    <habitat>roadsides weedy</habitat>
-    <habitat>in damp soil</habitat>
-  </habitat_info>
-  <elevation>0–300 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.H</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species spinosissimus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">horridulum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">elliottii</taxon_name>
+    <taxon_hierarchy>genus Carduus;species horridulum;variety elliottii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11a.</number>
+  <other_name type="common_name">Horrid thistle</other_name>
   <discussion>Variety horridulum occurs on the Atlantic and Gulf coastal plains fom southern Maine
         to Florida and west to eastern Texas and into the piedmont in much of the southeastern
         United States. Artificial hybrids have been produced between var. horridulum and Cirsium
         repandum (R. J. Moore and C. Frankton 1969), and natural hybrids with C. pumilum var.
         pumilum have been reported.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>86.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>valida</species_name>
-    <species_authority>(Greene) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Greene) O’Kane &amp; Al-Shehbaz" date="unknown">valida</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 328. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Strong bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>valida</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species valida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">valida</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 68. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>lepidota</species_name>
-    <species_authority>Cory</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex branched, (thickened); densely pubescent, trichomes (sessile), several-rayed, rays furcate or bifurcate, usually fused toward base, (strongly tuberculate). Stems several from base, erect or outer decumbent, (unbranched), to 2 dm. Basal leaves: blade elliptic to lanceolate or obovate, 3–8 cm, margins entire. Cauline leaves: (proximal shortly petiolate or sessile, distal sessile); blade elliptic or obovate, to 2 cm, margins entire. Racemes dense. Fruiting pedicels (divaricate-ascending to horizontal, straight to loosely curved), to 15 mm. Flowers: sepals narrowly elliptic or oblong, 4.5–5.3 mm, (tapering to the somewhat thickened, cucullate apex, lateral pair subsaccate); petals (bright yellow), lingulate or broadly obovate, 7.5–8.5 mm, (narrowing to broad claw, joining in an arch, margins lacerate). Fruits (sessile or substipitate), suborbicular to broadly ovate or ellipsoid, slightly compressed, 6–8 mm; valves pubescent; ovules 12–22 per ovary; style 2–3 mm. Seeds flattened. 2n = 10.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <habitat>limestone soils</habitat>
-  <habitat>steep slopes</habitat>
-  <habitat>roadcuts</habitat>
-  <habitat>open woods</habitat>
-  <elevation>1900–2200 m;</elevation>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Lesquerella;species valida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Cory" date="unknown">lepidota</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species lepidota;</taxon_hierarchy>
+  </taxon_identification>
+  <number>86.</number>
+  <other_name type="common_name">Strong bladderpod</other_name>
   <discussion>Physaria valida is known from the Sacramento and White mountains of south central New Mexico, and southward through the Guadalupe Mountains to Hudspeth County, Texas.</discussion>
-</treatment>
+</bio:treatment>

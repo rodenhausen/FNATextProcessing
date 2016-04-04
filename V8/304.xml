@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crassula</genus_name>
-    <species_name>solieri</species_name>
-    <species_authority>(Gay) F. Meigen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crassula</taxon_name>
+    <taxon_name rank="species" authority="(Gay) F. Meigen" date="unknown">solieri</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>17: 239.  1893,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tillaea</genus_name>
-    <species_name>solieri</species_name>
-    <species_authority>Gay</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Crassula;species solieri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tillaea</taxon_name>
+    <taxon_name rank="species" authority="Gay" date="unknown">solieri</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Chil.</publication_title>
       <place_in_publication>2: 530.  1847 (as solierii)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants aquatic or terrestrial, annual.  Stems erect when stranded, reddish purple in age, somewhat branched, 2–10 cm.  Leaf blades oblong to linear, 1–5 mm, apex obtuse.  Inflorescences lax; flowers 1 per node.  Pedicels 0.5–6(–10) mm.  Flowers 4-merous; sepals triangular-ovate to lanceolate, 0.4–1 mm, apex rounded to obtuse; petals lanceolate, 1–1.5 mm.  Follicles ascending, 6–14-seeded, obliquely lanceolate; old follicles spreading, flat.  Seeds oblong-ellipsoid, 0.3–0.6 × 0.1–0.3 mm, not papillate, shiny, smooth.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Vernal pools, shores of lakes and streams</habitat>
-  <elevation>0–2100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>South America (Chile).</global_distribution>
+    <taxon_hierarchy>genus Tillaea;species solieri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
   <discussion>Described from Chile, Crassula solieri was overlooked in North America, not distinguished from C. aquatica before it was recognized by M. Bywater and G. E. Wickens (1984).</discussion>
-</treatment>
+</bio:treatment>

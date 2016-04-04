@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Micranthes</genus_name>
-    <species_name>oregana</species_name>
-    <species_authority>(Howell) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micranthes</taxon_name>
+    <taxon_name rank="species" authority="(Howell) Small" date="unknown">oregana</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al.,  N. Amer. Fl.</publication_title>
       <place_in_publication>22: 138.  1905  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Oregon or bogsaxifrage</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oregana</species_name>
-    <species_authority>Howell</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Micranthes;species oregana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">oregana</taxon_name>
     <place_of_publication>
       <publication_title>Erythea</publication_title>
       <place_in_publication>3: 34.  1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>montanensis</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oregana</species_name>
-    <variety_name>montanensis</variety_name>
-    <variety_authority>(Small) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>Plants solitary or in clusters, with caudex or thick, fleshy rhizomes.  Leaves basal; petiole indistinct, flattened, 3–10 cm; blade linear to oblanceolate, 6–25 cm, fleshy, base cuneate, margins serrulate to denticulate, ciliate, surfaces glabrous or sparsely hairy.  Inflorescences (30–)50+-flowered, open to ± crowded, conic to cylindric thyrses, 25–125 cm, hairy proximally, yellow- to pink-tipped stipitate-glandular distally.  Flowers: sepals reflexed, ovate to triangular; petals white, not spotted, broadly elliptic to obovate and 2 times as long as sepals, sometimes oblanceolate and equaling or shorter than sepals, clawed, 2–5 mm; filaments linear, flattened; pistils connate to 1/2 their lengths; ovary 1/2+ inferior, often appearing superior in fruit.  Capsules green to reddish purple, folliclelike.  2n = 38, 76.</description>
-  <phenology>Flowering early spring–summer</phenology>
-  <habitat>Bogs, marshes</habitat>
-  <elevation>100–2500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Saxifraga;species oregana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">montanensis</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species montanensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">oregana</taxon_name>
+    <taxon_name rank="variety" authority="(Small) C. L. Hitchcock" date="unknown">montanensis</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species oregana;variety montanensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35.</number>
+  <other_name type="common_name">Oregon or bogsaxifrage</other_name>
   <discussion>In both habitat and morphology, Micranthes oregana is similar to M. pensylvanica.  A thorough investigation of the two species, especially the populations in Colorado that are disjunct from those in Montana, is needed to clarify relationships.  The name Saxifraga integrifolia was misapplied to M. oregana by early California authors.</discussion>
-</treatment>
+</bio:treatment>

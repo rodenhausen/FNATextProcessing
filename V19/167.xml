@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>60.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>rydbergii</species_name>
-    <species_authority>Petrak</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Petrak" date="unknown">rydbergii</taxon_name>
     <place_of_publication>
       <publication_title>Beih. Bot. Centralbl.</publication_title>
       <place_in_publication>35(2): 315. 1917</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species rydbergii;</taxon_hierarchy>
-  <common_name>Rydberg’s or alcove thistle</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>lactucinum</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 100–300 cm; caudices and taproots, spreading by creeping roots. Stems 1–several, erect or ascending to lax and hanging, glabrous or thinly tomentose; branches 0–few, ascending. Leaves: blades elliptic, 30–90+ × 10–40 cm, 1–2 times pinnately lobed, lobes linear to ovate, strongly undulate, main spines slender, 5–15 mm, faces often glaucous, glabrous or thinly tomentose and soon glabrescent; basal present at flowering, petiolate or winged-petiolate; proximal cauline winged-petiolate; mid sessile, much reduced, less deeply lobed, bases clasping, short-decurrent 0–2 cm; distal linear or lanceolate, bractlike, very spiny. Heads few–many, erect or nodding in clusters at tips of distal branches in paniculiform arrays, not closely subtended by clustered leafy bracts. Peduncles 0.5–6 cm. Involucres hemispheric, 1.4–2 × 1–2 cm, phyllary margins thinly tomentose or glabrate. Phyllaries in 5–8 series, strongly imbricate, (green, drying green or light brown), ovate to lance-oblong, abaxial faces with or without poorly developed glutinous ridge; outer and mid bases appressed, margins entire, not scabridulous-ciliolate, apices spreading or reflexed, green to brownish, lance-ovate, elongate, flattened, spines slender, 3–25 mm; apices of inner straight, entire. Corollas dull white to pink or purple, 16–20 mm, tubes 7–8.5 mm, throats 4–6.5 mm, lobes 4.5–6 mm; style tips 2.5 mm. Cypselae gray or brown, 3.7–4.5 mm, apical collars not differentiated; pappi 10–15 mm. 2n = 34.</description>
-  <phenology_info>
-    <text>Flowering spring–summer (May–Sep).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>hanging gardens , seeps , stream banks ;</text>
-    <habitat>hanging gardens</habitat>
-    <habitat>seeps</habitat>
-    <habitat>stream banks</habitat>
-  </habitat_info>
-  <elevation>1000–1500 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species rydbergii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">lactucinum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species lactucinum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>60.</number>
+  <other_name type="common_name">Rydberg’s or alcove thistle</other_name>
   <discussion>Cirsium rydbergii is endemic to the Colorado Plateau of northern Arizona and southeastern Utah.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chamaemelum</genus_name>
-    <species_name>fuscatum</species_name>
-    <species_authority>(Brotero) Vasconcellos</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaemelum</taxon_name>
+    <taxon_name rank="species" authority="(Brotero) Vasconcellos" date="unknown">fuscatum</taxon_name>
     <place_of_publication>
       <publication_title>Anais Inst. Vinho Porto</publication_title>
       <place_in_publication>20: 276. 1966</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Chamaemelum;species fuscatum;</taxon_hierarchy>
-  <common_name>Chamomile</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Anthemis</genus_name>
-    <species_name>fuscata</species_name>
-    <species_authority>Brotero</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Chamaemelum;species fuscatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anthemis</taxon_name>
+    <taxon_name rank="species" authority="Brotero" date="unknown">fuscata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Lusit.</publication_title>
       <place_in_publication>1: 394. 1804</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, 5–20(–35+) cm. Stems erect to ascending (simple or branched, not forming mats), glabrous or puberulent. Leaves: proximal petiolate, ± ovate to elliptic, 1–4 cm, usually 2-pinnately lobed; distal sessile, ± elliptic, 1–2 cm, 0–1-pinnately lobed. Involucres 3–4 × 6–10 mm. Phyllaries: margins and apices brownish, abaxial faces glabrous or glabrate. Paleae 2–3 mm, margins brownish. Ray florets 12–15+; laminae 8–15 mm. Disc corollas 2.5–3 mm. Cypselae 1–1.3 mm. 2 n = 18.</description>
-  <phenology_info>
-    <text>Flowering Mar–Apr.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>10–100 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Anthemis;species fuscata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Chamomile</other_name>
   <discussion>Chamaemelum fuscatum is found on the Outer North Coast ranges, especially in vineyards. It is native to the Mediterranean.</discussion>
-</treatment>
-
+</bio:treatment>

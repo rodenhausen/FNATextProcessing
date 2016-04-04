@@ -1,78 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Floerkea</genus_name>
-    <species_name>proserpinacoides</species_name>
-    <species_authority>Willdenow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Floerkea</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">proserpinacoides</taxon_name>
     <place_of_publication>
       <publication_title>Ges. Naturf. Freunde Berlin Neue Schriften</publication_title>
       <place_in_publication>3: 449. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>False mermaid</common_name>
-  <common_name>floerkée fausse</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cabomba</genus_name>
-    <species_name>pinnata</species_name>
-    <species_authority>(Pursh) Schultes &amp; Schultes f.</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nectris</genus_name>
-    <species_name>pinnata</species_name>
-    <species_authority>Pursh</species_authority>
-  </TaxonIdentification>
-  <description>Plants (3–)5–30(–38) cm, herbage glabrous. Leaves: petiole 0.5–4 cm; rachis 2.5–5 mm; leaflets 3–7, 7–12 × 1–3.5 mm, apex obtuse or acute. Pedicels 0.5–2 cm (± equal to subtending petiole at anthesis, elongating 1.5 times by fruit maturity). Flowers: sepals green, 5-nerved, 2–6 mm; petals white, greenish white, or pale pink, oblanceolate to narrowly elliptic, 1.4–2 mm; filaments filiform, 1–1.5 mm; anthers yellowish, broadly ellipsoid, 0.2–0.3 mm. Mericarps green to brown, somewhat fleshy, 2–3.5 × 2–3 mm (often only 1 seed maturing per flower). 2n = 10.</description>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>floodplain forests</habitat>
-  <habitat>swamps</habitat>
-  <habitat>wet-mesic coniferous or broadleaf woods</habitat>
-  <habitat>alpine meadows</habitat>
-  <habitat>pastures</habitat>
-  <habitat>moist areas in sagebrush or desert washes</habitat>
-  <elevation>50–2600(–3200) m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Floerkea;species proserpinacoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cabomba</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Schultes &amp; Schultes f." date="unknown">pinnata</taxon_name>
+    <taxon_hierarchy>genus Cabomba;species pinnata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nectris</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">pinnata</taxon_name>
+    <taxon_hierarchy>genus Nectris;species pinnata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">False mermaid</other_name>
+  <other_name type="common_name">floerkée fausse</other_name>
   <discussion>The stems of Floerkea proserpinacoides have a spicy flavor and are eaten in salads. A flower of F. proserpinacoides is the logo for the Flora of North America project.</discussion>
-</treatment>
+</bio:treatment>

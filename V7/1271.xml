@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>brachycarpum</species_name>
-    <species_authority>Torrey</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">brachycarpum</taxon_name>
     <place_of_publication>
       <publication_title>in C. Wilkes et al., U.S. Expl. Exped.</publication_title>
       <place_in_publication>17(2): 231, plate 1. 1874</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodiopsis</genus_name>
-    <species_name>brachycarpa</species_name>
-    <species_authority>(Torrey) O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodiopsis</genus_name>
-    <species_name>brachypoda</species_name>
-    <species_authority>O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <description>Biennials; often glaucous, glabrous or pubescent. Stems branched, (1.3–)3.4–8.3(–12) dm, (somewhat glaucous, gla-brous throughout or pubescent proximally). Basal leaves: petiole (1.5–)2–5.2(–9) cm, glabrous or pubescent; blade usually oblanceolate to spatulate, rarely obovate or lanceolate, 3.3–14(–20) cm × (05–)10–32(–47) mm, margins often pinnately lobed to lyrate, sometimes dentate or entire. Cauline leaves sessile; blade linear to lanceolate, smaller distally, (base sagittate, appressed to stem), margins usually entire, rarely dentate. Racemes dense, slightly elongated in fruit, (flower buds oblong). Fruiting pedicels horizontal to divaricate, straight or slightly curved, stout, 1–2(–2.5) mm, flattened at base. Flowers: sepals erect, lanceolate to linear-lanceolate or ovate, (3–)3.5–5(–5.5) × 1–1.5(–2) mm; petals white, linear to narrowly oblanceolate, 8–12.5(–16) × 0.3–0.5(–1) mm, margins strongly crisped, claw differentiated from blade, (slender, 2.5–4 mm, narrowest at base); nectar glands surrounding bases of lateral stamens, median glands absent; filaments subequal or slightly tetradynamous, 2.5–6.5(–10) mm; anthers exserted, linear, 1.5.–2(–2.5) mm, slightly circinately coiled, (apiculate); gynophore (0.5–)1–2(–5) mm. Fruits divaricate to ascending, torulose, often straight, sometimes slightly curved, terete, (0.8–)1.2–2.7(–3) cm × 1–1.5(–2) mm; ovules 12–26 per ovary; style cylindrical, (0.2–)0.5–1(–2.5) mm. Seeds (plump), (1.3–)1.5–2 × 0.8–1(–1.3) mm.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>strongly alkaline meadows and desert flats</habitat>
-  <elevation>600–2300 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodium;species brachycarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodiopsis</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) O. E. Schulz" date="unknown">brachycarpa</taxon_name>
+    <taxon_hierarchy>genus Thelypodiopsis;species brachycarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodiopsis</taxon_name>
+    <taxon_name rank="species" authority="O. E. Schulz" date="unknown">brachypoda</taxon_name>
+    <taxon_hierarchy>genus Thelypodiopsis;species brachypoda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Thelypodium brachycarpum is known in California from Napa, Shasta, and Siskiyou counties and in Oregon from Klamath County.</discussion>
-</treatment>
+</bio:treatment>

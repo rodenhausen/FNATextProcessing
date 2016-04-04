@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>33.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>friesiana</species_name>
-    <species_authority>(Trautvetter) E. Ekman</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Trautvetter) E. Ekman" date="unknown">friesiana</taxon_name>
     <place_of_publication>
       <publication_title>Svensk Bot. Tidskr.</publication_title>
       <place_in_publication>22: 416. 1928</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species friesiana;</taxon_hierarchy>
-  <past_name>frieseana</past_name>
-  <common_name>Fries’s pussytoes</common_name>
-  <common_name>antennaire de Fries</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Gaertner</species_authority>
-    <variety_name>friesiana</variety_name>
-    <variety_authority>Trautvetter</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species friesiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gaertner" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="Trautvetter" date="unknown">friesiana</taxon_name>
     <place_of_publication>
       <publication_title>Trudy Imp. S.-Petersburgsk. Bot. Sada</publication_title>
       <place_in_publication>6: 24. 1879</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Dioecious or gynoecious (staminate plants uncommon or in equal frequencies to pistillates, respectively). Plants 7–15 cm (stems stipitate-glandular, hairs purple). Stolons 0.1–4 cm. Basal leaves 1-nerved, narrowly spatulate to oblanceolate, 11–30 × 2–4 mm, tips mucronate, abaxial faces tomentose, adaxial green-glabrescent to gray-pubescent. Cauline leaves linear, 4–20 mm, flagged. Heads 2–6 in corymbiform arrays. Involucres: staminate 4–6.5 mm; pistillate 5.5–8 mm. Phyllaries distally usually black, light brown, dark brown, or olivaceous, sometimes. Corollas: staminate 2.5–3 mm; pistillate 3–4.5 mm. Cypselae 1.2–2 mm, glabrous or slightly papillate; pappi: staminate 3–4 mm; pistillate 3.5–5 mm. 2n = 28, 56, 63, 100+.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>arctic North America</global_distribution>
-  <global_distribution>arctic Siberia.</global_distribution>
+    <taxon_hierarchy>genus Antennaria;species alpina;variety friesiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>33.</number>
+  <other_name type="past_name">frieseana</other_name>
+  <other_name type="common_name">Fries’s pussytoes</other_name>
+  <other_name type="common_name">antennaire de Fries</other_name>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
   <discussion>The Antennaria friesiana complex consists of subsp. alaskana, subsp. neoalaskana, and subsp. friesiana, the former two are dioecious (sexual) phases of the latter gynoecious (asexual) form. The sexual populations are known from Alaska and cordilleran areas of northern Yukon and adjacent Northwest Territories (R. J. Bayer 1991). The apomictic phase is almost circumpolar, occurring from the central and eastern Siberian plateau eastward across the North American arctic to Greenland (Bayer). E. Hultén (1968) circumscribed a fourth subspecies, A. friesiana subsp. compacta. After studying its morphology, in the field and herbarium, it is apparent that Hultén’s taxon contains at least three incongruous entities that are probably not at all related to the other two subspecies of A. friesiana. Hultén’s subsp. compacta included A. densifolia, which is recognized as a distinct species, and A. crymophila and A. neoalaskana as taxonomic synonyms. Antennaria compacta in the strict sense and A. crymophila are perhaps hybrid apomicts and are treated here in A. alpina (see Bayer for details). Antennaria neoalaskana is treated here as a subspecies of A. friesiana.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stolons 1–4 cm (usually prostrate, sometimes ascending, usually rooting at tips, plants forming mats); involucres: pistillate 7–8 mm</statement>
+      <description type="morphology">Stolons 1–4 cm (usually prostrate, sometimes ascending, usually rooting at tips, plants forming mats); involucres: pistillate 7–8 mm</description>
       <determination>33c. Antennaria friesiana subsp. neoalaskana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stolons 0.5–1 cm (erect, usually not rooting at tips, plants not forming mats); involucres: pistillate 5.5–7 mm.</statement>
+      <description type="morphology">Stolons 0.5–1 cm (erect, usually not rooting at tips, plants not forming mats); involucres: pistillate 5.5–7 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants gynoecious (staminates unknown)</statement>
+      <description type="morphology">Plants gynoecious (staminates unknown)</description>
       <determination>33b. Antennaria friesiana subsp. friesiana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants dioecious (staminates and pistillates in equal frequencies in populations)</statement>
+      <description type="morphology">Plants dioecious (staminates and pistillates in equal frequencies in populations)</description>
       <determination>33a. Antennaria friesiana subsp. alaskana</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

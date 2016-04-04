@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>33b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>sonomensis</subspecies_name>
-    <subspecies_authority>(Eastwood) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">canescens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Eastwood) P. V. Wells" date="unknown">sonomensis</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>35: 333.  1989  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sonoma manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>sonomensis</species_name>
-    <species_authority>Eastwood</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species canescens;subspecies sonomensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">sonomensis</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>1: 78.  1933</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>canescens</species_name>
-    <variety_name>sonomensis</variety_name>
-    <variety_authority>(Eastwood) J. E. Adams ex McMinn</variety_authority>
-  </TaxonIdentification>
-  <description>Twigs softly white-hairy and glandular-hairy.  Immature inflorescence axes glandular-hairy.  Pedicels glandular-hairy.  Fruits glandular-hairy.</description>
-  <phenology>Flowering early winter–late spring</phenology>
-  <habitat>Chaparral, open forests</habitat>
-  <elevation>400–1700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species sonomensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">canescens</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) J. E. Adams ex McMinn" date="unknown">sonomensis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species canescens;variety sonomensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>33b.</number>
+  <other_name type="common_name">Sonoma manzanita</other_name>
   <discussion>Subspecies sonomensis is scattered in the North Coast Ranges from Santa Cruz County northward to Humboldt County, often in mixed populations with subsp. canescens.  It was originally thought to be a rare subspecies; more intensive investigation may reveal individuals in populations throughout the range of the species.</discussion>
-</treatment>
+</bio:treatment>

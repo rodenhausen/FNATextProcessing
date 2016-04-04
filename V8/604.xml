@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>rusbyi</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">rusbyi</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>8: 122.  1881  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Rusby’s primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>ellisiae</species_name>
-    <species_authority>Pollard &amp; Cockerell</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>rusbyi</species_name>
-    <variety_name>ellisiae</variety_name>
-    <variety_authority>(Pollard &amp; Cockerell) L. O. Williams</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>serra</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <description>Plants 10–20 cm, herbaceous; rhizomes stout, short; rosettes often clumped; vegetative parts farinose only on pedicels and calyx, with prominent farina stripes on calyx.  Leaves not aromatic, indistinctly petiolate; petiole broadly winged; blade without deep reticulate veins abaxially, lanceolate to spatulate, 4–15 × 1–2 cm, thick, margins distinctly and evenly denticulate, apex obtuse to somewhat acute, surfaces glabrous.  Inflorescences 4–12-flowered; involucral bracts plane, unequal.  Pedicels arcuate, moderately thick, 10–35 mm, length 1–5 times bracts, flexuous.  Flowers heterostylous; calyx green, with white farinose ridges, cylindric to campanulate, 4–8 mm; corolla rose-magenta, tube 5–15 mm, length 1.2–2 times calyx, glandular, limb 15–25 mm diam., lobes 7–12 mm, apex emarginate.  Capsules ellipsoid to ovoid, length 1 times calyx.  Seeds without flanged edges, reticulate.  2n = 44.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Moist alpine meadows and ridges, cliff edges</habitat>
-  <elevation>2400–3300 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico.</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species rusbyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Pollard &amp; Cockerell" date="unknown">ellisiae</taxon_name>
+    <taxon_hierarchy>genus Primula;species ellisiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">rusbyi</taxon_name>
+    <taxon_name rank="variety" authority="(Pollard &amp; Cockerell) L. O. Williams" date="unknown">ellisiae</taxon_name>
+    <taxon_hierarchy>genus Primula;species rusbyi;variety ellisiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">serra</taxon_name>
+    <taxon_hierarchy>genus Primula;species serra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
+  <other_name type="common_name">Rusby’s primrose</other_name>
   <discussion>Primula rusbyi has the most southern distribution of the species in sect. Parryi, occurring in the mountains of New Mexico and Arizona, and in Mexico and probably northern Guatemala.  It is well-marked by toothed leaf margins and a prominently farina-striped calyx.  Typically, its corolla tube far exceeds the calyx.  Some individuals from the Sandia Mountains of New Mexico have a shorter corolla tube more or less equal to the calyx; these plants have been described as P. ellisiae.  A single population can include individuals of both types, and the difference probably represents only a developmental stage of the flowers or minor morphological variation in some localized populations; preliminary genetic analyses (S. Kelso and P. Beardsley, unpubl.) reveal no substantive genetic distinction between these individuals and those from elsewhere in the range.</discussion>
-</treatment>
+</bio:treatment>

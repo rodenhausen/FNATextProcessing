@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Notholaena</genus_name><species_name>californica</species_name><subspecies_name>californica</subspecies_name><subspecies_authority>D. C. Eaton</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Notholaena</genus_name><species_name>californica</species_name><species_authority>D. C. Eaton</species_authority><subspecies_name>nigrescens</subspecies_name><subspecies_authority>Ewan</subspecies_authority></TaxonIdentification><description>Blade  with pale to bright yellow farina on abaxial surface.  n  = 2 n  = 150, apogamous.</description><phenology>Sporulating spring--fall</phenology><habitat> Rocky slopes and cliffs, usually on granitic or volcanic substrates</habitat><elevation> 100--1100 m</elevation><us_distribution> Ariz.</us_distribution><us_distribution> Calif.</us_distribution><global_distribution> Mexico in Baja California</global_distribution><global_distribution> Sonora.</global_distribution><key><key_statement><statement_id>1</statement_id><statement>Farina on abaxial blade surface pale to bright yellow. 7a. Notholaena californica subsp. californica</statement><next_statement_id>1</next_statement_id></key_statement><key_statement><statement_id>1</statement_id><statement>Farina on abaxial blade surface white. 7b. Notholaena californica subsp. leucophylla</statement><next_statement_id>1</next_statement_id></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="D. C. Eaton" date="unknown">californica</taxon_name>
+    <taxon_name rank="subspecies" authority="D. C. Eaton" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Notholaena;species californica;subspecies californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Notholaena</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_name rank="subspecies" authority="Ewan" date="unknown">nigrescens</taxon_name>
+    <taxon_hierarchy>genus Notholaena;species californica;subspecies nigrescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a</number>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Farina on abaxial blade surface pale to bright yellow. 7a. Notholaena californica subsp. californica</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Farina on abaxial blade surface white. 7b. Notholaena californica subsp. leucophylla</description>
+      <next_statement_id>1</next_statement_id>
+    </key_statement>
+  </key>
+</bio:treatment>

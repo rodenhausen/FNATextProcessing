@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ficus</genus_name><species_name>citrifolia</species_name><species_authority>Miller</species_authority><place_of_publication><publication_title> Gard. Dict. ed. </publication_title><place_in_publication>8. 1768</place_in_publication></place_of_publication></TaxonIdentification><common_name>Wild banyan tree</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>brevifolia</species_name><species_authority>Nuttall</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>laevigata</species_name><species_authority>Vahl</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>laevigata</species_name><variety_name>brevifolia</variety_name><variety_authority>(Nuttall) D'Arcy</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>populifolia</species_name><species_authority>Desfontaines</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>populnea</species_name><species_authority>Willdenow</species_authority><variety_name>floridana</variety_name><variety_authority>E. Warburg</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ficus</genus_name><species_name>populnea</species_name><variety_name>brevifolia</variety_name><variety_authority>(Nuttall) E. Warburg</variety_authority></TaxonIdentification><description>Shrubs or trees, evergreen, to 15 m. Roots adventitious, aerial, hanging. Bark brownish, smooth. Branchlets grayish, glabrous or sparingly pubescent. Leaves: stipules 0.5-2 cm, glabrous; petiole (0.7-)1.5-6 cm. Leaf blade ovate to elliptic or obovate, 3-14 × 1.5-8 cm, nearly leathery, base usually cordate or rounded to obtuse, margins entire, apex obtuse to acute or acuminate; surfaces abaxially and adaxially glabrous; basal veins 1(-2) pairs; lateral veins fewer than 10, if more than 10, not uniformly spaced. Syconia solitary or paired, pedunculate, yellow or red, spotted, globose to globose-ovoid, 8-18 mm diam., glabrous; peduncles to ca. 15 mm; subtending bracts 2, shortly connate, deltate or broadly rounded, 2-3 mm wide, glabrous or puberulent; ostiole subtended by 3 bracts, bracts ovate, ca. 1 × 2-3 mm, slightly umbonate.</description><phenology>Flowering spring-summer</phenology><habitat> Tropical hammocks</habitat><elevation> 0-10 m</elevation><us_distribution> Fla.</us_distribution><global_distribution> Mexico</global_distribution><global_distribution> West Indies</global_distribution><global_distribution> Central America</global_distribution><global_distribution> South America.</global_distribution><discussion>Ficus citrifolia is the large and graceful banyan tree that is planted for shade around verandas.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">citrifolia</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Dict. ed.</publication_title>
+      <place_in_publication>8. 1768</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ficus;species citrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">brevifolia</taxon_name>
+    <taxon_hierarchy>genus Ficus;species brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Vahl" date="unknown">laevigata</taxon_name>
+    <taxon_hierarchy>genus Ficus;species laevigata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Desfontaines" date="unknown">laevigata</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) D'Arcy" date="unknown">brevifolia</taxon_name>
+    <taxon_hierarchy>genus Ficus;species laevigata;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">populifolia</taxon_name>
+    <taxon_hierarchy>genus Ficus;species populifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">populnea</taxon_name>
+    <taxon_name rank="variety" authority="E. Warburg" date="unknown">floridana</taxon_name>
+    <taxon_hierarchy>genus Ficus;species populnea;variety floridana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ficus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">populnea</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) E. Warburg" date="unknown">brevifolia</taxon_name>
+    <taxon_hierarchy>genus Ficus;species populnea;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Wild banyan tree</other_name>
+  <discussion>Ficus citrifolia is the large and graceful banyan tree that is planted for shade around verandas.</discussion>
+</bio:treatment>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2e15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Vetrix</subgenus_name>
-    <section_name>Mexicanae</section_name>
-    <section_authority>C. K. Schneider</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Vetrix</taxon_name>
+    <taxon_name rank="section" authority="C. K. Schneider" date="unknown">Mexicanae</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>3: 71. 1922</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 1–10 m. Buds caprea-type. Leaves: stipules on late ones
-        rudimentary or foliaceous; largest medial blade 1.9–9.6 times as long as wide, adaxial
-        surface not glaucous. Staminate flowers: filaments glabrous. Pistillate flowers: adaxial
-        nectary shorter than stipe; stipe 0.4–2.4 mm; ovary glabrous; stigmas with flat,
-        non-papillate abaxial surface, or stigmas plump, 0.1–0.6 mm.</description>
-  <number_of_infrataxa>Species 5 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Vetrix;section Mexicanae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2e15.</number>
+  <discussion>Species 5 (3 in the flora):</discussion>
+</bio:treatment>

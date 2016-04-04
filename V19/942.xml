@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Matricaria</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Matricaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">occidentalis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 150. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Matricaria;species occidentalis;</taxon_hierarchy>
-  <common_name>Valley mayweed</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamomilla</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>(Greene) Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, 8–45(–70) cm; not notably aromatic. Stems 1–5+, usually erect, sometimes ascending, simple or branched mostly distally, sometimes proximally (then ascending). Leaf blades 1560(–80) × 5–28 mm. Heads discoid, 1–15+, borne singly or in open, corymbiform arrays. Peduncles 1–56(–90) mm (glabrous or villosulous near heads, bracts 0–3, simple or 1-pinnate). Involucres 3.5–4.5 mm. Phyllaries 25–55+ in 3–4 series, margins erose. Receptacles 4.5–6.6 mm, rounded to obtuse or ± acute. Ray florets 0. Discs ovoid to hemispheric, 5.5–12.5 × 6–14 mm. Disc florets 400–750+; corollas greenish yellow, 1.2–1.7 mm (sparsely glandular), lobes 4. Cypselae tan to brownish, obtriangular-obconic (angular, abaxial faces rounded, adaxial faces slightly convex), 1–1.5 mm, ribs white (2 abaxial, 2 lateral, each with reddish brown mucilage gland in distal 1/2, glands expanding into lobes, 1 adaxial, usually obscure, sometimes with a gland), faces not glandular; pappi coroniform, lobed (lobes 2, spreading, abaxio-lateral, ± obtuse to rounded). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering spring–summer, fruiting summer–fall.</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>undisturbed alkali flats , vernal pools , edges of salt marshes ;</text>
-    <habitat>undisturbed alkali flats</habitat>
-    <habitat>vernal pools</habitat>
-    <habitat>edges of salt marshes</habitat>
-  </habitat_info>
-  <elevation>0–2400 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Matricaria;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamomilla</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Rydberg" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Chamomilla;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Valley mayweed</other_name>
   <discussion>E. McClintock (1993b) reported Matricaria occidentalis as being used as a substitute for chamomile. In California, the species is found in the Coast Ranges to the South Coast, in parts of the San Joaquin Valley, and in the High Cascade, Sierra Nevada, and Desert Ranges and surrounding areas. Although listed as secure, the species appears to have been eradicated from some counties in California and its range may be shrinking due to disappearance of its habitat.</discussion>
-</treatment>
-
+</bio:treatment>

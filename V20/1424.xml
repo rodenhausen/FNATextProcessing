@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>10a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Tetradymia</genus_name><species_name>axillaris</species_name><species_authority>A. Nelson</species_authority><variety_name>longispina</variety_name><variety_authority>(M. E. Jones) Strother</variety_authority><place_of_publication>
-    <publication_title>Brittonia</publication_title>
-    <place_in_publication>26: 197. 1974</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Tetradymia</genus_name><species_name>spinosa</species_name><species_authority>Hooker &amp; Arnott</species_authority><variety_name>longispina</variety_name><variety_authority>M. E. Jones</variety_authority><place_of_publication><publication_title>Proc. Calif. Acad. Sci., ser. </publication_title><place_in_publication>2, 5: 698. 1895</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Tetradymia</genus_name><species_name>longispina</species_name><species_authority>(M. E. Jones) Rydberg</species_authority></TaxonIdentification><description>Peduncles and phyllaries tomentose to pannose, canescent. Cypselae: hairs 9–14 mm. 2n = 60, 62.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>sandy soils</habitat><habitat>creosote bush scrub</habitat><habitat>joshua tree woodlands</habitat><habitat>pinyon-juniper woodlands</habitat><habitat>sagebrush scrub</habitat><elevation>600–1800 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>Utah.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetradymia</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">axillaris</taxon_name>
+    <taxon_name rank="variety" authority="(M. E. Jones) Strother" date="unknown">longispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>26: 197. 1974</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Tetradymia;species axillaris;variety longispina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetradymia</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">spinosa</taxon_name>
+    <taxon_name rank="variety" authority="M. E. Jones" date="unknown">longispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci., ser.</publication_title>
+      <place_in_publication>2, 5: 698. 1895</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Tetradymia;species spinosa;variety longispina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tetradymia</taxon_name>
+    <taxon_name rank="species" authority="(M. E. Jones) Rydberg" date="unknown">longispina</taxon_name>
+    <taxon_hierarchy>genus Tetradymia;species longispina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10a.</number>
+</bio:treatment>

@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>18.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Calochortus</genus_name><species_name>nudus</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>14: 263. 1879</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Shasta star-tulip</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>nudus</species_name><variety_name>shastensis</variety_name><variety_authority>(Purdy) Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>shastensis</species_name><species_authority>Purdy</species_authority></TaxonIdentification><description>Stems usually not branching, 1–3 dm. Leaves: basal persistent, 0.5–2 dm; blade lanceolate, tapering at base, flat, glabrous adaxially. Inflorescences 1–several-flowered. Flowers erect; perianth open, campanulate; sepals lanceolate, 10–12 mm, glabrous, apex acuminate; petals pale lavender, widely obovate, 14–16 mm, adaxial surface ± glabrous, not ciliate; glands not deeply depressed, bordered proximally by wide, ciliate membranes; anthers linear-oblong, apex obtuse or acute. Capsules erect, 3-winged, 1–2 cm. Seeds light brown, irregular. 2n = 20.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>moist grassy areas</habitat><habitat>meadows</habitat><habitat>lake and bog margins</habitat><elevation>1200–2500 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Calochortus nudus hybridizes with C. minimus.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">nudus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>14: 263. 1879</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Calochortus;species nudus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="Purdy" date="unknown">nudus</taxon_name>
+    <taxon_name rank="variety" authority="(Purdy) Jepson" date="unknown">shastensis</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species nudus;variety shastensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">shastensis</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species shastensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>18.</number>
+  <other_name type="common_name">Shasta star-tulip</other_name>
+  <discussion>Calochortus nudus hybridizes with C. minimus.</discussion>
+</bio:treatment>

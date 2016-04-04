@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HALESIA</genus_name>
-    <genus_authority>J. Ellis ex Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="J. Ellis ex Linnaeus" date="unknown">HALESIA</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1041, 1044, 1369.  1759, name conserved  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Silverbell</common_name>
-  <common_name>snowdrop tree</common_name>
-  <etymology>[For Stephen Hales, 1677–1761, English botanist]</etymology>
-  <description>Shrubs or trees: pith chambered [continuous]; winter buds with scales; fertile shoots of current growing season without fully developed leaves (rarely fully developed in H. diptera).  Leaf blades: margins serrate.  Inflorescences borne on shoots of previous growing season, contracted axillary racemes, usually (2–)3–6-flowered, sometimes solitary flowers, articulation between pedicel and flower present.  Flowers: hypanthium completely adnate to ovary wall; sepals 4, distinct; corolla lobes 4, imbricate in bud, portion free from androecium distinct or connate proximally; stamens 7–16; filaments with free portion connate proximally; pistil 2–4-carpellate; ovary inferior, proximally 2–4-septate; ovules 4 per carpel, 2 proximal pendulous, 2 distal erect, unitegmic.  Fruits nutlike, with 2 or 4 longitudinal, corky wings, oblong, ellipsoid, or clavate; beak distinct.  Seeds 1–4, not filling fruit cavity, not grooved, fusiform; hilum inconspicuous; seed coat thin.  x = 12.</description>
-  <number_of_infrataxa>Species 3 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>e United States</global_distribution>
-  <global_distribution>Asia (China)</global_distribution>
-  <global_distribution>warm-temperate areas.</global_distribution>
+    <taxon_hierarchy>family STYRACACEAE;genus HALESIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Stephen Hales, 1677–1761, English botanist]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Silverbell</other_name>
+  <other_name type="common_name">snowdrop tree</other_name>
+  <discussion>Species 3 (2 in the flora):</discussion>
   <discussion>Combined morphological and molecular data support a clade of Halesia, Melliodendron, Parastyrax, Pterostyrax, and Rehderodendron (P. W. Fritsch et al. 2001).  All of these genera share the same type of ovary architecture, with two apotropous distal ovules and two epitropous proximal ovules per carpel, as well as similarities in fruit and seed morphology.  The genus is unusual for an eastern Asian-eastern North American disjunct in that more species occur in North America than in Asia.  A morphological phylogenetic estimate of Halesia places the two North American taxa as the sister group of the Asian species H. macgregorii Chun.  In contrast, DNA sequence data place H. macgregorii as sister to Rehderodendron and the two United States species as unresolved as to their closest relative (Fritsch et al.).</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Chester, E. W.  1966.  A Biosystematic Study of the Genus Halesia Ellis (Styracaceae).  Ph.D. dissertation.  University of Tennessee.   Godfrey, R. K.  1958b.  Some identities in Halesia (Styracaceae).  Rhodora 60: 86–88.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas glabrous, tube 7–26 mm; stamens 12–16; filaments adnate to corolla 2–3 mm; styles glabrous; fruits 4-winged, wings roughly equal</statement>
+      <description type="morphology">Corollas glabrous, tube 7–26 mm; stamens 12–16; filaments adnate to corolla 2–3 mm; styles glabrous; fruits 4-winged, wings roughly equal</description>
       <determination>1.   Halesia carolina</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas hairy, tube to 1 mm; stamens 7–10; filaments adnate to corolla to 1 mm; styles hairy; fruits 2- or 4-winged, if 4-winged then 2 broad wings alternate with 2 much narrower wings</statement>
+      <description type="morphology">Corollas hairy, tube to 1 mm; stamens 7–10; filaments adnate to corolla to 1 mm; styles hairy; fruits 2- or 4-winged, if 4-winged then 2 broad wings alternate with 2 much narrower wings</description>
       <determination>2.   Halesia diptera</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

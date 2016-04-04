@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26r.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Phacocystis</section_name>
-    <section_authority>Dumortier</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Lisa A. Standley,Jacques Cayouette,Leo Bruederle</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Dumortier" date="unknown">Phacocystis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Belg.,</publication_title>
       <place_in_publication>146. 1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Lisa A. Standley</author>
-  <author>Jacques Cayouette</author>
-  <author>Leo Bruederle</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Acutae</section_name>
-    <section_authority>(J. Carey) H. Christ</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Cryptocarpae</section_name>
-    <section_authority>(Tuckerman ex L. H. Bailey) Mackenzie</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Temnemis</section_name>
-    <section_authority>(Rafinesque) Kreczetovicz</section_authority>
-  </TaxonIdentification>
-  <description>Plants cespitose or not, short to long rhizomatous. Culms brown or red-brown at base.
-    Leaves: basal sheaths fibrous or not; sheath fronts sometimes dotted purple or red, sometimes
-    prominently veined proximally and becoming ladder-fibrillose, membranous; blades V-shaped or
-    M-shaped in cross section when young, glabrous, sometimes papillose. Inflorescences racemose,
-    with 2–8(–10) spikes; proximal bracts scalelike or leaflike, sheathless or short-sheathing;
-    lateral spikes pistillate, occasionally androgynous, or the distal 1–3 staminate, pedunculate or
-    subsessile, prophyllate, at least 2 times as long as wide; terminal spikes staminate or, rarely,
-    gynecandrous. Proximal pistillate scales with apex obtuse to acuminate or, at least the
-    proximal, long-awned. Perigynia erect or ascending, rarely spreading, veined or veinless on
-    faces, with 2 prominent marginal veins, sessile or stipitate, elliptic to ovate or obovate,
-    plano-convex or biconvex in cross section, base rounded or tapering, apex rounded or tapering to
-    beak or not, usually papillose or, sometimes, smooth; beak orifice entire, emarginate, or
-    shallowly bidentate. Stigmas 2. Achenes biconvex, smaller than bodies of perigynia; style
-    deciduous. x = 27–48.</description>
-  <number_of_infrataxa>Species 70–90 (31 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Phacocystis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(J. Carey) H. Christ" date="unknown">Acutae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Acutae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Tuckerman ex L. H. Bailey) Mackenzie" date="unknown">Cryptocarpae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Cryptocarpae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Rafinesque) Kreczetovicz" date="unknown">Temnemis</taxon_name>
+    <taxon_hierarchy>genus Carex;section Temnemis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26r.</number>
+  <discussion>Species 70–90 (31 in the flora):</discussion>
   <discussion>Carex sect. Phacocystis, while fairly cohesive, contains several distinct groups of
     species. Members of the Carex acuta group (C. lenticularis, C. nigra, C. rufina, and C.
     eleusinoides) are slender, cespitose plants that have amphistomatous leaves, bracts longer than
@@ -61,7 +49,7 @@
   <discussion>Among the most common groups of wetland sedges in North America, species of sect.
     Phacocystis usually occur in wetlands, on shores, marshes, or wet tundra.</discussion>
   <references>
-    <reference> Cayouette, J. and P. Morisset. 1985. Chromosome studies on
+    <reference>Cayouette, J. and P. Morisset. 1985. Chromosome studies on
       natural hybrids between maritime species of Carex (sections Phacocystis and Cryptocarpae) in
       northeastern North America, and their taxonomic implications. Canad. J. Bot. 63:
       1957–1982.</reference>
@@ -79,372 +67,372 @@
       Pacific Northwest. Syst. Bot. Monogr. 7: 1–106.</reference>
     <reference>Standley, L. A. 1987. Anatomical and chromosomal studies of Carex section Phacocystis
       in eastern North America. Bot. Gaz. 148: 507–518.</reference>
-    <reference> Standley, L. A. 1990. Allozyme evidence for the hybrid origin of the maritime
+    <reference>Standley, L. A. 1990. Allozyme evidence for the hybrid origin of the maritime
       species Carex salina and Carex recta (Cyperaceae) in eastern North America. Syst. Bot. 15:
       182–191.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pistillate scales with prominent, scabrous awn on at least the proximal
-        scales.</statement>
+      <description type="morphology">Pistillate scales with prominent, scabrous awn on at least the proximal
+        scales.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades involute, 1–2 mm wide</statement>
+      <description type="morphology">Leaf blades involute, 1–2 mm wide</description>
       <determination>169. Carex subspathacea</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades not involute, the widest more than 2 mm wide.</statement>
+      <description type="morphology">Leaf blades not involute, the widest more than 2 mm wide.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perigynia veinless.</statement>
+      <description type="morphology">Perigynia veinless.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Spikes usually erect; proximal sheaths not ladder-fibrillose</statement>
+      <description type="morphology">Spikes usually erect; proximal sheaths not ladder-fibrillose</description>
       <determination>175. Carex recta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Spikes usually pendent; proximal sheaths ladder-fibrillose.</statement>
+      <description type="morphology">Spikes usually pendent; proximal sheaths ladder-fibrillose.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Sheaths glabrous; perigynia obovoid; apex of pistillate scales retuse</statement>
+      <description type="morphology">Sheaths glabrous; perigynia obovoid; apex of pistillate scales retuse</description>
       <determination>176. Carex crinita</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Sheaths scabrous; perigynia broadly ovoid to ellipsoid; apex of pistillate scales
-        truncate to acuminate.</statement>
+      <description type="morphology">Sheaths scabrous; perigynia broadly ovoid to ellipsoid; apex of pistillate scales
+        truncate to acuminate.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia ovoid to ellipsoid, not papillose over surface; achenes con-</statement>
+      <description type="morphology">Perigynia ovoid to ellipsoid, not papillose over surface; achenes con-</description>
       <determination>177. Carex gynandra</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia ovoid, papillose over entire surface; achenes not
-        constricted;</statement>
+      <description type="morphology">Perigynia ovoid, papillose over entire surface; achenes not
+        constricted;</description>
       <determination>178. Carex mitchelliana</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perigynia veined.</statement>
+      <description type="morphology">Perigynia veined.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Proximal bract often spathelike, enclosing spike; achenes glossy, deeply
-        con-</statement>
+      <description type="morphology">Proximal bract often spathelike, enclosing spike; achenes glossy, deeply
+        con-</description>
       <determination>170. Carex salina</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Proximal bract not spathelike, not enclosing spike; achenes not glossy, constricted
-        or not.</statement>
+      <description type="morphology">Proximal bract not spathelike, not enclosing spike; achenes not glossy, constricted
+        or not.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Beak of perigynium bidentate, apical teeth to 0.5 mm; achenes not
-        constricted.</statement>
+      <description type="morphology">Beak of perigynium bidentate, apical teeth to 0.5 mm; achenes not
+        constricted.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Sheaths ladder-fibrillose; proximal bract much longer than inflores-</statement>
+      <description type="morphology">Sheaths ladder-fibrillose; proximal bract much longer than inflores-</description>
       <determination>179. Carex barbarae</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Sheaths not ladder-fibrillose; proximal bract equaling inflorescence</statement>
+      <description type="morphology">Sheaths not ladder-fibrillose; proximal bract equaling inflorescence</description>
       <determination>181. Carex nebrascensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Beak of perigynium entire, apical teeth not more than 0.3 mm; achenes constricted
-        on 1 or both edges.</statement>
+      <description type="morphology">Beak of perigynium entire, apical teeth not more than 0.3 mm; achenes constricted
+        on 1 or both edges.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Perigynia thick-walled, leathery.</statement>
+      <description type="morphology">Perigynia thick-walled, leathery.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Spikes pendent, 5–13 mm thick</statement>
+      <description type="morphology">Spikes pendent, 5–13 mm thick</description>
       <determination>173. Carex paleacea</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Spikes erect, 4–7 mm thick</statement>
+      <description type="morphology">Spikes erect, 4–7 mm thick</description>
       <determination>171. Carex ramenskii</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Perigynia thin-walled, not leathery.</statement>
+      <description type="morphology">Perigynia thin-walled, not leathery.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Scales dark purple-brown</statement>
+      <description type="morphology">Scales dark purple-brown</description>
       <determination>174. Carex vacillans</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Scales brown to reddish brown</statement>
+      <description type="morphology">Scales brown to reddish brown</description>
       <determination>175. Carex recta (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pistillate scales with apex acute, acuminate, or mucronate, lacking prominent,
-        scabrous awn.</statement>
+      <description type="morphology">Pistillate scales with apex acute, acuminate, or mucronate, lacking prominent,
+        scabrous awn.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Proximal bract longer than inflorescence (usually at least 1.5 times as
-        long).</statement>
+      <description type="morphology">Proximal bract longer than inflorescence (usually at least 1.5 times as
+        long).</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Sheaths ladder-fibrillose.</statement>
+      <description type="morphology">Sheaths ladder-fibrillose.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Widest leaf blades not more than 7 mm wide; perigynia veinless on faces</statement>
+      <description type="morphology">Widest leaf blades not more than 7 mm wide; perigynia veinless on faces</description>
       <determination>180. Carex obnupta</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Widest leaf blades 10–15 mm wide; perigynia 5–7-veined on faces</statement>
+      <description type="morphology">Widest leaf blades 10–15 mm wide; perigynia 5–7-veined on faces</description>
       <determination>186. Carex schottii</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Sheaths not ladder-fibrillose.</statement>
+      <description type="morphology">Sheaths not ladder-fibrillose.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Spikes pendent; perigynia yellow-brown, thick-walled, indistinctly veined;
-        scales</statement>
+      <description type="morphology">Spikes pendent; perigynia yellow-brown, thick-walled, indistinctly veined;
+        scales</description>
       <determination>172. Carex lyngbyei</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Spikes erect or pendent; perigynia green, pale brown, red- or purple-brown,
+      <description type="morphology">Spikes erect or pendent; perigynia green, pale brown, red- or purple-brown,
         thin-walled, veinless or veined; scales shorter or longer than perigynia, apex not
-        acuminate.</statement>
+        acuminate.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Perigynia veinless; achenes glossy</statement>
+      <description type="morphology">Perigynia veinless; achenes glossy</description>
       <determination>197. Carex aquatilis</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Perigynia veined; achenes dull.</statement>
+      <description type="morphology">Perigynia veined; achenes dull.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Terminal spike staminate</statement>
+      <description type="morphology">Terminal spike staminate</description>
       <determination>187. Carex lenticularis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Terminal spike gynecandrous.</statement>
+      <description type="morphology">Terminal spike gynecandrous.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Scales reddish brown, pale; body and beak of perigynium pale green</statement>
+      <description type="morphology">Scales reddish brown, pale; body and beak of perigynium pale green</description>
       <determination>187. Carex lenticularis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Scales purple-brown or black; beak of perigynium reddish brown or black, darker
-        than bodies.</statement>
+      <description type="morphology">Scales purple-brown or black; beak of perigynium reddish brown or black, darker
+        than bodies.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Perigynia 5–7-veined on each face, ovoid; stipe to 0.5 mm</statement>
+      <description type="morphology">Perigynia 5–7-veined on each face, ovoid; stipe to 0.5 mm</description>
       <determination>187. Carex lenticularis (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Perigynia 3–5-veined on each face, ellipsoid; stipe not more than 0.2
-        mm.</statement>
+      <description type="morphology">Perigynia 3–5-veined on each face, ellipsoid; stipe not more than 0.2
+        mm.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Perigynia prominently veined, apex acute; basal sheaths</statement>
+      <description type="morphology">Perigynia prominently veined, apex acute; basal sheaths</description>
       <determination>188. Carex rufina</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Perigynia indistinctly veined, apex round; basal sheaths</statement>
+      <description type="morphology">Perigynia indistinctly veined, apex round; basal sheaths</description>
       <determination>189. Carex eleusinoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Proximal bract shorter than or equal to inflorescence.</statement>
+      <description type="morphology">Proximal bract shorter than or equal to inflorescence.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Proximal sheaths ladder-fibrillose.</statement>
+      <description type="morphology">Proximal sheaths ladder-fibrillose.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Scales pale red-brown.</statement>
+      <description type="morphology">Scales pale red-brown.</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Scales longer than perigynia; perigynia olive-green, veinless, inflated,
-        obovoid</statement>
+      <description type="morphology">Scales longer than perigynia; perigynia olive-green, veinless, inflated,
+        obovoid</description>
       <determination>192. Carex haydenii</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Scales shorter than or equaling perigynia; perigynia pale brown, 0–5-veined
-        on</statement>
+      <description type="morphology">Scales shorter than or equaling perigynia; perigynia pale brown, 0–5-veined
+        on</description>
       <determination>184. Carex stricta</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Scales dark red-brown or black.</statement>
+      <description type="morphology">Scales dark red-brown or black.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Perigynia veinless</statement>
+      <description type="morphology">Perigynia veinless</description>
       <determination>198. Carex scopulorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Perigynia veined.</statement>
+      <description type="morphology">Perigynia veined.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Perigynia 1–3-veined on each face</statement>
+      <description type="morphology">Perigynia 1–3-veined on each face</description>
       <determination>182. Carex angustata</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Perigynia 3–9-veined on each face.</statement>
+      <description type="morphology">Perigynia 3–9-veined on each face.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Perigynia broadly ellipsoid or ovoid, 2–2.2 mm wide, somewhat thick-</statement>
+      <description type="morphology">Perigynia broadly ellipsoid or ovoid, 2–2.2 mm wide, somewhat thick-</description>
       <determination>185. Carex senta</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Perigynia narrowly ovoid or ellipsoid, 1.2–1.8 mm wide, thin-walled</statement>
+      <description type="morphology">Perigynia narrowly ovoid or ellipsoid, 1.2–1.8 mm wide, thin-walled</description>
       <determination>183. Carex nudata</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Proximal sheaths not ladder-fibrillose.</statement>
+      <description type="morphology">Proximal sheaths not ladder-fibrillose.</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Perigynia veined.</statement>
+      <description type="morphology">Perigynia veined.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Scales black; perigynia with purple-brown spots distally; apex of
-        proximal</statement>
+      <description type="morphology">Scales black; perigynia with purple-brown spots distally; apex of
+        proximal</description>
       <determination>190. Carex nigra</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Scales pale red-brown; perigynia green; apex of proximal sheaths
-        prolonged</statement>
+      <description type="morphology">Scales pale red-brown; perigynia green; apex of proximal sheaths
+        prolonged</description>
       <determination>193. Carex emoryi</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Perigynia veinless.</statement>
+      <description type="morphology">Perigynia veinless.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Perigynia with apex tapering, flat, triangular, twisted; beak orifice obliquely
-        bidentate.</statement>
+      <description type="morphology">Perigynia with apex tapering, flat, triangular, twisted; beak orifice obliquely
+        bidentate.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Perigynia orange-brown, obovoid; scales black</statement>
+      <description type="morphology">Perigynia orange-brown, obovoid; scales black</description>
       <determination>196. Carex endlichii</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Perigynia green, ovoid; scales red- to purple-brown</statement>
+      <description type="morphology">Perigynia green, ovoid; scales red- to purple-brown</description>
       <determination>195. Carex torta</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Perigynia with apex round or acute, not twisted; beak orifice obliquely bidentate
-        or entire.</statement>
+      <description type="morphology">Perigynia with apex round or acute, not twisted; beak orifice obliquely bidentate
+        or entire.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Perigynia distended by achenes, fragile, often splitting; beak
-        obliquely</statement>
+      <description type="morphology">Perigynia distended by achenes, fragile, often splitting; beak
+        obliquely</description>
       <determination>194. Carex interrupta</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Perigynia not distended or split by achenes; beak orifice entire.</statement>
+      <description type="morphology">Perigynia not distended or split by achenes; beak orifice entire.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Perigynia inflated, obovoid; scales longer than perigynia, apex acute</statement>
+      <description type="morphology">Perigynia inflated, obovoid; scales longer than perigynia, apex acute</description>
       <determination>191. Carex aperta</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Perigynia flat, ellipsoid or obovoid; scales shorter than or equaling perigynia,
-        apex acute or obtuse.</statement>
+      <description type="morphology">Perigynia flat, ellipsoid or obovoid; scales shorter than or equaling perigynia,
+        apex acute or obtuse.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Leaf blades 3.5–5 mm wide; pistillate spikes 4–5 mm thick; peri-</statement>
+      <description type="morphology">Leaf blades 3.5–5 mm wide; pistillate spikes 4–5 mm thick; peri-</description>
       <determination>198. Carex scopulorum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Leaf blades 2–3.5 mm wide; pistillate spikes 3–4 mm thick; peri-</statement>
+      <description type="morphology">Leaf blades 2–3.5 mm wide; pistillate spikes 3–4 mm thick; peri-</description>
       <determination>199. Carex bigelowii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

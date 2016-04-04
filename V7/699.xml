@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>37.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>TURRITIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Camelineae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">TURRITIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 666. 1753</place_in_publication>
@@ -12,18 +18,15 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 298. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin turris , tower, alluding to pyramidal shape of plants due to overlap of leaves and fruits]</etymology>
-  <common_name>Tower-mustard</common_name>
-  <common_name>towercress</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Biennials or, rarely, perennials (short-lived); not scapose; (glaucous distally), glabrous or pubescent (mostly proximally), trichomes simple and/or stalked, forked, or substellate. Stems erect, unbranched basally, often branched distally. Leaves basal and cauline; petiolate or sessile; basal rosulate, petiolate, margins usually dentate, sinuate, repand, or pinnatifid, rarely entire; cauline blade (base auriculate or sagittate [amplexicaul]), margins dentate or entire. Racemes (corymbose), considerably elongated in fruit. Fruiting pedicels erect [divaricate], (appressed to rachis), slender. Flowers: sepals erect, oblong or linear, (margins membranous); petals usually yellowish or creamy white, rarely pink [purplish], usually narrowly spatulate or linear-oblanceolate, rarely linear, claw not differentiated from blade, (apex obtuse); stamens (erect), tetradynamous; filaments not dilated basally; anthers narrowly oblong [linear], (apex obtuse); nectar glands confluent, subtending bases of stamens, lateral glands annular, median glands present. Fruits siliques, dehiscent, sessile, linear, smooth, often subterete-quadrangular, (leathery); valves each with prominent midvein, glabrous; replum rounded; septum complete, (membranous, veinless); ovules 130–200 per ovary; (style distinct, short, stout); stigma capitate, (subentire). Seeds biseriate, flattened, not winged or, rarely, narrowly winged, oblong or subglobose [elliptic, orbicular]; seed coat not mucilaginous when wetted; cotyledons accumbent. x = 6, 8.</description>
-  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Camelineae;genus TURRITIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin turris , tower, alluding to pyramidal shape of plants due to overlap of leaves and fruits]</other_info_on_name>
+  </taxon_identification>
+  <number>37.</number>
+  <other_name type="common_name">Tower-mustard</other_name>
+  <other_name type="common_name">towercress</other_name>
+  <discussion>Species 2 (1 in the flora):</discussion>
   <discussion>Turritis laxa (Smith) Hayek is distributed in eastern Europe and the Middle East.</discussion>
   <references>
     <reference>Dvoák, F. 1967. A note on the genus Turritis L. Oesterr. Bot. Z. 114: 84–87.</reference>
   </references>
-</treatment>
+</bio:treatment>

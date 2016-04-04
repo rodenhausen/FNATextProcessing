@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eschscholzia</genus_name><species_name>californica</species_name><species_authority>Chamisso</species_authority><subspecies_name>californica</subspecies_name></TaxonIdentification><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Eschscholzia</genus_name><species_name>californica</species_name><variety_name>scrocea</variety_name><variety_authority>(Bentham) Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eschscholzia</genus_name><species_name>californica</species_name><variety_name>peninsularis</variety_name><variety_authority>(Greene) Munz</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eschscholzia</genus_name><species_name>procera</species_name><species_authority>Greene</species_authority></TaxonIdentification><description>Plants usually perennial, sometimes annual; cotyledons usually 2-lobed. Flowers: receptacular cup with spreading rim prominent. 2n = 12.</description><phenology>Flowering mid winter-late summer (Feb-Sep)</phenology><habitat> Grassy, open areas</habitat><elevation> to 2000 m</elevation><us_distribution> Calif.</us_distribution><us_distribution> Nev.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution><global_distribution> Mexico (Baja California).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="Chamisso" date="unknown">californica</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Eschscholzia;species californica;subspecies californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) Jepson" date="unknown">scrocea</taxon_name>
+    <taxon_hierarchy>genus Eschscholzia;species californica;variety scrocea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Munz" date="unknown">peninsularis</taxon_name>
+    <taxon_hierarchy>genus Eschscholzia;species californica;variety peninsularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eschscholzia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Eschscholzia;species procera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
+  <discussion>illustrated</discussion>
+</bio:treatment>

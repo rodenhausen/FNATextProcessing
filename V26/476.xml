@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>58a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allium</genus_name><species_name>bolanderi</species_name><species_authority>S. Watson</species_authority><variety_name>bolanderi</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>bolanderi</species_name><variety_name>stenanthum</variety_name><variety_authority>(Drew) Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>stenanthum</species_name><species_authority>Drew</species_authority></TaxonIdentification><description>Bulbs oblique-ovoid, 0.7–1.2 cm; outer coats brown to gray-brown, breaking with serrate edges, cells of reticulum V-shaped. Flowers 7–12 mm; tepals lance-ovate, apex acute to obtuse. 2n = 14.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>clay soils</habitat><habitat>including serpentine</habitat><elevation>50–1000 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">bolanderi</taxon_name>
+    <taxon_name rank="variety" authority="(Drew) Jepson" date="unknown">bolanderi</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Allium;species bolanderi;variety bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="Drew" date="unknown">bolanderi</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">stenanthum</taxon_name>
+    <taxon_hierarchy>genus Allium;species bolanderi;variety stenanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">stenanthum</taxon_name>
+    <taxon_hierarchy>genus Allium;species stenanthum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>58a.</number>
+</bio:treatment>

@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>milleflorum</species_name>
-    <species_authority>A. Nelson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">milleflorum</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>52: 263. 1911</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>laciniatum</species_name>
-    <species_authority>(Hooker) Endlicher</species_authority>
-    <variety_name>milleflorum</variety_name>
-    <variety_authority>(A. Nelson) Payson</variety_authority>
-  </TaxonIdentification>
-  <description>Biennials; somewhat glaucous, glabrous (except petioles). Stems (hollow), branched distally, (1.8–)4.5–13(–21) dm. Basal leaves (and proximal cauline): petiole (1–)1.8–9.5(–13) cm, ciliate; blade often oblong, sometimes ovate or lanceolate, (3.8–)6–23(–28) cm × (9–)20–65(–100) mm, margins usually dentate, sometimes sinuate, rarely repand. Cauline leaves petiolate; blade lanceolate, similar to basal, smaller distally, margins dentate or entire. Racemes dense, slightly elongated in fruit (to 10 dm, flower buds narrowly oblong). Fruiting pedicels erect distally, strongly curved upward, stout, (1.5–)2.5–5(–7) mm, slightly flattened at base. Flowers: sepals erect, oblong to linear-oblong, (4–)4.5–8(–9) × 1–2 mm; petals white, spatulate to oblanceolate, (7–)9–15(–16) × 1–2 mm, claw strongly differentiated from blade [(3–)3.5–5.5(–6) mm, widest at base]; nectar glands confluent, median and lateral; filaments subequal, (6–)7–14.5(–15.5) mm; anthers exserted, linear to narrowly oblong, 2.5–4.5(–6) mm, circinately coiled, (apiculate); gynophore (0.5–)1–4(–6) mm. Fruits erect, (subappressed to rachis), torulose, somewhat tortuous, terete, (1.8–)3.3–8(–10) cm × (0.7–)1–1.5(–1.8) mm; ovules 50–78 per ovary; style usually cylindrical, rarely subclavate, (0.5–)0.7–1.5(–3) mm. Seeds (0.7–)1–1.5(–2) × 0.5–0.7(–1) mm. 2n = 26.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>sand dunes</habitat>
-  <habitat>sagebrush and desert shrub communities</habitat>
-  <elevation>150–2200 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodium;species milleflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Endlicher" date="unknown">laciniatum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Payson" date="unknown">milleflorum</taxon_name>
+    <taxon_hierarchy>genus Thelypodium;species laciniatum;variety milleflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+</bio:treatment>

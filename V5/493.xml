@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>22b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eriogonum</genus_name><species_name>thompsoniae</species_name><species_authority>S. Watson</species_authority><variety_name>albiflorum</variety_name><variety_authority>Reveal</variety_authority><place_of_publication>
-    <publication_title>Madroño</publication_title>
-    <place_in_publication>19: 299. 1969</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>thompsonae</past_name><common_name>Virgin wild buckwheat</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Eriogonum</genus_name><species_name>corymbosum</species_name><species_authority>Bentham</species_authority><variety_name>albiflorum</variety_name><variety_authority>(Reveal) S. L. Welsh</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eriogonum</genus_name><species_name>corymbosum</species_name><variety_name>matthewsiae</variety_name><variety_authority>Reveal</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eriogonum</genus_name><species_name>thompsoniae</species_name><variety_name>matthewsiae</variety_name><variety_authority>(Reveal) Reveal</variety_authority></TaxonIdentification><description>Plants 2–5(–6) dm. Leaf blade oblong to oblanceolate or elliptic, 2–5 × 0.8–2.5 cm, tomentose abaxially, margins plane. Involucres 2–3 mm. Perianths white.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>sandy to gravelly, often volcanic flats and slopes</habitat><habitat>saltbush and blackbrush communities</habitat><habitat>pinyon-juniper and oak woodlands</habitat><elevation>900–1400 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Utah.</us_distribution><discussion>Variety albiflorum is known only from scattered populations in Washington County, Utah, and in adjacent portions of Mohave County, Arizona.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Eriogonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">thompsoniae</taxon_name>
+    <taxon_name rank="variety" authority="Reveal" date="unknown">albiflorum</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>19: 299. 1969</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Eriogonoideae;genus Eriogonum;species thompsoniae;variety albiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">corymbosum</taxon_name>
+    <taxon_name rank="variety" authority="(Reveal) S. L. Welsh" date="unknown">albiflorum</taxon_name>
+    <taxon_hierarchy>genus Eriogonum;species corymbosum;variety albiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">corymbosum</taxon_name>
+    <taxon_name rank="variety" authority="Reveal" date="unknown">matthewsiae</taxon_name>
+    <taxon_hierarchy>genus Eriogonum;species corymbosum;variety matthewsiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eriogonum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">thompsoniae</taxon_name>
+    <taxon_name rank="variety" authority="(Reveal) Reveal" date="unknown">matthewsiae</taxon_name>
+    <taxon_hierarchy>genus Eriogonum;species thompsoniae;variety matthewsiae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22b.</number>
+  <other_name type="past_name">thompsonae</other_name>
+  <other_name type="common_name">Virgin wild buckwheat</other_name>
+  <discussion>Variety albiflorum is known only from scattered populations in Washington County, Utah, and in adjacent portions of Mohave County, Arizona.</discussion>
+</bio:treatment>

@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20b.3i.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Obione</subgenus_name>
-        <section_name>Obione</section_name>
-        <subsection_name>Californicae</subsection_name>
-        <subsection_authority>(Standley) S. L. Welsh</subsection_authority>
-        <place_of_publication>
-            <publication_title>Rhodora</publication_title>
-            <place_in_publication>102: 424. 2001</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Atriplex</genus_name>
-        <unranked_epithet_name>Californicae</unranked_epithet_name>
-        <unranked_epithet_authority>Standley</unranked_epithet_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl. </publication_title>
-            <place_in_publication>21: 44. 1916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants perennial, monoecious or dioecious, prostrate. Leaves typically with Kranz
-        anatomy, alternate or opposite, sessile; blade widest from base to beyond middle, margin
-        entire. Staminate flowers in axillary glomerules. Fruiting bracteoles monomorphic, sessile
-        or short stipitate, ovate, almost distinct, margin entire or dentate, faces unappendaged.
-        Seeds: radicle superior or lateral (in A. californica).</description>
-    <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-    <global_distribution>sw United States</global_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Obione</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Obione</taxon_name>
+    <taxon_name rank="subsection" authority="(Standley) S. L. Welsh" date="unknown">Californicae</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>102: 424. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Obione;section Obione;subsection Californicae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Standley">Californicae</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 44. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Atriplex;unranked Californicae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20b.3i.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
+</bio:treatment>

@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rhodiola</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>Rafinesque</species_authority>
-    <subspecies_name>neomexicana</subspecies_name>
-    <subspecies_authority>(Britton) H. Ohba</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodiola</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">integrifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton) H. Ohba" date="unknown">neomexicana</taxon_name>
     <place_of_publication>
       <publication_title>J. Jap. Bot.</publication_title>
       <place_in_publication>74: 61.  1999,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Rhodiola</genus_name>
-    <species_name>neomexicana</species_name>
-    <species_authority>Britton</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Rhodiola;species integrifolia;subspecies neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodiola</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">neomexicana</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton and J. N. Rose, New N. Amer. Crassul.,</publication_title>
       <place_in_publication>38.  1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Rafinesque) A. Nelson</species_authority>
-    <subspecies_name>neomexicanum</subspecies_name>
-    <subspecies_authority>(Britton) R. T. Clausen</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tolmachevia</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>(Rafinesque) Á. Löve &amp; D. Löve</species_authority>
-    <subspecies_name>neomexicana</subspecies_name>
-    <subspecies_authority>(Britton) Á. Löve &amp; D. Löve</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems 15–25 cm.  Leaf blades green, not glaucous, linear-oblanceolate, 2–3.5 × 0.3–0.7 cm.  Petals yellow, red at apex and on keel.  Seeds 1.1–1.9 mm.  2n = 36.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Porphyritic rocks</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>3300–3600 m</elevation>
-  <us_distribution>N.Mex.</us_distribution>
+    <taxon_hierarchy>genus Rhodiola;species neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) A. Nelson" date="unknown">integrifolium</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton) R. T. Clausen" date="unknown">neomexicanum</taxon_name>
+    <taxon_hierarchy>genus Sedum;species integrifolium;subspecies neomexicanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tolmachevia</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Á. Löve &amp; D. Löve" date="unknown">integrifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton) Á. Löve &amp; D. Löve" date="unknown">neomexicana</taxon_name>
+    <taxon_hierarchy>genus Tolmachevia;species integrifolia;subspecies neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies neomexicana occurs in the Sierra Blanca, Lincoln County.</discussion>
-</treatment>
+</bio:treatment>

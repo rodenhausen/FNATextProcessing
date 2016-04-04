@@ -1,95 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>helleriana</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">helleriana</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 17. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>aurea</species_name>
-    <species_authority>Vahl ex Hornemann</species_authority>
-    <variety_name>tylosa</variety_name>
-    <variety_authority>A. Gray</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>helleriana</species_name>
-    <variety_name>leiocarpa</variety_name>
-    <variety_authority>O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>helleriana</species_name>
-    <variety_name>neomexicana</variety_name>
-    <variety_authority>(Greene) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>helleriana</species_name>
-    <variety_name>patens</variety_name>
-    <variety_authority>(A. Heller) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>helleriana</species_name>
-    <variety_name>pinetorum</variety_name>
-    <variety_authority>(Greene) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>neomexicana</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>neomexicana</species_name>
-    <variety_name>robusta</variety_name>
-    <variety_authority>A. Heller</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>pallida</species_name>
-    <species_authority>A. Heller</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>patens</species_name>
-    <species_authority>A. Heller</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>pinetorum</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>stylosa</species_name>
-    <species_authority>(A. Gray) A. Heller</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species helleriana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Vahl ex Hornemann" date="unknown">aurea</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">tylosa</taxon_name>
+    <taxon_hierarchy>genus Draba;species aurea;variety tylosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">helleriana</taxon_name>
+    <taxon_name rank="variety" authority="O. E. Schulz" date="unknown">leiocarpa</taxon_name>
+    <taxon_hierarchy>genus Draba;species helleriana;variety leiocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">helleriana</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) O. E. Schulz" date="unknown">neomexicana</taxon_name>
+    <taxon_hierarchy>genus Draba;species helleriana;variety neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">helleriana</taxon_name>
+    <taxon_name rank="variety" authority="(A. Heller) O. E. Schulz" date="unknown">patens</taxon_name>
+    <taxon_hierarchy>genus Draba;species helleriana;variety patens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">helleriana</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) O. E. Schulz" date="unknown">pinetorum</taxon_name>
+    <taxon_hierarchy>genus Draba;species helleriana;variety pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">neomexicana</taxon_name>
+    <taxon_hierarchy>genus Draba;species neomexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">neomexicana</taxon_name>
+    <taxon_name rank="variety" authority="A. Heller" date="unknown">robusta</taxon_name>
+    <taxon_hierarchy>genus Draba;species neomexicana;variety robusta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pallida</taxon_name>
+    <taxon_hierarchy>genus Draba;species pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">patens</taxon_name>
+    <taxon_hierarchy>genus Draba;species patens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pinetorum</taxon_name>
+    <taxon_hierarchy>genus Draba;species pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">stylosa</taxon_name>
     <place_of_publication>
       <place_in_publication>1897</place_in_publication>
-      <other_info>not Turczaninow 1854</other_info>
+      <other_info_on_pub>not Turczaninow 1854</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Biennials or perennials; (short-lived); caudex simple or branched; not scapose. Stems branched, (0.1–)1.5–4.3(–5.1) dm, hirsute throughout, trichomes simple, 0.4–1.3(–1.8) mm, with short-stalked to subsessile, 3–5-rayed ones, 0.2–0.4 mm, (some slightly coarser, 2-rayed). Basal leaves rosulate; petiolate; petiole base ciliate or not; blade oblanceolate to obovate, 0.9–4.1(–5.2) cm × 2–7(–10) mm, margins entire or dentate, surfaces pubescent, abaxially with stalked, cruciform, and fewer 3–5-rayed trichomes, 0.1–0.6 mm, adaxially with cruciform and simple trichomes, 0.4–1.3 mm, and smaller 2-rayed ones. Cauline leaves (8–)12–31(–43); sessile; blade ovate to lanceolate or oblong, margins usually dentate, rarely subentire, surfaces pubescent as basal. Racemes 10–52(–83)-flowered, usually ebracteate, rarely proximalmost 1 or 2 flowers bracteate, elongated in fruit; rachis not flexuous, pubescent as stem. Fruiting pedicels horizontal to divaricate-ascending, straight or slightly curved upward, 4–10(–13) mm, pubescent as rachis abaxially, glabrous adaxially. Flowers: sepals oblong, 2.5–4 mm, pubescent, (trichomes simple and stalked, 2-rayed); petals yellow, oblanceolate, 5–7 × 1.5–2.2 mm; anthers oblong, 0.5–0.8 mm. Fruits (not appressed to rachis), lanceolate to ovate or oblong-lanceolate, slightly to strongly twisted or plane, flattened, 5–15 × 2–3.5 mm; valves puberulent, trichomes simple and subsessile, 2(–4)-rayed, 0.03–0.25(–0.8) mm; ovules 14–28 per ovary; style (1–)1.5–3.5 mm. Seeds oblong, 1–1.3 × 0.6–0.8 mm. 2n = 18.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>oak and pine-fir woodlands</habitat>
-  <habitat>aspen groves</habitat>
-  <habitat>rocky meadows</habitat>
-  <elevation>2100–3600 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
+    <taxon_hierarchy>genus Draba;species stylosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>44.</number>
   <discussion>Draba helleriana is highly variable and was divided by C. L. Hitchcock (1941) into four varieties. For a discussion of those and the circumscription of the species, see I. A. Al-Shehbaz and M. D. Windham (2007).</discussion>
-</treatment>
+</bio:treatment>

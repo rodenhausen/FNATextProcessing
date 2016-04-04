@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>56.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>BRAYA</genus_name>
-    <genus_authority>Sternberg &amp; Hoppe</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>James G. Harris</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Euclidieae</taxon_name>
+    <taxon_name rank="genus" authority="Sternberg &amp; Hoppe" date="unknown">BRAYA</taxon_name>
     <place_of_publication>
       <publication_title>Denkschr. Königl.-Baier. Bot. Ges. Regensburg</publication_title>
       <place_in_publication>1(1): 65. 1815</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Franz Gabriel de Bray, 1765–1832, French ambassador to Bavaria, head of Regensberg Botanical Society]</etymology>
-  <author>James G. Harris</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platypetalum</genus_name>
-    <genus_authority>R. Brown</genus_authority>
-  </TaxonIdentification>
-  <description>Perennials; (sometimes pulvinate, caudex simple or many-branched); scapose or not; usually pubescent or pilose, sometimes glabrous, trichomes short-stalked, forked, subdendritic, or submalpighiaceous, mixed with simple ones (rarely exclusively). Stems erect to decumbent or ascending, unbranched or branched. Leaves basal and, sometimes, cauline; petiolate or sessile; basal rosulate, petiolate, blade margins entire, sinuate, dentate, or, rarely, pinnately lobed; cauline usually absent, rarely few present, (sub)sessile, blade margins usually entire, rarely dentate or pinnately lobed. Racemes (corymbose, sometimes bracteate basally or throughout), elongated or not in fruit. Fruiting pedicels erect, divaricate, or ascending, slender (much narrower than fruit). Flowers: sepals [sometimes persistent], oblong [ovate], lateral pair not saccate basally (sometimes slightly so in B. humilis and B. linearis); petals white, pink, or purple [rarely pale yellow], obovate, oblanceolate, or spatulate, (slightly to much longer than sepals), claw distinct or not, (shorter than sepal, apex obtuse or rounded); stamens tetradynamous; filaments dilated or not basally; anthers ovate or oblong, (apex usually obtuse, sometimes apiculate); nectar glands (4), lateral, 1 on each side of lateral stamen. Fruits siliques or silicles, sessile, linear, oblong, cylindrical, oval-elliptic, ovoid, lanceoloid, lanceoloid-subulate, or globose, smooth or torulose, terete or slightly latiseptate; valves each often with prominent midvein, glabrous or pubescent; replum rounded; septum complete, (membranous, translucent); ovules (5–)14–44 per ovary; stigma capitate, entire or slightly 2-lobed. Seeds plump, not winged, oblong or ovoid; seed coat (minutely reticulate), not mucilaginous when wetted; cotyledons incumbent. x = 7.</description>
-  <number_of_infrataxa>Species 17 (7 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Euclidieae;genus BRAYA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Franz Gabriel de Bray, 1765–1832, French ambassador to Bavaria, head of Regensberg Botanical Society]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="R. Brown" date="unknown">Platypetalum</taxon_name>
+    <taxon_hierarchy>genus Platypetalum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>56.</number>
+  <discussion>Species 17 (7 in the flora):</discussion>
   <references>
     <reference>Abbe, E. C. 1948. Braya in boreal eastern America. Rhodora 50: 1–15.</reference>
     <reference>Harris, J. G. 1985. A Revision of the Genus Braya (Cruciferae) in North America. Ph.D. thesis. University of Alberta. Parsons, K. A. 2002. Reproductive Biology and Floral Variation in the Endangered Braya longii and Threatened B. fernaldii (Brassicaceae): Implications for Conservation Management of Rare Plants. M.S. thesis. Memorial University of Newfoundland. Warwick, S. I. et al. 2004. Phylogeny of Braya and Neotorularia (Brassicaceae) based on nuclear ribosomal internal transcribed spacer and chloroplast trnL intron sequences. Canad. J. Bot. 82: 376–392.</reference>
@@ -27,63 +30,63 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants not scapose; cauline leaves (1 or) 2–4; fruits linear; seeds usually uniseriate, rarely weakly biseriate.</statement>
+      <description type="morphology">Plants not scapose; cauline leaves (1 or) 2–4; fruits linear; seeds usually uniseriate, rarely weakly biseriate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves 3 or more; basal leaves (0.3–)0.5–2(–3.5) cm × 1–8(–10) mm; racemes</statement>
+      <description type="morphology">Cauline leaves 3 or more; basal leaves (0.3–)0.5–2(–3.5) cm × 1–8(–10) mm; racemes</description>
       <determination>3. Braya humilis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves 1–4; basal leaves 0.5–3 cm × 0.5–2(–3) mm; racemes not elongated in</statement>
+      <description type="morphology">Cauline leaves 1–4; basal leaves 0.5–3 cm × 0.5–2(–3) mm; racemes not elongated in</description>
       <determination>4. Braya linearis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Plants scapose; cauline leaves 0 or 1 (or with leaflike bract subtending proximalmost pedicel); fruits ovoid, globose, oval-elliptic, oblong, oblong-elliptic, oblong-lanceoloid, or lanceoloid-subulate, not linear; seeds usually biseriate (uniseriate in B. fernaldii and, sometimes, B. longii ).</statement>
+      <description type="morphology">Plants scapose; cauline leaves 0 or 1 (or with leaflike bract subtending proximalmost pedicel); fruits ovoid, globose, oval-elliptic, oblong, oblong-elliptic, oblong-lanceoloid, or lanceoloid-subulate, not linear; seeds usually biseriate (uniseriate in B. fernaldii and, sometimes, B. longii ).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruits ovoid or globose.</statement>
+      <description type="morphology">Fruits ovoid or globose.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals 4.7–6.6 × 3–5.1 mm; styles 1.2–2(–2.5) mm; stems erect to ascending</statement>
+      <description type="morphology">Petals 4.7–6.6 × 3–5.1 mm; styles 1.2–2(–2.5) mm; stems erect to ascending</description>
       <determination>6. Braya pilosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petals 2–3.7 × 1–1.5 mm; styles obsolete to 0.7(–1) mm; stems usually decumbent</statement>
+      <description type="morphology">Petals 2–3.7 × 1–1.5 mm; styles obsolete to 0.7(–1) mm; stems usually decumbent</description>
       <determination>7. Braya thorild-wulffii</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Fruits oval-elliptic, oblong, oblong-elliptic, oblong-lanceoloid, or lanceoloid-subulate.</statement>
+      <description type="morphology">Fruits oval-elliptic, oblong, oblong-elliptic, oblong-lanceoloid, or lanceoloid-subulate.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits oval-elliptic, oblong-cylindrical, or lanceoloid; septum margins not expanded basally</statement>
+      <description type="morphology">Fruits oval-elliptic, oblong-cylindrical, or lanceoloid; septum margins not expanded basally</description>
       <determination>2. Braya glabella</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits lanceoloid-subulate; septum margins broadly expanded basally (forming sacklike pouch around proximalmost seeds); seeds somewhat to nearly uniseriate.</statement>
+      <description type="morphology">Fruits lanceoloid-subulate; septum margins broadly expanded basally (forming sacklike pouch around proximalmost seeds); seeds somewhat to nearly uniseriate.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruit valves pubescent; petals 2.4–3.8(–4) × (0.8–)1–1.3(–2) mm, (claws often not well-</statement>
+      <description type="morphology">Fruit valves pubescent; petals 2.4–3.8(–4) × (0.8–)1–1.3(–2) mm, (claws often not well-</description>
       <determination>1. Braya fernaldii</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruit valves glabrous or sparsely pubescent; petals (3–)3.3–4.8(–5) × (1.2–)1.4–2.5(–3)</statement>
+      <description type="morphology">Fruit valves glabrous or sparsely pubescent; petals (3–)3.3–4.8(–5) × (1.2–)1.4–2.5(–3)</description>
       <determination>5. Braya longii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

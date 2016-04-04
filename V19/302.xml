@@ -1,48 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crepis</genus_name>
-    <species_name>pleurocarpa</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">pleurocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>17: 221. 1882</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species pleurocarpa;</taxon_hierarchy>
-  <common_name>Naked hawksbeard</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>acuminata</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>pleurocarpa</variety_name>
-    <variety_authority>(A. Gray) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>intermedia</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>pleurocarpa</variety_name>
-    <variety_authority>(A. Gray) A. Gray</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials, 15–60 cm (taproots slender, caudices swollen). Stems 1–3, slender or stout, branched proximally (sparingly) or distally, glabrate to tomentulose. Leaves basal and cauline; petiolate (petioles relatively broadly winged); blades elliptic or oblanceolate, often runcinate, 7–28 × 0.5–7 cm, margins pinnately lobed to dentate (lobes remote, lanceolate to narrowly triangular, often recurved), apices attenuate, faces usually tomentulose to glabrate, sometimes glandular. Heads 7–10(–30), in corymbiform arrays. Calyculi of 5–6, deltate to lanceolate, tomentulose bractlets 1.5–4 mm. Involucres cylindro-campanulate, 8–16 × 3–5 mm. Phyllaries 5(–10), (deep green or black) lanceolate, 10–16 mm, (bases becoming strongly keeled and swollen, often glabrous, margins yellowish, conspicuously and densely tomentulose), apices acute to strongly acuminate, abaxial faces densely tomentulose adaxial with fine hairs. Florets 5–10(–12); corollas yellow, 15–20 mm. Cypselae deep reddish brown, subcylindric, 5–8 mm, apices constricted, ribs 10 (prominent); pappi yellowish white, 6–12 mm (bristles unequal). 2n = 22, 33, 44, 55, 77, 88.</description>
-  <phenology_info>
-    <text>Flowering Jun–Aug.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>streams in mixed conifer forests , road cuts , steep rocky serpentine slopes ;</text>
-    <habitat>streams in mixed conifer forests , road cuts , steep rocky serpentine slopes</habitat>
-  </habitat_info>
-  <elevation>400–2200 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species pleurocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">acuminata</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Jepson" date="unknown">pleurocarpa</taxon_name>
+    <taxon_hierarchy>genus Crepis;species acuminata;variety pleurocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">intermedia</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) A. Gray" date="unknown">pleurocarpa</taxon_name>
+    <taxon_hierarchy>genus Crepis;species intermedia;variety pleurocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Naked hawksbeard</other_name>
   <discussion>Crepis pleurocarpa is distinguished by its narrow, acuminate, silvery leaves, 5(–10), strongly keeled phyllaries with conspicuous white, tomentose margins, strongly ribbed cypselae, and relatively few florets per head. Otherwise, it is very similar to C. acuminata and C. intermedia.</discussion>
-</treatment>
-
+</bio:treatment>

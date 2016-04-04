@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>reclinatum</species_name>
-    <species_authority>Michaux</species_authority>
-    <subspecies_name>austrofloridense</subspecies_name>
-    <subspecies_authority>(Whetstone) Kartesz &amp; Gandhi</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">reclinatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Whetstone) Kartesz &amp; Gandhi" date="unknown">austrofloridense</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>68: 425.  1990,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>reclinata</species_name>
-    <species_authority>(Michaux) Ventenat</species_authority>
-    <variety_name>austrofloridensis</variety_name>
-    <variety_authority>Whetstone</variety_authority>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species reclinatum;subspecies austrofloridense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Ventenat" date="unknown">reclinata</taxon_name>
+    <taxon_name rank="variety" authority="Whetstone" date="unknown">austrofloridensis</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Missouri Bot. Gard.</publication_title>
       <place_in_publication>72: 545, fig. 2.  1985</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, to 2 m.  Stems strigose.  Leaves persistent; petiole 2.5–3 mm; blade 10–40 mm, abaxial surface villous across blade.  Pedicels 4–9 mm, strigose.  Flowers: sepals strigose; ovary densely strigose.</description>
-  <phenology>Flowering Apr–May</phenology>
-  <habitat>Calcareous glades</habitat>
-  <elevation>0–20 m</elevation>
-  <global_distribution>of con-servation concern</global_distribution>
-  <us_distribution>Fla.</us_distribution>
+    <taxon_hierarchy>genus Bumelia;species reclinata;variety austrofloridensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
   <discussion>Subspecies austrofloridense is known only from extreme southern Florida.</discussion>
-</treatment>
+</bio:treatment>

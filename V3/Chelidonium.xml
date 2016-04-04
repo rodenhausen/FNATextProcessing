@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>CHELIDONIUM</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <place_of_publication>
-            <publication_title> Sp. Pl. </publication_title>
-            <place_in_publication>1: 505. 175</place_in_publication>
-        </place_of_publication>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CHELIDONIUM</taxon_name>
     <place_of_publication>
-        <publication_title> Gen. Pl. ed. </publication_title>
-        <place_in_publication>5, 224. 1754</place_in_publication>
-    </place_of_publication></TaxonIdentification>
-    
-    <common_name>Celandine</common_name>
-    <common_name> greater celandine</common_name>
-    <common_name> rock-poppy</common_name>
-    <common_name> swallowwort</common_name>
-    <common_name> chélidoine </common_name>
-    <etymology>[Greek cheilidon, swallow (bird), perhaps from lore reported by Aristotle and others
-        that mother swallows bathe eyes of their young with the sap]</etymology>
-    <description>Herbs, biennial or perennial, caulescent, from stout rhizomes or taproots; sap
-        yellow to orange. Stems leafy. Leaves petiolate; basal rosulate, cauline alternate; blade
-        1-2× pinnately lobed. Inflorescences axillary or terminal, umbelliform, few flowered; bracts
-        present. Flowers: sepals 2, distinct; petals 4; stamens ca. 12-many; pistil 2-carpellate;
-        ovary 1-locular; style ± distinct; stigma 2-lobed. Capsules erect, 2-valved, dehiscing from
-        base. Seeds few to many, arillate. x = 6.</description>
-    <number_of_infrataxa>Species 1</number_of_infrataxa>
-    <global_distribution>North America</global_distribution>
-    <global_distribution>Eurasia</global_distribution>
-</treatment>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 505. 175</place_in_publication>
+    </place_of_publication>
+    <place_of_publication>
+      <publication_title>Gen. Pl. ed.</publication_title>
+      <place_in_publication>5, 224. 1754</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus CHELIDONIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek cheilidon, swallow (bird), perhaps from lore reported by Aristotle and others
+        that mother swallows bathe eyes of their young with the sap]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Celandine</other_name>
+  <other_name type="common_name">greater celandine</other_name>
+  <other_name type="common_name">rock-poppy</other_name>
+  <other_name type="common_name">swallowwort</other_name>
+  <other_name type="common_name">chélidoine</other_name>
+  <discussion>Species 1</discussion>
+</bio:treatment>

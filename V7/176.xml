@@ -1,55 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>102.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>geyeriana</species_name>
-    <species_authority>Andersson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Andersson" date="unknown">geyeriana</taxon_name>
     <place_of_publication>
       <publication_title>Öfvers. Kongl. Vetensk.-Akad. Förh.</publication_title>
       <place_in_publication>15: 122. 1858</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Geyer’s willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>geyeriana</species_name>
-    <variety_name>argentea</variety_name>
-    <variety_authority>(Bebb) C. K. Schneider</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>geyeriana</species_name>
-    <variety_name>meleina</variety_name>
-    <variety_authority>J. K. Henry</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 0.6–5 m, (sometimes forming clones by stem fragmentation). Stems: branches (sometimes ± brittle at base), yellow-green, gray-brown, red-brown, or violet, usually glaucous, glabrous or sparsely tomentose; branchlets yellowish, yellow-brown, red-brown, or violet, (strongly glaucous or not), glabrous or sparsely to moderately densely pubescent, (buds caprea-type). Leaves: stipules usually absent or rudimentary (rarely foliaceous); petiole convex to flat, or shallowly to deeply grooved adaxially, 2–9 mm, velvety, short-silky, or pubescent adaxially; largest medial blade lorate, narrowly elliptic, or linear, 32–89 × 5.5–14 mm, 3.6–8.4(–11.3) times as long as wide, base cuneate or convex, margins flat or slightly revolute, entire or distantly and shallowly serrulate, apex acute to acuminate, abaxial surface glaucous, glabrous or densely short- or long-silky, hairs (white, sometimes also ferruginous), straight, adaxial slightly glossy, densely short- or long-silky, especially midrib, to glabrescent, (hairs white, sometimes also ferruginous); proximal blade margins entire or distantly and shallowly serrulate; juvenile blade reddish or yellowish green, densely to sparsely long- or short-silky abaxially, hairs white, sometimes also ferruginous. Catkins flowering (before or) as leaves emerge; staminate globose, (1–1.1–)11–18 × 6–11 mm, flowering branchlet 1–5 mm; pistillate densely to loosely flowered, subglobose to globose, 8–21 × 7–17 mm, flowering branchlet 0.5–8 mm; floral bract tawny or brown (black), 1.2–2.8 mm, apex rounded or acute, abaxially hairy, hairs short, wavy or straight. Staminate flowers: adaxial nectary oblong, ovate, or square, 0.3–0.8(–0.9) mm; filaments distinct, glabrous or hairy on proximal 1/2 or basally; anthers yellow or purple turning yellow, ellipsoid or globose, 0.4–0.5(–0.6) mm. Pistillate flowers: adaxial nectary oblong, square, or ovate, 0.2–1 mm; stipe (0.4–)1–2.8 mm; ovary pyriform (gourd-shaped), beak gradually tapering to styles; ovules 6–12 per ovary; styles 0.1–0.2(–0.6) mm; stigmas flat, abaxially non-papillate with rounded or pointed tip, 0.2–0.3–0.44 mm. Capsules (3–)4–6 mm. 2n = 38.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>lowland wet streamsides</habitat>
-  <habitat>lakeshores</habitat>
-  <habitat>sedge meadows</habitat>
-  <habitat>springs</habitat>
-  <habitat>seepages</habitat>
-  <habitat>swamps</habitat>
-  <habitat>cienegas</habitat>
-  <habitat>fine-textured substrates</habitat>
-  <elevation>10–3300 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species geyeriana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">geyeriana</taxon_name>
+    <taxon_name rank="variety" authority="(Bebb) C. K. Schneider" date="unknown">argentea</taxon_name>
+    <taxon_hierarchy>genus Salix;species geyeriana;variety argentea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">geyeriana</taxon_name>
+    <taxon_name rank="variety" authority="J. K. Henry" date="unknown">meleina</taxon_name>
+    <taxon_hierarchy>genus Salix;species geyeriana;variety meleina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>102.</number>
+  <other_name type="common_name">Geyer’s willow</other_name>
   <discussion>Salix geyeriana is characterized by its dark gray appearance, slender, dark branches, narrow leaves long-silky on both surfaces, general absence of stipules, and small, subglobose catkins. Plants in the Pacific Northwest with foliaceous stipules may be hybrids or introgressants, but the other parent is unknown.</discussion>
   <discussion>Hybrids:</discussion>
   <discussion>Salix geyeriana forms natural hybrids with S. bebbiana, S. irrorata, S. lemmonii, S. ligulifolia, and S. pedicellaris. Alleged hybrids with S. sitchensis, based on plants from British Columbia with broader, more hairy leaves, and catkins longer than in S. geyeriana, but with the short stipes of S. sitchensis (J. K. Henry 1915), are unconvincing.</discussion>
@@ -57,4 +37,4 @@
   <discussion>Salix geyeriana × S. lemmonii is uncommon but in mixed stands of the parental species some plants resemble S. geyeriana in having relatively short, subspherical catkins, small anthers, and petioles sometimes with petiolar glands; and S. lemmonii in having leaf blades amphistomatous, margins serrulate, and foliaceous stipules on early leaves. Because the species have different chromosome numbers, hybrids may be infertile, but occasional seeds have been seen. This hybrid is known from California (Lassen and Sierra counties), Oregon (Jefferson and Lane counties), and near Victoria, British Columbia.</discussion>
   <discussion>Salix geyeriana × S. ligulifolia: Plants in Arizona with rudimentary stipules and leaves with ferruginous hairs may be this hybrid.</discussion>
   <discussion>Salix geyeriana × S. pedicellaris occurs in Washington. It has the white and ferruginous hairs on leaves and ovaries of S. geyeriana, and leaves glaucous adaxially with prominent 2 and 3 veins of S. pedicellaris.</discussion>
-</treatment>
+</bio:treatment>

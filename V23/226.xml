@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>15a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Pycnostachys</subgenus_name><subgenus_authority>C. B. Clarke</subgenus_authority><place_of_publication>
-    <publication_title>in J. D. Hooker, Fl. Brit. India</publication_title>
-    <place_in_publication>6: 597. 1893</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><subgenus_name>Protocyperus</subgenus_name><subgenus_authority>Lye</subgenus_authority></TaxonIdentification><description>Culms and leaves with non-Kranz anatomy (C3). Inflorescences: spikes; rachilla persistent, wingless. Spikelets borne in digitate clusters (rarely singly) or in umbellate or glomerulate heads; floral scales deciduous, 2-keeled or folded (conduplicate). Flowers: stamens 1–3; stigmas 3. Achenes trigonous, plano-convex, or terete.</description><number_of_infrataxa>Species ca. 150 (22 in the flora):</number_of_infrataxa><global_distribution>worldwide.</global_distribution><discussion>The greatest species diversity of Cyperus subg. Pycnostachys is found in the lowland forests of Central America, South America, Africa, and Malesia.</discussion><references>
-    <reference> Carter, J. R., D. K. Alexander, C. T. Bryson, and A. Lazari. 1999. The taxonomy of Cyperus virens and Cyperus drummondii (Cyperaceae) in the southeastern United States. Sida 18: 1049–1063.</reference>
-  </references></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="C. B. Clarke" date="unknown">Pycnostachys</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. D. Hooker, Fl. Brit. India</publication_title>
+      <place_in_publication>6: 597. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;subgenus Pycnostachys;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="Lye" date="unknown">Protocyperus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;subgenus Protocyperus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15a.</number>
+  <discussion>Species ca. 150 (22 in the flora):</discussion>
+  <discussion>The greatest species diversity of Cyperus subg. Pycnostachys is found in the lowland forests of Central America, South America, Africa, and Malesia.</discussion>
+  <references>
+    <reference>Carter, J. R., D. K. Alexander, C. T. Bryson, and A. Lazari. 1999. The taxonomy of Cyperus virens and Cyperus drummondii (Cyperaceae) in the southeastern United States. Sida 18: 1049–1063.</reference>
+  </references>
+</bio:treatment>

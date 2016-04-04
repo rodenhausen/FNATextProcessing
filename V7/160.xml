@@ -1,59 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>93.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>richardsonii</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">richardsonii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 147, plate 182. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>richardsoni</past_name>
-  <common_name>Richardson’s willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>lanata</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>richardsonii</subspecies_name>
-    <subspecies_authority>(Hooker) A. K. Skvortsov</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>richardsonii</species_name>
-    <variety_name>mckeandii</variety_name>
-    <variety_authority>Polunin</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 0.3–6.5 m. Stems: branches red-brown, yellow-brown, or violet, not to strongly glaucous (slightly or highly glossy), villous to glabrescent with persistent patches of hairs; branchlets red-brown or yellow-brown, pilose to densely villous, (buds caprea-type, scale inner membrane free, separating from outer layer). Leaves: stipules (sometimes marcescent), foliaceous, (3–12–35 mm, 1.7–3.6–6.6 times as long as wide, lanceolate or narrowly elliptic, sometimes ovate or oval, base broad, abruptly tapering), apex acuminate or acute; petiole convex to flat or shallowly grooved adaxially, 2–7.3–27 mm, villous to glabrescent adaxially; largest medial blade broadly to narrowly elliptic, or obovate, 23–45–100 × 10–22–55 mm, 1.2–2.2–4.2 times as long as wide, base cuneate, convex, or concave, margins slightly revolute or flat, entire or serrulate, apex acute, acuminate, or convex, abaxial surface glaucous, glabrous or pilose, hairs (white, sometimes also ferruginous), curved, adaxial slightly glossy, moderately densely villous or pilose to glabrescent; proximal blade margins usually entire, sometimes serrulate; juvenile blade yellowish green, abaxially densely villous or pilose, sometimes glabrous, hairs white, sometimes also ferruginous. Catkins flowering before leaves emerge; staminate stout or subglobose, 22–53 × 16–24 mm, flowering branchlet 0 mm; pistillate densely flowered, slender or stout, 25–69(–85 in fruit) × 13–20 mm, flowering branchlet 0–2 mm; floral bract brown or black, 2.4–3.2 mm, apex acute, rounded, or retuse, abaxially moderately densely hairy, hairs straight. Staminate flowers: adaxial nectary narrowly oblong to oblong, 0.7–1.8 mm; filaments distinct to connate ca. 1/2 their lengths, glabrous; anthers purple turning yellow, ellipsoid to shortly cylindrical, 0.5–0.8 mm. Pistillate flowers: adaxial nectary narrowly oblong, oblong, or flask-shaped, 0.6–1.4 mm (2+-lobed), longer than stipe; stipe 0.4–1 mm; ovary pyriform, beak gradually tapering to styles; ovules 22–37 per ovary; styles 1–2.8 mm; stigmas slenderly cylindrical, 0.32–0.63–0.86 mm. Capsules 4.5–6.8 mm. 2n = 38.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>arctic, subarctic, subalpine and boreal, stream terraces and floodplains</habitat>
-  <habitat>open forests</habitat>
-  <habitat>wet sedge meadows</habitat>
-  <habitat>fens</habitat>
-  <habitat>drumlin fields</habitat>
-  <habitat>gravel ridges</habitat>
-  <habitat>bogs</habitat>
-  <habitat>cliff ledges</habitat>
-  <habitat>snowbeds</habitat>
-  <habitat>silt</habitat>
-  <habitat>sand and gravel</habitat>
-  <habitat>calcareous or igneous substrates</habitat>
-  <elevation>10–1800 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Chukotka).</global_distribution>
-  <global_distribution>e Asia (Kamchatka).</global_distribution>
-  <global_distribution>e Asia (Russia [Anadyr]).</global_distribution>
-  <global_distribution>e Asia (e Siberia).</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species richardsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">lanata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hooker) A. K. Skvortsov" date="unknown">richardsonii</taxon_name>
+    <taxon_hierarchy>genus Salix;species lanata;subspecies richardsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">richardsonii</taxon_name>
+    <taxon_name rank="variety" authority="Polunin" date="unknown">mckeandii</taxon_name>
+    <taxon_hierarchy>genus Salix;species richardsonii;variety mckeandii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>93.</number>
+  <other_name type="past_name">richardsoni</other_name>
+  <other_name type="common_name">Richardson’s willow</other_name>
   <discussion>Hybrids:</discussion>
   <discussion>Salix richardsonii forms natural hybrids with S. barclayi and S. calcicola.</discussion>
-</treatment>
+</bio:treatment>

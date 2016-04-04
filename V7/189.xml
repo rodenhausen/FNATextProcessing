@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2e18.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Vetrix</subgenus_name>
-    <section_name>Daphnella</section_name>
-    <section_authority>Seringe</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Vetrix</taxon_name>
+    <taxon_name rank="section" authority="Seringe" date="unknown">Daphnella</taxon_name>
     <place_of_publication>
       <publication_title>Exempl. Rév. Salix,</publication_title>
       <place_in_publication>10. 1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 2–10 m. Buds caprea-type. Leaves: stipules on late ones
-        foliaceous; largest medial blade (sometimes amphistomatous), 2.5–6.5 times as long as wide,
-        adaxial surface not glaucous. Staminate flowers: filaments glabrous. Pistillate flowers:
-        adaxial nectary shorter than, equal to, or longer than stipe; stipe 0.6–0.8 mm; ovary
-        glabrous; stigmas with flat, non-papillate abaxial surface and rounded tip, 0.4–0.7
-        mm.</description>
-  <number_of_infrataxa>Species 6 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Vetrix;section Daphnella;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2e18.</number>
+  <discussion>Species 6 (1 in the flora):</discussion>
+</bio:treatment>

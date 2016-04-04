@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>terrestris</species_name><species_authority>Kellogg</species_authority><subspecies_name>kernensis</subspecies_name><subspecies_authority>(Hoover) T. F. Niehaus</subspecies_authority><place_of_publication>
-    <publication_title>Univ. Calif. Publ. Bot</publication_title>
-    <place_in_publication>60: 50. 1971</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Brodiaea</genus_name><species_name>coronaria</species_name><species_authority>(Salisbury) Engler</species_authority><variety_name>kernensis</variety_name><variety_authority>Hoover</variety_authority><place_of_publication><publication_title>Amer. Midl. Naturalist </publication_title><place_in_publication>22: 561. 1939</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>elegans</species_name><species_authority>Hoover</species_authority><variety_name>australis</variety_name><variety_authority>Hoover</variety_authority></TaxonIdentification><description>Leaves not very lunate in cross section. Scape 2–20 cm. Flowers 26–33 mm; perianth tube 11–13 mm, lobes 15–20 mm; anthers 5–6 mm; ovary 8–9 mm; style 7–9 mm; pedicel 1–7 cm. 2n = 48.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>grasslands</habitat><habitat>open foothill woodlands</habitat><elevation>0–1500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Subspecies kernensis is common and widespread in central and southern California. It appears to be an octoploid version of subsp. terrestris.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">terrestris</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hoover) T. F. Niehaus" date="unknown">kernensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Calif. Publ. Bot</publication_title>
+      <place_in_publication>60: 50. 1971</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species terrestris;subspecies kernensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Salisbury) Engler" date="unknown">coronaria</taxon_name>
+    <taxon_name rank="variety" authority="Hoover" date="unknown">kernensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Midl. Naturalist</publication_title>
+      <place_in_publication>22: 561. 1939</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Brodiaea;species coronaria;variety kernensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Hoover" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="Hoover" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species elegans;variety australis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14b.</number>
+  <discussion>Subspecies kernensis is common and widespread in central and southern California. It appears to be an octoploid version of subsp. terrestris.</discussion>
+</bio:treatment>

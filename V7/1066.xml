@@ -1,45 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>grahamii</species_name>
-    <species_authority>C. V. Morton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="C. V. Morton" date="unknown">grahamii</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Carnegie Mus.</publication_title>
       <place_in_publication>26: 220. 1937</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Graham’s twinpod</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>acutifolia</species_name>
-    <species_authority>Rydberg</species_authority>
-    <variety_name>purpurea</variety_name>
-    <variety_authority>S. L. Welsh &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>acutifolia</species_name>
-    <variety_name>repanda</variety_name>
-    <variety_authority>(Rollins) S. L. Welsh</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>repanda</species_name>
-    <species_authority>Rollins</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; caudex branched, (thick, cespitose); densely pubescent, trichomes rays (appressed on leaves, ascending on pedicels and fruits), distinct, furcate or bifurcate. Stems several from base, decumbent to erect or ascending (unbranched), 1–2.5 dm. Basal leaves: (outer ones spreading, inner erect or ascending); blade ovate, often broadly so, 4–7 cm, margins repand to lyrate-lobed. Cauline leaves similar to basal, blade oblanceolate or narrowly oblong, reduced in size, (base gibbous). Racemes loose, (elongated). Fruiting pedicels (ascending to divaricate-ascending, sigmoid to nearly straight), 10–17 mm. Flowers: sepals lanceolate or narrowly oblong, 5.8–7.2 mm; petals (erect, sometime purplish or drying purple), narrowly oblong to oblanceolate, 7–10 mm, (not or weakly clawed). Fruits didymous, globose or subglobose, inflated, 10–13 mm, (papery, basal and apical sinuses deep); valves (retaining seeds after dehiscence), pubescent, trichomes ascending, appearing fuzzy; replum oblong to oblanceolate, as wide as or wider than fruit, apex obtuse; ovules 4 per ovary; style (4–)5–7 mm. Seeds plump, (suborbicular).</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>sagebrush</habitat>
-  <habitat>pinyon-juniper</habitat>
-  <habitat>ponderosa pine</habitat>
-  <habitat>douglas-fir, limber pine communities on clay</habitat>
-  <habitat>or a mixture of shale fragments and clay</habitat>
-  <elevation>2100–2900 m;</elevation>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species grahamii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">acutifolia</taxon_name>
+    <taxon_name rank="variety" authority="S. L. Welsh &amp; Reveal" date="unknown">purpurea</taxon_name>
+    <taxon_hierarchy>genus Physaria;species acutifolia;variety purpurea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">acutifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Rollins) S. L. Welsh" date="unknown">repanda</taxon_name>
+    <taxon_hierarchy>genus Physaria;species acutifolia;variety repanda;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">repanda</taxon_name>
+    <taxon_hierarchy>genus Physaria;species repanda;</taxon_hierarchy>
+  </taxon_identification>
+  <number>38.</number>
+  <other_name type="common_name">Graham’s twinpod</other_name>
   <discussion>Physaria grahamii is difficult to evaluate due to the paucity of collections. The tentative recognition by N. H. Holmgren (2005b) is followed here.</discussion>
-</treatment>
+</bio:treatment>

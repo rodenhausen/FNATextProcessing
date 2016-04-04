@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>FLOERKEA</genus_name>
-    <genus_authority>Willdenow</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Willdenow" date="unknown">FLOERKEA</taxon_name>
     <place_of_publication>
       <publication_title>Ges. Naturf. Freunde Berlin Neue Schriften</publication_title>
       <place_in_publication>3: 448. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Heinrich Gustav Floerke, 1764–1835, German lichenologist]</etymology>
-  <author>Gordon C. Tucker</author>
-  <description>Stems decumbent to erect. Leaves ternate or pinnately lobed; leaflet blade oblanceolate to elliptic, sometimes 2–3-parted, margins entire. Pedicels spreading or nodding. Flowers: sepals 3, lanceolate to ovate-lanceolate; petals 3, shorter than sepals; nectary glands antisepalous; stamens 3 or 6; ovary 3-lobed. Fruits mericarps, ovoid-globose, tuberculate or rugulose (especially distally). x = 5.</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus FLOERKEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Heinrich Gustav Floerke, 1764–1835, German lichenologist]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species 1:</discussion>
   <references>
     <reference>Houle, G., M. F. McKenna, and L. Lapointe. 2001. Spatiotemporal dynamics of Floerkea proserpinacoides (Limnanthaceae), an annual plant of the deciduous forest of eastern North America. Amer. J. Bot. 88: 594–607.</reference>
   </references>
-</treatment>
+</bio:treatment>

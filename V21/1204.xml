@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Conoclinium</genus_name><species_name>betonicifolium</species_name><species_authority>(Miller) R. M. King &amp; H. Robinson</species_authority><variety_name>betonicifolium</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Conoclinium</genus_name><species_name>betonicum</species_name><species_authority>de Candolle</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eupatorium</genus_name><species_name>betonicum</species_name><species_authority>(de Candolle) Hemsley</species_authority></TaxonIdentification><description>Leaf blades mostly oblong to oblong-lanceolate, bases cordate to truncate (often subauriculate), margins crenate.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>coastal dunes</habitat><habitat>beaches</habitat><habitat>sandy loam</habitat><habitat>roadside ditches</habitat><habitat>edges of woods</habitat><habitat>salt marshes</habitat><elevation>0–10 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conoclinium</taxon_name>
+    <taxon_name rank="species" authority="(Miller) R. M. King &amp; H. Robinson" date="unknown">betonicifolium</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">betonicifolium</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Conoclinium;species betonicifolium;variety betonicifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conoclinium</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">betonicum</taxon_name>
+    <taxon_hierarchy>genus Conoclinium;species betonicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Hemsley" date="unknown">betonicum</taxon_name>
+    <taxon_hierarchy>genus Eupatorium;species betonicum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
+</bio:treatment>

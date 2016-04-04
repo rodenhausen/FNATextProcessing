@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agrostemma</genus_name><species_name>githago</species_name><species_authority>Linnaeus</species_authority><place_of_publication>
-    <publication_title>Sp. Pl.</publication_title>
-    <place_in_publication>1: 435. 1753</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Common corncockle</common_name><common_name>nielle</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Lychnis</genus_name><species_name>githago</species_name><species_authority>(Linnaeus) Scopoli</species_authority></TaxonIdentification><number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>Eurasia</global_distribution><global_distribution>introduced in South America</global_distribution><global_distribution>s Africa</global_distribution><global_distribution>Pacific Islands (New Zealand)</global_distribution><global_distribution>Australia.</global_distribution><discussion>Formerly a common weed of grain fields, Agrostemma githago is becoming increasingly scarce, both in North America and in its native environs in Europe (R. Svensson and M. Wigren 1986). Mechanical screening of grain, which removes contaminants, and modern herbicides have more or less eliminated the plant from grain fields in the flora. The saponin-containing seeds, occurring as contaminants in grain, are poisonous to livestock, birds, and humans. This species is sometimes cultivated in flower gardens.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Caryophylloideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agrostemma</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">githago</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 435. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Caryophylloideae;genus Agrostemma;species githago;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lychnis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Scopoli" date="unknown">githago</taxon_name>
+    <taxon_hierarchy>genus Lychnis;species githago;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Common corncockle</other_name>
+  <other_name type="common_name">nielle</other_name>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+  <discussion>Formerly a common weed of grain fields, Agrostemma githago is becoming increasingly scarce, both in North America and in its native environs in Europe (R. Svensson and M. Wigren 1986). Mechanical screening of grain, which removes contaminants, and modern herbicides have more or less eliminated the plant from grain fields in the flora. The saponin-containing seeds, occurring as contaminants in grain, are poisonous to livestock, birds, and humans. This species is sometimes cultivated in flower gardens.</discussion>
+</bio:treatment>

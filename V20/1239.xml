@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>25a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>flaccidus</species_name><species_authority>Lessing</species_authority><variety_name>flaccidus</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>douglasii</species_name><species_authority>de Candolle</species_authority><variety_name>jamesii</variety_name><variety_authority>(Torrey &amp; A. Gray) Ediger ex Correll &amp; M. C. Johnston</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>douglasii</species_name><variety_name>longilobus</variety_name><variety_authority>(Bentham) L. D. Benson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>longilobus</species_name><species_authority>Bentham</species_authority></TaxonIdentification><description>herbage usually tomentose (hairs whitish), sometimes unevenly glabrescent. calyculi: bractlets minute or 0. involucres cylindric or weakly campanulate. phyllaries ± 13 (± 21), 5– 8+ mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>Dry, open sandy or rocky plains, streambeds, and canyons;</habitat><elevation>800–2400 m</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>Kans.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Okla.</us_distribution><us_distribution>Tex.</us_distribution><us_distribution>Utah</us_distribution><global_distribution>Mexico.</global_distribution><discussion>Senecio flaccidus var. flaccidus intergrades at least to some extent with var. monoensis in areas of overlapping ranges; a case could be made for treating the two as distinct species, as done by A. Cronquist (1994).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">flaccidus</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey &amp; A. Gray) Ediger ex Correll &amp; M. C. Johnston" date="unknown">flaccidus</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species flaccidus;variety flaccidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) L. D. Benson" date="unknown">jamesii</taxon_name>
+    <taxon_hierarchy>genus Senecio;species douglasii;variety jamesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">longilobus</taxon_name>
+    <taxon_hierarchy>genus Senecio;species douglasii;variety longilobus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">longilobus</taxon_name>
+    <taxon_hierarchy>genus Senecio;species longilobus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25a.</number>
+  <discussion>Senecio flaccidus var. flaccidus intergrades at least to some extent with var. monoensis in areas of overlapping ranges; a case could be made for treating the two as distinct species, as done by A. Cronquist (1994).</discussion>
+</bio:treatment>

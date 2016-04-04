@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>131a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erigeron</genus_name><species_name>peregrinus</species_name><species_authority>(Banks ex Pursh) Greene</species_authority><variety_name>peregrinus</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erigeron</genus_name><species_name>peregrinus</species_name><variety_name>dawsonii</variety_name><variety_authority>Greene</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erigeron</genus_name><species_name>unalaschkensis</species_name><species_authority>Lessing</species_authority></TaxonIdentification><description>Leaf faces hirsute to hirsuto-villous, less commonly glabrate or glabrous. Peduncles hirsute to hirsuto-villous (hairs sometimes deflexed) to finely hirsutulous. Phyllaries: margins ciliate, abaxial faces moderately to densely hirsute to hirsuto-villous, essentially eglandular. Ray corollas purplish to pink or white.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>meadows</habitat><habitat>openings in subalpine thickets</habitat><elevation>1500–3000 m;</elevation><ca_distribution>Alta.</ca_distribution><ca_distribution>B.C.</ca_distribution><ca_distribution>Yukon</ca_distribution><us_distribution>Alaska.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="(Banks ex Pursh) Greene" date="unknown">peregrinus</taxon_name>
+    <taxon_name rank="variety" authority="Greene" date="unknown">peregrinus</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species peregrinus;variety peregrinus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">peregrinus</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">dawsonii</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species peregrinus;variety dawsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">unalaschkensis</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species unalaschkensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>131a.</number>
+</bio:treatment>

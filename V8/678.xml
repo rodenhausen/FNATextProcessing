@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Styrax</genus_name>
-    <species_name>platanifolius</species_name>
-    <species_authority>Engelmann ex Torrey</species_authority>
-    <subspecies_name>youngiae</subspecies_name>
-    <subspecies_authority>(Cory) P. W. Fritsch</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex Torrey" date="unknown">platanifolius</taxon_name>
+    <taxon_name rank="subspecies" authority="(Cory) P. W. Fritsch" date="unknown">youngiae</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Missouri Bot. Gard.</publication_title>
       <place_in_publication>84: 744.  1998  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Young’s snowbell</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>youngiae</species_name>
-    <species_authority>Cory</species_authority>
+    <taxon_hierarchy>family STYRACACEAE;genus Styrax;species platanifolius;subspecies youngiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Cory" date="unknown">youngiae</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>7: 113.  1943 (as youngae)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>platanifolius</species_name>
-    <variety_name>youngiae</variety_name>
-    <variety_authority>(Cory) B. L. Turner</variety_authority>
-  </TaxonIdentification>
-  <description>Young twigs densely white stellate-pubescent and with scattered, orange-brown or dark-brown, stalked, stellate hairs proximally.  Leaf blades: margins often undulate, entire or coarsely toothed, abaxial surface with white, stellate-lanate pubescence in addition to scattered orange-brown or dark-brown, stalked, stellate hairs of various lengths on some leaves, surface completely covered and obscured by pubescence, adaxial surface with scattered, stellate hairs.  Pedicels white stellate-lanate.  Flowers: calyx with thick layer of white stellate-lanate hairs, margins and teeth sparsely glandular, teeth to 0.6 mm, usually shorter; style hairy from proximal end to 60–80% of total length.</description>
-  <phenology>Flowering Apr–May; fruiting Jul–Sep</phenology>
-  <habitat>Igneous substrates [limestone]</habitat>
-  <conservation>of conservation concern</conservation>
-  <global_distribution>elevation unknown [900–2000 m]</global_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
+    <taxon_hierarchy>genus Styrax;species youngiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">platanifolius</taxon_name>
+    <taxon_name rank="variety" authority="(Cory) B. L. Turner" date="unknown">youngiae</taxon_name>
+    <taxon_hierarchy>genus Styrax;species platanifolius;variety youngiae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4d.</number>
+  <other_name type="common_name">Young’s snowbell</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Plants of subsp. youngiae in the Davis Mountains, at the only known locality in the United States (“Limpia; canyon”), have not been rediscovered.  The Davis range consists primarily of igneous rocks; V. L. Cory (1943) assumed that the type came from an igneous rather than a limestone substrate.  All subsequent collections of subsp. youngiae that document substrate have come from limestone.  Limestone does occur sparsely in the Davis Mountains and all other subspecies of Styrax platanifolius apparently grow exclusively on limestone or limestone derivatives; subsp. youngiae may occur only on limestone substrates as well.</discussion>
-</treatment>
+</bio:treatment>

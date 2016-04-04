@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ASCHISMA</genus_name>
-    <genus_authority>Lindberg</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Richard H. Zander</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Lindberg" date="unknown">ASCHISMA</taxon_name>
     <place_of_publication>
       <publication_title>Utkast Eur. Bladmoss.,</publication_title>
       <place_in_publication>28.  1878  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek, a-, not or without, and schisma, split, alluding to indehiscent capsule]</etymology>
-  <author>Richard H. Zander</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Phascum</genus_name>
-    <subgenus_name>Aschisma</subgenus_name>
-    <subgenus_authority>(Lindberg) Kindberg</subgenus_authority>
-  </TaxonIdentification>
-  <description>Plants small, gregarious or forming a thin mat, green.  Stems ca. 0.2 mm, branching seldom; rounded-pentagonal in transverse section, hyalodermis absent, sclerodermis absent, central strand present, weak; rhizoids absent; axillary hairs ca. 3 cells in length, basal cell thick-walled.  Leaves incurved, tubulose when dry, weakly spreading when moist; oblong or triangular to short-lanceolate, often falcate or concave, adaxial surface broadly channeled, 0.6–1 mm; base little differentiated in shape; distal margins plane to recurved, entire to sharply serrulate beyond mid leaf, bordered beyond middle, proximally or throughout by 1–3 rows weakly papillose, elongate cells; apex broadly or rounded acute, costa excurrent as a sharp mucro, occasionally rough or denticulate, adaxial outgrowths absent, adaxial cells elongate, in 2-4 rows, transverse section circular, adaxial epidermis absent, adaxial stereid band present, substereid, guide cells 2–4 in 1 layer, hydroid strand absent or present, abaxial stereid band present, often substereid, elliptical in section, abaxial epidermis absent; basal cells strongly differentiated, rising higher along margins in a V, rectangular, little wider than distal cells, 3–5:1, walls of basal cells very thin to evenly thickened; distal medial cells quadrate to occasionally short-rectangular,  9–12 µm wide, 1:1(–2), papillae stout, 2-fid, crowded, scattered or centered over lumens, cell walls evenly thickened, flat or bulging only ventrally or on both exposed surfaces.  Specialized asexual reproduction absent.  Sexual condition monoicous (paroicous or stalked autoicous bud at base of perichaetial plant); perichaetia terminal, interior leaves not sheathing, long-elliptic, to 1.5 mm.  Seta hyaline, very short, ca. 50 µm, straight.  Capsule yellowish brown, spheric, about 0.3 mm, with a small blunt apiculus of ca. 30 µm, annulus absent; operculum absent; peristome teeth absent.  Calyptra short-triangular, split once or twice, 0.2–0.3 mm, rough.  Spores 18–24 µm, essentially smooth to spiculose-papillose, yellowish brown.  KOH laminal color reaction yellow.</description>
-  <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-  <us_distribution>Kansas</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus ASCHISMA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek, a-, not or without, and schisma, split, alluding to indehiscent capsule]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="subgenus" authority="(Lindberg) Kindberg" date="unknown">Aschisma</taxon_name>
+    <taxon_hierarchy>genus Phascum;subgenus Aschisma;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <discussion>Species 2 (1 in the flora):</discussion>
   <discussion>Aschisma is widely distributed in the Mediterranean area, and is disjunctive to central North America.  It is found in dry climates on soil.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Andrews, A. L.  1915.  Aschisma kansanum, a new species, with remarks upon the genus.  Torreya 15: 63–67.</reference>
     <reference>Cridland, A. A.  1959.  The habitat of Aschisma kansanum.  Bryologist 62: 132–135.</reference>
     <reference>Smith, Gary L.  1990.  What in the world is “Aschisma”?  Aschisma 1: 2.</reference>
   </references>
-</treatment>
+</bio:treatment>

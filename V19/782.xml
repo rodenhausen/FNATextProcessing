@@ -1,55 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hesperevax</genus_name>
-    <species_name>sparsiflora</species_name>
-    <species_authority>(A. Gray) Greene</species_authority>
-    <variety_name>brevifolia</variety_name>
-    <variety_authority>(A. Gray) Morefield</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperevax</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">sparsiflora</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Morefield" date="unknown">brevifolia</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Bot.</publication_title>
       <place_in_publication>17: 302. 1992</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species sparsiflora;variety brevifolia;</taxon_hierarchy>
-  <common_name>Seaside or short-leaved evax</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>caulescens</species_name>
-    <species_authority>(Bentham) A. Gray</species_authority>
-    <variety_name>brevifolia</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species sparsiflora;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) A. Gray" date="unknown">caulescens</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">brevifolia</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>1(2): 229. 1884</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>sparsiflora</species_name>
-    <species_authority>(A. Gray) Jepson</species_authority>
-    <variety_name>brevifolia</variety_name>
-    <variety_authority>(A. Gray) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants ± greenish, mostly 3–9 cm. Leaves cauline, largest 6–12(–14) × 3–5(–6) mm; blades ± round, ± densely lanuginose. Heads: longest 3–3.7 mm. Pistillate paleae 2.5–3.7 mm. Cypselae mostly 1–1.7 mm.</description>
-  <phenology_info>
-    <text>Flowering and fruiting late Mar–early Jul.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy , grassy or wooded coastal bluffs , terraces , dunes ;</text>
-    <habitat>sandy , grassy or wooded coastal bluffs</habitat>
-    <habitat>terraces</habitat>
-    <habitat>dunes</habitat>
-  </habitat_info>
-  <elevation>0–300 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Evax;species caulescens;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Jepson" date="unknown">sparsiflora</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Jepson" date="unknown">brevifolia</taxon_name>
+    <taxon_hierarchy>genus Evax;species sparsiflora;variety brevifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">Seaside or short-leaved evax</other_name>
   <discussion>Variety brevifolia occurs in a coastal band from the San Francisco Bay area to southwestern Oregon. It is of potential conservation concern in both states. See discussion under Hesperevax acaulis var. robustior.</discussion>
-</treatment>
-
+</bio:treatment>

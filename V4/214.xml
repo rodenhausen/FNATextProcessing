@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cylindropuntia</genus_name><species_name>imbricata</species_name><species_authority>(Haworth) F. M. Knuth</species_authority><variety_name>argentea</variety_name><variety_authority>(M. S. Anthony) Backeberg</variety_authority><place_of_publication>
-    <publication_title>Cactaceae</publication_title>
-    <place_in_publication>1: 195. 1958</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Opuntia</genus_name><species_name>imbricata</species_name><species_authority>(Haworth) de Candolle</species_authority><variety_name>argentea</variety_name><variety_authority>M. S. Anthony</variety_authority><place_of_publication><publication_title>Amer. Midl. Naturalist </publication_title><place_in_publication>55: 236, fig. 7. 1956</place_in_publication></place_of_publication></TaxonIdentification><description>Shrubs, densely branched, to 1.2 m. Stem segments 10–20 cm; tubercles close set. Spines and sheaths silvery. 2n = 22.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>may</phenology><phenology>apr</phenology><habitat>chi-huahuan desert scrub with lechuguilla and sotol, rocky limestone slopes</habitat><habitat>flats</habitat><habitat>ridges</habitat><conservation>of conservation concern;</conservation><elevation>600–700 m;</elevation><us_distribution>Tex.</us_distribution><discussion>Cylindropuntia imbricata var. argentea is a narrow endemic within the Big Bend region, Texas.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cylindropuntia</taxon_name>
+    <taxon_name rank="species" authority="(Haworth) F. M. Knuth" date="unknown">imbricata</taxon_name>
+    <taxon_name rank="variety" authority="(M. S. Anthony) Backeberg" date="unknown">argentea</taxon_name>
+    <place_of_publication>
+      <publication_title>Cactaceae</publication_title>
+      <place_in_publication>1: 195. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Cylindropuntia;species imbricata;variety argentea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="(Haworth) de Candolle" date="unknown">imbricata</taxon_name>
+    <taxon_name rank="variety" authority="M. S. Anthony" date="unknown">argentea</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Midl. Naturalist</publication_title>
+      <place_in_publication>55: 236, fig. 7. 1956</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species imbricata;variety argentea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Cylindropuntia imbricata var. argentea is a narrow endemic within the Big Bend region, Texas.</discussion>
+</bio:treatment>

@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>solitaria</species_name>
-    <species_authority>Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">solitaria</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>24: 304. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species solitaria;</taxon_hierarchy>
-  <common_name>Singlehead pussytoes</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>plantaginifolia</species_name>
-    <species_authority>(Linnaeus) Richardson</species_authority>
-    <variety_name>monocephala</variety_name>
-    <variety_authority>Torrey &amp; A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species solitaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Richardson" date="unknown">plantaginifolia</taxon_name>
+    <taxon_name rank="variety" authority="Torrey &amp; A. Gray" date="unknown">monocephala</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>2: 431. 1843,</place_in_publication>
-      <other_info>not A. monocephala de Candolle 1838</other_info>
+      <other_info_on_pub>not A. monocephala de Candolle 1838</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>monocephala</species_name>
-    <species_authority>(Torrey &amp; A. Gray) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Dioecious. Plants 2–25(–35) cm. Stolons 5.5–20 cm (filiform). Basal leaves: 3–5-nerved, obovate to broadly oblong-spatulate, 20–75 × 15–45 mm, tips mucronate, abaxially tomentose, adaxially gray-pubescent to floccose-glabrate. Cauline leaves linear, 1–17 mm, distal flagged. Heads borne singly. Involucres: staminate 8–11 mm; pistillate 8–14 mm. Phyllaries (bases green or brown) distally white. Corollas: staminate 3.8–5.5 mm; pistillate 4.5–7 mm. Cypselae 1–2 mm, papillate; pappi: staminate 4.5–7 mm; pistillate 6–9 mm. 2n = 28.</description>
-  <habitat_info>
-    <text>slopes or stream banks in moist , rich , deciduous woodlands , forests , sometimes forest openings ;</text>
-    <habitat>slopes or stream banks in moist , rich , deciduous woodlands , forests , forest openings</habitat>
-  </habitat_info>
-  <elevation>0–1500 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>genus Antennaria;species plantaginifolia;variety monocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Greene" date="unknown">monocephala</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species monocephala;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+  <other_name type="common_name">Singlehead pussytoes</other_name>
   <discussion>With its relatively large, 3–5-nerved, basal leaves and relatively large heads borne singly, Antennaria solitaria is an easily recognized amphimictic member of the Catipes group (R. J. Bayer and G. L. Stebbins 1982). It is a sexual diploid progenitor of the A. parlinii polyploid complex.</discussion>
-  <phenology_info>
-    <text>Flowering early–mid spring.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

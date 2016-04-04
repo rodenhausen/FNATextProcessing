@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>35b</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <species_name>serenana</species_name>
-        <species_authority>A. Nelson ex Abrams</species_authority>
-        <variety_name>davidsonii</variety_name>
-        <variety_authority>(Standley) Munz</variety_authority>
-        <place_of_publication>
-            <publication_title>Man. S. Calif. Bot.,</publication_title>
-            <place_in_publication>598. 1935</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Davidson’s orach</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>davidsonii</species_name>
-        <species_authority>Standley</species_authority>
-        <place_of_publication>
-            <publication_title>in N. L. Britton et al., N. Amer. Fl. </publication_title>
-            <place_in_publication>21: 57. 1 916</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Staminate inflorescences of solitary, terminal, subglobose glomerules. Fruiting
-        bracteole 3-veined, 2.5–3.5 × 2.4–3.7 mm.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>bluffs</habitat>
-    <habitat>alkaline sinks and drainages</habitat>
-    <elevation>10–500 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-    <discussion>L. Abrams and R. S. Ferris (1923–1960, vol. 2) maintained this taxon at the specific
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson ex Abrams" date="unknown">serenana</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) Munz" date="unknown">davidsonii</taxon_name>
+    <place_of_publication>
+      <publication_title>Man. S. Calif. Bot.,</publication_title>
+      <place_in_publication>598. 1935</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species serenana;variety davidsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">davidsonii</taxon_name>
+    <place_of_publication>
+      <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
+      <place_in_publication>21: 57. 1 916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Atriplex;species davidsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>35b</number>
+  <other_name type="common_name">Davidson’s orach</other_name>
+  <discussion>L. Abrams and R. S. Ferris (1923–1960, vol. 2) maintained this taxon at the specific
         level; however, apart from the more apparently veined fruiting bracteoles and reduced
         staminate inflorescence, var. davidsonii is otherwise identical to var. serenana. It is
         often found growing with seepweed, samphire, numerous salt-tolerant annuals, other saltbush
         species.</discussion>
-</treatment>
+</bio:treatment>

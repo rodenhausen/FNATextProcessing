@@ -1,49 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>caroliniana</species_name>
-    <species_authority>(Rosendahl, Butters &amp; Lakela) E. F. Wells</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="(Rosendahl, Butters &amp; Lakela) E. F. Wells" date="unknown">caroliniana</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>81: 575. 1979 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Carolina alum-root</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>caroliniana</variety_name>
-    <variety_authority>Rosendahl, Butters &amp; Lakela</variety_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species caroliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="Rosendahl, Butters &amp; Lakela" date="unknown">caroliniana</taxon_name>
     <place_of_publication>
       <publication_title>Minnesota Stud. Pl. Sci.</publication_title>
       <place_in_publication>2: 59. 1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs acaulescent; caudex branched. Flowering stems leafy, 30–105 cm, short
-        stipitate-glandular. Leaves: petiole glabrous or short stipitate-glandular; blade broadly
-        ovate, shallowly 5-lobed, 3–10.5 cm, base cordate or nearly truncate, lobes rounded or
-        ovate, margins dentate, apex acute or obtuse, surfaces glabrous or minutely
-        stipitate-glandular on veins abaxially, glabrous or short stipitate-glandular adaxially.
-        Inflorescences diffuse. Flowers: hypanthium weakly bilaterally symmetric, free 1.3–2.5 mm,
-        green, subglobose, abruptly inflated distal to adnation to ovary, 2.8–4.5 mm, short
-        stipitate-glandular; sepals erect, green-tipped, equal, 0.4–1.5 mm, apex rounded; petals
-        erect, white or pink, broadly spatulate, unlobed, 0.6–1 mm, margins entire; stamens exserted
-        0.2–1.5 mm; styles included from 1 mm to exserted 1.1 mm, 1–3.5 mm, to 0.1 mm diam; (stigmas
-        from 0.5 mm included to 1.1 mm exserted). Capsules ovoid, 4–7 mm, beaks divergent, not
-        papillose. Seeds dark brown, ellipsoid, 0.5–0.8 mm. 2n = 14.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Rich upland woods on base-saturated substrates, basic dikes and basic rock
-        outcroppings</habitat>
-  <elevation>30–300 m</elevation>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species americana;variety caroliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Carolina alum-root</other_name>
   <discussion>The geographic range of Heuchera caroliniana is contiguous with and appears to be a
         southern extension of that of H. pubescens. Heuchera americana var. americana occurs in
         counties adjacent to the range of H. caroliniana but they are sympatric only along the
         boundary; intergradation between the two is infrequent. Mixed populations of H. caroliniana
         and H. americana var. americana have not been seen.</discussion>
-</treatment>
+</bio:treatment>

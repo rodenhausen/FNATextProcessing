@@ -1,53 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Pereskia</genus_name>
-        <species_name>aculeata</species_name>
-        <species_authority>Miller</species_authority>
-        <place_of_publication>
-            <publication_title>Gard. Dict. ed.</publication_title>
-            <place_in_publication>8. 1768</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Lemon vine</common_name>
-    <common_name>blade apple cactus</common_name>
-    <common_name>Barbados gooseberry</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Cactus</genus_name>
-        <species_name>pereskia</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>1: 469. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Shrubs or vines, clambering, 3–10 m. Stems to 3 cm diam., spiny; areoles to 15 mm
-        diam., largest on basal portion of stem. Leaves lanceolate to ovate or oblong, 4.5–11 ×
-        1.5–5 cm, 0.5–1 mm thick. Spines of 2 kinds; primary spines (= first formed) 2 per areole,
-        recurved, clawlike, 4–8 mm; secondary spines to 25 per older areole, straight, 10–35 mm.
-        Flowers to 70 in terminal or lateral inflorescences, fragrant, 3 × 2.5–5 cm; pedicels 5–15
-        mm; tepals perigynous; scales and areoles on prominent to inconspicuous tubercles; perianth
-        whitish to light pink. Fruits yellow to orange, spheric, not angled, 40 × 15–25 mm, never
-        proliferating. Seeds lenticular, 4.5–5 mm diam., glossy. 2n = 22.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>fall</phenology>
-    <phenology>nov</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <habitat>disturbed shell middens (fla.), riparian woodlands with fine, sandy loam (tex.)</habitat>
-    <elevation>0–50 m;</elevation>
-    <introduced>introduced;</introduced>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>West Indies</global_distribution>
-    <global_distribution>South America.</global_distribution>
-    <discussion>Pereskia aculeata is cultivated as an ornamental, both for its edible fruits and
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Engelmann" date="unknown">Pereskioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pereskia</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">aculeata</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Dict. ed.</publication_title>
+      <place_in_publication>8. 1768</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Pereskioideae;genus Pereskia;species aculeata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cactus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">pereskia</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 469. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cactus;species pereskia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Lemon vine</other_name>
+  <other_name type="common_name">blade apple cactus</other_name>
+  <other_name type="common_name">Barbados gooseberry</other_name>
+  <discussion>Pereskia aculeata is cultivated as an ornamental, both for its edible fruits and
         fragrant flowers (though the scent is considered unpleasant by some). The species has
         escaped from cultivation in seven counties in Florida: Brevard, Dade, Indian River, Manatee,
         Highlands, St. Lucie, and Palm Beach, and it is established in Willacy County, near the
         southernmost tip of Texas (J. Ideker 1996).</discussion>
-</treatment>
+</bio:treatment>

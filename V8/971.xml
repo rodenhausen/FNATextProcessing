@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>36.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PIERIS</genus_name>
-    <genus_authority>D. Don</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Walter S. Judd</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="D. Don" date="unknown">PIERIS</taxon_name>
     <place_of_publication>
       <publication_title>Edinburgh New Philos. J.</publication_title>
       <place_in_publication>17: 159.  1834  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin name for one of the Muses]</etymology>
-  <author>Walter S. Judd</author>
+    <taxon_hierarchy>family ERICACEAE;genus PIERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin name for one of the Muses]</other_info_on_name>
+  </taxon_identification>
+  <number>36.</number>
   <discussion>Ampelothamnus Small; Arcterica Coville; Portuna Nuttall</discussion>
-  <description>Shrubs [trees] or vines.  Stems ± erect; twigs multicellular stipitate-glandular-hairy and, sometimes, conspicuously strigose (hairs elongate, stiff, long-celled, eglandular), otherwise sparsely to densely unicellular-hairy.  Leaves persistent or deciduous, alternate, sometimes pseudoverticillate [in whorls of 3]; blade ovate, elliptic, or slightly obovate, coriaceous, margins obscurely to clearly toothed or serrulate [entire], plane or revolute, surfaces multicellular, short-stalked stipitate-glandular-hairy (along with, in P. floribunda, stout, elongate hairs associated with marginal teeth, and unicellular-hairy on midvein adaxially); venation brochidodromous to reticulodromous (veins of varied thickness and conspicuousness).  Inflorescences axillary or terminal panicles or racemes, 15–35-flowered, (borne the year preceding flowering).  Pedicels: bracteoles 2, proximal or distal.  Flowers: sepals 5, slightly connate, ovate [oblong-lanceolate]; petals 5, connate for nearly their entire lengths, white, corolla urceolate to cylindric-urceolate, lobes short; stamens 10, included; filaments straight or geniculate, glabrous or hairy, with 2 stout, minutely papillose spurs at anther-filament junction; anthers without awns, dehiscent by elliptic pores; pistil 5-carpellate; ovary 5-locular; stigma capitate.  Fruits capsular, subglobose or globose to ovoid, (with unthickened sutures), dry.  Seeds 40–100, ellipsoidal to obovoid, ± rectangular or angular-ovoid, or narrowly conic, flattened or not, (sometimes slightly winged); testa cells elongate or isodiametric.  x = 12.</description>
-  <number_of_infrataxa>Species 7 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States</global_distribution>
-  <global_distribution>West Indies (Cuba)</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
-  <references heading="SELECTED REFERENCES">
+  <discussion>Species 7 (2 in the flora):</discussion>
+  <references>
     <reference>Judd, W. S.  1982.  A taxonomic revision of Pieris (Ericaceae).  J. Arnold Arbor. 63: 103–144.</reference>
     <reference>Setoguchi, H., W. Watanabe, Y. Maeda, and C. I. Peng.  2008.  Molecular phylogeny of the genus Pieris (Ericaceae) with special reference to phylogenetic relationships of insular plants on the Ryukyu Islands.  Pl. Syst. Evol. 270: 217–230.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences axillary racemes; capsules with placentae central to nearly basal; styles strongly sunken into ovary apex; seeds with isodiametric testa cells; filaments geniculate, glabrous; twigs multicellular stipitate-glandular-hairy</statement>
+      <description type="morphology">Inflorescences axillary racemes; capsules with placentae central to nearly basal; styles strongly sunken into ovary apex; seeds with isodiametric testa cells; filaments geniculate, glabrous; twigs multicellular stipitate-glandular-hairy</description>
       <determination>1.   Pieris phillyreifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences terminal panicles; capsules with placentae subapical; styles slightly sunken into ovary apex; seeds with elongated testa cells; filaments straight, hairy; twigs multicellular stipitate-glandular-hairy and conspicuously strigose (hairs stout, elongate)</statement>
+      <description type="morphology">Inflorescences terminal panicles; capsules with placentae subapical; styles slightly sunken into ovary apex; seeds with elongated testa cells; filaments straight, hairy; twigs multicellular stipitate-glandular-hairy and conspicuously strigose (hairs stout, elongate)</description>
       <determination>2.   Pieris floribunda</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

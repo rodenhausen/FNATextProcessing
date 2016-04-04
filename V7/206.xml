@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_hierarchy>family LIMNANTHACEAE;</taxon_hierarchy>
+  </taxon_identification>
   <number>0</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>LIMNANTHACEAE</family_name>
-    <family_authority>R. Brown</family_authority>
-  </TaxonIdentification>
-  <common_name>Meadowfoam Family</common_name>
-  <author>Gordon C. Tucker</author>
-  <description>Herbs, annual; glabrous or pubescent (not glandular; producing glucosinolates). Stems erect, decumbent, or sprawling; unbranched. Leaves alternate, simple or compound; venation pinnate; stipules absent; petiole present; blade margins entire or pinnately lobed, bipinnate, or ternate. Inflorescences axillary, flowers solitary; bracts absent. Pedicels present. Flowers usually bisexual, usually actinomorphic, rotate; perianth and androecium hypogynous; sepals usually persistent, 3 or 5 (4 in Limnanthes macounii), distinct or slightly connate basally, equal or unequal; petals same number as sepals, convolute in bud, distinct, equal; nectary glands present; stamens 3, 6, 8, or 10 (same or twice the number of sepals); filaments distinct, glabrous; anthers dehiscing by longitudinal slits, introrse or extrorse, tetrasporangiate, pollen shed in single grains, binucleate, 2–4-aperturate, colpate or colporate; disc absent; gynophore absent; pistil 1; ovary 2–5-carpellate, syncarpous basally (united by gynobasic style); placentation basal; ovules 1 per locule, anatropous, unitegmic; style 1 (gynobasic); stigmas (2 or) 3–5 (dry, papillate). Fruits schizocarps (mericarps or nutlets), tuberculate, ridged, smooth, or rugulose. Seeds 1; not arillate; endosperm absent.</description>
-  <number_of_infrataxa>Genera 2, species 8 (8 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+  <other_name type="common_name">Meadowfoam Family</other_name>
+  <discussion>Genera 2, species 8 (8 in the flora):</discussion>
   <discussion>Placement of Limnanthaceae in Brassicales is supported by molecular and chemical data, especially the presence of mustard oils. Traditionally (A. Cronquist 1981), the family has been associated with the Geraniaceae in the Geraniales because of the similarity of habit and floral structure, especially the fruits that separate into mericarps, as do those in Geraniaceae.</discussion>
   <discussion>Limnanthaceae are endemic to North America. The greatest diversity is in California, where most of the species of Limnanthes occur. Floerkea, with a single species, occurs widely across the continent; it is barely present in the southeastern United States.</discussion>
   <references>
@@ -22,13 +25,13 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals and sepals 3; petals shorter than sepals; stamens 3 or 6</statement>
+      <description type="morphology">Petals and sepals 3; petals shorter than sepals; stamens 3 or 6</description>
       <determination>1. Floerkea , p. 173</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals and sepals (4 or) 5; petals usually longer than sepals; stamens 8 or 10</statement>
+      <description type="morphology">Petals and sepals (4 or) 5; petals usually longer than sepals; stamens 8 or 10</description>
       <determination>2. Limnanthes , p. 173</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

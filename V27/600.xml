@@ -1,43 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kiaeria</genus_name>
-    <species_name>falcata</species_name>
-    <species_authority>(Hedwig) I. Hagen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kiaeria</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) I. Hagen" date="unknown">falcata</taxon_name>
     <place_of_publication>
       <publication_title>Kongel. Norske Vidensk. Selsk. Skr. (Trondheim)</publication_title>
       <place_in_publication>1914: 112.  1915,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>falcatum</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Kiaeria;species falcata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">falcatum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>150.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctoa</genus_name>
-    <species_name>falcata</species_name>
-    <species_authority>(Hedwig) Loeske</species_authority>
-  </TaxonIdentification>
-  <description>Plants in low, dense tufts, green, dull.  Stems 1–2(–4) cm.  Leaves mostly falcate-secund, lanceolate, gradually subulate, 2–3(–4 mm), margins distally 1-stratose; costa 50–60 µm wide at base; distal laminal cells mostly rectangular (1–2:1), occasionally subquadrate, 7–9 µm wide, slightly papillose; basal laminal cells elongate, smooth, sometimes porose, alar cells gradually differentiated.  Perichaetial leaves similar to the cauline.  Perigonia sessile, located just below or occasionally distant from perichaetia.  Capsule not ribbed when dry, urn 0.8–1.2 mm.  Spores 12–19 µm.</description>
-  <habitat>Acid rock or sandy soil;</habitat>
-  <elevation>alpine elevations;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species falcatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctoa</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Loeske" date="unknown">falcata</taxon_name>
+    <taxon_hierarchy>genus Arctoa;species falcata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
   <discussion>Kiaeria falcata is often found on horizontal rock surfaces in late-summer snowmelt areas.  It grows in denser tufts than any other species of the genus.  The epithet “falcata” refers to its falcate leaves, a character shared with K. starkei separating both species from K. blyttii.  It is distinguished from K. starkei by its shorter, non-ribbed capsules and horizontal rather than vertical rock habitat.</discussion>
-</treatment>
+</bio:treatment>

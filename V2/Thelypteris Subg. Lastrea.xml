@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1c</number><TaxonIdentification Status="ACCEPTED"><genus_name>Thelypteris</genus_name><subgenus_name>Lastrea</subgenus_name><subgenus_authority>(Hooker) Alston</subgenus_authority><place_of_publication><publication_title>J. Wash. Acad. Sci.</publication_title><place_in_publication>48: 232. 1958</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Nephrodium</genus_name><genus_authority>Marthe ex Michaux</genus_authority><subgenus_name>Lastrea</subgenus_name><subgenus_authority>Hooker</subgenus_authority><place_of_publication><publication_title>Sp. Fil. </publication_title><place_in_publication>4: 5, 84. 1862</place_in_publication></place_of_publication></TaxonIdentification><description>Distinguished from other subgenera by the combination of seasonal leaves, short-creeping to suberect stems hidden by old petiole bases, persistently scaly petioles, pinnate-pinnatifid blades with greatly reduced proximal pinnae, and veins meeting margin above the sinuses.  x  = 34.</description><discussion>Thelypteris quelpaertensis ,  T .  limbosperma  (Allioni) H. P. Fuchs from Europe, and  T .  elwesii  (Baker) Ching from Asia constitute the genus  Oreopteris  Holub (R. E. Holttum 1981).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Marthe ex Michaux" date="unknown">Thelypteris</taxon_name>
+    <taxon_name rank="subgenus" authority="(Hooker) Alston" date="unknown">Lastrea</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Wash. Acad. Sci.</publication_title>
+      <place_in_publication>48: 232. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Thelypteris;subgenus Lastrea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nephrodium</taxon_name>
+    <taxon_name rank="subgenus" authority="Hooker" date="unknown">Lastrea</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Fil.</publication_title>
+      <place_in_publication>4: 5, 84. 1862</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Nephrodium;subgenus Lastrea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1c</number>
+  <discussion>Thelypteris quelpaertensis ,  T .  limbosperma  (Allioni) H. P. Fuchs from Europe, and  T .  elwesii  (Baker) Ching from Asia constitute the genus  Oreopteris  Holub (R. E. Holttum 1981).</discussion>
+</bio:treatment>

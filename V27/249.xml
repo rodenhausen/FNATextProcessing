@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Entosthodon</genus_name>
-    <species_name>fascicularis</species_name>
-    <species_authority>(Hedwig) Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Entosthodon</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Müller Hal." date="unknown">fascicularis</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>1: 120.  1848,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>fasciculare</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Entosthodon;species fascicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">fasciculare</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>38, plate 4, figs. 5–9.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Entosthodon</genus_name>
-    <species_name>leibergii</species_name>
-    <species_authority>E. Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Funaria</genus_name>
-    <species_name>fascicularis</species_name>
-    <species_authority>(Hedwig) Lindberg</species_authority>
-  </TaxonIdentification>
-  <description>Plants 2–5 mm, yellow-green.  Leaves inwardly contorted when dry, oblong to obovate, imbricate, somewhat concave, mostly 2–3 mm; margins serrulate distally by projecting ends of thin-walled cells; costa ending in a subula in distal leaves and ending 1–2 cells before the subula in smaller proximal leaves; apices narrowed to an acumen bearing a short, nearly filiform tip; basal laminal cells rectangular (70–105 × 20–30 µm), some cells forming a small basal auricle, distal cells irregularly hexagonal to oblong-rectangular, little differentiated at the margins.  Seta reddish brown with age, 8–10 mm, straight, not hygroscopic.  Capsule globose-pyriform with a narrow neck less the half the total length, 1–2 mm, sulcate when dry; exothecial cells irregular to hexagonal, little longer than broad; operculum convex; peristome teeth absent or short irregularly pointed, brownish yellow, endostome absent.  Calyptra cucullate, long-beaked, inflated around the capsule, large, smooth.  Spores 24–32 µm, bacculate-insulate.</description>
-  <habitat>Sandy soil;</habitat>
-  <elevation>moderate to high elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Gymnostomum;species fasciculare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Entosthodon</taxon_name>
+    <taxon_name rank="species" authority="E. Britton" date="unknown">leibergii</taxon_name>
+    <taxon_hierarchy>genus Entosthodon;species leibergii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Funaria</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Lindberg" date="unknown">fascicularis</taxon_name>
+    <taxon_hierarchy>genus Funaria;species fascicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
   <discussion>Excluded Species:</discussion>
   <discussion>Entosthodon spathulifolius Cardot &amp; Thériot</discussion>
   <discussion>This entity from St. Paul Island collected by Trelease was considered by A. J. Grout (1928–1940, vol. 2) to be a Tayloria although he had not seen mature capsules.</discussion>
-</treatment>
+</bio:treatment>

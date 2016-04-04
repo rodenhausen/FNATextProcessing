@@ -1,65 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">scariosum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">scariosum</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species scariosum;variety scariosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) Petrak" date="unknown">butleri</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species butleri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) Petrak" date="unknown">lacerum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species lacerum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(A. Nelson) Petrak" date="unknown">magnificum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species magnificum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Victorin" date="unknown">minganense</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species minganense;</taxon_hierarchy>
+  </taxon_identification>
   <number>54a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>scariosum</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>scariosum</variety_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species scariosum;variety scariosum;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>butleri</species_name>
-    <species_authority>(Rydberg) Petrak</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>lacerum</species_name>
-    <species_authority>(Rydberg) Petrak</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>magnificum</species_name>
-    <species_authority>(A. Nelson) Petrak</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>minganense</species_name>
-    <species_authority>Victorin</species_authority>
-  </TaxonIdentification>
-  <description>Plants erect, caulescent or occasionally acaulescent, 15–200 cm. Stems usually simple, very leafy, glabrous or villous to tomentose with septate trichomes. Leaves: blades linear to oblong, oblanceolate, or narrowly elliptic, pinnately lobed or often unlobed, larger leaf spines usually 1 cm or less, abaxial faces glabrous to gray-tomentose, adaxial glabrous or villous with septate trichomes; distal narrow, ± thin, often unpigmented proximally or tinged pink or purplish, spines numerous, weak. Heads 1–10+, sessile or short-pedunculate, tightly clustered at stem tips, usually subtended and ± overtopped by crowded, distal leaves. Involucres 2–3.5 cm. Phyllaries: outer and mid lanceolate to ovate, spines slender to stout, 1–8 mm; apices of inner acuminate and entire or abruptly expanded into scarious, erose-toothed appendages. Corollas white to purple, 20–28 mm, tubes 9–14.5 mm, throats 6–10 mm, lobes 3.5–6 mm; style tips 3–6.5 mm. Cypselae 4.5–6.5 mm; pappi 17–25 mm. 2n = 34 (as C. foliosum), 36.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Sep).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist , sometimes saline soils , meadows , ditches , stream banks , forest openings , sagebrush zone to subalpine forests ;</text>
-    <habitat>moist</habitat>
-    <habitat>saline soils</habitat>
-    <habitat>meadows</habitat>
-    <habitat>ditches</habitat>
-    <habitat>stream banks</habitat>
-    <habitat>forest openings</habitat>
-    <habitat>sagebrush zone to subalpine forests</habitat>
-  </habitat_info>
-  <elevation>0 (Quebec) or 600–2800 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
   <discussion>The presence of Cirsium scariosum on the islands of the Mingan Archipelago in Quebec, some 3200 km east of the Rocky Mountains populations, has led to alternative hypotheses regarding the disjunction. Frère Marie-Victorin (1925) hypothesized that the disjunct distribution of C. minganense from what he called C. foliosum (Hooker) Candolle was a result of migration during deglaciation (18,000 to ca. 8000 BP) from a glacial refugium in western North America to eastern Canada in the barren habitats along the receding ice front. Later (1938) he presented a second hypothesis that Pleistocene glacial events had divided a preglacial range into vicariant populations that survived in separate refugia in western and eastern regions. R. J. Moore and C. Frankton (1967) argued that the disjunction is modern, resulting from a chance introduction of C. scariosum from western North America to Quebec in the early twentieth century. They reached this conclusion because early collectors that had visited the Mingan Archipelago had failed to collect this conspicuous thistle.</discussion>
   <discussion>Hybrids are known between Cirsium scariosum var. scariosum and C. eatonii var. murdockii in northern Wyoming.</discussion>
-</treatment>
-
+</bio:treatment>

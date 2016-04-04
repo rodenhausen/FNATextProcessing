@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><species_name>lecontei</species_name><species_authority>Torrey ex Steudel</species_authority><place_of_publication>
-    <publication_title>Syn. Pl. Glumac.</publication_title>
-    <place_in_publication>2: 21. 1855</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>lecontii</past_name><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><species_name>dentatus</species_name><species_authority>Torrey</species_authority><variety_name>multiradiatus</variety_name><variety_authority>Torrey</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><species_name>multiradiatus</species_name><species_authority>(Torrey) C. Mohr</species_authority></TaxonIdentification><description>Herbs, perennial, cespitose, rhizomatous, with stolons, lacking tubers. Culms trigonous, 10–50 cm × 1–3 mm. Leaves flat to V-shaped, 10–40 cm × 2–5 mm. Inflorescences: heads digitate, 10–40 mm diam.; rays 5–12, 1–12 cm; 2d order rays 1–3 cm; bracts 3–5, horizontal, flat to V-shaped, 1–15 cm × 1–2 mm. Spikelets (1–)2–4(–6), oblong to linear, compressed, 5–25 × 2.8–3.6 mm; floral scales 20–60, stramineous or reddish green, laterally weakly 3-ribbed, ovate-elliptic, 2.5–3 × 1–1.8 mm. Flowers: stamens 3; anthers 1–1.3 mm; styles 0.6 mm; stigmas 1.5 mm. Achenes reddish brown, sessile, ovoid, 0.7–0.8 × 0.4–0.5 mm, apex obtuse, apiculate or not, surfaces glabrous.</description><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><phenology_fruiting>aug</phenology_fruiting><habitat>emergent shorelines</habitat><elevation>0–100(–300) m;</elevation><us_distribution>Ala.</us_distribution><us_distribution>Fla.</us_distribution><us_distribution>La.</us_distribution><us_distribution>Miss.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>S.C.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="species" authority="Torrey ex Steudel" date="unknown">lecontei</taxon_name>
+    <place_of_publication>
+      <publication_title>Syn. Pl. Glumac.</publication_title>
+      <place_in_publication>2: 21. 1855</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;species lecontei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">dentatus</taxon_name>
+    <taxon_name rank="variety" authority="Torrey" date="unknown">multiradiatus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;species dentatus;variety multiradiatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) C. Mohr" date="unknown">multiradiatus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;species multiradiatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="past_name">lecontii</other_name>
+</bio:treatment>

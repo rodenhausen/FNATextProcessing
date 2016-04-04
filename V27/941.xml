@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Acaulon</genus_name>
-    <species_name>schimperianum</species_name>
-    <species_authority>(Sullivant) Sullivant</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Acaulon</taxon_name>
+    <taxon_name rank="species" authority="(Sullivant) Sullivant" date="unknown">schimperianum</taxon_name>
     <place_of_publication>
       <publication_title>in W. S. Sullivant and C. L. Lesquereux, Musc. Bor.-Amer., sched.</publication_title>
       <place_in_publication>8.  1857,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Phascum</genus_name>
-    <species_name>schimperianum</species_name>
-    <species_authority>Sullivant</species_authority>
+    <taxon_hierarchy>genus Acaulon;species schimperianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="species" authority="Sullivant" date="unknown">schimperianum</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray, Manual ed.</publication_title>
       <place_in_publication>2, 615.  1856</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants elliptic to globose, occasionally three-angled, 1–1.5 mm. Stem leaves awned, broadly channeled; laminal cells papillose abaxially.  Seta as long as the diameter of the capsule.  Spores spheric, 35-40 µm, papillose.</description>
-  <phenology>Capsules mature winter.</phenology>
-  <habitat>Soil, dry washes;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
+    <taxon_hierarchy>genus Phascum;species schimperianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Acaulon schimperianum is awned and the distal margins are more strongly dentate than those of the other species.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Crum, H. A. and L. E. Anderson.  1965.  The taxonomy and distribution of Acaulon schimperianum.  Bryologist 68: 208–211.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>ellisiae</species_name>
-    <species_authority>Standley</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Standley" date="unknown">ellisiae</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Biol. Soc. Wash.</publication_title>
       <place_in_publication>26: 195.  1913  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Ellis’s shootingstar</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>dentatum</species_name>
-    <species_authority>Hooker</species_authority>
-    <subspecies_name>ellisiae</subspecies_name>
-    <subspecies_authority>(Standley) H. J. Thompson</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dodecatheon</genus_name>
-    <species_name>dentatum</species_name>
-    <variety_name>ellisiae</variety_name>
-    <variety_authority>(Standley) N. H. Holmgren</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>standleyana</species_name>
-    <species_authority>Mast &amp; Reveal</species_authority>
-  </TaxonIdentification>
-  <description>Plants 10–30(–40) cm; scape glabrous.  Caudices not obvious at anthesis; roots white; bulblets absent.  Leaves 4–20(–23) × 1.5–4(–6) cm; petiole usually slender (at least basally); blade broadly elliptic to ovate, base slightly decurrent onto stem, abruptly tapering to petiole, margins sinuate to dentate, surfaces glabrous.  Inflorescences 1–6-flowered; bracts narrowly lanceolate, 3–8(–10) mm, glabrous.  Pedicels 1.5–4.5(–5.5) cm, glabrous.  Flowers: calyx light green, 4–6 mm, glabrous, tube 2–3 mm, lobes 5, 2.5–4 mm; corolla tube yellow with red, thin, wavy ring, lobes 5, usually white, rarely lavender, 13–20 mm; filaments distinct, whitish yellow to yellow, 0.6–1 mm; anthers 6.5–8 mm; pollen sacs purplish to reddish purple or yellow, often streaked with red, connective yellow basally, smooth; stigma not enlarged compared to style.  Capsules tan to light brown, valvate, narrowly ovoid, 9–13 × 3–5 mm, glabrous; walls thin, pliable.  Seeds without membrane along edges.</description>
-  <phenology>Flowering late spring–summer</phenology>
-  <habitat>Moist, usually shady slopes in oak and conifer woodlands</habitat>
-  <elevation>2400–3100 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Dodecatheon;species ellisiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">dentatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Standley) H. J. Thompson" date="unknown">ellisiae</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species dentatum;subspecies ellisiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dodecatheon</taxon_name>
+    <taxon_name rank="species" authority="Mast &amp; Reveal" date="unknown">dentatum</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) N. H. Holmgren" date="unknown">ellisiae</taxon_name>
+    <taxon_hierarchy>genus Dodecatheon;species dentatum;variety ellisiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">standleyana</taxon_name>
+    <taxon_hierarchy>genus Primula;species standleyana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+  <other_name type="common_name">Ellis’s shootingstar</other_name>
   <discussion>Dodecatheon ellisiae occurs in two disjunct locations.  In north-central New Mexico, it is found in the mountains of Bernalillo, Sandoval, and Torrance counties.  In southeastern Arizona, it is known from the mountains of southern Apache (White Mountains), southern Graham (Pinaleno Mountains), Greenlee, and northeastern Santa Rita (Santa Catalina Mountains) counties.  On the Graham Mountains in Arizona, the corolla lobes may be lavender.  Plants in Arizona and Chihuahua have yellow stamens with some red speckling.  It is not known if this is significant taxonomically; it does suggest a shift in pollinators.</discussion>
-</treatment>
+</bio:treatment>

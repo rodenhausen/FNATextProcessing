@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>36c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>roezlii</species_name>
-    <species_authority>Regel</species_authority>
-    <variety_name>cruentum</variety_name>
-    <variety_authority>(Greene) Rehder</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Regel" date="unknown">roezlii</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Rehder" date="unknown">cruentum</taxon_name>
     <place_of_publication>
       <publication_title>in L. H. Bailey, Stand. Cycl. Hort.</publication_title>
       <place_in_publication>5: 2962. 1916 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Coast Ranges gooseberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>cruentum</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species roezlii;variety cruentum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">cruentum</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 35. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>cruenta</species_name>
-    <species_authority>(Greene) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades abaxially glabrous (except for soft ciliation). Flowers: hypanthium
-        glabrous; sepals glabrous. Berries with eglandular spines.</description>
-  <phenology>Flowering Mar–Jun</phenology>
-  <habitat>Lowland gravel bars, roadsides, stream banks, canyon hillsides, subalpine
-        ridges</habitat>
-  <elevation>0–2300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ribes;species cruentum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Coville &amp; Britton" date="unknown">cruenta</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species cruenta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>36c.</number>
+  <other_name type="common_name">Coast Ranges gooseberry</other_name>
+</bio:treatment>

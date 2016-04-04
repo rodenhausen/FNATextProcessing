@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>inerme</species_name>
-    <species_authority>Rydberg</species_authority>
-    <variety_name>klamathense</variety_name>
-    <variety_authority>(Coville) Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">inerme</taxon_name>
+    <taxon_name rank="variety" authority="(Coville) Jepson" date="unknown">klamathense</taxon_name>
     <place_of_publication>
       <publication_title>Man. Fl. Pl. Calif.,</publication_title>
       <place_in_publication>472.  1925  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Klamath gooseberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>klamathensis</species_name>
-    <species_authority>Coville</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species inerme;variety klamathense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="Coville" date="unknown">klamathensis</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>22: 225.  1908</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>klamathense</species_name>
-    <species_authority>(Coville) Fedde</species_authority>
-  </TaxonIdentification>
-  <description>Plants 1–2 m.  Stems: spines at nodes absent or 1, 10(–12) mm.  Leaf blades pentagonal, 1.5–5 cm, base broadly cordate, surfaces pilose-villous, lobes acutish, margins coarsely round-toothed.  Inflorescences (2–)4–5-flowered racemes; peduncle 10–15 mm.  Flowers: hypanthium green, narrowly tubular, 1.5–2 mm, sparsely hairy abaxially, densely pilose to arachnoid-pubescent adaxially; sepals curved-reflexed, greenish, slightly pinkish or purplish margined, narrowly oblong, 3–4 mm, apex acute to rounded, surfaces pilose; petals broadly cuneate-flabellate; styles connate 1/2 their lengths, pilose-villous in proximal 1/2.  Berries gray-black, nearly globose, 8 mm.  2n = 16.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Edges of streams and marshes</habitat>
-  <elevation>100–1500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Grossularia;species klamathensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="(Coville) Fedde" date="unknown">klamathense</taxon_name>
+    <taxon_hierarchy>genus Ribes;species klamathense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>44b.</number>
+  <other_name type="common_name">Klamath gooseberry</other_name>
+</bio:treatment>

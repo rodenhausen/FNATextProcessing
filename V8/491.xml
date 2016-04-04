@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>foetidissimum</species_name>
-    <species_authority>Jacquin</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">foetidissimum</taxon_name>
     <place_of_publication>
       <publication_title>Enum. Syst. Pl.,</publication_title>
       <place_in_publication>15. 1760  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>False mastic</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mastichodendron</genus_name>
-    <species_name>foetidissimum</species_name>
-    <species_authority>(Jacquin) H. J. Lam</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>mastichodendron</species_name>
-    <species_authority>Jacquin</species_authority>
-  </TaxonIdentification>
-  <description>Trees, to 25 m.  Stems not armed, glabrous.  Leaves deciduous; petiole 14–51 mm, glabrous; blade (yellow-green abaxially, lustrous dark green adaxially), elliptic to oblanceolate, 51–117 × 23–63 mm, base rounded, obtuse, or acute, margins slightly involute, undulate, apex rounded to obtuse, surfaces glabrous; venation visible, midrib sunken, marginal vein present.  Inflorescences 6–12-flowered.  Pedicels 4–10 mm, glabrous.  Flowers: calyx 4–5 mm diam.; sepals 5, 1.7–1.9 × 1.2–1.7 mm, glabrous abaxially; petals 5, yellow, median segment elliptic to ovate, 1.8–2.5 mm, (lobed basally), lateral segments vestigial or absent; stamens 5–6, 2.8–3.9 mm; staminodes lanceolate, 1–2 mm, erose or toothed; anthers lanceolate, 1.3–1.7 mm; pistil (4–)5(–6)-carpellate; ovary (4–)5(–6)-locular, 1.2–1.4 mm, glabrous; style 1.4–2 mm.  Berries yellow to orange, ellipsoid, [15–]17–21[–26] mm, glabrous.  Seeds 13–20 mm.</description>
-  <phenology>Flowering May–Aug</phenology>
-  <habitat>Coastal hammocks</habitat>
-  <elevation>0–50[–600] m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America (Belize, Guatemala).</global_distribution>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species foetidissimum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mastichodendron</taxon_name>
+    <taxon_name rank="species" authority="(Jacquin) H. J. Lam" date="unknown">foetidissimum</taxon_name>
+    <taxon_hierarchy>genus Mastichodendron;species foetidissimum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Jacquin" date="unknown">mastichodendron</taxon_name>
+    <taxon_hierarchy>genus Sideroxylon;species mastichodendron;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">False mastic</other_name>
   <discussion>Based on corolla lobes that lack lateral segments, seeds with endosperm, and embryos with a vertical orientation, Sideroxylon foetidissimum has been treated as the only North American species in Mastichodendron (A. Cronquist 1945b).  It is readily identified among our species because it has unarmed twigs, relatively long petioles, glabrous and lustrous leaves, and yellow corollas and fruits.  It is neotropical and occurs in the flora area only in coastal Florida.  Our plants belong to subsp. foetidissimum.</discussion>
-</treatment>
+</bio:treatment>

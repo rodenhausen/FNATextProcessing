@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crassula</genus_name>
-    <species_name>tillaea</species_name>
-    <species_authority>Lester-Garland</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crassula</taxon_name>
+    <taxon_name rank="species" authority="Lester-Garland" date="unknown">tillaea</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Jersey,</publication_title>
       <place_in_publication>87.  1903  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Tilliwort</common_name>
-  <common_name>mossy tillaea</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tillaea</genus_name>
-    <species_name>muscosa</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Crassula;species tillaea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tillaea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">muscosa</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 129.  1753,</place_in_publication>
-      <other_info>not Crassula muscosa Linnaeus 1760</other_info>
+      <other_info_on_pub>not Crassula muscosa Linnaeus 1760</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants terrestrial, annual.  Stems erect, red in age, simple or often branching, 1–6 cm.  Leaf blades oblong, 1–3 mm, apex acute, apiculate.  Inflorescences compact, crowded; flowers (1–)2 per node.  Pedicels 0.2–0.5(–1.5) mm.  Flowers 3(–4)-merous; sepals lanceolate, 1–1.5 mm, apex attenuate, apiculate; petals narrow-lanceolate, 0.5–1 mm.  Follicles ascending, (1–)2-seeded, ovoid; old follicles ascending, boat-shaped.  Seeds ellipsoid, 0.3 × 0.2 mm, not papillate, dull, smooth to minutely rugulose.  2n = 64.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Hard-packed soil of paths and roadsides, sandy places</habitat>
-  <elevation>0–700 m</elevation>
-  <introduced>introduced</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>n Africa (Mediterranean region)</global_distribution>
-  <global_distribution>introduced also in s South America (Chile, Uruguay).</global_distribution>
+    <taxon_hierarchy>genus Tillaea;species muscosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Tilliwort</other_name>
+  <other_name type="common_name">mossy tillaea</other_name>
   <discussion>First found in California in 1925 (J. T. Howell 1942), Crassula tillaea is now widespread and locally common, often mingling with C. connata.  It has been spreading northward, being first found in Oregon in 1984 (D. H. Wagner 1991), in Washington in 1999 (A. L. Jacobson et al. 2001), and in British Columbia in 2002 (P. F. Zika 2002); it has not yet been found growing with C. connata in this part of its range (A. Ceska, pers. comm.).</discussion>
-</treatment>
+</bio:treatment>

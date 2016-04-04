@@ -1,58 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalmia</genus_name>
-    <species_name>procumbens</species_name>
-    <species_authority>(Linnaeus) Gift &amp; Kron</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalmia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gift &amp; Kron" date="unknown">procumbens</taxon_name>
     <place_of_publication>
       <publication_title>Nordic J. Bot.</publication_title>
       <place_in_publication>26: 47.  2008  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Alpine or trailing azalea</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Azalea</genus_name>
-    <species_name>procumbens</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Kalmia;species procumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Azalea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">procumbens</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 151.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chamaecistus</genus_name>
-    <species_name>procumbens</species_name>
-    <species_authority>(Linnaeus) Kuntze</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Loiseleuria</genus_name>
-    <species_name>procumbens</species_name>
-    <species_authority>(Linnaeus) Desvaux</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs much-branched and mat-forming, ca. 0.1 m.  Twigs terete or slightly 2-angled proximal to node, glabrous or sparsely hairy.  Leaves opposite; petiole absent or 0.1–2 mm, glabrous or puberulent; blade ovate or oval to narrowly lanceolate, 0.3–0.8 × 0.2–0.4 cm, margins revolute, apex obtuse, abaxial surface tomentulose, adaxial glabrous or sparsely puberulent toward base, midribs with stalked glands/purple clavate trichomes.  Inflorescences terminal, corymbiform racemes or umbels, 2(–6)-flowered, sometimes flowers solitary.  Pedicels 5–20 mm.  Flowers: sepals crimson, ovate-lanceolate, 1.2–1.5 mm, apex obtuse, surfaces glabrous, margins ciliate; petals (spreading), connate ca. 1/2 their lengths, light to deep pink or white, 3–5 × 2–3.5 mm, glabrous; stamens 5; filaments 2–3 mm; style 0.5–0.8 mm.  Capsules 2–3-locular, 3–4 × 3–4 mm, glabrous.  Seeds winged, oblong, 0.5–1.4 mm.  2n = 24.</description>
-  <phenology>Flowering Jun–Aug</phenology>
-  <habitat>Dry to moist, subarctic, arctic, and alpine tundra, coastal marshes</habitat>
-  <elevation>0–2500 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>c Europe</global_distribution>
-  <global_distribution>n Asia.</global_distribution>
+    <taxon_hierarchy>genus Azalea;species procumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chamaecistus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Kuntze" date="unknown">procumbens</taxon_name>
+    <taxon_hierarchy>genus Chamaecistus;species procumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Loiseleuria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Desvaux" date="unknown">procumbens</taxon_name>
+    <taxon_hierarchy>genus Loiseleuria;species procumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Alpine or trailing azalea</other_name>
   <discussion>Kalmia procumbens is the only species of the genus that is not endemic to North America.  An attractive dwarf shrub, it is sometimes cultivated in rock gardens.</discussion>
-</treatment>
+</bio:treatment>

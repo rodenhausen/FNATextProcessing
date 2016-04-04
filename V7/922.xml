@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>68.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>LEPIDIUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz,John F. Gaskin</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Lepidieae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">LEPIDIUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 643. 1753</place_in_publication>
@@ -12,78 +18,47 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 291. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek lepidion or lepidos , scale, alluding to appearance of fruit]</etymology>
-  <common_name>Peppergrass</common_name>
-  <common_name>pepperwort</common_name>
-  <common_name>cress</common_name>
-  <common_name>peppercress</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <author>John F. Gaskin</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carara</genus_name>
-    <genus_authority>Medikus</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardaria</genus_name>
-    <genus_authority>Desvaux</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Coronopus</genus_name>
-    <genus_authority>Zinn</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Neolepia</genus_name>
-    <genus_authority>W. A. Weber</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physolepidion</genus_name>
-    <genus_authority>Schrenk</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Senebiera</genus_name>
-    <genus_authority>de Candolle</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sprengeria</genus_name>
-    <genus_authority>Greene</genus_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stroganowia</genus_name>
-    <genus_authority>Karelin &amp; Kirilow</genus_authority>
-  </TaxonIdentification>
-  <description>Plants not scapose; glabrous, pubescent, hirsute, or pilose. Stems usually erect or
-    ascending, sometimes procumbent, decumbent, or prostrate, unbranched or branched. Leaves usually
-    basal and cauline (basal absent in L. fremontii); petiolate or sessile; basal rosulate or not,
-    petiolate (or petiole undifferentiated from blade), blade margins entire, dentate, denticulate,
-    serrate, crenate, or lobed; cauline petiolate or sessile, blade (base auriculate or not),
-    margins entire, dentate, or pinnately divided. Racemes (usually corymbose), elongated or not in
-    fruit. Fruiting pedicels erect to divaricate, slender or stout. Flowers: sepals (usually
-    deciduous, sometimes persistent), usually ovate or oblong, rarely suborbicular; petals (erect or
-    spreading, sometimes rudimentary or absent), obovate, spatulate, oblong, oblanceolate,
-    orbicular, linear, or filiform, claw absent or differentiated from blade, (apex obtuse, rounded,
-    or emarginate); stamens 2 or 4 and equal in length, lateral or median, or 6 and tetradynamous;
-    filaments not dilated basally; anthers ovate or oblong; (ovary placentation apical); nectar
-    glands (4 or 6), distinct, median glands often present. Fruits schizocarps or silicles, (rarely
-    indehiscent), sessile, didymous, oblong, ovate, obovate, cordate, obcordate, elliptic,
-    orbicular, ovoid, obovoid, or globose, strongly angustiseptate or inflated and terete; valves
-    each with prominent veins or not veined, (keeled or rounded, apex winged or not, thin or
-    strongly thickened and ornamented, enclosing or readily releasing seed), glabrous or pubescent;
-    replum rounded, (visible); septum complete or perforated; style absent, obsolete, or distinct,
-    (included or exserted from apical notch); stigma capitate, usually entire, rarely 2-lobed. Seeds
-    oblong or ovate [obovate], plump or flattened, winged, margined, or not winged; seed coat
-    (smooth, minutely reticulate, or papillate), usually copiously mucilaginous when wetted, rarely
-    not; cotyledons usually incumbent (accumbent in L. virginicum) [diplecolobal].</description>
-  <number_of_infrataxa>Species ca. 220 (42 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>s Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Lepidieae;genus LEPIDIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek lepidion or lepidos , scale, alluding to appearance of fruit]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Medikus" date="unknown">Carara</taxon_name>
+    <taxon_hierarchy>genus Carara;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Desvaux" date="unknown">Cardaria</taxon_name>
+    <taxon_hierarchy>genus Cardaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Zinn" date="unknown">Coronopus</taxon_name>
+    <taxon_hierarchy>genus Coronopus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="W. A. Weber" date="unknown">Neolepia</taxon_name>
+    <taxon_hierarchy>genus Neolepia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Schrenk" date="unknown">Physolepidion</taxon_name>
+    <taxon_hierarchy>genus Physolepidion;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="de Candolle" date="unknown">Senebiera</taxon_name>
+    <taxon_hierarchy>genus Senebiera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Greene" date="unknown">Sprengeria</taxon_name>
+    <taxon_hierarchy>genus Sprengeria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Karelin &amp; Kirilow" date="unknown">Stroganowia</taxon_name>
+    <taxon_hierarchy>genus Stroganowia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>68.</number>
+  <other_name type="common_name">Peppergrass</other_name>
+  <other_name type="common_name">pepperwort</other_name>
+  <other_name type="common_name">cress</other_name>
+  <other_name type="common_name">peppercress</other_name>
+  <discussion>Species ca. 220 (42 in the flora):</discussion>
   <discussion>The limits of Lepidium were expanded by I. A. Al-Shehbaz et al. (2002) to include
     Cardaria, Coronopus, and Stroganowia. Molecular data (J. L. Bowman et al. 1999; K. Mummenhoff et
     al. 2001) provide overwhelming support for this circumscription. A. Thellung (1906) was the
@@ -137,513 +112,513 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves (at least some) sessile, blade bases auriculate, sagittate, or
-        amplexicaul.</statement>
+      <description type="morphology">Cauline leaves (at least some) sessile, blade bases auriculate, sagittate, or
+        amplexicaul.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants glabrous or sparsely pubescent proximally; uppermost cauline leaf blades:
+      <description type="morphology">Plants glabrous or sparsely pubescent proximally; uppermost cauline leaf blades:
         bases cordate-amplexicaul; basal leaf blades: margins 2- or 3-pinnatifid or pinnatisect;
-        petals</statement>
+        petals</description>
       <determination>33. Lepidium perfoliatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants usually puberulent or hirsute proximally, rarely glabrate; uppermost cauline
+      <description type="morphology">Plants usually puberulent or hirsute proximally, rarely glabrate; uppermost cauline
         leaf blades: bases auriculate or sagittate; basal leaf blades: margins usually entire,
         subentire, dentate, denticulate, lyrate, or sinuate, rarely 1- or 2-pinnatifid; petals (when
-        present) white.</statement>
+        present) white.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stamens 2; petals absent or rudimentary; basal leaf blades: margins 1- or
-        2-pinnatifid;</statement>
+      <description type="morphology">Stamens 2; petals absent or rudimentary; basal leaf blades: margins 1- or
+        2-pinnatifid;</description>
       <determination>28. Lepidium oblongum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stamens 6; petals present (distinct); basal leaf blades: margins usually entire,
+      <description type="morphology">Stamens 6; petals present (distinct); basal leaf blades: margins usually entire,
         subentire, dentate, denticulate, lyrate, or sinuate, rarely pinnatifid; styles distinct (0.2
-        mm or longer).</statement>
+        mm or longer).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants not rhizomatous; fruits dehiscent, apically broadly winged, notch present;
-        racemes much-elongated in fruit.</statement>
+      <description type="morphology">Plants not rhizomatous; fruits dehiscent, apically broadly winged, notch present;
+        racemes much-elongated in fruit.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Annuals; fruit valves papillate; styles 0.2–0.5(–0.7) mm, included or
-        only</statement>
+      <description type="morphology">Annuals; fruit valves papillate; styles 0.2–0.5(–0.7) mm, included or
+        only</description>
       <determination>6. Lepidium campestre</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Perennials (with caudex); fruit valves often not papillate; styles
-        (0.6–)1–1.5</statement>
+      <description type="morphology">Perennials (with caudex); fruit valves often not papillate; styles
+        (0.6–)1–1.5</description>
       <determination>18. Lepidium heterophyllum</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants rhizomatous; fruits indehiscent, apically not winged, notch absent; racemes
-        not much-elongated (corymbose panicles) in fruit.</statement>
+      <description type="morphology">Plants rhizomatous; fruits indehiscent, apically not winged, notch absent; racemes
+        not much-elongated (corymbose panicles) in fruit.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruits flattened, cordate to subreniform, valves reticulate-veined</statement>
+      <description type="morphology">Fruits flattened, cordate to subreniform, valves reticulate-veined</description>
       <determination>14. Lepidium draba</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruits inflated, globose, subglobose, obovoid, or obcompressed globose, valves not
-        reticulate-veined.</statement>
+      <description type="morphology">Fruits inflated, globose, subglobose, obovoid, or obcompressed globose, valves not
+        reticulate-veined.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruits usually globose, rarely subglobose, (2–)3–4.4(–5) mm wide,</statement>
+      <description type="morphology">Fruits usually globose, rarely subglobose, (2–)3–4.4(–5) mm wide,</description>
       <determination>3. Lepidium appelianum</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Fruits obovoid to subglobose, or obcompressed globose, (3.5–)</statement>
+      <description type="morphology">Fruits obovoid to subglobose, or obcompressed globose, (3.5–)</description>
       <determination>7. Lepidium chalepense</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cauline leaves usually petiolate, blade bases (when sessile) not auriculate,
-        sagittate, or amplexicaul (absent in L. nanum ).</statement>
+      <description type="morphology">Cauline leaves usually petiolate, blade bases (when sessile) not auriculate,
+        sagittate, or amplexicaul (absent in L. nanum ).</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Valves rugose or rugose-verrucose.</statement>
+      <description type="morphology">Valves rugose or rugose-verrucose.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits reniform to ovate-cordate, 2.3–3.4 mm, apical notches absent,
-        ridged;</statement>
+      <description type="morphology">Fruits reniform to ovate-cordate, 2.3–3.4 mm, apical notches absent,
+        ridged;</description>
       <determination>8. Lepidium coronopus</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Fruits didymous, 1.3–1.7 mm, apical notches present, not ridged; stamens
-        2</statement>
+      <description type="morphology">Fruits didymous, 1.3–1.7 mm, apical notches present, not ridged; stamens
+        2</description>
       <determination>13. Lepidium didymum</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Valves usually smooth (rarely minutely papillate in L. jaredii ).</statement>
+      <description type="morphology">Valves usually smooth (rarely minutely papillate in L. jaredii ).</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Subshrubs or perennials (caudex woody, sometimes with persistent petiolar
-        remains).</statement>
+      <description type="morphology">Subshrubs or perennials (caudex woody, sometimes with persistent petiolar
+        remains).</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Styles included in apical notch of fruits; stamens 2; petals absent or</statement>
+      <description type="morphology">Styles included in apical notch of fruits; stamens 2; petals absent or</description>
       <determination>32. Lepidium paysonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Styles usually exserted beyond apical notch of fruits, rarely subequaling notch, or
-        notch absent; stamens 6 (or 2 or 4 in L. integrifolium ); petals well-developed.</statement>
+      <description type="morphology">Styles usually exserted beyond apical notch of fruits, rarely subequaling notch, or
+        notch absent; stamens 6 (or 2 or 4 in L. integrifolium ); petals well-developed.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Basal and proximalmost cauline leaf blade margins pinnately lobed.</statement>
+      <description type="morphology">Basal and proximalmost cauline leaf blade margins pinnately lobed.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants glabrous throughout; basal leaves absent; fruits 4.2–7(–8) mm</statement>
+      <description type="morphology">Plants glabrous throughout; basal leaves absent; fruits 4.2–7(–8) mm</description>
       <determination>17. Lepidium fremontii</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants puberulent (at least on fruiting pedicels or rachises); basal leaves
-        present; fruits (1.5–)1.8–3.6(–4) mm wide.</statement>
+      <description type="morphology">Plants puberulent (at least on fruiting pedicels or rachises); basal leaves
+        present; fruits (1.5–)1.8–3.6(–4) mm wide.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits broadly obovate; fruiting pedicels puberulent throughout</statement>
+      <description type="morphology">Fruits broadly obovate; fruiting pedicels puberulent throughout</description>
       <determination>19. Lepidium huberi</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Fruits ovate to suborbicular or oblong; fruiting pedicels puberulent adaxially,
-        rarely glabrous.</statement>
+      <description type="morphology">Fruits ovate to suborbicular or oblong; fruiting pedicels puberulent adaxially,
+        rarely glabrous.</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Fruits usually ovate to suborbicular, rarely oblong; basal leaf blades: margins 1-
-        or 2-pinnatifid to -pinnatisect; cauline leaf</statement>
+      <description type="morphology">Fruits usually ovate to suborbicular, rarely oblong; basal leaf blades: margins 1-
+        or 2-pinnatifid to -pinnatisect; cauline leaf</description>
       <determination>25. Lepidium montanum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Fruits broadly ovate; basal leaf blades: margins pinnately lobed; cauline leaf
-        blades: margins usually entire, rarely dentate.</statement>
+      <description type="morphology">Fruits broadly ovate; basal leaf blades: margins pinnately lobed; cauline leaf
+        blades: margins usually entire, rarely dentate.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Perennials or subshrubs; stems (0.7–)1–4.8(–6.1) dm;</statement>
+      <description type="morphology">Perennials or subshrubs; stems (0.7–)1–4.8(–6.1) dm;</description>
       <determination>2. Lepidium alyssoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Perennials; stems (3.5–)4.5–16(–18) dm; middle cauline</statement>
+      <description type="morphology">Perennials; stems (3.5–)4.5–16(–18) dm; middle cauline</description>
       <determination>15. Lepidium eastwoodiae (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Basal and proximalmost cauline leaf blade margins usually entire, crenate, or
-        dentate, rarely palmately 3–5-lobed (at apex).</statement>
+      <description type="morphology">Basal and proximalmost cauline leaf blade margins usually entire, crenate, or
+        dentate, rarely palmately 3–5-lobed (at apex).</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Plants pulvinate or cespitose; basal leaf blades: margins usually subapically or
+      <description type="morphology">Plants pulvinate or cespitose; basal leaf blades: margins usually subapically or
         apically 3–5-toothed or -lobed, rarely entire ( L. barnebyanum ); fruiting pedicels
-        puberulent throughout.</statement>
+        puberulent throughout.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaves rosulate; cauline leaves absent; anthers 1.4–2 mm</statement>
+      <description type="morphology">Basal leaves rosulate; cauline leaves absent; anthers 1.4–2 mm</description>
       <determination>26. Lepidium nanum</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Basal leaves not rosulate; cauline leaves present; anthers 0.3–0.8 mm.</statement>
+      <description type="morphology">Basal leaves not rosulate; cauline leaves present; anthers 0.3–0.8 mm.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Basal leaf blades: margins entire; petals 3.2–4.6 mm; fruits</statement>
+      <description type="morphology">Basal leaf blades: margins entire; petals 3.2–4.6 mm; fruits</description>
       <determination>5. Lepidium barnebyanum</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Basal leaf blades: margins subapically 3–5-lobed or toothed, rarely entire ( L.
-        davisii ); petals 2–3.5 (–4) mm; fruits 2.5–4(–5) mm.</statement>
+      <description type="morphology">Basal leaf blades: margins subapically 3–5-lobed or toothed, rarely entire ( L.
+        davisii ); petals 2–3.5 (–4) mm; fruits 2.5–4(–5) mm.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Plants cespitose; fruits suborbicular to broadly ovate;</statement>
+      <description type="morphology">Plants cespitose; fruits suborbicular to broadly ovate;</description>
       <determination>10. Lepidium davisii</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Plants pulvinate; fruits ovate; styles 0.3–0.6 mm; seeds</statement>
+      <description type="morphology">Plants pulvinate; fruits ovate; styles 0.3–0.6 mm; seeds</description>
       <determination>29. Lepidium ostleri</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Plants not pulvinate, not cespitose; basal leaf blades: margins entire or uniformly
-        dentate; fruiting pedicels usually puberulent adaxially, rarely glabrous.</statement>
+      <description type="morphology">Plants not pulvinate, not cespitose; basal leaf blades: margins entire or uniformly
+        dentate; fruiting pedicels usually puberulent adaxially, rarely glabrous.</description>
       <next_statement_id>21.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Fruits obovate to somewhat rhomboid, 7–11 mm; fruiting pedicels</statement>
+      <description type="morphology">Fruits obovate to somewhat rhomboid, 7–11 mm; fruiting pedicels</description>
       <determination>41. Lepidium tiehmii</determination>
     </key_statement>
     <key_statement>
       <statement_id>21.</statement_id>
-      <statement>Fruits oblong-elliptic, ovate, oblong, or suborbicular, 1.6–4(–4.4) mm; fruiting
+      <description type="morphology">Fruits oblong-elliptic, ovate, oblong, or suborbicular, 1.6–4(–4.4) mm; fruiting
         pedicels usually pubescent or puberulent, sometimes glabrous (less than 6 mm); seeds 0.8–2
-        mm.</statement>
+        mm.</description>
       <next_statement_id>22.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Plants rhizomatous; fruits (1.6–)1.8–2.4(–2.7) mm, apically not winged, notch
-        usually absent; styles 0.05–0.15 mm</statement>
+      <description type="morphology">Plants rhizomatous; fruits (1.6–)1.8–2.4(–2.7) mm, apically not winged, notch
+        usually absent; styles 0.05–0.15 mm</description>
       <determination>23. Lepidium latifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>22.</statement_id>
-      <statement>Plants not rhizomatous; fruits (2.5–)3–4(–4.4) mm, apically winged, notch present;
-        styles 0.2–1 mm.</statement>
+      <description type="morphology">Plants not rhizomatous; fruits (2.5–)3–4(–4.4) mm, apically winged, notch present;
+        styles 0.2–1 mm.</description>
       <next_statement_id>23.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Perennials or subshrubs (woody base aboveground); stamens 6; racemes slightly
-        elongated (subcorymbose</statement>
+      <description type="morphology">Perennials or subshrubs (woody base aboveground); stamens 6; racemes slightly
+        elongated (subcorymbose</description>
       <determination>9. Lepidium crenatum</determination>
     </key_statement>
     <key_statement>
       <statement_id>23.</statement_id>
-      <statement>Perennials (woody base not aboveground); stamens usually 4, rarely 2 or 6; racemes
-        elongated (not corymbose) in</statement>
+      <description type="morphology">Perennials (woody base not aboveground); stamens usually 4, rarely 2 or 6; racemes
+        elongated (not corymbose) in</description>
       <determination>20. Lepidium integrifolium</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Annuals or biennials (without woody caudex, without persistent petiolar
-        remains).</statement>
+      <description type="morphology">Annuals or biennials (without woody caudex, without persistent petiolar
+        remains).</description>
       <next_statement_id>24.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Stamens 2.</statement>
+      <description type="morphology">Stamens 2.</description>
       <next_statement_id>25.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Fruit valves distinctly reticulate-veined; sepals persistent</statement>
+      <description type="morphology">Fruit valves distinctly reticulate-veined; sepals persistent</description>
       <determination>39. Lepidium strictum</determination>
     </key_statement>
     <key_statement>
       <statement_id>25.</statement_id>
-      <statement>Fruit valves usually not veined (rarely weakly veined); sepals deciduous or,
-        rarely, tardily so.</statement>
+      <description type="morphology">Fruit valves usually not veined (rarely weakly veined); sepals deciduous or,
+        rarely, tardily so.</description>
       <next_statement_id>26.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruits 1.7–2.1 × 1.2–1.6 mm; plants puberulent with clavate trichomes</statement>
+      <description type="morphology">Fruits 1.7–2.1 × 1.2–1.6 mm; plants puberulent with clavate trichomes</description>
       <determination>38. Lepidium sordidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>26.</statement_id>
-      <statement>Fruits 1.8–7 × 1.5–5(–5.6) mm; plants puberulent, hirsute, or hispid with
-        cylindrical trichomes.</statement>
+      <description type="morphology">Fruits 1.8–7 × 1.5–5(–5.6) mm; plants puberulent, hirsute, or hispid with
+        cylindrical trichomes.</description>
       <next_statement_id>27.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Fruiting pedicels often strongly flattened, 0.2–0.7 mm wide; fruit
-        valves</statement>
+      <description type="morphology">Fruiting pedicels often strongly flattened, 0.2–0.7 mm wide; fruit
+        valves</description>
       <determination>22. Lepidium lasiocarpum</determination>
     </key_statement>
     <key_statement>
       <statement_id>27.</statement_id>
-      <statement>Fruiting pedicels terete or only slightly flattened, 0.1–0.3(–4) mm wide; fruit
-        valves glabrous or puberulent (at least on margins).</statement>
+      <description type="morphology">Fruiting pedicels terete or only slightly flattened, 0.1–0.3(–4) mm wide; fruit
+        valves glabrous or puberulent (at least on margins).</description>
       <next_statement_id>28.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Fruits elliptic.</statement>
+      <description type="morphology">Fruits elliptic.</description>
       <next_statement_id>29.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Basal leaf blades pinnatifid; racemes slightly elongated in fruit, rachises with
-        curved trichomes; fruiting pedicels usually puberulent</statement>
+      <description type="morphology">Basal leaf blades pinnatifid; racemes slightly elongated in fruit, rachises with
+        curved trichomes; fruiting pedicels usually puberulent</description>
       <determination>35. Lepidium ramosissimum</determination>
     </key_statement>
     <key_statement>
       <statement_id>29.</statement_id>
-      <statement>Basal leaf blades (1- or) 2- or 3-pinnatisect; racemes considerably elongated in
-        fruit, rachises with straight trichomes; fruiting pedicels</statement>
+      <description type="morphology">Basal leaf blades (1- or) 2- or 3-pinnatisect; racemes considerably elongated in
+        fruit, rachises with straight trichomes; fruiting pedicels</description>
       <determination>36. Lepidium ruderale</determination>
     </key_statement>
     <key_statement>
       <statement_id>28.</statement_id>
-      <statement>Fruits obovate, suborbicular, or orbicular.</statement>
+      <description type="morphology">Fruits obovate, suborbicular, or orbicular.</description>
       <next_statement_id>30.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Plants hirsute; basal leaf blade margins pinnatifid.</statement>
+      <description type="morphology">Plants hirsute; basal leaf blade margins pinnatifid.</description>
       <next_statement_id>31.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems often simple from base; rachises pubescent, trichomes</statement>
+      <description type="morphology">Stems often simple from base; rachises pubescent, trichomes</description>
       <determination>4. Lepidium austrinum</determination>
     </key_statement>
     <key_statement>
       <statement_id>31.</statement_id>
-      <statement>Stems often several from base; rachises hirsute, trichomes</statement>
+      <description type="morphology">Stems often several from base; rachises hirsute, trichomes</description>
       <determination>28. Lepidium oblongum (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>30.</statement_id>
-      <statement>Plants puberulent or glabrous; basal leaf blade margins dentate, serrate, lyrate,
-        or pinnatifid.</statement>
+      <description type="morphology">Plants puberulent or glabrous; basal leaf blade margins dentate, serrate, lyrate,
+        or pinnatifid.</description>
       <next_statement_id>32.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Fruits obovate to obovate-suborbicular, widest beyond middle; rachises with
+      <description type="morphology">Fruits obovate to obovate-suborbicular, widest beyond middle; rachises with
         straight, slender to subclavate trichomes; petals absent or rudimentary, 0.3–0.9
-        mm;</statement>
+        mm;</description>
       <determination>11. Lepidium densiflorum</determination>
     </key_statement>
     <key_statement>
       <statement_id>32.</statement_id>
-      <statement>Fruits orbicular, widest at middle; rachises usually with curved, cylindrical
+      <description type="morphology">Fruits orbicular, widest at middle; rachises usually with curved, cylindrical
         trichomes, rarely glabrous; petals usually present, rarely rudimentary, 1–2(–2.5) mm;
-        cotyledons usually</statement>
+        cotyledons usually</description>
       <determination>42. Lepidium virginicum</determination>
     </key_statement>
     <key_statement>
       <statement_id>24.</statement_id>
-      <statement>Stamens 4 or 6.</statement>
+      <description type="morphology">Stamens 4 or 6.</description>
       <next_statement_id>33.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stamens 4; styles usually obsolete, rarely to 0.1 mm, usually included in, or
-        equaling, apical notch of fruits.</statement>
+      <description type="morphology">Stamens 4; styles usually obsolete, rarely to 0.1 mm, usually included in, or
+        equaling, apical notch of fruits.</description>
       <next_statement_id>34.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Fruiting pedicels terete or slightly flattened, 0.1–0.3 mm wide.</statement>
+      <description type="morphology">Fruiting pedicels terete or slightly flattened, 0.1–0.3 mm wide.</description>
       <next_statement_id>35.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Fruits 2.4–3.6 mm, apically winged, apical notches 0.3–0.8 mm deep;
-        stamens</statement>
+      <description type="morphology">Fruits 2.4–3.6 mm, apically winged, apical notches 0.3–0.8 mm deep;
+        stamens</description>
       <determination>30. Lepidium oxycarpum</determination>
     </key_statement>
     <key_statement>
       <statement_id>35.</statement_id>
-      <statement>Fruits 1.8–2 mm, apically not winged, apical notches 0.05–0.1 mm deep; stamens 2
-        median, 2 lateral; petals present (rudimentary, 0.4–0.6 mm)</statement>
+      <description type="morphology">Fruits 1.8–2 mm, apically not winged, apical notches 0.05–0.1 mm deep; stamens 2
+        median, 2 lateral; petals present (rudimentary, 0.4–0.6 mm)</description>
       <determination>34. Lepidium pinnatifidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>34.</statement_id>
-      <statement>Fruiting pedicels strongly flattened, 0.4–1.4 mm wide.</statement>
+      <description type="morphology">Fruiting pedicels strongly flattened, 0.4–1.4 mm wide.</description>
       <next_statement_id>36.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Sepals somewhat persistent; fruit valves hirsute (trichomes spreading, mixed with
+      <description type="morphology">Sepals somewhat persistent; fruit valves hirsute (trichomes spreading, mixed with
         smaller ones); petals usually pubescent on outside, rarely glabrescent, with fringed margin;
-        racemes compact, subcapitate to cylindrical in</statement>
+        racemes compact, subcapitate to cylindrical in</description>
       <determination>24. Lepidium latipes</determination>
     </key_statement>
     <key_statement>
       <statement_id>36.</statement_id>
-      <statement>Sepals deciduous; fruit valves glabrous or (sparsely, uniformly) puberulent,
+      <description type="morphology">Sepals deciduous; fruit valves glabrous or (sparsely, uniformly) puberulent,
         pubescent, or hirsute (sometimes only on margin); petals usually absent, when present,
         glabrous, without fringed margin; racemes lax or somewhat dense, not compact in
-        fruit.</statement>
+        fruit.</description>
       <next_statement_id>37.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Petals usually present, rarely rudimentary or absent; fruit valves
-        slightly</statement>
+      <description type="morphology">Petals usually present, rarely rudimentary or absent; fruit valves
+        slightly</description>
       <determination>27. Lepidium nitidum</determination>
     </key_statement>
     <key_statement>
       <statement_id>37.</statement_id>
-      <statement>Petals absent; fruit valves strongly reticulate-veined; fruiting pedicels appressed
-        to rachises or distally recurved.</statement>
+      <description type="morphology">Petals absent; fruit valves strongly reticulate-veined; fruiting pedicels appressed
+        to rachises or distally recurved.</description>
       <next_statement_id>38.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Fruits (3–)4–6 × 2.5–3.5 mm, apical notches (0.8–)1–2 mm deep,</statement>
+      <description type="morphology">Fruits (3–)4–6 × 2.5–3.5 mm, apical notches (0.8–)1–2 mm deep,</description>
       <determination>1. Lepidium acutidens</determination>
     </key_statement>
     <key_statement>
       <statement_id>38.</statement_id>
-      <statement>Fruits 2.5–3.5 × 2–2.8 mm, apical notches 0.5–0.7(–0.8) mm deep (closed), often U
-        -shaped; fruiting pedicels (1.6–)1.9–2.5(–3) mm</statement>
+      <description type="morphology">Fruits 2.5–3.5 × 2–2.8 mm, apical notches 0.5–0.7(–0.8) mm deep (closed), often U
+        -shaped; fruiting pedicels (1.6–)1.9–2.5(–3) mm</description>
       <determination>12. Lepidium dictyotum</determination>
     </key_statement>
     <key_statement>
       <statement_id>33.</statement_id>
-      <statement>Stamens 6; styles (0.1–)0.2–1.6 mm, usually exserted beyond, rarely subequaling or
-        included in, apical notch of fruits.</statement>
+      <description type="morphology">Stamens 6; styles (0.1–)0.2–1.6 mm, usually exserted beyond, rarely subequaling or
+        included in, apical notch of fruits.</description>
       <next_statement_id>39.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Fruiting pedicels suberect to ascending, subappressed to rachises; fruits (4–)
+      <description type="morphology">Fruiting pedicels suberect to ascending, subappressed to rachises; fruits (4–)
         5–6.4(–7) mm; styles usually included in, rarely subequaling, apical notch of
-        fruits;</statement>
+        fruits;</description>
       <determination>37. Lepidium sativum</determination>
     </key_statement>
     <key_statement>
       <statement_id>39.</statement_id>
-      <statement>Fruiting pedicels divaricate-ascending to horizontal or descending, not appressed
+      <description type="morphology">Fruiting pedicels divaricate-ascending to horizontal or descending, not appressed
         to rachises; fruits 2–3.8(–4.2) mm; styles exserted from apical notch of fruits; cotyledons
-        entire.</statement>
+        entire.</description>
       <next_statement_id>40.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Petals usually yellow (rarely creamy white at early anthesis, or fading
-        whitish).</statement>
+      <description type="morphology">Petals usually yellow (rarely creamy white at early anthesis, or fading
+        whitish).</description>
       <next_statement_id>41.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruiting pedicels (2.7–)3–4.4(–5) mm, glabrous adaxially; racemes dense, slightly
+      <description type="morphology">Fruiting pedicels (2.7–)3–4.4(–5) mm, glabrous adaxially; racemes dense, slightly
         elongated (corymbose to subcapitate) in fruit, rachises glabrous adaxially; fruits
-        divergently winged apically, apical notches 0.2–0.6 mm</statement>
+        divergently winged apically, apical notches 0.2–0.6 mm</description>
       <determination>16. Lepidium flavum</determination>
     </key_statement>
     <key_statement>
       <statement_id>41.</statement_id>
-      <statement>Fruiting pedicels 5–15 mm, pilose adaxially; racemes lax, much-elongated in fruit,
-        rachises usually pilose, rarely glabrous; fruits not winged apically, apical</statement>
+      <description type="morphology">Fruiting pedicels 5–15 mm, pilose adaxially; racemes lax, much-elongated in fruit,
+        rachises usually pilose, rarely glabrous; fruits not winged apically, apical</description>
       <determination>21. Lepidium jaredii</determination>
     </key_statement>
     <key_statement>
       <statement_id>40.</statement_id>
-      <statement>Petals white.</statement>
+      <description type="morphology">Petals white.</description>
       <next_statement_id>42.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Filaments puberulent</statement>
+      <description type="morphology">Filaments puberulent</description>
       <determination>31. Lepidium papilliferum</determination>
     </key_statement>
     <key_statement>
       <statement_id>42.</statement_id>
-      <statement>Filaments glabrous.</statement>
+      <description type="morphology">Filaments glabrous.</description>
       <next_statement_id>43.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Annuals; rachises pilose, trichomes straight</statement>
+      <description type="morphology">Annuals; rachises pilose, trichomes straight</description>
       <determination>40. Lepidium thurberi</determination>
     </key_statement>
     <key_statement>
       <statement_id>43.</statement_id>
-      <statement>Annuals or biennials; rachises puberulent, trichomes straight or
-        curved.</statement>
+      <description type="morphology">Annuals or biennials; rachises puberulent, trichomes straight or
+        curved.</description>
       <next_statement_id>44.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Petals suborbicular, 1.5–2.5 mm wide; cauline leaf blades lanceolate or
-        oblanceolate to</statement>
+      <description type="morphology">Petals suborbicular, 1.5–2.5 mm wide; cauline leaf blades lanceolate or
+        oblanceolate to</description>
       <determination>15. Lepidium eastwoodiae (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>44.</statement_id>
-      <statement>Petals spatulate to oblanceolate, 1.3–1.8 mm wide; cauline leaf blades often
+      <description type="morphology">Petals spatulate to oblanceolate, 1.3–1.8 mm wide; cauline leaf blades often
         pinnatifid to pinnatisect, sometimes linear; stems 0.4–5(–7) dm, simple or few to several
-        from base</statement>
+        from base</description>
       <determination>25. Lepidium montanum (in part)</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

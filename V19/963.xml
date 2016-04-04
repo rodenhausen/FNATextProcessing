@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Argyranthemum</genus_name>
-    <species_name>foeniculaceum</species_name>
-    <species_authority>(Willdenow) Webb ex Schultz-Bipontinus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Argyranthemum</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) Webb ex Schultz-Bipontinus" date="unknown">foeniculaceum</taxon_name>
     <place_of_publication>
       <publication_title>in P. B. Webb and S. Berthelot, Hist. Nat. Îles Canaries</publication_title>
       <place_in_publication>3(2,75): 262. 1844</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Argyranthemum;species foeniculaceum;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Pyrethrum</genus_name>
-    <species_name>foeniculaceum</species_name>
-    <species_authority>Willdenow</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Argyranthemum;species foeniculaceum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrethrum</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">foeniculaceum</taxon_name>
     <place_of_publication>
       <publication_title>Enum. Pl.,</publication_title>
       <place_in_publication>903. 1809</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Argyranthemum</genus_name>
-    <species_name>anethifolium</species_name>
-    <species_authority>Webb</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>anethifolium</species_name>
-    <species_authority>Willdenow</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>foeniculaceum</species_name>
-    <species_authority>(Willdenow) Steudel</species_authority>
-  </TaxonIdentification>
-  <description>Leaves scattered or crowded at bases of peduncles, ± succulent; blades ± obovate, 20–45(–100) × 10–30(–65) mm, (1–)2–3-pinnately lobed, ultimate margins dentate or entire, faces glabrous, ± glaucous. Peduncles 5–10 cm. Cypselae 2–4(–6) mm; pappi 0 (cypselar wall tissue sometimes produced as teeth or crowns at apices of some cypselae). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering May.</text>
-    <phenology>may</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–10 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Macaronesia.</global_distribution>
+    <taxon_hierarchy>genus Pyrethrum;species foeniculaceum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Argyranthemum</taxon_name>
+    <taxon_name rank="species" authority="Webb" date="unknown">anethifolium</taxon_name>
+    <taxon_hierarchy>genus Argyranthemum;species anethifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">anethifolium</taxon_name>
+    <taxon_hierarchy>genus Chrysanthemum;species anethifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Willdenow) Steudel" date="unknown">foeniculaceum</taxon_name>
+    <taxon_hierarchy>genus Chrysanthemum;species foeniculaceum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Cultivars of Argyranthemum foeniculaceum and/or A. frutescens (Linnaeus) Schultz-Bipontinus (similar, not glaucous) are widely used horticulturally in landscaping and for cut flowers and are often sold as florists’ daisies, marguerites, or Paris daisies.</discussion>
-</treatment>
-
+</bio:treatment>

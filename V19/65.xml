@@ -1,73 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>horridulum</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>vittatum</variety_name>
-    <variety_authority>(Small) R. W. Long</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">horridulum</taxon_name>
+    <taxon_name rank="variety" authority="(Small) R. W. Long" date="unknown">vittatum</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>72: 45. 1970</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species horridulum;variety vittatum;</taxon_hierarchy>
-  <common_name>Florida thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>vittatus</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species horridulum;variety vittatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">vittatus</taxon_name>
     <place_of_publication>
       <publication_title>Bull. New York Bot. Gard.</publication_title>
       <place_in_publication>3: 439. 1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>smallii</species_name>
-    <species_authority>(Britton) H. E. Ahles</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>smallii</species_name>
-    <species_authority>Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>vittatum</species_name>
-    <species_authority>(Small) Small</species_authority>
-  </TaxonIdentification>
-  <description>Plants 30–90 cm. Stems glabrous to sparsely tomentose. Leaves: blades linear to oblong, 10–30 cm, spinose-dentate to shallowly pinnatifid, main spines mostly 5–10 mm, abaxial faces glabrous or nearly so. Heads 1–10. Involucres 3–4 × 3–6 cm, glabrous. Phyllaries: outer and middle bodies densely scabridulous, marginal spinules 0.1–0.5 mm. Corollas purple. 2n = 32, 33, 34, 35.</description>
-  <phenology_info>
-    <text>Flowering winter–summer (Feb–Aug).</text>
-    <phenology>winter</phenology>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>meadows , pastures , old fields , pinelands , usually in damp soil ;</text>
-    <habitat>meadows</habitat>
-    <habitat>pastures</habitat>
-    <habitat>old fields</habitat>
-    <habitat>pinelands</habitat>
-    <habitat>in damp soil</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species vittatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="(Britton) H. E. Ahles" date="unknown">smallii</taxon_name>
+    <taxon_hierarchy>genus Carduus;species smallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">smallii</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species smallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Small) Small" date="unknown">vittatum</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species vittatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11c.</number>
+  <other_name type="common_name">Florida thistle</other_name>
   <discussion>Variety vittatum grows on the coastal plain.</discussion>
-</treatment>
-
+</bio:treatment>

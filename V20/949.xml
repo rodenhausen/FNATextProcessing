@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pyrrocoma</genus_name><species_name>carthamoides</species_name><species_authority>Hooker</species_authority><variety_name>carthamoides</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>carthamoides</species_name><species_authority>(Hooker) A. Gray</species_authority><subspecies_name>rigidus</subspecies_name><subspecies_authority>(Rydberg) H. M. Hall</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>carthamoides</species_name><variety_name>erythropappus</variety_name><variety_authority>(Rydberg) H. St. John</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>carthamoides</species_name><variety_name>rigidus</variety_name><variety_authority>(Rydberg) M. Peck</variety_authority></TaxonIdentification><description>Plants 30–50 cm. Stems moderately robust. Leaves: basal blades oblong to broadly spatulate, 100–200 × 10–50 mm. Involucres hemispheric, 15–20 × 20–35 mm. Phyllaries (± overlapping) broadly oblong to obovate, apices acute, mucro erect. 2n = 12.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>dry prairies</habitat><habitat>meadows</habitat><habitat>gravelly flats</habitat><habitat>rocky ridges</habitat><elevation>400–1800 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution><us_distribution>Wyo.</us_distribution><discussion>Variety carthamoides is recognized by its relatively robust stems, large leaves and involucres, and overlapping, oblong to obovate phyllaries.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrrocoma</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">carthamoides</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) H. St. John" date="unknown">carthamoides</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Pyrrocoma;species carthamoides;variety carthamoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) A. Gray" date="unknown">carthamoides</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) H. M. Hall" date="unknown">rigidus</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species carthamoides;subspecies rigidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">carthamoides</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) M. Peck" date="unknown">erythropappus</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species carthamoides;variety erythropappus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">carthamoides</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">rigidus</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species carthamoides;variety rigidus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
+  <discussion>Variety carthamoides is recognized by its relatively robust stems, large leaves and involucres, and overlapping, oblong to obovate phyllaries.</discussion>
+</bio:treatment>

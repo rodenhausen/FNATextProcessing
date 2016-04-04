@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodiopsis</genus_name>
-    <species_name>aurea</species_name>
-    <species_authority>(Eastwood) Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodiopsis</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Rydberg" date="unknown">aurea</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>34: 432. 1907</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>aureum</species_name>
-    <species_authority>Eastwood</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodiopsis;species aurea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">aureum</taxon_name>
     <place_of_publication>
       <publication_title>Zoë</publication_title>
       <place_in_publication>2: 227. 1891</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>aureum</species_name>
-    <species_authority>(Eastwood) Payson</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or perennials; (short-lived); (glaucous), glabrous or sparsely pubescent basally. Stems branched basally and distally, (1.4–)2–5(–6) dm, (glabrous or sparsely pubescent basally). Basal leaves rosulate; petiole 0.5–4 cm; blade oblanceolate, 2–7 cm × 5–22 mm, margins irregularly dentate. Cauline leaves sessile; blade lanceolate to oblong, (smaller distally), base auriculate, margins entire, (surfaces glabrous). Racemes dense. Fruiting pedicels divaricate-ascending, straight, (5–)6.6–13(–15) mm. Flowers: sepals spreading to reflexed, yellow, 5–7.5(–8.5) × 1.7–2.5 mm; petals yellow, spatulate to broadly oblong, 7–11(–13) × 2–3.5 mm, claw 5–7 mm (to 2 mm wide); median filament pairs 5–6.5 mm; anthers linear, 3–4 mm; gynophore (slender), 2–6(–8) mm. Fruits erect to divaricate-ascending, straight or slightly curved, torulose, 5–7.5(–9) cm × 1.2–1.7 mm; ovules 72–98 per ovary; style subclavate, 0.5–2 mm; stigma 2-lobed. Seeds 1.2–1.5 × 0.6–0.8 mm. 2n = 22.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <habitat>shrub communities on clay or, rarely, sandy soil</habitat>
-  <elevation>1200–2200 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Thelypodium;species aureum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="(Eastwood) Payson" date="unknown">aureum</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species aureum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Thelypodiopsis aurea is restricted to the Four Corners area and is known only from Montezuma County in Colorado, Sandoval and San Juan counties in New Mexico, and San Juan County in Utah.</discussion>
-</treatment>
+</bio:treatment>

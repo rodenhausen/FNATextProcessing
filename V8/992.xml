@@ -1,40 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>42.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>LEUCOTHOË</genus_name>
-    <genus_authority>D. Don</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="D. Don" date="unknown">LEUCOTHOË</taxon_name>
     <place_of_publication>
       <publication_title>Edinburgh New Philos. J.</publication_title>
       <place_in_publication>17: 159. 1834 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Hobblebush</common_name>
-  <common_name>sweetbells</common_name>
-  <common_name>dog-laurel</common_name>
-  <common_name>fetterbush</common_name>
-  <common_name>dog-hobble</common_name>
-  <etymology>[Greek name for a princess of Babylon]</etymology>
-  <author>Gordon C. Tucker</author>
-  <description>Shrubs. Stems erect or spreading, glabrous or sparsely short-hairy, glabrescent;
-        branches without silvery scales. Leaves persistent; blade oblong, lanceolate, oblanceolate,
-        or elliptic, coriaceous, margins entire or spinulose-serrulate, plane, surfaces not
-        glaucous, without silvery scales, glabrous or hairy abaxially; venation reticulodromous.
-        Inflorescences axillary, fascicled or solitary racemes, (not leafy), 8–60-flowered,
-        (produced on previous year’s wood); (bracteoles 2, medial or proximal, partly covering
-        pedicel). Flowers: sepals 5, slightly connate, lanceolate-ovate to broadly ovate; petals 5,
-        connate nearly their entire lengths, white, corolla cylindric to urceolate, lobes much
-        shorter than tube; stamens 8(–10), included; filaments straight, flattened, glabrous or
-        hairy, without spurs; anthers with or without 2 awns proximal to anther-filament junction,
-        dehiscent through terminal pores; pistil 5-carpellate; ovary pseudo 10-locular; (style
-        scarcely longer than stamens); stigma 5-lobed, capitate to peltate. Fruits capsular,
-        subglobose, dry. Seeds ca. 60–120, ellipsoid, oblong, or angular, flattened or wedge-shaped;
-        testa smooth and shiny, reticulate, or papillose. x = 11.</description>
-  <number_of_infrataxa>Species 5 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>e</global_distribution>
-  <global_distribution>w United States</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
-  <references heading="SELECTED REFERENCES">
+    <taxon_hierarchy>family ERICACEAE;genus LEUCOTHOË;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek name for a princess of Babylon]</other_info_on_name>
+  </taxon_identification>
+  <number>42.</number>
+  <other_name type="common_name">Hobblebush</other_name>
+  <other_name type="common_name">sweetbells</other_name>
+  <other_name type="common_name">dog-laurel</other_name>
+  <other_name type="common_name">fetterbush</other_name>
+  <other_name type="common_name">dog-hobble</other_name>
+  <discussion>Species 5 (3 in the flora):</discussion>
+  <references>
     <reference>Ingram, J. W. 1961. Studies in the cultivated Ericaceae, I. Leucothoë. Baileya 9:
             57–66.</reference>
     <reference>Ingram, J. W. 1979. Leucothoë revisited (Ericaceae). Baileya 20:
@@ -47,24 +36,24 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Filaments glabrous; racemes fascicled; w United States</statement>
+      <description type="morphology">Filaments glabrous; racemes fascicled; w United States</description>
       <determination>3. Leucothoë davisiae</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Filaments spreading-hairy and/or papillate; racemes fascicled or solitary; se
-                United States.</statement>
+      <description type="morphology">Filaments spreading-hairy and/or papillate; racemes fascicled or solitary; se
+                United States.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals broadly ovate, apex obtuse or rounded; racemes 2–4(–5) cm</statement>
+      <description type="morphology">Sepals broadly ovate, apex obtuse or rounded; racemes 2–4(–5) cm</description>
       <determination>1. Leucothoë axillaris</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals lance-ovate, apex acute or subacute; racemes 4–10 cm</statement>
+      <description type="morphology">Sepals lance-ovate, apex acute or subacute; racemes 4–10 cm</description>
       <determination>2. Leucothoë fontanesiana</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

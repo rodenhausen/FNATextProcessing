@@ -1,56 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>nuttallii</species_name>
-    <species_authority>de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">nuttallii</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>6: 651. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species nuttallii;</taxon_hierarchy>
-  <past_name>nuttalii</past_name>
-  <common_name>Nuttall’s thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>glaber</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species nuttallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glaber</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>2: 129. 1818,</place_in_publication>
-      <other_info>not Cirsium glabrum de Candolle 1805</other_info>
+      <other_info_on_pub>not Cirsium glabrum de Candolle 1805</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>nuttallii</species_name>
-    <species_authority>(de Candolle) Pollard</species_authority>
-  </TaxonIdentification>
-  <description>Biennials, 20–350 cm; taprooted. Stems usually single, erect, glabrous or villous with septate trichomes; branches few–many, ascending. Leaves: blades narrowly to broadly elliptic, (10–)15–60 × (2–)5–15 cm, thin, ± flexible, deeply pinnatifid, lobes narrow, spreading, coarsely dentate or lobed, main spines 2–5 mm, abaxial faces thinly tomentose but often wholly glabrate in age, adaxial glabrous or sparsely villous with septate trichomes; basal often absent at flowering, petioles slender, winged, bases tapered; principal cauline becoming sessile and gradually reduced distally, bases spiny-lobed, sometimes decurrent; distal reduced to linear bracts. Heads few–many, in open corymbiform or paniculiform arrays. Peduncles 1–15 cm, essentially naked (not overtopped by crowded distal leaves). Involucres hemispheric to campanulate, 1.5–2.5 × 1–2.5 cm, thinly arachnoid or glabrate. Phyllaries in 6–10 series, strongly imbricate, green or brownish, ovate or elliptic (outer) to linear-lanceolate (inner), abaxial faces with narrow glutinous ridge; outer and middle appressed, bodies entire, spines abruptly spreading, slender, 1–2(–3) mm; apices of inner often flexuous, flat, attenuate. Corollas white to pink, lavender, or purple, 17–25 mm, tubes 5–11 mm, throats 4–7 mm (noticeably wider than tubes), lobes 5–7 mm; style tips 3–4.5 mm. Cypselae dark brown, 3–4 mm, apical collars stramineous, 0.5 mm; pappi 17–21 mm (longer bristles shorter than corollas). 2n = 24, 26, 28.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>roadsides , ditches , woodlands , usually in damp soil ;</text>
-    <habitat>roadsides ditches</habitat>
-    <habitat>woodlands , in damp soil</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species glaber;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Pollard" date="unknown">nuttallii</taxon_name>
+    <taxon_hierarchy>genus Carduus;species nuttallii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16.</number>
+  <other_name type="past_name">nuttalii</other_name>
+  <other_name type="common_name">Nuttall’s thistle</other_name>
   <discussion>Cirsium nuttallii occurs on the southern coastal plain from southeastern Virginia to southern Florida and west to eastern Louisiana.</discussion>
-</treatment>
-
+</bio:treatment>

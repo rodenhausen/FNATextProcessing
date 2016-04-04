@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oppositifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>smalliana</subspecies_name>
-    <subspecies_authority>(Engler &amp; Irmscher) Hultén</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">oppositifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Engler &amp; Irmscher) Hultén" date="unknown">smalliana</taxon_name>
     <place_of_publication>
       <publication_title>Ark. Bot., n. s.</publication_title>
       <place_in_publication>7: 69.  1968,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oppositifolia</species_name>
-    <variety_name>smalliana</variety_name>
-    <variety_authority>Engler &amp; Irmscher</variety_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species oppositifolia;subspecies smalliana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">oppositifolia</taxon_name>
+    <taxon_name rank="variety" authority="Engler &amp; Irmscher" date="unknown">smalliana</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>69[IV,117]: 624.  1919,</place_in_publication>
-      <other_info>based on S. pulvinata Small, Bull. New York Bot. Gard. 2: 172.  1901</other_info>
+      <other_info_on_pub>based on S. pulvinata Small, Bull. New York Bot. Gard. 2: 172.  1901</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>oppositifolia</species_name>
-    <subspecies_name>glandulisepala</subspecies_name>
-    <subspecies_authority>Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Sepals: margins glandular-ciliate, abaxial surface glabrous or stipitate-glandular, sometimes hairy.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Arctic and alpine tundra, mountain ledges, rock crevices</habitat>
-  <elevation>0–3000 m</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species oppositifolia;variety smalliana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">oppositifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="Hultén" date="unknown">glandulisepala</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species oppositifolia;subspecies glandulisepala;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+</bio:treatment>

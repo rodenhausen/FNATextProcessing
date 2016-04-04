@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Aschisma</genus_name>
-    <species_name>kansanum</species_name>
-    <species_authority>A. L. Andrews</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aschisma</taxon_name>
+    <taxon_name rank="species" authority="A. L. Andrews" date="unknown">kansanum</taxon_name>
     <place_of_publication>
       <publication_title>Torreya</publication_title>
       <place_in_publication>15: 63.  1915,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Protonema persistent as a thick green adherent felt.  Leaves with strongly bordered and serrulate margins, distal laminal cell strongly bulging, papillae centered over lumens, mucro strongly denticulate.  Capsule exothecial cells rectangular, 4–5:1, mostly ca. 13–18 µm wide.  Spores 18–20 µm, weakly ornamented.</description>
-  <phenology>Capsules mature Apr.</phenology>
-  <habitat>Usually under translucent rocks in exposed situations;</habitat>
-  <elevation>moderate elevations;</elevation>
-  <conservation>of conservation concern;</conservation>
-  <us_distribution>Kans.</us_distribution>
+    <taxon_hierarchy>genus Aschisma;species kansanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Aschisma kansanum is endemic to the United States, being restricted to High Plains grassland (Gary L. Smith 1990) in three counties in west-central Kansas.  Its persistent protonema and habitat are distinctive.  This tiny, very rare species is threatened by over-collecting and grazing.</discussion>
-</treatment>
+</bio:treatment>

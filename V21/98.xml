@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Rudbeckia</genus_name><species_name>laciniata</species_name><species_authority>Linnaeus</species_authority><variety_name>humilis</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication>
-    <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
-    <place_in_publication>1(2): 262. 1884</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Southeastern cutleaf coneflower</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Rudbeckia</genus_name><species_name>digitata</species_name><species_authority>Miller</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Rudbeckia</genus_name><species_name>laciniata</species_name><variety_name>digitata</variety_name><variety_authority>(Miller) Fiori</variety_authority></TaxonIdentification><description>Leaves: basal 12–45 × 10–25 cm, blades 0, 3, or 5-lobed; proximal and mid cauline blades similar (distal usually 3-lobed or not lobed); adaxial faces sparsely to moderately hairy. Receptacles hemispheric to globose; paleae 4–5.5 mm. Ray laminae 20–45 × 5–11 mm. Discs 10–20 × 10–17 mm. Cypselae 3.5–5.2 mm; pappi to 0.7 mm. 2n = 38.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>wet sites along streams and edges of woods</habitat><elevation>70–1500 m;</elevation><us_distribution>Ala.</us_distribution><us_distribution>Ga.</us_distribution><us_distribution>Md.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Tenn.</us_distribution><us_distribution>Va.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Heliantheae )" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Rudbeckiinae H. Robinson" date="unknown">Rudbeckiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rudbeckia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">laciniata</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">humilis</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 262. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Rudbeckiinae;genus Rudbeckia;species laciniata;variety humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rudbeckia</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">digitata</taxon_name>
+    <taxon_hierarchy>genus Rudbeckia;species digitata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rudbeckia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">laciniata</taxon_name>
+    <taxon_name rank="variety" authority="(Miller) Fiori" date="unknown">digitata</taxon_name>
+    <taxon_hierarchy>genus Rudbeckia;species laciniata;variety digitata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7c.</number>
+  <other_name type="common_name">Southeastern cutleaf coneflower</other_name>
+</bio:treatment>

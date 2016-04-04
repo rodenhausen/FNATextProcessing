@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Didymodon</genus_name>
-    <species_name>rigidulus</species_name>
-    <variety_name>ditrichoides</variety_name>
-    <variety_authority>(Brotherus) R. H. Zander</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="Brotherus" date="unknown">rigidulus</taxon_name>
+    <taxon_name rank="variety" authority="(Brotherus) R. H. Zander" date="unknown">ditrichoides</taxon_name>
     <place_of_publication>
       <publication_title>Phytologia</publication_title>
       <place_in_publication>41: 20.  1978,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>ditrichoides</species_name>
-    <species_authority>Brotherus</species_authority>
+    <taxon_hierarchy>genus Didymodon;species rigidulus;variety ditrichoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ditrichoides</taxon_name>
     <place_of_publication>
       <publication_title>Sitzungsber. Akad. Wiss. Wien, Math.-Naturwiss. Kl., Abt.</publication_title>
       <place_in_publication>1, 133: 566.  1924</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>acutus</species_name>
-    <variety_name>ditrichoides</variety_name>
-    <variety_authority>(Brotherus) R. H. Zander</variety_authority>
-  </TaxonIdentification>
-  <description>Stem leaves strongly appressed when dry, linear-lanceolate, base broadened, ovate to oblong; costa long-excurrent, sharp; proximal cells short-rectangular; distal laminal cells smooth, quadrate to short-rectangular, with quadrate to short-rectangular lumens, distal lamina 1-stratose; gemmae absent.  Peristome not seen.</description>
-  <habitat>Limestone outcrops, dry tundra;</habitat>
-  <elevation>moderate elevations (1200 m);</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <global_distribution>Asia (China)</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland).</global_distribution>
+    <taxon_hierarchy>genus Barbula;species ditrichoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">acutus</taxon_name>
+    <taxon_name rank="variety" authority="(Brotherus) R. H. Zander" date="unknown">ditrichoides</taxon_name>
+    <taxon_hierarchy>genus Didymodon;species acutus;variety ditrichoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1c.</number>
   <discussion>Variety ditrichoides is a highly reduced, flagellate form of var. icmadophilus but with a distinctive appearance.  It is disjunct from montane China (Chen P. C.  1941) to a single locality in the flora area (Northwest Territories, Mackenzie District, Nahanni Range, 61º43’N, 123º20’W, D. Vitt, 1977, BUF).  The olive coloration and general appearance is similar to D. leskeoides  but the plant is somewhat smaller and the alar auricles are lacking.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,70 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Aconitum</genus_name>
-        <species_name>columbianum</species_name>
-        <species_authority>Nuttall</species_authority>
-        <subspecies_name>viviparum</subspecies_name>
-        <subspecies_authority>(Greene) Brink</subspecies_authority>
-        <place_of_publication>
-            <publication_title> Sida </publication_title>
-            <place_in_publication>16: 13. 1994</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <endemic>endemic</endemic>
-    <illustrated>illustrated</illustrated>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Aconitum</genus_name>
-        <species_name>viviparum</species_name>
-        <species_authority>Greene</species_authority>
-        <place_of_publication>
-            <publication_title>Feddes Repert. Spec. Nov. Regni Veg. </publication_title>
-            <place_in_publication>7: 2. 1909</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Aconitum</genus_name>
-        <species_name>bulbiferum</species_name>
-        <species_authority>Howell</species_authority>
-        <place_of_publication>
-            <place_in_publication>1897</place_in_publication>
-            <other_info>not A. bulbiferum Reichenbach 1819</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Aconitum</genus_name>
-        <species_name>columbianum</species_name>
-        <variety_name>howellii</variety_name>
-        <variety_authority>(A. Nelson &amp; J. F. Macbride) C. L. Hitchcock</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Aconitum</genus_name>
-        <species_name>hansenii</species_name>
-        <species_authority>Greene</species_authority>
-    </TaxonIdentification>
-    <description>Bulbils conspicuous in leaf axils and sometimes in inflorescence in place of
-        flowers. 2n=18, 19, 20.</description>
-    <phenology>Flowering summer (Jul-Sep)</phenology>
-    <phenology>Jul</phenology>
-    <phenology>Aug</phenology>
-    <phenology>Sep</phenology>
-    <habitat> Spring-fed bogs, seep areas, meadows, along streams, and other moist areas in
-        mountains</habitat>
-    <elevation> 900-2500 m</elevation>
-    <us_distribution> Calif.</us_distribution>
-    <us_distribution> Oreg.</us_distribution>
-    <discussion>One group of populations occurs in the Sierra Nevada, south of Lake Tahoe, in
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aconitum</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">columbianum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Brink" date="unknown">viviparum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>16: 13. 1994</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aconitum;species columbianum;subspecies viviparum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aconitum</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">viviparum</taxon_name>
+    <place_of_publication>
+      <publication_title>Feddes Repert. Spec. Nov. Regni Veg.</publication_title>
+      <place_in_publication>7: 2. 1909</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aconitum;species viviparum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aconitum</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">bulbiferum</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1897</place_in_publication>
+      <other_info_on_pub>not A. bulbiferum Reichenbach 1819</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aconitum;species bulbiferum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aconitum</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">columbianum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson &amp; J. F. Macbride) C. L. Hitchcock" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Aconitum;species columbianum;variety howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aconitum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hansenii</taxon_name>
+    <taxon_hierarchy>genus Aconitum;species hansenii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>One group of populations occurs in the Sierra Nevada, south of Lake Tahoe, in
         California. Another group of bulbiferous populations begins ca. 350 miles north in the
         Klamath Mountains of California and extends to northern Oregon in the Cascade Range. These
         bulbiferous populations form a geographically and morphologically distinct group. We have
         not noted intergradation between bulbiferous and nonbulbiferous subspecies of A.
         columbianum.</discussion>
-    <discussion>Bulbils are an effective means of vegetative reproduction. They fall to the ground
+  <discussion>Bulbils are an effective means of vegetative reproduction. They fall to the ground
         late in the season and sprout vigorously, giving rise to new plants. Bulbil production
         should not be confused with the production of one to several small daughter tubers at the
         first few nodes above the parent tuber, usually below ground, which can occur on a small
         percentage of the plants in bulbiferous and nonbulbiferous populations. In other respects,
         these bulbiferous populations are similar to adjoining races of Aconitum columbianum subsp.
         columbianum.</discussion>
-</treatment>
+</bio:treatment>

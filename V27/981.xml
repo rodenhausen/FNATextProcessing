@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>OCTOBLEPHARUM</genus_name>
-    <genus_authority>Hedwig</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Hedwig" date="unknown">OCTOBLEPHARUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>50.  1801  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek okto, eight, and blepharis, eyelash, alluding to peristome teeth]</etymology>
-  <description>Plants small, densely to loosely cespitose.  Stems erect.  Leaves crowded, erect to spreading-recurved, weakly bordered with elongate hyaline cells; chlorophyllose cells in a single layer; costa absent.  Peristome with prostome present.</description>
-  <number_of_infrataxa>Species ca. 15 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide in tropical and subtropical regions.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus OCTOBLEPHARUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek okto, eight, and blepharis, eyelash, alluding to peristome teeth]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species ca. 15 (1 in the flora):</discussion>
+</bio:treatment>

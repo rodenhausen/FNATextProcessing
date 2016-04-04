@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Stenotus</genus_name><species_name>armerioides</species_name><species_authority>(Nuttall)</species_authority><variety_name>gramineus</variety_name><variety_authority>(S. L. Welsh &amp; F. J. Smith) Kartesz &amp; Gandhi</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>71: 61. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Haplopappus</genus_name><species_name>armerioides</species_name><species_authority>(Nuttall) A. Gray)</species_authority><variety_name>gramineus</variety_name><variety_authority>S. L. Welsh &amp; F. J. Smith</variety_authority><place_of_publication><publication_title>Great Basin Naturalist </publication_title><place_in_publication>43: 371. 1983</place_in_publication></place_of_publication></TaxonIdentification><description>Stems 3.5–8 cm. Leaves: petioles stout; blades usually 1-nerved, linear, 40(–70) × 1–1.5 mm, bases about as wides as blades, margins ciliate, faces usually at least ± scabrous. Heads 1(–2).</description><habitat>pinyon-juniper woodlands on shale</habitat><conservation>of conservation concern;</conservation><elevation>1700–2000 m;</elevation><us_distribution>Utah.</us_distribution><discussion>Stenotus armerioides var. gramineus is known only from Green River Formation shales of the Uintah Basin of Duschesne and Uintah counties.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stenotus</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall)" date="unknown">armerioides</taxon_name>
+    <taxon_name rank="variety" authority="(S. L. Welsh &amp; F. J. Smith) Kartesz &amp; Gandhi" date="unknown">gramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>71: 61. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Stenotus;species armerioides;variety gramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) A. Gray)" date="unknown">armerioides</taxon_name>
+    <taxon_name rank="variety" authority="S. L. Welsh &amp; F. J. Smith" date="unknown">gramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Great Basin Naturalist</publication_title>
+      <place_in_publication>43: 371. 1983</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Haplopappus;species armerioides;variety gramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Stenotus armerioides var. gramineus is known only from Green River Formation shales of the Uintah Basin of Duschesne and Uintah counties.</discussion>
+</bio:treatment>

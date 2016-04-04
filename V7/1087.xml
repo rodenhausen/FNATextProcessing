@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>47.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>lepidota</species_name>
-    <species_authority>Rollins</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">lepidota</taxon_name>
     <place_of_publication>
       <publication_title>Brittonia</publication_title>
       <place_in_publication>33: 335, figs. 1, 2. 1981</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Kane County twinpod</common_name>
-  <description>Perennials; caudex simple, (with deep roots, thickened); densely (silvery) pubescent throughout (densely covering leaves with several appressed layers), less dense on stems, trichomes (stellate-scalelike), rays fused (webbed) in proximal 1/2 or to tips, (umbonate, nearly smooth to moderately tuberculate). Stems simple from base, erect or outer ones slightly decumbent toward base, (from below or in basal leaves, unbranched), (0.5–)0.8–1.6(–2) dm. Basal leaves (erect, petiole long, slender); blade spatulate to broadly oblanceolate, (3–)5–7(–12) cm, (base gradually tapering to petiole), margins entire, (apex rounded or obtuse). Cauline leaves: blade oblanceolate, similar to basal, (base cuneate), margins entire. Racemes dense. Fruiting pedicels (divaricate-ascending, straight or slightly curved), 10–15 mm. Flowers: sepals (erect), linear to linear-oblong, somewhat boat-shaped, 7–10 mm; petals (erect at anthesis), lingulate, 11–15 mm, (claw undifferentiated from blade). Fruits (purplish in age), strongly didymous, semiorbicular, highly inflated, 10–18 × 14–19 mm, (papery, basal sinus usually shallow, rarely absent, apical sinus deep, narrowly V-shaped; valves retaining seeds after dehiscence, sides flat, back rounded, margins keeled, base and apex obtuse; replum narrowly oblong to linear, as wide as or wider than fruit, base slightly narrowed, apex obtusely rounded; ovules 4 per ovary; style 3–5 mm, (slender). Seeds slightly flattened.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>wc United States.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species lepidota;</taxon_hierarchy>
+  </taxon_identification>
+  <number>47.</number>
+  <other_name type="common_name">Kane County twinpod</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Trichomes: rays fused nearly to tips; fruits with</statement>
+      <description type="morphology">Trichomes: rays fused nearly to tips; fruits with</description>
       <determination>47a. Physaria lepidota subsp . lepidota</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Trichomes: rays fused in proximal 1 / 2 ; fruits with sinuses absent or shallow basally, deep apically</statement>
+      <description type="morphology">Trichomes: rays fused in proximal 1 / 2 ; fruits with sinuses absent or shallow basally, deep apically</description>
       <determination>47b. Physaria lepidota subsp . membranacea</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,54 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Pisonia</genus_name>
-        <species_name>capitata</species_name>
-        <species_authority>(S. Watson) Standley</species_authority>
-        <place_of_publication>
-            <publication_title>Contr. U.S. Natl. Herb.</publication_title>
-            <place_in_publication>13: 388. 1911</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Cryptocarpus</genus_name>
-        <species_name>capitatus</species_name>
-        <species_authority>S. Watson</species_authority>
-        <place_of_publication>
-            <publication_title>Proc. Amer. Acad. Arts </publication_title>
-            <place_in_publication>24: 71. 1889</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Shrubs or small trees, to 6 m; branches dense, spreading at right angles, usually
-        armed with stout, recurved spines 7–14 mm. Stems arching, velvety when young, glabrate
-        later. Leaf blades broadly obovate or suborbiculate, 2–6 × 2–6 cm, base rounded or broadly
-        cuneate, apex rounded, rarely subacute. Inflorescences: [staminate inflorescences
-        subglobose, dense, 1–2 cm diam.]; pistillate inflorescences densely subglobose at anthesis,
-        more open in age; branches divaricate or ascending; fruiting pedicel 0.5–2 cm. Perianths:
-        [perianth of staminate flowers deep red, broadly campanulate, 2–3 mm, densely and shortly
-        viscid-villous]; perianth of pistillate flowers greenish, often blushed with red, 2–2.5 mm,
-        densely puberulent. Fruits clavate, 7–10 × 3–4 mm, densely puberulent between glandular
-        ribs, glands extending entire length of fruits.</description>
-    <phenology>winter</phenology>
-    <phenology>dec</phenology>
-    <phenology>jan</phenology>
-    <phenology>feb</phenology>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>protected clefts on rhyolitic soils in arid scrub [tropical deciduous forests</habitat>
-    <habitat>thickets</habitat>
-    <habitat>along watercourses</habitat>
-    <elevation>0–1100 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <global_distribution>nw Mexico.</global_distribution>
-    <discussion>Pisonia capitata is represented in the flora by a single, possibly clonal,
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pisonia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Standley" date="unknown">capitata</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>13: 388. 1911</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Pisonia;species capitata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cryptocarpus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">capitatus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>24: 71. 1889</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cryptocarpus;species capitatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Pisonia capitata is represented in the flora by a single, possibly clonal,
         population of a few pistillate plants in south-central Arizona several hundred kilometers
         north of known populations in Sonora, perhaps originating from a freak event of bird
         dispersal. Plants are not known to have set seed.</discussion>
-    <discussion>As noted above, pistillate plants of Pisonia capitata and P. aculeata exhibit no
+  <discussion>As noted above, pistillate plants of Pisonia capitata and P. aculeata exhibit no
         apparent differences, nor are there apparent vegetative differences between the species.
         That plants known in the flora truly represent P. aculeata is an assumption based on
         geography.</discussion>
-</treatment>
+</bio:treatment>

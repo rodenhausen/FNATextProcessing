@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="(Bongard) G. Don" date="unknown">mertensiana</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">mertensiana</taxon_name>
+    <taxon_hierarchy>family ERICACEAE;genus Cassiope;species mertensiana;subspecies mertensiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Andromeda</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">cupressina</taxon_name>
+    <taxon_hierarchy>genus Andromeda;species cupressina;</taxon_hierarchy>
+  </taxon_identification>
   <number>2a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cassiope</genus_name>
-    <species_name>mertensiana</species_name>
-    <species_authority>(Bongard) G. Don</species_authority>
-    <subspecies_name>mertensiana</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Andromeda</genus_name>
-    <species_name>cupressina</species_name>
-    <species_authority>Hooker</species_authority>
-  </TaxonIdentification>
-  <description>Stems hairy, especially when young, glandular hairs absent.  Leaf blade margins glabrous.</description>
-  <phenology>Flowering Jun–Jul</phenology>
-  <habitat>Montane meadows</habitat>
-  <elevation>100–2600 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+</bio:treatment>

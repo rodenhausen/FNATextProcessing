@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphaeromeria</genus_name>
-    <species_name>argentea</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphaeromeria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">argentea</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 402. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species argentea;</taxon_hierarchy>
-  <common_name>Silver chickensage</common_name>
-  <common_name>Nuttall’s false sagebrush</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tanacetum</genus_name>
-    <species_name>nuttallii</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 5–20 cm (cespitose). Stems erect, canescent. Leaves mostly basal; blades (± cuneate, 7–15 mm) entire or apices 3(–5)-toothed or -lobed, faces silvery-canescent. Heads usually 2–7 in subcapitate to corymbiform arrays (1–1.5 cm across), sometimes borne singly. Phyllaries 12–16, sparsely tomentose. Involucres 3–5(–7) mm. Cypselae 2–2.5 mm (3–5-ribbed, apices with thickened rims, faces glabrous or sparsely gland-dotted). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Jun–Jul.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry hills ;</text>
-    <habitat>dry hills</habitat>
-  </habitat_info>
-  <elevation>2000–2600 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Sphaeromeria;species argentea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tanacetum</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">nuttallii</taxon_name>
+    <taxon_hierarchy>genus Tanacetum;species nuttallii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Silver chickensage</other_name>
+  <other_name type="common_name">Nuttall’s false sagebrush</other_name>
   <discussion>Sphaeromeria argentea is moderately tolerant of alkali.</discussion>
-</treatment>
-
+</bio:treatment>

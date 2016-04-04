@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>7a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cupressus</genus_name><species_name>guadalupensis</species_name><variety_name>forbesii</variety_name><variety_authority>(Jepson) Little</variety_authority><place_of_publication><publication_title>Phytologia</publication_title><place_in_publication>20: 435. 1970</place_in_publication></place_of_publication></TaxonIdentification><common_name>Tecate cypress</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Cupressus</genus_name><species_name>forbesii</species_name><species_authority>Jepson</species_authority><place_of_publication><publication_title>Madroño </publication_title><place_in_publication>1: 75. 1922</place_in_publication></place_of_publication></TaxonIdentification><description>Trees  to 10 m, often shrubby; crown globose, sparse.  Bark  smooth.  Branchlets  decussate, mostly 1--1.5 mm diam.  Leaves  often with inconspicuous, embedded, abaxial gland that does not produce drop of resin, not glaucous.  Pollen cones  3--4 × 2 mm; pollen sacs 3--5.  Seed cones  globose, mostly (2--)2.5--3.5 cm, brown, not glaucous; scales mostly 4--5 pairs, smooth, umbos flat or to 5 mm.  Seeds  mostly 5--6 mm, dark brown, not glaucous.</description><discussion>The typical variety is endemic to Guadalupe Island, Baja California, Mexico.</discussion><habitat>Chaparral</habitat><conservation> of conservation concern</conservation><elevation> 450--1000 m</elevation><us_distribution> Calif.</us_distribution><global_distribution> Mexico in Baja California.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">guadalupensis</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) Little" date="unknown">forbesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>20: 435. 1970</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cupressus;species guadalupensis;variety forbesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cupressus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">forbesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>1: 75. 1922</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cupressus;species forbesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a</number>
+  <other_name type="common_name">Tecate cypress</other_name>
+  <discussion>The typical variety is endemic to Guadalupe Island, Baja California, Mexico.</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
+</bio:treatment>

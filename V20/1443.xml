@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Blennosperma</genus_name>
-        <species_name>nanum</species_name>
-        <species_authority>(Hooker) S. F. Blake</species_authority>
-        <variety_name>nanum</variety_name>
-    </TaxonIdentification>
-    <description>pollen usually white. Cypselae mostly 2.5–3 mm., disc florets mostly
-        20–60(–70).</description>
-    <phenology>feb</phenology>
-    <phenology>winter</phenology>
-    <phenology>mar</phenology>
-    <phenology>spring</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>Open, grassy places, often margins of seeps or vernal pools;</habitat>
-    <elevation>10–800(–1400) m</elevation>
-    <us_distribution>Calif.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Blennosperma</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) S. F. Blake" date="unknown">nanum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">nanum</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Blennosperma;species nanum;variety nanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
+</bio:treatment>

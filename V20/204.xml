@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Sericocarpus</genus_name><species_name>oregonensis</species_name><species_authority>Nuttall</species_authority><subspecies_name>californicus</subspecies_name><subspecies_authority>(Durand) Ferris</subspecies_authority><place_of_publication>
-    <publication_title>Contr. Dudley Herb.</publication_title>
-    <place_in_publication>5: 100. 1958</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Sericocarpus</genus_name><species_name>californicus</species_name><species_authority>Durand</species_authority><place_of_publication><publication_title>Pl. Pratten. Calif., </publication_title><place_in_publication>90. 1855</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>oregonensis</species_name><species_authority>(Nuttall) Cronquist</species_authority><subspecies_name>californicus</subspecies_name><subspecies_authority>(Durand) D. D. Keck</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>oregonensis</species_name><variety_name>californicus</variety_name><variety_authority>(Durand) G. L. Nesom</variety_authority></TaxonIdentification><description>Stems and leaves moderately to densely hairy. 2n = 18.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>dry to moist sandy soils in open areas in oak and pine woods</habitat><habitat>along dry streams</habitat><habitat>granitic and serpentine barrens</habitat><elevation>800–2200 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Subspecies californicus grows in the Sierra Nevada.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sericocarpus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">oregonensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Durand) Ferris" date="unknown">californicus</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. Dudley Herb.</publication_title>
+      <place_in_publication>5: 100. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Sericocarpus;species oregonensis;subspecies californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sericocarpus</taxon_name>
+    <taxon_name rank="species" authority="Durand" date="unknown">californicus</taxon_name>
+    <place_of_publication>
+      <publication_title>Pl. Pratten. Calif.,</publication_title>
+      <place_in_publication>90. 1855</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Sericocarpus;species californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Cronquist" date="unknown">oregonensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Durand) D. D. Keck" date="unknown">californicus</taxon_name>
+    <taxon_hierarchy>genus Aster;species oregonensis;subspecies californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">oregonensis</taxon_name>
+    <taxon_name rank="variety" authority="(Durand) G. L. Nesom" date="unknown">californicus</taxon_name>
+    <taxon_hierarchy>genus S.;species oregonensis;variety californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
+  <discussion>Subspecies californicus grows in the Sierra Nevada.</discussion>
+</bio:treatment>

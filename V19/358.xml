@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>46.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PRENANTHES</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Bogler</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">PRENANTHES</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 797. 1753</place_in_publication>
@@ -12,20 +18,16 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 349. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus PRENANTHES;</taxon_hierarchy>
-  <etymology>[Greek prenes , drooping, and anthos , flower, alluding to drooping heads]</etymology>
-  <past_name>Prenantes</past_name>
-  <common_name>Rattlesnakeroot</common_name>
-  <common_name>cankerweed</common_name>
-  <common_name>gall-of-the-earth</common_name>
-  <common_name>prenanthe</common_name>
-  <author>David J. Bogler</author>
-  <description>Perennials, 5–250 cm; taprooted, often producing offshoots connected by slender rhizomes. Stems 1–5, usually erect, sometimes decumbent (P. bootii), usually simple (leafy), usually glabrous proximally, tomentulose distally. Leaves basal and cauline; petiolate or sessile; blades deltate to triangular, or ovate to oblanceolate, or oblong to linear, or spatulate, margins often pinnately or palmately lobed (sometimes deeply cleft and appearing compound), ultimate margins entire or coarsely serrate or dentate (apices acute, obtuse, or rounded; distal leaves reduced in size and lobing. Heads (usually nodding at flowering) in racemiform, paniculiform, thyrsiform, or corymbiform arrays. Peduncles not inflated distally, bracteate. Calyculi of 2–12, triangular to linear-lanceolate or subulate, unequal bractlets. Involucres narrowly cylindric to campanulate (bases often attenuate), 2–14 mm diam. Phyllaries 3–15 in 1 series, (yellow green or green to purple or blackish) subulate or linear to lanceolate or elliptic, equal, margins scarious, apices acute, faces glabrous, tomentulose, hispid, or coarsely setose. Receptacles slightly convex, smooth, glabrous, epaleate. Florets 4–38; corollas usually creamy white, pink, or lavender, rarely yellow or red (glabrous). Cypselae golden brown to light tan, narrowly subcylindric, or fusiform to oblanceoloid, or oblong to linear, subterete or angled, apices truncate, not beaked, faces finely 5–12-ribbed, usually glabrous; pappi persistent, of 30–50, dull white to yellow or tan, rarely reddish brown, ± equal, barbellulate bristles in 1 series. x = 8.</description>
-  <number_of_infrataxa>Species ca. 26–30 (14 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>n Asia</global_distribution>
-  <global_distribution>sc Africa (1 species).</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus PRENANTHES;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek prenes , drooping, and anthos , flower, alluding to drooping heads]</other_info_on_name>
+  </taxon_identification>
+  <number>46.</number>
+  <other_name type="past_name">Prenantes</other_name>
+  <other_name type="common_name">Rattlesnakeroot</other_name>
+  <other_name type="common_name">cankerweed</other_name>
+  <other_name type="common_name">gall-of-the-earth</other_name>
+  <other_name type="common_name">prenanthe</other_name>
+  <discussion>Species ca. 26–30 (14 in the flora):</discussion>
   <discussion>Prenanthes is recognized by the erect and simple habit, deeply divided proximal leaves, whitish, yellow, or pinkish corollas in nodding heads, calyculate involucres, and pappi of barbellulate bristles. Leaf shape, size, and degree of lobing are often used for distinguishing species but are sometimes exceptionally variable. The proximal leaves are usually different in size, shape, and lobing from the distal leaves. Other taxonomic characters include size and habit, corolla color, number of florets per head, and phyllary number, color, and indument. The cypselae and pappi tend to be uniform.</discussion>
   <discussion>Molecular ITS studies by S. C. Kim et al. (1996) suggested that Prenanthes, as here circumscribed, may be polyphyletic; additional sampling including North American taxa is needed to confirm the relationships of Prenanthes and recognition of Nabalus Cassini at the genus level.</discussion>
   <references>
@@ -35,134 +37,133 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Phyllaries glabrous.</statement>
+      <description type="morphology">Phyllaries glabrous.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Florets and phyllaries (4–)5(–6)</statement>
+      <description type="morphology">Florets and phyllaries (4–)5(–6)</description>
       <determination>3. Prenanthes altissima</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Florets and phyllaries 6–20.</statement>
+      <description type="morphology">Florets and phyllaries 6–20.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Heads in elongate, slender, spikelike, narrowly racemiform arrays; proximal leaves oblong to linear, pinnately lobed, lobes narrow and at right angles; corollas pinkish</statement>
+      <description type="morphology">Heads in elongate, slender, spikelike, narrowly racemiform arrays; proximal leaves oblong to linear, pinnately lobed, lobes narrow and at right angles; corollas pinkish</description>
       <determination>5. Prenanthes autumnalis</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Heads in racemiform, paniculiform, or narrowly thyrsiform arrays; proximal leaves ovate to deltate, palmately lobed, irregularly dentate or entire; corollas whitish, pinkish, or pale yellow.</statement>
+      <description type="morphology">Heads in racemiform, paniculiform, or narrowly thyrsiform arrays; proximal leaves ovate to deltate, palmately lobed, irregularly dentate or entire; corollas whitish, pinkish, or pale yellow.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Phyllaries ± purplish or maroon (dark on old specimens); corollas whitish to pinkish; pappi usually reddish brown (rarely yellowish)</statement>
+      <description type="morphology">Phyllaries ± purplish or maroon (dark on old specimens); corollas whitish to pinkish; pappi usually reddish brown (rarely yellowish)</description>
       <determination>2. Prenanthes alba</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Phyllaries green to tan, dark green, or blackish; corollas white or pale yellow; pappi pale yellow.</statement>
+      <description type="morphology">Phyllaries green to tan, dark green, or blackish; corollas white or pale yellow; pappi pale yellow.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Proximal leaves palmately 3(–5)-lobed (often deeply cleft, compound, lobes lanceolate, sinuses angular); involucres campanulate (attenuate at bases); calyculus bractlets triangular; corollas pale yellow</statement>
+      <description type="morphology">Proximal leaves palmately 3(–5)-lobed (often deeply cleft, compound, lobes lanceolate, sinuses angular); involucres campanulate (attenuate at bases); calyculus bractlets triangular; corollas pale yellow</description>
       <determination>14. Prenanthes trifoliolata</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Proximal leaves entire or shallowly lobed (bases hastate or sagittate to truncate or rounded); involucres cylindro-campanulate or narrowly campanulate (rounded, not attentuate at bases); calyculus bractlets subulate to narrowly lanceolate; corollas white.</statement>
+      <description type="morphology">Proximal leaves entire or shallowly lobed (bases hastate or sagittate to truncate or rounded); involucres cylindro-campanulate or narrowly campanulate (rounded, not attentuate at bases); calyculus bractlets subulate to narrowly lanceolate; corollas white.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Plants 5–25 cm; stems decumbent; alpine regions, n Appalachians</statement>
+      <description type="morphology">Plants 5–25 cm; stems decumbent; alpine regions, n Appalachians</description>
       <determination>7. Prenanthes bootii</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Plants 8–75 cm; stems erect; n Rocky Mountains</statement>
+      <description type="morphology">Plants 8–75 cm; stems erect; n Rocky Mountains</description>
       <determination>12. Prenanthes sagittata</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Phyllaries tomentulose, hispid, or coarsely setose.</statement>
+      <description type="morphology">Phyllaries tomentulose, hispid, or coarsely setose.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Proximal leaves petiolate, petioles ± winged, blades spatulate, usually unlobed, apices usually rounded or obtuse; mid cauline leaves sessile, often clasping; heads ± ascending.</statement>
+      <description type="morphology">Proximal leaves petiolate, petioles ± winged, blades spatulate, usually unlobed, apices usually rounded or obtuse; mid cauline leaves sessile, often clasping; heads ± ascending.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Midstems roughly hispid or coarsely setose; proximalmost leaves withered or deciduous by flowering; leaves ± hispid abaxially; corollas pale yellow to creamy white</statement>
+      <description type="morphology">Midstems roughly hispid or coarsely setose; proximalmost leaves withered or deciduous by flowering; leaves ± hispid abaxially; corollas pale yellow to creamy white</description>
       <determination>4. Prenanthes aspera</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Midstems glabrous; proximalmost leaves persistent to flowering; leaves glabrous; corollas usually pinkish (sometimes white or lavender)</statement>
+      <description type="morphology">Midstems glabrous; proximalmost leaves persistent to flowering; leaves glabrous; corollas usually pinkish (sometimes white or lavender)</description>
       <determination>10. Prenanthes racemosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Proximal leaves petiolate, petioles winged, blades deltate or triangular to elliptic or ovate (not spatulate), sometimes lobed, apices acute or obtuse; mid cauline leaves sessile or petiolate; heads nodding.</statement>
+      <description type="morphology">Proximal leaves petiolate, petioles winged, blades deltate or triangular to elliptic or ovate (not spatulate), sometimes lobed, apices acute or obtuse; mid cauline leaves sessile or petiolate; heads nodding.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Proximal leaves sagittate, lobed; phyllaries hispid or tomentulose.</statement>
+      <description type="morphology">Proximal leaves sagittate, lobed; phyllaries hispid or tomentulose.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Plants 80–150 cm; proximal leaves sagittate, bases sagittate; phyllaries hispid along midveins; Edwards Plateau, Texas</statement>
+      <description type="morphology">Plants 80–150 cm; proximal leaves sagittate, bases sagittate; phyllaries hispid along midveins; Edwards Plateau, Texas</description>
       <determination>8. Prenanthes carrii</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Plants 15–80 cm; proximal leaves triangular or irregularly elliptic, bases truncate or hastate; phyllaries finely tomentulose; Pacific Northwest to Alaska</statement>
+      <description type="morphology">Plants 15–80 cm; proximal leaves triangular or irregularly elliptic, bases truncate or hastate; phyllaries finely tomentulose; Pacific Northwest to Alaska</description>
       <determination>1. Prenanthes alata</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Proximal leaves deltate, ovate, or elliptic, lobed or unlobed; phyllaries coarsely setose.</statement>
+      <description type="morphology">Proximal leaves deltate, ovate, or elliptic, lobed or unlobed; phyllaries coarsely setose.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Proximal leaves deltate, ovate, or hastate, margins entire or coarsely serrate; phyllaries (9–)12–15, dark green to blackish; florets 15–38</statement>
+      <description type="morphology">Proximal leaves deltate, ovate, or hastate, margins entire or coarsely serrate; phyllaries (9–)12–15, dark green to blackish; florets 15–38</description>
       <determination>9. Prenanthes crepidinea</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Proximal leaves deltate to ovate or elliptic, margins palmately or pinnately lobed or unlobed, dentate or entire; phyllaries 5–10, green or purple to lavender; florets 5–15.</statement>
+      <description type="morphology">Proximal leaves deltate to ovate or elliptic, margins palmately or pinnately lobed or unlobed, dentate or entire; phyllaries 5–10, green or purple to lavender; florets 5–15.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Proximal leaves coarsely dentate or serrate (unlobed); phyllaries purple or lavender</statement>
+      <description type="morphology">Proximal leaves coarsely dentate or serrate (unlobed); phyllaries purple or lavender</description>
       <determination>6. Prenanthes barbata</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Proximal leaves 3–5-lobed; phyllaries usually green ( sometimes purple in P. serpentaria ).</statement>
+      <description type="morphology">Proximal leaves 3–5-lobed; phyllaries usually green ( sometimes purple in P. serpentaria ).</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Leaves about twice as long as wide, pinnately lobed, lobes and sinuses rounded; heads in broad paniculiform or corymbiform arrays, at least some branches elongate; phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary; florets 8–14; widespread in e, s United States</statement>
+      <description type="morphology">Leaves about twice as long as wide, pinnately lobed, lobes and sinuses rounded; heads in broad paniculiform or corymbiform arrays, at least some branches elongate; phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary; florets 8–14; widespread in e, s United States</description>
       <determination>13. Prenanthes serpentaria</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Leaves about as long as wide, palmately lobed, lobes angular; heads and sinuses angular; heads in narrow paniculiform or thyrsiform arrays, branches short; phyllaries dark green, with erect, coarse setae; florets 5–7(–13); mid to high elevations in Blue Ridge Mountains of North Carolina, Tennessee, Virginia</statement>
+      <description type="morphology">Leaves about as long as wide, palmately lobed, lobes angular; heads and sinuses angular; heads in narrow paniculiform or thyrsiform arrays, branches short; phyllaries dark green, with erect, coarse setae; florets 5–7(–13); mid to high elevations in Blue Ridge Mountains of North Carolina, Tennessee, Virginia</description>
       <determination>11. Prenanthes roanensis</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

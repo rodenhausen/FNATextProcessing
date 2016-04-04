@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>16b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Solidago</genus_name><species_name>puberula</species_name><species_authority>Nuttall</species_authority><subspecies_name>pulverulenta</subspecies_name><subspecies_authority>(Nuttall) Semple</subspecies_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>20: 1612. 2003</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Solidago</genus_name><species_name>pulverulenta</species_name><species_authority>Nuttall</species_authority><place_of_publication><publication_title>Gen. N. Amer. Pl. </publication_title><place_in_publication>2: 161. 1818</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>pulverulentus</species_name><species_authority>(Nuttall) Kuntze</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>puberula</species_name><variety_name>pulverulenta</variety_name><variety_authority>(Nuttall) Chapman</variety_authority></TaxonIdentification><description>Leaves numerous(20–)50–110+, mid cauline 10–40 mm. Phyllaries acute to barely attenuate. 2n = 18.</description><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>sandy soils</habitat><habitat>roadsides</habitat><habitat>margins of deciduous woods</habitat><habitat>pine flatwoods</habitat><elevation>0–200 m;</elevation><us_distribution>Ala.</us_distribution><us_distribution>Fla.</us_distribution><us_distribution>Ga.</us_distribution><us_distribution>La.</us_distribution><us_distribution>Miss.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Va.</us_distribution><discussion>Only shorter stems have fewer than 50 leaves.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">puberula</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) Semple" date="unknown">pulverulenta</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1612. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species puberula;subspecies pulverulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">pulverulenta</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. N. Amer. Pl.</publication_title>
+      <place_in_publication>2: 161. 1818</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;species pulverulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Kuntze" date="unknown">pulverulentus</taxon_name>
+    <taxon_hierarchy>genus Aster;species pulverulentus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">puberula</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) Chapman" date="unknown">pulverulenta</taxon_name>
+    <taxon_hierarchy>genus S.;species puberula;variety pulverulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16b.</number>
+  <discussion>Only shorter stems have fewer than 50 leaves.</discussion>
+</bio:treatment>

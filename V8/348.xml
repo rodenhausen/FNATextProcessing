@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>virens</species_name>
-    <species_authority>(Rose) Moran</species_authority>
-    <subspecies_name>hassei</subspecies_name>
-    <subspecies_authority>(Rose) Moran</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Moran" date="unknown">virens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rose) Moran" date="unknown">hassei</taxon_name>
     <place_of_publication>
       <publication_title>Haseltonia</publication_title>
       <place_in_publication>3: 4.  1995,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>hassei</species_name>
-    <species_authority>Rose</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species virens;subspecies hassei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">hassei</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton and J. N. Rose, New N. Amer. Crassul.,</publication_title>
       <place_in_publication>35.  1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>hassei</species_name>
-    <species_authority>(Rose) Moran</species_authority>
-  </TaxonIdentification>
-  <description>Caudices to 5 dm × 1–3 cm.  Rosette leaf blades appearing whitish, rarely green, linear, 5–10(–15) × 0.6–1 cm, surfaces mostly farinose.  Inflorescences: floral shoots 1–3 dm × 2–5 mm; cyme broadly obpyramidal; branches mostly simple or 1 times bifurcate; cincinni 3–20-flowered, 2–10 cm.  Corollas ca. 16–20 mm diam.  2n = 68.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Cliffs and rocky slopes near sea</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–400 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Stylophyllum;species hassei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Moran" date="unknown">hassei</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species hassei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1c.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies hassei, a tetraploid, is endemic to Santa Catalina Island, where the more widespread diploid subsp. insularis also grows.  R. F. Thorne (1969) mentioned that hybrids between these two seem to be rather frequent.</discussion>
   <discussion>Subspecies hassei flourishes in cultivation, as seen in extensive plantings at Rancho Santa Ana Botanic Garden.  In fact, R. F. Thorne (1969) called it their most successful dudleya, almost weedy in its aggressiveness, although that is a characteristic not usually associated with island endemics.</discussion>
-</treatment>
+</bio:treatment>

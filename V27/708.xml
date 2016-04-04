@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Trichostomum</genus_name>
-    <species_name>planifolium</species_name>
-    <species_authority>(Dixon) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichostomum</taxon_name>
+    <taxon_name rank="species" authority="(Dixon) R. H. Zander" date="unknown">planifolium</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 92. 1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>planifolia</species_name>
-    <species_authority>Dixon</species_authority>
+    <taxon_hierarchy>genus Trichostomum;species planifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="Dixon" date="unknown">planifolia</taxon_name>
     <place_of_publication>
       <publication_title>Rev. Bryol.</publication_title>
       <place_in_publication>55: 179, fig. 1. 1928</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trichostomum</genus_name>
-    <species_name>perligulatum</species_name>
-    <species_authority>(H. A. Crum) R. H. Zander</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>perligulata</species_name>
-    <species_authority>H. A. Crum</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>sweetii</species_name>
-    <species_authority>E. B. Bartram</species_authority>
-  </TaxonIdentification>
-  <description>Stem rounded-pentagonal in section. Leaves flattened, ovate to elliptical, distal
-        margins plane or weakly erect or rarely broadly involute, entire, not bordered; apex rounded
-        or rounded-acute, plane to weakly concave, keeled or cucullate; basal cells evenly
-        differentiated across leaf base or as a U, only weakly running up margins if at all, not
-        distinctly enlarged submarginally; distal laminal cells pluripapillose with low papillae;
-        mucro short-conic, of 3–4 cells. Sexual condition autoicous. Peristome teeth absent to
-        short-lanceolate.</description>
-  <habitat>Soil, margins of boulders, rock crevices;</habitat>
-  <elevation>moderate elevations;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>e Asia (China, Japan).</global_distribution>
+    <taxon_hierarchy>genus Weissia;species planifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichostomum</taxon_name>
+    <taxon_name rank="species" authority="(H. A. Crum) R. H. Zander" date="unknown">perligulatum</taxon_name>
+    <taxon_hierarchy>genus Trichostomum;species perligulatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="H. A. Crum" date="unknown">perligulata</taxon_name>
+    <taxon_hierarchy>genus Weissia;species perligulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="E. B. Bartram" date="unknown">sweetii</taxon_name>
+    <taxon_hierarchy>genus Weissia;species sweetii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Trichostomum planifolium was synonymized with T. crispulum by A. Stoneburner (1985)
         and Stoneburner and R. Wyatt (1985), but is retained here because it is monoicous. The leaf
         margins are sometimes inflexed distally, as in Weissia, and it was synonymized with Weissia
@@ -67,4 +58,4 @@
         and distal lamina ca. 12–18 cells across on one side of the costa just above mid leaf versus
         margins plane or weakly incurved to laxly inflexed, and lateral lamina 25–30 cells across
         for T. planifolium.</discussion>
-</treatment>
+</bio:treatment>

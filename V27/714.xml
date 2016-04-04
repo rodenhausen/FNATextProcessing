@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Trichostomum</genus_name>
-    <species_name>arcticum</species_name>
-    <species_authority>Kaalaas</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichostomum</taxon_name>
+    <taxon_name rank="species" authority="Kaalaas" date="unknown">arcticum</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Not.</publication_title>
       <place_in_publication>1900: 257. 1900,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Didymodon</genus_name>
-    <species_name>arcticus</species_name>
-    <species_authority>(Kaalaas) Brotherus</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trichostomum</genus_name>
-    <species_name>cuspidatissimum</species_name>
-    <species_authority>Cardot &amp; Thériot</species_authority>
-  </TaxonIdentification>
-  <description>Stem triangular in section. Leaves flattened, narrowly lanceolate, distal margins
-        plane, minutely crenulate, not bordered; apex narrowly acute, plane or keeled; basal cells
-        differentiated across leaf base as a W, commonly running up margins, distinctly enlarged
-        submarginally submarginally just proximal to the lowest point the quadrate medial cells
-        extend in the leaf; distal laminal cells pluripapillose with low papillae; mucro narrowly
-        conic, of 6–9 cells. Not fruiting in the flora area.</description>
-  <habitat>Gravel, fen, mire, calcareous bog, sedge meadow, low-center polygon, tundra, wet or
-        occasionally dry areas; often associated with snow melt runnels;</habitat>
-  <elevation>moderate elevations (400–700 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>n Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Trichostomum;species arcticum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymodon</taxon_name>
+    <taxon_name rank="species" authority="(Kaalaas) Brotherus" date="unknown">arcticus</taxon_name>
+    <taxon_hierarchy>genus Didymodon;species arcticus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichostomum</taxon_name>
+    <taxon_name rank="species" authority="Cardot &amp; Thériot" date="unknown">cuspidatissimum</taxon_name>
+    <taxon_hierarchy>genus Trichostomum;species cuspidatissimum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
   <discussion>The triangular stem cross section with a strong central strand will easily
         distinguish Trichostomum arcticum from the disconcertingly similar Tortella tortuosa var.
         arctica. Additionally, the former has leaves usually strongly recurved when wet and the
@@ -50,4 +37,4 @@
         minutely crenulate by projecting laminal cells and their papillae, but this feature seems
         distinctively pronounced in T. arcticum, which is found generally worldwide across the
         arctic.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carsonia</genus_name>
-    <species_name>sparsifolia</species_name>
-    <species_authority>(S. Watson) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carsonia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">sparsifolia</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>4: 212. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>sparsifolia</species_name>
-    <species_authority>S. Watson</species_authority>
+    <taxon_hierarchy>family CLEOMACEAE;genus Carsonia;species sparsifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">sparsifolia</taxon_name>
     <place_of_publication>
       <publication_title>Botany (Fortieth Parallel),</publication_title>
       <place_in_publication>32, plate 5. 1871</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 10–60(–90) cm. Stems glaucous. Leaves: petiole 4–15(–30) cm; leaflets 3 proximally, 1 distally, blade obovate, 4–15 × 0.1–7 mm, margins serrate, apex acute to obtuse. Racemes 2–8 cm (3–10 cm in fruit); bracts (expanded) unifoliate or trifoliate, 4–15 mm. Pedicels 4–8 mm. Flowers: sepals brownish green, ovate, 1.4–2.5(–3) × 1–2 mm, base cuneate, margins serrulate, apex acuminate, glabrous; petals recurved, yellow with brown central streak, strap-shaped, 9–13 × 1.5–3 mm; stamens staggered, yellow, 9–15 mm; anthers 3–5 mm; gynophore 2–5 mm in fruit; ovary 4–7 mm; style 0.1–0.4 mm. Capsules 15–45 × 1–3 mm, smooth. Seeds silver-gray, compressed, 2–3 × 1–1.5 mm, smooth. 2n = 32.</description>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>sand dunes</habitat>
-  <habitat>beaches</habitat>
-  <habitat>desert valleys</habitat>
-  <habitat>typically with larrea divaricata and artemisia species</habitat>
-  <elevation>900–2000 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Cleome;species sparsifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

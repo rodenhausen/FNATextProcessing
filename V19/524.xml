@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>(Hooker) Schultz-Bipontinus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Schultz-Bipontinus" date="unknown">laciniata</taxon_name>
     <place_of_publication>
       <publication_title>Jahresber. Pollichia</publication_title>
       <place_in_publication>22–24: 309. 1866</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;</taxon_hierarchy>
-  <common_name>Cutleaf or cut-leaved silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hymenonema</genus_name>
-    <species_name>laciniatum</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hymenonema</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">laciniatum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 301. 1833</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Scorzonella</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>(Hooker) Nuttall</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 15–120 cm; taprooted. Stems branched and leafy distally, or simple and leafy only proximally (subsp. detlingii and plants of extreme environments). Leaves basal and cauline; petiolate (distal often sessile, clasping); blades linear to broadly lanceolate, 10–50 cm, margins entire, dentate, lacerate, or pinnatifid, apices obtuse to acuminate, faces glabrous or scurfy-puberulent. Peduncles erect or curved-ascending, ebracteate or leafy (10–70 cm). Involucres globose to narrowly ovoid in fruit, 10–30 mm. Phyllaries: often purple-spotted (especially in subsp. laciniata), apices erect, abaxial faces glabrous or scurfy-puberulent (often black-villous in subsp. leptosepala); outer lanceolate to broadly ovate, deltate, or linear, slightly to much shorter than inner, 0.5–9 mm wide, apices cuspidate to acute; inner broadly to narrowly lanceolate, apices acuminate. Florets 13–300; corollas yellow, surpassing phyllaries by 5+ mm. Cypselae columnar, 3.5–8 mm (tapering to bases); pappi of 5–10(–15 in subsp. detlingii, or –24 in subsp. siskiyouensis), white to dull yellowish, deltate to lanceolate, aristate scales 0.5–8 mm, aristae barbellulate to barbellate. 2n = 18.</description>
-  <number_of_infrataxa>Subspecies 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Hymenonema;species laciniatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scorzonella</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Nuttall" date="unknown">laciniata</taxon_name>
+    <taxon_hierarchy>genus Scorzonella;species laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Cutleaf or cut-leaved silverpuffs</other_name>
+  <discussion>Subspecies 4 (4 in the flora):</discussion>
   <discussion>Microseris laciniata comprises four, mostly allopatric subspecies, the diagnostic features of which are found mainly in the phyllaries and pappi. These races intergrade where they come in contact, with the greatest diversity occurring in the Klamath Mountains of northern California and southern Oregon (K. L. Chambers 2004b). S. Mauthe et al. (1981) reported on a detailed morphologic analysis of the heads and pappi of M. laciniata and proposed that the observed variation could be explained by the interaction of a limited number of major genes. The species is consistently self-sterile and outcrossing. It also may reproduce clonally by adventitious buds borne on lateral roots.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems simple; leaves lanceolate or oblanceolate, usually entire, rarely sparingly pinnately lobed; outer phyllaries elliptic-ovate, smallest (2.5–)4 mm wide, apices acute or cuspidate; pappus scales 4–8 mm</statement>
+      <description type="morphology">Stems simple; leaves lanceolate or oblanceolate, usually entire, rarely sparingly pinnately lobed; outer phyllaries elliptic-ovate, smallest (2.5–)4 mm wide, apices acute or cuspidate; pappus scales 4–8 mm</description>
       <determination>3d. Microseris laciniata subsp. detlingii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems usually branched; leaves linear to lanceolate or oblanceolate, entire or pinnately lobed; outer phyllaries linear to ovate, smallest 1–9 mm wide, apices acuminate to cuspidate; pappus scales 0.5–3(–4) mm.</statement>
+      <description type="morphology">Stems usually branched; leaves linear to lanceolate or oblanceolate, entire or pinnately lobed; outer phyllaries linear to ovate, smallest 1–9 mm wide, apices acuminate to cuspidate; pappus scales 0.5–3(–4) mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappus scales 9–24, aristae barbellate; Klamath Mountains, Oregon and California</statement>
+      <description type="morphology">Pappus scales 9–24, aristae barbellate; Klamath Mountains, Oregon and California</description>
       <determination>3c. Microseris laciniata subsp. siskiyouensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappus scales 5–10, aristae usually barbellulate, rarely barbellate; Klamath Mountains and elsewhere.</statement>
+      <description type="morphology">Pappus scales 5–10, aristae usually barbellulate, rarely barbellate; Klamath Mountains and elsewhere.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Outer phyllaries often purple-spotted, ovate-lanceolate to broadly ovate, smallest 2.5–9 mm wide, apices acute to cuspidate, abaxial faces usually glabrous; widespread</statement>
+      <description type="morphology">Outer phyllaries often purple-spotted, ovate-lanceolate to broadly ovate, smallest 2.5–9 mm wide, apices acute to cuspidate, abaxial faces usually glabrous; widespread</description>
       <determination>3a. Microseris laciniata subsp. laciniata</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Outer phyllaries rarely purple-spotted, linear to lanceolate or deltate, smallest 0.5–2.5 mm wide, apices acute to acuminate, abaxial faces often scurfy-puberulent, sometimes black-villous; principally Coast Range and Klamath Mountains, rarely e to Great Basin Region, California, Oregon, Washington</statement>
+      <description type="morphology">Outer phyllaries rarely purple-spotted, linear to lanceolate or deltate, smallest 0.5–2.5 mm wide, apices acute to acuminate, abaxial faces often scurfy-puberulent, sometimes black-villous; principally Coast Range and Klamath Mountains, rarely e to Great Basin Region, California, Oregon, Washington</description>
       <determination>3b. Microseris laciniata subsp. leptosepala</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

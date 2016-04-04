@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Therorhodion</genus_name>
-    <species_name>glandulosum</species_name>
-    <species_authority>Standley ex Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Therorhodion</taxon_name>
+    <taxon_name rank="species" authority="Standley ex Small" date="unknown">glandulosum</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al.,  N. Amer. Fl.</publication_title>
       <place_in_publication>29: 45.  1914  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Glandular Kamtchatka rhododendron</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>camtschaticum</species_name>
-    <species_authority>Pallas</species_authority>
-    <subspecies_name>glandulosum</subspecies_name>
-    <subspecies_authority>(Standley ex Small) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>camtschaticum</species_name>
-    <species_authority>Pallas</species_authority>
-    <variety_name>glandulosum</variety_name>
-    <variety_authority>(Standley) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhododendron</genus_name>
-    <species_name>glandulosum</species_name>
-    <species_authority>(Standley ex Small) Millais</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Therorhodion</genus_name>
-    <species_name>camtschaticum</species_name>
-    <variety_name>pumilum</variety_name>
-    <variety_authority>(E. A. Busch) T. Yamazaki</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs to 1 dm.  Stems multicellular, eglandular-hairy (hairs unbranched) and stipitate-glandular-hairy, glabrate with age.  Leaves often clustered toward distal portions of shoots; blade elliptic to obovate, sometimes ovate, 1–3.5 × 0.4–1.5 cm, thin, margins ciliate (hairs stipitate-glandular), plane, apex rounded to obtuse or acute, mucronate, surfaces glandular-hairy.  Floral bud scales (and leaflike inflorescence bracts) stipitate-glandular-hairy.  Inflorescences 2–3-flowered, sometimes flowers solitary; axis elongate.  Pedicels 1–4.7 cm, stipitate-glandular-hairy; bracteoles 2, green, smaller than leaves.  Flowers opening after shoot development, appearing to terminate leafy shoots due to their leaflike bracts; calyx lobes 7–16 mm, stipitate-glandular-hairy; corolla purple, upper 3 lobes with darker spots, 16–25 mm, margins smooth, ± glabrous on outer surface, tube ± absent due to slit between lower 2 lobes, lobes 11–24 mm; stamens unicellular-hairy proximally.  Capsules 5–11 mm, unicellular-hairy.  2n = 24, 26.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Arctic and alpine meadows, tundra, balds, moraines, and subalpine woods</habitat>
-  <elevation>0–1500 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Japan, Russian Far East).</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Therorhodion;species glandulosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="Pallas" date="unknown">camtschaticum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Standley ex Small) Hultén" date="unknown">glandulosum</taxon_name>
+    <taxon_hierarchy>genus Rhododendron;species camtschaticum;subspecies glandulosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="Pallas" date="unknown">camtschaticum</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) B. Boivin" date="unknown">glandulosum</taxon_name>
+    <taxon_hierarchy>genus Rhododendron;species camtschaticum;variety glandulosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhododendron</taxon_name>
+    <taxon_name rank="species" authority="(Standley ex Small) Millais" date="unknown">glandulosum</taxon_name>
+    <taxon_hierarchy>genus Rhododendron;species glandulosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Therorhodion</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">camtschaticum</taxon_name>
+    <taxon_name rank="variety" authority="(E. A. Busch) T. Yamazaki" date="unknown">pumilum</taxon_name>
+    <taxon_hierarchy>genus Therorhodion;species camtschaticum;variety pumilum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Glandular Kamtchatka rhododendron</other_name>
   <discussion>Therorhodion glandulosum is found on the Seward Peninsula and in the lower Yukon River valley.</discussion>
-</treatment>
+</bio:treatment>

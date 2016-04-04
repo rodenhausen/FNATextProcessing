@@ -1,61 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pyrola</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Sweet</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Sweet" date="unknown">americana</taxon_name>
     <place_of_publication>
       <publication_title>Hort. Brit. ed.</publication_title>
       <place_in_publication>2, 341.  1830  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>American wintergreen</common_name>
-  <common_name>round-leaved pyrola</common_name>
-  <common_name>pyrole d’Amérique</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pyrola</genus_name>
-    <species_name>rotundifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>americana</variety_name>
-    <variety_authority>(Sweet) Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Plants rhizomatous, 0.1–0.3(–0.4) dm.  Leaves: petiole (8–)15–70 mm, channeled adaxially, glabrous; blade not or, sometimes, maculate, dull to shiny and light green to green abaxially, shiny and dark green sometimes with white tissue bordering larger veins adaxially, ovate to obovate or round, 16–73(–80) × 16–70 mm, coriaceous, base rounded to decurrent, margins crenate, apex subacute to obtuse, rounded, or retuse.  Inflorescences 1 per stem, 4–22-flowered; peduncular bracts 1–5, oblong-ovate, 5.5–13 × 2–4 mm, chartaceous or membranous, margins entire; inflo-rescence bracts lanceolate-ovate, longer than subtended pedicels, 4–12 × 1.2–3 mm, chartaceous.  Pedicels 4–8 mm.  Flowers: calyx lobes appressed or spreading in fruit, green or pinkish with margins hyaline to white or pinkish, ovate, ovate-oblong, or obovate, 2–4.3(–4.5) × 1.4–2 mm, margins entire or erose-denticulate, apices obtuse to acute; petals white, often suffused with pink, obovate to round, 6–10.5 × 4.5–5 mm, margins entire; stamens 4–7 mm; filament base 0.6–0.9 mm wide; anthers 2–4.1 mm, apiculations 0.1–0.3 mm, thecae creamy white or greenish white to pink or reddish, tubules yellowish brown to pink or reddish, 0.2–0.3 mm, gradually or abruptly narrowed from thecae, lateral walls touching for most of their lengths, pores 0.1–0.2 × 0.1–0.2 mm; ovary smooth; style exserted, 6–9 mm; stigma 0.7–1.6 mm wide, lobes erect.  Capsules depressed-globose, 3–3.5 × 4.2–5 mm.  2n = 46.</description>
-  <phenology>Flowering Apr–Jun</phenology>
-  <habitat>Moist to dry, deciduous or coniferous forests, bogs</habitat>
-  <elevation>10–2100 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Pyrola;species americana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pyrola</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rotundifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Sweet) Fernald" date="unknown">americana</taxon_name>
+    <taxon_hierarchy>genus Pyrola;species rotundifolia;variety americana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">American wintergreen</other_name>
+  <other_name type="common_name">round-leaved pyrola</other_name>
+  <other_name type="common_name">pyrole d’Amérique</other_name>
   <discussion>The relationship between Pyrola americana and other members of sect. Pyrola awaits resolution; various interpretations exist.  Some authors follow M. L. Fernald (1920) in treating it as conspecific with the Eurasian P. rotundifolia.  B. Křísa (1966, 1971) considered P. americana to be morphologically distinct from P. rotundifolia, treating it as P. asarifolia subsp. americana (Sweet) Křísa.  E. Haber (1972) likewise treated P. americana as a subspecies of P. asarifolia, noting similarities in stamen morphology, flavonoid chemistry, and geography.  Later, in a detailed study of P. asarifolia, Haber (1983) did not address directly the position of P. americana, which he did not include as either an infraspecific taxon or synonym of P. asarifolia.  The taxon is maintained here as a distinct species pending further studies.</discussion>
   <discussion>M. L. Fernald (1920) referred plants from Newfoundland and the Gulf of St. Lawrence area, which grow on barrens and in spruce forests, often on calcareous substrates, to Pyrola rotundifolia, consid-ering them indistinguishable from European plants.  E. Haber (1972) interpreted them as ecotypic variants of P. asarifolia subsp. asarifolia, noting the occurrence of similar populations outside that area.</discussion>
-</treatment>
+</bio:treatment>

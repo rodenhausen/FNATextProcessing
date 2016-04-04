@@ -1,45 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Alternanthera</genus_name>
-        <species_name>brasiliana</species_name>
-        <species_authority>(Linnaeus) Kuntze</species_authority>
-        <place_of_publication>
-            <publication_title>Revis. Gen. Pl.</publication_title>
-            <place_in_publication>2: 537. 1891</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Brazilian joyweed</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Gomphrena</genus_name>
-        <species_name>brasiliana</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Cent. Pl. II, </publication_title>
-            <place_in_publication>13. 1756</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Herbs or subshrubs, annual or perennial, 5–6 dm. Stems erect, villous, glabrate.
-        Leaves sessile; blade ovate to lanceolate, 1–7 × 0.7–1 cm, herbaceous, villous.
-        Inflorescences terminal and axillary, pedunculate; heads white, globose, 0.7–1 cm diam.;
-        bracts keeled, shorter than to equaling tepals. Flowers: tepals monomorphic, green to
-        stramineous, lanceolate, 3–4 mm, apex acuminate, villous, hairs not barbed; stamens 5;
-        pseudostaminodes ligulate, margins fimbriate. Utricles included within tepals, brown,
-        ellipsoid, 2 mm, apex acute. Seeds ovoid-oblong, 1.4 mm.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>sandy, wet, disturbed sites</habitat>
-    <elevation>0–10 m;</elevation>
-    <introduced>introduced;</introduced>
-    <us_distribution>Fla.</us_distribution>
-    <global_distribution>Mexico</global_distribution>
-    <global_distribution>West Indies</global_distribution>
-    <global_distribution>Central America (Belize)</global_distribution>
-    <global_distribution>Central America (Guatemala)</global_distribution>
-    <global_distribution>Central America (Honduras)</global_distribution>
-    <global_distribution>Central America (Nicaragua)</global_distribution>
-    <global_distribution>South America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alternanthera</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Kuntze" date="unknown">brasiliana</taxon_name>
+    <place_of_publication>
+      <publication_title>Revis. Gen. Pl.</publication_title>
+      <place_in_publication>2: 537. 1891</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Alternanthera;species brasiliana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gomphrena</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">brasiliana</taxon_name>
+    <place_of_publication>
+      <publication_title>Cent. Pl. II,</publication_title>
+      <place_in_publication>13. 1756</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Gomphrena;species brasiliana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Brazilian joyweed</other_name>
+</bio:treatment>

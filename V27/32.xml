@@ -1,44 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>21.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>macrophyllum</species_name>
-    <species_authority>Bridel</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Bridel" date="unknown">macrophyllum</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 10.  1826,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Isocladus</genus_name>
-    <species_name>macrophyllus</species_name>
-    <species_authority>(Bridel) Lindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>macrophyllum</species_name>
-    <variety_name>burinense</variety_name>
-    <variety_authority>W. S. G. Maas</variety_authority>
-  </TaxonIdentification>
-  <description>Plants brown, dark brown to nearly black.  Branch leaves lanceolate to linear-lanceolate, apex narrow and tubular, hyaline cells with 8–12 moderate-sized (more than 0.25 cell diameter) in mostly one row.</description>
-  <habitat>Floating or stranded at margins of shallow lakes and ponds, rarely in seeps where probably constantly wet;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Sphagnum;species macrophyllum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Isocladus</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) Lindberg" date="unknown">macrophyllus</taxon_name>
+    <taxon_hierarchy>genus Isocladus;species macrophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macrophyllum</taxon_name>
+    <taxon_name rank="variety" authority="W. S. G. Maas" date="unknown">burinense</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species macrophyllum;variety burinense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>21.</number>
+</bio:treatment>

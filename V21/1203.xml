@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Conoclinium</genus_name><species_name>betonicifolium</species_name><species_authority>(Miller) R. M. King &amp; H. Robinson</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>19: 300. 1970</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>betonicaefolium</past_name><common_name>Betony-leaf mistflower</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Eupatorium</genus_name><species_name>betonicifolium</species_name><species_authority>Miller</species_authority><place_of_publication><publication_title>Gard. Dict. ed. </publication_title><place_in_publication>8, Eupatorium no. 9. 1768</place_in_publication></place_of_publication></TaxonIdentification><description>Stems decumbent or procumbent (rooting at nodes). Leaf blades usually oblong to oblong-lanceolate or oblanceolate to ovate, sometimes triangular, 2.5–5(–11) cm, bases cordate, obtuse, or truncate (often subauriculate), margins usually crenate to dentate, rarely entire, apices rounded to obtuse. Phyllaries ca. 4 mm. Corollas blue to purple, 2.5–3 mm. Cypselae 1.2–1.8 mm, glabrous; pappi: bristle tips dilated.</description><number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa><us_distribution>Texas</us_distribution><global_distribution>Mexico.</global_distribution><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conoclinium</taxon_name>
+    <taxon_name rank="species" authority="(Miller) R. M. King &amp; H. Robinson" date="unknown">betonicifolium</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>19: 300. 1970</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Conoclinium;species betonicifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">betonicifolium</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Dict. ed.</publication_title>
+      <place_in_publication>8, Eupatorium no. 9. 1768</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eupatorium;species betonicifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="past_name">betonicaefolium</other_name>
+  <other_name type="common_name">Betony-leaf mistflower</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades mostly oblong to oblong-lanceolate, bases cordate to truncate (often subauriculate), margins crenate; coastal habitats</statement>
+      <description type="morphology">Leaf blades mostly oblong to oblong-lanceolate, bases cordate to truncate (often subauriculate), margins crenate; coastal habitats</description>
       <determination>2a. Conoclinium betonicifolium var. betonicifolium</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf blades mostly oblanceolate to ovate, bases cordate, obtuse, or truncate, margins crenate or entire; inland habitats along streams and around lakes.</statement>
+      <description type="morphology">Leaf blades mostly oblanceolate to ovate, bases cordate, obtuse, or truncate, margins crenate or entire; inland habitats along streams and around lakes.</description>
       <determination>2b. Conoclinium betonicifolium var. integrifolium</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

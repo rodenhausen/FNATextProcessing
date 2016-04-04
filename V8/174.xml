@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>micrantha</species_name>
-    <species_authority>Douglas ex Lindley</species_authority>
-    <variety_name>erubescens</variety_name>
-    <variety_authority>(A. Braun &amp; C. D. Bouché) Rosendahl</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Lindley" date="unknown">micrantha</taxon_name>
+    <taxon_name rank="variety" authority="(A. Braun &amp; C. D. Bouché) Rosendahl" date="unknown">erubescens</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Jahrb. Syst.</publication_title>
       <place_in_publication>37(2, Beibl. 83): 77.  1905,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>erubescens</species_name>
-    <species_authority>A. Braun &amp; C. D. Bouché</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species micrantha;variety erubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="A. Braun &amp; C. D. Bouché" date="unknown">erubescens</taxon_name>
     <place_of_publication>
       <publication_title>Index Seminum (Berlin), App.</publication_title>
       <place_in_publication>2.  1872</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves: petiole short stipitate-glandular or sparsely long stipitate-glandular; blade pen-tagonal or heptagonal, deeply lobed.  Inflorescences short stipitate-glandular.  Flowers: hypanthium obconic, 1.7–3.1 × 1–2.3 mm (1.4 times longer than wide), short stipitate-glandular; sepals 0.5–1.8 mm, apex acute; petals 0.2–0.6 mm wide; styles 0.2–0.6 mm.  2n = 14.</description>
-  <phenology>Flowering Jun–Jul</phenology>
-  <habitat>Mixed evergreen forest on limestone, mica schist, granite, or serpentine soils</habitat>
-  <elevation>100–2200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species erubescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4c.</number>
   <discussion>Variety erubescens occurs in the Klamath Mountains, middle Sierra Nevada, and Diablo and Santa Lucia mountains.</discussion>
-</treatment>
+</bio:treatment>

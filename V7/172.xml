@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2e13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Vetrix</subgenus_name>
-    <section_name>Argyrocarpae</section_name>
-    <section_authority>Fernald</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Vetrix</taxon_name>
+    <taxon_name rank="section" authority="Fernald" date="unknown">Argyrocarpae</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>48: 44. 1946</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, 0.2–1 m. Buds caprea-type. Leaves: stipules on late ones rudimentary or
-        foliaceous; largest medial blade (2.6–)3.3–5.9 times as long as wide, adaxial surface not
-        glaucous. Staminate flowers: filaments glabrous or, sometimes, hairy basally. Pistillate
-        flowers: adaxial nectary shorter than stipe; stipe 1–2.2 mm; ovary moderately to very
-        densely short-silky; stigmas with flat, non-papillate abaxial surface and rounded tip,
-        0.2–0.26–0.4 mm.</description>
-  <number_of_infrataxa>Species 1:</number_of_infrataxa>
-  <global_distribution>e North America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Vetrix;section Argyrocarpae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2e13.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

@@ -1,59 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>aureum</species_name>
-    <species_authority>Pursh</species_authority>
-    <variety_name>villosum</variety_name>
-    <variety_authority>de Candolle</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">aureum</taxon_name>
+    <taxon_name rank="variety" authority="de Candolle" date="unknown">villosum</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de
                 Candolle, Prodr.</publication_title>
       <place_in_publication>3: 483. 1828 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Clove currant</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>odoratum</species_name>
-    <species_authority>H. L. Wendland</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades 3–5-lobed, 2–8 cm wide. Flowers: hypanthium 9–20 mm, 3 times as long as
-        sepals; sepals 3–6.5 mm; petals yellow, turning orange.</description>
-  <phenology>Flowering Mar–Jun</phenology>
-  <habitat>Rocky slopes, sandy bluffs, shaded banks, prairies</habitat>
-  <elevation>100–1900 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species aureum;variety villosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="H. L. Wendland" date="unknown">odoratum</taxon_name>
+    <taxon_hierarchy>genus Ribes;species odoratum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4c.</number>
+  <other_name type="common_name">Clove currant</other_name>
   <discussion>Variety villosum is native primarily west of the Mississippi River; it has probably
         spread from cultivation elsewhere, especially in the northeastern United States and mid
         Atlantic region (A. S. Weakley, pers. comm.).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>rupestris</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rupestris</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 847. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species rupestris;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Absinthium</genus_name>
-    <species_name>viridifolium</species_name>
-    <species_authority>(Ledebour) Besser</species_authority>
-    <variety_name>rupestre</variety_name>
-    <variety_authority>(Linnaeus) Besser</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>rupestris</species_name>
-    <subspecies_name>woodii</subspecies_name>
-    <subspecies_authority>Neilson</subspecies_authority>
-  </TaxonIdentification>
-  <description>Perennials, 5–15(–25) cm (cespitose), faintly aromatic. Stems brownish purple, glabrous. Leaves deciduous, bright green; blades (proximalmost petiolate) ovate, 1.5–5 × 1–2.5 cm, 2–3-pinnately lobed (cauline sessile, ternately or pinnately lobed, terminal lobes lance-linear, 1–6 × 0.5–1 mm), faces glabrous or sparsely hairy, glandular. Heads (5–9, pedunculate or sessile, spreading or drooping) in spiciform arrays 3–9 × 0.5–1 cm. Involucres globose, 4–5(–7) × 4–5(–7) mm. Phyllaries green (margins light green), ± hairy. Florets: pistillate 14–16 (glandular, style branches exsert, linear, spreading); bisexual 40–70; corollas 1.5–2 mm, glabrous or glandular (styles shorter than corollas). Cypselae ca. 1 mm (apices flat), glabrous.</description>
-  <phenology_info>
-    <text>Flowering late summer–fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>steppes , alkaline meadows , stony slopes ;</text>
-    <habitat>steppes</habitat>
-    <habitat>alkaline meadows</habitat>
-    <habitat>slopes</habitat>
-  </habitat_info>
-  <elevation>0–1400 m;</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species rupestris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Absinthium</taxon_name>
+    <taxon_name rank="species" authority="(Ledebour) Besser" date="unknown">viridifolium</taxon_name>
+    <taxon_name rank="variety" authority="(Linnaeus) Besser" date="unknown">rupestre</taxon_name>
+    <taxon_hierarchy>genus Absinthium;species viridifolium;variety rupestre;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rupestris</taxon_name>
+    <taxon_name rank="subspecies" authority="Neilson" date="unknown">woodii</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species rupestris;subspecies woodii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
   <discussion>The sole North American occurrence of Artemisia rupestris in southwestern Yukon is a remarkable disjunction from the Asiatic range of this species.</discussion>
-</treatment>
-
+</bio:treatment>

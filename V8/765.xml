@@ -1,66 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctous</genus_name>
-    <species_name>rubra</species_name>
-    <species_authority>(Rehder &amp; E. H. Wilson) Nakai</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctous</taxon_name>
+    <taxon_name rank="species" authority="(Rehder &amp; E. H. Wilson) Nakai" date="unknown">rubra</taxon_name>
     <place_of_publication>
       <publication_title>Trees Shrubs Japan,</publication_title>
       <place_in_publication>156.  1922 (as ruber)  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Red bearberry or manzanita</common_name>
-  <common_name>busserole rouge</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctous</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Niedenzu</species_authority>
-    <variety_name>rubra</variety_name>
-    <variety_authority>Rehder &amp; E. H. Wilson</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctous;species rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctous</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Niedenzu" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="Rehder &amp; E. H. Wilson" date="unknown">rubra</taxon_name>
     <place_of_publication>
       <publication_title>in C. S. Sargent, Pl. Wilson.</publication_title>
       <place_in_publication>1: 556.  1913 (as alpinus var. ruber)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>alpina</species_name>
-    <species_authority>(Linnaeus) Sprengel</species_authority>
-    <subspecies_name>rubra</subspecies_name>
-    <subspecies_authority>(Rehder &amp; E. H. Wilson) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>alpina</species_name>
-    <variety_name>rubra</variety_name>
-    <variety_authority>(Rehder &amp; Wilson) Bean</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>rubra</species_name>
-    <species_authority>(Rehder &amp; E. H. Wilson) Fernald</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctous</genus_name>
-    <species_name>erythrocarpa</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs 3–20(–30) cm; twigs terete, without old leaves.  Leaves: petiole winged, 1–4(–5) mm, glabrous; blade ovate, obovate, or oblanceolate, (10–)15–30(–60) × 10–20(–30) mm, base attenuate-cuneate, decurrent onto petiole, apex acute, obtuse, or rounded, surfaces not or slightly rugose, glabrous.  Inflorescences 2–5-flowered; bracts broadly ovate, (5–7 mm), membranous, (margins densely ciliate).  Pedicels 0.6 mm.  Flowers: sepals pale green or yellow, 0.8–1.2 mm, apex acute; corolla whitish to cream, urceolate, 3.5–4.5 mm, lobes spreading, whitish to cream, ovate, 1 mm, glabrous except for hairs on adaxial surface; stamens 1.5–2 mm; anthers reddish, becoming yellow, 0.6–0.7 mm, horns 0.2–0.3 mm.  Fruits brick red or scarlet, 6–10(–12) mm diam.  Pyrenes 2.5–3 × 1.6–2.2 mm.  2n = 26.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Rocky and gravelly, arctic or alpine tundra, often in calcareous soils, coastal limestone heaths, swampy woods</habitat>
-  <elevation>0–2500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>e Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Arctous;species alpina;variety rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Sprengel" date="unknown">alpina</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rehder &amp; E. H. Wilson) Hultén" date="unknown">rubra</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species alpina;subspecies rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Rehder &amp; E. H. Wilson) Fernald" date="unknown">alpina</taxon_name>
+    <taxon_name rank="variety" authority="(Rehder &amp; Wilson) Bean" date="unknown">rubra</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species alpina;variety rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">rubra</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species rubra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctous</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">erythrocarpa</taxon_name>
+    <taxon_hierarchy>genus Arctous;species erythrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Red bearberry or manzanita</other_name>
+  <other_name type="common_name">busserole rouge</other_name>
+</bio:treatment>

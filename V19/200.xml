@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CARTHAMUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CARTHAMUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 830. 1753</place_in_publication>
@@ -12,16 +18,12 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 361. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CARTHAMUS;</taxon_hierarchy>
-  <etymology>[Arabic qartam , safflower]</etymology>
-  <common_name>Distaff thistle</common_name>
-  <author>David J. Keil</author>
-  <description>Annuals or perennials, 30–180 cm, herbage glabrous to ± glandular and/or ± tomentose. Stems usually erect, branched distally or throughout, (leafy). Leaves basal and cauline or all cauline; basal and proximal cauline winged-petiolate, distal cauline sessile, sometimes clasping; blade margins dentate to pinnately lobed, ± spiny, faces glabrous or ± glandlar and/or ± tomentose. Heads discoid, borne singly or in few-headed cymiform arrays. Involucres ovoid, constricted distally. Phyllaries many in 4–5 series, linear to ovate (at least outer ± leaflike), bases appressed, apical appendages more herbaceous, prominently veiny, spiny-dentate or -lobed, spine-tipped. Receptacles convex to conic, epaleate, bearing subulate scales. Florets 15–60+; corollas yellow to red or ± purple, tubes very slender, throats gradually or abruptly expanded, ± cylindric or short-campanulate, lobes linear; anther bases short-tailed, apical appendages oblong; style branches: fused portions with slightly swollen basal nodes minutely hairy, distally minutely papillate, distinct portions very short. Cypselae oblong to obpyramidal, ± 4-angled, apices with smooth or dentate rims, faces usually ± roughened (outer) or smooth (inner), glabrous, attachment scars lateral; pappi 0 or (usually only inner cypselae) ± persistent, of many, usually unequal, narrow scales overlapping in several series. x = 10, 12.</description>
-  <number_of_infrataxa>Species 14 (4 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>United States</global_distribution>
-  <global_distribution>Mediterranean region.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CARTHAMUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Arabic qartam , safflower]</other_info_on_name>
+  </taxon_identification>
+  <number>23.</number>
+  <other_name type="common_name">Distaff thistle</other_name>
+  <discussion>Species 14 (4 in the flora):</discussion>
   <references>
     <reference>Ashri, A. and P. F. Knowles. 1959. Further notes on Carthamus in California. Leafl. W. Bot. 9: 5–8.</reference>
     <reference>Ashri, A. and P. F. Knowles. 1960. Cytogenetics of safflower (Carthamus L.) species and their hybrids. Agron. J. 52: 11–17.</reference>
@@ -33,34 +35,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas pink or pale purple; cauline leaves ± deeply lobed</statement>
+      <description type="morphology">Corollas pink or pale purple; cauline leaves ± deeply lobed</description>
       <determination>1. Carthamus leucocaulos</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corollas yellow to red; cauline leaves toothed to deeply lobed.</statement>
+      <description type="morphology">Corollas yellow to red; cauline leaves toothed to deeply lobed.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves toothed, otherwise undivided, weakly spiny; corollas yellow to red; cypselae white</statement>
+      <description type="morphology">Cauline leaves toothed, otherwise undivided, weakly spiny; corollas yellow to red; cypselae white</description>
       <determination>4. Carthamus tinctorius</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Cauline leaves ± divided, very spiny; corollas yellow; cypselae brown.</statement>
+      <description type="morphology">Cauline leaves ± divided, very spiny; corollas yellow; cypselae brown.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Anthers yellow, pollen yellow; corollas bright yellow; outer phyllaries usually not more than 1.5 times as long as inner; herbage ± cobwebby; stems stramineous</statement>
+      <description type="morphology">Anthers yellow, pollen yellow; corollas bright yellow; outer phyllaries usually not more than 1.5 times as long as inner; herbage ± cobwebby; stems stramineous</description>
       <determination>2. Carthamus lanatus</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Anthers white with purple lines, pollen white; corollas pale yellow; outer phyl-laries usually 2 times as long as inner; herbage ± sparsely hairy; stems white or stramineous</statement>
+      <description type="morphology">Anthers white with purple lines, pollen white; corollas pale yellow; outer phyl-laries usually 2 times as long as inner; herbage ± sparsely hairy; stems white or stramineous</description>
       <determination>3. Carthamus creticus</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

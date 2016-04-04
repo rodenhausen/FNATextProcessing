@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Celtis</genus_name><species_name>pallida</species_name><species_authority>Torrey</species_authority><place_of_publication><publication_title>in W. H. Emory,  Rep. U.S. Mex. Bound. </publication_title><place_in_publication>2: 203. 1859</place_in_publication></place_of_publication></TaxonIdentification><common_name>Desert hackberry</common_name><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Celtis</genus_name><species_name>spinosa</species_name><species_authority>Sprengel</species_authority><variety_name>pallida</variety_name><variety_authority>(Torrey) M. C. Johnston</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Momisia</genus_name><species_name>pallida</species_name><species_authority>(Torrey) Planchon</species_authority></TaxonIdentification><description>Shrubs, to 3 m; crowns rounded. Bark gray, smooth. Branches spreading, flexuous, whitish gray, with thorns, puberulent; thorns single or in pairs, 3-25 mm. Leaf blade ovate to ovate-oblong, to 2-3 × 1.5-2 cm, thickish, margins entire or crenate-dentate, apex rounded to acute; surfaces scabrous. Inflorescences cymes, 3-5-flowered, longer than petiole, flowers mostly staminate on proximal branches, terminal flower bisexual. Drupes orange, yellow, or red, ovoid, 6-7 mm; pedicel 1-2 mm.</description><phenology>Flowering late winter-spring (Mar-May)</phenology><habitat> In deserts, canyons, mesas, washes, foothills, thickets, brushland, and grassland near gravelly or well-drained sandy soil</habitat><elevation> 1000-1300 m</elevation><us_distribution> Ariz.</us_distribution><us_distribution> Fla.</us_distribution><us_distribution> N.Mex.</us_distribution><us_distribution> Tex.</us_distribution><global_distribution> Mexico</global_distribution><global_distribution> Central America</global_distribution><global_distribution> South America (to n Argentina).</global_distribution><discussion>Celtis pallida is closely related to C. iguanaea (Jacquin) Sargent from Mexico. Reports of C. iganaea from Florida and Texas are unconfirmed. Celtis iguanaea can be identified by its longer leaves (to 4 cm wide), small fruits (4-5 mm), and single thorns. Its fruits have acid, juicy pulp.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Celtis</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">pallida</taxon_name>
+    <place_of_publication>
+      <publication_title>in W. H. Emory,  Rep. U.S. Mex. Bound.</publication_title>
+      <place_in_publication>2: 203. 1859</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Celtis;species pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Celtis</taxon_name>
+    <taxon_name rank="species" authority="Sprengel" date="unknown">spinosa</taxon_name>
+    <taxon_name rank="variety" authority="(Torrey) M. C. Johnston" date="unknown">pallida</taxon_name>
+    <taxon_hierarchy>genus Celtis;species spinosa;variety pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Momisia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Planchon" date="unknown">pallida</taxon_name>
+    <taxon_hierarchy>genus Momisia;species pallida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Desert hackberry</other_name>
+  <discussion>illustrated</discussion>
+  <discussion>Celtis pallida is closely related to C. iguanaea (Jacquin) Sargent from Mexico. Reports of C. iganaea from Florida and Texas are unconfirmed. Celtis iguanaea can be identified by its longer leaves (to 4 cm wide), small fruits (4-5 mm), and single thorns. Its fruits have acid, juicy pulp.</discussion>
+</bio:treatment>

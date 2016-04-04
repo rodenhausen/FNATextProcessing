@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Corydalis</genus_name><species_name>caseana</species_name><species_authority>A. Gray</species_authority><subspecies_name>hastata</subspecies_name><subspecies_authority>(Rydberg) G. B. Ownbey</subspecies_authority><place_of_publication><publication_title> Ann. Missouri Bot. Gard. </publication_title><place_in_publication>34: 206-207. 1947</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Capnoides</genus_name><species_name>hastatum</species_name><species_authority>Rydberg</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>34: 426. 1907</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Corydalis</genus_name><species_name>caseana</species_name><species_authority>A. Gray</species_authority><variety_name>hastata</variety_name><variety_authority>(Rydberg) C. L. Hitchcock</variety_authority></TaxonIdentification><description>Stems 10-18 dm. Inflorescences profusely branching. Flowers: outer petals with marginal wing moderately developed, distinctly revolute, minutely eroded, apex rounded, distinctly notched.</description><phenology>Flowering early-late summer</phenology><habitat> In and along streams</habitat><elevation> 900-1220 m</elevation><us_distribution> Idaho.</us_distribution><discussion>This subspecies appears to be confined to very wet habitats at intermediate elevations in a few Idaho counties.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">caseana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) G. B. Ownbey" date="unknown">hastata</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>34: 206-207. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species caseana;subspecies hastata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Capnoides</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">hastatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>34: 426. 1907</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Capnoides;species hastatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">caseana</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) C. L. Hitchcock" date="unknown">hastata</taxon_name>
+    <taxon_hierarchy>genus Corydalis;species caseana;variety hastata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2d.</number>
+  <discussion>endemic</discussion>
+  <discussion>This subspecies appears to be confined to very wet habitats at intermediate elevations in a few Idaho counties.</discussion>
+</bio:treatment>

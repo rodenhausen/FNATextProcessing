@@ -1,59 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tortula</genus_name>
-    <species_name>truncata</species_name>
-    <species_authority>(Hedwig) Mitten</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tortula</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Mitten" date="unknown">truncata</taxon_name>
     <place_of_publication>
       <publication_title>in F. D. Godman, Nat. Hist. Azores,</publication_title>
       <place_in_publication>297.  1870,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>truncatum</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Tortula;species truncata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">truncatum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>30.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pottia</genus_name>
-    <species_name>truncata</species_name>
-    <species_authority>(Hedwig) Bruch &amp; Schimper</species_authority>
-  </TaxonIdentification>
-  <description>Leaves obovate to spatulate, apex broadly acute or occasionally rounded, short-awned, margins plane or rarely weakly recurved proximally, weakly bordered distally with 2–4 rows of slightly thicker-walled cells; costa excurrent, lacking an adaxial pad of cells, distally narrow, 2 cells across the convex or plane adaxial surface; distal laminal cells irregularly hexagonal, width 18–22(–27) µm wide, 1:1, smooth.  Sexual condition autoicous.  Sporophytes exerted.  Seta 0.25–0.4(–0.6) cm.  Capsule stegocarpic, not systylius, urceolate or obovate, erect and nearly straight, urn 0.6–1 mm; peristome absent; operculum 0.3–0.5 mm.  Spores 25–30 µm, spheric, densely papillose.</description>
-  <phenology>Capsules mature fall–spring.</phenology>
-  <habitat>Soil, calcareous soil with grasses, fields, lawns, roadsides;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>s South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand)</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Gymnostomum;species truncatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pottia</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Bruch &amp; Schimper" date="unknown">truncata</taxon_name>
+    <taxon_hierarchy>genus Pottia;species truncata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
   <discussion>Both Tortula truncata and T. modica may have distinct denticulations near the leaf apex or nearly throughout, and this can be more pronounced in the latter, which usually has papillose laminae.</discussion>
-</treatment>
+</bio:treatment>

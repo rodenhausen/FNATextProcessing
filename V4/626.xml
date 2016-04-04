@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20a.1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Atriplex</subgenus_name>
-        <section_name>Atriplex</section_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <section_name>Dichrosperma</section_name>
-        <section_authority>Dumortier</section_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <unranked_epithet_name>Hortenses</unranked_epithet_name>
-        <unranked_epithet_authority>Standley</unranked_epithet_authority>
-    </TaxonIdentification>
-    <description>Plants annual, erect. Leaves without Kranz-type anatomy. Pistillate flowers
-        dimorphic, either ebracteolate and with 3–5-lobed perianth enveloping a horizontal seed, or
-        lacking a perianth and enclosed by a pair of bracteoles enveloping a vertical seed.
-        Bracteoles ovate to orbicular, distinct almost to base. Seed erect; radicle
-        inferior.</description>
-    <number_of_infrataxa>Species 2 (1 in the flora):</number_of_infrataxa>
-    <introduced>introduced;</introduced>
-    <global_distribution>Asia.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="section" authority="Dumortier" date="unknown">Atriplex</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Atriplex;section Atriplex;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Dichrosperma</taxon_name>
+    <taxon_hierarchy>genus Atriplex;section Dichrosperma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Standley">Hortenses</taxon_name>
+    <taxon_hierarchy>genus Atriplex;unranked Hortenses;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20a.1.</number>
+  <discussion>Species 2 (1 in the flora):</discussion>
+</bio:treatment>

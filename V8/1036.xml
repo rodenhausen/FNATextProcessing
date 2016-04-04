@@ -1,45 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gaylussacia</genus_name>
-    <species_name>brachycera</species_name>
-    <species_authority>(Michaux) A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gaylussacia</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) A. Gray" date="unknown">brachycera</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Amer. Acad. Arts, n. s.</publication_title>
       <place_in_publication>3: 54.  1846  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Box huckleberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>brachycerum</species_name>
-    <species_authority>Michaux</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Gaylussacia;species brachycera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">brachycerum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 234.  1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Buxella</genus_name>
-    <species_name>brachycera</species_name>
-    <species_authority>(Michaux) Small</species_authority>
-  </TaxonIdentification>
-  <description>Plants 2–4 dm, forming small to extensive colonies; branches spreading or procumbent; twigs of current season pale green to grayish brown, (strongly angled), puberulent.  Leaves persistent; petiole 0.5–3 mm; blade pale green abaxially, shiny dark green adaxially, ovate, 1–2.5 × 0.5–1.3 cm, coriaceous, base rounded, margins crenate or serrulate, (revolute), apex obtuse, without resinous dots, surfaces glabrous adaxially, glabrous or puberulent along midvein and near blade base.  Inflorescences spreading, 2–5-flowered, sometimes flowers solitary, ebracteate, 0.5–1 cm, puberulent.  Pedicels 0.5–3 mm, glabrous; bracteoles (early deciduous), 1–3, (ovate), 2–4 mm, (margins ciliate).  Flowers: sepals 4–5, 0.3–0.5 mm, glabrous; petals 4–5, corolla white to pink, campanulate-urceolate, 4 mm, lobes broadly deltate to rounded, 0.5–1.5 mm; filaments 1–1.5 mm, glabrous; anthers included, 1–1.5 mm, thecae not divergent distally; ovary glabrous.  Drupes juicy, sweet, light blue, 6–8 mm diam., glabrous.  Seeds 1–1.5 mm.</description>
-  <phenology>Flowering late spring–early summer</phenology>
-  <habitat>Upland or montane woods</habitat>
-  <elevation>(10–)200–1000 m</elevation>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>genus Vaccinium;species brachycerum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Buxella</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Small" date="unknown">brachycera</taxon_name>
+    <taxon_hierarchy>genus Buxella;species brachycera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Box huckleberry</other_name>
   <discussion>Gaylussacia brachycera is a dwarf evergreen shrub that forms large, solid-mat, self-sterile colonies, each one appearing to consist of a single clone that may extend over more than one hectare.  One colony in Perry County, Pennsylvania, is about 1.5 kilometers wide; it appears to be a single clone that is over 12,000 years old and has been labeled as the oldest living thing in the world.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Pooler, M., R. Nicholson, and A. Vandergrift.  2008.  Clonal fidelity in large colonies of Gaylussacia brachycera Gray (box huckleberry) assessed by DNA fingerprinting.  N. E. Naturalist 15: 67–74.</reference>
     <reference>Wilbur, R. L. and S. Bloodworth.  2004.  Notes on the box huckleberry, Gaylussacia brachycera (Ericaceae), and its unexpected presence in North Carolina.  Rhodora 106: 371–377.</reference>
   </references>
-</treatment>
+</bio:treatment>

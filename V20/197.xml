@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cuniculotinus</genus_name><species_name>gramineus</species_name><species_authority>(H. M. Hall) Urbatsch, R. P. Roberts &amp; Neubig</species_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>21: 1619. 2005</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Charleston rabbitbrush</common_name><common_name>Panamint rock goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Chrysothamnus</genus_name><species_name>gramineus</species_name><species_authority>H. M. Hall</species_authority><place_of_publication><publication_title>Muhlenbergia </publication_title><place_in_publication>2: 342. 1916</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Petradoria</genus_name><species_name>discoidea</species_name><species_authority>(H. M. Hall) L. C. Anderson</species_authority></TaxonIdentification><description>Leaves 30–85 × 3–9 mm. Phyllaries 2–14 × 0.7–3 mm. Disc florets: corollas 9–12 mm, lobes 1–1.3 mm, acute; anthers 3.1–4.1 mm, appendages long-acuminate, 0.5–1.1 mm; style branches 3.5–4.2 mm, appendages 1.4–1.7 mm, apices acute. Cypselae 7–9 mm; pappi 8–10 mm. 2n = 18 (as Petradoria discoidea).</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>rocky, wooded slopes</habitat><elevation>2200–2900 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><discussion>Cuniculotinus gramineus is known from southern Nevada and Inyo County, California.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cuniculotinus</taxon_name>
+    <taxon_name rank="species" authority="(H. M. Hall) Urbatsch, R. P. Roberts &amp; Neubig" date="unknown">gramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>21: 1619. 2005</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Cuniculotinus;species gramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysothamnus</taxon_name>
+    <taxon_name rank="species" authority="H. M. Hall" date="unknown">gramineus</taxon_name>
+    <place_of_publication>
+      <publication_title>Muhlenbergia</publication_title>
+      <place_in_publication>2: 342. 1916</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chrysothamnus;species gramineus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petradoria</taxon_name>
+    <taxon_name rank="species" authority="(H. M. Hall) L. C. Anderson" date="unknown">discoidea</taxon_name>
+    <taxon_hierarchy>genus Petradoria;species discoidea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Charleston rabbitbrush</other_name>
+  <other_name type="common_name">Panamint rock goldenrod</other_name>
+  <discussion>Cuniculotinus gramineus is known from southern Nevada and Inyo County, California.</discussion>
+</bio:treatment>

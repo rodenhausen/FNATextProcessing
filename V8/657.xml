@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>GALAX</genus_name>
-    <genus_authority>Sims</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Guy L. Nesom</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Lindley" date="unknown">DIAPENSIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Sims" date="unknown">GALAX</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Mag.</publication_title>
       <place_in_publication>20: plate 754.  1804, name conserved  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Beetleweed</common_name>
-  <common_name>wand-flower</common_name>
-  <etymology>[Greek gala, milk, presumably alluding to flower color]</etymology>
-  <author>Guy L. Nesom</author>
-  <description>Herbs, colonial, scapose, rhizomatous; rhizome slender, scale-leaved, slightly lignescent.  Stems erect, unbranched.  Leaves basal or rosulate at rhizome tips, 80–350 mm; petiole present; blade broadly ovate to orbiculate, margins finely dentate-serrate, apex obtuse to rounded, surfaces glabrous, subpalmately veined.  Scapes ebracteate, barely elongating after flowering.  Inflorescences compact racemes.  Flowers: sepals barely connate proximally; petals distinct nearly to base, corolla urceolate, 3.5–8 mm, lobes white, margins entire; anthers 1-locular, without basal spurs, transversely dehiscent; filaments and staminodes connate basally, forming coronalike tube adnate to corolla base, free distally; staminodes present.  x = 6.</description>
+    <taxon_hierarchy>family DIAPENSIACEAE;genus GALAX;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek gala, milk, presumably alluding to flower color]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Beetleweed</other_name>
+  <other_name type="common_name">wand-flower</other_name>
   <discussion>Species 1: e United States.</discussion>
   <discussion>Prior to 1972, the single species of Galax was known as G. aphylla Linnaeus; the type of that name was shown by R. K. Brummitt (1972) to represent a species of Nemophila (Hydrophyllaceae).  Because Galax Linnaeus 1753 was based on the Nemophila type, the later name Galax Sims has been conserved.</discussion>
-</treatment>
+</bio:treatment>

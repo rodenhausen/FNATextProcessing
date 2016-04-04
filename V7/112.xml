@@ -1,81 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>57.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>pseudomyrsinites</species_name>
-    <species_authority>Andersson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Andersson" date="unknown">pseudomyrsinites</taxon_name>
     <place_of_publication>
       <publication_title>Öfvers. Kongl. Vetensk.-Akad. Förh.</publication_title>
       <place_in_publication>15: 129. 1858</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>pseudo-myrsinites</past_name>
-  <common_name>Tall blueberry willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>myrtillifolia</species_name>
-    <species_authority>Andersson</species_authority>
-    <variety_name>cordata</variety_name>
-    <variety_authority>(Andersson) Dorn</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>myrtillifolia</species_name>
-    <variety_name>pseudomyrsinites</variety_name>
-    <variety_authority>(Andersson) C. R. Ball ex Hultén</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>novae-angliae</species_name>
-    <species_authority>Andersson</species_authority>
-    <variety_name>cordata</variety_name>
-    <variety_authority>Andersson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 1–7 m. Stems: branches gray-brown, red-brown, or yellow-brown, glaucous to
-        strongly so (slightly to highly glossy), villous to glabrescent; branchlets gray-brown,
-        red-brown, yellow-brown, or yellow-green, (not or weakly glaucous), pilose, densely villous,
-        or tomentose. Leaves: stipules rudimentary or foliaceous on early ones, foliaceous on late
-        ones, (0.6–8 mm), apex acute or obtuse; petiole shallowly to deeply grooved adaxially, 2.5–8
-        mm, glabrous or villous adaxially; largest medial blade (sometimes amphistomatous), narrowly
-        to broadly elliptic, oblong to oblanceolate or obovate, 32–109 × 10–47 mm, 1.8–4.8 times as
-        long as wide, base convex, cuneate, or subcordate, sometimes cordate, margins flat, entire,
-        crenate, or serrulate, apex acute, convex, or acuminate, abaxial surface not glaucous,
-        glabrous or pilose, hairs (white, sometimes also ferruginous), wavy, adaxial slightly
-        glossy, glabrous, pilose, pubescent, moderately densely short-silky, or velvety, midrib
-        remaining pilose or short-hairy, (hairs sometimes also ferruginous, straight and
-        geniculate); proximal blade margins serrulate or entire; juvenile blade sometimes reddish or
-        yellowish green, abaxially glabrous, or midrib sparsely pubescent, or densely villous or
-        short-silky, hairs white, sometimes also ferruginous. Catkins flowering as leaves emerge;
-        staminate stout, 16.5–35.5 × 7–15 mm, flowering branchlet 0.5–12 mm; pistillate moderately
-        or densely flowered, slender or stout, 10.5–68 × 5–20 mm, flowering branchlet 0.5–10 mm;
-        floral bract brown, black, tawny, or bicolor, 0.6–1.1 mm, apex retuse, abaxially hairy,
-        hairs long-wavy or curly. Staminate flowers: adaxial nectary oblong square, 0.2–0.4–0.6 mm;
-        filaments distinct, glabrous; anthers purple turning yellow, 0.4–0.7 mm. Pistillate flowers:
-        adaxial nectary square or oblong, 0.2–0.4 mm, shorter than stipe; stipe 0.8–1.4 mm; ovary
-        pyriform, glabrous, beak slightly bulged below styles; ovules 11–18 per ovary; styles
-        0.4–1.6 mm; stigmas flat, abaxially non-papillate with rounded tip, or 2 plump lobes,
-        0.16–0.24–0.32 mm. Capsules 4.4–6.4 mm. 2n = 76.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>shores of lakes and streams</habitat>
-  <habitat>dwarf-birch thickets</habitat>
-  <habitat>fens</habitat>
-  <habitat>marl bogs</habitat>
-  <habitat>rarely in treed bogs</habitat>
-  <elevation>40–1000 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species pseudomyrsinites;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Andersson" date="unknown">myrtillifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Andersson) Dorn" date="unknown">cordata</taxon_name>
+    <taxon_hierarchy>genus Salix;species myrtillifolia;variety cordata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Andersson" date="unknown">myrtillifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Andersson) C. R. Ball ex Hultén" date="unknown">pseudomyrsinites</taxon_name>
+    <taxon_hierarchy>genus Salix;species myrtillifolia;variety pseudomyrsinites;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">novae-angliae</taxon_name>
+    <taxon_name rank="variety" authority="Andersson" date="unknown">cordata</taxon_name>
+    <taxon_hierarchy>genus Salix;species novae-angliae;variety cordata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>57.</number>
+  <other_name type="past_name">pseudo-myrsinites</other_name>
+  <other_name type="common_name">Tall blueberry willow</other_name>
   <discussion>Salix pseudomyrsinites occurs in Nunavut on Akimiski Island in James
         Bay.</discussion>
   <discussion>Salix pseudomyrsinites and S. myrtillifolia, although sometimes treated as
@@ -101,4 +62,4 @@
   <discussion>Salix pseudomyrsinites forms natural hybrids with S. barrattiana.</discussion>
   <discussion>Salix pseudomyrsinites × S. barrattiana is a rare hybrid that combines the
         characters of the two parents.</discussion>
-</treatment>
+</bio:treatment>

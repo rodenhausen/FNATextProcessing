@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>10.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>orcuttii</species_name><species_authority>(Greene) Baker</species_authority><place_of_publication>
-    <publication_title>Gard. Chron., ser.</publication_title>
-    <place_in_publication>3, 20: 214. 1896</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Orcutt’s brodiaea</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Hookera</genus_name><species_name>orcuttii</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>2: 138. 1886</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>filifolia</species_name><species_authority>S. Watson</species_authority><variety_name>orcuttii</variety_name><variety_authority>(Greene) Jepson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>multipedunculata</species_name><species_authority>Abrams</species_authority></TaxonIdentification><description>Scape 8–25 cm, slender. Flowers 14–20 mm; perianth violet, tube funnelform, 3–7 mm, transparent, splitting in fruit, lobes widely spreading, 12–19 mm; filaments 4–6 mm; anthers linear, 4–6 mm, apex with V-shaped notch; staminodia absent; ovary 4–6 mm; style 7–11 mm; pedicel 1–5 cm. 2n = 24.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>grasslands near streams</habitat><habitat>vernal pools</habitat><elevation>0–1600 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Brodiaea orcutti is rare and endemic to southern California. It was once abundant on Kearney Mesa north of San Diego, but most of that area has been developed for housing, and only those portions on military reservations remain undisturbed. This is the only species in the genus with no staminodia.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Baker" date="unknown">orcuttii</taxon_name>
+    <place_of_publication>
+      <publication_title>Gard. Chron., ser.</publication_title>
+      <place_in_publication>3, 20: 214. 1896</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">orcuttii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>2: 138. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hookera;species orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">filifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">orcuttii</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species filifolia;variety orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="Abrams" date="unknown">multipedunculata</taxon_name>
+    <taxon_hierarchy>genus Hookera;species multipedunculata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Orcutt’s brodiaea</other_name>
+  <discussion>Brodiaea orcutti is rare and endemic to southern California. It was once abundant on Kearney Mesa north of San Diego, but most of that area has been developed for housing, and only those portions on military reservations remain undisturbed. This is the only species in the genus with no staminodia.</discussion>
+</bio:treatment>

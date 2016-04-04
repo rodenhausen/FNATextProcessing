@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>54.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HYPOCHAERIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Bogler</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">HYPOCHAERIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 810. 1753</place_in_publication>
@@ -12,20 +18,14 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 352. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus HYPOCHAERIS;</taxon_hierarchy>
-  <etymology>[Greek hypo, beneath, and choiras , pig, alluding to pigs digging for roots]</etymology>
-  <past_name>Hypochoeris</past_name>
-  <common_name>Cat’s ear</common_name>
-  <common_name>swine’s succory</common_name>
-  <author>David J. Bogler</author>
-  <description>Annuals, biennials, or perennials, 10–60 cm; taprooted and with caudices. Stems 1–15, erect, branched or unbranched, glabrate or coarsely hirsute. Leaves basal or basal and proximally cauline; petiolate or sessile; blades oblanceolate to oblong or elliptic, margins entire or dentate to pinnately lobed (faces glabrous or hirsute). Heads borne singly or in loose, cymiform, paniculiform, or corymbiform arrays. Peduncles slightly inflated distally, minutely bracteate. Calyculi 0 (or indistinguishable from phyllaries). Involucres cylindric or campanulate, 5–20 mm diam. (12–25 mm in fruit). Phyllaries 20–30 in 3–4 series, unequal, linear-lanceolate, glabrous, glabrate, or coarsely hirsute. Receptacles flat, slightly pitted, paleate; paleae linear to subulate, scarious. Florets 20–100+; corollas usually yellow or orange, sometimes grayish green or reddish abaxially, rarely white, (not deliquescent). Cypselae monomorphic (all beaked) or dimorphic (outer truncate, inner beaked), usually brown to golden, bodies ellipsoid or fusiform, ribs 4–5 or 10, faces ± muricate, otherwise glabrous; pappi persistent, of 40–60+, white to tan bristles in 1 (all plumose) or in 2 series (outer barbellate, shorter than plumose inner). x = 4, 5.</description>
-  <number_of_infrataxa>Species 60+ (4 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus HYPOCHAERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek hypo, beneath, and choiras , pig, alluding to pigs digging for roots]</other_info_on_name>
+  </taxon_identification>
+  <number>54.</number>
+  <other_name type="past_name">Hypochoeris</other_name>
+  <other_name type="common_name">Cat’s ear</other_name>
+  <other_name type="common_name">swine’s succory</other_name>
+  <discussion>Species 60+ (4 in the flora):</discussion>
   <discussion>Hypochaeris is similar to and closely related to Leontodon, from which it is distinguished mainly by its paleate receptacles and unequal phyllaries. Plumose pappus bristles are characteristic of both Hypochaeris and Leontodon. Molecular studies indicate the South American species of Hypochaeris are a monophyletic group derived from European stock that has undergone a recent and rapid radiation in the New World (R. Samuel et al. 2003). Two South American species are found as weeds in the flora area.</discussion>
   <references>
     <reference>Samuel, R. et al. 2003. Phylogenetic relationships among species of Hypochaeris (Asteraceae, Cichorieae) based on ITS, plastid trnL intron, trnL-F spacer, and matK sequences. Amer. J. Bot. 90: 496–507.</reference>
@@ -33,34 +33,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves basal and proximally cauline; pappus bristles in 1 series, all plumose .</statement>
+      <description type="morphology">Leaves basal and proximally cauline; pappus bristles in 1 series, all plumose .</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Involucres broadly campanulate; phyllaries ± hirsute medially; corollas yellow</statement>
+      <description type="morphology">Involucres broadly campanulate; phyllaries ± hirsute medially; corollas yellow</description>
       <determination>1. Hypochaeris chillensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Involucres cylindric or narrowly campanulate; phyllaries glabrous or sparsely tomentulose; corollas white</statement>
+      <description type="morphology">Involucres cylindric or narrowly campanulate; phyllaries glabrous or sparsely tomentulose; corollas white</description>
       <determination>3. Hypochaeris microcephala</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves all or mostly basal; pappus bristles in 2 series: outer barbellate, shorter than plumose inner.</statement>
+      <description type="morphology">Leaves all or mostly basal; pappus bristles in 2 series: outer barbellate, shorter than plumose inner.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Annuals; leaves usually glabrous or glabrate , sometimes hirsute on veins; florets ± equaling phyllaries at flowering; cypselae dimorphic, outer truncate, inner beaked</statement>
+      <description type="morphology">Annuals; leaves usually glabrous or glabrate , sometimes hirsute on veins; florets ± equaling phyllaries at flowering; cypselae dimorphic, outer truncate, inner beaked</description>
       <determination>2. Hypochaeris glabra</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Perennials; leaves ± hirsute; florets surpassing phyllaries at flowering; cypselae monomorphic, all beaked</statement>
+      <description type="morphology">Perennials; leaves ± hirsute; florets surpassing phyllaries at flowering; cypselae monomorphic, all beaked</description>
       <determination>4. Hypochaeris radicata</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

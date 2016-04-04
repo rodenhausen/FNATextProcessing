@@ -1,45 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nipponanthemum</genus_name>
-    <species_name>nipponicum</species_name>
-    <species_authority>(Franchet ex Maximowicz) Kitamura</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nipponanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Franchet ex Maximowicz) Kitamura" date="unknown">nipponicum</taxon_name>
     <place_of_publication>
       <publication_title>Acta Phytotax. Geobot.</publication_title>
       <place_in_publication>29: 169. 1978</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Nipponanthemum;species nipponicum;</taxon_hierarchy>
-  <common_name>Nippon daisy</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Leucanthemum</genus_name>
-    <species_name>nipponicum</species_name>
-    <species_authority>Franchet ex Maximowicz</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Nipponanthemum;species nipponicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leucanthemum</taxon_name>
+    <taxon_name rank="species" authority="Franchet ex Maximowicz" date="unknown">nipponicum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Acad. Imp. Sci. Saint-Pétersbourg</publication_title>
       <place_in_publication>17: 420. 1872</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chrysanthemum</genus_name>
-    <species_name>nipponicum</species_name>
-    <species_authority>(Franchet ex Maximowicz) Sprenger</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades 20–75(–90) × 12–15(–20) mm, ultimate margins distally dentate or entire. Ray laminae 20–30 mm. Cypselae 3–4 mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Oct–Nov.</text>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–10+ m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <global_distribution>Asia (Japan).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Leucanthemum;species nipponicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysanthemum</taxon_name>
+    <taxon_name rank="species" authority="(Franchet ex Maximowicz) Sprenger" date="unknown">nipponicum</taxon_name>
+    <taxon_hierarchy>genus Chrysanthemum;species nipponicum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Nippon daisy</other_name>
+</bio:treatment>

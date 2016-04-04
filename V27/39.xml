@@ -1,88 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>27.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>cuspidatum</species_name>
-    <species_authority>Hoffman</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Hoffman" date="unknown">cuspidatum</taxon_name>
     <place_of_publication>
       <publication_title>Deutschl. Fl.</publication_title>
       <place_in_publication>2: 22. 1796,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>cuspidatum</species_name>
-    <variety_name>plumosum</variety_name>
-    <variety_authority>Nees &amp; Hornschuch</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>faxonii</species_name>
-    <species_authority>Warnstorf</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sphagnum</genus_name>
-    <species_name>virginianum</species_name>
-    <species_authority>Warnstorf</species_authority>
-  </TaxonIdentification>
-  <description>Plants slender and weak-stemmed, moderate-sized, flaccid and plumose in aquatic
-        forms to more compact in emergent forms, spreading branches often con-spicuously falcate,
-        giving capitulum a twisted appearance; green to yellow, often tinged with red, red-brown or
-        brown in capitula. Stems green; superficial cortex of 2–3 layers, 2 layers of enlarged
-        thin-walled cells. Stem leaves triangular-ovate, more than 1.2 mm, usually appressed; apex
-        acute to apiculate, hyaline cells rarely septate or porose, apical region often fibrillose.
-        Branches mostly unranked to weakly 5-ranked, often conspicuously falcate, leaves greatly
-        elongated at distal end. Branch fascicles with 2 spreading and 2–3 pendent branches. Branch
-        stems green, but often pinkish at the proximal ends, with cortex enlarged with conspicuous
-        retort cells. Branch leaves ovate-lanceolate to lanceolate, 1.6–5 mm, falcate toward branch
-        tips, when dry often undulate and recurved, rarely weakly serrulate along the margins in
-        submerged forms, leaves from middle of spreading branches with length to width ratio less
-        than or equal to 1:0.28; hyaline cells length to width ratio in apical convex surface region
-        8:1 or more, convex surface with 0–1 small round pores at apex, concave surface with faint
-        round wall thinnings in cell apices and angles; chlorophyllous cells triangular to
-        trapezoidal in transverse section, broadly exposed on the convex surface and exposed
-        slightly on the concave surface. Sexual condition dioicous. Spores 29–38 µm; covered with
-        large papillae on both surfaces, appearing pusticulate; proximal laesura less than 0.5 spore
-        radius.</description>
-  <habitat>Widespread forming wet carpets in ombrotrophic to weakly minerotrophic mires;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-  <phenology>Sporophytes are occasional, capsules mature in early to mid summer.</phenology>
+    <taxon_hierarchy>genus Sphagnum;species cuspidatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Warnstorf" date="unknown">cuspidatum</taxon_name>
+    <taxon_name rank="variety" authority="Nees &amp; Hornschuch" date="unknown">plumosum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species cuspidatum;variety plumosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="Warnstorf" date="unknown">faxonii</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species faxonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sphagnum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginianum</taxon_name>
+    <taxon_hierarchy>genus Sphagnum;species virginianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>27.</number>
   <discussion>Distinguishing Sphagnum cuspidatum from S. viride is sometimes difficult, as both
         occur over a similar geographic range and both grow in wet carpets. Sphagnum cuspidatum has
         narrower branch leaves and usually a distinct red tinge at the branch bases within the
         capitulum.</discussion>
-</treatment>
+</bio:treatment>

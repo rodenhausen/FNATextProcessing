@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>78.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Boechera</genus_name>
-    <species_name>pratincola</species_name>
-    <species_authority>(Greene) Windham &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Boechereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Boechera</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Windham &amp; Al-Shehbaz" date="unknown">pratincola</taxon_name>
     <place_of_publication>
       <publication_title>Harvard Pap. Bot.</publication_title>
       <place_in_publication>12: 245. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>pratincola</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Boechereae;genus Boechera;species pratincola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pratincola</taxon_name>
     <place_of_publication>
       <publication_title>Repert. Spec. Nov. Regni Veg.</publication_title>
       <place_in_publication>5: 244. 1908</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>drummondii</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>pratincola</variety_name>
-    <variety_authority>(Greene) M. Hopkins</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arabis</genus_name>
-    <species_name>nemophila</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Perennials; usually short-lived; apomictic; caudex not woody. Stems usually 1 per caudex branch, arising from center of rosette near ground surface, 2–6 dm, pubescent proximally, trichomes sessile, 2- or 3-rayed, 0.15–0.6 mm, glabrous distally. Basal leaves: blade oblanceolate, 1.5–5(–7) mm wide, margins usually entire, rarely denticulate, ciliate at petiole base, trichomes to 0.4 mm, surfaces pubescent, trichomes sessile, 2–4(–6)-rayed, 0.1–0.45 mm. Cauline leaves: (7–)13–42, concealing stem proximally; blade auricles 1–4 mm, surfaces of distalmost leaves sparsely pubescent apically. Racemes (7–)14–45-flowered, usually unbranched. Fruiting pedicels erect, straight, 5–12 mm, glabrous. Flowers ascending at anthesis; sepals glabrous; petals lavender, 6–10 × 1.5–2 mm, glabrous; pollen spheroid. Fruits erect, appressed to rachis, not secund, straight, edges parallel, 4–6.5 cm × 1.5–2 mm; valves glabrous; ovules 60–140 per ovary; style 0.1–0.3 mm. Seeds sub-biseriate, 1.4–2 × 1–1.4 mm; wing continuous, 0.1–0.35 mm wide.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>rocky slopes and soil patches in open areas and along forest edges</habitat>
-  <elevation>1900–3200 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Arabis;species pratincola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">drummondii</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) M. Hopkins" date="unknown">pratincola</taxon_name>
+    <taxon_hierarchy>genus Arabis;species drummondii;variety pratincola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arabis</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">nemophila</taxon_name>
+    <taxon_hierarchy>genus Arabis;species nemophila;</taxon_hierarchy>
+  </taxon_identification>
+  <number>78.</number>
   <discussion>Morphological evidence suggests that Boechera pratincola is an apomictic species that arose through hybridization between B. paupercula and B. stricta (see M. D. Windham and I. A. Al-Shehbaz 2007b for detailed comparison).</discussion>
-</treatment>
+</bio:treatment>

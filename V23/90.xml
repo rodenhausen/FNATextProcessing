@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>17.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Schoenoplectus</genus_name><species_name>erectus</species_name><species_authority>(Poiret) Palla ex J. Raynal</species_authority><place_of_publication>
-    <publication_title>Adansonia, n. s.</publication_title>
-    <place_in_publication>16: 141. 1976</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Scirpus</genus_name><species_name>erectus</species_name><species_authority>Poiret</species_authority><place_of_publication><publication_title>in J. Lamarck et al., Encycl. </publication_title><place_in_publication>6: 761. 1805</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Subspecies 2 (1 in the flora):</number_of_infrataxa><global_distribution>Very locally distributed in North America</global_distribution><global_distribution>South America</global_distribution><global_distribution>Asia</global_distribution><global_distribution>Africa</global_distribution><global_distribution>Australia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Schoenoplectus</taxon_name>
+    <taxon_name rank="species" authority="(Poiret) Palla ex J. Raynal" date="unknown">erectus</taxon_name>
+    <place_of_publication>
+      <publication_title>Adansonia, n. s.</publication_title>
+      <place_in_publication>16: 141. 1976</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Schoenoplectus;species erectus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scirpus</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">erectus</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Lamarck et al., Encycl.</publication_title>
+      <place_in_publication>6: 761. 1805</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Scirpus;species erectus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <discussion>Subspecies 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,44 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>187f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Asteraceae</family_name>
-    <family_authority>Martinov</family_authority>
-    <tribe_name>Calenduleae</tribe_name>
-    <tribe_authority>Cassini</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Calenduleae</taxon_name>
     <place_of_publication>
       <publication_title>J. Phys. Chim. Hist. Nat. Arts</publication_title>
       <place_in_publication>88: 161. 1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Calenduleae;</taxon_hierarchy>
-  <description>Annuals, perennials, shrubs, or trees. Leaves cauline [rosulate]; usually alternate,
-    sometimes opposite; petiolate or sessile; margins usually entire or dentate, sometimes lobed to
-    dissected. Heads heterogamous (radiate), borne singly or in ± corymbiform arrays. Calyculi 0
-    (peduncular bractlets sometimes intergrade with phyllaries). Phyllaries persistent, in (1–)2(–3)
-    series, distinct [connate], usually ± equal, usually herbaceous (sometimes fleshy), margins
-    and/or apices ± scarious. Receptacles flat to conic, epaleate (sometimes bristly-setose). Ray
-    florets in 1–2+ series (more in horticultural “doubles”), pistillate, fertile [styliferous and
-    sterile or neuter]; corollas usually yellow to orange and/or cyanic to white (abaxial and
-    adaxial faces often different colors). Disc florets usually functionally staminate, sometimes
-    bisexual and fertile; corollas yellow, orange, or cyanic (sometimes combinations within
-    corollas), lobes 5, ± deltate (tips sometimes terete or dilated); anther bases ± tailed, apical
-    appendages ovate to deltate; styles abaxially papillate (at least near tips), branches sometimes
-    barely discernible (0.5–1 mm), adaxially stigmatic in 2 lines from bases to apices, apices
-    rounded to truncate, appendages penicillate or essentially none. Cypselae usually polymorphic
-    within heads (straight, arcuate, contorted, or ± coiled), ± columnar to prismatic, sometimes
-    obcompressed, compressed, or flattened, sometimes ± beaked, bodies usually tuberculate, ridged,
-    and/or winged (usually glabrous; blue-black and drupelike in Chrysanthemoides); pappi 0
-    [bristles].</description>
-  <number_of_infrataxa>Genera ca. 8, species 100+ (4 genera, 7 species in the
-    flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>most in Africa</global_distribution>
-  <global_distribution>also Atlantic Islands</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>and sw Asia</global_distribution>
-  <global_distribution>some are widely cultivated and become ± established in local
-    floras.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Calenduleae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>187f.</number>
+  <discussion>Genera ca. 8, species 100+ (4 genera, 7 species in the
+    flora):</discussion>
   <discussion>Plants of Dimorphotheca cuneata (Thunberg) Lessing, a native of southern Africa, have
     been collected outside cultivation in Arizona (Gila County, ca. 1000 m): subshrubs or shrubs to
     100 cm, leaves cuneate to obovate, 1–2(–3)cm, margins dentate to denticulate, faces ± glutinous,
@@ -52,35 +31,34 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Shrubs or trees; cypselae fleshy (drupelike)</statement>
+      <description type="morphology">Shrubs or trees; cypselae fleshy (drupelike)</description>
       <determination>83. Chrysanthemoides , p. 379</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals, perennials, or shrubs; cypselae not fleshy (often tuberculate or ridged
-        and/or winged).</statement>
+      <description type="morphology">Annuals, perennials, or shrubs; cypselae not fleshy (often tuberculate or ridged
+        and/or winged).</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Disc florets bisexual (some or all fertile)</statement>
+      <description type="morphology">Disc florets bisexual (some or all fertile)</description>
       <determination>84. Dimorphotheca , p. 380</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Disc florets all functionally staminate.</statement>
+      <description type="morphology">Disc florets all functionally staminate.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Cypselae arcuate to ± coiled, abaxially tuberculate, sometimes winged</statement>
+      <description type="morphology">Cypselae arcuate to ± coiled, abaxially tuberculate, sometimes winged</description>
       <determination>85. Calendula , p. 381</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Cypselae triquetrous-prismatic to clavate, ± tuberculate and/or winged</statement>
+      <description type="morphology">Cypselae triquetrous-prismatic to clavate, ± tuberculate and/or winged</description>
       <determination>86. Osteospermum , p. 382</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

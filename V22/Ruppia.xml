@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ruppia</genus_name><genus_authority>Linnaeus</genus_authority><place_of_publication><publication_title>Sp. Pl.</publication_title><place_in_publication>1: 127. 1753;, Gen. Pl. ed. 5; 61, 1754</place_in_publication></place_of_publication></TaxonIdentification><common_name>Ditch-grass</common_name><common_name> widgeon grass</common_name><common_name> Rruppia</common_name><etymology>[fFor Heinrich Bernhard Ruppius, 1689--1719, a German botanist]</etymology><description>Herbs, rooting at proximal nodes. Leaves: blade entire proximally, minutely serrulate distally, apex ± obtuse to acute; veins 1. Inflorescences fewer than 20-flowered, at first enclosed by sheathing leaf bases. Flowers bisexual; anthers 2-loculed, locules separated by broad connective; stipe elongating after anthesis. Fruits beaked, long-stipitate; beak erect or slightly recurved.</description><discussion>Considerable confusion exists about North American taxa of Ruppia. Two distinct forms, along with several intermediates, are known: one with short peduncles with four or fewer spirals and another with long peduncles with five or more coils (often many more). Usually, those with few coils are in brackish waters near the coast, whereas those with many coils are inland, often in lakes that have high mineral contents. The forms have been considered variants variants of one species, R. maritima (M.  L. Fernald and K. M. Wiegand 1914); more recently they have been accepted at species level (R. F. Thorne 1993). I am adopting Thorne’s concepts.</discussion><number_of_infrataxa>Species ca. 10 (2 in the flora):</number_of_infrataxa><global_distribution> almost worldwide.</global_distribution><references heading="SELECTED REFERENCES"><reference> Fernald, M. L. and K. M. Wiegand. 1914. The genus Ruppia in eastern North America. Rhodora 16: 119--127.</reference><reference> Jacobs, S. W. L. and M. A. Brock. 1982. A revision of the genus Ruppia (Potamogetonaceae) in Australia. Aquatic Bot. 14: 325--337.</reference><reference> Reese, G. 19628. Zur intragenerischen Taxonomie der Gattung Ruppia L. Z. Bot. 50: 237--264.</reference><reference> Thorne, R. F. 1993b. Potamogetonaceae. In: J. C. Hickman, ed. 1993. The Jepson Manual. Higher Plants of California. Berkeley, Los Angeles, and London. Pp. 1304--1310.</reference><reference> Verhoeven, J. T. A. 1979. The ecology of Ruppia-dominated communities in western Europe. I. Distribution of Ruppia representatives in relation to their autecology. Aquatic Bot. 6: 197--268.</reference></references><key><key_statement><statement_id>1</statement_id><statement>Peduncle with 5 or more coils in fruit, longer than 30 mm; plants mostly from inland localities</statement><determination>1 Ruppia cirrhosa</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Peduncle with fewer than 5 coils in fruit, shorter than 25 mm; plants mostly from coastal localities</statement><determination>2 Ruppia maritima</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ruppia</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 127. 1753;, Gen. Pl. ed. 5; 61, 1754</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ruppia;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[fFor Heinrich Bernhard Ruppius, 1689--1719, a German botanist]</other_info_on_name>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Ditch-grass</other_name>
+  <other_name type="common_name">widgeon grass</other_name>
+  <other_name type="common_name">Rruppia</other_name>
+  <discussion>Considerable confusion exists about North American taxa of Ruppia. Two distinct forms, along with several intermediates, are known: one with short peduncles with four or fewer spirals and another with long peduncles with five or more coils (often many more). Usually, those with few coils are in brackish waters near the coast, whereas those with many coils are inland, often in lakes that have high mineral contents. The forms have been considered variants variants of one species, R. maritima (M.  L. Fernald and K. M. Wiegand 1914); more recently they have been accepted at species level (R. F. Thorne 1993). I am adopting Thorne’s concepts.</discussion>
+  <discussion>Species ca. 10 (2 in the flora):</discussion>
+  <references>
+    <reference>Fernald, M. L. and K. M. Wiegand. 1914. The genus Ruppia in eastern North America. Rhodora 16: 119--127.</reference>
+    <reference>Jacobs, S. W. L. and M. A. Brock. 1982. A revision of the genus Ruppia (Potamogetonaceae) in Australia. Aquatic Bot. 14: 325--337.</reference>
+    <reference>Reese, G. 19628. Zur intragenerischen Taxonomie der Gattung Ruppia L. Z. Bot. 50: 237--264.</reference>
+    <reference>Thorne, R. F. 1993b. Potamogetonaceae. In: J. C. Hickman, ed. 1993. The Jepson Manual. Higher Plants of California. Berkeley, Los Angeles, and London. Pp. 1304--1310.</reference>
+    <reference>Verhoeven, J. T. A. 1979. The ecology of Ruppia-dominated communities in western Europe. I. Distribution of Ruppia representatives in relation to their autecology. Aquatic Bot. 6: 197--268.</reference>
+  </references>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Peduncle with 5 or more coils in fruit, longer than 30 mm; plants mostly from inland localities</description>
+      <determination>1 Ruppia cirrhosa</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Peduncle with fewer than 5 coils in fruit, shorter than 25 mm; plants mostly from coastal localities</description>
+      <determination>2 Ruppia maritima</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

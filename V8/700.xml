@@ -1,47 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sarracenia</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>Naczi, Case &amp; R. B. Case</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">SARRACENIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarracenia</taxon_name>
+    <taxon_name rank="species" authority="Naczi, Case &amp; R. B. Case" date="unknown">rosea</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>18: 1188, figs. 1999 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pink pitcher plant</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sarracenia</genus_name>
-    <species_name>purpurea</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>burkii</variety_name>
-    <variety_authority>D. E. Schnell</variety_authority>
-  </TaxonIdentification>
-  <description>Plants forming dense clumps; rhizomes 0.8–1.8 cm diam. Pitchers persistent,
-        appearing with or after flowers and producing 1 form continuously all summer, decumbent to
-        ascending, pale green suffused with dull purple-red, frequently with darker reticulated red
-        veins, without white areolae, urceolate, gently S-curved, 6–28 cm, bulging distally, 2–7 cm
-        diam. at widest point, thick, firm, external surfaces densely pubescent, wings 0.6–5(–6) cm
-        wide; orifice round to oval, gaping, 2–5 cm diam., rim red to maroon, (thick, flaring),
-        loosely revolute, not or scarcely indented distal to wing, (2.6–7.5 mm wide at thickest
-        point); hood erect or with lobes variously arched together beyond orifice, same colors and
-        veined as pitchers, reniform, coarsely undulate to entire, 2–6 × 3–13 cm, wider than long,
-        basal lobes cordate, attached to sides of rim of orifice with no neck, distal portion
-        usually abaxially recurved and notched apically, apex not apiculate, adaxial surface with
-        decurved setae 1–2 mm. Phyllodia absent. Scapes 16–35 cm, longer than pitchers; bracts
-        0.5–0.8 cm. Flowers moderately mixed fragrant and ill-scented; sepals deep purple-red, 3–4.7
-        × 1.7–3.8 cm; petals pale to deep pink to nearly white, distal portion ovate to obovate,
-        (4–)5–6.5 × 2–3.5 cm, margins entire; style disc pale green to nearly white, 4.8–7.4 cm
-        diam., (style arms 2.6–4.1 cm). Capsules 1.5–2 cm diam. Seeds 1.8–2.3 mm.</description>
-  <phenology>Flowering Mar–Apr</phenology>
-  <habitat>Wet, open seepage bogs, savannas, wet pine flatwoods, stream edges, old interdune
-        swales, ditches, thickets, swamps</habitat>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
+    <taxon_hierarchy>family SARRACENIACEAE;genus Sarracenia;species rosea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sarracenia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">purpurea</taxon_name>
+    <taxon_name rank="variety" authority="D. E. Schnell" date="unknown">burkii</taxon_name>
+    <taxon_hierarchy>genus Sarracenia;species purpurea;variety burkii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Pink pitcher plant</other_name>
   <discussion>Sarracenia rosea occurs on the coastal plain in southwestern Georgia (Lee, Randolph,
         Taylor, and Tift counties), the Florida panhandle (Gadsden County westward), southern
         Alabama, and southeastern Mississippi (George and Jackson counties). It differs from S.
@@ -56,4 +38,4 @@
   <discussion>Sarracenia rosea is attractive and easy to cultivate. It suffers from habitat loss
         throughout its range. Specimens apparently have not been collected from Georgia since
         1902.</discussion>
-</treatment>
+</bio:treatment>

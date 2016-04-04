@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>34a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <species_name>coronata</species_name>
-        <species_authority>S. Watson</species_authority>
-        <variety_name>coronata</variety_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>coronata</species_name>
-        <variety_name>verna</variety_name>
-        <variety_authority>(Jepson) Jepson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <species_name>verna</species_name>
-        <species_authority>Jepson</species_authority>
-    </TaxonIdentification>
-    <description>Stems decumbent to ascending; basal branches and leaves typically alternate.
-        Fruiting bracteoles almost sessile, body subcircular in profile, ± compressed, (2–)4–5 mm,
-        united to summit, truncate at the irregularly toothed summit, sides smooth or obscurely to
-        definitely tuberculate.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>alkaline sink scrub</habitat>
-    <habitat>growing with atriplex polycarpa and other salt desert shrubs and forbs</habitat>
-    <elevation>50–200 m;</elevation>
-    <us_distribution>Calif.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">coronata</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) Jepson" date="unknown">coronata</taxon_name>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species coronata;variety coronata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">coronata</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">verna</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species coronata;variety verna;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">verna</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species verna;</taxon_hierarchy>
+  </taxon_identification>
+  <number>34a.</number>
+</bio:treatment>

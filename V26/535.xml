@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Crinum</genus_name><species_name>zeylanicum</species_name><species_authority>(Linnaeus) Linnaeus</species_authority><place_of_publication>
-    <publication_title>Syst. Nat. ed.</publication_title>
-    <place_in_publication>12, 2: 236. 1767</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Amaryllis</genus_name><species_name>zeylanica</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>1: 293. 1753</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Crinum</genus_name><species_name>latifolium</species_name><species_authority>Linnaeus</species_authority><variety_name>zeylanicum</variety_name><variety_authority>(Linnaeus) Hooker f.</variety_authority></TaxonIdentification><description>Bulbs 12–15 cm diam., neck short. Leaves several, 5–10 dm × 3–5 cm; blade lorate. Scape to 7.5 dm or more. Umbels 8–12-flowered. Flowers sessile; perianth white with broad purplish-red keels (most pronounced adaxially), funnelform, tube 7.5–15 cm, limb lobes oblong-elliptic, 7.5–18 × 1–2 cm. Capsules not seen at maturity, globose, beak 8–10 cm. Seeds warty.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>fields</habitat><habitat>wasteplaces</habitat><habitat>wet areas</habitat><elevation>0–200 m;</elevation><introduced>introduced;</introduced><us_distribution>Fla.</us_distribution><us_distribution>La.</us_distribution><global_distribution>tropical Asia.</global_distribution><discussion>Crinum zeylanicum is extensively cultivated outdoors in the lower Gulf coastal plain.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crinum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Linnaeus" date="unknown">zeylanicum</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Nat. ed.</publication_title>
+      <place_in_publication>12, 2: 236. 1767</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Crinum;species zeylanicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Amaryllis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">zeylanica</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 293. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Amaryllis;species zeylanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crinum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">latifolium</taxon_name>
+    <taxon_name rank="variety" authority="(Linnaeus) Hooker f." date="unknown">zeylanicum</taxon_name>
+    <taxon_hierarchy>genus Crinum;species latifolium;variety zeylanicum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <discussion>Crinum zeylanicum is extensively cultivated outdoors in the lower Gulf coastal plain.</discussion>
+</bio:treatment>

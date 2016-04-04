@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Malacothrix</genus_name>
-    <species_name>stebbinsii</species_name>
-    <species_authority>W. S. Davis &amp; P. H. Raven</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacothrix</taxon_name>
+    <taxon_name rank="species" authority="W. S. Davis &amp; P. H. Raven" date="unknown">stebbinsii</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>16: 265, fig. 2e. 1962</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Malacothrix;species stebbinsii;</taxon_hierarchy>
-  <common_name>Stebbins’s desertdandelion</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Malacothrix</genus_name>
-    <species_name>clevelandii</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>stebbinsii</variety_name>
-    <variety_authority>(W. S. Davis &amp; P. H. Raven) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals, 5–60 cm. Stems 1–5+, ± erect, branched distally, sparsely leafy, glabrous. Cauline leaves: proximal obovate, pinnately lobed (lobes 3–5+ pairs, triangular to oblong or linear), not fleshy, ultimate margins entire or dentate, faces glabrous; distal reduced (usually with 2 lobes near bases). Calyculi of 5–8+, ovate to lanceolate bractlets, hyaline margins 0.05–0.2 mm. Involucres ± campanulate, 7–10 × 3–6 mm. Phyllaries 16–20+ in 2–3 series, lanceolate to lance-linear, hyaline margins 0.05–0.1 mm wide, faces glabrous. Receptacles not bristly. Florets 19–70; corollas usually yellow, sometimes white, 6–7 mm; outer ligules exserted 1–2 mm. Cypselae ± cylindro-fusiform, 1.7–2.3 mm, ribs extending to ca. 0.1–0.2 mm short of apices (minutely hirtellous or muriculate), ± equal (distal 0.1–0.2 mm of cypselae smooth); pappi persistent, of 8–15+, needlelike teeth plus 1(–2) bristles. Pollen 70–100% 4-porate. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>gravelly soils beneath shrubs , along ditches , near streams , in sagebrush steppes , creosote bush scrublands ;</text>
-    <habitat>gravelly soils beneath shrubs</habitat>
-    <habitat>along ditches</habitat>
-    <habitat>near streams in sagebrush steppes , creosote bush scrublands</habitat>
-  </habitat_info>
-  <elevation>300–1300 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Malacothrix;species stebbinsii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacothrix</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">clevelandii</taxon_name>
+    <taxon_name rank="variety" authority="(W. S. Davis &amp; P. H. Raven) Cronquist" date="unknown">stebbinsii</taxon_name>
+    <taxon_hierarchy>genus Malacothrix;species clevelandii;variety stebbinsii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Stebbins’s desertdandelion</other_name>
   <discussion>Malacothrix stebbinsii grows in the Mojave Desert (Borrego area, California) and the Sonoran Desert (Santa Catalina, Mazatzal, Baboquivari, and Santa Rita mountains, and elsewhere in Arizona).</discussion>
-</treatment>
-
+</bio:treatment>

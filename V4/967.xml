@@ -1,20 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Lewisia</genus_name><species_name>cotyledon</species_name><species_authority>(S. Watson) B. L. Robinson</species_authority><place_of_publication>
-    <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
-    <place_in_publication>1: 268. 1897</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Calandrinia</genus_name><species_name>cotyledon</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>20: 355. 1885</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Oreobroma</genus_name><species_name>cotyledon</species_name><species_authority>(S. Watson) Howell</species_authority></TaxonIdentification><description>Taproots gradually ramified distally. Stems ascending to suberect, 10–12(–30) cm. Leaves: basal leaves evergreen, sessile or abruptly or gradually narrowed to broad petiole, blade oblanceolate, obovate, spatulate, or rarely ± linear or ± orbiculate, ± flattened, 3–14 cm, margins entire, crisped, or toothed, apex truncate, emarginate, retuse, or rounded; cauline leaves alternate, intergrading with bracts, blade oblong to ovate, 5–10 mm, margins glandular-toothed, apex acute to occasionally obtuse. Inflorescences dense, paniculate to subumbellate cymes, 10–50-flowered; bracts alternate or opposite proximally, 2 at each flowering node distally, obovate to lanceolate, 2–4 mm, margins glandular-toothed, apex acute. Flowers pedicellate, not disarticulate in fruit; sepals 2, suborbiculate to broadly ovate, 4–6 mm, herbaceous at anthesis, margins glandular-toothed, apex obtuse to truncate; petals 7–10, usually pink-purple with pale and darker stripes, less often white, cream with pink-orange stripes, ± orange, or yellow, oblanceolate, obovate, or spatulate, (8–)12–20 mm; stamens 5–12; stigmas 2–4; pedicel 2–5 mm. Capsules 3–5 mm. Seeds 4–15, 1.5 mm, shiny, smooth.</description><number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa><global_distribution>w United States.</global_distribution><discussion>The varieties occasionally co-occur. Natural hybrids with Lewisia leeana are known (see discussion under 8. L. leeana).</discussion><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lewisia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) B. L. Robinson" date="unknown">cotyledon</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 268. 1897</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Lewisia;species cotyledon;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calandrinia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">cotyledon</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>20: 355. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Calandrinia;species cotyledon;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oreobroma</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Howell" date="unknown">cotyledon</taxon_name>
+    <taxon_hierarchy>genus Oreobroma;species cotyledon;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
+  <discussion>The varieties occasionally co-occur. Natural hybrids with Lewisia leeana are known (see discussion under 8. L. leeana).</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade margins entire or slightly undulate, n ot toothed or crisped; petals (8 – )12 – 14 mm</statement>
+      <description type="morphology">Basal leaf blade margins entire or slightly undulate, n ot toothed or crisped; petals (8 – )12 – 14 mm</description>
       <next_statement_id>1.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaf blade margins strongly crisped or toothed; petals 12 – 20 mm.</statement>
+      <description type="morphology">Basal leaf blade margins strongly crisped or toothed; petals 12 – 20 mm.</description>
       <next_statement_id>2.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Basal leaf blade margins toothed</statement>
+      <description type="morphology">Basal leaf blade margins toothed</description>
       <next_statement_id>2. ###</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2. ###</statement_id>
-      <statement>Basal leaf blade margins strongly crisped</statement>
-    </key_statement></key></treatment>
+      <description type="morphology">Basal leaf blade margins strongly crisped</description>
+    </key_statement>
+  </key>
+</bio:treatment>

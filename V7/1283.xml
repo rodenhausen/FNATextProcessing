@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Nuttall) Endlicher</species_authority>
-    <subspecies_name>longicarpum</subspecies_name>
-    <subspecies_authority>Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Endlicher" date="unknown">integrifolium</taxon_name>
+    <taxon_name rank="subspecies" authority="Al-Shehbaz" date="unknown">longicarpum</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>204: 111. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>integrifolium</species_name>
-    <variety_name>longicarpum</variety_name>
-    <variety_authority>(Al-Shehbaz) N. H. Holmgren</variety_authority>
-  </TaxonIdentification>
-  <description>Racemes (moderately to strongly congested), not elongated in fruit; central rachis (4.3–)8–20 cm. Fruiting pedicels usually horizontal to reflexed, rarely divaricate, straight, whitish, stout, (6–)7–11(–13) mm, strongly flattened at base. Flowers: petals white, (7.5–)8–11(–13) mm; gynophore stout, (1–)1.5–4(–5.5) mm. Fruits usually horizontal to reflexed, rarely divaricate, straight or incurved to arcuate, (2.2–)3.5–6.5(–8) cm.</description>
-  <phenology>aug</phenology>
-  <phenology>summer</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <phenology>oct</phenology>
-  <habitat>canyons</habitat>
-  <habitat>shrub communities</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>500–1300 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodium;species integrifolium;subspecies longicarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">integrifolium</taxon_name>
+    <taxon_name rank="variety" authority="(Al-Shehbaz) N. H. Holmgren" date="unknown">longicarpum</taxon_name>
+    <taxon_hierarchy>genus Thelypodium;species integrifolium;variety longicarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6e.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Subspecies longicarpum is known from the Grand Canyon National Park and adjacent canyons of the Colorado River.</discussion>
-</treatment>
+</bio:treatment>

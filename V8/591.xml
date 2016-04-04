@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>tschuktschorum</species_name>
-    <species_authority>Kjellman</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Kjellman" date="unknown">tschuktschorum</taxon_name>
     <place_of_publication>
       <publication_title>in A. E. Nordenskiöld,  Vega Exp. Vetensk. Iakttag.</publication_title>
       <place_in_publication>1: 516, plate 9.  1882  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chukchi primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>beringensis</species_name>
-    <species_authority>(A. E. Porsild) Jurtzev</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>tschuktschorum</species_name>
-    <subspecies_name>beringensis</subspecies_name>
-    <subspecies_authority>(A. E. Porsild) Jurtzev &amp; Kozhevnikov</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>tschuktschorum</species_name>
-    <variety_name>beringensis</variety_name>
-    <variety_authority>A. E. Porsild</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 2–15 cm, herbaceous; rhizomes thick, short; rosettes not clumped; vegetative parts completely efarinose.  Leaves not aromatic, indistinctly petiolate; petiole winged; blade without deep reticulate veins abaxially, linear-lanceolate, 4–5 × 0.2–0.4 cm, fleshy, margins entire or remotely denticulate, apex acute, surfaces glabrous.  Inflorescences 1–3(–6)-flowered; involucral bracts plane at base, ± equal.  Pedicels erect to slightly reflexed, somewhat thick, 2–10 mm, length ca. 1–2 times bracts, flexuous.  Flowers heterostylous; calyx green or greenish black, campanulate, 5–7 mm; corolla rose-magenta, tube 5–7 mm, length 1 times calyx, eglandular, limb 10–20 mm diam., lobes 5–10 mm, apex unlobed or rarely cleft to base.  Capsules broadly cylindric, length 2 times calyx.  Seeds without flanged edges, vesiculate.  2n = 22.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Moist, frost-patterned ground and gravelly stream banks or rivulets on tundra</habitat>
-  <elevation>0–400 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Russian Far East).</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species tschuktschorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="(A. E. Porsild) Jurtzev" date="unknown">beringensis</taxon_name>
+    <taxon_hierarchy>genus Primula;species beringensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tschuktschorum</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. E. Porsild) Jurtzev &amp; Kozhevnikov" date="unknown">beringensis</taxon_name>
+    <taxon_hierarchy>genus Primula;species tschuktschorum;subspecies beringensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tschuktschorum</taxon_name>
+    <taxon_name rank="variety" authority="A. E. Porsild" date="unknown">beringensis</taxon_name>
+    <taxon_hierarchy>genus Primula;species tschuktschorum;variety beringensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+  <other_name type="common_name">Chukchi primrose</other_name>
   <discussion>Primula tschuktschorum has a long history of taxonomic confusion with its close relative P. pumila, from which it is distinguished by its heterostylous flowers, more delicate appearance, and lack of farina.  It appears to be restricted in North America to the Bering Strait region of Alaska between the Seward Peninsula and Bristol Bay, where it grows occasionally in coastal areas and more commonly at higher elevations in the mountains around late-lying snowbanks.</discussion>
-</treatment>
+</bio:treatment>

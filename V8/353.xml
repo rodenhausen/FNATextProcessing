@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>edulis</species_name>
-    <species_authority>(Nuttall) Moran</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Moran" date="unknown">edulis</taxon_name>
     <place_of_publication>
       <publication_title>Desert Pl. Life</publication_title>
       <place_in_publication>14: 191.  1943  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mission dudleya</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>edule</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species edulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">edule</taxon_name>
     <place_of_publication>
       <publication_title>in J. Torrey and A. Gray, Fl. N. Amer.</publication_title>
       <place_in_publication>1: 560.  1840</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>edule</species_name>
-    <species_authority>(Nuttall) Britton &amp; Rose</species_authority>
-  </TaxonIdentification>
-  <description>Caudices to 2 dm × 1.5–3.5 cm, clumps to 5 dm diam.  Leaves without resinous odor; rosette 15–25-leaved, 5–10 cm diam.; blade light green, linear, terete and widened above clasping base, 8–20(–40) × 0.3–0.9 cm, 4–9 mm thick, to 2 times wider than thick, base 15–30 mm wide, surfaces not farinose, not viscid, not oily.  Inflorescences: cyme 2–15-branched, flat-topped to mostly cylindric, 0.4–1 × 0.4–1 dm; branches 1–2 times bifurcate; cincinni 3–12-flowered, subcircinate, 4–11 cm, floral shoots 2–7 dm × 3–10 mm; leaves 15–35, strongly ascending, triangular-lanceolate, (terete or somewhat flattened in basal 1/2), 2–5 × 0.3–1 cm.  Pedicels 1–2(–5) mm.  Flowers: petals spreading or slightly reflexed from near middle, connate 1–2 mm, white, elliptic-oblong, 7–10 × 2–3 mm, apex acute, corolla 15–20 mm diam.; pistils erect, 6–8 mm; styles 1.5–2 mm.  Follicles ascending, with adaxial margins ca. 30–45º above horizontal.  2n = 34.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Rocky slopes and cliffs near sea and inland on granite</habitat>
-  <elevation>0–1300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Sedum;species edule;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Britton &amp; Rose" date="unknown">edule</taxon_name>
+    <taxon_hierarchy>genus Stylophyllum;species edule;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Mission dudleya</other_name>
   <discussion>Although often growing upon other substrates, Dudleya edulis is a pioneer colonist on bare granite surfaces in the mountains of Orange, Riverside, and San Diego counties, often the first flowering plant to follow lichens, mosses, and selaginella (G. W.  and D. G. Cox 1977; R. V. Moran 1992c).</discussion>
   <discussion>Dudleya edulis hybridizes in California with D. blochmaniae subsp. blochmaniae, D. brevifolia, and D. stolonifera, and in Baja California with other species of the genus; the hybrids are rather rare (R. V. Moran 1951).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,53 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stebbinsoseris</genus_name>
-    <species_name>heterocarpa</species_name>
-    <species_authority>(Nuttall) K. L. Chambers</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stebbinsoseris</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) K. L. Chambers" date="unknown">heterocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Bot.</publication_title>
       <place_in_publication>78: 1024. 1991</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stebbinsoseris;species heterocarpa;</taxon_hierarchy>
-  <common_name>Grassland or derived silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Uropappus</genus_name>
-    <species_name>heterocarpus</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Stebbinsoseris;species heterocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Uropappus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">heterocarpus</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 425. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Microseris</genus_name>
-    <species_name>heterocarpa</species_name>
-    <species_authority>(Nuttall) K. L. Chambers</species_authority>
-  </TaxonIdentification>
-  <description>Peduncles 5–60 cm. Involucres 6–30 mm. Florets 10–125; corollas yellow or white. Cypselae gray, straw-colored, brown, or violet (dark purplish in southwest California), narrowly truncate-fusiform to columnar, 4.5–12 mm, each filled by embryo or distal 0.5–3 mm vacant and more slender than proximal part, apices slightly widened at bases of pappi; pappi 7–19 mm, scale bodies 4–11 mm, faces usually glabrous, rarely villous, aristae 3–8 mm. 2n = 36.</description>
-  <phenology_info>
-    <text>Flowering Apr–Jun.</text>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>clay , gravelly , or rocky soils , open flats and hillsides , grasslands , oak woodlands , chaparral , coastal scrub , desert ( rarely ) , roadsides ;</text>
-    <habitat>clay</habitat>
-    <habitat>gravelly rocky soils</habitat>
-    <habitat>open flats and hillsides</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>oak woodlands</habitat>
-    <habitat>chaparral coastal scrub</habitat>
-    <habitat>desert ( rarely )</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>0–1000 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Uropappus;species heterocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) K. L. Chambers" date="unknown">heterocarpa</taxon_name>
+    <taxon_hierarchy>genus Microseris;species heterocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Grassland or derived silverpuffs</other_name>
   <discussion>Stebbinsoseris heterocarpa is widespread in cismontane California and disjunct to Gila and Yavapai counties, Arizona. Variation in enzymatic restriction sites in its chloroplast DNA and nuclear rDNA (R. S. Wallace and R. K. Jansen 1995) indicates that S. heterocarpa has arisen independently three or more times from hybrids of Microseris douglasii × Uropappus lindleyi. Reflecting this multiple origin, the species is more variable in pappi and cypsela size, color, and shape than S. decipiens, from which it is largely allopatric. Because M. douglasii subsp. tenella and M. bigelovii intergrade in some coastal areas, forms of S. heterocarpa having such hybrids as their maternal parent would be difficult to distinguish from S. decipiens (K. L. Chambers 1955; U. Lohwasser and F. R. Blattner 2004).</discussion>
-</treatment>
-
+</bio:treatment>

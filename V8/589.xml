@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>nutans</species_name>
-    <species_authority>Georgi</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Georgi" date="unknown">nutans</taxon_name>
     <place_of_publication>
       <publication_title>Bemerk. Reise Russ. Reich</publication_title>
       <place_in_publication>1: 200.  1775  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Siberian primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>sibirica</species_name>
-    <species_authority>Wulfen</species_authority>
-  </TaxonIdentification>
-  <description>Plants 5–20 cm, herbaceous; rhizomes thin, short, sometimes stoloniferous; rosettes not clumped; vegetative parts efarinose.  Leaves not aromatic, abruptly petiolate; petiole not winged; blade without deep reticulate veins abaxially, ovate to somewhat elliptic, 1–3 × 1–2 cm, thin, margins entire, apex rounded, surfaces glabrous.  Inflorescences 2–4-flowered; involucral bracts saccate, prominently auriculate basally, ± equal.  Pedicels nodding, thin, 10–20 mm, length 1–5+ times bracts, flexuous.  Flowers heterostylous; calyx green, cylindric, 4–7 mm; corolla lavender, tube 7–10 mm, length 1.5–2 times calyx, eglandular, limb 9–20 mm diam., lobes 5–10 mm, apex deeply notched.  Capsules narrowly cylindric, length 1.5–2 times calyx.  Seeds without flanged edges, reticulate.  2n = 22.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Salt marshes and estuaries, inland in sloughs and floodplains</habitat>
-  <global_distribution>0–600 m [higher in Asia]</global_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species nutans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="Wulfen" date="unknown">sibirica</taxon_name>
+    <taxon_hierarchy>genus Primula;species sibirica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
+  <other_name type="common_name">Siberian primrose</other_name>
   <discussion>European plants have been distinguished as subsp. finmarchia Jacquin based on a shorter corolla tube that is equal to the calyx; genetic analyses may clarify whether taxonomic recognition is warranted.</discussion>
   <discussion>Primula nutans is often sympatric with P. borealis in western Alaska; frequently, the two are mixed on herbarium sheets.  Primula nutans is easily distinguished from P. borealis by its ovate, petiolate leaves, auriculate bracts, and narrowly cylindric capsules.</discussion>
-</treatment>
+</bio:treatment>

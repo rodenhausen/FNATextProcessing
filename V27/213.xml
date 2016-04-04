@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Timmia</genus_name>
-    <species_name>norvegica</species_name>
-    <species_authority>J. E. Zetterstedt</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Timmia</taxon_name>
+    <taxon_name rank="species" authority="J. E. Zetterstedt" date="unknown">norvegica</taxon_name>
     <place_of_publication>
       <publication_title>Öfvers. Kongl. Vetensk.-Akad. Förh.</publication_title>
       <place_in_publication>19: 364.  1862,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants with deciduous, longer distal leaves with a less well-developed sheath.  Leaf apex acute or acuminate; costae ending a few cells below apex or excurrent; sheath clear in the distal leaves, orange-brown to reddish black in the proximal leaves; limb green, pellucid; limb-sheath transition gradual; limb margins coarsely dentate in distal 1/3–1/2, slightly toothed, crenulate or ± entire proximally; limb lamina cells 6–16(–18) × 6–14 µm, with tall rounded mamillae on the adaxial surface, abaxial surface smooth; sheath lamina cells with (0–)1–6(–8) large round, verrucose papillae over abaxial surface of the lumen; cells at leaf insertion abruptly differentiated into 1 to a few rows of fragile, hyaline cells; limb costa papillose on abaxial surface, or toothed near the apex, adaxial cells with tall bottle-shaped mamillae.  Sexual condition dioicous; perichaetial leaves longer and more evenly tapering than stem leaves, sheath poorly developed.  Calyptra unknown.  Capsule non-plicate; exothecial cells with extremely sinuose walls; stomata on neck and proximal urn; endostome cilia with numerous short blunt appendiculations on the interior surfaces.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>Atlantic Islands (Iceland)</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand).</us_distribution>
+    <taxon_hierarchy>genus Timmia;species norvegica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Timmia norvegica is related to T. sibirica, with which it shares the important character of fragile leaf bases; however, the papillosity of the limb in T. sibirica is a strongly differentiating character.  Timmia norvegica differs from T. austriaca and T. megapolitana by having fragile leaf bases, heterophyllous leaves, and less well delimited leaf sheaths.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves 3–8(–12) mm, 0.8–1.1 mm wide at mid-limb; cells of mid-limb lamina (8–)9–16(–18) × (8–)9–14 µm; base of costa dark; never with loose clusters of linear leaves at stem tips</statement>
+      <description type="morphology">Leaves 3–8(–12) mm, 0.8–1.1 mm wide at mid-limb; cells of mid-limb lamina (8–)9–16(–18) × (8–)9–14 µm; base of costa dark; never with loose clusters of linear leaves at stem tips</description>
       <determination>3a.   Timmia norvegica var. norvegica</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves 2–6 mm, 0.5–0.6 mm wide at mid-limb; cells of mid-limb lamina 6–10(–11) × 6–9(–10) µm; base of costa pale; stem tips often with loose deciduous clusters of almost linear leaves</statement>
+      <description type="morphology">Leaves 2–6 mm, 0.5–0.6 mm wide at mid-limb; cells of mid-limb lamina 6–10(–11) × 6–9(–10) µm; base of costa pale; stem tips often with loose deciduous clusters of almost linear leaves</description>
       <determination>3b.   Timmia norvegica var. excurrens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

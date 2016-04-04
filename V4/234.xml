@@ -1,83 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Grusonia</genus_name>
-        <species_name>kunzei</species_name>
-        <species_authority>( Rose) Pinkava</species_authority>
-        <place_of_publication>
-            <publication_title>J. Arizona-Nevada Acad. Sci.</publication_title>
-            <place_in_publication>32: 50. 1999</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Kunze’s club-cholla</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>kunzei</species_name>
-        <species_authority>Rose</species_authority>
-        <place_of_publication>
-            <publication_title>Smithsonian Misc. Collect. </publication_title>
-            <place_in_publication>50: 505. 1908</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Corynopuntia</genus_name>
-        <species_name>stanlyi</species_name>
-        <species_authority>(Engelmann ex B. D. Jackson) F. M. Knuth</species_authority>
-        <variety_name>kunzei</variety_name>
-        <variety_authority>(Rose) Backeberg</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Corynopuntia</genus_name>
-        <species_name>stanlyi</species_name>
-        <variety_name>wrightiana</variety_name>
-        <variety_authority>(E. M. Baxter) Backeberg</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Grusonia</genus_name>
-        <species_name>wrightiana</species_name>
-        <species_authority>(E. M. Baxter) E. M. Baxter</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>stanlyi</species_name>
-        <species_authority>Engelmann ex B. D. Jackson</species_authority>
-        <variety_name>kunzei</variety_name>
-        <variety_authority>(Rose) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>stanlyi</species_name>
-        <variety_name>peeblesiana</variety_name>
-        <variety_authority>L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>wrightiana</species_name>
-        <species_authority>(E. M. Baxter) Peebles</species_authority>
-    </TaxonIdentification>
-    <description>Shrubs, forming mats, to 50 cm, in series of usually 2–4 stem segments. Roots
-        diffuse. Stem segments curved and narrowed at base, 10–15 × 2.5–4 cm; tubercles prominent,
-        20–30 mm, narrow, 4–6 times longer than wide, obscured by interlacing spines; areoles 5–6 mm
-        in diam.; wool gray-white. Spines 17–27 per areole, ± uniformly distributed along stems;
-        major 4–6 abaxial spines deflexed, tan with whitish margins, strongly flattened, longest to
-        4.5 cm; major 4–5 adaxial spines divergent, tan to reddish tan, angled at base, longest
-        subterete, to 5 cm. Glochids few in adaxial portion of areole, yellow, 5–6 mm. Flowers:
-        inner tepals yellow to pale yellow-green, to 15–20 mm; filaments white; style light green to
-        white; stigma lobes white. Fruits sometimes proliferating, lemon yellow to yellow, 40–75 ×
-        15–40 mm, fleshy, very spiny, glochidiate; spines (4–)6–17 per areole, straw yellow to
-        brown, 12–20 mm, retrorsely barbed; areoles (40–)45–70. Seeds yellowish white, 4–5 ×3.5–4.5
-        mm, smooth. 2n = 44.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <habitat>sonoran desert</habitat>
-    <habitat>silty, sandy, or gravelly flats and hills</habitat>
-    <elevation>200–600 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <global_distribution>Mexico (Baja California).</global_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grusonia</taxon_name>
+    <taxon_name rank="species" authority="( Rose) Pinkava" date="unknown">kunzei</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Arizona-Nevada Acad. Sci.</publication_title>
+      <place_in_publication>32: 50. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Grusonia;species kunzei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">kunzei</taxon_name>
+    <place_of_publication>
+      <publication_title>Smithsonian Misc. Collect.</publication_title>
+      <place_in_publication>50: 505. 1908</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species kunzei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corynopuntia</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann ex B. D. Jackson) F. M. Knuth" date="unknown">stanlyi</taxon_name>
+    <taxon_name rank="variety" authority="(Rose) Backeberg" date="unknown">kunzei</taxon_name>
+    <taxon_hierarchy>genus Corynopuntia;species stanlyi;variety kunzei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corynopuntia</taxon_name>
+    <taxon_name rank="species" authority="(E. M. Baxter) E. M. Baxter" date="unknown">stanlyi</taxon_name>
+    <taxon_name rank="variety" authority="(E. M. Baxter) Backeberg" date="unknown">wrightiana</taxon_name>
+    <taxon_hierarchy>genus Corynopuntia;species stanlyi;variety wrightiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grusonia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex B. D. Jackson" date="unknown">wrightiana</taxon_name>
+    <taxon_hierarchy>genus Grusonia;species wrightiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="(E. M. Baxter) Peebles" date="unknown">stanlyi</taxon_name>
+    <taxon_name rank="variety" authority="(Rose) L. D. Benson" date="unknown">kunzei</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species stanlyi;variety kunzei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">stanlyi</taxon_name>
+    <taxon_name rank="variety" authority="L. D. Benson" date="unknown">peeblesiana</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species stanlyi;variety peeblesiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">wrightiana</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species wrightiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Kunze’s club-cholla</other_name>
+</bio:treatment>

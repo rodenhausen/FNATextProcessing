@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Shortia</genus_name>
-    <species_name>galacifolia</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Lindley" date="unknown">DIAPENSIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Shortia</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">galacifolia</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Sci. Arts</publication_title>
       <place_in_publication>42: 48.  1842,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sherwoodia</genus_name>
-    <species_name>galacifolia</species_name>
-    <species_authority>(Torrey &amp; A. Gray) House</species_authority>
-  </TaxonIdentification>
-  <description>Plants sometimes forming dense groundcover.  Leaves: petiole 4–9(–15) cm; blade base round-ed to cordate.  Inflorescences: scape 10–18 cm; bracts 3–5, usually closely subtending calyx.  Flowers spreading to slightly nodding.  Capsules 5–7 mm.  2n = 12.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>se United States.</global_distribution>
+    <taxon_hierarchy>family DIAPENSIACEAE;genus Shortia;species galacifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sherwoodia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) House" date="unknown">galacifolia</taxon_name>
+    <taxon_hierarchy>genus Sherwoodia;species galacifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corolla lobes 16–25 mm; styles (10–)12–18 mm</statement>
+      <description type="morphology">Corolla lobes 16–25 mm; styles (10–)12–18 mm</description>
       <determination>1a.   Shortia galacifolia var. galacifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Corolla lobes 14–17 mm; styles 6–10(–12) mm</statement>
+      <description type="morphology">Corolla lobes 14–17 mm; styles 6–10(–12) mm</description>
       <determination>1b.   Shortia galacifolia var. brevistyla</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Calluna</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>(Linnaeus) Hull</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calluna</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Hull" date="unknown">vulgaris</taxon_name>
     <place_of_publication>
       <publication_title>Brit. Fl. ed.</publication_title>
       <place_in_publication>2, 114.  1808,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Erica</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Calluna;species vulgaris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erica</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vulgaris</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 352.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs 15–60(–100) cm.  Leaves widely spaced on leading shoots, closely spaced and imbricate on later shoots; blade oblong-lanceolate to ovate-lanceolate, 2.5–3.5 × 0.5–0.7 mm, base auriculate-clasping, surfaces glabrous, keeled abaxially, concave adaxially.  Pedicels: bracteoles 6–8 (4 distalmost simulating sepals).  Flowers: sepals exceeding corolla, pinkish purple to white, petaloid, 3–4 mm; corolla pinkish purple to white, lobes 2(–3) mm; filaments glabrous; anthers 1 mm.  Capsules 1–2 mm, hairy.  Seeds 0.5–0.7 × 0.2–0.3 mm.  2n = 16.</description>
-  <phenology>Flowering late spring–summer</phenology>
-  <habitat>Wet acidic sites in bogs and fens, upland sites in old pastures and roadsides</habitat>
-  <elevation>0–1500 m</elevation>
-  <introduced>introduced</introduced>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>w Asia.</global_distribution>
+    <taxon_hierarchy>genus Erica;species vulgaris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Calluna vulgaris is well known as a constituent of moorlands in northern and western Europe, especially northern England, Ireland, and Scotland.  The places where it is naturalized in North America are mostly coastal; inland it often is associated with railroads.</discussion>
-</treatment>
+</bio:treatment>

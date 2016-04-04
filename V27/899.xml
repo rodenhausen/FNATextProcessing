@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Aloina</genus_name>
-    <species_name>rigida</species_name>
-    <species_authority>(Hedwig) Limpricht</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aloina</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Limpricht" date="unknown">rigida</taxon_name>
     <place_of_publication>
       <publication_title>Laubm. Deutschl.</publication_title>
       <place_in_publication>1: 637.  1888,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Barbula</genus_name>
-    <species_name>rigida</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Aloina;species rigida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Barbula</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">rigida</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>115.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Barbula;species rigida;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

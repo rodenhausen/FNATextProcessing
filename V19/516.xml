@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>67.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>NOTHOCALAÏS</genus_name>
-    <genus_authority>(A. Gray) Greene</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Kenton L. Chambers</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="(A. Gray) Greene" date="unknown">NOTHOCALAÏS</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 54. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus NOTHOCALAÏS;</taxon_hierarchy>
-  <etymology>[Greek notho -, false, and Calaïs , a synonym of Microseris ]</etymology>
-  <common_name>False agoseris or dandelion</common_name>
-  <author>Kenton L. Chambers</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Microseris</genus_name>
-    <genus_authority>D. Don</genus_authority>
-    <section_name>Nothocalaïs</section_name>
-    <section_authority>A. Gray</section_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus NOTHOCALAÏS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek notho -, false, and Calaïs , a synonym of Microseris ]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="D. Don" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="section" authority="A. Gray" date="unknown">Nothocalaïs</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>1(2): 420. 1884</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials, 3–45 cm; taprooted, with caudices often multicipital (taproots thick, fleshy, with blackish periderm, lateral rootlets often borne in clusters on knoblike projections). Stems 1–5+, erect, scapiform, naked (rarely with 1–3 bracteate nodes near base in N. troximoides and N. nigrescens), glabrous or white-villous, especially near heads. Leaves basal; petiolate (bases attenuate or not); blades linear to oblanceolate, margins usually entire (often pinnately lobed in N. alpestris), sometimes undulate (usually white-ciliolate in N. cuspidata and N. troximoides; faces glabrous or lightly villous). Heads borne singly (erect, liguliferous). Peduncles not inflated distally, not bracteate. Calyculi 0. Involucres broadly to narrowly ovoid, campanulate at flowering, 5–20 mm diam. Phyllaries 8–50 in 2–5 series, (often longitudinally striped or finely dotted with red or purple) lanceolate to ovate, equal or unequal (outer shorter), herbaceous (thin), midnerves inconspicuous, apices acute to acuminate, faces glabrous or white-villous. Receptacles flat, pitted, glabrous, epaleate. Florets 13–100; corollas yellow, often reddish abaxially (much surpassing phyllaries in flowering, tubes hairy). Cypselae brown or gray, narrowly columnar to fusiform, usually narrowed distally, not beaked, ribs ca. 10, glabrous or distally scabrous; pappi fragile, of 10–80, distinct, lustrous, white, ± equal, smooth to barbellulate bristles or aristate scales. x = 9.</description>
-  <number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>c</global_distribution>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Microseris;section Nothocalaïs;</taxon_hierarchy>
+  </taxon_identification>
+  <number>67.</number>
+  <other_name type="common_name">False agoseris or dandelion</other_name>
+  <discussion>Species 4 (4 in the flora):</discussion>
   <discussion>Because pappi of Nothocalaïs taxa vary from capillary bristles to aristate scales, the species were earlier assigned to either Agoseris or Microseris. The totality of morphologic evidence supports the unity of the genus, as well as its segregation from Agoseris and Microseris (K. L. Chambers 1955, 1957). According to recent phylogenetic studies based on chloroplast DNA (R. K. Jansen et al. 1991b; J. Whitton et al. 1995), Nothocalaïs is most closely related to Uropappus and Agoseris, the three genera together comprising a clade sister to Microseris.</discussion>
   <references>
     <reference>Chambers, K. L. 1955. A biosystematic study of the annual species of Microseris. Contr. Dudley Herb. 4: 207–312.</reference>
@@ -34,34 +36,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappi of 30–50 barbellulate bristles; leaf margins usually coarsely toothed or pinnately lobed, sometimes entire; phyllaries glabrous, evenly and minutely purple-dotted; subalpine, Cascade Range, Klamath Mountains, and (rarely) Sierra Nevada</statement>
+      <description type="morphology">Pappi of 30–50 barbellulate bristles; leaf margins usually coarsely toothed or pinnately lobed, sometimes entire; phyllaries glabrous, evenly and minutely purple-dotted; subalpine, Cascade Range, Klamath Mountains, and (rarely) Sierra Nevada</description>
       <determination>1. Nothocalaïs alpestris</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Pappi of 10–30 aristate scales or of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; leaf margins entire, sometimes undulate; phyllaries glabrous or villous, sometimes purple-dotted; Great Plains, n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</statement>
+      <description type="morphology">Pappi of 10–30 aristate scales or of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; leaf margins entire, sometimes undulate; phyllaries glabrous or villous, sometimes purple-dotted; Great Plains, n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappi of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; Great Plains</statement>
+      <description type="morphology">Pappi of 40–80 intergradent, smooth to barbellulate bristles and ± subulate to setiform scales; Great Plains</description>
       <determination>2. Nothocalaïs cuspidata</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Pappi of 10–30 aristate scales; n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</statement>
+      <description type="morphology">Pappi of 10–30 aristate scales; n, mid Rocky Mountains, Columbia-Snake Rivers Plateau, n Great Basin.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves lanceolate to oblanceolate, margins plane, apices acute; phyllaries broadly lanceolate to ovate, apices acute to acuminate, faces usually glabrous, minutely purple-dotted; n, mid Rocky Mountains</statement>
+      <description type="morphology">Leaves lanceolate to oblanceolate, margins plane, apices acute; phyllaries broadly lanceolate to ovate, apices acute to acuminate, faces usually glabrous, minutely purple-dotted; n, mid Rocky Mountains</description>
       <determination>3. Nothocalaïs nigrescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves mostly linear to linear-lanceolate, margins often undulate, apices acuminate ; phyllaries lanceolate, apices acuminate, faces glabrous or villous especially on midnerves, margins often ciliolate, green or with purple-lined midnerves, sometimes also minutely purple- dotted ; n Great Basin, Columbia-Snake Rivers Plateau</statement>
+      <description type="morphology">Leaves mostly linear to linear-lanceolate, margins often undulate, apices acuminate ; phyllaries lanceolate, apices acuminate, faces glabrous or villous especially on midnerves, margins often ciliolate, green or with purple-lined midnerves, sometimes also minutely purple- dotted ; n Great Basin, Columbia-Snake Rivers Plateau</description>
       <determination>4. Nothocalaïs troximoides</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

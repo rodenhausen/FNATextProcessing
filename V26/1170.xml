@@ -1,86 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Piperia</genus_name>
-        <species_name>elegans</species_name>
-        <species_authority>(Lindley) Rydberg</species_authority>
-        <subspecies_name>elegans</subspecies_name>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>elegans</species_name>
-        <species_authority>(Lindley) Bolander</species_authority>
-        <variety_name>maritima</variety_name>
-        <variety_authority>(Greene) Ames</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>elegans</species_name>
-        <variety_name>multiflora</variety_name>
-        <variety_authority>(Rydberg) Peck</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>greenei</species_name>
-        <species_authority>Jepson</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>maritima</species_name>
-        <species_authority>Greene</species_authority>
-        <place_of_publication>
-            <place_in_publication>1892</place_in_publication>
-            <other_info>not Rafinesque 1833</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>unalascensis</species_name>
-        <species_authority>(Sprengel) S. Watson</species_authority>
-        <subspecies_name>maritima</subspecies_name>
-        <subspecies_authority>(Greene) Calder &amp; Roy L. Taylor</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Habenaria</genus_name>
-        <species_name>unalascensis</species_name>
-        <variety_name>maritima</variety_name>
-        <variety_authority>(Greene) Correll</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Piperia</genus_name>
-        <species_name>maritima</species_name>
-        <species_authority>Rydberg</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Piperia</genus_name>
-        <species_name>multiflora</species_name>
-        <species_authority>Rydberg</species_authority>
-    </TaxonIdentification>
-    <description>Plants 12–73(–100) cm. Flowers pleasantly scented or musky; petals and lip pale
-        green to white; spur 7–14 mm; viscidia oblong, 0.6–1 mm, usually more than 2 times as long
-        as wide.</description>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <habitat>conifer and mixed evergreen forests</habitat>
-    <habitat>coastal scrub</habitat>
-    <habitat>exposed coastal bluff</habitat>
-    <elevation>0–1700 m;</elevation>
-    <ca_distribution>B.C.</ca_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Idaho</us_distribution>
-    <us_distribution>Mont.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-    <discussion>Plants on exposed coastal bluffs are shorter and stouter than plants in sheltered or
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piperia</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Rydberg" date="unknown">elegans</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Calder &amp; Roy L. Taylor" date="unknown">elegans</taxon_name>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Piperia;species elegans;subspecies elegans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Bolander" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Ames" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Habenaria;species elegans;variety maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) Peck" date="unknown">multiflora</taxon_name>
+    <taxon_hierarchy>genus Habenaria;species elegans;variety multiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">greenei</taxon_name>
+    <taxon_hierarchy>genus Habenaria;species greenei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="(Sprengel) S. Watson" date="unknown">maritima</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1892</place_in_publication>
+      <other_info_on_pub>not Rafinesque 1833</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Habenaria;species maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">unalascensis</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Habenaria;species unalascensis;subspecies maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Habenaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">unalascensis</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Correll" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Habenaria;species unalascensis;variety maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piperia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">maritima</taxon_name>
+    <taxon_hierarchy>genus Piperia;species maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piperia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">multiflora</taxon_name>
+    <taxon_hierarchy>genus Piperia;species multiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2a.</number>
+  <discussion>Plants on exposed coastal bluffs are shorter and stouter than plants in sheltered or
         inland localities. Plants in warmer interior locations flower earlier than those on the
         coast and have fewer stem bracts. The flowers are pollinated by noctuid moths (J. D.
         Ackerman 1977).</discussion>
-    <discussion>A population in San Francisco, California, is also unusual by having basally
+  <discussion>A population in San Francisco, California, is also unusual by having basally
         attenuate stems and by flowering very late (Sep–Oct).</discussion>
-</treatment>
+</bio:treatment>

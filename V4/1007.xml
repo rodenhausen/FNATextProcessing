@@ -1,66 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Phemeranthus</genus_name>
-        <species_name>teretifolius</species_name>
-        <species_authority>(Pursh) Rafinesque</species_authority>
-        <place_of_publication>
-            <publication_title>Specchio Sci.</publication_title>
-            <place_in_publication>1: 86. 1814</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Rock-portulaca</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Talinum</genus_name>
-        <species_name>teretifolium</species_name>
-        <species_authority>Pursh</species_authority>
-        <place_of_publication>
-            <publication_title>Fl. Amer. Sept. </publication_title>
-            <place_in_publication>2: 365. 1814</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Claytonia</genus_name>
-        <species_name>teretifolia</species_name>
-        <species_authority>(Pursh) Kuntze</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Talinum</genus_name>
-        <species_name>ciliatum</species_name>
-        <species_authority>Lindley</species_authority>
-    </TaxonIdentification>
-    <description>Plants to 5 dm; roots elongate, fleshy. Stems ± erect, simple or sometimes
-        branching. Leaves sessile; blade terete, to 6 cm. Inflorescences cymose, over-topping
-        leaves; peduncle scapelike, to 25 cm. Flowers: sepals deciduous, elliptic to ovate, 3–4 mm;
-        petals rose-purple, obovate, 5–7 mm; stamens 12–20; stigma 1, subcapitate or sometimes
-        indistinctly 3-lobed. Capsules subglobose, 4–5 mm. Seeds without arcuate ridges, 0.8–1 mm.
-        2n = 48.</description>
-    <phenology>apr</phenology>
-    <phenology>spring</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <habitat>thin, rocky or sandy soil</habitat>
-    <habitat>usually on or near edges of sandstone</habitat>
-    <habitat>granitic, and serpentine outcrops</habitat>
-    <elevation>200–1000 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Phemeranthus teretifolius is an allopolyploid derived from P. parviflorus and P.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phemeranthus</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Rafinesque" date="unknown">teretifolius</taxon_name>
+    <place_of_publication>
+      <publication_title>Specchio Sci.</publication_title>
+      <place_in_publication>1: 86. 1814</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Phemeranthus;species teretifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">teretifolium</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Amer. Sept.</publication_title>
+      <place_in_publication>2: 365. 1814</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Talinum;species teretifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Kuntze" date="unknown">teretifolia</taxon_name>
+    <taxon_hierarchy>genus Claytonia;species teretifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Talinum</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">ciliatum</taxon_name>
+    <taxon_hierarchy>genus Talinum;species ciliatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Rock-portulaca</other_name>
+  <discussion>Phemeranthus teretifolius is an allopolyploid derived from P. parviflorus and P.
         mengesii, both of which it evidently outcompetes within its southern Appalachian range (M.
         E. B. Carter and W. H. Murdy 1985; W. H. Murdy and M. E. B. Carter 1985, 2001).</discussion>
-</treatment>
+</bio:treatment>

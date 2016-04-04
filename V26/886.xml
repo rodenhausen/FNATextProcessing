@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>12.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Yucca</genus_name><species_name>rupicola</species_name><species_authority>Scheele</species_authority><place_of_publication>
-    <publication_title>Linnaea</publication_title>
-    <place_in_publication>23: 143. 1850</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Twisted-leaf yucca</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Yucca</genus_name><species_name>rupicola</species_name><variety_name>tortifolia</variety_name><variety_authority>Engelmann</variety_authority></TaxonIdentification><description>Plants usually forming open colonies of rosettes, acaulescent, with branching subterranean caudices; rosettes 2–15 per colony, each rosette with fewer than 100 leaves. Leaf blade lanceolate, twisted, strongly concave, widest at middle, distinctly narrowing toward base, broadened at stem attachments, 35–60 × 1.7–4 cm, somewhat fleshy, flexible, margins denticulate or wavy, dark orange or reddish brown, apex pointed. Inflorescences paniculate, arising beyond rosettes, narrowly ovoid, 2.5–10 dm; branches 0.7–2 dm; bracts erect; peduncle scapelike, 0.3–1.5 m, 1.5–2 cm diam. Flowers pendent; perianth campanulate; tepals distinct, white or greenish white, ovate, 4–7 × 1.5–3 cm, apex sharply acuminate; filaments 1.8–3.2 cm; pistil 2.5–4.5 cm; style white or greenish, 12–20 mm; stigmas lobed. Fruits erect, capsular, dehiscent, ellipsoid to cylindric, 4–5.5 × 2–3 cm, dehiscence septicidal. Seeds dull black, thin, 6–8 mm diam.</description><phenology>late spring</phenology><habitat>rocky hillsides of limestone ledges</habitat><habitat>open plains</habitat><habitat>woodlands</habitat><elevation>400–900 m;</elevation><us_distribution>Tex.</us_distribution><discussion>Yucca rupicola is endemic to southeastern Edwards Plateau. It is the only species in the flora with flaccid, twisted leaves.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="Scheele" date="unknown">rupicola</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>23: 143. 1850</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Yucca;species rupicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Yucca</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rupicola</taxon_name>
+    <taxon_name rank="variety" authority="Engelmann" date="unknown">tortifolia</taxon_name>
+    <taxon_hierarchy>genus Yucca;species rupicola;variety tortifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+  <other_name type="common_name">Twisted-leaf yucca</other_name>
+  <discussion>Yucca rupicola is endemic to southeastern Edwards Plateau. It is the only species in the flora with flaccid, twisted leaves.</discussion>
+</bio:treatment>

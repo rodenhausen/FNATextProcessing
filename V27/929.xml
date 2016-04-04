@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microbryum</genus_name>
-    <species_name>vlassovii</species_name>
-    <species_authority>(Lazarenko) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microbryum</taxon_name>
+    <taxon_name rank="species" authority="(Lazarenko) R. H. Zander" date="unknown">vlassovii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 240.  1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Phascum</genus_name>
-    <species_name>vlassovii</species_name>
-    <species_authority>Lazarenko</species_authority>
+    <taxon_hierarchy>genus Microbryum;species vlassovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="species" authority="Lazarenko" date="unknown">vlassovii</taxon_name>
     <place_of_publication>
       <publication_title>Zhurn Inst. Bot. Vseukraïns’k. Akad. Nauk</publication_title>
       <place_in_publication>26/27: 196.  1938</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Distal laminal cells strongly bulging superficially in medial portion of leaf, adaxial surface of costa strongly mammillose, beset with “bottle-shaped” cells.  Seta short, nearly absent.  Capsule nearly spherical apiculate, cleistocarpous.  Spores papillose, ca. 18–24 µm.</description>
-  <elevation>Substrate and elevational range unknown;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Phascum;species vlassovii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Sporophytes were immature in the area of the flora.  Microbryum vlassovii was reported from British Columbia by T. T. McIntosh (1989) and Spain by M. N. Jiménez et al. (1990), otherwise known from Armenia, central Asia and the Ukraine.  The long, smooth cell making up the end of the mucro is reminiscent of that of Chenia.  The rhizoids bear distinctive unicellular hemispherical excrescences that may serve as tubers.  Tortula acaulon may have ampullose adaxial costal cells (T. L. Blockeel 1995), but is yellow in KOH.</discussion>
-</treatment>
+</bio:treatment>

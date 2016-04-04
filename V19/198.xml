@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CRUPINA</genus_name>
-    <genus_authority>(Persoon) de Candolle</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="(Persoon) de Candolle" date="unknown">CRUPINA</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Mus. Natl. Hist. Nat.</publication_title>
       <place_in_publication>16: 157. 1810</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CRUPINA;</taxon_hierarchy>
-  <etymology>[Pre-Linnaean generic name of unknown derivation]</etymology>
-  <author>David J. Keil</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Centaurea</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Crupina</subgenus_name>
-    <subgenus_authority>Persoon</subgenus_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus CRUPINA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Pre-Linnaean generic name of unknown derivation]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="subgenus" authority="Persoon" date="unknown">Crupina</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Pl.</publication_title>
       <place_in_publication>2: 488. 1807</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals, 20–100 cm, not spiny. Stems erect, openly branched distally. Leaves basal and cauline (distally reduced to bracts); sessile (basal) or petiolate (cauline); blade margins entire or toothed to pinnately divided (basal) or 1–2-pinnately divided (cauline). Heads radiant, borne singly or clustered at branch tips. Involucres cylindric to ovoid. Phyllaries overlapping in 4–6 series, unequal, oblong-lanceolate, acute, unappendaged. Receptacles flat, epaleate, bearing subulate scales. Florets 3–15, outer 2–14 neuter, inner 1–2 fertile; corollas purple, ± bilateral, tubes slender, gradually expanded into narrowly funnelform throats, lobes linear; anther bases short-tailed, apical appendages narrowly triangular; style branches: fused portions with minutely puberulent nodes, distinct portions very short, triangular. Cypselae cylindric [or ± compressed], bases puberulent, faces smooth, not ribbed, distally softly pubescent, attachment scars basal [or lateral]; pappi persistent, present only on fertile florets, outer 1–2 series of numerous stiff, minutely barbed bristles, inner of 5–10 short lacerate-dentate scales. x = 28, 30.</description>
-  <number_of_infrataxa>Species 3–4 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
+    <taxon_hierarchy>genus Centaurea;subgenus Crupina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
+  <discussion>Species 3–4 (1 in the flora):</discussion>
   <discussion>Crupina is a member of subtribe Centaureinae. Molecular phylogenetic studies (A. Susanna et al. 1995; N. Garcia-Jacas et al. 2001) place Crupina in a basal grade of genera related to Centaurea. Crupina differs from Centaurea by having scaly (rather than bristly) receptacles, and in its cypselar structure (J. Briquet 1930), trichome types (J. Briquet 1930b), unique pollen morphology (G. Wagenitz 1955), and high chromosome base number.</discussion>
   <references>
     <reference>Briquet, J. 1930. Carpologie du genre Crupina. Candollea 4: 241–278.</reference>
     <reference>Briquet, J. 1930b. Les émergences et trichomes de Crupina. Candollea 4: 191–201.</reference>
   </references>
-</treatment>
-
+</bio:treatment>

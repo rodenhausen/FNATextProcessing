@@ -1,69 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>reticulata</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">reticulata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 1018. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Net-leaf willow</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>reticulata</species_name>
-    <variety_name>gigantifolia</variety_name>
-    <variety_authority>C. R. Ball</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>reticulata</species_name>
-    <subspecies_name>glabellicarpa</subspecies_name>
-    <subspecies_authority>Argus</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>reticulata</species_name>
-    <variety_name>semicalva</variety_name>
-    <variety_authority>Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 0.03–0.15 m, (dwarf, forming clones by layering). Stems trailing; branches and branchlets yellow-brown or red-brown, glabrous. Leaves: stipules absent or rudimentary; petiole 3–46 mm, (sometimes glandular distally); largest medial blade amphistomatous or hemiamphistomatous, (2 pairs of secondary veins arising at or close to base, arcing toward apex), oblong, broadly oblong, broadly elliptic, subcircular, or circular, (8–)12–66 × 8–50 mm, 1–1.5 times as long as wide, base convex, rounded, subcordate, or cordate, margins slightly revolute, entire or crenulate (glandular-dotted), apex rounded, convex, or retuse, abaxial surface sparsely long-silky to glabrescent, adaxial (venation deeply impressed), slightly or highly glossy, glabrous or pilose; proximal blade margins entire; juvenile blade glabrous. Catkins: staminate 11–54 × 4–9 mm, flowering branchlet 2–28 mm; pistillate densely flowered (more than 6 flowers), slender or stout, 11–79 × 3–8 mm, flowering branchlet 2–37 mm; floral bract tawny, 0.8–1.8 mm, apex rounded to retuse, entire, abaxially glabrous. Staminate flowers: abaxial nectary 0.5–0.9 mm, adaxial nectary oblong or ovate, 0.5–1 mm, nectaries connate and cup-shaped; filaments distinct, hairy on proximal 1/2 or throughout; anthers ellipsoid or globose, 0.3–0.4 mm. Pistillate flowers: abaxial nectary (0–)0.3–0.5 mm, adaxial nectary narrowly oblong, 0.5–1 mm, equal to or longer than stipe, nectaries distinct or connate and cup-shaped; stipe 0–0.8 mm; ovary pyriform or ovoid, short-silky, hairs flattened, beak abruptly tapering to styles; ovules 8–18 per ovary; styles connate to distinct 1/2 their lengths, 0.2–0.3 mm; stigmas flat, abaxially non-papillate with rounded tip, broadly cylindrical, or 2 plump lobes, 0.2–0.26–0.36 mm. Capsules 4.5–5 mm. 2n = 38.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>arctic-alpine</habitat>
-  <habitat>polygonal tundra</habitat>
-  <habitat>dry tussock tundra</habitat>
-  <habitat>partially stabilized sand dunes</habitat>
-  <habitat>sedge meadows</habitat>
-  <habitat>dryas tundra on alpine cliffs and ledges</habitat>
-  <habitat>snowbeds</habitat>
-  <habitat>stabilized talus slopes</habitat>
-  <habitat>white spruce woods</habitat>
-  <habitat>treed bogs</habitat>
-  <elevation>0–3500 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (Chukotka).</global_distribution>
-  <global_distribution>Asia (Russian Far East).</global_distribution>
-  <global_distribution>Asia (arctic).</global_distribution>
-  <global_distribution>Asia (e Siberia).</global_distribution>
-  <global_distribution>Asia (Spitzbergen).</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species reticulata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reticulata</taxon_name>
+    <taxon_name rank="variety" authority="C. R. Ball" date="unknown">gigantifolia</taxon_name>
+    <taxon_hierarchy>genus Salix;species reticulata;variety gigantifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reticulata</taxon_name>
+    <taxon_name rank="subspecies" authority="Argus" date="unknown">glabellicarpa</taxon_name>
+    <taxon_hierarchy>genus Salix;species reticulata;subspecies glabellicarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reticulata</taxon_name>
+    <taxon_name rank="variety" authority="Fernald" date="unknown">semicalva</taxon_name>
+    <taxon_hierarchy>genus Salix;species reticulata;variety semicalva;</taxon_hierarchy>
+  </taxon_identification>
+  <number>25.</number>
+  <other_name type="common_name">Net-leaf willow</other_name>
   <discussion>The reported occurrence of Salix reticulata in Colorado (R. D. Dorn 1997) needs further study.</discussion>
   <discussion>Salix reticulata occurs in Europe in northern Scotland, northern Scandinavia, the Alps and other European mountains, and arctic Eurasia. The species is circumpolar except for Greenland and Iceland.</discussion>
   <discussion>A population of Salix reticulata on the Queen Charlotte Islands, with consistently glabrous ovaries, was named subsp. glabellicarpa. Some southeastern Alaska populations have plants with glabrous, partially hairy, and completely short-silky ovaries growing together. The possibility that subsp. glabellicarpa may be a hybrid or a simple mutation needs study.</discussion>
-</treatment>
+</bio:treatment>

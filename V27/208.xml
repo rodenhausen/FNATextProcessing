@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>TIMMIA</genus_name>
-    <genus_authority>Hedwig</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Hedwig" date="unknown">TIMMIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>176.  1801  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Joachim Christian Timm,  1734–1805, botanist and Burgermeister of Malchin, Mecklenberg]</etymology>
-  <description>Plants (1–)2–9(–13) cm, in compact or loose tufts, brownish proximally, bright to yellowish green distally.  Leaves crisped to imbricate (and occasionally inrolled) when dry, erect-patent to spreading when moist, (1.5–)2–8(–12) mm, 0.5–1.2 mm wide at mid-limb; cells of the sheath lamina longer and narrower near the margins, shorter and broader near the limb-sheath transition, smooth on the adaxial surface, smooth or with a series of linearly-arranged, large round papillae on the abaxial surface of the lumens.  Sexual condition monoicous or dioicous; male gametophyte (in dioicous taxa) monopodial, with the stem continuing growth through terminal perigonia; paraphyses few, of 10–15(–40) cells, filiform, with fusiform tips; archegonia 1–6 per perichaetium, ca. 1–2 mm; antheridia 5–40 per perigonium, ca. 1–2 mm.  Capsule ca. 2.5–3 × 1–1.5 mm; exothecial cells with smooth or sinuose walls; peristome diplolepideous; exostome teeth 0.5–1 mm, yellow in proximal half, pale or hyaline distally; endostome hyaline or yellowish, with a high basal membrane about half the height of the exostome, and 64 irregularly anastomosing, nodose cilia papillose externally and smooth or appendiculate on the interior surface.  Spores round, finely papillose, pale yellow or brown, 13–22 µm.</description>
-  <number_of_infrataxa>Species 4 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Pacific Islands (Hawaii, New Zealand) in arctic</global_distribution>
-  <global_distribution>boreal</global_distribution>
-  <global_distribution>montane</global_distribution>
-  <global_distribution>and temperate areas.</global_distribution>
-  <references heading="SELECTED REFERENCES">
+    <taxon_hierarchy>genus TIMMIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Joachim Christian Timm,  1734–1805, botanist and Burgermeister of Malchin, Mecklenberg]</other_info_on_name>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species 4 (4 in the flora):</discussion>
+  <references>
     <reference>Brassard, G. R.  1979.  The moss genus Timmia.  1.  Introduction, and revision of T. norvegica and allied taxa.  Lindbergia 5: 39–53.</reference>
     <reference>Brassard, G. R.  1980.  The moss genus Timmia.  2.  Sect. Timmiaurea.  Lindbergia 6: 129–136.</reference>
     <reference>Brassard, G. R.  1984.  The moss genus Timmia.  3.  Sect. Timmia.  Lindbergia 10: 33–40.</reference>
@@ -27,33 +25,33 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cells at leaf insertion not hyaline and fragile, leaves not readily breaking away from stem.</statement>
+      <description type="morphology">Cells at leaf insertion not hyaline and fragile, leaves not readily breaking away from stem.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf sheaths bright, clear orange (appearing red when still on the stem); cilia of endostome non-appendiculate; dioicous [Sect. Timmiaurea]</statement>
+      <description type="morphology">Leaf sheaths bright, clear orange (appearing red when still on the stem); cilia of endostome non-appendiculate; dioicous [Sect. Timmiaurea]</description>
       <determination>1.   Timmia austriaca</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf sheaths pale, uncoloured or yellowish; cilia of endostome appendiculate; monoicous</statement>
+      <description type="morphology">Leaf sheaths pale, uncoloured or yellowish; cilia of endostome appendiculate; monoicous</description>
       <determination>2.   Timmia megapolitana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cells at leaf insertion hyaline and fragile, leaves readily breaking away from stem [Sect. Norvegicae].</statement>
+      <description type="morphology">Cells at leaf insertion hyaline and fragile, leaves readily breaking away from stem [Sect. Norvegicae].</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Abaxial surface of mid-limb cells non-mamillose and non-papillose</statement>
+      <description type="morphology">Abaxial surface of mid-limb cells non-mamillose and non-papillose</description>
       <determination>3.   Timmia norvegica</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Abaxial surface of mid-limb cells mamillose and pluripapillose (as seen in cross section)</statement>
+      <description type="morphology">Abaxial surface of mid-limb cells mamillose and pluripapillose (as seen in cross section)</description>
       <determination>4.   Timmia sibirica</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

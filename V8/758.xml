@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Comarostaphylis</genus_name>
-    <species_name>diversifolia</species_name>
-    <species_authority>(Parry) Greene</species_authority>
-    <subspecies_name>planifolia</subspecies_name>
-    <subspecies_authority>(Jepson) G. D. Wallace</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Comarostaphylis</taxon_name>
+    <taxon_name rank="species" authority="(Parry) Greene" date="unknown">diversifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) G. D. Wallace" date="unknown">planifolia</taxon_name>
     <place_of_publication>
       <publication_title>Aliso</publication_title>
       <place_in_publication>9: 191.  1978,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Comarostaphylis</genus_name>
-    <species_name>diversifolia</species_name>
-    <variety_name>planifolia</variety_name>
-    <variety_authority>Jepson</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Comarostaphylis;species diversifolia;subspecies planifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Comarostaphylis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">diversifolia</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">planifolia</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Calif.</publication_title>
       <place_in_publication>3: 29.  1939</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades broadly elliptic to obovate or broadly ovate, 3–9 × 1–3.5 cm, margins usually plane.  Inflorescences 6–14 cm, gray-tomentose, without glandular hairs; floral bracts lanceolate-ovate to oblong-ovate, navicular, 3–10 mm.  Pedicels 5–20 mm.  Sepals eglandular.</description>
-  <phenology>Flowering (Jan–)Mar–Jul; fruiting (Apr–)May–Sep(–Oct)</phenology>
-  <habitat>Chaparral, oak woodlands, closed-cone pine forests with Arbutus menziesii, Arctostaphylos insularis, Ceanothus sp</habitat>
-  <elevation>0–600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Comarostaphylis;species diversifolia;variety planifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
   <discussion>Subspecies planifolia is the northernmost taxon in the genus, endemic to Los Angeles and Santa Barbara counties.  It is found on the Channel Islands of Santa Catalina, Santa Cruz, and Santa Rosa, and on the mainland in the coastal Santa Monica and Santa Ynez mountains.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,50 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SCOULERIA</genus_name>
-    <genus_authority>Hooker</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Hooker" date="unknown">SCOULERIA</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Misc.</publication_title>
       <place_in_publication>1: 33. 1829 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For John Scouler, 1804–1871, physician, botanical collector, and
-        naturalist]</etymology>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grimmia</genus_name>
-    <section_name>Scouleria</section_name>
-    <section_authority>(Hooker) Müller Hal.</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grimmia</genus_name>
-    <subgenus_name>Scouleria</subgenus_name>
-    <subgenus_authority>(Hooker) Lesquereux &amp; James</subgenus_authority>
-  </TaxonIdentification>
-  <description>Plants clustered in loose to compact tufts, black or brown with age. Stems ca. 4–10
-        cm, central strand absent; rhizoids forming a “hold-fast,” occasionally extending from stem
-        and abaxial surface of leaves. Leaves erect to patent when dry, when present pseudocosta
-        marginal [submarginal]; apex often cucullate. Outer perichaetial leaves one-third shorter
-        than inner leaves. Vaginula forming a sheath around proximal third or fourth of seta. Seta
-        1/3–1/2 capsule length. Capsule glossy black with age, columella when dry appearing
-        longitudinally ribbed, when wet expanding, becoming stoutly cylindrical or ovoid. Spores
-        30–55 µm.</description>
-  <number_of_infrataxa>Species 3 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>nw North America</global_distribution>
-  <global_distribution>temperate South America</global_distribution>
-  <global_distribution>n Asia.</global_distribution>
+    <taxon_hierarchy>genus SCOULERIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For John Scouler, 1804–1871, physician, botanical collector, and
+        naturalist]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grimmia</taxon_name>
+    <taxon_name rank="section" authority="(Hooker) Müller Hal." date="unknown">Scouleria</taxon_name>
+    <taxon_hierarchy>genus Grimmia;section Scouleria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grimmia</taxon_name>
+    <taxon_name rank="subgenus" authority="(Hooker) Lesquereux &amp; James" date="unknown">Scouleria</taxon_name>
+    <taxon_hierarchy>genus Grimmia;subgenus Scouleria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Species 3 (2 in the flora):</discussion>
   <discussion>Scouleria patagonica) is the only taxon found in South America.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margin 1-stratose or partially (rarely fully) 2-stratose; peristome
-                present</statement>
+      <description type="morphology">Leaf margin 1-stratose or partially (rarely fully) 2-stratose; peristome
+                present</description>
       <determination>1. Scouleria aquatica</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margin multistratose; peristome absent</statement>
+      <description type="morphology">Leaf margin multistratose; peristome absent</description>
       <determination>2. Scouleria marginata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

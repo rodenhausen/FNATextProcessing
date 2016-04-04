@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>aureum</species_name>
-    <species_authority>Pursh</species_authority>
-    <variety_name>gracillimum</variety_name>
-    <variety_authority>(Coville &amp; Britton) Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">aureum</taxon_name>
+    <taxon_name rank="variety" authority="(Coville &amp; Britton) Jepson" date="unknown">gracillimum</taxon_name>
     <place_of_publication>
       <publication_title>Man. Fl. Pl. Calif.,</publication_title>
       <place_in_publication>468.  1925,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>gracillimum</species_name>
-    <species_authority>Coville &amp; Britton</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species aureum;variety gracillimum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Coville &amp; Britton" date="unknown">gracillimum</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>22: 205.  1908</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaf blades 3-lobed, 2–2.5 cm wide.  Flowers: hypanthium 6–12 mm, 2–3 times as long as sepals; sepals 3–4 mm; petals yellow, turning deep red.</description>
-  <phenology>Flowering Feb–Apr</phenology>
-  <habitat>Alluvial areas, foothill woodlands, forest edges</habitat>
-  <elevation>100–1000 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Ribes;species gracillimum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
   <discussion>Variety gracillimum occurs in the Central Valley and Coast Ranges.</discussion>
-</treatment>
+</bio:treatment>

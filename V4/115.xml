@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allionia</genus_name><species_name>incarnata</species_name><species_authority>Linnaeus</species_authority><variety_name>incarnata</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allionia</genus_name><species_name>cristata</species_name><species_authority>(Standley) Standley</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allionia</genus_name><species_name>incarnata</species_name><species_authority>Linnaeus</species_authority><variety_name>nudata</variety_name><variety_authority>(Standley) Munz</variety_authority></TaxonIdentification><description>Inflorescences: peduncle 3–15(–30) mm, sparingly glandular-puberulent, sparsely to densely spreading-villous; flower cluster 5–10(–12) mm diam. in anthesis; abaxial perianth limb 3–8(–10) mm. Fruits 3–5 mm.</description><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>open arid areas</habitat><habitat>usually on sandy or gravelly soils</habitat><habitat>sometimes on gypsum</habitat><elevation>0–1600[–2500] m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Okla.</us_distribution><us_distribution>Tex.</us_distribution><us_distribution>Utah</us_distribution><global_distribution>Mexico</global_distribution><global_distribution>West Indies</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America.</global_distribution><discussion>The variety is extremely variable with regard to robustness, density of pubescence, and size of flowers. B. L. Turner (1994) noted that North American collections are indistinguishable taxonomically from South American collections.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allionia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">incarnata</taxon_name>
+    <taxon_name rank="variety" authority="(Standley) Munz" date="unknown">incarnata</taxon_name>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Allionia;species incarnata;variety incarnata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allionia</taxon_name>
+    <taxon_name rank="species" authority="(Standley) Standley" date="unknown">cristata</taxon_name>
+    <taxon_hierarchy>genus Allionia;species cristata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allionia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">incarnata</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">nudata</taxon_name>
+    <taxon_hierarchy>genus Allionia;species incarnata;variety nudata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
+  <discussion>The variety is extremely variable with regard to robustness, density of pubescence, and size of flowers. B. L. Turner (1994) noted that North American collections are indistinguishable taxonomically from South American collections.</discussion>
+</bio:treatment>

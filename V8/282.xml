@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>vespertina</species_name>
-    <species_authority>(Small) Fedde</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="(Small) Fedde" date="unknown">vespertina</taxon_name>
     <place_of_publication>
       <publication_title>Just’s Bot. Jahresber.</publication_title>
       <place_in_publication>33(1): 613.  1906,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Leptasea</genus_name>
-    <species_name>vespertina</species_name>
-    <species_authority>Small</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species vespertina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leptasea</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">vespertina</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>22: 153.  1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>bronchialis</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>vespertina</subspecies_name>
-    <subspecies_authority>(Small) Piper</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>bronchialis</species_name>
-    <variety_name>vespertina</variety_name>
-    <variety_authority>(Small) Rosendahl</variety_authority>
-  </TaxonIdentification>
-  <description>Plants forming loose mats, (stems trailing), not stoloniferous, rhizomatous.  Leaves cauline (crowded proximally); petiole absent; blade spatulate, unlobed or minutely 3-toothed or -lobed apically, 4–11 mm, leathery, margins entire, (not cartilaginous), stiffly ciliate, apex rounded or obtuse, mucronate, surfaces glabrous.  Inflorescences 3–6-flowered cymes, 2.5–12 cm, pink- to purple-tipped stipitate-glandular; bracts sessile.  Flowers: sepals erect, ovate to oblong, margins sparsely ciliate, surfaces glabrous; petals white to cream, yellow-spotted proximally, red- or orange-spotted distally, these often faded in dried specimens, elliptic, 4–6 mm, much longer than sepals; ovary superior.  2n = 26.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Rocky slopes, ledges, crevices</habitat>
-  <elevation>100–1800 m</elevation>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Leptasea;species vespertina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">bronchialis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Small) Piper" date="unknown">vespertina</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species bronchialis;subspecies vespertina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bronchialis</taxon_name>
+    <taxon_name rank="variety" authority="(Small) Rosendahl" date="unknown">vespertina</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species bronchialis;variety vespertina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12.</number>
+</bio:treatment>

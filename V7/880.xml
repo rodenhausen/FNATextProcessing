@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Braya</genus_name>
-    <species_name>longii</species_name>
-    <species_authority>Fernald</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Euclidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="Fernald" date="unknown">longii</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>28: 202. 1926</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Braya</genus_name>
-    <species_name>purpurascens</species_name>
-    <species_authority>(R. Brown) Bunge ex Ledebour</species_authority>
-    <variety_name>longii</variety_name>
-    <variety_authority>(Fernald) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <description>Plants scapose; sparsely pubescent, trichomes simple and 2-forked. Stems simple or few to several from base, erect, (unbranched), 0.3–1.1(–1.5) dm. Basal leaves: blade narrowly spatulate to oblanceolate, (0.5–)1–3(–5) cm × 1–3.5 mm, base (membranous), broadly expanded near point of attachment, margins entire, (sparsely ciliate proximally), apex obtuse. Cauline leaves: 0 or 1 (or a leaflike bract subtending proximalmost pedicel). Fruiting pedicels erect or ascending, (1.2–)1.5–4.5(–4.9) mm. Flowers: sepals 2–3(–3.5) × (1.1–)1.2–1.7 mm; petals white (or claw purplish), (3–)3.3–4.8(–5) × (1.2–)1.4–2.5(–3) mm, (claw and blade usually well-differentiated, apex rounded); filaments 1.7–2 mm; anthers oblong, 0.3–0.4 mm. Fruits lanceoloid-subulate, not torulose, (straight), (0.3–)0.4–0.8(–1) cm × (0.7–)1–1.5(–1.7) mm; valves glabrous or, sometimes, sparsely pubescent; septum margin broadly expanded basally (forming sacklike pouch around proximalmost seed in each locule); ovules 10–16 per ovary; style 0.5–1(–1.2) mm; stigma 2-lobed or entire. Seeds somewhat uniseriate, oblong, 1–1.4 × 0.5–0.9(–1) mm. 2n = 56.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>limestone barrens</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>0–60 m;</elevation>
-  <ca_distribution>Nfld. and Labr. (Nfld.).</ca_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Euclidieae;genus Braya;species longii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="(R. Brown) Bunge ex Ledebour" date="unknown">purpurascens</taxon_name>
+    <taxon_name rank="variety" authority="(Fernald) B. Boivin" date="unknown">longii</taxon_name>
+    <taxon_hierarchy>genus Braya;species purpurascens;variety longii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

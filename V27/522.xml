@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Campylopus</genus_name>
-    <species_name>fragilis</species_name>
-    <species_authority>(Bridel) Bruch &amp; Schimper</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) Bruch &amp; Schimper" date="unknown">fragilis</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>1: 164.  1847,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>fragile</species_name>
-    <species_authority>Bridel</species_authority>
+    <taxon_hierarchy>genus Campylopus;species fragilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Bridel" date="unknown">fragile</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. (Schrader)</publication_title>
       <place_in_publication>1800: 296.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 0.5–2 cm, yellowish green, in tufts, very densely foliate, often ending in a penicillate comal tuft, whitish tomentose.  Leaves 4–5 mm, ovate-lanceolate, widest below the middle and contracted at base, narrowed into a more or less long straight, concolorous subula; alar cells hardly developed; basal laminal cells thin-walled and hyaline, very distinctly differentiated from the distal thick-walled and quadrate laminal cells; costa filling 1/2–2/3 of leaf width, shortly excurrent, slightly serrate at tip, in transverse section showing very wide adaxial hyalocysts (easily recognizable in surface view of the costa), filling half of the width of the costa, and abaxial substereids, slightly abaxially ridged.  Specialized asexual reproduction by small, boomerang-shaped leaves produced in the axils of the distal leaves.  Sporophytes not known in North America.</description>
-  <habitat>Rocks, humus covered boulders and outcrops, also humic or peaty soil;</habitat>
-  <elevation>0–200 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>Asia (China, Japan)</global_distribution>
-  <global_distribution>c Africa</global_distribution>
-  <global_distribution>Asia (China, Japan) Atlantic Islands (Azores, Canary Islands, Madeira).</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species fragile;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
   <discussion>Campylopus fragilis has only been found in a few localities in British Columbia and a single locality in Arkansas.  It has been reported from southeastern North America based on the presence of boomerang-shaped brood leaves at the stem tips, however, these records belong to C. surinamensis with similar brood leaves.  Campylopus surinamensis differs by rectangular and nonquadrate distal laminal cells, a sharply toothed, denticulate, excurrent costa and small adaxial hyalocysts.  Brood leaves are produced especially “under stress” in unfavorable conditions, especially on small, depauperate plants.</discussion>
-</treatment>
+</bio:treatment>

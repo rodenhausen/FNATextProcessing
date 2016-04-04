@@ -1,100 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>cymosa</species_name>
-    <species_authority>(Lemaire) Britton &amp; Rose</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Lemaire) Britton &amp; Rose" date="unknown">cymosa</taxon_name>
     <place_of_publication>
       <publication_title>New N. Amer. Crassul.,</publication_title>
       <place_in_publication>21.  1903  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Canyon liveforever or dudleya</common_name>
-  <common_name>rock-lettuce</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Echeveria</genus_name>
-    <species_name>cymosa</species_name>
-    <species_authority>Lemaire</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species cymosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echeveria</taxon_name>
+    <taxon_name rank="species" authority="Lemaire" date="unknown">cymosa</taxon_name>
     <place_of_publication>
       <publication_title>Rev. Hort.</publication_title>
       <place_in_publication>7: 439.  1858</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Caudices mostly simple or sometimes branched apically and cespitose, 0.1–5 × (0.2–)1–3.5 cm, axillary branches absent.  Leaves persistent (withering in early summer in subsp. marcescens); rosettes 1–3, in clumps or not, 5–25-leaved, (3–)6–15(–35) cm diam.; blade green or gray-blue, usually oblanceolate or oblong-oblanceolate, rhombic-oblanceolate, oblong, elliptic, or ovate, to spatulate, sometimes oblong-triangular, 1.5–12(–17) × 0.5–4(–6) cm, 1–5 mm thick, base 0.5–3 cm wide, apex acute to acuminate or cuspidate or subobtuse, surfaces sometimes farinose, mostly glaucous.  Inflorescences: cyme 2–4-branched, mostly obpyramidal; branches not twisted (flowers on topside), simple or 1–3 times bifurcate, less often also with lateral branches; cincinni 1–2(–3+), 1–6(–20)-flowered, circinate, 1–5(–17) cm; floral shoots 4–30(–50) × 0.1–0.8 cm; leaves 5–25(–50), spreading to ascending, blade cordate-ovate to triangular-lanceolate, 4–20(–50) × 4–10(–15) mm, apex acute to acuminate.  Pedicels erect, not bent in fruit, usually 5–15 mm.  Flowers: calyx 3–6 × 3–6 mm; petals connate 1–2.5 mm, pale or bright yellow, mustard yellow, or red, 7–14 × 1.5–4.5 mm, apex mostly narrowly acute, tips often outcurved; pistils connivent, erect.  Unripe follicles erect.  2n = 34.</description>
-  <number_of_infrataxa>Subspecies 8 (8 in the flora):</number_of_infrataxa>
-  <us_distribution>California.</us_distribution>
+    <taxon_hierarchy>genus Echeveria;species cymosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Canyon liveforever or dudleya</other_name>
+  <other_name type="common_name">rock-lettuce</other_name>
+  <discussion>Subspecies 8 (8 in the flora):</discussion>
   <discussion>Dudleya cymosa, a widespread diploid, is the only species of the genus in most parts of inland central and northern California; it also extends into the mountains of southern California.  It forms clumps to 7 dm in diameter.  Early floras misapplied to it the name Echeveria laxa Lindley (or Cotyledon laxa).  It is clearly distinct from other species but is highly variable locally as well as from one area to another.  Although some narrowly endemic subspecies seem almost distinct, most subspecies are ill-defined and their circumscriptions arbitrary.  Much more study is needed.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Rosette leaves withering in summer, blade 1.5–3(–5) × 0.5–1.5 cm; caudices 0.2–0.7 cm diam.; cincinni 1–2</statement>
+      <description type="morphology">Rosette leaves withering in summer, blade 1.5–3(–5) × 0.5–1.5 cm; caudices 0.2–0.7 cm diam.; cincinni 1–2</description>
       <determination>8h.   Dudleya cymosa subsp. marcescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Rosette leaves persistent, blade 1.5–17 × 0.5–6 cm; caudices 0.5–3.5 cm diam.; cincinni 3+.</statement>
+      <description type="morphology">Rosette leaves persistent, blade 1.5–17 × 0.5–6 cm; caudices 0.5–3.5 cm diam.; cincinni 3+.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Floral shoots 20–50-leaved; rosette leaf blades elliptic to spatulate, 4–10(–15) × 2–5 cm</statement>
+      <description type="morphology">Floral shoots 20–50-leaved; rosette leaf blades elliptic to spatulate, 4–10(–15) × 2–5 cm</description>
       <determination>8e.   Dudleya cymosa subsp. crebrifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Floral shoots 5–20(–30)-leaved; rosette leaf blades ovate, elliptic, oblong, rhombic-oblanceolate or oblong-oblanceolate to oblanceolate or oblong-triangular or spatulate, 1.5–17 × 0.5–6 cm.</statement>
+      <description type="morphology">Floral shoots 5–20(–30)-leaved; rosette leaf blades ovate, elliptic, oblong, rhombic-oblanceolate or oblong-oblanceolate to oblanceolate or oblong-triangular or spatulate, 1.5–17 × 0.5–6 cm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals pale yellow; rosette leaf blades 0.5–2 cm wide</statement>
+      <description type="morphology">Petals pale yellow; rosette leaf blades 0.5–2 cm wide</description>
       <determination>8d.   Dudleya cymosa subsp. paniculata</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Petals bright yellow to red; rosette leaf blades 1–6 cm wide.</statement>
+      <description type="morphology">Petals bright yellow to red; rosette leaf blades 1–6 cm wide.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Rosettes 5–10(–25)-leaved, blade 2–10 × 1–2.5 cm, apex acute to acuminate; petals bright yellow, sometimes marked with red.</statement>
+      <description type="morphology">Rosettes 5–10(–25)-leaved, blade 2–10 × 1–2.5 cm, apex acute to acuminate; petals bright yellow, sometimes marked with red.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades green, often with maroon abaxially; caudices simple; floral shoots 4–15 cm</statement>
+      <description type="morphology">Leaf blades green, often with maroon abaxially; caudices simple; floral shoots 4–15 cm</description>
       <determination>8f.   Dudleya cymosa subsp. ovatifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades blue-gray on both surfaces; caudices simple or mostly cespitosely 1–5-branched; floral shoots 10–20 cm</statement>
+      <description type="morphology">Leaf blades blue-gray on both surfaces; caudices simple or mostly cespitosely 1–5-branched; floral shoots 10–20 cm</description>
       <determination>8g.   Dudleya cymosa subsp. agourensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Rosettes usually 10–25-leaved, blades 1.5–17 × 1–6 cm, apex often short-acuminate to cuspidate, sometimes acute; petals bright yellow to red.</statement>
+      <description type="morphology">Rosettes usually 10–25-leaved, blades 1.5–17 × 1–6 cm, apex often short-acuminate to cuspidate, sometimes acute; petals bright yellow to red.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Floral shoots 15–45 cm; cincinni 4–17 cm, 5–20-flowered; rosette leaf blades farinose, 4–17 cm; petals red</statement>
+      <description type="morphology">Floral shoots 15–45 cm; cincinni 4–17 cm, 5–20-flowered; rosette leaf blades farinose, 4–17 cm; petals red</description>
       <determination>8c.   Dudleya cymosa subsp. gigantea</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Floral shoots 5–30 cm; cincinni mostly 1–6 cm, 3–10-flowered; rosette leaf blades sometimes farinose, 1.5–12 cm; petals bright yellow to red.</statement>
+      <description type="morphology">Floral shoots 5–30 cm; cincinni mostly 1–6 cm, 3–10-flowered; rosette leaf blades sometimes farinose, 1.5–12 cm; petals bright yellow to red.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Rosette leaf blades 3–12 × 1–5.5 cm; floral shoots 5–30 cm</statement>
+      <description type="morphology">Rosette leaf blades 3–12 × 1–5.5 cm; floral shoots 5–30 cm</description>
       <determination>8a.   Dudleya cymosa subsp. cymosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Rosette leaf blades 1.5–5(–10) × 1–3(–6) cm; floral shoots 5–15</statement>
+      <description type="morphology">Rosette leaf blades 1.5–5(–10) × 1–3(–6) cm; floral shoots 5–15</description>
       <determination>8b.   Dudleya cymosa subsp. pumila</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

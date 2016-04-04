@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Pottiaceae</family_name>
-    <subfamily_name>Merceyoideae</subfamily_name>
-    <subfamily_authority>Brotherus</subfamily_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Timmiella</taxon_name>
+    <taxon_name rank="species" authority="(Hampe) L. F. Koch" date="unknown">crassinervis</taxon_name>
+    <taxon_name rank="family" authority="unknown" date="unknown">Pottiaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Brotherus" date="unknown">Merceyoideae</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler et al., Nat. Pflanzenfam. ed.</publication_title>
       <place_in_publication>2, 10: 246.  1924,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <subfamily_name>Merceyaceae</subfamily_name>
-    <subfamily_authority>Casares-Gil</subfamily_authority>
-  </TaxonIdentification>
-  <description>Plants proximally blackish green or weakly iridescent metallic tan or yellowish brown. Stem central strand, sclerodermis, and hyalodermis all absent. Leaves ligulate to oblanceolate, apex blunt to acute, margins plane, distal laminal cells usually 1-stratose, walls smooth, KOH yellow to yellowish orange; costa with a differentiated abaxial epidermis; gemmae clavate. Peristome absent.</description>
-  <number_of_infrataxa>Genus 1:</number_of_infrataxa>
-  <global_distribution>worldwide in temperate and tropical areas.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Timmiella;species crassinervis;family Pottiaceae;subfamily Merceyoideae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subfamily" authority="Casares-Gil" date="unknown">Merceyaceae</taxon_name>
+    <taxon_hierarchy>subfamily Merceyaceae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29b.</number>
+  <discussion>Genus 1:</discussion>
+</bio:treatment>

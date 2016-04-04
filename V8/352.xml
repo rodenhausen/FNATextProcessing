@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Moran" date="unknown">attenuata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rose) Moran" date="unknown">attenuata</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species attenuata;subspecies attenuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">attenuata</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">orcuttii</taxon_name>
+    <taxon_hierarchy>genus Dudleya;species attenuata;subspecies orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">orcuttii</taxon_name>
+    <taxon_hierarchy>genus Stylophyllum;species orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylophyllum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Stylophyllum;species parishii;</taxon_hierarchy>
+  </taxon_identification>
   <number>4a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>attenuata</species_name>
-    <species_authority>(S. Watson) Moran</species_authority>
-    <subspecies_name>attenuata</subspecies_name>
-  </TaxonIdentification>
-  <common_name>Orcutt’s dudleya</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dudleya</genus_name>
-    <species_name>attenuata</species_name>
-    <subspecies_name>orcuttii</subspecies_name>
-    <subspecies_authority>(Rose) Moran</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>orcuttii</species_name>
-    <species_authority>Rose</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stylophyllum</genus_name>
-    <species_name>parishii</species_name>
-    <species_authority>Britton</species_authority>
-  </TaxonIdentification>
-  <description>Caudices 0.5–2 dm × 0.3–1[–1.5] cm, clumps 1–4 dm diam.  Leaves without resinous odor; rosette (lax), 5–20-leaved, 2–5(–10) cm diam.; blade often purplish, linear to linear-oblanceolate and somewhat clavate, terete or flattened adaxially towards base, 2–10 × 0.2–0.5 cm, 2–5 mm thick, to 2 times wider than thick, base 5–15 mm wide, surfaces farinose, not viscid, not oily.  Inflorescences: cyme 1–3-branched, obpyramidal, (2–15(–20) × 1–10 dm); branches simple; cincinni 3–15-flowered, not circinate, 2–11 cm; floral shoots 0.5–2.5 dm × 1–3 mm; leaves 5–10, ascending, linear-lanceolate, (turgid), 5–3.5 × 0.2–0.5 cm.  Pedicels 0.5–3 mm.  Flowers: petals widespreading or somewhat ascending from near middle, connate 0.5–1 mm, white often flushed with rose, especially on keel, triangular-ovate, 6–10 × 1.5–3 mm, apex acute, corolla ca. 10 mm diam.; pistils erect, 4–7 mm; styles 1–2.5 mm.  Follicles ascending, with adaxial margins ca. 45–60º above horizontal.  2n = 34 [68, Mexico].</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Bluffs, flats, and rocky slopes near sea</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–10 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+  <other_name type="common_name">Orcutt’s dudleya</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies attenuata is abundant southward in Mexico but barely enters southwestern San Diego County on the coast, where it is now rare.  It is considered seriously threatened in California.  Dudleya attenuata subsp. orcuttii (Rose) Moran was thought to be distinct in having white or rose-tinged petals; subsequent field work showed that some populations include plants with yellow petals (R. V. Moran 2001).  Stylophyllum parishii was supposedly from Pala, 90 kilometers to the north of the southwestern San Diego County population of subsp. attenuata, and was based on cultivated plants that apparently were mislabeled (Moran 1943).</discussion>
   <discussion>In northwest Baja California subsp. attenuata hybridizes with Dudleya brittonii, D. edulis, D. formosa, and D. variegata; all the hybrids apparently are rare.</discussion>
-</treatment>
+</bio:treatment>

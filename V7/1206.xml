@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stanleya</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>Parry</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stanleya</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">tomentosa</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Naturalist</publication_title>
       <place_in_publication>8: 212. 1874</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>Stanley atomentosa</past_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stanleya</genus_name>
-    <species_name>runcinata</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stanleya</genus_name>
-    <species_name>tomentosa</species_name>
-    <variety_name>runcinata</variety_name>
-    <variety_authority>(Rydberg) Rollins</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; (caudex simple, covered with persistent petiolar remains); pubescent or glabrous. Stems erect, unbranched or branched distally, 5–15 dm, (tomentose throughout or glabrate distally). Basal leaves: petiole 0.3–1.2 cm; blade lanceolate to oblanceolate, 6.7–19(–23) cm × 20–50(–60) mm, margins runcinate, (surfaces densely tomentose). Cauline leaves petiolate; (proximalmost similar to basal), blade lanceolate, 2–4 cm × 5–10 mm (smaller distally), margins entire to hastate. Racemes dense, (considerably elongated in fruit). Fruiting pedicels horizontal to divaricate-ascending, 11–22 mm, (pilose or glabrous). Flowers: sepals linear, 10–16 mm, pubescent; petals pale lemon yellow, linear, 12–21 × 1–1.8 mm, claw 8–15 mm, (nearly linear), slightly wider at base, glabrous; filaments 12–22 mm, glabrous; anthers 4–5.5 mm; gynophore 10–20 mm, glabrous. Fruits suberect to ascending, straight, flattened, 4–7 cm × 1.2–2.2 mm; ovules 30–46 per ovary; style 0.02–0.3 mm. Seeds oblong, 1.8–2.6 × 1–1.5 mm.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>rocky limestone hillsides</habitat>
-  <habitat>knolls</habitat>
-  <habitat>steep grassy banks</habitat>
-  <habitat>sagebrush communities</habitat>
-  <habitat>stony clay slopes</habitat>
-  <elevation>1300–2300 m;</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Stanleya;species tomentosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stanleya</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">runcinata</taxon_name>
+    <taxon_hierarchy>genus Stanleya;species runcinata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stanleya</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) Rollins" date="unknown">runcinata</taxon_name>
+    <taxon_hierarchy>genus Stanleya;species tomentosa;variety runcinata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="past_name">Stanley atomentosa</other_name>
   <discussion>Stanleya tomentosa is known in Wyoming from Big Horn, Hot Springs, and Park counties. R. C. Rollins (1993) recognized two varieties and distinguished them primarily on the basis of having sparsely pilose (var. tomentosa) versus glabrous (var. runcinata) distalmost stems. The distinction is artificial and unwarranted.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2e2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Vetrix</subgenus_name>
-    <section_name>Cordatae</section_name>
-    <section_authority>Barratt ex Hooker</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Vetrix</taxon_name>
+    <taxon_name rank="section" authority="Barratt ex Hooker" date="unknown">Cordatae</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 149. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <subsection_name>Luteae</subsection_name>
-    <subsection_authority>Dorn</subsection_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 0.2–8 m. Buds alba-type and intermediate. Leaves: stipules on late
-        ones foliaceous; largest medial blade (rarely amphistomatous), 2–8 times as long as wide,
-        adaxial surface not glaucous. Staminate flowers: filaments glabrous or hairy basally.
-        Pistillate flowers: adaxial nectary shorter than stipe; stipe 0.6–4.2 mm; ovary glabrous;
-        stigmas with flat, non-papillate abaxial surface, or stigmas cylindrical, or plump, 0.1–0.4
-        mm.</description>
-  <number_of_infrataxa>Species 7 (7 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Vetrix;section Cordatae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subsection" authority="Dorn" date="unknown">Luteae</taxon_name>
+    <taxon_hierarchy>genus Salix;subsection Luteae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2e2.</number>
+  <discussion>Species 7 (7 in the flora):</discussion>
   <discussion>All of the species in sect. Cordatae, with the exception of Salix turnorii, were
         treated by R. D. Dorn (1995) as subspecies or varieties of S. eriocephala. These taxa have
         relatively distinct ranges and, although they hybridize where they come into contact, their
         integrity is not jeopardized. For those reasons, they are treated here as
         species.</discussion>
-</treatment>
+</bio:treatment>

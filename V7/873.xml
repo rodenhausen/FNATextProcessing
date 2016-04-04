@@ -1,65 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Braya</genus_name>
-    <species_name>glabella</species_name>
-    <species_authority>Richardson</species_authority>
-    <subspecies_name>purpurascens</subspecies_name>
-    <subspecies_authority>(R. Brown) W. J. Cody</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Euclidieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">glabella</taxon_name>
+    <taxon_name rank="subspecies" authority="(R. Brown) W. J. Cody" date="unknown">purpurascens</taxon_name>
     <place_of_publication>
       <publication_title>Canad. Field-Naturalist</publication_title>
       <place_in_publication>108: 93. 1964</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Platypetalum</genus_name>
-    <species_name>purpurascens</species_name>
-    <species_authority>R. Brown</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Euclidieae;genus Braya;species glabella;subspecies purpurascens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platypetalum</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">purpurascens</taxon_name>
     <place_of_publication>
       <publication_title>Chlor. Melvill.,</publication_title>
       <place_in_publication>9, 50. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Braya</genus_name>
-    <species_name>arctica</species_name>
-    <species_authority>Hooker</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Braya</genus_name>
-    <species_name>purpurascens</species_name>
-    <species_authority>(R. Brown) Bunge ex Ledebour</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Braya</genus_name>
-    <species_name>purpurascens</species_name>
-    <variety_name>dubia</variety_name>
-    <variety_authority>(R. Brown) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platypetalum</genus_name>
-    <species_name>dubium</species_name>
-    <species_authority>R. Brown</species_authority>
-  </TaxonIdentification>
-  <description>Stems ascending to erect, 0.3–1(–1.3) dm. Leaves: blade often fleshy, to 4 mm wide,
-        margins usually entire, rarely 1 or 2 weak teeth per side. Racemes not elongated in fruit
-        (often compact). Fruits oval-elliptic to oblong-elliptic, usually straight, 0.5–1 cm × 1.5–3
-        mm, 2.5–3.7 times as long as wide; style slender or stout, (0.3–)0.5–1.2 mm. 2n =
-        56.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>barren, usually calcareous soils and gravel on solifluction lobes</habitat>
-  <habitat>scree</habitat>
-  <habitat>gravel bars</habitat>
-  <habitat>disturbed sites</habitat>
-  <habitat>rocky slopes</habitat>
-  <habitat>seashores</habitat>
-  <elevation>0–1800 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>n Eurasia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Platypetalum;species purpurascens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">arctica</taxon_name>
+    <taxon_hierarchy>genus Braya;species arctica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="(R. Brown) Bunge ex Ledebour" date="unknown">purpurascens</taxon_name>
+    <taxon_hierarchy>genus Braya;species purpurascens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Braya</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">purpurascens</taxon_name>
+    <taxon_name rank="variety" authority="(R. Brown) O. E. Schulz" date="unknown">dubia</taxon_name>
+    <taxon_hierarchy>genus Braya;species purpurascens;variety dubia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platypetalum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">dubium</taxon_name>
+    <taxon_hierarchy>genus Platypetalum;species dubium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2c.</number>
+</bio:treatment>

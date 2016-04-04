@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>70.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>LOBULARIA</genus_name>
-    <genus_authority>Desvaux</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Liv Borgen</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz &amp; Warwick" date="unknown">Malcolmieae</taxon_name>
+    <taxon_name rank="genus" authority="Desvaux" date="unknown">LOBULARIA</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Agric.</publication_title>
       <place_in_publication>3: 162. 1815</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin lobulus , small lobe, alluding to small silicles]</etymology>
-  <conserved_name>name conserved</conserved_name>
-  <author>Liv Borgen</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Koniga</genus_name>
-    <genus_authority>R. Brown</genus_authority>
-  </TaxonIdentification>
-  <description>Plants not scapose; pubescent, trichomes appressed, unicellular, medifixed. Stems erect, procumbent, or decumbent [ascending], branched basally [and distally]. Leaves cauline; not rosulate; blade (base not auriculate), margins entire. Racemes (several-flowered, sometimes bracteate at base). Fruiting pedicels ascending [divaricate], slender. Flowers: sepals oblong [ovate]; petals obovate [spatulate or orbicular], claw differentiated from blade, (margins entire, apex often rounded); stamens slightly tetradynamous; filaments dilated basally; anthers ovate, (apex obtuse); nectar glands (8): 4 lateral (rudimentary), 4 median (cylindrical). Fruits sessile or shortly stipitate, elliptic-suborbicular [orbicular, obovate, elliptic], smooth, convex, latiseptate; valves (papery), each 1-veined, pubescent; replum rounded; septum complete; ovules 2–10 per ovary; stigma capitate. Seeds uniseriate or biseriate, strongly flattened, winged or not, lenticular or ovate [orbicular]; seed coat (reticulate), mucilaginous when wetted; cotyledons accumbent. x = 11, 12, 23.</description>
-  <number_of_infrataxa>Species 4 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>n Africa (Mediterranean region)</global_distribution>
-  <global_distribution>introduced also nearly worldwide.</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Malcolmieae;genus LOBULARIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin lobulus , small lobe, alluding to small silicles]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="R. Brown" date="unknown">Koniga</taxon_name>
+    <taxon_hierarchy>genus Koniga;</taxon_hierarchy>
+  </taxon_identification>
+  <number>70.</number>
+  <discussion>Species 4 (1 in the flora):</discussion>
   <references>
     <reference>Borgen, L. 1987. Lobularia (Cruciferae). A biosystematic study with special reference to the Macaronesian region. Opera Bot. 91: 1–96.</reference>
   </references>
-</treatment>
+</bio:treatment>

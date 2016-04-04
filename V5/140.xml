@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eremogone</genus_name><species_name>hookeri</species_name><species_authority>(Nuttall) W. A. Weber</species_authority><variety_name>pinetorum</variety_name><variety_authority>(A. Nelson) Dorn</variety_authority><place_of_publication>
-    <publication_title>Vasc. Pl. Wyoming ed.</publication_title>
-    <place_in_publication>3, 376. 2001</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Arenaria</genus_name><species_name>pinetorum</species_name><species_authority>A. Nelson</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>26: 350. 1899</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Arenaria</genus_name><species_name>hookeri</species_name><species_authority>Nuttall</species_authority><subspecies_name>pinetorum</subspecies_name><subspecies_authority>(A. Nelson) Maguire</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eremogone</genus_name><species_name>hookeri</species_name><subspecies_name>pinetorum</subspecies_name><subspecies_authority>(A. Nelson) W. A. Weber</subspecies_authority></TaxonIdentification><description>Basal leaf blades straight, 2–4 cm, rigid or flexible. Sepals (7–)8–10 mm. 2n = 44, 66.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>open pine and spruce woodlands</habitat><elevation>1300–2400 m;</elevation><us_distribution>Colo.</us_distribution><us_distribution>Nebr.</us_distribution><us_distribution>Okla.</us_distribution><us_distribution>S.Dak.</us_distribution><us_distribution>Wyo.</us_distribution><discussion>The two varieties recognized intergrade in some areas, but var. pinetorum is usually very distinctive and occurs in the eastern portion of the range of the species.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Fenzl" date="unknown">Alsinoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eremogone</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) W. A. Weber" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="variety" authority="(A. Nelson) Dorn" date="unknown">pinetorum</taxon_name>
+    <place_of_publication>
+      <publication_title>Vasc. Pl. Wyoming ed.</publication_title>
+      <place_in_publication>3, 376. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Alsinoideae;genus Eremogone;species hookeri;variety pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arenaria</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">pinetorum</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>26: 350. 1899</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Arenaria;species pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arenaria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Nelson) Maguire" date="unknown">pinetorum</taxon_name>
+    <taxon_hierarchy>genus Arenaria;species hookeri;subspecies pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eremogone</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Nelson) W. A. Weber" date="unknown">pinetorum</taxon_name>
+    <taxon_hierarchy>genus Eremogone;species hookeri;subspecies pinetorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9b.</number>
+  <discussion>The two varieties recognized intergrade in some areas, but var. pinetorum is usually very distinctive and occurs in the eastern portion of the range of the species.</discussion>
+</bio:treatment>

@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>43b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>eremophilus</species_name><species_authority>Richardson</species_authority><variety_name>kingii</variety_name><variety_authority>Greenman</variety_authority><place_of_publication>
-    <publication_title>Ann. Missouri Bot. Gard.</publication_title>
-    <place_in_publication>2: 598. 1915</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Senecio</genus_name><species_name>kingii</species_name><species_authority>Rydberg</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>37: 468. 1910,</place_in_publication><other_info>not Hookerf. 1846</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>ambrosioides</species_name><species_authority>Rydberg</species_authority></TaxonIdentification><description>Heads 20–60. Calyculi: bractlets conspicuous (lengths of at least some to 1/2 phyllaries). Involucres (5–)6–8 mm diam. Phyllaries 5–6 mm, tips black. Ray corolla laminae 5–8 mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>damp and drying habitats in conifer dominated areas</habitat><habitat>especially road cuts and other disturbed sites</habitat><elevation>2700–3700 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Utah</us_distribution><us_distribution>Wyo.</us_distribution><discussion>Variety kingii hybridizes with S. spartioides (R. I. Ediger 1970).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">eremophilus</taxon_name>
+    <taxon_name rank="variety" authority="Greenman" date="unknown">kingii</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>2: 598. 1915</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species eremophilus;variety kingii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">kingii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>37: 468. 1910,</place_in_publication>
+      <other_info_on_pub>not Hookerf. 1846</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Senecio;species kingii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">ambrosioides</taxon_name>
+    <taxon_hierarchy>genus Senecio;species ambrosioides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>43b.</number>
+  <discussion>Variety kingii hybridizes with S. spartioides (R. I. Ediger 1970).</discussion>
+</bio:treatment>

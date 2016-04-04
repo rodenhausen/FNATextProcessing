@@ -1,69 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Tipularia</genus_name>
-        <species_name>discolor</species_name>
-        <species_authority>(Pursh) Nuttall</species_authority>
-        <place_of_publication>
-            <publication_title>Gen. N. Amer. Pl.</publication_title>
-            <place_in_publication>2: 195. 1818</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Orchis</genus_name>
-        <species_name>discolor</species_name>
-        <species_authority>Pursh</species_authority>
-        <place_of_publication>
-            <publication_title>Fl. Amer. Sept. </publication_title>
-            <place_in_publication>2: 586. 1814</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Tipularia</genus_name>
-        <species_name>unifolia</species_name>
-        <species_authority>(Muhlenberg) Britton, Sterns &amp; Poggenberg</species_authority>
-    </TaxonIdentification>
-    <description>Plants 10–65 cm. Corms 7–30(–50) mm diam. Stems scapose, glabrous, basally
-        1–2-sheathed. Leaves persisting over winter; petioles 3–15 cm; blade purple abaxially, green
-        or greenish purple adaxially, ovate, 5–10.5 × 2.5–7 cm. Inflorescences 8–28 cm; floral
-        bracts 0.2 mm. Flowers green, pale greenish yellow, or greenish purple, (5–)10–55; sepals
-        distinct and free, oblong-elliptic to oblanceolate, 5–8 × 1.5–2.8 mm; petals linear-oblong
-        to oblong-elliptic to linear-oblanceolate, 4–7 × 1–1.8 mm; lip 5–8 × 2.5–3 mm, with 2
-        prominent basal lobes, spur 10–23 mm; column 2.5–4 mm. Capsules 9–12 × 4–5 mm.</description>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <habitat>in humus-rich soil of deciduous woodlands</habitat>
-    <habitat>frequently in sandy, acid oak-pine woods of Southeast, often in depressions under
-        sweet gum;</habitat> <elevation>0–1000 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Del.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ill.</us_distribution>
-    <us_distribution>Ind.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Md.</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.J.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Ohio</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Tipularia discolor is pollinated by noctuid moths, the pollinaria attaching to
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">EPIDENDREAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">PLEUROTHALLIDINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tipularia</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Nuttall" date="unknown">discolor</taxon_name>
+    <place_of_publication>
+      <publication_title>Gen. N. Amer. Pl.</publication_title>
+      <place_in_publication>2: 195. 1818</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe EPIDENDREAE;subtribe PLEUROTHALLIDINAE;genus Tipularia;species discolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Orchis</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">discolor</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Amer. Sept.</publication_title>
+      <place_in_publication>2: 586. 1814</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Orchis;species discolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tipularia</taxon_name>
+    <taxon_name rank="species" authority="(Muhlenberg) Britton, Sterns &amp; Poggenberg" date="unknown">unifolia</taxon_name>
+    <taxon_hierarchy>genus Tipularia;species unifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Tipularia discolor is pollinated by noctuid moths, the pollinaria attaching to
         either the left or right compound eye depending on whether the column of a particular flower
         is slightly twisted to the left or to the right (W. P. Stoutamire 1978).</discussion>
-</treatment>
+</bio:treatment>

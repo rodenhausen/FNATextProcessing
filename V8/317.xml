@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">laciniata</taxon_name>
     <place_of_publication>
       <publication_title>Pl. Hist. Succ., plate</publication_title>
       <place_in_publication>100.  1802  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Christmas tree kalanchoë</common_name>
-  <common_name>fir-tree kalanchoë</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Kalanchoë;species laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">laciniata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 430.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants glabrous, or pubescent distally.  Stems 6 dm.  Leaf blades ovate or obovate, 5–14 cm, margins entire, crenate-dentate, or lobed, apex obtuse.  Cymes lax, glabrous or pubescent, not glandular.  Pedicels ca. 3 cm.  Flowers fragrant; sepals spreading, linear, 10 mm; corolla yellow or yellowish orange, flask-shaped, tube 20 mm, lobes wide-spreading, 25 mm.  2n = 34, 68.</description>
-  <phenology>Flowering year-round</phenology>
-  <habitat>Hummocks, waste places, roadsides</habitat>
-  <elevation>0–50 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Cotyledon;species laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Christmas tree kalanchoë</other_name>
+  <other_name type="common_name">fir-tree kalanchoë</other_name>
+</bio:treatment>

@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="C. Wright ex A. Gray" date="unknown">carinatus</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">carinatus</taxon_name>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Streptanthus;species carinatus;subspecies carinatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Disaccanthus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">validus</taxon_name>
+    <taxon_hierarchy>genus Disaccanthus;species validus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Cory" date="unknown">validus</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species validus;</taxon_hierarchy>
+  </taxon_identification>
   <number>10a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>carinatus</species_name>
-    <species_authority>C. Wright ex A. Gray</species_authority>
-    <subspecies_name>carinatus</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Disaccanthus</genus_name>
-    <species_name>validus</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>validus</species_name>
-    <species_authority>(Greene) Cory</species_authority>
-  </TaxonIdentification>
-  <description>Basal and proximal cauline leaves: blade margins runcinate-pinnatifid. Flowers: sepals purple; petals purple with white margins. 2n = 28.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <habitat>cliff bases</habitat>
-  <habitat>talus</habitat>
-  <habitat>limestone</habitat>
-  <habitat>gravelly slopes</habitat>
-  <habitat>brushy areas</habitat>
-  <habitat>canyons and isolated in washes</habitat>
-  <elevation>700–1500 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-</treatment>
+</bio:treatment>

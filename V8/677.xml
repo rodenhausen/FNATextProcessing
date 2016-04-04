@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Styrax</genus_name>
-    <species_name>platanifolius</species_name>
-    <species_authority>Engelmann ex Torrey</species_authority>
-    <subspecies_name>texanus</subspecies_name>
-    <subspecies_authority>(Cory) P. W. Fritsch</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex Torrey" date="unknown">platanifolius</taxon_name>
+    <taxon_name rank="subspecies" authority="(Cory) P. W. Fritsch" date="unknown">texanus</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Missouri Bot. Gard.</publication_title>
       <place_in_publication>84: 744.  1998  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Texas snowbell</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>texanus</species_name>
-    <species_authority>Cory</species_authority>
+    <taxon_hierarchy>family STYRACACEAE;genus Styrax;species platanifolius;subspecies texanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Cory" date="unknown">texanus</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>7: 112.  1943 (as texana)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>platanifolius</species_name>
-    <variety_name>texanus</variety_name>
-    <variety_authority>(Cory) B. L. Turner</variety_authority>
-  </TaxonIdentification>
-  <description>Young twigs faintly glaucous, glabrous except for scattered, orange-brown or dark-brown, stalked, stellate hairs proximally.  Leaf blades: margins often weakly undulate, usually entire, rarely 3-lobed or coarsely toothed, abaxial surface with white stellate-tomentose pubescence in addition to scattered, orange-brown or dark-brown, stalked, stellate hairs on some leaves, surface completely covered and obscured by pubescence, adaxial surface glabrous.  Pedicels white stellate-tomentose.  Flowers: calyx thinly and evenly white stellate-tomentose, margins and teeth densely glandular, at least some teeth to 1 mm; style pubescent from proximal end to 15–35% of total length.</description>
-  <phenology>Flowering Apr–May; fruiting Jul–Sep</phenology>
-  <habitat>Limestone cliffs, ledges, or cobble, intermittent drainages</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>500–700 m</elevation>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Styrax;species texanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">platanifolius</taxon_name>
+    <taxon_name rank="variety" authority="(Cory) B. L. Turner" date="unknown">texanus</taxon_name>
+    <taxon_hierarchy>genus Styrax;species platanifolius;variety texanus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4c.</number>
+  <other_name type="common_name">Texas snowbell</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies texanus has the narrowest distribution of the five subspecies of Styrax platanifolius, with documented localities in Edwards, Real, and Val Verde counties, and one population reported in Del Rio County.  It is probably also the rarest of the subspecies, with fewer than 20 populations known.  Only four of those populations consist of more than 25 individuals (J. M. Poole, pers. comm.).  Although seed production and the germination rate of subsp. texanus are relatively high, grazing by both native and exotic herbivores has prevented regeneration within populations (P. A. Cox bis 1987; Poole, pers. comm.).</discussion>
   <discussion>Young plants of subsp. texanus often have sparsely pubescent leaves abaxially, the tomentum developing with age.</discussion>
   <discussion>Subspecies texanus is in the Center for Plant Conservation’s National Collection of Endangered Plants as Styrax texanus.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pentachaeta</genus_name><species_name>lyonii</species_name><species_authority>A. Gray</species_authority><place_of_publication>
-    <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
-    <place_in_publication>1(2): 445. 1884</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>lyoni</past_name><common_name>Lyon’s pentachaeta</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Chaetopappa</genus_name><species_name>lyonii</species_name><species_authority>(A. Gray) D. D. Keck</species_authority></TaxonIdentification><description>Plants 6–48 cm. Stems branched. Leaf blades linear to narrowly elliptic or oblanceolate, 20–50 × 3–6 mm. Involucres campanulate. Phyllaries in 2–3 series, narrowly lanceolate, sparsely hirsuto-pilose. Ray florets 17–42; corollas yellow, laminae 3–8 mm. Disc florets 21–91; corollas yellow, narrowly funnelform, not contracted at lobes, lobes 5. Pappi of 8–12 bristles, weakly dilated at bases. 2n = 18.</description><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><habitat>grassy coastal hills</habitat><conservation>of conservation concern;</conservation><elevation>20–700 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pentachaeta</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">lyonii</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 445. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Pentachaeta;species lyonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chaetopappa</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) D. D. Keck" date="unknown">lyonii</taxon_name>
+    <taxon_hierarchy>genus Chaetopappa;species lyonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="past_name">lyoni</other_name>
+  <other_name type="common_name">Lyon’s pentachaeta</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

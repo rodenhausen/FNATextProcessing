@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Harrisia</genus_name><species_name>aboriginum</species_name><species_authority>Small ex Britton &amp; Rose</species_authority><place_of_publication>
-    <publication_title>Cact.</publication_title>
-    <place_in_publication>2: 154. 1920</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Yellow prickly apple</common_name><common_name>aboriginal prickly apple</common_name><common_name>prickly applecactus</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Cereus</genus_name><species_name>aboriginum</species_name><species_authority>(Small ex Britton &amp; Rose)L ittle</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cereus</genus_name><species_name>gracilis</species_name><variety_name>aboriginus</variety_name><variety_authority>(Small ex Britton &amp; Rose) L. D. Benson</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Harrisia</genus_name><species_name>donae-antoniae</species_name><species_authority>Hooten</species_authority></TaxonIdentification><description>Stems erect to reclining, to 6 m; ribs 9–11. Spines 7–9 per areole, pink when young, becoming brown tipped, to 1 cm. Flowers: flower tube 10–15 cm, smooth or scarcely ridged; scales turgid, with axillary tufts of hairs; hairs tawny brown, stiff, 6–10 mm; buds with brown hairs. Fruits dull yellow at maturity, spheric, 65–75 mm diam.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>coastal hammocks</habitat><habitat>shell mounds</habitat><conservation>of conservation concern;</conservation><elevation>0 m;</elevation><us_distribution>Fla.</us_distribution><discussion>According to D. F. Austin (1984), Harrisia aboriginum and H. simpsonii are weakly separated, differing primarily in fruit color, which remains yellow in H. aboriginum while turns to red at maturity in H. simpsonii.</discussion><discussion>Harrisia aboriginum has been found on pre-Columbian, aboriginal shell mounds, hence the specific epithet.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Harrisia</taxon_name>
+    <taxon_name rank="species" authority="Small ex Britton &amp; Rose" date="unknown">aboriginum</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact.</publication_title>
+      <place_in_publication>2: 154. 1920</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Harrisia;species aboriginum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="(Small ex Britton &amp; Rose)L ittle" date="unknown">aboriginum</taxon_name>
+    <taxon_hierarchy>genus Cereus;species aboriginum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cereus</taxon_name>
+    <taxon_name rank="species" authority="Hooten" date="unknown">gracilis</taxon_name>
+    <taxon_name rank="variety" authority="(Small ex Britton &amp; Rose) L. D. Benson" date="unknown">aboriginus</taxon_name>
+    <taxon_hierarchy>genus Cereus;species gracilis;variety aboriginus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Harrisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">donae-antoniae</taxon_name>
+    <taxon_hierarchy>genus Harrisia;species donae-antoniae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Yellow prickly apple</other_name>
+  <other_name type="common_name">aboriginal prickly apple</other_name>
+  <other_name type="common_name">prickly applecactus</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>According to D. F. Austin (1984), Harrisia aboriginum and H. simpsonii are weakly separated, differing primarily in fruit color, which remains yellow in H. aboriginum while turns to red at maturity in H. simpsonii.</discussion>
+  <discussion>Harrisia aboriginum has been found on pre-Columbian, aboriginal shell mounds, hence the specific epithet.</discussion>
+</bio:treatment>

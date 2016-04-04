@@ -1,60 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>47.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>incana</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">incana</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 643. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>confusa</species_name>
-    <species_authority>Ehrhart</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>contorta</species_name>
-    <species_authority>Ehrhart</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>incana</species_name>
-    <subspecies_name>confusa</subspecies_name>
-    <subspecies_authority>(Ehrhart) E. Ekman</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>incana</species_name>
-    <variety_name>confusa</variety_name>
-    <variety_authority>(Ehrhart) Liljeblad</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>incana</species_name>
-    <variety_name>contorta</variety_name>
-    <variety_authority>(Ehrhart) Liljeblad</variety_authority>
-  </TaxonIdentification>
-  <description>Biennials; not scapose. Stems usually branched, rarely unbranched, (0.3–)0.6–3(–4) dm, densely pubescent proximally, trichomes simple, 0.4–1.3 mm, with fewer 2–4-rayed ones, to 0.3 mm, (distally with mostly branched trichomes, with fewer, simple ones). Basal leaves rosulate; petiolate; petiole base and margin ciliate, (trichomes simple, 0.2–0.7 mm); blade lanceolate or oblanceolate to spatulate, 0.5–2.9 cm × 1–5(–9) mm, margins dentate, surfaces pubescent, abaxially with stalked, cruciform, or 2- or 3-rayed trichomes, 0.1–0.4 mm, (rarely with a branched ray), adaxially with simple trichomes, 0.1–0.7 mm, and stalked, 2–4-rayed ones. Cauline leaves (15–)22–54(–76), (densely imbricate at least basally); sessile; blade ovate to oblong or lanceolate (base often densely bearded abaxially, trichomes simple, to 1.3 mm), margins dentate, surfaces pubescent as basal. Racemes (11–)17–36(–48)-flowered, bracteate basally, elongated or not in fruit; rachis not flexuous, pubescent as stems distally. Fruiting pedicels erect to ascending, (subappressed to rachis), straight, (1.5–)2.5–6(–13) mm, pubescent, trichomes 2–4-rayed and simple. Flowers: sepals ovate, 2–2.5 mm, pubescent, (trichomes simple and short-stalked, 2–4-rayed); petals white, spatulate, 3.5–4.5 × 1–2 mm; anthers ovate, 0.3–0.4 mm. Fruits oblong to linear-lanceolate or elliptic, slightly twisted or plane, flattened, 5–10(–12) × 1.5–2.5(–3) mm; valves glabrous or pubescent, trichomes simple and short-stalked, 2–4-rayed, 0.05–0.3 mm; ovules (24–)30–40 per ovary; style 0.01–0.25 mm. Seeds oblong, 0.7–1.1 × 0.5–0.6 mm. 2n = 32.</description>
-  <phenology>jul</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>rock outcrops</habitat>
-  <habitat>talus</habitat>
-  <habitat>gravelly shores</habitat>
-  <elevation>0–200 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>c Europe (Russia).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species incana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Ehrhart" date="unknown">confusa</taxon_name>
+    <taxon_hierarchy>genus Draba;species confusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Ehrhart" date="unknown">contorta</taxon_name>
+    <taxon_hierarchy>genus Draba;species contorta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">incana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Ehrhart) E. Ekman" date="unknown">confusa</taxon_name>
+    <taxon_hierarchy>genus Draba;species incana;subspecies confusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">incana</taxon_name>
+    <taxon_name rank="variety" authority="(Ehrhart) Liljeblad" date="unknown">confusa</taxon_name>
+    <taxon_hierarchy>genus Draba;species incana;variety confusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">incana</taxon_name>
+    <taxon_name rank="variety" authority="(Ehrhart) Liljeblad" date="unknown">contorta</taxon_name>
+    <taxon_hierarchy>genus Draba;species incana;variety contorta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>47.</number>
+</bio:treatment>

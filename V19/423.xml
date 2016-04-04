@@ -1,48 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>36.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hieracium</genus_name>
-    <species_name>nudicaule</species_name>
-    <species_authority>(A. Gray) A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">nudicaule</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>2: 149. 1906</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species nudicaule;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hieracium</genus_name>
-    <species_name>cynoglossoides</species_name>
-    <species_authority>Arvet-Touvet</species_authority>
-    <variety_name>nudicaule</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species nudicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="Arvet-Touvet" date="unknown">cynoglossoides</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">nudicaule</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>19: 68. 1883</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hieracium</genus_name>
-    <species_name>scouleri</species_name>
-    <species_authority>Hooker</species_authority>
-    <variety_name>nudicaule</variety_name>
-    <variety_authority>(A. Gray) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <description>Plants (15–)20–30(–50+) cm. Stems proximally usually glabrous, sometimes piloso-hirsute (hairs 1–7+ mm) and/or stellate-pubescent, distally usually glabrous, sometimes piloso-hirsute (hairs 1–7+ mm) and/or stellate-pubescent. Leaves: basal (3–)5–8, cauline 0–3(–5); blades lanceolate to lance-elliptic, 50–120 × 6–18(–30) mm, lengths (3–)5–8+ times widths, bases cuneate, margins usually entire, sometimes denticulate, apices acute, faces usually piloso-hirsute (hairs 2–7+ mm) and stellate-pubescent, sometimes glabrous or glabrate. Heads (2–)5–12+ in paniculiform to corymbiform or subumbelliform arrays. Peduncles ± stellate-pubescent, sometimes stipitate-glandular as well. Calyculi: bractlets 8–13+. Involucres ± campanulate, 8–10+ (× 4–6) mm. Phyllaries 8–13+, apices rounded to acute, abaxial faces piloso-hirsute (hairs 0.5–2+ mm), stellate-pubescent, and stipitate-glandular. Florets 20–40+; corollas yellow, 8–10+ mm. Cypselae (black) columnar, 2.5–3 mm; pappi of 40–60+, white or stramineous bristles in ± 2 series, 4–6 mm.</description>
-  <phenology_info>
-    <text>Flowering Jun–Aug(–Sep).</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>openings in chaparral , conifer forests ;</text>
-    <habitat>openings in chaparral , conifer forests</habitat>
-  </habitat_info>
-  <elevation>400–2300 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Hieracium;species cynoglossoides;variety nudicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">scouleri</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">nudicaule</taxon_name>
+    <taxon_hierarchy>genus Hieracium;species scouleri;variety nudicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <number>36.</number>
+</bio:treatment>

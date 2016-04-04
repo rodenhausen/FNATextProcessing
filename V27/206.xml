@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Diphyscium</genus_name>
-    <species_name>mucronifolium</species_name>
-    <species_authority>Mitten</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diphyscium</taxon_name>
+    <taxon_name rank="species" authority="Mitten" date="unknown">mucronifolium</taxon_name>
     <place_of_publication>
       <publication_title>in F. Dozy and J. H. Molkenboer, Bryol. Jav.</publication_title>
       <place_in_publication>1: 35, plate 26.  1855,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Diphyscium</genus_name>
-    <species_name>cumberlandianum</species_name>
-    <species_authority>Harvill</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Diphyscium</genus_name>
-    <species_name>involutum</species_name>
-    <species_authority>Mitten</species_authority>
-  </TaxonIdentification>
-  <description>Plants dark green to brownish, somewhat glossy, tightly affixed to substratum.  Stems 0.5–1 mm, erect, strongly radiculose.  Leaves 0.5–5 mm, and somewhat crisped when dry, apex acute, the most proximal leaves reduced, laminal cells smooth, margins entire.  Perichaetial leaves with smooth awn, 9–12 mm, lamina at awn base lacerate but not membranaceous.  Capsule narrowly ovoid, 2–3 mm, stomata absent, mature capsules sheathed in penicellate perichaetium, awns extending more than twice the length of the immersed capsule.  Spores 9–12 µm.</description>
-  <phenology>Sporophytes infrequent, capsules mature summer.</phenology>
-  <habitat>Always on somewhat shaded humid rock surfaces, especially sandstones, conglomerate, and schist;</habitat>
-  <elevation>moderate elevations (900–1000 m);</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va</us_distribution>
-  <global_distribution>Asia (China, India, Japan, Philippines, Sri Lanka).</global_distribution>
+    <taxon_hierarchy>genus Diphyscium;species mucronifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diphyscium</taxon_name>
+    <taxon_name rank="species" authority="Harvill" date="unknown">cumberlandianum</taxon_name>
+    <taxon_hierarchy>genus Diphyscium;species cumberlandianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Diphyscium</taxon_name>
+    <taxon_name rank="species" authority="Mitten" date="unknown">involutum</taxon_name>
+    <taxon_hierarchy>genus Diphyscium;species involutum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Diphyscium mucronifolium is an example of an east Asian disjunctive species, and is found only as local, small populations.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Harvill, A. M.  1950.  Diphyscium cumberlandianum, a pre-Pliocene relic with palaeotropical affinities.  Bryologist 53: 277–282.</reference>
   </references>
-</treatment>
+</bio:treatment>

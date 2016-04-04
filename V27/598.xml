@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kiaeria</genus_name>
-    <species_name>starkei</species_name>
-    <species_authority>(Weber &amp; D. Mohr) I. Hagen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kiaeria</taxon_name>
+    <taxon_name rank="species" authority="(Weber &amp; D. Mohr) I. Hagen" date="unknown">starkei</taxon_name>
     <place_of_publication>
       <publication_title>Kongel. Norske Vidensk. Selsk. Skr. (Trondheim)</publication_title>
       <place_in_publication>1914: 114.  1915,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>starkei</species_name>
-    <species_authority>Weber &amp; D. Mohr</species_authority>
+    <taxon_hierarchy>genus Kiaeria;species starkei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Weber &amp; D. Mohr" date="unknown">starkei</taxon_name>
     <place_of_publication>
       <publication_title>Neues Bot. Taschenb. Anfänger Wiss. Apothekerkunst</publication_title>
       <place_in_publication>1807: 189.  1807</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctoa</genus_name>
-    <species_name>starkei</species_name>
-    <species_authority>(Weber &amp; D. Mohr) Loeske</species_authority>
-  </TaxonIdentification>
-  <description>Plants in loose tufts, green to yellow, mostly shiny.  Stems 1–2(–4) cm.  Leaves mostly falcate-secund, curled at tips when dry, lanceolate, gradually subulate, 2–4.5 mm, margins distally 1-stratose; costa 50–60 µm wide at base; distal laminal cells mostly elongate (2–4:1), occasionally subquadrate, 7–9 µm wide, smooth or weakly mammillose-roughened; basal laminal cells elongate, smooth, sometimes porose, alar cells strongly inflated and differentiated from the bordering small quadrate cells.  Perichaetial leaves similar to the cauline.  Perigonia sessile, located just below perichaetia. Capsule distinctly ribbed when dry, urn 1.3–2 mm.  Spores 13–21 µm.</description>
-  <habitat>Acid rock or sandy soil in rock crevices;</habitat>
-  <elevation>subalpine to alpine elevations;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species starkei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctoa</taxon_name>
+    <taxon_name rank="species" authority="(Weber &amp; D. Mohr) Loeske" date="unknown">starkei</taxon_name>
+    <taxon_hierarchy>genus Arctoa;species starkei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Kiaeria starkei occurs frequently on vertical rock surfaces, and is distinguished by the sessile male inflorescence, which is located close to the perichaetia.  It can be separated in the field from the more terrestrial K. blyttii by its shiny, falcate leaves.  Subalpine forms of K. falcata are more commonly found on horizontal rock surfaces and do not have grooved sporangia.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Woolgrove, C. E. and S. J. Woodin.  1996.  Ecophysiology of a snow-bed bryophyte—Kiaeria starkei—during snowmelt and uptake of nitrate from meltwater.  Canad. J. Bot. 74: 1095–1103.</reference>
   </references>
-</treatment>
+</bio:treatment>

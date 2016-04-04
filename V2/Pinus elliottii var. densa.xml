@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>24b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pinus</genus_name><species_name>elliottii</species_name><variety_name>densa</variety_name><variety_authority>Little &amp; Dorman</variety_authority><place_of_publication><publication_title>J. Forest. (Washington)</publication_title><place_in_publication>50: 921, fig. 1, 2. 1952</place_in_publication></place_of_publication></TaxonIdentification><common_name>South Florida slash pine</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Pinus</genus_name><species_name>densa</species_name><species_authority>(Little &amp; Dorman) de Laubenfels &amp; Silba</species_authority></TaxonIdentification><description>Seedlings  with vertical growth interrupted by grass stage, stem then more thickened, fascicles much more numerous and crowded around bud, and other buds more approximate on stem.  Leaves  mostly in 2s, sometimes in 3s on same shoot, resin canals per leaf 3--9, hypodermis (2--)3--4(--5) cell-layers thick.  Seed-cone base  mostly rounded when open.</description><discussion>The name Pinus caribaea Morelet has been applied in error to P . elliottii var. densa . This variety is best distinguished by its wood, which is heavier and harder than that of typical slash pine, and by its having a grass stage comparable to that of P . palustris . This variety is not used for naval stores as is the type variety; neither is it commercially planted.</discussion><habitat>Flatwoods, mostly over limestone</habitat><elevation> 0--10m</elevation><us_distribution> Fla.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="(Little &amp; Dorman) de Laubenfels &amp; Silba" date="unknown">elliottii</taxon_name>
+    <taxon_name rank="variety" authority="Little &amp; Dorman" date="unknown">densa</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Forest. (Washington)</publication_title>
+      <place_in_publication>50: 921, fig. 1, 2. 1952</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pinus;species elliottii;variety densa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">densa</taxon_name>
+    <taxon_hierarchy>genus Pinus;species densa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24b</number>
+  <other_name type="common_name">South Florida slash pine</other_name>
+  <discussion>The name Pinus caribaea Morelet has been applied in error to P . elliottii var. densa . This variety is best distinguished by its wood, which is heavier and harder than that of typical slash pine, and by its having a grass stage comparable to that of P . palustris . This variety is not used for naval stores as is the type variety; neither is it commercially planted.</discussion>
+</bio:treatment>

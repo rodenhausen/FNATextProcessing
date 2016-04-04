@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctoa</genus_name>
-    <species_name>anderssonii</species_name>
-    <species_authority>Wichura</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctoa</taxon_name>
+    <taxon_name rank="species" authority="Wichura" date="unknown">anderssonii</taxon_name>
     <place_of_publication>
       <publication_title>Flora</publication_title>
       <place_in_publication>42: 432, plate 7, figs. 3–8.  1859,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctoa</genus_name>
-    <species_name>fulvella</species_name>
-    <variety_name>anderssonii</variety_name>
-    <variety_authority>(Wichura) Grout</variety_authority>
-  </TaxonIdentification>
-  <description>Plants small, in compact, yellow-brown or green tufts.  Stems (0.5–)1–2(–4) cm.  Leaves erect spreading or falcate-secund, lanceolate, subulate, 2–3 mm; costa 30–55 µm wide at base, long-excurrent, rough near tip; distal laminal cells mostly quadrate (2–5:1), incrassate; basal laminal cells elongate, alar cells differentiated.  Perichaetial leaves much larger than stem leaves.  Seta short, 1–3 mm.  Capsule immersed in perichaetial leaves, straight; peristome teeth spreading outward when dry.  Spores 16–27 µm.</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Siliceous rock;</habitat>
-  <elevation>high elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Arctoa;species anderssonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctoa</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fulvella</taxon_name>
+    <taxon_name rank="variety" authority="(Wichura) Grout" date="unknown">anderssonii</taxon_name>
+    <taxon_hierarchy>genus Arctoa;species fulvella;variety anderssonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>A rare high-arctic species, Arctoa anderssonii was once considered a variety of A. fulvella, but is distinguished by a short seta, large perichaetial leaves, and straight, immersed capsule.  It has a costa that is more shortly excurrent than that of A. fulvella but longer than that of A. hyperborea.</discussion>
-</treatment>
+</bio:treatment>

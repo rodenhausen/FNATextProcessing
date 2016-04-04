@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>39.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>nesiotica</species_name>
-    <species_authority>P. H. Raven</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="P. H. Raven" date="unknown">nesiotica</taxon_name>
     <place_of_publication>
       <publication_title>Aliso</publication_title>
       <place_in_publication>5: 341. 1963</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species nesiotica;</taxon_hierarchy>
-  <common_name>Island sagebrush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Crossostephium</genus_name>
-    <species_name>insulare</species_name>
-    <species_authority>Rydberg</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species nesiotica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crossostephium</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">insulare</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton et al., N. Amer. Fl.</publication_title>
       <place_in_publication>34: 244. 1916,</place_in_publication>
-      <other_info>not Artemisia insularis Kitamura 1936</other_info>
+      <other_info_on_pub>not Artemisia insularis Kitamura 1936</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>A.</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>Lessing</species_authority>
-    <variety_name>insularis</variety_name>
-    <variety_authority>(Rydberg) Munz</variety_authority>
-  </TaxonIdentification>
-  <description>Subshrubs, 10–60 cm (rounded), aromatic. Stems relatively numerous, ascending or prostrate, gray, simple or branched (slender, wandlike, soft, bases woody and brittle), densely canescent. Leaves cauline, gray-green; blades linear-oblong, 3–5 × 1–2 cm, mostly 3-lobed (lobes 1–2 mm wide), faces gray-hairy. Heads (usually erect, sometimes nodding) in (leafy) paniculiform arrays 10–25 × 3–5(–7) cm. Involucres broadly campanulate, 2.5 × 4–4.5 mm. Phyllaries broadly ovate, densely hairy. Florets: pistillate 0; bisexual 20–50; corollas pale yellow, 1.2–1.5 mm, glandular. Cypselae (light brown) ellipsoid (ribbed), 0.5 mm, resinous.</description>
-  <habitat_info>
-    <text>rocky slopes , often fog-shrouded hillsides ;</text>
-    <habitat>rocky slopes</habitat>
-    <habitat>fog-shrouded hillsides</habitat>
-  </habitat_info>
-  <elevation>0–100 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Crossostephium;species insulare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">A.</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) Munz" date="unknown">insularis</taxon_name>
+    <taxon_hierarchy>genus A.;species californica;variety insularis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>39.</number>
+  <other_name type="common_name">Island sagebrush</other_name>
   <discussion>Artemisia nesiotica is known only from the Channel Islands of California. It differs from the closely related A. californica by its shorter stature, wider leaf lobes, and larger heads.</discussion>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

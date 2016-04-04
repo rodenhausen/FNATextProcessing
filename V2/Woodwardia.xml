@@ -1,2 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2</number><TaxonIdentification Status="ACCEPTED"><genus_name>Woodwardia</genus_name><genus_authority>Smith</genus_authority><place_of_publication><place_in_publication>5: 411. 1793 Chain fern [in honor of Thomas Jenkin. 1745</place_in_publication></place_of_publication></TaxonIdentification><common_name>Chain fern</common_name><etymology>[in honor of Thomas Jenkin 1820, English botanist]</etymology><TaxonIdentification Status="SYNONYM"><genus_name>Anchistea</genus_name><genus_authority>C. Presl</genus_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Lorinseria</genus_name><genus_authority>C. Presl</genus_authority></TaxonIdentification><description>Plants  terrestrial or rarely on rock.  Stems  long-creeping to erect, slender to stout, not climbing; scales brown.  Leaves  monomorphic (dimorphic in 1 species), clustered or well separated.  Blades  pinnate or pinnatifid.  Rachises and costae  scaly.  Veins  anastomosing in both sterile and fertile leaves, forming a regular series of areoles along costae and costules, further anastomosing in 1 species.  Sori  discrete, in chainlike rows along costae or costules, extending only the length of individual areolar veins.  Spores  with perine irregularly folded.  x  = 34, 35.</description><discussion>Woodwardia radicans (Linnaeus) Smith has been reported as an escape from cultivation in Florida and in the Sierra Nevada in California; it has not persisted. It and the commonly cultivated Woodwardia unigemmata Makino resemble Woodwardia fimbriata Smith, but both W . radicans and W . unigemmata are distinguished by having a scaly bulblet near the apex of the leaf.</discussion><number_of_infrataxa>Species 14 (3 in the flora):</number_of_infrataxa><global_distribution> North America</global_distribution><global_distribution> Central America</global_distribution><global_distribution> Mediterranean Europe</global_distribution><global_distribution> e Asia.</global_distribution><author>Raymond B. Cranfill</author><key><key_statement><statement_id>1</statement_id><statement>Leaves strongly dimorphic; sterile blades ± pinnatifid, with 2 or more rows of areoles between costae and margin, veins free only at margin.</statement><determination>1 Woodwardia areolata</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Leaves ± monomorphic; sterile blades pinnate, with 1 row of areoles adjacent to costae or costules, veins free to margin.</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Stems forming stout caudex covered with petiole bases, suberect; petioles straw-colored and densely covered with orangish scales at base; pinnae not articulate to rachis.</statement><determination>3 Woodwardia fimbriata</determination></key_statement><key_statement><statement_id>2</statement_id><statement>Stems relatively slender to ca. 1 cm diam., long- creeping; petioles blackish and glabrate at base; pinnae articulate to rachis.</statement><determination>2 Woodwardia virginica</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Raymond B. Cranfill</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Smith" date="unknown">Woodwardia</taxon_name>
+    <place_of_publication>
+      <place_in_publication>5: 411. 1793 Chain fern [in honor of Thomas Jenkin. 1745</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Woodwardia;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[in honor of Thomas Jenkin 1820, English botanist]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="C. Presl" date="unknown">Anchistea</taxon_name>
+    <taxon_hierarchy>genus Anchistea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="C. Presl" date="unknown">Lorinseria</taxon_name>
+    <taxon_hierarchy>genus Lorinseria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Chain fern</other_name>
+  <discussion>Woodwardia radicans (Linnaeus) Smith has been reported as an escape from cultivation in Florida and in the Sierra Nevada in California; it has not persisted. It and the commonly cultivated Woodwardia unigemmata Makino resemble Woodwardia fimbriata Smith, but both W . radicans and W . unigemmata are distinguished by having a scaly bulblet near the apex of the leaf.</discussion>
+  <discussion>Species 14 (3 in the flora):</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Leaves strongly dimorphic; sterile blades ± pinnatifid, with 2 or more rows of areoles between costae and margin, veins free only at margin.</description>
+      <determination>1 Woodwardia areolata</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Leaves ± monomorphic; sterile blades pinnate, with 1 row of areoles adjacent to costae or costules, veins free to margin.</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Stems forming stout caudex covered with petiole bases, suberect; petioles straw-colored and densely covered with orangish scales at base; pinnae not articulate to rachis.</description>
+      <determination>3 Woodwardia fimbriata</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Stems relatively slender to ca. 1 cm diam., long- creeping; petioles blackish and glabrate at base; pinnae articulate to rachis.</description>
+      <determination>2 Woodwardia virginica</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

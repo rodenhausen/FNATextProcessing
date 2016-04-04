@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>5.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Sclerocactus</genus_name>
-        <species_name>wetlandicus</species_name>
-        <species_authority>Hochstätter</species_authority>
-        <place_of_publication>
-            <publication_title>Succulenta (Netherlands)</publication_title>
-            <place_in_publication>68: 123, figs. s.n. (upper row, p. 124).
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sclerocactus</taxon_name>
+    <taxon_name rank="species" authority="Hochstätter" date="unknown">wetlandicus</taxon_name>
+    <place_of_publication>
+      <publication_title>Succulenta (Netherlands)</publication_title>
+      <place_in_publication>68: 123, figs. s.n. (upper row, p. 124).
                 1989</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Parriette hookless cactus</common_name>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Pediocactus</genus_name>
-        <species_name>wetlandicus</species_name>
-        <species_authority>(Hochstätter) Halda</species_authority>
-    </TaxonIdentification>
-    <description>Stems usually unbranched, green to bluish green, spheric, cylindric, or
-        elongate-cylindric, 3–8.5(–15) × 4–10(–12) cm, glaucous; ribs 12–14(–15) tubercles evident
-        on ribs. Spines slightly or not obscuring stems; radial spines 6–10(–14) per areole, white
-        to tan (rarely black), 6–20 mm; central spines 3–4(–5) per areole, sometimes not greatly
-        different from radial spines; abaxial central spines 0–2 per areole, pale tan, brown,
-        reddish brown to black, straight and unhooked or curved (rarely hooked), 12–26 × 0.8–1 mm;
-        lateral central spines 2–4 per areole, similar to abaxial; adaxial central spine usually
-        white (rarely light brown), elliptic in cross section, 15–29 × 0.5–1.8 mm. Flowers fragrant,
-        funnelform, 2–3.5(–5) × (2–)2.5–5 cm; outer tepals with brownish lavender midstripes and
-        pink to violet margins, oblanceolate, 15(–30) × 30–50 mm; inner tepals pink or violet,
-        oblanceolate to lanceolate, 17–25(–30) × 3–6 mm; filaments green to white; anthers yellow.
-        Fruits not regularly dehiscent, ovoid, barrel-shaped, 9–25(–30) × 7–12 mm, with a few
-        membranous scales, mostly near apex. Seeds black, 1.5 × 2.5 mm; cells convex but flattened
-        apically.</description>
-    <phenology>apr</phenology>
-    <phenology>spring</phenology>
-    <phenology>may</phenology>
-    <habitat>gravel-covered clay hills</habitat>
-    <habitat>desert grasslands</habitat>
-    <habitat>saltbush, rabbitbrush flats</habitat>
-    <conservation>of conservation concern;</conservation>
-    <elevation>1300–1500 m;</elevation>
-    <us_distribution>Utah.</us_distribution>
-    <discussion>Sclerocactus wetlandicus is morphologically very similar to S. glaucus and
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Sclerocactus;species wetlandicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pediocactus</taxon_name>
+    <taxon_name rank="species" authority="(Hochstätter) Halda" date="unknown">wetlandicus</taxon_name>
+    <taxon_hierarchy>genus Pediocactus;species wetlandicus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Parriette hookless cactus</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Sclerocactus wetlandicus is morphologically very similar to S. glaucus and
         frequently has been treated within S. glaucus (L. D. Benson 1982; K. D. Heil and J. M.
         Porter 1994), a treatment disputed by F. Hochstätter (1997). Populations are geographically
         separated in Duchesne and Uintah counties, Utah. Phylogenetic analyses of chloroplast DNA
         (J. M. Porter et al. 2000) are ambiguous regarding the closest relative of S. wetlandicus;
         however, this species is related to S. brevispinus, S. glaucus, S. wrightiae, S. whipplei,
         and S. parviflorus.</discussion>
-</treatment>
+</bio:treatment>

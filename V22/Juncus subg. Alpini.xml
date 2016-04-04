@@ -1,2 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1f</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juncus</genus_name><subgenus_name>Alpini</subgenus_name><subgenus_authority>BUCHENAU(Engelmann) Buchenau</subgenus_authority><place_of_publication><publication_title>Botanische Jahrbucher fur Systematik, Pflanzengeschichte und Pflanzengeographie</publication_title><place_in_publication>17: 1618. 1886</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><unranked_epithet_name>aAlpini</unranked_epithet_name><unranked_epithet_authority>Engelmann [unranked]</unranked_epithet_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><section_name>Alpini</section_name><section_authority>(Engelmann) Vierhapper</section_authority></TaxonIdentification><description>Herbs, perennial, rhizomatous, usually fresh-water habitats. Stems terete. Leaves basal or cauline; blade terete, channeled, imperfectly septate or not. Inflorescences terminal panicles or racemes of several heads or a single terminal head, sympodial or monopodial; bracteoles absent at base of perianth. Flowers in multiflowered heads. Capsules (1--)3-locular. Seeds long tailed, large.</description><number_of_infrataxa>Species 724 (4 in the flora):</number_of_infrataxa><global_distribution>n North America,</global_distribution><global_distribution>n Europe,</global_distribution><global_distribution>n Asia.</global_distribution><key><key_statement><statement_id>1</statement_id><statement>Plants strongly rhizomatous</statement><determination>61 Juncus castaneus</determination></key_statement><key_statement><statement_id>1</statement_id><statement>Plants cespitose, rhizomes (if present) short, sparingly branched.</statement><next_statement_id>2</next_statement_id></key_statement><key_statement><statement_id>2</statement_id><statement>Leaves basal and cauline</statement><determination>60a var. americanus</determination></key_statement><key_statement><statement_id>2</statement_id><statement>Leaves all basal.</statement><next_statement_id>3</next_statement_id></key_statement><key_statement><statement_id>3</statement_id><statement>Primary bract of infloresence much longer than inflorescence</statement><determination>62 Juncus biglumis</determination></key_statement><key_statement><statement_id>3</statement_id><statement>Primary bract of inflorescence nearly equal to or shorter than inflorescence</statement><determination>63 Juncus triglumis</determination></key_statement></key></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="subgenus" authority="BUCHENAU(Engelmann) Buchenau" date="unknown">Alpini</taxon_name>
+    <place_of_publication>
+      <publication_title>Botanische Jahrbucher fur Systematik, Pflanzengeschichte und Pflanzengeographie</publication_title>
+      <place_in_publication>17: 1618. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;subgenus Alpini;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Engelmann [unranked]">aAlpini</taxon_name>
+    <taxon_hierarchy>genus Juncus;unranked aAlpini;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="section" authority="(Engelmann) Vierhapper" date="unknown">Alpini</taxon_name>
+    <taxon_hierarchy>genus Juncus;section Alpini;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1f</number>
+  <discussion>Species 724 (4 in the flora):</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Plants strongly rhizomatous</description>
+      <determination>61 Juncus castaneus</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Plants cespitose, rhizomes (if present) short, sparingly branched.</description>
+      <next_statement_id>2</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Leaves basal and cauline</description>
+      <determination>60a var. americanus</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>2</statement_id>
+      <description type="morphology">Leaves all basal.</description>
+      <next_statement_id>3</next_statement_id>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Primary bract of infloresence much longer than inflorescence</description>
+      <determination>62 Juncus biglumis</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>3</statement_id>
+      <description type="morphology">Primary bract of inflorescence nearly equal to or shorter than inflorescence</description>
+      <determination>63 Juncus triglumis</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ARCTIUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>David J. Keil</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ARCTIUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 816. 1753</place_in_publication>
@@ -12,19 +18,14 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 357. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus ARCTIUM;</taxon_hierarchy>
-  <etymology>[Greek arktion , from arktos , bear, perhaps alluding to rough involucre]</etymology>
-  <common_name>Burdock</common_name>
-  <common_name>clotbur</common_name>
-  <common_name>bardane</common_name>
-  <author>David J. Keil</author>
-  <description>Biennials or (monocarpic) perennials, 50–300 cm; herbage not spiny. Stems erect, openly branched, branches ascending. Leaves basal and cauline; long-petiolate; gradually smaller distally; blade margins entire or dentate (pinnately lobed or dissected), faces abaxially resin-gland-dotted, adaxially often tomentose. Heads discoid, in leafy-bracted racemiform to paniculiform or corymbiform arrays. (Peduncles 0 or 1–9 cm.) Involucres spheric to ovoid. Phyllaries many in 9–17 series, outer and mid narrowly linear, bases appressed, margins entire, apices stiffly radiating, hooked-spiny tipped, inner linear, ascending or erect, straight tipped. Receptacles ± flat, epaleate, bearing subulate scales. Florets (5–)20–40+; corollas pink to ± purple, glabrous or glandular-puberulent, tubes elongate, throats campanulate, lobes narrowly triangular, ± equal; anther bases tailed, apical appendages ovate, obtuse to acute; style branches: fused portions distally hairy-ringed, distinct portions oblong, acute or obtuse. Cypselae obovoid, ± compressed, rough or ribbed, glabrous, attachment scars basal; pappi falling, of many bristles in 2–4 series. x = 18.</description>
-  <number_of_infrataxa>Species 10 (3 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>widely introduced worldwide.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus ARCTIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek arktion , from arktos , bear, perhaps alluding to rough involucre]</other_info_on_name>
+  </taxon_identification>
+  <number>16.</number>
+  <other_name type="common_name">Burdock</other_name>
+  <other_name type="common_name">clotbur</other_name>
+  <other_name type="common_name">bardane</other_name>
+  <discussion>Species 10 (3 in the flora):</discussion>
   <discussion>At maturity the dry heads of Arctium species are readily caducous with the enclosed cypselae, and the hooked phyllary tips cling easily to fur or fabrics. Animal dispersal is a major factor in the spread of burdock species across North America. The burs are a major problem when they become entangled in the wool of sheep and fur of dogs and other animals.</discussion>
   <discussion>Published chromosome reports for Arctium other than n = 18 are probably in error because of difficulty in interpretation of somatic chromosomes (R. J. Moore and C. Frankton 1974).</discussion>
   <references>
@@ -34,24 +35,23 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads usually sessile to short-pedunculate in racemiform or paniculiform clusters</statement>
+      <description type="morphology">Heads usually sessile to short-pedunculate in racemiform or paniculiform clusters</description>
       <determination>3. Arctium minus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads usually long-pedunculate in corymbiform clusters.</statement>
+      <description type="morphology">Heads usually long-pedunculate in corymbiform clusters.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Involucre 2.5–4 cm diam.; phyllary apices glabrous or loosely cobwebby; corollas glabrous</statement>
+      <description type="morphology">Involucre 2.5–4 cm diam.; phyllary apices glabrous or loosely cobwebby; corollas glabrous</description>
       <determination>1. Arctium lappa</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Involucre 1.5–2.5 mm diam.; phyllary apices densely cobwebby; corollas minutely glandular-puberulent</statement>
+      <description type="morphology">Involucre 1.5–2.5 mm diam.; phyllary apices densely cobwebby; corollas minutely glandular-puberulent</description>
       <determination>2. Arctium tomentosum</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

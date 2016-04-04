@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Malacothrix</genus_name>
-    <species_name>incana</species_name>
-    <species_authority>(Nuttall) Torrey &amp; A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacothrix</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Torrey &amp; A. Gray" date="unknown">incana</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>2: 486. 1843</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Malacothrix;species incana;</taxon_hierarchy>
-  <common_name>Dunedelion</common_name>
-  <common_name>dune malacothrix</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Malacomeris</genus_name>
-    <species_name>incanus</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Malacothrix;species incana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacomeris</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">incanus</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 435. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Malacothrix</genus_name>
-    <species_name>incana</species_name>
-    <variety_name>succulenta</variety_name>
-    <variety_authority>(Elmer) E. W. Williams</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Malacothrix</genus_name>
-    <species_name>succulenta</species_name>
-    <species_authority>Elmer</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 12–70 cm (often mounded). Stems 1, branched proximally and distally, usually tomentose, sometimes glabrous. Cauline leaves: proximal obovate to narrowly spatulate, sometimes pinnately lobed (lobes 1–2+ pairs, subequal, apices obtuse), sometimes ± fleshy, margins usually obtuse-lobed, sometimes entire; distal not notably reduced (similar to others). Calyculi of 5–16+, ovate to lanceolate bractlets, hyaline margins 0.05–0.2 mm. Involucres 10–14 × 4–8+ mm. Phyllaries 16–30 in 2–3 series, (red-tinged) lanceolate or oblong to linear, hyaline margins 0.05–0.1 mm wide, faces glabrous. Receptacles not bristly. Florets 47–99; corollas medium yellow, 11–20 mm; outer ligules exserted 5–10 mm. Cypselae usually cylindro-fusiform, sometimes weakly prismatic, 1.5–2.2 mm, ribs extending to apices, ± equal; persistent pappi 0. Pollen 70–100% 3-porate. 2n = 14.</description>
-  <phenology_info>
-    <text>Flowering Jan–Dec.</text>
-    <phenology>jan</phenology>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <phenology>dec</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>coastal dunes ;</text>
-    <habitat>coastal dunes</habitat>
-  </habitat_info>
-  <elevation>0–10(–100) m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Malacomeris;species incanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacothrix</taxon_name>
+    <taxon_name rank="species" authority="Elmer" date="unknown">incana</taxon_name>
+    <taxon_name rank="variety" authority="(Elmer) E. W. Williams" date="unknown">succulenta</taxon_name>
+    <taxon_hierarchy>genus Malacothrix;species incana;variety succulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malacothrix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">succulenta</taxon_name>
+    <taxon_hierarchy>genus Malacothrix;species succulenta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">Dunedelion</other_name>
+  <other_name type="common_name">dune malacothrix</other_name>
   <discussion>Malacothrix incana, a dune endemic, grows currently on the coastal mainland in Santa Barbara and San Luis Obispo counties, and on San Miguel, San Nicolas, Santa Cruz, and Santa Rosa islands. Its nomenclatural type specimen was collected at San Diego, probably from the Silver Strand dune areas on Coronado Island.</discussion>
   <discussion>Populations of a glabrous form, var. succulenta, occur in Santa Barbara County (e.g., Casmalia Beach) and San Luis Obispo County (e.g., west of Oso Flaco Lake). Glabrous forms and tomentose forms grow together on San Miguel and San Nicolas islands.</discussion>
   <discussion>Extensive hybridization between Malacothrix incana and M. foliosa subsp. polycephala occurs on San Nicolas Island where dunes have extended into areas of normal soil, particularly along the western and southwestern portions of the island.</discussion>
   <discussion>Hybridization between Malacothrix incana and M. saxatilis var. implicata occurs on San Miguel Island on east-facing slopes above Cuyler Harbor.</discussion>
-</treatment>
-
+</bio:treatment>

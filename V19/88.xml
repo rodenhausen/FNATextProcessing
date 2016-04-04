@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>pulcherrimum</species_name>
-    <species_authority>(Rydberg) K. Schumann</species_authority>
-    <variety_name>aridum</variety_name>
-    <variety_authority>(Dorn) D. J. Keil</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) K. Schumann" date="unknown">pulcherrimum</taxon_name>
+    <taxon_name rank="variety" authority="(Dorn) D. J. Keil" date="unknown">aridum</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 215. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species pulcherrimum;variety aridum;</taxon_hierarchy>
-  <common_name>Cedar Rim thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>aridum</species_name>
-    <species_authority>Dorn</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species pulcherrimum;variety aridum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Dorn" date="unknown">aridum</taxon_name>
     <place_of_publication>
       <publication_title>Vasc. Pl. Wyoming ed.</publication_title>
       <place_in_publication>2, 304, plate [p. 305]. 1992</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems often clustered from branched rootstock, 15–40 cm, bases not thickened. Adaxial leaf faces gray- to white-tomentose. Heads 1–4, in compact arrays. Cypselae without stramineous apical collars.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>barren slopes in shallow , stony soil in very open , arid grasslands ;</text>
-    <habitat>barren slopes in shallow , stony soil in very open , arid grasslands</habitat>
-  </habitat_info>
-  <conservation>of conservation concern;</conservation>
-  <elevation>2000–2200 m;</elevation>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Cirsium;species aridum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29a.</number>
+  <other_name type="common_name">Cedar Rim thistle</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>In describing variety aridum, Dorn suggested that it “seems to belong to the C. hookerianum group,” but I fail to see this relationship. Its affinities clearly lie with Cirsium pulcherrimum. It is usually differentiable from var. pulcherrimum by the characters above, but it grows and intergrades with var. pulcherrimum on the Sweetwater Plateau in Fremont County. W. Fertig (unpubl.) has studied the ecology and distribution of var. aridum [as C. aridum] and the very similar pubescent forms of var. pulcherriumum [as C. pulcherrimum].</discussion>
   <discussion>Variety aridum occurs in scattered localities on barren hills in Carbon, Fremont, and Sweetwater counties. It is a rare taxon, but it has not received official recognition by governmental agencies. However it is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
-</treatment>
-
+</bio:treatment>

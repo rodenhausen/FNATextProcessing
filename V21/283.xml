@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Helianthella</genus_name><species_name>californica</species_name><species_authority>A. Gray</species_authority><subspecies_name>nevadensis</subspecies_name><subspecies_authority>(Greene) W. A. Weber</subspecies_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>85: 20. 1999</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Helianthella</genus_name><species_name>nevadensis</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>1: 89. 1885</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Helianthella</genus_name><species_name>californica</species_name><variety_name>nevadensis</variety_name><variety_authority>(Greene) Jepson</variety_authority></TaxonIdentification><description>Stems not branched. Cauline leaves mostly alternate; blades oblong-lanceolate to lance-linear, (10–)20–45 mm wide. Heads usually 2–3+, seldom borne singly. Cypselae winged; pappi of 2 ± subulate scales plus 0–4 shorter scales.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>meadows</habitat><habitat>open forest, chaparral</habitat><elevation>(200–)600–2300+ m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Subspecies nevadensis grows in the Sierra Nevada and in the Cascade Range.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthella</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) W. A. Weber" date="unknown">nevadensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>85: 20. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Helianthella;species californica;subspecies nevadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthella</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">nevadensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 89. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Helianthella;species nevadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Helianthella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">nevadensis</taxon_name>
+    <taxon_hierarchy>genus Helianthella;species californica;variety nevadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion>Subspecies nevadensis grows in the Sierra Nevada and in the Cascade Range.</discussion>
+</bio:treatment>

@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>31b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>cuneifolia</species_name>
-    <species_authority>Nuttall ex Torrey &amp; A. Gray</species_authority>
-    <variety_name>integrifolia</variety_name>
-    <variety_authority>S. Watson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Nuttall ex Torrey &amp; A. Gray" date="unknown">cuneifolia</taxon_name>
+    <taxon_name rank="variety" authority="S. Watson" date="unknown">integrifolia</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>23: 256. 1888</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>(S. Watson) Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>sonorae</species_name>
-    <species_authority>Greene</species_authority>
-    <variety_name>integrifolia</variety_name>
-    <variety_authority>(S. Watson) O. E. Schulz</variety_authority>
-  </TaxonIdentification>
-  <description>Stems pubescent with 3- or 4-rayed trichomes. Racemes to 3/4 of scape. Fruits oblong to linear or lanceolate, (5–)7–12 mm; valves: trichomes stalked and 4-rayed, sometimes with 2- or 3-rayed ones; ovules 20–44 per ovary.</description>
-  <phenology>jan</phenology>
-  <phenology>winter</phenology>
-  <phenology>feb</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <habitat>rocky slopes and gravelly soil in desert scrub communities</habitat>
-  <elevation>200–1800 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species cuneifolia;variety integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">integrifolia</taxon_name>
+    <taxon_hierarchy>genus Draba;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">sonorae</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) O. E. Schulz" date="unknown">integrifolia</taxon_name>
+    <taxon_hierarchy>genus Draba;species sonorae;variety integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>31b.</number>
+</bio:treatment>

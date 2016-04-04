@@ -1,74 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Petasites</genus_name>
-    <species_name>frigidus</species_name>
-    <species_authority>(Linnaeus) Fries</species_authority>
-    <variety_name>×vitifolius</variety_name>
-    <variety_authority>(Greene) Cherniawsky</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petasites</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Fries" date="unknown">frigidus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Cherniawsky" date="unknown">×vitifolius</taxon_name>
     <place_of_publication>
       <publication_title>Canad. J. Bot.</publication_title>
       <place_in_publication>76: 2072. 1999</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pétasite à feuilles de vigne</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Petasites</genus_name>
-    <species_name>vitifolius</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Petasites;species frigidus;variety ×vitifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petasites</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">vitifolius</taxon_name>
     <place_of_publication>
-      <publication_title>Leafl. Bot. Observ. Crit. </publication_title>
+      <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
       <place_in_publication>1: 180. 1906</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Petasites</genus_name>
-    <species_name>nivalis</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>vitifolius</subspecies_name>
-    <subspecies_authority>(Greene) J. Toman</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Petasites</genus_name>
-    <species_name>trigonophyllus</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Petasites</genus_name>
-    <species_name>warrenii</species_name>
-    <species_authority>H. St. John</species_authority>
-  </TaxonIdentification>
-  <description>Basal leaves: blades palmately to palmati-pinnately nerved, deltate or broadly
-    cordate to reniform, 2–43 × 3.5–47 cm (bases sometimes convex-curved), irregularly palmately to
-    palmati-pinnately lobed (primary lobes 4–14, triangular, sinuses usually less than halfway to
-    bases, lobes subentire to sinuate-dentate, secondary lobes 0–11, entire or dentate, teeth to 44
-    per side), abaxial and adaxial faces glabrous or woolly to tomentose, sometimes glabrescent.
-    Staminate heads 3–32; ray florets 2–27, corolla laminae 2.1–7.8 mm; disc floret style branches
-    0.4–1.4 mm, papillate or hairy. Pistillate heads 9–34; ray florets 48–89, corolla laminae
-    0.8–2.5 mm; disc florets: corolla lobes 0.8–2 mm, style branches 0.3–1.2 mm, papillate or hairy.
-    Pappi (pistillate) to 15 mm. 2n = 60.</description>
-  <phenology>early spring</phenology>
-  <habitat>wet marshy sites</habitat>
-  <habitat>moist woodlands</habitat>
-  <elevation>100–1700;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Labr.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Petasites;species vitifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petasites</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">nivalis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) J. Toman" date="unknown">vitifolius</taxon_name>
+    <taxon_hierarchy>genus Petasites;species nivalis;subspecies vitifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petasites</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">trigonophyllus</taxon_name>
+    <taxon_hierarchy>genus Petasites;species trigonophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Petasites</taxon_name>
+    <taxon_name rank="species" authority="H. St. John" date="unknown">warrenii</taxon_name>
+    <taxon_hierarchy>genus Petasites;species warrenii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1d.</number>
+  <other_name type="common_name">Pétasite à feuilles de vigne</other_name>
   <discussion>Petasites frigidus var. ×vitifolius often grows in association with one or both
     putative parents (P. frigidus var. palmatus and P. frigidus var. sagittatus).</discussion>
   <references>
-    <reference> Bogle, A. L. 1968. Evidence for the hybrid origin of
+    <reference>Bogle, A. L. 1968. Evidence for the hybrid origin of
       Petasites warrenii and P. vitifolius. Rhodora 70: 533–551.</reference>
   </references>
-</treatment>
+</bio:treatment>

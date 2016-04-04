@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>32b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Clematis</genus_name><species_name>hirsutissima</species_name><species_authority>Pursh</species_authority><variety_name>scottii</variety_name><variety_authority>(Porter) R. O. Erickson</variety_authority><place_of_publication><publication_title> Ann. Missouri Bot. Gard. </publication_title><place_in_publication>30: 47. 1943</place_in_publication></place_of_publication></TaxonIdentification><common_name>Scott's clematis</common_name><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Clematis</genus_name><species_name>scottii</species_name><species_authority>Porter</species_authority><place_of_publication><publication_title>Syn. Fl. Colorado, </publication_title><place_in_publication>1. 1874</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Viorna</genus_name><species_name>scottii</species_name><species_authority>(Porter) Rydberg</species_authority></TaxonIdentification><description>Stems simple or branched, erect or ± sprawling. Leaf blade: primary leaflets 7-13; leaflets and larger lobes narrowly to broadly lanceolate or ovate, 1-6 cm × 5-15 mm, surfaces nearly glabrous to sparsely hirsute.</description><phenology>Flowering spring-summer</phenology><habitat> Dry to moist mountain meadows, thickets, and rocky slopes</habitat><elevation> 1500-3200 m</elevation><us_distribution> Colo.</us_distribution><us_distribution> Nebr.</us_distribution><us_distribution> N.Mex.</us_distribution><us_distribution> Okla.</us_distribution><us_distribution> S.Dak.</us_distribution><us_distribution> Wyo.</us_distribution><discussion>The leaflets of Clematis hirsutissima var. scottii are usually more widely spaced than those of C. hirsutissima var. hirsutissima.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">hirsutissima</taxon_name>
+    <taxon_name rank="variety" authority="(Porter) R. O. Erickson" date="unknown">scottii</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>30: 47. 1943</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species hirsutissima;variety scottii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="Porter" date="unknown">scottii</taxon_name>
+    <place_of_publication>
+      <publication_title>Syn. Fl. Colorado,</publication_title>
+      <place_in_publication>1. 1874</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species scottii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Viorna</taxon_name>
+    <taxon_name rank="species" authority="(Porter) Rydberg" date="unknown">scottii</taxon_name>
+    <taxon_hierarchy>genus Viorna;species scottii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>32b.</number>
+  <other_name type="common_name">Scott's clematis</other_name>
+  <discussion>endemic</discussion>
+  <discussion>The leaflets of Clematis hirsutissima var. scottii are usually more widely spaced than those of C. hirsutissima var. hirsutissima.</discussion>
+</bio:treatment>

@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Erysimum</genus_name>
-    <species_name>ammophilum</species_name>
-    <species_authority>A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Erysimeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erysimum</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">ammophilum</taxon_name>
     <place_of_publication>
       <publication_title>Muhlenbergia</publication_title>
       <place_in_publication>1: 51. 1904</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheiranthus</genus_name>
-    <species_name>ammophilus</species_name>
-    <species_authority>A. Heller</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cheirinia</genus_name>
-    <species_name>ammophila</species_name>
-    <species_authority>(A. Heller) A. Heller</species_authority>
-  </TaxonIdentification>
-  <description>Biennials or perennials; (short-lived). Trichomes of leaves 2–4(–7)-rayed. Stems erect, unbranched or branched distally, 0.4–9(–13) dm. Basal leaves: blade (somewhat fleshy), linear-oblanceolate, 3.5–15.5 cm × 2–9 mm, base attenuate, margins entire or obscurely dentate, apex acute. Cauline leaves: blade (oblanceolate), margins entire. Racemes considerably elongated in fruit. Fruiting pedicels divaricate to divaricate-ascending, stout, slightly narrower than fruit, 4–10(–13) mm. Flowers: sepals oblong to linear-oblong, 7.5–11(–13) mm, lateral pair slightly saccate basally; petals bright yellow, broadly obovate to suborbicular, 14–24 × 6–11(–14) mm, claw 8–14 mm, apex rounded; median filaments 8.5–12 mm; anthers linear, 3–4 mm. Fruits spreading, narrowly linear, straight, not torulose, (2–)3.5–12 cm × 1.5–3.5 mm, latiseptate, not striped; valves with prominent midvein, pubescent outside, trichomes 2–4-rayed, glabrous inside; ovules 50–86 per ovary; style cylindrical, stout, 0.3–1.5(–2) mm, sparsely pubescent; stigma slightly 2-lobed, lobes as long as wide. Seeds oblong, 1.5–3 × 1–1.8 mm; winged distally (narrowly so around). 2n = 36.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <habitat>sand dunes</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>0–50 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Erysimeae;genus Erysimum;species ammophilum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheiranthus</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">ammophilus</taxon_name>
+    <taxon_hierarchy>genus Cheiranthus;species ammophilus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cheirinia</taxon_name>
+    <taxon_name rank="species" authority="(A. Heller) A. Heller" date="unknown">ammophila</taxon_name>
+    <taxon_hierarchy>genus Cheirinia;species ammophila;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Erysimum ammophilum is restricted to coastal and nearby sand dunes of Monterey and Santa Cruz counties.</discussion>
-</treatment>
+</bio:treatment>

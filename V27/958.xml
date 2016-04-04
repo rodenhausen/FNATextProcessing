@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>EPHEMERUM</genus_name>
-    <genus_authority>Hampe</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Hampe" date="unknown">EPHEMERUM</taxon_name>
     <place_of_publication>
       <publication_title>Flora</publication_title>
       <place_in_publication>20: 285.  1837,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conserved_name>name conserved</conserved_name>
-  <etymology>[Greek ephemeros, of short duration]</etymology>
-  <description>Stems absent.  Leaves scarcely contorted when dry; costa well-developed, except generally absent or weak in E. serratum; laminal cells lax in the proximal half of the leaf, in the distal half firmer, smaller, and usually papillose.  Sexual condition dioicous or autoicous, commonly rhizautoicous.  Capsule cleistocarpous, ovoid and distinctly apiculate, more than 0.5 mm from base to apex; exothecium of 2 cell layers; columella present in maturing capsules of E. cohaerens, but in other species visible only as pigmented areas at base and tip of the spore sac.  Calyptra fugacious, cucullate, sometimes lobed or torn at the base, covering the distal 2/3 of the capsule, mostly more than 0.2 mm.</description>
-  <number_of_infrataxa>Species ca. 28 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide in temperate and tropical regions.</global_distribution>
+    <taxon_hierarchy>genus EPHEMERUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek ephemeros, of short duration]</other_info_on_name>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Species ca. 28 (4 in the flora):</discussion>
   <discussion>All Ephemerum taxa in the flora have the same chromosome number, n = 27. Mixed colonies are common, although hybrid forms are not evident.  To a large extent, the species occupy similar ranges.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves ecostate or in the distal two-thirds very weakly costate</statement>
+      <description type="morphology">Leaves ecostate or in the distal two-thirds very weakly costate</description>
       <determination>1.   Ephemerum serratum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves distinctly costate, at least distal to the middle.</statement>
+      <description type="morphology">Leaves distinctly costate, at least distal to the middle.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Distal laminal cells spinulose or spinose</statement>
+      <description type="morphology">Distal laminal cells spinulose or spinose</description>
       <determination>4.   Ephemerum spinulosum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Distal laminal cells smooth or papillose.</statement>
+      <description type="morphology">Distal laminal cells smooth or papillose.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Distal laminal cells smooth, in ± diagonal rows</statement>
+      <description type="morphology">Distal laminal cells smooth, in ± diagonal rows</description>
       <determination>2.   Ephemerum cohaerens</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Distal laminal cells papillose in ± vertical rows</statement>
+      <description type="morphology">Distal laminal cells papillose in ± vertical rows</description>
       <determination>3.   Ephemerum crassinervium</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

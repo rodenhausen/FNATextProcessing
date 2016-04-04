@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>SAPOTACEAE</family_name>
-    <family_authority>Jussieu</family_authority>
-  </TaxonIdentification>
-  <common_name>Sapodilla Family</common_name>
-  <author>Wayne J. Elisens</author>
-  <author>R. David Whetstone</author>
-  <author>Richard P. Wunderlin</author>
-  <description>Shrubs or trees, deciduous or evergreen, sap milky.  Leaves alternate or whorled (fascicled) on short shoots, simple; stipules present or absent; petiole with decurrent, adaxial wing forming channel or groove; blade margins entire; venation pinnate.  Inflorescences axillary, fasciculate or solitary flowers at leafy or defoliated nodes on older growth.  Flowers bisexual [unisexual]; perianth and androecium hypogynous; sepals [2–]4–8[–11], distinct; petals 4–8[–9], connate proximally, lobes not divided or divided into 1 median and 2 lateral [abaxial] segments, corolla rotate, cyathiform, or tubular; nectary disc present; stamens 4–8[–12], antipetalous, epipetalous; anthers dehiscent by longitudinal slits; pistils 1, [1–]3–12[–30]-carpellate; ovary superior, [1–]3–12[–15]-locular; placentation axile, basal, or basiventral; ovules anatropous or hemitropous, unitegmic, tenuinucellate; styles 1, terminal, exserted or included; stigmas 1, capitate or slightly lobed.  Fruits baccate [capsular].  Seeds 1–10, brown to black, shiny, indurate; hilum prominent; embryo vertical, oblique, or horizontal; endosperm oily or absent.</description>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Wayne J. Elisens,R. David Whetstone,Richard P. Wunderlin</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_hierarchy>family SAPOTACEAE;</taxon_hierarchy>
+  </taxon_identification>
+  <other_name type="common_name">Sapodilla Family</other_name>
   <discussion>Genera 53, species ca. 1100 (5 genera, 16 species in the flora): North America, Mexico, West Indies, Central America, South America, Asia, Africa, Atlantic Islands, Indian Ocean Islands, Pacific Islands, Australia.</discussion>
   <discussion>The monophyly of the Sapotaceae (including Sarcosperma) is supported by molecular phylogenetic studies (A. A. Anderberg and U. Swenson 2003; Swenson and Anderberg 2005).  Three subfamilies were proposed by Swenson and Anderberg in contrast to the five tribes recognized by T. D. Pennington (1991, 2004, 2004b) and R. Govaerts et al. (2001).  The Sapotaceae are characterized by the presence of latex, malpighian hairs, fasciculate inflorescences, and antipetalous stamens.  The family is widespread throughout the tropics and has economically important species.  Manilkara zapota provides chicle for chewing gum, and some species provide edible fruits, e.g., Chrysophyllum cainito (star-apple), Pouteria mammosa (mamey), and P. campechiana (canistel or egg-fruit).  Mature fruits of our species of Sideroxylon are edible, and have not been exploited economically.  Chrysophyllum oliviforme and Mimusops elengi are handsome trees and often planted as ornamentals.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Anderberg, A. A. and U. Swenson.  2003.  Evolutionary lineages in Sapotaceae (Ericales): A cladistic analysis based on ndhF sequence data.  Int. J. Pl. Sci. 164: 763–773.</reference>
     <reference>Cronquist, A.  1945b.  Studies in the Sapotaceae—II.  Survey of the North American genera.  Lloydia  9: 241–292.</reference>
     <reference>Govaerts, R., D. G. Frodin, and T. D. Pennington.  2001.  World Checklist and Bibliography of Sapotaceae.  Kew.   Pennington, T. D.  1990.  Sapotaceae.  In: Organization for Flora Neotropica.  1968+.  Flora Neotropica.  98+ nos.  New York.  No. 52.   Pennington, T. D.  1991.  The Genera of Sapotaceae.  Kew and New York.   Pennington, T. D.  2004.  Sapotaceae.  In: K. Kubitzki et al., eds.  1990+.  The Families and Genera of Vascular Plants.  9+ vols.  Berlin, etc.  Vol. 6, pp. 390–421.</reference>
@@ -21,53 +23,53 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals 6 or 8 in 2 whorls, outer valvate.</statement>
+      <description type="morphology">Sepals 6 or 8 in 2 whorls, outer valvate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals 8 in 2 whorls of 4; hilum circular</statement>
+      <description type="morphology">Sepals 8 in 2 whorls of 4; hilum circular</description>
       <determination>1.   Mimusops, p. 233</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Sepals 6 in 2 whorls of 3; hilum linear</statement>
+      <description type="morphology">Sepals 6 in 2 whorls of 3; hilum linear</description>
       <determination>2.   Manilkara, p. 234</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals 4–6 in 1 whorl, imbricate.</statement>
+      <description type="morphology">Sepals 4–6 in 1 whorl, imbricate.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corolla lobes divided; stems not armed or armed with thorns; seeds 4–12 mm</statement>
+      <description type="morphology">Corolla lobes divided; stems not armed or armed with thorns; seeds 4–12 mm</description>
       <determination>3.   Sideroxylon (in part), p. 236</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Corolla lobes undivided; stems unarmed; seeds 13–40 mm.</statement>
+      <description type="morphology">Corolla lobes undivided; stems unarmed; seeds 13–40 mm.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petioles 5–10 mm; leaves densely hairy abaxially; staminodes absent</statement>
+      <description type="morphology">Petioles 5–10 mm; leaves densely hairy abaxially; staminodes absent</description>
       <determination>5.   Chrysophyllum, p. 245</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Petioles 10–51 mm; leaves glabrous or glabrate abaxially; staminodes petaloid.</statement>
+      <description type="morphology">Petioles 10–51 mm; leaves glabrous or glabrate abaxially; staminodes petaloid.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Pedicels glabrous; sepals 1.5–2 mm; berries yellow to orange</statement>
+      <description type="morphology">Pedicels glabrous; sepals 1.5–2 mm; berries yellow to orange</description>
       <determination>3.   Sideroxylon (in part), p. 236</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Pedicels densely hairy; sepals 4.5–11 mm; berries brown</statement>
+      <description type="morphology">Pedicels densely hairy; sepals 4.5–11 mm; berries brown</description>
       <determination>4.   Pouteria, p. 244</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

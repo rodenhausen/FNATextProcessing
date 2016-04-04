@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>binominatum</species_name>
-    <species_authority>A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">binominatum</taxon_name>
     <place_of_publication>
       <publication_title>Cat. N. Amer. Pl., ed.</publication_title>
       <place_in_publication>2, 5.  1900  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Trailing gooseberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>montanum</species_name>
-    <species_authority>Howell</species_authority>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species binominatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">montanum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N.W. Amer.,</publication_title>
       <place_in_publication>210.  1898,</place_in_publication>
-      <other_info>not Philippi 1859</other_info>
+      <other_info_on_pub>not Philippi 1859</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>binominata</species_name>
-    <species_authority>(A. Heller) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.1–1 m.  Stems spreading to prostrate, pubescent; spines at nodes 3, 5–20 mm; prickles on internodes absent.  Leaves: petiole 2–5 cm, puberulent to villous and stipitate-glandular; blade suborbiculate, 3–5-lobed, deeply cleft, 2–5 cm, base cordate, surfaces pubescent, not stipitate-glandular, lobes broadly cuneate, sides mostly straight, margins dentate-crenate, apex rounded.  Inflorescences pendent, solitary flowers or 2–3-flowered racemes, 1–4 cm (much shorter than leaves), axis hairy, flowers evenly spaced.  Pedicels not jointed, 1–2 mm, bristly; bracts lanceolate-ovate, 1.5–3 mm, puberulent.  Flowers: hypanthium green, broadly campanulate, 2–3(–4) mm, pubescent; sepals not overlapping, reflexed, greenish white to green with red margins, lanceolate, 4–6 mm; petals nearly connivent, erect, white to pink, oblong, flat or shallowly concave abaxially, 2–3 mm; nectary disc not prominent; stamens longer than petals; filaments slightly expanded at base, 2–4 mm, glabrous; anthers reddish brown, oval, 0.2–0.5 mm, apex blunt; ovary densely bristly and glandular; styles connate 1/2 their lengths, 2–4 mm, glabrous.  Berries palatability not known, yellow-green, ovoid, 8–10 mm, prickles yellow, nonglandular, stout, developing into spines, hairs glandular or eglandular.</description>
-  <phenology>Flowering Apr–Jul</phenology>
-  <habitat>Montane and subalpine forests</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>1000–2600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Ribes;species montanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(A. Heller) Coville &amp; Britton" date="unknown">binominata</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species binominata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26.</number>
+  <other_name type="common_name">Trailing gooseberry</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Ribes binominatum occurs at relatively high elevations in the Coast Ranges of northern California and the Klamath Mountains of central and southern Oregon.</discussion>
-</treatment>
+</bio:treatment>

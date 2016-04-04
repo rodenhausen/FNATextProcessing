@@ -1,68 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Populus</genus_name>
-    <species_name>grandidentata</species_name>
-    <species_authority>Michaux</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">grandidentata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 243. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bigtooth aspen</common_name>
-  <common_name>grand tremble</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Populus</genus_name>
-    <species_name>tremula</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>grandidentata</subspecies_name>
-    <subspecies_authority>(Michaux) Á. Löve &amp; D. Löve</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants to 35 m, 14 dm diam.; strongly heterophyllous. Bark dark grayish brown, furrowed only basally on large trees, (light gray and smooth otherwise). Branchlets reddish brown, becoming reddish gray by third year, round, 1.3–2.5(–5) mm diam., moderately coarse, thinly tomentose to glabrate. Winter buds reddish, proximally pubescent, (dull), not evidently resinous; terminal buds 2.5–7(–10) mm, (glabrous or pubescent); flowering buds separated on branchlets or clustered distally, 6–9(–13) mm. Leaves: petiole distally flattened at right angle to plane of blade, 1.5–6(–11) cm, 1/2–3/4 blade length; blade ovate, (2–)4–10(–27.5) × (2–)3–8(–28.5) cm, w/l = 3/4, base broadly cuneate to subcordate, basilaminar glands (1 or) 2(–4), cup-shaped, margins not translucent, not ciliate, apex acute, abaxial surface greenish-white, resin stains absent, (glaucous), densely silky, (hairs white, relatively long, appressed) at emergence, soon becoming glabrate, adaxial bright dark green, glabrous; preformed blade margins coarsely serrate midblade, teeth (1–)5–12(–16) on each side (graded, sharp), sinuses 0.3–4.5(–6) mm deep; neoformed blade margins finely crenate-serrate throughout, teeth (5–)15–50(–138) on each side (rounded), sinuses 0.8–1.5(–2.5) mm deep. Catkins densely (30–)50–150(–175)-flowered, (4–)6–10(–14 in fruit) cm; floral bract apex deeply cut, ciliate. Pedicels 0.2–1.5(–2 in fruit) mm. Flowers: discs narrowly cup-shaped, obviously oblique, shallowly toothed, 1–2 mm diam.; stamens 6–12; anthers truncate; ovary 2-carpelled; stigmas 2, filiform, erect. Capsules narrowly ovoid, 2–5(–6) mm, glabrous, 2-valved. Seeds (3–)6–8(–9) per placenta. 2n = 38.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>dry to moist, open to closed upland woodlands and forests</habitat>
-  <elevation>0–1000 m;</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Populus;species grandidentata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Populus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">tremula</taxon_name>
+    <taxon_name rank="subspecies" authority="(Michaux) Á. Löve &amp; D. Löve" date="unknown">grandidentata</taxon_name>
+    <taxon_hierarchy>genus Populus;species tremula;subspecies grandidentata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Bigtooth aspen</other_name>
+  <other_name type="common_name">grand tremble</other_name>
   <discussion>Populus grandidentata is a successional species that regenerates after fires by suckering from living rootstocks. The exclusively neoformed leaves on such suckers are much larger than those found on mature trees, are conspicuously pubescent abaxially, and are similar enough to preformed and neoformed leaves of P. heterophylla that they are responsible for incorrect published reports of the latter in upland sites. Once suckers reach their second or third year and begin to branch, they start to bear at least some preformed leaves that clearly identify them as Bigtooth aspen. As far as is known, P. grandidentata and P. heterophylla never grow together at a single site.</discussion>
   <discussion>Bigtooth aspen hybridizes sporadically with the other native aspen, Populus tremuloides, to form P. ×smithii B. Boivin (synonym P. ×barnesii W. H. Wagner) throughout their large region of sympatry (Frère Marie-Victorin 1930; S. S. Pauley 1956; B. V. Barnes 1961; W. H. Wagner Jr. 1970). Leaves of the hybrids have more numerous, smaller, more rounded teeth than those of P. grandidentata. They may be found as far west as Niobrara River valley, Nebraska, 350 km west of the nearest present station of P. grandidentata.</discussion>
   <discussion>The related Eurasian white poplar, Populus alba Linnaeus, is commonly and widely planted throughout temperate North America as a pistillate clone with a spreading crown or, less often, as a columnar staminate clone, the Bolleana poplar (‘Pyramidalis’), both of which can persist after cultivation and even spread to a limited extent by root sprouts in old garden sites, roadsides, waste places, hedgerows, and edges of woods. This species differs from P. grandidentata (and all other species of the genus) in having neoformed leaf blades palmately 5-lobed and, along with the petioles, densely white-tomentose abaxially. Unlike all native species of Populus, white poplar has floral bract apices only shallowly cut; these are ciliate like those of native aspens. Populus alba hybridizes commonly with both P. grandidentata, forming P. ×rouleauiana B. Boivin, and P. tremuloides, forming P. ×heimburgeri B. Boivin, in southeastern Canada and the northeastern United States; the hybrids are progressively uncommon southward (E. L. Little Jr. et al. 1957; T. A. Spies and B. V. Barnes 1982). Although their leaves are tomentose abaxially, they differ from P. alba in not having the deeply 5-lobed neoformed leaves. Those of P. ×heimburgeri are shallowly 3-lobed, with apical lobes much larger than lateral ones, and those of P. ×rouleauiana are irregularly and compoundly toothed. With their prominently white-tomentose leaves abaxially, both hybrids are often misidentified as white poplar and are the basis for published reports of naturalized P. alba in sites away from present or former cultivation.</discussion>
   <discussion>The gray poplar, Populus ×canescens (Aiton) Smith, a natural hybrid between P. alba and the Eurasian aspen, P. tremula Linnaeus, is common and variable in Europe but usually represented by a single pistillate clone in North America. It is widely cultivated, persisting and spreading by root sprouts at former homesites, in waste places, and edges of woods. It is usually less frequent than P. alba, but mostly replaces white poplar in southeastern United States, where it is more widely established under semi-natural conditions. Neoformed leaves have a thin, grayish tomentum abaxially and are irregularly and coarsely toothed rather than 5-lobed, like those of P. alba. Populus ×tomentosa Carrière, from China, is a similar hybrid white poplar with larger leaves and two prominent, cup-shaped basilaminar glands that is rarely planted in southeastern United States in the form of a pistillate clone. It is derived from hybridization between P. alba and a Chinese aspen, P. adenopoda Maximowicz.</discussion>
   <discussion>Populus alba is similar to P. ×canescens in having resinous winter buds, branchlets and terminal buds that are densely to sparsely tomentose, leaf blade surfaces densely tomentose abaxially when young, retaining their dense tomentum on at least some intervein regions, and usually 5–8(–10) cm. Flowers are similar with discs narrowly cup-shaped, obviously oblique, catkins with floral bracts that are ciliate and apices shallowly cut, 6–12 stamens, the 2 stigmas filiform, and ovaries narrowly ovoid to lanceoloid. Capsules are similar in that they are usually 2-valved, lanceoloid or narrowly ovoid, and 2–7(–9) mm, with seeds (1 or) 2 (or 3) per placenta. The two taxa differ by P. alba having white hairs, neoformed blade margins deeply to shallowly (3 or) 5-lobed, catkin floral bracts densely tomentose, and (1 or) 2 (or 3) seeds per placenta; P. ×canescens has grayish, tannish, or dirty white (tomentose) hairs, neoformed blade margins irregularly toothed, and (3–)5–8 (or 9) seeds per placenta.</discussion>
-</treatment>
+</bio:treatment>

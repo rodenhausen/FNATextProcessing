@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>24b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>(S. Watson) O’Kane &amp; Al-Shehbaz</species_authority>
-    <subspecies_name>tuplashensis</subspecies_name>
-    <subspecies_authority>(Rollins, K. A. Beck &amp; Caplow) O’Kane &amp;
-            Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) O’Kane &amp; Al-Shehbaz" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rollins, K. A. Beck &amp; Caplow) O’Kane &amp;&#xA;            Al-Shehbaz" date="unknown">tuplashensis</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 322. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>White Bluffs bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>tuplashensis</species_name>
-    <species_authority>Rollins, K. A. Beck &amp; Caplow</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species douglasii;subspecies tuplashensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Rollins, K. A. Beck &amp; Caplow" date="unknown">tuplashensis</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>97: 203, fig. 107. 1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Cauline leaves imbricate, blade sometimes orbicular. Fruit valves: trichomes
-        stalked.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>caliche soil with sagebrush</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>300 m;</elevation>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Lesquerella;species tuplashensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24b.</number>
+  <other_name type="common_name">White Bluffs bladderpod</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>It is possible that subsp. tuplashensis is simply an ecotype, or that its phenotype
         is in response to its severe habitat on the White Bluffs of the Columbia River.</discussion>
-</treatment>
+</bio:treatment>

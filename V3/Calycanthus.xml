@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>CALYCANTHUS</genus_name><genus_authority>Linnaeus</genus_authority><place_of_publication><publication_title> Syst. Nat. ed. </publication_title><place_in_publication>10, 2: 1066. 1759, name conserved</place_in_publication></place_of_publication></TaxonIdentification><common_name>Strawberry-shrub</common_name><common_name> sweetshrub</common_name><common_name> spicebush </common_name><etymology>[Greek kályx, covering, cup, and anthos, flower]</etymology><TaxonIdentification Status="SYNONYM"><genus_name>Butneria</genus_name><genus_authority>Duhamel</genus_authority></TaxonIdentification><description>Twigs quadrangular to nearly terete, pubescent to glabrous. Buds naked. Leaves 2-ranked. Leaf blade elliptic, ovate, or ovate-lanceolate; surfaces adaxially scabrous. Flowers maroon or reddish brown, rarely greenish or green-tipped, with strawberry or pineapple scent. x = 11.</description><number_of_infrataxa>Species 3 (2 in the flora):</number_of_infrataxa><global_distribution> temperate North America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">CALYCANTHUS</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Nat. ed.</publication_title>
+      <place_in_publication>10, 2: 1066. 1759, name conserved</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus CALYCANTHUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek kályx, covering, cup, and anthos, flower]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Duhamel" date="unknown">Butneria</taxon_name>
+    <taxon_hierarchy>genus Butneria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Strawberry-shrub</other_name>
+  <other_name type="common_name">sweetshrub</other_name>
+  <other_name type="common_name">spicebush</other_name>
+  <discussion>Species 3 (2 in the flora):</discussion>
+</bio:treatment>

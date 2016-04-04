@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>58f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>manzanita</species_name>
-    <species_authority>Parry</species_authority>
-    <subspecies_name>roofii</subspecies_name>
-    <subspecies_authority>(Gankin) P. V. Wells</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">manzanita</taxon_name>
+    <taxon_name rank="subspecies" authority="(Gankin) P. V. Wells" date="unknown">roofii</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>19: 201.  1968  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Roof’s manzanita</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>roofii</species_name>
-    <species_authority>Gankin</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species manzanita;subspecies roofii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Gankin" date="unknown">roofii</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>10: 329.  1966</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants resprouting after fire; burl prominent; twigs glabrous or finely short-hairy.  Leaf blades dull to shiny green, not glaucous.  Inflorescences: axis 1+ mm diam.  Ovaries glandular-hairy, sometimes glabrous.  Fruits usually glandular-hairy, sometimes glabrous.  Stones distinct or partially connate into 1+ spheres.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Chaparral</habitat>
-  <elevation>800–1300 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species roofii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>58f.</number>
+  <other_name type="common_name">Roof’s manzanita</other_name>
   <discussion>Subspecies roofii is found mostly on the eastern slopes of the North Coast Range in Glenn and Lake counties, and on the western slope of Sierra Nevada in Butte County (where plants have ovaries and fruits that are glabrous).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,78 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>campestris</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>caudata</subspecies_name>
-    <subspecies_authority>(Michaux) H. M. Hall &amp; Clements</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">campestris</taxon_name>
+    <taxon_name rank="subspecies" authority="(Michaux) H. M. Hall &amp; Clements" date="unknown">caudata</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>326: 122. 1923</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species campestris;subspecies caudata;</taxon_hierarchy>
-  <common_name>Armoise caudée</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>caudata</species_name>
-    <species_authority>Michaux</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species campestris;subspecies caudata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">caudata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 129. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>forwoodii</species_name>
-    <species_authority>A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Biennials, 20–80(–150) cm. Stems usually 1. Leaves: basal rosettes not persistent (faces green and glabrous or sparsely white-pubescent). Heads in arrays 12–30(–35) × 1–8(–12) cm. Involucres turbinate, 2–3 × 2–3 mm.</description>
-  <habitat_info>
-    <text>open meadows , usually moist soils , sometimes sandy or rocky habitats ;</text>
-    <habitat>open meadows</habitat>
-    <habitat>moist soils</habitat>
-    <habitat>sandy rocky habitats</habitat>
-  </habitat_info>
-  <elevation>10–1000;</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Artemisia;species caudata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">forwoodii</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species forwoodii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
+  <other_name type="common_name">Armoise caudée</other_name>
   <discussion>A population of Artemisia campestris found in Massachusetts differs from populations of subsp. caudata by its smaller heads and multiple branched stems. That population is typical of subsp. campestris, formerly believed to be restricted to Europe.</discussion>
-  <phenology_info>
-    <text>Flowering early–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

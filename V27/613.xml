@@ -1,73 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rhabdoweisia</genus_name>
-    <species_name>crispata</species_name>
-    <species_authority>(Dickson ex Withering) Lindberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhabdoweisia</taxon_name>
+    <taxon_name rank="species" authority="(Dickson ex Withering) Lindberg" date="unknown">crispata</taxon_name>
     <place_of_publication>
       <publication_title>Acta. Soc. Sci. Fenn.</publication_title>
       <place_in_publication>10: 22. 1872,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bryum</genus_name>
-    <species_name>crispatum</species_name>
-    <species_authority>Dickson ex Withering</species_authority>
+    <taxon_hierarchy>genus Rhabdoweisia;species crispata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryum</taxon_name>
+    <taxon_name rank="species" authority="Dickson ex Withering" date="unknown">crispatum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Arr. Brit. Pl. ed.</publication_title>
       <place_in_publication>4, 3: 816. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhabdoweisia</genus_name>
-    <species_name>denticulata</species_name>
-    <species_authority>(Bridel) Bruch, Schimper &amp; W. Gümbel</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.5–1 cm, occasionally taller. Leaves 2–3.5 mm, crisped when dry, narrowly
-        lanceolate, gradually tapering to an acute apex, margins serrulate with small teeth
-        distally, distal cells subquadrate, 10–14 µm wide, often wider than long, somewhat
-        incrassate. Seta 2–4.5 mm. Capsule 0.7–1 mm; peristome teeth linear to linear-lanceolate,
-        broadened at base, smooth to striolate, perforate or irregular. Spores 15–21
-        µm.</description>
-  <phenology>Capsules mature summer.</phenology>
-  <habitat>Mainly on dampish, shaded cliffs;</habitat>
-  <elevation>1–2500 m;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>South America (Bolivia)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Pacific Islands (Hawaii, Juan Fernández Islands).</global_distribution>
+    <taxon_hierarchy>genus Bryum;species crispatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhabdoweisia</taxon_name>
+    <taxon_name rank="species" authority="(Bridel) Bruch, Schimper &amp; W. Gümbel" date="unknown">denticulata</taxon_name>
+    <taxon_hierarchy>genus Rhabdoweisia;species denticulata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>In eastern North America, Rhabdoweisia crispata exhibits a wide distribution from
         the coast to more continental areas, but on the Pacific coast it is primarily in
         near-coastal oceanic climates. It is distinguished from R. crenulata mainly on the basis of
@@ -77,4 +39,4 @@
         rehydrated, remaining somewhat collapsed until hydrated, and are quadrate to hexagonal. The
         leaves of R. crispata are serrulate with small teeth, while R. crenulata has dentate leaves
         with larger, widely spaced teeth.</discussion>
-</treatment>
+</bio:treatment>

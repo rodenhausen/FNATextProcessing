@@ -1,54 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>52.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DESCURAINIA</genus_name>
-    <genus_authority>Webb &amp; Berthelot</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Barbara E. Goodson,Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Descurainieae</taxon_name>
+    <taxon_name rank="genus" authority="Webb &amp; Berthelot" date="unknown">DESCURAINIA</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Îsles Canaries</publication_title>
       <place_in_publication>3(2,3): 72. 1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For François Descurain, 1658–1740, French botanist and apothecary]</etymology>
-  <conserved_name>name conserved</conserved_name>
-  <common_name>Tansy mustard</common_name>
-  <author>Barbara E. Goodson</author>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Huguenenia</genus_name>
-    <genus_authority>Reichenbach</genus_authority>
-    <other_info>name rejected</other_info>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sophia</genus_name>
-    <genus_authority>Adanson</genus_authority>
-    <other_info>name rejected</other_info>
-  </TaxonIdentification>
-  <description>Annuals, biennials, or perennials [shrubs, subshrubs]; not scapose; glabrous,
-    glabrate, or sparsely to densely pubescent, trichomes usually short-stalked, dendritic, rarely
-    also simple, sometimes mixed with unicellular, glandular, clavate papillae. Stems erect or
-    prostrate, unbranched or branched basally and/or distally. Leaves basal and cauline; petiolate
-    or sessile; basal (often withered by flowering), rosulate, petiolate, blade (1–3-pinnate),
-    margins entire or toothed; cauline petiolate or sessile, blade often similar to basal. Racemes
-    (proximally sometimes bracteate), elongated or not in fruit. Fruiting pedicels divaricate or
-    erect, slender. Flowers: sepals erect to spreading, ovate to oblong or linear; petals usually
-    obovate or oblanceolate, rarely oblong, (shorter to longer than sepals), claw obsolete or
-    distinct, (apex obtuse); stamens tetradynamous; filaments not dilated basally; anthers oblong to
-    ovate, (apex obtuse); nectar glands confluent, subtending bases of stamens, median glands
-    present. Fruits siliques or silicles, sessile, usually linear, oblong, clavate, or fusiform,
-    rarely ellipsoid or obovoid, smooth or torulose, terete; valves each often with distinct
-    midvein, usually glabrous, rarely pubescent; replum rounded; septum complete or perforated
-    (membranous, not veined or with 1–3 longitudinal veins); ovules 5–100 per ovary; style usually
-    absent, rarely distinct; stigma capitate. Seeds uniseriate or biseriate, plump, wingless, oblong
-    or ellipsoid; seed coat (minutely reticulate), usually mucilaginous when wetted; cotyledons
-    incumbent. x = 7.</description>
-  <number_of_infrataxa>Species 45–47 (14 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands (Canary Islands).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Descurainieae;genus DESCURAINIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For François Descurain, 1658–1740, French botanist and apothecary]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Reichenbach" date="unknown">Huguenenia</taxon_name>
+    <taxon_hierarchy>genus Huguenenia;</taxon_hierarchy>
+    <other_info_on_name>name rejected</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Adanson" date="unknown">Sophia</taxon_name>
+    <taxon_hierarchy>genus Sophia;</taxon_hierarchy>
+    <other_info_on_name>name rejected</other_info_on_name>
+  </taxon_identification>
+  <number>52.</number>
+  <other_name type="common_name">Tansy mustard</other_name>
+  <discussion>Species 45–47 (14 in the flora):</discussion>
   <discussion>Descurainia species are distributed in three major centers: North America (17
     species), South America (ca. 20 species), and the Canary Islands (7 species). Excluding D.
     sophioides, which extends into Siberia from arctic North America, three additional species are
@@ -103,153 +84,153 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits sparsely to densely pubescent at least when young.</statement>
+      <description type="morphology">Fruits sparsely to densely pubescent at least when young.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Perennials; fruiting pedicels 1.5–3 mm; fruits subappressed to rachises; styles
-        sparsely</statement>
+      <description type="morphology">Perennials; fruiting pedicels 1.5–3 mm; fruits subappressed to rachises; styles
+        sparsely</description>
       <determination>14. Descurainia torulosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Biennials; fruiting pedicels 6–31 mm; fruits not appressed to rachises; styles
-        glabrous; ovules 16–64 per ovary; Arizona, California, Nevada, New Mexico.</statement>
+      <description type="morphology">Biennials; fruiting pedicels 6–31 mm; fruits not appressed to rachises; styles
+        glabrous; ovules 16–64 per ovary; Arizona, California, Nevada, New Mexico.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Seeds biseriate; ovules 48–64 per ovary; fruits 1–1.3 mm wide; fruiting
-        pedicels</statement>
+      <description type="morphology">Seeds biseriate; ovules 48–64 per ovary; fruits 1–1.3 mm wide; fruiting
+        pedicels</description>
       <determination>1. Descurainia adenophora</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Seeds uniseriate; ovules 16–40 per ovary; fruits 0.7–1 mm wide; fruiting
-        pedicels</statement>
+      <description type="morphology">Seeds uniseriate; ovules 16–40 per ovary; fruits 0.7–1 mm wide; fruiting
+        pedicels</description>
       <determination>9. Descurainia obtusa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits glabrous.</statement>
+      <description type="morphology">Fruits glabrous.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits usually fusiform, obovate, clavate, or broadly ellipsoid, rarely broadly
-        linear (wider distally).</statement>
+      <description type="morphology">Fruits usually fusiform, obovate, clavate, or broadly ellipsoid, rarely broadly
+        linear (wider distally).</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits usually clavate, rarely broadly linear (wider distally); seeds biseriate;
-        ovules</statement>
+      <description type="morphology">Fruits usually clavate, rarely broadly linear (wider distally); seeds biseriate;
+        ovules</description>
       <determination>11. Descurainia pinnata</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Fruits fusiform, obovate, or broadly ellipsoid (sometimes clavate in D. paradisa );
+      <description type="morphology">Fruits fusiform, obovate, or broadly ellipsoid (sometimes clavate in D. paradisa );
         seeds uniseriate (sometimes biseriate in D. paradisa ); ovules 4–12 per ovary; valves each
-        with obscure midvein.</statement>
+        with obscure midvein.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruits long-acute basally and apically; styles (0.2–)0.3–0.6(–0.8) mm; stems
-        (1.3–)</statement>
+      <description type="morphology">Fruits long-acute basally and apically; styles (0.2–)0.3–0.6(–0.8) mm; stems
+        (1.3–)</description>
       <determination>3. Descurainia californica</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Fruits acute basally, obtuse apically; styles 0.05–0.3 mm; stems
-        (1–)1.5–3.2(–4.1)</statement>
+      <description type="morphology">Fruits acute basally, obtuse apically; styles 0.05–0.3 mm; stems
+        (1–)1.5–3.2(–4.1)</description>
       <determination>10. Descurainia paradisa</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Fruits linear (sometimes oblong in D. brevisiliqua ).</statement>
+      <description type="morphology">Fruits linear (sometimes oblong in D. brevisiliqua ).</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Perennials (short-lived); stems 0.1–0.15 dm; racemes not elongated in fruit;
-        ovules</statement>
+      <description type="morphology">Perennials (short-lived); stems 0.1–0.15 dm; racemes not elongated in fruit;
+        ovules</description>
       <determination>6. Descurainia kenheilii</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Annuals or biennials; stems (0.5–)0.9–12(–18) dm; racemes elongated considerably in
+      <description type="morphology">Annuals or biennials; stems (0.5–)0.9–12(–18) dm; racemes elongated considerably in
         fruit (sometimes slightly elongated in D. sophioides ); ovules 10–62 per ovary (6–12 in D.
-        nelsonii ).</statement>
+        nelsonii ).</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Fruits often strictly appressed to rachises; fruiting pedicels erect to
-        erect-ascending</statement>
+      <description type="morphology">Fruits often strictly appressed to rachises; fruiting pedicels erect to
+        erect-ascending</description>
       <determination>4. Descurainia incana</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Fruits not appressed to rachises; fruiting pedicels horizontal, divaricate, or
-        ascending.</statement>
+      <description type="morphology">Fruits not appressed to rachises; fruiting pedicels horizontal, divaricate, or
+        ascending.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf blades 2- or 3-pinnate; fruit septums appearing 2- or 3-veined</statement>
+      <description type="morphology">Leaf blades 2- or 3-pinnate; fruit septums appearing 2- or 3-veined</description>
       <determination>12. Descurainia sophia</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf blades usually 1-pinnate (rarely 2-pinnate in D. sophioides ); fruit septums
-        not veined.</statement>
+      <description type="morphology">Leaf blades usually 1-pinnate (rarely 2-pinnate in D. sophioides ); fruit septums
+        not veined.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Plants eglandular; fruits 3–8(–10) mm; petals 0.7–1.2 mm; seeds 0.5–0.8
-        mm.</statement>
+      <description type="morphology">Plants eglandular; fruits 3–8(–10) mm; petals 0.7–1.2 mm; seeds 0.5–0.8
+        mm.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Biennials; stems 6–11 dm, unbranched; ovules 10–28 per ovary; seeds</statement>
+      <description type="morphology">Biennials; stems 6–11 dm, unbranched; ovules 10–28 per ovary; seeds</description>
       <determination>2. Descurainia brevisiliqua</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Annuals; stems (0.7–)0.9–3.2(–4.5) dm, usually branched at or near</statement>
+      <description type="morphology">Annuals; stems (0.7–)0.9–3.2(–4.5) dm, usually branched at or near</description>
       <determination>8. Descurainia nelsonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Plants glandular or eglandular; fruits 8–30(–34) mm; petals 1.7–2.8 mm; seeds
-        0.9–1.5 mm.</statement>
+      <description type="morphology">Plants glandular or eglandular; fruits 8–30(–34) mm; petals 1.7–2.8 mm; seeds
+        0.9–1.5 mm.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Flowers overtopped by developing fruits; ovules 30–62 per ovary</statement>
+      <description type="morphology">Flowers overtopped by developing fruits; ovules 30–62 per ovary</description>
       <determination>13. Descurainia sophioides</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Flowers not overtopped by developing fruits; ovules 14–32 per ovary.</statement>
+      <description type="morphology">Flowers not overtopped by developing fruits; ovules 14–32 per ovary.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants canescent or not; cauline leaf blades: distal segments oblong to lanceolate,
-        or linear, margins dentate, denticulate or entire; fruits</statement>
+      <description type="morphology">Plants canescent or not; cauline leaf blades: distal segments oblong to lanceolate,
+        or linear, margins dentate, denticulate or entire; fruits</description>
       <determination>5. Descurainia incisa</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Plants not canescent; cauline leaf blades: distal segments linear or oblong,
-        margins entire; fruits straight or slightly curved</statement>
+      <description type="morphology">Plants not canescent; cauline leaf blades: distal segments linear or oblong,
+        margins entire; fruits straight or slightly curved</description>
       <determination>7. Descurainia longepedicellata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

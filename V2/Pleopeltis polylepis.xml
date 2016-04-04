@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd">
-    <number>2</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Pleopeltis</genus_name>
-        <species_name>polylepis</species_name>
-        <species_authority>(Roemer ex Kunze) T. Moore</species_authority>
-        <place_of_publication>
-            <publication_title>Index Fil.</publication_title>
-            <place_in_publication>348. 1862</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Polypodium</genus_name>
-        <species_name>polylepis</species_name>
-        <species_authority>Roemer ex Kunze</species_authority>
-        <place_of_publication>
-            <publication_title>Linnaea </publication_title>
-            <place_in_publication>13: 131. 1839</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-    <global_distribution>North America,</global_distribution>
-    <global_distribution>Mexico,</global_distribution>
-    <global_distribution>Central America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pleopeltis</taxon_name>
+    <taxon_name rank="species" authority="(Roemer ex Kunze) T. Moore" date="unknown">polylepis</taxon_name>
+    <place_of_publication>
+      <publication_title>Index Fil.</publication_title>
+      <place_in_publication>348. 1862</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pleopeltis;species polylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polypodium</taxon_name>
+    <taxon_name rank="species" authority="Roemer ex Kunze" date="unknown">polylepis</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>13: 131. 1839</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Polypodium;species polylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Hosta</genus_name><species_name>plantaginea</species_name><species_authority>(Lamarck) Ascherson</species_authority><place_of_publication>
-    <publication_title>Bot. Zeitung (Berlin)</publication_title>
-    <place_in_publication>21: 53. 1863</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>August-lily</common_name><common_name>fragrant plantain-lily</common_name><common_name>white plantain-lily</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Hemerocallis</genus_name><species_name>plantaginea</species_name><species_authority>Lamarck</species_authority><place_of_publication><publication_title>in J. Lamarck et al., Encycl. </publication_title><place_in_publication>3: 103. 1789</place_in_publication></place_of_publication></TaxonIdentification><description>Plants forming open clumps 60–90 × 45 cm; rhizomes not stoloniferous. Leaves: petiole erect, spreading, light green, to 25 cm; blade light yellowish green, orbiculate to cordate, 20–28 × 15–24 cm, base decurrent, apex acuminate; veins in 6–9 lateral pairs. Scape 60–80 cm. Inflorescences: racemes bright green, 10–15-flowered, stout, solid, to 25 cm; floral bracts large, greenish white, ovate-lanceolate, navicular; sterile bracts leafy, sparse. Flowers to 13 cm, fragrant; perianth long-tubular; tepals white, lobes sharply recurved; anthers yellow. Capsules large, elongate, apex pointed. 2n = 60.</description><phenology>late summer</phenology><phenology>aug</phenology><habitat>disturbed open areas</habitat><elevation>0–100 m;</elevation><introduced>introduced;</introduced><us_distribution>Pa.</us_distribution><us_distribution>expected elsewhere</us_distribution><global_distribution>se China.</global_distribution><discussion>Hosta plantaginea is widely cultivated for its fragrant white flowers, which open in late afternoon or evening. This showy species was the first Hosta cultivated in Europe, starting in 1784, and then in the New World. Following its introduction from China, it was planted by the thousands in public gardens and became known as Parisian funkia or hosta.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hosta</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Ascherson" date="unknown">plantaginea</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Zeitung (Berlin)</publication_title>
+      <place_in_publication>21: 53. 1863</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Hosta;species plantaginea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemerocallis</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">plantaginea</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Lamarck et al., Encycl.</publication_title>
+      <place_in_publication>3: 103. 1789</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hemerocallis;species plantaginea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">August-lily</other_name>
+  <other_name type="common_name">fragrant plantain-lily</other_name>
+  <other_name type="common_name">white plantain-lily</other_name>
+  <discussion>Hosta plantaginea is widely cultivated for its fragrant white flowers, which open in late afternoon or evening. This showy species was the first Hosta cultivated in Europe, starting in 1784, and then in the New World. Following its introduction from China, it was planted by the thousands in public gardens and became known as Parisian funkia or hosta.</discussion>
+</bio:treatment>

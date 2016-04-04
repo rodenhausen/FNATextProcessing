@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>4b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Iris</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Limniris</subgenus_name>
-        <subgenus_authority>(Tausch) Spach</subgenus_authority>
-        <place_of_publication>
-            <publication_title>Ann. Sci. Nat., Bot., sér.</publication_title>
-            <place_in_publication>3, 5: 99. 1846</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Beardless iris</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Iris</genus_name>
-        <section_name>Limniris</section_name>
-        <section_authority>Tausch</section_authority>
-        <place_of_publication>
-            <publication_title>Hort. Canal. </publication_title>
-            <place_in_publication>1. 1823</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <subgenus_name>Limniris</subgenus_name>
-        <subgenus_authority>(Tausch) Fuss</subgenus_authority>
-    </TaxonIdentification>
-    <description>sepals without beard, but with signal of crests or ridges, distinct lines or dots, or a patch of contrasting color</description>
-    <number_of_infrataxa>Species ca. 82 (31 in the flora)</number_of_infrataxa>
-    <global_distribution>North America</global_distribution>
-    <global_distribution>Eurasia</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">IRIDACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Iris</taxon_name>
+    <taxon_name rank="subgenus" authority="(Tausch) Spach" date="unknown">Limniris</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Sci. Nat., Bot., sér.</publication_title>
+      <place_in_publication>3, 5: 99. 1846</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family IRIDACEAE;genus Iris;subgenus Limniris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Iris</taxon_name>
+    <taxon_name rank="section" authority="Tausch" date="unknown">Limniris</taxon_name>
+    <place_of_publication>
+      <publication_title>Hort. Canal.</publication_title>
+      <place_in_publication>1. 1823</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Iris;section Limniris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="(Tausch) Fuss" date="unknown">Limniris</taxon_name>
+    <taxon_hierarchy>subgenus Limniris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4b.</number>
+  <other_name type="common_name">Beardless iris</other_name>
+  <discussion>Species ca. 82 (31 in the flora)</discussion>
+</bio:treatment>

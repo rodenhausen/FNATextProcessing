@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>orbiculata</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>oblonga</variety_name>
-    <variety_authority>(Haworth) de Candolle</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">orbiculata</taxon_name>
+    <taxon_name rank="variety" authority="(Haworth) de Candolle" date="unknown">oblonga</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de
                 Candolle, Prodr.</publication_title>
       <place_in_publication>3: 396. 1828,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cotyledon</genus_name>
-    <species_name>oblonga</species_name>
-    <species_authority>Haworth</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Cotyledon;species orbiculata;variety oblonga;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cotyledon</taxon_name>
+    <taxon_name rank="species" authority="Haworth" date="unknown">oblonga</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Pl. Succ.,</publication_title>
       <place_in_publication>106. 1812</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Shrubs, branching near base. Stems 10–18 mm diam., stiff. Leaves 2–4 pairs; blade
-        often red-edged, apex rounded, cuspidate, surfaces farinose [green]. Inflorescences:
-        peduncle stout, 2–5 dm, nearly leafless; cyme broad, 10–30-flowered. Pedicels pendent in
-        flower, erect in fruit, 1–3 cm. Flowers: sepals triangular, 2–5 mm; corolla tube 15–25 mm,
-        with hairy ring in proximal 1/4, lobes convolute in bud, [spreading] recoiled in anthesis,
-        10–15 × 6 mm; nectaries yellow, 2 mm wide; stamens 3 cm; epipetalous filaments adnate to
-        corolla in basal 1/4; anthers 2.5–3.5 mm; gynoecium green, 3 cm × 6 mm; pistils appressed,
-        tapering gradually into slender styles. 2n = 18.</description>
-  <phenology>Flowering early summer</phenology>
-  <habitat>Sage scrub</habitat>
-  <elevation>0–50 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>s Africa.</global_distribution>
+    <taxon_hierarchy>genus Cotyledon;species oblonga;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a.</number>
   <discussion>First collected in the flora area in 1917 by L. R. Abrams (6555, DS), Cotyledon
         orbiculata was locally common for years in coastal sage scrub on south-facing bluffs above
         Newport Bay, Orange County (R. V. Moran 1993, fig. 1), but with creeping urbanization is now
@@ -47,4 +39,4 @@
   <discussion>The plants are highly poisonous to goats and sheep, and the meat of animals killed
         by cotyledonosis remains toxic even after cooking (T. C. Fuller and E. McClintock
         1986).</discussion>
-</treatment>
+</bio:treatment>

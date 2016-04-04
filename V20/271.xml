@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>29b.1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Solidago</genus_name>
-        <species_name>arguta</species_name>
-        <species_authority>Aiton</species_authority>
-        <variety_name>caroliniana</variety_name>
-        <variety_authority>A. Gray</variety_authority>
-        <place_of_publication>
-            <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
-            <place_in_publication>1(2): 155. 1884</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Solidago</genus_name>
-        <species_name>arguta</species_name>
-        <subspecies_name>pseudoyadkinensis</subspecies_name>
-        <subspecies_authority>G. H. Morton</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Solidago</genus_name>
-        <species_name>boottii</species_name>
-        <species_authority>Hooker</species_authority>
-        <variety_name>caroliniana</variety_name>
-        <variety_authority>(A. Gray) Cronquist</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Solidago</genus_name>
-        <species_name>vaseyi</species_name>
-        <species_authority>A. Heller</species_authority>
-    </TaxonIdentification>
-    <description>leaves relatively less firm, basal tapering, glabrous. cypselae strigillose (at
-        least distally).</description>
-    <phenology>sep</phenology>
-    <phenology>fall</phenology>
-    <phenology>oct</phenology>
-    <habitat>Open woods, woodland borders, piney woods, open slopes, roadsides and
-        embankments;</habitat>
-    <global_distribution>0–1300+ m</global_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>Ky.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>Mo.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tenn.</us_distribution>
-    <us_distribution>Va.</us_distribution>
-    <us_distribution>W.Va.</us_distribution>
-    <discussion>Variety caroliniana is found predominantly in the southern Appalachians to the
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">arguta</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">caroliniana</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 155. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species arguta;variety caroliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">arguta</taxon_name>
+    <taxon_name rank="subspecies" authority="G. H. Morton" date="unknown">pseudoyadkinensis</taxon_name>
+    <taxon_hierarchy>genus Solidago;species arguta;subspecies pseudoyadkinensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">boottii</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">caroliniana</taxon_name>
+    <taxon_hierarchy>genus Solidago;species boottii;variety caroliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vaseyi</taxon_name>
+    <taxon_hierarchy>genus Solidago;species vaseyi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29b.1.</number>
+  <discussion>Variety caroliniana is found predominantly in the southern Appalachians to the
         Atlantic Coast and south into peninsular Florida.</discussion>
-</treatment>
+</bio:treatment>

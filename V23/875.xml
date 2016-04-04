@@ -1,136 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26hh.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Aulocystis</section_name>
-    <section_authority>Dumortier</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Peter W. Ball,Joy Mastrogiuseppe</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Dumortier" date="unknown">Aulocystis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Belg.,</publication_title>
       <place_in_publication>147. 1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>Peter W. Ball</author>
-  <author>Joy Mastrogiuseppe</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Ferrugineae</section_name>
-    <section_authority>(Tuckerman) Kükenthal</section_authority>
-  </TaxonIdentification>
-  <description>Plants cespitose, short to long rhizomatous, sometimes stoloniferous. Culms brown at
-    base, shorter than leaves. Leaves: basal sheaths not fibrous; sheath fronts membranous; blades
-    V-shaped in cross section when young, proximal leaf blades with lateral veins equally prominent,
-    distal leaf blades at least 2 mm, glabrous. Inflorescences racemose, with 2–8+ spikes; proximal
-    nonbasal bracts filiform or scalelike, sheathing at least 3 mm, longer than diameter of stem;
-    lateral spikes pistillate, androgynous, or, rarely, staminate, pedunculate, prophyllate,
-    pistillate scales ovoid, with not more than 25 perigynia; terminal spike staminate, androgynous,
-    or gynecandrous. Proximal pistillate scales dark brown to almost black, 1–3-veined, apex obtuse
-    to acuminate. Perigynia ascending or spreading, purplish black at least distally, or
-    black-mottled, veinless or weakly veined, sometimes with 2, strong, marginal veins, stipitate,
-    lanceolate to ovate, biconvex or trigonous in cross section, less than 10 mm, base tapered to
-    rounded, apex tapering or abruptly beaked, glabrous, setose, or hispidulous; beak straight, ±
-    bidentate. Stigmas (2–)3. Achenes trigonous, rarely biconvex, smaller than bodies of perigynia;
-    style deciduous.</description>
-  <number_of_infrataxa>Species probably over 50 (8 in the flora):</number_of_infrataxa>
-  <global_distribution>temperate and artic regions of North America and
-    Eurasia</global_distribution>
-  <global_distribution>primarily in temperate Asia.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Aulocystis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="(Tuckerman) Kükenthal" date="unknown">Ferrugineae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Ferrugineae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26hh.</number>
+  <discussion>Species probably over 50 (8 in the flora):</discussion>
   <references>
-    <reference> Ball, P. W. and M. Zoladz. 1994. The taxonomy of Carex petricosa
+    <reference>Ball, P. W. and M. Zoladz. 1994. The taxonomy of Carex petricosa
       (Cyperaceae) and related species in North America. Rhodora 96: 295–310.</reference>
-    <reference> Dietrich, W. 1967. Die Cytotaxonomie der Carex-Sektion Frigidae in Europa.
+    <reference>Dietrich, W. 1967. Die Cytotaxonomie der Carex-Sektion Frigidae in Europa.
       Feddes Repert. 75: 1–40.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia minutely papillose; pistillate scales minutely papillose at least at
-        center</statement>
+      <description type="morphology">Perigynia minutely papillose; pistillate scales minutely papillose at least at
+        center</description>
       <determination>336. Carex atrofusca</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia and pistillate scales not papillose.</statement>
+      <description type="morphology">Perigynia and pistillate scales not papillose.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Proximal bract sheaths expanded distally, (1.8–)2–3 mm wide at mouth, usually
-        with</statement>
+      <description type="morphology">Proximal bract sheaths expanded distally, (1.8–)2–3 mm wide at mouth, usually
+        with</description>
       <determination>334. Carex luzulifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Proximal bract sheaths cylindric or slightly expanded distally, less than 2 mm wide
-        at mouth, without or with narrow purple band at mouth.</statement>
+      <description type="morphology">Proximal bract sheaths cylindric or slightly expanded distally, less than 2 mm wide
+        at mouth, without or with narrow purple band at mouth.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Terminal spike gynecandrous</statement>
+      <description type="morphology">Terminal spike gynecandrous</description>
       <determination>330. Carex fuliginosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Terminal spike staminate or androgynous.</statement>
+      <description type="morphology">Terminal spike staminate or androgynous.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Distance from achene apex to perigynium beak tip less than 1.5 mm; exserted portion
-        of peduncle of proximal spike usually less than 1 cm.</statement>
+      <description type="morphology">Distance from achene apex to perigynium beak tip less than 1.5 mm; exserted portion
+        of peduncle of proximal spike usually less than 1 cm.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Widest leaf blades 3–6 mm wide; inflorescences more than 15 cm</statement>
+      <description type="morphology">Widest leaf blades 3–6 mm wide; inflorescences more than 15 cm</description>
       <determination>331. Carex albida</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Widest leaf blades 1.5–3(–4) mm wide; inflorescences usually less than
-        15</statement>
+      <description type="morphology">Widest leaf blades 1.5–3(–4) mm wide; inflorescences usually less than
+        15</description>
       <determination>333. Carex lemmonii</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Distance from achene apex to perigynium beak tip 1.5+ mm; exserted portion of
-        peduncle of proximal spike usually more than 1 cm, sometimes shorter.</statement>
+      <description type="morphology">Distance from achene apex to perigynium beak tip 1.5+ mm; exserted portion of
+        peduncle of proximal spike usually more than 1 cm, sometimes shorter.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia glabrous on faces.</statement>
+      <description type="morphology">Perigynia glabrous on faces.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Pistillate scales 3–5.8 mm; perigynia tapering to indistinct beak to
-        0.5</statement>
+      <description type="morphology">Pistillate scales 3–5.8 mm; perigynia tapering to indistinct beak to
+        0.5</description>
       <determination>329. Carex petricosa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Pistillate scales 1.9–3.5 mm; perigynia usually abruptly beaked to 0.5–</statement>
+      <description type="morphology">Pistillate scales 1.9–3.5 mm; perigynia usually abruptly beaked to 0.5–</description>
       <determination>335. Carex luzulina</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Perigynia setose or hispidulous on faces, sometimes sparsely.</statement>
+      <description type="morphology">Perigynia setose or hispidulous on faces, sometimes sparsely.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Perigynia without flat margins around achene, faces distinctly 3–9-veined, apex
-        tapering to indistinct beak to 0.5(–1) mm; leaf blades</statement>
+      <description type="morphology">Perigynia without flat margins around achene, faces distinctly 3–9-veined, apex
+        tapering to indistinct beak to 0.5(–1) mm; leaf blades</description>
       <determination>329. Carex petricosa (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Perigynia with narrow flat margins around achene, faces indistinctly veined, apex
-        tapering to abrupt beak to 0.5–1.5 mm; leaf blades 3–8</statement>
+      <description type="morphology">Perigynia with narrow flat margins around achene, faces indistinctly veined, apex
+        tapering to abrupt beak to 0.5–1.5 mm; leaf blades 3–8</description>
       <determination>332. Carex fissuricola</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

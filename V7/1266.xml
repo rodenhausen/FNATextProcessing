@@ -1,71 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodiopsis</genus_name>
-    <species_name>purpusii</species_name>
-    <species_authority>(Brandegee) Rollins</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodiopsis</taxon_name>
+    <taxon_name rank="species" authority="(Brandegee) Rollins" date="unknown">purpusii</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>206: 14. 1976</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>purpusii</species_name>
-    <species_authority>Brandegee</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodiopsis;species purpusii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="Brandegee" date="unknown">purpusii</taxon_name>
     <place_of_publication>
       <publication_title>Zoë</publication_title>
       <place_in_publication>5: 232. 1906 (as purpusi)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>kearneyi</species_name>
-    <species_authority>Rollins</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>purpusii</species_name>
-    <species_authority>(Brandegee) O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sisymbrium</genus_name>
-    <species_name>vernale</species_name>
-    <species_authority>(Wooton &amp; Standley) O. E. Schulz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>vernale</species_name>
-    <species_authority>Wooton &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; (often glaucous), glabrous throughout. Stems unbranched or branched
-        distally, 1.5–5(–7) dm. Basal leaves (soon withered); not rosulate; petiole 0.5–3 cm; blade
-        oblanceolate, 1.5–9 cm × 5–30 mm, margins pinnatifid to dentate-sinuate. Cauline leaves
-        (proximalmost) petiolate or (distal) sessile; blade (proximalmost) oblanceolate, (distal)
-        ovate to oblong, base subamplexicaul or auriculate, margins (proximalmost) pinnatifid to
-        dentate-sinuate, or (distal) entire. Racemes lax. Fruiting pedicels ascending to divaricate,
-        straight, 3–7(–10) mm. Flowers: sepals erect, green or purplish, 3–4.5 × 0.7–1.2 mm; petals
-        white, oblanceolate, 4–5.5 × 1–1.5 mm, claw 2–3 mm; median filament pairs 3–4 mm; anthers
-        ovate, 0.5–0.8 mm; gynophore 0.2–0.4 mm. Fruits divaricate to ascending or spreading,
-        straight or curved, torulose, 3–6.5 cm × 1–1.2 mm; ovules 46–114 per ovary; style
-        subclavate, 0.7–1.5 mm; stigma entire or obscurely 2-lobed. Seeds 0.9–1.2 × 0.5–0.7
-        mm.</description>
-  <phenology>feb</phenology>
-  <phenology>winter</phenology>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>juniper woodlands</habitat>
-  <habitat>rocky slopes</habitat>
-  <habitat>shale grounds</habitat>
-  <habitat>loose gypsum, barren areas</habitat>
-  <habitat>clay banks of rocky hillsides</habitat>
-  <habitat>shrub communities</habitat>
-  <elevation>1400–2100 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Thelypodium;species purpusii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">kearneyi</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species kearneyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="(Brandegee) O. E. Schulz" date="unknown">purpusii</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species purpusii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sisymbrium</taxon_name>
+    <taxon_name rank="species" authority="(Wooton &amp; Standley) O. E. Schulz" date="unknown">vernale</taxon_name>
+    <taxon_hierarchy>genus Sisymbrium;species vernale;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="Wooton &amp; Standley" date="unknown">vernale</taxon_name>
+    <taxon_hierarchy>genus Thelypodium;species vernale;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+</bio:treatment>

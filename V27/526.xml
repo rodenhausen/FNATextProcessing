@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Campylopus</genus_name>
-    <species_name>pilifer</species_name>
-    <species_authority>Bridel</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="Bridel" date="unknown">pilifer</taxon_name>
     <place_of_publication>
       <publication_title>Muscol. Recent., suppl.</publication_title>
       <place_in_publication>4: 72.  1818,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Campylopus</genus_name>
-    <species_name>leucotrichus</species_name>
-    <species_authority>Sullivant &amp; Lesquereux</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.5–3 cm long, in tufts, dirty green, olive green, or yellowish green, darker below, equally foliate, the fertile ones comose.  Leaves 4–7 mm, erect spreading or loosely appressed, lanceolate, ending in a straight, more or less long serrate hairpoint; alar cells not differentiated or strongly developed, inflated, thin-walled, hyaline or reddish; basal laminal cells hyaline, thin-walled, rectangular, forming a V-shaped area; distal laminal cells oval to rhomboidal, ca. 2:1; costa filling 1/2–3/4 of leaf width, excurrent in a hairpoint, in transverse section showing adaxial hyalocysts and abaxial groups of stereids, abaxially with lamellae 3–4 cells high.  Specialized asexual reproduction occasionally by deciduous stem tips.  Seta often aggregated, about 5 mm, sinuose.  Capsule 1.5 mm, slightly asymmetric, furrowed when dry, brownish; operculum rostrate.  Calyptra fringed at base.  Spores ca. 13 µm.</description>
-  <habitat>Acidic sandy soil and acidic rocks (sandstone, granite), rock crevices, exposed, dry habitats;</habitat>
-  <elevation>50–1500 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>s</global_distribution>
-  <global_distribution>w Europe</global_distribution>
-  <global_distribution>Asia (Sri Lanka)</global_distribution>
-  <global_distribution>c Africa.</global_distribution>
+    <taxon_hierarchy>genus Campylopus;species pilifer;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="Sullivant &amp; Lesquereux" date="unknown">leucotrichus</taxon_name>
+    <taxon_hierarchy>genus Campylopus;species leucotrichus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
   <discussion>The distribution of Campylopus pilifer in tropical America, tropical Africa, and Sri Lanka (but not other parts of Asia) suggests a Gondwanaland origin, from where the species has extended its range into warmer parts of North America and southwestern Europe.  Until 30 years ago this species was not distinguished from C. introflexus, and accordingly all old references from North America must be referred to C. pilifer.  The true C. introflexus has been a neophyte in North America since 1975.</discussion>
-</treatment>
+</bio:treatment>

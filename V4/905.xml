@@ -1,48 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Blutaparon</genus_name>
-        <species_name>vermiculare</species_name>
-        <species_authority>(Linnaeus) Mears</species_authority>
-        <place_of_publication>
-            <publication_title>Taxon</publication_title>
-            <place_in_publication>31: 113. 1982</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Silverweed</common_name>
-    <common_name>saltweed</common_name>
-    <common_name>samphire</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Gomphrena</genus_name>
-        <species_name>vermicularis</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>1: 224. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Philoxerus</genus_name>
-        <species_name>vermicularis</species_name>
-        <species_authority>(Linnaeus)R Brown ex Smith</species_authority>
-    </TaxonIdentification>
-    <description>Plants perennial or occasionally annual, 3–20 dm. Stems mostly prostrate with
-        ascending branches, much-branched, gla-brous. Leaf blades linear to linear lanceolate or
-        oblanceolate, 15–55 × 2–12 mm. Inflorescences: heads white or pinkish (drying silvery
-        white), globose or cylindric, 7–30 × 7–10 mm; bracteoles slightly shorter than flowers.
-        Flowers very short-pedicellate; tepals connate basally, white, oblong, dorsiventrally
-        compressed, thickened basally, 3–5 mm, chartaceous, apex of outer tepals obtuse, apex of
-        inner tepals acute, spinose-tipped, densely villose. Utricles indehiscent or splitting
-        irregularly, included in tepals, 1.3 mm. Seeds 0.8–1 mm.</description>
-    <habitat>saline soils</habitat>
-    <habitat>sands of beaches</habitat>
-    <habitat>dunes</habitat>
-    <habitat>sand bars</habitat>
-    <elevation>0–10 m;</elevation>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico</global_distribution>
-    <global_distribution>Central America.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">AMARANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Blutaparon</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Mears" date="unknown">vermiculare</taxon_name>
+    <place_of_publication>
+      <publication_title>Taxon</publication_title>
+      <place_in_publication>31: 113. 1982</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AMARANTHACEAE;genus Blutaparon;species vermiculare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gomphrena</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vermicularis</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 224. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Gomphrena;species vermicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Philoxerus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus)R Brown ex Smith" date="unknown">vermicularis</taxon_name>
+    <taxon_hierarchy>genus Philoxerus;species vermicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Silverweed</other_name>
+  <other_name type="common_name">saltweed</other_name>
+  <other_name type="common_name">samphire</other_name>
+</bio:treatment>

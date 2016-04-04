@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Thelypteris</genus_name><subgenus_name>Amauropelta</subgenus_name><subgenus_authority>(Kunze) A. R. Smith</subgenus_authority><place_of_publication><publication_title>Amer. Fern J.</publication_title><place_in_publication>63: 121. 1973</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><subgenus_name>Amauropelta</subgenus_name><subgenus_authority>Kunze</subgenus_authority><place_of_publication><publication_title>Farrnkräuter </publication_title><place_in_publication>1: 109. 1843</place_in_publication></place_of_publication></TaxonIdentification><description>Distinguished from other subgenera by the combination of evergreen leaves, suberect to erect stems hidden by old petiole bases, veins meeting margin above the sinuses, and the generally greatly reduced proximal pinnae.  x  = 29.</description><discussion>Thelypteris resinifera is included in the genus Amauropelta by some workers.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypteris</taxon_name>
+    <taxon_name rank="subgenus" authority="(Kunze) A. R. Smith" date="unknown">Amauropelta</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Fern J.</publication_title>
+      <place_in_publication>63: 121. 1973</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Thelypteris;subgenus Amauropelta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Kunze" date="unknown">Amauropelta</taxon_name>
+    <place_of_publication>
+      <publication_title>Farrnkräuter</publication_title>
+      <place_in_publication>1: 109. 1843</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>subgenus Amauropelta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b</number>
+  <discussion>Thelypteris resinifera is included in the genus Amauropelta by some workers.</discussion>
+</bio:treatment>

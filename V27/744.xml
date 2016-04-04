@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Weissia</genus_name>
-    <species_name>inoperculata</species_name>
-    <species_authority>(H. A. Crum) H. A. Crum, Steere &amp; L. E. Anderson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="(H. A. Crum) H. A. Crum, Steere &amp; L. E. Anderson" date="unknown">inoperculata</taxon_name>
     <place_of_publication>
       <publication_title>Bryologist</publication_title>
       <place_in_publication>67: 164. 1973,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hymenostomum</genus_name>
-    <species_name>inoperculatum</species_name>
-    <species_authority>H. A. Crum</species_authority>
+    <taxon_hierarchy>genus Weissia;species inoperculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hymenostomum</taxon_name>
+    <taxon_name rank="species" authority="H. A. Crum" date="unknown">inoperculatum</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>14: 74, figs. 1–6. 1957</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves elliptic, base weakly or not differentiated in shape, shoulders absent,
-        distal laminal margins plane to erect, rarely incurved, apex plane, acute to rounded-acute,
-        mucro usually strong, of (3–)4–6(–7) cells; costal adaxial stereid band smaller than the
-        abaxial; distal laminal cells 8–10(–13) µm wide. Sexual condition dioicous (perigoniate
-        plants mixed with the archegoniate). Seta elongate, 0.2–0.3 cm. Capsule cleistocarpic,
-        short-elliptic, operculum weakly differentiated, peristome absent.</description>
-  <phenology>Capsules mature Feb.</phenology>
-  <habitat>Garden, soil;</habitat>
-  <elevation>moderate elevation;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Hymenostomum;species inoperculatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
   <discussion>Weissia inoperculata is known only from the type specimen (Stanford University,
         Santa Clara County). It has a gametophyte much like that of Trichostomum brachydontium and
         may prove better placed in Trichostomum. The operculum is weakly marked off by a ring of
@@ -60,4 +56,4 @@
   <discussion>Weissia wimmeriana (Sendtner) Bruch &amp; Schimper</discussion>
   <discussion>This is a European species whose report from Minnesota, according to A. L. Andrews
         (1933) was based on material of Weissia controversa.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,23 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>17.</number><TaxonIdentification Status="ACCEPTED"><genus_name>KOCHIA</genus_name><genus_authority>Kochia Roth</genus_authority><place_of_publication>
-    <publication_title>J. Bot. (Schrader)</publication_title>
-    <place_in_publication>1800(1): 307. 1801</place_in_publication>
-  </place_of_publication></TaxonIdentification><etymology>[For W. D. J. Koch, 1771–1849, German naturalist and physician]</etymology><author>Sergei L. Mosyakin</author><TaxonIdentification Status="SYNONYM"><genus_name>Bassia</genus_name><genus_authority>Allioni</genus_authority><section_name>Kochia</section_name><section_authority>(Roth) A. J. Scott</section_authority></TaxonIdentification><description>Herbs and subshrubs, annual or perennial, glabrous or densely tomentose-sericeous. Stems erect, ascending, or prostrate, simple or branched, not jointed, not armed, not fleshy; branches alternate [proximal sometimes almost opposite]. Leaves alternate [rarely proximal almost opposite], sessile (sometimes narrowed into pseudopetiole); blade obovate-lanceolate, lanceolate, linear, or filiform, flat or semiterete, base truncate, margins entire, apex rounded. Inflorescences terminal, spicate or paniculately branched; flowers solitary or in 2–5-flowered clusters in axils of bracts; bracts leaflike. Flowers bisexual or pistillate, sessile; perianth segments 5, with horizontal, membranous wing [sometimes reduced to slightly winged tubercles] adaxially; stamens 5; stigmas 2–3. Fruiting structures: perianth covering utricles at maturity, utricles compressed-spheric or compressed-elliptic; pericarp free or nearly so, membranous. Seeds wedge-shaped; seed coat dull brown, slightly ribbed; embryo annular; perisperm copious. x = 9.</description><number_of_infrataxa>Species 13–16 (3 in the flora):</number_of_infrataxa><global_distribution>North America</global_distribution><global_distribution>Eurasia</global_distribution><global_distribution>Africa</global_distribution><global_distribution>some species nearly worldwide (as introduced).</global_distribution><discussion>Kochia occurs mostly in steppe, desert, and semidesert zones.</discussion><references>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Sergei L. Mosyakin</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Kochia Roth" date="unknown">KOCHIA</taxon_name>
+    <place_of_publication>
+      <publication_title>J. Bot. (Schrader)</publication_title>
+      <place_in_publication>1800(1): 307. 1801</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus KOCHIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For W. D. J. Koch, 1771–1849, German naturalist and physician]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Allioni" date="unknown">Bassia</taxon_name>
+    <taxon_name rank="section" authority="(Roth) A. J. Scott" date="unknown">Kochia</taxon_name>
+    <taxon_hierarchy>genus Bassia;section Kochia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <discussion>Species 13–16 (3 in the flora):</discussion>
+  <discussion>Kochia occurs mostly in steppe, desert, and semidesert zones.</discussion>
+  <references>
     <reference>Blackwell, W. H., M. D. Baechle, and G. Williamson. 1978. Synopsis of Kochia (Chenopodiaceae) in North America. Sida 7: 248–254.</reference>
-  </references><key><key_statement>
+  </references>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annual herbs; proximal cauline leaves usually (1–)3–5-veined, distinctly cuneate at base,sometimes narrowed into pseudopetiole [17a.Kochiasect. Semibassia ]</statement>
+      <description type="morphology">Annual herbs; proximal cauline leaves usually (1–)3–5-veined, distinctly cuneate at base,sometimes narrowed into pseudopetiole [17a.Kochiasect. Semibassia ]</description>
       <determination>1. Kochia scoparia</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Subshrubs, stem bases woody; all leaves 1-veined (or vein ob scure), sessile [17b.Kochiasect. Neokochia ]</statement>
+      <description type="morphology">Subshrubs, stem bases woody; all leaves 1-veined (or vein ob scure), sessile [17b.Kochiasect. Neokochia ]</description>
       <next_statement_id>2.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Stems abundantly branched near base, distal parts simple or nearly so, finely white-tomentose or becoming glabrous; leaves usually overlapping</statement>
+      <description type="morphology">Stems abundantly branched near base, distal parts simple or nearly so, finely white-tomentose or becoming glabrous; leaves usually overlapping</description>
       <determination>3. Kochia americana</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2. ###</statement_id>
-      <statement>Stems solitary or little-branched at base, branched throughout, grayish or brownishpuberulent; leaves generally not overlapping</statement>
+      <description type="morphology">Stems solitary or little-branched at base, branched throughout, grayish or brownishpuberulent; leaves generally not overlapping</description>
       <determination>2. Kochia californica</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>57b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>newberryi</species_name>
-    <species_authority>A. Gray</species_authority>
-    <subspecies_name>yesicola</subspecies_name>
-    <subspecies_authority>(Sivinski) O’Kane</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">newberryi</taxon_name>
+    <taxon_name rank="subspecies" authority="(Sivinski) O’Kane" date="unknown">yesicola</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>17: 381. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>newberryi</species_name>
-    <variety_name>yesicola</variety_name>
-    <variety_authority>Sivinski</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species newberryi;subspecies yesicola;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">newberryi</taxon_name>
+    <taxon_name rank="variety" authority="Sivinski" date="unknown">yesicola</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>18: 673, fig. 1. 1999</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants mound-forming. Caudex diffusely branched. Styles 5–9 mm, longer than fruit sinus.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <habitat>gypsiferous soils of the yeso formation in the sierra lucero range and mesa lucero, sandy and silty soil</habitat>
-  <habitat>associated with singleseed juniper</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>1700–2100 m;</elevation>
-  <us_distribution>N.Mex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Physaria;species newberryi;variety yesicola;</taxon_hierarchy>
+  </taxon_identification>
+  <number>57b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

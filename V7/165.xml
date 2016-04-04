@@ -1,53 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>95b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>alaxensis</species_name>
-    <species_authority>(Andersson) Coville</species_authority>
-    <variety_name>longistylis</variety_name>
-    <variety_authority>(Rydberg) C. K. Schneider</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="(Andersson) Coville" date="unknown">alaxensis</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) C. K. Schneider" date="unknown">longistylis</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>1: 225. 1920</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>longistylis</species_name>
-    <species_authority>Rydberg</species_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species alaxensis;variety longistylis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">longistylis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. New York Bot. Gard.</publication_title>
       <place_in_publication>2: 163. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>alaxensis</species_name>
-    <subspecies_name>longistylis</subspecies_name>
-    <subspecies_authority>(Rydberg) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, 1–4 m. Stems: branches yellow-brown or red-brown, glabrous or sparsely villous; branchlets strongly glaucous, glabrescent or sparsely villous. Largest medial leaves: midrib prominent, sparsely pubescent to glabrescent, abaxial surface noticeably glaucous or not. Catkins: pistillate 37–103 × 8–20 mm, flowering branchlet 0–13 mm.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>pioneer thickets on river alluvium and glacial moraines</habitat>
-  <habitat>subalpine thickets</habitat>
-  <habitat>alpine tundra</habitat>
-  <habitat>moist to mesic talus slopes</habitat>
-  <habitat>forest openings</habitat>
-  <elevation>0–2000 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Salix;species longistylis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">alaxensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) Hultén" date="unknown">longistylis</taxon_name>
+    <taxon_hierarchy>genus Salix;species alaxensis;subspecies longistylis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>95b.</number>
   <discussion>Variety longistylis differs from var. alaxensis mainly in its glaucous and less densely hairy branchlets. Some specimens of var. alaxensis, in which the indumentum has been partially removed by wind erosion, show that they, too, have glaucous branchlets. The only fundamental difference between the two may be density of branchlet indumentum. Other differences, which appear in varietal descriptions, may represent inadequate sampling. These taxa sometimes intergrade and var. longistylis may not be worthy of taxonomic recognition. It is included here only because of very conspicuous differences between the extremes.</discussion>
   <discussion>Hybrids:</discussion>
   <discussion>Variety longistylis forms natural hybrids with Salix sitchensis.</discussion>
   <discussion>Variety longistylis × Salix sitchensis grows with both parents at the mouth of the Twentyfour Mile River, south-central Alaska. The plants resemble var. longistylis in having relatively long styles and stigmas, oblong nectaries, and sparsely hairy branchlets, and S. sitchensis in having brittle branches, weakly glaucous branchlets, hairs sparse and crinkled, and ovaries with straight hairs. Fruits were set but no seed developed.</discussion>
-</treatment>
+</bio:treatment>

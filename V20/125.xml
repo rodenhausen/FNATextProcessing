@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>24a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ericameria</genus_name><species_name>palmeri</species_name><species_authority>(A. Gray) H. M. Hall</species_authority><variety_name>pachylepis</variety_name><variety_authority>(H. M. Hall) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>67: 104. 1989</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Thickbracted goldenbush</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Haplopappus</genus_name><species_name>palmeri</species_name><species_authority>A. Gray</species_authority><subspecies_name>pachylepis</subspecies_name><subspecies_authority>H. M. Hall</subspecies_authority><place_of_publication><publication_title>Publ. Carnegie Inst. Wash. </publication_title><place_in_publication>389: 267, fig. 96. 1928</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ericameria</genus_name><species_name>ericoides</species_name><species_authority>(Lessing) Jepson</species_authority><variety_name>pachylepis</variety_name><variety_authority>(H. M. Hall) Hoover</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>H.</genus_name><species_name>palmeri</species_name><species_authority>A. Gray</species_authority><variety_name>pachylepis</variety_name><variety_authority>(H. M. Hall) Munz</variety_authority></TaxonIdentification><description>Plants 50–150 cm. Leaves 8–20(–30) mm, circular to flattened in cross section; axillary leaves 2–10 per fascicle. Phyllaries: midnerves typically not evident on proximal 1/2, outer and mid subapical resin ducts strongly thickened. Florets 6–12(–14). 2n = 18.</description><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>sandy or somewhat clayey soils</habitat><elevation>100–800 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Variety pachylepis ranges from Riverside to Ventura counties.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ericameria</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) H. M. Hall" date="unknown">palmeri</taxon_name>
+    <taxon_name rank="variety" authority="(H. M. Hall) G. L. Nesom" date="unknown">pachylepis</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>67: 104. 1989</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Ericameria;species palmeri;variety pachylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">palmeri</taxon_name>
+    <taxon_name rank="subspecies" authority="H. M. Hall" date="unknown">pachylepis</taxon_name>
+    <place_of_publication>
+      <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
+      <place_in_publication>389: 267, fig. 96. 1928</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Haplopappus;species palmeri;subspecies pachylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ericameria</taxon_name>
+    <taxon_name rank="species" authority="(Lessing) Jepson" date="unknown">ericoides</taxon_name>
+    <taxon_name rank="variety" authority="(H. M. Hall) Hoover" date="unknown">pachylepis</taxon_name>
+    <taxon_hierarchy>genus Ericameria;species ericoides;variety pachylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">H.</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">palmeri</taxon_name>
+    <taxon_name rank="variety" authority="(H. M. Hall) Munz" date="unknown">pachylepis</taxon_name>
+    <taxon_hierarchy>genus H.;species palmeri;variety pachylepis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>24a.</number>
+  <other_name type="common_name">Thickbracted goldenbush</other_name>
+  <discussion>Variety pachylepis ranges from Riverside to Ventura counties.</discussion>
+</bio:treatment>

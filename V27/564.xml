@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dicranoweisia</genus_name>
-    <species_name>cirrata</species_name>
-    <species_authority>(Hedwig) Lindberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranoweisia</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Lindberg" date="unknown">cirrata</taxon_name>
     <place_of_publication>
       <publication_title>in C. Milde, Bryol. Siles.,</publication_title>
       <place_in_publication>49.  1869,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>cirrata</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Dicranoweisia;species cirrata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">cirrata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>69.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves crisped and incurved when dry, margins plane to narrowly incurved or recurved at middle, 1-stratose except on margins in distal half, cells smooth; alar cells undifferentiated.  Specialized asexual reproduction frequent, multicellular gemmae frequent on abaxial surface of leaves.  Capsule with annulus of 1–3 rows of somewhat separating cells; peristome smooth basally, papillose distally.</description>
-  <phenology>Capsules mature late fall–winter.</phenology>
-  <habitat>Forming short turf or tufts on tree trunks and decorticated logs, rarely in rock crevices;</habitat>
-  <elevation>1–1900 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash</us_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Weissia;species cirrata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">spathulifolium</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">spathulifolium</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species spathulifolium;variety spathulifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">purdyi</taxon_name>
+    <taxon_hierarchy>genus Sedum;species purdyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spathulifolium</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton) R. T. Clausen &amp; C. H. Uhl" date="unknown">anomalum</taxon_name>
+    <taxon_hierarchy>genus Sedum;species spathulifolium;subspecies anomalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spathulifolium</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) R. T. Clausen" date="unknown">purdyi</taxon_name>
+    <taxon_hierarchy>genus Sedum;species spathulifolium;subspecies purdyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spathulifolium</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton) R. T. Clausen" date="unknown">yosemitense</taxon_name>
+    <taxon_hierarchy>genus Sedum;species spathulifolium;subspecies yosemitense;</taxon_hierarchy>
+  </taxon_identification>
   <number>41a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>spathulifolium</species_name>
-    <species_authority>Hooker</species_authority>
-    <variety_name>spathulifolium</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>purdyi</species_name>
-    <species_authority>Jepson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>spathulifolium</species_name>
-    <subspecies_name>anomalum</subspecies_name>
-    <subspecies_authority>(Britton) R. T. Clausen &amp; C. H. Uhl</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>spathulifolium</species_name>
-    <subspecies_name>purdyi</subspecies_name>
-    <subspecies_authority>(Jepson) R. T. Clausen</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>spathulifolium</species_name>
-    <subspecies_name>yosemitense</subspecies_name>
-    <subspecies_authority>(Britton) R. T. Clausen</subspecies_authority>
-  </TaxonIdentification>
-  <description>Primary rosettes 2.5–3.7 cm diam.  Leaf blades sometimes glaucous and appearing blue-green, not pruinose, with mealy covering, 1.4–2.1 mm thick.  Flowers 1.2–1.6 cm diam.</description>
-  <phenology>Flowering spring–summer</phenology>
-  <habitat>Shaded situations and glades on cliffs and rocky slopes</habitat>
-  <elevation>0–1600 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
   <discussion>The degree of waxy or powdery secretions on the leaf surface is variable.  Individuals with powdery secretions grow on sea cliffs in California, Oregon, and Washington and are here recognized as var. pruinosum.  Plants lacking powdery secretions but varying in degree of waxy secretions, which occur in the Sierra Nevada, Klamath Mountains, and Transverse Ranges of California, have been recognized as distinct subspecies by some authors.  Of those, subsp. yosemitense has leaves loosely arranged in rosettes and is found in the central and southern Sierra Nevada and Transverse Ranges.  Subspecies purdyi has a glaucous bloom and compact rosettes and is found in the northern Sierra Nevada and Klamath Mountains of northern California and southern Oregon.  It has long stolons and enlarged papillae on the leaf margins; subsp. yosemitense has fewer, shorter stolons and lacks the marginal papillae.  Further biosystematic studies are needed to determine whether subspp. yosemitense and purdyi should be recognized as infraspecific taxa.</discussion>
-</treatment>
+</bio:treatment>

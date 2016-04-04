@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pentachaeta</genus_name><species_name>bellidiflora</species_name><species_authority>Greene</species_authority><place_of_publication>
-    <publication_title>Bull. Calif. Acad. Sci.</publication_title>
-    <place_in_publication>1: 86. 1885</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>White-rayed pentachaeta</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Chaetopappa</genus_name><species_name>bellidiflora</species_name><species_authority>(Greene) D. D. Keck</species_authority></TaxonIdentification><description>Plants 6–17 cm. Stems simple or with 1–2 primary branches, glabrous or sparsely hirsuto-pilose. Leaf blades linear, 8–45 × ca. 1 mm (glabrous or margins ciliate). Involucres campanulate. Phyllaries in 2–3 series, elliptic to obovate, glabrous. Ray florets 5–16; corollas white, sometimes reddish-tinged abaxially, laminae 3–6 mm. Disc florets 16–38; corollas yellow, narrowly funnelform, not contracted at lobes, lobes 5. Pappi usually of 5 bristles slightly or not dilated at bases, rarely 0. 2n = 18.</description><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>grassy, rocky areas</habitat><conservation>of conservation concern;</conservation><elevation>0–700 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Pentachaeta bellidiflora grows in the San Francisco Bay region.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pentachaeta</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">bellidiflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 86. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Pentachaeta;species bellidiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chaetopappa</taxon_name>
+    <taxon_name rank="species" authority="(Greene) D. D. Keck" date="unknown">bellidiflora</taxon_name>
+    <taxon_hierarchy>genus Chaetopappa;species bellidiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">White-rayed pentachaeta</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Pentachaeta bellidiflora grows in the San Francisco Bay region.</discussion>
+</bio:treatment>

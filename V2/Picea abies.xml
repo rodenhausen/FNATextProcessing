@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1</number><TaxonIdentification Status="ACCEPTED"><genus_name>Picea</genus_name><species_name>abies</species_name><species_authority>(Linnaeus) H. Karsten</species_authority><place_of_publication><publication_title>Deut. Fl.</publication_title><place_in_publication>2/3: 324. 1881</place_in_publication></place_of_publication></TaxonIdentification><common_name>Norway spruce</common_name><common_name> épinette de Norvège</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Pinus</genus_name><species_name>abies</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>2: 1002. 1753</place_in_publication></place_of_publication></TaxonIdentification><description>Trees  to 30m; trunk to 2m diam.; crown conic.  Bark  gray-brown, scaly.  Branches  short and stout, the upper ascending, the lower drooping; twigs stout, reddish brown, usually glabrous.  Buds  reddish brown, 5--7mm, apex acute.  Leaves  1--2.5cm, 4-angled in cross section, rigid, light to dark green, bearing stomates on all surfaces, apex blunt-tipped.  Seed cones  (10--)12--16cm; scales diamond-shaped, widest near middle, 18--30 × 15--20mm, thin and flexuous, margin at apex erose to toothed, apex extending 6--10mm beyond seed-wing impression. 2 n =24.</description><discussion>Norway spruce, native to Europe, has become locally naturalized, at least in north central United States (and adjacent Canada). The species is the most widely cultivated spruce in North America; many cultivars exist, including dwarf shrubs.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Picea</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) H. Karsten" date="unknown">abies</taxon_name>
+    <place_of_publication>
+      <publication_title>Deut. Fl.</publication_title>
+      <place_in_publication>2/3: 324. 1881</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Picea;species abies;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">abies</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 1002. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pinus;species abies;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1</number>
+  <other_name type="common_name">Norway spruce</other_name>
+  <other_name type="common_name">épinette de Norvège</other_name>
+  <discussion>Norway spruce, native to Europe, has become locally naturalized, at least in north central United States (and adjacent Canada). The species is the most widely cultivated spruce in North America; many cultivars exist, including dwarf shrubs.</discussion>
+</bio:treatment>

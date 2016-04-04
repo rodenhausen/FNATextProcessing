@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>CHAPTALIA</genus_name>
-    <genus_authority>Ventenat</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Guy L. Nesom</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Mutisieae</taxon_name>
+    <taxon_name rank="genus" authority="Ventenat" date="unknown">CHAPTALIA</taxon_name>
     <place_of_publication>
       <publication_title>Descr. Pl. Nouv., plate</publication_title>
       <place_in_publication>61. 1802</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus CHAPTALIA;</taxon_hierarchy>
-  <etymology>[For J. A. C. Chaptal, 1756–1831, who invented the wine-making process called chaptalization]</etymology>
-  <conserved_name>name conserved</conserved_name>
-  <author>Guy L. Nesom</author>
-  <description>Perennials, 3–40(–100) cm (fibrous-rooted, sometimes rhizomatous; stems ± scapiform). Leaves basal; sessile or ± petiolate; blades elliptic or elliptic-obovate to obovate, obovate-elliptic, ovate, or sublyrate, bases cuneate, margins entire or denticulate, serrulate, or dentate to lobed, abaxial faces usually covered with dense wool, adaxial faces glabrous or glabrescent. Heads quasi-radiate or ± disciform (see florets; chasmogamous, produced well after rosette leaves, erect in flowering, nodding or erect in bud and again in fruit), borne singly. Involucres cylindric to campanulate, (7–)9–15+ mm (larger in fruit). Phyllaries in 2–5+ series, lanceolate to lance-linear, unequal, apices acute. Receptacles flat to convex, foveolate or smooth, glabrous, epaleate. Florets (dimorphic or trimorphic in 1–2 outer, pistillate zones plus 1 inner, bisexual or functionally staminate zone): outer pistillate-zone florets 9–38(–90+) in 1–2(–3) series, fertile, corollas creamy white to purple (sometimes with adaxial midstripe), zygomorphic (liguliform or bilabiate, inner lip often bifurcate, limbs sometimes reduced, style branches terete and linear to flattened and oblong); inner pistillate-zone florets 0 or 3–50 in 1–2 series, fertile, corollas usually ± zygomorphic (with reduced laminae and inner lips), sometimes reduced to tubes; innermost florets usually bisexual and fertile, sometimes functionally staminate, 15–40, corollas whitish to pinkish, usually zygomorphic (2-lipped, lobes recurved or coiling), sometimes nearly actinomorphic (lobes ± equal or lobes ± 0); anther basal appendages entire, apical appendages lanceolate; style branches relatively short (abaxially pilose). Cypselae fusiform, often slightly flattened, distally ± tapered into necks or beaks (0.5–1.6[–3] times bodies), ribs mostly 4–12, faces glabrous or hairy (hairs duplex, relatively short, apices rounded to apiculate), not glandular; pappi of 50+ stramineous to pinkish, barbellulate bristles. x = 24.</description>
-  <number_of_infrataxa>Species ca. 60 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus CHAPTALIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For J. A. C. Chaptal, 1756–1831, who invented the wine-making process called chaptalization]</other_info_on_name>
+  </taxon_identification>
+  <number>6.</number>
+  <discussion>Species ca. 60 (3 in the flora):</discussion>
   <references>
     <reference>Nesom, G. L. 1984. Taxonomy and distribution of Chaptalia dentata and C. albicans (Asteraceae: Mutisieae). Brittonia 36: 396–401.</reference>
     <reference>Nesom, G. L. 1995. Revision of Chaptalia (Asteraceae: Mutisieae) from North America and continental Central America. Phytologia 78: 153–188.</reference>
@@ -25,24 +26,23 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads erect in bud, flowering, and fruit; peduncles dilated distally; laminae of pistillate corollas 0.2–0.3 mm wide</statement>
+      <description type="morphology">Heads erect in bud, flowering, and fruit; peduncles dilated distally; laminae of pistillate corollas 0.2–0.3 mm wide</description>
       <determination>1. Chaptalia albicans</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Heads nodding in bud and fruit, erect in flowering; peduncles not dilated distally; laminae of pistillate corollas 0.2–1.5 mm wide.</statement>
+      <description type="morphology">Heads nodding in bud and fruit, erect in flowering; peduncles not dilated distally; laminae of pistillate corollas 0.2–1.5 mm wide.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves petiolate, blades mostly obovate to sublyrate; laminae of pistillate corollas evenly cream-colored (turning to crimson); central florets bisexual, fertile; uplands, Texas, New Mexico</statement>
+      <description type="morphology">Leaves petiolate, blades mostly obovate to sublyrate; laminae of pistillate corollas evenly cream-colored (turning to crimson); central florets bisexual, fertile; uplands, Texas, New Mexico</description>
       <determination>2. Chaptalia texana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves sessile, blades elliptic to elliptic-obovate; laminae of pistillate corollas creamy white with purple, abaxial midstripe; central florets functionally staminate; coastal plain, North Carolina to Texas</statement>
+      <description type="morphology">Leaves sessile, blades elliptic to elliptic-obovate; laminae of pistillate corollas creamy white with purple, abaxial midstripe; central florets functionally staminate; coastal plain, North Carolina to Texas</description>
       <determination>3. Chaptalia tomentosa</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

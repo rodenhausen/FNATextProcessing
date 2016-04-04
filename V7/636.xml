@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cakile</genus_name>
-    <species_name>edentula</species_name>
-    <species_authority>(Bigelow) Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Brassiceae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cakile</taxon_name>
+    <taxon_name rank="species" authority="(Bigelow) Hooker" date="unknown">edentula</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 59. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bunias</genus_name>
-    <species_name>edentula</species_name>
-    <species_authority>Bigelow</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Brassiceae;genus Cakile;species edentula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bunias</taxon_name>
+    <taxon_name rank="species" authority="Bigelow" date="unknown">edentula</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Boston.,</publication_title>
       <place_in_publication>157. 1814</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Annuals or, rarely, perennials, (compact, rarely sprawling). Stems erect, or, rarely, prostrate, (much-branched), to 8 dm. Cauline leaves: blade ovate to spatulate, or (distal) oblanceolate (less lobed), (smaller distally), margins crenate, dentate, or sinuate (not pinnatifid). Racemes 1–2 dm, (congested); rachis straight. Fruiting pedicels 1.8–8 mm. Flowers: sepals 3.5–5 mm, lateral pair not saccate basally; petals white to pale lavender, (well-developed or reduced to bristles), 4.6–9.7 × 1.5–3 mm, claw not distinct. Fruits (4-angled or 8-ribbed), cylindrical, 12–29 × 3–9 mm; proximal segment terete, (5–10 mm); terminal segment fusiform to turbinate, (7–15 mm), (beak flattened), apex acute, blunt, or retuse. Seeds: cotyledons accumbent to, sometimes, incumbent.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>introduced in e Asia (Japan)</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Bunias;species edentula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <discussion>Elements of Cakile edentula are native in North America; the typical variety is introduced on the Pacific Coast and probably on beaches of the Great Lakes Region.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits 4-angled, terminal segment apex usually acute or blunt, rarely retuse</statement>
+      <description type="morphology">Fruits 4-angled, terminal segment apex usually acute or blunt, rarely retuse</description>
       <determination>5a. Cakile edentula subsp. edentula</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Fruits 8-ribbed, terminal segment apex blunt or</statement>
+      <description type="morphology">Fruits 8-ribbed, terminal segment apex blunt or</description>
       <determination>5b. Cakile edentula subsp. harperi</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

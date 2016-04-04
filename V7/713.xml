@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cardamine</genus_name>
-    <species_name>blaisdellii</species_name>
-    <species_authority>Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Dumortier" date="unknown">Cardamineae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">blaisdellii</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>33: 146. 1902</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>microphylla</species_name>
-    <species_authority>Adams</species_authority>
-    <subspecies_name>blaisdellii</subspecies_name>
-    <subspecies_authority>(Eastwood) D. F. Murray &amp; S. Kelso</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cardamine</genus_name>
-    <species_name>microphylla</species_name>
-    <variety_name>blaisdellii</variety_name>
-    <variety_authority>(Eastwood) Khatri</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials; usually glabrous throughout, rarely pilose. Rhizomes cylindrical, slender, 0.7–1.5 mm diam. Stems erect or ascending, unbranched, 0.5–2(–2.5) dm. Rhizomal leaves pinnately 5- or 7-foliolate, 2.5–12 cm (not fleshy), leaflets petiolulate; petiole 1.5–4(–9) cm; lateral leaflets similar to terminal, or smaller and margins usually toothed, rarely entire; terminal leaflet (petiolule 0.15–0.3 cm) blade suborbicular to broadly obovate, 0.4–1.5 cm × 2.5–14 mm, base obtuse to subcordate, margins 3–5-toothed, (apiculate). Cauline leaves 1–3, (3–)5-foliolate (alternate), petiolate, leaflets petiolulate or subsessile; petiole 0.2–2(–6.5) cm, base not auriculate; lateral leaflets similar to terminal; terminal leaflet subsessile or petiolulate (to 0.2 cm), blade obovate to oblanceolate, 0.5–1.5 cm × 3–10 mm, base cuneate, margins 3-toothed or entire. Racemes ebracteate. Fruiting pedicels erect to ascending, 0.7–22 mm. Flowers: sepals oblong, 2–3.5 × 2–2.5 mm, lateral pair slightly saccate basally; petals white, broadly obovate, 7–10 × 3–6 mm (clawed, apex rounded); filaments: median pairs 3–4 mm, lateral pair 2–3 mm; anthers oblong, 1–1.5 mm. Fruits linear, 1.6–4 cm × 1–1.3 mm; ovules 14–24 per ovary; style 0.7–3 mm. Seeds brown, oblong, ca. 1.5 × 1 mm. 2n = 28, 42.</description>
-  <phenology>jul</phenology>
-  <phenology>summer</phenology>
-  <phenology>aug</phenology>
-  <habitat>moist streamsides</habitat>
-  <habitat>meadows</habitat>
-  <habitat>river gravel</habitat>
-  <habitat>mesic grounds</habitat>
-  <habitat>wet tundra</habitat>
-  <habitat>moist humus</habitat>
-  <habitat>scree slopes</habitat>
-  <habitat>calcareous fellfields</habitat>
-  <elevation>50–1000 m;</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>n</global_distribution>
-  <global_distribution>e Europe (Russian Far East).</global_distribution>
-  <global_distribution>e Europe (Siberia).</global_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Cardamineae;genus Cardamine;species blaisdellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="Adams" date="unknown">microphylla</taxon_name>
+    <taxon_name rank="subspecies" authority="(Eastwood) D. F. Murray &amp; S. Kelso" date="unknown">blaisdellii</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species microphylla;subspecies blaisdellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cardamine</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">microphylla</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) Khatri" date="unknown">blaisdellii</taxon_name>
+    <taxon_hierarchy>genus Cardamine;species microphylla;variety blaisdellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Cardamine blaisdellii was treated by R. C. Rollins (1993) as a synonym of C. microphylla, but the morphological differences (see key) and molecular data (R. B. Jørgensen et al., 2008) clearly demonstrate that they are distinct.</discussion>
-</treatment>
+</bio:treatment>

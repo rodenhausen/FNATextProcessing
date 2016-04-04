@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Draba</genus_name>
-    <species_name>asprella</species_name>
-    <species_authority>Greene</species_authority>
-    <variety_name>stelligera</variety_name>
-    <variety_authority>O. E. Schulz</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Arabideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">asprella</taxon_name>
+    <taxon_name rank="variety" authority="O. E. Schulz" date="unknown">stelligera</taxon_name>
     <place_of_publication>
       <publication_title>in H. G. A. Engler, Pflanzenr.</publication_title>
       <place_in_publication>89[IV,105]: 106. 1927</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Draba</genus_name>
-    <species_name>asprella</species_name>
-    <variety_name>kaibabensis</variety_name>
-    <variety_authority>C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>fruit valves puberulent, tri-chomes 2–4-rayed, 0.1–0.2 mm,.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>On and around limestone and sandstone rock outcrops in pine-oak and pinyon-juniper communities;</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>1500–2400 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Arabideae;genus Draba;species asprella;variety stelligera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Draba</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">asprella</taxon_name>
+    <taxon_name rank="variety" authority="C. L. Hitchcock" date="unknown">kaibabensis</taxon_name>
+    <taxon_hierarchy>genus Draba;species asprella;variety kaibabensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Variety stelligera is known from Coconino, Gila, and Yavapai counties in northern and central Arizona. The difference between vars. kaibabensis and stelligera rests on trichome density and the proportion of simple versus branched hairs on the leaves. These features are highly variable and we find no dependable characteristics separating populations on the North Rim of the Grand Canyon from those to the south.</discussion>
-</treatment>
+</bio:treatment>

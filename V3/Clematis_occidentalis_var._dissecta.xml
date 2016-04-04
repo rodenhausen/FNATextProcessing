@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>14c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Clematis</genus_name><species_name>occidentalis</species_name><species_authority>(Hornemann) de Candolle</species_authority><variety_name>dissecta</variety_name><variety_authority>(C.L. Hitchcock) J. S. Pringle</variety_authority><place_of_publication><publication_title> Brittonia </publication_title><place_in_publication>23: 371. 1971</place_in_publication></place_of_publication></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Clematis</genus_name><species_name>columbiana</species_name><species_authority>(Nuttall) Torrey &amp; A. Gray</species_authority><variety_name>dissecta</variety_name><variety_authority>C.L. Hitchcock</variety_authority><place_of_publication><publication_title>Univ. Wash. Publ. Biol. </publication_title><place_in_publication>17(2): 341. 1964</place_in_publication></place_of_publication></TaxonIdentification><description>Stems short and tufted or, if viny, up to 0.5(-1.5)m and trailing. Leaves: leaflets lobed or unlobed, 1.5-6.5(-9) cm, margins crenate-serrate; terminal leaflet, at least, usually deeply lobed, or sometimes ternate. Flowers: sepals moderately divergent, reddish violet or less often violet-blue, lance-ovate, 2.5-4.5(-6) cm, margins not fluted, tips acute to acuminate.</description><phenology>Flowering spring</phenology><habitat> Cliffs and other rocky sites in open woods and thickets</habitat><elevation> 700-1900 m</elevation><us_distribution> Wash.</us_distribution><discussion>Clematis occidentalis var. dissecta occurs only in the Wenatchee and adjacent ranges of the Cascade Mountains.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="(Hornemann) de Candolle" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="(C.L. Hitchcock) J. S. Pringle" date="unknown">dissecta</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>23: 371. 1971</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species occidentalis;variety dissecta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Torrey &amp; A. Gray" date="unknown">columbiana</taxon_name>
+    <taxon_name rank="variety" authority="C.L. Hitchcock" date="unknown">dissecta</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Wash. Publ. Biol.</publication_title>
+      <place_in_publication>17(2): 341. 1964</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species columbiana;variety dissecta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14c.</number>
+  <discussion>endemic</discussion>
+  <discussion>Clematis occidentalis var. dissecta occurs only in the Wenatchee and adjacent ranges of the Cascade Mountains.</discussion>
+</bio:treatment>

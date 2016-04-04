@@ -1,43 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynara</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cardunculus</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">cardunculus</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cynara;species cardunculus;subspecies cardunculus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynara</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cardunculus</taxon_name>
+    <taxon_name rank="variety" authority="(Linnaeus) Fiori" date="unknown">scolymus</taxon_name>
+    <taxon_hierarchy>genus Cynara;species cardunculus;variety scolymus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynara</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">scolymus</taxon_name>
+    <taxon_hierarchy>genus Cynara;species scolymus;</taxon_hierarchy>
+  </taxon_identification>
   <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cynara</genus_name>
-    <species_name>cardunculus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>cardunculus</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cynara;species cardunculus;subspecies cardunculus;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cynara</genus_name>
-    <species_name>cardunculus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>scolymus</variety_name>
-    <variety_authority>(Linnaeus) Fiori</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cynara</genus_name>
-    <species_name>scolymus</species_name>
-    <species_authority>Linnaeus</species_authority>
-  </TaxonIdentification>
-  <description>Leaves armed with spines 1–3 cm or unarmed or nearly so in some cultivated forms. Middle phylla-ries acuminate at apex with point 22–38 mm and spine tip 6–9 mm, or in some cultivated forms broadly obtuse to truncate and mucronate with or without spine tip 1–2 mm, distal margins with or without indistinct yellowish margins. 2n = 34.</description>
-  <phenology_info>
-    <text>Flowering spring–summer (Apr–Jul).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed areas in sea bluffs , grasslands , coastal scrub , open woodlands , roadsides ;</text>
-    <habitat>disturbed areas in sea bluffs , grasslands , coastal scrub , open woodlands , roadsides</habitat>
-  </habitat_info>
-  <elevation>0–500 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>e Mediterranean region.</global_distribution>
   <discussion>The artichoke, selected for reduced spines on both leaves and phyllaries, and for enlarged heads, sometimes escapes in disturbed habitats. These plants are usually propagated vegetatively for uniform crop characteristics. When grown from seed, however, reversions to the much spinier wild types occur spontaneously and may have given rise to some of the forms of artichoke thistles. Additionally, intermediates may arise through hybridization of cultivated and wild races.</discussion>
-</treatment>
-
+</bio:treatment>

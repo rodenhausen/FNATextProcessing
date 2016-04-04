@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>parviflora</species_name>
-    <species_authority>Bartling</species_authority>
-    <variety_name>puberula</variety_name>
-    <variety_authority>(Mackenzie &amp; Bush) E. F. Wells</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Bartling" date="unknown">parviflora</taxon_name>
+    <taxon_name rank="variety" authority="(Mackenzie &amp; Bush) E. F. Wells" date="unknown">puberula</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>81: 577.  1979,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>puberula</species_name>
-    <species_authority>Mackenzie &amp; Bush</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species parviflora;variety puberula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Mackenzie &amp; Bush" date="unknown">puberula</taxon_name>
     <place_of_publication>
       <publication_title>Rep. (Annual) Missouri Bot. Gard.</publication_title>
       <place_in_publication>16: 103.  1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves: petiole densely short stipitate-glandular; blade sur-faces densely short stipitate-glandular, hairs to 0.6 mm.  Hypanthia densely short stipitate-glandular.  2n = 14.</description>
-  <phenology>Flowering Jul–Sep</phenology>
-  <habitat>Shaded or north-facing sandstone or limestone ledges or rock undercuts</habitat>
-  <elevation>200–500 m</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
+    <taxon_hierarchy>genus Heuchera;species puberula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3b.</number>
   <discussion>Variety puberula is uniformly short stipitate-glandular and is mostly restricted to the Ozark Mountains of Arkansas and Missouri, plus sites in central Kentucky and southern Indiana.</discussion>
-</treatment>
+</bio:treatment>

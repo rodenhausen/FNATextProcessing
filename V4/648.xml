@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20a.4.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Atriplex</genus_name>
-        <genus_authority>Linnaeus</genus_authority>
-        <subgenus_name>Atriplex</subgenus_name>
-        <section_name>Spongiocarpus</section_name>
-        <section_authority> Buxbaum</section_authority>
-        <place_of_publication>
-            <publication_title>Verh. Zool.-Bot. Ges. Wien</publication_title>
-            <place_in_publication>76: 46. 1927</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Atriplex</genus_name>
-        <unranked_epithet_name>Halimoides</unranked_epithet_name>
-        <unranked_epithet_authority>Ulbrich</unranked_epithet_authority>
-    </TaxonIdentification>
-    <description>Plants annual or short-lived perennial, erect or procumbent. Leaves with Kranz-type
-        anatomy. Pistillate flowers lacking perianth, enclosed by a pair of bracteoles. Bracteoles
-        ovoid-globular to broadly turbinate or hemispheric, united almost to summit, erect. Seeds
-        erect, or basal and horizontal; radicle usually lateral.</description>
-    <number_of_infrataxa>Species 6 (2 in the flora):</number_of_infrataxa>
-    <introduced>introduced;</introduced>
-    <global_distribution>Australia.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="section" authority=" Buxbaum" date="unknown">Spongiocarpus</taxon_name>
+    <place_of_publication>
+      <publication_title>Verh. Zool.-Bot. Ges. Wien</publication_title>
+      <place_in_publication>76: 46. 1927</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;subgenus Atriplex;section Spongiocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="unranked" date="unknown" authority="Ulbrich">Halimoides</taxon_name>
+    <taxon_hierarchy>genus Atriplex;unranked Halimoides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20a.4.</number>
+  <discussion>Species 6 (2 in the flora):</discussion>
+</bio:treatment>

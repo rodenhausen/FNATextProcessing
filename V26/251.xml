@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erythronium</genus_name><species_name>grandiflorum</species_name><species_authority>Pursh</species_authority><subspecies_name>grandiflorum</subspecies_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>giganteum</species_name><species_authority>Lindley</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>grandiflorum</species_name><variety_name>chrysandrum</variety_name><variety_authority>(Piper) Abrams</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>grandiflorum</species_name><variety_name>nudipetalum</variety_name><variety_authority>(Applegate) C. L. Hitchcock</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>grandiflorum</species_name><variety_name>pallidum</variety_name><variety_authority>H. St. John</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>nudipetalum</species_name><species_authority>Applegate (as nudopetalum)</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erythronium</genus_name><species_name>parviflorum</species_name><species_authority>(S. Watson) Goodding</species_authority></TaxonIdentification><description>Flowers: tepals bright yellow, with narrow pale zone at base; anthers cream, yellow, red, or purplish red.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>jul</phenology><habitat>widespread from lowlands to the subalpine, in open woodlands</habitat><habitat>grasslands</habitat><habitat>and subalpine meadows (where it is sometimes extremely abundant</habitat><elevation>200–3100 m;</elevation><ca_distribution>Alta.</ca_distribution><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Utah</us_distribution><us_distribution>Wash.</us_distribution><us_distribution>Wyo.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">grandiflorum</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">grandiflorum</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Erythronium;species grandiflorum;subspecies grandiflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">giganteum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species giganteum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="Applegate (as nudopetalum)" date="unknown">grandiflorum</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) Abrams" date="unknown">chrysandrum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species grandiflorum;variety chrysandrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Goodding" date="unknown">grandiflorum</taxon_name>
+    <taxon_name rank="variety" authority="(Applegate) C. L. Hitchcock" date="unknown">nudipetalum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species grandiflorum;variety nudipetalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">grandiflorum</taxon_name>
+    <taxon_name rank="variety" authority="H. St. John" date="unknown">pallidum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species grandiflorum;variety pallidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nudipetalum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species nudipetalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythronium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">parviflorum</taxon_name>
+    <taxon_hierarchy>genus Erythronium;species parviflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+</bio:treatment>

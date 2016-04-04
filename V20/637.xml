@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>54b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erigeron</genus_name><species_name>bloomeri</species_name><species_authority>A. Gray</species_authority><variety_name>nudatus</variety_name><variety_authority>(A. Gray) Cronquist</variety_authority><place_of_publication>
-    <publication_title>Brittonia</publication_title>
-    <place_in_publication>6: 199. 1947</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Erigeron</genus_name><species_name>nudatus</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>20: 297. 1885</place_in_publication></place_of_publication></TaxonIdentification><description>Stems and leaves glabrous or sparsely strigose. Phyllaries glabrous, usually sparsely minutely glandular, sometimes eglandular.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>serpentine slopes</habitat><habitat>rocky and gravelly ridges and slopes</habitat><habitat>pine-fir</habitat><habitat>chaparral</habitat><elevation>600–2300 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><discussion>Intermediates between var. nudatus and var. bloomeri occur in Del Norte and Siskyou counties, California.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bloomeri</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">nudatus</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>6: 199. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species bloomeri;variety nudatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">nudatus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>20: 297. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Erigeron;species nudatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>54b.</number>
+  <discussion>Intermediates between var. nudatus and var. bloomeri occur in Del Norte and Siskyou counties, California.</discussion>
+</bio:treatment>

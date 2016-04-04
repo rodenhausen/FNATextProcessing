@@ -1,57 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>187b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Asteraceae</family_name>
-    <family_authority>Martinov</family_authority>
-    <tribe_name>Cynareae</tribe_name>
-    <tribe_authority>Lamarck &amp; de Candolle</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Pl. Fl. Gall.,</publication_title>
       <place_in_publication>267. 1806</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <tribe_name>Cardueae</tribe_name>
-    <tribe_authority>Cassini</tribe_authority>
-  </TaxonIdentification>
-  <description>Annuals or perennials (sometimes coarse and/or robust, often prickly-spiny and
-    thistlelike [subshrubs, shrubs, or trees]; rarely dioecious, e.g., some Cirsium spp.). Leaves
-    basal and/or cauline; alternate; ± petiolate or sessile; (leaf bases often decurrent on stems)
-    margins usually lobed to dissected, sometimes dentate or entire (usually spiny). Heads mostly
-    homogamous (usually discoid, sometimes disciform or radiant, then peripheral florets usually
-    pistillate or neuter, sometimes bisexual or with staminodes), borne singly or in corymbiform,
-    paniculiform, or racemiform arrays (heads with 1 floret each aggregated into second-order heads
-    in Echinops). Calyculi 0 (involucres sometimes closely subtended by leaflike peduncle bracts).
-    Phyllaries usually persistent [readily falling], in (1–)3–5+ series, usually distinct, usually
-    unequal, usually herbaceous (sometimes fleshy), margins (entire or denticulate to pectinate,
-    sometimes spiny) and apices seldom notably scarious (apices often spinose or ± expanded into
-    distinct, often fimbriate-fringed, pectinate, and/or spiny appendages). Receptacles flat to
-    convex, usually epaleate (often pitted and often bristly-setose or densely hairy). Ray florets 0
-    (corollas of peripheral florets in radiant heads often notably enlarged, usually 5-lobed,
-    sometimes zygomorphic and raylike or ± 2-lipped). Peripheral (pistillate) florets 0 or (in
-    disciform heads) in 1–3+ series; corollas (usually present) usually yellow, sometimes
-    ochroleucous or cyanic. Disc florets bisexual and fertile (rarely functionally staminate);
-    corollas yellow, cyanic, or white, usually actinomorphic, lobes 5, usually narrowly triangular
-    to ± linear, seldom deltate (sometimes unequal, corollas then ± zygomorphic); anther bases ±
-    tailed, apical appendages usually oblong (filaments sometimes papillate to pilose; connate in
-    Silybum); styles (bisexual, fertile florets) distally enlarged or swollen, usually dilated
-    and/or with rings of hairs at or near point of bifurcation, abaxially smooth or papillate to
-    hairy (at least distally, sometimes ± throughout), “branches” often connate, adaxially
-    continuously stigmatic ± to tips, apices rounded to acute, appendages essentially none. Cypselae
-    usually monomorphic within heads (often thick-walled, hard, nutlike, receptacular attachments
-    basal or lateral, bases sometimes each with an elaiosome), usually ellipsoid, obovoid, or ovoid,
-    sometimes rounded-prismatic, terete, 4–5-angled, or ± compressed, rarely beaked, bodies usually
-    smooth, sometimes rugose or 10- or 20-nerved (glabrous or puberulent to villous; often with
-    apical umbo and/or crown in addition to pappus); pappi (rarely 0) readily falling or persistent,
-    usually of fine to coarse, barbellate to plumose bristles, sometimes of scales, sometimes both
-    bristles and scales.</description>
-  <number_of_infrataxa>Genera 83, species 2500 (17 genera, 116 species in the
-    flora):</number_of_infrataxa>
-  <global_distribution>mostly Old World</global_distribution>
-  <global_distribution>especially Mediterranean</global_distribution>
-  <global_distribution>some species widely introduced.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Cardueae</taxon_name>
+    <taxon_hierarchy>tribe Cardueae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>187b.</number>
+  <discussion>Genera 83, species 2500 (17 genera, 116 species in the
+    flora):</discussion>
   <discussion>The circumscription for Cynareae adopted here is the traditional one and includes the
     three elements (Cynareae in the narrow sense, Carlineae, and Echinopeae) recognized as tribally
     distinct by M. Dittrich (1977[1978]). Work by K. Bremer (1987) supported the Dittrich scheme. A
@@ -76,231 +46,230 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margins spiny.</statement>
+      <description type="morphology">Leaf margins spiny.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Florets 1 per head (heads in globose, second-order heads)</statement>
+      <description type="morphology">Florets 1 per head (heads in globose, second-order heads)</description>
       <determination>9. Echinops, p. 85</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Florets 3–250+ per head (heads borne singly or in ± open arrays, not in globose
-        second-order heads).</statement>
+      <description type="morphology">Florets 3–250+ per head (heads borne singly or in ± open arrays, not in globose
+        second-order heads).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems winged.</statement>
+      <description type="morphology">Stems winged.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Receptacles bearing setiform scales (“flattened bristles”), (not pitted); cypselar
+      <description type="morphology">Receptacles bearing setiform scales (“flattened bristles”), (not pitted); cypselar
         attachments slightly lateral; pappus bristles usually distinct, sometimes basally
-        connate</statement>
+        connate</description>
       <determination>12 . Carduus, p. 91</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Receptacles not bristly (deeply pitted); cypselar attachments basal; pappus
-        bristles basally connate</statement>
+      <description type="morphology">Receptacles not bristly (deeply pitted); cypselar attachments basal; pappus
+        bristles basally connate</description>
       <determination>10. Onopordum, p. 87</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Stems not or rarely winged (some Cirsium spp.).</statement>
+      <description type="morphology">Stems not or rarely winged (some Cirsium spp.).</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves variegated (stamen filaments connate)</statement>
+      <description type="morphology">Leaves variegated (stamen filaments connate)</description>
       <determination>14. Silybum, p. 164</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves not variegated (stamen filaments distinct).</statement>
+      <description type="morphology">Leaves not variegated (stamen filaments distinct).</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Corollas yellow to orange, red, or ± purple; cypsela attachments lateral; pappi 0
+      <description type="morphology">Corollas yellow to orange, red, or ± purple; cypsela attachments lateral; pappi 0
         or of distinct, minutely barbed (not plumose) setiform scales (“flattened bristles”) or
-        subulate scales.</statement>
+        subulate scales.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Heads discoid (all florets fertile); receptacles bearing subulate scales; cypselae
-        4-angled</statement>
+      <description type="morphology">Heads discoid (all florets fertile); receptacles bearing subulate scales; cypselae
+        4-angled</description>
       <determination>23. Carthamus, p. 178</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Heads disciform (peripheral florets sterile); receptacles bristly (“flat- tened
-        bristles”), cypselae terete, 20-ribbed</statement>
+      <description type="morphology">Heads disciform (peripheral florets sterile); receptacles bristly (“flat- tened
+        bristles”), cypselae terete, 20-ribbed</description>
       <determination>24. Centaurea (in part), p. 181</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Corollas white or purplish to red; cypsela attachments basal or oblique-basal;
-        pappi of basally connate, plumose setiform scales (“flattened bristles”).</statement>
+      <description type="morphology">Corollas white or purplish to red; cypsela attachments basal or oblique-basal;
+        pappi of basally connate, plumose setiform scales (“flattened bristles”).</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Receptacles scaly (sometimes bristly); cypsela attachments oblique-
-        basal</statement>
+      <description type="morphology">Receptacles scaly (sometimes bristly); cypsela attachments oblique-
+        basal</description>
       <determination>8. Carlina, p. 84</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Receptacles densely bristly-setose; cypselar attachments basal.</statement>
+      <description type="morphology">Receptacles densely bristly-setose; cypselar attachments basal.</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Involucres 35–100+ mm diam. (largest leaves 60–150 cm; recep- tacles becoming
-        fleshy)</statement>
+      <description type="morphology">Involucres 35–100+ mm diam. (largest leaves 60–150 cm; recep- tacles becoming
+        fleshy)</description>
       <determination>11. Cynara (in part), p. 89</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Involucres 10–50 mm diam. (largest leaves 20–50(–110) cm; receptacles usually not
-        notably fleshy)</statement>
+      <description type="morphology">Involucres 10–50 mm diam. (largest leaves 20–50(–110) cm; receptacles usually not
+        notably fleshy)</description>
       <determination>13. Cirsium, p. 95</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margins not spiny (tips sometimes ± spinose-apiculate).</statement>
+      <description type="morphology">Leaf margins not spiny (tips sometimes ± spinose-apiculate).</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Heads discoid (all florets bisexual and fertile).</statement>
+      <description type="morphology">Heads discoid (all florets bisexual and fertile).</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Cypselar attachments ± lateral.</statement>
+      <description type="morphology">Cypselar attachments ± lateral.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Phyllary appendages entire or lacerate, not fringed; pappi of ± caducous, dis-
-        tally plumose bristles</statement>
+      <description type="morphology">Phyllary appendages entire or lacerate, not fringed; pappi of ± caducous, dis-
+        tally plumose bristles</description>
       <determination>17. Acroptilon, p. 171</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Phyllary appendages dentate or fringed; pappi 0 or if persistent, then non -
-        plumose bristles or scales</statement>
+      <description type="morphology">Phyllary appendages dentate or fringed; pappi 0 or if persistent, then non -
+        plumose bristles or scales</description>
       <determination>24. Centaurea (in part), p. 181</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Cypselar attachments basal.</statement>
+      <description type="morphology">Cypselar attachments basal.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Phyllary apices spiny, hooked; bristles of pappus distinct, not plumose</statement>
+      <description type="morphology">Phyllary apices spiny, hooked; bristles of pappus distinct, not plumose</description>
       <determination>16. Arctium, p. 168</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Phyllary apices spiny or not, not hooked; setiform scales (“flattened bristles”) of
-        pappus basally connate, plumose.</statement>
+      <description type="morphology">Phyllary apices spiny or not, not hooked; setiform scales (“flattened bristles”) of
+        pappus basally connate, plumose.</description>
       <next_statement_id>14.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Receptacles densely long-bristly (“flattened bristles”) (becoming fleshy); florets
-        100–250+</statement>
+      <description type="morphology">Receptacles densely long-bristly (“flattened bristles”) (becoming fleshy); florets
+        100–250+</description>
       <determination>11. Cynara (in part), p. 89</determination>
     </key_statement>
     <key_statement>
       <statement_id>14.</statement_id>
-      <statement>Receptacles usually subulate-scaly, sometimes bristly or naked (not fleshy);
-        florets 10–20</statement>
+      <description type="morphology">Receptacles usually subulate-scaly, sometimes bristly or naked (not fleshy);
+        florets 10–20</description>
       <determination>15. Saussurea, p. 165</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Heads radiant or disciform (peripheral florets usually neuter).</statement>
+      <description type="morphology">Heads radiant or disciform (peripheral florets usually neuter).</description>
       <next_statement_id>15.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Heads disciform.</statement>
+      <description type="morphology">Heads disciform.</description>
       <next_statement_id>16.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Phyllary appendages dentate or fringed, spiny or not; receptacles bristly (“flat-
-        tened bristles”)</statement>
+      <description type="morphology">Phyllary appendages dentate or fringed, spiny or not; receptacles bristly (“flat-
+        tened bristles”)</description>
       <determination>24. Centaurea (in part), p. 181</determination>
     </key_statement>
     <key_statement>
       <statement_id>16.</statement_id>
-      <statement>Phyllary appendages 0 (apices acute, entire); receptacles bearing subulate
-        scales</statement>
+      <description type="morphology">Phyllary appendages 0 (apices acute, entire); receptacles bearing subulate
+        scales</description>
       <determination>22. Crupina, p. 177</determination>
     </key_statement>
     <key_statement>
       <statement_id>15.</statement_id>
-      <statement>Heads radiant.</statement>
+      <description type="morphology">Heads radiant.</description>
       <next_statement_id>17.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Phyllary appendages 0.</statement>
+      <description type="morphology">Phyllary appendages 0.</description>
       <next_statement_id>18.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Biennials or perennials; spines on phyllary apices caducous; cypsela apices not
-        coronate</statement>
+      <description type="morphology">Biennials or perennials; spines on phyllary apices caducous; cypsela apices not
+        coronate</description>
       <determination>19. Mantisalca, p. 173</determination>
     </key_statement>
     <key_statement>
       <statement_id>18.</statement_id>
-      <statement>Annuals; spines on phyllary apices persistent; cypsela apices coronate</statement>
+      <description type="morphology">Annuals; spines on phyllary apices persistent; cypsela apices coronate</description>
       <determination>20. Volutaria, p. 174</determination>
     </key_statement>
     <key_statement>
       <statement_id>17.</statement_id>
-      <statement>Phyllary appendages present.</statement>
+      <description type="morphology">Phyllary appendages present.</description>
       <next_statement_id>19.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Cypselae compressed (oblong; attachment scars rimmed, rims whitish, swollen),
-        apices denticulate</statement>
+      <description type="morphology">Cypselae compressed (oblong; attachment scars rimmed, rims whitish, swollen),
+        apices denticulate</description>
       <determination>18. Amberboa, p. 172</determination>
     </key_statement>
     <key_statement>
       <statement_id>19.</statement_id>
-      <statement>Cypselae ± terete (barrel-shaped; attachment scars not rimmed), apices
-        entire.</statement>
+      <description type="morphology">Cypselae ± terete (barrel-shaped; attachment scars not rimmed), apices
+        entire.</description>
       <next_statement_id>20.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Annuals; leaf margins mostly entire or denticulate to serrulate; cypsela attachment
+      <description type="morphology">Annuals; leaf margins mostly entire or denticulate to serrulate; cypsela attachment
         oblique-basal; involucres 20–40 mm diam.; phyllary bodies linear, margins entire, appendages
-        fimbriate; corollas of peripheral florets 30–70 mm</statement>
+        fimbriate; corollas of peripheral florets 30–70 mm</description>
       <determination>21. Plectocephalus, p. 175</determination>
     </key_statement>
     <key_statement>
       <statement_id>20.</statement_id>
-      <statement>Annuals, biennials, or perennials; leaf margins entire or toothed to pinnately
+      <description type="morphology">Annuals, biennials, or perennials; leaf margins entire or toothed to pinnately
         lobed; involucres 10–25(–40) mm diam.; cypsela attachment lateral; phyllary bodies oblong to
         ovate or obovate, margins fimbriate, appendages fimbriate; corollas of peripheral florets
-        15–30(–45) mm</statement>
+        15–30(–45) mm</description>
       <determination>24. Centaurea (in part), p. 181</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

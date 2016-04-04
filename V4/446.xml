@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ferocactus</genus_name><species_name>viridescens</species_name><species_authority>(Torrey &amp; A. Gray) Britton &amp; Rose</species_authority><place_of_publication>
-    <publication_title>Cact.</publication_title>
-    <place_in_publication>3: 140. 1922</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Coastal barrel cactus</common_name><common_name>San Diego barrel cactus</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Echinocactus</genus_name><species_name>viridescens</species_name><species_authority>Torrey &amp; A. Gray</species_authority><place_of_publication><publication_title>Fl. N. Amer. </publication_title><place_in_publication>1: 554. 1840</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa><global_distribution>California</global_distribution><global_distribution>Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ferocactus</taxon_name>
+    <taxon_name rank="species" authority="(Torrey &amp; A. Gray) Britton &amp; Rose" date="unknown">viridescens</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact.</publication_title>
+      <place_in_publication>3: 140. 1922</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Ferocactus;species viridescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">viridescens</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 554. 1840</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Echinocactus;species viridescens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Coastal barrel cactus</other_name>
+  <other_name type="common_name">San Diego barrel cactus</other_name>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

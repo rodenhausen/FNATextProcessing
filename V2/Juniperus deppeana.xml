@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd">
-    <number>6</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Juniperus</genus_name>
-        <species_name>deppeana</species_name>
-        <species_authority>Steudel</species_authority>
-        <place_of_publication>
-            <publication_title>Nomencl. Bot., ed. 2</publication_title>
-            <place_in_publication>1: 835. 1841</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Alligator juniper</common_name>
-    <common_name> cedro chino</common_name>
-    <number_of_infrataxa>Varieties 5 (1 in the flora):</number_of_infrataxa>
-    <global_distribution>North America,</global_distribution>
-    <global_distribution>Mexico.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Dropbox/FNA/fna_schema.xsd" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juniperus</taxon_name>
+    <taxon_name rank="species" authority="Steudel" date="unknown">deppeana</taxon_name>
+    <place_of_publication>
+      <publication_title>Nomencl. Bot., ed. 2</publication_title>
+      <place_in_publication>1: 835. 1841</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juniperus;species deppeana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6</number>
+  <other_name type="common_name">Alligator juniper</other_name>
+  <other_name type="common_name">cedro chino</other_name>
+  <discussion>Varieties 5 (1 in the flora):</discussion>
+</bio:treatment>

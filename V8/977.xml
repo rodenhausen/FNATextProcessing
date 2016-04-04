@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lyonia</genus_name>
-    <species_name>ligustrina</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lyonia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">ligustrina</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle,  Prodr.</publication_title>
       <place_in_publication>7: 599.  1839  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>He-huckleberry</common_name>
-  <common_name>male-blueberry</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>ligustrinum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Lyonia;species ligustrina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">ligustrinum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 351.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arsenococcus</genus_name>
-    <species_name>ligustrinus</species_name>
-    <species_authority>(Linnaeus) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, (ultimate branchlets spreading), (0.2–)1–4 m.  Stems erect, terete to slightly angled.  Leaves deciduous to semipersistent; blade narrowly to widely elliptic, obovate, or ovate, (1.5–)2–9.5(–10.5) × 1–4.5(–5) cm, membranous, base attenuate, narrowly to broadly cuneate, or rounded, margins serrulate, plane to slightly revolute, apex acute to acuminate or mucronate, surfaces scattered, multicellular long-headed-hairy, also usually hairy on major veins, not lepidote, intramarginal vein absent.  Inflorescences racemes of fascicles or short racemes, to subpaniculate, developing from buds along distal portion of stems of previous year; bracts all inconspicuous or 1–6, foliaceous, 5–30 mm.  Pedicels hairy, not lepidote.  Flowers: calyx lobes 0.5–1.5 × 0.4–1 mm, sparsely hairy, not lepidote; corolla white, urceolate (base swollen), 2–4(–4.5) × 2–4.5 mm; filaments 1–2 mm, hairy near base, with 2 short spurs.  Capsules globose to subglobose, 2–3 × 2–4 mm, apex not constricted, usually long-headed-hairy, otherwise glabrous or hairy; sutures remaining attached to adjacent valve; placentae subapical.  2n = 24.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>e United States.</global_distribution>
+    <taxon_hierarchy>genus Vaccinium;species ligustrinum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arsenococcus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Small" date="unknown">ligustrinus</taxon_name>
+    <taxon_hierarchy>genus Arsenococcus;species ligustrinus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">He-huckleberry</other_name>
+  <other_name type="common_name">male-blueberry</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Lyonia ligustrina is most closely related to the eastern Asian species of the genus; it is quite variable in stature, indument, leaf size and shape, and inflorescence structure.  Plants of the Appalachian Mountains and northward usually can be readily differentiated from those of the southeastern Atlantic coastal plain, the Gulf coastal plain, and adjacent regions; intermediates occur, especially in Alabama, northern Georgia, North Carolina, and South Carolina.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences not conspicuously bracteate or with few leaflike bracts</statement>
+      <description type="morphology">Inflorescences not conspicuously bracteate or with few leaflike bracts</description>
       <determination>1a.   Lyonia ligustrina var. ligustrina</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Inflorescences conspicuously bracteate or at least proximal inflorescences with leaflike bracts</statement>
+      <description type="morphology">Inflorescences conspicuously bracteate or at least proximal inflorescences with leaflike bracts</description>
       <determination>1b.   Lyonia ligustrina var. foliosiflora</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

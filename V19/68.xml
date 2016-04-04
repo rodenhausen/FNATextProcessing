@@ -1,66 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>pumilum</species_name>
-    <species_authority>(Nuttall) Sprengel</species_authority>
-    <variety_name>hillii</variety_name>
-    <variety_authority>(Canby) B. Boivin</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Sprengel" date="unknown">pumilum</taxon_name>
+    <taxon_name rank="variety" authority="(Canby) B. Boivin" date="unknown">hillii</taxon_name>
     <place_of_publication>
       <publication_title>Naturaliste Canad.</publication_title>
       <place_in_publication>94: 646. 1972</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species pumilum;variety hillii;</taxon_hierarchy>
-  <common_name>Hill’s thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cnicus</genus_name>
-    <species_name>hillii</species_name>
-    <species_authority>Canby</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species pumilum;variety hillii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cnicus</taxon_name>
+    <taxon_name rank="species" authority="Canby" date="unknown">hillii</taxon_name>
     <place_of_publication>
       <publication_title>Gard. &amp; Forest</publication_title>
       <place_in_publication>4: 101. 1891</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>hillii</species_name>
-    <species_authority>(Canby) Fernald</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>pumilum</species_name>
-    <subspecies_name>hillii</subspecies_name>
-    <subspecies_authority>(Canby) R. J. Moore &amp; Frankton</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants mostly 25–60 cm, branches 0–4, short. Roots often tuberous-thickened. Leaves usually shallowly lobed, main spines ± fine, 3–6 mm. Heads 5–7 cm. Phyllaries: outer 3–6 mm wide at base, spines slender, 1.5–3 mm. Corollas usually 45–55 mm. Cypselae usually 4.5–5 mm. 2n = 30.</description>
-  <phenology_info>
-    <text>Flowering summer (Jun–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>sandy or gravelly soils , prairies , limestone barrens , pastures , pine barrens , open woods , and oak savannas ;</text>
-    <habitat>sandy or gravelly soils</habitat>
-    <habitat>prairies</habitat>
-    <habitat>limestone barrens</habitat>
-    <habitat>pastures</habitat>
-    <habitat>pine barrens</habitat>
-    <habitat>open woods</habitat>
-    <habitat>oak savannas</habitat>
-  </habitat_info>
-  <elevation>200–400 m;</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Cnicus;species hillii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Canby) Fernald" date="unknown">hillii</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species hillii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pumilum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Canby) R. J. Moore &amp; Frankton" date="unknown">hillii</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species pumilum;subspecies hillii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12b.</number>
+  <other_name type="common_name">Hill’s thistle</other_name>
   <discussion>Variety hillii occurs mainly in prairie areas from Minnesota and Iowa east to southern Ontario, Michigan, and northern Indiana. It has often been treated as a species distinct from Cirsium pumilum. As R. J. Moore and C. Frankton (1966) pointed out, the differences separating these taxa are, for the most part, metric characters that show considerable overlap. Some specimens, especially those from Ohio and western Pennsylvania, are difficult to place, and scattered individuals within the area of var. pumilum would readily be assigned to var. hillii were they growing in the area of that taxon. Moore and Frankton chose to recognize the infraspecific taxa within C. pumilum as subspecies, a rank that is seldom employed in North American Cirsium taxonomy.</discussion>
   <discussion>Hill’s thistle is a taxon that has attracted the attention of conservationists because of declining populations. Although the U.S. Fish and Wildlife Service determined in 1999 that this plant does not warrant elevation to Candidate Species status, it is recognized as a species of concern in several states. Throughout much of its range the populations have declined due to habitat destruction and fragmentation that have accompanied agricultural development and urbanization.</discussion>
-</treatment>
-
+</bio:treatment>

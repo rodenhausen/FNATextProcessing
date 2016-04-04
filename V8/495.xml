@@ -1,70 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>lanuginosum</species_name>
-    <species_authority>Michaux</species_authority>
-    <subspecies_name>rigidum</subspecies_name>
-    <subspecies_authority>(A. Gray) T. D. Pennington</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">lanuginosum</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) T. D. Pennington" date="unknown">rigidum</taxon_name>
     <place_of_publication>
       <publication_title>in Organizaton for Flora
                 Neotropica, Fl. Neotrop.</publication_title>
       <place_in_publication>52: 169. 1990,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>lanuginosa</species_name>
-    <species_authority>(Michaux) Persoon</species_authority>
-    <variety_name>rigida</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species lanuginosum;subspecies rigidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Persoon" date="unknown">lanuginosa</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">rigida</taxon_name>
     <place_of_publication>
       <publication_title>in A. Gray et al., Syn. Fl. N. Amer. ed.</publication_title>
       <place_in_publication>2, 2(1): 68. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>lanuginosa</species_name>
-    <subspecies_name>rigida</subspecies_name>
-    <subspecies_authority>(A. Gray) Cronquist</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>lanuginosa</species_name>
-    <subspecies_name>texana</subspecies_name>
-    <subspecies_authority>(Buckley) A. E. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>lanuginosa</species_name>
-    <variety_name>texana</variety_name>
-    <variety_authority>(Buckley) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>texana</species_name>
-    <species_authority>Buckley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>lanuginosum</species_name>
-    <variety_name>rigidum</variety_name>
-    <variety_authority>(A. Gray) B. L. Turner</variety_authority>
-  </TaxonIdentification>
-  <description>Leaves: petiole hairy to glabrate, hairs white to gray; blade dull adaxially, 15–50
-        mm, abaxial surface densely to sparsely villous or glabrate, hairs white to
-        gray.</description>
-  <phenology>Flowering Jun–Jul</phenology>
-  <habitat>Upland forests, woodlands, scrublands</habitat>
-  <elevation>400–2000 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Coahuila, Nuevo León, Tamaulipas).</global_distribution>
+    <taxon_hierarchy>genus Bumelia;species lanuginosa;variety rigida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">lanuginosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Cronquist" date="unknown">rigida</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species lanuginosa;subspecies rigida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lanuginosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Buckley) A. E. Murray" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species lanuginosa;subspecies texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lanuginosa</taxon_name>
+    <taxon_name rank="variety" authority="(Buckley) Cronquist" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species lanuginosa;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lanuginosum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) B. L. Turner" date="unknown">rigidum</taxon_name>
+    <taxon_hierarchy>genus Sideroxylon;species lanuginosum;variety rigidum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4c.</number>
   <discussion>Subspecies rigidum occurs in the southwestern portion of the range and has leaf
         indument ranging from tomentose to glabrate. Variation patterns are especially complex in
         southern and western Texas and in northern Mexico.</discussion>
-</treatment>
+</bio:treatment>

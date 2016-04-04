@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Gochnatia</genus_name>
-    <species_name>hypoleuca</species_name>
-    <species_authority>(de Candolle) A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Mutisieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gochnatia</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) A. Gray" date="unknown">hypoleuca</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>19: 57. 1883</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Gochnatia;species hypoleuca;</taxon_hierarchy>
-  <common_name>Shrubby bullseye</common_name>
-  <common_name>chomonque</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Moquinia</genus_name>
-    <species_name>hypoleuca</species_name>
-    <species_authority>de Candolle</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Gochnatia;species hypoleuca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Moquinia</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">hypoleuca</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>7: 23. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems densely leafy, rigid, young branches densely lanose. Leaves: blades 2–5 cm. Corollas 6–8 mm. Cypselae 2.5–4 mm; pappi: bristles unequal, longest 5–6 mm.</description>
-  <phenology_info>
-    <text>Flowering Dec–Mar.</text>
-    <phenology>dec</phenology>
-    <phenology>jan</phenology>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>gravel and caliche soils in dry scrub vegetation ;</text>
-    <habitat>gravel and caliche soils in dry scrub vegetation</habitat>
-  </habitat_info>
-  <elevation>30–70 m;</elevation>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-  <global_distribution>Mexico (Durango).</global_distribution>
-  <global_distribution>Mexico (Hidalgo).</global_distribution>
-  <global_distribution>Mexico (Michoacán).</global_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
-  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
-  <global_distribution>Mexico (Tamaulipas).</global_distribution>
-  <global_distribution>Mexico (Zacatecas).</global_distribution>
+    <taxon_hierarchy>genus Moquinia;species hypoleuca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Shrubby bullseye</other_name>
+  <other_name type="common_name">chomonque</other_name>
   <discussion>Gochnatia hypoleuca occurs in southern Texas and in Mexico (to 4000 m). It is closely related to Gochnatia obtusata [treated by Cabrera as Gochnatia hypoleuca subsp. obtusata (S. F. Blake) Cabrera], a species of southern Mexico.</discussion>
-</treatment>
-
+</bio:treatment>

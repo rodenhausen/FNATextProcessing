@@ -1,99 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Rodney D. Seppelt</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Limpricht" date="unknown">DITRICHACEAE</taxon_name>
+    <taxon_hierarchy>genus DITRICHACEAE;</taxon_hierarchy>
+  </taxon_identification>
   <number>25.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>DITRICHACEAE</genus_name>
-    <genus_authority>Limpricht</genus_authority>
-  </TaxonIdentification>
-  <author>Rodney D. Seppelt</author>
-  <description>Plants minute or rather small to medium-sized, gregarious or loosely to densely tufted.  Stems erect, simple or forked, with a central strand.  Leaves mostly lanceolate, acuminate or subulate, straight or somewhat curved, rarely sheathing at base; in numerous rows (2 rows in Distichium); costa single, well developed, subpercurrent to excurrent, in section with 1 row of guide cells and 2 stereid bands, adaxial band sometimes much reduced; lamina cells smooth (± roughened in subula in Distichium); basal cells elongate, narrower towards the margins, those of basal angles not differentiated or forming a marginal border; distal cells isodiametric or short-rectangular to elongate, walls firm.  Specialized asexual reproduction occasional, as multicellular filamentous gemmae borne in axils or along stems, or as specialised tubers or filamentous propagules on rhizoids.  Sexual condition dioicous, autoicous, paroicous, or synoicous; perigonia axillary or on short branches adjacent to perichaetia, or terminal on separate plants; perichaetial leaves not markedly differentiated or with a longer, broader sheathing base and shorter subulate apex.  Seta short to ± elongate, yellow to orange, reddish brown, brown, or reddish purple; capsules immersed to emergent and subglobose to long-exserted and ± cylindric, erect to inclined or pendulous, often ± curved or asymmetric; cleistocarpous, gymnostomous, or peristomate; annulus, when present, usually of 2–3 rows of larger cells, deciduous; peristome, when present, single, of 16 teeth, variously split into two terete filaments or perforate to near the base; operculum conic to short-rostrate.  Calyptra cucullate, rarely mitrate.  Spores spheric to ovoid or ± reniform, finely to coarsely papillose, verrucose, or somewhat vermicular or reticulate.</description>
-  <number_of_infrataxa>Genera 25, species ca. 140 (9 genera, 25 species in the flora):</number_of_infrataxa>
-  <global_distribution>cosmopolitan</global_distribution>
-  <global_distribution>greatest occurrence in temperate regions.</global_distribution>
+  <discussion>Genera 25, species ca. 140 (9 genera, 25 species in the flora):</discussion>
   <discussion>Species of Ditrichaceae usually colonize soil, rarely wood, and some species have a distinct preference for calcareous substrates.  The family is poorly defined and separated from Dicranaceae primarily on peristome characteristics, with the teeth divided into terete rather than flat filaments, and the general absence of vertical pit-striations.  In some species, however, oblique ornamentation is present, at least in the distal portion of the teeth.  W. R. Buck and B. Goffinet (2000) included 25 genera, with one hybrid genus, Pleuriditrichum, in the family.  The inclusion of at least some of the genera seems somewhat anomalous.  Within the flora, Ceratodon, Distichium, Ditrichum, Saelania, and Trichodon are peristomate, while Cleistocarpidium, Eccremidium, Pleuridium, and Pseudephemerum are cleistocarpic.  Although in this treatment it is included in Ditrichaceae, Pseudephemerum was placed in Dicranaceae by Buck and Goffinet.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Britton, E. G.  1913b.  Ditrichaceae.  In: N. L. Britton et al., eds.  1905+.  North American Flora....  47+ vols.  New York.  Vol. 15, pp. 55–67.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves in two rows, base ± sheathing, abruptly narrowed to a ± roughened subula</statement>
+      <description type="morphology">Leaves in two rows, base ± sheathing, abruptly narrowed to a ± roughened subula</description>
       <determination>2.   Distichium, p. 448</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves in more than two rows.</statement>
+      <description type="morphology">Leaves in more than two rows.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves glaucous blue-green</statement>
+      <description type="morphology">Leaves glaucous blue-green</description>
       <determination>4.   Saelania, p. 458</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaves yellow-green to green or brownish green, never glaucous blue-green.</statement>
+      <description type="morphology">Leaves yellow-green to green or brownish green, never glaucous blue-green.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves squarrose from a sheathing base, subulate, the subula tubulose and strongly prorulose abaxially</statement>
+      <description type="morphology">Leaves squarrose from a sheathing base, subulate, the subula tubulose and strongly prorulose abaxially</description>
       <determination>5.   Trichodon, p. 459</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Leaves lanceolate to subulate, the base ± sheathing or not, not squarrose.</statement>
+      <description type="morphology">Leaves lanceolate to subulate, the base ± sheathing or not, not squarrose.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stems generally elongate, 0.5–4 cm or sometimes longer; capsule, when present, peristomate.</statement>
+      <description type="morphology">Stems generally elongate, 0.5–4 cm or sometimes longer; capsule, when present, peristomate.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves lanceolate, ovate-lanceolate or triangular-ovate to obovate, margins recurved; seta reddish purple to yellowish orange, capsule erect to inclined, strongly sulcate when dry</statement>
+      <description type="morphology">Leaves lanceolate, ovate-lanceolate or triangular-ovate to obovate, margins recurved; seta reddish purple to yellowish orange, capsule erect to inclined, strongly sulcate when dry</description>
       <determination>1.   Ceratodon, p. 445</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaves lanceolate to subulate, margins mostly plane, occasionally weakly recurved; seta pale yellow to yellow to orange to reddish brown, capsule erect to suberect, not sulcate when dry</statement>
+      <description type="morphology">Leaves lanceolate to subulate, margins mostly plane, occasionally weakly recurved; seta pale yellow to yellow to orange to reddish brown, capsule erect to suberect, not sulcate when dry</description>
       <determination>3.   Ditrichum, p. 450</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stems generally very short, 0.2–0.8 cm; capsule, when present, immersed and cleistocarpic.</statement>
+      <description type="morphology">Stems generally very short, 0.2–0.8 cm; capsule, when present, immersed and cleistocarpic.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves loosely erect, subulate-acuminate from a lanceolate base, margins sharply serrate distal to the shoulders, costa excurrent, filling subula; seta stout, arcuate; capsule laterally emergent, pendulous</statement>
+      <description type="morphology">Leaves loosely erect, subulate-acuminate from a lanceolate base, margins sharply serrate distal to the shoulders, costa excurrent, filling subula; seta stout, arcuate; capsule laterally emergent, pendulous</description>
       <determination>7.   Eccremidium, p. 461</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Leaves erect-spreading or appressed or reflexed-recurved, oblong to lanceolate or subulate, margins plane, serrulate towards apex, costa subpercurrent to excurrent; seta short, erect to curved, not arcuate; capsule erect to inclined, not pendulous.</statement>
+      <description type="morphology">Leaves erect-spreading or appressed or reflexed-recurved, oblong to lanceolate or subulate, margins plane, serrulate towards apex, costa subpercurrent to excurrent; seta short, erect to curved, not arcuate; capsule erect to inclined, not pendulous.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves reflexed-recurved, lanceolate from an ovate base, margins plane, entire, serrulate at the flat apex; laminal cells thin-walled, proximal cells larger, rectangular, distal cells rhombic; capsule ovoid</statement>
+      <description type="morphology">Leaves reflexed-recurved, lanceolate from an ovate base, margins plane, entire, serrulate at the flat apex; laminal cells thin-walled, proximal cells larger, rectangular, distal cells rhombic; capsule ovoid</description>
       <determination>9.   Pseudephemerum, p. 467</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Leaves erect-spreading or appressed, oblong to lanceolate with subulate to acuminate tips, margins plane, entire to serrate or abruptly toothed; lamina cells quadrate-rectangular proximally, becoming irregularly rhomboid to trapezoidal and elongated distally; capsule ovoid to elliptic.</statement>
+      <description type="morphology">Leaves erect-spreading or appressed, oblong to lanceolate with subulate to acuminate tips, margins plane, entire to serrate or abruptly toothed; lamina cells quadrate-rectangular proximally, becoming irregularly rhomboid to trapezoidal and elongated distally; capsule ovoid to elliptic.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stem leaves 2–4 mm, loosely erect, subulate from an ovate-lanceolate to narrowly obovate base, entire, serrulate along subula; capsule immersed, ovoid, broadest at base, whitish, spore sac orange</statement>
+      <description type="morphology">Stem leaves 2–4 mm, loosely erect, subulate from an ovate-lanceolate to narrowly obovate base, entire, serrulate along subula; capsule immersed, ovoid, broadest at base, whitish, spore sac orange</description>
       <determination>6.   Cleistocarpidium, p. 460</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Stems leaves 0.5–2 mm, erect-spreading or appressed, imbricate to spreading, oblong to lanceolate with subulate to acuminate tips, entire to serrate or abruptly toothed; capsule immersed, ovoid to elliptical, orange to brown</statement>
+      <description type="morphology">Stems leaves 0.5–2 mm, erect-spreading or appressed, imbricate to spreading, oblong to lanceolate with subulate to acuminate tips, entire to serrate or abruptly toothed; capsule immersed, ovoid to elliptical, orange to brown</description>
       <determination>8.   Pleuridium, p. 463</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

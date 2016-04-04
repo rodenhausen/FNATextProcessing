@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dimorphocarpa</genus_name>
-    <species_name>candicans</species_name>
-    <species_authority>(Rafinesque) Rollins</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dimorphocarpa</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Rollins" date="unknown">candicans</taxon_name>
     <place_of_publication>
       <publication_title>Cruciferae Continental N. Amer.,</publication_title>
       <place_in_publication>361. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Iberis</genus_name>
-    <species_name>candicans</species_name>
-    <species_authority>Rafinesque</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Dimorphocarpa;species candicans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Iberis</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">candicans</taxon_name>
     <place_of_publication>
       <publication_title>Atlantic J.</publication_title>
       <place_in_publication>1: 146. 1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dimorphocarpa</genus_name>
-    <species_name>palmeri</species_name>
-    <species_authority>(Payson) Rollins</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dithyrea</genus_name>
-    <species_name>wislizeni</species_name>
-    <species_authority>Engelmann</species_authority>
-    <variety_name>palmeri</variety_name>
-    <variety_authority>Payson</variety_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials. Stems unbranched proximally, branched distally, (3–)4–8(–10) dm. Basal leaves: petiole 1–4(–6) cm; blade lanceolate to oblong or ovate, (2–)4–8(–10) cm × (10–)15–25(–40) mm, base cuneate to obtuse, margins dentate. Cauline leaves (distal) sessile; blade usually ovate to narrowly oblong, rarely lanceolate, base obtuse to truncate, margins entire, sometimes repand. Fruiting pedicels divaricate, (8–)10–16(–20) mm. Flowers: sepals 3.5–5 × 1–1.5 mm, pubescent abaxially; petals white or lavender, (7–)8–10(–12) × 4–6(–7) mm, attenuate to claw, claw 2–3 mm, not expanded basally; filaments lavender or white, 3–4 mm; anthers 1–1.5 mm. Fruits: each valve suborbicular or orbicular, (7–)8–10 × (6–)7–10 mm, base rounded, apex truncate, with or without narrow margin beyond indurated part surrounding seeds, glabrous or pubescent; style (0.3–)0.6–1(–1.2) mm. Seeds suborbicular-ovoid, 3–4 × 2.5–3 mm. 2n = 18.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>sandy hills and plains</habitat>
-  <habitat>prairies</habitat>
-  <habitat>sand dunes</habitat>
-  <elevation>100–800 m;</elevation>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Iberis;species candicans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dimorphocarpa</taxon_name>
+    <taxon_name rank="species" authority="(Payson) Rollins" date="unknown">palmeri</taxon_name>
+    <taxon_hierarchy>genus Dimorphocarpa;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dithyrea</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">wislizeni</taxon_name>
+    <taxon_name rank="variety" authority="Payson" date="unknown">palmeri</taxon_name>
+    <taxon_hierarchy>genus Dithyrea;species wislizeni;variety palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

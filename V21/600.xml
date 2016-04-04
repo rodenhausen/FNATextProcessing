@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6c.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Thymophylla</genus_name><species_name>tenuiloba</species_name><species_authority>(de Candolle) Small</species_authority><variety_name>texana</variety_name><variety_authority>(Cory) Strother</variety_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>11: 378. 1986</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Dyssodia</genus_name><species_name>texana</species_name><species_authority>Cory</species_authority><place_of_publication><publication_title>Rhodora </publication_title><place_in_publication>49: 162. 1947</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Dyssodia</genus_name><species_name>tenuiloba</species_name><species_authority>(de Candolle) B. L. Robinson</species_authority><variety_name>texana</variety_name><variety_authority>(Cory) Strother</variety_authority></TaxonIdentification><description>Leaves 7–15-lobed. Pappi of 5–10 lanceolate to muticous scales 0.5–1.2 mm, all erose or 1–3, 1-aristate. 2n = 16.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>limestone outcrops and derived soils in grasslands</habitat><elevation>800–900 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Coahuila).</global_distribution><global_distribution>Mexico (Nuevo León).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Lessing" date="unknown">Pectidinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thymophylla</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Small" date="unknown">tenuiloba</taxon_name>
+    <taxon_name rank="variety" authority="(Cory) Strother" date="unknown">texana</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>11: 378. 1986</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Pectidinae;genus Thymophylla;species tenuiloba;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dyssodia</taxon_name>
+    <taxon_name rank="species" authority="Cory" date="unknown">texana</taxon_name>
+    <place_of_publication>
+      <publication_title>Rhodora</publication_title>
+      <place_in_publication>49: 162. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Dyssodia;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dyssodia</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) B. L. Robinson" date="unknown">tenuiloba</taxon_name>
+    <taxon_name rank="variety" authority="(Cory) Strother" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Dyssodia;species tenuiloba;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6c.</number>
+</bio:treatment>

@@ -1,76 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hieracium</genus_name>
-    <species_name>piloselloides</species_name>
-    <species_authority>Villars</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="Villars" date="unknown">piloselloides</taxon_name>
     <place_of_publication>
       <publication_title>Prosp. Hist. Pl. Dauphiné,</publication_title>
       <place_in_publication>34. 1779</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species piloselloides;</taxon_hierarchy>
-  <common_name>King devil</common_name>
-  <common_name>épervière des Florentins</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hieracium</genus_name>
-    <species_name>florentinum</species_name>
-    <species_authority>Allioni</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pilosella</genus_name>
-    <species_name>piloselloides</species_name>
-    <species_authority>(Villars) Soják</species_authority>
-  </TaxonIdentification>
-  <description>Plants 15–40(–70+) cm. Stems proximally usually piloso-hirsute (hairs 2–4+ mm), rarely glabrous, distally usually glabrous, sometimes piloso-hirsute (hairs 1–3+ mm), stellate-pubescent, and/or stipitate-glandular. Leaves: basal 3–8(–20+), cauline 0–2(–4+); blades oblanceolate to lanceolate, 30–100(–150+) × 8–20+ mm, lengths 2.5–8+ times widths, bases cuneate, margins entire or denticulate, apices rounded to acute, faces glabrous or piloso-hirsute (on midribs and at margins, hairs 1–4+ mm). Heads (3–)10–30+ in subumbelliform or corymbiform arrays. Peduncles piloso-hirsute (hairs 1–2+ mm), stellate-pubescent, and stipitate-glandular. Calyculi: bractlets 3–12+. Involucres campanulate, 5–7 mm. Phyllaries 12–18+, apices acute to acuminate, abaxial faces piloso-hirsute (hairs 0.5–1.5+), stellate-pubescent, and stipitate-glandular. Florets (40–)60–80+; corollas yellow, 6–9 mm. Cypselae columnar, 1.5–2 mm; pappi of 25–40+,white bristles in 1 series, 3–4 mm.</description>
-  <phenology_info>
-    <text>Flowering (May–)Jun–Aug(–Sep).</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <introduced>introduced;</introduced>
-  <elevation>10–300(–1500) m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species piloselloides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="Allioni" date="unknown">florentinum</taxon_name>
+    <taxon_hierarchy>genus Hieracium;species florentinum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pilosella</taxon_name>
+    <taxon_name rank="species" authority="(Villars) Soják" date="unknown">piloselloides</taxon_name>
+    <taxon_hierarchy>genus Pilosella;species piloselloides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">King devil</other_name>
+  <other_name type="common_name">épervière des Florentins</other_name>
   <discussion>Plants called Hieracium praealtum Villars ex Gochnat (at least those called H. praealtum var. decipiens W. D. J. Koch) reputedly differ from members of H. piloselloides in having blades of their proximal leaves stellate-pubescent abaxially (M. L. Fernald 1950); such plants may be found in the flora and may merit taxonomic recognition.</discussion>
-</treatment>
-
+</bio:treatment>

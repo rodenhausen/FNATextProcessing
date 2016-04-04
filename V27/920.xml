@@ -1,53 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microbryum</genus_name>
-    <species_name>starckeanum</species_name>
-    <species_authority>(Hedwig) R. H. Zander</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microbryum</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) R. H. Zander" date="unknown">starckeanum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Buffalo Soc. Nat. Sci.</publication_title>
       <place_in_publication>32: 240.  1993,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Weissia</genus_name>
-    <species_name>starckeana</species_name>
-    <species_authority>Hedwig</species_authority>
+    <taxon_hierarchy>genus Microbryum;species starckeanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Weissia</taxon_name>
+    <taxon_name rank="species" authority="Hedwig" date="unknown">starckeana</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>65.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pottia</genus_name>
-    <species_name>starckeana</species_name>
-    <species_authority>(Hedwig) Müller Hal.</species_authority>
-  </TaxonIdentification>
-  <description>Distal laminal cells weakly convex superficially, adaxial surface of the costa not mammillose.  Seta elongate.  Capsule stegocarpous or occasionally cleistocarpous, cylindrical.  Spores smooth or tuberculate (seldom also weakly papillose), 22–30 µm.</description>
-  <number_of_infrataxa>Varieties 6 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North Temperate Zone</global_distribution>
-  <global_distribution>disjunct to austral areas.</global_distribution>
+    <taxon_hierarchy>genus Weissia;species starckeana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pottia</taxon_name>
+    <taxon_name rank="species" authority="(Hedwig) Müller Hal." date="unknown">starckeana</taxon_name>
+    <taxon_hierarchy>genus Pottia;species starckeana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 6 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules cleistocarpous (seldom operculum weakly differentiated but not dehiscent), spores both tuberculate and papillose, occasionally nearly smooth</statement>
+      <description type="morphology">Capsules cleistocarpous (seldom operculum weakly differentiated but not dehiscent), spores both tuberculate and papillose, occasionally nearly smooth</description>
       <determination>1c.   Microbryum starckeanum var. fosbergii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules stegocarpous, spores smooth or tuberculate.</statement>
+      <description type="morphology">Capsules stegocarpous, spores smooth or tuberculate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Peristome present, usually well-developed but truncate apically, leaves stoutly mucronate to short-awned</statement>
+      <description type="morphology">Peristome present, usually well-developed but truncate apically, leaves stoutly mucronate to short-awned</description>
       <determination>1a.   Microbryum starckeanum var. starckeanum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Peristome absent or rudimentary, leaves very shortly mucronate</statement>
+      <description type="morphology">Peristome absent or rudimentary, leaves very shortly mucronate</description>
       <determination>1b.   Microbryum starckeanum var. brachyodus</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,66 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Picris</genus_name>
-    <species_name>hieracioides</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Picris</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hieracioides</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 792. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Picris;species hieracioides;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Picris</genus_name>
-    <species_name>hieracioides</species_name>
-    <variety_name>alpina</variety_name>
-    <variety_authority>Koidzumi</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Picris</genus_name>
-    <species_name>hieracioides</species_name>
-    <subspecies_name>kamtschatica</subspecies_name>
-    <subspecies_authority>(Ledebour) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Biennials or perennials. Leaf blades 50–150(–300) × 10–25(–50+) mm. Involucres 8–15 × 10–16+ mm, larger in fruit. Phyllaries proximally ± flat, not each enfolding its subtended floret, usually bristly and/or tomentulose abaxially. Cypselae 3–4(–6) mm; pappi 5–7 mm. 2n = 10.</description>
-  <phenology_info>
-    <text>Flowering Jul–Oct.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites ;</text>
-    <habitat>disturbed sites</habitat>
-  </habitat_info>
-  <elevation>0–50(–100+) m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>also introduced</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Picris;species hieracioides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Picris</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hieracioides</taxon_name>
+    <taxon_name rank="variety" authority="Koidzumi" date="unknown">alpina</taxon_name>
+    <taxon_hierarchy>genus Picris;species hieracioides;variety alpina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Picris</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hieracioides</taxon_name>
+    <taxon_name rank="subspecies" authority="(Ledebour) Hultén" date="unknown">kamtschatica</taxon_name>
+    <taxon_hierarchy>genus Picris;species hieracioides;subspecies kamtschatica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>In Alaska, Picris hieracioides is known only from the Aleutian Islands, where it may be native. This species is evidently no longer present in British Columbia.</discussion>
-</treatment>
-
+</bio:treatment>

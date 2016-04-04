@@ -1,89 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>2</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Pseudotsuga</genus_name>
-        <species_name>menziesii</species_name>
-        <species_authority>(Mirbel) Franco</species_authority>
-        <place_of_publication>
-            <publication_title>Bol. Soc. Brot.</publication_title>
-            <place_in_publication>ser. 2, 24: 74. 1950</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Douglas-fir</common_name>
-    <common_name> Oregon-pine</common_name>
-    <common_name> sapin de Douglas</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Abies</genus_name>
-        <species_name>menziesii</species_name>
-        <species_authority>Mirbel</species_authority>
-        <place_of_publication>
-            <publication_title>Mém. Mus. Hist. Nat. </publication_title>
-            <place_in_publication>13: 63, 70. 1825</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Abies</genus_name>
-        <species_name>mucronata</species_name>
-        <species_authority>Rafinesque</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Abies</genus_name>
-        <species_name>taxifolia</species_name>
-        <species_authority>Poiret</species_authority>
-        <place_of_publication>
-            <place_in_publication>1805,</place_in_publication>
-            <other_info>not Desfontaines 1804</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Pinus</genus_name>
-        <species_name>taxifolia</species_name>
-        <species_authority>Lambert</species_authority>
-        <place_of_publication>
-            <place_in_publication>1803,</place_in_publication>
-            <other_info>not Salisbury 1796</other_info>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Pseudotsuga</genus_name>
-        <species_name>douglasii</species_name>
-        <species_authority>(Lindley) Carrière</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Pseudotsuga</genus_name>
-        <species_name>mucronata</species_name>
-        <species_authority>(Rafinesque) Sudworth</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Pseudotsuga</genus_name>
-        <species_name>taxifolia</species_name>
-        <species_authority>(Lambert) Britton</species_authority>
-    </TaxonIdentification>
-    <description>Trees to 90(--100)m; trunk to 4.4m diam.; crown narrow to broadly conic, flattened
-        in age. Twigs slender, pubescent, becoming glabrous with age. Leaves 15--30(--40) ×
-        1--1.5mm, yellow-green to dark or bluish green, apex obtuse to acute. Pollen cones
-        yellow-red. Seed cones 4--10 × 3--3.5cm. Seeds 5--6mm, wing longer than seed
-        body.</description>
-    <discussion>Pseudotsuga menziesii is a most important timber tree, valued in both the Old and
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Mirbel) Franco" date="unknown">menziesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bol. Soc. Brot.</publication_title>
+      <place_in_publication>ser. 2, 24: 74. 1950</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pseudotsuga;species menziesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Abies</taxon_name>
+    <taxon_name rank="species" authority="Mirbel" date="unknown">menziesii</taxon_name>
+    <place_of_publication>
+      <publication_title>Mém. Mus. Hist. Nat.</publication_title>
+      <place_in_publication>13: 63, 70. 1825</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Abies;species menziesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Abies</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">mucronata</taxon_name>
+    <taxon_hierarchy>genus Abies;species mucronata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Abies</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">taxifolia</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1805,</place_in_publication>
+      <other_info_on_pub>not Desfontaines 1804</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Abies;species taxifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pinus</taxon_name>
+    <taxon_name rank="species" authority="Lambert" date="unknown">taxifolia</taxon_name>
+    <place_of_publication>
+      <place_in_publication>1803,</place_in_publication>
+      <other_info_on_pub>not Salisbury 1796</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pinus;species taxifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) Carrière" date="unknown">douglasii</taxon_name>
+    <taxon_hierarchy>genus Pseudotsuga;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Sudworth" date="unknown">mucronata</taxon_name>
+    <taxon_hierarchy>genus Pseudotsuga;species mucronata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudotsuga</taxon_name>
+    <taxon_name rank="species" authority="(Lambert) Britton" date="unknown">taxifolia</taxon_name>
+    <taxon_hierarchy>genus Pseudotsuga;species taxifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Douglas-fir</other_name>
+  <other_name type="common_name">Oregon-pine</other_name>
+  <other_name type="common_name">sapin de Douglas</other_name>
+  <discussion>Pseudotsuga menziesii is a most important timber tree, valued in both the Old and
         New worlds. The two intergrading varieties are sympatric in southern British Columbia and
         northeastern Washington.</discussion>
-    <discussion>Douglas-fir ( Pseudotsuga menziesii ) is the state tree of Oregon.</discussion>
-    <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-    <global_distribution> North America</global_distribution>
-    <global_distribution> Mexico.</global_distribution>
-    <key>
-        <key_statement>
-            <statement_id>1</statement_id>
-            <statement>Bracts straight, appressed; seed cones 6-10 cm; leaves yellowish green;
-                Pacific Coast region.</statement>
-            <determination>2a var. menziesii</determination>
-        </key_statement>
-        <key_statement>
-            <statement_id>1</statement_id>
-            <statement>Bracts spreading, often reflexed; seed cones 4-7 cm; leaves bluish green to
-                dark green or gray-green; Rocky Mountain region.</statement>
-            <determination>2b var. glauca</determination>
-        </key_statement>
-    </key>
-</treatment>
+  <discussion>Douglas-fir ( Pseudotsuga menziesii ) is the state tree of Oregon.</discussion>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Bracts straight, appressed; seed cones 6-10 cm; leaves yellowish green;
+                Pacific Coast region.</description>
+      <determination>2a var. menziesii</determination>
+    </key_statement>
+    <key_statement>
+      <statement_id>1</statement_id>
+      <description type="morphology">Bracts spreading, often reflexed; seed cones 4-7 cm; leaves bluish green to
+                dark green or gray-green; Rocky Mountain region.</description>
+      <determination>2b var. glauca</determination>
+    </key_statement>
+  </key>
+</bio:treatment>

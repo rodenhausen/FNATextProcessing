@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>52a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Solidago</genus_name>
-        <species_name>rugosa</species_name>
-        <species_authority>Miller</species_authority>
-        <subspecies_name>rugosa</subspecies_name>
-    </TaxonIdentification>
-    <description>leaves relatively thin, not very rugose, usually sharply toothed, apices acuminate,
-        glabrous or pilose. ray florets 4–12</description>
-    <number_of_infrataxa>Varieties 2 (2 in the flora)</number_of_infrataxa>
-    <global_distribution>e North America</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">rugosa</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">rugosa</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species rugosa;subspecies rugosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>52a.</number>
+  <discussion>Varieties 2 (2 in the flora)</discussion>
+</bio:treatment>

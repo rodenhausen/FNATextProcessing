@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>67a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Symphyotrichum</genus_name><species_name>foliaceum</species_name><species_authority>(Lindley ex de Candolle) G. L. Nesom</species_authority><variety_name>apricum</variety_name><variety_authority>(A. Gray) G. L. Nesom</variety_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>77: 282. 1995</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Aster</genus_name><species_name>foliaceus</species_name><species_authority>Lindley ex de Candolle</species_authority><variety_name>apricus</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication><publication_title>in A. Gray et al., Syn. Fl. N. Amer. </publication_title><place_in_publication>1(2): 193. 1884</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>subspicatus</species_name><species_authority>Nees</species_authority><variety_name>apricus</variety_name><variety_authority>(A. Gray) B. Boivin</variety_authority></TaxonIdentification><description>Plants 5–20 cm. Cauline leaf bases cuneate. Heads usually borne singly. Phyllaries often purple-tinged, oblanceolate or narrowly oblong (outer) to linear (inner), subequal, outer scarcely foliaceous, apices acute. 2n = 16, 32.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>alpine and subalpine meadows</habitat><elevation>2700–3600 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Ariz.</us_distribution><us_distribution>Calif.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>Idaho</us_distribution><us_distribution>Mont.</us_distribution><us_distribution>Nev.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>Utah</us_distribution><us_distribution>Wash.</us_distribution><us_distribution>Wyo.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Symphyotrichum</taxon_name>
+    <taxon_name rank="species" authority="(Lindley ex de Candolle) G. L. Nesom" date="unknown">foliaceum</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) G. L. Nesom" date="unknown">apricum</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>77: 282. 1995</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Symphyotrichum;species foliaceum;variety apricum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Lindley ex de Candolle" date="unknown">foliaceus</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">apricus</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 193. 1884</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aster;species foliaceus;variety apricus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="Nees" date="unknown">subspicatus</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) B. Boivin" date="unknown">apricus</taxon_name>
+    <taxon_hierarchy>genus Aster;species subspicatus;variety apricus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>67a.</number>
+</bio:treatment>

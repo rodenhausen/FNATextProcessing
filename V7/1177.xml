@@ -1,42 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Caulanthus</genus_name>
-    <species_name>pilosus</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Caulanthus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">pilosus</taxon_name>
     <place_of_publication>
       <publication_title>Botany (Fortieth Parallel),</publication_title>
       <place_in_publication>27. 1871</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Streptanthus</genus_name>
-    <species_name>pilosus</species_name>
-    <species_authority>(S. Watson) Jepson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>stamineum</species_name>
-    <species_authority>Eastwood</species_authority>
-  </TaxonIdentification>
-  <description>Biennials; moderately to densely pilose. Stems erect or ascending, unbranched or branched distally, 2–12 dm. Basal leaves rosulate; petiole 1–8 cm; blade oblanceolate or oblong (in outline), 2–24 cm × 5–90 mm, margins usually pinnatifid to pinnatisect, rarely dentate-sinuate (lobes dentate). Cauline leaves (distalmost) shortly petiolate; blade linear to narrowly oblanceolate, margins entire or dentate. Racemes (densely flowered), without a terminal cluster of sterile flowers, (sometimes proximalmost flowers bracteate). Fruiting pedicels ascending, 4–18 mm, glabrous or pilose. Flowers: sepals erect, (dark purple in bud becoming paler or greenish), narrowly ovate to lanceolate, 4.5–9.5 × 1.5–2 mm, (equal); petals purple, 7–12 mm, blade 3–4 × 1–1.5 mm, crisped, claw oblanceolate to spatulate, 4–9 × 1–2 mm; filaments tetradynamous, median pairs 4.5–10 mm, lateral pair 3–8.5 mm; anthers narrowly oblong, equal, 2–3.5 mm. Fruits ascending to divaricate, terete, 2–18 cm × 1–1.5 mm; valves each with obscure midvein; ovules 152–198 per ovary; style obsolete or, rarely, to 1 mm; stigma slightly 2-lobed. Seeds 1–2 × 0.7–1 mm.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>flats</habitat>
-  <habitat>rocky slopes</habitat>
-  <habitat>scrub and sagebrush communities</habitat>
-  <habitat>pinyon-juniper woodland</habitat>
-  <elevation>600–2800 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Caulanthus;species pilosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Streptanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Jepson" date="unknown">pilosus</taxon_name>
+    <taxon_hierarchy>genus Streptanthus;species pilosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">stamineum</taxon_name>
+    <taxon_hierarchy>genus Thelypodium;species stamineum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>16.</number>
   <discussion>Caulanthus pilosus is found in northeastern California, southwestern Idaho, Nevada, eastern and southern Oregon, and western Utah.</discussion>
-</treatment>
+</bio:treatment>

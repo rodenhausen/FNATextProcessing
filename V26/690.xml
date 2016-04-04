@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Triteleia</genus_name><species_name>clementina</species_name><species_authority>Hoover</species_authority><place_of_publication>
-    <publication_title>Amer. Midl. Naturalist</publication_title>
-    <place_in_publication>25: 82. 1941</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>San Clemente Island triteleia</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>clementina</species_name><species_authority>(Hoover) Munz</species_authority></TaxonIdentification><description>Leaves 30–100 cm × 4–30 mm. Scape 30–90 cm, smooth. Flowers: perianth lavender, 16–27 mm, tube funnelform-campanulate, acute at base, 7–12 mm, lobes erect, 9–15 mm; stamens attached alternately at 2 levels, equal; filaments triangular, widest at base, 2 mm, apical appendages absent; anthers purple, 1.5 mm; ovary white, equal to stipe; pedicel 3–8 cm. 2n = 16.</description><phenology>spring</phenology><phenology>may</phenology><phenology>mar</phenology><phenology>apr</phenology><habitat>damp clefts</habitat><habitat>rocky walls</habitat><habitat>coastal sage scrub</habitat><conservation>of conservation concern;</conservation><elevation>0–200 m;</elevation><us_distribution>Calif.</us_distribution><discussion>This is the only species of Triteleia occurring on any of the islands off the southern California coast; it is endemic to San Clemente Island.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Triteleia</taxon_name>
+    <taxon_name rank="species" authority="Hoover" date="unknown">clementina</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. Midl. Naturalist</publication_title>
+      <place_in_publication>25: 82. 1941</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Triteleia;species clementina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Hoover) Munz" date="unknown">clementina</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species clementina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">San Clemente Island triteleia</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>This is the only species of Triteleia occurring on any of the islands off the southern California coast; it is endemic to San Clemente Island.</discussion>
+</bio:treatment>

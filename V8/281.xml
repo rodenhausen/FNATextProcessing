@@ -1,50 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>bronchialis</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>austromontana</subspecies_name>
-    <subspecies_authority>(Wiegand) Piper</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">bronchialis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Wiegand) Piper" date="unknown">austromontana</taxon_name>
     <place_of_publication>
       <publication_title>Contr. U.S. Natl. Herb.</publication_title>
       <place_in_publication>11: 313. 1906,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>austromontana</species_name>
-    <species_authority>Wiegand</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species bronchialis;subspecies austromontana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Wiegand" date="unknown">austromontana</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>27: 389. 1900</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ciliaria</genus_name>
-    <species_name>austromontana</species_name>
-    <species_authority>(Wiegand) W. A. Weber</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>bronchialis</species_name>
-    <variety_name>austromontana</variety_name>
-    <variety_authority>(Wiegand) M. Peck</variety_authority>
-  </TaxonIdentification>
-  <description>Petals yellow-spotted proximally, purple- or red-spotted distally, not clawed. 2n =
-        26.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Dry, rocky habitats, ledges, alpine and subalpine meadows, alpine tundra</habitat>
-  <elevation>500–4500 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species austromontana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ciliaria</taxon_name>
+    <taxon_name rank="species" authority="(Wiegand) W. A. Weber" date="unknown">austromontana</taxon_name>
+    <taxon_hierarchy>genus Ciliaria;species austromontana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bronchialis</taxon_name>
+    <taxon_name rank="variety" authority="(Wiegand) M. Peck" date="unknown">austromontana</taxon_name>
+    <taxon_hierarchy>genus Saxifraga;species bronchialis;variety austromontana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11b.</number>
+</bio:treatment>

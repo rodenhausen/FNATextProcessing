@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chaptalia</genus_name>
-    <species_name>texana</species_name>
-    <species_authority>Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Mutisieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chaptalia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">texana</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. Bot. Observ. Crit.</publication_title>
       <place_in_publication>1: 191. 1906</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Chaptalia;species texana;</taxon_hierarchy>
-  <common_name>Silverpuff</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chaptalia</genus_name>
-    <species_name>nutans</species_name>
-    <species_authority>(Linnaeus) Polakowski</species_authority>
-    <variety_name>texana</variety_name>
-    <variety_authority>(Greene) Burkart</variety_authority>
-  </TaxonIdentification>
-  <description>Leaves petiolate (petioles 1/8–1/3 lengths of blades); blades obovate to ovate or elliptic or sublyrate, 3–21 cm, margins lobed to denticulate, abaxial faces thinly gray-tomentose, adaxial faces green-glabrate. Heads nodding in bud and fruit, erect in flowering. Peduncles ebracteate or bracts 1–2, 13–34 cm at flowering, 16–46 cm in fruit, not dilated distally. Florets: outer pistillate, corollas evenly cream colored, turning crimson, laminae 0.2–0.8 mm wide; inner florets bisexual, fertile. Cypselae 11.5–13 mm, beaks filiform, lengths 1–1.6 times bodies, faces sparsely to moderately papillate (bodies and beaks). 2n = 24.</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>slopes in thin , rocky ( limestone ) soils , usually in woods with abundant oaks ;</text>
-    <habitat>slopes in thin , rocky ( limestone ) soils , in woods with abundant oaks</habitat>
-  </habitat_info>
-  <elevation>200–1500 m;</elevation>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Coahuila).</global_distribution>
-  <global_distribution>Mexico (Nuevo León).</global_distribution>
-  <global_distribution>Mexico (San Luis Potosí).</global_distribution>
-  <global_distribution>Mexico (Tamaulipas).</global_distribution>
-  <global_distribution>Mexico (and others).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>family Asteraceae;tribe Mutisieae;genus Chaptalia;species texana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chaptalia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Polakowski" date="unknown">nutans</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Burkart" date="unknown">texana</taxon_name>
+    <taxon_hierarchy>genus Chaptalia;species nutans;variety texana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Silverpuff</other_name>
+</bio:treatment>

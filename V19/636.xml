@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>lanata</species_name>
-    <species_authority>(Hooker) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Greene" date="unknown">lanata</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>3: 288. 1898</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species lanata;</taxon_hierarchy>
-  <common_name>Woolly pussytoes</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>carpatica</species_name>
-    <species_authority>(Wahlenberg) Hooker</species_authority>
-    <variety_name>lanata</variety_name>
-    <variety_authority>Hooker</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species lanata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Wahlenberg) Hooker" date="unknown">carpatica</taxon_name>
+    <taxon_name rank="variety" authority="Hooker" date="unknown">lanata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 329. 1834</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Dioecious. Plants 3–20 cm (caudices branching or rhizomes stout). Stolons none. Basal leaves 3-nerved, narrowly oblanceolate, 10–60(–100) × 3–12 mm, tips acute, faces gray-woolly or tomentose. Cauline leaves linear, 5–40 mm, mid and distal flagged. Heads 3–9 in corymbiform arrays. Involucres: staminate 4.5–6 mm; pistillate 5–8 mm. Phyllaries (proximally light brown, dark brown, or olivaceous) distally whitish or light brown. Corollas: staminate 3–4.5 mm; pistillate 2.5–4 mm. Cypselae 1–1.6 mm, glabrous; pappi: staminate 4–5 mm; pistillate 3.5–5 mm. 2n = 28 (under A. neodioica).</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>protected alpine and subalpine sites , gravelly or sandy soils near conifers at timberline ;</text>
-    <habitat>protected alpine and subalpine sites sandy soils near conifers at timberline</habitat>
-  </habitat_info>
-  <elevation>1400–3400 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Antennaria;species carpatica;variety lanata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Woolly pussytoes</other_name>
+</bio:treatment>

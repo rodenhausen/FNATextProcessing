@@ -1,40 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">cana</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">cana</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species cana;subspecies cana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">columbiensis</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species columbiensis;</taxon_hierarchy>
+  </taxon_identification>
   <number>11a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>cana</species_name>
-    <species_authority>Pursh</species_authority>
-    <subspecies_name>cana</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species cana;subspecies cana;</taxon_hierarchy>
-  <common_name>Silver wormwood</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>columbiensis</species_name>
-    <species_authority>Nuttall</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 100–150 cm. Stems white to light gray or brown. Leaves whitish gray, blades narrowly elliptic to lanceolate, 2–8 × 0.3–1 cm, usually entire, sometimes irregularly lobed, densely silvery-canescent. Heads in (leafy) arrays 10–20 × 5–7 cm. Involucres broadly campanulate, 3–4 × 3–5 mm. Phyllaries broadly ovate (mostly obtuse), densely hairy. Florets 10–20. Cypselae 1–1.2 mm. 2n = 54.</description>
-  <habitat_info>
-    <text>sandy loam soils , often along streams ;</text>
-    <habitat>sandy loam soils</habitat>
-    <habitat>along</habitat>
-    <habitat>streams</habitat>
-  </habitat_info>
-  <elevation>1000–1500 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+  <other_name type="common_name">Silver wormwood</other_name>
   <discussion>Subspecies cana is found primarily in the grasslands of Canada and the west-central United States. It is unusual within the species in that there is no morphologic evidence of hybridization with other species in subg. Tridentatae.</discussion>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

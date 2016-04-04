@@ -1,53 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Descurainia</genus_name>
-    <species_name>incisa</species_name>
-    <species_authority>(Engelmann) Britton</species_authority>
-    <subspecies_name>paysonii</subspecies_name>
-    <subspecies_authority>(Detling) Rollins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Al-Shehbaz, Beilstein &amp; E. A. Kellogg" date="unknown">Descurainieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Descurainia</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) Britton" date="unknown">incisa</taxon_name>
+    <taxon_name rank="subspecies" authority="(Detling) Rollins" date="unknown">paysonii</taxon_name>
     <place_of_publication>
       <publication_title>Harvard Pap. Bot.</publication_title>
       <place_in_publication>1(4): 46. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Descurainia</genus_name>
-    <species_name>pinnata</species_name>
-    <species_authority>(Walter) Britton</species_authority>
-    <subspecies_name>paysonii</subspecies_name>
-    <subspecies_authority>Detling</subspecies_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Descurainieae;genus Descurainia;species incisa;subspecies paysonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Descurainia</taxon_name>
+    <taxon_name rank="species" authority="(Walter) Britton" date="unknown">pinnata</taxon_name>
+    <taxon_name rank="subspecies" authority="Detling" date="unknown">paysonii</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>22: 515. 1939</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Descurainia</genus_name>
-    <species_name>incisa</species_name>
-    <variety_name>paysonii</variety_name>
-    <variety_authority>(Detling) N. H. Holmgren</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Descurainia</genus_name>
-    <species_name>pinnata</species_name>
-    <variety_name>paysonii</variety_name>
-    <variety_authority>(Detling) S. L. Welsh &amp; Reveal</variety_authority>
-  </TaxonIdentification>
-  <description>Plants eglandular, often canes-cent. Basal leaves: lateral lobes 2 or 3 (or 4) pairs, margins usually entire. Cauline leaves: lobes linear, margins entire. Racemes eglandular. Fruiting pedicels horizontal to divaricate, (10–)13–25(–30) mm. Fruits curved inward.</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>disturbed grounds</habitat>
-  <habitat>rocky hillsides</habitat>
-  <habitat>pinyon-juniper woodlands</habitat>
-  <habitat>grassy benches</habitat>
-  <habitat>flats</habitat>
-  <elevation>1500–2300 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah.</us_distribution>
+    <taxon_hierarchy>genus Descurainia;species pinnata;subspecies paysonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Descurainia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">incisa</taxon_name>
+    <taxon_name rank="variety" authority="(Detling) N. H. Holmgren" date="unknown">paysonii</taxon_name>
+    <taxon_hierarchy>genus Descurainia;species incisa;variety paysonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Descurainia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pinnata</taxon_name>
+    <taxon_name rank="variety" authority="(Detling) S. L. Welsh &amp; Reveal" date="unknown">paysonii</taxon_name>
+    <taxon_hierarchy>genus Descurainia;species pinnata;variety paysonii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
   <discussion>Subspecies paysonii and incisa are reliably separated by their pedicel length, orientation, and shape and margin of lateral leaf lobes.</discussion>
-</treatment>
+</bio:treatment>

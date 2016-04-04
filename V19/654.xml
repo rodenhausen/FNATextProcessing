@@ -1,48 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>dioica</species_name>
-    <species_authority>(Linnaeus) Gaertner</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gaertner" date="unknown">dioica</taxon_name>
     <place_of_publication>
       <publication_title>Fruct. Sem. Pl.</publication_title>
       <place_in_publication>2: 410. 1791</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species dioica;</taxon_hierarchy>
-  <common_name>Stoloniferous pussytoes</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>dioicum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species dioica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">dioicum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 850. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>hyperborea</species_name>
-    <species_authority>D. Don</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>insularis</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Dioecious. Plants 3–10 cm. Stolons 2–5 cm. Basal leaves 1-nerved, spatulate or rhombic-spatulate, 3–18 × 3–6 mm, tips mucronate, abaxial faces gray-tomentose, adaxial green-glabrous. Cauline leaves linear, 7–13 mm, not flagged (apices acute). Heads 3–7 in corymbiform arrays. Involucres: staminate 5–6.5 mm; pistillate 5–7 mm. Phyllaries distally dark pink to light pink or white. Corollas: staminate 3–4 mm; pistillate 4–5 mm. Cypselae 0.5–1 mm, papillate; pappi: staminate 3.5–4.5 mm; pistillate 5–6 mm. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry slopes on tundra ;</text>
-    <habitat>dry slopes on tundra</habitat>
-  </habitat_info>
-  <elevation>0–600 m;</elevation>
-  <us_distribution>Alaska (Aleutian Islands)</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species dioicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="D. Don" date="unknown">hyperborea</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species hyperborea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">insularis</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species insularis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
+  <other_name type="common_name">Stoloniferous pussytoes</other_name>
   <discussion>Antennaria dioica ranges from the British Isles to Japan and into the Aleutian Islands (R. J. Bayer 2000). It is characterized by glabrous adaxial leaf faces and distally pink or white phyllaries. The circumscription of A. dioica in North America has long been debated; A. marginata of southwestern states bears a remarkable similarity to A. dioica. DNA sequence data (Bayer et al. 1996) indicate that the two taxa are not sisters; they are only distantly related. They are allopatric. Antennaria dioica may be a sexual progenitor of the A. parvifolia complex.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Oedipodium</genus_name>
-    <species_name>griffithianum</species_name>
-    <species_authority>(Dickson) Schwägrichen</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oedipodium</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) Schwägrichen" date="unknown">griffithianum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond. Suppl.</publication_title>
       <place_in_publication>2(1,1): 15.  1823,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Bryum</genus_name>
-    <species_name>griffithianum</species_name>
-    <species_authority>Dickson</species_authority>
+    <taxon_hierarchy>genus Oedipodium;species griffithianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryum</taxon_name>
+    <taxon_name rank="species" authority="Dickson" date="unknown">griffithianum</taxon_name>
     <place_of_publication>
       <publication_title>Fasc. Pl. Crypt. Brit.</publication_title>
       <place_in_publication>4: 8, plate 10, fig. 10.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gymnostomum</genus_name>
-    <species_name>griffithianum</species_name>
-    <species_authority>(Dickson) Smith</species_authority>
-  </TaxonIdentification>
-  <description>Leaf distal median cells 25–65 × 45 µm, thin-walled except for the tiny corner thickenings, marginal cells quadrate, basal  cells rectangular.  Antheridia mingled with hyaline, filiform paraphyses.  Seta wrinkled-striate, often twisted when dry.</description>
-  <habitat>Protected niches on moist soil or humus, most commonly in crevices of siliceous rocks;</habitat>
-  <elevation>low to moderate elevations;</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>South America (Tierra del Fuego)</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <global_distribution>Atlantic Islands (Falkland Islands).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Bryum;species griffithianum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnostomum</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) Smith" date="unknown">griffithianum</taxon_name>
+    <taxon_hierarchy>genus Gymnostomum;species griffithianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

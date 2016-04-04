@@ -1,56 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Encalypta</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Hedwig.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="Hedwig." date="unknown">vulgaris</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Musc. Frond.,</publication_title>
       <place_in_publication>60.  1801,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>vulgaris</species_name>
-    <variety_name>apiculata</variety_name>
-    <variety_authority>Wahlenberg</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>vulgaris</species_name>
-    <variety_name>mutica</variety_name>
-    <variety_authority>Bridel</variety_authority>
-  </TaxonIdentification>
-  <description>Stems 5–20 mm, central strand small.  Leaves broadly oblong to lingulate, 3–4 mm; apices broadly acute to obtuse, sometimes weakly cucullate or muticous; margins plane or weakly incurved; costa subpercurrent or percurrent, papillose; laminal cells 8–14 µm; basal cells smooth.  Specialized asexual reproduction absent.  Seta 4–8 mm, yellowish red.  Capsule exserted, erect, cylindric, 2–3.5 mm, weakly straight-furrowed, yellowish brown, exothecial cells rectangular, walls weakly thickened; peristome absent or just a short hyaline membrane present; operculum 1.5 mm.  Calyptra 4–5 mm, base not fringed, body smooth or papillose above or throughout.  Spores 22–35 µm, warty, light brown.</description>
-  <habitat>Shallow calcareous soil over rock;</habitat>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico (Baja California)</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand)</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Encalypta;species vulgaris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="variety" authority="Wahlenberg" date="unknown">apiculata</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species vulgaris;variety apiculata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="variety" authority="Bridel" date="unknown">mutica</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species vulgaris;variety mutica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>Encalypta vulgaris has at times been lumped with E. rhaptocarpa, and some “intermediate” specimens are difficult to place.  The absence of a peristome, weakly furrowed capsule, and absence of an awn on vegetative leaves should be sufficient to identify most specimens.  Furthermore, E. vulgaris is most frequently found in the western United States and western Mexico, while E. rhaptocarpa is more common throughout the north in Canada and Alaska.</discussion>
-</treatment>
+</bio:treatment>

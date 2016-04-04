@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>70a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allium</genus_name><species_name>peninsulare</species_name><species_authority>Lemmon ex Greene</species_authority><variety_name>peninsulare</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>montigenum</species_name><species_authority>Davidson</species_authority></TaxonIdentification><description>Leaf blade straight or nearly so. Flowers 10–15 mm; stigma distinctly 3-lobed; pedicel 10–40 mm. 2n = 14.</description><phenology>apr</phenology><phenology>spring</phenology><phenology>may</phenology><habitat>clay soils</habitat><habitat>including serpentine</habitat><elevation>300–1100 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="Lemmon ex Greene" date="unknown">peninsulare</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">peninsulare</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Allium;species peninsulare;variety peninsulare;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="Davidson" date="unknown">montigenum</taxon_name>
+    <taxon_hierarchy>genus Allium;species montigenum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>70a.</number>
+</bio:treatment>

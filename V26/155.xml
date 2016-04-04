@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Calochortus</genus_name><species_name>coeruleus</species_name><species_authority>(Kellogg) S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>14: 263. 1879</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>caeruleus</past_name><common_name>Beavertail-grass</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Cyclobothra</genus_name><species_name>coerulea</species_name><species_authority>Kellogg</species_authority><place_of_publication><publication_title>Proc. Calif. Acad. Sci. </publication_title><place_in_publication>2: 4. 1863</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>coeruleus</species_name><variety_name>fimbriatus</variety_name><variety_authority>Ownbey</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Calochortus</genus_name><species_name>maweanus</species_name><species_authority>Leichtlin ex Baker</species_authority></TaxonIdentification><description>Stems not branching, 0.3–2 dm. Leaves: basal persistent, 1–2 dm; blade linear, flat. Inflorescences 1–10-flowered. Flowers erect to spreading; perianth open, campanulate; sepals oblong-lanceolate, ca. 10 mm, glabrous, apex acuminate; petals light blue, obovate, 8–12 mm, adaxial surface hairy only distal to gland, margins ciliate to apex, apex acuminate; glands slightly depressed, bordered proximally by ciliate membrane, distally by short hairs; anthers oblong, apex acute to acuminate. Capsules nodding, not winged, 1–2 cm, apex acute. Seeds irregular. 2n = 20.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>open gravelly places in woods</habitat><elevation>600–2500 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Calochortus coeruleus appears to intergrade with C. tolmiei to some extent, especially in petal ciliation (K. L. Chambers, pers. comm.), and it might better be treated as a variety of the latter, more widespread species.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="(Kellogg) S. Watson" date="unknown">coeruleus</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>14: 263. 1879</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Calochortus;species coeruleus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyclobothra</taxon_name>
+    <taxon_name rank="species" authority="Kellogg" date="unknown">coerulea</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>2: 4. 1863</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Cyclobothra;species coerulea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="Leichtlin ex Baker" date="unknown">coeruleus</taxon_name>
+    <taxon_name rank="variety" authority="Ownbey" date="unknown">fimbriatus</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species coeruleus;variety fimbriatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calochortus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">maweanus</taxon_name>
+    <taxon_hierarchy>genus Calochortus;species maweanus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="past_name">caeruleus</other_name>
+  <other_name type="common_name">Beavertail-grass</other_name>
+  <discussion>Calochortus coeruleus appears to intergrade with C. tolmiei to some extent, especially in petal ciliation (K. L. Chambers, pers. comm.), and it might better be treated as a variety of the latter, more widespread species.</discussion>
+</bio:treatment>

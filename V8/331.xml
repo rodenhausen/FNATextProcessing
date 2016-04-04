@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Rhodiola</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>Rafinesque</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodiola</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">integrifolia</taxon_name>
     <place_of_publication>
       <publication_title>Atlantic J.</publication_title>
       <place_in_publication>1: 146.  1832  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Western roseroot</common_name>
-  <common_name>king’s crown</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhodiola</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>integrifolia</subspecies_name>
-    <subspecies_authority>(Rafinesque) H. Hara</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Rhodiola</genus_name>
-    <species_name>rosea</species_name>
-    <variety_name>integrifolia</variety_name>
-    <variety_authority>(Rafinesque) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>integrifolium</species_name>
-    <species_authority>(Rafinesque) A. Nelson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>(Linnaeus) Scopoli</species_authority>
-    <variety_name>integrifolium</variety_name>
-    <variety_authority>(Rafinesque) A. Berger</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tolmachevia</genus_name>
-    <species_name>integrifolia</species_name>
-    <species_authority>(Rafinesque) Á. Löve &amp; D. Löve</species_authority>
-  </TaxonIdentification>
-  <description>Plants dioecious or polygamodioecious.  Rootstock erect or spreading, to 1–5 cm diam.  Floral stems deciduous, 3–50 × 0.1–0.7 cm.  Leaf blades usually bright green, sometimes glaucous, elliptic to ovate or oblanceolate to linear, 0.5–5.5 × 0.2–1.5(–2) cm, margins entire or toothed, apex acute to obtuse.  Inflorescences corymbose cymes, dense, to 250-flowered, to 8 cm diam.  Pedicels ca. 2 mm.  Flowers mostly unisexual, 4–5-merous; sepals lanceolate to ovate, 1.5–3 mm; petals mostly dark red, sometimes yellowish at base or yellow with apical 1/3 red, elliptic-oblong, 1.5–5 mm, shorter than stamens, in staminate flowers spreading, hooded, 1.3–1.7 mm wide, in pistillate erect.  Follicles 4–9 mm, beaks spreading.  Seeds winged, pyriform or oblanceoloid, 1.1–2.8 mm.  2n = 36.</description>
-  <number_of_infrataxa>Subspecies 3+ (3 in the flora):</number_of_infrataxa>
-  <global_distribution>e</global_distribution>
-  <global_distribution>w North America</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family CRASSULACEAE;genus Rhodiola;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodiola</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rosea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rafinesque) H. Hara" date="unknown">integrifolia</taxon_name>
+    <taxon_hierarchy>genus Rhodiola;species rosea;subspecies integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rhodiola</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) A. Nelson" date="unknown">rosea</taxon_name>
+    <taxon_name rank="variety" authority="(Rafinesque) Jepson" date="unknown">integrifolia</taxon_name>
+    <taxon_hierarchy>genus Rhodiola;species rosea;variety integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Scopoli" date="unknown">integrifolium</taxon_name>
+    <taxon_hierarchy>genus Sedum;species integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Rafinesque) Á. Löve &amp; D. Löve" date="unknown">rosea</taxon_name>
+    <taxon_name rank="variety" authority="(Rafinesque) A. Berger" date="unknown">integrifolium</taxon_name>
+    <taxon_hierarchy>genus Sedum;species rosea;variety integrifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tolmachevia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">integrifolia</taxon_name>
+    <taxon_hierarchy>genus Tolmachevia;species integrifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Western roseroot</other_name>
+  <other_name type="common_name">king’s crown</other_name>
+  <discussion>Subspecies 3+ (3 in the flora):</discussion>
   <discussion>The plants treated here as Rhodiola integrifolia and R. rosea are part of a difficult polymorphic complex of arctic to cool-temperate North America and Eurasia and of high mountains southward.  Some authors have included them all in R. rosea [or Sedum rosea (Linnaeus) Scopoli], often with subspecies or varieties; N. L. Britton and J. N. Rose (1905) earlier divided them into two to several species.</discussion>
   <discussion>For this complex C. H. Uhl (1952) cited six published chromosome counts from Greenland through Eurasia to Japan, all n = 11 or 2n = 22; he found the same numbers in seven collections from northeastern North America (all these Rhodiola rosea proper).  From Eurasia, according to R. L. Taylor and G. A. Mulligan (1968), races with 2n = 16 and 33 also are known.  On the other hand, for endemics in Minnesota and New York and for five plants from New Mexico and California, Uhl found n = 18 or 2n = 36, and Taylor and Mulligan likewise found 2n = 36 in plants of Moresby Island, British Columbia.  With the support of five more counts, but with none for the large area of Oregon and Wyoming to the Bering Sea, R. T. Clausen (1975) separated the 36-chromosome plants as Sedum integrifolium.  More counts of 2n = 36 have since appeared, including one from Sutwick Island, off the Alaska Peninsula (Á. Löve 1979).</discussion>
   <discussion>In middle North America, Rhodiola integrifolia and R. rosea are geographically distinct.  The local endemic subsp. leedyi of the former grows in Minnesota, midway between the western subspecies of R. integrifolia and the eastern R. rosea, and grows in New York state within 100 km of R. rosea.  Otherwise, the ranges of the two species are over 2000 km apart in the south and nearly 3000 km in the north.  Rhodiola integrifolia also is the prevailing plant in eastern Asia, where it has been named Sedum atropurpureum N. S. Turczaninow (E. Hultén 1941–1950, vol. 5), and R. rosea seems to extend (although not verified by chromosome counts) from eastern Asia to far-western Alaska, on the coast of the Bering Sea.</discussion>
@@ -55,23 +56,23 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals mostly dark red throughout; stems 3–15(–50) cm; leaf blades ovate to elliptic or oblanceolate, 0.5–3(–5) × 0.2–1.5(–2) cm; seeds 1.4–2 mm; Alaska to Rocky Mountains</statement>
+      <description type="morphology">Petals mostly dark red throughout; stems 3–15(–50) cm; leaf blades ovate to elliptic or oblanceolate, 0.5–3(–5) × 0.2–1.5(–2) cm; seeds 1.4–2 mm; Alaska to Rocky Mountains</description>
       <determination>2a.   Rhodiola integrifolia subsp. integrifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals (red or) dark red or mostly yellow at base, yellow or red at apex; stems 15–45 cm; leaf blades linear-oblanceolate to narrowly oblanceolate, 2–5.5 × 0.3–1.5 cm; seeds 1.1–2.8 mm; Minnesota, s New Mexico, New York.</statement>
+      <description type="morphology">Petals (red or) dark red or mostly yellow at base, yellow or red at apex; stems 15–45 cm; leaf blades linear-oblanceolate to narrowly oblanceolate, 2–5.5 × 0.3–1.5 cm; seeds 1.1–2.8 mm; Minnesota, s New Mexico, New York.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades green, linear-oblanceolate, 0.3–0.7 cm wide; petals yellow with red tips and keel; seeds 1.1–1.9 mm; s New Mexico</statement>
+      <description type="morphology">Leaf blades green, linear-oblanceolate, 0.3–0.7 cm wide; petals yellow with red tips and keel; seeds 1.1–1.9 mm; s New Mexico</description>
       <determination>2b.   Rhodiola integrifolia subsp. neomexicana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades blue-green, narrowly oblanceolate, 0.5–1.5 cm wide; petals dark red throughout or usually greenish yellow at base; seeds 2–2.8 mm;</statement>
+      <description type="morphology">Leaf blades blue-green, narrowly oblanceolate, 0.5–1.5 cm wide; petals dark red throughout or usually greenish yellow at base; seeds 2–2.8 mm;</description>
       <determination>2c.   Rhodiola integrifolia subsp. leedyi</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

@@ -1,44 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Euchiton</genus_name>
-    <species_name>involucratus</species_name>
-    <species_authority>(G. Forster) Anderberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Euchiton</taxon_name>
+    <taxon_name rank="species" authority="(G. Forster) Anderberg" date="unknown">involucratus</taxon_name>
     <place_of_publication>
       <publication_title>Opera Bot.</publication_title>
       <place_in_publication>104: 167. 1991</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Euchiton;species involucratus;</taxon_hierarchy>
-  <common_name>Common-cudweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>involucratum</species_name>
-    <species_authority>G. Forster</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Euchiton;species involucratus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="G. Forster" date="unknown">involucratum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Ins. Austr.,</publication_title>
       <place_in_publication>55. 1786</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Biennials or perennials, 30–40 cm; fibrous-rooted; stolons usually absent [reportedly present in Australia and New Zealand]. Aerial stems erect, simple, thinly and persistently white-tomentose. Leaves: basal withering before flowering; cauline 6–10, blades linear to linear-oblanceolate or linear-lanceolate, 3–8 cm × 2–3 mm (largest at midstem), bases subclasping (not ampliate), margins revolute, abaxial faces silvery, tomentose, adaxial faces green, glabrate (shiny). Bracts subtending heads 3–5, 10–15 mm, surpassing heads, plus some shorter. Heads in hemispheric clusters 10–15 mm diam. (sometimes with axillary clusters). Involucres 4–4.5 mm. Phyllaries tawny or rosy-tinged (shiny), oblong, apices rounded to obtuse. Pistillate florets 80–150. Bisexual florets 3–5(–7). Pappus bristles distinct or basally coherent (falling in groups).</description>
-  <phenology_info>
-    <text>Flowering Jul–Oct.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>grassy open places , often moist or wet ;</text>
-    <habitat>grassy open places</habitat>
-    <habitat>moist or wet</habitat>
-  </habitat_info>
-  <elevation>50–700 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <global_distribution>Pacific Islands (New Zealand)</global_distribution>
-  <global_distribution>Australia.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Gnaphalium;species involucratum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Common-cudweed</other_name>
+</bio:treatment>

@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">stenopetalum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">stenopetalum</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species stenopetalum;variety stenopetalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">douglasii</taxon_name>
+    <taxon_hierarchy>genus Sedum;species douglasii;</taxon_hierarchy>
+  </taxon_identification>
   <number>12a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>stenopetalum</species_name>
-    <species_authority>Pursh</species_authority>
-    <variety_name>stenopetalum</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>Hooker</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades of principal veg-etative shoots linear.  Inflores-cences terminal, 9–25-flowered cymes.</description>
-  <phenology>Flowering late spring–mid summer</phenology>
-  <habitat>Cliffs, talus slopes, rocky meadows, open woods or aspen groves, scab-land</habitat>
-  <elevation>300–3100 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+</bio:treatment>

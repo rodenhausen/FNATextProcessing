@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Tolmiea</genus_name>
-    <species_name>menziesii</species_name>
-    <species_authority>(Pursh) Torrey &amp; A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tolmiea</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Torrey &amp; A. Gray" date="unknown">menziesii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer.</publication_title>
       <place_in_publication>1: 582.  1840,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Tiarella</genus_name>
-    <species_name>menziesii</species_name>
-    <species_authority>Pursh</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Tolmiea;species menziesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tiarella</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">menziesii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>1: 313.  1813</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Basal rosettes usually well developed.  Cauline leaves not or only slightly longer than wide, i.e., length-width quotient usually 0.6–1.1 (average 0.9); plantlets frequently produced.  2n = 28.</description>
-  <phenology>Flowering spring–summer</phenology>
-  <habitat>Moist woods, particularly along streams</habitat>
-  <elevation>0–1800 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Tiarella;species menziesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>Hybrids (with 2n = 21) between Tolmiea menziesii and Tellima grandiflora have been reported from Washington (D. E. Soltis and B. A. Bohm 1985).  The Cowlitz Indians applied a poultice of fresh leaves to boils and the Mahak Indians ate raw sprouts in early spring (D. E. Moerman 1998).</discussion>
-</treatment>
+</bio:treatment>

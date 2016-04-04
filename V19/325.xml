@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>californicum</species_name>
-    <species_authority>Munz &amp; I. M. Johnston</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="Munz &amp; I. M. Johnston" date="unknown">californicum</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>52: 227. 1925</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species californicum;</taxon_hierarchy>
-  <common_name>California dandelion</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Taraxacum</genus_name>
-    <species_name>ceratophorum</species_name>
-    <species_authority>(Ledebour) de Candolle</species_authority>
-    <variety_name>bernardinum</variety_name>
-    <variety_authority>Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 3.5–10(–20) cm (to 30 cm in fruit); taproots branched. Stems 1–10+, ascending to decumbent (at and after flowering) (occasionally erect), usually purplish, (mostly at or below foliage before fruiting) glabrous, often cobwebby-villous basally. Leaves 10–20, horizontal to patent; petioles usually broadly, sometimes narrowly winged; blades oblanceolate to narrowly oblong, sometimes linear-oblanceolate, 5–12 × 1–2(–3) cm, bases cuneate, margins toothed or denticulate, occasionally with basal lobes, rarely some entire, lobes straight or slightly retrorse, lanceolate to triangular-long-acuminate, teeth narrowly to broadly triangular, straight to retrorse, apices obtuse to rounded or ± acute, faces glabrate or glabrous. Calyculi 9–12, appressed, green, sometimes ± hyaline, often purplish, ovate-lanceolate to broadly ovate bractlets in 2 series, 5–7 × 1.7–4.3 mm, margins hyaline, purplish (at least distally) or white, scarious, apices acuminate to long-acuminate or widely caudate, tips ± rounded, erose, hornless. Involucres green, tips purplish gray, broadly campanulate, 11–16 mm. Phyllaries 12–16 in 2 series, lanceolate to lanceolate-linear, 2–3.5 mm wide, margins not or narrowly scarious, sometimes broadly so basally, hyaline, apices rounded, erose, scarious. Florets: corollas pale yellow, outer abaxially striped pale purplish, 9–10 × 1.5–2. Cypselae pale brown, bodies obovoid, flattened, 2.2–2.7 mm, cones narrowly conic, 0.5–0.7 mm, beaks slender, 6–9.5, ribs 15–16, narrow, faces muricate distal 2/3–3/4; pappi creamy, 4.5–5.5 mm. 2n = 16.</description>
-  <phenology_info>
-    <text>Flowering late spring–summer.</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist alpine meadows in yellow pine forest zone ;</text>
-    <habitat>moist alpine meadows in yellow pine forest zone</habitat>
-  </habitat_info>
-  <elevation>1900–2400 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Taraxacum;species californicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taraxacum</taxon_name>
+    <taxon_name rank="species" authority="(Ledebour) de Candolle" date="unknown">ceratophorum</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">bernardinum</taxon_name>
+    <taxon_hierarchy>genus Taraxacum;species ceratophorum;variety bernardinum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8.</number>
+  <other_name type="common_name">California dandelion</other_name>
   <discussion>Taraxacum californicum is known only from the San Bernardino Range. It is easily distinguished from T. ceratophorum by the lack of horns on the phyllaries and bractlets of calyculi.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,49 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Styrax</genus_name>
-    <species_name>americanus</species_name>
-    <species_authority>Lamarck</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle &amp; Sprengel" date="unknown">STYRACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">americanus</taxon_name>
     <place_of_publication>
       <publication_title>in J. Lamarck et al.,  Encycl.</publication_title>
       <place_in_publication>1: 82.  1783 (as americana)  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>American snowbell</common_name>
-  <common_name>mock-orange</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>americanus</species_name>
-    <variety_name>pulverulentus</variety_name>
-    <variety_authority>(Michaux) Rehder</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Styrax</genus_name>
-    <species_name>pulverulentus</species_name>
-    <species_authority>Michaux</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, to 5 m, not suckering from roots.  Leaves: petiole 2–6 mm; blade with 5–8 secondary veins, elliptic or broadly elliptic to obovate or nearly ovate, 1.2–10 × 0.6–5.7 cm, largest blades on sterile shoots 2–5.7 cm wide, margins of at least some leaves denticulate to serrate, rarely also lobed, longest arms of abaxial hairs 0.1–0.2 mm.  False-terminal inflorescences 2–5-flowered or solitary flower, 2–3.5 cm; axillary flowers present on at least some shoots (subtending leaves often reduced).  Pedicels 4–10(–14) mm, longer than calyx.  Flowers: calyx 2.5–4 × 2.5–4.5 mm; corolla 11–16 mm, tube 1.5–3 mm, lobes 5(–6), imbricate or subinduplicate-valvate in bud, strongly reflexed, elliptic to narrowly elliptic, 7–14 × 1–5 mm; filaments distinct beyond adnation to corolla.  Capsules globose, 7–9 × 7–9 mm (broader when 2–3-seeded), gray stellate-pubescent, dehiscent nearly or completely to proximal end, broadly exposing seed(s); fruit wall 0.3–0.4 mm thick.  2n = 16.</description>
-  <phenology>Flowering Mar–Jun; fruiting Jun–Oct</phenology>
-  <habitat>Wooded floodplains, swamps, boggy slopes, hammocks, usually in sandy or peaty soils</habitat>
-  <elevation>0–300 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>family STYRACACEAE;genus Styrax;species americanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">americanus</taxon_name>
+    <taxon_name rank="variety" authority="(Michaux) Rehder" date="unknown">pulverulentus</taxon_name>
+    <taxon_hierarchy>genus Styrax;species americanus;variety pulverulentus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Styrax</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pulverulentus</taxon_name>
+    <taxon_hierarchy>genus Styrax;species pulverulentus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">American snowbell</other_name>
+  <other_name type="common_name">mock-orange</other_name>
   <discussion>Styrax grandifolius is partly sympatric with S. americanus, and molecular data indicate that it is a close relative (P. W. Fritsch 2001).  The two species are separated ecologically, with S. americanus occupying lower, moister sites (G. J. Gonsoulin 1974).  Hybridization between the two is not apparent.</discussion>
   <discussion>Some authors have recognized plants with more densely pubescent new shoots, leaves, and inflorescences and shorter pedicels as a distinct taxon, at either the specific or infraspecific level (J. K. Small 1933; A. J. Rehder 1940; G. J. Gonsoulin 1974).  The most densely pubescent plants occur in the southernmost portion of the range of the species; intermediates between the two extremes are abundant.  The character differences that separate the taxa are here considered taxonomically inconsequential.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Brodiaea</genus_name><species_name>californica</species_name><species_authority>Lindley</species_authority><subspecies_name>leptandra</subspecies_name><subspecies_authority>(Greene) J. C. Pires</subspecies_authority><place_of_publication>
-    <publication_title>Taxon</publication_title>
-    <place_in_publication>50: 201. 2001</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Hookera</genus_name><species_name>leptandra</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Pittonia </publication_title><place_in_publication>1: 74. 1887</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>californica</species_name><variety_name>leptandra</variety_name><variety_authority>(Greene) Hoover</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Brodiaea</genus_name><species_name>leptandra</species_name><species_authority>(Greene) Baker</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hookera</genus_name><species_name>synandra</species_name><species_authority>A. Heller</species_authority></TaxonIdentification><description>Flowers: perianth lobes 4–7 mm wide; staminodia margins 1/2 involute; ovary 5–7 mm. 2n = 10, 12, 24.</description><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>jun</phenology><habitat>open mixed evergreen forests</habitat><habitat>chaparral</habitat><habitat>gravelly clay soils</habitat><habitat>often on serpentines</habitat><elevation>0–900 m;</elevation><us_distribution>Calif.</us_distribution><discussion>This subspecies is uncommon, occuring in the Coast Ranges of northern California. T. F. Niehaus (1971, 1980) recognized Brodiaea leptandra as a separate species related to B. californica and B. appendiculata. G. Keator (1993) regarded it as a variety that is geographically disjunct and slightly smaller.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">californica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) J. C. Pires" date="unknown">leptandra</taxon_name>
+    <place_of_publication>
+      <publication_title>Taxon</publication_title>
+      <place_in_publication>50: 201. 2001</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Brodiaea;species californica;subspecies leptandra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">leptandra</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>1: 74. 1887</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Hookera;species leptandra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Baker" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Hoover" date="unknown">leptandra</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species californica;variety leptandra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="A. Heller" date="unknown">leptandra</taxon_name>
+    <taxon_hierarchy>genus Brodiaea;species leptandra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hookera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">synandra</taxon_name>
+    <taxon_hierarchy>genus Hookera;species synandra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <discussion>This subspecies is uncommon, occuring in the Coast Ranges of northern California. T. F. Niehaus (1971, 1980) recognized Brodiaea leptandra as a separate species related to B. californica and B. appendiculata. G. Keator (1993) regarded it as a variety that is geographically disjunct and slightly smaller.</discussion>
+</bio:treatment>

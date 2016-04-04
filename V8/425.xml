@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>divergens</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">divergens</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>17: 372.  1882,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Amerosedum</genus_name>
-    <species_name>divergens</species_name>
-    <species_authority>(S. Watson) Á. Löve &amp; D. Löve</species_authority>
-  </TaxonIdentification>
-  <description>Herbs, perennial, somewhat tufted, glabrous.  Stems decumbent, becoming erect or ascending, branched, not bearing true rosettes.  Leaves opposite and decussate (rarely alternate), spreading, sessile; blade green or reddish green, not glaucous, suborbiculate to spatulate-obovate or oblong, subterete, ± globular, 4–9 × 4–6 mm, base slightly subcordate, (clasping), not scarious, apex rounded.  Flowering shoots erect, usually simple, rarely branched, 6–10 cm; leaf blades suborbiculate to spatulate-obovate or oblong, base not spurred; offsets not formed.  Inflorescences terminal cymes, 5–25-flowered, 2–3-branched; branches recurved to erect, forked or not; bracts similar to leaves or elliptic to broadly lanceolate, 2–5 mm, base clasping, apex obtuse to acute.  Pedicels 0.5–4 mm (sometimes enlarged apically).  Flowers 5(–7)-merous; sepals erect, connate basally, green, ovate, equal, 2–3 × 1.5–2 mm, apex obtuse; petals erect basally, spreading distally, usually distinct, sometimes slightly connate basally, yellow, elliptic-lanceolate, not or only slightly carinate, ca. 6 mm, apex acute or obtuse with mucronate appendage; filaments yellow; anthers yellow; nectar scales yellow, subquadrate.  Carpels widely spreading in fruit, firmly connate basally, red to light reddish brown or straw colored.  2n = 16.</description>
-  <phenology>Flowering spring–fall</phenology>
-  <habitat>Rocky slopes and ledges of cliffs, scree, semistable talus, lava fields</habitat>
-  <elevation>0–2300 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species divergens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Amerosedum</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Á. Löve &amp; D. Löve" date="unknown">divergens</taxon_name>
+    <taxon_hierarchy>genus Amerosedum;species divergens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15.</number>
   <discussion>Leaves of Sedum divergens are close-set, thick, and turgid.  This species occurs in scattered and disjunct populations from the coastal mountains of Alaska (D. F. Murray 1980) and British Columbia to the northern Cascade Mountains and Olympic Mountains of Washington; Lake Peak, Josephine County, Oregon; and Klamath Mountains near Mount Robson in Alberta and British Columbia.</discussion>
-</treatment>
+</bio:treatment>

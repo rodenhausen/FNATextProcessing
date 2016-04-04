@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sonchus</genus_name>
-    <species_name>arvensis</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sonchus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">arvensis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 793. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Sonchus;species arvensis;</taxon_hierarchy>
-  <common_name>Field sow-thistle</common_name>
-  <common_name>laiteron des champs</common_name>
-  <description>Perennials, 0–150(–200) cm, usually rhizomatous or stoloni-ferous. Stem bases hard, some-times ± woody. Leaves: blades of mid cauline oblong to lanceolate, (3–)6–40 × 2–15 cm, bases auriculate, auricles straight or curved, rounded, margins usually pinnately lobed, lobes ± deltate, not constricted at bases, terminals usually larger than laterals, dentate or entire. Peduncles sessile- or stipitate-glandular. Involucres 10–17+ mm. Phyllaries sessile- or stipitate-glandular. Corollas: ligules ± equaling tubes. Cypselae dark brown, oblanceoloid to ellipsoid, 2.5–3.5 mm, ribs 4–5(+) on each face, faces transversely rugulose to tuberculate across and between ribs; pappi 8–14 mm. 2n = 36, 54.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>introduced also in South America</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa</global_distribution>
-  <global_distribution>Pacific Islands (New Zealand)</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Sonchus;species arvensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Field sow-thistle</other_name>
+  <other_name type="common_name">laiteron des champs</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <discussion>Sonchus arvensis is introduced in temperate regions of all continents. Plants of the species prefer relatively cooler, moister climates and are more abundant in the northern part of North America.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peduncles stipitate-glandular; phyllaries stipitate- glandular</statement>
+      <description type="morphology">Peduncles stipitate-glandular; phyllaries stipitate- glandular</description>
       <determination>1a. Sonchus arvensis subsp. arvensis</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peduncles sessile-glandular; phyllaries usually sessile-glandular, rarely tomentose</statement>
+      <description type="morphology">Peduncles sessile-glandular; phyllaries usually sessile-glandular, rarely tomentose</description>
       <determination>1b. Sonchus arvensis subsp. uliginosus</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

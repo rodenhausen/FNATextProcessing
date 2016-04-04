@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>palustre</species_name>
-    <species_authority>(Linnaeus) Scopoli</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Scopoli" date="unknown">palustre</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Carniol. ed.</publication_title>
       <place_in_publication>2, 2: 128. 1772</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species palustre;</taxon_hierarchy>
-  <common_name>European swamp or marsh thistle</common_name>
-  <common_name>cirse ou chardon des marais</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>palustris</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species palustre;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">palustris</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 822. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Biennials or monocarpic perennials, 30–200(–300) cm; clusters of fibrous roots. Stems single, erect, villous to tomentose with jointed trichomes, distally tomentose with fine, unbranched trichomes; branches 0–few, ascending, (short). Leaves: blades narrowly elliptic to oblanceolate, 15–30+ × 3–10 cm, margins shallowly to very deeply pinnatifid, narrow lobes separated by broad sinuses, spiny-dentate to lobed, main spines 2–6 mm, abaxial villous to tomentose with jointed trichomes, sometimes also thinly tomentose with fine unbranched trichomes, adaxial faces villous with septate trichomes or glabrate; basal often present at flowering, petioles spiny-winged, bases tapered; cauline many, sessile, gradually reduced and becoming widely spaced above, bases long-decurrent with prominently spiny wings; distal cauline deeply pinnatifid with few-toothed spine-tipped lobes. Heads few–many in dense clusters at branch tips. Peduncles 0–1 cm. Involucres ovoid to campanulate, 1–1.5 × 0.8–1.3 cm, thinly cobwebby tomentose with fine unbranched trichomes. Phyllaries in 5–7 series, strongly imbricate, greenish, or with purplish tinge, lanceolate to ovate (outer) or linear-lanceolate (inner), margins thinly arachnoid-ciliate, abaxial faces with narrow glutinous ridge, outer and middle appressed, entire, apices acute, mucronate or spines erect or spreading, weak, 0.3–1 mm; apices of inner phyllaries purplish, linear-attenuate, scarious, flat. Corollas lavender to purple (white), 11–13 mm, tubes 5–7 mm, throats 2–3 mm, lobes 3–4.5 mm; style tips 1.5–2 mm. Cypselae tan to stramineous, 2.5–3.5 mm, apical collars 0.1–0.2 mm, shiny; pappi 9–11 mm. 2n = 34.</description>
-  <phenology_info>
-    <text>Flowering summer (Jul–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>marshes , wet forests ;</text>
-    <habitat>marshes</habitat>
-    <habitat>wet forests</habitat>
-  </habitat_info>
-  <elevation>10–800 m;</elevation>
-  <introduced>introduced;</introduced>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
+    <taxon_hierarchy>genus Carduus;species palustris;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">European swamp or marsh thistle</other_name>
+  <other_name type="common_name">cirse ou chardon des marais</other_name>
   <discussion>Cirsium palustre is a noxious weed, native to Europe, that invasively spreads through wetland communities, forming impenetrable spiny stands as it displaces native species. The range of this pernicious weed in North America is rapidly expanding. It has the potential to spread into boreal forest areas across the continent; in Europe it grows nearly to the Arctic Circle. The rapid spread of C. palustre in Michigan (E. G. Voss 1972–1996, vol. 3) is indicative of its invasiveness. Spontaneous hybrids between C. palustre and C. arvense have been reported from England and other European countries (W. A. Sledge 1975) and can be expected wherever these species grow together in North America.</discussion>
-</treatment>
-
+</bio:treatment>

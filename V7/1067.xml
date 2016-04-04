@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>39.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>hemiphysaria</species_name>
-    <species_authority>(Maguire) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Maguire) O’Kane &amp; Al-Shehbaz" date="unknown">hemiphysaria</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 323. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Intermountain or skyline bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>hemiphysaria</species_name>
-    <species_authority>Maguire</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species hemiphysaria;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Maguire" date="unknown">hemiphysaria</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>27: 466. 1942</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials; caudex simple or branched (tightly); sparsely to densely pubescent, trichomes (sessile or short-stalked), 4–6-rayed, rays furcate or bifurcate, distinct or slightly fused at base, (sometimes umbonate, tuberculate throughout). Stems few to several from base, decumbent, 0.5–1(–2) dm, (rather stout, sparsely pubescent). Basal leaves: blade elliptic to suborbicular, 1.5–3.5(–5.5) cm, margins entire or shallowly dentate (at base, surfaces densely pubescent, silvery). Cauline leaves (petiolate or distal nearly sessile); blade elliptic to obovate, 0.5–1.5 cm, margins entire. Racemes dense, congested, (few-flowered). Fruiting pedicels (spreading or recurved, sometimes loosely sigmoid), 2–6.5 mm. Flowers: sepals lanceolate, oblanceolate, or narrowly elliptic, 3.8–5 mm, (median pair thickened apically, cucullate); petals narrowly lanceolate to linear, 6–10(–13) mm. Fruits (sessile or substipitate), broadly obcordate, obdeltate, or obcompressed, slightly compressed (angustiseptate), 3–5(–7) mm; valves (not retaining seeds after dehiscence), sparsely pubescent or glabrous, trichomes appressed; replum as wide as or wider than fruit; ovules 8–16 per ovary; style (1.8–)3–6(–7) mm. Seeds slightly flattened, (ellipsoid to suborbicular).</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>wc United States</global_distribution>
+    <taxon_hierarchy>genus Lesquerella;species hemiphysaria;</taxon_hierarchy>
+  </taxon_identification>
+  <number>39.</number>
+  <other_name type="common_name">Intermountain or skyline bladderpod</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Styles 3–5 mm; fruiting pedicels 4–6.5 mm; fruit valves pubescent, often sparsely so</statement>
+      <description type="morphology">Styles 3–5 mm; fruiting pedicels 4–6.5 mm; fruit valves pubescent, often sparsely so</description>
       <determination>39a. Physaria hemiphysaria subsp. hemiphysaria</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Styles 1.8–2.5(–3) mm; fruiting pedicels 2–4(–5.5) mm; fruit valves glabrous or sparsely pubescent</statement>
+      <description type="morphology">Styles 1.8–2.5(–3) mm; fruiting pedicels 2–4(–5.5) mm; fruit valves glabrous or sparsely pubescent</description>
       <determination>39b. Physaria hemiphysaria subsp. lucens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

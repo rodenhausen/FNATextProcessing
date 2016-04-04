@@ -1,56 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lygodesmia</genus_name>
-    <species_name>aphylla</species_name>
-    <species_authority>(Nuttall) de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lygodesmia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) de Candolle" date="unknown">aphylla</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>7: 198. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lygodesmia;species aphylla;</taxon_hierarchy>
-  <common_name>Roserush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>aphylla</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lygodesmia;species aphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">aphylla</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>2: 123. 1818</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Erythremia</genus_name>
-    <species_name>aphylla</species_name>
-    <species_authority>(Nuttall) Nuttall</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 30–80 cm solitary; roots or rhizomes fleshy; caudices woody, branched. Stems 1, erect, green, simple or sparsely branched distally, strongly striate. Leaves (basal in rosettes, sometimes withered at flowering); proximal blades linear, 100–350 × 2–3 mm, margins entire; cauline similar or reduced to scales. Heads (1–5) borne singly or in corymbiform arrays. Involucres cylindric, 14–22 × 5–6 mm, apices narrow. Calyculi of 8–14, deltate bractlets 1–5 mm, margins scarious, erose-ciliate (faces tomentulose). Phyllaries 8, linear, 14–22 mm, margins scarious, apices often purplish, acute, appendaged. Florets 8–10; corollas pink to lavender or blue, 30–40 mm, ligules 4–6 mm wide. Cypselae (subcylindric) 11–14 mm (faces smooth, abaxial weakly striate, glabrous, adaxial sulcate); pappi 12–18 mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Feb–Nov.</text>
-    <phenology>feb</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>dry sandy soils , flatwoods , pine barrens , disturbed areas , roadsides ;</text>
-    <habitat>dry sandy soils</habitat>
-    <habitat>flatwoods</habitat>
-    <habitat>pine barrens</habitat>
-    <habitat>disturbed areas</habitat>
-    <habitat>roadsides</habitat>
-  </habitat_info>
-  <elevation>0–200 m;</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
+    <taxon_hierarchy>genus Prenanthes;species aphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erythremia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Nuttall" date="unknown">aphylla</taxon_name>
+    <taxon_hierarchy>genus Erythremia;species aphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Roserush</other_name>
   <discussion>Lygodesmia aphylla is recognized by its erect, sparingly branched habit, leafless stems, relatively large involucres and florets, apical appendages on phyllaries, and grooved cypselae. The habit is similar to that of L. texana. The basal leaves are frequently absent at flowering and are entire, not pinnately lobed as in L. texana.</discussion>
-</treatment>
-
+</bio:treatment>

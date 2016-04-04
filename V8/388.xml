@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dudleya</genus_name>
-    <species_name>multicaulis</species_name>
-    <species_authority>(Rose) Moran</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dudleya</taxon_name>
+    <taxon_name rank="species" authority="(Rose) Moran" date="unknown">multicaulis</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>7: 110.  1953,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>multicaulis</species_name>
-    <species_authority>Rose</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Dudleya;species multicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">multicaulis</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton and J. N. Rose, New N. Amer. Crassul.,</publication_title>
       <place_in_publication>38.  1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>elongatus</species_name>
-    <species_authority>Rose</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hasseanthus</genus_name>
-    <species_name>variegatus</species_name>
-    <species_authority>(S. Watson) Rose</species_authority>
-    <variety_name>elongatus</variety_name>
-    <variety_authority>(Rose) I. M. Johnston</variety_authority>
-  </TaxonIdentification>
-  <description>Corms oblong, 1.5–5 cm × 3–18 mm.  Leaves 5–15, base scarcely narrowed into petiole; blade green, linear, 5–15 cm × 2–6 mm, 2–6 mm thick, base 4–10 mm wide, apex narrowly acute, surfaces not or somewhat glaucous.  Inflorescences: cincinni 3–15-flowered, 2–10 cm; floral shoots 5–35 cm × 2–4 mm; leaves 7–18, strongly ascending, blade linear (similar to rosette leaf blades), 1–10 cm × 2–10 mm, 2–6 mm thick, apex narrowly acute.  Flowers odorless; petals connate 1–2 mm, spreading from near middle, bright yellow (fading pale yellow), often red-lineolate along keel, elliptic-lanceolate, 5–9 × 2–3 mm, apex acute, corolla 12–18 mm diam.; pistils connate 1–2 mm, ascending; ovary 3.5–6 mm; styles 1.5–2 mm.  Follicles widespreading, with adaxial margins nearly horizontal.  2n = 34.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Rocky hillsides, often in heavy soils</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Hasseanthus;species multicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="Rose" date="unknown">elongatus</taxon_name>
+    <taxon_hierarchy>genus Hasseanthus;species elongatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hasseanthus</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rose" date="unknown">variegatus</taxon_name>
+    <taxon_name rank="variety" authority="(Rose) I. M. Johnston" date="unknown">elongatus</taxon_name>
+    <taxon_hierarchy>genus Hasseanthus;species variegatus;variety elongatus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Dudleya multicaulis is endemic to the Los Angeles coastal plain and adjacent hills, Transverse and Peninsular ranges, and southward to the San Onofre Mountains of northern San Diego County, an area now largely urban; it is considered fairly endangered (California Native Plant Society, http://cnps.web.aplus.net/cgi-bin/inv/inventory.cgi).</discussion>
-</treatment>
+</bio:treatment>

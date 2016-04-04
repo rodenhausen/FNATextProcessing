@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>68b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Solidago</genus_name><species_name>velutina</species_name><species_authority>de Candolle</species_authority><subspecies_name>californica</subspecies_name><subspecies_authority>(Nuttall) Semple</subspecies_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>20: 1616. 2003</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>California goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Solidago</genus_name><species_name>californica</species_name><species_authority>Nuttall</species_authority><place_of_publication><publication_title>Trans. Amer. Philos. Soc., n. s. </publication_title><place_in_publication>7: 328. 1841</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aster</genus_name><species_name>californicus</species_name><species_authority>(Nuttall) Kuntze</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>californica</species_name><variety_name>aperta</variety_name><variety_authority>L. F. Henderson</variety_authority></TaxonIdentification><description>Stems and leaves moderately to densely strigillose. Outer phyllaries sparsely strigillose. 2n = 18, 36.</description><phenology>jul</phenology><phenology>summer</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>dry sandy and gravelly, open to grass-covered soils</habitat><habitat>along streambeds</habitat><habitat>open woods</habitat><habitat>roadsides</habitat><habitat>disturbed areas</habitat><elevation>0–2200+ m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">velutina</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) Semple" date="unknown">californica</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1616. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species velutina;subspecies californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">californica</taxon_name>
+    <place_of_publication>
+      <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
+      <place_in_publication>7: 328. 1841</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Kuntze" date="unknown">californicus</taxon_name>
+    <taxon_hierarchy>genus Aster;species californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californica</taxon_name>
+    <taxon_name rank="variety" authority="L. F. Henderson" date="unknown">aperta</taxon_name>
+    <taxon_hierarchy>genus S.;species californica;variety aperta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>68b.</number>
+  <other_name type="common_name">California goldenrod</other_name>
+</bio:treatment>

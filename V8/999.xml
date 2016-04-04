@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>GAULTHERIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Debra K. Trock</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">GAULTHERIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 395.  1753</place_in_publication>
@@ -12,73 +17,64 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 187.  1754  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Wintergreen</common_name>
-  <etymology>[For Jean-François Gaulthier, 1708–1756, botanist and physician of Québec]</etymology>
-  <author>Debra K. Trock</author>
-  <description>Shrubs or subshrubs, (sometimes rhizomatous or stoloniferous and rooting at nodes).  Stems erect or procumbent; twigs glabrous or hairy.  Leaves persistent, aromatic; blade ovate, elliptic, or orbiculate to subcordate or reniform, coriaceous, margins serrate, crenate, or ciliate, plane or revolute, surfaces glabrous or hairy; venation reticulodromous or brochidodromous.  Inflorescences axillary, racemes, 2–12-flowered, sometimes flowers solitary; (bracteoles closely subtending flowers).  Flowers: sepals (4–)5, connate basally to nearly their entire lengths, (sometimes exceeding petals), ovate, deltate, or cordate; petals (4–)5, connate ca. 1/2 to nearly their entire lengths, white or cream to pink, corolla urceolate to campanulate, lobes much shorter than tube; stamens 8 or 10, included, (inserted at base of ovary); filaments straight, flattened, usually widest proximally, glabrous or hairy, sometimes papillose, without spurs; anthers with 2–4 awns or without awns, dehiscent by pores with ventral slits, (white disintegration tissue present dorsally along connective); pistil 4–5-carpellate; ovary 5-locular; stigma truncate or capitate.  Fruits capsular, 5-valved, globose, fleshy, (surrounded by persistent, fleshy calyx).  Seeds 20–80+, ovoid; testa smooth.  x = 11, 12, 13.</description>
-  <number_of_infrataxa>Species ca. 115 (6 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Hispaniola, Windward Islands)</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <us_distribution>Pacific Islands (New Zealand)</us_distribution>
-  <global_distribution>Australia (including Tasmania)</global_distribution>
-  <global_distribution>mostly temperate or montane in tropical latitudes.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus GAULTHERIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Jean-François Gaulthier, 1708–1756, botanist and physician of Québec]</other_info_on_name>
+  </taxon_identification>
+  <number>44.</number>
+  <other_name type="common_name">Wintergreen</other_name>
+  <discussion>Species ca. 115 (6 in the flora):</discussion>
   <discussion>Gaultheria is characterized by its fruit and by the stamens having flattened filaments and awned anthers.  All of the species are woody to varying degrees; the growth form varies from erect or spreading shrubs to procumbent or creeping and mat-forming.  Eastern Asia and the Andes mountains of South America are centers of diversity for this genus.</discussion>
   <discussion>In North America, the fruits and leaves of Gaultheria are a food source for wildlife, and native peoples have medicinal and food uses for some species.  Oil of wintergreen (methyl salicylate) is found in the leaves and fruits of some species.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Erect or creeping shrubs; inflorescences racemes.</statement>
+      <description type="morphology">Erect or creeping shrubs; inflorescences racemes.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades 1.5–3.5 cm; peduncles and pedicles sparsely hairy; sepals glabrous; fruits white</statement>
+      <description type="morphology">Leaf blades 1.5–3.5 cm; peduncles and pedicles sparsely hairy; sepals glabrous; fruits white</description>
       <determination>5.   Gaultheria pyroloides</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades 4–8+ cm; peduncles and pedicels densely glandular-hairy; sepals glandular-hairy (hairs reddish); fruits black-purple</statement>
+      <description type="morphology">Leaf blades 4–8+ cm; peduncles and pedicels densely glandular-hairy; sepals glandular-hairy (hairs reddish); fruits black-purple</description>
       <determination>6.   Gaultheria shallon</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Creeping or spreading shrubs or subshrubs; inflorescences solitary flowers or with 2–3 flowers per node.</statement>
+      <description type="morphology">Creeping or spreading shrubs or subshrubs; inflorescences solitary flowers or with 2–3 flowers per node.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Plants creeping, mat-forming, roots adventitious or fibrous; stems repent, usually densely strigose or hirtellous, sometimes glabrous.</statement>
+      <description type="morphology">Plants creeping, mat-forming, roots adventitious or fibrous; stems repent, usually densely strigose or hirtellous, sometimes glabrous.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stems densely strigose; leaf blades 0.3–1 cm; flowers 4-merous; anthers with 2 bifurcating awns; fruits white</statement>
+      <description type="morphology">Stems densely strigose; leaf blades 0.3–1 cm; flowers 4-merous; anthers with 2 bifurcating awns; fruits white</description>
       <determination>1.   Gaultheria hispidula</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Stems usually hirtellous, sometimes glabrous; leaf blades 1–2.5 cm; flowers</statement>
+      <description type="morphology">Stems usually hirtellous, sometimes glabrous; leaf blades 1–2.5 cm; flowers</description>
       <determination>2.   Gaultheria humifusa</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Plants creeping or spreading, not mat-forming, adventitious roots absent; stems decumbent, branches ascending to erect, lanate, often glabrescent.</statement>
+      <description type="morphology">Plants creeping or spreading, not mat-forming, adventitious roots absent; stems decumbent, branches ascending to erect, lanate, often glabrescent.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades ovate to subcordate; bracteoles 1–3 pairs; petals 3–4 mm; filaments glabrous, base with rounded, auriclelike projections; anthers without awns; w North</statement>
+      <description type="morphology">Leaf blades ovate to subcordate; bracteoles 1–3 pairs; petals 3–4 mm; filaments glabrous, base with rounded, auriclelike projections; anthers without awns; w North</description>
       <determination>3.   Gaultheria ovatifolia</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades obovate to oval or orbiculate; bracteoles absent; petals 8–10 mm; filaments lanate-tomentose, base slightly widened; anthers with 2 awns; e North America</statement>
+      <description type="morphology">Leaf blades obovate to oval or orbiculate; bracteoles absent; petals 8–10 mm; filaments lanate-tomentose, base slightly widened; anthers with 2 awns; e North America</description>
       <determination>4.   Gaultheria procumbens</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

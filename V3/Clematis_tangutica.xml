@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Clematis</genus_name><species_name>tangutica</species_name><species_authority>(Maximowicz) Korshinsky</species_authority><place_of_publication><publication_title> Izv. Imp. Akad. Nauk, ser. </publication_title><place_in_publication>5, 9: 399. 1898</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Clematis</genus_name><species_name>orientalis</species_name><species_authority>Linnaeus</species_authority><variety_name>tangutica</variety_name><variety_authority>Maximowicz</variety_authority><place_of_publication><publication_title>Fl. Tangut., </publication_title><place_in_publication>3. 1889</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><global_distribution> North America</global_distribution><global_distribution> Asia (China, India, Mongolia).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="(Maximowicz) Korshinsky" date="unknown">tangutica</taxon_name>
+    <place_of_publication>
+      <publication_title>Izv. Imp. Akad. Nauk, ser.</publication_title>
+      <place_in_publication>5, 9: 399. 1898</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species tangutica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Clematis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">orientalis</taxon_name>
+    <taxon_name rank="variety" authority="Maximowicz" date="unknown">tangutica</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Tangut.,</publication_title>
+      <place_in_publication>3. 1889</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Clematis;species orientalis;variety tangutica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

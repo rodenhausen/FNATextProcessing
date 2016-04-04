@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Sesuvium</genus_name>
-        <species_name>portulacastrum</species_name>
-        <species_authority>(Linnaeus) Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Syst. Nat. ed.</publication_title>
-            <place_in_publication>10, 2: 1058. 1759</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Cencilla</common_name>
-    <common_name>shoreline sea-purslane</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Portulaca</genus_name>
-        <species_name>portulacastrum</species_name>
-        <species_authority> Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title>Sp. Pl. </publication_title>
-            <place_in_publication>1: 446. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Halimus</genus_name>
-        <species_name>portulacastrum</species_name>
-        <species_authority>(Linnaeus) Kuntze</species_authority>
-    </TaxonIdentification>
-    <description>Plants perennial, glabrous. Stems prostrate, forming mats to 2 m diam., branched;
-        rooting at nodes. Leaves: petiole ± absent; blade oblanceolate to elliptic-ovate, to 6 × 2.5
-        cm, tapered to clasping base. Inflorescences: flowers solitary; pedicel to 20 mm. Flowers:
-        calyx lobes pink-purple adaxially, with subapical abaxial appendages, ovate to lanceolate,
-        3–10 mm; stamens 30; pistil 5-carpellate; ovary 5-loculed; styles 5. Capsules conic, 10 mm.
-        Seeds 30–60, black, 1.2–1.5 mm, shiny, smooth.</description>
-    <habitat>wet or desiccated soils</habitat>
-    <habitat>beaches</habitat>
-    <habitat>dunes</habitat>
-    <habitat>margins of coastal wetlands</habitat>
-    <habitat>waste grounds</habitat>
-    <habitat>ballast</habitat>
-    <elevation>0–5 m;</elevation>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Fla.</us_distribution>
-    <us_distribution>Ga.</us_distribution>
-    <us_distribution>La.</us_distribution>
-    <us_distribution>Miss.</us_distribution>
-    <us_distribution>N.C.</us_distribution>
-    <us_distribution>Pa.</us_distribution>
-    <us_distribution>S.C.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico</global_distribution>
-    <global_distribution>South America</global_distribution>
-    <global_distribution>Europe</global_distribution>
-    <global_distribution>Africa.</global_distribution>
-    <discussion>Sesuvium portulacastrum is a widespread and variable subtropical and tropical
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">AIZOACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sesuvium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Linnaeus" date="unknown">portulacastrum</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Nat. ed.</publication_title>
+      <place_in_publication>10, 2: 1058. 1759</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AIZOACEAE;genus Sesuvium;species portulacastrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Portulaca</taxon_name>
+    <taxon_name rank="species" authority=" Linnaeus" date="unknown">portulacastrum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 446. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Portulaca;species portulacastrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Halimus</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Kuntze" date="unknown">portulacastrum</taxon_name>
+    <taxon_hierarchy>genus Halimus;species portulacastrum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Cencilla</other_name>
+  <other_name type="common_name">shoreline sea-purslane</other_name>
+  <discussion>Sesuvium portulacastrum is a widespread and variable subtropical and tropical
         species to which many names have been applied, particularly to material collected beyond
         North America (e.g., Argentina and Brazil). Although S. portulacastrum occurs or has been
         reported in natural habitats on the east coast of North America north to North Carolina, and
@@ -61,4 +42,4 @@
         along the coasts of Sonora and Baja California. All records or collections of S.
         portulacastrum from desert wetlands of the United States are included in S.
         verrucosum.</discussion>
-</treatment>
+</bio:treatment>

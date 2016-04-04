@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>12</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ephedra</genus_name><species_name>viridis</species_name><species_authority>Coville</species_authority><place_of_publication><publication_title>Contr. U.S. Natl. Herb.</publication_title><place_in_publication>4: 220. 1893</place_in_publication></place_of_publication></TaxonIdentification><common_name>Green ephedra</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Ephedra</genus_name><species_name>nevadensis</species_name><species_authority>S. Watson</species_authority><variety_name>pluribracteata</variety_name><variety_authority>Palmer ex Stapf</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ephedra</genus_name><species_name>nevadensis</species_name><variety_name>viridis</variety_name><variety_authority>(Coville) M. E. Jones</variety_authority></TaxonIdentification><description>Shrubs  erect, 0.5--1 m.  Bark  gray, cracked and irregularly fissured.  Branches  alternate or whorled, rigid, angle of divergence about 30°.  Twigs  bright green to yellow-green, becoming yellow with age, not viscid, ridges between longitudinal grooves barely papillate, smooth; internodes 1--5 cm.  Terminal buds  conic, 1--2 mm, apex obtuse.  Leaves  opposite, 2--5 mm, connate to 1/2--3/4 their length, not photosynthetic; bases thickened, brown, persistent, becoming hard, enlarged, and black; apex setaceous.  Pollen cones  2--several at node, obovoid, 5--7 mm, sessile; bracts opposite, 6--10 pairs, light yellow and slightly reddened, ovate, 2--4 × 2--3 mm, membranous, slightly connate at base; bracteoles slightly exceeding bracts; sporangiophores 2--4 mm, 1/4--1/2 exserted, with 5--8 sessile to nearly sessile microsporangia.  Seed cones  2--several at node, obovoid, 6--10 mm, sessile or on short, scaly peduncles; bracts opposite, 4--8 pairs, ovate, 4--7 × 2--4 mm, membranous or papery, with yellow center and base, margins entire.  Seeds  2, ellipsoid, 5--8 × 2--4 mm, light brown to brown, smooth. 2 n  = 28.</description><habitat>Coning spring. Dry rocky slopes and canyon walls</habitat><elevation> 800--2500 m</elevation><us_distribution> Ariz.</us_distribution><us_distribution> Calif.</us_distribution><us_distribution> Colo.</us_distribution><us_distribution> Nev.</us_distribution><us_distribution> N.Mex.</us_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Utah</us_distribution><us_distribution> Wyo.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephedra</taxon_name>
+    <taxon_name rank="species" authority="Coville" date="unknown">viridis</taxon_name>
+    <place_of_publication>
+      <publication_title>Contr. U.S. Natl. Herb.</publication_title>
+      <place_in_publication>4: 220. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Ephedra;species viridis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephedra</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">nevadensis</taxon_name>
+    <taxon_name rank="variety" authority="Palmer ex Stapf" date="unknown">pluribracteata</taxon_name>
+    <taxon_hierarchy>genus Ephedra;species nevadensis;variety pluribracteata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephedra</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nevadensis</taxon_name>
+    <taxon_name rank="variety" authority="(Coville) M. E. Jones" date="unknown">viridis</taxon_name>
+    <taxon_hierarchy>genus Ephedra;species nevadensis;variety viridis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12</number>
+  <other_name type="common_name">Green ephedra</other_name>
+</bio:treatment>

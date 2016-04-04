@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ONCOPHORUS</genus_name>
-    <genus_authority>(Bridel) Bridel</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Steven G. Newmaster</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="(Bridel) Bridel" date="unknown">ONCOPHORUS</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Univ.</publication_title>
       <place_in_publication>1: 389.  1826  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek onkos, tumor, and phoros, bearing, alluding to goiterlike swelling (struma) at base of capsule]</etymology>
-  <author>Steven G. Newmaster</author>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <section_name>Oncophorus</section_name>
-    <section_authority>Bridel</section_authority>
+    <taxon_hierarchy>genus ONCOPHORUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek onkos, tumor, and phoros, bearing, alluding to goiterlike swelling (struma) at base of capsule]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="section" authority="Bridel" date="unknown">Oncophorus</taxon_name>
     <place_of_publication>
       <publication_title>Muscol. Recent., suppl.</publication_title>
       <place_in_publication>4: 53.  1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants erect, in loose to dense tufts, green to yellow-brown, glossy to somewhat dull.  Stems 1–5(–8) cm, erect-spreading, simple or branching, radiculose proximally.  Leaves lanceolate from an ovate base, gradually narrowed to abruptly subulate, crisped and curled when dry; margins plane or revolute, entire or often toothed at apex; costa strong, percurrent to slightly excurrent, narrow, with 2 stereid bands; distal laminal cells short-rectangular to subquadrate, smooth; basal laminal cells rectangular, elongate, smooth, alar cells poorly differentiated or sometimes slightly enlarged.  Sexual condition autoicous; perichaetial leaves similar to the cauline; perigonia located below perichaetia.  Seta 5–20(–22) mm, erect, twisted when dry, yellow to reddish yellow.  Capsule inclined to horizontal, yellow-brown, arcuate, cylindric, urn 0.8–2 mm, constricted below the mouth, furrowed or smooth when dry, distinctively strumose; operculum rostrate, arcuate; peristome single, of 16 teeth divided halfway into two segments, vertically pitted-striolate proximally, papillose distally, red.  Calyptra cucullate, smooth.  Spores spheric, 14–25 µm, finely roughened, yellow to yellow-green.</description>
-  <number_of_infrataxa>Species ca. 6 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>genus Dicranum;section Oncophorus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <discussion>Species ca. 6 (3 in the flora):</discussion>
   <discussion>Oncophorus is frequently encountered near stream habitats.  The species may be confused with those of Dicranum, Dicranella, or Kiaeria, but are distinguished by distinctively strumose capsules and abruptly subulate leaves, which are strongly crisped-contorted when dry.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Allen, B. H.  2000.  The genus Oncophorus (Musci: Dicranaceae) in Maine.  Evansia 17: 1–5.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves keeled or folded, margins revolute, not sheathing at the base, gradually narrowed to the acumen</statement>
+      <description type="morphology">Leaves keeled or folded, margins revolute, not sheathing at the base, gradually narrowed to the acumen</description>
       <determination>2.   Oncophorus virens</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaves flat, margins plane, sheathing at the base, abruptly narrowed to the acumen.</statement>
+      <description type="morphology">Leaves flat, margins plane, sheathing at the base, abruptly narrowed to the acumen.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants dark, not contorted when dry, seta usually less than 8 mm</statement>
+      <description type="morphology">Plants dark, not contorted when dry, seta usually less than 8 mm</description>
       <determination>1.   Oncophorus rauei</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants lighter, contorted when dry, seta usually more than 8 mm</statement>
+      <description type="morphology">Plants lighter, contorted when dry, seta usually more than 8 mm</description>
       <determination>3.   Oncophorus wahlenbergii</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

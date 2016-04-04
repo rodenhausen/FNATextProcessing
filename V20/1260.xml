@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>42b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>fremontii</species_name><species_authority>Torrey &amp; A. Gray</species_authority><variety_name>occidentalis</variety_name><variety_authority>A. Gray</variety_authority><place_of_publication>
-    <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
-    <place_in_publication>1: 618. 1876</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Senecio</genus_name><species_name>occidentalis</species_name><species_authority>(A. Gray) Greene</species_authority></TaxonIdentification><description>Plants mostly 1–2 dm. Stems arching upward. Leaves (smaller and fewer distally) usually smaller than 4 × 2 cm, bases not clasping, margins toothed or subentire. Heads 2–4(–5). Phyllaries (± 8) ± 13, 5–7(–8) mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>rocky alpine and subalpine sites</habitat><elevation>2800–4000 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><discussion>Plants of var. occidentalis grow in the southern Cascade Mountains and the Sierra Nevada.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">fremontii</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">occidentalis</taxon_name>
+    <place_of_publication>
+      <publication_title>in W. H. Brewer et al., Bot. California</publication_title>
+      <place_in_publication>1: 618. 1876</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species fremontii;variety occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Senecio;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>42b.</number>
+  <discussion>Plants of var. occidentalis grow in the southern Cascade Mountains and the Sierra Nevada.</discussion>
+</bio:treatment>

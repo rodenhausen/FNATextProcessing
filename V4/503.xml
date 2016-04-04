@@ -1,42 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>9.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Dysphania</genus_name>
-        <species_name>carinata</species_name>
-        <species_authority>(R. Brown) Mosyakin &amp; Clemants</species_authority>
-        <place_of_publication>
-            <publication_title>Ukrayins’k. Bot. Zhurn., n. s.</publication_title>
-            <place_in_publication>59: 382. 2002</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>carinatum</species_name>
-        <species_authority>R. Brown</species_authority>
-        <place_of_publication>
-            <publication_title>Prodr., </publication_title>
-            <place_in_publication>407. 18 10</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Stems erect to ascending, branched, 3–5.5 dm, pilose with glandular trichomes or
-        sessile glands. Leaves aromatic; petiole 0.5–1.4 cm; blade ovate to broadly ovate, 0.9–1.6 ×
-        0.8–1.4 cm, somewhat reduced in inflorescence, base cuneate to truncate, apex acute,
-        glandular-puberulose and pilosulose on veins. Inflorescences axillary glomerules; glomerules
-        subglobose, 1.5–2.5 mm diam.; bracts leaflike, ovate, 3–5 mm, margins crenate-dentate, apex
-        acute. Flowers: perianth segments 5, distinct nearly to base, distinct portions
-        narrow-oblong, prominently keeled especially apically, 0.8–0.9 × 0.3–0.4 mm, apex acute, not
-        crested, covered with septate hairs, becoming coriaceous and white in fruit; stamens absent
-        or 1; stigmas 2. Achenes ovoid; pericarp adherent, membranaceous, slightly rugose. Seeds
-        reddish brown, ovoid, 0.6 × 0.3–0.4 mm, margins keeled over radicle and channeled over
-        cotyledons; seed coat smooth.</description>
-    <phenology_fruiting>fruiting fall</phenology_fruiting>
-    <habitat>waste areas on roadsides</habitat>
-    <habitat>sandy soils</habitat>
-    <elevation>10–100 m;</elevation>
-    <introduced>introduced;</introduced>
-    <us_distribution>Ala.</us_distribution>
-    <us_distribution>Ark.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>native to Australia.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dysphania</taxon_name>
+    <taxon_name rank="species" authority="(R. Brown) Mosyakin &amp; Clemants" date="unknown">carinata</taxon_name>
+    <place_of_publication>
+      <publication_title>Ukrayins’k. Bot. Zhurn., n. s.</publication_title>
+      <place_in_publication>59: 382. 2002</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Dysphania;species carinata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">carinatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Prodr.,</publication_title>
+      <place_in_publication>407. 18 10</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;species carinatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+</bio:treatment>

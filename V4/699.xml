@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3</number><TaxonIdentification Status="ACCEPTED"><genus_name>Atriplex</genus_name><species_name>coronata</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>9: 114. 1874</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Wedgescale</common_name><common_name>crownscale</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Atriplex</genus_name><species_name>elegans</species_name><species_authority>(Moquin-Tandon) D. Dietrich</species_authority><variety_name>coronata</variety_name><variety_authority>(S. Watson) M. E. Jones</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Obione</genus_name><species_name>coronata</species_name><species_authority>(S. Watson) Ulbrich</species_authority></TaxonIdentification><description>Herbs, erect or decumbent, 0.5–6 dm; branches terete, fructiferous almost to base, scurfy when young. Leaves alternate, subsessile or proximal short petiolate; blade ascending, oblong, oblong-ovate, or lanceolate to elliptic, 5–40 × 2–10 mm, thin, base acute to obtuse, margin entire, apex acute to acuminate. Flowers of both sexes in small axillary glomerules, 5-merous. Fruiting bracteoles almost sessile, broadly cuneate, 2–5 × (2–)2.5–5 mm, united to summit, truncate at summit, sides smooth or obscurely tuberculate. Seeds light brown to amber, 1–1.5 mm. 2n = 36.</description><number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa><global_distribution>California.</global_distribution><discussion>Although placed within the Atriplex argentea species complex by P. C. Standley (1916), this taxon appears more nearly allied to A. cordulata, differing mainly in leaf shape, round-ovate or deltoid-ovate to elliptic or lanceolate (not ovate to cordate-ovate), and markedly tuberculate faces of the fruiting bracteoles.</discussion><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">coronata</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>9: 114. 1874</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Atriplex;species coronata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Atriplex</taxon_name>
+    <taxon_name rank="species" authority="(Moquin-Tandon) D. Dietrich" date="unknown">elegans</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) M. E. Jones" date="unknown">coronata</taxon_name>
+    <taxon_hierarchy>genus Atriplex;species elegans;variety coronata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Obione</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Ulbrich" date="unknown">coronata</taxon_name>
+    <taxon_hierarchy>genus Obione;species coronata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3</number>
+  <other_name type="common_name">Wedgescale</other_name>
+  <other_name type="common_name">crownscale</other_name>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
+  <discussion>Although placed within the Atriplex argentea species complex by P. C. Standley (1916), this taxon appears more nearly allied to A. cordulata, differing mainly in leaf shape, round-ovate or deltoid-ovate to elliptic or lanceolate (not ovate to cordate-ovate), and markedly tuberculate faces of the fruiting bracteoles.</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems ± erect; body of fruiting bracteoles ± semicircular in profile, compressed or ± spheric; tubercles dense; marginal teeth ± equal</statement>
+      <description type="morphology">Stems ± erect; body of fruiting bracteoles ± semicircular in profile, compressed or ± spheric; tubercles dense; marginal teeth ± equal</description>
       <next_statement_id>1.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Stems decumbent to ascending; body of fruiting bracteoles approaching circular or flabellate in profile, ± compressed; tubercles usually few; marginal teeth unequal.</statement>
+      <description type="morphology">Stems decumbent to ascending; body of fruiting bracteoles approaching circular or flabellate in profile, ± compressed; tubercles usually few; marginal teeth unequal.</description>
       <next_statement_id>2. ###</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2. ###</statement_id>
-      <statement>Fruiting bracteoles 2–4 mm; basal branches andleaves typic ally opposite</statement>
+      <description type="morphology">Fruiting bracteoles 2–4 mm; basal branches andleaves typic ally opposite</description>
       <next_statement_id>2. ###</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2. ###</statement_id>
-      <statement>Fruiting bracteoles (2–)4–5 mm; basal branchesand leaves typically alternate</statement>
-    </key_statement></key></treatment>
+      <description type="morphology">Fruiting bracteoles (2–)4–5 mm; basal branchesand leaves typically alternate</description>
+    </key_statement>
+  </key>
+</bio:treatment>

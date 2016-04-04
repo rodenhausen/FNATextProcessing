@@ -1,70 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Empetrum</genus_name>
-    <species_name>nigrum</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">nigrum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 1022.  1753,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>eamesii</species_name>
-    <species_authority>Fernald &amp; Wiegand</species_authority>
-    <subspecies_name>hermaphroditum</subspecies_name>
-    <subspecies_authority>(Hagerup) D. Löve</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>hermaphroditum</species_name>
-    <species_authority>Hagerup</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>nigrum</species_name>
-    <subspecies_name>hermaphroditum</subspecies_name>
-    <subspecies_authority>(Hagerup) Böcher</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Empetrum</genus_name>
-    <species_name>nigrum</species_name>
-    <variety_name>hermaphroditum</variety_name>
-    <variety_authority>(Hagerup) T. J. Sørensen</variety_authority>
-  </TaxonIdentification>
-  <description>Branches green, brown, or reddish, distally glabrous, eglandular or glandular, sparsely white-tomentose.  Leaves divergent, becoming reflexed; blade 2.5–7 mm.  Flowers unisexual or bisexual (plants synoecious, sometimes polygamous, or dioecious); sepals greenish pink becoming reddish purple.  Drupes black, opaque, 5–10 mm diam.  Seeds light brown, 1.5–3 mm.  2n = 26, 39, 52.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Exposed, coastal bluffs and sphagnum bogs, windswept southern arctic and alpine tundra and open subalpine and boreal forests and mountain summits</habitat>
-  <elevation>0–1900 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Empetrum;species nigrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Fernald &amp; Wiegand" date="unknown">eamesii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hagerup) D. Löve" date="unknown">hermaphroditum</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species eamesii;subspecies hermaphroditum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="Hagerup" date="unknown">hermaphroditum</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species hermaphroditum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nigrum</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hagerup) Böcher" date="unknown">hermaphroditum</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species nigrum;subspecies hermaphroditum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Empetrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nigrum</taxon_name>
+    <taxon_name rank="variety" authority="(Hagerup) T. J. Sørensen" date="unknown">hermaphroditum</taxon_name>
+    <taxon_hierarchy>genus Empetrum;species nigrum;variety hermaphroditum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
   <discussion>All black-fruited plants of the genus in North America are here considered to be Empetrum nigrum in the broad sense.  There is great variation within the species, and various names have been proposed.  Boreal and arctic diploids (2n = 26, E. Hultén 1968) with unisexual flowers, dioecious plants, have been treated as E. nigrum, and tetraploids (2n = 52) with bisexual flowers, synoecious plants, as E. hermaphroditum.</discussion>
   <discussion>Empetrum nigrum is typified on European, dioecious, diploid plants, and in this strict sense, there has been a question whether the name should be applied to North American plants (Á. Löve and D. Löve 1959) in areas with synoecious tetraploids, where diploids were thought to be absent.</discussion>
   <discussion>Dioecious, diploid, black-fruited crowberries are now well known from Maine, New Brunswick, Newfoundland, and Nova Scotia (J. Maunder, pers. comm.; P. Morisset, pers. comm.).  There appears to be some ecological separation between the dioecious Empetrum nigrum and the synoecious E. nigrum; the dioecious plants in Newfoundland are reported to be replaced by the synoecious ones at higher elevations or in very exposed localities (J. Maunder, pers. comm.).</discussion>
@@ -72,4 +47,4 @@
   <discussion>Empetrum hermaphroditum, a name in prominent usage, is typified on a Greenlandic, synoecious tetraploid, and this name and combinations of it have been applied to virtually all black-fruited synoecious plants in North America and wherever else black-fruited, synoecious crowberries are found (cf. Á. Löve and D. Löve 1959).  In Europe, in addition to the diploids, there are synoecious tetraploids of E. nigrum.</discussion>
   <discussion>V. Mirré (2004) concluded that tetraploid synoecious plants have arisen multiple times from different combinations of diploids resulting in a large pool of unstructured genetic variation.  We conclude that synoecious tetraploids do not necessarily represent a distinct lineage and must, for the present, be subsumed by Empetrum nigrum as understood here.</discussion>
   <discussion>The population of Empetrum nigrum reported from Montauk Point, Long Island, New York, has been extirpated (S. E. Clemants, pers. comm.).</discussion>
-</treatment>
+</bio:treatment>

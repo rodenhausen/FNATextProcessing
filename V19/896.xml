@@ -1,68 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>29.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>carruthii</species_name>
-    <species_authority>Alph. Wood ex Carruth</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Alph. Wood ex Carruth" date="unknown">carruthii</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Kansas Acad. Sci.</publication_title>
       <place_in_publication>5: 51. 1877</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species carruthii;</taxon_hierarchy>
-  <common_name>Carruth wormwood</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>bakeri</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>coloradensis</species_name>
-    <species_authority>Osterhout</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>kansana</species_name>
-    <species_authority>Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>wrightii</subspecies_name>
-    <subspecies_authority>(A. Gray) H. M. Hall &amp; Clements</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>wrightii</species_name>
-    <species_authority>A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 15–40(–70) cm, faintly aromatic (rhizomatous). Stems mostly 3–8, ascending, brown to gray-green, simple (bases curved, somewhat woody), sparsely to densely tomentose. Leaves cauline, bicolor (± gray-green); blades narrowly elliptic, 0.1–2.5(–3) × 0.5–1 cm (gradually smaller distally), relatively deeply pinnatifid (lobes 3–5), faces densely tomentose (abaxial) to sparsely hairy (adaxial). Heads (usually nodding) in (leafy) paniculiform arrays 10–30 × 3–9 cm (branches erect). Involucres campanulate, 2–2.5(–3) × 1.5–3 mm. Phyllaries lanceolate, gray-tomentose. Florets: pistillate 1–5; bisexual 7–25; corollas pale yellow, 1–2 mm, glandular-pubescent. Cypselae (light brown) cylindro-elliptic, ca. 0.5 mm, (curved at summits, scarcely nerved), glabrous (shining). 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering mid summer–early fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open sites , usually sandy soils , wooded areas , grasslands , railroads ;</text>
-    <habitat>open sites sandy soils</habitat>
-    <habitat>wooded areas</habitat>
-    <habitat>grasslands railroads</habitat>
-  </habitat_info>
-  <elevation>600–2900 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Chihuahua).</global_distribution>
-  <global_distribution>Mexico (Sonora).</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species carruthii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">bakeri</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species bakeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Osterhout" date="unknown">coloradensis</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species coloradensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Britton" date="unknown">kansana</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species kansana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) H. M. Hall &amp; Clements" date="unknown">wrightii</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species vulgaris;subspecies wrightii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">wrightii</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species wrightii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>29.</number>
+  <other_name type="common_name">Carruth wormwood</other_name>
   <discussion>Artemisia carruthii is closely related to members of the A. ludoviciana complex, with which it may intergrade.</discussion>
-</treatment>
-
+</bio:treatment>

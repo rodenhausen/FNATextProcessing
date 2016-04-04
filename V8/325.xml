@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>HYLOTELEPHIUM</genus_name>
-    <genus_authority>H. Ohba</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Reid V. Moran</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="H. Ohba" date="unknown">HYLOTELEPHIUM</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Mag. (Tokyo)</publication_title>
       <place_in_publication>90: 46, figs. 1–3.  1977  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Orpine</common_name>
-  <common_name>stonecrop</common_name>
-  <etymology>[Greek hyle, wood, and genus Telephium]</etymology>
-  <author>Reid V. Moran</author>
+    <taxon_hierarchy>family CRASSULACEAE;genus HYLOTELEPHIUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek hyle, wood, and genus Telephium]</other_info_on_name>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Orpine</other_name>
+  <other_name type="common_name">stonecrop</other_name>
   <discussion>Sedum Linnaeus subg. Telephium (Gray) R. T. Clausen</discussion>
-  <description>Herbs, perennial (dying back in winter, base persisting as annual addition to rootstock), not viviparous, 2–9 dm, glabrous, (from sympodial rootstock with thickened or tuberous roots).  Stems [mostly] erect or ascending, little-branched proximal to cyme, succulent.  Leaves persistent, cauline, alternate, opposite [or whorled], sessile or short-petiolate, not connate basally; petiole to 5 mm; blade [mostly] broad, ovate to obovate, oblanceolate, elliptic, or elliptic-oblong, or spatulate, laminar, 2–11 cm, herbaceous, base not spurred, margins entire or dentate or serrate; veins not conspicuous.  Inflorescences terminal corymbose cymes, often paniculate.  Pedicels present.  Flowers erect, 5-merous; sepals connate basally, all alike; petals ascending or spreading, distinct, white or greenish to pinkish or purple [red]; calyx and corolla not circumscissile in fruit; nectaries quadrate to oblong [spatulate]; stamens 2 times as many as sepals or absent; filaments adnate to corolla base; pistils erect, distinct; ovary base attenuate, sometimes sharply narrowed, tapering to slender styles; styles shorter than ovary.  Fruits erect.  Seeds ellipsoid, with narrow, parallel grooves.  x = 12.</description>
-  <number_of_infrataxa>Species ca. 30 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>temperate areas.</global_distribution>
+  <discussion>Species ca. 30 (3 in the flora):</discussion>
   <discussion>Hylotelephium has usually been treated as a section or subgenus of the polymorphic and, as now understood, polyphyletic genus Sedum.  From Sedum as redefined by H. ’t Hart (1995) these species differ in their distinct and basally attenuate pistils; in general, they differ further in having tall, leafy annual floral stems from an underground tuberous base, very broad and thin leaves, corymbose cymes, and stems dying back in winter to a tuberous base (H. Ohba 1977).</discussion>
   <discussion>The vascular structure of flowers of this group were found by M. W. Quimby (1939) to be more primitive than in Sedum, having six distinct whorls of vascular traces from stele to appendages.  In the distinctive Hylotelephium anacampseros Linnaeus of southern Europe, H. ’t Hart (1985) found only four whorls of traces and found evidence that this pattern derived from that of Hylotelephium and was independent of patterns in Sedum.</discussion>
-  <references heading="SELECTED REFERENCES">
+  <references>
     <reference>Baldwin, J. T.  1937.  The cyto-taxonomy of the Telephium section of Sedum.  Amer. J. Bot. 24: 126–132.</reference>
     <reference>Ohba, H.  1977.  The taxonomic status of Sedum telephium and its allied species (Crassulaceae).  Bot. Mag. (Tokyo) 90: 41–56.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 2 times as long as sepals, white or pink tinged to pinkish; nectaries wider than long; flowers fertile</statement>
+      <description type="morphology">Petals 2 times as long as sepals, white or pink tinged to pinkish; nectaries wider than long; flowers fertile</description>
       <determination>1.   Hylotelephium telephioides</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 2.5–3 times as long as sepals, white with green midribs or greenish, purple, or purplish red; nectaries longer than wide; flowers often sterile.</statement>
+      <description type="morphology">Petals 2.5–3 times as long as sepals, white with green midribs or greenish, purple, or purplish red; nectaries longer than wide; flowers often sterile.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals purple or purplish red; cymes dense; leaves becoming markedly smaller distally; stamens usually 10; pistils 5</statement>
+      <description type="morphology">Petals purple or purplish red; cymes dense; leaves becoming markedly smaller distally; stamens usually 10; pistils 5</description>
       <determination>2.   Hylotelephium telephium</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals white with green midribs or greenish; cymes lax; leaves becoming scarcely smaller distally; stamens absent or 1–10; pistils absent or 1–5</statement>
+      <description type="morphology">Petals white with green midribs or greenish; cymes lax; leaves becoming scarcely smaller distally; stamens absent or 1–10; pistils absent or 1–5</description>
       <determination>3.   Hylotelephium erythrostictum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

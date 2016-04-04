@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bryophyllum</genus_name>
-    <species_name>delagoense</species_name>
-    <species_authority>(Ecklon &amp; Zeyher) Schinz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bryophyllum</taxon_name>
+    <taxon_name rank="species" authority="(Ecklon &amp; Zeyher) Schinz" date="unknown">delagoense</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Herb. Boissier</publication_title>
       <place_in_publication>10: 38.  1900  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chandelier plant</common_name>
-  <common_name>tingo tingo</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>delagoensis</species_name>
-    <species_authority>Ecklon &amp; Zeyher</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Bryophyllum;species delagoense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="Ecklon &amp; Zeyher" date="unknown">delagoensis</taxon_name>
     <place_of_publication>
       <publication_title>Enum. Pl. Afric. Austral.,</publication_title>
       <place_in_publication>305.  1837</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>verticillata</species_name>
-    <species_authority>Scott-Elliot</species_authority>
-  </TaxonIdentification>
-  <description>Herbs, monocarpic, (sometimes suckering at base), pale green mottled with violet-brown, glaucous.  Stems simple, terete, 5–20 dm × 0.5–1 cm.  Leaves mostly in 3s, opposite or whorled, evenly spaced, simple; petiole and blade indistinguishable, reddish green to gray-green with reddish brown spots, narrowly oblong, subcylindric, grooved adaxially, 3–15 cm × 3–6 mm, margins entire except for 3–9 conic teeth at apex, apex blunt, surfaces not glaucous; bulbils borne between teeth, spurs spoon-shaped.  Cymes mostly dense, corymbiform, 0.5–2 dm diam.; branches to 3 cm.  Pedicels 5–30 mm.  Flowers: calyx pale green, not inflated, 8–16 mm, tube 3–6 mm, lobes triangular, 5–10 mm, longer than tube, apex acuminate; corolla orange to scarlet, 25–40 mm, not contracted basally, lobes obovate, 6–12 mm, apex rounded or apiculate.  2n = 68.</description>
-  <phenology>Flowering winter, spring</phenology>
-  <habitat>Cactus-mesquite thickets, shell mounds, waste places</habitat>
-  <elevation>0 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Indian Ocean Islands (Madagascar)</us_distribution>
-  <introduced>introduced also in s Africa</introduced>
-  <us_distribution>Pacific Islands (at least Hawaii)</us_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Kalanchoë;species delagoensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="Scott-Elliot" date="unknown">verticillata</taxon_name>
+    <taxon_hierarchy>genus Kalanchoë;species verticillata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Chandelier plant</other_name>
+  <other_name type="common_name">tingo tingo</other_name>
   <discussion>The names Bryophyllum tubiflorum and Kalanchoë tubiflora are widely used in horticultural as well as botanical works, with K. delagoensis usually listed in synonymy as a nomen nudum.  H. R. Toelken (1985) wrote that the three-word original diagnosis of K. delagoensis was enough to distinguish it from other species treated.  R. W. Long and O. Lakela (1971) misidentified it as K. grandiflora A. Richards.</discussion>
   <discussion>The subcylindric part of the leaf seems to be the petiole, bearing a greatly reduced blade with one to four pairs of teeth (P. Boiteau and L. Allorge-Boiteau 1995).</discussion>
   <discussion>This prolific species is an aggressive weed, well established in southern Florida and coastal southern Texas.  In Australia, where it is called “mother of millions,” it is a serious pest because it is highly poisonous to cattle (P. I. Forster 1996).</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Everett, T. H.  1939.  Kalanchoë tubiflora.  Addisonia 20: 63–64.</reference>
   </references>
-</treatment>
+</bio:treatment>

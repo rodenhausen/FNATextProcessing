@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">canescens</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">canescens</taxon_name>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species canescens;subspecies canescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">candidissima</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species candidissima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">canescens</taxon_name>
+    <taxon_name rank="variety" authority="(Eastwood) Munz" date="unknown">candidissima</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species canescens;variety candidissima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">cinerea</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species cinerea;</taxon_hierarchy>
+  </taxon_identification>
   <number>33a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>canescens</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>candidissima</species_name>
-    <species_authority>Eastwood</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>canescens</species_name>
-    <variety_name>candidissima</variety_name>
-    <variety_authority>(Eastwood) Munz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>cinerea</species_name>
-    <species_authority>Howell</species_authority>
-  </TaxonIdentification>
-  <description>Twigs densely short soft-hairy, eglandular.  Immature inflorescence axes densely hairy, eglandular.  Pedicels densely hairy, eglandular.  Fruits densely hairy, glabrescent, eglandular.  2n = 26.</description>
-  <phenology>Flowering early winter–late spring</phenology>
-  <habitat>Chaparral, open forests</habitat>
-  <elevation>400–1700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
   <discussion>Subspecies canescens is widespread in California’s North Coast Ranges and northward into southern Oregon.  Disjunct populations occur south to the Monterey, California, area.  Hybrids with Arctostaphylos viscida in southern Oregon were named A. cinerea Howell.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>61b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>crustacea</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>crinita</subspecies_name>
-    <subspecies_authority>(J. E. Adams) V. T. Parker, M. C. Vasey &amp; J. E. Keeley</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">crustacea</taxon_name>
+    <taxon_name rank="subspecies" authority="(J. E. Adams) V. T. Parker, M. C. Vasey &amp; J. E. Keeley" date="unknown">crinita</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>54: 152. 2007,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>(Pursh) Lindley</species_authority>
-    <variety_name>crinita</variety_name>
-    <variety_authority>J. E. Adams</variety_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species crustacea;subspecies crinita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Lindley" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="variety" authority="J. E. Adams" date="unknown">crinita</taxon_name>
     <place_of_publication>
       <publication_title>in H. McMinn, Man. Calif. Shrubs,</publication_title>
       <place_in_publication>412, fig. 481. 1939</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>crustacea</species_name>
-    <variety_name>tomentosiformis</variety_name>
-    <variety_authority>J. E. Adams</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>crustacea</species_name>
-    <variety_name>trichoclada</variety_name>
-    <variety_authority>(de Candolle) Munz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <subspecies_name>crinita</subspecies_name>
-    <subspecies_authority>(J. E. Adams) Gankin</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <variety_name>tomentosiformis</variety_name>
-    <variety_authority>(J. E. Adams) Munz</variety_authority>
-  </TaxonIdentification>
-  <description>Twigs densely short-hairy and with longer, white hairs. Leaf blade surfaces densely
-        short-hairy abaxially (and sometimes adaxially). Immature inflorescence axes glabrous or
-        hairy, sometimes glandular (not densely glandular-hairy). Ovaries densely
-        hairy.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral and open conifer forests</habitat>
-  <elevation>300–500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species tomentosa;variety crinita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">crustacea</taxon_name>
+    <taxon_name rank="variety" authority="J. E. Adams" date="unknown">tomentosiformis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species crustacea;variety tomentosiformis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">crustacea</taxon_name>
+    <taxon_name rank="variety" authority="(de Candolle) Munz" date="unknown">trichoclada</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species crustacea;variety trichoclada;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="subspecies" authority="(J. E. Adams) Gankin" date="unknown">crinita</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species tomentosa;subspecies crinita;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="variety" authority="(J. E. Adams) Munz" date="unknown">tomentosiformis</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species tomentosa;variety tomentosiformis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>61b.</number>
   <discussion>Subspecies crinita occurs in the central and southern Santa Cruz Mountains, and also
         the interior uplands of Monterey Bay, outer Central Coast Range.</discussion>
-</treatment>
+</bio:treatment>

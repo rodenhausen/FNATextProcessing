@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Elliottia</genus_name>
-    <species_name>pyroliflora</species_name>
-    <species_authority>(Bongard) Brim &amp; P. F. Stevens</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Elliottia</taxon_name>
+    <taxon_name rank="species" authority="(Bongard) Brim &amp; P. F. Stevens" date="unknown">pyroliflora</taxon_name>
     <place_of_publication>
       <publication_title>J. Arnold Arbor.</publication_title>
       <place_in_publication>59: 336.  1978  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Copperbush</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cladothamnus</genus_name>
-    <species_name>pyroliflorus</species_name>
-    <species_authority>Bongard</species_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Elliottia;species pyroliflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cladothamnus</taxon_name>
+    <taxon_name rank="species" authority="Bongard" date="unknown">pyroliflorus</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Acad. Imp. Sci. St.-Pétersbourg, Sér.</publication_title>
       <place_in_publication>6., Sci. Math. 2: 155, plate 1.  1832 (as pyrolaeflorus)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Leiophyllum</genus_name>
-    <species_name>pyroliflorum</species_name>
-    <species_authority>(Bongard) Dippel</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 0.5–3 m, ± spreading; older twigs with copper-colored, shreddy bark, twigs of current season green, glabrous or sparsely hairy.  Leaves alternate or seemingly whorled at ends of twigs; petiole 1–4 mm; blade elliptic to oblanceolate, (1.5–)2–5 × 0.6–1.4 cm, base cuneate, margins flat, apex mucronate, surfaces glaucous.  Inflorescences terminal, solitary flowers or 2–3-flowered cymes, 2–4 cm; bracts leaflike, lanceolate, 10–15 mm, margins entire.  Pedicels 5–10 mm, with 1–2, persistent bracteoles distally.  Flowers: calyx lobes 5, lanceolate, 7–10 × 2–4 mm, apex acute, ciliate along margins especially basally; corolla 5-lobed, petals pinkish or copper colored, narrowly elliptic, 10–15 mm; stamens 8(–10); filaments glabrous; anthers 1.7–2 mm; style (persisting in fruit), curved or recurved, 10–12 mm.  Capsules 5–6-parted, spheroidal, 5–8 mm, finely pitted, glabrous.  Seeds 0.5–0.8 mm, testa with conspicuous cells.  2n = 22.</description>
-  <phenology>Flowering Jun–Jul</phenology>
-  <habitat>Moist, coniferous forests and associated habitats in mountainous regions with cool temperatures and high rainfall, especially stream banks</habitat>
-  <elevation>0–2500 m</elevation>
-  <global_distribution>bog edges</global_distribution>
-  <global_distribution>tree clumps</global_distribution>
-  <global_distribution>and forest edges in subalpine parkland</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
+    <taxon_hierarchy>genus Cladothamnus;species pyroliflorus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Leiophyllum</taxon_name>
+    <taxon_name rank="species" authority="(Bongard) Dippel" date="unknown">pyroliflorum</taxon_name>
+    <taxon_hierarchy>genus Leiophyllum;species pyroliflorum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Copperbush</other_name>
   <discussion>Elliottia pyroliflora has a wider geographic and elevational range than E. racemosa; it is considered difficult to grow.</discussion>
-</treatment>
+</bio:treatment>

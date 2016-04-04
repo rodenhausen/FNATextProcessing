@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Montia</genus_name><species_name>howellii</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>18: 191. 1883</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Howell’s montia</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Claytonia</genus_name><species_name>howellii</species_name><species_authority>(S. Watson) Piper</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Maxia</genus_name><species_name>howellii</species_name><species_authority>(S. Watson) Ö. Nilsson</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Montiastrum</genus_name><species_name>howellii</species_name><species_authority>(S. Watson) Rydberg</species_authority></TaxonIdentification><description>Plants annual, not rhizomatous, stoloniferous, or bulbiferous. Stems decumbent, freely branch-ing or simple, 1–10 cm, often rooting at nodes, forming small, loose mats. Leaves alternate, not distinctly petiolate, with clasping leaf sheaths; blade linear, 5–25 × 1–2 mm. Inflorescences axillary, 1-bracteate; bract minute, scarious. Flowers 2–8; sepals 1–2 mm; petals 2–5, often absent, white, 0.7–1.5 mm; stamens (2–)3(–5), anther pink. Seeds 0.5–1 mm, tuberculate; elaiosome minute, shorter than 0.5 mm.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>moist woods</habitat><elevation>0–500 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">howellii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>18: 191. 1883</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Montia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Piper" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Claytonia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Maxia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Ö. Nilsson" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Maxia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montiastrum</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Rydberg" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Montiastrum;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Howell’s montia</other_name>
+</bio:treatment>

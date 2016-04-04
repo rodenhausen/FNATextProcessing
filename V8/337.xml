@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Aeonium</genus_name>
-    <species_name>arboreum</species_name>
-    <species_authority>(Linnaeus) Webb &amp; Berthelot</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aeonium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Webb &amp; Berthelot" date="unknown">arboreum</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Îles Canaries</publication_title>
       <place_in_publication>3(2,1): 185.  1840,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sempervivum</genus_name>
-    <species_name>arboreum</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Aeonium;species arboreum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sempervivum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">arboreum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 464.  1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <us_distribution>California</us_distribution>
-  <global_distribution>Atlantic Islands (Canary Islands)</global_distribution>
-  <introduced>introduced also s Europe</introduced>
-  <global_distribution>n Africa (Mediterranean coast).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Sempervivum;species arboreum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

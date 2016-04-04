@@ -1,61 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>borealis</species_name>
-    <species_authority>Pallas</species_authority>
-    <subspecies_name>richardsoniana</subspecies_name>
-    <subspecies_authority>(Besser) Korobkov</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Pallas" date="unknown">borealis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Besser) Korobkov" date="unknown">richardsoniana</taxon_name>
     <place_of_publication>
       <publication_title>in A. I. Tolmatchew, Fl. Arct. URSS</publication_title>
       <place_in_publication>10: 178. 1987</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species borealis;subspecies richardsoniana</taxon_hierarchy>
-  <common_name>Richardson’s sagewort</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>richardsoniana</species_name>
-    <species_authority>Besser</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species borealis;subspecies richardsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Besser" date="unknown">richardsoniana</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Soc. Imp. Naturalistes Moscou</publication_title>
       <place_in_publication>9: 64. 1836,</place_in_publication>
-      <other_info>based on A. arctica Besser in W. J. Hooker, Fl. Bor.-Amer. 1: 323. 1833, not
-                Lessing 1831</other_info>
+      <other_info_on_pub>based on A. arctica Besser in W. J. Hooker, Fl. Bor.-Amer. 1: 323. 1833, not
+                Lessing 1831</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>caudata</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>richardsoniana</variety_name>
-    <variety_authority>(Besser) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>desertorum</species_name>
-    <species_authority>Sprengel</species_authority>
-    <variety_name>richardsoniana</variety_name>
-    <variety_authority>(Besser) Besser</variety_authority>
-  </TaxonIdentification>
-  <description>Plants (6–)8–15(–20) cm, herbage white-hoary. Corollas (at least lobes) deep red,
-        3–3.5 mm.</description>
-  <habitat_info>
-    <text>river terraces , tundra ;</text>
-    <habitat>river terraces</habitat>
-    <habitat>tundra</habitat>
-  </habitat_info>
-  <elevation>0–600 m;</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Artemisia;species richardsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">caudata</taxon_name>
+    <taxon_name rank="variety" authority="(Besser) B. Boivin" date="unknown">richardsoniana</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species caudata;variety richardsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Sprengel" date="unknown">desertorum</taxon_name>
+    <taxon_name rank="variety" authority="(Besser) Besser" date="unknown">richardsoniana</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species desertorum;variety richardsoniana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <other_name type="common_name">Richardson’s sagewort</other_name>
   <discussion>Long overlooked, subsp. richardsoniana is easily distinguished by its relatively
         short stature, dense, white indument, and deep red corollas. It is known only from western
         arctic North America.</discussion>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

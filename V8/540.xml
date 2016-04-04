@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Douglasia</genus_name>
-    <species_name>arctica</species_name>
-    <species_authority>Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">arctica</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 120.  1838  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mackenzie River dwarf primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Douglasia</genus_name>
-    <species_name>nivalis</species_name>
-    <species_authority>Lindley</species_authority>
-    <variety_name>glabra</variety_name>
-    <variety_authority>Duby</variety_authority>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose cushions from branched caudex.  Stems prostrate to ascending, with marcescent, imbricate, reddish leaves proximally and terminal, green leaf rosettes.  Leaves erect, thin; blade linear to linear-lanceolate, 3–10 × 0.5–2 mm, margins entire, shortly ciliolate, hairs simple, apex acute or obtuse, usually glabrous, surfaces glabrous.  Scapes to 2 mm in early anthesis, to 2–4 cm in fruit, minutely glandular and hairy, hairs branched, sometimes glabrescent.  Inflorescences 1(–2)-flowered, bracteate; bracts 1(–2), ovate-lanceolate, 1–2 × 0.5–1 mm, glabrous.  Pedicels absent.  Flowers: calyx 3–6 × 3–4 mm, glabrous; corolla pink, white in age, limb 5–7 mm diam., lobes 2.5–3 × 1 mm, margins entire or slightly erose.  2n = 38.</description>
-  <phenology>Flowering early summer</phenology>
-  <habitat>Stony places on tundra, alpine screes</habitat>
-  <elevation>0–1000 m</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>family PRIMULACEAE;genus Douglasia;species arctica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Douglasia</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">nivalis</taxon_name>
+    <taxon_name rank="variety" authority="Duby" date="unknown">glabra</taxon_name>
+    <taxon_hierarchy>genus Douglasia;species nivalis;variety glabra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Mackenzie River dwarf primrose</other_name>
   <discussion>Douglasia arctica is most common in northern Alaska and northwesternmost Canada.  It can be separated from its closest relative, D. gormanii, on the basis of its looser growth habit and shortly ciliolate, otherwise glabrous leaves.  Douglasia gormanii has a tight growth habit and forked and branched hairs on the leaves.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Kochia</genus_name><species_name>californica</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts.</publication_title>
-    <place_in_publication>17: 378. 1882</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Bassia</genus_name><species_name>californica</species_name><species_authority>(S. Watson) A. J. Scott</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Kochia</genus_name><species_name>americana</species_name><species_authority>S. Watson</species_authority><variety_name>californica</variety_name><variety_authority>(S. Watson) M. E. Jones</variety_authority></TaxonIdentification><description>Plants brownish, brownish green, or grayish green, 10–60 cm, densely tomentose. Stems erect (rarely ascending), branched throughout; branches arcuate, ascending or spreading. Leaves usually remote, not overlapping, sessile; blade narrowly ovate, lanceolate, or oblong-linear, flattened, 3–20 × 1.5–3.5 mm, sericeous. Inflorescences spicate, or primary axis paniculately branched; 1–4(–5)-flowered in axils of bracts. Perianth segments densely tomentose or almost glabrate.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>alkaline soils</habitat><habitat>deserts</habitat><habitat>semideserts</habitat><habitat>eroded mountain slopes</habitat><habitat>other marginal habitats</habitat><elevation>0–1500 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kochia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">californica</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts.</publication_title>
+      <place_in_publication>17: 378. 1882</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Kochia;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bassia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) A. J. Scott" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Bassia;species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kochia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">americana</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) M. E. Jones" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Kochia;species americana;variety californica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+</bio:treatment>

@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Carya</genus_name><species_name>ovata</species_name><species_authority>(Miller) K. Koch</species_authority><variety_name>australis</variety_name><variety_authority>(Ashe) Little</variety_authority><place_of_publication><publication_title> Phytologia </publication_title><place_in_publication>19: 188. 1969</place_in_publication></place_of_publication></TaxonIdentification><common_name>Carolina hickory</common_name><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Carya</genus_name><species_name>australis</species_name><species_authority>Ashe</species_authority><place_of_publication><publication_title>Bull. Charleston Mus. </publication_title><place_in_publication>14: 12. 1918</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Carya</genus_name><species_name>carolinae-septentrionalis</species_name><species_authority>(Ashe) Engler &amp; Graebner</species_authority></TaxonIdentification><description>Trees, to 39 m. Twigs reddish brown, often turning black by fall or upon drying, slender, glabrous. Terminal buds reddish brown to black, ovoid, 6-15 mm, mainly glabrous. Leaves 2-3 dm; petiole 4-12 cm, mainly glabrous. Leaflets 4-19 × 1-6.5 cm, terminal petiolules 3-12 mm; blades abaxially with a few hairs, and with small 2- and 4-lobed peltate scales. Staminate catkins to 6 cm. Fruits 2.5-3 × 2.5-3 cm; husks 5-8 mm thick.</description><phenology>Flowering spring</phenology><habitat> Wet bottomlands, rocky hillsides, and limestone outcrops</habitat><elevation> 150-200 m</elevation><us_distribution> Ala.</us_distribution><us_distribution> Ga.</us_distribution><us_distribution> Miss.</us_distribution><us_distribution> N.C.</us_distribution><us_distribution> S.C.</us_distribution><us_distribution> Tenn.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carya</taxon_name>
+    <taxon_name rank="species" authority="(Miller) K. Koch" date="unknown">ovata</taxon_name>
+    <taxon_name rank="variety" authority="(Ashe) Little" date="unknown">australis</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>19: 188. 1969</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carya;species ovata;variety australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carya</taxon_name>
+    <taxon_name rank="species" authority="Ashe" date="unknown">australis</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Charleston Mus.</publication_title>
+      <place_in_publication>14: 12. 1918</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Carya;species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carya</taxon_name>
+    <taxon_name rank="species" authority="(Ashe) Engler &amp; Graebner" date="unknown">carolinae-septentrionalis</taxon_name>
+    <taxon_hierarchy>genus Carya;species carolinae-septentrionalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <other_name type="common_name">Carolina hickory</other_name>
+  <discussion>endemic</discussion>
+</bio:treatment>

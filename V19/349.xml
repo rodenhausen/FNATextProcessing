@@ -1,82 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Lactuca</genus_name>
-    <species_name>floridana</species_name>
-    <species_authority>(Linnaeus) Gaertner</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lactuca</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gaertner" date="unknown">floridana</taxon_name>
     <place_of_publication>
       <publication_title>Fruct. Sem. Pl.</publication_title>
       <place_in_publication>2: 362. 1791</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lactuca;species floridana;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Sonchus</genus_name>
-    <species_name>floridanus</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Lactuca;species floridana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sonchus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">floridanus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 794. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lactuca</genus_name>
-    <species_name>floridana</species_name>
-    <variety_name>villosa</variety_name>
-    <variety_authority>(Jacquin) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mulgedium</genus_name>
-    <species_name>floridanum</species_name>
-    <species_authority>(Linnaeus) de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Annuals or biennials, 25–150(–200+) cm. Leaves on proximal 2/3–3/4 of each stem; blades of undivided cauline leaves oblong, ovate, or elliptic, margins entire or denticulate, midribs sometimes sparsely pilose. Heads in (± pyramidal) paniculiform arrays. Involucres (8–)10–12+ mm. Phyllaries usually reflexed in fruit. Florets 10–15(–25+); corollas bluish or whitish, seldom deliquescent. Cypselae: bodies brown (often mottled), ± compressed-lanceoloid to -fusiform, 4–5 mm, beaks ± stout, 0.1–0.5(–1) mm, faces 5–6-nerved; pappi white, 4–5 mm. 2n = 34.</description>
-  <phenology_info>
-    <text>Flowering (Jun–)Aug–Sep(–Oct).</text>
-    <phenology>jun</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist to wet places , margins of thickets and woods ;</text>
-    <habitat>moist to wet places , margins of thickets and woods</habitat>
-  </habitat_info>
-  <elevation>10–200 m;</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Sonchus;species floridanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lactuca</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) de Candolle" date="unknown">floridana</taxon_name>
+    <taxon_name rank="variety" authority="(Jacquin) Cronquist" date="unknown">villosa</taxon_name>
+    <taxon_hierarchy>genus Lactuca;species floridana;variety villosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mulgedium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">floridanum</taxon_name>
+    <taxon_hierarchy>genus Mulgedium;species floridanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
   <discussion>The “double” pappi of Lactuca floridana (and L. biennis) are very similar to pappi found in species assigned to Cicerbita Wallroth (ca. 35 spp., Europe, Asia, Africa). Return of the species to Cicerbita as C. floridana (Linnaeus) Wallroth may have merit.</discussion>
-</treatment>
-
+</bio:treatment>

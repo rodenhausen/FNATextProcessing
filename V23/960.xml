@@ -1,78 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>26ss.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carex</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Rostrales</section_name>
-    <section_authority>Meinshausen</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>A. A. Reznicek</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Meinshausen" date="unknown">Rostrales</taxon_name>
     <place_of_publication>
       <publication_title>Trudy Imp. S.-Petersburgsk. Bot. Sada</publication_title>
       <place_in_publication>18: 283. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <author>A. A. Reznicek</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carex</genus_name>
-    <section_name>Folliculatae</section_name>
-    <section_authority>Mackenzie</section_authority>
-  </TaxonIdentification>
-  <description>Plants cespitose, rhizomatous. Culms yellowish or brown, without trace of red or
-    purple at base. Leaves: basal sheaths fibrous or not; sheath fronts membranous; blades M-shaped
-    in cross section when young, glabrous. Inflorescences racemose, with 2–6 spikes; proximal bracts
-    leaflike, sheathing, sheath 4+ mm, longer than diameter of stem; lateral spikes pistillate or
-    distal lateral spike androgynous, pedunculate, prophyllate; terminal spike staminate. Proximal
-    pistillate scales with 5–7-veined center, apex acute to awned. Perigynia spreading to somewhat
-    reflexed, rarely ascending, veined, stipitate, ovate or lanceolate, round or rounded-trigonous
-    in cross section, base round-tapering, apex tapering or, rarely, contracted to beak, glabrous;
-    beak, when present, bidentate, teeth erect. Stigmas 3. Achenes brown, oblong-ovoid or ovoid,
-    trigonous, smaller than bodies of perigynia, smooth; style persistent.</description>
-  <number_of_infrataxa>Species 5 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>e North America</global_distribution>
-  <global_distribution>e Asia</global_distribution>
-  <global_distribution>one species extending to tropical mountains of se Asia.</global_distribution>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;section Rostrales;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="section" authority="Mackenzie" date="unknown">Folliculatae</taxon_name>
+    <taxon_hierarchy>genus Carex;section Folliculatae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26ss.</number>
+  <discussion>Species 5 (4 in the flora):</discussion>
   <references>
-    <reference> Wujek, D. E. and F. J. Menapace. 1986. Taxonomy of Carex
+    <reference>Wujek, D. E. and F. J. Menapace. 1986. Taxonomy of Carex
       section Folliculatae using achene micromorphology. Rhodora 88: 399–403.</reference>
   </references>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia ovate to narrowly ovate, 2.6–3.9 times as long as wide, 6.4–10.7 mm, apex
-        con-</statement>
+      <description type="morphology">Perigynia ovate to narrowly ovate, 2.6–3.9 times as long as wide, 6.4–10.7 mm, apex
+        con-</description>
       <determination>398. Carex turgescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perigynia lanceolate, 4–7 times as long as wide, (8.3–)10.5–15.6 mm, apex gradually
-        tapered, bidentulate; beak absent.</statement>
+      <description type="morphology">Perigynia lanceolate, 4–7 times as long as wide, (8.3–)10.5–15.6 mm, apex gradually
+        tapered, bidentulate; beak absent.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Widest leaf blades 1.6–3.5(–4.2) mm wide; bract sheaths concave at apex; anthers
-        1.1–</statement>
+      <description type="morphology">Widest leaf blades 1.6–3.5(–4.2) mm wide; bract sheaths concave at apex; anthers
+        1.1–</description>
       <determination>399. Carex michauxiana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Widest leaf blades (3.5–)5–18 mm wide; bract sheaths prolonged, truncate to convex
-        at apex; anthers 3–5 mm.</statement>
+      <description type="morphology">Widest leaf blades (3.5–)5–18 mm wide; bract sheaths prolonged, truncate to convex
+        at apex; anthers 3–5 mm.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Larger achenes 3.4–4(–4.5) mm, (1.7–)1.8–2.4 times as long as wide; lateral spikes
+      <description type="morphology">Larger achenes 3.4–4(–4.5) mm, (1.7–)1.8–2.4 times as long as wide; lateral spikes
         entirely pistillate (occasionally a few empty scales at apex), the proximal usually arching
-        or nodding; widest leaves of vegetative shoots 8–18(–21) mm wide; proxi-</statement>
+        or nodding; widest leaves of vegetative shoots 8–18(–21) mm wide; proxi-</description>
       <determination>400. Carex folliculata</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Larger achenes 2.3–3.4(–3.8) mm, 1.3–1.8 times as long as wide; lateral spikes
+      <description type="morphology">Larger achenes 2.3–3.4(–3.8) mm, 1.3–1.8 times as long as wide; lateral spikes
         usually with conspicuous staminate apex, erect or spreading; widest leaves of vegetative
-        shoots (3.5–)5–12 mm wide; proximal pistillate scales mostly 1 / 2 – 2 / 3 as</statement>
+        shoots (3.5–)5–12 mm wide; proximal pistillate scales mostly 1 / 2 – 2 / 3 as</description>
       <determination>401. Carex lonchocarpa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

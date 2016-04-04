@@ -1,61 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pluchea</genus_name>
-    <species_name>baccharis</species_name>
-    <species_authority>(Miller) Pruski</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="(Cassini ex Dumortier) Anderberg" date="unknown">Plucheeae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pluchea</taxon_name>
+    <taxon_name rank="species" authority="(Miller) Pruski" date="unknown">baccharis</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 2035. 2005</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species baccharis;</taxon_hierarchy>
-  <common_name>Rosy camphorweed</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Conyza</genus_name>
-    <species_name>baccharis</species_name>
-    <species_authority>Miller</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Plucheeae;genus Pluchea;species baccharis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Conyza</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">baccharis</taxon_name>
     <place_of_publication>
       <publication_title>Gard. Dict. ed.</publication_title>
       <place_in_publication>8, Conyza no. 16. 1768</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pluchea</genus_name>
-    <species_name>rosea</species_name>
-    <species_authority>R. K. Godfrey</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 40–60 cm; fibrous-rooted, sometimes rhizomatous. Stems puberulent to sparsely villous and stipitate- to sessile-glandular (sometimes viscid). Leaves sessile; blades ovate to ovate-oblong or elliptic-oblong, 2–7 × 0.5–3 cm (bases cuneate to truncate or subcordate, clasping to subclasping), margins shallowly apiculate-toothed, faces puberulent to sparsely villous and stipitate- to sessile-glandular (sometimes viscid). Heads in corymbiform arrays. Involucres campanulate to turbinate-campanulate or turbinate, 4–6 × 5–9 mm (bases obtuse to barely acute). Phyllaries rose-pink to purplish, moderately appressed-villous to puberulous or arachnose, usually viscid-hairy as well (outer phyllaries ovate-acuminate to ovate-lanceolate, lengths 0.5–1 times inner). Corollas rose-pink to purplish. Pappi persistent, bristles distinct. 2n = 20.</description>
-  <phenology_info>
-    <text>Flowering Jun–Jul.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>wet savannas , flatwoods , pond edges , borrow pits , ditches ;</text>
-    <habitat>wet savannas</habitat>
-    <habitat>flatwoods</habitat>
-    <habitat>pond edges</habitat>
-    <habitat>borrow pits</habitat>
-    <habitat>ditches</habitat>
-  </habitat_info>
-  <elevation>0–20 m;</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Bahamas)</global_distribution>
-  <global_distribution>Central America (Belize).</global_distribution>
-  <global_distribution>Central America (Honduras).</global_distribution>
-  <global_distribution>Central America (Nicaragua).</global_distribution>
+    <taxon_hierarchy>genus Conyza;species baccharis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pluchea</taxon_name>
+    <taxon_name rank="species" authority="R. K. Godfrey" date="unknown">rosea</taxon_name>
+    <taxon_hierarchy>genus Pluchea;species rosea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Rosy camphorweed</other_name>
   <discussion>Pluchea baccharis has been reported from Arkansas; I have not seen a specimen.</discussion>
   <discussion>Pluchea rosea var. mexicana R. K. Godfrey, endemic to inland gypseous-saline habitats in east-central Mexico, has been treated at specific rank (G. L. Nesom 1989).</discussion>
   <discussion>The geographic ranges of Pluchea baccharis and P. foetida are nearly congruent and the taxa intergrade in morphology. The distinction between them is based primarily on corolla and phyllary color. Features of involucral vestiture also appear to be relatively constant. Head size and shape are not reliable diagnostic features.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>blossfeldiana</species_name>
-    <species_authority>Poellnitz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="Poellnitz" date="unknown">blossfeldiana</taxon_name>
     <place_of_publication>
       <publication_title>Repert. Spec. Nov. Regni Veg.</publication_title>
       <place_in_publication>35: 159.  1934,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Kalanchoë</genus_name>
-    <species_name>globulifera</species_name>
-    <species_authority>H. Perrier</species_authority>
-    <variety_name>coccinea</variety_name>
-    <variety_authority>H. Perrier</variety_authority>
+    <taxon_hierarchy>family CRASSULACEAE;genus Kalanchoë;species blossfeldiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kalanchoë</taxon_name>
+    <taxon_name rank="species" authority="H. Perrier" date="unknown">globulifera</taxon_name>
+    <taxon_name rank="variety" authority="H. Perrier" date="unknown">coccinea</taxon_name>
     <place_of_publication>
       <publication_title>Arch. Bot. Bull. Mens.</publication_title>
       <place_in_publication>2: 26.  1928,</place_in_publication>
-      <other_info>not K. coccinea Welwitsch ex Oliver 1871</other_info>
+      <other_info_on_pub>not K. coccinea Welwitsch ex Oliver 1871</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants glabrous.  Stems 4–5 dm.  Leaf blades elliptic to ovate or oblong-spatulate, 3–10 cm, margins crenate or almost entire, apex obtuse or nearly acute.  Cymes dense, compound, glabrous, not glandular.  Pedicels 0.5–2 cm.  Flowers fragrant; sepals ascending, triangular-lanceolate, 4–10 mm; corolla scarlet, cylindric, tube ca. 8 mm, lobes wide-spreading, ca. 4 mm.  2n = 34, 68.</description>
-  <phenology>Flowering year-round</phenology>
-  <habitat>Waste places</habitat>
-  <elevation>0–50 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Indian Ocean Islands (Madagascar).</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Kalanchoë;species globulifera;variety coccinea;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+</bio:treatment>

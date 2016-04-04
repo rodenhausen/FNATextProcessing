@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Bigelowia</genus_name><species_name>nudata</species_name><species_authority>(Michaux) de Candolle</species_authority><place_of_publication>
-    <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
-    <place_in_publication>5: 329. 1836</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Pineland rayless-goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Chrysocoma</genus_name><species_name>nudata</species_name><species_authority>Michaux</species_authority><place_of_publication><publication_title>Fl. Bor.-Amer. </publication_title><place_in_publication>2: 101. 1803</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Chondrophora</genus_name><species_name>nudata</species_name><species_authority>(Michaux) Britton</species_authority></TaxonIdentification><description>Plants usually with rhizomes or crowns, sometimes enlarging by offsets from stem/caudex bases. Leaves linear-oblanceolate to oblanceolate or narrowly spatulate; (2–)3–16 × 2–14 mm, bases not persistent. Involucres 4.5–7.5 mm.</description><number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa><global_distribution>se United States.</global_distribution><key><key_statement>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bigelowia</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) de Candolle" date="unknown">nudata</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
+      <place_in_publication>5: 329. 1836</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Bigelowia;species nudata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysocoma</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">nudata</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Bor.-Amer.</publication_title>
+      <place_in_publication>2: 101. 1803</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chrysocoma;species nudata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chondrophora</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Britton" date="unknown">nudata</taxon_name>
+    <taxon_hierarchy>genus Chondrophora;species nudata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Pineland rayless-goldenrod</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaves linear-oblanceolate to narrowly spatulate, (5–)8–16(–22) × 2–5 mm; involucres 6–7.5 mm; florets 4–5 mm; flowering Oct–May</statement>
+      <description type="morphology">Basal leaves linear-oblanceolate to narrowly spatulate, (5–)8–16(–22) × 2–5 mm; involucres 6–7.5 mm; florets 4–5 mm; flowering Oct–May</description>
       <determination>1a. Bigelowia nudata var. australis</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Basal leaves narrowly oblanceolate, (2–)3–8 × (4–)5–14 mm; involucres 4.5–6 mm; florets 3–4 mm; flow-ering Aug–Nov</statement>
+      <description type="morphology">Basal leaves narrowly oblanceolate, (2–)3–8 × (4–)5–14 mm; involucres 4.5–6 mm; florets 3–4 mm; flow-ering Aug–Nov</description>
       <determination>1b. Bigelowia nudata var. nudata</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

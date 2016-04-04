@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Camassia</genus_name><species_name>howellii</species_name><species_authority>S. Watson</species_authority><place_of_publication>
-    <publication_title>Proc. Amer. Acad. Arts</publication_title>
-    <place_in_publication>25: 135. 1889</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Howell camas</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Quamasia</genus_name><species_name>howellii</species_name><species_authority>(S. Watson) Coville</species_authority></TaxonIdentification><description>Bulbs sometimes clustered, ovoid, 1.5–3 cm diam. Leaves 4–7, 2–6 dm × 5–12 mm. Inflorescences 15–40 cm; sterile bracts 0, bracts subtending flowers shorter than or equaling pedicel. Flowers actinomorphic; tepals connivent over capsules after anthesis, deciduous as capsules develop, deep bluish violet, each 3- or 5-veined, 10–20 × 3–5 mm; anthers yellow, 2.5–3.5 mm; fruiting pedicel spreading, 15–25 mm. Capsules deciduous, shiny green, subglobose, 5–10 mm. Seeds 2–5 per locule. 2n = 30.</description><phenology>late spring</phenology><habitat>wet meadows</habitat><conservation>of conservation concern;</conservation><elevation>200–400 m;</elevation><us_distribution>Oreg.</us_distribution><discussion>Camassia howellii flowers one to two weeks later than sympatric populations of C. leichtlinii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Camassia</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">howellii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>25: 135. 1889</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Camassia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quamasia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Coville" date="unknown">howellii</taxon_name>
+    <taxon_hierarchy>genus Quamasia;species howellii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Howell camas</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Camassia howellii flowers one to two weeks later than sympatric populations of C. leichtlinii.</discussion>
+</bio:treatment>

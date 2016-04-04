@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>19b.2.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Agave</genus_name>
-        <species_name>parryi</species_name>
-        <species_authority>Engelmann</species_authority>
-        <variety_name>huachucensis</variety_name>
-        <variety_authority>(Baker) Little</variety_authority>
-        <place_of_publication>
-            <publication_title>Amer. J. Bot.</publication_title>
-            <place_in_publication>30: 235. 1943</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Huachuca agave</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Agave</genus_name>
-        <species_name>huachucensis</species_name>
-        <species_authority>Baker</species_authority>
-        <place_of_publication>
-            <publication_title>Handb. Amaryll., </publication_title>
-            <place_in_publication>172. 1888</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Rosettes 4.5–7.5 × 7.5–8.5 dm. Leaves 32–65 × 10–20 cm; blade ovate. Flowers
-        6.2–8.1 cm; perianth tube 8–9 mm, limb lobes 20–27 mm; filaments 4.6–5.8 cm; ovary 3.4–4.7
-        cm.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <habitat>gravelly places in oak and pine woodlands</habitat>
-    <elevation>1500–2200 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <global_distribution>nw Mexico.</global_distribution>
-    <discussion>Agave parryi var. huachensis is widely cultivated.</discussion>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">parryi</taxon_name>
+    <taxon_name rank="variety" authority="(Baker) Little" date="unknown">huachucensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Amer. J. Bot.</publication_title>
+      <place_in_publication>30: 235. 1943</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species parryi;variety huachucensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Baker" date="unknown">huachucensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Handb. Amaryll.,</publication_title>
+      <place_in_publication>172. 1888</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Agave;species huachucensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19b.2.</number>
+  <other_name type="common_name">Huachuca agave</other_name>
+  <discussion>Agave parryi var. huachensis is widely cultivated.</discussion>
+</bio:treatment>

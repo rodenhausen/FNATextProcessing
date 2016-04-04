@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>145b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Erigeron</genus_name><species_name>formosissimus</species_name><species_authority>Greene</species_authority><variety_name>viscidus</variety_name><variety_authority>(Rydberg) Cronquist</variety_authority><place_of_publication>
-    <publication_title>Bull. Torrey Bot. Club</publication_title>
-    <place_in_publication>70: 272. 1943</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Erigeron</genus_name><species_name>viscidus</species_name><species_authority>Rydberg</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>28: 24. 1901</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Erigeron</genus_name><species_name>glabellus</species_name><species_authority>Nuttall</species_authority><variety_name>viscidus</variety_name><variety_authority>(Rydberg) B. Boivin</variety_authority></TaxonIdentification><description>Stems sometimes sparsely hirsute, glandular, sometimes sparsely so. Distal leaves usually glabrous, sometimes sparsely hirsuto-villous, minutely glandular. Involucres glabrous or sparsely hirsuto-villous, densely minutely glandular.</description><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>sep</phenology><phenology>fall</phenology><habitat>roadsides</habitat><habitat>moist meadows</habitat><habitat>streamsides</habitat><habitat>crevices</habitat><habitat>aspen groves</habitat><habitat>ponderosa pine</habitat><habitat>pine-fir</habitat><habitat>spruce</habitat><elevation>1900–3700 m;</elevation><us_distribution>Ariz.</us_distribution><us_distribution>Colo.</us_distribution><us_distribution>N.Mex.</us_distribution><us_distribution>S.Dak.</us_distribution><us_distribution>Wyo.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">formosissimus</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) Cronquist" date="unknown">viscidus</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>70: 272. 1943</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Erigeron;species formosissimus;variety viscidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">viscidus</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>28: 24. 1901</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Erigeron;species viscidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glabellus</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) B. Boivin" date="unknown">viscidus</taxon_name>
+    <taxon_hierarchy>genus Erigeron;species glabellus;variety viscidus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>145b.</number>
+</bio:treatment>

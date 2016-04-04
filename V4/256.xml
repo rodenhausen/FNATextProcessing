@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>12d.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Opuntia</genus_name>
-        <species_name>engelmannii</species_name>
-        <species_authority>Salm-Dyck ex Engelmann</species_authority>
-        <variety_name>flavispina</variety_name>
-        <variety_authority>(L. D. Benson) B. D. Parfitt &amp; Pinkava</variety_authority>
-        <place_of_publication>
-            <publication_title>Madroño</publication_title>
-            <place_in_publication>35: 348. 1988</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Opuntia</genus_name>
-        <species_name>phaeacantha</species_name>
-        <species_authority>Engelmann</species_authority>
-        <variety_name>flavispina</variety_name>
-        <variety_authority>L. D. Benson</variety_authority>
-        <place_of_publication>
-            <publication_title>Cact. Succ. J. (Los Angeles) </publication_title>
-            <place_in_publication>46: 79. 1974</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Stem segments obovate, 15–23 × 14–18 cm, to 1.5 times longer than wide. Spines
-        (0–)1–7 per areole, evenly distributed on stem segments, arching downward, yellow with
-        extreme reddish brown basal portions, aging deep red to black, often twisted, the longest
-        65–75 mm, smaller ones depressed, whitish. 2n = 66.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>sonoran desert</habitat>
-    <habitat>sandy bajadas</habitat>
-    <elevation>500–800 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <global_distribution>Mexico (Sonora).</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Salm-Dyck ex Engelmann" date="unknown">engelmannii</taxon_name>
+    <taxon_name rank="variety" authority="(L. D. Benson) B. D. Parfitt &amp; Pinkava" date="unknown">flavispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Madroño</publication_title>
+      <place_in_publication>35: 348. 1988</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Opuntia;species engelmannii;variety flavispina;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">phaeacantha</taxon_name>
+    <taxon_name rank="variety" authority="L. D. Benson" date="unknown">flavispina</taxon_name>
+    <place_of_publication>
+      <publication_title>Cact. Succ. J. (Los Angeles)</publication_title>
+      <place_in_publication>46: 79. 1974</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species phaeacantha;variety flavispina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12d.</number>
+</bio:treatment>

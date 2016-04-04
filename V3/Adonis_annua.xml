@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>1.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Adonis</genus_name>
-        <species_name>annua</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <place_of_publication>
-            <publication_title> Sp. Pl. </publication_title>
-            <place_in_publication>1: 547. 1753</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Autumn adonis</common_name>
-    <common_name> bird's-eye</common_name>
-    <illustrated>illustrated</illustrated>
-    <weedy>weedy</weedy>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Adonis</genus_name>
-        <species_name>autumnalis</species_name>
-        <species_authority>Linnaeus</species_authority>
-    </TaxonIdentification>
-    <description>Herbs, annual, taprooted. Stem 1, 10-40 cm. Leaves: basal leaves 2-5 cm, similar to
-        cauline, petiolate; cauline leaves sessile or subsessile. Leaf blade 2-3-pinnatifid. Flowers
-        1.5-2.5 cm diam.; sepals appressed to petals, broadly obovate, ± erose in distal 1/3,
-        minutely ciliate, otherwise glabrous; petals 6-10, spreading, dark red [orange to
-        red-purple], usually with dark basal blotch, ±plane, 8-15 mm, ca. 1.5 times length of calyx,
-        apex slightly erose; stamens 15-20; anthers purple-black (olive green with age); pistils
-        20-30. Heads of achenes short-cylindric, 13-20 × 6-10 mm; pedicels conspicuously exserted
-        well beyond leaves. Achenes 3-5 mm, glabrous, adaxial margin nearly straight, abaxial keel
-        gibbous, not toothed; beak straight, erect, 0.5-1 mm.</description>
-    <phenology>Flowering spring-summer (Apr-Jun)</phenology>
-    <habitat> Prairies, fields, river banks, and waste places</habitat>
-    <elevation> 100-200 m</elevation>
-    <introduced> introduced</introduced>
-    <us_distribution> Ala.</us_distribution>
-    <us_distribution> Ark.</us_distribution>
-    <us_distribution> La.</us_distribution>
-    <us_distribution> Mo.</us_distribution>
-    <us_distribution> Tenn.</us_distribution>
-    <us_distribution> Tex.</us_distribution>
-    <global_distribution> native to Eurasia.</global_distribution>
-    <discussion>Adonis annua also has been reported for the lower Mississippi Valley (W.C. Muenscher
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Adonis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">annua</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>1: 547. 1753</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Adonis;species annua;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Adonis</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">autumnalis</taxon_name>
+    <taxon_hierarchy>genus Adonis;species autumnalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Autumn adonis</other_name>
+  <other_name type="common_name">bird's-eye</other_name>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
+  <discussion>Adonis annua also has been reported for the lower Mississippi Valley (W.C. Muenscher
         1980), Ontario and Manitoba (H. J. Scoggan 1978-1979, part 3), some of the western states,
         and New England. I have not found more recent records to confirm abundance of the species in
         those regions. Muenscher's report was presumably based on J. K. Small (1933), who cited the
@@ -47,11 +33,11 @@
         may escape frequently in some areas, the populations are often tenuously established and
         tend not to persist. Records of A. annua from western states were based on misidentified A.
         aestivalis.</discussion>
-    <discussion>Herbarium specimens without mature achenes may be impossible to distinguish from the
+  <discussion>Herbarium specimens without mature achenes may be impossible to distinguish from the
         closely related Adonis aestivalis, which differs in achene morphology and, reportedly, a
         slight difference in orientation of sepals and petals.</discussion>
-    <discussion>Several infraspecific taxonomies have been proposed for Adonis annua; none are well
+  <discussion>Several infraspecific taxonomies have been proposed for Adonis annua; none are well
         supported by observations in the field (C. C. Heyn and B. Pazy 1989).</discussion>
-    <discussion>Petal color has been variously reported; in the flora only dark red with a dark
+  <discussion>Petal color has been variously reported; in the flora only dark red with a dark
         basal blotch is confirmed by herbarium specimens.</discussion>
-</treatment>
+</bio:treatment>

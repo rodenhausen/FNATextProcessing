@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="(Britton) A. Berger" date="unknown">laxum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">laxum</taxon_name>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedum;species laxum;variety laxum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">laxum</taxon_name>
+    <taxon_name rank="subspecies" authority="R. T. Clausen" date="unknown">perplexum</taxon_name>
+    <taxon_hierarchy>genus Sedum;species laxum;subspecies perplexum;</taxon_hierarchy>
+  </taxon_identification>
   <number>35a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedum</genus_name>
-    <species_name>laxum</species_name>
-    <species_authority>(Britton) A. Berger</species_authority>
-    <variety_name>laxum</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sedum</genus_name>
-    <species_name>laxum</species_name>
-    <subspecies_name>perplexum</subspecies_name>
-    <subspecies_authority>R. T. Clausen</subspecies_authority>
-  </TaxonIdentification>
-  <description>Leaf blades glaucous, spatulate or oblanceolate, 10–50 × 9–17 mm, apex truncate to obtuse.  Flowering shoots 15–26(–40) cm; leaf blades glaucous, spatulate to oblanceolate, base obtuse, not clasping stem.  Flowers: sepals 3.5–5.1 mm, apex acute; petals pink or white, 9–11 mm; anthers red to reddish purple.  2n = 30.</description>
-  <phenology>Flowering spring–mid summer</phenology>
-  <habitat>Serpentine bluffs</habitat>
-  <elevation>30–1400 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
   <discussion>Variety laxum occurs in the drainage of the Smith River.</discussion>
-</treatment>
+</bio:treatment>

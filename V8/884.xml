@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cassiope</genus_name>
-    <species_name>mertensiana</species_name>
-    <species_authority>(Bongard) G. Don</species_authority>
-    <subspecies_name>gracilis</subspecies_name>
-    <subspecies_authority>Piper</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="(Bongard) G. Don" date="unknown">mertensiana</taxon_name>
+    <taxon_name rank="subspecies" authority="Piper" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Smithsonian Misc. Collect.</publication_title>
       <place_in_publication>50: 195.  1907,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cassiope</genus_name>
-    <species_name>mertensiana</species_name>
-    <variety_name>gracilis</variety_name>
-    <variety_authority>(Piper) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <description>Stems glabrous when young.  Leaf blade margins glabrous.</description>
-  <phenology>Flowering Jul–Aug</phenology>
-  <habitat>Subalpine forest and meadows, moist granitic slopes and crevices</habitat>
-  <elevation>1900–3200 m</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family ERICACEAE;genus Cassiope;species mertensiana;subspecies gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cassiope</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">mertensiana</taxon_name>
+    <taxon_name rank="variety" authority="(Piper) C. L. Hitchcock" date="unknown">gracilis</taxon_name>
+    <taxon_hierarchy>genus Cassiope;species mertensiana;variety gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

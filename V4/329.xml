@@ -1,86 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>20.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Echinocereus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <species_authority>(Walpers) Haage ex Britton &amp; Rose</species_authority>
-        <place_of_publication>
-            <publication_title>Cactaceae</publication_title>
-            <place_in_publication>3: 25. 1922</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Lace hedgehog cactus</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <species_authority>Walpers</species_authority>
-        <place_of_publication>
-            <publication_title>Repert. Bot. Syst. </publication_title>
-            <place_in_publication>2: 320. 1843</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <variety_name>albispinus</variety_name>
-        <variety_authority>(Lahman) L. D. Benson</variety_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <subspecies_name>baileyi</subspecies_name>
-        <subspecies_authority>(Rose) N. P. Taylor</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <subspecies_name>caespitosus</subspecies_name>
-        <subspecies_authority>(Engelmann) W. Blum &amp; Mich. Lange</subspecies_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Echinocactus</genus_name>
-        <species_name>reichenbachii</species_name>
-        <subspecies_name>fitchii</subspecies_name>
-        <subspecies_authority>(Britton &amp; Rose) L. D. Benson</subspecies_authority>
-    </TaxonIdentification>
-    <description>Plants unbranched or sometimes 12-branched. Stems erect, cylindric or short
-        cylindric, 7.5–30(–40) × (2.5–)4–10 cm; ribs 10–19, slightly undulate; areoles 1–6(–10) mm
-        apart. Spines 15–36 per areole, white to tan, dull pink, dark brown, or purplish black,
-        central spines and spine tips often darker; radial spines 12–36 per areole, straight to
-        slightly curved, appressed, pectinately arranged or nearly so, 2–8(–25) mm; central spines
-        0–7 per areole, terete, 1–6(–15) mm. Flowers 4.5–8(–12) × 5–10(–12) cm; flower tube 22–40 ×
-        10–30 mm; flower tube hairs 5–15 mm; inner tepals silvery pink to magenta, usually white,
-        crimson, green, or multicolored proximally, 23–40 × 5–15 mm, tips relatively thin, delicate;
-        anthers yellow; nectar chamber 2–5 mm. Fruits green, olive green, or dark green, 15–28 mm,
-        pulp white. 2n = 22.</description>
-    <phenology>may</phenology>
-    <phenology>spring</phenology>
-    <phenology>jun</phenology>
-    <phenology>summer</phenology>
-    <phenology_fruiting>fruiting 1.5–2.5 months after flowering</phenology_fruiting>
-    <habitat>chihuahuan desert</habitat>
-    <habitat>desert scrub</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>oak-juniper woodlands</habitat>
-    <conservation>of conservation concern;</conservation>
-    <elevation>0–1500 m;</elevation>
-    <us_distribution>Colo.</us_distribution>
-    <us_distribution>Kans.</us_distribution>
-    <us_distribution>N.Mex.</us_distribution>
-    <us_distribution>Okla.</us_distribution>
-    <us_distribution>Tex.</us_distribution>
-    <global_distribution>Mexico (Coahuila).</global_distribution>
-    <global_distribution>Mexico (Nuevo León).</global_distribution>
-    <global_distribution>Mexico (Tamaulipas).</global_distribution>
-    <discussion>The entire Echinocereus reichenbachii species group (E. reichenbachii, E.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Eaton" date="unknown">Cactoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocereus</taxon_name>
+    <taxon_name rank="species" authority="(Walpers) Haage ex Britton &amp; Rose" date="unknown">reichenbachii</taxon_name>
+    <place_of_publication>
+      <publication_title>Cactaceae</publication_title>
+      <place_in_publication>3: 25. 1922</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Cactoideae;genus Echinocereus;species reichenbachii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="Walpers" date="unknown">reichenbachii</taxon_name>
+    <place_of_publication>
+      <publication_title>Repert. Bot. Syst.</publication_title>
+      <place_in_publication>2: 320. 1843</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Echinocactus;species reichenbachii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reichenbachii</taxon_name>
+    <taxon_name rank="variety" authority="(Lahman) L. D. Benson" date="unknown">albispinus</taxon_name>
+    <taxon_hierarchy>genus Echinocactus;species reichenbachii;variety albispinus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reichenbachii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rose) N. P. Taylor" date="unknown">baileyi</taxon_name>
+    <taxon_hierarchy>genus Echinocactus;species reichenbachii;subspecies baileyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reichenbachii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Engelmann) W. Blum &amp; Mich. Lange" date="unknown">caespitosus</taxon_name>
+    <taxon_hierarchy>genus Echinocactus;species reichenbachii;subspecies caespitosus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Echinocactus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reichenbachii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Britton &amp; Rose) L. D. Benson" date="unknown">fitchii</taxon_name>
+    <taxon_hierarchy>genus Echinocactus;species reichenbachii;subspecies fitchii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20.</number>
+  <other_name type="common_name">Lace hedgehog cactus</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>The entire Echinocereus reichenbachii species group (E. reichenbachii, E.
         chisosensis, E. rigidissimus, E. pseudopectinatus, and an indefinite number of Mexican
         species) has unusually thin, bristlelike spines clothing the flowers and fruits as well as
         conspicuous, cobwebby tomentum of unusually long areolar hairs. The persistent, dry, white
         features of the flower tube are an essential distinction contrasting with the otherwise
         similar E. pectinatus species group (E. pectinatus, E. dasyacanthus, and possibly E.
         bonkerae), regardless of the spectacular, colorful floral displays.</discussion>
-    <discussion>The taxonomic and geographic boundaries among the segregate species or numerous
+  <discussion>The taxonomic and geographic boundaries among the segregate species or numerous
         proposed infraspecific taxa of Echinocereus reichenbachii remain nebulous and controversial.
         In no place do pure populations exist sympatrically, and all taxa appear completely
         interfertile. Typical E. reichenbachii is endemic to Mexico, near Saltillo, Coahuila. The
@@ -97,6 +77,6 @@
         sometimes considered a synonym of var. fitchii or a variety of E. fitchii Britton &amp;
         Rose. The name “Echinocereus melanocentrus” appears frequently in cactus literature but has
         not been validly published.</discussion>
-    <discussion>Echinocereus reichenbachii is in the Center for Plant Conservation’s Collection of
+  <discussion>Echinocereus reichenbachii is in the Center for Plant Conservation’s Collection of
         Endangered Plants.</discussion>
-</treatment>
+</bio:treatment>

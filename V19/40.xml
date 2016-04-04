@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cynara</genus_name>
-    <species_name>cardunculus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cynara</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cardunculus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 827. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cynara;species cardunculus;</taxon_hierarchy>
-  <common_name>Cardoon</common_name>
-  <common_name>artichoke</common_name>
-  <common_name>artichoke thistle</common_name>
-  <description>Taproots fleshy. Stems glabrous to densely arachnoid-tomentose. Leaves: basal blades 30–200 cm, margins deeply 1–2-pinnately lobed or divided to nearly compound, lobes oblong to lanceolate, entire to coarsely toothed, teeth and lobes innocuous to prominently spine-tipped, spines 1–30 mm, often clustered along petiole and at base of lobes, abaxial faces densely gray- or white-tomentose, adaxial faces thinly cobwebby-tomentose; cauline leaves often short-decurrent as spiny wings. Involucres often purplish tinged, 30–150 × 40–150 mm excluding spreading phyllary tips, constricted distally or not. Phyllaries lanceolate to broadly ovate, bases appressed, spreading apices obtuse to acute or acuminate, spineless or tipped with spines 1–9 mm or truncate, abruptly mucronate, and spineless or minutely spine-tipped. Corollas blue or purple (rarely white), 3–5 cm; styles long-exserted. Cypselae 4–8 mm; pappus bristles 2–4 cm.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <us_distribution>California</us_distribution>
-  <global_distribution>Mediterranean region</global_distribution>
-  <global_distribution>Macaronesia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cynara;species cardunculus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Cardoon</other_name>
+  <other_name type="common_name">artichoke</other_name>
+  <other_name type="common_name">artichoke thistle</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <discussion>Cynara cardunculus is a species of considerable economic importance. The globe artichoke, formerly treated as C. scolymus, was included as a horticulturally derived form of C. cardunculus (A. Wiklund 1992). The artichoke and the cardoon, another horticultural race of C. cardunculus, have been cultivated for centuries–the former for edible phyllary bases and receptacles, and the latter for edible stems and leaf rachises. That species has a darker side, however. Wild type races (artichoke thistles) are invasive and tenacious weeds that have infested Mediterranean climate areas of California, South America, South Africa, and Australia. Wiklund recognized two subspecies of C. cardunculus: subsp. cardunculus includes the artichoke, cardoon, and various wild types; subsp. flavescens includes some of the most invasive weedy members of the species. It is not certain that all of the weedy artichoke thistles in California are members of the latter subspecies.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Middle involucral bracts broadly obtuse, truncate or emarginate to long-acuminate, apices with or without very narrow yellowish margins, spineless or tipped with slender spines to 9 mm</statement>
+      <description type="morphology">Middle involucral bracts broadly obtuse, truncate or emarginate to long-acuminate, apices with or without very narrow yellowish margins, spineless or tipped with slender spines to 9 mm</description>
       <determination>1a. Cynara cardunculus subsp. cardunculus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Middle involucral bracts acute to short-acuminate, apices with yellowish margins 0.5–1 mm wide, tipped with stout spines to 2–5 mm</statement>
+      <description type="morphology">Middle involucral bracts acute to short-acuminate, apices with yellowish margins 0.5–1 mm wide, tipped with stout spines to 2–5 mm</description>
       <determination>1b. Cynara cardunculus subsp. flavescens</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

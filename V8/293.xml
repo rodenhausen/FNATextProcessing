@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>21b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>rivularis</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>arctolitoralis</subspecies_name>
-    <subspecies_authority>(Jurtzev &amp; V. V. Petrovsky) M. H. Jørgensen &amp; Elven</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">rivularis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jurtzev &amp; V. V. Petrovsky) M. H. Jørgensen &amp; Elven" date="unknown">arctolitoralis</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Bot.</publication_title>
       <place_in_publication>31: 726.  2006,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>arctolitoralis</species_name>
-    <species_authority>Jurtzev &amp; V. V. Petrovsky</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Saxifraga;species rivularis;subspecies arctolitoralis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Jurtzev &amp; V. V. Petrovsky" date="unknown">arctolitoralis</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Zhurn. (Moscow &amp; Leningrad)</publication_title>
       <place_in_publication>66: 1045.  1981</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants mostly purple (at least inflorescences); hair crosswalls purple.  Inflorescences 1.7–3 cm, sparsely to densely stipitate-glandular.  Hypanthia sparsely to densely long stipitate-glandular, hairs (0.2–)0.3–0.6(–1.1) mm.  2n = 52.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Arctic seashores, soil banks, on silt or clay</habitat>
-  <elevation>0–10 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>e Asia (Chutkotka).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Saxifraga;species arctolitoralis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>21b.</number>
+</bio:treatment>

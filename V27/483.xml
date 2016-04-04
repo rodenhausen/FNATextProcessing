@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Fissidens</genus_name>
-    <species_name>amoenus</species_name>
-    <species_authority>Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">amoenus</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Zeitung (Berlin)</publication_title>
       <place_in_publication>5: 38.  1847,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Fissidens</genus_name>
-    <species_name>austinii</species_name>
-    <species_authority>Barnes</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Fissidens</genus_name>
-    <species_name>hallii</species_name>
-    <species_authority>Austin</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Fissidens</genus_name>
-    <species_name>orcuttii</species_name>
-    <species_authority>Grout</species_authority>
-  </TaxonIdentification>
-  <description>Plants to 4.5 × 1.5 mm.  Stem unbranched; axillary hyaline nodules present; central strands absent.  Leaves as many as 10 pairs, ligulate to lanceolate, acute, usually apiculate, to 1.8 × 0.25 mm; dorsal lamina narrowed proximally, ending at insertion, not decurrent; vaginant laminae ± 1/2 leaf length, acute, ± unequal, minor lamina ending near margin; margin ± evenly crenulate-serrulate, elimbate except for weak limbidium on proximal parts of vaginant laminae of perichaetial leaves; costa percurrent to ending as many as 5 cells before apex, bryoides-type; laminal cells 1-stratose, distinct, smooth, often strongly bulging, firm-walled, irregularly quadrate to hexagonal, 8–11 µm, larger and ± oblong juxtacostally in proximal parts of vaginant laminae.  Sexual condition rhizautoicous and gonioautoicous.  Sporophytes 1 per perichaetium.  Seta to 5 mm.  Capsule theca exserted, erect, radially symmetric, to 0.6 mm; peristome bryoides-type; operculum 0.5 mm.  Calyptra cucullate, smooth, 0.5 mm.  Spores 11–16 µm.</description>
-  <habitat>Soil of stream banks and ravines, bases of trees in cypress-gum swamps, sometimes on rotting wood;</habitat>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Fissidens;species amoenus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="Barnes" date="unknown">austinii</taxon_name>
+    <taxon_hierarchy>genus Fissidens;species austinii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="Austin" date="unknown">hallii</taxon_name>
+    <taxon_hierarchy>genus Fissidens;species hallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="Grout" date="unknown">orcuttii</taxon_name>
+    <taxon_hierarchy>genus Fissidens;species orcuttii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
   <discussion>A small, attractive species, Fissidens amoenus can be recognized by its distinct laminal cells, crenulate-serrulate leaf margin, large, more or less oblong, pellucid cells in the proximal parts of the vaginant laminae, and weak limbidium restricted to the proximal parts of the vaginant laminae of perichaetial leaves.  The laminal cells have been described as “inconspicuously 1-papillose” (H. A. Crum and L. E. Anderson 1981, as F. hallii), but since that condition is not always present it is perhaps best to regard these cells as strongly bulging.</discussion>
-</treatment>
+</bio:treatment>

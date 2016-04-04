@@ -1,52 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>30c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>clavatum</species_name>
-    <species_authority>(M. E. Jones) Petrak</species_authority>
-    <variety_name>osterhoutii</variety_name>
-    <variety_authority>(Rydberg) D. J. Keil</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(M. E. Jones) Petrak" date="unknown">clavatum</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) D. J. Keil" date="unknown">osterhoutii</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>21: 212. 2004</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species clavatum;variety osterhoutii;</taxon_hierarchy>
-  <common_name>Osterhout’s thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Carduus</genus_name>
-    <species_name>osterhoutii</species_name>
-    <species_authority>Rydberg</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species clavatum;variety osterhoutii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carduus</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">osterhoutii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>32: 131. 1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>osterhoutii</species_name>
-    <species_authority>(Rydberg) Petrak</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cirsium</genus_name>
-    <species_name>araneans</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Abaxial leaf faces ± tomentose. Involucres ovoid to campanulate, 2–2.8 × 1.5–3 cm, villous-ciliate with long septate trichomes connecting adjacent phyllaries and/or thinly arachnoid-tomentose. Phyllaries in 5–6 series, imbricate or subequal, green or with maroon to dark brown subapical patch or appendage, linear to linear-lanceolate, abaxial faces with narrow glutinous ridge that is often concealed by trichomes; outer and middle bases appressed, apical appendages erect or stiffly ascending, linear-lanceolate to acicular, entire or spinulose-dentate, spines erect or ascending, 2–5 mm; apices of inner sometimes flexuous or reflexed, narrow, flat, and entire or expanded, scarious, and lacerate-dentate.</description>
-  <phenology_info>
-    <text>Flowering summer (Jul–Aug).</text>
-    <phenology>summer</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>openings in montane coniferous forests , subalpine , alpine ;</text>
-    <habitat>openings in montane coniferous forests</habitat>
-    <habitat>subalpine , alpine</habitat>
-  </habitat_info>
-  <elevation>3000–3600 m;</elevation>
-  <us_distribution>Colo.</us_distribution>
+    <taxon_hierarchy>genus Carduus;species osterhoutii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) Petrak" date="unknown">osterhoutii</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species osterhoutii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">araneans</taxon_name>
+    <taxon_hierarchy>genus Cirsium;species araneans;</taxon_hierarchy>
+  </taxon_identification>
+  <number>30c.</number>
+  <other_name type="common_name">Osterhout’s thistle</other_name>
   <discussion>The densely pubescent involucre of var. osterhoutii is a feature that links those plants with Cirsium eatonii var. eriocephalum. Some specimens tentatively assigned to C. clavatum var. osterhoutiii may be derivatives of past introgression with C. eatonii var. eriocephalum. Congested heads and strongly undulate leaves with numerous closely spaced lobes are features that suggest such a relationship. Further studies at both population and regional levels are needed to establish the nature of the variation patterns. Where I have observed var. osterhoutii in the field, populations appeared to be morpologically stable, and there was no evidence of current introgression with C. eatonii.</discussion>
-</treatment>
-
+</bio:treatment>

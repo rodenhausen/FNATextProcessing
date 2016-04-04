@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crepis</genus_name>
-    <species_name>modocensis</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>subacaulis</subspecies_name>
-    <subspecies_authority>( Kellogg) Babcock &amp; Stebbins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">modocensis</taxon_name>
+    <taxon_name rank="subspecies" authority="( Kellogg) Babcock &amp; Stebbins" date="unknown">subacaulis</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>504: 148. 1938</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species modocensis;subspecies subacaulis;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>subacaulis</variety_name>
-    <variety_authority>Kellogg</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species modocensis;subspecies subacaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="Kellogg" date="unknown">subacaulis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Calif. Acad. Sci.</publication_title>
       <place_in_publication>5: 50. 1873</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 6–30 cm; setae yellowish, usually ± straight, sometimes bent (ca. 1 mm). Stems (stout, branched proximally) setose (setae yellowish). Leaves: petioles setose; blades 10–15 × 3–4 cm (margins pinnately lobed, lobes dentate). Heads 1–6. Involucres 13–21 mm. Phyllaries sparsely setose (setae blackish) or glabrous. Cypselae blackish to brownish or dark reddish, slightly narrowed, not beaked (ribs strong); pappi 9–13 mm.</description>
-  <phenology_info>
-    <text>Flowering May–Jul.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>wet meadows , steep slopes ;</text>
-    <habitat>wet meadows</habitat>
-    <habitat>steep slopes</habitat>
-  </habitat_info>
-  <elevation>1800–2100 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Crepis;species occidentalis;variety subacaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11d.</number>
+</bio:treatment>

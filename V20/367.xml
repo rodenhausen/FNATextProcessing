@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Columbiadoria</genus_name><species_name>hallii</species_name><species_authority>(A. Gray) G. L. Nesom</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>71: 249. 1991</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Columbia River goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Haplopappus</genus_name><species_name>hallii</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>8: 389. 1872 (as Aplopappus)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Hesperodoria</genus_name><species_name>hallii</species_name><species_authority>(A. Gray) Greene</species_authority></TaxonIdentification><description>Leaf blades (largest) 2–5 cm. Heads 5–15+. Ray corollas 6–10 mm, laminae 6–7 × 2 mm. Disc corollas 6–7 mm. Cypselae 4–5 mm.</description><phenology>aug</phenology><phenology>summer</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>bluffs</habitat><habitat>benches</habitat><habitat>crevices</habitat><habitat>dry, open to lightly wooded slopes</habitat><elevation>50–1200 m;</elevation><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution><discussion>Columbiadoria hallii is known from the vicinity of the eastern Columbia River Gorge. It occurs also “at scattered stations [south] in the Cascades to the Calapooia Mountains,” where the plants “are not precisely like the others, and may prove to be varietally distinct” (A. Cronquist 1955, p. 216).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Columbiadoria</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) G. L. Nesom" date="unknown">hallii</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>71: 249. 1991</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Columbiadoria;species hallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">hallii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>8: 389. 1872 (as Aplopappus)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Haplopappus;species hallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperodoria</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">hallii</taxon_name>
+    <taxon_hierarchy>genus Hesperodoria;species hallii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Columbia River goldenrod</other_name>
+  <discussion>Columbiadoria hallii is known from the vicinity of the eastern Columbia River Gorge. It occurs also “at scattered stations [south] in the Cascades to the Calapooia Mountains,” where the plants “are not precisely like the others, and may prove to be varietally distinct” (A. Cronquist 1955, p. 216).</discussion>
+</bio:treatment>

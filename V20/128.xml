@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>26.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Ericameria</genus_name><species_name>parishii</species_name><species_authority>(Greene) H. M. Hall</species_authority><place_of_publication>
-    <publication_title>Univ. Calif. Publ. Bot.</publication_title>
-    <place_in_publication>3: 55. 1907</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Parish’s goldenbush or rabbitbrush</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Bigelowia</genus_name><species_name>parishii</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Bull. Torrey Bot. Club </publication_title><place_in_publication>9: 62. 1882 (as Bigelovia)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>arborescens</species_name><species_authority>(A. Gray) H. M. Hall</species_authority><subspecies_name>parishii</subspecies_name><subspecies_authority>(Greene) Moran</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Haplopappus</genus_name><species_name>parishii</species_name><species_authority>(Greene) S. F. Blake</species_authority></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><us_distribution>California</us_distribution><global_distribution>nw Mexico.</global_distribution><discussion>Ericameria parishii var. peninsularis (Moran) G. L. Nesom is known only from Baja California.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ericameria</taxon_name>
+    <taxon_name rank="species" authority="(Greene) H. M. Hall" date="unknown">parishii</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Calif. Publ. Bot.</publication_title>
+      <place_in_publication>3: 55. 1907</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Ericameria;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bigelowia</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">parishii</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Torrey Bot. Club</publication_title>
+      <place_in_publication>9: 62. 1882 (as Bigelovia)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Bigelowia;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) H. M. Hall" date="unknown">arborescens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Moran" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species arborescens;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="species" authority="(Greene) S. F. Blake" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Haplopappus;species parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26.</number>
+  <other_name type="common_name">Parish’s goldenbush or rabbitbrush</other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+  <discussion>Ericameria parishii var. peninsularis (Moran) G. L. Nesom is known only from Baja California.</discussion>
+</bio:treatment>

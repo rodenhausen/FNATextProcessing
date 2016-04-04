@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cylindropuntia</genus_name><species_name>fulgida</species_name><species_authority>(Engelmann) F. M. Knuth</species_authority><variety_name>mamillata</variety_name><variety_authority>(Schott ex Engelmann) Backeberg</variety_authority><place_of_publication>
-    <publication_title>Cactaceae</publication_title>
-    <place_in_publication>1: 204. 1958</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Opuntia</genus_name><species_name>mamillata</species_name><species_authority>Schott ex Engelmann</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>3: 308. 1856</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Opuntia</genus_name><species_name>fulgida</species_name><species_authority>Enge lmann</species_authority><variety_name>mamillata</variety_name><variety_authority>(Schott ex Engelmann) J. M. Coulter</variety_authority></TaxonIdentification><description>Stem segments appearing spineless or nearly so from afar, exposing strongly mammillate tubercles beneath. Spines of stems not or little interlaced with spines of adjacent areoles, longest usually 1–2 cm; sheaths tightly fitting. 2n = 22.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>summer</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>nov</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>oct</phenology><habitat>sonoran desert scrub</habitat><habitat>sandy flats</habitat><habitat>rocky slopes</habitat><habitat>rolling hills</habitat><elevation>200–1100 m;</elevation><us_distribution>Ariz.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution><global_distribution>Mexico (Sinaloa).</global_distribution><global_distribution>Mexico (Sonora).</global_distribution><discussion>A morphotype with crested stems from south-central Arizona is commonly cultivated as the boxing-glove cactus.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Cactaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Burnett" date="unknown">Opuntioideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cylindropuntia</taxon_name>
+    <taxon_name rank="species" authority="(Engelmann) F. M. Knuth" date="unknown">fulgida</taxon_name>
+    <taxon_name rank="variety" authority="(Schott ex Engelmann) Backeberg" date="unknown">mamillata</taxon_name>
+    <place_of_publication>
+      <publication_title>Cactaceae</publication_title>
+      <place_in_publication>1: 204. 1958</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Cactaceae;subfamily Opuntioideae;genus Cylindropuntia;species fulgida;variety mamillata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Schott ex Engelmann" date="unknown">mamillata</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>3: 308. 1856</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Opuntia;species mamillata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Opuntia</taxon_name>
+    <taxon_name rank="species" authority="Enge lmann" date="unknown">fulgida</taxon_name>
+    <taxon_name rank="variety" authority="(Schott ex Engelmann) J. M. Coulter" date="unknown">mamillata</taxon_name>
+    <taxon_hierarchy>genus Opuntia;species fulgida;variety mamillata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion>A morphotype with crested stems from south-central Arizona is commonly cultivated as the boxing-glove cactus.</discussion>
+</bio:treatment>

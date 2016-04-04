@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Bonellia</genus_name>
-    <species_name>macrocarpa</species_name>
-    <species_authority>(Cavanilles) Ståhl &amp; Källersjö</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="D. Don" date="unknown">THEOPHRASTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bonellia</taxon_name>
+    <taxon_name rank="species" authority="(Cavanilles) Ståhl &amp; Källersjö" date="unknown">macrocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>14: 117.  2004  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Cudjoe-wood</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Jacquinia</genus_name>
-    <species_name>macrocarpa</species_name>
-    <species_authority>Cavanilles</species_authority>
+    <taxon_hierarchy>family THEOPHRASTACEAE;genus Bonellia;species macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jacquinia</taxon_name>
+    <taxon_name rank="species" authority="Cavanilles" date="unknown">macrocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Icon.</publication_title>
       <place_in_publication>5: 55, plate 483.  1799</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bonellia</genus_name>
-    <species_name>cavanillesii</species_name>
-    <species_authority>Bertero ex Colla</species_authority>
-  </TaxonIdentification>
-  <number_of_infrataxa>Subspecies 3 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced</introduced>
-  <global_distribution>Florida</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Cuba)</global_distribution>
-  <global_distribution>Central America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Jacquinia;species macrocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bonellia</taxon_name>
+    <taxon_name rank="species" authority="Bertero ex Colla" date="unknown">cavanillesii</taxon_name>
+    <taxon_hierarchy>genus Bonellia;species cavanillesii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Cudjoe-wood</other_name>
+  <discussion>Subspecies 3 (1 in the flora):</discussion>
+</bio:treatment>

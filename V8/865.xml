@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>61c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>crustacea</species_name>
-    <species_authority>Eastwood</species_authority>
-    <subspecies_name>eastwoodiana</subspecies_name>
-    <subspecies_authority>(P. V. Wells) V. T. Parker, M. C. Vasey &amp; J. E. Keeley</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">crustacea</taxon_name>
+    <taxon_name rank="subspecies" authority="(P. V. Wells) V. T. Parker, M. C. Vasey &amp; J. E. Keeley" date="unknown">eastwoodiana</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>54: 152. 2007,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>tomentosa</species_name>
-    <species_authority>(Pursh) Lindley</species_authority>
-    <subspecies_name>eastwoodiana</subspecies_name>
-    <subspecies_authority>P. V. Wells</subspecies_authority>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species crustacea;subspecies eastwoodiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Lindley" date="unknown">tomentosa</taxon_name>
+    <taxon_name rank="subspecies" authority="P. V. Wells" date="unknown">eastwoodiana</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>19: 197. 1968</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Twigs short-hairy (without longer hairs). Leaf blade surfaces glabrous abaxially.
-        Immature inflorescence axes glabrous or hairy, sometimes glandular (not densely
-        glandular-hairy). Ovaries glabrous.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral and closed-cone conifer forests on siliceous shales</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>100–200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Arctostaphylos;species tomentosa;subspecies eastwoodiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>61c.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Subspecies eastwoodiana is found in the La Purisima Hills, Santa Barbara
         County.</discussion>
-</treatment>
+</bio:treatment>

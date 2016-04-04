@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Limnanthes</genus_name>
-    <genus_authority>R. Brown</genus_authority>
-    <section_name>Inflexae</section_name>
-    <section_authority>C. T. Mason</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="R. Brown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="section" authority="C. T. Mason" date="unknown">Inflexae</taxon_name>
     <place_of_publication>
       <publication_title>Univ. Calif. Publ. Bot.</publication_title>
       <place_in_publication>25: 473. 1952</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbage glabrous or glabrate to densely hairy. Flowers 5-merous; sepals accrescent or not; petals flexed inward (curving over fruit) as fruits mature, usually white or greenish white, sometimes yellowish proximally, veins sometimes purplish or dark yellow proximally, aging or drying white, lilac, or pink, usually longer than sepals (shorter to slightly longer in L. floccosa), usually with marginal hairs basally (except L. floccosa subspp. bellingeriana and floccosa).</description>
-  <number_of_infrataxa>Species 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w United States.</global_distribution>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Limnanthes;section Inflexae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <discussion>Species 3 (3 in the flora):</discussion>
   <discussion>The species of sect. Inflexae are distributed from southwestern Oregon to southern California (San Diego County). Limnanthes montana occurs in the central Sierra Nevada. Limnanthes floccosa has one widespread subspecies, floccosa, occurring at lower elevations of the northern Sierra Nevada and Klamath Mountains, with some outliers in the Central Valley and Inner Coast Range, and four other subspecies of very limited distribution in northern California and southern Oregon. Limnanthes alba has two widespread subspecies, alba in the foothills of the Sierra Nevada, and versicolor at higher elevations in the Sierra Nevada and Klamath Mountains, and two localized subspecies, gracilis in southwestern Oregon, and parishii in San Diego County.</discussion>
   <references>
     <reference>McNeill, C. I. and S. K. Jain. 1983. Genetic differentiation studies and phylogenetic inference in the plant genus Limnanthes (section Inflexae). Theor. Appl. Genet. 66: 257–269.</reference>
@@ -21,23 +25,23 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 0.5–1.1 times longer than sepals</statement>
+      <description type="morphology">Petals 0.5–1.1 times longer than sepals</description>
       <determination>7. Limnanthes floccosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Petals 1.25–2.25 times longer than sepals.</statement>
+      <description type="morphology">Petals 1.25–2.25 times longer than sepals.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals ca. 2.75 times as long as wide, aging or drying white; anthers 0.5–0.8(–1) mm</statement>
+      <description type="morphology">Petals ca. 2.75 times as long as wide, aging or drying white; anthers 0.5–0.8(–1) mm</description>
       <determination>5. Limnanthes montana</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Petals 1–1.5 times as long as wide, aging or drying pink or lilac; anthers 1–2 mm</statement>
+      <description type="morphology">Petals 1–1.5 times as long as wide, aging or drying pink or lilac; anthers 1–2 mm</description>
       <determination>6. Limnanthes alba</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

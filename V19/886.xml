@@ -1,75 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>20.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>frigida</species_name>
-    <species_authority>Willdenow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">frigida</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>3: 1838. 1803</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species frigida;</taxon_hierarchy>
-  <common_name>Fringed sage</common_name>
-  <common_name>prairie sagewort</common_name>
-  <common_name>armoise douce</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>frigida</species_name>
-    <variety_name>gmeliniana</variety_name>
-    <variety_authority>(Besser) Besser</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>frigida</species_name>
-    <variety_name>williamsiae</variety_name>
-    <variety_authority>S. L. Welsh</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials, 10–40 cm (forming silvery mats or mounds), strongly aromatic. Stems gray-green or brown, glabrescent. Leaves persistent, silver-gray; blades ovate, 0.5–1.5(–2.5) cm, 1–2-ternately lobed (lobes 0.2–0.5 mm wide), faces densely whitish-pubescent. Heads in (leafy) paniculiform arrays 0.5–2(–4) × 4–15(–20) cm. Involucres globose, (3–)5 × (2–)5–6 mm. Phyllaries gray-green (margins sometimes brownish), densely tomentose. Florets: pistillate 10–17; bisexual 20–50; corollas 1.5–2 mm, glabrous. Cypselae 1–1.5 mm, glabrous. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering summer–fall.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>fields , meadows , dry grasslands , steppes , usually stony , well-drained soils ;</text>
-    <habitat>fields</habitat>
-    <habitat>meadows</habitat>
-    <habitat>dry grasslands steppes</habitat>
-    <habitat>stony</habitat>
-    <habitat>well-drained soils</habitat>
-  </habitat_info>
-  <elevation>500–3300 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species frigida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">frigida</taxon_name>
+    <taxon_name rank="variety" authority="(Besser) Besser" date="unknown">gmeliniana</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species frigida;variety gmeliniana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">frigida</taxon_name>
+    <taxon_name rank="variety" authority="S. L. Welsh" date="unknown">williamsiae</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species frigida;variety williamsiae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20.</number>
+  <other_name type="common_name">Fringed sage</other_name>
+  <other_name type="common_name">prairie sagewort</other_name>
+  <other_name type="common_name">armoise douce</other_name>
   <discussion>Reports of Artemisia frigida from eastern Canada (Ontario eastward), the eastern United States (e.g., Connecticut, Massachusetts, Michigan, Vermont), and Arkansas and Missouri appear to be from old garden sites where the plants may persist. The similarity of this native species to cultivars from eastern Asia (especially Siberia) has led to a number of reports that are apparently based on other cultivars. As a plant with attractive silver foliage, this species has good potential as a drought-hardy plant for flower gardens in cold climates.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,50 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Microseris</genus_name>
-    <species_name>sylvatica</species_name>
-    <species_authority>(Bentham) Schultz-Bipontinus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Microseris</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Schultz-Bipontinus" date="unknown">sylvatica</taxon_name>
     <place_of_publication>
       <publication_title>Jahresber. Pollichia</publication_title>
       <place_in_publication>22–24: 309. 1866</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species sylvatica;</taxon_hierarchy>
-  <common_name>Sylvan scorzonella</common_name>
-  <common_name>woodland silverpuffs</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Scorzonella</genus_name>
-    <species_name>sylvatica</species_name>
-    <species_authority>Bentham</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Microseris;species sylvatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Scorzonella</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">sylvatica</taxon_name>
     <place_of_publication>
       <publication_title>Pl. Hartw.,</publication_title>
       <place_in_publication>320. 1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Calaïs</genus_name>
-    <species_name>sylvatica</species_name>
-    <species_authority>(Bentham) A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 15–75 cm; taprooted. Stems branched or simple. Leaves basal and cauline; petiolate (distal often sessile, clasping); blades linear to oblong-lanceolate, 8–35 cm, margins entire, dentate, or pinnately lobed, apices acute to acuminate, faces glabrous or scurfy-puberulent. Peduncles erect (10–55 cm), ebracteate or leafy. Involucres ovoid in fruit, 12–25 mm. Phyllaries: abaxial faces glabrous or scurfy-puberulent; outer broadly or narrowly deltate to ovate-lanceolate, apices recurved, acuminate; inner lanceolate, acuminate, faces usually lightly black-villous. Florets 25–100; corollas yellow, surpassing phyllaries by 5+ mm. Cypselae columnar, 5–12 mm; pappi of 5–10 dull, yellowish brown, linear-lanceolate, glabrous aristate scales 4–10 mm, aristae barbellate to subplumose. 2n = 18, 27.</description>
-  <phenology_info>
-    <text>Flowering Mar–Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>clay and loam soils , valley flats and hillsides , grasslands , brushlands , and open oak or conifer woods ;</text>
-    <habitat>clay and loam soils</habitat>
-    <habitat>valley flats and hillsides</habitat>
-    <habitat>grasslands</habitat>
-    <habitat>brushlands</habitat>
-    <habitat>open oak or conifer woods</habitat>
-  </habitat_info>
-  <elevation>40–1500 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Scorzonella;species sylvatica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Calaïs</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) A. Gray" date="unknown">sylvatica</taxon_name>
+    <taxon_hierarchy>genus Calaïs;species sylvatica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Sylvan scorzonella</other_name>
+  <other_name type="common_name">woodland silverpuffs</other_name>
   <discussion>The range of Microseris sylvatica includes the Central Valley of California and surrounding foothills. It is becoming rare because of grazing and agriculture (D. P. Tibor 2001). An autotriploid form, 2n = 27, has been reported from Placer County (A. S. Tomb et al. 1978); it reproduced clonally by adventitious buds on lateral roots.</discussion>
-</treatment>
-
+</bio:treatment>

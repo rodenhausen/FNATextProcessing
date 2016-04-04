@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>22a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Agave</genus_name><species_name>deserti</species_name><species_authority>Engelmann</species_authority><variety_name>deserti</variety_name></TaxonIdentification><common_name>Desert agave</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Agave</genus_name><species_name>consociata</species_name><species_authority>Trelease</species_authority></TaxonIdentification><description>Plants sparse to prolifically suckering; rosettes numerous, rather open. Leaves 25–40 × 6–8 cm; blade grayish, linear-lanceolate to lanceolate; margins straight; apical spine 2–4 cm. Scape 2–4 m. Perianth tube campanulate, 3–5 mm; filaments inserted at top of tube. 2n = 60, 118.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><habitat>sandy to gravelly or rocky places in desert scrub and pinyonjuniper woodlands</habitat><elevation>500–1500 m;</elevation><us_distribution>Calif.</us_distribution><global_distribution>nw Mexico.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Dumortier" date="unknown">AGAVACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">deserti</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">deserti</taxon_name>
+    <taxon_hierarchy>family AGAVACEAE;genus Agave;species deserti;variety deserti;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Agave</taxon_name>
+    <taxon_name rank="species" authority="Trelease" date="unknown">consociata</taxon_name>
+    <taxon_hierarchy>genus Agave;species consociata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22a.</number>
+  <other_name type="common_name">Desert agave</other_name>
+</bio:treatment>

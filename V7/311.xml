@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hemiscola</genus_name>
-    <species_name>diffusa</species_name>
-    <species_authority>(Banks ex de Candolle) H. H. Iltis</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hemiscola</taxon_name>
+    <taxon_name rank="species" authority="(Banks ex de Candolle) H. H. Iltis" date="unknown">diffusa</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>17: 448. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Spreading spiderflower</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>diffusa</species_name>
-    <species_authority>Banks ex de Candolle</species_authority>
+    <taxon_hierarchy>family CLEOMACEAE;genus Hemiscola;species diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="Banks ex de Candolle" date="unknown">diffusa</taxon_name>
     <place_of_publication>
       <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>1: 241. 1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>aculeata</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>diffusa</variety_name>
-    <variety_authority>(Banks ex de Candolle) Kuntze</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 10–30(–90) cm. Stems delicately branched; glandular-papillose. Leaves: stipular spines 0.5 mm; petiole 4–15 cm; leaflets 3 proximally, 1 distally, blade obovate, 1–2.5 × 0.5–1.2 cm, margins serrate, apex acute to obtuse or acuminate, surfaces glabrous or sparsely glandular-pubescent abaxially, glabrate adaxially. Racemes 5–10 cm (8–12 cm in fruit); bracts unifoliate, elliptic, 4–15 mm. Pedicels 4–6 mm. Flowers: sepals deciduous, brownish green, ovate, 1–2.5(–3) × 1–2 mm, margins serrulate, glabrous; petals yellow or creamy white, 5–10 × 1.5–3 mm; stamens (staggered) ,yellow, 5–9 mm; anthers 0.3–0.5 mm; gynophore 2–4 mm in fruit; ovary 3 mm; style 0.1–0.2 mm. Capsules 15–20 × 3–6 mm, glabrous. Seeds 10–13, dull reddish brown to black, oblong or comma-shaped (compressed), 2–3 × 2 mm, tuberculate, (aril white).</description>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>disturbed areas</habitat>
-  <elevation>0–10 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Cleome;species diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">aculeata</taxon_name>
+    <taxon_name rank="variety" authority="(Banks ex de Candolle) Kuntze" date="unknown">diffusa</taxon_name>
+    <taxon_hierarchy>genus Cleome;species aculeata;variety diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Spreading spiderflower</other_name>
   <discussion>The only record of Hemiscola diffusa from the flora area is a collection from ballast in Mobile in 1893 (Mohr s.n., NY, US).</discussion>
-</treatment>
+</bio:treatment>

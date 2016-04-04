@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>11.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Triteleia</genus_name><species_name>lemmoniae</species_name><species_authority>(S. Watson) Greene</species_authority><place_of_publication>
-    <publication_title>Bull. Calif. Acad. Sci.</publication_title>
-    <place_in_publication>2: 141. 1886</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>lemmonae</past_name><common_name>Lemmon’s triteleia</common_name><common_name>Oak Creek triteleia</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Brodiaea</genus_name><species_name>lemmoniae</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>20: 376. 1885 (as lemmonae )</place_in_publication></place_of_publication></TaxonIdentification><description>Leaves 10–40 cm × 2–6 mm. Scape 8–30 cm, smooth or scabrous near base; bracts purplish. Flowers: perianth bright yellow to deep orange, fading to purple, 9–12 mm, tube turbinate, 2.5–3 mm, lobes ascending to slightly spreading, 7–9 mm, 2–3 times longer than tube; stamens attached at 1 level, equal; filaments linear, 3 mm, apical appendages absent; anthers yellow, 2 mm; ovary 3 times longer than stipe; pedicel 0.7–2.5 cm.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>summer</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>yellow pine belts</habitat><habitat>mountains</habitat><elevation>1000–3000 m;</elevation><us_distribution>Ariz.</us_distribution><discussion>Triteleia lemmoniae is the only representative of the genus in Arizona. Molecular data suggest that it is related to T. montana, found in the Sierra Nevada of California (J. C. Pires 2000), and not to the morphologically similar T. hyacinthina (R. F. Hoover 1941).</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Triteleia</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) Greene" date="unknown">lemmoniae</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>2: 141. 1886</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family LILIACEAE;genus Triteleia;species lemmoniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Brodiaea</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">lemmoniae</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>20: 376. 1885 (as lemmonae )</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Brodiaea;species lemmoniae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>11.</number>
+  <other_name type="past_name">lemmonae</other_name>
+  <other_name type="common_name">Lemmon’s triteleia</other_name>
+  <other_name type="common_name">Oak Creek triteleia</other_name>
+  <discussion>Triteleia lemmoniae is the only representative of the genus in Arizona. Molecular data suggest that it is related to T. montana, found in the Sierra Nevada of California (J. C. Pires 2000), and not to the morphologically similar T. hyacinthina (R. F. Hoover 1941).</discussion>
+</bio:treatment>

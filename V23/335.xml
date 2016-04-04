@@ -1,41 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>17.</number><TaxonIdentification Status="ACCEPTED"><genus_name>KYLLINGA</genus_name><genus_authority>Kyllinga Rottbøll</genus_authority><place_of_publication>
-    <publication_title>Descr. Icon. Rar. Pl.,</publication_title>
-    <place_in_publication>12, plate 4, fig. 3. 1773</place_in_publication>
-  </place_of_publication></TaxonIdentification><etymology>[for Peter Kylling, Danish botanist, d. 1696]</etymology><common_name>Greenhead sedge</common_name><common_name>spikesedge</common_name><author>Gordon C. Tucker</author><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><genus_authority>Linnaeus</genus_authority><subgenus_name>Kyllinga</subgenus_name><subgenus_authority>(Rottbøll) J. V. Suringar</subgenus_authority></TaxonIdentification><description>Herbs, annual or perennial, cespitose or not, rhizomatous or not. Culms solitary or not, trigonous. Leaves basal; ligules absent; blades flat or V-shaped in cross section. Inflorescences terminal, rarely pseudolateral, spikes 1–4, sessile, densely ovoid or cylindric; spikelets [15–]40–150 per spike, not readily distinguished by unaided eye; involucral bracts 2–4, spreading or erect, leaflike. Spikelets: scales 2(–3), distichous; proximal scale subtending bisexual flower; distal scale empty or subtending 1–2 stamens, often abortive. Flowers bisexual or staminate; perianth absent; stamens 1–3; styles linear, 2-fid, base persistent. Achenes biconvex, laterally compressed.</description><number_of_infrataxa>Species 40–45 (5 in the flora):</number_of_infrataxa><global_distribution>mostly tropical or warm-temperate regions worldwide.</global_distribution><discussion>Tropical Africa contains the greatest diversity of Kyllinga species.</discussion><discussion>The genus is closely related to Cyperus and has been treated as a subgenus.</discussion><references>
-    <reference> Delahoussaye, A. J. and J. W. Thieret. 1967. Cyperus subgenus Kyllinga (Cyperaceae) in the continental United States. Sida 3: 128–136.</reference>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Kyllinga Rottbøll" date="unknown">KYLLINGA</taxon_name>
+    <place_of_publication>
+      <publication_title>Descr. Icon. Rar. Pl.,</publication_title>
+      <place_in_publication>12, plate 4, fig. 3. 1773</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus KYLLINGA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[for Peter Kylling, Danish botanist, d. 1696]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Rottbøll) J. V. Suringar" date="unknown">Kyllinga</taxon_name>
+    <taxon_hierarchy>genus Cyperus;subgenus Kyllinga;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Greenhead sedge</other_name>
+  <other_name type="common_name">spikesedge</other_name>
+  <discussion>Species 40–45 (5 in the flora):</discussion>
+  <discussion>Tropical Africa contains the greatest diversity of Kyllinga species.</discussion>
+  <discussion>The genus is closely related to Cyperus and has been treated as a subgenus.</discussion>
+  <references>
+    <reference>Delahoussaye, A. J. and J. W. Thieret. 1967. Cyperus subgenus Kyllinga (Cyperaceae) in the continental United States. Sida 3: 128–136.</reference>
     <reference>Padhye, M. D. 1971. Studies in the Cyperaceae. III. Life history of Kyllinga brevifolia Rottb. with a brief discussion on the taxonomic position of Kyllinga. Bot. Gaz. 132: 172–179.</reference>
-    <reference> Tucker, G. C. 1984. A revision of the genus Kyllinga Rottb. (Cyperaceae) in Mexico and Central America. Rhodora 86: 507–538.</reference>
-  </references><key><key_statement>
+    <reference>Tucker, G. C. 1984. A revision of the genus Kyllinga Rottb. (Cyperaceae) in Mexico and Central America. Rhodora 86: 507–538.</reference>
+  </references>
+  <key>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Midvein of floral scales winged, laciniate; anthers 2 mm</statement>
+      <description type="morphology">Midvein of floral scales winged, laciniate; anthers 2 mm</description>
       <determination>4. Kyllinga squamulata</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Midvein of floral scales not winged, ciliate or glabrous; anthers less than 2 mm.</statement>
+      <description type="morphology">Midvein of floral scales not winged, ciliate or glabrous; anthers less than 2 mm.</description>
       <next_statement_id>2.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants widely creeping, rhizomatous.</statement>
+      <description type="morphology">Plants widely creeping, rhizomatous.</description>
       <next_statement_id>3.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Longest bract erect; style 0.6–1.2 mm</statement>
+      <description type="morphology">Longest bract erect; style 0.6–1.2 mm</description>
       <determination>1. Kyllinga brevifolia</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Longest bract horizontal to slightly reflexed; style 1.8–2.2 mm</statement>
+      <description type="morphology">Longest bract horizontal to slightly reflexed; style 1.8–2.2 mm</description>
       <determination>2. Kyllinga gracillima</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants densely cespitose, rhizomatous or not.</statement>
+      <description type="morphology">Plants densely cespitose, rhizomatous or not.</description>
       <next_statement_id>4.</next_statement_id>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants perennial; spikes whitish; achenes with whitish stipitate base</statement>
+      <description type="morphology">Plants perennial; spikes whitish; achenes with whitish stipitate base</description>
       <determination>3. Kyllinga odorata</determination>
-    </key_statement><key_statement>
+    </key_statement>
+    <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Plants annual; spikes pale greenish; achenes light brown</statement>
+      <description type="morphology">Plants annual; spikes pale greenish; achenes light brown</description>
       <determination>5. Kyllinga pumila</determination>
-    </key_statement></key></treatment>
+    </key_statement>
+  </key>
+</bio:treatment>

@@ -1,62 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Antennaria</genus_name>
-    <species_name>luzuloides</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-    <subspecies_name>aberrans</subspecies_name>
-    <subspecies_authority>(E. E. Nelson) R. J. Bayer &amp; Stebbins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">luzuloides</taxon_name>
+    <taxon_name rank="subspecies" authority="(E. E. Nelson) R. J. Bayer &amp; Stebbins" date="unknown">aberrans</taxon_name>
     <place_of_publication>
       <publication_title>Canad. J. Bot.</publication_title>
       <place_in_publication>71: 1597. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species luzuloides;subspecies aberrans;</taxon_hierarchy>
-  <common_name>Small-headed rush pussytoes</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>argentea</species_name>
-    <species_authority>Bentham</species_authority>
-    <subspecies_name>aberrans</subspecies_name>
-    <subspecies_authority>E. E. Nelson</subspecies_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Antennaria;species luzuloides;subspecies aberrans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">argentea</taxon_name>
+    <taxon_name rank="subspecies" authority="E. E. Nelson" date="unknown">aberrans</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>34: 124. 1902</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>luzuloides</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-    <variety_name>microcephala</variety_name>
-    <variety_authority>(A. Gray) Cronquist</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>microcephala</species_name>
-    <species_authority>A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Antennaria</genus_name>
-    <species_name>pyramidata</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Basal leaves 1(–3)-nerved, linear, 1–5 mm. Heads 10–30 in race-miform to paniculiform arrays. Involucres: staminate 3.5–4 mm; pistillate 3.5–4.5 mm. Phyllaries proximally green, distally white. Corollas: staminate 2.5–3.2 mm; pistillate 2–2.5 mm. Cypselae 1–1.5 mm, sparingly papillate-strigose; pappi: staminate 3–3.5 mm; pistillate 2.5–3 mm.</description>
-  <phenology_info>
-    <text>Flowering summer.</text>
-    <phenology>summer</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>moist , open , meadows and drainages , lower montane , ponderosa pine zone ;</text>
-    <habitat>moist open meadows and drainages</habitat>
-    <habitat>lower montane</habitat>
-    <habitat>ponderosa pine zone</habitat>
-  </habitat_info>
-  <elevation>1000–2200 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Antennaria;species argentea;subspecies aberrans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">luzuloides</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">microcephala</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species luzuloides;variety microcephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">microcephala</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species microcephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Antennaria</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">pyramidata</taxon_name>
+    <taxon_hierarchy>genus Antennaria;species pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4a.</number>
+  <other_name type="common_name">Small-headed rush pussytoes</other_name>
   <discussion>Subspecies aberrans is characterized by its non-stoloniferous habit and relatively small heads in racemiform to paniculiform arrays.</discussion>
-</treatment>
-
+</bio:treatment>

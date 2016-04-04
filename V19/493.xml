@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>66.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>AGOSERIS</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gary I. Baird</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">AGOSERIS</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Ludov.,</publication_title>
       <place_in_publication>58. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus AGOSERIS;</taxon_hierarchy>
-  <etymology>[Greek agos , leader, and seris , chicory; allusion unclear]</etymology>
-  <common_name>Mountain- or false dandelion</common_name>
-  <author>Gary I. Baird</author>
-  <description>Annuals (A. heterophylla) or perennials, (2–)5–60(–96) cm (usually acaulescent); taprooted or with caudices. Stems usually 0, sometimes 1–5+, erect to decumbent, simple. Leaves usually basal (in rosettes), sometimes cauline; petiolate (petioles often purplish, erect to prostrate, ± sheathing); blades linear-lanceolate to spatulate, margins entire or toothed to pinnatifid (sometimes variable on same plant, lobes 2–11 pairs, opposite, subopposite, or irregular, filiform to spatulate, often each with 1, acroscopic, basal lobule, lobules ± triangular, inconspicuous to equaling lobes, faces glabrous and glaucous or pubescent to tomentose). Heads borne singly (erect at end of peduncles). Peduncles not inflated distally, usually ebracteate. Calyculi 0. Involucres cylindric to hemispheric, 2–20(–60) mm diam. (bases often broadening in fruit). Phyllaries 10–50 in 2–5(–7) series, green or medially rosy purple and often with purple-black midstripes, apices, or spots, rarely nearly all black, narrowly lanceolate to broadly ovate or obovate, unequal to subequal, ± herbaceous, margins usually entire (rarely dentate), sometimes scarious, glabrous or ciliate to lanate, apices obtuse to acuminate, faces glabrous or pubescent to tomentose, often stipitate-glandular, (outer appressed to squarrose, often adaxially hairy (at least on apices), not elongating after flowering; inner erect, adaxially glabrous, often puberulent apically, sometimes elongating in fruit). Receptacles flat, pitted, glabrous, rarely paleate (paleae linear-lanceolate, 15–20 mm, ± acuminate, similar to inner phyllaries, ± accrescent). Florets 5–500 (± matutinal); corollas yellow (outermost often with purplish abaxial stripe (often drying whitish, purple stripe still evident), or orange, pink, red, or purple (usually drying purple). Cypselae monomorphic or dimorphic (outermost differing in color, texture, vestiture, and/or shape from inner), white or tan to dark purple, columnar to fusiform, narrowly conic, or obconic (2–10 mm), ribs usually 10, faces glabrous or pubescent to hirsute, beaked (beak lengths 0.1–4 times bodies); pappi persistent, of 50–125, distinct, white, subequal, ± barbellate (sometimes flattened) bristles in 1–6 series. x = 9.</description>
-  <number_of_infrataxa>Species 11 (10, including 1 hybrid, in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus AGOSERIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek agos , leader, and seris , chicory; allusion unclear]</other_info_on_name>
+  </taxon_identification>
+  <number>66.</number>
+  <other_name type="common_name">Mountain- or false dandelion</other_name>
+  <discussion>Species 11 (10, including 1 hybrid, in the flora):</discussion>
   <discussion>Agoseris consists of widespread species that individually exhibit great morphologic plasticity. Difficulty in correctly identifying individual specimens is compounded by traits that may vary from region to region, the perpetuation of misleading or inaccurate traits in the literature, and the presence of intermediates. Correct identification of Agoseris specimens can be assisted by knowing that species may exhibit variable traits (e.g., pubescence, corolla color, cypsela morphology), some species have leaf lobing variable on single plants (e.g., outermost entire versus inner lobed), and intermediate specimens may occur with any sympatric taxa. Hybridization among members of the genus is common, especially among polyploid taxa, and some hybrid populations appear to be persistent. Autogamy has been demonstrated in some species (K. L. Chambers 1963) and is suspected in others. It appears to be correlated with a reduction in corolla and anther size. Autogamous populations or taxa often exhibit seemingly unique features that appear localized. Attempts at naming these variant populations or regional phases have resulted in a large number of synonyms.</discussion>
   <discussion>Agoseris has a New World, amphitropical distribution. All of the species are restricted to North America except A. coronopifolia (D’Urville) K. L. Chambers, which is found in temperate regions of southern South America. The South American disjunction appears to be the result of long-distance dispersal from North America (K. L. Chambers 1963).</discussion>
   <discussion>Agoseris appears to be most closely related to Nothocalaïs.</discussion>
@@ -29,134 +32,133 @@
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Annuals</statement>
+      <description type="morphology">Annuals</description>
       <determination>9. Agoseris heterophylla</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials.</statement>
+      <description type="morphology">Perennials.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas orange, pink, red, or purplish (often drying purplish).</statement>
+      <description type="morphology">Corollas orange, pink, red, or purplish (often drying purplish).</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Peduncles (and phyllaries) eglandular; widespread in North America</statement>
+      <description type="morphology">Peduncles (and phyllaries) eglandular; widespread in North America</description>
       <determination>2. Agoseris aurantiaca (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Peduncles (and phyllaries) ± stipitate-glandular; California, Oregon, and Washington</statement>
+      <description type="morphology">Peduncles (and phyllaries) ± stipitate-glandular; California, Oregon, and Washington</description>
       <determination>10. Agoseris × elata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Corollas yellow, outermost often each with abaxial purplish stripe (often drying whitish, purple stripe still evident).</statement>
+      <description type="morphology">Corollas yellow, outermost often each with abaxial purplish stripe (often drying whitish, purple stripe still evident).</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Cypsela beaks 1–4(–10) mm (lengths to 1 / 2 bodies); inner phyllaries not elongating in fruit.</statement>
+      <description type="morphology">Cypsela beaks 1–4(–10) mm (lengths to 1 / 2 bodies); inner phyllaries not elongating in fruit.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, retrorse to spreading; peduncles (and phyllaries) usually hairy to lanate, sometimes glabrous, eglandular; cypsela beaks (3–)4–10 mm, lengths ( 1 / 2 –)2 times bodies</statement>
+      <description type="morphology">Leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, retrorse to spreading; peduncles (and phyllaries) usually hairy to lanate, sometimes glabrous, eglandular; cypsela beaks (3–)4–10 mm, lengths ( 1 / 2 –)2 times bodies</description>
       <determination>3. Agoseris parviflora (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf margins entire or toothed to lobed, teeth or lobes usually 2–3 pairs, antrorse to spreading, or diverging; peduncles (and phyllaries) glabrous or puberulent to lanate, sometimes stipitate-glandular or eglandular; cypsela beaks 1–4 mm, lengths to 1 / 2 bodies.</statement>
+      <description type="morphology">Leaf margins entire or toothed to lobed, teeth or lobes usually 2–3 pairs, antrorse to spreading, or diverging; peduncles (and phyllaries) glabrous or puberulent to lanate, sometimes stipitate-glandular or eglandular; cypsela beaks 1–4 mm, lengths to 1 / 2 bodies.</description>
       <next_statement_id>6.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Peduncles glabrous, or basally glabrate, apically puberulent to lanate, sometimes stipitate-glandular; leaves usually erect, sometimes decumbent, margins usually entire, sometimes dentate, rarely lobed or lacerate; receptacles sometimes paleate; phyllaries in 2–3 series; widespread, various soils and elevations, n Great Plains westward</statement>
+      <description type="morphology">Peduncles glabrous, or basally glabrate, apically puberulent to lanate, sometimes stipitate-glandular; leaves usually erect, sometimes decumbent, margins usually entire, sometimes dentate, rarely lobed or lacerate; receptacles sometimes paleate; phyllaries in 2–3 series; widespread, various soils and elevations, n Great Plains westward</description>
       <determination>1. Agoseris glauca</determination>
     </key_statement>
     <key_statement>
       <statement_id>6.</statement_id>
-      <statement>Peduncles basally lanate, apically hairy to villous and stipitate-glandular; leaves usually decumbent or prostrate, margins usually dentate or lobed, rarely entire; receptacles rarely paleate; phyllaries in 2–4(–6) series; mostly at high elevations, volcanic or pyroclastic soils, Sierra Nevada and s Cascade Mountains, sporadically eastward to Blue Mountains and Great Basin</statement>
+      <description type="morphology">Peduncles basally lanate, apically hairy to villous and stipitate-glandular; leaves usually decumbent or prostrate, margins usually dentate or lobed, rarely entire; receptacles rarely paleate; phyllaries in 2–4(–6) series; mostly at high elevations, volcanic or pyroclastic soils, Sierra Nevada and s Cascade Mountains, sporadically eastward to Blue Mountains and Great Basin</description>
       <determination>4. Agoseris monticola</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Cypsela beaks 5+ mm, lengths usually equaling or greater than bodies, if less than 5 mm, beaks usually 1 / 2 + bodies; inner phyllaries elongating in fruit.</statement>
+      <description type="morphology">Cypsela beaks 5+ mm, lengths usually equaling or greater than bodies, if less than 5 mm, beaks usually 1 / 2 + bodies; inner phyllaries elongating in fruit.</description>
       <next_statement_id>7.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Peduncles and phyllaries ± stipitate-glandular.</statement>
+      <description type="morphology">Peduncles and phyllaries ± stipitate-glandular.</description>
       <next_statement_id>8.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaves 3–10(–15) cm (plants usually ± caulescent, stems often buried by drifting sand, appearing pseudorhizomatous, sometimes acaulescent); mostly coastal dunes and beach heads, Pacific Coast</statement>
+      <description type="morphology">Leaves 3–10(–15) cm (plants usually ± caulescent, stems often buried by drifting sand, appearing pseudorhizomatous, sometimes acaulescent); mostly coastal dunes and beach heads, Pacific Coast</description>
       <determination>7. Agoseris apargioides (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>8.</statement_id>
-      <statement>Leaves (7–)10–30 cm (plants acaulescent); mostly grassy hills, meadows, or lowland prairies (not coastal sand dunes).</statement>
+      <description type="morphology">Leaves (7–)10–30 cm (plants acaulescent); mostly grassy hills, meadows, or lowland prairies (not coastal sand dunes).</description>
       <next_statement_id>9.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf margins usually pinnately lobed, lobes 5–7(–9) pairs; corolla tubes 3–6 mm; cypselae 9–14 mm; pappus bristles in 3–4 series, 6–10 mm; Coast Ranges of California, especially around San Francisco Bay</statement>
+      <description type="morphology">Leaf margins usually pinnately lobed, lobes 5–7(–9) pairs; corolla tubes 3–6 mm; cypselae 9–14 mm; pappus bristles in 3–4 series, 6–10 mm; Coast Ranges of California, especially around San Francisco Bay</description>
       <determination>8. Agoseris hirsuta</determination>
     </key_statement>
     <key_statement>
       <statement_id>9.</statement_id>
-      <statement>Leaf margins entire or laciniately pinnatifid, lobes 2–4 pairs; corolla tubes 8–10 mm; cypselae 14–20 mm; pappus bristles in 2–3 series, 10–14 mm; Washington to California (not Coast Ranges)</statement>
+      <description type="morphology">Leaf margins entire or laciniately pinnatifid, lobes 2–4 pairs; corolla tubes 8–10 mm; cypselae 14–20 mm; pappus bristles in 2–3 series, 10–14 mm; Washington to California (not Coast Ranges)</description>
       <determination>10. Agoseris × elata (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>7.</statement_id>
-      <statement>Peduncles and phyllaries glabrous or hairy, eglandular.</statement>
+      <description type="morphology">Peduncles and phyllaries glabrous or hairy, eglandular.</description>
       <next_statement_id>10.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cypsela beaks (9–)10–25 mm, lengths usually 3–4 times bodies; phyllaries in 3–6 series.</statement>
+      <description type="morphology">Cypsela beaks (9–)10–25 mm, lengths usually 3–4 times bodies; phyllaries in 3–6 series.</description>
       <next_statement_id>11.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Leaf lobes antrorse to spreading; corolla tubes 4–7(–10) mm, ligules 3–7 mm, anthers 1–3 mm; pappus bristles in 2–3 series, 7–15 mm</statement>
+      <description type="morphology">Leaf lobes antrorse to spreading; corolla tubes 4–7(–10) mm, ligules 3–7 mm, anthers 1–3 mm; pappus bristles in 2–3 series, 7–15 mm</description>
       <determination>5. Agoseris grandiflora</determination>
     </key_statement>
     <key_statement>
       <statement_id>11.</statement_id>
-      <statement>Leaf lobes retrorse to spreading; corolla tubes (8–)10–20 mm, ligules 6–12(–16) mm, anthers 2–5 mm; pappus bristles in 4–6 series, (11–) 15–20 mm</statement>
+      <description type="morphology">Leaf lobes retrorse to spreading; corolla tubes (8–)10–20 mm, ligules 6–12(–16) mm, anthers 2–5 mm; pappus bristles in 4–6 series, (11–) 15–20 mm</description>
       <determination>6. Agoseris retrorsa</determination>
     </key_statement>
     <key_statement>
       <statement_id>10.</statement_id>
-      <statement>Cypsela beaks (1–)3–10 mm, lengths usually 1 / 2 –2 times bodies; phyllaries in 2–3 series.</statement>
+      <description type="morphology">Cypsela beaks (1–)3–10 mm, lengths usually 1 / 2 –2 times bodies; phyllaries in 2–3 series.</description>
       <next_statement_id>12.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Corolla tubes 2–5.5 mm, ligules 3–16 mm, anthers 1.5–4.5 mm; cypsela bodies 3–5 mm; leaves 3–10(–15) cm; Pacific shore coastal dunes</statement>
+      <description type="morphology">Corolla tubes 2–5.5 mm, ligules 3–16 mm, anthers 1.5–4.5 mm; cypsela bodies 3–5 mm; leaves 3–10(–15) cm; Pacific shore coastal dunes</description>
       <determination>7. Agoseris apargioides (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>12.</statement_id>
-      <statement>Corolla tubes (4–)6–15 mm, ligules (4–)6–20 mm, anthers 2–5 mm; cypsela bodies 5–9 mm; leaves (5–)10–38 cm; widespread North America east of Pacific coast ranges.</statement>
+      <description type="morphology">Corolla tubes (4–)6–15 mm, ligules (4–)6–20 mm, anthers 2–5 mm; cypsela bodies 5–9 mm; leaves (5–)10–38 cm; widespread North America east of Pacific coast ranges.</description>
       <next_statement_id>13.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Corolla ligules 4–12 mm; inner phyllaries elongating in fruit; leaf margins entire or laciniately lobed, lobes 2–4 pairs, spreading to antrorse; montane forests to alpine tundra, often disturbed habitats</statement>
+      <description type="morphology">Corolla ligules 4–12 mm; inner phyllaries elongating in fruit; leaf margins entire or laciniately lobed, lobes 2–4 pairs, spreading to antrorse; montane forests to alpine tundra, often disturbed habitats</description>
       <determination>2. Agoseris aurantiaca (in part)</determination>
     </key_statement>
     <key_statement>
       <statement_id>13.</statement_id>
-      <statement>Corolla ligules 10–20 mm; inner phyllaries not elongating in fruit; leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, mostly retrorse; sagebrush steppes, grasslands, pinyon-juniper woodlands, open forests at lower elevations</statement>
+      <description type="morphology">Corolla ligules 10–20 mm; inner phyllaries not elongating in fruit; leaf margins usually lobed, rarely entire, lobes (3–)5–8 pairs, mostly retrorse; sagebrush steppes, grasslands, pinyon-juniper woodlands, open forests at lower elevations</description>
       <determination>3. Agoseris parviflora (in part)</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

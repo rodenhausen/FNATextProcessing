@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stegonia</genus_name>
-    <species_name>latifolia</species_name>
-    <variety_name>pilifera</variety_name>
-    <variety_authority>(Dickson) Brotherus</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stegonia</taxon_name>
+    <taxon_name rank="species" authority="Dickson" date="unknown">latifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Dickson) Brotherus" date="unknown">pilifera</taxon_name>
     <place_of_publication>
       <publication_title>Laubm. Fennosk.,</publication_title>
       <place_in_publication>145.  1923,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Coscinodon</genus_name>
-    <species_name>pilifera</species_name>
-    <species_authority>Dickson</species_authority>
+    <taxon_hierarchy>genus Stegonia;species latifolia;variety pilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Coscinodon</taxon_name>
+    <taxon_name rank="species" authority="(Dickson) H. A. Crum &amp; L. E. Anderson" date="unknown">pilifera</taxon_name>
     <place_of_publication>
       <publication_title>Fasc. Pl. Crypt. Brit.</publication_title>
       <place_in_publication>4: 10, plate 10, fig. 14.  1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stegonia</genus_name>
-    <species_name>pilifera</species_name>
-    <species_authority>(Dickson) H. A. Crum &amp; L. E. Anderson</species_authority>
-  </TaxonIdentification>
-  <description>Leaves awned, costa excurrent in most leaves as a hyaline hair point.</description>
-  <phenology>Capsules mature spring–summer.</phenology>
-  <habitat>Soil, tundra, rocky areas;</habitat>
-  <elevation>moderate to high elevations (600–2200 m);</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>n Asia.</global_distribution>
+    <taxon_hierarchy>genus Coscinodon;species pilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stegonia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pilifera</taxon_name>
+    <taxon_hierarchy>genus Stegonia;species pilifera;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
   <discussion>Apparently less common than the typical variety, Stegonia latifolia var. pilifera may occur in mixture with it.  The hair point may be as long as the leaves, but varies in length and may be lacking in some leaves.</discussion>
-</treatment>
+</bio:treatment>

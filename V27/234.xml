@@ -1,52 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Encalypta</genus_name>
-    <species_name>brevicollis</species_name>
-    <species_authority>(Bruch &amp; Schimper)  Åongström</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="(Bruch &amp; Schimper)  Åongström" date="unknown">brevicollis</taxon_name>
     <place_of_publication>
       <publication_title>Nova Acta Regiae Soc. Sci. Upsal.</publication_title>
       <place_in_publication>12: 362.  1844,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>longicollis</species_name>
-    <species_authority>Bruch</species_authority>
-    <variety_name>brevicollis</variety_name>
-    <variety_authority>Bruch &amp; Schimper</variety_authority>
+    <taxon_hierarchy>genus Encalypta;species brevicollis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="Bruch" date="unknown">longicollis</taxon_name>
+    <taxon_name rank="variety" authority="Bruch &amp; Schimper" date="unknown">brevicollis</taxon_name>
     <place_of_publication>
       <publication_title>Bryol. Europ.</publication_title>
       <place_in_publication>3: 28.  1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Encalypta</genus_name>
-    <species_name>brevicollis</species_name>
-    <subspecies_name>crumiana</subspecies_name>
-    <subspecies_authority>D. G. Horton</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems 20–25 mm, central strand absent.  Leaves oblong to nar-rowly spathulate, 2–6 mm, apices obtuse or broadly acute, hair-pointed, awn short; margins plane; costa excurrent, awns shorter than leaf lamina; laminal cells 15–20 µm; basal cells rectangular, 20–90 µm, smooth; basal marginal cells differentiated, longer than laminal cells, in 8–12 rows.  Specialized asexual reproduction absent.  Seta 5–16 mm.  Capsule exserted, long-cylindric, 1.5–3.5 mm, smooth; exothecial cells rectangular, walls thickened; peristome diplolepideous, not  well developed, teeth irregular, narrowly lanceolate, 0.5 mm, papillose or rarely smooth, erect when wet or dry; endostome segments attached to exostome teeth, papillose, as long as teeth; operculum 2 mm.  Calyptra 4–8 mm, lacerate at base, papillose distally.  Spores 30–40 µm, warty, brown.</description>
-  <habitat>Soil in open montane and alpine habitats;</habitat>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Nunavut</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>n Asia.</global_distribution>
+    <taxon_hierarchy>genus Encalypta;species longicollis;variety brevicollis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encalypta</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">brevicollis</taxon_name>
+    <taxon_name rank="subspecies" authority="D. G. Horton" date="unknown">crumiana</taxon_name>
+    <taxon_hierarchy>genus Encalypta;species brevicollis;subspecies crumiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>14.</number>
   <discussion>The long awn on narrowly spathulate leaves and whitish peristome distinguish Encalypta brevicollis.  There is some similarity to E. affinis or E. ciliata, but neither of these species displays an awn as long and prominent as that of E. brevicollis, or has the whitish peristome.  Subspecies crumiana has been recognized primarily based on poorly developed, smooth peristome teeth, granulate ornamentation on top of ridged or warty spores, and a more gradual change from the calyptra body to the rostrum.</discussion>
   <discussion>Excluded Species:</discussion>
   <discussion>Encalypta microstoma Balsamo &amp; De Notaris</discussion>
   <discussion>No specimens were seen; see D. G. Horton (1983).</discussion>
-</treatment>
+</bio:treatment>

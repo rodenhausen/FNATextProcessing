@@ -1,79 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ephemerum</genus_name>
-    <species_name>spinulosum</species_name>
-    <species_authority>Bruch &amp; Schimper</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephemerum</taxon_name>
+    <taxon_name rank="species" authority="Bruch &amp; Schimper" date="unknown">spinulosum</taxon_name>
     <place_of_publication>
       <publication_title>in W. P. Schimper, Syn. Musc. Eur.,</publication_title>
       <place_in_publication>6. 1860,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ephemerum</genus_name>
-    <species_name>spinulosum</species_name>
-    <variety_name>hystrix</variety_name>
-    <variety_authority>(Lindberg) Grout</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Phascum</genus_name>
-    <species_name>serratum</species_name>
-    <variety_name>angustifolium</variety_name>
-    <variety_authority>Drummond</variety_authority>
-  </TaxonIdentification>
-  <description>Plants less than 2.5 mm, gregarious in abundant, persistent, matted protonemata.
-        Leaves setaceous to linear-lanceolate, 1.1–0.23 × 0.12–0.2 mm; margins serrate to strongly
-        spinose; spines 40–60 µm, spreading or recurved to 45°; or more, sometimes 2-celled; apex
-        narrowly acuminate; costa occasionally absent in the proximal third, but usually strong,
-        nearly 1/3 of the base, percurrent or excurrent, spinulose or spinose; areolation firm
-        proximally and denser distally; median laminal cells in vertical rows, papillose or
-        occasionally smooth; distal laminal cells spinose. Capsule with columella resorbed before
-        meiosis; stomates few, mostly in the proximal half. Spores spherical or reniform, 58–118 ×
-        42–80 µm.</description>
-  <phenology>Capsules maturing year around.</phenology>
-  <habitat>Sides of ditches and ravines, moist paths, old fields, swamps, moist or drying soil in
-        disturbed, partly sunny areas, occasionally on rotting wood;</habitat>
-  <elevation>low to moderate elevations (0–700 m);</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>West Indies (Cuba)</global_distribution>
-  <global_distribution>Central America (Honduras)</global_distribution>
-  <global_distribution>South America (Brazil)</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia (China, Japan, Taiwan).</global_distribution>
+    <taxon_hierarchy>genus Ephemerum;species spinulosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ephemerum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">spinulosum</taxon_name>
+    <taxon_name rank="variety" authority="(Lindberg) Grout" date="unknown">hystrix</taxon_name>
+    <taxon_hierarchy>genus Ephemerum;species spinulosum;variety hystrix;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Phascum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">serratum</taxon_name>
+    <taxon_name rank="variety" authority="Drummond" date="unknown">angustifolium</taxon_name>
+    <taxon_hierarchy>genus Phascum;species serratum;variety angustifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
   <discussion>Ephemerum spinulosum bears, as part of the abundant and persistent protonemata and
         rhizoids, red-brown, thick-walled structures. They also occur occasionally in E. serratum,
         but are only rarely seen in other Ephemera. The cells may be long-lived vegetative
@@ -85,4 +39,4 @@
         crassinervium var. crassinervium, Micromitrium wrightii, or M. tenerum, but other characters
         point to the correct determination. This combination of traits exemplifies the nature of
         variation found in the Ephemeraceae.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>81a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Allium</genus_name><species_name>obtusum</species_name><species_authority>Lemmon</species_authority><variety_name>obtusum</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Allium</genus_name><species_name>ambiguum</species_name><species_authority>M. E. Jones</species_authority></TaxonIdentification><description>Leaves 1–2; blade 5–18 cm × 0.5–4 mm. Scape 2–6.5 cm. Umbel 6–20-flowered. Flowers 4–7(–9) mm; tepals white with prominent, dark purplish midveins, oblong-elliptic, apex obtuse; pedicel 2–7(–11) mm. 2n = 14.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>granitic sands</habitat><elevation>1500–3500 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">LILIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="Lemmon" date="unknown">obtusum</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">obtusum</taxon_name>
+    <taxon_hierarchy>family LILIACEAE;genus Allium;species obtusum;variety obtusum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Allium</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">ambiguum</taxon_name>
+    <taxon_hierarchy>genus Allium;species ambiguum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>81a.</number>
+</bio:treatment>

@@ -1,50 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>59.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Cirsium</genus_name>
-    <species_name>fontinale</species_name>
-    <species_authority>(Greene) Jepson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cirsium</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Jepson" date="unknown">fontinale</taxon_name>
     <place_of_publication>
       <publication_title>Fl. W. Calif.,</publication_title>
       <place_in_publication>505. 1901</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species fontinale;</taxon_hierarchy>
-  <common_name>Fountain thistle</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cnicus</genus_name>
-    <species_name>fontinalis</species_name>
-    <species_authority>Greene</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Cirsium;species fontinale;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cnicus</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">fontinalis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 151. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Monocarpic perennials, 50–220 cm; woody tap-rooted caudices with numerous coarse, fibrous lateral roots, sometimes forming new rosettes from root sprouts. Stems 1–several, erect, loosely arachnoid-tomentose, glandular-pilose; branches several to many, spreading. Leaves: blades oblanceolate to oblong or elliptic, 20–70 × 5–16 cm, strongly undulate, shallowly to deeply pinnatifid, lobes coarsely toothed or with triangular secondary lobes, main spines 3–15 mm, abaxial faces more densely tomentose, adaxial densely glandular with short, multicellular trichomes and ± tomentose with fine, arachnoid, non-septate trichomes; basal often present at flowering, petiolate; principal cauline well distributed, becoming sessile, gradually reduced distally, bases auriculate-decurrent with broad, spiny-margined wings 3 cm or less; distal cauline leaves progressively reduced, ± bractlike. Heads few–many, ± nodding, in paniculiform or corymbiform arrays, bracts leafy or much reduced. Peduncles 0–7 cm. Involucres (green to purple), hemispheric or campanulate, 1.5–3 × 2–5 cm, glabrous or puberulent. Phyllaries in 6–10 series, imbricate, ovate to lanceolate, abaxial faces without glutinous ridge; outer and mid bases appressed, short, bodies entire to erose or ciliolate (rarely outer spine-margined), apices spreading to recurved or reflexed, long, dilated, adaxially puberulent, spines 1–6 mm; apices of inner erect or reflexed, flattened or tipped with short spines. Corollas white to pinkish or lavender, 14.5–22 mm, tubes 5–8 mm, throats 4.5–9 mm, lobes 3–8 mm; style tips 2.5–4.5 mm. Cypselae brownish, 3.4–5 mm, apical collars tan; pappi 12–15 mm.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <us_distribution>c California.</us_distribution>
+    <taxon_hierarchy>genus Cnicus;species fontinalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>59.</number>
+  <other_name type="common_name">Fountain thistle</other_name>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cypselae 4.1–5 mm; phyllary spines 1–2 mm</statement>
+      <description type="morphology">Cypselae 4.1–5 mm; phyllary spines 1–2 mm</description>
       <determination>59b. Cirsium fontinale var. fontinale</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Cypselae 3.4–4.1 mm; phyllary spines 2–6 mm.</statement>
+      <description type="morphology">Cypselae 3.4–4.1 mm; phyllary spines 2–6 mm.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Longer spines of cauline leaves 10–18 mm; most phyllaries without marginal spines</statement>
+      <description type="morphology">Longer spines of cauline leaves 10–18 mm; most phyllaries without marginal spines</description>
       <determination>59a. Cirsium fontinale var. campylon</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Longer spines of cauline leaves 4–7 mm; many outer phyllaries with marginal spines</statement>
+      <description type="morphology">Longer spines of cauline leaves 4–7 mm; many outer phyllaries with marginal spines</description>
       <determination>59c. Cirsium fontinale var. obispoense</determination>
     </key_statement>
   </key>
-</treatment>
-
+</bio:treatment>

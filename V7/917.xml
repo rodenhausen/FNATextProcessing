@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>66.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ISATIS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Ihsan A. Al-Shehbaz</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Isatideae</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ISATIS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 670. 1753</place_in_publication>
@@ -12,17 +18,10 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 301. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Greek isatis , name used for a dye plant, most likely woad]</etymology>
-  <common_name>Woad</common_name>
-  <author>Ihsan A. Al-Shehbaz</author>
-  <description>Biennials [annuals, perennials]; not scapose; (often glaucous), glabrous or pubescent. Stems erect, often unbranched basally, paniculately branched distally. Leaves basal and cauline; petiolate or sessile; basal rosulate [or not rosulate], petiolate [rarely sessile], blade margins entire, repand, or dentate [rarely pinnately lobed]; cauline blade (base auriculate, sagittate, [or amplexicaul, rarely attenuate]), margins entire [dentate]. Racemes (corymbose, in panicles, several-flowered), considerably elongated in fruit. Fruiting pedicels reflexed, slender, (filiform, often thickened and clavate apically). Flowers: sepals erect or ascending, oblong [ovate]; petals oblanceolate [obovate, spatulate, or oblong], (equal to or longer than sepals), claw absent, (apex obtuse [subemarginate]); stamens slightly tetradynamous; filaments not dilated basally; anthers oblong [ovate], (apex obtuse or apiculate); nectar glands (6) confluent, or (4) lateral and median. Fruits siliques or silicles (samaroid), sessile, oblong, oblanceolate, elliptic, or obovate [ovate, cordate, spatulate, orbicular], 1- (or 2-)seeded, smooth, strongly angustiseptate, (prominently winged all around or distally; seed-bearing locule papery or corky, distinctly or obscurely 1–3-veined, sometimes keeled or shortly winged), glabrous or pubescent; valves and replum united; septum absent; ovules 1 (or 2) per ovary, (subapical); stigma capitate. Seeds plump, not winged, narrowly oblong; seed coat (smooth), not mucilaginous when wetted; cotyledons incumbent or accumbent.</description>
-  <number_of_infrataxa>Species 50 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>c</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>introduced also in South America (Chile).</global_distribution>
-  <global_distribution>introduced also in South America (Peru).</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Isatideae;genus ISATIS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek isatis , name used for a dye plant, most likely woad]</other_info_on_name>
+  </taxon_identification>
+  <number>66.</number>
+  <other_name type="common_name">Woad</other_name>
+  <discussion>Species 50 (1 in the flora):</discussion>
+</bio:treatment>

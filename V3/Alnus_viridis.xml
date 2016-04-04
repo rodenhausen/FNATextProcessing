@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Alnus</genus_name>
-        <species_name>viridis</species_name>
-        <species_authority>(Villars) de Candolle</species_authority>
-        <place_of_publication>
-            <publication_title>in J. Lamarck and A. P. de Candolle, Fl. Franç. ed. </publication_title>
-            <place_in_publication>3, 3: 304. 1805</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Betula</genus_name>
-        <species_name>viridis</species_name>
-        <species_authority>Villars</species_authority>
-        <place_of_publication>
-            <publication_title>Hist. Pl. Dauphiné </publication_title>
-            <place_in_publication>3(1): 789. 1789</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>alnobetula</species_name>
-        <species_authority>(Ehrhart) K. Koch</species_authority>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Alnus</genus_name>
-        <species_name>ovata</species_name>
-        <species_authority>(Schrank) Loddiges</species_authority>
-    </TaxonIdentification>
-    <description>Shrubs, spreading to compact, to 10 m. Bark smooth; lenticels scattered,
-        conspicuous to inconspicuous, small, mostly unenlarged. Winter buds nearly sessile, ovoid,
-        apex acuminate; stalks usually not over 1 mm; scales 4--6, unequal, imbricate. Leaf blade
-        broadly to narrowly ovate or elliptic, 3--11 × 3--8 cm, base rounded, obtuse, or cuneate,
-        sometimes nearly cordate, margins serrulate to coarsely doubly serrate, apex acute to
-        rounded; surfaces abaxially glabrous to tomentose, lightly to heavily resin-coated.
-        Inflorescences: staminate catkins in 1 cluster of 2--4, formed late in growing season before
-        flowering and exposed during winter; pistillate catkins in 1 or more clusters of 2--10,
-        formed season before blooming, enclosed in buds during winter, exposed with new growth in
-        spring. Flowering with new growth in spring. Infructescences ovoid to ellipsoid or nearly
-        cylindric; peduncles relatively long, thin. Samaras elliptic to obovate, wings wider than
-        body, membranaceous.</description>
-    <number_of_infrataxa>Subspecies 4 (3 in the flora):</number_of_infrataxa>
-    <global_distribution> southern arctic</global_distribution>
-    <global_distribution> subarctic</global_distribution>
-    <global_distribution> and n mountainous regions</global_distribution>
-    <global_distribution> North America and Asia.</global_distribution>
-    <discussion>Alnus viridis is distinctive among the alders in its essentially sessile buds with
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Villars) de Candolle" date="unknown">viridis</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Lamarck and A. P. de Candolle, Fl. Franç. ed.</publication_title>
+      <place_in_publication>3, 3: 304. 1805</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Alnus;species viridis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Betula</taxon_name>
+    <taxon_name rank="species" authority="Villars" date="unknown">viridis</taxon_name>
+    <place_of_publication>
+      <publication_title>Hist. Pl. Dauphiné</publication_title>
+      <place_in_publication>3(1): 789. 1789</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Betula;species viridis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Ehrhart) K. Koch" date="unknown">alnobetula</taxon_name>
+    <taxon_hierarchy>genus Alnus;species alnobetula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Alnus</taxon_name>
+    <taxon_name rank="species" authority="(Schrank) Loddiges" date="unknown">ovata</taxon_name>
+    <taxon_hierarchy>genus Alnus;species ovata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <discussion>Subspecies 4 (3 in the flora):</discussion>
+  <discussion>Alnus viridis is distinctive among the alders in its essentially sessile buds with
         several imbricate scales and in its relatively long, thin, infructescence peduncles. Like
         the birches, only the staminate catkins are exposed during the winter prior to
         blooming.</discussion>
-</treatment>
+</bio:treatment>

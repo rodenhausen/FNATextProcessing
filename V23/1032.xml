@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>441a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Carex</genus_name><species_name>lucorum</species_name><species_authority>Willdenow ex Link</species_authority><variety_name>lucorum</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Carex</genus_name><species_name>pensylvanica</species_name><species_authority>Lamarck</species_authority><variety_name>distans</variety_name><variety_authority>Peck</variety_authority></TaxonIdentification><description>Leaf blades (1.2–)1.5–3.6 mm wide. 2n = 40.</description><phenology_fruiting>may</phenology_fruiting><phenology_fruiting>spring</phenology_fruiting><phenology_fruiting>jun</phenology_fruiting><phenology_fruiting>summer</phenology_fruiting><phenology_fruiting>jul</phenology_fruiting><habitat>dry to mesic, often sandy, well-drained, acidic soils in open pine and oak woodlands or cleared areas</habitat><elevation>50–1000 m;</elevation><ca_distribution>N.B.</ca_distribution><ca_distribution>N.S.</ca_distribution><ca_distribution>Ont.</ca_distribution><ca_distribution>Que.</ca_distribution><us_distribution>Conn.</us_distribution><us_distribution>Ky.</us_distribution><us_distribution>Maine</us_distribution><us_distribution>Mass.</us_distribution><us_distribution>Mich.</us_distribution><us_distribution>Minn.</us_distribution><us_distribution>N.H.</us_distribution><us_distribution>N.J.</us_distribution><us_distribution>N.Y.</us_distribution><us_distribution>Pa.</us_distribution><us_distribution>R.I.</us_distribution><us_distribution>Vt.</us_distribution><us_distribution>Wis.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Willdenow ex Link" date="unknown">lucorum</taxon_name>
+    <taxon_name rank="variety" authority="Peck" date="unknown">lucorum</taxon_name>
+    <taxon_hierarchy>family CYPERACEAE;genus Carex;species lucorum;variety lucorum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carex</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">pensylvanica</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">distans</taxon_name>
+    <taxon_hierarchy>genus Carex;species pensylvanica;variety distans;</taxon_hierarchy>
+  </taxon_identification>
+  <number>441a.</number>
+</bio:treatment>

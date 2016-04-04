@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hieracium</genus_name>
-    <species_name>bolanderi</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bolanderi</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 365. 1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species bolanderi;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Hieracium</genus_name>
-    <species_name>siskiyouense</species_name>
-    <species_authority>M. Peck</species_authority>
-  </TaxonIdentification>
-  <description>Plants 10–60+ cm. Stems glabrous or nearly so. Leaves: basal 5–9+, cauline 0–3; blades oblanceolate to spatulate, 35–95+ × 12–25+ mm, lengths 2–4+ times widths, bases cuneate, margins entire, apices rounded to acute, abaxial faces glabrous or piloso-hirsute (on midribs, hairs 5–8+ mm), adaxial piloso-hirsute (hairs 5–8+ mm, often tangled). Heads (3–)15–15(–40+) in corymbiform arrays. Peduncles glabrous or stipitate-glandular. Calyculi: bractlets 3–5+. Involucres campanulate to cylindric, (7–)9–10 mm. Phyllaries 8–13+, apices obtuse to acute, abaxial faces glabrous or stipitate-glandular. Florets 6–12; corollas yellow, 8.5–10 mm. Cypselae urceolate, 5–5.5 mm; pappi of 50–60+, stramineous to rufous bristles in 2+ series, 5–8 mm.</description>
-  <phenology_info>
-    <text>Flowering Jun–Jul.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>pine forests , serpentines ;</text>
-    <habitat>pine forests</habitat>
-    <habitat>serpentines</habitat>
-  </habitat_info>
-  <elevation>300–1700 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hieracium;species bolanderi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hieracium</taxon_name>
+    <taxon_name rank="species" authority="M. Peck" date="unknown">siskiyouense</taxon_name>
+    <taxon_hierarchy>genus Hieracium;species siskiyouense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+</bio:treatment>

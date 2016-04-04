@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Neonesomia</genus_name><species_name>palmeri</species_name><species_authority>(A. Gray) Urbatsch &amp; R. P. Roberts</species_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>21: 253. 2004</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Texas desert goldenrod</common_name><common_name>Texas goldenweed</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Aster</genus_name><species_name>palmeri</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>17: 209. 1882</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Ericameria</genus_name><species_name>austrotexana</species_name><species_authority>M. C. Johnston</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Xylothamia</genus_name><species_name>palmeri</species_name><species_authority>(A. Gray) G. L. Nesom</species_authority></TaxonIdentification><description>Stems: bark tan, becoming brown to gray; twigs mostly green, prominently ridged. Leaves moderately crowded; blades spreading, 10–30 × 1–2 mm, plane; axillary fascicles rarely present. Phyllaries 1.5–5.2 × 0.8–1.2 mm, midveins enlarged near apex, resin gland and surrounding tissue evident as green to brown patches. Ray laminae 2.5–3 × 0.5–1 mm. Disc corollas 3.8–5.5 mm, tubes glabrous, lobes unequal, 1–2.7 mm; style branches 1.5–2.2 mm, appendages 0.7–1.1 mm. Cypselae 1.5–2 mm; pappi 3.7–5.3 mm. 2n = 18.</description><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>associated with brushy vegetation</habitat><habitat>brushy pastures</habitat><habitat>saline flats</habitat><habitat>coastal dunes</habitat><elevation>0–600 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Nuevo León).</global_distribution><global_distribution>Mexico (Tamaulipas).</global_distribution><discussion>Neonesomia palmeri grows on open flats to steep slopes in saline to sandy habitats in southern Texas.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Neonesomia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Urbatsch &amp; R. P. Roberts" date="unknown">palmeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>21: 253. 2004</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Neonesomia;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">palmeri</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>17: 209. 1882</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Aster;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ericameria</taxon_name>
+    <taxon_name rank="species" authority="M. C. Johnston" date="unknown">austrotexana</taxon_name>
+    <taxon_hierarchy>genus Ericameria;species austrotexana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Xylothamia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) G. L. Nesom" date="unknown">palmeri</taxon_name>
+    <taxon_hierarchy>genus Xylothamia;species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Texas desert goldenrod</other_name>
+  <other_name type="common_name">Texas goldenweed</other_name>
+  <discussion>Neonesomia palmeri grows on open flats to steep slopes in saline to sandy habitats in southern Texas.</discussion>
+</bio:treatment>

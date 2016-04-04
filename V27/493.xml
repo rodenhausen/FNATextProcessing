@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>31.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Fissidens</genus_name>
-    <species_name>pellucidus</species_name>
-    <species_authority>Hornschuch</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Fissidens</taxon_name>
+    <taxon_name rank="species" authority="Hornschuch" date="unknown">pellucidus</taxon_name>
     <place_of_publication>
       <publication_title>Linnaea</publication_title>
       <place_in_publication>15: 146.  1841,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>Asia</global_distribution>
-  <global_distribution>Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Fissidens;species pellucidus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>31.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

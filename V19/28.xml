@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carlina</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="subspecies" authority="(C. Reichenbach) Nyman" date="unknown">vulgaris</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Carlina;species vulgaris;subspecies vulgaris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Carlina</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">vulgaris</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">longifolia</taxon_name>
+    <taxon_hierarchy>genus Carlina;species vulgaris;subspecies longifolia;</taxon_hierarchy>
+  </taxon_identification>
   <number>1a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Carlina</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>vulgaris</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Carlina;species vulgaris;subspecies vulgaris;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Carlina</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>longifolia</subspecies_name>
-    <subspecies_authority>(C. Reichenbach) Nyman</subspecies_authority>
-  </TaxonIdentification>
-  <description>Plants 10–80 cm. Stems simple to distally much branched, arachnoid-tomentose. Leaves: basal tapering to winged petioles, blades oblong-oblanceolate, 7–15 cm, margins with spine-tipped teeth and lobes, abaxially ± arachnoid-tomentose, adaxially ± glabrate; cauline leaves sessile, ± clasping, progressively smaller, margins with spine-tipped lobes, faces ± glabrate. Heads usually 2–5 in corymbiform clusters. Involucres 15–30 mm diam. Phyllaries: outer leaflike, middle green or purplish, spiny-fringed, arachnoid, inner with appressed bases, tips yellow or straw-colored, acuminate, spreading, slender, these resembling laminae of ray corollas. Corollas 7–9 mm, yellow to maroon-purple. Cypselae brownish, 2–4 mm, sericeous; pappi of ca. 30 bristles, basally connate in 10 bundles, 8–10 mm. 2n = 20 (Denmark).</description>
-  <phenology_info>
-    <text>Flowering Jul–Sep.</text>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>roadsides , fields , waste places ;</text>
-    <habitat>roadsides</habitat>
-    <habitat>fields</habitat>
-    <habitat>waste places</habitat>
-  </habitat_info>
-  <elevation>0–500 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
   <discussion>Carlina vulgaris is widely distributed across Europe and parts of Asia, often as a weed. Although it has a limited distribution at present in North America, it has the potential to become a serious weed problem as have several other Eurasian thistles.</discussion>
-</treatment>
-
+</bio:treatment>

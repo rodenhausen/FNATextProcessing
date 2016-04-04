@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Eremogone</genus_name><species_name>capillaris</species_name><species_authority>(Poiret) Fenzl</species_authority><variety_name>capillaris</variety_name></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Arenaria</genus_name><species_name>capillaris</species_name><species_authority>Poiret</species_authority><variety_name>nardifolia</variety_name><variety_authority>(Ledebour) Regel</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Arenaria</genus_name><species_name>formosa</species_name><species_authority>Fischer ex Seringe</species_authority></TaxonIdentification><description>Stems 5–20 cm, glabrous. Pedicels glabrous. Flowers: sepals gla-brous; ovary glabrous. Capsules glabrous. 2n = 22.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>rock outcrops</habitat><habitat>dry, sandy hillsides</habitat><habitat>roadsides</habitat><elevation>300–900 m;</elevation><ca_distribution>N.W.T.</ca_distribution><ca_distribution>Yukon</ca_distribution><us_distribution>Alaska</us_distribution><global_distribution>Asia (Mongolia).</global_distribution><global_distribution>Asia (Siberia).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Caryophyllaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Fenzl" date="unknown">Alsinoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eremogone</taxon_name>
+    <taxon_name rank="species" authority="(Poiret) Fenzl" date="unknown">capillaris</taxon_name>
+    <taxon_name rank="variety" authority="(Ledebour) Regel" date="unknown">capillaris</taxon_name>
+    <taxon_hierarchy>family Caryophyllaceae;subfamily Alsinoideae;genus Eremogone;species capillaris;variety capillaris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arenaria</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">capillaris</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">nardifolia</taxon_name>
+    <taxon_hierarchy>genus Arenaria;species capillaris;variety nardifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arenaria</taxon_name>
+    <taxon_name rank="species" authority="Fischer ex Seringe" date="unknown">formosa</taxon_name>
+    <taxon_hierarchy>genus Arenaria;species formosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3a.</number>
+</bio:treatment>

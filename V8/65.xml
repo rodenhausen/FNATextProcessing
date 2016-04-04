@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>inerme</species_name>
-    <species_authority>Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">inerme</taxon_name>
     <place_of_publication>
       <publication_title>Mem. New York Bot. Gard.</publication_title>
       <place_in_publication>1: 202.  1900,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Grossularia</genus_name>
-    <species_name>inermis</species_name>
-    <species_authority>(Rydberg) Coville &amp; Britton</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ribes</genus_name>
-    <species_name>divaricatum</species_name>
-    <species_authority>Douglas</species_authority>
-    <variety_name>inerme</variety_name>
-    <variety_authority>(Rydberg) McMinn</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 1–3 m.  Stems erect to sprawling, glabrous or sparsely retrorse-bristly when young and with black, sessile glands; spines at nodes sometimes absent or 1(–3), 1–8(–12) mm; prickles on internodes usually absent.  Leaves: petiole (0.4–)1–5.5 cm, tomentose to pilose, with few longer, slender, stipitate-glandular hairs; blade broadly ovate or pentagonal, 3–5-lobed, cleft nearly 1/2 to midrib, sometimes lateral lobes again less deeply cut into larger distal and smaller proximal segments, 1.5–8 cm, base rounded to broadly cordate, surfaces glabrous, sparsely pubescent, or pilose-villous, usually ciliate, lobes acutish or oblong-rounded, margins deeply crenate-serrate or coarsely round-toothed, apex acute or rounded.  Inflorescences pendent, solitary flowers or 2–5-flowered racemes, 1.5–3.5 cm, axis glabrous, flowers evenly spaced.  Pedicels not jointed, (1.5–)2.3–5.5(–8) mm, glabrous; bracts ovate, 1–3 mm, glandular-ciliolate.  Flowers: hypanthium green or greenish white, narrowly tubular to tubular-campanulate, 1.5–3.5 mm, glabrous or densely pilose to arachnoid-pubescent adaxially; sepals not overlapping, spreading to curved-reflexed (extended in fruit), white or greenish to purplish or reddish margined or tinged, oblong or oblong-lanceolate to narrowly lanceolate, 2.5–5 mm; petals connivent, erect, whitish or pinkish, broadly cuneate-obovate or cuneate-flabellate to cuneate or oblong, not conspicuously revolute or inrolled, 1–2.3 mm; nectary disc not prominent; stamens nearly 2 times as long as petals; filaments linear, 1.8–3.1 mm, mostly glabrous; anthers cream, ovate, 0.6–1.1 mm, apex with cup-shaped gland; ovary glabrous; styles connate 1/3–3/4 their lengths, 4.5–7 mm, proximally pilose-villous to middle or throughout.  Berries palatable, greenish or reddish purple to gray-black, nearly globose or globose, 7–11 mm, glabrous.  2n = 16.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species inerme;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Grossularia</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) Coville &amp; Britton" date="unknown">inermis</taxon_name>
+    <taxon_hierarchy>genus Grossularia;species inermis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Douglas" date="unknown">divaricatum</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) McMinn" date="unknown">inerme</taxon_name>
+    <taxon_hierarchy>genus Ribes;species divaricatum;variety inerme;</taxon_hierarchy>
+  </taxon_identification>
+  <number>44.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Ribes inerme has strikingly pilose-villous styles that are sometimes green proximally and reddish distally, with the stigmas sometimes dark green.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals glabrous; leaf blades glabrous (except for soft ciliation) or sparsely pubescent; peduncles</statement>
+      <description type="morphology">Sepals glabrous; leaf blades glabrous (except for soft ciliation) or sparsely pubescent; peduncles</description>
       <determination>44a.   Ribes inerme var. inerme</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals pilose; leaf blades pilose-villous; peduncles</statement>
+      <description type="morphology">Sepals pilose; leaf blades pilose-villous; peduncles</description>
       <determination>44b.   Ribes inerme var. klamathense</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

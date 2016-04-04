@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>19.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Claytonia</genus_name><species_name>saxosa</species_name><species_authority>Brandegee</species_authority><place_of_publication>
-    <publication_title>Zo ë</publication_title>
-    <place_in_publication>4: 150. 1893</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Brandegee’s claytonia</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Montia</genus_name><species_name>saxosa</species_name><species_authority>(Brandegee) Brandegee ex B. L. Robinson</species_authority></TaxonIdentification><description>Plants annual, with minute, tuberous body; periderm absent. Stems 1–4 cm. Leaves: basal leaves sessile, blade broadly spatulate, 0.5–3 × 0.5–1 cm; cauline leaves sessile, blade spatulate, 0.2–1 × 0.2–0.5 cm. Inflorescences ebracteate. Flowers 10–15 mm diam., pinkish to magenta; sepals 2–3 mm; petals 6–10 mm; ovules 3. Seeds 1–2 mm, tuberculate; elaiosome inserted in wide notch of seed coat, 0.5 mm. 2n = 16.</description><phenology>early spring</phenology><habitat>serpentine balds</habitat><habitat>rock outcrops</habitat><conservation>of conservation concern;</conservation><elevation>500–2000 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="Brandegee" date="unknown">saxosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Zo ë</publication_title>
+      <place_in_publication>4: 150. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Claytonia;species saxosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="(Brandegee) Brandegee ex B. L. Robinson" date="unknown">saxosa</taxon_name>
+    <taxon_hierarchy>genus Montia;species saxosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>19.</number>
+  <other_name type="common_name">Brandegee’s claytonia</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

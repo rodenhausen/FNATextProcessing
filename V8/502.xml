@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sideroxylon</genus_name>
-    <species_name>salicifolium</species_name>
-    <species_authority>(Linnaeus) Lamarck</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAPOTACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sideroxylon</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Lamarck" date="unknown">salicifolium</taxon_name>
     <place_of_publication>
       <publication_title>in J. Lamarck and J. Poiret,  Tabl. Encycl.</publication_title>
       <place_in_publication>2: 42.  1794  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>White bully</common_name>
-  <common_name>willow bustic</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Achras</genus_name>
-    <species_name>salicifolia</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family SAPOTACEAE;genus Sideroxylon;species salicifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achras</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">salicifolia</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl. ed.</publication_title>
       <place_in_publication>2, 1: 470.  1762</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Bumelia</genus_name>
-    <species_name>salicifolia</species_name>
-    <species_authority>(Linnaeus) Swartz</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dipholis</genus_name>
-    <species_name>salicifolia</species_name>
-    <species_authority>(Linnaeus) A. de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dipholis</genus_name>
-    <species_name>salicifolia</species_name>
-    <variety_name>jamaicensis</variety_name>
-    <variety_authority>Pierre ex Pierre &amp; Urban</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, to 25 m.  Stems not armed, glabrate.  Leaves deciduous; petiole 6–14 mm, glabrous or glabrate; blade (lustrous dark green adaxially), elliptic, 24–111 × 12–40 mm, base attenuate, margins plane, apex acute to acuminate, abaxial surface glabrous or glabrate with hairs scattered along midrib (hairs reddish brown), venation visible, adaxial surface glabrous, midrib slightly raised, marginal vein present.  Inflorescences 5–14-flowered.  Pedicels 1–5 mm, sericeous (hairs reddish brown).  Flowers: calyx 1.5–2.5 mm diam.; sepals 5, 1.5–1.6 × 1.3–1.8 mm, sericeous (hairs white to tawny); petals 5, white to cream, median segment ovate to suborbiculate, 1.6–1.8 mm, lateral segments lanceolate, 1.3–1.6 mm; stamens 5, 2.8–3.5 mm; staminodes lanceolate, 1.8–2.2 mm, erose; anthers lanceolate-sagittate, 0.8–1.3 mm; pistil 5-carpellate; ovary 5-locular, 1–1.2 mm, glabrous; style 0.9–1.5 mm.  Berries purplish black, broadly ellipsoid to subglobose, 6–10 mm, glabrous.  Seeds 4–6 mm.</description>
-  <phenology>Flowering Feb–May</phenology>
-  <habitat>Pine woodlands and savannas, hammocks</habitat>
-  <elevation>0–100[–1500] m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America (Belize, Guatemala).</global_distribution>
+    <taxon_hierarchy>genus Achras;species salicifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bumelia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Swartz" date="unknown">salicifolia</taxon_name>
+    <taxon_hierarchy>genus Bumelia;species salicifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dipholis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) A. de Candolle" date="unknown">salicifolia</taxon_name>
+    <taxon_hierarchy>genus Dipholis;species salicifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dipholis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">salicifolia</taxon_name>
+    <taxon_name rank="variety" authority="Pierre ex Pierre &amp; Urban" date="unknown">jamaicensis</taxon_name>
+    <taxon_hierarchy>genus Dipholis;species salicifolia;variety jamaicensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">White bully</other_name>
+  <other_name type="common_name">willow bustic</other_name>
   <discussion>Sideroxylon salicifolium is recognizable readily by twigs lacking short shoots and thorns, glabrous or glabrate abaxial leaf surfaces, glabrous ovaries, and the presence of endosperm.  Prior to T. D. Pennington’s (1990) treatment, most authors (e.g., A. Cronquist 1945c) placed S. salicifolium in Dipholis, based on the aforementioned characteristics.  Molecular phylogenetic analyses by U. Swenson and A. A. Anderberg (2005) provided robust support for the nesting of S. salicifolium + S. foetidissimum among other sampled species of Sideroxylon.  Cronquist noted its similarities in vegetative characters to the neotropical S. persimile (Hemsley) Pennington; the two are differentiated using flower and fruit characters (Pennington).</discussion>
-</treatment>
+</bio:treatment>

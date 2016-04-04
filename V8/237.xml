@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Jepsonia</genus_name>
-    <species_name>parryi</species_name>
-    <species_authority>(Torrey) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jepsonia</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Small" date="unknown">parryi</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>23: 18.  1896  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Coast jepsonia</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Saxifraga</genus_name>
-    <species_name>parryi</species_name>
-    <species_authority>Torrey</species_authority>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Jepsonia;species parryi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Saxifraga</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">parryi</taxon_name>
     <place_of_publication>
       <publication_title>in W. H. Emory, Rep. U.S. Mex. Bound.</publication_title>
       <place_in_publication>2(1): 69, plate 25.  1859</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Caudices unbranched, usually ovoid, rarely spheric.  Leaves 1(–3).  Inflorescences diffuse, 1–5(–10)-flowered; bracts scalelike; peduncle brown, drying light brown or gray, branched near middle, 3–28 cm.  Flowers: hypanthium campanulate, 2.5–4 mm, length 2+ times sepals; sepals greenish, 0.8–2 mm, base flattened, glandular-viscid; petals withering, alternate with sepals, distinct, white with tan, maroon, or purplish veins, 3.5–6 mm.  Pollen yellowish.  Capsules green or tan with brown striations, beaks divergent.  Seeds dark brown.  2n = 14.</description>
-  <phenology>Flowering Oct–Feb</phenology>
-  <habitat>Shrubby, north-facing rocky slopes</habitat>
-  <elevation>0–1100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Saxifraga;species parryi;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Coast jepsonia</other_name>
   <discussion>Jepsonia parryi has the shortest flowering period and produces the fewest flowers in the genus.  It also produces the fewest leaves, and in very dry years may produce no leaves.</discussion>
-  <references heading="SELECTED REFERENCE">
+  <references>
     <reference>Ornduff, R.  1970b.  Incompatibility and the pollen economy of Jepsonia parryi.  Amer. J. Bot. 57: 1036–1041.</reference>
   </references>
-</treatment>
+</bio:treatment>

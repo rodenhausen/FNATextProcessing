@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>3.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Montia</genus_name>
-        <species_name>dichotoma</species_name>
-        <species_authority>(Nuttall) Howell</species_authority>
-        <place_of_publication>
-            <publication_title>Erythea</publication_title>
-            <place_in_publication>1: 36. 1893</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Dwarf montia</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Claytonia</genus_name>
-        <species_name>dichotoma</species_name>
-        <species_authority>Nuttall</species_authority>
-        <place_of_publication>
-            <publication_title>in J. Torrey and A. Gray, Fl. N. Amer. </publication_title>
-            <place_in_publication>1: 202. 1838</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Montiastrum</genus_name>
-        <species_name>dichotomum</species_name>
-        <species_authority>(Nuttall) Rydberg</species_authority>
-    </TaxonIdentification>
-    <description>Plants annual, not rhizomatous, stoloniferous, or bulbiferous. Stems erect,
-        branched, 1–10 cm. Leaves alternate, erect, not distinctly petiolate, with clasping leaf
-        sheaths; blade linear, 5–50 × 0.5–2 mm. Inflorescences terminal, 1-bracteate; bract linear
-        to oblanceolate, 1–6 mm. Flowers 4–12; sepals 1.5–2.5 mm; petals 5, white, 1.5–3 mm; stamens
-        3, anther yellow. Seeds 0.8–1.2 mm, tuberculate; elaiosome absent. 2n = 14.</description>
-    <phenology>spring</phenology>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <habitat>moist or transitional wetland habitat in coastal and inland valleys</habitat>
-    <elevation>800–1600 m;</elevation>
-    <ca_distribution>B.C.</ca_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Idaho</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wash.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Howell" date="unknown">dichotoma</taxon_name>
+    <place_of_publication>
+      <publication_title>Erythea</publication_title>
+      <place_in_publication>1: 36. 1893</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Montia;species dichotoma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">dichotoma</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Torrey and A. Gray, Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 202. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Claytonia;species dichotoma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montiastrum</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Rydberg" date="unknown">dichotomum</taxon_name>
+    <taxon_hierarchy>genus Montiastrum;species dichotomum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Dwarf montia</other_name>
+</bio:treatment>

@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4</number><TaxonIdentification Status="ACCEPTED"><genus_name>Gymnocarpium</genus_name><species_name>jessoense</species_name><species_authority>(Koidzumi) Koidzumi</species_authority><place_of_publication><publication_title>Acta Phytotax. Geobot.</publication_title><place_in_publication>5: 40. 1936</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Dryopteris</genus_name><species_name>jessoensis</species_name><species_authority>Koidzumi</species_authority><place_of_publication><publication_title>Bot. Mag. (Tokyo) </publication_title><place_in_publication>38: 104. 1924</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Aspidium</genus_name><species_name>dryopteris</species_name><species_authority>(Linnaeus) Baumgarten</species_authority><variety_name>longulum</variety_name><variety_authority>H. Christ</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Gymnocarpium</genus_name><species_name>longulum</species_name><species_authority>(H. Christ) Kitagawa</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Gymnocarpium</genus_name><species_name>robertianum</species_name><species_authority>(Hoffman) Newman</species_authority><subspecies_name>longulum</subspecies_name><subspecies_authority>(H. Christ) Toyokuni</subspecies_authority></TaxonIdentification><description>Subspecies 2 (1 in the flora): North America, Asia.</description></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnocarpium</taxon_name>
+    <taxon_name rank="species" authority="(Koidzumi) Koidzumi" date="unknown">jessoense</taxon_name>
+    <place_of_publication>
+      <publication_title>Acta Phytotax. Geobot.</publication_title>
+      <place_in_publication>5: 40. 1936</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Gymnocarpium;species jessoense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dryopteris</taxon_name>
+    <taxon_name rank="species" authority="Koidzumi" date="unknown">jessoensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Mag. (Tokyo)</publication_title>
+      <place_in_publication>38: 104. 1924</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Dryopteris;species jessoensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aspidium</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Baumgarten" date="unknown">dryopteris</taxon_name>
+    <taxon_name rank="variety" authority="H. Christ" date="unknown">longulum</taxon_name>
+    <taxon_hierarchy>genus Aspidium;species dryopteris;variety longulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnocarpium</taxon_name>
+    <taxon_name rank="species" authority="(H. Christ) Kitagawa" date="unknown">longulum</taxon_name>
+    <taxon_hierarchy>genus Gymnocarpium;species longulum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gymnocarpium</taxon_name>
+    <taxon_name rank="species" authority="(Hoffman) Newman" date="unknown">robertianum</taxon_name>
+    <taxon_name rank="subspecies" authority="(H. Christ) Toyokuni" date="unknown">longulum</taxon_name>
+    <taxon_hierarchy>genus Gymnocarpium;species robertianum;subspecies longulum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4</number>
+</bio:treatment>

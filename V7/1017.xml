@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>(Richardson) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) O’Kane &amp; Al-Shehbaz" date="unknown">arenosa</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 321. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Great Plains bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vesicaria</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>Richardson</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vesicaria</taxon_name>
+    <taxon_name rank="species" authority="Richardson" date="unknown">arenosa</taxon_name>
     <place_of_publication>
       <publication_title>in J. Franklin, Narr. Journey Polar Sea,</publication_title>
       <place_in_publication>743. 1823</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>arenosa</species_name>
-    <species_authority>(Richardson) Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>argentea</species_name>
-    <variety_name>arenosa</variety_name>
-    <variety_authority>(Richardson) Rydberg</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>ludoviciana</species_name>
-    <variety_name>arenosa</variety_name>
-    <variety_authority>(Richardson) S. Watson</variety_authority>
-  </TaxonIdentification>
-  <description>Perennials or, rarely, annuals; caudex simple or branched; ± densely pubescent, trichomes (sessile or short-stalked), few-rayed, rays (usually spreading), distinct or slightly fused at base, furcate or bifurcate, (tuberculate). Stems simple or few from base, prostrate or straggling to erect, (sometimes purplish, usually unbranched), (0.5–)1–2(–3) dm. Basal leaves: blade oblanceolate, 1.5–5(–7) cm, margins entire or shallowly dentate, (flat). Cauline leaves: blade elliptic to linear, (0.5–)1–2.5(–3) cm, margins usually entire. Racemes (secund), dense, (elongated in fruit). Fruiting pedicels (usually sharply recurved, sometimes divaricate-spreading or nearly horizontal), 5–15(–20) mm, (stout). Flowers: sepals elliptic or oblong, 4–6(–7) mm, (lateral pair subsaccate, median pair thickened apically, cucullate); petals (often red or lavender when dried), obovate, 6–8.5(–9.5) mm, (narrowing to broad claw). Fruits subglobose, obovoid, or broadly ellipsoid, slightly inflated, (3.5–)4–5.5(–6.5) mm; valves densely pubescent outside, trichomes spreading or closely appressed, rarely sparsely pubescent inside; ovules (4–)8(–10) per ovary; style (slender), 3–5.5(–6.5) mm. Seeds slightly flattened.</description>
-  <number_of_infrataxa>Subspecies 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>wc North America.</global_distribution>
+    <taxon_hierarchy>genus Vesicaria;species arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(Richardson) Rydberg" date="unknown">arenosa</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">argentea</taxon_name>
+    <taxon_name rank="variety" authority="(Richardson) Rydberg" date="unknown">arenosa</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species argentea;variety arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ludoviciana</taxon_name>
+    <taxon_name rank="variety" authority="(Richardson) S. Watson" date="unknown">arenosa</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species ludoviciana;variety arenosa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <other_name type="common_name">Great Plains bladderpod</other_name>
+  <discussion>Subspecies 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials or, rarely, annuals, short-lived; fruit valves: trichomes spreading</statement>
+      <description type="morphology">Perennials or, rarely, annuals, short-lived; fruit valves: trichomes spreading</description>
       <determination>6a. Physaria arenosa subsp. arenosa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Perennials, long-lived; fruit valves: trichomes closely appressed</statement>
+      <description type="morphology">Perennials, long-lived; fruit valves: trichomes closely appressed</description>
       <determination>6b. Physaria arenosa subsp. argillosa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

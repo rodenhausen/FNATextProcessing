@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Idahoa</genus_name>
-    <species_name>scapigera</species_name>
-    <species_authority>(Hooker) A. Nelson &amp; J. F. Macbride</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Burnett Idahoa Group" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Webb &amp; Berthelot" date="unknown">Iberideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Idahoa</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) A. Nelson &amp; J. F. Macbride" date="unknown">scapigera</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>56: 474. 1913</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Flatpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Platyspermum</genus_name>
-    <species_name>scapigerum</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Iberideae;genus Idahoa;species scapigera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platyspermum</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">scapigerum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 68, plate 18, fig. B. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Basal leaves: petiole (0.2–)0.5 2(–3) cm; blade ovate, obovate, or spatulate, (0.3–)0.7–2(–2.5) cm × 2–8(–12) mm. Fruiting pedicels (2–)4–15(–22), straight, (15–)25–110(–130) mm. Flowers: sepals purplish, 1.5–1.8 × 0.5–0.8 mm, margins not hyaline; petals 2–2.5 × 0.5–0.8 mm, attenuate to base; filaments 1.4–1.6 mm; anthers 0.15–0.2 mm, gynophore obsolete or, rarely, to 1 mm. Fruits (0.5–)0.6–0.9(–1) cm (slightly longer than wide); valves rounded at each end; style subconical, 0.3–0.8 mm. Seeds strongly compressed, 3.5–5 mm diam., coarsely reticulate (except for wing); wing 0.8–1.2 mm wide. 2n = 16.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>sagebrush slopes and scabland, dry ground</habitat>
-  <habitat>rocky volcanic flats and outcrops</habitat>
-  <habitat>open moist slopes and banks</habitat>
-  <habitat>gravelly hills</habitat>
-  <habitat>meadows</habitat>
-  <habitat>rocky hillsides</habitat>
-  <habitat>seepy sunny slopes</habitat>
-  <elevation>300–1700 m;</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Platyspermum;species scapigerum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Flatpod</other_name>
+</bio:treatment>

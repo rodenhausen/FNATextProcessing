@@ -1,41 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stewartia</genus_name>
-    <species_name>malacodendron</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">THEACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stewartia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">malacodendron</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 698.  1753  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Silky camellia</common_name>
-  <common_name>round-fruited or Virginia stewartia</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Malachodendron</genus_name>
-    <species_name>monogynum</species_name>
-    <species_authority>Dumont de Courset</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Stewartia</genus_name>
-    <species_name>virginica</species_name>
-    <species_authority>Cavanilles</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or trees, crown rounded.  Stems smooth; young twigs reddish brown, bark flaking in longitudinal strips.  Winter bud scales 2, not enclosed by petiole wings, compressed, 5–9 mm, densely silvery-pubescent.  Leaves: petiole 2–4(–5) mm, wing 0.1–1 mm wide; blade elliptic to oblong-elliptic, (2.5–)7–12 × (1.1–)4–6 cm, base cuneate to attenuate, margins serrulate, apex acute, abaxial surface pubescent, primary veins in 7–8 pairs.  Inflorescence bracts 2, 2–4 mm.  Pedicels 0.2–0.4(–0.5) cm × 1 mm.  Flowers (5–)7–10(–12) cm diam.; sepals suborbiculate, 7–9 × 5–9 mm; petals 5, white, margins crenulate to erose, abaxial surface silky; stamens 50–100(–125); filaments purple, free portion 5–10 mm; anthers bluish; style 1; stigma 5-lobed.  Capsules subglobose, 1.2–1.6 × 1.2–1.8 cm, apex round to conic, pubescent.  Seeds brown, unwinged, lenticular to angular, 5–7 × 3.5–4.5 mm, lustrous.  2n = 30.</description>
-  <phenology>Flowering (late Mar–)May–Jun(–Aug)</phenology>
-  <habitat>Shaded bluffs, ravine slopes, and upper (infrequently flooded) floodplain terraces</habitat>
-  <elevation>0–100(–200) m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>family THEACEAE;genus Stewartia;species malacodendron;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Malachodendron</taxon_name>
+    <taxon_name rank="species" authority="Dumont de Courset" date="unknown">monogynum</taxon_name>
+    <taxon_hierarchy>genus Malachodendron;species monogynum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stewartia</taxon_name>
+    <taxon_name rank="species" authority="Cavanilles" date="unknown">virginica</taxon_name>
+    <taxon_hierarchy>genus Stewartia;species virginica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Silky camellia</other_name>
+  <other_name type="common_name">round-fruited or Virginia stewartia</other_name>
   <discussion>Stewartia malacodendron is uncommon and of conservation concern in some portions of its range.  It is available through the horticultural trade.  It is most easily distinguished from S. ovata by the petiole wings not enclosing the winter buds, much smaller bracts, different fruit shape, and lustrous seeds.  Due to incorrectly identified herbarium specimens, some online databases show a much broader distribution for the species.</discussion>
   <discussion>Cavanilla florida Salisbury and Stewartia nobilis Salisbury are illegitimate names that have been applied to this species.</discussion>
-</treatment>
+</bio:treatment>

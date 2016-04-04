@@ -1,52 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>filifolia</species_name>
-    <species_authority>Torrey</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">filifolia</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Lyceum Nat. Hist. New York</publication_title>
       <place_in_publication>2: 211. 1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species filifolia;</taxon_hierarchy>
-  <common_name>Sand sage</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>plattensis</species_name>
-    <species_authority>Nuttall</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Oligosporus</genus_name>
-    <species_name>filifolius</species_name>
-    <species_authority>(Torrey) Poljakov</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, 60–180 cm (rounded), faintly aromatic. Stems green or gray-green, wandlike (usually slender, curved, sometimes stout and stunted in harsh habitats), glabrous or sparsely hairy. Leaves gray-green; blades linear if entire, obovate if lobed, (1.5–)2–5(–6) × 0.1–2.5 cm, entire to 3-lobed, lobes filiform (less than 1 mm wide), apices acute, glabrous or sparsely hairy. Heads (mostly sessile) in paniculiform arrays 8–15(–17) × 2–4(–5) cm (branches erect to somewhat recurved). Involucres globose, 1.5–2 × 1.5–2 mm. Phyllaries (ovate, inconspicuous, margins scarious) densely hairy. Florets: pistillate 1–4; functionally staminate 3–6; corollas pale yellow, 1–1.5 mm, glabrous. Cypselae oblong (distally incurved-falcate and oblique), 0.2–0.5 mm, obscurely nerved, glabrous. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering late summer–early winter.</text>
-    <phenology>summer</phenology>
-    <phenology>fall</phenology>
-    <phenology>winter</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>open prairies , dunes , sandy soils ;</text>
-    <habitat>open prairies</habitat>
-    <habitat>dunes</habitat>
-    <habitat>sandy soils</habitat>
-  </habitat_info>
-  <elevation>500–2000 m;</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species filifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">plattensis</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species plattensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oligosporus</taxon_name>
+    <taxon_name rank="species" authority="(Torrey) Poljakov" date="unknown">filifolius</taxon_name>
+    <taxon_hierarchy>genus Oligosporus;species filifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Sand sage</other_name>
   <discussion>One of the more easily distinguished of the shrubby Artemisia species, A. filifolia occurs in sandy soils and cohabits with species of Yucca, Cactaceae, and Salvia dorrii, the purple sage of western literary fame. Its filiform leaves and faintly aromatic foliage distinguish it from members of subg. Tridentatae.</discussion>
-</treatment>
-
+</bio:treatment>

@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>34</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juncus</genus_name><species_name>macrophyllus</species_name><species_authority>Coville</species_authority><place_of_publication><publication_title>University of California Publications in Botany</publication_title><place_in_publication>1: 65. 1902</place_in_publication></place_of_publication></TaxonIdentification><common_name>Long-leaf rush</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Juncus</genus_name><species_name>canaliculatus</species_name><species_authority>Engelmann</species_authority><place_of_publication><publication_title>Bot. Gaz. </publication_title><place_in_publication>7: 6. 1882,</place_in_publication><other_info>not Liebmann 1850</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><species_name>longistylis</species_name><species_authority>Torrey</species_authority><variety_name>scabratus</variety_name><variety_authority>Hermann</variety_authority></TaxonIdentification><description>Herbs, perennial, tufted, 2--10 dm. Rhizomes poorly developed. Culms erect, nearly terete to slightly compressed, never rooting at nodes. Leaves: basal several, cauline 1--3; auricles rounded, 1--3 mm, apex acutish, membranous; blade pale green, basal blade striate, channeled, basal 1/2--1 times length of culm; cauline 8--15 cm x&amp;#61620; 1--3 mm. Inflorescences glomerules, 8--25, each with 3--5 flowers, open; primary bract much shorter than inflorescence. Flowers: tepals greenish with reddish or brown tinge, lanceolate, 5--6 mm, outer series shorter; stamens 6, filaments 0.5--1 mm, anthers 1.8--2.6 mm; style 0.5--1 mm. Capsules tan, 3-locular, obovoid, 3--4.5 mm, shorter than perianth. Seeds ovoid, 0.6 mm, not tailed.</description><phenology>Flowering and fruiting summer</phenology><habitat> Wet banks and meadows in chaparral and low mountains</habitat><elevation>700--2600 m</elevation><us_distribution>Ariz.</us_distribution><us_distribution> Calif.</us_distribution><us_distribution> Nev.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Coville" date="unknown">macrophyllus</taxon_name>
+    <place_of_publication>
+      <publication_title>University of California Publications in Botany</publication_title>
+      <place_in_publication>1: 65. 1902</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;species macrophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">canaliculatus</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>7: 6. 1882,</place_in_publication>
+      <other_info_on_pub>not Liebmann 1850</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;species canaliculatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">longistylis</taxon_name>
+    <taxon_name rank="variety" authority="Hermann" date="unknown">scabratus</taxon_name>
+    <taxon_hierarchy>genus Juncus;species longistylis;variety scabratus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>34</number>
+  <other_name type="common_name">Long-leaf rush</other_name>
+</bio:treatment>

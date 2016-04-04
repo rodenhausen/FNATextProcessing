@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Salix</subgenus_name>
-    <section_name>Subalbae</section_name>
-    <section_authority>Koidzumi</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="section" authority="Koidzumi" date="unknown">Subalbae</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Mag. (Tokyo)</publication_title>
       <place_in_publication>27: 88. 1913</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Trees, 4–20 m. Stems: (pendulous), branches somewhat brittle at base. Leaves:
-        stipules on late ones and vigorous shoots minute rudiments; petiole not glandular, or with
-        spherical glands or lobes distally; largest medial blade hemiamphistomatous, abaxial surface
-        glaucous; juvenile blade glabrous, puberulent, or long-silky, hairs white. Pistillate floral
-        bracts persistent after flowering. Staminate flowers: stamens 2; anthers (dry), 0.4–0.5 mm.
-        Pistillate flowers: adaxial nectary longer than stipe; stipe 0–0.2 mm; ovary
-        glabrous.</description>
-  <number_of_infrataxa>Species 17 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>introduced also in Mexico</global_distribution>
-  <global_distribution>South America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Salix;section Subalbae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <discussion>Species 17 (1 in the flora):</discussion>
+</bio:treatment>

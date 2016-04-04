@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Aristocapsa</genus_name><species_name>insignis</species_name><species_authority>(Curran) Reveal &amp; Hardham</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>66: 84. 1989</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Chorizanthe</genus_name><species_name>insignis</species_name><species_authority>Curran</species_authority><place_of_publication><publication_title>Bull. Calif. Acad. Sci. </publication_title><place_in_publication>1: 275. 1885</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Centrostegia</genus_name><species_name>insignis</species_name><species_authority>(Curran) A. Heller</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Oxytheca</genus_name><species_name>insignis</species_name><species_authority>(Curran) Goodman</species_authority></TaxonIdentification><description>Plants 0.2–1 × 0.2–0.8 dm. Leaf blades (0.3–)0.5–1.5 × (0.1–)0.2–0.4 cm. Peduncles 1–2 mm. Invo-lucres 3–5 mm, faintly corrugate; awns divergent, (1–)2–3 mm. Flowers 1.5 mm; filaments 1.5–2 mm. Achenes 1.5 mm. 2n = 28.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><habitat>sandy soil in grassland communities</habitat><habitat>and in pine-oak or juniper woodlands</habitat><conservation>of conservation concern;</conservation><elevation>300–600 m;</elevation><us_distribution>Calif.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">Polygonaceae</taxon_name>
+    <taxon_name rank="subfamily" authority="Arnott" date="unknown">Eriogonoideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aristocapsa</taxon_name>
+    <taxon_name rank="species" authority="(Curran) Reveal &amp; Hardham" date="unknown">insignis</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>66: 84. 1989</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Polygonaceae;subfamily Eriogonoideae;genus Aristocapsa;species insignis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chorizanthe</taxon_name>
+    <taxon_name rank="species" authority="Curran" date="unknown">insignis</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Calif. Acad. Sci.</publication_title>
+      <place_in_publication>1: 275. 1885</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chorizanthe;species insignis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centrostegia</taxon_name>
+    <taxon_name rank="species" authority="(Curran) A. Heller" date="unknown">insignis</taxon_name>
+    <taxon_hierarchy>genus Centrostegia;species insignis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Oxytheca</taxon_name>
+    <taxon_name rank="species" authority="(Curran) Goodman" date="unknown">insignis</taxon_name>
+    <taxon_hierarchy>genus Oxytheca;species insignis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

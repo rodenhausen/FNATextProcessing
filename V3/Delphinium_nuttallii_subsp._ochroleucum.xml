@@ -1,46 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>54b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Delphinium</genus_name>
-        <species_name>nuttallii</species_name>
-        <species_authority>A. Gray</species_authority>
-        <subspecies_name>ochroleucum</subspecies_name>
-        <subspecies_authority>(Nuttall) M. J. Warnock</subspecies_authority>
-        <place_of_publication>
-            <publication_title> Phytologia </publication_title>
-            <place_in_publication>78: 98. 1995</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Light-yellow-flowered larkspur</common_name>
-    <conservation>of conservation concern</conservation>
-    <endemic>endemic</endemic>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Delphinium</genus_name>
-        <species_name>menziesii</species_name>
-        <species_authority>de Candolle</species_authority>
-        <variety_name>(ß) ochroleucum</variety_name>
-        <variety_authority>Nuttall</variety_authority>
-        <place_of_publication>
-            <publication_title>in J. Torrey &amp; A. Gray, Fl. N. Amer. </publication_title>
-            <place_in_publication>1: 31. 1838</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Delphinium</genus_name>
-        <species_name>leucophaeum</species_name>
-        <species_authority>Greene</species_authority>
-    </TaxonIdentification>
-    <description>Stems 30-60 cm. Flowers: sepals white or light yellow, spurs 9-11 mm; lower petal
-        blades 4-6 mm. 2n = 16.</description>
-    <phenology>Flowering late spring</phenology>
-    <habitat> Rock outcrops, rocky meadows</habitat>
-    <conservation> of conservation concern</conservation>
-    <elevation> 50-100 m</elevation>
-    <us_distribution> Oreg.</us_distribution>
-    <discussion>The range of morphologic features of Delphinium nuttallii subsp. ochroleucum (D.
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">nuttallii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) M. J. Warnock" date="unknown">ochroleucum</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>78: 98. 1995</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species nuttallii;subspecies ochroleucum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">menziesii</taxon_name>
+    <taxon_name rank="variety" authority="Nuttall" date="unknown">(ß) ochroleucum</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Torrey &amp; A. Gray, Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 31. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Delphinium;species menziesii;variety (ß) ochroleucum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">leucophaeum</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species leucophaeum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>54b.</number>
+  <other_name type="common_name">Light-yellow-flowered larkspur</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>The range of morphologic features of Delphinium nuttallii subsp. ochroleucum (D.
         leucophaeum) is almost completely encompassed within that of D. nuttallii subsp. nuttallii.
         Sepal color is the only feature consistently separating the two subspecies. Were it not for
         the fact that any given population typically has plants of only one flower color, a rank of
         forma would be more appropriate.</discussion>
-</treatment>
+</bio:treatment>

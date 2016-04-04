@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Prosthechea</genus_name><species_name>boothiana</species_name><species_authority>(Lindley) W. E. Higgins</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>82: 376. 1998</place_in_publication>
-  </place_of_publication></TaxonIdentification><discussion>F</discussion><TaxonIdentification Status="BASIONYM"><genus_name>Epidendrum</genus_name><species_name>boothianum</species_name><species_authority>Lindley</species_authority><place_of_publication><publication_title>Edwards’s Bot. Reg. </publication_title><place_in_publication>24: Misc. 5, no. 7. 1838</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa><us_distribution>s Florida</us_distribution><global_distribution>Mexico</global_distribution><global_distribution>West Indies (Bahamas)</global_distribution><global_distribution>West Indies (Cuba)</global_distribution><global_distribution>Central America (Belize).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="subfamily" authority="unknown" date="unknown">EPIDENDROIDEAE</taxon_name>
+    <taxon_name rank="tribe" authority="Lindley" date="unknown">ARETHUSEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prosthechea</taxon_name>
+    <taxon_name rank="species" authority="(Lindley) W. E. Higgins" date="unknown">boothiana</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>82: 376. 1998</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;subfamily EPIDENDROIDEAE;tribe ARETHUSEAE;genus Prosthechea;species boothiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Epidendrum</taxon_name>
+    <taxon_name rank="species" authority="Lindley" date="unknown">boothianum</taxon_name>
+    <place_of_publication>
+      <publication_title>Edwards’s Bot. Reg.</publication_title>
+      <place_in_publication>24: Misc. 5, no. 7. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Epidendrum;species boothianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion>F</discussion>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>5</number><TaxonIdentification Status="ACCEPTED"><genus_name>Trichomanes</genus_name><species_name>punctatum</species_name><species_authority>Poiret</species_authority><place_of_publication><publication_title>in Lamarck et al.,Encycl.</publication_title><place_in_publication>8: 64. 1808</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Didymoglossum</genus_name><species_name>punctatum</species_name><species_authority>(Poiret) Desvaux</species_authority></TaxonIdentification><description>Subspecies 4 (1 in the flora): tropical and subtropical regions, North America, Mexico, West Indies, Central America, South America.</description></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trichomanes</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">punctatum</taxon_name>
+    <place_of_publication>
+      <publication_title>in Lamarck et al.,Encycl.</publication_title>
+      <place_in_publication>8: 64. 1808</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Trichomanes;species punctatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Didymoglossum</taxon_name>
+    <taxon_name rank="species" authority="(Poiret) Desvaux" date="unknown">punctatum</taxon_name>
+    <taxon_hierarchy>genus Didymoglossum;species punctatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5</number>
+</bio:treatment>

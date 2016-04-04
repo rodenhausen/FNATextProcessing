@@ -1,61 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>20d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crepis</genus_name>
-    <species_name>runcinata</species_name>
-    <species_authority>(E. James) Torrey &amp; A. Gray</species_authority>
-    <subspecies_name>glauca</subspecies_name>
-    <subspecies_authority>(Nuttall) Babcock &amp; Stebbins</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="(E. James) Torrey &amp; A. Gray" date="unknown">runcinata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) Babcock &amp; Stebbins" date="unknown">glauca</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Carnegie Inst. Wash.</publication_title>
       <place_in_publication>504: 98. 1938</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species runcinata;subspecies glauca;</taxon_hierarchy>
-  <common_name>Smooth hawksbeard</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Crepidium</genus_name>
-    <species_name>glaucum</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Crepis;species runcinata;subspecies glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepidium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">glaucum</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 436. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Crepis</genus_name>
-    <species_name>runcinata</species_name>
-    <variety_name>glauca</variety_name>
-    <variety_authority>(Nuttall) B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 20–50 cm. Leaves: petioles narrowly winged; blades narrowly obovate, oblanceolate, or spat-ulate, 1.5–4 cm wide, margins dentate, faces glabrous (glaucous). Heads 3–15. Involucres 7–12 mm. Phyllaries lanceolate, apices attenuate, faces glabrous or slightly tomentose, eglandular. Cypselae golden brown, 3.5–5.5 mm, not beaked; pappi 5–6 mm. 2n = 22</description>
-  <phenology_info>
-    <text>Flowering May–Aug.</text>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>alkaline , wet or dry meadows ;</text>
-    <habitat>alkaline , wet or dry meadows</habitat>
-  </habitat_info>
-  <elevation>1600–2300 m;</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Crepidium;species glaucum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crepis</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">runcinata</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) B. Boivin" date="unknown">glauca</taxon_name>
+    <taxon_hierarchy>genus Crepis;species runcinata;variety glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <number>20d.</number>
+  <other_name type="common_name">Smooth hawksbeard</other_name>
+</bio:treatment>

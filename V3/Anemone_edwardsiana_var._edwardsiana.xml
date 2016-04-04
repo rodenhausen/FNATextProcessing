@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>7a.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Anemone</genus_name>
-        <species_name>edwardsiana</species_name>
-        <species_authority>Tharp</species_authority>
-        <variety_name>edwardsiana</variety_name>
-    </TaxonIdentification>
-    <endemic>endemic</endemic>
-    <description>Achenes ± dull, wooly.</description>
-    <phenology>Flowering winter-spring (Feb--Apr)</phenology>
-    <phenology>Feb</phenology>
-    <phenology>Mar</phenology>
-    <phenology>Apr</phenology>
-    <habitat> Moist, limestone bluffs and ledges</habitat>
-    <elevation> 200-500 m</elevation>
-    <us_distribution> Tex.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Anemone</taxon_name>
+    <taxon_name rank="species" authority="Tharp" date="unknown">edwardsiana</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">edwardsiana</taxon_name>
+    <taxon_hierarchy>genus Anemone;species edwardsiana;variety edwardsiana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7a.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

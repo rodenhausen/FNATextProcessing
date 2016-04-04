@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>52a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Delphinium</genus_name><species_name>menziesii</species_name><species_authority>de Candolle</species_authority><subspecies_name>menziesii</subspecies_name></TaxonIdentification><common_name>Menzies' larkspur</common_name><endemic>endemic</endemic><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>menziesii</species_name><variety_name>pyramidalis</variety_name><variety_authority>(Ewan) C. L. Hitchcock</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>oreganum</species_name><species_authority>Howell</species_authority></TaxonIdentification><description>Stems 35-70 cm. Flowers: sepals blue to purple, 13-20 × 5-11 mm; spurs 11-17 mm. 2n = 16.</description><phenology>Flowering spring</phenology><habitat> Meadows, open woodlands</habitat><elevation> 0-1000 m</elevation><ca_distribution> B.C.</ca_distribution><us_distribution> Oreg.</us_distribution><us_distribution> Wash.</us_distribution><discussion>Delphinium menziesii subsp. menziesii hybridizes with D. trolliifolium and D. nuttallii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">menziesii</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">menziesii</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species menziesii;subspecies menziesii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">menziesii</taxon_name>
+    <taxon_name rank="variety" authority="(Ewan) C. L. Hitchcock" date="unknown">pyramidalis</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species menziesii;variety pyramidalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">oreganum</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species oreganum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>52a.</number>
+  <other_name type="common_name">Menzies' larkspur</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>Delphinium menziesii subsp. menziesii hybridizes with D. trolliifolium and D. nuttallii.</discussion>
+</bio:treatment>

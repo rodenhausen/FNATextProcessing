@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>70.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cyperus</genus_name><species_name>manimae</species_name><species_authority>Kunth</species_authority><place_of_publication>
-    <publication_title>in A. von Humboldt et al., Nov. Gen. Sp.</publication_title>
-    <place_in_publication>1: 209. 1816</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Cyperus</genus_name><species_name>spectabilis</species_name><species_authority>Sprengel</species_authority><variety_name>coarctatus</variety_name><variety_authority>Boeckeler</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Mariscus</genus_name><species_name>manimae</species_name><species_authority>(Kunth) C. B. Clarke</species_authority></TaxonIdentification><number_of_infrataxa>Varieties 3 (1 in the flora):</number_of_infrataxa><global_distribution>North America</global_distribution><global_distribution>mountains of Central America and South America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">CYPERACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="species" authority="Kunth" date="unknown">manimae</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. von Humboldt et al., Nov. Gen. Sp.</publication_title>
+      <place_in_publication>1: 209. 1816</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CYPERACEAE;genus Cyperus;species manimae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyperus</taxon_name>
+    <taxon_name rank="species" authority="Sprengel" date="unknown">spectabilis</taxon_name>
+    <taxon_name rank="variety" authority="Boeckeler" date="unknown">coarctatus</taxon_name>
+    <taxon_hierarchy>genus Cyperus;species spectabilis;variety coarctatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mariscus</taxon_name>
+    <taxon_name rank="species" authority="(Kunth) C. B. Clarke" date="unknown">manimae</taxon_name>
+    <taxon_hierarchy>genus Mariscus;species manimae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>70.</number>
+  <discussion>Varieties 3 (1 in the flora):</discussion>
+</bio:treatment>

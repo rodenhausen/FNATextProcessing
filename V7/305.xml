@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>TARENAYA</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Gordon C. Tucker,Hugh H. Iltis</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">TARENAYA</taxon_name>
     <place_of_publication>
       <publication_title>Sylva Tellur.,</publication_title>
       <place_in_publication>111. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Origin obscure]</etymology>
-  <common_name>Spiderflower</common_name>
-  <author>Gordon C. Tucker</author>
-  <author>Hugh H. Iltis</author>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cleome</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Tarenaya</section_name>
-    <section_authority>(Rafinesque) H. H. Iltis</section_authority>
-  </TaxonIdentification>
-  <description>Herbs [shrubs], annual. Stems sparsely to profusely branched; glabrous or glandular-pubescent (sometimes spiny). Leaves: stipular spines present [absent]; petiole with pulvinus basally or distally, (petiolule base adnate, forming pulvinar disc; spines present); leaflets [1 or](3) 5 or 7[–11] (with tiny prickles terminating teeth). Inflorescences terminal or axillary (from distal leaves), racemes (flat-topped or elongated); bracts present [absent]. Flowers (often appearing unisexual due to incomplete development), zygomorphic; sepals persistent, distinct, equal (each often subtending a nectary); petals equal; stamens 6; filaments inserted on a discoid or conical androgynophore, glabrous; anthers (linear), coiling as pollen is released; gynophore recurved in fruit. Fruits capsules, dehiscent, oblong. Seeds 10–30+, triangular to subglobose, not arillate, (cleft fused between ends). x = 10.</description>
-  <number_of_infrataxa>Species 33 (2 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>South America</global_distribution>
-  <global_distribution>introduced worldwide in tropical and warm-temperate regions.</global_distribution>
+    <taxon_hierarchy>family CLEOMACEAE;genus TARENAYA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Origin obscure]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="section" authority="(Rafinesque) H. H. Iltis" date="unknown">Tarenaya</taxon_name>
+    <taxon_hierarchy>genus Cleome;section Tarenaya;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
+  <other_name type="common_name">Spiderflower</other_name>
+  <discussion>Species 33 (2 in the flora):</discussion>
   <discussion>Traditionally included in a broad circumscription of Cleome, Tarenaya is distinguished by its stipular and petiolar spines, absence of arils, and seeds with a large cleft cavity. All species are native to tropical America, with the exception of T. afrospina (H. H. Iltis) H. H. Iltis, of western Africa. Tarenaya hassleriana, long known as C. spinosa (and commonly by the misapplied name C. houtteana) and more recently as C. hassleriana, is a popular garden ornamental and, probably, the most widely distributed member of the family.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals, ovary, and capsules glabrous; petals usually pink or purple, sometimes white</statement>
+      <description type="morphology">Sepals, ovary, and capsules glabrous; petals usually pink or purple, sometimes white</description>
       <determination>1. Tarenaya hassleriana</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Sepals, ovary, and capsules ± glandular-pubescent; petals white or greenish white</statement>
+      <description type="morphology">Sepals, ovary, and capsules ± glandular-pubescent; petals white or greenish white</description>
       <determination>2. Tarenaya spinosa</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

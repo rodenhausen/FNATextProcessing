@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>howellii</species_name>
-    <species_authority>S. Watson</species_authority>
-    <subspecies_name>spectabilis</subspecies_name>
-    <subspecies_authority>(M. Peck) Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="Prantl" date="unknown">Thelypodieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">howellii</taxon_name>
+    <taxon_name rank="subspecies" authority="(M. Peck) Al-Shehbaz" date="unknown">spectabilis</taxon_name>
     <place_of_publication>
       <publication_title>Contr. Gray Herb.</publication_title>
       <place_in_publication>204: 116. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thelypodium</genus_name>
-    <species_name>howellii</species_name>
-    <variety_name>spectabilis</variety_name>
-    <variety_authority>M. Peck</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Thelypodieae;genus Thelypodium;species howellii;subspecies spectabilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thelypodium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">howellii</taxon_name>
+    <taxon_name rank="variety" authority="M. Peck" date="unknown">spectabilis</taxon_name>
     <place_of_publication>
       <publication_title>Torreya</publication_title>
       <place_in_publication>32: 150. 1932</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Basal leaves: blade oblong-lanceolate to oblong, margins entire or repand. Flowers: petals usually spatulate, rarely oblanceolate, (1.2–)1.5–2.7(–3) mm wide; median filaments distinct. Fruits (1.8–)3–6.5(–8.2) cm. 2n = 26.</description>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <phenology>jul</phenology>
-  <habitat>desert shrub communities</habitat>
-  <habitat>alkaline ground</habitat>
-  <conservation>of conservation concern;</conservation>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Thelypodium;species howellii;variety spectabilis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5b.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Subspecies spectabilis is known only from Baker, Harney, Malheur, and Union counties. It is in the Center for Plant Conservation’s National Collection of Endangered Plants.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>12b</number><TaxonIdentification Status="ACCEPTED"><genus_name>Equisetum</genus_name><species_name>variegatum</species_name><subspecies_name>alaskanum</subspecies_name><subspecies_authority>(A. A. Eaton) Hultén</subspecies_authority><place_of_publication><publication_title>Acta Univ. Lund.</publication_title><place_in_publication>37(1): 59. 1941</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Equisetum</genus_name><species_name>variegatum</species_name><variety_name>alaskanum</variety_name><variety_authority>A.A. Eaton</variety_authority><place_of_publication><publication_title>in Merriam, Harriman Alaska Exped. </publication_title><place_in_publication>5: 390. 1904</place_in_publication></place_of_publication></TaxonIdentification><description>Stems  26--55 cm; teeth all black or with obscure white margins, 8--14, incurved.</description><phenology>Cones maturing in late summer, or cones overwintering and shedding spores in spring</phenology><habitat> Lakeshores, riverbanks, ditches, wet woods, tundra</habitat><elevation> 0--1500 m</elevation><ca_distribution> B.C.</ca_distribution><ca_distribution> Yukon</ca_distribution><us_distribution> Alaska including the Aleutian Islands</us_distribution><us_distribution> Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Equisetum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">variegatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. A. Eaton) Hultén" date="unknown">alaskanum</taxon_name>
+    <place_of_publication>
+      <publication_title>Acta Univ. Lund.</publication_title>
+      <place_in_publication>37(1): 59. 1941</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Equisetum;species variegatum;subspecies alaskanum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Equisetum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">variegatum</taxon_name>
+    <taxon_name rank="variety" authority="A.A. Eaton" date="unknown">alaskanum</taxon_name>
+    <place_of_publication>
+      <publication_title>in Merriam, Harriman Alaska Exped.</publication_title>
+      <place_in_publication>5: 390. 1904</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Equisetum;species variegatum;variety alaskanum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12b</number>
+</bio:treatment>

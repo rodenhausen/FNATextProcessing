@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>franciscana</species_name>
-    <species_authority>Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">franciscana</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>32: 201.  1905,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>hookeri</species_name>
-    <species_authority>G. Don</species_authority>
-    <subspecies_name>franciscana</subspecies_name>
-    <subspecies_authority>(Eastwood) Munz</subspecies_authority>
-  </TaxonIdentification>
-  <description>Shrubs, prostrate or mat-forming, 0.2–1.5 m; burl absent; twigs gray-hairy.  Leaves: petiole 3–5 mm, (eglandular); blade bright green, shiny, oblanceolate, 1.5–2 × 0.5–1 cm, base cuneate, margins entire, plane, surfaces smooth, ± puberulent, glabrescent.  Inflorescences panicles, 1–3-branched; immature inflorescence pendent, (branches compact), axis 0.5–1 cm, 1+ mm diam., gray-hairy; bracts appressed, scalelike (basalmost leaflike), awl-shaped, (concave when fresh), 3–4 mm, apex acute, surfaces glabrous.  Pedicels 2–6 mm, glabrous.  Flowers: corolla white to pink, urceolate; ovary canescent.  Fruits globose, 6–8 mm diam., glabrous.  Stones distinct.  2n = 26.</description>
-  <phenology>Flowering winter–early spring</phenology>
-  <habitat>Maritime chaparral, serpentine soils</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0–100 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species franciscana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="G. Don" date="unknown">hookeri</taxon_name>
+    <taxon_name rank="subspecies" authority="(Eastwood) Munz" date="unknown">franciscana</taxon_name>
+    <taxon_hierarchy>genus Arctostaphylos;species hookeri;subspecies franciscana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>22.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Formerly found in the northwestern portions of San Francisco, Arctostaphylos franciscana is now extirpated from the wild and survives only in cultivation.</discussion>
   <discussion>Arctostaphylos franciscana is in the Center for Plant Conservation’s National Collection of Endangered Plants as A. hookeri subsp. franciscana.</discussion>
-</treatment>
+</bio:treatment>

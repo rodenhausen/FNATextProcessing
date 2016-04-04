@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>4.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Montia</genus_name><species_name>diffusa</species_name><species_authority>(Nuttall) Greene</species_authority><place_of_publication>
-    <publication_title>Fl. Francisc.,</publication_title>
-    <place_in_publication>181. 1891</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Branching montia</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Claytonia</genus_name><species_name>diffusa</species_name><species_authority>Nuttall</species_authority><place_of_publication><publication_title>in J. Torrey and A. Gray, Fl. N. Amer. </publication_title><place_in_publication>1: 202. 1838</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Limnalsine</genus_name><species_name>diffusa</species_name><species_authority>(Nuttall) Rydberg</species_authority></TaxonIdentification><description>Plants annual, not rhizomatous, stoloniferous, or bulbiferous. Stems spreading, freely branched, 5–20 cm. Leaves alternate, petiolate, clasping leaf sheaths absent; blade lanceolate to broadly ovate, more often rhombic to suborbiculate, 20–70 × 10–40 mm. Inflorescences leafy. Flowers 2–8; sepals 1.8–3.5 mm; petals 5, pink or white, 3–5 mm; stamens 5, anther white to yellow. Seeds 1–1.5 mm, tuberculate; elaiosome present. 2n = 16.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>moist woods</habitat><elevation>0–1200 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Adanson" date="unknown">PORTULACACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Montia</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Greene" date="unknown">diffusa</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Francisc.,</publication_title>
+      <place_in_publication>181. 1891</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family PORTULACACEAE;genus Montia;species diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Claytonia</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">diffusa</taxon_name>
+    <place_of_publication>
+      <publication_title>in J. Torrey and A. Gray, Fl. N. Amer.</publication_title>
+      <place_in_publication>1: 202. 1838</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Claytonia;species diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnalsine</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Rydberg" date="unknown">diffusa</taxon_name>
+    <taxon_hierarchy>genus Limnalsine;species diffusa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Branching montia</other_name>
+</bio:treatment>

@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>60a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Delphinium</genus_name><species_name>patens</species_name><species_authority>Bentham</species_authority><subspecies_name>patens</subspecies_name></TaxonIdentification><endemic>endemic</endemic><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>decorum</species_name><species_authority>Fischer &amp; C. A. Meyer</species_authority><variety_name>patens</variety_name><variety_authority>(Bentham) A. Gray</variety_authority></TaxonIdentification><description>Leaves: basal leaves usually present at anthesis; basal and proximal cauline leaf blades usually cleft more than 4/5 radius of blade. Leaf blade: ultimate lobes 3-5, width usually less than 15 mm. Inflorescences: pedicel usually glabrous. Flowers: lateral sepals 9-20 mm, spurs 10-15 mm; lower petal blades 4-6 mm; hairs asymmetrically distributed. 2n = 16.</description><phenology>Flowering spring</phenology><habitat> Grasslands, open woods</habitat><elevation> 80-1100 m</elevation><us_distribution> Calif.</us_distribution><discussion>Delphinium patens subsp. patens hybridizes with D. decorum (see discussion under D. decorum), D. nudicaule, and D. variegatum. Plants of D. patens subsp. patens have been confused with D. decorum, D. gracilentum, and D. nuttallianum. See discussions under those species for distinguishing features.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">patens</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">patens</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species patens;subspecies patens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="Fischer &amp; C. A. Meyer" date="unknown">decorum</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) A. Gray" date="unknown">patens</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species decorum;variety patens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>60a.</number>
+  <discussion>endemic</discussion>
+  <discussion>Delphinium patens subsp. patens hybridizes with D. decorum (see discussion under D. decorum), D. nudicaule, and D. variegatum. Plants of D. patens subsp. patens have been confused with D. decorum, D. gracilentum, and D. nuttallianum. See discussions under those species for distinguishing features.</discussion>
+</bio:treatment>

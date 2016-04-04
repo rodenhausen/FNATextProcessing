@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Jensia</genus_name><species_name>yosemitana</species_name><species_authority>(Parry ex A. Gray) B. G. Baldwin</species_authority><place_of_publication>
-    <publication_title>Novon</publication_title>
-    <place_in_publication>9: 465. 1999</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Madia</genus_name><species_name>yosemitana</species_name><species_authority>Parry ex A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>17: 219. 1882</place_in_publication></place_of_publication></TaxonIdentification><description>Plants 5–15(–25) cm. Leaves: blades 10–50 × 1–2 mm. Invo-lucres broadly obconic, 2.5–4 mm. Ray florets 2–8; laminae 0.5–3 mm. Disc florets 1–7. 2n = 16.</description><phenology>may</phenology><phenology>spring</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>sandy places</habitat><habitat>meadows</habitat><conservation>of conservation concern;</conservation><elevation>1200–2300 m;</elevation><us_distribution>Calif.</us_distribution><discussion>Jensia yosemitana is known from widely scattered sites on the western slopes of the Sierra Nevada, at higher elevations than most populations of J. rammii.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Bentham &amp; Hooker f." date="unknown">Madiinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Jensia</taxon_name>
+    <taxon_name rank="species" authority="(Parry ex A. Gray) B. G. Baldwin" date="unknown">yosemitana</taxon_name>
+    <place_of_publication>
+      <publication_title>Novon</publication_title>
+      <place_in_publication>9: 465. 1999</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Madiinae;genus Jensia;species yosemitana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Madia</taxon_name>
+    <taxon_name rank="species" authority="Parry ex A. Gray" date="unknown">yosemitana</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>17: 219. 1882</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Madia;species yosemitana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Jensia yosemitana is known from widely scattered sites on the western slopes of the Sierra Nevada, at higher elevations than most populations of J. rammii.</discussion>
+</bio:treatment>

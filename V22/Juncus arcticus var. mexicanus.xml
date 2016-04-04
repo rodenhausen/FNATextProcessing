@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>9c</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juncus</genus_name><species_name>arcticus</species_name><variety_name>mexicanus</variety_name><variety_authority>(Willdenow ex Roemer &amp; Schultes) Balslev</variety_authority><place_of_publication><publication_title>Brittonia</publication_title><place_in_publication>35: 308. 1983</place_in_publication></place_of_publication></TaxonIdentification><common_name>Mexican rush</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Juncus</genus_name><species_name>mexicanus</species_name><species_authority>Willdenow ex Roemer &amp; Schultes</species_authority><place_of_publication><publication_title>Syst. Veg. </publication_title><place_in_publication>7(1): 178. 1829</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juncus</genus_name><species_name>balticus</species_name><species_authority>Willdenow</species_authority><variety_name>mexicanus</variety_name><variety_authority>(Willdenow ex Roemer &amp; Schultes) Kuntze</variety_authority></TaxonIdentification><description>Herbs, 2--8 dm. Culms usually compressed. Leaves: blade distinct, somewhat flattened, to 20 cm or more. Flowers: tepals usually brown or blackish, 3.5--4.5(--5.5) mm; filaments 0.2--0.4 mm, anthers 1.2--2.2 mm.</description><discussion>Juncus arcticus var. mexicanus is the common phase of the species in the extreme southwest United States and Mexico; northward the variety becomes sporadic in its occurrence. Rare individuals having leaves with blades are sometimes found in otherwise bladeless populations in more northern areas but it is doubtful that these oddities represent an equivalent variant.</discussion><habitat>Intermittent or permanent water courses, around springs, and in meadows in sandy or gravelly soils</habitat><elevation>500--3200 m</elevation><us_distribution>Ariz.</us_distribution><us_distribution> Calif.</us_distribution><us_distribution> Colo.</us_distribution><us_distribution> N.Mex.</us_distribution><us_distribution> Nev.</us_distribution><us_distribution> Utah</us_distribution><global_distribution>Mexico</global_distribution><global_distribution>Central America</global_distribution><global_distribution>South America..</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Willdenow ex Roemer &amp; Schultes" date="unknown">arcticus</taxon_name>
+    <taxon_name rank="variety" authority="(Willdenow ex Roemer &amp; Schultes) Balslev" date="unknown">mexicanus</taxon_name>
+    <place_of_publication>
+      <publication_title>Brittonia</publication_title>
+      <place_in_publication>35: 308. 1983</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;species arcticus;variety mexicanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">mexicanus</taxon_name>
+    <place_of_publication>
+      <publication_title>Syst. Veg.</publication_title>
+      <place_in_publication>7(1): 178. 1829</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Juncus;species mexicanus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juncus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">balticus</taxon_name>
+    <taxon_name rank="variety" authority="(Willdenow ex Roemer &amp; Schultes) Kuntze" date="unknown">mexicanus</taxon_name>
+    <taxon_hierarchy>genus Juncus;species balticus;variety mexicanus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9c</number>
+  <other_name type="common_name">Mexican rush</other_name>
+  <discussion>Juncus arcticus var. mexicanus is the common phase of the species in the extreme southwest United States and Mexico; northward the variety becomes sporadic in its occurrence. Rare individuals having leaves with blades are sometimes found in otherwise bladeless populations in more northern areas but it is doubtful that these oddities represent an equivalent variant.</discussion>
+</bio:treatment>

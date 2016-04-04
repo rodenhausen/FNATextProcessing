@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>26b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Perityle</genus_name><species_name>gilensis</species_name><species_authority>(M. E. Jones) J. F. Macbride</species_authority><variety_name>salensis</variety_name><variety_authority>A. M. Powell</variety_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>5: 104, fig 7. 1973</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Salt River rock daisy</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Laphamia</genus_name><species_name>gilensis</species_name><species_authority>M. E. Jones</species_authority><subspecies_name>longilobus</subspecies_name><subspecies_authority>W. E. Niles</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Perityle</genus_name><species_name>gilensis</species_name><variety_name>longilobus</variety_name><variety_authority>(W. E. Niles) A. M. Powell &amp; Yarborough</variety_authority></TaxonIdentification><description>Plants trailing, 30–70 cm. Leaves: petioles 25–45(–80) cm, lobes of mid and distal leaves linear to long-spatulate, to 6 × 0.5(–1) cm. 2n = 34.</description><phenology>spring</phenology><phenology>mar</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><phenology>fall</phenology><phenology>sep</phenology><phenology>oct</phenology><phenology>nov</phenology><habitat>crevices and ledges</habitat><habitat>igneous canyon walls</habitat><conservation>of conservation concern;</conservation><elevation>900–2000 m;</elevation><us_distribution>Ariz.</us_distribution><discussion>Variety salensis is known only from Salt River Canyon.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=")" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Rydberg" date="unknown">Peritylinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Perityle</taxon_name>
+    <taxon_name rank="species" authority="(M. E. Jones) J. F. Macbride" date="unknown">gilensis</taxon_name>
+    <taxon_name rank="variety" authority="A. M. Powell" date="unknown">salensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>5: 104, fig 7. 1973</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Peritylinae;genus Perityle;species gilensis;variety salensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Laphamia</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">gilensis</taxon_name>
+    <taxon_name rank="subspecies" authority="W. E. Niles" date="unknown">longilobus</taxon_name>
+    <taxon_hierarchy>genus Laphamia;species gilensis;subspecies longilobus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Perityle</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">gilensis</taxon_name>
+    <taxon_name rank="variety" authority="(W. E. Niles) A. M. Powell &amp; Yarborough" date="unknown">longilobus</taxon_name>
+    <taxon_hierarchy>genus Perityle;species gilensis;variety longilobus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>26b.</number>
+  <other_name type="common_name">Salt River rock daisy</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+  <discussion>Variety salensis is known only from Salt River Canyon.</discussion>
+</bio:treatment>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Dactylorhiza</genus_name><species_name>majalis</species_name><species_authority>(Reichenbach) P. F. Hunt &amp; Summerhayes</species_authority><place_of_publication>
-    <publication_title>Watsonia</publication_title>
-    <place_in_publication>6: 130. 1965</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Orchis</genus_name><species_name>majalis</species_name><species_authority>Reichenbach</species_authority><place_of_publication><publication_title>Iconogr. Bot. Pl. Crit. </publication_title><place_in_publication>6(2): 7. 1828</place_in_publication></place_of_publication></TaxonIdentification><number_of_infrataxa>Varieties ca. 8 (1 in the flora):</number_of_infrataxa><introduced>introduced;</introduced><global_distribution>ne Canada</global_distribution><global_distribution>native Eurasia.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dactylorhiza</taxon_name>
+    <taxon_name rank="species" authority="(Reichenbach) P. F. Hunt &amp; Summerhayes" date="unknown">majalis</taxon_name>
+    <place_of_publication>
+      <publication_title>Watsonia</publication_title>
+      <place_in_publication>6: 130. 1965</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Dactylorhiza;species majalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Orchis</taxon_name>
+    <taxon_name rank="species" authority="Reichenbach" date="unknown">majalis</taxon_name>
+    <place_of_publication>
+      <publication_title>Iconogr. Bot. Pl. Crit.</publication_title>
+      <place_in_publication>6(2): 7. 1828</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Orchis;species majalis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion>Varieties ca. 8 (1 in the flora):</discussion>
+</bio:treatment>

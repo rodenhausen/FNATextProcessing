@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>54b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Solidago</genus_name><species_name>odora</species_name><species_authority>Aiton</species_authority><subspecies_name>chapmanii</subspecies_name><subspecies_authority>(A. Gray) Semple</subspecies_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>20: 1611. 2003</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Chapman’s goldenrod</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Solidago</genus_name><species_name>chapmanii</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>16: 80. 1880</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Solidago</genus_name><species_name>odora</species_name><variety_name>chapmanii</variety_name><variety_authority>(A. Gray) Cronquist</variety_authority></TaxonIdentification><description>Stems uniformly puberulent, sometimes with short glabrous-glabrate strips proximal to leaf bases. Mid cauline leaves mostly (15–)30–70 × 8–20 mm (2–6 times as long as wide). 2n = 18.</description><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>sandy soils</habitat><habitat>margins of woods</habitat><habitat>open pine and oak woods</habitat><elevation>10–50 m;</elevation><us_distribution>Fla.</us_distribution><discussion>Subspecies chapmanii is found mostly in peninsular Florida, seldom in the eastern panhandle. Its leaves are sometimes similar in shape to those of Solidago fistulosa, both being more ovate than in typical subsp. odora.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">odora</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) Semple" date="unknown">chapmanii</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1611. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Solidago;species odora;subspecies chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">chapmanii</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>16: 80. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Solidago;species chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Solidago</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">odora</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) Cronquist" date="unknown">chapmanii</taxon_name>
+    <taxon_hierarchy>genus Solidago;species odora;variety chapmanii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>54b.</number>
+  <other_name type="common_name">Chapman’s goldenrod</other_name>
+  <discussion>Subspecies chapmanii is found mostly in peninsular Florida, seldom in the eastern panhandle. Its leaves are sometimes similar in shape to those of Solidago fistulosa, both being more ovate than in typical subsp. odora.</discussion>
+</bio:treatment>

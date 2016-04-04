@@ -1,62 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>62b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>ovalifolia</species_name>
-    <species_authority>(Rydberg) O’Kane &amp; Al-Shehbaz</species_authority>
-    <subspecies_name>alba</subspecies_name>
-    <subspecies_authority>(Goodman) O’Kane &amp; Al-Shehbaz</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Rydberg) O’Kane &amp; Al-Shehbaz" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Goodman) O’Kane &amp; Al-Shehbaz" date="unknown">alba</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 326. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>ovalifolia</species_name>
-    <species_authority>Rydberg</species_authority>
-    <variety_name>alba</variety_name>
-    <variety_authority>Goodman</variety_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species ovalifolia;subspecies alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="variety" authority="Goodman" date="unknown">alba</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>38: 239. 1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>engelmannii</species_name>
-    <species_authority>(A. Gray) S. Watson</species_authority>
-    <subspecies_name>alba</subspecies_name>
-    <subspecies_authority>(Goodman) C. Clark</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>ovalifolia</species_name>
-    <subspecies_name>alba</subspecies_name>
-    <subspecies_authority>(Goodman) Rollins &amp; E. A. Shaw</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Physaria</genus_name>
-    <species_name>ovalifolia</species_name>
-    <variety_name>alba</variety_name>
-    <variety_authority>(Goodman) B. L. Turner</variety_authority>
-  </TaxonIdentification>
-  <description>Caudex usually simple. Stems usually few from base, erect or outer decumbent, 1.5–2.5 dm. Basal leaves: blade (outer) often broadly elliptic, base narrowing gradually to petiole, margins sinuate to dentate (or blade deltate, less than 1 cm, base abruptly narrowed to petiole). Racemes usually elongated. Petals white, (9–)11–15 mm, often 2 times as long as sepals. 2n = 12.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>apr</phenology>
-  <habitat>limey and gravelly knolls</habitat>
-  <habitat>grassland hills</habitat>
-  <habitat>limestone hillsides and breaks</habitat>
-  <habitat>gypsum, shale</habitat>
-  <habitat>rocky calcareous soils</habitat>
-  <habitat>stony areas</habitat>
-  <habitat>prairie pastures</habitat>
-  <habitat>limestone roadcuts</habitat>
-  <elevation>150–700 m;</elevation>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Lesquerella;species ovalifolia;variety alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) S. Watson" date="unknown">engelmannii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Goodman) C. Clark" date="unknown">alba</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species engelmannii;subspecies alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="subspecies" authority="(Goodman) Rollins &amp; E. A. Shaw" date="unknown">alba</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species ovalifolia;subspecies alba;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ovalifolia</taxon_name>
+    <taxon_name rank="variety" authority="(Goodman) B. L. Turner" date="unknown">alba</taxon_name>
+    <taxon_hierarchy>genus Physaria;species ovalifolia;variety alba;</taxon_hierarchy>
+  </taxon_identification>
+  <number>62b.</number>
+</bio:treatment>

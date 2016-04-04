@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>15.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ribes</genus_name>
-    <species_name>sanguineum</species_name>
-    <species_authority>Pursh</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="de Candolle" date="unknown">GROSSULARIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ribes</taxon_name>
+    <taxon_name rank="species" authority="Pursh" date="unknown">sanguineum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Amer. Sept.</publication_title>
       <place_in_publication>1: 164.  1813  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Red-flowering currant</common_name>
-  <description>Plants 1–4 m.  Stems erect, finely pubescent, stipitate-glandular; spines at nodes absent; prickles on internodes absent.  Leaves: petiole 2–7 cm, puberulent, short stipitate-glandular; blade broadly reniform or cordate-orbiculate to deltate-ovate, nearly equally to irregularly 5-lobed, cleft nearly 1/4 to midrib, 2–7 cm, base subtruncate to cordate, surfaces puberulent to whitish-tomentose abaxially, puberulent adaxially or puberulent and colorless, sessile-glandular on both surfaces, lobes deltate to obtuse, margins finely 2–3 times crenate and denticulate or serrate, apex broadly acute.  Inflorescences pendent to stiffly spreading or ascending or erect, 5–40-flowered racemes, 5–15 cm, axis crisped-pubescent and stipitate-glandular, flowers evenly spaced.  Pedicels jointed, 5–10 mm, pubescent, stipitate-glandular; bracts oblanceolate or lanceolate, 2–12 mm, with scattered, short hairs and stalked glands.  Flowers: hypanthium white, pink, rose, or red, tubular to campanulate, 3–7 mm, pubescent, stipitate-glandular; sepals not overlapping, spreading or reflexed, white, pink, or red, ovate-elliptic or oblong to oblanceolate or lanceolate, 4–5 mm; petals not or nearly connivent to connivent, erect, white or pink to red, obovate-spatulate to oblong or almost square, not conspicuously revolute or inrolled, 1–3.5 mm; nectary disc not prominent; stamens shorter than to as long as petals; filaments linear or slightly expanded at base, 1.2–2 mm, glabrous; anthers cream, oblong-oval, 0.5–0.8 mm, apex shallowly notched; ovary stipitate-glandular to strongly stipitate-glandular and crisped-puberulent; styles connate nearly to stigmas, 4–6 mm, glabrous or with scattered, stipitate glands at base.  Berries palatable but insipid, blue-black, glaucous, ovoid or globose, 3–9(–10) mm, yellowish or greenish stipitate-glandular.  2n = 16.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>nw North America</global_distribution>
-  <global_distribution>introduced in c Europe.</global_distribution>
+    <taxon_hierarchy>family GROSSULARIACEAE;genus Ribes;species sanguineum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>15.</number>
+  <other_name type="common_name">Red-flowering currant</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>Ribes sanguineum is widely cultivated.  It begins to bloom very early in the season, providing a nectar source for pollinators when little else is available.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Racemes 5–15(–20)-flowered, erect to stiffly spreading or ascending; sepals red</statement>
+      <description type="morphology">Racemes 5–15(–20)-flowered, erect to stiffly spreading or ascending; sepals red</description>
       <determination>15a.   Ribes sanguineum var. sanguineum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Racemes 15–40-flowered, pendent; sepals pink to white</statement>
+      <description type="morphology">Racemes 15–40-flowered, pendent; sepals pink to white</description>
       <determination>15b.   Ribes sanguineum var. glutinosum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

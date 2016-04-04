@@ -1,38 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>myrsinites</species_name>
-    <species_authority>Lamarck</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Lamarck" date="unknown">myrsinites</taxon_name>
     <place_of_publication>
       <publication_title>in J. Lamarck et al., Encycl.</publication_title>
       <place_in_publication>1: 73. 1783 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Shiny blueberry</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cyanococcus</genus_name>
-    <species_name>myrsinites</species_name>
-    <species_authority>(Lamarck) Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Vaccinium</genus_name>
-    <species_name>nitidum</species_name>
-    <species_authority>Andrews</species_authority>
-  </TaxonIdentification>
-  <description>Plants forming extensive open colonies, 1.4–10 dm; twigs bright green, ± angled,
-        hairy in lines. Leaves persistent for 1+ years; blade green, elliptic, 5–9 × 3–5 mm,
-        coriaceous, margins ± serrulate, surfaces glandular abaxially. Flowers: calyx pinkish white,
-        becoming greenish, glabrous; corolla white to pink or red, ± urceolate, 4–8 mm; filaments
-        ciliate along margins. Berries black, 7–9 mm diam., glabrous. Seeds 4–13, ca. 1 mm. 2n = 24,
-        48.</description>
-  <phenology>Flowering winter–spring</phenology>
-  <habitat>Flatwoods, sand-pine scrub, oak-palmetto scrub, scrubby flatwoods, rosemary
-        balds</habitat>
-  <elevation>0–30 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-</treatment>
+    <taxon_hierarchy>family ERICACEAE;genus Vaccinium;species myrsinites;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cyanococcus</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Small" date="unknown">myrsinites</taxon_name>
+    <taxon_hierarchy>genus Cyanococcus;species myrsinites;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vaccinium</taxon_name>
+    <taxon_name rank="species" authority="Andrews" date="unknown">nitidum</taxon_name>
+    <taxon_hierarchy>genus Vaccinium;species nitidum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>17.</number>
+  <other_name type="common_name">Shiny blueberry</other_name>
+</bio:treatment>

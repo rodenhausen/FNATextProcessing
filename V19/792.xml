@@ -1,54 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dittrichia</genus_name>
-    <species_name>graveolens</species_name>
-    <species_authority>(Linnaeus) Greuter</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Inuleae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dittrichia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Greuter" date="unknown">graveolens</taxon_name>
     <place_of_publication>
       <publication_title>Exsicc. Genav. Conserv. Bot. Distrib. Fasc.</publication_title>
       <place_in_publication>4: 71. 1973</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Inuleae;genus Dittrichia;species graveolens;</taxon_hierarchy>
-  <common_name>Stinkwort</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Erigeron</genus_name>
-    <species_name>graveolens</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Inuleae;genus Dittrichia;species graveolens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erigeron</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">graveolens</taxon_name>
     <place_of_publication>
       <publication_title>Cent. Pl. I,</publication_title>
       <place_in_publication>28. 1755</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Inula</genus_name>
-    <species_name>graveolens</species_name>
-    <species_authority>(Linnaeus) Desfontaines</species_authority>
-  </TaxonIdentification>
-  <description>Plants viscid, rank smelling, 20–130 cm; stems ± pilose and stipitate-glandular. Leaf blades linear to lance-linear, 1–3(–7) cm × 1–3(–10) mm, margins entire or denticulate, apices acute, faces pilosulous to hirtellous and minutely stipitate-glandular. Phyllaries 1–8 mm. Ray florets (6–)10–12(–16); corolla laminae 2–5(–7) mm. Disc florets 9–14+; corollas 3–4 mm. Cypselae 1.5–2 mm; pappi 3–4(–5) mm. 2n = 18 (Morocco).</description>
-  <phenology_info>
-    <text>Flowering Sep–Nov.</text>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed fields , roadways , estuarine borders ;</text>
-    <habitat>disturbed fields</habitat>
-    <habitat>roadways</habitat>
-    <habitat>estuarine borders</habitat>
-  </habitat_info>
-  <elevation>0–200 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <global_distribution>Europe (Balkan Peninsula)</global_distribution>
-  <global_distribution>Europe (sw Italy)</global_distribution>
-  <global_distribution>Asia (India)</global_distribution>
-  <global_distribution>Africa (South Africa)</global_distribution>
-  <global_distribution>Australia.</global_distribution>
+    <taxon_hierarchy>genus Erigeron;species graveolens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Inula</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Desfontaines" date="unknown">graveolens</taxon_name>
+    <taxon_hierarchy>genus Inula;species graveolens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Stinkwort</other_name>
   <discussion>Dittrichia graveolens was collected as a ruderal in Connecticut in the 1930s, and collections from New York in the late 1940s recorded it as abundant in areas where road construction was underway. It appears to be recently introduced in California, where it has spread rapidly and has the potential to become a noxious weed (R. E. Preston 1997). Dittrichia graveolens has been shown to cause allergic contact dermatitis (J. N. Burry and P. M. Kloot 1982). The plants produce sesquiterpene lactones (G. S. d’Alcontres et al. 1973; A. Rustaiyan et al. 1987; R. Lanzetta et al. 1991), which have been shown for many composites to be linked to allergic contact dermatitis in humans (J. C. Mitchell and G. Dupuis 1971). Little evidence exists that the plants are toxic, although oxalate poisoning has been reported to be associated with grazing (kind of animals not reported) of D. graveolens (C. Lamp and F. Collet 1979), and fishermen in southern Italy reportedly use the macerated leaves to stun fish (Lanzetta et al.). Livestock deaths due to ingestion of D. graveolens have been linked to enteritis caused by the barbed pappus bristles puncturing the small intestine (C. A. Gardner and H. W. Bennetts 1956; D. J. Schneider and J. L. Du Plessis 1980).</discussion>
-</treatment>
-
+</bio:treatment>

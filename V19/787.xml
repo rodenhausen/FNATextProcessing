@@ -1,61 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hesperevax</genus_name>
-    <species_name>caulescens</species_name>
-    <species_authority>(Bentham) A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hesperevax</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) A. Gray" date="unknown">caulescens</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>7: 356. 1868</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species caulescens;</taxon_hierarchy>
-  <common_name>Hogwallow starfish</common_name>
-  <common_name>involucrate evax</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Psilocarphus</genus_name>
-    <species_name>caulescens</species_name>
-    <species_authority>Bentham</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Hesperevax;species caulescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Psilocarphus</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">caulescens</taxon_name>
     <place_of_publication>
       <publication_title>Pl. Hartw.,</publication_title>
       <place_in_publication>319. 1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>caulescens</species_name>
-    <species_authority>(Bentham) A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>caulescens</species_name>
-    <variety_name>humilis</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Evax</genus_name>
-    <species_name>involucrata</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Plants (2–)3–8(–17) cm. Stems usually 0, sometimes 1–4, erect to decumbent; branches 0 or proximal. Leaves basal or cauline, petiolate, distal congested, larger than proximal (if any), largest (25–)33–90 × 7–20 mm; petioles: lengths 2–3 times blade lengths, bases thickened, indurate; capitular leaves (6–)10–20 per glomerule, whorled, mostly spreading, unlike pistillate paleae. Heads terminal in dense glomerules (10–25 mm diam.) of 10–40+ not mixed with leaves, never in axils, ± obpyramidal, 3–5 × 2.5–4 mm, heights 1–1.5 times diams. Receptacles of adjacent heads proximally connate, 0.4–0.7 × 0.5–0.7 mm. Pistillate paleae in 2–4 series, ± vertically ranked, broadly spatulate, 2.5–4.5 mm. Staminate paleae surpassing pistillate, 3–3.9 mm, lengths 0.7–0.9 times head heights, apices spreading. Functionally staminate florets 3–6; corollas 1.1–1.6 mm. Cypselae mostly 1.5–2 mm.</description>
-  <phenology_info>
-    <text>Flowering and fruiting mid Mar–early Jun.</text>
-    <phenology>mar</phenology>
-    <phenology>apr</phenology>
-    <phenology>may</phenology>
-    <phenology>jun</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>drying shrink-swell clay soils , vernal pools , other vernally moist places ;</text>
-    <habitat>drying shrink-swell clay soils</habitat>
-    <habitat>vernal pools</habitat>
-    <habitat>other vernally moist places</habitat>
-  </habitat_info>
-  <elevation>0–200(–500) m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Psilocarphus;species caulescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) A. Gray" date="unknown">caulescens</taxon_name>
+    <taxon_hierarchy>genus Evax;species caulescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">caulescens</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">humilis</taxon_name>
+    <taxon_hierarchy>genus Evax;species caulescens;variety humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Evax</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">involucrata</taxon_name>
+    <taxon_hierarchy>genus Evax;species involucrata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="common_name">Hogwallow starfish</other_name>
+  <other_name type="common_name">involucrate evax</other_name>
   <discussion>Hesperevax caulescens occurs mainly in the Sacramento and northern San Joaquin valleys, with southern outliers in the southern San Joaquin and upper Salinas River valleys and the Otay Mesa area of San Diego County. The Otay Mesa populations are thought to have been naturalized (R. M. Beauchamp 1986) and are now considered extirpated. An 1869 specimen from northern Oregon is likely either mislabeled or from an introduction that did not persist.</discussion>
   <discussion>Caulescent forms are scattered among predominantly stemless populations throughout the northern range of Hesperevax caulescens. The tallest forms (Evax involucrata) are often grayer and more densely lanuginose. The various growth forms appear to be environmentally induced and taxonomically insignificant. Plants from the southern outliers are all stemless, tend to be smaller in sizes and numbers of structures, and may warrant varietal status (J. D. Morefield 1992c). A malformed plant from Merced County appears to have been a hybrid between H. caulescens and Psilocarphus oregonus.</discussion>
   <discussion>Hesperevax caulescens may soon be of conservation concern in California as its vernal pool habitats continue to decline. The vernacular “hogwallow starfish” is widely used for H. caulescens by students and enthusiasts of California’s vernal pools.</discussion>
-</treatment>
-
+</bio:treatment>

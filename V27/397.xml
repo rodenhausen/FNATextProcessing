@@ -1,61 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Niphotrichum</genus_name>
-    <section_name>Elongata</section_name>
-    <section_authority>(Bednarek-Ochyra) Bednarek-Ochyra &amp; Ochyra</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Niphotrichum</taxon_name>
+    <taxon_name rank="section" authority="(Bednarek-Ochyra) Bednarek-Ochyra &amp; Ochyra" date="unknown">Elongata</taxon_name>
     <place_of_publication>
       <publication_title>in R. Ochyra et al., Cens. Cat. Polish  Mosses,</publication_title>
       <place_in_publication>138.  2003,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Racomitrium</genus_name>
-    <section_name>Elongata</section_name>
-    <section_authority>Bednarek-Ochyra</section_authority>
+    <taxon_hierarchy>genus Niphotrichum;section Elongata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Racomitrium</taxon_name>
+    <taxon_name rank="section" authority="Bednarek-Ochyra" date="unknown">Elongata</taxon_name>
     <place_of_publication>
       <publication_title>Fragm. Florist. Geobot., Ser. Polon.</publication_title>
       <place_in_publication>2: 94.  1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants small, medium-sized to robust, green, olive or grayish green distally, brown.  Leaves ovate-lanceolate, lanceolate to triangular, sharply keeled to narrowly canaliculate in the distal part; costa in most leaves unbranched or only occasionally forked in some leaves, extending to three quarters of the leaf length to percurrent; leaf cell papillae tending to be relatively small and inconspicuous in the distal lamina.</description>
-  <number_of_infrataxa>Species 6 (4 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>temperate Asia</global_distribution>
-  <global_distribution>Atlantic.</global_distribution>
+    <taxon_hierarchy>genus Racomitrium;section Elongata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+  <discussion>Species 6 (4 in the flora):</discussion>
   <discussion>Section Elongata is fairly homogeneous.  Its members are readily recognized by their leaves, which are sharply keeled to narrowly canaliculate or canaliculate-keeled in the distal part, and their costae, which cease mostly at three quarters of the leaf length or are subpercurrent to percurrent and are generally undivided at the tip.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margins recurved to 1/2–3/4 of the way up the leaf</statement>
+      <description type="morphology">Leaf margins recurved to 1/2–3/4 of the way up the leaf</description>
       <determination>3.   Niphotrichum muticum</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Leaf margins recurved to the apex.</statement>
+      <description type="morphology">Leaf margins recurved to the apex.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants small; leaves 1.5–1.8 mm long; costa not grooved; laminal cells opaque, coarsely papillose, yellowish; alar cells forming a small and weakly inflated group; awns absent papillae or only faintly papillose at the base</statement>
+      <description type="morphology">Plants small; leaves 1.5–1.8 mm long; costa not grooved; laminal cells opaque, coarsely papillose, yellowish; alar cells forming a small and weakly inflated group; awns absent papillae or only faintly papillose at the base</description>
       <determination>4.   Niphotrichum pygmaeum</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Plants medium-sized to large; leaves 2–3 mm long; costa lying in a shallow or deeper furrow; laminal cells coarsely to slightly papillose, mostly transparent, not yellowish (except the base); alar cells forming a conspicuous and distinctly inflated group; awns mostly coarsely papillose.</statement>
+      <description type="morphology">Plants medium-sized to large; leaves 2–3 mm long; costa lying in a shallow or deeper furrow; laminal cells coarsely to slightly papillose, mostly transparent, not yellowish (except the base); alar cells forming a conspicuous and distinctly inflated group; awns mostly coarsely papillose.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Supra-alar cells elongate, thin-walled and not sinuose, forming a transparent marginal border; awns erect-flexuose when dry, not or indistinctly decurrent, faintly papillose to epapillose in the distal part</statement>
+      <description type="morphology">Supra-alar cells elongate, thin-walled and not sinuose, forming a transparent marginal border; awns erect-flexuose when dry, not or indistinctly decurrent, faintly papillose to epapillose in the distal part</description>
       <determination>5.   Niphotrichum ericoides</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Supra-alar cells short, thick- and sinuose-walled, not forming a translucent border; awns recurved when dry, conspicuously decurrent, coarsely papillose throughout</statement>
+      <description type="morphology">Supra-alar cells short, thick- and sinuose-walled, not forming a translucent border; awns recurved when dry, conspicuously decurrent, coarsely papillose throughout</description>
       <determination>6.   Niphotrichum elongatum</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

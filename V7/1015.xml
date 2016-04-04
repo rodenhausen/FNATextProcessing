@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Nuttall ex Torrey &amp; A. Gray) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall ex Torrey &amp; A. Gray) O’Kane &amp; Al-Shehbaz" date="unknown">angustifolia</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 321. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Threadleaf bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Vesicaria</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>Nuttall ex Torrey &amp; A. Gray</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vesicaria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall ex Torrey &amp; A. Gray" date="unknown">angustifolia</taxon_name>
     <place_of_publication>
       <publication_title>Fl. N. Amer</publication_title>
       <place_in_publication>1: 101. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>angustifolia</species_name>
-    <species_authority>(Nuttall ex Torrey &amp; A. Gray) S. Watson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>longifolia</species_name>
-    <species_authority>Cory</species_authority>
-  </TaxonIdentification>
-  <description>Annuals; with a fine taproot; ± densely pubescent, trichomes several-rayed, rays distinct or fused at base, bifurcate, (prominently tuberculate throughout). Stems simple or few to several from base, erect, (sometimes branched), to 4 dm. Basal leaves: blade elliptic to rhombic, 3–8 cm, (base narrowing gradually to petiole), margins entire, repand, coarsely toothed, or pinnatifid. Cauline leaves: (proximal often shortly petiolate, distal sessile); blade linear or narrowly obovate, 1.5–6(–10) cm, margins entire, repand, or shallowly toothed. Racemes usually loose. Fruiting pedicels (usually divaricate, sometimes horizontal, straight or slightly curved), 8–20 mm. Flowers: sepals elliptic or ovate, 4–6 mm, (lateral pair usually subsaccate); petals obovate to obdeltate, 6–10 mm, (apex often emarginate). Fruits not didymous, ± globose, slightly inflated, 4–6 mm; valves (not retaining seeds after dehiscence), glabrous throughout; replum as wide as or wider than fruit; ovules 4 per ovary; style 2–3.5 mm; (stigma expanded). Seeds flattened, (margined). 2n = 10.</description>
-  <phenology>apr</phenology>
-  <phenology>spring</phenology>
-  <phenology>may</phenology>
-  <habitat>shallow limestone-derived soils</habitat>
-  <habitat>sometimes spreading to disturbed sites</habitat>
-  <elevation>90–300 m;</elevation>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Vesicaria;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall ex Torrey &amp; A. Gray) S. Watson" date="unknown">angustifolia</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Cory" date="unknown">longifolia</taxon_name>
+    <taxon_hierarchy>genus Lesquerella;species longifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">Threadleaf bladderpod</other_name>
+</bio:treatment>

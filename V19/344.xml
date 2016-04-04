@@ -1,60 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Mycelis</genus_name>
-    <species_name>muralis</species_name>
-    <species_authority>(Linnaeus) Dumortier</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mycelis</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Dumortier" date="unknown">muralis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Belg.,</publication_title>
       <place_in_publication>60. 1827</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Mycelis;species muralis;</taxon_hierarchy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>muralis</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Mycelis;species muralis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">muralis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 797. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Lactuca</genus_name>
-    <species_name>muralis</species_name>
-    <species_authority>(Linnaeus) Gaertner</species_authority>
-  </TaxonIdentification>
-  <description>Leaf blades 35–120(–180+) × 10–50(–80+) mm. Peduncles filiform, 5–25+ mm. Involucres 7–11+ mm. Phyllaries: abaxial faces glabrous. Cypselae: bodies 2.5–3 mm, beaks 0.5–1 mm; pappi: outer 0.1–0.2 mm, inner 5–6 mm. 2n = 18.</description>
-  <phenology_info>
-    <text>Flowering Jun–Oct.</text>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>disturbed sites , openings in mixed forests , calcareous or sandy soils ;</text>
-    <habitat>disturbed sites</habitat>
-    <habitat>openings in mixed forests</habitat>
-    <habitat>calcareous</habitat>
-    <habitat>sandy soils</habitat>
-  </habitat_info>
-  <elevation>10–400 m;</elevation>
-  <introduced>introduced;</introduced>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
-
+    <taxon_hierarchy>genus Prenanthes;species muralis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lactuca</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Gaertner" date="unknown">muralis</taxon_name>
+    <taxon_hierarchy>genus Lactuca;species muralis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+</bio:treatment>

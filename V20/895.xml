@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>195d.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Xanthisma</genus_name>
-        <genus_authority>de Candolle</genus_authority>
-        <section_name>Havardii</section_name>
-        <section_authority>(R. C. Jackson) D. R. Morgan &amp; R. L. Hartman</section_authority>
-        <place_of_publication>
-            <publication_title>Sida</publication_title>
-            <place_in_publication>20: 1410. 2003</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Haplopappus</genus_name>
-        <genus_authority>Cassini</genus_authority>
-        <section_name>Havardii</section_name>
-        <section_authority>R. C. Jackson</section_authority>
-        <place_of_publication>
-            <publication_title>Univ. Kansas Sci. Bull. </publication_title>
-            <place_in_publication>46: 479. 1966</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Machaeranthera</genus_name>
-        <genus_authority>Nees</genus_authority>
-        <section_name>Havardii</section_name>
-        <section_authority>(R. C. Jackson) R. L. Hartman</section_authority>
-    </TaxonIdentification>
-    <description>Annuals, 25–60 cm; taprooted. Leaf blades serrate or dentate, often coarsely so,
-        teeth blunt or terminating in stiff callosities, not bristle-tipped. Heads radiate.
-        Involucres broadly turbinate. Phyllaries in 5–7 series, appressed, stramineous, linear to
-        narrowly oblong, mostly 1–2 mm wide, unequal, proximally rigid, distal 1/5–1/2 with green
-        patch or strip, not expanded distally, apices narrowly obtuse to broadly acute, not
-        bristle-tipped, densely stipitate-glandular. Receptacles: pit borders laciniate, teeth or
-        setae mostly distinct, 0.1–0.5 mm. Ray corollas yellow. Cypselae monomorphic, oblong or
-        narrowly ellipsoid, sometimes slightly asymmetric, flattened laterally, 2.5–3 mm, walls
-        thin, 12–14-ribbed, barely discernible, faces sparsely silky; pappi of white, filiform (not
-        basally flattened) bristles 5–7 mm in 2–3 poorly defined series. x = 4.</description>
-    <number_of_infrataxa>Species 1:</number_of_infrataxa>
-    <global_distribution>sc United States.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="de Candolle" date="unknown">Xanthisma</taxon_name>
+    <taxon_name rank="section" authority="(R. C. Jackson) D. R. Morgan &amp; R. L. Hartman" date="unknown">Havardii</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1410. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Xanthisma;section Havardii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="Cassini" date="unknown">Haplopappus</taxon_name>
+    <taxon_name rank="section" authority="R. C. Jackson" date="unknown">Havardii</taxon_name>
+    <place_of_publication>
+      <publication_title>Univ. Kansas Sci. Bull.</publication_title>
+      <place_in_publication>46: 479. 1966</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Haplopappus;section Havardii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Nees" date="unknown">Machaeranthera</taxon_name>
+    <taxon_name rank="section" authority="(R. C. Jackson) R. L. Hartman" date="unknown">Havardii</taxon_name>
+    <taxon_hierarchy>genus Machaeranthera;section Havardii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>195d.</number>
+  <discussion>Species 1:</discussion>
+</bio:treatment>

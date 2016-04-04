@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Anthemideae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">laciniata</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">laciniata</taxon_name>
+    <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species laciniata;subspecies laciniata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Komarov" date="unknown">laciniatiformis</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species laciniatiformis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Artemisia</taxon_name>
+    <taxon_name rank="species" authority="Ledebour" date="unknown">macrobotrys</taxon_name>
+    <taxon_hierarchy>genus Artemisia;species macrobotrys;</taxon_hierarchy>
+  </taxon_identification>
   <number>35a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Artemisia</genus_name>
-    <species_name>laciniata</species_name>
-    <species_authority>Willdenow</species_authority>
-    <subspecies_name>laciniata</subspecies_name>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Anthemideae;genus Artemisia;species laciniata;subspecies laciniata;</taxon_hierarchy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>laciniatiformis</species_name>
-    <species_authority>Komarov</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Artemisia</genus_name>
-    <species_name>macrobotrys</species_name>
-    <species_authority>Ledebour</species_authority>
-  </TaxonIdentification>
-  <description>Stems 20–50 cm, hairy. Leaves mostly cauline, blades 5–20 × 1–2 cm, sparsely hairy. Heads in arrays 8–18 × 1–4 cm. Involucres 3–5 × 4–8 mm. Corollas yellowish, 1–1.5 mm. Cypselae 0.5–1 mm. 2n = 18.</description>
-  <habitat_info>
-    <text>dry , gravelly stream banks , grassy flats , forested areas , dry hillsides ;</text>
-    <habitat>dry , gravelly stream banks</habitat>
-    <habitat>grassy flats</habitat>
-    <habitat>forested areas</habitat>
-    <habitat>dry hillsides</habitat>
-  </habitat_info>
-  <elevation>100–1500 m;</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
   <discussion>Widely distributed in Eurasia and often confused with Artemisia norvegica, A. laciniata subsp. laciniata can be distinguished by its well-developed basal leaves and smaller heads.</discussion>
-  <phenology_info>
-    <text>Flowering mid–late summer.</text>
-  </phenology_info>
-</treatment>
-
+</bio:treatment>

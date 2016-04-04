@@ -1,47 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>Dale H. Vitt</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Schimper" date="unknown">SELIGERIACEAE</taxon_name>
+    <taxon_hierarchy>genus SELIGERIACEAE;</taxon_hierarchy>
+  </taxon_identification>
   <number>19.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SELIGERIACEAE</genus_name>
-    <genus_authority>Schimper</genus_authority>
-  </TaxonIdentification>
-  <author>Dale H. Vitt</author>
-  <description>Plants minute and gregarious, or larger, forming compact tufts and cushions,
-        unbranched to rarely 2–3-branched, on rock, acrocarpous. Leaves twisted-spreading to stiffly
-        erect when dry, generally erect-spreading to spreading-recurved, sometimes slightly curved
-        when moist, linear to stoutly subulate from clasping base; margins plane, entire to
-        denticulate; costa single, homogenous in transverse-section, ending near the apex to
-        long-excurrent, distal leaf cells smooth, short; alar cells not differentiated to somewhat
-        enlarged and colored. Seta straight, flexuose or cygneous. Capsule mostly erect, symmetric,
-        cylindric-ovate to turbinate; peristome haplolepideous, of 16 triangular entire teeth, these
-        reduced in some species, or absent.</description>
-  <number_of_infrataxa>Genera 4, species ca. 44 (3 genera, 16 species in the
-        flora):</number_of_infrataxa>
-  <global_distribution>widespread in temperate and polar regions.</global_distribution>
+  <discussion>Genera 4, species ca. 44 (3 genera, 16 species in the
+        flora):</discussion>
   <discussion>Sporophytes are necessary for identifying the species of Seligeriaceae.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules striate; peristome finely papillose or absent; annulus
-                well-developed; calyptra mitrate</statement>
+      <description type="morphology">Capsules striate; peristome finely papillose or absent; annulus
+                well-developed; calyptra mitrate</description>
       <determination>3. Brachydontium, p. 327</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Capsules smooth; peristome smooth or absent; annulus ill-formed; calyptra
-                cucullate.</statement>
+      <description type="morphology">Capsules smooth; peristome smooth or absent; annulus ill-formed; calyptra
+                cucullate.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Alar cells not differentiated or sometimes enlarged; autoicous; calcareous
-                rocks</statement>
+      <description type="morphology">Alar cells not differentiated or sometimes enlarged; autoicous; calcareous
+                rocks</description>
       <determination>1. Seligeria, p. 320</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Alar cells reddish and inflated; dioicous; acid rocks</statement>
+      <description type="morphology">Alar cells reddish and inflated; dioicous; acid rocks</description>
       <determination>2. Blindia, p. 327</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

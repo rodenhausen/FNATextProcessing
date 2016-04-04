@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>50.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Senecio</genus_name><species_name>pseudoarnica</species_name><species_authority>Lessing</species_authority><place_of_publication>
-    <publication_title>Linnaea</publication_title>
-    <place_in_publication>6: 240. 1831</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>pseudo-arnica</past_name><TaxonIdentification Status="BASIONYM"><genus_name>Arnica</genus_name><species_name>maritima</species_name><species_authority>Linnaeus</species_authority><place_of_publication><publication_title>Sp. Pl. </publication_title><place_in_publication>2: 884. 1753,</place_in_publication><other_info>not Senecio maritimus Linnaeus f., 1782</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>pseudoarnica</species_name><variety_name>rollandii</variety_name><variety_authority>Victorin</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>S.</genus_name><species_name>rollandii</species_name><species_authority>(Victorin) Victorin</species_authority></TaxonIdentification><description>Perennials, (15–)20–60(–100) cm (caudices erect). Herbage arachno-tomentose to sericeous-lanate (especially on abaxial faces of phyllaries), unevenly glabrescent. Stems single (turgid). Leaves evenly distributed (proximal withering before flowering); subsessile or petiolate; blades obovate to oblanceolate, 5–15(–25) × 2–6(–10) cm, bases tapered, margins serrate-dentate to denticulate or subentire (distal leaves slightly smaller). Heads 1–5(–15+) in corymbiform arrays (involucres notably large, 20–40 mm diam.). Calyculi of 6–10 linear bractlets (longest nearly equaling phyllaries). Phyllaries ± 21, 8–15 mm (sometimes purplish or pinkish-tinged), tips greenish. Ray florets usually ± 21, rarely 0; corolla laminae 20–25 mm. Cypselae glabrous. 2n = 40.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>sandy-gravelly ocean shores and upper beaches</habitat><elevation>0 m;</elevation><global_distribution>St. Pierre and Miquelon</global_distribution><ca_distribution>B.C.</ca_distribution><ca_distribution>N.B.</ca_distribution><ca_distribution>Nfld. and Labr.</ca_distribution><ca_distribution>N.S.</ca_distribution><ca_distribution>Que.</ca_distribution><us_distribution>Alaska</us_distribution><us_distribution>Maine</us_distribution><global_distribution>ne Asia.</global_distribution><discussion>Rayless individuals of Senecio pseudoarnica have been recognized as var. rollandii or forma rollandii (Victorin) Fernald; they are not otherwise distinctive.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Senecio</taxon_name>
+    <taxon_name rank="species" authority="Lessing" date="unknown">pseudoarnica</taxon_name>
+    <place_of_publication>
+      <publication_title>Linnaea</publication_title>
+      <place_in_publication>6: 240. 1831</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Senecio;species pseudoarnica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arnica</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">maritima</taxon_name>
+    <place_of_publication>
+      <publication_title>Sp. Pl.</publication_title>
+      <place_in_publication>2: 884. 1753,</place_in_publication>
+      <other_info_on_pub>not Senecio maritimus Linnaeus f., 1782</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Arnica;species maritima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="(Victorin) Victorin" date="unknown">pseudoarnica</taxon_name>
+    <taxon_name rank="variety" authority="Victorin" date="unknown">rollandii</taxon_name>
+    <taxon_hierarchy>genus S.;species pseudoarnica;variety rollandii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">S.</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">rollandii</taxon_name>
+    <taxon_hierarchy>genus S.;species rollandii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>50.</number>
+  <other_name type="past_name">pseudo-arnica</other_name>
+  <discussion>Rayless individuals of Senecio pseudoarnica have been recognized as var. rollandii or forma rollandii (Victorin) Fernald; they are not otherwise distinctive.</discussion>
+</bio:treatment>

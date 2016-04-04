@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>12d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Silphium</genus_name><species_name>asteriscus</species_name><species_authority>Linnaeus</species_authority><variety_name>dentatum</variety_name><variety_authority>(Elliott) Chapman</variety_authority><place_of_publication>
-    <publication_title>Fl. South. U.S.,</publication_title>
-    <place_in_publication>221. 1860</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Silphium</genus_name><species_name>dentatum</species_name><species_authority>Elliott</species_authority><place_of_publication><publication_title>Sketch Bot. S. Carolina </publication_title><place_in_publication>2: 468. 1823</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Silphium</genus_name><species_name>asteriscus</species_name><variety_name>angustatum</variety_name><variety_authority>A. Gray</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Silphium</genus_name><species_name>elliottii</species_name><species_authority>Small</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Silphium</genus_name><species_name>incisum</species_name><species_authority>Greene</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Silphium</genus_name><species_name>nodum</species_name><species_authority>Small</species_authority></TaxonIdentification><description>Plants 50–150 cm. Leaves: basal caducous; cauline opposite or alternate; faces hirsute, hispid, or scabrous. Paleae puberulent. Ray florets 8–13. Disc florets 35–120. 2n = 14.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>meadows</habitat><habitat>open forests</habitat><habitat>along roadsides</habitat><elevation>0–1000 m;</elevation><us_distribution>Ala.</us_distribution><us_distribution>Fla.</us_distribution><us_distribution>Ga.</us_distribution><us_distribution>N.C.</us_distribution><us_distribution>S.C.</us_distribution><us_distribution>Tenn.</us_distribution><discussion>Varieties dentatum and angustatum are variable in the character of stem vestiture, have overlapping geographic ranges, and therefore are best treated as one variety.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">asteriscus</taxon_name>
+    <taxon_name rank="variety" authority="(Elliott) Chapman" date="unknown">dentatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. South. U.S.,</publication_title>
+      <place_in_publication>221. 1860</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Silphium;species asteriscus;variety dentatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Elliott" date="unknown">dentatum</taxon_name>
+    <place_of_publication>
+      <publication_title>Sketch Bot. S. Carolina</publication_title>
+      <place_in_publication>2: 468. 1823</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Silphium;species dentatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">asteriscus</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">angustatum</taxon_name>
+    <taxon_hierarchy>genus Silphium;species asteriscus;variety angustatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">elliottii</taxon_name>
+    <taxon_hierarchy>genus Silphium;species elliottii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">incisum</taxon_name>
+    <taxon_hierarchy>genus Silphium;species incisum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Silphium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">nodum</taxon_name>
+    <taxon_hierarchy>genus Silphium;species nodum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>12d.</number>
+  <discussion>Varieties dentatum and angustatum are variable in the character of stem vestiture, have overlapping geographic ranges, and therefore are best treated as one variety.</discussion>
+</bio:treatment>

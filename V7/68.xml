@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2d4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Chamaetia</subgenus_name>
-    <section_name>Myrtosalix</section_name>
-    <section_authority>A. Kerner</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Chamaetia</taxon_name>
+    <taxon_name rank="section" authority="A. Kerner" date="unknown">Myrtosalix</taxon_name>
     <place_of_publication>
       <publication_title>Verh. K. K. Zool.-Bot. Ges. Wien</publication_title>
       <place_in_publication>10: 203. 1860</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <subsection_name>Myrtilloides</subsection_name>
-    <subsection_authority>C. K. Schneider</subsection_authority>
-  </TaxonIdentification>
-  <description>Plants 0.01–0.55 m, clonal by layering or rhizomes. Largest medial blades
-        hypostomatous, amphistomatous, or hemiamphistomatous, abaxial surface glaucous or not.
-        Catkins from subterminal or lateral buds. Staminate flowers: filaments glabrous or hairy.
-        Pistillate flowers: abaxial nectary sometimes present, not connate to adaxial nectary; ovary
-        not glaucous, puberulent or pilose to very densely villous or silky, or glabrous, hairs
-        white, gray, or ferruginous, flattened or ribbonlike.</description>
-  <number_of_infrataxa>Species 21 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;subgenus Chamaetia;section Myrtosalix;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="subsection" authority="C. K. Schneider" date="unknown">Myrtilloides</taxon_name>
+    <taxon_hierarchy>genus Salix;subsection Myrtilloides;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2d4.</number>
+  <discussion>Species 21 (5 in the flora):</discussion>
+</bio:treatment>

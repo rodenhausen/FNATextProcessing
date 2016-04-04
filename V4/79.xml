@@ -1,54 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Mirabilis</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Quamoclidion</section_name>
-    <section_authority>(Choisy) A. Gray</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">NYCTAGINACEAE</taxon_name>
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="section" authority="(Choisy) A. Gray" date="unknown">Quamoclidion</taxon_name>
     <place_of_publication>
       <publication_title>in W. H. Emory, Rep. U.S. Mex. Bound.</publication_title>
       <place_in_publication>2(1): 173. 1859</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <section_name>Quamoclidion</section_name>
-    <section_authority>Choisy</section_authority>
+    <taxon_hierarchy>family NYCTAGINACEAE;genus Mirabilis;section Quamoclidion;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="Choisy" date="unknown">Quamoclidion</taxon_name>
     <place_of_publication>
-      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr. </publication_title>
+      <publication_title>in A. P. de Candolle and A. L. P. P. de Candolle, Prodr.</publication_title>
       <place_in_publication>13(2): 429. 1849</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <section_name>Hermidium</section_name>
-    <section_authority>S. Watson</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mirabilis</genus_name>
-    <section_name>Paramirabilis</section_name>
-    <section_authority>Heimerl</section_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Mirabilis</genus_name>
-    <subgenus_name>Quamoclidion</subgenus_name>
-    <subgenus_authority>(Choisy) Jepson</subgenus_authority>
-  </TaxonIdentification>
-  <description>Herbs, perennial; roots cylindric, spongy. Stems erect, ascending, or nearly
-    decumbent, densely leafy, leaves ± evenly distributed. Leaves: basal leaves petiolate, broader;
-    distal leaves sessile or subsessile, narrower, margins entire. Inflorescences axillary and in
-    compact terminal cymes; involucres slightly or not accrescent, bell-shaped or broadly tubular,
-    with [3–](5–)6(–16) flowers, usually with 1 central flower and 1 flower on each midvein of
-    bract, central flower solitary and naked or bracteate (when flowers more than 6, then more than
-    1 flower per midvein of bract). Flowers: perianth tubular, campanulate, or long funnelform,
-    abruptly flared from broad tube, deeply 5-lobed; stamens 5. Fruits with 0 or 10 low, slender,
-    inconspicuous ribs, ovoid to ellipsoid, base slightly or prominently constricted, apex truncate,
-    surface of fruit smooth or rugulose, glabrous or sparsely puberulent, mucilaginous or not when
-    wetted.</description>
-  <number_of_infrataxa>Species 6 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>sw United States</global_distribution>
-  <global_distribution>n Mexico.</global_distribution>
+    <taxon_hierarchy>section Quamoclidion;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="section" authority="S. Watson" date="unknown">Hermidium</taxon_name>
+    <taxon_hierarchy>section Hermidium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="section" authority="Heimerl" date="unknown">Paramirabilis</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;section Paramirabilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Mirabilis</taxon_name>
+    <taxon_name rank="subgenus" authority="(Choisy) Jepson" date="unknown">Quamoclidion</taxon_name>
+    <taxon_hierarchy>genus Mirabilis;subgenus Quamoclidion;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7b.</number>
+  <discussion>Species 6 (5 in the flora):</discussion>
   <references>
     <reference>Pilz, G. E. 1978. Systematics of Mirabilis subgenus
       Quamoclidion (Nyctaginaceae). Madroño 25: 113–132.</reference>
   </references>
-</treatment>
+</bio:treatment>

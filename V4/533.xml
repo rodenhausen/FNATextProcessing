@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>10b.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>polyspermum</species_name>
-        <species_authority>Linnaeus</species_authority>
-        <variety_name>acutifolium</variety_name>
-        <variety_authority>(Smith) Gaudin</variety_authority>
-        <place_of_publication>
-            <publication_title>Fl. Helv.</publication_title>
-            <place_in_publication>2: 259. 1828</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Chenopodium</genus_name>
-        <species_name>acutifolium</species_name>
-        <species_authority>Smith</species_authority>
-        <place_of_publication>
-            <publication_title>Comp. Fl. Brit., </publication_title>
-            <place_in_publication>42. 1 800</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <description>Plants upright (proximal branches often nearly prostrate). Leaf blades becoming red
-        at maturity, apex usually acute. Inflorescences condensed, spikelike panicles, terminal and
-        axillary.</description>
-    <phenology_fruiting>fruiting summer–fall</phenology_fruiting>
-    <habitat>moist disturbed soils</habitat>
-    <habitat>gardens</habitat>
-    <habitat>waste areas</habitat>
-    <habitat>alluvial plains</habitat>
-    <elevation>10–500 m;</elevation>
-    <introduced>introduced;</introduced>
-    <ca_distribution>N.B.</ca_distribution>
-    <ca_distribution>Ont.</ca_distribution>
-    <ca_distribution>Que.</ca_distribution>
-    <ca_distribution>Sask.</ca_distribution>
-    <us_distribution>Maine</us_distribution>
-    <us_distribution>Mass.</us_distribution>
-    <us_distribution>Mich.</us_distribution>
-    <us_distribution>N.Y.</us_distribution>
-    <us_distribution>Oreg.</us_distribution>
-    <us_distribution>Wis.</us_distribution>
-    <global_distribution>native to Europe</global_distribution>
-    <global_distribution>n Asia</global_distribution>
-    <global_distribution>introduced in many other regions of the world.</global_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Chenopodiaceae Ventenat" date="unknown">CHENOPODIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">polyspermum</taxon_name>
+    <taxon_name rank="variety" authority="(Smith) Gaudin" date="unknown">acutifolium</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. Helv.</publication_title>
+      <place_in_publication>2: 259. 1828</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family CHENOPODIACEAE;genus Chenopodium;species polyspermum;variety acutifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chenopodium</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">acutifolium</taxon_name>
+    <place_of_publication>
+      <publication_title>Comp. Fl. Brit.,</publication_title>
+      <place_in_publication>42. 1 800</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chenopodium;species acutifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10b.</number>
+</bio:treatment>

@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>67.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Physaria</genus_name>
-    <species_name>pendula</species_name>
-    <species_authority>(Rollins) O’Kane &amp; Al-Shehbaz</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="B. L. Robinson" date="unknown">Physarieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Physaria</taxon_name>
+    <taxon_name rank="species" authority="(Rollins) O’Kane &amp; Al-Shehbaz" date="unknown">pendula</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>12: 326. 2002</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Snake Range bladderpod</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Lesquerella</genus_name>
-    <species_name>pendula</species_name>
-    <species_authority>Rollins</species_authority>
+    <taxon_hierarchy>family Brassicaceae;tribe Physarieae;genus Physaria;species pendula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Lesquerella</taxon_name>
+    <taxon_name rank="species" authority="Rollins" date="unknown">pendula</taxon_name>
     <place_of_publication>
       <publication_title>Cruciferae Continental N. Amer.,</publication_title>
       <place_in_publication>647. 1993</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Perennials; caudex simple; densely pubescent, trichomes 5–7-rayed, rays bifurcate or trifurcate. Stems several from base, erect or outer usually decumbent toward base, (from below a terminal tuft of mostly erect leaves, unbranched), 1–2 dm. Basal leaves: blade ovate to elliptic, 2–4 cm, (base gradually narrowed to petiole), margins entire, (surfaces densely pubescent with trichome layers). Cauline leaves (remote, proximal shortly petiolate); blade spatulate to oblanceolate, similar to basal, (base often cuneate), margins entire. Racemes elongated. Fruiting pedicels (recurved), 7–10 mm. Flowers: sepals linear-oblong, 5–7 mm, (lateral pair subsaccate); petals (erect), lingulate, 8–10 mm, (claw barely differentiated from blade). Fruits (usually pendent, sessile), subglobose, slightly flattened (angustiseptate), 4–5 mm; valves densely pubescent, trichomes somewhat spreading; ovules 8–12 per ovary; style 4–5 mm. Seeds plump, (mucilaginous when wetted).</description>
-  <phenology>may</phenology>
-  <phenology>spring</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>limestone gravel and cobbles</habitat>
-  <habitat>typically with junipers</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>1700–2100 m;</elevation>
-  <us_distribution>Nev.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Lesquerella;species pendula;</taxon_hierarchy>
+  </taxon_identification>
+  <number>67.</number>
+  <other_name type="common_name">Snake Range bladderpod</other_name>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

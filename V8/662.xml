@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Shortia</genus_name>
-    <species_name>galacifolia</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-    <variety_name>brevistyla</variety_name>
-    <variety_authority>P. A. Davies</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Lindley" date="unknown">DIAPENSIACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Shortia</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">galacifolia</taxon_name>
+    <taxon_name rank="variety" authority="P. A. Davies" date="unknown">brevistyla</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>54: 124.  1952  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Catawba shortia</common_name>
-  <description>Flowers: corolla lobes 14–17 mm; styles 6–10(–12) mm.</description>
-  <phenology>Flowering Mar–Apr</phenology>
-  <habitat>Moist slopes, stream banks, rock outcrops in humid escarpment gorges, generally in deep shade under Rhododendron maximum</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>200–600 m</elevation>
-  <us_distribution>N.C.</us_distribution>
+    <taxon_hierarchy>family DIAPENSIACEAE;genus Shortia;species galacifolia;variety brevistyla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1b.</number>
+  <other_name type="common_name">Catawba shortia</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Variety brevistyla is known only from McDowell County, where it occurs along tributaries of the Catawba River and the North Fork Catawba River, disjunct to the northeast of var. galacifolia by about 100 kilometers.  Morphological differences are relatively few, quanti-tative, and overlapping; recognition of two infraspecific taxa emphasizes the geographic disjunction.</discussion>
-</treatment>
+</bio:treatment>

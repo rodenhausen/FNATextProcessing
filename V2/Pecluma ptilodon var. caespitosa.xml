@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Pecluma</genus_name><species_name>ptilodon</species_name><variety_name>caespitosa</variety_name><variety_authority>(Jenman) Lellinger</variety_authority><place_of_publication><publication_title>Proc. Biol. Soc. Wash.</publication_title><place_in_publication>98: 387. 1985</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Polypodium</genus_name><species_name>pectinatum</species_name><species_authority>Linnaeus</species_authority><variety_name>caespitosum</variety_name><variety_authority>Jenman</variety_authority><place_of_publication><publication_title>Bull. Bot. Dept., Jamaica, n.s. </publication_title><place_in_publication>4: 125. 1897</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Polypodium</genus_name><species_name>ptilodon</species_name><species_authority>Kunze</species_authority><variety_name>caespitosum</variety_name><variety_authority>(Jenman) A. M. Evans</variety_authority></TaxonIdentification><description>Stems  5--8 mm diam.; scales blackish, linear-lanceolate.  Leaves  erect, or arching in large plants.  Petiole  dark brown, less than 1/10 length of blade, pubescent with both simple and branched, short, multicellular hairs; scales threadlike, linear, scattered, inconspicuous.  Blade  lanceolate, 25--90 × 6.5--18 cm; base narrowly cuneate; apex acute.  Segments  lanceolate, 4--8 mm wide, sparsely pubescent, at base of blade reduced to auricles.  Veins  2--3-forked.  Sori  oval, blade pubescence denser and longer around sorus; sporangia with 64 spores. 2 n  = 148.</description><phenology>Sporulating all year</phenology><habitat> Terrestrial, or on logs or tree bases, in hammocks, swamps, and wet woods</habitat><elevation> 0 m</elevation><us_distribution> Fla.</us_distribution><global_distribution> Mexico</global_distribution><global_distribution> West Indies</global_distribution><global_distribution> Central America.</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pecluma</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">ptilodon</taxon_name>
+    <taxon_name rank="variety" authority="(Jenman) Lellinger" date="unknown">caespitosa</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Biol. Soc. Wash.</publication_title>
+      <place_in_publication>98: 387. 1985</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Pecluma;species ptilodon;variety caespitosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polypodium</taxon_name>
+    <taxon_name rank="species" authority="Kunze" date="unknown">pectinatum</taxon_name>
+    <taxon_name rank="variety" authority="Jenman" date="unknown">caespitosum</taxon_name>
+    <place_of_publication>
+      <publication_title>Bull. Bot. Dept., Jamaica, n.s.</publication_title>
+      <place_in_publication>4: 125. 1897</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Polypodium;species pectinatum;variety caespitosum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Polypodium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ptilodon</taxon_name>
+    <taxon_name rank="variety" authority="(Jenman) A. M. Evans" date="unknown">caespitosum</taxon_name>
+    <taxon_hierarchy>genus Polypodium;species ptilodon;variety caespitosum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1a</number>
+</bio:treatment>

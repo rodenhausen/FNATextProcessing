@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2</number><TaxonIdentification Status="ACCEPTED"><genus_name>Taxus</genus_name><species_name>canadensis</species_name><species_authority>Marshall</species_authority><place_of_publication><publication_title>Arbust. Amer.</publication_title><place_in_publication>151. 1785</place_in_publication></place_of_publication></TaxonIdentification><common_name>Canada yew</common_name><common_name> American yew</common_name><common_name> ground-hemlock</common_name><common_name> li du Canada</common_name><common_name> sapin trainard</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Taxus</genus_name><species_name>baccata</species_name><species_authority>Linnaeus</species_authority><subspecies_name>canadensis</subspecies_name><subspecies_authority>(Marshall) Pilger</subspecies_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Taxus</genus_name><species_name>baccata</species_name><variety_name>minor</variety_name><variety_authority>Michaux</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Taxus</genus_name><species_name>minor</species_name><species_authority>(Michaux) Britton</species_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Taxus</genus_name><species_name>procumbens</species_name><species_authority>Loddiges</species_authority></TaxonIdentification><description>Shrubs  to 2 m, usually monoecious, low, diffusely branched, straggling, spreading to prostrate.  Bark  reddish, very thin.  Branches  spreading and ascending.  Leaves  1--2.5 cm × 1--2.4 mm, pale green abaxially, mostly without cuticular papillae along stomatal bands, dark green to yellow-green adaxially, epidermal cells as viewed in cross section of leaf wider than tall or ± isodiametric.  Seed  somewhat flattened, 4--5 mm. 2 n  = 24.</description><phenology>Seeds maturing late summer--early fall</phenology><habitat> Understory shrub in rich forests (deciduous, mixed, or coniferous), bogs, swamps, gorges, ravine slopes, and rocky banks</habitat><elevation> 0--1500 m</elevation><global_distribution> St. Pierre and Miquelon</global_distribution><ca_distribution> Man.</ca_distribution><ca_distribution> N.B.</ca_distribution><ca_distribution> Nfld.</ca_distribution><ca_distribution> N.S.</ca_distribution><ca_distribution> Ont.</ca_distribution><ca_distribution> P.E.I.</ca_distribution><ca_distribution> Que.</ca_distribution><us_distribution> Conn.</us_distribution><us_distribution> Ill.</us_distribution><us_distribution> Ind.</us_distribution><us_distribution> Iowa</us_distribution><us_distribution> Ky.</us_distribution><us_distribution> Maine</us_distribution><us_distribution> Mass.</us_distribution><us_distribution> Mich.</us_distribution><us_distribution> Minn.</us_distribution><us_distribution> N.H.</us_distribution><us_distribution> N.Y.</us_distribution><us_distribution> Ohio</us_distribution><us_distribution> Pa.</us_distribution><us_distribution> R.I.</us_distribution><us_distribution> Tenn.</us_distribution><us_distribution> Vt.</us_distribution><us_distribution> Va.</us_distribution><us_distribution> W.Va.</us_distribution><us_distribution> Wis.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="Marshall" date="unknown">canadensis</taxon_name>
+    <place_of_publication>
+      <publication_title>Arbust. Amer.</publication_title>
+      <place_in_publication>151. 1785</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Taxus;species canadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">baccata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Marshall) Pilger" date="unknown">canadensis</taxon_name>
+    <taxon_hierarchy>genus Taxus;species baccata;subspecies canadensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Britton" date="unknown">baccata</taxon_name>
+    <taxon_name rank="variety" authority="Michaux" date="unknown">minor</taxon_name>
+    <taxon_hierarchy>genus Taxus;species baccata;variety minor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="Loddiges" date="unknown">minor</taxon_name>
+    <taxon_hierarchy>genus Taxus;species minor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">procumbens</taxon_name>
+    <taxon_hierarchy>genus Taxus;species procumbens;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Canada yew</other_name>
+  <other_name type="common_name">American yew</other_name>
+  <other_name type="common_name">ground-hemlock</other_name>
+  <other_name type="common_name">li du Canada</other_name>
+  <other_name type="common_name">sapin trainard</other_name>
+</bio:treatment>

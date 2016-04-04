@@ -1,53 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Crupina</genus_name>
-    <species_name>vulgaris</species_name>
-    <species_authority>Persoon ex Cassini</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cynareae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Crupina</taxon_name>
+    <taxon_name rank="species" authority="Persoon ex Cassini" date="unknown">vulgaris</taxon_name>
     <place_of_publication>
       <publication_title>in F. Cuvier, Dict. Sci. Nat. ed</publication_title>
       <place_in_publication>2, 12: 68. 1818</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Crupina;species vulgaris;</taxon_hierarchy>
-  <common_name>Bearded creeper</common_name>
-  <common_name>common crupina</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Centaurea</genus_name>
-    <species_name>crupina</species_name>
-    <species_authority>Linnaeus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cynareae;genus Crupina;species vulgaris;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Centaurea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">crupina</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 909. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants to 8 cm. Stems leafy to branches, openly branched, ridged. Leaves: basal often absent by anthesis, blades oblong to obovate, margins entire or dentate to deeply pinnately divided, scabrous, ciliate with glochidiate-tipped bristles; cauline 1–3.5 cm, 1–2-pinnately divided into linear lobes, ciliate with glochidiate-tipped bristles. Peduncles slender, 0.5–8 cm, bractless or with 1–several scalelike to linear bracts. Involucres sometimes falling at maturity with enclosed cypselae, 8–20 mm. Sterile florets 2–4. Fertile florets usually 1; corollas ca. 14 mm, tube with branched hairs. Cypselae usually 1 per head, barrel-shaped, 3–6 × 1.5–3.5 mm, attachment scar basal; pappus bristles in 2 unequal series, widely spreading, blackish brown, 5–10 mm; pappus scales erect, 0.5–1 mm. 2n = 28 (Greece), 30 (Yugoslavia).</description>
-  <phenology_info>
-    <text>Flowering spring–summer (Jun–Aug).</text>
-    <phenology>spring</phenology>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>grassy areas , roadsides , open woodlands , forests ;</text>
-    <habitat>grassy areas</habitat>
-    <habitat>roadsides</habitat>
-    <habitat>open woodlands</habitat>
-    <habitat>forests</habitat>
-  </habitat_info>
-  <elevation>200–1000 m;</elevation>
-  <introduced>introduced;</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>w Asia.</global_distribution>
+    <taxon_hierarchy>genus Centaurea;species crupina;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Bearded creeper</other_name>
+  <other_name type="common_name">common crupina</other_name>
   <discussion>I have seen material only from California; occurrences in the other states listed are documented.</discussion>
   <discussion>Crupina vulgaris is listed as a noxious weed by governmental agencies both within and outside of its documented range. It is a highly invasive species that infests pastures, rangelands, hayfields, and disturbed sites, sometimes forming dense pure stands. It is unpalatable to livestock and tends to increase as more desirable forage is consumed. Since it was first reported in west-central Idaho in 1969, it has spread rapidly in western rangelands, forming infestations in several states.</discussion>
-</treatment>
-
+</bio:treatment>

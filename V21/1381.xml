@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Chromolaena</genus_name><species_name>bigelovii</species_name><species_authority>(A. Gray) R. M. King &amp; H. Robinson</species_authority><place_of_publication>
-    <publication_title>Phytologia</publication_title>
-    <place_in_publication>20: 208. 1970</place_in_publication>
-  </place_of_publication></TaxonIdentification><common_name>Bigelow’s false thoroughwort</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Eupatorium</genus_name><species_name>bigelovii</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>in W. H. Emory, Rep. U.S. Mex. Bound. </publication_title><place_in_publication>2(1): 75. 1859</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eupatorium</genus_name><species_name>madrense</species_name><species_authority>S. Watson</species_authority></TaxonIdentification><description>Shrubs, 50–150 cm. Stems erect, sparsely puberulent. Petioles 1–4 mm. Leaf blades deltate to deltate-lanceolate or ovate-lanceolate, 3–7 × 1–4 cm, margins serrate to dentate (abaxial faces reticulate-veiny with raised whitish, secondary veins, minutely gland-dotted). Heads usually in 3s, sometimes borne singly. Peduncles 0 or 2–8(–12) mm. Involucres turbinate to campanulate, 5–7 mm. Phyllaries in 4–5 series, apices of the inner appressed, acute (not petaloid or expanded). Corollas pale blue or white.</description><phenology>oct</phenology><phenology>fall</phenology><phenology>nov</phenology><phenology>dec</phenology><phenology>winter</phenology><habitat>dry limestone hills in oak woodlands</habitat><habitat>talus</habitat><elevation>1000–1800 m;</elevation><us_distribution>Tex.</us_distribution><global_distribution>Mexico (Coahuila).</global_distribution><global_distribution>Mexico (Nuevo León).</global_distribution><global_distribution>Mexico (San Luis Potosí).</global_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Eupatorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chromolaena</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) R. M. King &amp; H. Robinson" date="unknown">bigelovii</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>20: 208. 1970</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Eupatorieae;genus Chromolaena;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">bigelovii</taxon_name>
+    <place_of_publication>
+      <publication_title>in W. H. Emory, Rep. U.S. Mex. Bound.</publication_title>
+      <place_in_publication>2(1): 75. 1859</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Eupatorium;species bigelovii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eupatorium</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">madrense</taxon_name>
+    <taxon_hierarchy>genus Eupatorium;species madrense;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="common_name">Bigelow’s false thoroughwort</other_name>
+</bio:treatment>

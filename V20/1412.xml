@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Rainiera</genus_name><species_name>stricta</species_name><species_authority>(Greene) Greene</species_authority><place_of_publication>
-    <publication_title>Pittonia</publication_title>
-    <place_in_publication>3: 291. 1898</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Psacalium</genus_name><species_name>strictum</species_name><species_authority>Greene</species_authority><place_of_publication><publication_title>Pittonia </publication_title><place_in_publication>2: 228. 1892,</place_in_publication><other_info>based on Prenanthes stricta Greene, Pittonia 2: 21. 1889, not Blume 1825</other_info></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Luina</genus_name><species_name>stricta</species_name><species_authority>(Greene) B. L. Robinson</species_authority></TaxonIdentification><description>Leaf blades 10–35 × 2–9 cm. Arrays of heads 8–35+ cm. Peduncles 4–17 mm. Involucres 6–9 mm. Corollas 10–12 mm. Cypselae 5–6 mm; pappi 9–10 mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>moist soils</habitat><habitat>open slopes</habitat><habitat>meadows</habitat><conservation>of conservation concern;</conservation><elevation>900–2000 m;</elevation><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Senecioneae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Rainiera</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">stricta</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>3: 291. 1898</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Senecioneae;genus Rainiera;species stricta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Psacalium</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">strictum</taxon_name>
+    <place_of_publication>
+      <publication_title>Pittonia</publication_title>
+      <place_in_publication>2: 228. 1892,</place_in_publication>
+      <other_info_on_pub>based on Prenanthes stricta Greene, Pittonia 2: 21. 1889, not Blume 1825</other_info_on_pub>
+    </place_of_publication>
+    <taxon_hierarchy>genus Psacalium;species strictum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Luina</taxon_name>
+    <taxon_name rank="species" authority="(Greene) B. L. Robinson" date="unknown">stricta</taxon_name>
+    <taxon_hierarchy>genus Luina;species stricta;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
+</bio:treatment>

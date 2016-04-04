@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>8a</number><TaxonIdentification Status="ACCEPTED"><genus_name>Juniperus</genus_name><section_name>Juniperus</section_name><section_authority>Linnaeus</section_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Juniperus</genus_name><genus_authority>Linnaeus</genus_authority><section_name>Oxycedrus</section_name><section_authority>Spach</section_authority></TaxonIdentification><description>Shrubs or small trees , if shrubs, decumbent or rarely upright.  Adult leaves  in whorls of 3, of 1 kind, subulate, spreading, with basal abscission zone.  Cones  axillary.</description></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Juniperus</taxon_name>
+    <taxon_name rank="section" authority="Linnaeus" date="unknown">Juniperus</taxon_name>
+    <taxon_hierarchy>genus Juniperus;section Juniperus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Juniperus</taxon_name>
+    <taxon_name rank="section" authority="Spach" date="unknown">Oxycedrus</taxon_name>
+    <taxon_hierarchy>genus Juniperus;section Oxycedrus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>8a</number>
+</bio:treatment>

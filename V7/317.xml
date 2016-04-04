@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <family_name>Brassicaceae</family_name>
-    <family_authority>Burnett</family_authority>
-    <tribe_name>Alysseae</tribe_name>
-    <tribe_authority>de Candolle</tribe_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Burnett" date="unknown">Brassicaceae</taxon_name>
+    <taxon_name rank="tribe" authority="de Candolle" date="unknown">Alysseae</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Mus. Hist. Nat.</publication_title>
       <place_in_publication>7: 231. 1821</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <past_name>Alyssineae</past_name>
-  <description>Annuals, biennials, or perennials [shrubs]; eglandular. Trichomes short-stalked or
-        sessile and stellate, or distinctly stalked and subdendritic or forked, sometimes mixed with
-        simple ones. Cauline leaves petiolate or sessile; blade base not auriculate, margins usually
-        entire. Racemes ebracteate [bracteate], often elongated in fruit. Flowers actinomorphic;
-        sepals erect to spreading, lateral pair seldom saccate basally; petals white or yellow
-        [orange, pink, or purple], claw present, usually distinct; filaments appendaged, winged
-        (toothed), or unappendaged; pollen 3-colpate. Fruits silicles, dehiscent, unsegmented,
-        latiseptate or terete; ovules 2–16(–20) per ovary; style distinct; stigma usually entire,
-        rarely 2-lobed. Seeds biseriate or aseriate, rarely uniseriate; cotyledons accumbent or
-        incumbent, rarely oblique.</description>
-  <number_of_infrataxa>Genera 13, species ca. 255 (3 genera, 9 species in the
-        flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
-</treatment>
+    <taxon_hierarchy>family Brassicaceae;tribe Alysseae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>a.</number>
+  <other_name type="past_name">Alyssineae</other_name>
+  <discussion>Genera 13, species ca. 255 (3 genera, 9 species in the
+        flora):</discussion>
+</bio:treatment>

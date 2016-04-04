@@ -1,76 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>78b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>humilis</species_name>
-    <species_authority>Marshall</species_authority>
-    <variety_name>tristis</variety_name>
-    <variety_authority>(Aiton) Griggs</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Marshall" date="unknown">humilis</taxon_name>
+    <taxon_name rank="variety" authority="(Aiton) Griggs" date="unknown">tristis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Ohio Acad. Sci.</publication_title>
       <place_in_publication>4: 301. 1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Dwarf prairie willow</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>tristis</species_name>
-    <species_authority>Aiton</species_authority>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species humilis;variety tristis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">tristis</taxon_name>
     <place_of_publication>
       <publication_title>Hort. Kew.</publication_title>
       <place_in_publication>3: 393. 1789</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Salix</genus_name>
-    <species_name>humilis</species_name>
-    <variety_name>microphylla</variety_name>
-    <variety_authority>(Andersson) Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Low to mid shrubs, 0.3–1 m. Stems decumbent; branches tomentose, peeled wood smooth or striate, striae sparse, to 2 mm; branchlets yellow-brown. Leaves: stipules absent or rudimentary on late ones; petiole 0.5–3(–6) mm, velvety or villous adaxially; largest medial blade narrowly oblong, narrowly elliptic, oblanceolate, or obovate, (13–)20–50(–70) × 3–13 mm, 2.3–9 times as long as wide, margins strongly revolute, abaxial surface hairs gray throughout, adaxial slightly glossy, moderately densely tomentose; proximal blade margins entire. Catkins: staminate 6.5–13.5 × 5–10 mm, flowering branchlet 0–1 mm; pistillate 11–17.5 × 5.5–12 mm, flowering branchlet 0–1.5 mm; floral bract 0.8–1.4 mm. Staminate flowers: filaments glabrous or hairy basally. Pistillate flowers: ovary pyriform; ovules 6 per ovary; stigmas 0.2–0.24–0.32 mm. Capsules 5–9 mm.</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <habitat>moist limestone and serpentine barrens</habitat>
-  <habitat>open heath balds</habitat>
-  <habitat>open pine woods</habitat>
-  <habitat>moist prairies</habitat>
-  <habitat>swampy areas in open deciduous woods</habitat>
-  <habitat>stream banks</habitat>
-  <elevation>60–1600 m;</elevation>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Salix;species tristis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">humilis</taxon_name>
+    <taxon_name rank="variety" authority="(Andersson) Fernald" date="unknown">microphylla</taxon_name>
+    <taxon_hierarchy>genus Salix;species humilis;variety microphylla;</taxon_hierarchy>
+  </taxon_identification>
+  <number>78b.</number>
+  <other_name type="common_name">Dwarf prairie willow</other_name>
   <discussion>Hybrids:</discussion>
   <discussion>Although variety tristis is reported to hybridize with Salix eriocephala, S. humilis var. humilis, and S. petiolaris (G. W. Argus 1986), hybrids have not been confirmed.</discussion>
-</treatment>
+</bio:treatment>

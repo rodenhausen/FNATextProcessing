@@ -1,54 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-    <number>21j.</number>
-    <TaxonIdentification Status="ACCEPTED">
-        <genus_name>Ericameria</genus_name>
-        <species_name>nauseosa</species_name>
-        <species_authority>(Pallas ex Pursh) G. L. Nesom &amp; G. I. Baird</species_authority>
-        <variety_name>leiosperma</variety_name>
-        <variety_authority>(A. Gray) G. L. Nesom &amp; G. I. Baird</variety_authority>
-        <place_of_publication>
-            <publication_title>Phytologia</publication_title>
-            <place_in_publication>75: 86. 1993</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <common_name>Smooth-fruit rabbitbrush</common_name>
-    <TaxonIdentification Status="BASIONYM">
-        <genus_name>Bigelowia</genus_name>
-        <species_name>leiosperma</species_name>
-        <species_authority>A. Gray</species_authority>
-        <place_of_publication>
-            <publication_title>in A. Gray et al., Syn. Fl. N. Amer. </publication_title>
-            <place_in_publication>1(2): 139. 1884 (as Bigelovia)</place_in_publication>
-        </place_of_publication>
-    </TaxonIdentification>
-    <TaxonIdentification Status="SYNONYM">
-        <genus_name>Chrysothamnus</genus_name>
-        <species_name>nauseosus</species_name>
-        <species_authority>(Pallas ex Pursh) Britton</species_authority>
-        <subspecies_name>leiospermus</subspecies_name>
-        <subspecies_authority>(A. Gray) H. M. Hall &amp; Clements</subspecies_authority>
-    </TaxonIdentification>
-    <description>Plants 25–60 cm. Stems yellowish green, often leafless at flowering, densely,
-        compactly tomentose. Leaves yellowish green; blades 1-nerved, filiform, 10–30 × 0.8–1 mm,
-        faces glabrate. Involucres 8–11.5 mm. Phyllaries 17–31, apices erect, acute to obtuse,
-        abaxial faces glabrous. Corollas 5–8.5 mm, tubes mostly glabrous, lobes 0.5–1.1 mm (erect to
-        incurved), glabrous; style appendages longer than stigmatic portions. Cypselae glabrous;
-        pappi 3–6.6 mm. 2n = 18.</description>
-    <phenology>summer</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>fall</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-    <phenology>nov</phenology>
-    <habitat>gravelly and sandy soils</habitat>
-    <habitat>rocky crevices</habitat>
-    <elevation>700–2800 m;</elevation>
-    <us_distribution>Ariz.</us_distribution>
-    <us_distribution>Calif.</us_distribution>
-    <us_distribution>Colo.</us_distribution>
-    <us_distribution>Nev.</us_distribution>
-    <us_distribution>Utah.</us_distribution>
-</treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ericameria</taxon_name>
+    <taxon_name rank="species" authority="(Pallas ex Pursh) G. L. Nesom &amp; G. I. Baird" date="unknown">nauseosa</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) G. L. Nesom &amp; G. I. Baird" date="unknown">leiosperma</taxon_name>
+    <place_of_publication>
+      <publication_title>Phytologia</publication_title>
+      <place_in_publication>75: 86. 1993</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Ericameria;species nauseosa;variety leiosperma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Bigelowia</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">leiosperma</taxon_name>
+    <place_of_publication>
+      <publication_title>in A. Gray et al., Syn. Fl. N. Amer.</publication_title>
+      <place_in_publication>1(2): 139. 1884 (as Bigelovia)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Bigelowia;species leiosperma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chrysothamnus</taxon_name>
+    <taxon_name rank="species" authority="(Pallas ex Pursh) Britton" date="unknown">nauseosus</taxon_name>
+    <taxon_name rank="subspecies" authority="(A. Gray) H. M. Hall &amp; Clements" date="unknown">leiospermus</taxon_name>
+    <taxon_hierarchy>genus Chrysothamnus;species nauseosus;subspecies leiospermus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>21j.</number>
+  <other_name type="common_name">Smooth-fruit rabbitbrush</other_name>
+</bio:treatment>

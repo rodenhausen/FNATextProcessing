@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>1.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Cephalanthera</genus_name><species_name>austiniae</species_name><species_authority>(A. Gray) A. Heller</species_authority><place_of_publication>
-    <publication_title>Cat. N. Amer. Pl. ed.</publication_title>
-    <place_in_publication>2, 4. 1900</place_in_publication>
-  </place_of_publication></TaxonIdentification><past_name>austinae</past_name><common_name>Phantom orchid</common_name><common_name>snow orchid</common_name><TaxonIdentification Status="BASIONYM"><genus_name>Chloraea</genus_name><species_name>austiniae</species_name><species_authority>A. Gray</species_authority><place_of_publication><publication_title>Proc. Amer. Acad. Arts </publication_title><place_in_publication>12: 83. 1877 (as austinae)</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Eburophyton</genus_name><species_name>austiniae</species_name><species_authority>(A. Gray) A. Heller</species_authority></TaxonIdentification><description>Plants pure white, 19–65 cm. Leaves proximally reduced to scarious sheathing bracts, to 10 cm, distally reduced to bracts, pure white, becoming brown. Inflorescences: floral bracts scarious, the proximal often foliaceous, distal usually reduced, lanceolate, apex acuminate. Flowers ascending, loosely open orbs, white with yellow markings; sepals lance-elliptic, 12–20 × 4–7 mm, base spread, curving forward to meet but not touch, apex obtuse to subacute; petals oblanceolate, arcuate, 10–17 × 3–6 mm, associated with dorsal sepal; lip 8–12 × 9–14 mm, lateral lobes flanking column, distal end deflexed, yellow centrally. Capsules erect, ellipsoid-oblanceoloid, 15 × 10 mm.</description><phenology>summer</phenology><phenology>jun</phenology><phenology>jul</phenology><phenology>aug</phenology><habitat>mineral soil in dry to moist coniferous forests</habitat><elevation>0–2200 m;</elevation><ca_distribution>B.C.</ca_distribution><us_distribution>Calif.</us_distribution><us_distribution>Idaho</us_distribution><us_distribution>Oreg.</us_distribution><us_distribution>Wash.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ORCHIDACEAE</taxon_name>
+    <taxon_name rank="tribe" authority="unknown" date="unknown">CRANICHIDEAE</taxon_name>
+    <taxon_name rank="subtribe" authority="Lindley" date="unknown">SPIRANTHINAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cephalanthera</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">austiniae</taxon_name>
+    <place_of_publication>
+      <publication_title>Cat. N. Amer. Pl. ed.</publication_title>
+      <place_in_publication>2, 4. 1900</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family ORCHIDACEAE;tribe CRANICHIDEAE;subtribe SPIRANTHINAE;genus Cephalanthera;species austiniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chloraea</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">austiniae</taxon_name>
+    <place_of_publication>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
+      <place_in_publication>12: 83. 1877 (as austinae)</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Chloraea;species austiniae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eburophyton</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Heller" date="unknown">austiniae</taxon_name>
+    <taxon_hierarchy>genus Eburophyton;species austiniae;</taxon_hierarchy>
+  </taxon_identification>
+  <number>1.</number>
+  <other_name type="past_name">austinae</other_name>
+  <other_name type="common_name">Phantom orchid</other_name>
+  <other_name type="common_name">snow orchid</other_name>
+</bio:treatment>

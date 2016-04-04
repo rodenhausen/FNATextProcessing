@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>48.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Salix</genus_name>
-    <species_name>brachycarpa</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Mirbel" date="unknown">SALICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Salix</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">brachycarpa</taxon_name>
     <place_of_publication>
       <publication_title>N. Amer. Sylv.</publication_title>
       <place_in_publication>1: 69. 1842</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Small-fruit willow</common_name>
-  <description>Plants 0.2–1.5 m, not clonal. Stems erect or decumbent; branches gray-brown or red-brown, villous or short-silky to glabrescent; branchlets red-brown, long-silky, villous, or woolly. Leaves: stipules absent or rudimentary on early ones, foliaceous or rudimentary on late ones; petiole (deeply to shallowly grooved adaxially), (0.5–)1–3(–4) mm, (usually shorter than or barely exceeding subtended bud); largest medial blade hypostomatous, narrowly oblong, oblong, narrowly elliptic, elliptic, narrowly oblanceolate, ovate, or obovate, base rounded, convex, cordate, or subcordate, margins flat, entire, apex rounded, acute, or convex, abaxial surface (sometimes obscured by hairs), densely villous, woolly, or long-silky, adaxial slightly glossy, pilose, villous, or long-silky to glabrescent, (hairs straight or wavy); proximal blade margins entire; juvenile blade very densely long-silky abaxially. Catkins: staminate 5.3–24 × 4–10 mm, flowering branchlet 0.3–24(–43) mm; pistillate (and staminate) densely flowered, globose, subglobose, or stout, 6–25 × 4–15 mm, flowering branchlet 0.3–11 mm; floral bract tawny or greenish, 1–3 mm, apex rounded or convex, entire, abaxially hairy, hairs straight or wavy. Staminate flowers: abaxial nectary (0–)0.5–1.5 mm, adaxial nectary 0.5–1.4 mm, nectaries distinct or connate and cup-shaped; filaments distinct or connate less than 1/2 their lengths, glabrous or hairy throughout or on proximal 1/2; anthers ellipsoid, shortly cylindrical, or globose, 0.3–0.8 mm. Pistillate flowers: abaxial nectary often present, adaxial nectary longer than stipe; stipe 0–0.6 mm; ovary pyriform, very densely villous, tomentose, or woolly, beak slightly bulged below styles; ovules 2–10 per ovary; styles connate to distinct 1/2 their lengths, 0.4–1.5 mm; stigmas broadly or slenderly cylindrical, 0.24–0.3–0.48 mm. Capsules 3–6.5 mm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>family SALICACEAE;genus Salix;species brachycarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <number>48.</number>
+  <other_name type="common_name">Small-fruit willow</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Branchlets and largest medial blade surfaces moderately densely villous or long-silky; largest medial blades (1.5–)2.8–3(–4) times as long as wide; anthers 0.3–0.5 mm; catkins globose, subglobose, or stout</statement>
+      <description type="morphology">Branchlets and largest medial blade surfaces moderately densely villous or long-silky; largest medial blades (1.5–)2.8–3(–4) times as long as wide; anthers 0.3–0.5 mm; catkins globose, subglobose, or stout</description>
       <determination>48a. Salix brachycarpa var. brachycarpa</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Branchlets and largest medial blade surfaces very densely woolly, villous, or long-silky; largest medial blades 1.4–2.6 times as long as wide; anthers 0.5–0.8 mm; catkins stout or subglobose (Lake Athabasca sand dunes, Saskatchewan)</statement>
+      <description type="morphology">Branchlets and largest medial blade surfaces very densely woolly, villous, or long-silky; largest medial blades 1.4–2.6 times as long as wide; anthers 0.5–0.8 mm; catkins stout or subglobose (Lake Athabasca sand dunes, Saskatchewan)</description>
       <determination>48b. Salix brachycarpa var. psammophila</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

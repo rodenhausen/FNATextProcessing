@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3</number><TaxonIdentification Status="ACCEPTED"><genus_name>Taxus</genus_name><species_name>floridana</species_name><species_authority>Nuttall ex Chapman</species_authority><place_of_publication><publication_title>Fl. South. U.S.</publication_title><place_in_publication>436. 1860</place_in_publication></place_of_publication></TaxonIdentification><common_name>Florida yew</common_name><TaxonIdentification Status="SYNONYM"><genus_name>Taxus</genus_name><species_name>baccata</species_name><species_authority>Linnaeus</species_authority><variety_name>floridana</variety_name><variety_authority>(Nuttall ex Chapman) Pilger</variety_authority></TaxonIdentification><description>Shrubs or small trees  to 6(--10) m, dioecious, trunk to 3.8 dm diam.  Bark  purplish brown, thin, scaly.  Branches  stout, spreading.  Leaves  1--2.6(--2.9) cm × 1--2(--2.2) mm, mostly slightly falcate, light green with 2 grayish bands abaxially, with cuticular papillae along stomatal bands, dark green adaxially, epidermal cells as viewed in cross section of leaf wider than tall or ± isodiametric.  Seed  ellipsoid, 5--6 mm.</description><discussion>Taxus floridana is a rare endemic along the Appalachicola River in Florida.</discussion><phenology>Seeds maturing in early fall</phenology><habitat> Moist, shaded ravines in hardwood forests</habitat><conservation> of conservation concern</conservation><elevation> 15--30 m</elevation><us_distribution> Fla.</us_distribution></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall ex Chapman" date="unknown">floridana</taxon_name>
+    <place_of_publication>
+      <publication_title>Fl. South. U.S.</publication_title>
+      <place_in_publication>436. 1860</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Taxus;species floridana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Taxus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">baccata</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall ex Chapman) Pilger" date="unknown">floridana</taxon_name>
+    <taxon_hierarchy>genus Taxus;species baccata;variety floridana;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3</number>
+  <other_name type="common_name">Florida yew</other_name>
+  <discussion>Taxus floridana is a rare endemic along the Appalachicola River in Florida.</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
+</bio:treatment>

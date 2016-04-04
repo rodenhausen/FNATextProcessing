@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Batsch ex Borkhausen" date="unknown">PRIMULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">cusickiana</taxon_name>
+    <taxon_name rank="variety" authority="M. E. Jones" date="unknown">cusickiana</taxon_name>
+    <taxon_hierarchy>family PRIMULACEAE;genus Primula;species cusickiana;variety cusickiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="M. E. Jones" date="unknown">brodheadiae</taxon_name>
+    <taxon_hierarchy>genus Primula;species brodheadiae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Primula</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">brodheadiae</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">minor</taxon_name>
+    <taxon_hierarchy>genus Primula;species brodheadiae;variety minor;</taxon_hierarchy>
+  </taxon_identification>
   <number>17a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Primula</genus_name>
-    <species_name>cusickiana</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-    <variety_name>cusickiana</variety_name>
-  </TaxonIdentification>
-  <common_name>Cusick’s primrose</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>brodheadiae</species_name>
-    <species_authority>M. E. Jones</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Primula</genus_name>
-    <species_name>brodheadiae</species_name>
-    <variety_name>minor</variety_name>
-    <variety_authority>M. E. Jones</variety_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous except for white farina on involucral bracts and calyces.  Leaves shorter than scape; blade narrowly to broadly lanceolate or almost oblong, margins subentire.  Corolla tubes ca. 10 mm, length 1–1.5 times calyx.</description>
-  <phenology>Flowering spring or summer</phenology>
-  <habitat>Moist swales of sagebrush-grass communities</habitat>
-  <elevation>700–1800 m</elevation>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+  <other_name type="common_name">Cusick’s primrose</other_name>
   <discussion>Variety cusickiana varies in morphology and habitat.  Individuals from Oregon and Idaho have narrowly lanceolate to almost oblong leaf blades, usually with little dentation.  Scapes begin flowering when short and elongate throughout anthesis to overtop the basal rosette of leaves.  Degree of available moisture appears to affect vegetative morphology in this variety, with consistently moist sites containing more robust individuals than habitats with ephemeral moisture.  Number of flowers is similarly affected.  This phenotypic plasticity has resulted in additional names suggested for both Oregon and Idaho populations, none yet supported by clear genetic or ecological distinction.</discussion>
-</treatment>
+</bio:treatment>

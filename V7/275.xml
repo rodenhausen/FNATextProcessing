@@ -1,53 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Peritoma</genus_name>
-    <species_name>lutea</species_name>
-    <species_authority>(Hooker) Rafinesque</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Berchtold &amp; J. Presl" date="unknown">CLEOMACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peritoma</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) Rafinesque" date="unknown">lutea</taxon_name>
     <place_of_publication>
       <publication_title>Sylva Tellur.,</publication_title>
       <place_in_publication>112. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Yellow bee-plant</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Cleome</genus_name>
-    <species_name>lutea</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>family CLEOMACEAE;genus Peritoma;species lutea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cleome</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">lutea</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 70, plate 25. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Peritoma</genus_name>
-    <species_name>breviflora</species_name>
-    <species_authority>Wooton &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <description>Annuals, (15–)25–30 cm. Stems sparsely branched distally; glabrous or glabrate. Leaves: petiole 1.5–4.5 cm; leaflets 5 (proximal ones sometimes early deciduous), blade linear to elliptic, 1.5–4(–6) × 0.4–1.3 cm, margins serrate, apex long-acuminate, surfaces glabrous. Racemes 1–3 cm (6–40 cm in fruit); bracts unifoliate, spatulate, 2–15 mm. Pedicels 7–15 mm. Flowers: sepals persistent, connate ca. 1/2 of length, yellow, lanceolate, 1.6–2.6 × 0.8–1.2 mm, margins denticulate, glabrous; petals light yellow, oblong to ovate, 5–8 × 2–4 mm; stamens yellow, 10–15 mm; anthers 1.9–2.6 mm; gynophore 5–17 mm in fruit; ovary 3–6 mm; style 0.5–0.8 mm. Capsules not inflated, 15–40 × 2–5 mm, striate. Seeds 10–20, gray to black, triangular (sharply angled), 3–4 × 2.5–3 mm, rugose. 2n = 34.</description>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>summer</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <habitat>dry sandy flats</habitat>
-  <habitat>desert scrub</habitat>
-  <habitat>roadsides</habitat>
-  <elevation>(100–)600–2400 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Cleome;species lutea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peritoma</taxon_name>
+    <taxon_name rank="species" authority="Wooton &amp; Standley" date="unknown">breviflora</taxon_name>
+    <taxon_hierarchy>genus Peritoma;species breviflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2</number>
+  <other_name type="common_name">Yellow bee-plant</other_name>
+</bio:treatment>

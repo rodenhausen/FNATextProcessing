@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>6.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Encelia</genus_name><species_name>actoni</species_name><species_authority>Elmer</species_authority><place_of_publication>
-    <publication_title>Bot. Gaz.</publication_title>
-    <place_in_publication>39: 47. 1905</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Encelia</genus_name><species_name>frutescens</species_name><species_authority>(A. Gray) A. Gray</species_authority><variety_name>actoni</variety_name><variety_authority>(Elmer) S. F. Blake</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Encelia</genus_name><species_name>virginensis</species_name><species_authority>A. Nelson</species_authority><subspecies_name>actoni</subspecies_name><subspecies_authority>(Elmer) D. D. Keck</subspecies_authority></TaxonIdentification><description>Shrubs, 50–150 cm. Stems with slender branches from bases, hairy, developing fissured barks. Leaves cauline; petioles 6–12 mm; blades silvery green, ovate to deltate, 25–40 mm, apices acute, faces ± silvery-canescent. Heads borne singly. Peduncles canescent. Involucres 8–14 mm. Phyllaries ovate. Ray florets 14–25; corolla laminae 10–25 mm. Disc corollas yellow, 5–6 mm. Cypselae 5–7 mm; pappi usually 0, rarely of 1–2 bristlelike awns. 2n = 36.</description><phenology>feb</phenology><phenology>winter</phenology><phenology>mar</phenology><phenology>spring</phenology><phenology>apr</phenology><phenology>may</phenology><phenology>jun</phenology><phenology>summer</phenology><phenology>jul</phenology><habitat>open areas</habitat><habitat>rocky slopes</habitat><habitat>roadsides</habitat><elevation>800–1500 m;</elevation><us_distribution>Calif.</us_distribution><us_distribution>Nev.</us_distribution><global_distribution>Mexico (Baja California).</global_distribution><discussion>The epithet actoni (sometimes spelled actonii) is from a place name (Acton, Los Angeles County, California); actoni is correct.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority=") Heliantheae" date="unknown">Heliantheae</taxon_name>
+    <taxon_name rank="subtribe" authority="Ecliptinae Lessing" date="unknown">Ecliptinae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encelia</taxon_name>
+    <taxon_name rank="species" authority="Elmer" date="unknown">actoni</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. Gaz.</publication_title>
+      <place_in_publication>39: 47. 1905</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Heliantheae;subtribe Ecliptinae;genus Encelia;species actoni;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encelia</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">frutescens</taxon_name>
+    <taxon_name rank="variety" authority="(Elmer) S. F. Blake" date="unknown">actoni</taxon_name>
+    <taxon_hierarchy>genus Encelia;species frutescens;variety actoni;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Encelia</taxon_name>
+    <taxon_name rank="species" authority="A. Nelson" date="unknown">virginensis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Elmer) D. D. Keck" date="unknown">actoni</taxon_name>
+    <taxon_hierarchy>genus Encelia;species virginensis;subspecies actoni;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6.</number>
+  <discussion>The epithet actoni (sometimes spelled actonii) is from a place name (Acton, Los Angeles County, California); actoni is correct.</discussion>
+</bio:treatment>

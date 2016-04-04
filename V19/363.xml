@@ -1,52 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>autumnalis</species_name>
-    <species_authority>Walter</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">autumnalis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Carol.,</publication_title>
       <place_in_publication>193. 1788</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species autumnalis;</taxon_hierarchy>
-  <common_name>Slender rattlesnakeroot</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nabalus</genus_name>
-    <species_name>virgatus</species_name>
-    <species_authority>de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Prenanthes</genus_name>
-    <species_name>virgata</species_name>
-    <species_authority>Michaux</species_authority>
-  </TaxonIdentification>
-  <description>Plants 40–140 cm; taproots thickened, tuberous. Stems 1–5, erect, mostly green with mottled purple, slender, simple, glabrous. Leaves: proximal present at flowering; petiolate (petioles winged); blades oblong to linear, 7–18 × 0.5–6 cm, coriaceous, bases attenuate, margins deeply pinnately lobed or divided, lobes narrow and at right angles, apices acute to acuminate, faces glabrous or slightly glabrate along veins; distally sessile and much reduced. Heads (1–2 in pedunculate lateral clusters) in spiciform or racemiform arrays. Involucres cylindro-campanulate, 10–13 × 3–4 mm. Calyculi of 6–8, green to purple, triangular to subulate bractlets 1–4 mm. Phyllaries 7–8, pink or purple, linear to elliptic, 8–13 mm, glabrous. Florets 8–10; corollas usually pinkish, sometimes lavender or white, 11–17 mm. Cypselae dark green, elliptic to linear, subterete to angular, 3.5–5.5 mm, indistinctly 8–10-ribbed; pappi pale yellow to tan, 5 mm.</description>
-  <phenology_info>
-    <text>Flowering Aug–Oct.</text>
-    <phenology>aug</phenology>
-    <phenology>sep</phenology>
-    <phenology>oct</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>coastal plain , low savannas , sandy pinelands , moist places , swales ;</text>
-    <habitat>coastal plain</habitat>
-    <habitat>low savannas</habitat>
-    <habitat>sandy pinelands</habitat>
-    <habitat>moist places</habitat>
-    <habitat>swales</habitat>
-  </habitat_info>
-  <elevation>0–200 m;</elevation>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Prenanthes;species autumnalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nabalus</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">virgatus</taxon_name>
+    <taxon_hierarchy>genus Nabalus;species virgatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Prenanthes</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">virgata</taxon_name>
+    <taxon_hierarchy>genus Prenanthes;species virgata;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+  <other_name type="common_name">Slender rattlesnakeroot</other_name>
   <discussion>Prenanthes autumnalis is recognized by its erect, slender habit, pinnately lobed proximal leaves, narrowly racemiform or spiciform arrays of heads, glabrous phyllaries, and usually pinkish corollas.</discussion>
-</treatment>
-
+</bio:treatment>

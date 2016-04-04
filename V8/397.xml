@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sedella</genus_name>
-    <species_name>leiocarpa</species_name>
-    <species_authority>H. Sharsmith</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="J. Saint" date="unknown">CRASSULACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sedella</taxon_name>
+    <taxon_name rank="species" authority="H. Sharsmith" date="unknown">leiocarpa</taxon_name>
     <place_of_publication>
       <publication_title>Madroño</publication_title>
       <place_in_publication>5: 192, fig. 1(1, 3, 4).  1940,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Parvisedum</genus_name>
-    <species_name>leiocarpum</species_name>
-    <species_authority>(H. Sharsmith) R. T. Clausen</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.2–0.5 dm, often with 1–3+ simple, ascending branches; hypocotyl 0.3–1.5 cm.  Stems 2–5-noded.  Leaf blades to 0.4–0.7 × 0.4 cm.  Cymes 1-branched, 2–10-flowered, 1–2 cm.  Flowers 3–4 mm diam.; calyx base tapering to pedicel; petals first ascending, soon erect, separated, later appressed to utricles, yellowish becoming pale, closely red-lineolate except margins, narrowly lanceolate or arcuate, 2.5–3.5 × 0.5–0.9 mm, apex subacuminate; stamens 5; pistils 1.5–2 mm, subglabrous; styles erect, 0.2–0.4 mm.  Utricles ascending, 2–2.5 mm.  Seeds 1–1.3 mm.  2n = 18.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Dry vernal pools and clay flats</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>500–700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>family CRASSULACEAE;genus Sedella;species leiocarpa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parvisedum</taxon_name>
+    <taxon_name rank="species" authority="(H. Sharsmith) R. T. Clausen" date="unknown">leiocarpum</taxon_name>
+    <taxon_hierarchy>genus Parvisedum;species leiocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>The utricles of Sedella leiocarpa have a conspicuous ventral flange 0.2 mm wide.  The plants grow in dense colonies; the species is very local, thus far found in only two places, south of Clear Lake, Lake County.</discussion>
-</treatment>
+</bio:treatment>

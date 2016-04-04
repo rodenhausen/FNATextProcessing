@@ -1,111 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) W. P. C. Barton" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) Hultén" date="unknown">umbellata</taxon_name>
+    <taxon_hierarchy>family ERICACEAE;genus Chimaphila;species umbellata;subspecies umbellata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">acuta</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species acuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="subspecies" authority="(S. F. Blake) Hultén" date="unknown">acuta</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;subspecies acuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) S. F. Blake" date="unknown">acuta</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;variety acuta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Rydberg) Hultén" date="unknown">cisatlantica</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;subspecies cisatlantica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="variety" authority="S. F. Blake" date="unknown">cisatlantica</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;variety cisatlantica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;subspecies occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Chimaphila</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">umbellata</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg) S. F. Blake" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Chimaphila;species umbellata;variety occidentalis;</taxon_hierarchy>
+  </taxon_identification>
   <number>3a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <species_authority>(Linnaeus) W. P. C. Barton</species_authority>
-    <subspecies_name>umbellata</subspecies_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>acuta</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <subspecies_name>acuta</subspecies_name>
-    <subspecies_authority>(Rydberg) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <variety_name>acuta</variety_name>
-    <variety_authority>(Rydberg) S. F. Blake</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <subspecies_name>cisatlantica</subspecies_name>
-    <subspecies_authority>(S. F. Blake) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <variety_name>cisatlantica</variety_name>
-    <variety_authority>S. F. Blake</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <subspecies_name>occidentalis</subspecies_name>
-    <subspecies_authority>(Rydberg) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Chimaphila</genus_name>
-    <species_name>umbellata</species_name>
-    <variety_name>occidentalis</variety_name>
-    <variety_authority>(Rydberg) S. F. Blake</variety_authority>
-  </TaxonIdentification>
-  <description>Plants rhizomatous, 1–4.5 dm.  Leaves: petiole 5–12 mm, channeled adaxially, glabrous; blade not maculate, dull and brownish green or copper-green abaxially, shiny and dark green adaxially, narrowly oblanceolate or oblanceolate, ovate, elliptic, or spatulate, (27–)38–80 × 8–27 mm, base cuneate to decurrent, margins coarsely serrate to crenate-serrate, apex acute to obtuse.  Inflorescences 3–7-flowered; peduncle 1(–2) per stem, 4–10 cm, papillose to hispidulous, sometimes glabrous proximally; inflorescence bracts acicular to linear-lanceolate, free portions shorter than pedicels from which they arise, 2–6 × 0.4–0.6 mm, proximal ones sometimes subcoriaceous, otherwise membranous, margins entire or denticulate distally.  Pedicels 17–35 mm.  Flowers: calyx lobes spreading or reflexed in fruit, green, yellowish green, or reddish green to purplish with margins hyaline or white, broadly ovate, 1–2.8 × (1.4–)1.8–2.8 mm, margins erose-denticulate, apex rounded to acute; petals white suffused with pink, pink, or rose, broadly ovate to obovate, 4–12 × 4–8 mm, margins erose-denticulate; stamens 5–7 mm; filament base 0.9–1.5 mm wide, dilated basal portion ciliate; anthers 2–3 mm, thecae pink to brownish pink, tubules pink to white, (0.4–)0.8–1.1 mm, abruptly narrowed from thecae, lateral walls not touching, pores 0.1–0.3 × 0.15–0.3 mm; ovary papillose in lines; style 0.1–0.8 mm; stigma 2.4–4 mm wide.  Capsules depressed-globose, 4–6 × 6–10 mm.  2n = 26.</description>
-  <phenology>Flowering Jul–Aug</phenology>
-  <habitat>Dry, coniferous forests</habitat>
-  <elevation>(50–)300–2900 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld. and Labr. (Nfld.)</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>West Indies (Hispaniola)</global_distribution>
-  <global_distribution>Central America (Guatemala)</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
-</treatment>
+</bio:treatment>

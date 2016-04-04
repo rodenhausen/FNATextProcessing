@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Erica</genus_name>
-    <species_name>lusitanica</species_name>
-    <species_authority>Rudolphi</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Erica</taxon_name>
+    <taxon_name rank="species" authority="Rudolphi" date="unknown">lusitanica</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. (Schrader)</publication_title>
       <place_in_publication>2: 286.  1800  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Spanish heath</common_name>
-  <description>Plants ± erect, 15–30 cm; twigs of current season green, with short, stiff hairs ca. 0.3 mm, older twigs gray and brown striped, glabrescent.  Leaves in whorls of (3–)4; petiole 0.2–0.3 mm; blade linear-lanceolate, flat to compressed-triangular in cross section, 2.5–4(–7) × 0.2 mm, margins revolute, sparsely prickled, surfaces glabrous.  Inflorescences terminal panicles, ellipsoid, 10–25 cm.  Pedicels 1–1.5 mm, shortly hairy.  Flowers: calyx lobes (connate ca. 1/3 their lengths), ovate, 1 × 0.7 mm, margins entire, apex subacute, glabrous; corolla white to pinkish white, broadly campanulate, 4–5 mm, lobes ovate-deltate, 0.5–1 mm, apex broadly rounded; stamens 10; filaments 2 mm; anthers awned, ca. 0.7 mm, awns 2, basal, 2-ciliate, 0.3 mm; ovary glabrous; style 2–2.5 mm; stigma exserted, obconic.  Capsules 1–2 mm, glabrous.  Seeds ellipsoid, 0.6 × 0.5 mm, finely pitted.</description>
-  <phenology>Flowering late spring–summer</phenology>
-  <habitat>Sandy coastal sites</habitat>
-  <elevation>0–50 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>sw Europe.</global_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Erica;species lusitanica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Spanish heath</other_name>
   <discussion>Erica lusitanica is found naturalized in coastal California (Humboldt County south to San Diego County), and in southwestern Oregon.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,54 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>13.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Heuchera</genus_name>
-    <species_name>longiflora</species_name>
-    <species_authority>Rydberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">SAXIFRAGACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">longiflora</taxon_name>
     <place_of_publication>
       <publication_title>in N. L. Britton, Man. Fl. N. States,</publication_title>
       <place_in_publication>482. 1901 ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Long-flowered alum-root</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>aceroides</species_name>
-    <species_authority>Rydberg ex Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>longiflora</species_name>
-    <variety_name>aceroides</variety_name>
-    <variety_authority>(Rydberg ex Small) Rosendahl, Butters &amp; Lakela</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Heuchera</genus_name>
-    <species_name>scabra</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Herbs acaulescent; caudex branched. Flowering stems often leafy, 30–95 cm, glabrous
-        or short stipitate-glandular. Leaves: petiole glabrous or short stipitate-glandular; blade
-        (often variegated adaxially), broadly ovate to cordate, shallowly 5-lobed, 3–12 cm, base
-        cordate or nearly truncate, lobes rounded to widely ovate, terminal lobes often elongated,
-        margins dentate, apex acute or obtuse, surfaces glabrous or short stipitate-glandular, at
-        least on veins. Inflorescences diffuse. Flowers: hypanthium strongly bilaterally symmetric,
-        free 2.2–6.2 mm, green, gibbous-tubular, abruptly inflated distal to adnation to ovary,
-        6.6–12.6 mm, short stipitate-glandular; sepals inflexed (closing mouth of flower), darker
-        green-tipped, equal, 2–3.7 mm, apex rounded; petals inflexed (closing mouth of flower),
-        white, pink, or purple, spatulate, unlobed, 1.8–5.5 mm, margins often fimbriate; stamens 2.4
-        mm included to 0.7 mm exserted; styles included 1.3–5.3 mm, 1.5–2.5 mm, to 0.1 mm diam.
-        Capsules ovoid, 5–13 mm, beaks divergent, not papillose. Seeds dark brown, ellipsoid,
-        0.5–0.9 mm. 2n = 14.</description>
-  <phenology>Flowering May–Jun</phenology>
-  <habitat>Rich, shaded woods and roadcuts over limestone substrates and outcroppings</habitat>
-  <elevation>100–500 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>family SAXIFRAGACEAE;genus Heuchera;species longiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Rydberg ex Small" date="unknown">aceroides</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species aceroides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">longiflora</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg ex Small) Rosendahl, Butters &amp; Lakela" date="unknown">aceroides</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species longiflora;variety aceroides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Heuchera</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">scabra</taxon_name>
+    <taxon_hierarchy>genus Heuchera;species scabra;</taxon_hierarchy>
+  </taxon_identification>
+  <number>13.</number>
+  <other_name type="common_name">Long-flowered alum-root</other_name>
   <discussion>Heuchera longiflora is restricted to limestone outcroppings and is rare in all the
         states where it is found.</discussion>
-</treatment>
+</bio:treatment>

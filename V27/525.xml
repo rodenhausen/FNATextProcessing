@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Campylopus</genus_name>
-    <species_name>oerstedianus</species_name>
-    <species_authority>(Müller Hal.) Mitten</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Campylopus</taxon_name>
+    <taxon_name rank="species" authority="(Müller Hal.) Mitten" date="unknown">oerstedianus</taxon_name>
     <place_of_publication>
       <publication_title>J. Linn. Soc., Bot.</publication_title>
       <place_in_publication>12: 81.  1869,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>oerstedianum</species_name>
-    <species_authority>Müller Hal.</species_authority>
+    <taxon_hierarchy>genus Campylopus;species oerstedianus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">oerstedianum</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>2: 596.  1851</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants 1–3 cm, in olive green tufts, lighter above and brownish below, evenly foliate, tomentose.  Leaves 4–5 mm, lanceolate, gradually narrowed into a subtubulose, straight, concolorous subula; alar cells slightly differentiated, reddish or hyaline; basal laminal cells hyaline, rectangular; distal laminal cells thick-walled, subquadrate to short-rectangular or oblique; costa filling half of the leaf width, excurrent in a short, hyaline tip, which is longer in perichaetial leaves, in transverse section showing adaxial hyalocysts and abaxial stereids in groups of 2 cells, abaxially ridged.  Specialized asexual reproduction not seen.  Sporophytes unknown.</description>
-  <habitat>Soil covered rocks;</habitat>
-  <elevation>ca. 50 m;</elevation>
-  <us_distribution>N.C.</us_distribution>
-  <global_distribution>West Indies (Jamaica)</global_distribution>
-  <global_distribution>Central America (Costa Rica)</global_distribution>
-  <global_distribution>Europe (France, Germany, Greece, Italy).</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species oerstedianum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>9.</number>
   <discussion>Campylopus oerstedianus has been found only once in the flora area, in the piedmont of North Carolina.  The overall distribution is very scattered and suggests a circum-Tethyan range (margins of the Caribbean and Mediterranean seas).  It has been described from Europe as C. mildei Schimper.  Plants of C. oerstedianus resemble C. pilifer in habit, with shorter hairpoints.  In shady habitats the hairpoints are sometimes absent.  The plants are microscopically distinguished by the slightly different shape of the distal laminal cells and the transverse section of the costa, by the lack of abaxial lamellae on the costa, smaller adaxial hyalocysts of about the diameter of the median deuter cells, and groups of abaxial stereids with only 2 instead of 4 stereid cells.</discussion>
-</treatment>
+</bio:treatment>

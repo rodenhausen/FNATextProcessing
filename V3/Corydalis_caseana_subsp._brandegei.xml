@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>2b.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Corydalis</genus_name><species_name>caseana</species_name><species_authority>A. Gray</species_authority><subspecies_name>brandegei</subspecies_name><subspecies_authority>(S. Watson) G. B. Ownbey</subspecies_authority><place_of_publication><publication_title> Ann. Missouri Bot. Gard. </publication_title><place_in_publication>34: 203-204. 1947</place_in_publication></place_of_publication></TaxonIdentification><conservation>of conservation concern</conservation><endemic>endemic</endemic><TaxonIdentification Status="BASIONYM"><genus_name>Corydalis</genus_name><species_name>brandegei</species_name><species_authority>S. Watson</species_authority><place_of_publication><publication_title>Bot. California </publication_title><place_in_publication>2: 430. 1880</place_in_publication></place_of_publication></TaxonIdentification><description>Stems mostly 10-15 dm. Flowers: outer petals with marginal wing highly developed, scarcely revolute, apex rounded, minutely apiculate.</description><phenology>Flowering early-late summer</phenology><habitat> Very moist, subalpine areas, particularly along streams</habitat><conservation> of conservation concern</conservation><elevation> 2400-3500 m</elevation><us_distribution> Colo.</us_distribution><us_distribution> N.Mex.</us_distribution><discussion>Pressing sometimes distorts the features that distinguish this subspecies.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">caseana</taxon_name>
+    <taxon_name rank="subspecies" authority="(S. Watson) G. B. Ownbey" date="unknown">brandegei</taxon_name>
+    <place_of_publication>
+      <publication_title>Ann. Missouri Bot. Gard.</publication_title>
+      <place_in_publication>34: 203-204. 1947</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species caseana;subspecies brandegei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Corydalis</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">brandegei</taxon_name>
+    <place_of_publication>
+      <publication_title>Bot. California</publication_title>
+      <place_in_publication>2: 430. 1880</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Corydalis;species brandegei;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>Pressing sometimes distorts the features that distinguish this subspecies.</discussion>
+</bio:treatment>

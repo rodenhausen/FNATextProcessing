@@ -1,70 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>58.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Arctostaphylos</genus_name>
-    <species_name>manzanita</species_name>
-    <species_authority>Parry</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Jussieu" date="unknown">ERICACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arctostaphylos</taxon_name>
+    <taxon_name rank="species" authority="Parry" date="unknown">manzanita</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Calif. Acad. Sci.</publication_title>
       <place_in_publication>2: 491.  1887  ,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Common manzanita</common_name>
-  <description>Shrubs or trees, erect, 2–8 m; burl absent or prominent, globose; twigs glabrous, sparsely short-hairy, or glandular-hairy.  Leaves: petiole 6–12 mm; blade bright green or glaucous, shiny or dull, widely ovate or oblong-ovate to obovate, 2–5 × 1–3.5 cm, base rounded to ± cuneate, margins entire, plane, surfaces smooth or scabrous, puberulent or veins finely hairy.  Inflorescences panicles, 3–7-branched; immature inflorescence ± abruptly deflexed, branches spreading, axis 1.5–4.5 cm, 1+ mm diam., glabrous, sparsely short-hairy, or sparsely glandular-hairy, not viscid; bracts not fully appressed, scalelike, deltate, 2–4 mm, apex mucronate or acuminate, surfaces glabrous or sparsely hairy to finely glandular-hairy.  Pedicels 3–8 mm, glabrous.  Flowers: corolla white, conic to urceolate; ovary glabrous or minutely stipitate glandular-hairy.  Fruits depressed-globose, 8–12 mm diam., hairy or glabrous, stipitate-glandular or smooth.  Stones distinct, sometimes connate.</description>
-  <number_of_infrataxa>Subspecies 6 (6 in the flora):</number_of_infrataxa>
-  <us_distribution>California.</us_distribution>
+    <taxon_hierarchy>family ERICACEAE;genus Arctostaphylos;species manzanita;</taxon_hierarchy>
+  </taxon_identification>
+  <number>58.</number>
+  <other_name type="common_name">Common manzanita</other_name>
+  <discussion>Subspecies 6 (6 in the flora):</discussion>
   <discussion>Arctostaphylos manzanita is usually found in northern California in oak woodlands, chaparral, and open conifer forests.  Subspecies manzanita is widespread throughout the Sierra Nevada foothills, north through the Cascades, and at lower elevations in the North Coast Ranges.  The other subspecies are generally narrowly distributed.</discussion>
   <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Burls present; plants resprouting after fire</statement>
+      <description type="morphology">Burls present; plants resprouting after fire</description>
       <determination>58f.   Arctostaphylos manzanita subsp. roofii</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Burls absent; plants killed by fire.</statement>
+      <description type="morphology">Burls absent; plants killed by fire.</description>
       <next_statement_id>2.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades lightly to strongly glaucous-green (twigs sometimes sparsely glandular-hairy) subsp. glaucescens</statement>
+      <description type="morphology">Leaf blades lightly to strongly glaucous-green (twigs sometimes sparsely glandular-hairy) subsp. glaucescens</description>
       <determination>58c.   Arctostaphylos manzanita subsp. glaucescens</determination>
     </key_statement>
     <key_statement>
       <statement_id>2.</statement_id>
-      <statement>Leaf blades dull to shiny green, not glaucous.</statement>
+      <description type="morphology">Leaf blades dull to shiny green, not glaucous.</description>
       <next_statement_id>3.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Ovaries and fruits glandular-hairy; stones often connate into single sphere, sometimes distinct</statement>
+      <description type="morphology">Ovaries and fruits glandular-hairy; stones often connate into single sphere, sometimes distinct</description>
       <determination>58b.   Arctostaphylos manzanita subsp. elegans</determination>
     </key_statement>
     <key_statement>
       <statement_id>3.</statement_id>
-      <statement>Ovaries and fruits glabrous or white-hairy, eglandular; stones distinct.</statement>
+      <description type="morphology">Ovaries and fruits glabrous or white-hairy, eglandular; stones distinct.</description>
       <next_statement_id>4.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Twigs glandular-hairy; leaf blades dull green</statement>
+      <description type="morphology">Twigs glandular-hairy; leaf blades dull green</description>
       <determination>58e.   Arctostaphylos manzanita subsp. wieslanderi</determination>
     </key_statement>
     <key_statement>
       <statement_id>4.</statement_id>
-      <statement>Twigs glabrous or sparsely short-hairy; leaf blades dull to bright, shiny green.</statement>
+      <description type="morphology">Twigs glabrous or sparsely short-hairy; leaf blades dull to bright, shiny green.</description>
       <next_statement_id>5.</next_statement_id>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades dull to shiny green; inflorescence axes many-branched, 1 mm diam.; branches usually 15–25 mm in immature phase subsp. manzanita</statement>
+      <description type="morphology">Leaf blades dull to shiny green; inflorescence axes many-branched, 1 mm diam.; branches usually 15–25 mm in immature phase subsp. manzanita</description>
       <determination>58a.   Arctostaphylos manzanita subsp. manzanita</determination>
     </key_statement>
     <key_statement>
       <statement_id>5.</statement_id>
-      <statement>Leaf blades shiny green; inflorescence axes few-branched, 1+ mm diam.; branches to 15 mm in immature phase</statement>
+      <description type="morphology">Leaf blades shiny green; inflorescence axes few-branched, 1+ mm diam.; branches to 15 mm in immature phase</description>
       <determination>58d.   Arctostaphylos manzanita subsp. laevigata</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

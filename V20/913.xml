@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>3d.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Dieteria</genus_name><species_name>canescens</species_name><species_authority>(Pursh) Nuttall</species_authority><variety_name>sessiliflora</variety_name><variety_authority>(Nuttall) D. R. Morgan &amp; R. L. Hartman</variety_authority><place_of_publication>
-    <publication_title>Sida</publication_title>
-    <place_in_publication>20: 1396. 2003</place_in_publication>
-  </place_of_publication></TaxonIdentification><TaxonIdentification Status="BASIONYM"><genus_name>Dieteria</genus_name><species_name>sessiliflora</species_name><species_authority>Nuttall</species_authority><place_of_publication><publication_title>Trans. Amer. Philos. Soc., n. s. </publication_title><place_in_publication>7: 301. 1840</place_in_publication></place_of_publication></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Machaeranthera</genus_name><species_name>canescens</species_name><species_authority>(Pursh) A. Gray</species_authority><variety_name>sessiliflora</variety_name><variety_authority>(Nuttall) B. L. Turner</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Machaeranthera</genus_name><species_name>sessiliflora</species_name><species_authority>(Nuttall) Greene</species_authority></TaxonIdentification><description>Annuals, biennials, or short-lived perennials. Stems 1+, erect, canescent, usually gland-dotted; branches ascending. Mid leaf blades linear-lanceolate to linear. Peduncles 0 (heads sessile) or shorter than involucres. Involucres narrowly to broadly turbinate, 6–10(–12) mm. Phyllaries in 4–7 series, spreading to reflexed, apices often canescent, stipitate-glandular. Ray florets pistillate, fertile. Cypselae sparsely to moderately appressed-hairy.</description><phenology>aug</phenology><phenology>summer</phenology><phenology>sep</phenology><phenology>fall</phenology><phenology>oct</phenology><habitat>flats</habitat><habitat>canyon slopes</habitat><elevation>600–1800 m;</elevation><us_distribution>Idaho.</us_distribution><discussion>Variety sessiliflora is known only along the Snake River and its tributaries.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dieteria</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) Nuttall" date="unknown">canescens</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) D. R. Morgan &amp; R. L. Hartman" date="unknown">sessiliflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Sida</publication_title>
+      <place_in_publication>20: 1396. 2003</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Dieteria;species canescens;variety sessiliflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dieteria</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">sessiliflora</taxon_name>
+    <place_of_publication>
+      <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
+      <place_in_publication>7: 301. 1840</place_in_publication>
+    </place_of_publication>
+    <taxon_hierarchy>genus Dieteria;species sessiliflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Machaeranthera</taxon_name>
+    <taxon_name rank="species" authority="(Pursh) A. Gray" date="unknown">canescens</taxon_name>
+    <taxon_name rank="variety" authority="(Nuttall) B. L. Turner" date="unknown">sessiliflora</taxon_name>
+    <taxon_hierarchy>genus Machaeranthera;species canescens;variety sessiliflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Machaeranthera</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Greene" date="unknown">sessiliflora</taxon_name>
+    <taxon_hierarchy>genus Machaeranthera;species sessiliflora;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3d.</number>
+  <discussion>Variety sessiliflora is known only along the Snake River and its tributaries.</discussion>
+</bio:treatment>

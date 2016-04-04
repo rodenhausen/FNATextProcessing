@@ -1,63 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Pseudognaphalium</genus_name>
-    <species_name>microcephalum</species_name>
-    <species_authority>(Nuttall) Anderberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudognaphalium</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Anderberg" date="unknown">microcephalum</taxon_name>
     <place_of_publication>
       <publication_title>Opera Bot.</publication_title>
       <place_in_publication>104: 147. 1991</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species microcephalum;</taxon_hierarchy>
-  <common_name>San Diego rabbit-tobacco</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>microcephalum</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Pseudognaphalium;species microcephalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">microcephalum</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Amer. Philos. Soc., n. s.</publication_title>
       <place_in_publication>7: 404. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>albidum</species_name>
-    <species_authority>I. M. Johnston</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gnaphalium</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>de Candolle</species_authority>
-    <subspecies_name>microcephalum</subspecies_name>
-    <subspecies_authority>(Nuttall) Stebbins &amp; D. J. Keil</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Pseudognaphalium</genus_name>
-    <species_name>canescens</species_name>
-    <species_authority>(de Candolle) Anderberg</species_authority>
-    <subspecies_name>microcephalum</subspecies_name>
-    <subspecies_authority>(Nuttall) Kartesz</subspecies_authority>
-  </TaxonIdentification>
-  <description>Perennials, (30–)50–100 cm; taprooted. Stems persistently grayish tomentose, not glandular, (3–5 mm diam. near bases). Leaf blades narrowly oblanceolate, 2–5(–8) cm × 5–10(–18) mm (gradually smaller distally, becoming lanceolate), bases not clasping, not decurrent, margins flat, faces weakly bicolor, tomentose (adaxial less densely), not glandular. Heads in loose, corymbiform arrays. Involucres turbinate-campanulate, 5–6 mm. Phyllaries in 4–5 series, white (opaque, dull), ovate to oblong-ovate (inner narrower, all usually with filiform but definitely thickened keel and slight apiculum), tomentose (at least bases). Pistillate florets 29–49. Bisexual florets 5–9. Cypselae ridged, smooth to weakly papillate-roughened. 2n = 28.</description>
-  <phenology_info>
-    <text>Flowering (Apr–)Jun–Aug(–Nov).</text>
-    <phenology>apr</phenology>
-    <phenology>jun</phenology>
-    <phenology>jul</phenology>
-    <phenology>aug</phenology>
-    <phenology>nov</phenology>
-  </phenology_info>
-  <habitat_info>
-    <text>grassy hillsides , gravelly canyon bottoms , chaparral , coastal sage scrub ;</text>
-    <habitat>grassy hillsides</habitat>
-    <habitat>gravelly canyon bottoms</habitat>
-    <habitat>chaparral coastal sage scrub</habitat>
-  </habitat_info>
-  <elevation>50–900(–1800) m;</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Gnaphalium;species microcephalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="I. M. Johnston" date="unknown">albidum</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species albidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gnaphalium</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">canescens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) Stebbins &amp; D. J. Keil" date="unknown">microcephalum</taxon_name>
+    <taxon_hierarchy>genus Gnaphalium;species canescens;subspecies microcephalum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Pseudognaphalium</taxon_name>
+    <taxon_name rank="species" authority="(de Candolle) Anderberg" date="unknown">canescens</taxon_name>
+    <taxon_name rank="subspecies" authority="(Nuttall) Kartesz" date="unknown">microcephalum</taxon_name>
+    <taxon_hierarchy>genus Pseudognaphalium;species canescens;subspecies microcephalum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>4.</number>
+  <other_name type="common_name">San Diego rabbit-tobacco</other_name>
   <discussion>Pseudognaphalium microcephalum is characterized by stems commonly stiffly erect and slightly zigzag distally, relatively thick (3–5 mm diam. near bases), and closely grayish tomentose, leaves oblanceolate, sessile, sometimes clasping, not decurrent, and weakly bicolor, and heads usually in open, corymbiform arrays.</discussion>
-</treatment>
-
+</bio:treatment>

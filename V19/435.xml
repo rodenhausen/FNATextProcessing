@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Hypochaeris</genus_name>
-    <species_name>microcephala</species_name>
-    <species_authority>(Schultz-Bipontinus) Cabrera</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Lamarck &amp; de Candolle" date="unknown">Cichorieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Hypochaeris</taxon_name>
+    <taxon_name rank="species" authority="(Schultz-Bipontinus) Cabrera" date="unknown">microcephala</taxon_name>
     <place_of_publication>
       <publication_title>Notas Mus. La Plata, Bot.</publication_title>
       <place_in_publication>2: 200. 1937</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hypochaeris;species microcephala;</taxon_hierarchy>
-  <past_name>Hypochoeris</past_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Achyrophorus</genus_name>
-    <species_name>microcephalus</species_name>
-    <species_authority>Schultz-Bipontinus</species_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Cichorieae;genus Hypochaeris;species microcephala;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Achyrophorus</taxon_name>
+    <taxon_name rank="species" authority="Schultz-Bipontinus" date="unknown">microcephalus</taxon_name>
     <place_of_publication>
       <publication_title>Jahresber. Pollichia</publication_title>
       <place_in_publication>16–17: 59. 1859</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-  <introduced>introduced;</introduced>
-  <global_distribution>South America.</global_distribution>
+    <taxon_hierarchy>genus Achyrophorus;species microcephalus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>3.</number>
+  <other_name type="past_name">Hypochoeris</other_name>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
   <discussion>Hypochaeris microcephala is distinguished by the perennial habit, presence of cauline leaves, relatively small heads, and white corollas. It is most similar to H. chillensis; it usually has smaller heads with fewer florets and glabrous phyllaries.</discussion>
-</treatment>
-
+</bio:treatment>

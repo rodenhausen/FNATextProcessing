@@ -1,52 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>alba</species_name>
-    <species_authority>Hartweg ex Bentham</species_authority>
-    <subspecies_name>parishii</subspecies_name>
-    <subspecies_authority>(Jepson) Morin</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="R. Brown" date="unknown">LIMNANTHACEAE</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="Hartweg ex Bentham" date="unknown">alba</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) Morin" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot. Res. Inst. Texas</publication_title>
       <place_in_publication>1: 1017. 2007</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>versicolor</species_name>
-    <species_authority>(Greene) Rydberg</species_authority>
-    <variety_name>parishii</variety_name>
-    <variety_authority>Jepson</variety_authority>
+    <taxon_hierarchy>family LIMNANTHACEAE;genus Limnanthes;species alba;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Rydberg" date="unknown">versicolor</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">parishii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Calif.</publication_title>
       <place_in_publication>2: 412. 1936</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>gracilis</species_name>
-    <species_authority>Howell</species_authority>
-    <subspecies_name>parishii</subspecies_name>
-    <subspecies_authority>(Jepson) R. M. Beauchamp</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Limnanthes</genus_name>
-    <species_name>gracilis</species_name>
-    <variety_name>parishii</variety_name>
-    <variety_authority>(Jepson) C. T. Mason</variety_authority>
-  </TaxonIdentification>
-  <description>Herbage glabrous. Leaflets: blade lanceolate to ovate. Flowers: sepals accrescent, lanceolate-ovate, 4–8 mm, glabrous; petals usually white, sometimes cream basally, aging or drying pink, obovate, 8–10 mm, 1 times as long as wide (apex recurved), glabrous or with scattered hairs on veins; filaments 3–4 mm; anthers cream to yellow, ± 1 mm; style 2–3 mm. Nutlets 3–4 mm, tuberculate (tubercles relatively low and wide).</description>
-  <phenology>mar</phenology>
-  <phenology>spring</phenology>
-  <phenology>apr</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>summer</phenology>
-  <habitat>wet meadows</habitat>
-  <habitat>ephemeral stream edges</habitat>
-  <conservation>of conservation concern;</conservation>
-  <elevation>600–2000 m;</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Limnanthes;species versicolor;variety parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="Howell" date="unknown">gracilis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Jepson) R. M. Beauchamp" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Limnanthes;species gracilis;subspecies parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Limnanthes</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">gracilis</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) C. T. Mason" date="unknown">parishii</taxon_name>
+    <taxon_hierarchy>genus Limnanthes;species gracilis;variety parishii;</taxon_hierarchy>
+  </taxon_identification>
+  <number>6c.</number>
+  <discussion type="conservation">of conservation concern;</discussion>
   <discussion>Subspecies parishii has been found only in Riverside and San Diego counties.</discussion>
-</treatment>
+</bio:treatment>

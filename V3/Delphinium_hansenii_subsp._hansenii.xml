@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><number>42a.</number><TaxonIdentification Status="ACCEPTED"><genus_name>Delphinium</genus_name><species_name>hansenii</species_name><species_authority>(Greene) Greene</species_authority><subspecies_name>hansenii</subspecies_name></TaxonIdentification><common_name>Hansen's larkspur</common_name><endemic>endemic</endemic><illustrated>illustrated</illustrated><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>hesperium</species_name><species_authority>A. Gray</species_authority><variety_name>hansenii</variety_name><variety_authority>Greene</variety_authority></TaxonIdentification><TaxonIdentification Status="SYNONYM"><genus_name>Delphinium</genus_name><species_name>hansenii</species_name><subspecies_name>arcuatum</subspecies_name><subspecies_authority>(Greene) Ewan</subspecies_authority></TaxonIdentification><description>Stems 40-80(-180) cm, base simple- and/or long-puberulent. Leaves mainly cauline; basal leaves usually absent at anthesis; cauline leaves 3 or more, gradually smaller than basal leaves. Inflorescences (2-)6-11 flowers per 5 cm, dense or less commonly open. Flowers: sepals dark blue-purple to white or pink, lateral sepals 7-10(-13) mm, spurs 8-13 mm. 2n = 16, 32.</description><phenology>Flowering spring(-early summer)</phenology><habitat> Open oak woods, grasslands</habitat><elevation> 100-3000 m</elevation><us_distribution> Calif.</us_distribution><discussion>Delphinium hansenii subsp. hansenii produces natural hybrids with D. gypsophilum, D. hesperium, and D. variegatum.</discussion></treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="(Greene) Greene" date="unknown">hansenii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Greene) Ewan" date="unknown">hansenii</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species hansenii;subspecies hansenii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">hesperium</taxon_name>
+    <taxon_name rank="variety" authority="Greene" date="unknown">hansenii</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species hesperium;variety hansenii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Delphinium</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">hansenii</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">arcuatum</taxon_name>
+    <taxon_hierarchy>genus Delphinium;species hansenii;subspecies arcuatum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>42a.</number>
+  <other_name type="common_name">Hansen's larkspur</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>Delphinium hansenii subsp. hansenii produces natural hybrids with D. gypsophilum, D. hesperium, and D. variegatum.</discussion>
+</bio:treatment>

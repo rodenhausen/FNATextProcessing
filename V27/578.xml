@@ -1,49 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>10.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Dicranum</genus_name>
-    <species_name>drummondii</species_name>
-    <species_authority>Müller Hal.</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Müller Hal." date="unknown">drummondii</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Musc. Frond.</publication_title>
       <place_in_publication>1: 356. 1848,</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>elatum</species_name>
-    <species_authority>Lindberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Dicranum</genus_name>
-    <species_name>robustum</species_name>
-    <species_authority>Bruch &amp; Schimper</species_authority>
-  </TaxonIdentification>
-  <description>Plants in loose tufts, yellowish green to yellowish brown below, shiny to dull.
-        Stems 5–11 cm, densely tomentose below with reddish brown rhizoids. Leaves erect and
-        compressed to somewhat flexuose, curled to flexuose at apices when dry, undulate or rugose,
-        (7–)8–10(–12) × 1.5–2 mm, concave below, keeled above, from an oblong-ovate base to a
-        long-acuminate apex; margins incurved to tubulose below, plane and strongly serrate above;
-        laminae 1-stratose below, sometimes a few scattered 2-stratose regions above; costa
-        percurrent to shortly excurrent, 1/10–1/6 the width of leaves at base, papillose to serrate
-        above on abaxial surface, without lamellae, with a row of guide cells, two stereid bands
-        above and below extending to apex, adaxial epidermal layer of cells with a few cells
-        slightly larger than the stereids differentiated, the abaxial layer completely
-        differentiated with cells slightly larger than the stereids; cell walls between lamina cells
-        not bulging; leaf cells smooth or a few cells prorate on abaxial surface; alar cells
-        2-stratose, differentiated, extending to costa; proximal laminal cells irregularly
-        rectangular, often narrowed at ends, narrow and elongate on margins, pitted,
-        (67–)82–98(–112) × (5–)6–8(–9) µm; distal laminal cells round, oblong, somewhat rectangular,
-        with a few pits (9–)13–19(–30) × (3–)6–9(–12) µm. Sterile, no sex organs seen. [Sexual
-        condition pseudomonoicous, male plants on leaves of female plants. Interior perichaetial
-        leaves abruptly subulate, convolute-sheathing. Seta 3–5 cm, 2–3 per perichaetium, sometimes
-        solitary, yellowish. Capsule 2.5–3.5 mm, arcuate, inclined to horizontal, striate when dry,
-        yellowish brown; operculum 2.3–3 mm. Spores 14–18 µm.]</description>
-  <habitat>As large clones in mesic mire</habitat>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>n Europe</global_distribution>
-  <global_distribution>Asia (China, Japan, Korea, Russia).</global_distribution>
+    <taxon_hierarchy>genus Dicranum;species drummondii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Lindberg" date="unknown">elatum</taxon_name>
+    <taxon_hierarchy>genus Dicranum;species elatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Dicranum</taxon_name>
+    <taxon_name rank="species" authority="Bruch &amp; Schimper" date="unknown">robustum</taxon_name>
+    <taxon_hierarchy>genus Dicranum;species robustum;</taxon_hierarchy>
+  </taxon_identification>
+  <number>10.</number>
   <discussion>Dicranum drummondii, primarily an Eurasian species, was for years confused with the
         endemic North American species Dicranum ontariense W. L. Peterson (see discussion under 9.
         D. ontariense). It was only recently (August 2000) that W. B. Schofield, S. S. Talbot, and
@@ -57,4 +39,4 @@
         with few pits, cells smooth or prorate on abaxial surface, in cross section the lamina with
         a few scattered 2-stratose cells, cells walls between the lamina cells not bulging, and
         costa with a few cells differentiated on the adaxial epidermal surface.</discussion>
-</treatment>
+</bio:treatment>

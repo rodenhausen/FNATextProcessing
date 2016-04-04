@@ -1,54 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Eucephalus</genus_name>
-    <species_name>ledophyllus</species_name>
-    <species_authority>(A. Gray) Greene</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini" date="unknown">Astereae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Eucephalus</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Greene" date="unknown">ledophyllus</taxon_name>
     <place_of_publication>
       <publication_title>Pittonia</publication_title>
       <place_in_publication>3: 55. 1896</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Cascade aster</common_name>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Aster</genus_name>
-    <species_name>engelmannii</species_name>
-    <species_authority>(D. C. Eaton) A. Gray</species_authority>
-    <variety_name>ledophyllus</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>family Asteraceae;tribe Astereae;genus Eucephalus;species ledophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(D. C. Eaton) A. Gray" date="unknown">engelmannii</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">ledophyllus</taxon_name>
     <place_of_publication>
-      <publication_title>Proc. Amer. Acad. Arts </publication_title>
+      <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>8: 388. 1872</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Aster</genus_name>
-    <species_name>ledophyllus</species_name>
-    <species_authority>(A. Gray) A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Perennials, 20–80 cm (caudices stout). Stems erect, pilose to stipitate-glandular.
-    Leaves: mid and distal blades lance-elliptic to oblong, 2.5–7 cm × 5–20 mm, glabrous or sparsely
-    pubescent abaxially, ± densely cottony and sometimes stipitate-glandular adaxially. Heads 3–20
-    in racemiform to corymbiform arrays. Peduncles pilose to stipitate-glandular. Involucres
-    turbinate, 7–11 mm. Phyllaries in 3–5 series (usually reddish at margins and apices), lanceolate
-    (strongly unequal), apices acute to acuminate, abaxial faces puberulent to stipitate-glandular.
-    Rays 5–21, purple. Cypselae pilose; pappus bristles in 2 series, smooth or ± barbellate. 2n =
-    18.</description>
+    <taxon_hierarchy>genus Aster;species engelmannii;variety ledophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Aster</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) A. Gray" date="unknown">ledophyllus</taxon_name>
+    <taxon_hierarchy>genus Aster;species ledophyllus;</taxon_hierarchy>
+  </taxon_identification>
+  <number>7.</number>
+  <other_name type="common_name">Cascade aster</other_name>
   <discussion>eucephalus ledophyllus may intergrade with e. engelmannii in the northern part of its
     range</discussion>
-  <number_of_infrataxa>Varieties 2 (2 in the flora)</number_of_infrataxa>
-  <global_distribution>w United States</global_distribution>  <key>
+  <discussion>Varieties 2 (2 in the flora)</discussion>
+  <key>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peduncles glandular or not, at least ± woolly or cottony; rays usually 13 or
-        21</statement>
+      <description type="morphology">Peduncles glandular or not, at least ± woolly or cottony; rays usually 13 or
+        21</description>
       <determination>7a. Eucephalus ledophyllus var. ledophyllus</determination>
     </key_statement>
     <key_statement>
       <statement_id>1.</statement_id>
-      <statement>Peduncles glandular, not cottony; rays usually 5 or 8</statement>
+      <description type="morphology">Peduncles glandular, not cottony; rays usually 5 or 8</description>
       <determination>7b. Eucephalus ledophyllus var. covillei</determination>
     </key_statement>
   </key>
-</treatment>
+</bio:treatment>

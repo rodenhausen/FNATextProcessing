@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Filago</genus_name>
-    <species_name>pyramidata</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Martinov" date="unknown">Asteraceae</taxon_name>
+    <taxon_name rank="tribe" authority="Cassini ex Lecoq &amp; Juillet" date="unknown">Gnaphalieae</taxon_name>
+    <taxon_name rank="genus" authority="unknown" date="unknown">Filago</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">pyramidata</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 1199. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Filago;species pyramidata;</taxon_hierarchy>
-  <common_name>Broadleaf cottonrose</common_name>
-  <common_name>cotonnière spatulée</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Filago</genus_name>
-    <species_name>germanica</species_name>
-    <species_authority>Hudson</species_authority>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 4 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>sw Asia</global_distribution>
-  <global_distribution>n Africa</global_distribution>
-  <global_distribution>Atlantic Islands</global_distribution>
-  <global_distribution>introduced.</global_distribution>
+    <taxon_hierarchy>family Asteraceae;tribe Gnaphalieae;genus Filago;species pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Filago</taxon_name>
+    <taxon_name rank="species" authority="Hudson" date="unknown">germanica</taxon_name>
+    <taxon_hierarchy>genus Filago;species germanica;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2.</number>
+  <other_name type="common_name">Broadleaf cottonrose</other_name>
+  <other_name type="common_name">cotonnière spatulée</other_name>
+  <discussion>Varieties 4 (1 in the flora):</discussion>
   <discussion>Filago pyramidata was first collected in North America in 1935 (G. Wagenitz 1976). It is known in the flora only from northwestern California and from Saturna Island, British Columbia. It is variable in its native range; additional named varieties may eventually turn up in the flora. The name F. vulgaris was misapplied to this species by P. A. Munz (1968).</discussion>
-</treatment>
-
+</bio:treatment>
