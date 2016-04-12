@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>21.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>macrostylum</species_name>
-    <species_authority>Small &amp; A. Heller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="Small &amp; A. Heller" date="unknown">macrostylum</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Torrey Bot. Club</publication_title>
       <place_in_publication>3: 8. 1892</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>subrotundum</species_name>
-    <species_authority>B. Boivin</species_authority>
-  </TaxonIdentification>
-  <description>Stems erect to ± reclining, slender, 50-200 cm, glabrous. Leaves basal and cauline; basal and proximal cauline petiolate, distal cauline sessile; petioles and rachises glabrous, neither pubescent nor glandular. Leaf blade ternately and pinnately decompound; leaflets grayish green to brownish to bright green, nearly orbiculate to ovate or obovate, apically undivided or shallowly 2-3-lobed, 5-16(-22) × 3-18 mm, length 1-3.3 times width, leathery and prominently reticulate abaxially, or sometimes quite membranous, margins sometimes revolute, lobe margins entire; surfaces abaxially glabrous. Inflorescences racemes or panicles, elongate, few flowered; peduncles and pedicels neither pubescent nor glandular. Flowers either unisexual with staminate and pistillate on different plants, or bisexual and unisexual with staminate and bisexual on some plants, pistillate and bisexual on others; sepals 4(-6), greenish to white, nearly orbiculate, 1-2 mm; filaments white, filiform or sometimes clavate, 1.8-4 mm, rigid to flexible; anthers 0.5-1.2 mm. Achenes numerous, slightly stipitate; stipe 0.3-0.7 mm; body ovoid, 3-4.5 mm, prominently veined, glabrous; beak 0.7-1.7 mm. 2n = 56.</description>
-  <phenology>Flowering late spring-summer (early Jun-mid Jul)</phenology>
-  <habitat>Low woods, rich wooded slopes, cliffs, swampy forests, meadows, and limestone sinks</habitat>
-  <elevation>500-800 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Thalictrum; species macrostylum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="B. Boivin" date="unknown">subrotundum</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species subrotundum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect to ± reclining, slender, 50-200 cm, glabrous. Leaves basal and cauline; basal and proximal cauline petiolate, distal cauline sessile; petioles and rachises glabrous, neither pubescent nor glandular. Leaf blade ternately and pinnately decompound; leaflets grayish green to brownish to bright green, nearly orbiculate to ovate or obovate, apically undivided or shallowly 2-3-lobed, 5-16(-22) × 3-18 mm, length 1-3.3 times width, leathery and prominently reticulate abaxially, or sometimes quite membranous, margins sometimes revolute, lobe margins entire; surfaces abaxially glabrous. Inflorescences racemes or panicles, elongate, few flowered; peduncles and pedicels neither pubescent nor glandular. Flowers either unisexual with staminate and pistillate on different plants, or bisexual and unisexual with staminate and bisexual on some plants, pistillate and bisexual on others; sepals 4(-6), greenish to white, nearly orbiculate, 1-2 mm; filaments white, filiform or sometimes clavate, 1.8-4 mm, rigid to flexible; anthers 0.5-1.2 mm. Achenes numerous, slightly stipitate; stipe 0.3-0.7 mm; body ovoid, 3-4.5 mm, prominently veined, glabrous; beak 0.7-1.7 mm. 2n = 56.</description>
+  <description type="phenology">Flowering late spring-summer (early Jun-mid Jul)</description>
+  <description type="habitat">Low woods, rich wooded slopes, cliffs, swampy forests, meadows, and limestone sinks</description>
+  <description type="elevation">500-800 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Va.</description>
+  <number>21.</number>
+  <discussion>endemic</discussion>
   <discussion>Much variation in Thalictrum macrostylum seems to be associated with habitat differences, especially the amount of sunlight received. The name T. subrotundum merely represents plants of T. macrostylum growing in deep shade. Common garden studies and cluster analyses do not support recognition of two species (M. Park 1992).</discussion>
-</treatment>
+</bio:treatment>

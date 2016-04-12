@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Macrantha</section_name>
-    <section_authority>Elkan</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="section" authority="Elkan" date="unknown">Macrantha</taxon_name>
     <place_of_publication>
       <publication_title>Tent. Monogr. Papaver,</publication_title>
       <place_in_publication>19. 1839</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <section_name>Oxytona</section_name>
-    <section_authority>(Bernhardi) Pfeiffer</section_authority>
-  </TaxonIdentification>
-  <description>Plants perennial, caulescent. Leaf blades unlobed or 1×-lobed, distal not clasping stem. Flowers: filaments purple, clavate. Capsules poricidal, glabrous.</description>
+    <taxon_hierarchy>genus Papaver; section Macrantha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="section" authority="(Bernhardi) Pfeiffer" date="unknown">Oxytona</taxon_name>
+    <taxon_hierarchy>genus Papaver; section Oxytona;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants perennial, caulescent. Leaf blades unlobed or 1×-lobed, distal not clasping stem. Flowers: filaments purple, clavate. Capsules poricidal, glabrous.</description>
+  <number>11c.</number>
   <references>
     <reference>Goldblatt, P. 1974. Biosystematic studies in Papaver section Oxytona. Ann. Missouri Bot. Gard. 61: 264-296.</reference>
   </references>
-</treatment>
+</bio:treatment>

@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Magnolia</genus_name>
-    <species_name>pyramidata</species_name>
-    <species_authority>W. Bartram</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="W. Bartram" date="unknown">pyramidata</taxon_name>
     <place_of_publication>
       <publication_title>Travels Carolina,</publication_title>
       <place_in_publication>408. 1791</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Pyramid magnolia</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>auriculata</species_name>
-    <species_authority>W.Bartram</species_authority>
-    <variety_name>pyramidata</variety_name>
-    <variety_authority>(W.Bartram) Nuttall</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>fraseri</species_name>
-    <species_authority>Walter</species_authority>
-    <subspecies_name>pyramidata</subspecies_name>
-    <subspecies_authority>(W.Bartram) E. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>fraseri</species_name>
-    <variety_name>pyramidata</variety_name>
-    <variety_authority>(W.Bartram) Pampanini</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>macrophylla</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>pyramidata</variety_name>
-    <variety_authority>Nuttall</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, single-trunked, to 11.9 m. Bark gray, smooth. Pith homogeneous. Twigs and foliar buds glabrous. Leaves crowded in terminal whorl-like clusters; stipules 5.4-7 × 2.5-3 cm, abaxially glandular. Leaf blade predominantly pandurate to broadly rhombic-spatulate, broadest above middle, abruptly tapering to base, 18-25(-30) × 7.8-14 cm, base deeply cordate to auriculate, or somewhat truncate, apex acute to short-acuminate; surfaces abaxially glaucous, glabrous, adaxially dull deep green. Flowers fragrant, 12-18 cm across; spathaceous bracts 2, abaxially glandular; tepals creamy white; stamens 83-137(-150), 4.5-8(-10.5) mm; filaments white; pistils 36-60. Follicetums ellipsoid, 4-6 × 2.5-3.5 cm, glabrous; follicles recurved, short-beaked, glabrous. Seeds lenticular, 7-8 mm, aril red. 2n=38.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Rich woods and river bluffs, mostly coastal plain, sometimes lower piedmont</habitat>
-  <elevation>0-120m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Magnolia; species pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="W.Bartram" date="unknown">auriculata</taxon_name>
+    <taxon_name rank="variety" authority="(W.Bartram) Nuttall" date="unknown">pyramidata</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species auriculata; variety pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">fraseri</taxon_name>
+    <taxon_name rank="subspecies" authority="(W.Bartram) E. Murray" date="unknown">pyramidata</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species fraseri; subspecies pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">fraseri</taxon_name>
+    <taxon_name rank="variety" authority="(W.Bartram) Pampanini" date="unknown">pyramidata</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species fraseri; variety pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macrophylla</taxon_name>
+    <taxon_name rank="variety" authority="Nuttall" date="unknown">pyramidata</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species macrophylla; variety pyramidata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, single-trunked, to 11.9 m. Bark gray, smooth. Pith homogeneous. Twigs and foliar buds glabrous. Leaves crowded in terminal whorl-like clusters; stipules 5.4-7 × 2.5-3 cm, abaxially glandular. Leaf blade predominantly pandurate to broadly rhombic-spatulate, broadest above middle, abruptly tapering to base, 18-25(-30) × 7.8-14 cm, base deeply cordate to auriculate, or somewhat truncate, apex acute to short-acuminate; surfaces abaxially glaucous, glabrous, adaxially dull deep green. Flowers fragrant, 12-18 cm across; spathaceous bracts 2, abaxially glandular; tepals creamy white; stamens 83-137(-150), 4.5-8(-10.5) mm; filaments white; pistils 36-60. Follicetums ellipsoid, 4-6 × 2.5-3.5 cm, glabrous; follicles recurved, short-beaked, glabrous. Seeds lenticular, 7-8 mm, aril red. 2n=38.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Rich woods and river bluffs, mostly coastal plain, sometimes lower piedmont</description>
+  <description type="elevation">0-120m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tex.</description>
+  <number>4.</number>
+  <other_name type="common_name">Pyramid magnolia</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Confined largely to the coastal plain, Magnolia pyramidata differs from the allopatric M. fraseri in being a smaller tree with a narrower, pyramidal habit; M. pyramidata is very local and nowhere abundant. Morphologically, M. pyramidata differs from M. fraseri in the pandurate leaf blades, smaller flowers and stipules, fewer stamens and pistils, and smaller follicetums. Magnolia pyramidata is occasionally cultivated, but it is less hardy than M. fraseri.</discussion>
   <discussion>The largest known tree of Magnolia pyramidata, 11.9m in height with a trunk diameter of 69 cm, is recorded from Newton County, Texas (American Forestry Association 1994).</discussion>
-</treatment>
+</bio:treatment>

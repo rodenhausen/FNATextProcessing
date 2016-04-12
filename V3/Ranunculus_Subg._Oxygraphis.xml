@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Oxygraphis</subgenus_name>
-    <subgenus_authority>(Bunge) L. D. Benson</subgenus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Bunge) L. D. Benson" date="unknown">Oxygraphis</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Bot.</publication_title>
       <place_in_publication>27: 806. 1940</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <subgenus_name>Oxygraphis</subgenus_name>
-    <subgenus_authority>Bunge</subgenus_authority>
+    <taxon_hierarchy>genus Ranunculus; subgenus Oxygraphis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Bunge" date="unknown">Oxygraphis</taxon_name>
     <place_of_publication>
       <publication_title>Verz. Altai Pfl.,</publication_title>
       <place_in_publication>46. 1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants glabrous. Stems erect from short caudices or rhizomes, stolons absent, not bulbous-based, without bulbils. Roots from rhizome only, never tuberous. Leaves all basal, simple, petiolate; blades undivided, unlobed, margins entire or serrulate. Inflorescences terminal, solitary flowers. Flowers: sepals persistent in fruit, 5; petals 9-18, yellow, 7-12 mm; nectary scale attached basally, forming low ridge not covering nectary, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body ellipsoid, about as wide as thick, not prolonged beyond seed; wall membranous, loose and ± inflated, with 1-2 longitudinal veins on each face; margin narrow ridge; beak 0.8-1.4 mm, shorter than achene body.</description>
-  <number_of_infrataxa>Species 5 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>subgenus Oxygraphis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants glabrous. Stems erect from short caudices or rhizomes, stolons absent, not bulbous-based, without bulbils. Roots from rhizome only, never tuberous. Leaves all basal, simple, petiolate; blades undivided, unlobed, margins entire or serrulate. Inflorescences terminal, solitary flowers. Flowers: sepals persistent in fruit, 5; petals 9-18, yellow, 7-12 mm; nectary scale attached basally, forming low ridge not covering nectary, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body ellipsoid, about as wide as thick, not prolonged beyond seed; wall membranous, loose and ± inflated, with 1-2 longitudinal veins on each face; margin narrow ridge; beak 0.8-1.4 mm, shorter than achene body.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Asia.</description>
+  <number>2d.</number>
+  <discussion>Species 5 (1 in the flora):</discussion>
+</bio:treatment>

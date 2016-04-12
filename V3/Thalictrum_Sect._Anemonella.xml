@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Anemonella</section_name>
-    <section_authority>(Spach) Tamura</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="(Spach) Tamura" date="unknown">Anemonella</taxon_name>
     <place_of_publication>
       <publication_title>Acta Phytotax. Geobot.</publication_title>
       <place_in_publication>43: 57. 1992</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <section_name>Anemonella</section_name>
-    <section_authority>Spach</section_authority>
+    <taxon_hierarchy>genus Thalictrum; section Anemonella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="Spach" date="unknown">Anemonella</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Vég.</publication_title>
       <place_in_publication>7: 239. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <section_name>Syndesmon</section_name>
-    <section_authority>Hoffmannsegg</section_authority>
-  </TaxonIdentification>
-  <description>Inflorescences umbels or flowers solitary. Flowers bisexual; sepals 5(-10); filaments narrowly clavate. Achenes sessile to nearly sessile.</description>
-  <number_of_infrataxa>Species 1 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>section Anemonella;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="section" authority="Hoffmannsegg" date="unknown">Syndesmon</taxon_name>
+    <taxon_hierarchy>section Syndesmon;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescences umbels or flowers solitary. Flowers bisexual; sepals 5(-10); filaments narrowly clavate. Achenes sessile to nearly sessile.</description>
+  <description type="distribution">North America.</description>
+  <number>22a.</number>
+  <discussion>Species 1 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Myosurus</genus_name>
-    <species_name>nitidus</species_name>
-    <species_authority>Eastwood</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myosurus</taxon_name>
+    <taxon_name rank="species" authority="Eastwood" date="unknown">nitidus</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>32: 194. 1905</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Myosurus</genus_name>
-    <species_name>egglestonii</species_name>
-    <species_authority>Wooton &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <description>Herbs, 1-1.9 cm. Leaf blades linear or very narrowly oblanceolate, 0.6-1.2 cm. Inflorescences: scape 0.5-0.9 cm. Flowers: sepals sometimes strongly veined, scarious margins narrow or broad; petal claw 3 times as long as blade. Heads of achenes 8-17 × 2-2.5 mm, exserted from leaves. Achenes: outer face orbiculate to rhombic, 0.8-1 × 0.6-0.8 mm, 1-1.3 times as high as wide, not bordered; beak 0.8-1 mm, 0.8-1.2 as long as outer face of achene, diverging (sometimes weakly) from outer face of achene, heads of achenes thus ±roughened by projecting achene beaks.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Under sagebrush</habitat>
-  <elevation>1800-2100 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Myosurus; species nitidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myosurus</taxon_name>
+    <taxon_name rank="species" authority="Wooton &amp; Standley" date="unknown">egglestonii</taxon_name>
+    <taxon_hierarchy>genus Myosurus; species egglestonii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, 1-1.9 cm. Leaf blades linear or very narrowly oblanceolate, 0.6-1.2 cm. Inflorescences: scape 0.5-0.9 cm. Flowers: sepals sometimes strongly veined, scarious margins narrow or broad; petal claw 3 times as long as blade. Heads of achenes 8-17 × 2-2.5 mm, exserted from leaves. Achenes: outer face orbiculate to rhombic, 0.8-1 × 0.6-0.8 mm, 1-1.3 times as high as wide, not bordered; beak 0.8-1 mm, 0.8-1.2 as long as outer face of achene, diverging (sometimes weakly) from outer face of achene, heads of achenes thus ±roughened by projecting achene beaks.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Under sagebrush</description>
+  <description type="elevation">1800-2100 m</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">N.Mex.</description>
+  <number>5.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

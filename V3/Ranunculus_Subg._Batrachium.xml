@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Batrachium</subgenus_name>
-    <subgenus_authority>(de Candolle) A. Gray</subgenus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="subgenus" authority="(de Candolle) A. Gray" date="unknown">Batrachium</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>21: 363. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <section_name>Batrachium</section_name>
-    <section_authority>de Candolle</section_authority>
+    <taxon_hierarchy>genus Ranunculus; subgenus Batrachium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="section" authority="de Candolle" date="unknown">Batrachium</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>1: 233. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <subgenus_name>Batrachium</subgenus_name>
-    <subgenus_authority>(de Candolle) Gray</subgenus_authority>
-  </TaxonIdentification>
-  <description>Plants glabrous (or sheathing leaf bases sometimes pubescent). Stems creeping or floating, not bulbous-based, without bulbils. Roots nodal, never tuberous. Leaves cauline, either simple and laminate (with expanded blade), or completely dissected into filiform segments, or with proximal leaves filiform-dissected and distal leaves laminate; laminate leaves petiolate, undivided or 3-parted, segments entire to shallowly cleft and crenate; filiform-dissected leaves petiolate or sessile. Inflorescences axillary, solitary flowers. Flowers pedicellate; sepals deciduous soon after anthesis, 5; petals 5, white or white with yellow claws; nectary scale attached on 3 sides, forming ridge or shallow pocket not covering nectary, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body ellipsoid or flattened-ellipsoid, 1-2 times as wide as thick, not prolonged beyond seed; wall thick, with coarse transverse ridges; margin low narrow ridge; beak much shorter than achene body.</description>
-  <number_of_infrataxa>Species ca. 15 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>widespread except lowland tropics.</global_distribution>
+    <taxon_hierarchy>genus Ranunculus; section Batrachium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="subgenus" authority="(de Candolle) Gray" date="unknown">Batrachium</taxon_name>
+    <taxon_hierarchy>subgenus Batrachium;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants glabrous (or sheathing leaf bases sometimes pubescent). Stems creeping or floating, not bulbous-based, without bulbils. Roots nodal, never tuberous. Leaves cauline, either simple and laminate (with expanded blade), or completely dissected into filiform segments, or with proximal leaves filiform-dissected and distal leaves laminate; laminate leaves petiolate, undivided or 3-parted, segments entire to shallowly cleft and crenate; filiform-dissected leaves petiolate or sessile. Inflorescences axillary, solitary flowers. Flowers pedicellate; sepals deciduous soon after anthesis, 5; petals 5, white or white with yellow claws; nectary scale attached on 3 sides, forming ridge or shallow pocket not covering nectary, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body ellipsoid or flattened-ellipsoid, 1-2 times as wide as thick, not prolonged beyond seed; wall thick, with coarse transverse ridges; margin low narrow ridge; beak much shorter than achene body.</description>
+  <description type="distribution">widespread except lowland tropics.</description>
+  <number>2e.</number>
+  <discussion>Species ca. 15 (3 in the flora):</discussion>
   <discussion>Unlike most species of Ranunculus, members of this subgenus are not poisonous.</discussion>
-</treatment>
+</bio:treatment>

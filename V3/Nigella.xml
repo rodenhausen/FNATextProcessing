@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>NIGELLA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">NIGELLA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 534. 175</place_in_publication>
@@ -12,18 +16,20 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 238. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Love-in-a-mist</common_name>
-  <etymology>[Latin niger, black, and ella, diminutive; pertaining to seeds]</etymology>
-  <description>Herbs, annual, from taproots. Leaves basal and cauline, petiolate or distal leaves sessile; cauline leaves alternate. Leaf blade 2-3-pinnately dissected, segments linear, threadlike [ovate or oblong or sometimes undivided, short], margins entire. Inflorescences terminal or axillary, flowers solitary; involucres present [absent], involucral bracts 5-6, finely pinnately dissected, closely subtending flower. Flowers bisexual, radially symmetric; sepals persistent in fruit, 5-25, blue to white or pink [yellowish white or green], plane, ovate, clawed [not clawed], 8-25 mm, apex acuminate; petals (0-)5-10, distinct, lead-colored, hooded, obovate, 2-labiate, 2-5 mm; nectary apical; stamens 15-75; filaments filiform; staminodes absent between stamens and pistils; pistil compound [carpels connate proximally], [2-]5-10-carpellate; ovules 25-100; style present. Fruits capsular [partially connate follicles], sessile, inflated-spheric [not inflated], sides not prominently veined; beak terminal, straight, 13-20 mm. Seeds black, broadly obovate, reticulate, with raised ridges. x=6.</description>
-  <number_of_infrataxa>Species ca. 20 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>s Europe</global_distribution>
-  <global_distribution>sw</global_distribution>
-  <global_distribution>c Asia</global_distribution>
-  <global_distribution>n Africa.</global_distribution>
+    <taxon_hierarchy>genus NIGELLA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin niger, black, and ella, diminutive; pertaining to seeds]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Herbs, annual, from taproots. Leaves basal and cauline, petiolate or distal leaves sessile; cauline leaves alternate. Leaf blade 2-3-pinnately dissected, segments linear, threadlike [ovate or oblong or sometimes undivided, short], margins entire. Inflorescences terminal or axillary, flowers solitary; involucres present [absent], involucral bracts 5-6, finely pinnately dissected, closely subtending flower. Flowers bisexual, radially symmetric; sepals persistent in fruit, 5-25, blue to white or pink [yellowish white or green], plane, ovate, clawed [not clawed], 8-25 mm, apex acuminate; petals (0-)5-10, distinct, lead-colored, hooded, obovate, 2-labiate, 2-5 mm; nectary apical; stamens 15-75; filaments filiform; staminodes absent between stamens and pistils; pistil compound [carpels connate proximally], [2-]5-10-carpellate; ovules 25-100; style present. Fruits capsular [partially connate follicles], sessile, inflated-spheric [not inflated], sides not prominently veined; beak terminal, straight, 13-20 mm. Seeds black, broadly obovate, reticulate, with raised ridges. x=6.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">s Europe</description>
+  <description type="distribution">sw</description>
+  <description type="distribution">c Asia</description>
+  <description type="distribution">n Africa.</description>
+  <number>11.</number>
+  <other_name type="common_name">Love-in-a-mist</other_name>
+  <discussion>Species ca. 20 (1 in the flora):</discussion>
   <references>
     <reference>Mitchell, R. S. and J. K. Dean. 1982. Ranunculaceae (Crowfoot Family) of New York State. Bull. New York State Mus. Sci. Serv. 446.</reference>
     <reference>Zohary, M. 1983. The genus Nigella (Ranunculaceae)--A taxonomic revision. Pl. Syst. Evol. 142: 71-107.</reference>
   </references>
-</treatment>
+</bio:treatment>

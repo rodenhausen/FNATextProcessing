@@ -1,81 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virginiana</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 535. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sweet-bay</common_name>
-  <common_name>swamp-bay</common_name>
-  <common_name>laurier doux</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>australis</species_name>
-    <species_authority>Ashe</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>australis</species_name>
-    <variety_name>parva</variety_name>
-    <variety_authority>(Ashe) Ashe</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>fragrans</species_name>
-    <species_authority>Rafinesque</species_authority>
+    <taxon_hierarchy>genus Magnolia; species virginiana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Ashe" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">australis</taxon_name>
+    <taxon_name rank="variety" authority="(Ashe) Ashe" date="unknown">parva</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species australis; variety parva;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Linnaeus" date="unknown">fragrans</taxon_name>
     <place_of_publication>
       <place_in_publication>1817</place_in_publication>
-      <other_info>not Salisbury 1796</other_info>
+      <other_info_on_pub>not Salisbury 1796</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>glauca</species_name>
-    <species_authority>(Linnaeus) Linnaeus</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>glauca</species_name>
-    <variety_name>pumila</variety_name>
-    <variety_authority>Nuttall</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <subspecies_name>australis</subspecies_name>
-    <subspecies_authority>(Sargent) E. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <variety_name>australis</variety_name>
-    <variety_authority>Sargent</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <variety_name>glauca</variety_name>
-    <variety_authority>Linnaeus</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <variety_name>grisea</variety_name>
-    <variety_authority>Linnaeus</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <variety_name>parva</variety_name>
-    <variety_authority>Ashe</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs or small trees, evergreen to partly evergreen or deciduous, multitrunked to
+    <taxon_hierarchy>genus Magnolia; species fragrans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glauca</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glauca</taxon_name>
+    <taxon_name rank="variety" authority="Nuttall" date="unknown">pumila</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species glauca; variety pumila;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="subspecies" authority="(Sargent) E. Murray" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; subspecies australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; variety australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">glauca</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; variety glauca;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">grisea</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; variety grisea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Ashe" date="unknown">parva</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; variety parva;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs or small trees, evergreen to partly evergreen or deciduous, multitrunked to
         10m, or single-trunked to 28 m. Bark dark gray, smooth. Pith diaphragmed. Twigs and foliar
         buds silky-pubescent, sometimes glabrous. Leaves distinctly alternate, not in terminal
         whorl-like clusters; stipules 3-5.5(-6) × 0.3-0.5 cm, abaxially brownish puberulent,
@@ -88,28 +89,33 @@
         filaments white; pistils (9-)19-33(-50). Follicetums ellipsoid to nearly globose, 2-5.5 ×
         1.5-3 cm; follicles short-beaked, glabrous. Seeds somewhat globose to lenticular, 5 mm, aril
         red. 2n=38.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Swamps, bays, low wet woods, savannahs</habitat>
-  <elevation>0-540 m</elevation>
-  <global_distribution>chiefly in coastal plain and lower piedmont</global_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Swamps, bays, low wet woods, savannahs</description>
+  <description type="elevation">0-540 m</description>
+  <description type="distribution">chiefly in coastal plain and lower piedmont</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">D.C.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Va.</description>
+  <number>6.</number>
+  <other_name type="common_name">Sweet-bay</other_name>
+  <other_name type="common_name">swamp-bay</other_name>
+  <other_name type="common_name">laurier doux</other_name>
+  <discussion>endemic</discussion>
   <discussion>The most widely distributed species of Magnolia in the flora, M. virginiana occurs
         in two growth forms: deciduous and often multitrunked northward, and typically
         single-trunked and evergreen in the southern range. Where these forms overlap geographically
@@ -135,4 +141,4 @@
   <discussion>The Houma and Rappahannock tribes used decoctions of leaves, twigs, and bark of
         Magnolia virginiana to treat colds and chills, to warm the blood, and as a hallucinogen
         (D.E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

@@ -1,96 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Sassafras</genus_name>
-    <species_name>albidum</species_name>
-    <species_authority>(Nuttall) Nees</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sassafras</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Nees" date="unknown">albidum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Laur.,</publication_title>
       <place_in_publication>490. 1836</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sassafras</common_name>
-  <common_name>white sassafras</common_name>
-  <common_name>filé</common_name>
-  <common_name>gombo filé</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Laurus</genus_name>
-    <species_name>albida</species_name>
-    <species_authority>Nuttall</species_authority>
+    <taxon_hierarchy>genus Sassafras; species albidum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Laurus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">albida</taxon_name>
     <place_of_publication>
       <publication_title>Gen. N. Amer. Pl.</publication_title>
       <place_in_publication>1: 259. 1818</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Laurus</genus_name>
-    <species_name>sassafras</species_name>
-    <species_authority>Linnaeus</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sassafras</genus_name>
-    <species_name>albidum</species_name>
-    <variety_name>molle</variety_name>
-    <variety_authority>(Rafinesque) Fernald</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sassafras</genus_name>
-    <species_name>officinalis</species_name>
-    <species_authority>T. Nees ex C. H. Ebermaier</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sassafras</genus_name>
-    <species_name>sassafras</species_name>
-    <species_authority>(Linnaeus) H. Karsten</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Sassafras</genus_name>
-    <species_name>variifolium</species_name>
-    <species_authority>(Salisbury) Kuntze</species_authority>
-  </TaxonIdentification>
-  <description>Trees, to 35 m. Twigs pale green with darker olive mottling, terete. Leaf blade ovate to elliptic, unlobed or 2-3-lobed (rarely more), 10-16 × 5-10 cm, apex obtuse to acute. Inflorescences to 5 cm, silky-pubescent; floral bract to 1 cm. Flowers: fragrant (sweet, lemony), glabrous; tepals greenish yellow. Staminate flowers: inner 3 stamens with 2 conspicuously stalked glands near base of filament, filament slender; pistillodes usually absent (sometimes present in terminal flower of inflorescence). Pistillate flowers: staminodes 6; style slender, 2-3 mm; stigma capitate. Drupe ca. 1 cm; pedicel reddish, club-shaped, ± fleshy. 2n = 48.</description>
-  <phenology>Flowering spring (Apr-May)</phenology>
-  <habitat>Habitat varied, forests, woodlands, fencerows, old fields (sometimes aggressively colonial), and disturbed areas</habitat>
-  <elevation>0-1500 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
+    <taxon_hierarchy>genus Laurus; species albida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Laurus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">sassafras</taxon_name>
+    <taxon_hierarchy>genus Laurus; species sassafras;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sassafras</taxon_name>
+    <taxon_name rank="species" authority="T. Nees ex C. H. Ebermaier" date="unknown">albidum</taxon_name>
+    <taxon_name rank="variety" authority="(Rafinesque) Fernald" date="unknown">molle</taxon_name>
+    <taxon_hierarchy>genus Sassafras; species albidum; variety molle;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sassafras</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) H. Karsten" date="unknown">officinalis</taxon_name>
+    <taxon_hierarchy>genus Sassafras; species officinalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sassafras</taxon_name>
+    <taxon_name rank="species" authority="(Salisbury) Kuntze" date="unknown">sassafras</taxon_name>
+    <taxon_hierarchy>genus Sassafras; species sassafras;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Sassafras</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">variifolium</taxon_name>
+    <taxon_hierarchy>genus Sassafras; species variifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 35 m. Twigs pale green with darker olive mottling, terete. Leaf blade ovate to elliptic, unlobed or 2-3-lobed (rarely more), 10-16 × 5-10 cm, apex obtuse to acute. Inflorescences to 5 cm, silky-pubescent; floral bract to 1 cm. Flowers: fragrant (sweet, lemony), glabrous; tepals greenish yellow. Staminate flowers: inner 3 stamens with 2 conspicuously stalked glands near base of filament, filament slender; pistillodes usually absent (sometimes present in terminal flower of inflorescence). Pistillate flowers: staminodes 6; style slender, 2-3 mm; stigma capitate. Drupe ca. 1 cm; pedicel reddish, club-shaped, ± fleshy. 2n = 48.</description>
+  <description type="phenology">Flowering spring (Apr-May)</description>
+  <description type="habitat">Habitat varied, forests, woodlands, fencerows, old fields (sometimes aggressively colonial), and disturbed areas</description>
+  <description type="elevation">0-1500 m</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">D.C.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <number>1.</number>
+  <other_name type="common_name">Sassafras</other_name>
+  <other_name type="common_name">white sassafras</other_name>
+  <other_name type="common_name">filé</other_name>
+  <other_name type="common_name">gombo filé</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
   <discussion>Infraspecific taxa have been based on amount of pubescence of leaves and color of young twigs; these taxa are not recognized here.</discussion>
   <discussion>Traditionally, "sassafras tea" was prepared by steeping the bark of the roots (D. S. Correll and M. C. Johnston 1970). It was once considered a relatively pleasant drink. Several indigenous populations used sassafras twigs as chewing sticks, and sassafras root is used occasionally in commercial dental poultices. Sassafras root was one of the ingredients of root beer; this use has now been banned.</discussion>
   <discussion>Safrole (p-allylyn ethylenediozybenzene) is found as a minor component in many Lauraceae and as the principal component (80%) of sassafras oil. It is suspected of causing contact dermatitis and of being hallucinogenic, especially in large doses; it is also considered to be both carcinogenic and hepatotoxic (W. H. Lewis and M. P. F. Elvin-Lewis 1977).</discussion>
-</treatment>
+</bio:treatment>

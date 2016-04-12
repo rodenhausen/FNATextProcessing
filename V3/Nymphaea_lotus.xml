@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>lotus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">lotus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 511. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Egyptian lotus (in part)</common_name>
-  <description>Rhizomes branched or unbranched, erect, ovoid; stolons slender. Leaves: petiole sparsely to densely puberulent. Leaf blade abaxially purplish, adaxially green, nearly orbiculate, to ca. 3 × 3 dm, margins spinose-dentate; venation radiate and prominent centrally, without weblike pattern, principal veins ca. 15; surfaces abaxially sparsely to densely puberulent. Flowers emersed, 12-25 cm diam., opening nocturnally, many flowers not closing until late morning, only sepals and outermost petals in distinct whorls of 4; sepals abaxially uniformly green, prominently veined, lines of insertion on receptacle not prominent; petals 16-20, white; stamens ca. 75, yellow, outer with connective appendage projecting less than 2 mm beyond anther; filaments widest below middle, slightly shorter to longer than anthers; pistil ca. 20(-30)-locular, appendages at margin of stigmatic disk linear, 6-12 mm. Seeds ellipsoid, 1.4-1.8 × 0.9-1.2 mm, ca. 1.5-1.6 times as long as broad, with longitudinal ridges bearing papillae 20-150 µm.</description>
-  <phenology>Flowering spring-summer</phenology>
-  <habitat>Ponds, ditches, and canals</habitat>
-  <elevation>0-100 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <global_distribution>Africa.</global_distribution>
+    <taxon_hierarchy>genus Nymphaea; species lotus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes branched or unbranched, erect, ovoid; stolons slender. Leaves: petiole sparsely to densely puberulent. Leaf blade abaxially purplish, adaxially green, nearly orbiculate, to ca. 3 × 3 dm, margins spinose-dentate; venation radiate and prominent centrally, without weblike pattern, principal veins ca. 15; surfaces abaxially sparsely to densely puberulent. Flowers emersed, 12-25 cm diam., opening nocturnally, many flowers not closing until late morning, only sepals and outermost petals in distinct whorls of 4; sepals abaxially uniformly green, prominently veined, lines of insertion on receptacle not prominent; petals 16-20, white; stamens ca. 75, yellow, outer with connective appendage projecting less than 2 mm beyond anther; filaments widest below middle, slightly shorter to longer than anthers; pistil ca. 20(-30)-locular, appendages at margin of stigmatic disk linear, 6-12 mm. Seeds ellipsoid, 1.4-1.8 × 0.9-1.2 mm, ca. 1.5-1.6 times as long as broad, with longitudinal ridges bearing papillae 20-150 µm.</description>
+  <description type="phenology">Flowering spring-summer</description>
+  <description type="habitat">Ponds, ditches, and canals</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Africa.</description>
+  <number>5.</number>
+  <other_name type="common_name">Egyptian lotus (in part)</other_name>
   <references>
     <reference>Wiersema, J. H. 1982. Distributional records for Nymphaea lotus (Nymphaeaceae) in the Western Hemisphere. Sida 9: 230-234.</reference>
   </references>
-</treatment>
+</bio:treatment>

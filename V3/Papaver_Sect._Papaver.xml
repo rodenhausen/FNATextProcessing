@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_hierarchy>genus Papaver; section Papaver;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants annual, caulescent. Leaf blades unlobed or 1×-lobed, distal clasping stem. Flowers: filaments white, clavate. Capsules poricidal, glabrous.</description>
   <number>11e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Papaver</section_name>
-  </TaxonIdentification>
-  <description>Plants annual, caulescent. Leaf blades unlobed or 1×-lobed, distal clasping stem. Flowers: filaments white, clavate. Capsules poricidal, glabrous.</description>
   <references>
     <reference>Kadereit, J. W. 1986b. A revision of Papaver L. sect. Papaver (Papaveraceae). Bot. Jahrb. Syst. 108: 1-16.</reference>
   </references>
-</treatment>
+</bio:treatment>

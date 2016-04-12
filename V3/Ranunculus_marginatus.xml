@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>marginatus</species_name>
-    <species_authority>d'Urville</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="d'Urville" date="unknown">marginatus</taxon_name>
     <place_of_publication>
       <publication_title>Mém. Soc. Linn. Paris</publication_title>
       <place_in_publication>1: 318. 1822</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems erect, sparsely pilose. Basal leaf blades reniform to semicircular, undivided or shallowly 3-lobed, 2.5-5 × 3-7 cm, base truncate to nearly cordate, margins crenate or dentate, apex rounded or obtuse. Flowers pedicellate; receptacle hispid; sepals 5, reflexed 1 mm from base, 3-5 × 1-2 mm, hispid; petals 5, 4-5 × 2-3.5 mm. Heads of achenes hemispheric to globose, 4 × 6 mm; achenes 15-20 per head, 2.5-3 × 2-2.5 mm, faces covered with high sharp tubercles or low spines, glabrous, margin smooth; beak deltate, straight, 0.8-1 mm.</description>
-  <phenology>Flowering spring (Mar-May)</phenology>
-  <habitat>Roadsides</habitat>
-  <elevation>0-100 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>native to Europe.</global_distribution>
+    <taxon_hierarchy>genus Ranunculus; species marginatus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect, sparsely pilose. Basal leaf blades reniform to semicircular, undivided or shallowly 3-lobed, 2.5-5 × 3-7 cm, base truncate to nearly cordate, margins crenate or dentate, apex rounded or obtuse. Flowers pedicellate; receptacle hispid; sepals 5, reflexed 1 mm from base, 3-5 × 1-2 mm, hispid; petals 5, 4-5 × 2-3.5 mm. Heads of achenes hemispheric to globose, 4 × 6 mm; achenes 15-20 per head, 2.5-3 × 2-2.5 mm, faces covered with high sharp tubercles or low spines, glabrous, margin smooth; beak deltate, straight, 0.8-1 mm.</description>
+  <description type="phenology">Flowering spring (Mar-May)</description>
+  <description type="habitat">Roadsides</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">native to Europe.</description>
+  <number>23.</number>
   <discussion>A form of Ranunculus marginatus, with the fruits weakly tuberculate or almost smooth, similar to the smooth-fruited forms of R. sardous, is found in Europe; it is not known from North America.</discussion>
-</treatment>
+</bio:treatment>

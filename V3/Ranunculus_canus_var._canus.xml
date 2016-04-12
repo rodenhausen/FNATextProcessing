@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">canus</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) W. H. Brewer &amp; S. Watson" date="unknown">canus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species canus; variety canus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) L. D. Benson" date="unknown">canus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species californicus; variety canus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">canus</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">laetus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species canus; variety laetus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Leaf blades: ultimate segments ovate or oblong-ovate to lanceolate, margins toothed, apex acute or obtuse. Flowers: petals 5-7.</description>
+  <description type="phenology">Flowering spring-summer (Mar-Jul)</description>
+  <description type="habitat">Grassland or very open oak woodland</description>
+  <description type="elevation">0-1200 m</description>
+  <description type="distribution">Calif.</description>
   <number>11a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>canus</species_name>
-    <species_authority>Bentham</species_authority>
-    <variety_name>canus</variety_name>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>californicus</species_name>
-    <species_authority>Bentham</species_authority>
-    <variety_name>canus</variety_name>
-    <variety_authority>(Bentham) W. H. Brewer &amp; S. Watson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>canus</species_name>
-    <variety_name>laetus</variety_name>
-    <variety_authority>(Greene) L. D. Benson</variety_authority>
-  </TaxonIdentification>
-  <description>Leaf blades: ultimate segments ovate or oblong-ovate to lanceolate, margins toothed, apex acute or obtuse. Flowers: petals 5-7.</description>
-  <phenology>Flowering spring-summer (Mar-Jul)</phenology>
-  <habitat>Grassland or very open oak woodland</habitat>
-  <elevation>0-1200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+  <discussion>endemic</discussion>
   <discussion>Ranunculus canus var. canus is endemic to the Sacramento Valley and adjacent foothills. As with R. californicus, the leaves vary in form. Plants from the low Sierra Nevada foothills often have simple, 3-parted leaves, while plants from the west side of the valley usually have compound leaves with leaflets parted into lanceolate segments. Many exceptions occur, however, and all possible leaf forms can be found in the eastern Sacramento Valley.</discussion>
-</treatment>
+</bio:treatment>

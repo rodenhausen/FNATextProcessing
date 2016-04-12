@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">acriformis</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">acriformis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species acriformis; variety acriformis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems strigose. Flowers: receptacle spheric or cylindric; sepals spreading or reflexed from base, pubescence of appressed hairs; petals 7-9 mm. Achenes: beak 1-1.2 mm. 2n = 28.</description>
+  <description type="phenology">Flowering spring-summer (May-Jul)</description>
+  <description type="habitat">Wet meadows</description>
+  <description type="elevation">1800-2800 m</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Wyo.</description>
   <number>8a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>acriformis</species_name>
-    <species_authority>A. Gray</species_authority>
-    <variety_name>acriformis</variety_name>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <description>Stems strigose. Flowers: receptacle spheric or cylindric; sepals spreading or reflexed from base, pubescence of appressed hairs; petals 7-9 mm. Achenes: beak 1-1.2 mm. 2n = 28.</description>
-  <phenology>Flowering spring-summer (May-Jul)</phenology>
-  <habitat>Wet meadows</habitat>
-  <elevation>1800-2800 m</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-</treatment>
+  <discussion>endemic</discussion>
+</bio:treatment>

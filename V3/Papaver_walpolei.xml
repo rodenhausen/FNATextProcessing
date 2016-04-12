@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>12.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>walpolei</species_name>
-    <species_authority>A. E. Porsild</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="A. E. Porsild" date="unknown">walpolei</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>41: 231, plate 552, figs. 4-10. 1939</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>walpolei</species_name>
-    <variety_name>sulphureo-maculata</variety_name>
-    <variety_authority>Hultén</variety_authority>
-  </TaxonIdentification>
-  <description>Plants densely cespitose, to 1(-2) dm. Leaves to 4 cm; petiole to 3/4 length of leaf; blade light green abaxially, dark green adaxially, sometimes glaucous, short-lanceolate, unlobed or 1×-lobed with 1(-2) pair(s) of lateral lobes, glabrous adaxially; terminal lobe rarely with small secondary lobes, apex rounded. Inflorescences: scapes erect, glabrate to hispid. Flowers to 3 cm diam.; petals yellow, or white with yellow basal spot; anthers yellow; stigmas 4-5, disc convex. Capsules turbinate to ellipsoid-obovoid, to 1 cm, sparsely to densely hirsute, trichomes light brown to black. 2n = 14.</description>
-  <phenology>Flowering late May-Aug</phenology>
-  <habitat>Exposed tundra uplands, especially calcareous fellfield and river gravels</habitat>
-  <elevation>0-900 m</elevation>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Asia (Russian Far East, Chukotka).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Papaver; species walpolei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">walpolei</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">sulphureo-maculata</taxon_name>
+    <taxon_hierarchy>genus Papaver; species walpolei; variety sulphureo-maculata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants densely cespitose, to 1(-2) dm. Leaves to 4 cm; petiole to 3/4 length of leaf; blade light green abaxially, dark green adaxially, sometimes glaucous, short-lanceolate, unlobed or 1×-lobed with 1(-2) pair(s) of lateral lobes, glabrous adaxially; terminal lobe rarely with small secondary lobes, apex rounded. Inflorescences: scapes erect, glabrate to hispid. Flowers to 3 cm diam.; petals yellow, or white with yellow basal spot; anthers yellow; stigmas 4-5, disc convex. Capsules turbinate to ellipsoid-obovoid, to 1 cm, sparsely to densely hirsute, trichomes light brown to black. 2n = 14.</description>
+  <description type="phenology">Flowering late May-Aug</description>
+  <description type="habitat">Exposed tundra uplands, especially calcareous fellfield and river gravels</description>
+  <description type="elevation">0-900 m</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Asia (Russian Far East, Chukotka).</description>
+  <number>12.</number>
+</bio:treatment>

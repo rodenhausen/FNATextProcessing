@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nandina</genus_name>
-    <species_name>domestica</species_name>
-    <species_authority>Thunberg</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nandina</taxon_name>
+    <taxon_name rank="species" authority="Thunberg" date="unknown">domestica</taxon_name>
     <place_of_publication>
       <publication_title>Nov. Gen. Pl.</publication_title>
       <place_in_publication>1: 14. 1781</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Heavenly-bamboo</common_name>
-  <illustrated>illustrated</illustrated>
-  <description>Stems erect. Wood and pith bright yellow. Leaves frequently reddish tinged, 5-10 dm; petioles basally enlarged and clasping. Leaflets 9-81, nearly sessile, leaflet blades 4-11 1.5-3 cm, base cuneate, apex acuminate. Inflorescences with hundreds of flowers, 1-2 dm. Flowers fragrant, pedicellate; perianth segments imbricate, weakly 2-4-seriate. Berries 6-9 mm. Seeds mostly 2. 2n = 20.</description>
-  <phenology>Flowering spring-summer (May-early Jul); fruiting summer-fall (Sep-Dec)</phenology>
-  <habitat>Old home sites</habitat>
-  <elevation>0-600 m</elevation>
-  <global_distribution>woodlands</global_distribution>
-  <global_distribution>mesic flood plains</global_distribution>
-  <global_distribution>hammocks</global_distribution>
-  <introduced>introduced</introduced>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>native</global_distribution>
-  <global_distribution>Asia (Japan, China, India).</global_distribution>
+    <taxon_hierarchy>genus Nandina; species domestica;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect. Wood and pith bright yellow. Leaves frequently reddish tinged, 5-10 dm; petioles basally enlarged and clasping. Leaflets 9-81, nearly sessile, leaflet blades 4-11 1.5-3 cm, base cuneate, apex acuminate. Inflorescences with hundreds of flowers, 1-2 dm. Flowers fragrant, pedicellate; perianth segments imbricate, weakly 2-4-seriate. Berries 6-9 mm. Seeds mostly 2. 2n = 20.</description>
+  <description type="phenology">Flowering spring-summer (May-early Jul); fruiting summer-fall (Sep-Dec)</description>
+  <description type="habitat">Old home sites</description>
+  <description type="elevation">0-600 m</description>
+  <description type="distribution">woodlands</description>
+  <description type="distribution">mesic flood plains</description>
+  <description type="distribution">hammocks</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">native</description>
+  <description type="distribution">Asia (Japan, China, India).</description>
+  <number>1.</number>
+  <other_name type="common_name">Heavenly-bamboo</other_name>
+  <discussion>illustrated</discussion>
   <discussion>Nandina domestica is commonly cultivated as an ornamental. China and Japan have been considered the possible sources of cultivated material. In the flora, seedlings are frequent in the vicinity of plantings, and mature plants have been found far from areas of current cultivation in the southeastern United States.</discussion>
-</treatment>
+</bio:treatment>

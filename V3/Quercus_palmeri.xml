@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>38.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>palmeri</species_name>
-    <species_authority>Engelmann</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">palmeri</taxon_name>
     <place_of_publication>
       <publication_title>in S. Watson,  Bot. California</publication_title>
       <place_in_publication>2: 97. 1880</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Palmer oak</common_name>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>dunnii</species_name>
-    <species_authority>Kellogg ex Curran</species_authority>
-  </TaxonIdentification>
-  <description>Small trees and shrubs, to 2-3 m. Twigs rigid, divaricately branched at 65-90° angles, reddish brown, 1.5-3 mm diam., pubescent, sparsely so in 2d year. Terminal buds ovoid, 1-1.5 mm, apex rounded, glabrous. Leaves: petiole 2-5 mm, round in cross section, glabrous to sparsely fasciculate-pubescent. Leaf blade suborbiculate, elliptic to round-ovate, 20-30(-50) × 20-40 mm, crisped, leathery and brittle, base obtuse to strongly subcordate, secondary veins 5-8(-12) pairs, each terminating in spine, basal pairs recurving, others branching at 45° angles, raised abaxially, margins spinose-dentate to occasionally entire, with highly thickened cell walls, spines cartilaginous, (1-)1.5-2 mm, apex broadly rounded or subacute, spinose; surfaces abaxially glaucous with waxy layer, often obscured by golden brown glandular hairs, adaxially grayish dark green, scurfy with fasciculate erect and twisting hairs. Acorns solitary or rarely paired; cup turbinate to saucer-shaped, margins involute, often irregular, 7-10 mm deep × 10-25(-35) mm wide, scales appressed, embedded, often appearing laterally connate into concentric rings with only tip of scale visible, tuberculate, densely golden-tomentose throughout; nut oblong to fusiform, 20-30 × 10-15 mm, apex acute.</description>
-  <phenology>Flowering in spring</phenology>
-  <habitat>Disjunct in canyons, mountain washes, dry thickets, and margins of chapparal communities</habitat>
-  <elevation>700-1800 m</elevation>
-  <us_distribution>Ariz</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (n Baja California).</global_distribution>
+    <taxon_hierarchy>genus Quercus; species palmeri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Kellogg ex Curran" date="unknown">dunnii</taxon_name>
+    <taxon_hierarchy>genus Quercus; species dunnii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Small trees and shrubs, to 2-3 m. Twigs rigid, divaricately branched at 65-90° angles, reddish brown, 1.5-3 mm diam., pubescent, sparsely so in 2d year. Terminal buds ovoid, 1-1.5 mm, apex rounded, glabrous. Leaves: petiole 2-5 mm, round in cross section, glabrous to sparsely fasciculate-pubescent. Leaf blade suborbiculate, elliptic to round-ovate, 20-30(-50) × 20-40 mm, crisped, leathery and brittle, base obtuse to strongly subcordate, secondary veins 5-8(-12) pairs, each terminating in spine, basal pairs recurving, others branching at 45° angles, raised abaxially, margins spinose-dentate to occasionally entire, with highly thickened cell walls, spines cartilaginous, (1-)1.5-2 mm, apex broadly rounded or subacute, spinose; surfaces abaxially glaucous with waxy layer, often obscured by golden brown glandular hairs, adaxially grayish dark green, scurfy with fasciculate erect and twisting hairs. Acorns solitary or rarely paired; cup turbinate to saucer-shaped, margins involute, often irregular, 7-10 mm deep × 10-25(-35) mm wide, scales appressed, embedded, often appearing laterally connate into concentric rings with only tip of scale visible, tuberculate, densely golden-tomentose throughout; nut oblong to fusiform, 20-30 × 10-15 mm, apex acute.</description>
+  <description type="phenology">Flowering in spring</description>
+  <description type="habitat">Disjunct in canyons, mountain washes, dry thickets, and margins of chapparal communities</description>
+  <description type="elevation">700-1800 m</description>
+  <description type="distribution">Ariz</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Mexico (n Baja California).</description>
+  <number>38.</number>
+  <other_name type="common_name">Palmer oak</other_name>
+  <discussion>illustrated</discussion>
   <discussion>Populations of Quercus palmeri are often small and may exist as single clones. The disjunct populations of California and Baja California are consistent morphologically. In Arizona populations, individuals tend to have flatter leaves bearing fewer teeth; this distinction is not constant, however. Morphologically aberrant populations identified as Q. palmeri in eastern Arizona (Chiracahua, Huachuca, and Santa Catalina mountains) and southwestern New Mexico are most likely the result of introgression from Q. palmeri to Q. chrysolepis (J. M. Tucker and H. S. Haskell 1960). Those populations tend to be intermediate in overall morphology, but all lack the diagnostic trichomes and biochemical markers of Q. palmeri; they are best classified as Q. chrysolepis affinity Q. palmeri.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,58 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Magnolia</genus_name>
-    <species_name>grandiflora</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">grandiflora</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat. ed.</publication_title>
       <place_in_publication>10, 2: 1082. 1759</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Southern magnolia</common_name>
-  <common_name>bull-bay</common_name>
-  <common_name>laurier tulipier</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>ferruginea</species_name>
-    <species_authority>Z.Collins ex Rafinesque</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>foetida</species_name>
-    <species_authority>(Linnaeus) Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>lacunosa</species_name>
-    <species_authority>Rafinesque</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>virginiana</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>foetida</variety_name>
-    <variety_authority>Linnaeus</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, evergreen, single-trunked, to 37 m. Bark gray, rough, thick, furrowed in thick plates. Pith diaphragmed. Twigs and foliar buds densely red- or white-hairy. Leaves distinctly alternate, not in terminal whorl-like clusters; stipules 2, free, 4.5-13 × 1.5-3.5 cm, abaxially densely brown-silky, sometimes deeply notched. Leaf blade narrowly to broadly elliptic or oblanceolate, (7.5-)13-20(-26) × (4.5-)6-10(-12.5) cm, thick-leathery, base narrowly cuneate, apex abruptly tapered and acute to short-acuminate, rarely obtuse; surfaces abaxially glabrous to densely red-brown felted, adaxially bright green, lustrous, glabrous. Flowers strongly lemony fragrant, 15-30(-45) cm across; spathaceous bracts 2, leathery, outer bract abaxially brown to grayish pilose, deeply notched, smaller, inner bract adaxially densely brown to grayish pilose, shallowly notched, larger; tepals creamy white; stamens (179-)213-383(-405), 16-29 mm; filaments purple; pistils (45-)55-81(-89). Follicetums cylindric to somewhat obovoid, 7-10 × 3.5-5 cm; follicles beaked, sparsely to densely silky-villous. Seeds lenticular to narrowly ellipsoid, (9-)12-14 mm, adaxially slightly grooved, aril red. 2n=114.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Wooded dunes, hammocks, river bottoms, mesic woods, and ravine slopes</habitat>
-  <elevation>0-120m</elevation>
-  <global_distribution>coastal plain</global_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Magnolia; species grandiflora;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Z.Collins ex Rafinesque" date="unknown">ferruginea</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species ferruginea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Sargent" date="unknown">foetida</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species foetida;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Rafinesque" date="unknown">lacunosa</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species lacunosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Linnaeus" date="unknown">foetida</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species virginiana; variety foetida;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, evergreen, single-trunked, to 37 m. Bark gray, rough, thick, furrowed in thick plates. Pith diaphragmed. Twigs and foliar buds densely red- or white-hairy. Leaves distinctly alternate, not in terminal whorl-like clusters; stipules 2, free, 4.5-13 × 1.5-3.5 cm, abaxially densely brown-silky, sometimes deeply notched. Leaf blade narrowly to broadly elliptic or oblanceolate, (7.5-)13-20(-26) × (4.5-)6-10(-12.5) cm, thick-leathery, base narrowly cuneate, apex abruptly tapered and acute to short-acuminate, rarely obtuse; surfaces abaxially glabrous to densely red-brown felted, adaxially bright green, lustrous, glabrous. Flowers strongly lemony fragrant, 15-30(-45) cm across; spathaceous bracts 2, leathery, outer bract abaxially brown to grayish pilose, deeply notched, smaller, inner bract adaxially densely brown to grayish pilose, shallowly notched, larger; tepals creamy white; stamens (179-)213-383(-405), 16-29 mm; filaments purple; pistils (45-)55-81(-89). Follicetums cylindric to somewhat obovoid, 7-10 × 3.5-5 cm; follicles beaked, sparsely to densely silky-villous. Seeds lenticular to narrowly ellipsoid, (9-)12-14 mm, adaxially slightly grooved, aril red. 2n=114.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Wooded dunes, hammocks, river bottoms, mesic woods, and ravine slopes</description>
+  <description type="elevation">0-120m</description>
+  <description type="distribution">coastal plain</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tex.</description>
+  <number>7.</number>
+  <other_name type="common_name">Southern magnolia</other_name>
+  <other_name type="common_name">bull-bay</other_name>
+  <other_name type="common_name">laurier tulipier</other_name>
+  <discussion>endemic</discussion>
   <discussion>Magnolia grandiflora (a hexaploid) is highly variable, especially the leaves, which range from glabrous to densely red-brown felted on the abaxial surface. It is the only magnolia species in the flora with free stipules, and the inner spathaceous bract is unique among Magnolia taxa in the flora. Curled filiform trichomes occur on the abaxial leaf surface. In the wild, hybrids with M. virginiana (a diploid) have been reported but not confirmed by the present author. The compatibility of these taxa is well known from the Freeman hybrid, a highly sterile tetraploid growing at the U.S. National Arboretum in Washington, D.C. In crosses using the hexaploid M. grandiflora, this parent is dominant and nearly masks the other parent.</discussion>
   <discussion>Magnolia grandiflora is an escape, and it naturalizes in the tidewater area of Virginia and locally elsewhere beyond its natural range in the southeastern United States. It ranks among the noblest of North American broadleaved trees and is cultivated widely in the United States and in many other countries. A large number of cultivars have been introduced to horticulture.</discussion>
   <discussion>Southern magnolia (Magnolia grandiflora) is the state tree of both Louisiana and Mississippi.</discussion>
   <discussion>The largest known tree of Magnolia grandiflora, 37.2m in height with a trunk diameter of 1.97m, is recorded from Smith County, Mississippi (American Forestry Association 1994).</discussion>
   <discussion>The Choctaw and Koasati tribes used the bark of Magnolia grandiflora as dermatological and kidney aids (D.A. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

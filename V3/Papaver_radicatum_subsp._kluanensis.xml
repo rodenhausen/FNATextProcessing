@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>radicatum</species_name>
-    <species_authority>Rottbfll</species_authority>
-    <subspecies_name>kluanensis</subspecies_name>
-    <subspecies_authority>(D. Löve) D. F. Murray</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Rottbfll" date="unknown">radicatum</taxon_name>
+    <taxon_name rank="subspecies" authority="(D. Löve) D. F. Murray" date="unknown">kluanensis</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>5: 294. 1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>kluanensis</species_name>
-    <species_authority>D. Löve</species_authority>
+    <taxon_hierarchy>genus Papaver; species radicatum; subspecies kluanensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="D. Löve" date="unknown">kluanensis</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Not.</publication_title>
       <place_in_publication>109: 178. 1956</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>freedmanianum</species_name>
-    <species_authority>D. Löve</species_authority>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose, to 1.7 dm, mostly shorter, with short, soft, dull, persistent leaf bases. Leaves to 7 cm; petiole to 2/3 length of leaf; blade gray- to blue-green on both surfaces, lanceolate, with 2-3(-4) pairs of primary lateral lobes, distal pairs closely spaced, proximal often somewhat distant; primary lobes lanceolate, apex acute to obtuse. Inflorescences: scapes erect, white-hispid, often densely so. Flowers to 2 cm diam.; petals yellow, rarely pink tinged or brick red. Capsules ellipsoid-subglobose to oblong-obconic, to 1.2 cm, strigose, trichomes light brown. 2n = 42, 56.</description>
-  <phenology>Flowering Jun-Aug</phenology>
-  <habitat>Dry, rocky alpine ridges</habitat>
-  <elevation>1500-4000 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Papaver; species kluanensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="D. Löve" date="unknown">freedmanianum</taxon_name>
+    <taxon_hierarchy>genus Papaver; species freedmanianum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants loosely cespitose, to 1.7 dm, mostly shorter, with short, soft, dull, persistent leaf bases. Leaves to 7 cm; petiole to 2/3 length of leaf; blade gray- to blue-green on both surfaces, lanceolate, with 2-3(-4) pairs of primary lateral lobes, distal pairs closely spaced, proximal often somewhat distant; primary lobes lanceolate, apex acute to obtuse. Inflorescences: scapes erect, white-hispid, often densely so. Flowers to 2 cm diam.; petals yellow, rarely pink tinged or brick red. Capsules ellipsoid-subglobose to oblong-obconic, to 1.2 cm, strigose, trichomes light brown. 2n = 42, 56.</description>
+  <description type="phenology">Flowering Jun-Aug</description>
+  <description type="habitat">Dry, rocky alpine ridges</description>
+  <description type="elevation">1500-4000 m</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Wyo.</description>
+  <number>8d.</number>
+  <discussion>endemic</discussion>
   <discussion>Plants from the northern part of the range (including the type locality) are taller, with leaf blades 1×-pinnate, larger flowers, and ellipsoid-subglobose capsules, whereas those from the southern part are consistently shorter, with leaf blades 2×-pinnate (more deeply so than in Papaver radicatum subsp. radicatum or subsp. polare), smaller flowers, and oblong-obconic capsules. Because of these differences, D. Löve (1969) maintained P. radicatum subsp. kluanensis as distinct from the Utah (and presumably other southern) populations of the Papaver radicatum complex. Nevertheless, we agree with U. Rändel (1975) that the northern and southern populations are linked (in Colorado and Wyoming) by intermediate forms, and hence all are here included within P. radicatum subsp. kluanensis.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Trollius</genus_name>
-    <species_name>laxus</species_name>
-    <species_authority>Salisbury</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trollius</taxon_name>
+    <taxon_name rank="species" authority="Salisbury" date="unknown">laxus</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Linn. Soc. London</publication_title>
       <place_in_publication>8: 303. 1807</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Spreading globe-flower</common_name>
-  <common_name>American globe-flower</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Trollius</genus_name>
-    <species_name>americanus</species_name>
-    <species_authority>de Candolle</species_authority>
-  </TaxonIdentification>
-  <description>Stems to 0.5-5.2 dm, base with few petioles (occasionally thatchlike) persisting from previous year. Leaves: basal leaves with petioles to 5-30 cm; cauline leaves 2-5, base scarcely membranous or clasping. Flowers 2.5-5 cm diam.; sepals 5-7(-9), spreading, bright to pale yellow when fresh, ovate to obovate or nearly orbiculate, 10-20 mm; petals 10-15(-25), yellow, 1/2-2/3 length of stamens when pollen shed, 3-6 mm. Follicles usually 5-12, 8-12 mm including beak; beak usually straight or slightly incurved (rarely slightly recurved). 2n=32.</description>
-  <phenology>Flowering spring-summer</phenology>
-  <habitat>Calcareous soils (rarely not calcareous) in alkaline meadows and open swamps</habitat>
-  <elevation>100-500 m</elevation>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Ohio.</us_distribution>
+    <taxon_hierarchy>genus Trollius; species laxus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Trollius</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">americanus</taxon_name>
+    <taxon_hierarchy>genus Trollius; species americanus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems to 0.5-5.2 dm, base with few petioles (occasionally thatchlike) persisting from previous year. Leaves: basal leaves with petioles to 5-30 cm; cauline leaves 2-5, base scarcely membranous or clasping. Flowers 2.5-5 cm diam.; sepals 5-7(-9), spreading, bright to pale yellow when fresh, ovate to obovate or nearly orbiculate, 10-20 mm; petals 10-15(-25), yellow, 1/2-2/3 length of stamens when pollen shed, 3-6 mm. Follicles usually 5-12, 8-12 mm including beak; beak usually straight or slightly incurved (rarely slightly recurved). 2n=32.</description>
+  <description type="phenology">Flowering spring-summer</description>
+  <description type="habitat">Calcareous soils (rarely not calcareous) in alkaline meadows and open swamps</description>
+  <description type="elevation">100-500 m</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">Ohio.</description>
+  <number>3.</number>
+  <other_name type="common_name">Spreading globe-flower</other_name>
+  <other_name type="common_name">American globe-flower</other_name>
+  <discussion>endemic</discussion>
   <discussion>Trollius laxus is closely related to the widespread, relatively common, western species T. albiflorus. Morphologically, the two are separated only by sepal color and the tendency for T. albiflorus to have slightly recurved follicular beaks and slightly smaller seeds.</discussion>
   <discussion>Trollius laxus has been extirpated from central Pennsylvania. The species has been reported from Michigan; E. G. Voss (1972+, vol. 2) cast doubt on its occurrence there because no specimens to substantiate the reports have been found.</discussion>
   <discussion>The Cherokee used infusions prepared from the leaves and stems of Trollius laxus to treat thrash (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

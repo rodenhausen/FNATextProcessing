@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Parietaria</genus_name>
-    <species_name>pensylvanica</species_name>
-    <species_authority>Muhlenberg ex Willdenow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parietaria</taxon_name>
+    <taxon_name rank="species" authority="Muhlenberg ex Willdenow" date="unknown">pensylvanica</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>4(2): 955. 1806</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Parietaria</genus_name>
-    <species_name>obtusa</species_name>
-    <species_authority>Rydberg ex Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Parietaria</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Parietaria</genus_name>
-    <species_name>pensylvanica</species_name>
-    <variety_name>obtusa</variety_name>
-    <variety_authority>(Rydberg ex Small) Shinners</variety_authority>
-  </TaxonIdentification>
-  <description>Herbs, annual, 0.4-6 dm. Stems simple or freely branched, decumbent, ascending, or
+    <taxon_hierarchy>genus Parietaria; species pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parietaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg ex Small" date="unknown">obtusa</taxon_name>
+    <taxon_hierarchy>genus Parietaria; species obtusa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parietaria</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">occidentalis</taxon_name>
+    <taxon_hierarchy>genus Parietaria; species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parietaria</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pensylvanica</taxon_name>
+    <taxon_name rank="variety" authority="(Rydberg ex Small) Shinners" date="unknown">obtusa</taxon_name>
+    <taxon_hierarchy>genus Parietaria; species pensylvanica; variety obtusa;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, annual, 0.4-6 dm. Stems simple or freely branched, decumbent, ascending, or
         erect. Leaf blades narrowly to broadly elliptic, lanceolate, oblong, or ovate, (1-)2-9 ×
         0.4-3 cm, base narrowly cuneate, apex acuminate to long-attenuate or obtuse to rounded;
         proximal pair of lateral veins arising above junction of blade and petiole. Flowers:
@@ -36,65 +39,68 @@
         shorter than bracts. Achenes light brown, symmetric, 0.9-1.2 × 0.6-0.9 mm, apex obtuse,
         mucro apical; stipe straight, short-cylindric, centered, basally dilated. 2n=14,
         16.</description>
-  <phenology>Flowering spring-late fall</phenology>
-  <habitat>Dry ledges, talus slopes, waste and shaded places, primarily in neutral to basic
-        soils, and reported from margins of hot springs in northernmost locations</habitat>
-  <elevation>0-2400 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
-  <global_distribution>Mexico.</global_distribution>
+  <description type="phenology">Flowering spring-late fall</description>
+  <description type="habitat">Dry ledges, talus slopes, waste and shaded places, primarily in neutral to basic
+        soils, and reported from margins of hot springs in northernmost locations</description>
+  <description type="elevation">0-2400 m</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">D.C.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">N.Dak.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">Wash.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <description type="distribution">Wyo.</description>
+  <description type="distribution">Mexico.</description>
+  <number>4.</number>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
   <discussion>Some extremes of Parietaria pensylvanica with short, oblong or ovate leaf blades
         strongly resemble P. hespera var. hespera. Parietaria hespera is usually more delicate and
         has thinner leaves with the proximal pair of lateral veins arising at the junction of blade
@@ -104,4 +110,4 @@
         two species approach or overlap. Examples of these intermediates are from Gila, Mohave, and
         Yuma counties, Arizona. A mixed collection from Rock Springs, Gila County, Arizona, suggests
         that the two species occasionally grow together.</discussion>
-</treatment>
+</bio:treatment>

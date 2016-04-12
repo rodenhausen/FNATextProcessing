@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>53.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>margaretta</species_name>
-    <species_authority>(Ashe) Ashe</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="(Ashe) Ashe" date="unknown">margaretta</taxon_name>
     <place_of_publication>
       <publication_title>in J. K. Small,  Fl. S.E. U.S.,</publication_title>
       <place_in_publication>355. 1903</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sand post oak</common_name>
-  <common_name>dwarf post oak</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>minor</species_name>
-    <species_authority>(Marshall) Sargent</species_authority>
-    <variety_name>margaretta</variety_name>
-    <variety_authority>Ashe</variety_authority>
+    <taxon_hierarchy>genus Quercus; species margaretta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="(Marshall) Sargent" date="unknown">minor</taxon_name>
+    <taxon_name rank="variety" authority="Ashe" date="unknown">margaretta</taxon_name>
     <place_of_publication>
       <publication_title>J. Elisha Mitchell Sci. Soc.</publication_title>
       <place_in_publication>11: 94. 1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>stellata</species_name>
-    <species_authority>Wangenheim</species_authority>
-    <variety_name>margaretta</variety_name>
-    <variety_authority>(Ashe) Sargent</variety_authority>
-  </TaxonIdentification>
-  <habitat>Deep sands and gravels, often in dense woods as understory or in open scrubland and pine barrens;</habitat>
-  <elevation>0-600 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species minor; variety margaretta;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Wangenheim" date="unknown">stellata</taxon_name>
+    <taxon_name rank="variety" authority="(Ashe) Sargent" date="unknown">margaretta</taxon_name>
+    <taxon_hierarchy>genus Quercus; species stellata; variety margaretta;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="habitat">Deep sands and gravels, often in dense woods as understory or in open scrubland and pine barrens;</description>
+  <description type="elevation">0-600 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Va.</description>
+  <number>53.</number>
+  <other_name type="common_name">Sand post oak</other_name>
+  <other_name type="common_name">dwarf post oak</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Historical records for Quercus margaretta exist for New York, but no current population is known there.</discussion>
   <discussion>Populations of post oak in east Texas (the Cross Timbers region) on sands and gravels exhibit characteristics somewhat intermediate between Quercus stellata and Q. margaretta; most of the trees at those localities have leaves with abaxial surface similar to Q. margaretta, leaf shape more similar to Q. stellata, and twigs somewhat intermediate between the two species in diameter and varying from tightly pubescent to glabrate. Acorn characters tend toward Q. margaretta as well. These populations have been treated as Q. drummondii Liebmann, the Drummond post oak. Similar intermediates occur sporadically throughout the range of the post oaks in southeastern United States, but they do not form such continuous and morphologically stable populations; perhaps the Texas material is best treated as a nothospecies, Q. ×drummondii.</discussion>
-</treatment>
+</bio:treatment>

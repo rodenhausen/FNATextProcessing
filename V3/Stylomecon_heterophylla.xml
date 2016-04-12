@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Stylomecon</genus_name>
-    <species_name>heterophylla</species_name>
-    <species_authority>(Bentham) G. Taylor</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Stylomecon</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) G. Taylor" date="unknown">heterophylla</taxon_name>
     <place_of_publication>
       <publication_title>J. Bot.</publication_title>
       <place_in_publication>68: 140. 1930</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Meconopsis</genus_name>
-    <species_name>heterophylla</species_name>
-    <species_authority>Bentham</species_authority>
+    <taxon_hierarchy>genus Stylomecon; species heterophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Meconopsis</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">heterophylla</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Hort. Soc. London, ser.</publication_title>
       <place_in_publication>2, 1: 408. 1835</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Meconopsis</genus_name>
-    <species_name>crassifolia</species_name>
-    <species_authority>Bentham</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>crassifolium</species_name>
-    <species_authority>(Bentham) Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>heterophyllum</species_name>
-    <species_authority>(Bentham) Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>heterophyllum</species_name>
-    <variety_name>crassifolium</variety_name>
-    <variety_authority>(Bentham) Jepson</variety_authority>
-  </TaxonIdentification>
-  <description>Plants 30-60 cm, glabrous or sometimes sparsely pilose proximally. Leaves 2-12 cm; blade with primary lobes 5-13, remote. Inflorescences: peduncle 5-20 cm. Flowers: sepals 4-10 mm; petals orange-red, spotted purple at base, 1-2 cm. Capsules 1-2 cm. Seeds 0.4 mm. 2n = 56.</description>
-  <phenology>Flowering spring (Apr-May)</phenology>
-  <habitat>Grassy areas, openings in chaparral</habitat>
-  <elevation>less than 1200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Meconopsis; species heterophylla;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Meconopsis</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">crassifolia</taxon_name>
+    <taxon_hierarchy>genus Meconopsis; species crassifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Greene" date="unknown">crassifolium</taxon_name>
+    <taxon_hierarchy>genus Papaver; species crassifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="(Bentham) Greene" date="unknown">heterophyllum</taxon_name>
+    <taxon_hierarchy>genus Papaver; species heterophyllum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">heterophyllum</taxon_name>
+    <taxon_name rank="variety" authority="(Bentham) Jepson" date="unknown">crassifolium</taxon_name>
+    <taxon_hierarchy>genus Papaver; species heterophyllum; variety crassifolium;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants 30-60 cm, glabrous or sometimes sparsely pilose proximally. Leaves 2-12 cm; blade with primary lobes 5-13, remote. Inflorescences: peduncle 5-20 cm. Flowers: sepals 4-10 mm; petals orange-red, spotted purple at base, 1-2 cm. Capsules 1-2 cm. Seeds 0.4 mm. 2n = 56.</description>
+  <description type="phenology">Flowering spring (Apr-May)</description>
+  <description type="habitat">Grassy areas, openings in chaparral</description>
+  <description type="elevation">less than 1200 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Mexico (Baja California).</description>
+  <number>1.</number>
+  <discussion>illustrated</discussion>
+</bio:treatment>

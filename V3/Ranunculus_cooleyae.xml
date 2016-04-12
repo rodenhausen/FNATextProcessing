@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>66.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>cooleyae</species_name>
-    <species_authority>Vasey &amp; Rose ex Rose</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Vasey &amp; Rose ex Rose" date="unknown">cooleyae</taxon_name>
     <place_of_publication>
       <publication_title>Contr. U.S. Natl. Herb.</publication_title>
       <place_in_publication>1: 289. 1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Arcteranthis</genus_name>
-    <species_name>cooleyae</species_name>
-    <species_authority>(Vasey &amp; Rose ex Rose) Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Kumlienia</genus_name>
-    <species_name>cooleyae</species_name>
-    <species_authority>(Vasey &amp; Rose ex Rose) Greene</species_authority>
-  </TaxonIdentification>
-  <description>Stems erect from short caudices, not rooting nodally, glabrous, not bulbous-based. Tuberous roots absent. Basal leaf blades circular to reniform in outline, 3-5-parted, 0.8-3.8 × 1.7-6.9 cm, segments again lobed, ultimate segments elliptic or oblong, margins crenate, apex rounded; cauline leaf 0-1, scalelike. Flowers: receptacle glabrous; sepals spreading, yellow, 7-11 × 4-7 mm, glabrous; petals 11-15, yellow, 8-12 × 3-5 mm. Heads of achenes hemispheric or spheric, 7-8 × 9-10 mm; achenes 2.4-4.6 × 1.2-2.2 mm, glabrous; beak persistent, filiform, hooked distally, 1-1.8 mm. 2n = 16.</description>
-  <phenology>Flowering late spring-summer (Jun-Aug)</phenology>
-  <habitat>Slopes near persistent snowbanks</habitat>
-  <elevation>500-1800 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species cooleyae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Arcteranthis</taxon_name>
+    <taxon_name rank="species" authority="(Vasey &amp; Rose ex Rose) Greene" date="unknown">cooleyae</taxon_name>
+    <taxon_hierarchy>genus Arcteranthis; species cooleyae;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Kumlienia</taxon_name>
+    <taxon_name rank="species" authority="(Vasey &amp; Rose ex Rose) Greene" date="unknown">cooleyae</taxon_name>
+    <taxon_hierarchy>genus Kumlienia; species cooleyae;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect from short caudices, not rooting nodally, glabrous, not bulbous-based. Tuberous roots absent. Basal leaf blades circular to reniform in outline, 3-5-parted, 0.8-3.8 × 1.7-6.9 cm, segments again lobed, ultimate segments elliptic or oblong, margins crenate, apex rounded; cauline leaf 0-1, scalelike. Flowers: receptacle glabrous; sepals spreading, yellow, 7-11 × 4-7 mm, glabrous; petals 11-15, yellow, 8-12 × 3-5 mm. Heads of achenes hemispheric or spheric, 7-8 × 9-10 mm; achenes 2.4-4.6 × 1.2-2.2 mm, glabrous; beak persistent, filiform, hooked distally, 1-1.8 mm. 2n = 16.</description>
+  <description type="phenology">Flowering late spring-summer (Jun-Aug)</description>
+  <description type="habitat">Slopes near persistent snowbanks</description>
+  <description type="elevation">500-1800 m</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Wash.</description>
+  <number>66.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

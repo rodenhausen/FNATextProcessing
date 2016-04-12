@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="B. Boivin" date="unknown">Thalictrum</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; section Thalictrum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Homothalictrum</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; section Homothalictrum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescences panicles or racemes. Flowers bisexual; sepals 5 (often 4 in T. alpinum); filaments filiform. Achenes sessile to nearly sessile.</description>
+  <description type="distribution">temperate North America and Eurasia.</description>
   <number>22b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Thalictrum</section_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <section_name>Homothalictrum</section_name>
-    <section_authority>B. Boivin</section_authority>
-  </TaxonIdentification>
-  <description>Inflorescences panicles or racemes. Flowers bisexual; sepals 5 (often 4 in T. alpinum); filaments filiform. Achenes sessile to nearly sessile.</description>
-  <number_of_infrataxa>Species 33 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>temperate North America and Eurasia.</global_distribution>
-</treatment>
+  <discussion>Species 33 (2 in the flora):</discussion>
+</bio:treatment>

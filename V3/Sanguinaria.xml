@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SANGUINARIA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">SANGUINARIA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 505. 175</place_in_publication>
@@ -12,19 +16,21 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 223. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bloodroot</common_name>
-  <common_name>puccoon</common_name>
-  <common_name>sanguinaire du Canada</common_name>
-  <common_name>sang-dragon</common_name>
-  <etymology>[Latin sanguis, blood, in reference to color of sap]</etymology>
-  <description>Herbs, perennial, scapose, from thick rhizomes; sap orange to red. Leaves 1, or few
+    <taxon_hierarchy>genus SANGUINARIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin sanguis, blood, in reference to color of sap]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, scapose, from thick rhizomes; sap orange to red. Leaves 1, or few
         and rosulate, sheathing-petiolate; blade 1× palmately lobed. Inflorescences terminal,
         1(-3)-flowered; bracts absent. Flowers: sepals 2, distinct; petals 6-12, unequal; stamens
         many; pistil 2-carpellate; ovary 1-locular; style ± distinct; stigma 2-lobed. Capsules
         erect, 2-valved, dehiscing from base. Seeds few to many, arillate. x = 9.</description>
-  <number_of_infrataxa>Species 1</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
+  <description type="distribution">North America</description>
+  <number>4.</number>
+  <other_name type="common_name">Bloodroot</other_name>
+  <other_name type="common_name">puccoon</other_name>
+  <other_name type="common_name">sanguinaire du Canada</other_name>
+  <other_name type="common_name">sang-dragon</other_name>
+  <discussion>Species 1</discussion>
   <discussion>Sanguinaria is similar, and probably most closely related, to Eomecon Hance of
         eastern Asia, which is monotypic also.</discussion>
   <references>
@@ -35,4 +41,4 @@
     <reference>Nieuwland, J. A. 1910. Notes on the seedlings of bloodroot. Amer. Midl.
             Naturalist 1: 199-203.</reference>
   </references>
-</treatment>
+</bio:treatment>

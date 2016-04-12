@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Peperomia</genus_name>
-    <species_name>humilis</species_name>
-    <species_authority>(Vahl) A. Dietrich</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peperomia</taxon_name>
+    <taxon_name rank="species" authority="(Vahl) A. Dietrich" date="unknown">humilis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 168. 1831</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Piper</genus_name>
-    <species_name>humile</species_name>
-    <species_authority>Vahl</species_authority>
+    <taxon_hierarchy>genus Peperomia; species humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piper</taxon_name>
+    <taxon_name rank="species" authority="Vahl" date="unknown">humile</taxon_name>
     <place_of_publication>
       <publication_title>Enum. Pl.</publication_title>
       <place_in_publication>1: 349. 1804</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Micropiper</genus_name>
-    <species_name>humile</species_name>
-    <species_authority>(Vahl) Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Micropiper</genus_name>
-    <species_name>leptostachyon</species_name>
-    <species_authority>(Nuttall) Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Peperomia</genus_name>
-    <species_name>cumulicola</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <description>Herbs, perennial, rhizomatous, erect or decumbent, simple or branched, 10-50 cm, strigose, without black, glandular dots. Leaves usually opposite or whorled, sometimes proximal leaves alternate; petiole ca. 1/4 length of blade, with ascending, incurved hairs. Leaf blade prominently to obscurely 3-veined from base, usually elliptic to obovate, sometimes proximal blades depressed-obovate, 1.2-6.5 × 0.4-3.5 cm, base cuneate to widely cuneate, apex acute or short-acuminate; surfaces abaxially and adaxially densely to sparsely strigose. Spikes axillary and terminal, 1-4, loosely flowered, 3-14 cm, mature fruiting spikes 1.5-2.5 mm diam. Fruits sessile, broadly ellipsoid to globose, 0.5-0.7 × 0.4-0.7 mm, warty, viscid; beak minute, knoblike, blunt, ca. 0.1 mm.</description>
-  <phenology>Flowering all year</phenology>
-  <habitat>Hummocks, often on limestone</habitat>
-  <elevation>0-20 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>native</global_distribution>
-  <global_distribution>West Indies (Jamaica).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Piper; species humile;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropiper</taxon_name>
+    <taxon_name rank="species" authority="(Vahl) Small" date="unknown">humile</taxon_name>
+    <taxon_hierarchy>genus Micropiper; species humile;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Micropiper</taxon_name>
+    <taxon_name rank="species" authority="(Nuttall) Small" date="unknown">leptostachyon</taxon_name>
+    <taxon_hierarchy>genus Micropiper; species leptostachyon;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peperomia</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">cumulicola</taxon_name>
+    <taxon_hierarchy>genus Peperomia; species cumulicola;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, rhizomatous, erect or decumbent, simple or branched, 10-50 cm, strigose, without black, glandular dots. Leaves usually opposite or whorled, sometimes proximal leaves alternate; petiole ca. 1/4 length of blade, with ascending, incurved hairs. Leaf blade prominently to obscurely 3-veined from base, usually elliptic to obovate, sometimes proximal blades depressed-obovate, 1.2-6.5 × 0.4-3.5 cm, base cuneate to widely cuneate, apex acute or short-acuminate; surfaces abaxially and adaxially densely to sparsely strigose. Spikes axillary and terminal, 1-4, loosely flowered, 3-14 cm, mature fruiting spikes 1.5-2.5 mm diam. Fruits sessile, broadly ellipsoid to globose, 0.5-0.7 × 0.4-0.7 mm, warty, viscid; beak minute, knoblike, blunt, ca. 0.1 mm.</description>
+  <description type="phenology">Flowering all year</description>
+  <description type="habitat">Hummocks, often on limestone</description>
+  <description type="elevation">0-20 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">native</description>
+  <description type="distribution">West Indies (Jamaica).</description>
+  <number>1.</number>
+</bio:treatment>

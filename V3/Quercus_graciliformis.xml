@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>graciliformis</species_name>
-    <species_authority>C. H. Muller</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="C. H. Muller" date="unknown">graciliformis</taxon_name>
     <place_of_publication>
       <publication_title>Torreya</publication_title>
       <place_in_publication>34: 120. 1934</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chisos oak</common_name>
-  <conservation>of conservation concern</conservation>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>canbyi</species_name>
-    <species_authority>Cory &amp; Parks</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>graciliformis</species_name>
-    <variety_name>parvilobata</variety_name>
-    <variety_authority>C. H. Muller</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, tardily deciduous, to 8 m. Bark gray, furrowed. Twigs straw colored to brown or deep reddish brown, 1-2 mm diam., glabrate or somewhat pubescent at apex. Terminal buds glossy brown or red-brown, ovoid, 1.5-3 mm, minutely ciliate. Leaves: petiole 10-20 mm, glabrous or glabrate. Leaf blade lanceolate to narrowly elliptic, widest proximal to middle, 45-90 × 10-25 mm, base rounded to cuneate, margins entire or with 8-10 teeth or shallow lobes with rounded sinuses, awns 1-9, apex acute to long-attenuate; surfaces abaxially glabrous or occasionally with small axillary tufts of tomentum, adaxially glabrous except for scattered pubescence near base and along midrib. Acorns biennial; cup saucer- to shallowly bowl-shaped, 4-6 mm high × 7-10 mm wide, covering 1/4-1/3 nut, outer surface puberulent to glabrate, inner surface uniformly pubescent, scales appressed, acute, occasionally tuberculate at base; nut ovoid to narrowly ellipsoid, 9-18 × 7-10 mm, minutely puberulent, scar diam. 3-4.5 mm.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Dry rocky canyons of the Chisos Mountains</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0-1650 m</elevation>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species graciliformis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Cory &amp; Parks" date="unknown">canbyi</taxon_name>
+    <taxon_hierarchy>genus Quercus; species canbyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">graciliformis</taxon_name>
+    <taxon_name rank="variety" authority="C. H. Muller" date="unknown">parvilobata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species graciliformis; variety parvilobata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, tardily deciduous, to 8 m. Bark gray, furrowed. Twigs straw colored to brown or deep reddish brown, 1-2 mm diam., glabrate or somewhat pubescent at apex. Terminal buds glossy brown or red-brown, ovoid, 1.5-3 mm, minutely ciliate. Leaves: petiole 10-20 mm, glabrous or glabrate. Leaf blade lanceolate to narrowly elliptic, widest proximal to middle, 45-90 × 10-25 mm, base rounded to cuneate, margins entire or with 8-10 teeth or shallow lobes with rounded sinuses, awns 1-9, apex acute to long-attenuate; surfaces abaxially glabrous or occasionally with small axillary tufts of tomentum, adaxially glabrous except for scattered pubescence near base and along midrib. Acorns biennial; cup saucer- to shallowly bowl-shaped, 4-6 mm high × 7-10 mm wide, covering 1/4-1/3 nut, outer surface puberulent to glabrate, inner surface uniformly pubescent, scales appressed, acute, occasionally tuberculate at base; nut ovoid to narrowly ellipsoid, 9-18 × 7-10 mm, minutely puberulent, scar diam. 3-4.5 mm.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Dry rocky canyons of the Chisos Mountains</description>
+  <description type="elevation">0-1650 m</description>
+  <description type="distribution">Tex.</description>
+  <number>7.</number>
+  <other_name type="common_name">Chisos oak</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Quercus graciliformis reportedly hybridizes with Q. emoryi.</discussion>
-</treatment>
+</bio:treatment>

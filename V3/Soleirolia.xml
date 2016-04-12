@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>SOLEIROLIA</genus_name>
-    <genus_authority>Gaudichaud-Beaupré</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Gaudichaud-Beaupré" date="unknown">SOLEIROLIA</taxon_name>
     <place_of_publication>
       <publication_title>Voy. Uranie</publication_title>
       <place_in_publication>12: 503. 1830</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[For Captain Soleirol, collector in Corsica]</etymology>
-  <description>Herbs, perennial, with nonstinging hairs. Stems 1-25-branched, repent, filiform,
+    <taxon_hierarchy>genus SOLEIROLIA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[For Captain Soleirol, collector in Corsica]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, with nonstinging hairs. Stems 1-25-branched, repent, filiform,
         mat-forming. Leaves alternate; stipules absent. Leaf blades orbiculate to oblong, margins
         entire; cystoliths elongate, linear. Inflorescences axillary, 1-flowered. Flowers unisexual,
         proximal flowers pistillate, the distal staminate; bracts subtending pistillate flowers
@@ -19,13 +24,14 @@
         lacking hooked hairs; staminodes absent; stigma filiform, deciduous. Achenes sessile, ovoid,
         apex acute, tightly enclosed by scarious perianth and surrounded by connivent, winged
         bracteoles. x=10.</description>
-  <number_of_infrataxa>Species 1</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe (Sardinia and Corsica)</global_distribution>
+  <description type="distribution">North America</description>
+  <description type="distribution">Europe (Sardinia and Corsica)</description>
+  <number>7.</number>
+  <discussion>Species 1</discussion>
   <discussion>This monotypic genus was first reported naturalized in California in
         1940.</discussion>
   <references>
     <reference>Robbins, W.W. 1940. Alien plants growing without cultivation in California. Univ.
             Calif. Agric. Exp. Sta. Bull. 637: 1-128.</reference>
   </references>
-</treatment>
+</bio:treatment>

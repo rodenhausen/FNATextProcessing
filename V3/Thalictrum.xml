@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>THALICTRUM</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">THALICTRUM</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 545. 175</place_in_publication>
@@ -12,14 +16,16 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 242. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Meadow-rue</common_name>
-  <common_name>pigamon</common_name>
-  <etymology>[Thaliktron, an ancient name used by Dioscorides]</etymology>
-  <description>Herbs, perennial, from woody rhizomes, caudices, or tuberous roots. Leaves basal and cauline, proximal leaves petiolate, distal leaves sessile; cauline leaves alternate. Leaf blade 1-4×-ternately or -pinnately compound; leaflets cordate-reniform, obovate, lanceolate, or linear, sometimes 3-lobed or more, margins entire or crenate. Inflorescences terminal, sometimes also axillary, (1-)2-200-flowered panicles, racemes, corymbs, umbels, or flowers solitary, to 41 cm; involucres absent or present, involucral bracts 2-3 (these compound, often resembling whorl of 6-9 simple bracts), leaflike, not closely subtending flowers. Flowers all bisexual, bisexual and unisexual on same plant, or all unisexual with sexes on same or different plants, radially symmetric; sepals not persistent in fruit, 4-10, whitish to greenish yellow or purplish, plane, lanceolate to reniform or spatulate, 1-18 mm; petals absent; stamens 7-30; filaments filiform to clavate or distally dilated; staminodes absent between stamens and pistils; pistils 1-16, simple; ovule 1 per pistil; style present or absent. Fruits achenes, usually aggregate, sessile or stipitate, ovoid to obovoid, falcate, or discoid, sides prominently veined or ribbed; beak present or absent, terminal, straight to coiled, 0-4 mm. x = 7.</description>
-  <number_of_infrataxa>Species 120-200 (22 in the flora):</number_of_infrataxa>
-  <global_distribution>nearly worldwide</global_distribution>
-  <global_distribution>mostly temperate.</global_distribution>
+    <taxon_hierarchy>genus THALICTRUM;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Thaliktron, an ancient name used by Dioscorides]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, from woody rhizomes, caudices, or tuberous roots. Leaves basal and cauline, proximal leaves petiolate, distal leaves sessile; cauline leaves alternate. Leaf blade 1-4×-ternately or -pinnately compound; leaflets cordate-reniform, obovate, lanceolate, or linear, sometimes 3-lobed or more, margins entire or crenate. Inflorescences terminal, sometimes also axillary, (1-)2-200-flowered panicles, racemes, corymbs, umbels, or flowers solitary, to 41 cm; involucres absent or present, involucral bracts 2-3 (these compound, often resembling whorl of 6-9 simple bracts), leaflike, not closely subtending flowers. Flowers all bisexual, bisexual and unisexual on same plant, or all unisexual with sexes on same or different plants, radially symmetric; sepals not persistent in fruit, 4-10, whitish to greenish yellow or purplish, plane, lanceolate to reniform or spatulate, 1-18 mm; petals absent; stamens 7-30; filaments filiform to clavate or distally dilated; staminodes absent between stamens and pistils; pistils 1-16, simple; ovule 1 per pistil; style present or absent. Fruits achenes, usually aggregate, sessile or stipitate, ovoid to obovoid, falcate, or discoid, sides prominently veined or ribbed; beak present or absent, terminal, straight to coiled, 0-4 mm. x = 7.</description>
+  <description type="distribution">nearly worldwide</description>
+  <description type="distribution">mostly temperate.</description>
+  <number>22.</number>
+  <other_name type="common_name">Meadow-rue</other_name>
+  <other_name type="common_name">pigamon</other_name>
+  <discussion>Species 120-200 (22 in the flora):</discussion>
   <discussion>Thalictrum is a taxonomically difficult genus that should be carefully researched through additional population-based field studies. Past treatments of Thalictrum have often emphasized leaf characters that are highly variable in most species; they are therefore of poor diagnostic value and not indicati relationships. Because of the paucity of field studies and a continuing emphasis on highly variable characters, the literature is replete with names that do not represent distinct entities. Often mixes of character states can be found within a single population; many of the character states used in past studies were neither ecologically nor geographically distinct.</discussion>
   <discussion>Some species of Thalictrum have been divided into varieties by previous authors. In the absence of carefully collected, supporting evidence from field studies, we are unwilling to perpetuate the use of any infraspecific names.</discussion>
   <discussion>Characters useful in identifying species of Thalictrum include leaflet shape, degree of dilation of filaments, anther length, shape of anther apex, achene shape and venation patterns, and vestiture (glands and/or hairs) of leaves and achenes. Leaflets described in this treatment are the central, distalmost of a midstem leaf; proximal and distal leaves are more variable and often not representative of the species. Stigma and filament colors refer to fresh material in the following descriptions.</discussion>
@@ -36,4 +42,4 @@
     <reference>Tamura, M. 1992. A new classification of the family Ranunculaceae. Acta Phytotax. Geobot. 43: 53-58.</reference>
     <reference>Tamura, M. 1968. Morphology, ecology, and phylogeny of the Ranunculaceae. VIII. Sci. Rep. Coll. Gen. Educ. Osaka Univ. 17: 41-56.</reference>
   </references>
-</treatment>
+</bio:treatment>

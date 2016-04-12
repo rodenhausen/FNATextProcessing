@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">flammula</taxon_name>
+    <taxon_name rank="variety" authority="Wallroth" date="unknown">flammula</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species flammula; variety flammula;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">flammula</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">angustifolius</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species flammula; variety angustifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect to prostrate, 0.8-3 mm thick. Leaf blades lanceolate to oblanceolate, 1.8-4.5 × 0.3-1 cm. Flowers: sepals 3-4 mm; petals 5-7 × 3-4 mm. 2n = 32.</description>
+  <description type="phenology">Flowering late spring-summer (Jun-Sep)</description>
+  <description type="habitat">Shallow water or muddy shores of ponds</description>
+  <description type="elevation">0-1000 m</description>
+  <description type="distribution">St. Pierre and Miquelon</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.S.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Wash.</description>
+  <description type="distribution">Eurasia.</description>
   <number>54a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>flammula</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>flammula</variety_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>flammula</species_name>
-    <variety_name>angustifolius</variety_name>
-    <variety_authority>Wallroth</variety_authority>
-  </TaxonIdentification>
-  <description>Stems erect to prostrate, 0.8-3 mm thick. Leaf blades lanceolate to oblanceolate, 1.8-4.5 × 0.3-1 cm. Flowers: sepals 3-4 mm; petals 5-7 × 3-4 mm. 2n = 32.</description>
-  <phenology>Flowering late spring-summer (Jun-Sep)</phenology>
-  <habitat>Shallow water or muddy shores of ponds</habitat>
-  <elevation>0-1000 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
   <discussion>L. D. Benson (1948) reported Ranunculus flammula var. flammula only from eastern Canada and referred all material from the Pacific Slope to Ranunculus flammula var. ovalis. Benson's treatment is not tenable, however, because some western collections are indistinguishable from the eastern plants.</discussion>
-</treatment>
+</bio:treatment>

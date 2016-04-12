@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Piper</genus_name>
-    <species_name>aduncum</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piper</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">aduncum</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 29. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <description>Shrubs or small trees, erect, 2-7 m, sparsely pubescent. Leaves: petiole ca. 1/20 length of leaf blade, not winged. Leaf blade oblong, ovate, widely lanceolate to elliptic, 11-24 × 4-8 cm, base obliquely rounded to obliquely cuneate, apex acuminate; surfaces abaxially soft-pubescent, adaxially scabrous. Spikes 8-15 cm. Fruits oblong, 2 sides flattened longitudinally, both ends × truncate, apex depressed, regularly pitted or reticulate; beak minute, ca. 0.1 mm.</description>
-  <phenology>Flowering all year</phenology>
-  <habitat>Thickets, woodland margins</habitat>
-  <elevation>0-20 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America</global_distribution>
-  <global_distribution>South America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Piper; species aduncum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs or small trees, erect, 2-7 m, sparsely pubescent. Leaves: petiole ca. 1/20 length of leaf blade, not winged. Leaf blade oblong, ovate, widely lanceolate to elliptic, 11-24 × 4-8 cm, base obliquely rounded to obliquely cuneate, apex acuminate; surfaces abaxially soft-pubescent, adaxially scabrous. Spikes 8-15 cm. Fruits oblong, 2 sides flattened longitudinally, both ends × truncate, apex depressed, regularly pitted or reticulate; beak minute, ca. 0.1 mm.</description>
+  <description type="phenology">Flowering all year</description>
+  <description type="habitat">Thickets, woodland margins</description>
+  <description type="elevation">0-20 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">West Indies</description>
+  <description type="distribution">Central America</description>
+  <description type="distribution">South America.</description>
+  <number>1.</number>
+  <discussion>illustrated</discussion>
+</bio:treatment>

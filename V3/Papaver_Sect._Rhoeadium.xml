@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>11f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Rhoeadium</section_name>
-    <section_authority>Spach</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="section" authority="Spach" date="unknown">Rhoeadium</taxon_name>
     <place_of_publication>
       <publication_title>Hist. Nat. Vég.</publication_title>
       <place_in_publication>7: 16. 1839</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants annual, caulescent, sometimes subscapose. Leaf blades 1-2×-lobed, distal not clasping stem. Flowers: filaments purple, filiform. Capsules poricidal, glabrous.</description>
+    <taxon_hierarchy>genus Papaver; section Rhoeadium;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants annual, caulescent, sometimes subscapose. Leaf blades 1-2×-lobed, distal not clasping stem. Flowers: filaments purple, filiform. Capsules poricidal, glabrous.</description>
+  <number>11f.</number>
   <references>
     <reference>Kadereit, J. W. 1989. A revision of Papaver L. section Rhoeadium Spach. Notes Roy. Bot. Gard. Edinburgh 45: 225-286.</reference>
   </references>
-</treatment>
+</bio:treatment>

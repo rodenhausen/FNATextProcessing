@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Platanus</genus_name>
-    <species_name>racemosa</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platanus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">racemosa</taxon_name>
     <place_of_publication>
       <publication_title>N. Amer. Sylv.</publication_title>
       <place_in_publication>1: 47. 1842</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>California sycamore</common_name>
-  <illustrated>illustrated</illustrated>
-  <description>Trees, to 15(-25) m, rather massive; trunks sometimes straight and erect, more commonly irregular, reclining, or prostrate with branches irregular and sometimes near ground, to 2+m diam. Leaves: stipules entire to somewhat dentate. Leaf blade dark green, 3-5-lobed, 10-25 × 10-25 cm, rather thick; lobes of blade mostly longer than wide, basal lobes usually somewhat smaller and spreading, not reflexed, sinuses broad and deeply concave, depth of distal sinuses about 1/3-2/3 distance from sinus to base of blade, terminal leaf lobe ca. 1/3-2/3 length of blade; margins entire to remotely serrulate, apex acute to acuminate, sometimes rounded; surfaces abaxially persistently tomentose, adaxially glabrescent. Pistillate inflorescences: heads (1-)2-7; fruiting heads 20-25(-30) mm diam., lateral ones sessile; fruiting rachis to 25 cm. Achenes 7-10 mm, basal hairs about 2/3 length of achenes. 2n = 42.</description>
-  <phenology>Flowering spring; fruiting late fall</phenology>
-  <habitat>Streamsides and moist, rocky canyons, often abundant</habitat>
-  <elevation>0-1500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Platanus; species racemosa;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 15(-25) m, rather massive; trunks sometimes straight and erect, more commonly irregular, reclining, or prostrate with branches irregular and sometimes near ground, to 2+m diam. Leaves: stipules entire to somewhat dentate. Leaf blade dark green, 3-5-lobed, 10-25 × 10-25 cm, rather thick; lobes of blade mostly longer than wide, basal lobes usually somewhat smaller and spreading, not reflexed, sinuses broad and deeply concave, depth of distal sinuses about 1/3-2/3 distance from sinus to base of blade, terminal leaf lobe ca. 1/3-2/3 length of blade; margins entire to remotely serrulate, apex acute to acuminate, sometimes rounded; surfaces abaxially persistently tomentose, adaxially glabrescent. Pistillate inflorescences: heads (1-)2-7; fruiting heads 20-25(-30) mm diam., lateral ones sessile; fruiting rachis to 25 cm. Achenes 7-10 mm, basal hairs about 2/3 length of achenes. 2n = 42.</description>
+  <description type="phenology">Flowering spring; fruiting late fall</description>
+  <description type="habitat">Streamsides and moist, rocky canyons, often abundant</description>
+  <description type="elevation">0-1500 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Mexico (Baja California).</description>
+  <number>2.</number>
+  <other_name type="common_name">California sycamore</other_name>
+  <discussion>illustrated</discussion>
   <discussion>The Eurasian oriental plane, Platanus orientalis Linnaeus, is sometimes cultivated and would key to this or the next species. It has deeply lobed, serrate leaves resembling Acer saccharinum and A. macrophyllum, and the fruiting rachis bears three to six heads.</discussion>
   <discussion>Native Americans used infusions prepared from the plants of Platanus orientalis medicinally as a panacea, and from the bark for indisposition (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

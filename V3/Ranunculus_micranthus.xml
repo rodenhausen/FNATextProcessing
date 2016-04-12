@@ -1,53 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>44.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>micranthus</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">micranthus</taxon_name>
     <place_of_publication>
       <publication_title>in J. Torrey and A. Gray,  Fl. N. Amer.</publication_title>
       <place_in_publication>1: 18. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>micranthus</species_name>
-    <variety_name>cymbalistes</variety_name>
-    <variety_authority>(Greene) Fernald</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>micranthus</species_name>
-    <variety_name>delitescens</variety_name>
-    <variety_authority>(Greene) Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Stems erect, 11-40 cm, villous, each with 8-35 flowers. Roots dimorphic, some filiform, 0.2-0.6 mm thick and some with tuberous bases 1-2 mm thick. Basal leaves persistent, blades ovate, orbiculate, or transversely elliptic, outer blades undivided, inner 3-parted or 3-foliolate, 1-3.3 × 1-3 cm, base truncate to broadly obtuse or sometimes weakly cordate, margins crenate, apex rounded-obtuse. Flowers: pedicels glabrous or villous; receptacle glabrous; sepals 2-4 × 1-1.5 mm, abaxially glabrous or pubescent, hairs colorless; petals 5, 1.5-3.5 × 0.5-1.5 mm; nectary scale glabrous. Heads of achenes globose to cylindric, 3-7 × 2-4 mm; achenes 1.1-1.5 × 1-1.3 mm, glabrous; beak subulate, straight or curved, 0.2-0.3 mm. 2n = 16.</description>
-  <phenology>Flowering spring (Mar-May)</phenology>
-  <habitat>Woods, meadows, and clearings</habitat>
-  <elevation>0-1000 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species micranthus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">micranthus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Fernald" date="unknown">cymbalistes</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species micranthus; variety cymbalistes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">micranthus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Fernald" date="unknown">delitescens</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species micranthus; variety delitescens;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect, 11-40 cm, villous, each with 8-35 flowers. Roots dimorphic, some filiform, 0.2-0.6 mm thick and some with tuberous bases 1-2 mm thick. Basal leaves persistent, blades ovate, orbiculate, or transversely elliptic, outer blades undivided, inner 3-parted or 3-foliolate, 1-3.3 × 1-3 cm, base truncate to broadly obtuse or sometimes weakly cordate, margins crenate, apex rounded-obtuse. Flowers: pedicels glabrous or villous; receptacle glabrous; sepals 2-4 × 1-1.5 mm, abaxially glabrous or pubescent, hairs colorless; petals 5, 1.5-3.5 × 0.5-1.5 mm; nectary scale glabrous. Heads of achenes globose to cylindric, 3-7 × 2-4 mm; achenes 1.1-1.5 × 1-1.3 mm, glabrous; beak subulate, straight or curved, 0.2-0.3 mm. 2n = 16.</description>
+  <description type="phenology">Flowering spring (Mar-May)</description>
+  <description type="habitat">Woods, meadows, and clearings</description>
+  <description type="elevation">0-1000 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">D.C.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <number>44.</number>
+  <discussion>endemic</discussion>
+  <discussion>weedy</discussion>
+</bio:treatment>

@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nuphar</genus_name>
-    <species_name>ulvacea</species_name>
-    <species_authority>(G. S. Miller &amp; Standley) Standley</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="(G. S. Miller &amp; Standley) Standley" date="unknown">ulvacea</taxon_name>
     <place_of_publication>
       <publication_title>Publ. Field Columbian Mus., Bot. Ser.</publication_title>
       <place_in_publication>8: 311. 1931 (as ulvaceum)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conservation>of conservation concern</conservation>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>ulvacea</species_name>
-    <species_authority>G. S. Miller &amp; Standley</species_authority>
+    <taxon_hierarchy>genus Nuphar; species ulvacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="G. S. Miller &amp; Standley" date="unknown">ulvacea</taxon_name>
     <place_of_publication>
       <publication_title>Contr. U.S. Natl. Herb.</publication_title>
       <place_in_publication>16: 97. 1912</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nuphar</genus_name>
-    <species_name>lutea</species_name>
-    <species_authority>(Linnaeus) Smith</species_authority>
-    <subspecies_name>ulvacea</subspecies_name>
-    <subspecies_authority>(G. S. Miller and Standley) E. O. Beal</subspecies_authority>
-  </TaxonIdentification>
-  <description>Rhizomes 2-5 cm diam. Leaves floating or submersed; petiole terete. Leaf blade abaxially and adaxially green, lanceolate to ovate, 15-25 × 8-10 cm, ca. 2.5 times as long as wide, sinus less than 1/3 length of midrib, lobes often overlapping; surfaces glabrous. Flowers 2-3 cm diam.; sepals 6-9, abaxially green to adaxially yellow toward base; petals oblong, thick; anthers 2-5 mm, slightly longer than filaments. Fruit green, nearly globose, 1.5-2.5 × 1.5-2.5 cm, strongly ribbed, slightly constricted below stigmatic disk; stigmatic disk green, 11-18 mm diam., undulate; stigmatic rays 9-16, ± elliptic, terminating within 1 mm from margin of disk. Seeds 3.5-4 mm.</description>
-  <phenology>Flowering spring-early fall</phenology>
-  <habitat>Blackwater rivers and streams</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0-100 m</elevation>
-  <us_distribution>Fla.</us_distribution>
+    <taxon_hierarchy>genus Nymphaea; species ulvacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Smith" date="unknown">lutea</taxon_name>
+    <taxon_name rank="subspecies" authority="(G. S. Miller and Standley) E. O. Beal" date="unknown">ulvacea</taxon_name>
+    <taxon_hierarchy>genus Nuphar; species lutea; subspecies ulvacea;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes 2-5 cm diam. Leaves floating or submersed; petiole terete. Leaf blade abaxially and adaxially green, lanceolate to ovate, 15-25 × 8-10 cm, ca. 2.5 times as long as wide, sinus less than 1/3 length of midrib, lobes often overlapping; surfaces glabrous. Flowers 2-3 cm diam.; sepals 6-9, abaxially green to adaxially yellow toward base; petals oblong, thick; anthers 2-5 mm, slightly longer than filaments. Fruit green, nearly globose, 1.5-2.5 × 1.5-2.5 cm, strongly ribbed, slightly constricted below stigmatic disk; stigmatic disk green, 11-18 mm diam., undulate; stigmatic rays 9-16, ± elliptic, terminating within 1 mm from margin of disk. Seeds 3.5-4 mm.</description>
+  <description type="phenology">Flowering spring-early fall</description>
+  <description type="habitat">Blackwater rivers and streams</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Fla.</description>
+  <number>5.</number>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Nuphar ulvacea is probably better treated as a subspecies. Gulf coast plants intermediate between N. ulvacea and N. advena, which have been treated as Nymphaea [Nuphar] chartacea, are treated under N. advena.</discussion>
-</treatment>
+</bio:treatment>

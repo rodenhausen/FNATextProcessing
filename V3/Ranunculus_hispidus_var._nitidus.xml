@@ -1,79 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>17c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>hispidus</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>nitidus</variety_name>
-    <variety_authority>(Chapman) T. Duncan</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">hispidus</taxon_name>
+    <taxon_name rank="variety" authority="(Chapman) T. Duncan" date="unknown">nitidus</taxon_name>
     <place_of_publication>
       <publication_title>Univ. Calif. Publ. Bot.</publication_title>
       <place_in_publication>77: 44. 1980</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>repens</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>nitidus</variety_name>
-    <variety_authority>Chapman</variety_authority>
+    <taxon_hierarchy>genus Ranunculus; species hispidus; variety nitidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">repens</taxon_name>
+    <taxon_name rank="variety" authority="Chapman" date="unknown">nitidus</taxon_name>
     <place_of_publication>
       <publication_title>Fl. South. U.S.,</publication_title>
       <place_in_publication>8. 1860</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>carolinianus</species_name>
-    <species_authority>de Candolle</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>palmatus</species_name>
-    <species_authority>Elliott</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>septentrionalis</species_name>
-    <species_authority>Poiret</species_authority>
-    <variety_name>pterocarpus</variety_name>
-    <variety_authority>L. D. Benson</variety_authority>
-  </TaxonIdentification>
-  <description>Stems decumbent, sometimes rooting at nodes. Flowers: sepals reflexed 1 mm above base. Achene margin 0.4-1.2 mm broad. 2n = 32.</description>
-  <phenology>Flowering late winter-summer (Mar-Jul)</phenology>
-  <habitat>Wet woods, swamps, ditches</habitat>
-  <elevation>0-200 m</elevation>
-  <ca_distribution>Ont</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>D.C.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species repens; variety nitidus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">carolinianus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species carolinianus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Elliott" date="unknown">palmatus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species palmatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">septentrionalis</taxon_name>
+    <taxon_name rank="variety" authority="L. D. Benson" date="unknown">pterocarpus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species septentrionalis; variety pterocarpus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems decumbent, sometimes rooting at nodes. Flowers: sepals reflexed 1 mm above base. Achene margin 0.4-1.2 mm broad. 2n = 32.</description>
+  <description type="phenology">Flowering late winter-summer (Mar-Jul)</description>
+  <description type="habitat">Wet woods, swamps, ditches</description>
+  <description type="elevation">0-200 m</description>
+  <description type="distribution">Ont</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">D.C.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <number>17c.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">macounii</taxon_name>
+    <taxon_name rank="subspecies" authority="unknown" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Papaver; species macounii; subspecies macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">alaskanum</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">macranthum</taxon_name>
+    <taxon_hierarchy>genus Papaver; species alaskanum; variety macranthum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants robust, to 3 dm, persistent leaf bases numerous, firm, acuminate, ciliate, glabrous to densely hispid. Leaves to 10 cm; blade green, with 3-4 pairs of primary lateral lobes; surfaces hispid, trichomes white. Inflorescences: scapes hispid, often densely so, with appressed and spreading trichomes. Flowers to 6 cm diam.; petals yellow, or white and tinged yellow basally; anthers yellow; stigmas 5-6, disc convex to conic-umbonate. Capsules obovoid-obconic, to 2 cm, strigose with light brown trichomes. 2n = 28.</description>
+  <description type="phenology">Flowering Jun-Aug</description>
+  <description type="habitat">Dry rocky and gravelly soils</description>
+  <description type="elevation">0-200 m</description>
+  <description type="distribution">Alaska.</description>
   <number>6a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>macounii</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>macounii</subspecies_name>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>alaskanum</species_name>
-    <species_authority>Hultén</species_authority>
-    <variety_name>macranthum</variety_name>
-    <variety_authority>Hultén</variety_authority>
-  </TaxonIdentification>
-  <description>Plants robust, to 3 dm, persistent leaf bases numerous, firm, acuminate, ciliate, glabrous to densely hispid. Leaves to 10 cm; blade green, with 3-4 pairs of primary lateral lobes; surfaces hispid, trichomes white. Inflorescences: scapes hispid, often densely so, with appressed and spreading trichomes. Flowers to 6 cm diam.; petals yellow, or white and tinged yellow basally; anthers yellow; stigmas 5-6, disc convex to conic-umbonate. Capsules obovoid-obconic, to 2 cm, strigose with light brown trichomes. 2n = 28.</description>
-  <phenology>Flowering Jun-Aug</phenology>
-  <habitat>Dry rocky and gravelly soils</habitat>
-  <elevation>0-200 m</elevation>
-  <us_distribution>Alaska.</us_distribution>
+  <discussion>endemic</discussion>
   <discussion>This subspecies has been collected repeatedly on St. Paul Island, the type locality, and is known also from St. George Island and several disjunct localities on the coastal mainland of western Alaska as far north as the Seward Peninsula. It can be distinguished from Papaver macounii subsp. discolor by its more uniformly green and generally hispid leaves, and from P. radicatum subsp. alaskanum by its longer and narrower capsules. No counterpart has been found in the Russian Far East.</discussion>
-</treatment>
+</bio:treatment>

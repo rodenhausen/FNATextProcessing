@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>macounii</species_name>
-    <species_authority>Greene</species_authority>
-    <subspecies_name>discolor</subspecies_name>
-    <subspecies_authority>(Hultén) Rändel ex D. F. Murray</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">macounii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Hultén) Rändel ex D. F. Murray" date="unknown">discolor</taxon_name>
     <place_of_publication>
       <publication_title>Novon</publication_title>
       <place_in_publication>5: 294. 1995</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>macounii</species_name>
-    <variety_name>discolor</variety_name>
-    <variety_authority>Hultén</variety_authority>
+    <taxon_hierarchy>genus Papaver; species macounii; subspecies discolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Porsild" date="unknown">macounii</taxon_name>
+    <taxon_name rank="variety" authority="Hultén" date="unknown">discolor</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Alaska Yukon</publication_title>
       <place_in_publication>5: 803. 1945</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>keelei</species_name>
-    <species_authority>Porsild</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>scammanianum</species_name>
-    <species_authority>D. Löve</species_authority>
-  </TaxonIdentification>
-  <description>Plants slender, to 4 dm, persistent leaf bases few, flexible, lanceolate, ciliate, glabrous to hispid. Leaves to 12 cm; blade green or light green abaxially, dark green adaxially, with 2-3 pairs of primary lateral lobes; surfaces glabrate to densely pilose, trichomes light brown. Inflorescences: scapes glabrate to hispid with appressed and spreading trichomes. Flowers to 5 cm diam.; petals yellow or very rarely pink; anthers yellow; stigmas 4-6, disc conic-umbonate. Capsules clavate, to 2.5 cm, sparsely to sometimes densely strigose. 2n = 28, 70 (as P. radicatum Rottb. s.l.).</description>
-  <phenology>Flowering Jun-Aug</phenology>
-  <habitat>Mesic arctic and alpine tundra and meadows</habitat>
-  <elevation>0-1200 m</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Russian Far East.</global_distribution>
+    <taxon_hierarchy>genus Papaver; species macounii; variety discolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="D. Löve" date="unknown">keelei</taxon_name>
+    <taxon_hierarchy>genus Papaver; species keelei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">scammanianum</taxon_name>
+    <taxon_hierarchy>genus Papaver; species scammanianum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants slender, to 4 dm, persistent leaf bases few, flexible, lanceolate, ciliate, glabrous to hispid. Leaves to 12 cm; blade green or light green abaxially, dark green adaxially, with 2-3 pairs of primary lateral lobes; surfaces glabrate to densely pilose, trichomes light brown. Inflorescences: scapes glabrate to hispid with appressed and spreading trichomes. Flowers to 5 cm diam.; petals yellow or very rarely pink; anthers yellow; stigmas 4-6, disc conic-umbonate. Capsules clavate, to 2.5 cm, sparsely to sometimes densely strigose. 2n = 28, 70 (as P. radicatum Rottb. s.l.).</description>
+  <description type="phenology">Flowering Jun-Aug</description>
+  <description type="habitat">Mesic arctic and alpine tundra and meadows</description>
+  <description type="elevation">0-1200 m</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Russian Far East.</description>
+  <number>6b.</number>
+  <discussion>illustrated</discussion>
   <discussion>If this taxon is recognized at species rather than subspecies rank, the correct name is Papaver keelei. Specimens of P. paucistaminum Tolmatchew &amp; Petrovsky from Chukotka in the Russian Far East fall within the range of variation described here.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>emoryi</species_name>
-    <species_authority>Torrey</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Torrey" date="unknown">emoryi</taxon_name>
     <place_of_publication>
       <publication_title>in W. H. Emory,  Not. Milit. Reconn.,</publication_title>
       <place_in_publication>151, plate 9. 1848</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Emory oak</common_name>
-  <common_name>bellota</common_name>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>hastata</species_name>
-    <species_authority>Liebmann</species_authority>
-  </TaxonIdentification>
-  <description>Trees or shrubs, evergreen, to 15 m. Bark dark brown to black, deeply fissured. Twigs dark reddish brown, 1-3 mm diam., pubescent. Terminal buds reddish brown, ovoid to subconic, 2.5-6.5 mm, glabrous except for tuft of hairs at apex, occasionally hairy on distal 1/2. Leaves: petiole 3-7(-10) mm, pubescent. Leaf blade ovate to narrowly oblong to obovate, planar, 28-95 × 15-45 mm, base cordate, margins entire or spinose, with up to 13 awns, apex blunt to acute; surfaces abaxially glabrous except for tuft of tomentum on each side of midrib at base of blade, rarely completely glabrous, adaxially not rugous, glabrous or with a few hairs along midrib. Acorns annual; cup cup-shaped, 5-7.5 mm high × 7-12 mm wide, covering 1/4-1/2 nut, outer surface pubescent to sparsely puberulent, inner surface pubescent to floccose, scale tips appressed, blunt; nut ellipsoid to oblong, 10-18 × 6-10 mm, glabrous to puberulent, especially at apex, scar diam. 3-5.5 mm.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Foothills and slopes</habitat>
-  <elevation>1000-2200 m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>n Mexico.</global_distribution>
+    <taxon_hierarchy>genus Quercus; species emoryi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Liebmann" date="unknown">hastata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species hastata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees or shrubs, evergreen, to 15 m. Bark dark brown to black, deeply fissured. Twigs dark reddish brown, 1-3 mm diam., pubescent. Terminal buds reddish brown, ovoid to subconic, 2.5-6.5 mm, glabrous except for tuft of hairs at apex, occasionally hairy on distal 1/2. Leaves: petiole 3-7(-10) mm, pubescent. Leaf blade ovate to narrowly oblong to obovate, planar, 28-95 × 15-45 mm, base cordate, margins entire or spinose, with up to 13 awns, apex blunt to acute; surfaces abaxially glabrous except for tuft of tomentum on each side of midrib at base of blade, rarely completely glabrous, adaxially not rugous, glabrous or with a few hairs along midrib. Acorns annual; cup cup-shaped, 5-7.5 mm high × 7-12 mm wide, covering 1/4-1/2 nut, outer surface pubescent to sparsely puberulent, inner surface pubescent to floccose, scale tips appressed, blunt; nut ellipsoid to oblong, 10-18 × 6-10 mm, glabrous to puberulent, especially at apex, scar diam. 3-5.5 mm.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Foothills and slopes</description>
+  <description type="elevation">1000-2200 m</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">n Mexico.</description>
+  <number>4.</number>
+  <other_name type="common_name">Emory oak</other_name>
+  <other_name type="common_name">bellota</other_name>
+  <discussion>illustrated</discussion>
   <discussion>Quercus emoryi reportedly hybridizes with Q. graciliformis (= Q. ×tharpii C. H. Muller).</discussion>
-</treatment>
+</bio:treatment>

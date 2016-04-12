@@ -1,78 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>54b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>flammula</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>ovalis</variety_name>
-    <variety_authority>(J. M. Bigelow) L. D. Benson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">flammula</taxon_name>
+    <taxon_name rank="variety" authority="(J. M. Bigelow) L. D. Benson" date="unknown">ovalis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>69: 305. 1942</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>filiformis</species_name>
-    <species_authority>Michaux</species_authority>
-    <variety_name>ovalis</variety_name>
-    <variety_authority>J. M. Bigelow</variety_authority>
+    <taxon_hierarchy>genus Ranunculus; species flammula; variety ovalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">filiformis</taxon_name>
+    <taxon_name rank="variety" authority="J. M. Bigelow" date="unknown">ovalis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Boston. ed.</publication_title>
       <place_in_publication>2, 224. 1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>flammula</species_name>
-    <variety_name>samolifolius</variety_name>
-    <variety_authority>(Greene) L. D. Benson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>reptans</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>ovalis</variety_name>
-    <variety_authority>(J. M. Bigelow) Torrey &amp; A. Gray</variety_authority>
-  </TaxonIdentification>
-  <description>Stems prostrate or sometimes ascending, 0.5-2 mm thick. Leaf blades lance-elliptic to lanceolate or linear, 0.8-3.3 × 0.2-0.8 cm. Flowers: sepals 2-3 mm; petals 3-5 × 2-3 mm. 2n = 32.</description>
-  <phenology>Flowering spring-summer (May-Sep)</phenology>
-  <habitat>Muddy ground or shallow water</habitat>
-  <elevation>0-2900 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Ranunculus; species filiformis; variety ovalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">flammula</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) L. D. Benson" date="unknown">samolifolius</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species flammula; variety samolifolius;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">reptans</taxon_name>
+    <taxon_name rank="variety" authority="(J. M. Bigelow) Torrey &amp; A. Gray" date="unknown">ovalis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species reptans; variety ovalis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems prostrate or sometimes ascending, 0.5-2 mm thick. Leaf blades lance-elliptic to lanceolate or linear, 0.8-3.3 × 0.2-0.8 cm. Flowers: sepals 2-3 mm; petals 3-5 × 2-3 mm. 2n = 32.</description>
+  <description type="phenology">Flowering spring-summer (May-Sep)</description>
+  <description type="habitat">Muddy ground or shallow water</description>
+  <description type="elevation">0-2900 m</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">N.B.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">N.S.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">P.E.I.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.Dak.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Wash.</description>
+  <description type="distribution">Wyo.</description>
+  <number>54b.</number>
+  <discussion>endemic</discussion>
   <discussion>Ranunculus flammula var. ovalis, as currently understood, is heterogeneous. Many specimens from throughout the cited range scarcely differ from specimens of R. flammula var. reptans and perhaps should be included in the latter variety. Material from the Pacific slope, however, may be intermediate between R. flammula var. reptans and R. flammula var. flammula or may show various combinations of the distinguishing characteristics of the two. Biosystematic study of R. flammula as a whole will be needed for a meaningful treatment of these populations to be possible.</discussion>
-</treatment>
+</bio:treatment>

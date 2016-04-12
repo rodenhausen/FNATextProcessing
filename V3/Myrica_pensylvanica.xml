@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Myrica</genus_name>
-    <species_name>pensylvanica</species_name>
-    <species_authority>Mirbel</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myrica</taxon_name>
+    <taxon_name rank="species" authority="Mirbel" date="unknown">pensylvanica</taxon_name>
     <place_of_publication>
       <publication_title>in H. Duhamel du Monceau et al.,  Traité Arbr. Arbust. Nouv. ed.</publication_title>
       <place_in_publication>2: 190. 1804</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Northern bayberry</common_name>
-  <common_name>waxberry</common_name>
-  <common_name>tallow bayberry</common_name>
-  <common_name>small waxberry</common_name>
-  <common_name>tallowshrub</common_name>
-  <common_name>swamp candleberry</common_name>
-  <common_name>candlewood</common_name>
-  <common_name>candletree</common_name>
-  <common_name>tallowtree</common_name>
-  <common_name>myrique de Pennsylvanie</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Cerothamnus</genus_name>
-    <species_name>pensylvanica</species_name>
-    <species_authority>(Mirbel) Moldenke</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Myrica</genus_name>
-    <species_name>cerifera</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>frutescens</variety_name>
-    <variety_authority>Castiglioni</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Myrica</genus_name>
-    <species_name>macfarlanei</species_name>
-    <species_authority>Youngken</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or rarely small trees, deciduous, rhizomatous, colonial, to 2(-4.5) m. Branchlets reddish brown and gland-dotted when young, becoming whitish gray in age, otherwise densely pilose; glands yellow. Leaf blade aromatic when crushed, oblanceolate to elliptic, occasionally obovate, 2.5-6.5(-7.8) × 1.5-2.7 cm, usually membranous, less often leathery, base cuneate to attenuate, margins sometimes entire, usually serrate distal to middle, apex obtuse to rounded, sometimes acute, short-apiculate; surfaces abaxially pale green, pilose on veins, moderately to densely glandular, adaxially dark green, pilose (especially along midrib), glandless or sparsely glandular; glands yellow-brown. Inflorescences: staminate 0.4-1.8 cm; pistillate 0.3-1.4 cm. Flowers unisexual, staminate and pistillate on different plants. Staminate flowers: bract of flower shorter than staminal column, margins opaque, apically ciliate or completely glabrous, usually abaxially glabrous, occasionally densely pilose; stamens mostly 3-4. Pistillate flowers: bracteoles persistent in fruit, 4, not accrescent or adnate to fruit wall, margins slightly ciliate or glabrous, abaxially usually densely gland-dotted; ovary wall densely hirsute near apex, otherwise glabrous. Fruits globose-ellipsoid, 3.5-5.5 mm; fruit wall and warty protuberances hirsute, at least when young, hairs usually obscured by thick coat of white wax.</description>
-  <phenology>Flowering spring-early summer, fruiting late summer-fall</phenology>
-  <habitat>Coastal dunes, pine barrens, pine-oak forests, old fields, bogs, edges of streams, ponds, and swamps</habitat>
-  <elevation>0-325 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Va.</us_distribution>
+    <taxon_hierarchy>genus Myrica; species pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Cerothamnus</taxon_name>
+    <taxon_name rank="species" authority="(Mirbel) Moldenke" date="unknown">pensylvanica</taxon_name>
+    <taxon_hierarchy>genus Cerothamnus; species pensylvanica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myrica</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">cerifera</taxon_name>
+    <taxon_name rank="variety" authority="Castiglioni" date="unknown">frutescens</taxon_name>
+    <taxon_hierarchy>genus Myrica; species cerifera; variety frutescens;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myrica</taxon_name>
+    <taxon_name rank="species" authority="Youngken" date="unknown">macfarlanei</taxon_name>
+    <taxon_hierarchy>genus Myrica; species macfarlanei;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs or rarely small trees, deciduous, rhizomatous, colonial, to 2(-4.5) m. Branchlets reddish brown and gland-dotted when young, becoming whitish gray in age, otherwise densely pilose; glands yellow. Leaf blade aromatic when crushed, oblanceolate to elliptic, occasionally obovate, 2.5-6.5(-7.8) × 1.5-2.7 cm, usually membranous, less often leathery, base cuneate to attenuate, margins sometimes entire, usually serrate distal to middle, apex obtuse to rounded, sometimes acute, short-apiculate; surfaces abaxially pale green, pilose on veins, moderately to densely glandular, adaxially dark green, pilose (especially along midrib), glandless or sparsely glandular; glands yellow-brown. Inflorescences: staminate 0.4-1.8 cm; pistillate 0.3-1.4 cm. Flowers unisexual, staminate and pistillate on different plants. Staminate flowers: bract of flower shorter than staminal column, margins opaque, apically ciliate or completely glabrous, usually abaxially glabrous, occasionally densely pilose; stamens mostly 3-4. Pistillate flowers: bracteoles persistent in fruit, 4, not accrescent or adnate to fruit wall, margins slightly ciliate or glabrous, abaxially usually densely gland-dotted; ovary wall densely hirsute near apex, otherwise glabrous. Fruits globose-ellipsoid, 3.5-5.5 mm; fruit wall and warty protuberances hirsute, at least when young, hairs usually obscured by thick coat of white wax.</description>
+  <description type="phenology">Flowering spring-early summer, fruiting late summer-fall</description>
+  <description type="habitat">Coastal dunes, pine barrens, pine-oak forests, old fields, bogs, edges of streams, ponds, and swamps</description>
+  <description type="elevation">0-325 m</description>
+  <description type="distribution">St. Pierre and Miquelon</description>
+  <description type="distribution">N.B.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.S.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">P.E.I.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">Va.</description>
+  <number>6.</number>
+  <other_name type="common_name">Northern bayberry</other_name>
+  <other_name type="common_name">waxberry</other_name>
+  <other_name type="common_name">tallow bayberry</other_name>
+  <other_name type="common_name">small waxberry</other_name>
+  <other_name type="common_name">tallowshrub</other_name>
+  <other_name type="common_name">swamp candleberry</other_name>
+  <other_name type="common_name">candlewood</other_name>
+  <other_name type="common_name">candletree</other_name>
+  <other_name type="common_name">tallowtree</other_name>
+  <other_name type="common_name">myrique de Pennsylvanie</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
   <discussion>Where their ranges overlap, Myrica pensylvanica hybridizes quite readily with both M. cerifera and M. heterophylla. This ease of hybridization obviously contributes to an already complicated taxonomic situation; it is a matter for further field-based investigation.</discussion>
-</treatment>
+</bio:treatment>

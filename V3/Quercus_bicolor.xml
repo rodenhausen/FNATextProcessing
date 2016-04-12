@@ -1,73 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>46.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>bicolor</species_name>
-    <species_authority>Willdenow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Willdenow" date="unknown">bicolor</taxon_name>
     <place_of_publication>
       <publication_title>in G. H. E. Muhlenberg,  Ges. Naturf. Freunde Berlin Neue Schriften</publication_title>
       <place_in_publication>3: 396. 1801</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Swamp white oak</common_name>
-  <common_name>chêne bicolore</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>bicolor</species_name>
-    <variety_name>angustifolia</variety_name>
-    <variety_authority>Dippel</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>bicolor</species_name>
-    <variety_name>cuneiformis</variety_name>
-    <variety_authority>Dippel</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>bicolor</species_name>
-    <variety_name>platanoides</variety_name>
-    <variety_authority>A. de Candolle</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>platanoides</species_name>
-    <species_authority>(Lamarck) Sudworth</species_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, to 30 m. Bark dark gray, scaly or flat-ridged. Twigs light brown or tan, 2-3(-4) mm diam., glabrous. Buds light or dark brown, globose to ovoid, 2-3 mm, glabrous. Leaves: petiole (4-)10-25(-30) mm. Leaf blade obovate to narrowly elliptic or narrowly obovate, (79-)120-180(-215) × (40-)70-110(-160) mm, base narrowly cuneate to acute, margins regularly toothed, or entire with teeth in distal 1/2 only, or moderately to deeply lobed, or sometimes lobed proximally and toothed distally, secondary veins arched, divergent, (3-)5-7 on each side, apex broadly rounded or ovate; surfaces abaxially light green or whitish, with minute, flat, appressed-stellate hairs and erect, 1-4-rayed hairs, velvety to touch, adaxially dark green, glossy, glabrous. Acorns 1-3(-5) mm, on thin axillary peduncle (20-)40-70 mm; cup hemispheric or turbinate, 10-15 mm deep × 15-25 mm wide, enclosing 1/2-3/4 nut, scales closely appressed, finely grayish tomentose, those near rim of cup often with short, stout, irregularly recurved and sometimes branched, spinose awns emerging from tubercle; nut light brown, ovoid-ellipsoid or oblong, (12-)15-21(-25) × 9-18 mm, glabrous. Cotyledons distinct. 2n = 24.</description>
-  <phenology>Flowering in spring</phenology>
-  <habitat>Low swamp forests, moist slopes, poorly drained uplands</habitat>
-  <elevation>0-1000 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species bicolor;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="(Lamarck) Sudworth" date="unknown">bicolor</taxon_name>
+    <taxon_name rank="variety" authority="Dippel" date="unknown">angustifolia</taxon_name>
+    <taxon_hierarchy>genus Quercus; species bicolor; variety angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bicolor</taxon_name>
+    <taxon_name rank="variety" authority="Dippel" date="unknown">cuneiformis</taxon_name>
+    <taxon_hierarchy>genus Quercus; species bicolor; variety cuneiformis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">bicolor</taxon_name>
+    <taxon_name rank="variety" authority="A. de Candolle" date="unknown">platanoides</taxon_name>
+    <taxon_hierarchy>genus Quercus; species bicolor; variety platanoides;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">platanoides</taxon_name>
+    <taxon_hierarchy>genus Quercus; species platanoides;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, to 30 m. Bark dark gray, scaly or flat-ridged. Twigs light brown or tan, 2-3(-4) mm diam., glabrous. Buds light or dark brown, globose to ovoid, 2-3 mm, glabrous. Leaves: petiole (4-)10-25(-30) mm. Leaf blade obovate to narrowly elliptic or narrowly obovate, (79-)120-180(-215) × (40-)70-110(-160) mm, base narrowly cuneate to acute, margins regularly toothed, or entire with teeth in distal 1/2 only, or moderately to deeply lobed, or sometimes lobed proximally and toothed distally, secondary veins arched, divergent, (3-)5-7 on each side, apex broadly rounded or ovate; surfaces abaxially light green or whitish, with minute, flat, appressed-stellate hairs and erect, 1-4-rayed hairs, velvety to touch, adaxially dark green, glossy, glabrous. Acorns 1-3(-5) mm, on thin axillary peduncle (20-)40-70 mm; cup hemispheric or turbinate, 10-15 mm deep × 15-25 mm wide, enclosing 1/2-3/4 nut, scales closely appressed, finely grayish tomentose, those near rim of cup often with short, stout, irregularly recurved and sometimes branched, spinose awns emerging from tubercle; nut light brown, ovoid-ellipsoid or oblong, (12-)15-21(-25) × 9-18 mm, glabrous. Cotyledons distinct. 2n = 24.</description>
+  <description type="phenology">Flowering in spring</description>
+  <description type="habitat">Low swamp forests, moist slopes, poorly drained uplands</description>
+  <description type="elevation">0-1000 m</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <number>46.</number>
+  <other_name type="common_name">Swamp white oak</other_name>
+  <other_name type="common_name">chêne bicolore</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Putative hybrids between Quercus bicolor and Q. macrocarpa are common in areas of contact. The hybrids tend to have more deeply lobed leaves and varying degrees of development of awns as a fringe along the margin of the acorn cup. Such characteristics occur sporadically throughout many populations of Q. bicolor; in some cases they may occur because of subtle introgression.</discussion>
   <discussion>The Iroquois used Quercus bicolor in the treatment of cholera, broken bones, consumption, and as a witchcraft medicine (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

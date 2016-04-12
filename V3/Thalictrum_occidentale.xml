@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>14.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>occidentale</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">occidentale</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>8: 372. 1873</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Western meadow-rue</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>occidentale</species_name>
-    <variety_name>macounii</variety_name>
-    <variety_authority>B. Boivin</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>occidentale</species_name>
-    <variety_name>palousense</variety_name>
-    <variety_authority>H. St. John</variety_authority>
-  </TaxonIdentification>
-  <description>Roots yellow to medium brown or black, thin, fibrous. Stems erect, 30-100(-120) dm, glabrous, often from well-developed rhizomes. Leaves mostly cauline. Leaf blade 3-4×-ternately compound; leaflets orbiculate to obovate-cuneate or cordate, apically 3-lobed, 10-30 mm wide, lobe margins coarsely crenate, surfaces glabrous to glandular. Inflorescences terminal (some flowers in axils of distal leaves), panicles, rather open, many flowered. Flowers: sepals whitish or greenish or purplish tinged, ovate, 3.5-4.4 mm in staminate flowers, 1.5-2 mm in pistillate flowers; filaments purplish, 4-10 mm; anthers 1.5-4 mm, long-apiculate; stigma often purplish. Achenes 6-9, spreading to reflexed, short-stipitate; stipe 0.4-1.2 mm; body fusiform, not laterally compressed, (4-)6-9(-10) mm, tapering at both ends, glandular, strongly 3-veined on each side, veins not anastomosing; beak 3-4.5(-6) mm.</description>
-  <phenology>Flowering early summer-mid summer (Jun-Aug)</phenology>
-  <habitat>Open woods, meadows, and copses</habitat>
-  <elevation>200-3400 m</elevation>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Thalictrum; species occidentale;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentale</taxon_name>
+    <taxon_name rank="variety" authority="B. Boivin" date="unknown">macounii</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species occidentale; variety macounii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentale</taxon_name>
+    <taxon_name rank="variety" authority="H. St. John" date="unknown">palousense</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species occidentale; variety palousense;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Roots yellow to medium brown or black, thin, fibrous. Stems erect, 30-100(-120) dm, glabrous, often from well-developed rhizomes. Leaves mostly cauline. Leaf blade 3-4×-ternately compound; leaflets orbiculate to obovate-cuneate or cordate, apically 3-lobed, 10-30 mm wide, lobe margins coarsely crenate, surfaces glabrous to glandular. Inflorescences terminal (some flowers in axils of distal leaves), panicles, rather open, many flowered. Flowers: sepals whitish or greenish or purplish tinged, ovate, 3.5-4.4 mm in staminate flowers, 1.5-2 mm in pistillate flowers; filaments purplish, 4-10 mm; anthers 1.5-4 mm, long-apiculate; stigma often purplish. Achenes 6-9, spreading to reflexed, short-stipitate; stipe 0.4-1.2 mm; body fusiform, not laterally compressed, (4-)6-9(-10) mm, tapering at both ends, glandular, strongly 3-veined on each side, veins not anastomosing; beak 3-4.5(-6) mm.</description>
+  <description type="phenology">Flowering early summer-mid summer (Jun-Aug)</description>
+  <description type="habitat">Open woods, meadows, and copses</description>
+  <description type="elevation">200-3400 m</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">N.Dak.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Wash.</description>
+  <description type="distribution">Wyo.</description>
+  <number>14.</number>
+  <other_name type="common_name">Western meadow-rue</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Thalictrum occidentale is similar to T. confine and T. venulosum; thorough field studies are needed to determine whether or not they should be maintained as separate species. Thalictrum occidentale can usually be distinguished by its reflexed achenes.</discussion>
   <discussion>Plants of northern British Columbia, sometimes called Thalictrum occidentale var. breitungii (B. Boivin) Brayshaw, appear to be intermediate between T. occidentale and T. venulosum (T. C. Brayshaw, pers. comm.); achenes are ascending, ± compressed, and beaks rather short (2-4 mm) (T. C. Brayshaw 1989).</discussion>
   <discussion>Some of the Native Americans used Thalictrum occidentale medicinally for headaches, eye trouble, and sore legs, to loosen phlem, and to improve blood circulation (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

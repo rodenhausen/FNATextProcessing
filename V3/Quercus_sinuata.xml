@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>77.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>sinuata</species_name>
-    <species_authority>Walter</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Walter" date="unknown">sinuata</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Carol.,</publication_title>
       <place_in_publication>235. 1788</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Bastard oak</common_name>
-  <common_name>bastard white oak</common_name>
-  <common_name>Durand oak</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>durandii</species_name>
-    <species_authority>Buckley</species_authority>
-  </TaxonIdentification>
-  <description>Trees or shrubs, deciduous, to 15(-20) m, with solitary or multiple trunks. Bark gray to light brown, flaky to papery and exfoliating. Twigs light gray or gray, 1-2(-3) mm diam., glabrous, rarely minutely puberulent. Buds brown or reddish brown, broadly ovoid, 2-3 mm, essentially glabrous. Leaves: petiole 2-5(-8) mm. Leaf blade oblong to oblanceolate, or narrowly rhomboid, or cuneiform, or rounded-3-dentate, (25-)30-120(-140) × (15-)25-60 mm, base acute, cuneate, attenuate-rounded, or obtuse, margins entire to irregularly toothed or moderately, sinuately lobed, flat, secondary veins ca. 7-11 on each side, apex broadly rounded, rarely attenuately narrowed or obscurely 3-lobed; surfaces abaxially silvery or dull green, with scattered to crowded, minute, appressed-stellate, 8-10-rayed hairs, or glabrate or glabrous, especially in shade forms, adaxially green or dull green, glabrous. Acorns solitary or paired, subsessile or on axillary peduncle to 1-7 mm; cup saucer-shaped to shallowly cup-shaped, rarely deeper, 2-8 mm deep × 8-15(-20) mm wide, enclosing 1/8-1/4 nut, rarely more, base flat, rounded, or constricted, margin thin, scales closely appressed, grayish with reddish margins, ovate, flat, obtuse, not tuberculate; nut light brown, depressed-ovoid to oblong, 7-15 × 7-12(-17) mm, glabrous. Cotyledons distinct.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
+    <taxon_hierarchy>genus Quercus; species sinuata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Buckley" date="unknown">durandii</taxon_name>
+    <taxon_hierarchy>genus Quercus; species durandii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees or shrubs, deciduous, to 15(-20) m, with solitary or multiple trunks. Bark gray to light brown, flaky to papery and exfoliating. Twigs light gray or gray, 1-2(-3) mm diam., glabrous, rarely minutely puberulent. Buds brown or reddish brown, broadly ovoid, 2-3 mm, essentially glabrous. Leaves: petiole 2-5(-8) mm. Leaf blade oblong to oblanceolate, or narrowly rhomboid, or cuneiform, or rounded-3-dentate, (25-)30-120(-140) × (15-)25-60 mm, base acute, cuneate, attenuate-rounded, or obtuse, margins entire to irregularly toothed or moderately, sinuately lobed, flat, secondary veins ca. 7-11 on each side, apex broadly rounded, rarely attenuately narrowed or obscurely 3-lobed; surfaces abaxially silvery or dull green, with scattered to crowded, minute, appressed-stellate, 8-10-rayed hairs, or glabrate or glabrous, especially in shade forms, adaxially green or dull green, glabrous. Acorns solitary or paired, subsessile or on axillary peduncle to 1-7 mm; cup saucer-shaped to shallowly cup-shaped, rarely deeper, 2-8 mm deep × 8-15(-20) mm wide, enclosing 1/8-1/4 nut, rarely more, base flat, rounded, or constricted, margin thin, scales closely appressed, grayish with reddish margins, ovate, flat, obtuse, not tuberculate; nut light brown, depressed-ovoid to oblong, 7-15 × 7-12(-17) mm, glabrous. Cotyledons distinct.</description>
+  <description type="distribution">North America.</description>
+  <number>77.</number>
+  <other_name type="common_name">Bastard oak</other_name>
+  <other_name type="common_name">bastard white oak</other_name>
+  <other_name type="common_name">Durand oak</other_name>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
   <discussion>The question of the correct name for this species has persisted, with some authors rejecting the usage here in favor of Quercus durandii. Although no type material is extant, the original description of Q. sinuata is consistent with the concept presented here, as by W. W. Ashe (1916) and W. Trelease (1924), and inconsistent with any other oak from the broad area covered by Thomas Walter's Flora Caroliniana (1788).</discussion>
   <discussion>The two varieties differ in habit, habitat, leaf size and lobing, and geographic range, and considerable variability exists within both varities as to the degree and density of silvery stellate-pubescence on the abaxial surface of the leaf. Sun leaves of both tend to have a higher proportion of silvery pubescence, and shade leaves and some individual trees tend to have more glabrate leaves, although evidence of flat-stellate trichomes is usually apparent. Plants with young, expanding leaves sometimes are mistaken for Quercus nigra, a member of the red oak group.</discussion>
-</treatment>
+</bio:treatment>

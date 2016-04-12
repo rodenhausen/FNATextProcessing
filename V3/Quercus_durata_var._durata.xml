@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Jepson" date="unknown">durata</taxon_name>
+    <taxon_name rank="variety" authority="unknown" date="unknown">durata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species durata; variety durata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs, densely branched. Leaf blade usually deeply cupped, margins revolute; surfaces abaxially with hairs usually 1-2 mm, rays curly, adaxially grayish or yellowish, with persistent stellate pubescence.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Serpentine soils</description>
+  <description type="elevation">150-1500 m</description>
+  <description type="distribution">Calif.</description>
   <number>73a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>durata</species_name>
-    <species_authority>Jepson</species_authority>
-    <variety_name>durata</variety_name>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <description>Shrubs, densely branched. Leaf blade usually deeply cupped, margins revolute; surfaces abaxially with hairs usually 1-2 mm, rays curly, adaxially grayish or yellowish, with persistent stellate pubescence.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Serpentine soils</habitat>
-  <elevation>150-1500 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Quercus durata var. durata is found from Santa Barbara County north to Shasta County.</discussion>
-</treatment>
+</bio:treatment>

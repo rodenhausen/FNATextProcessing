@@ -1,146 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <subspecies_name>gracilis</subspecies_name>
-    <subspecies_authority>(Aiton) Selander</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">dioica</taxon_name>
+    <taxon_name rank="subspecies" authority="(Aiton) Selander" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Svensk Bot. Tidskr.</publication_title>
       <place_in_publication>41: 271. 1947</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>gracilis</species_name>
-    <species_authority>Aiton</species_authority>
+    <taxon_hierarchy>genus Urtica; species dioica; subspecies gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">gracilis</taxon_name>
     <place_of_publication>
       <publication_title>Hort. Kew.</publication_title>
       <place_in_publication>3: 341. 1789</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>californica</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <variety_name>angustifolia</variety_name>
-    <variety_authority>Schlechtendal</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <variety_name>californica</variety_name>
-    <variety_authority>(Greene) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <variety_name>gracilis</variety_name>
-    <variety_authority>(Aiton) R. L. Taylor &amp; MacBryde</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <variety_name>lyallii</variety_name>
-    <variety_authority>(S. Watson) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <variety_name>procera</variety_name>
-    <variety_authority>(Muhlenberg ex Willdenow) Weddell</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>lyallii</species_name>
-    <species_authority>S. Watson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>lyallii</species_name>
-    <variety_name>californica</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>procera</species_name>
-    <species_authority>Muhlenberg ex Willdenow</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Urtica</genus_name>
-    <species_name>viridis</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Stems glabrous or strigose, with a few stinging hairs. Leaf blades abaxially bearing stinging hairs, otherwise glabrous or puberulent, adaxially without or rarely with a few stinging hairs. Flowers unisexual, staminate and pistillate mostly on same plant. 2n = 26, 52.</description>
-  <phenology>Flowering late spring-summer</phenology>
-  <habitat>Alluvial woods, margins of deciduous woodlands, fencerows, waste places</habitat>
-  <elevation>0-3100 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Urtica; species gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Urtica; species californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">dioica</taxon_name>
+    <taxon_name rank="variety" authority="Schlechtendal" date="unknown">angustifolia</taxon_name>
+    <taxon_hierarchy>genus Urtica; species dioica; variety angustifolia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Muhlenberg ex Willdenow" date="unknown">dioica</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) C. L. Hitchcock" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Urtica; species dioica; variety californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">dioica</taxon_name>
+    <taxon_name rank="variety" authority="(Aiton) R. L. Taylor &amp; MacBryde" date="unknown">gracilis</taxon_name>
+    <taxon_hierarchy>genus Urtica; species dioica; variety gracilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">dioica</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) C. L. Hitchcock" date="unknown">lyallii</taxon_name>
+    <taxon_hierarchy>genus Urtica; species dioica; variety lyallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">dioica</taxon_name>
+    <taxon_name rank="variety" authority="(Muhlenberg ex Willdenow) Weddell" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Urtica; species dioica; variety procera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lyallii</taxon_name>
+    <taxon_hierarchy>genus Urtica; species lyallii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">lyallii</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">californica</taxon_name>
+    <taxon_hierarchy>genus Urtica; species lyallii; variety californica;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">procera</taxon_name>
+    <taxon_hierarchy>genus Urtica; species procera;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">viridis</taxon_name>
+    <taxon_hierarchy>genus Urtica; species viridis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems glabrous or strigose, with a few stinging hairs. Leaf blades abaxially bearing stinging hairs, otherwise glabrous or puberulent, adaxially without or rarely with a few stinging hairs. Flowers unisexual, staminate and pistillate mostly on same plant. 2n = 26, 52.</description>
+  <description type="phenology">Flowering late spring-summer</description>
+  <description type="habitat">Alluvial woods, margins of deciduous woodlands, fencerows, waste places</description>
+  <description type="elevation">0-3100 m</description>
+  <description type="distribution">St. Pierre and Miquelon</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">N.B.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">N.S.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">P.E.I.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">N.Dak.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">Wash.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <description type="distribution">Wyo.</description>
+  <number>1b.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
   <discussion>Native Americans used Urtica dioica subsp. gracilis medicinally for rheumatism, upset stomach,childbirth, paralysis, fevers, colds, tuberculosis, and as a general tonic, and as a witchcraft medicine (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

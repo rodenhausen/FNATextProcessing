@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>60.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>garryana</species_name>
-    <species_authority>Douglas ex Hooker</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Hooker" date="unknown">garryana</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>2: 159. 1840</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Oregon white oak</common_name>
-  <common_name>Garry oak</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>douglasii</species_name>
-    <species_authority>Hooker &amp; Arnott</species_authority>
-    <variety_name>neaei</variety_name>
-    <variety_authority>(Liebmann) A. de Candolle</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>garryana</species_name>
-    <variety_name>jacobi</variety_name>
-    <variety_authority>(R. Brown ter) Zabel</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>jacobi</species_name>
-    <species_authority>R. Brown ter</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>lobata</species_name>
-    <species_authority>Née</species_authority>
-    <variety_name>breweri</variety_name>
-    <variety_authority>(Engelmann) Wenzig</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>neaei</species_name>
-    <species_authority>Liebmann</species_authority>
-  </TaxonIdentification>
-  <description>Trees or shrubs, deciduous, trees to 15(-20) m, with solitary trunks, shrubs to 0.1-3 m, multitrunked. Bark light gray or almost white, scaly. Twigs brown, red, or yellowish, 2-4 mm diam., densely puberulent with spreading hairs or glabrate. Buds brown or yellowish, ovoid or fusiform and apex acute, 2-12 mm, glandular-puberulent or densely pubescent. Leaves: petiole 4-10 mm. Leaf blade obovate, elliptic or subrotund, moderately to deeply lobed, 25-120(-140) × 15-85 mm, base rounded-attenuate or cuneate, rarely subcordate, often unequal, margins with sinuses usually reaching more than 1/2 distance to midrib, lobes oblong or spatulate, obtuse, rounded or blunt, larger lobes usually with 2-3 sublobes or teeth, veins often ending in retuse teeth, secondary veins yellowish, 4-7 on each side, the more distal veins often branching within distal lobes, apex broadly rounded; surfaces abaxially light green or waxy yellowish, often felty to touch, densely to sparsely covered with semi-erect or erect, simple and (2-)4-8-rayed, fasciculate hairs 0.1-1 mm, secondary veins raised, adaxially bright or dark green, glossy or somewhat scurfy because of sparse stellate hairs. Acorns 1-3, subsessile, rarely on peduncle to 10(-20) mm; cup saucer-shaped, cup-shaped, or hemispheric, 4-10 mm deep × 12-22 mm wide; scales yellowish or reddish brown, often long-acute near rim of cup, moderately or scarcely tuberculate, canescent or tomentulose; nut light brown, oblong to globose, (12-)25-30(-40) × (10-)14-20(-22) mm, apex blunt or rounded, glabrous or often persistently puberulent. Cotyledons distinct. 2n = 24.</description>
-  <number_of_infrataxa>Varieties 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>w North America.</global_distribution>
+    <taxon_hierarchy>genus Quercus; species garryana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Hooker &amp; Arnott" date="unknown">douglasii</taxon_name>
+    <taxon_name rank="variety" authority="(Liebmann) A. de Candolle" date="unknown">neaei</taxon_name>
+    <taxon_hierarchy>genus Quercus; species douglasii; variety neaei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="R. Brown ter" date="unknown">garryana</taxon_name>
+    <taxon_name rank="variety" authority="(R. Brown ter) Zabel" date="unknown">jacobi</taxon_name>
+    <taxon_hierarchy>genus Quercus; species garryana; variety jacobi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Née" date="unknown">jacobi</taxon_name>
+    <taxon_hierarchy>genus Quercus; species jacobi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Liebmann" date="unknown">lobata</taxon_name>
+    <taxon_name rank="variety" authority="(Engelmann) Wenzig" date="unknown">breweri</taxon_name>
+    <taxon_hierarchy>genus Quercus; species lobata; variety breweri;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">neaei</taxon_name>
+    <taxon_hierarchy>genus Quercus; species neaei;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees or shrubs, deciduous, trees to 15(-20) m, with solitary trunks, shrubs to 0.1-3 m, multitrunked. Bark light gray or almost white, scaly. Twigs brown, red, or yellowish, 2-4 mm diam., densely puberulent with spreading hairs or glabrate. Buds brown or yellowish, ovoid or fusiform and apex acute, 2-12 mm, glandular-puberulent or densely pubescent. Leaves: petiole 4-10 mm. Leaf blade obovate, elliptic or subrotund, moderately to deeply lobed, 25-120(-140) × 15-85 mm, base rounded-attenuate or cuneate, rarely subcordate, often unequal, margins with sinuses usually reaching more than 1/2 distance to midrib, lobes oblong or spatulate, obtuse, rounded or blunt, larger lobes usually with 2-3 sublobes or teeth, veins often ending in retuse teeth, secondary veins yellowish, 4-7 on each side, the more distal veins often branching within distal lobes, apex broadly rounded; surfaces abaxially light green or waxy yellowish, often felty to touch, densely to sparsely covered with semi-erect or erect, simple and (2-)4-8-rayed, fasciculate hairs 0.1-1 mm, secondary veins raised, adaxially bright or dark green, glossy or somewhat scurfy because of sparse stellate hairs. Acorns 1-3, subsessile, rarely on peduncle to 10(-20) mm; cup saucer-shaped, cup-shaped, or hemispheric, 4-10 mm deep × 12-22 mm wide; scales yellowish or reddish brown, often long-acute near rim of cup, moderately or scarcely tuberculate, canescent or tomentulose; nut light brown, oblong to globose, (12-)25-30(-40) × (10-)14-20(-22) mm, apex blunt or rounded, glabrous or often persistently puberulent. Cotyledons distinct. 2n = 24.</description>
+  <description type="distribution">w North America.</description>
+  <number>60.</number>
+  <other_name type="common_name">Oregon white oak</other_name>
+  <other_name type="common_name">Garry oak</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion>Varieties 3 (3 in the flora):</discussion>
   <discussion>Quercus garryana (no varieties specified) was used medicinally by Native Americans to treat tuberculosis and as a drink and a rub for mothers before childbirth (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

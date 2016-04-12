@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
     <place_of_publication>
       <publication_title>in J. Torrey &amp; A. Gray, Fl. N. Amer.</publication_title>
       <place_in_publication>1: 22. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <weedy>weedy</weedy>
-  <description>Stems erect to reclining, not rooting nodally, hirsute or sometimes pilose or
+    <taxon_hierarchy>genus Ranunculus; species occidentalis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect to reclining, not rooting nodally, hirsute or sometimes pilose or
         glabrous, base not bulbous. Roots never tuberous. Basal leaf blades broadly ovate to
         semicircular or reniform in outline, 3-parted or -foliolate, 1.5-5.3 × 2.2-8 cm, segments
         usually again 1(-2)×-lobed, ultimate segments oblong or elliptic to lanceolate or
@@ -22,9 +25,12 @@
         5-9 mm; achenes 2.6-3.6(-4.8) × 1.8-3(-3.2) mm, glabrous, rarely hispid, margin forming
         narrow rib 0.1-0.2 mm wide; beak persistent, lanceolate to lance-subulate, straight or
         curved, 0.4-2.2 mm.</description>
-  <number_of_infrataxa>Varieties 7</number_of_infrataxa>
-  <global_distribution>w North America</global_distribution>
+  <description type="distribution">w North America</description>
+  <number>9.</number>
+  <discussion>endemic</discussion>
+  <discussion>weedy</discussion>
+  <discussion>Varieties 7</discussion>
   <discussion>The seeds of Ranunculus occidentalis were eaten by some Californian Indians. D. E.
         Moerman (1986) identified this taxon as an Aleut poison: juice of the flowers could be
         slipped into food to poison the person who ate it.</discussion>
-</treatment>
+</bio:treatment>

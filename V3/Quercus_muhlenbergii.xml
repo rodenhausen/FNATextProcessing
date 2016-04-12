@@ -1,74 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>42.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>muhlenbergii</species_name>
-    <species_authority>Engelmann</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann" date="unknown">muhlenbergii</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Acad. Sci. St. Louis</publication_title>
       <place_in_publication>3: 391. 1887</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chinkapin oak</common_name>
-  <common_name>chinquapin oak</common_name>
-  <common_name>yellow chestnut oak</common_name>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>acuminata</species_name>
-    <species_authority>(Michaux) Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>brayi</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>prinus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>acuminata</variety_name>
-    <variety_authority>Michaux</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, moderate to large, to 30 m, occasionally large shrubs (ca. 3 m) on drier sites. Bark gray, thin, flaky to papery. Twigs brownish, 1.5-3(-4) mm diam., sparsely fine-pubescent, soon becoming glabrate, graying in 2d year. Buds brown to red-brown, subrotund to broadly ovoid, 20-40 × (10-)15-25 mm, apex rounded, very sparsely pubescent. Leaves: petiole (7-)10-30(-37) mm. Leaf blade usually obovate, sometimes lanceolate to oblanceolate, (32-)50-150(-210) × (10-)40-80(-106) mm, leathery, base truncate to cuneate, margins regularly undulate, toothed or shallow-lobed, teeth or lobes rounded, or acute-acuminate, often strongly antrorse, secondary veins usually (9-)10-14(-16) on each side, ± parallel, apex short-acute to acuminate or apiculate; surfaces abaxially glaucous or light green, appearing glabrate but with scattered or crowded minute, appressed, symmetric, 6-10-rayed stellate hairs, adaxially lustrous dark green, glabrate. Acorns 1-2, subsessile or on axillary peduncle to 8 mm; cup hemispheric or shallowly cupped, 4-12 mm deep × 8-22 mm wide, enclosing 1/4-1/2 nut, base rounded, margin usually thin, scales closely appressed, moderately to prominently tuberculate, uniformly short gray-pubescent; nut light brown, oblong to ovoid, (13-)15-20(-28) × l0-13(-16) mm. Cotyledons distinct. 2n = 24.</description>
-  <phenology>Flowering late winter-spring</phenology>
-  <habitat>Mixed deciduous forest, woodlands and thickets, sometimes restricted to n slopes and riparian habitats in w parts of range, limestone and calcareous soils, rarely on other substrates</habitat>
-  <elevation>0-2300 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-  <global_distribution>Mexico (Coahuila, Nuevo León, Hidalgo, and Tamaulipas).</global_distribution>
+    <taxon_hierarchy>genus Quercus; species muhlenbergii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Sargent" date="unknown">acuminata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species acuminata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">brayi</taxon_name>
+    <taxon_hierarchy>genus Quercus; species brayi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">prinus</taxon_name>
+    <taxon_name rank="variety" authority="Michaux" date="unknown">acuminata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species prinus; variety acuminata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, moderate to large, to 30 m, occasionally large shrubs (ca. 3 m) on drier sites. Bark gray, thin, flaky to papery. Twigs brownish, 1.5-3(-4) mm diam., sparsely fine-pubescent, soon becoming glabrate, graying in 2d year. Buds brown to red-brown, subrotund to broadly ovoid, 20-40 × (10-)15-25 mm, apex rounded, very sparsely pubescent. Leaves: petiole (7-)10-30(-37) mm. Leaf blade usually obovate, sometimes lanceolate to oblanceolate, (32-)50-150(-210) × (10-)40-80(-106) mm, leathery, base truncate to cuneate, margins regularly undulate, toothed or shallow-lobed, teeth or lobes rounded, or acute-acuminate, often strongly antrorse, secondary veins usually (9-)10-14(-16) on each side, ± parallel, apex short-acute to acuminate or apiculate; surfaces abaxially glaucous or light green, appearing glabrate but with scattered or crowded minute, appressed, symmetric, 6-10-rayed stellate hairs, adaxially lustrous dark green, glabrate. Acorns 1-2, subsessile or on axillary peduncle to 8 mm; cup hemispheric or shallowly cupped, 4-12 mm deep × 8-22 mm wide, enclosing 1/4-1/2 nut, base rounded, margin usually thin, scales closely appressed, moderately to prominently tuberculate, uniformly short gray-pubescent; nut light brown, oblong to ovoid, (13-)15-20(-28) × l0-13(-16) mm. Cotyledons distinct. 2n = 24.</description>
+  <description type="phenology">Flowering late winter-spring</description>
+  <description type="habitat">Mixed deciduous forest, woodlands and thickets, sometimes restricted to n slopes and riparian habitats in w parts of range, limestone and calcareous soils, rarely on other substrates</description>
+  <description type="elevation">0-2300 m</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <description type="distribution">Mexico (Coahuila, Nuevo León, Hidalgo, and Tamaulipas).</description>
+  <number>42.</number>
+  <other_name type="common_name">Chinkapin oak</other_name>
+  <other_name type="common_name">chinquapin oak</other_name>
+  <other_name type="common_name">yellow chestnut oak</other_name>
+  <discussion>illustrated</discussion>
   <discussion>Shrubby forms of Quercus muhlenbergii are difficult to distinguish from Quercus prinoides, but Q. muhlenbergii does not spread clonally or produce acorns on small shrubs as does Q. prinoides. The edaphic preferences of these two species are distinctive, with Q. muhlenbergii never far from limestone substrates and Q. prinoides occurring mostly on dry shales and deep sands. Populations of Q. muhlenbergii from the southwest part of its range, on the Edwards Plateau of Texas and westward, sometimes are segregated as Q. brayi Small, but the variation appears to be clinal with inconsistent differences. Distributed from Hidalgo, Mexico to Maine, Q. muhlenbergii is one of the most widespread species of temperate North American trees.</discussion>
   <discussion>The Delaware-Ontario prepared infusions from the bark of Quercus muhlenbergii to stop vomiting (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

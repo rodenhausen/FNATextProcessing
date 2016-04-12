@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>nudicaule</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">nudicaule</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 507. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Subspecies</genus_name>
-    <species_name>numerous</species_name>
-    <species_authority>(1</species_authority>
+    <taxon_hierarchy>genus Papaver; species nudicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Subspecies</taxon_name>
+    <taxon_name rank="species" authority="(1" date="unknown">numerous</taxon_name>
     <place_of_publication>
       <publication_title>in the flora): boreal North America, Europe, Asia.</publication_title>
     </place_of_publication>
-  </TaxonIdentification>
-</treatment>
+    <taxon_hierarchy>genus Subspecies; species numerous;</taxon_hierarchy>
+  </taxon_identification>
+  <number>5.</number>
+</bio:treatment>

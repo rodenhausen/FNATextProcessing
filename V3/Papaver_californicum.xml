@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>californicum</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">californicum</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>22: 313. 1887</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Western poppy</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>lemmonii</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Plants to 6.5 dm, glabrate or sparsely pilose. Stems simple or branching. Leaves to 15 cm. Inflorescences: peduncle glabrous or sparsely pilose. Flowers: petals light orange or orange-red, with pink-edged, greenish basal spot, to 2.5 cm; anthers yellow; stigmas 4-8(-11), disc conic, usually umbonate. Capsules sessile, ellipsoid to obovoid-turbinate, distinctly ribbed, to 1.8 cm. 2n = 28.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Chaparral and oak woodlands, especially in grassy areas, clearings, burns and other disturbed sites</habitat>
-  <elevation>0-900 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Papaver; species californicum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">lemmonii</taxon_name>
+    <taxon_hierarchy>genus Papaver; species lemmonii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants to 6.5 dm, glabrate or sparsely pilose. Stems simple or branching. Leaves to 15 cm. Inflorescences: peduncle glabrous or sparsely pilose. Flowers: petals light orange or orange-red, with pink-edged, greenish basal spot, to 2.5 cm; anthers yellow; stigmas 4-8(-11), disc conic, usually umbonate. Capsules sessile, ellipsoid to obovoid-turbinate, distinctly ribbed, to 1.8 cm. 2n = 28.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Chaparral and oak woodlands, especially in grassy areas, clearings, burns and other disturbed sites</description>
+  <description type="elevation">0-900 m</description>
+  <description type="distribution">Calif.</description>
+  <number>3.</number>
+  <other_name type="common_name">Western poppy</other_name>
+  <discussion>endemic</discussion>
   <discussion>Papaver californicum grows in central western and southwestern California in the Coast, Transverse, and Peninsular ranges. This is the only caulescent poppy, and the only annual one, native to the flora. In the past it has been included in Papaver sect. Rhoeadium, together with the other annuals that have glabrous capsules and distal leaves not clasping, which are native to Eurasia. Recently, based on differences in filament color, stigmatic disc shape, and capsule dehiscence, J. W. Kadereit (1988b) assigned P. californicum to a new monotypic section and suggested that it originated from the same stock as the perennial, scapose, arctic-alpine poppies (Papaver sect. Meconella).</discussion>
-</treatment>
+</bio:treatment>

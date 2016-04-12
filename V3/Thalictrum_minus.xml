@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>minus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">minus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 546. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>minus</species_name>
-    <subspecies_name>kemense</subspecies_name>
-    <subspecies_authority>(Fries) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>minus</species_name>
-    <variety_name>stipellatum</variety_name>
-    <variety_authority>(C. A. Meyer) Tamura</variety_authority>
-  </TaxonIdentification>
-  <description>Stems erect, nearly cespitose or rhizomatous, 15-150 cm, glabrous or somewhat glandular. Leaves basal, 7-30 cm. Leaf blade 3-4-ternate; leaflets nearly orbiculate or broadly ovate, irregularly 2-3-lobed or margins dentate in distal 1/2, 15-30 mm, surfaces glabrous to glandular. Inflorescences panicles with long branches, many flowered. Flowers: pedicels not recurved in fruit; sepals yellowish green, ovate, 3-4 mm; stamens 10-15; anthers yellowish, 2-3 mm. Achenes 3-15, sessile; body broadly ovoid to narrowly oblong-ovoid, 2.5-4 mm, ± weakly veined.</description>
-  <phenology>Flowering late spring-summer (Jun-Jul)</phenology>
-  <habitat>Steppe meadows, shrub thickets, forest margins, and forest meadows</habitat>
-  <elevation>0-300 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Eurasia.</global_distribution>
+    <taxon_hierarchy>genus Thalictrum; species minus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">minus</taxon_name>
+    <taxon_name rank="subspecies" authority="(Fries) Hultén" date="unknown">kemense</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species minus; subspecies kemense;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">minus</taxon_name>
+    <taxon_name rank="variety" authority="(C. A. Meyer) Tamura" date="unknown">stipellatum</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species minus; variety stipellatum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect, nearly cespitose or rhizomatous, 15-150 cm, glabrous or somewhat glandular. Leaves basal, 7-30 cm. Leaf blade 3-4-ternate; leaflets nearly orbiculate or broadly ovate, irregularly 2-3-lobed or margins dentate in distal 1/2, 15-30 mm, surfaces glabrous to glandular. Inflorescences panicles with long branches, many flowered. Flowers: pedicels not recurved in fruit; sepals yellowish green, ovate, 3-4 mm; stamens 10-15; anthers yellowish, 2-3 mm. Achenes 3-15, sessile; body broadly ovoid to narrowly oblong-ovoid, 2.5-4 mm, ± weakly veined.</description>
+  <description type="phenology">Flowering late spring-summer (Jun-Jul)</description>
+  <description type="habitat">Steppe meadows, shrub thickets, forest margins, and forest meadows</description>
+  <description type="elevation">0-300 m</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Eurasia.</description>
+  <number>2.</number>
+  <discussion>illustrated</discussion>
   <discussion>Thalictrum minus has been reported from mainland Alaska (E. Hultén 1968); we have been able to confirm its occurrence only in the Aleutian Islands.</discussion>
   <discussion>Initially pendent, the flowers become erect. The beak is 0.75-1 mm, much shorter than the achene, and not fimbriate.</discussion>
-</treatment>
+</bio:treatment>

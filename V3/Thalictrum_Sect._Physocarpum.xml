@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Physocarpum</section_name>
-    <section_authority>de Candolle</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="de Candolle" date="unknown">Physocarpum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>1: 171. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <section_name>Physocarpum</section_name>
-    <section_authority>(de Candolle) Berchtold &amp; J. Presl</section_authority>
+    <taxon_hierarchy>genus Thalictrum; section Physocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="(de Candolle) Berchtold &amp; J. Presl" date="unknown">Physocarpum</taxon_name>
     <place_of_publication>
-      <other_info>not Physocarpon Necker ex Rafinesque 1840, not Physocarpus Maximowicz</other_info>
+      <other_info_on_pub>not Physocarpon Necker ex Rafinesque 1840, not Physocarpus Maximowicz</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <section_name>Sumnera</section_name>
-    <section_authority>Nieuwland</section_authority>
-  </TaxonIdentification>
-  <description>Inflorescenes panicles to nearly corymbs. Flowers bisexual; sepals 5; filaments strongly clavate, petaloid. Achenes long-stipitate.</description>
-  <number_of_infrataxa>Species 45 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>temperate regions</global_distribution>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>section Physocarpum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="section" authority="Nieuwland" date="unknown">Sumnera</taxon_name>
+    <taxon_hierarchy>section Sumnera;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescenes panicles to nearly corymbs. Flowers bisexual; sepals 5; filaments strongly clavate, petaloid. Achenes long-stipitate.</description>
+  <description type="distribution">temperate regions</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">e Asia.</description>
+  <number>22c.</number>
+  <discussion>Species 45 (2 in the flora):</discussion>
+</bio:treatment>

@@ -1,84 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nuphar</genus_name>
-    <species_name>variegata</species_name>
-    <species_authority>Durand</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="Durand" date="unknown">variegata</taxon_name>
     <place_of_publication>
       <publication_title>in G. W. Clinton,  Rep. (Annual) Regents Univ. State New York State Cab. Nat. Hist.</publication_title>
       <place_in_publication>19: 73. 1866 (as variegatum)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Grand nénuphar jaune</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nuphar</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>Provancher</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nuphar</genus_name>
-    <species_name>fraterna</species_name>
-    <species_authority>(G. S. Miller &amp; Standley) Standley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nuphar</genus_name>
-    <species_name>lutea</species_name>
-    <species_authority>(Linnaeus) Smith</species_authority>
-    <subspecies_name>variegata</subspecies_name>
-    <subspecies_authority>(Durand) E. O. Beal</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>americana</species_name>
-    <species_authority>(Provancher) G. S. Miller &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>fraterna</species_name>
-    <species_authority>G. S. Miller &amp; Standley</species_authority>
-  </TaxonIdentification>
-  <description>Rhizomes 2.5-7 cm diam. Leaves mostly floating, occasionally submersed; petiole adaxially flattened, with median ridge, winged along margins. Leaf blade abaxially and adaxially green, sometimes abaxially purple-tinged, broadly ovate to oblong, 7-35 5-25 cm, 1.2-1.6 times as long as wide, sinus 1/3-1/2 length of midrib, lobes approximate to overlapping; surfaces glabrous. Flowers 2.5-5 cm diam.; sepals mostly 6, abaxially green to yellow, adaxially usually with red or maroon toward base; petals oblong, thick; anthers 3-9 mm, longer than filaments. Fruit mostly purple-tinged, ovoid, 2-4.3 2-3.5 cm, strongly ribbed, slightly constricted below stigmatic disk; stigmatic disk green, rarely reddened, 8-20 mm diam., entire to deeply crenate; stigmatic rays 7-28, linear to narrowly lanceolate, terminating 0-1(-1.5) mm from margin of disk. Seeds 2.5-5 mm. 2n = 34.</description>
-  <phenology>Flowering late spring-summer</phenology>
-  <habitat>Ponds, lakes, sluggish streams, and ditches</habitat>
-  <elevation>0-2000 m</elevation>
-  <global_distribution>St. Pierre and Miquelon</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>N.B.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>N.S.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>P.E.I.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.Dak.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Nuphar; species variegata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="Provancher" date="unknown">americana</taxon_name>
+    <taxon_hierarchy>genus Nuphar; species americana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="(G. S. Miller &amp; Standley) Standley" date="unknown">fraterna</taxon_name>
+    <taxon_hierarchy>genus Nuphar; species fraterna;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nuphar</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Smith" date="unknown">lutea</taxon_name>
+    <taxon_name rank="subspecies" authority="(Durand) E. O. Beal" date="unknown">variegata</taxon_name>
+    <taxon_hierarchy>genus Nuphar; species lutea; subspecies variegata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="(Provancher) G. S. Miller &amp; Standley" date="unknown">americana</taxon_name>
+    <taxon_hierarchy>genus Nymphaea; species americana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="G. S. Miller &amp; Standley" date="unknown">fraterna</taxon_name>
+    <taxon_hierarchy>genus Nymphaea; species fraterna;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes 2.5-7 cm diam. Leaves mostly floating, occasionally submersed; petiole adaxially flattened, with median ridge, winged along margins. Leaf blade abaxially and adaxially green, sometimes abaxially purple-tinged, broadly ovate to oblong, 7-35 5-25 cm, 1.2-1.6 times as long as wide, sinus 1/3-1/2 length of midrib, lobes approximate to overlapping; surfaces glabrous. Flowers 2.5-5 cm diam.; sepals mostly 6, abaxially green to yellow, adaxially usually with red or maroon toward base; petals oblong, thick; anthers 3-9 mm, longer than filaments. Fruit mostly purple-tinged, ovoid, 2-4.3 2-3.5 cm, strongly ribbed, slightly constricted below stigmatic disk; stigmatic disk green, rarely reddened, 8-20 mm diam., entire to deeply crenate; stigmatic rays 7-28, linear to narrowly lanceolate, terminating 0-1(-1.5) mm from margin of disk. Seeds 2.5-5 mm. 2n = 34.</description>
+  <description type="phenology">Flowering late spring-summer</description>
+  <description type="habitat">Ponds, lakes, sluggish streams, and ditches</description>
+  <description type="elevation">0-2000 m</description>
+  <description type="distribution">St. Pierre and Miquelon</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">N.B.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">N.S.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">P.E.I.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.Dak.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Wis.</description>
+  <number>3.</number>
+  <other_name type="common_name">Grand nénuphar jaune</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Nuphar variegata is distinct throughout most of its range. The leaves are characteristically floating, being emergent only under low-water conditions. Intermediates between N. variegata and N. microphylla, probably of hybrid origin, are treated as N. rubrodisca. Some intergrading of characteristics occurs where the range overlaps with N. advena (E. O. Beal 1956). This can be observed in the mid-Atlantic region. Intermediates between N. variegata and N. polysepala occur in eastern British Columbia where the two species are sympatric. Authorship and typification of this name were discussed by E. G. Voss (1965).</discussion>
-</treatment>
+</bio:treatment>

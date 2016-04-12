@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Urtica</genus_name>
-    <species_name>dioica</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Urtica</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">dioica</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 984. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Stinging nettle</common_name>
-  <common_name>ortie</common_name>
-  <weedy>weedy</weedy>
-  <description>Herbs, perennial, rhizomatous, 5-30 dm. Stems simple or branched, erect or sprawling. Leaf blades elliptic, lanceolate, or narrowly to broadly ovate, 6-20 × 2-13 cm, base rounded to cordate, margins coarsely serrate, sometimes doubly serrate, apex acute or acuminate; cystoliths rounded. Inflorescences paniculate, pedunculate, elongate. Flowers unisexual, staminate and pistillate on same or different plants, staminate ascending, the pistillate lax or recurved. Pistillate flowers: outer tepals linear to narrowly spatulate or lanceolate, 0.8-1.2 mm, inner tepals ovate to broadly ovate, 1.4-1.8 × 1.1-1.3 mm. Achenes ovoid to broadly ovoid, 1-1.3(-1.4) × 0.7-0.9 mm.</description>
-  <number_of_infrataxa>Subspecies 3 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Urtica; species dioica;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, rhizomatous, 5-30 dm. Stems simple or branched, erect or sprawling. Leaf blades elliptic, lanceolate, or narrowly to broadly ovate, 6-20 × 2-13 cm, base rounded to cordate, margins coarsely serrate, sometimes doubly serrate, apex acute or acuminate; cystoliths rounded. Inflorescences paniculate, pedunculate, elongate. Flowers unisexual, staminate and pistillate on same or different plants, staminate ascending, the pistillate lax or recurved. Pistillate flowers: outer tepals linear to narrowly spatulate or lanceolate, 0.8-1.2 mm, inner tepals ovate to broadly ovate, 1.4-1.8 × 1.1-1.3 mm. Achenes ovoid to broadly ovoid, 1-1.3(-1.4) × 0.7-0.9 mm.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Mexico</description>
+  <description type="distribution">Eurasia.</description>
+  <number>1.</number>
+  <other_name type="common_name">Stinging nettle</other_name>
+  <other_name type="common_name">ortie</other_name>
+  <discussion>weedy</discussion>
+  <discussion>Subspecies 3 (3 in the flora):</discussion>
+</bio:treatment>

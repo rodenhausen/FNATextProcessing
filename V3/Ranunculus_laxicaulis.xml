@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>57.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>laxicaulis</species_name>
-    <species_authority>Darby</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Darby" date="unknown">laxicaulis</taxon_name>
     <place_of_publication>
       <publication_title>Man. Bot.</publication_title>
       <place_in_publication>2: 4. 1841</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>mississippiensis</species_name>
-    <species_authority>Small</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>subcordatus</species_name>
-    <species_authority>E. O. Beal</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>texensis</species_name>
-    <species_authority>Engelmann ex Engelmann &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Stems erect or ascending, often rooting at proximal nodes, glabrous or sparsely pilose. Roots not thickened basally, glabrous. Proximal cauline leaf blades ovate to lanceolate or narrowly elliptic, 1.5-5.7 × 0.4-2.4 cm, base cordate to acute, margins finely denticulate or entire, apex broadly rounded to acuminate. Inflorescences: bracts linear to lanceolate or oblanceolate. Flowers: receptacle glabrous; sepals 4-5, spreading or reflexed from base, 2-3 × 1.5-3 mm, glabrous or pubescent; petals 4-6, 2-6 × 1-2 mm; nectary scales glabrous. Heads of achenes hemispheric to ovoid, 2-4 × 2-3 mm; achenes 0.8-1 × 0.8 mm, glabrous; beak deciduous, leaving stump 0.1-0.2 mm.</description>
-  <phenology>Flowering late winter-summer (Mar-Jul)</phenology>
-  <habitat>Around ponds and ditches, in meadows, roadsides, and open woods</habitat>
-  <elevation>0-100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Del.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species laxicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Small" date="unknown">mississippiensis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species mississippiensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="E. O. Beal" date="unknown">subcordatus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species subcordatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Engelmann ex Engelmann &amp; A. Gray" date="unknown">texensis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species texensis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or ascending, often rooting at proximal nodes, glabrous or sparsely pilose. Roots not thickened basally, glabrous. Proximal cauline leaf blades ovate to lanceolate or narrowly elliptic, 1.5-5.7 × 0.4-2.4 cm, base cordate to acute, margins finely denticulate or entire, apex broadly rounded to acuminate. Inflorescences: bracts linear to lanceolate or oblanceolate. Flowers: receptacle glabrous; sepals 4-5, spreading or reflexed from base, 2-3 × 1.5-3 mm, glabrous or pubescent; petals 4-6, 2-6 × 1-2 mm; nectary scales glabrous. Heads of achenes hemispheric to ovoid, 2-4 × 2-3 mm; achenes 0.8-1 × 0.8 mm, glabrous; beak deciduous, leaving stump 0.1-0.2 mm.</description>
+  <description type="phenology">Flowering late winter-summer (Mar-Jul)</description>
+  <description type="habitat">Around ponds and ditches, in meadows, roadsides, and open woods</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Del.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Va.</description>
+  <number>57.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

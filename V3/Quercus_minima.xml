@@ -1,51 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>89.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>minima</species_name>
-    <species_authority>(Sargent) Small</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="(Sargent) Small" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>24: 438. 1897</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Minimal oak</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>virginiana</species_name>
-    <species_authority>Miller</species_authority>
-    <variety_name>minima</variety_name>
-    <variety_authority>Sargent</variety_authority>
+    <taxon_hierarchy>genus Quercus; species minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="Sargent" date="unknown">minima</taxon_name>
     <place_of_publication>
       <publication_title>Silva</publication_title>
       <place_in_publication>8: 101. 1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>virens</species_name>
-    <variety_name>dentata</variety_name>
-    <variety_authority>Chapman</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>virginiana</species_name>
-    <variety_name>dentata</variety_name>
-    <variety_authority>(Chapman) Sargent</variety_authority>
-  </TaxonIdentification>
-  <description>Shrubs, subevergreen or evergreen, low, rhizomatous, forming clonal patches of straight, often unbranched stems 0.2-0.7(-2) m. Bark light gray or brown, smooth. Twigs light gray, 1.5-3 mm diam., glabrous or very finely tomentulose and glabrate in 2d year. Buds dark gray-brown, globose, 0.5-1(-1.5) mm; scale margins glabrous or puberulent. Leaves dimorphic; petiole 1-4(-10) mm. Leaf blade obovate to oblanceolate, sometimes orbiculate or lance-ovate, often asymmetric, 40-120 × 20-50 mm proximally on shoots, narrowly elliptic, 20-60 × 5-20 mm distally on shoots, base cuneate, rarely truncate or cordate, margins minutely revolute or flat, coarsely and irregularly 1-5 toothed on each side (proximal leaves of shoots) or entire (distal leaves on shoots), teeth mucronate (rarely spinose in suckers or juveniles), secondary veins obscure, 4-10(-12) on each side, usually 4-6 in proximal leaves, apex obtuse-rounded or acute; surfaces abaxially whitish or glaucous, densely covered with minute, appressed, fused-stellate hairs, light green and glabrate in shade leaves, adaxially dark or light green, glossy, glabrous or with minute, scattered, stellate hairs. Acorns 1-3, on peduncle 3-30 mm; cup hemispheric or deeply goblet-shaped, (8-)10-15 mm deep × 6-15 mm wide, base often constricted, scales whitish or grayish, thickened basally, keeled, acute-attenuate, tomentulose, tips reddish, glabrous or puberulent; nut dark brown, narrowly ovoid or subcylindric, 13-22(-25) × 8-15 mm, glabrous. Cotyledons connate.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Coastal plain, open evergreen woodlands and scrublands on deep sandy soils, often as understory with pines</habitat>
-  <elevation>0-200 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species virginiana; variety minima;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virens</taxon_name>
+    <taxon_name rank="variety" authority="Chapman" date="unknown">dentata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species virens; variety dentata;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">virginiana</taxon_name>
+    <taxon_name rank="variety" authority="(Chapman) Sargent" date="unknown">dentata</taxon_name>
+    <taxon_hierarchy>genus Quercus; species virginiana; variety dentata;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs, subevergreen or evergreen, low, rhizomatous, forming clonal patches of straight, often unbranched stems 0.2-0.7(-2) m. Bark light gray or brown, smooth. Twigs light gray, 1.5-3 mm diam., glabrous or very finely tomentulose and glabrate in 2d year. Buds dark gray-brown, globose, 0.5-1(-1.5) mm; scale margins glabrous or puberulent. Leaves dimorphic; petiole 1-4(-10) mm. Leaf blade obovate to oblanceolate, sometimes orbiculate or lance-ovate, often asymmetric, 40-120 × 20-50 mm proximally on shoots, narrowly elliptic, 20-60 × 5-20 mm distally on shoots, base cuneate, rarely truncate or cordate, margins minutely revolute or flat, coarsely and irregularly 1-5 toothed on each side (proximal leaves of shoots) or entire (distal leaves on shoots), teeth mucronate (rarely spinose in suckers or juveniles), secondary veins obscure, 4-10(-12) on each side, usually 4-6 in proximal leaves, apex obtuse-rounded or acute; surfaces abaxially whitish or glaucous, densely covered with minute, appressed, fused-stellate hairs, light green and glabrate in shade leaves, adaxially dark or light green, glossy, glabrous or with minute, scattered, stellate hairs. Acorns 1-3, on peduncle 3-30 mm; cup hemispheric or deeply goblet-shaped, (8-)10-15 mm deep × 6-15 mm wide, base often constricted, scales whitish or grayish, thickened basally, keeled, acute-attenuate, tomentulose, tips reddish, glabrous or puberulent; nut dark brown, narrowly ovoid or subcylindric, 13-22(-25) × 8-15 mm, glabrous. Cotyledons connate.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Coastal plain, open evergreen woodlands and scrublands on deep sandy soils, often as understory with pines</description>
+  <description type="elevation">0-200 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">S.C.</description>
+  <number>89.</number>
+  <other_name type="common_name">Minimal oak</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Quercus minima is one of the most distinctive oaks of southeastern United States in morphology, habit, and habitat. It is one of our most strongly rhizomatous species, and it flowers and fruits as early as three years from seed, on vertical stems as small as 0.2-0.3 m. Other related live oaks of Quercus series Virentes (see C. H. Muller 1961) can produce rhizomatous clonal patches as well, but these typically do not bear fruit, are usually associated with large shrub or tree forms, and probably represent response to fire and/or drought conditions. Because of the juvenile phases in other live oaks that may resemble Q. minima, it is necessary to evaluate form and reproductive capacity within populations to identify those species accurately.</discussion>
   <discussion>Putative hybrid swarms between Quercus minima and Q. chapmanii occur along the eastern side of Florida. These are rhizomatous shrubs with leaves somewhat intermediate between the two parents. The leaves are broadly rounded apically and basally, and sparsely stellate abaxially. The fruit resembles that of Q. minima. Material of such affinity, but with larger nuts (to 25 mm), was the basis for Q. rolfsii Small. More data on variation in cotyledon fusion in the putative hybrid swarms would be useful because Q. minima has connate cotyledons and those of Q. chapmanii are distinct.</discussion>
   <discussion>Quercus minima has been reported from coastal Texas (C. H. Muller 1970), but that material is probably best referred to Q. fusiformis and possible introgressants from Q. virginiana and Q. oleoides. Typical Q. minima is not known from west of Mississippi. The Texas populations that have been referred here lack leaf dimorphism, leaf shape, and venation of Q. minima. Instead, they seem to be part of an extremely variable complex of erect shrubs, rhizomatous shrubs, and trees that have leaves varying in form between those of Q. fusiformis and Q. oleoides (e.g., the type of Q. oleoides var. quaterna C. H. Muller). If Q. minima occurred on the Texas coast in the past, its presence there has been so diluted by introgression that it is not now recognizable by the very distinctive and reliable characteristics that are used to identify it.</discussion>
-</treatment>
+</bio:treatment>

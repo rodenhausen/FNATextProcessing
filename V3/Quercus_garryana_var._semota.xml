@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>60c.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>garryana</species_name>
-    <species_authority>Douglas ex Hooker</species_authority>
-    <variety_name>semota</variety_name>
-    <variety_authority>Jepson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Douglas ex Hooker" date="unknown">garryana</taxon_name>
+    <taxon_name rank="variety" authority="Jepson" date="unknown">semota</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Calif.</publication_title>
       <place_in_publication>1(2): 354. 1909</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>oerstediana</species_name>
-    <species_authority>R. Brown ter</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or small multitrunked trees, spreading and clonal, to 1-5 m. Twigs reddish brown or tan, sparsely puberulent, without spreading hairs. Buds brown or light or brown, ovoid, 2-5 mm, sparsely glandular-puberulent. Leaf blade abaxially light or yellowish green, waxy, not conspicuously velvety, but sometimes tightly felty, sparsely to densely covered with semi-erect 6-8-rayed hairs 0.1-0.3 mm.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Dry slopes in open montane conifer forests and chaparral</habitat>
-  <elevation>1250-1800 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species garryana; variety semota;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="R. Brown ter" date="unknown">oerstediana</taxon_name>
+    <taxon_hierarchy>genus Quercus; species oerstediana;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs or small multitrunked trees, spreading and clonal, to 1-5 m. Twigs reddish brown or tan, sparsely puberulent, without spreading hairs. Buds brown or light or brown, ovoid, 2-5 mm, sparsely glandular-puberulent. Leaf blade abaxially light or yellowish green, waxy, not conspicuously velvety, but sometimes tightly felty, sparsely to densely covered with semi-erect 6-8-rayed hairs 0.1-0.3 mm.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Dry slopes in open montane conifer forests and chaparral</description>
+  <description type="elevation">1250-1800 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Oreg.</description>
+  <number>60c.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Quercus garryana var. semota is common on the west slope of the Sierra Nevada and north slope of the Tehachapi Mountains. Its northern limit appears to be on dry volcanics in southern Oregon. The fruit of this variety is often rather large, falling in the range of that seen in Q. garryana var. garryana. Some material with elongate-oblong acorns suggests introgression from Q. lobata may occur in isolated localities at the lower reaches of Q. garryana var. semota and higher limits of Q. lobata.</discussion>
-</treatment>
+</bio:treatment>

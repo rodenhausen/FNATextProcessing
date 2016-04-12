@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2g.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Coptidium</subgenus_name>
-    <subgenus_authority>(Nyman) L. D. Benson</subgenus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Nyman) L. D. Benson" date="unknown">Coptidium</taxon_name>
     <place_of_publication>
       <publication_title>Amer. J. Bot.</publication_title>
       <place_in_publication>27: 807. 1940</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <subgenus_name>Ranunculus</subgenus_name>
-    <subgenus_authority>V. Coptidium Nyman</subgenus_authority>
+    <taxon_hierarchy>genus Ranunculus; subgenus Coptidium;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="V. Coptidium Nyman" date="unknown">Ranunculus</taxon_name>
     <place_of_publication>
       <publication_title>Consp. Fl. Eur.</publication_title>
       <place_in_publication>1: 13. 1878</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Plants glabrous. Stems creeping, not bulbous-based, without bulbils. Roots nodal, never tuberous. Leaves cauline, simple, petiolate; blade deeply 3-parted to base, as wide as long, segments toothed or shallowly lobed. Inflorescences axillary, solitary flowers. Flowers pedicellate (pedicels naked, rarely leafy); sepals deciduous soon after anthesis, 3; petals 5-8, yellow; nectary scale attached on 3 sides, forming pocket, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body oblong-lenticular, 1.9-2.6 times as wide as thick, prolonged beyond seed as corky distal appendage; wall thick, smooth; margin low corky band; beak much shorter than achene body.</description>
-  <number_of_infrataxa>Species 1 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>subgenus Ranunculus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants glabrous. Stems creeping, not bulbous-based, without bulbils. Roots nodal, never tuberous. Leaves cauline, simple, petiolate; blade deeply 3-parted to base, as wide as long, segments toothed or shallowly lobed. Inflorescences axillary, solitary flowers. Flowers pedicellate (pedicels naked, rarely leafy); sepals deciduous soon after anthesis, 3; petals 5-8, yellow; nectary scale attached on 3 sides, forming pocket, glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body oblong-lenticular, 1.9-2.6 times as wide as thick, prolonged beyond seed as corky distal appendage; wall thick, smooth; margin low corky band; beak much shorter than achene body.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Eurasia.</description>
+  <number>2g.</number>
+  <discussion>Species 1 (1 in the flora):</discussion>
+</bio:treatment>

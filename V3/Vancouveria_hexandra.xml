@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Vancouveria</genus_name>
-    <species_name>hexandra</species_name>
-    <species_authority>(Hooker) C. Morren &amp; Decaisne</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Vancouveria</taxon_name>
+    <taxon_name rank="species" authority="(Hooker) C. Morren &amp; Decaisne" date="unknown">hexandra</taxon_name>
     <place_of_publication>
       <publication_title>Ann. Sci. Nat., Bot., sér.</publication_title>
       <place_in_publication>2, 2: 351. 1833</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Northern inside-out flower</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Epimedium</genus_name>
-    <species_name>hexandrum</species_name>
-    <species_authority>Hooker</species_authority>
+    <taxon_hierarchy>genus Vancouveria; species hexandra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Epimedium</taxon_name>
+    <taxon_name rank="species" authority="Hooker" date="unknown">hexandrum</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Bor.-Amer.</publication_title>
       <place_in_publication>1: 30. 1829</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Leaves falling when fruits maturing, 2-3-ternately compound, 8-30 cm; petiole 3-25 cm, pilose at base. Leaflet blades narrowly to broadly ovate to rhomboid or rounded pentagonal, often 3-lobed, base cordate, margins entire to slightly sinuate and not conspicuously thickened, apex rounded to notched; surfaces abaxially sparsely hairy, adaxially glabrous. Inflorescences: peduncle 2-3 dm; pedicel 1-3 cm, glands absent. Flowers 5-30; bracteoles 6-9, white, yellowish when dried, dotted with glandular trichomes; sepals 6, white, 5-12 mm; petals 6, white, yellowish when dried, 4-6 mm, margins entire, petal apex strongly reflexed, with nectar-bearing pocket, nectaries golden; filaments stipitate-glandular. Follicles greenish to light brown, 10-15 mm including beak, beak 2-3 mm, stipitate-glandular. Seeds 1-6, black, lunate to reniform, 3 mm. 2n = 12.</description>
-  <phenology>Flowering and fruiting spring-summer (May-Jul)</phenology>
-  <habitat>Redwood and Douglas-fir forests, deep shade</habitat>
-  <elevation>100-1700 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Wash.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Epimedium; species hexandrum;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Leaves falling when fruits maturing, 2-3-ternately compound, 8-30 cm; petiole 3-25 cm, pilose at base. Leaflet blades narrowly to broadly ovate to rhomboid or rounded pentagonal, often 3-lobed, base cordate, margins entire to slightly sinuate and not conspicuously thickened, apex rounded to notched; surfaces abaxially sparsely hairy, adaxially glabrous. Inflorescences: peduncle 2-3 dm; pedicel 1-3 cm, glands absent. Flowers 5-30; bracteoles 6-9, white, yellowish when dried, dotted with glandular trichomes; sepals 6, white, 5-12 mm; petals 6, white, yellowish when dried, 4-6 mm, margins entire, petal apex strongly reflexed, with nectar-bearing pocket, nectaries golden; filaments stipitate-glandular. Follicles greenish to light brown, 10-15 mm including beak, beak 2-3 mm, stipitate-glandular. Seeds 1-6, black, lunate to reniform, 3 mm. 2n = 12.</description>
+  <description type="phenology">Flowering and fruiting spring-summer (May-Jul)</description>
+  <description type="habitat">Redwood and Douglas-fir forests, deep shade</description>
+  <description type="elevation">100-1700 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Wash.</description>
+  <number>1.</number>
+  <other_name type="common_name">Northern inside-out flower</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

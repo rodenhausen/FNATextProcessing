@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Leucocoma</section_name>
-    <section_authority>(Greene) B. Boivin</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="(Greene) B. Boivin" date="unknown">Leucocoma</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>46: 469. 1944</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thalictrum</genus_name>
-    <unranked_epithet_name>Leucocoma</unranked_epithet_name>
-    <unranked_epithet_authority>Greene</unranked_epithet_authority>
+    <taxon_hierarchy>genus Thalictrum; section Leucocoma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="unranked" authority="Greene" date="unknown">Leucocoma</taxon_name>
     <place_of_publication>
       <publication_title>Leafl. W. Bot.</publication_title>
       <place_in_publication>2: 54-55. 1910</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <section_name>Leucocoma</section_name>
-    <section_authority>(Greene) Nieuwland 1914</section_authority>
+    <taxon_hierarchy>genus Thalictrum; unranked Leucocoma;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="section" authority="(Greene) Nieuwland 1914" date="unknown">Leucocoma</taxon_name>
     <place_of_publication>
-      <other_info>not Leucocoma Rydberg 1917</other_info>
+      <other_info_on_pub>not Leucocoma Rydberg 1917</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Inflorescences panicles, racemes, or corymbs. Flowers bisexual and/or unisexual; sepals 4-6; filaments filiform to clavate. Achenes sessile to stipitate.</description>
-  <number_of_infrataxa>Species 5 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>North America.</global_distribution>
-</treatment>
+    <taxon_hierarchy>section Leucocoma;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescences panicles, racemes, or corymbs. Flowers bisexual and/or unisexual; sepals 4-6; filaments filiform to clavate. Achenes sessile to stipitate.</description>
+  <description type="distribution">North America.</description>
+  <number>22f.</number>
+  <discussion>Species 5 (5 in the flora):</discussion>
+</bio:treatment>

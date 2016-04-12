@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9f.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>hexasepalus</variety_name>
-    <variety_authority>L. D. Benson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="L. D. Benson" date="unknown">hexasepalus</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>68: 167. 1941</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>hexasepalus</species_name>
-    <species_authority>(L. D. Benson) L. D. Benson</species_authority>
-  </TaxonIdentification>
-  <description>Stems erect or spreading, 2-6 mm thick, hirsute or strigose, at least distally. Basal leaf blades 3-parted, ultimate segments elliptic or narrowly elliptic, margins dentate. Flowers: sepals 5-6, 4-5 mm; petals 8-14, 9-13 × 3-7 mm. Achenes 2.6-3 × 2.2-3 mm, glabrous; beak lanceolate, curved, at least distally, 1.2-1.6 mm.</description>
-  <phenology>Flowering summer</phenology>
-  <habitat>Open areas near coast</habitat>
-  <elevation>0 m</elevation>
-  <ca_distribution>B.C.</ca_distribution>
+    <taxon_hierarchy>genus Ranunculus; species occidentalis; variety hexasepalus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="(L. D. Benson) L. D. Benson" date="unknown">hexasepalus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species hexasepalus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or spreading, 2-6 mm thick, hirsute or strigose, at least distally. Basal leaf blades 3-parted, ultimate segments elliptic or narrowly elliptic, margins dentate. Flowers: sepals 5-6, 4-5 mm; petals 8-14, 9-13 × 3-7 mm. Achenes 2.6-3 × 2.2-3 mm, glabrous; beak lanceolate, curved, at least distally, 1.2-1.6 mm.</description>
+  <description type="phenology">Flowering summer</description>
+  <description type="habitat">Open areas near coast</description>
+  <description type="elevation">0 m</description>
+  <description type="distribution">B.C.</description>
+  <number>9f.</number>
+  <discussion>endemic</discussion>
   <discussion>Ranunculus occidentalis var. hexasepalus is endemic to the Queen Charlotte Islands.</discussion>
-</treatment>
+</bio:treatment>

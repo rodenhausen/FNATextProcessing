@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Cyrtorhyncha</subgenus_name>
-    <subgenus_authority>(Nuttall) A. Gray in A. Gray et al.</subgenus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="subgenus" authority="(Nuttall) A. Gray in A. Gray et al." date="unknown">Cyrtorhyncha</taxon_name>
     <place_of_publication>
       <publication_title>Syn. Fl. N. Amer.</publication_title>
       <place_in_publication>1: 23. 1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <subgenus_name>Cyrtorhyncha</subgenus_name>
-    <subgenus_authority>Nuttall</subgenus_authority>
+    <taxon_hierarchy>genus Ranunculus; subgenus Cyrtorhyncha;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="subgenus" authority="Nuttall" date="unknown">Cyrtorhyncha</taxon_name>
     <place_of_publication>
       <publication_title>in J. Torrey and A. Gray, Fl. N. Amer.</publication_title>
       <place_in_publication>1: 26. 1838</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-</treatment>
+    <taxon_hierarchy>subgenus Cyrtorhyncha;</taxon_hierarchy>
+  </taxon_identification>
+  <number>2b.</number>
+</bio:treatment>

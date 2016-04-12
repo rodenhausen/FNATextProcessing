@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22e.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Heterogamia</section_name>
-    <section_authority>(de Candolle) B. Boivin</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="(de Candolle) B. Boivin" date="unknown">Heterogamia</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>46: 432. 1944</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Thalictrum</genus_name>
-    <unranked_epithet_name>Heterogamia</unranked_epithet_name>
-    <unranked_epithet_authority>de Candolle</unranked_epithet_authority>
+    <taxon_hierarchy>genus Thalictrum; section Heterogamia;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="unranked" authority="de Candolle" date="unknown">Heterogamia</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>1: 172. 1817 (as Heterogama)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Inflorescences panicles, racemes, or corymbs. Flowers unisexual (rarely also bisexual in T. debile and T. fendleri); sepals 4(-6); filaments filiform (to slightly clavate in T. heliophilum). Achenes sessile to nearly sessile.</description>
-  <number_of_infrataxa>Species 25 (11 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Thalictrum; unranked Heterogamia;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescences panicles, racemes, or corymbs. Flowers unisexual (rarely also bisexual in T. debile and T. fendleri); sepals 4(-6); filaments filiform (to slightly clavate in T. heliophilum). Achenes sessile to nearly sessile.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Mexico.</description>
+  <number>22e.</number>
+  <discussion>Species 25 (11 in the flora):</discussion>
+</bio:treatment>

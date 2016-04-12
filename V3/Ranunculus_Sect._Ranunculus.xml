@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="subgenus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="section" authority="(Spach) L. D. Benson" date="unknown">Ranunculus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; subgenus Ranunculus; section Ranunculus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="section" authority="unknown" date="unknown">Chrysanthe</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; section Chrysanthe;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants usually ± hispid, sometimes glabrous. Stems erect to decumbent, sometimes stoloniferous, sometimes bulbous-based, without bulbils. Roots basal, sometimes also nodal, sometimes tuberous. Leaves basal and cauline, petiolate; basal deeply parted or compound (except sometimes in R. orthorhynchus var. bloomeri), blades with segments lobed or parted, margins toothed; cauline deeply parted or compound, similar to basal or with shorter petioles and/or blades with narrower segments (rarely poorly developed in R. fascicularis). Inflorescences 1-50-flowered cymes. Flowers pedicellate; sepals deciduous soon after anthesis, 5 (sometimes 6 in R. occidentalis var. hexasepalus); petals always present, yellow, sometimes abaxially reddish, rarely poorly developed; nectary scale attached basally, free from petal for at least 1/2 its length, forming flap covering nectary (or sometimes attached on 3 sides, forming pocket in R. recurvatus), glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body discoid, strongly flattened, 3-15 times as wide as thick, not prolonged beyond seed; wall thick, not ornamented; margin low or high narrow ridge or wing; beak much shorter than achene body.</description>
+  <description type="distribution">worldwide except lowland tropics.</description>
   <number>2a.1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <subgenus_name>Ranunculus</subgenus_name>
-    <section_name>Ranunculus</section_name>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <section_name>Chrysanthe</section_name>
-    <section_authority>(Spach) L. D. Benson</section_authority>
-  </TaxonIdentification>
-  <description>Plants usually ± hispid, sometimes glabrous. Stems erect to decumbent, sometimes stoloniferous, sometimes bulbous-based, without bulbils. Roots basal, sometimes also nodal, sometimes tuberous. Leaves basal and cauline, petiolate; basal deeply parted or compound (except sometimes in R. orthorhynchus var. bloomeri), blades with segments lobed or parted, margins toothed; cauline deeply parted or compound, similar to basal or with shorter petioles and/or blades with narrower segments (rarely poorly developed in R. fascicularis). Inflorescences 1-50-flowered cymes. Flowers pedicellate; sepals deciduous soon after anthesis, 5 (sometimes 6 in R. occidentalis var. hexasepalus); petals always present, yellow, sometimes abaxially reddish, rarely poorly developed; nectary scale attached basally, free from petal for at least 1/2 its length, forming flap covering nectary (or sometimes attached on 3 sides, forming pocket in R. recurvatus), glabrous, free margin entire; style present. Fruits achenes, 1-locular; achene body discoid, strongly flattened, 3-15 times as wide as thick, not prolonged beyond seed; wall thick, not ornamented; margin low or high narrow ridge or wing; beak much shorter than achene body.</description>
-  <number_of_infrataxa>Species ca. 100 (19 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide except lowland tropics.</global_distribution>
-</treatment>
+  <discussion>Species ca. 100 (19 in the flora):</discussion>
+</bio:treatment>

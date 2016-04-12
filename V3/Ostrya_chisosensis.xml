@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ostrya</genus_name>
-    <species_name>chisosensis</species_name>
-    <species_authority>Correll</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ostrya</taxon_name>
+    <taxon_name rank="species" authority="Correll" date="unknown">chisosensis</taxon_name>
     <place_of_publication>
       <publication_title>Wrightia</publication_title>
       <place_in_publication>3: 128. 1965</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Chisos hop-hornbeam</common_name>
-  <common_name>Big Bend hop-hornbeam</common_name>
-  <conservation>of conservation concern</conservation>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ostrya</genus_name>
-    <species_name>knowltonii</species_name>
-    <species_authority>Coville</species_authority>
-    <subspecies_name>chisosensis</subspecies_name>
-    <subspecies_authority>(Correll) E. Murray</subspecies_authority>
-  </TaxonIdentification>
-  <description>Trees, to 12 m; crowns open, cylindric. Bark brownish gray, broken into narrow vertical strips. Twigs sparsely to moderately pubescent, without stipitate glands. Leaves: petiole glabrous or pubescent, without stipitate glands. Leaf blade broadly elliptic to elliptic-lanceolate, 3.5--5 × 2--3 cm, base narrowly rounded to cordate or cuneate, margins finely doubly serrate, apex obtuse to acute; surfaces abaxially sparsely pubescent, especially along veins. Inflorescences: staminate catkins 3--4 cm; pistillate catkins 0.8--1.5 cm. Infructescences 2--4 × 1.5--2.5 cm; bracts 1--1.8 × 0.5--1 cm.</description>
-  <phenology>Flowering late spring</phenology>
-  <habitat>Streamsides and moist slopes in canyons</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>1500--2300 m</elevation>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Ostrya; species chisosensis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ostrya</taxon_name>
+    <taxon_name rank="species" authority="Coville" date="unknown">knowltonii</taxon_name>
+    <taxon_name rank="subspecies" authority="(Correll) E. Murray" date="unknown">chisosensis</taxon_name>
+    <taxon_hierarchy>genus Ostrya; species knowltonii; subspecies chisosensis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 12 m; crowns open, cylindric. Bark brownish gray, broken into narrow vertical strips. Twigs sparsely to moderately pubescent, without stipitate glands. Leaves: petiole glabrous or pubescent, without stipitate glands. Leaf blade broadly elliptic to elliptic-lanceolate, 3.5--5 × 2--3 cm, base narrowly rounded to cordate or cuneate, margins finely doubly serrate, apex obtuse to acute; surfaces abaxially sparsely pubescent, especially along veins. Inflorescences: staminate catkins 3--4 cm; pistillate catkins 0.8--1.5 cm. Infructescences 2--4 × 1.5--2.5 cm; bracts 1--1.8 × 0.5--1 cm.</description>
+  <description type="phenology">Flowering late spring</description>
+  <description type="habitat">Streamsides and moist slopes in canyons</description>
+  <description type="elevation">1500--2300 m</description>
+  <description type="distribution">Tex.</description>
+  <number>3.</number>
+  <other_name type="common_name">Chisos hop-hornbeam</other_name>
+  <other_name type="common_name">Big Bend hop-hornbeam</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Ostrya chisosensis is endemic to Big Bend National Park, Texas. It appears to be related to O. knowltonii and to populations of hop-hornbeams in the mountains of western Mexico; the complex has not been studied in detail.</discussion>
-</treatment>
+</bio:treatment>

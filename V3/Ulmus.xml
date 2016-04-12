@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>ULMUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">ULMUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 225. 175</place_in_publication>
@@ -12,15 +16,17 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 106. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Elm</common_name>
-  <common_name>orme</common_name>
-  <etymology>[Latin ulmus, elm]</etymology>
-  <description>Trees, less often shrubs, to 35 m; crowns variable. Bark gray, brown, or olive to reddish, tan, or orange, deeply furrowed, sometimes with plates (smooth when young in Ulmus glabra). Branches unarmed, slender to stout, some with corky wings; twigs glabrous to pubescent. Leaves sometimes tardily deciduous; stipules falling early. Leaf blade ovate to obovate or elliptic, base usually oblique, sometimes cordate or rounded to cuneate, margins serrate to doubly serrate; venation pinnate. Inflorescences fascicles, racemes, or cymes, pedunculate or subsessile, subtended by 2 bracts. Flowers on branches of previous season, appearing in spring before leaves or in fall, bisexual, pedicellate or sessile; calyx 3-9-lobed; stamens 3-9; styles persistent, deeply 2-lobed. Fruits samaras, usually flattened, membranously winged. x = 14.</description>
-  <number_of_infrataxa>Species 20-40 (10 in the flora):</number_of_infrataxa>
-  <global_distribution>temperate regions</global_distribution>
-  <global_distribution>Northern Hemisphere</global_distribution>
-  <global_distribution>most in Eurasia.</global_distribution>
+    <taxon_hierarchy>genus ULMUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin ulmus, elm]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Trees, less often shrubs, to 35 m; crowns variable. Bark gray, brown, or olive to reddish, tan, or orange, deeply furrowed, sometimes with plates (smooth when young in Ulmus glabra). Branches unarmed, slender to stout, some with corky wings; twigs glabrous to pubescent. Leaves sometimes tardily deciduous; stipules falling early. Leaf blade ovate to obovate or elliptic, base usually oblique, sometimes cordate or rounded to cuneate, margins serrate to doubly serrate; venation pinnate. Inflorescences fascicles, racemes, or cymes, pedunculate or subsessile, subtended by 2 bracts. Flowers on branches of previous season, appearing in spring before leaves or in fall, bisexual, pedicellate or sessile; calyx 3-9-lobed; stamens 3-9; styles persistent, deeply 2-lobed. Fruits samaras, usually flattened, membranously winged. x = 14.</description>
+  <description type="distribution">temperate regions</description>
+  <description type="distribution">Northern Hemisphere</description>
+  <description type="distribution">most in Eurasia.</description>
+  <number>1.</number>
+  <other_name type="common_name">Elm</other_name>
+  <other_name type="common_name">orme</other_name>
+  <discussion>Species 20-40 (10 in the flora):</discussion>
   <discussion>A recent chloroplast DNA study (S. J. Wiegrefe et al. 1994) has led to the proposal of a new subgeneric and sectional classification of elms. The chloroplast DNA data are supported by morphologic, chemical, and nuclear ribosomal DNA evidence and indicate that the "rock" or hard elms (Ulmus serotina, U. thomasii, U. crassifolia, and U. alata) are more closely related than indicated by previous subgeneric treatments (C. K. Schneider 1916; I. A. Grudzinskaya 1980).</discussion>
   <discussion>Most identification manuals include the introduced species, Ulmus glabra, U. procera, and U. parvifolia, and indicate that they are frequently naturalized. That may we. Available herbarium specimens are often inadequately labeled or do not reflect current occurrences. Ease of naturalization can be neither corroborated nor disproved. I include the three species in this treatment because they are known to persist and sometimes naturalize locally where the species have been planted. Extensive field work and collection of U. glabra and U. procera are needed to document their naturalized distributions. Ulmus parvifolia has been widely planted in groves and hedgerows in the Midwest and might well be expected to have become naturalized in more rural settings (S. Shetler, pers. comm., 1995).</discussion>
   <discussion>Street and field elms throughout much of North America have been killed by Dutch elm disease. The pathogen responsible for the disease is Ceratocystis ulmi, a fungus native to Europe that was first discovered in North America in Colorado in the 1930s. Since the rapid spread of the disease in the 1960s, much research has been devoted to development of disease-resistant elms (R. J. Stipes and R. J. Campana 1981). Various hybridization projects, including cloning of disease-resistant elms by the American Research Institute, have been started across the country. Ulmus parvifolia and U. pumila have varying degrees of disease resistance and are utilized as shade trees or in breeding programs (see U. pumila below). Apparently Dutch elm disease also affects U. parviflora, U. glabra, and U. procera; certainly the latter two species are more common as seedlings than as trees.</discussion>
@@ -33,4 +39,4 @@
     <reference>Sherman, S. L. and D. E. Giannasi. 1988. Foliar flavonoids of Ulmus in eastern North America. Biochem. Syst. &amp; Ecol. 16: 51-56.</reference>
     <reference>Stockmarr, J. 1974. SEM studies on pollen grains of North European Ulmus species. Grana 14: 103-107.</reference>
   </references>
-</treatment>
+</bio:treatment>

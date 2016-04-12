@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>4.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>clavatum</species_name>
-    <species_authority>de Candolle</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="de Candolle" date="unknown">clavatum</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>1: 171. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mountain meadow-rue</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>filipes</species_name>
-    <species_authority>Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Thalictrum</genus_name>
-    <species_name>nudicaule</species_name>
-    <species_authority>Schweinitz ex Torrey &amp; A. Gray</species_authority>
-  </TaxonIdentification>
-  <description>Roots few, blackish, filiform or somewhat tuberous. Stems erect, not scapose, 15-50(-60) cm, glabrous. Leaves basal and cauline; proximal cauline leaves petiolate, 2-3×-ternately compound; distal cauline leaves sessile or short-petiolate, 2×-ternately compound or simple. Leaf blade: leaflets reniform to obovate, apically 4-7-lobed, 10-30 mm wide, lobe margins crenate, surfaces abaxially glaucous. Inflorescences panicles or nearly corymbs, few flowered. Flowers: pedicels very slender, elongate; sepals white, obovate-spatulate, 2.5-4 mm; filaments white, 2.5-4 mm; anthers 0.3-0.5 mm. Achenes 3-8, spreading; stipe 1-3(-4) mm, usually ± 1/2 as long (sometimes nearly as long) as achene body; body flat, falcate, 3-5 mm, abaxially convex, adaxially concave, conspicuously 3-veined on each face; beak minute.</description>
-  <phenology>Flowering spring-summer (May-Jul)</phenology>
-  <habitat>Rich moist woods, cliffs, seepage slopes, and mountain streams in mountains and piedmont</habitat>
-  <elevation>500 m</elevation>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Thalictrum; species clavatum;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="Torrey &amp; A. Gray" date="unknown">filipes</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species filipes;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="species" authority="Schweinitz ex Torrey &amp; A. Gray" date="unknown">nudicaule</taxon_name>
+    <taxon_hierarchy>genus Thalictrum; species nudicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Roots few, blackish, filiform or somewhat tuberous. Stems erect, not scapose, 15-50(-60) cm, glabrous. Leaves basal and cauline; proximal cauline leaves petiolate, 2-3×-ternately compound; distal cauline leaves sessile or short-petiolate, 2×-ternately compound or simple. Leaf blade: leaflets reniform to obovate, apically 4-7-lobed, 10-30 mm wide, lobe margins crenate, surfaces abaxially glaucous. Inflorescences panicles or nearly corymbs, few flowered. Flowers: pedicels very slender, elongate; sepals white, obovate-spatulate, 2.5-4 mm; filaments white, 2.5-4 mm; anthers 0.3-0.5 mm. Achenes 3-8, spreading; stipe 1-3(-4) mm, usually ± 1/2 as long (sometimes nearly as long) as achene body; body flat, falcate, 3-5 mm, abaxially convex, adaxially concave, conspicuously 3-veined on each face; beak minute.</description>
+  <description type="phenology">Flowering spring-summer (May-Jul)</description>
+  <description type="habitat">Rich moist woods, cliffs, seepage slopes, and mountain streams in mountains and piedmont</description>
+  <description type="elevation">500 m</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">W.Va.</description>
+  <number>4.</number>
+  <other_name type="common_name">Mountain meadow-rue</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

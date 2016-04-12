@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>NYMPHAEA</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">NYMPHAEA</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 510. 175</place_in_publication>
@@ -12,19 +16,21 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 227. 1754, name conserved</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Water-lily</common_name>
-  <common_name>nymphéa</common_name>
-  <common_name>lis d'eau</common_name>
-  <common_name>nénuphar blanc</common_name>
-  <etymology>[Greek nymphaia and Latin nymphaea, water-lily, from Latin (nympha) or Greek (nymphe) mythology, goddess of mountains, waters, meadows, and forests]</etymology>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Castalia</genus_name>
-    <genus_authority>Salisbury</genus_authority>
-  </TaxonIdentification>
-  <description>Rhizomes branched or unbranched, erect or repent; elongate stolons present or absent. Leaves mostly floating (vernal leaves submersed; blades sessile, broad). Leaf blade orbiculate to widely ovate or elliptic, basal lobes divergent to overlapping, margins entire to spinose-dentate, apex of lobe acute or acuminate to widely rounded; primary venation mostly palmate, midrib with 1 vein. Flowers floating or emersed, opening diurnally or nocturnally; perianth perigynous, spreading at anthesis; sepals 4, mostly greenish, ovate to elliptic; petals 8-many, spirally arranged or wholly or partially whorled, showy, white, pink, blue, or yellow, broadly lanceolate or ovate to obovate, grading into stamens; stamens yellow or cream-colored, inserted on lateral surface of ovary, spreading at anthesis, sometimes with distal connective appendage; ovary shorter than petals and stamens; stigmatic disk with prominent, distinct, upwardly incurved appendages around margin. Fruits borne on curved or coiled peduncles. Seeds nearly globose to ellipsoid, to 5 mm; aril present. x = 14.</description>
-  <number_of_infrataxa>Species 35-40 (9 in the flora):</number_of_infrataxa>
-  <global_distribution>worldwide.</global_distribution>
+    <taxon_hierarchy>genus NYMPHAEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Greek nymphaia and Latin nymphaea, water-lily, from Latin (nympha) or Greek (nymphe) mythology, goddess of mountains, waters, meadows, and forests]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Salisbury" date="unknown">Castalia</taxon_name>
+    <taxon_hierarchy>genus Castalia;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes branched or unbranched, erect or repent; elongate stolons present or absent. Leaves mostly floating (vernal leaves submersed; blades sessile, broad). Leaf blade orbiculate to widely ovate or elliptic, basal lobes divergent to overlapping, margins entire to spinose-dentate, apex of lobe acute or acuminate to widely rounded; primary venation mostly palmate, midrib with 1 vein. Flowers floating or emersed, opening diurnally or nocturnally; perianth perigynous, spreading at anthesis; sepals 4, mostly greenish, ovate to elliptic; petals 8-many, spirally arranged or wholly or partially whorled, showy, white, pink, blue, or yellow, broadly lanceolate or ovate to obovate, grading into stamens; stamens yellow or cream-colored, inserted on lateral surface of ovary, spreading at anthesis, sometimes with distal connective appendage; ovary shorter than petals and stamens; stigmatic disk with prominent, distinct, upwardly incurved appendages around margin. Fruits borne on curved or coiled peduncles. Seeds nearly globose to ellipsoid, to 5 mm; aril present. x = 14.</description>
+  <description type="distribution">worldwide.</description>
+  <number>2.</number>
+  <other_name type="common_name">Water-lily</other_name>
+  <other_name type="common_name">nymphéa</other_name>
+  <other_name type="common_name">lis d'eau</other_name>
+  <other_name type="common_name">nénuphar blanc</other_name>
+  <discussion>Species 35-40 (9 in the flora):</discussion>
   <discussion>Nymphaea is an important genus of ornamental plants, with numerous cultivars or wild forms grown in water gardens. Some have become naturalized in some places, particularly in Florida, and two such taxa are included in this treatment. A third, N. ×daubenyana W. T. Baxter ex Daubeny (N. micrantha Guillemin &amp; Perrottet × N. caerulea Savigny), with blue flowers and entire leaves and with a proliferous mound of fibrous tissue above insertion of petiole, may also be encountered in Florida.</discussion>
   <discussion>Prior to conservation in its current sense, the name Nymphaea was frequently used for the genus now known as Nuphar.</discussion>
   <references>
@@ -35,4 +41,4 @@
     <reference>Wiersema, J. H. 1987. A monograph of Nymphaea subgenus Hydrocallis (Nymphaeaceae). Syst. Bot. Monogr. 16: 1-112.</reference>
     <reference>Wiersema, J. H. 1988. Reproductive biology of Nymphaea (Nymphaeaceae). Ann. Missouri Bot. Gard. 75: 795-804.</reference>
   </references>
-</treatment>
+</bio:treatment>

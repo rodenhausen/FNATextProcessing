@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>32.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>adoneus</species_name>
-    <species_authority>A. Gray</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="A. Gray" date="unknown">adoneus</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Acad. Nat. Sci. Philadelphia</publication_title>
       <place_in_publication>15: 56. 1863</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>adoneus</species_name>
-    <variety_name>alpinus</variety_name>
-    <variety_authority>(S. Watson) L. D. Benson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>eschscholtzii</species_name>
-    <species_authority>Schlechtendahl</species_authority>
-    <variety_name>adoneus</variety_name>
-    <variety_authority>(A. Gray) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>eschscholtzii</species_name>
-    <variety_name>alpinus</variety_name>
-    <variety_authority>(S. Watson) C. L. Hitchcock</variety_authority>
-  </TaxonIdentification>
-  <phenology>spring</phenology>
-  <phenology>mar</phenology>
-  <phenology>apr</phenology>
-  <phenology>summer</phenology>
-  <phenology>may</phenology>
-  <phenology>jun</phenology>
-  <phenology>jul</phenology>
-  <phenology>aug</phenology>
-  <phenology>sep</phenology>
-  <phenology>fall</phenology>
-  <habitat>Alpine and subalpine meadows, usually around melting snowbanks;</habitat>
-  <elevation>2500-4000 m</elevation>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Ranunculus; species adoneus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Schlechtendahl" date="unknown">adoneus</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) L. D. Benson" date="unknown">alpinus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species adoneus; variety alpinus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">eschscholtzii</taxon_name>
+    <taxon_name rank="variety" authority="(A. Gray) C. L. Hitchcock" date="unknown">adoneus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species eschscholtzii; variety adoneus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">eschscholtzii</taxon_name>
+    <taxon_name rank="variety" authority="(S. Watson) C. L. Hitchcock" date="unknown">alpinus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species eschscholtzii; variety alpinus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="phenology">spring</description>
+  <description type="phenology">mar</description>
+  <description type="phenology">apr</description>
+  <description type="phenology">summer</description>
+  <description type="phenology">may</description>
+  <description type="phenology">jun</description>
+  <description type="phenology">jul</description>
+  <description type="phenology">aug</description>
+  <description type="phenology">sep</description>
+  <description type="phenology">fall</description>
+  <description type="habitat">Alpine and subalpine meadows, usually around melting snowbanks;</description>
+  <description type="elevation">2500-4000 m</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Wyo.</description>
+  <number>32.</number>
+  <discussion>endemic</discussion>
   <discussion>Most collections of Ranunculus adoneus from Colorado, including the type specimen, tend to be small, with narrow leaf segments (only 0.5-1 mm wide) and large flowers. The more widespread form, with leaf segments 1-2 mm wide and more variable flowers, has been called R. adoneus var. alpinus. The leaf and flower characteristics are very poorly correlated, however, and specimens referable to var. alpinus vary greatly in stature and flower size, so the two forms scarcely merit formal recognition.</discussion>
-</treatment>
+</bio:treatment>

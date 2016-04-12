@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Parietaria</genus_name>
-    <species_name>hespera</species_name>
-    <species_authority>B.D. Hinton</species_authority>
-    <variety_name>californica</variety_name>
-    <variety_authority>B.D. Hinton</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Parietaria</taxon_name>
+    <taxon_name rank="species" authority="B.D. Hinton" date="unknown">hespera</taxon_name>
+    <taxon_name rank="variety" authority="B.D. Hinton" date="unknown">californica</taxon_name>
     <place_of_publication>
       <publication_title>Sida</publication_title>
       <place_in_publication>3: 295. 1969</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, 0.2-4 dm. Leaf blades oblong, broadly ovate to orbiculate or reniform, 0.2-1.7 × 0.2-1.2 cm, as long as or slightly longer than wide, base rounded to nearly cordate, apex distally short-acuminate to obtuse or rounded. Flowers: involucral bracts 1.2-3.2 mm; tepals spreading or recurved and twisted at maturity, distinct, ca. 2-2.7 mm, apex long-acuminate, attenuate, or caudate.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Moist, often shaded, sandy or rocky places</habitat>
-  <elevation>0-1200 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Parietaria; species hespera; variety californica;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, 0.2-4 dm. Leaf blades oblong, broadly ovate to orbiculate or reniform, 0.2-1.7 × 0.2-1.2 cm, as long as or slightly longer than wide, base rounded to nearly cordate, apex distally short-acuminate to obtuse or rounded. Flowers: involucral bracts 1.2-3.2 mm; tepals spreading or recurved and twisted at maturity, distinct, ca. 2-2.7 mm, apex long-acuminate, attenuate, or caudate.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Moist, often shaded, sandy or rocky places</description>
+  <description type="elevation">0-1200 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Mexico (Baja California).</description>
+  <number>3b.</number>
   <discussion>The two varieties of Parietaria hespera are generally distinct, but intermediates occur. Both are found in California and have been collected in Los Angeles and Monterey counties and on Santa Barbara Island.</discussion>
-</treatment>
+</bio:treatment>

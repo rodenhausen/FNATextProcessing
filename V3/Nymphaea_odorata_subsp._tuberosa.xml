@@ -1,53 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>odorata</species_name>
-    <species_authority>Aiton</species_authority>
-    <subspecies_name>tuberosa</subspecies_name>
-    <subspecies_authority>(Paine) Wiersema &amp; Hellquist</subspecies_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="Aiton" date="unknown">odorata</taxon_name>
+    <taxon_name rank="subspecies" authority="(Paine) Wiersema &amp; Hellquist" date="unknown">tuberosa</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>96: 170. 1994</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Nymphéa tubéreux</common_name>
-  <endemic>endemic</endemic>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>tuberosa</species_name>
-    <species_authority>Paine</species_authority>
+    <taxon_hierarchy>genus Nymphaea; species odorata; subspecies tuberosa;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="Paine" date="unknown">tuberosa</taxon_name>
     <place_of_publication>
       <publication_title>Cat. Pl. Oneida Co.,</publication_title>
       <place_in_publication>132. 1865</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Rhizomes often constricted at branch joints to form detachable tubers. Leaves: petiole green with brown-purple stripes, stout. Leaf blade abaxially green or faintly purple. Flowers: petals white, rarely pink, elliptic to oblanceolate, outer usually with broadly rounded apex. Seeds mostly 2.8-4.5 mm.</description>
-  <phenology>Flowering late spring-summer</phenology>
-  <habitat>Mainly alkaline ponds, lakes, and sluggish streams and rivers, usually in very oozy sediments</habitat>
-  <elevation>100-400 m</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Nymphaea; species tuberosa;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes often constricted at branch joints to form detachable tubers. Leaves: petiole green with brown-purple stripes, stout. Leaf blade abaxially green or faintly purple. Flowers: petals white, rarely pink, elliptic to oblanceolate, outer usually with broadly rounded apex. Seeds mostly 2.8-4.5 mm.</description>
+  <description type="phenology">Flowering late spring-summer</description>
+  <description type="habitat">Mainly alkaline ponds, lakes, and sluggish streams and rivers, usually in very oozy sediments</description>
+  <description type="elevation">100-400 m</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Wis.</description>
+  <number>9b.</number>
+  <other_name type="common_name">Nymphéa tubéreux</other_name>
+  <discussion>endemic</discussion>
+  <discussion>weedy</discussion>
   <discussion>This taxon, which has been included within Nymphaea odorata by some recent workers, was formerly almost universally accepted as a distinct species. In the southern parts of the range of subsp. tuberosa, where subsp. odorata is absent, subsp. tuberosa is easily distinguished morphologically from subsp. odorata. Farther north, where their ranges overlap, the distinctions break down in some populations but are maintained in others. Some western populations are probably the result of introductions. A pink-flowered form seen in southeastern Ohio appears to be derived from this subspecies.</discussion>
-</treatment>
+</bio:treatment>

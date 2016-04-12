@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Myosurus</genus_name>
-    <species_name>sessilis</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myosurus</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">sessilis</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>17: 362. 1882</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <conservation>of conservation concern</conservation>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Myosurus</genus_name>
-    <species_name>minimus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>sessiliflorus</variety_name>
-    <variety_authority>(Huth) G. R. Campbell</variety_authority>
-  </TaxonIdentification>
-  <description>Herbs, 0.8-2.5 cm. Leaf blades linear or nearly so, 1.6-7.4 cm. Inflorescences: scapes 0-0.2 cm. Flowers: sepals indistinctly 3-veined, scarious margins broad; petal claw about as long as blade. Heads of achenes 8-25 × 2-4 mm, immersed among leaves. Achenes: outer face narrowly rhombic or occasionally narrowly oblong, 1.2-2 × 0.4-0.8 mm, 2-4.5 times as high as wide, not bordered; beak 0.8-1.8 mm, 0.6-1.1 times as long as body of achene, diverging from outer face of achene, heads of achenes thus strongly roughened by projecting achene beaks. 2n=16.</description>
-  <phenology>Flowering spring (Mar-May)</phenology>
-  <habitat>Vernal pools and alkalai flats</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>10-1600 m</elevation>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
+    <taxon_hierarchy>genus Myosurus; species sessilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myosurus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">minimus</taxon_name>
+    <taxon_name rank="variety" authority="(Huth) G. R. Campbell" date="unknown">sessiliflorus</taxon_name>
+    <taxon_hierarchy>genus Myosurus; species minimus; variety sessiliflorus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, 0.8-2.5 cm. Leaf blades linear or nearly so, 1.6-7.4 cm. Inflorescences: scapes 0-0.2 cm. Flowers: sepals indistinctly 3-veined, scarious margins broad; petal claw about as long as blade. Heads of achenes 8-25 × 2-4 mm, immersed among leaves. Achenes: outer face narrowly rhombic or occasionally narrowly oblong, 1.2-2 × 0.4-0.8 mm, 2-4.5 times as high as wide, not bordered; beak 0.8-1.8 mm, 0.6-1.1 times as long as body of achene, diverging from outer face of achene, heads of achenes thus strongly roughened by projecting achene beaks. 2n=16.</description>
+  <description type="phenology">Flowering spring (Mar-May)</description>
+  <description type="habitat">Vernal pools and alkalai flats</description>
+  <description type="elevation">10-1600 m</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Oreg.</description>
+  <number>2.</number>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Myosurus sessilis often grows with M. minimus, and hybrids between the two species are common. Because the plants mostly set seed by self-pollination, these hybrids often give rise to inbred lines showing the characteristics of the two parents in various combinations (D. E. Stone 1959). The names M. alopecuroides Greene and M. sessilis subsp. alopecuroides (Greene) D. E. Stone are based on the hybrid M. minimus × sessilis or on inbred lines descended from this hybrid.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>23.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>arkansana</species_name>
-    <species_authority>Sargent</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Sargent" date="unknown">arkansana</taxon_name>
     <place_of_publication>
       <publication_title>Trees &amp; Shrubs</publication_title>
       <place_in_publication>2: 121. 1911</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Arkansas oak</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>caput-rivuli</species_name>
-    <species_authority>Ashe</species_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, to 15 m. Bark black with long rough ridges separated by deep furrows. Twigs 1.5-3 mm diam., gray-pubescent, rarely glabrate. Terminal buds red-brown, ovoid, 2-5 mm, glabrous or with scales somewhat ciliate on margins, especially at apex. Leaves: petiole 5-25 mm, pubescent, rarely glabrate. Leaf blade rhombic to obovate or obtrullate, 50-150 × 35-100 mm, base acute to cordate, margins entire or with 2-3 shallow lobes and up to 10 awns, apex broadly obtuse to rounded; surfaces abaxially uniformly pubescent to glabrous except for conspicuous axillary tufts of tomentum, veins prominent, adaxially planar or somewhat rugose with a few persistent hairs near base. Acorns biennial; cup thin, shallow goblet- to almost saucer-shaped, 5-9 mm high × 10-16 mm wide, covering 1/4-1/2 nut, outer surface puberulent, inner surface sparsely to uniformly pubescent, scale tips appressed, acute; nut broadly ellipsoid to subglobose, 10-15 × 9-15 mm, puberulent, scar diam. 5-10 mm.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>An understory tree of well-drained, sandy soils, on ravine heads (pocosins, steepheads)</habitat>
-  <elevation>50-150 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species arkansana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Ashe" date="unknown">caput-rivuli</taxon_name>
+    <taxon_hierarchy>genus Quercus; species caput-rivuli;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, to 15 m. Bark black with long rough ridges separated by deep furrows. Twigs 1.5-3 mm diam., gray-pubescent, rarely glabrate. Terminal buds red-brown, ovoid, 2-5 mm, glabrous or with scales somewhat ciliate on margins, especially at apex. Leaves: petiole 5-25 mm, pubescent, rarely glabrate. Leaf blade rhombic to obovate or obtrullate, 50-150 × 35-100 mm, base acute to cordate, margins entire or with 2-3 shallow lobes and up to 10 awns, apex broadly obtuse to rounded; surfaces abaxially uniformly pubescent to glabrous except for conspicuous axillary tufts of tomentum, veins prominent, adaxially planar or somewhat rugose with a few persistent hairs near base. Acorns biennial; cup thin, shallow goblet- to almost saucer-shaped, 5-9 mm high × 10-16 mm wide, covering 1/4-1/2 nut, outer surface puberulent, inner surface sparsely to uniformly pubescent, scale tips appressed, acute; nut broadly ellipsoid to subglobose, 10-15 × 9-15 mm, puberulent, scar diam. 5-10 mm.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">An understory tree of well-drained, sandy soils, on ravine heads (pocosins, steepheads)</description>
+  <description type="elevation">50-150 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Tex.</description>
+  <number>23.</number>
+  <other_name type="common_name">Arkansas oak</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>Quercus arkansana reportedly hybridizes with Q. incana (= Q. ×venulosa Ashe) and Q. nigra (D. M. Hunt 1986; W. H. Duncan and M. B. Duncan 1988). While agreeing that an isotype of the former clearly indicated a relationship to Q. arkansana, E. J. Palmer (1948) questioned the identity of the second parent and noted that venulosa is a homonym of a fossil species. In addition, D. M. Hunt (1989) cited evidence of hybridization with Q. hemisphaerica, Q. laevis, Q. marilandica, Q. myrtifolia, and either Q. falcata or Q. velutina.</discussion>
-</treatment>
+</bio:treatment>

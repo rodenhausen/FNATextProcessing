@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>34.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>ellipsoidalis</species_name>
-    <species_authority>E. J. Hill</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="E. J. Hill" date="unknown">ellipsoidalis</taxon_name>
     <place_of_publication>
       <publication_title>Bot. Gaz.</publication_title>
       <place_in_publication>27: 204, plates 2, 3. 1899</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Northern pin oak</common_name>
-  <common_name>jack oak</common_name>
-  <common_name>Hill's oak</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>ellipsoidalis</species_name>
-    <variety_name>kaposianensis</variety_name>
-    <variety_authority>J. W. Moore</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, to 20 m; lower trunk often with stubs of dead branches. Bark dark gray-brown, shallowly fissured, inner bark orangish. Twigs dark reddish brown, (1-)1.5-3 mm diam., glabrous. Terminal buds dark reddish brown, ovoid, 3-5 mm, often conspicuously 5-angled in cross section, usually silvery- or tawny-pubescent toward apex. Leaves: petiole 20-50 mm, glabrous. Leaf blade elliptic, 70-130 × 50-100 mm, base obtuse to truncate, margins with 5-7 deep lobes and 15-55 awns, lobes distally expanded, sinuses usually extending more than 1/2 distance to midrib, apex acute; surfaces abaxially glabrous except for minute axillary tufts of tomentum, adaxially glossy light green, glabrous, secondary veins raised on both surfaces. Acorns biennial; cup narrowly turbinate to deeply cup-shaped, 6-11 mm high × 10-19 mm wide, covering 1/3-1/2 nut, outer surface reddish brown, puberulent, inner surface light brown, glabrous, rarely with ring of pubescence around scar, scales with straight or slightly concave margins, tips tightly appressed, obtuse or acute; nut ellipsoid to ovoid, rarely subglobose, 10-20 × 9-15 mm, occasionally striate, glabrous, occasionally with 1 or more faint rings of fine pits at apex, scar diam. 4-8 mm.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Dry sandy sites, rarely on moderately mesic slopes or uplands</habitat>
-  <elevation>150-500 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Quercus; species ellipsoidalis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">ellipsoidalis</taxon_name>
+    <taxon_name rank="variety" authority="J. W. Moore" date="unknown">kaposianensis</taxon_name>
+    <taxon_hierarchy>genus Quercus; species ellipsoidalis; variety kaposianensis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, to 20 m; lower trunk often with stubs of dead branches. Bark dark gray-brown, shallowly fissured, inner bark orangish. Twigs dark reddish brown, (1-)1.5-3 mm diam., glabrous. Terminal buds dark reddish brown, ovoid, 3-5 mm, often conspicuously 5-angled in cross section, usually silvery- or tawny-pubescent toward apex. Leaves: petiole 20-50 mm, glabrous. Leaf blade elliptic, 70-130 × 50-100 mm, base obtuse to truncate, margins with 5-7 deep lobes and 15-55 awns, lobes distally expanded, sinuses usually extending more than 1/2 distance to midrib, apex acute; surfaces abaxially glabrous except for minute axillary tufts of tomentum, adaxially glossy light green, glabrous, secondary veins raised on both surfaces. Acorns biennial; cup narrowly turbinate to deeply cup-shaped, 6-11 mm high × 10-19 mm wide, covering 1/3-1/2 nut, outer surface reddish brown, puberulent, inner surface light brown, glabrous, rarely with ring of pubescence around scar, scales with straight or slightly concave margins, tips tightly appressed, obtuse or acute; nut ellipsoid to ovoid, rarely subglobose, 10-20 × 9-15 mm, occasionally striate, glabrous, occasionally with 1 or more faint rings of fine pits at apex, scar diam. 4-8 mm.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Dry sandy sites, rarely on moderately mesic slopes or uplands</description>
+  <description type="elevation">150-500 m</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Wis.</description>
+  <number>34.</number>
+  <other_name type="common_name">Northern pin oak</other_name>
+  <other_name type="common_name">jack oak</other_name>
+  <other_name type="common_name">Hill's oak</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>In many treatments (e.g., E. G. Voss 1972+, vol. 2), Quercus ellipsoidalis is included in Q. coccinea. Variation in fruit morphology has led to recognition of several formae (W. Trelease 1919; see also R. J. Jensen 1986) and one variety (Q. ellipsoidalis var. kaposianensis, based on specimens from St. Paul, Minnesota, in which the cup tightly encloses the nut for two-thirds its length at maturity).</discussion>
   <discussion>Quercus ellipsoidalis reportedly hybridizes with Q. rubra and Q. velutina.</discussion>
   <discussion>The Menominee used Quercus ellipsoidalis medicinally to treat suppressed menses caused by cold (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

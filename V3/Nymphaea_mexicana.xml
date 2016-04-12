@@ -1,50 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>mexicana</species_name>
-    <species_authority>Zuccarini</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="Zuccarini" date="unknown">mexicana</taxon_name>
     <place_of_publication>
       <publication_title>Abh. Math.-Phys. Cl. Königl. Bayer. Akad. Wiss.</publication_title>
       <place_in_publication>1: 365. 1832</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Banana water-lily</common_name>
-  <common_name>yellow water-lily</common_name>
-  <common_name>herbe au coeur</common_name>
-  <illustrated>illustrated</illustrated>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Castalia</genus_name>
-    <species_name>flava</species_name>
-    <species_authority>(Leitner) Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nymphaea</genus_name>
-    <species_name>flava</species_name>
-    <species_authority>Leitner</species_authority>
-  </TaxonIdentification>
-  <description>Rhizomes unbranched, erect, cylindric; stolons elongate, spongy, developing clusters of curved, fleshy, overwintering roots resembling tiny bananas at terminal nodes. Leaves: petiole glabrous. Leaf blade abaxially purplish with dark flecks, adaxially green, often with brown mottling, ovate to elliptic or nearly orbiculate, 7-18(-27) × 7-14(-18) cm, margins entire or sinuate; venation radiate and impressed centrally, without weblike pattern, principal veins 11-22; surfaces glabrous. Flowers floating or emersed, 6-11 cm diam., opening and closing diurnally, only sepals and outermost petals in distinct whorls of 4; sepals uniformly yellowish green, often red-tinted, evidently veined, lines of insertion on receptacle often slightly prominent; petals 12-30, yellow; stamens ca. 50-60, yellow, connective appendage minute or absent; filaments widest below middle, longer than anthers; pistil 7-10-locular, appendages at margin of stigmatic disk oblong-tapered, to 4.5 mm. Seeds globose, ca. 5 × 5 mm, uniformly covered with hairlike papillae 100-220 µm. 2n = 56.</description>
-  <phenology>Flowering spring-fall, mainly summer farther north</phenology>
-  <habitat>Outer coastal plain in alkaline lakes, ponds, warm springs, pools in marshes, sloughs, sluggish streams, ditches, and canals</habitat>
-  <elevation>0-1100 m</elevation>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Fla.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <global_distribution>ne</global_distribution>
-  <global_distribution>c Mexico.</global_distribution>
+    <taxon_hierarchy>genus Nymphaea; species mexicana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Castalia</taxon_name>
+    <taxon_name rank="species" authority="(Leitner) Greene" date="unknown">flava</taxon_name>
+    <taxon_hierarchy>genus Castalia; species flava;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nymphaea</taxon_name>
+    <taxon_name rank="species" authority="Leitner" date="unknown">flava</taxon_name>
+    <taxon_hierarchy>genus Nymphaea; species flava;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Rhizomes unbranched, erect, cylindric; stolons elongate, spongy, developing clusters of curved, fleshy, overwintering roots resembling tiny bananas at terminal nodes. Leaves: petiole glabrous. Leaf blade abaxially purplish with dark flecks, adaxially green, often with brown mottling, ovate to elliptic or nearly orbiculate, 7-18(-27) × 7-14(-18) cm, margins entire or sinuate; venation radiate and impressed centrally, without weblike pattern, principal veins 11-22; surfaces glabrous. Flowers floating or emersed, 6-11 cm diam., opening and closing diurnally, only sepals and outermost petals in distinct whorls of 4; sepals uniformly yellowish green, often red-tinted, evidently veined, lines of insertion on receptacle often slightly prominent; petals 12-30, yellow; stamens ca. 50-60, yellow, connective appendage minute or absent; filaments widest below middle, longer than anthers; pistil 7-10-locular, appendages at margin of stigmatic disk oblong-tapered, to 4.5 mm. Seeds globose, ca. 5 × 5 mm, uniformly covered with hairlike papillae 100-220 µm. 2n = 56.</description>
+  <description type="phenology">Flowering spring-fall, mainly summer farther north</description>
+  <description type="habitat">Outer coastal plain in alkaline lakes, ponds, warm springs, pools in marshes, sloughs, sluggish streams, ditches, and canals</description>
+  <description type="elevation">0-1100 m</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">ne</description>
+  <description type="distribution">c Mexico.</description>
+  <number>6.</number>
+  <other_name type="common_name">Banana water-lily</other_name>
+  <other_name type="common_name">yellow water-lily</other_name>
+  <other_name type="common_name">herbe au coeur</other_name>
+  <discussion>illustrated</discussion>
+  <discussion>weedy</discussion>
   <discussion>Nymphaea mexicana is probably introduced in most inland sites and in California, where it is considered a problematic weed in waterways; it is not common in most states except Florida. The distribution of this species is similar to that of the winter distribution of canvasback ducks, for which the bananalike tubers are an important food (J. E. Cely 1979). This species forms natural hybrids with N. odorata; the hybrids have been named N. ×thiona D. B. Ward (D. B. Ward 1977). Except for stem characteristics, which resemble one or the other parent, and their added vigor, the hybrids are generally intermediate in morphology. They are completely sterile; however, hybrids with the stolon-bearing habit of N. mexicana can form extensive clones and, although somewhat larger in stature than N. mexicana, they closely resemble that less agressive parent and could easily be mistaken for it. Some of the introductions, such as in southeastern Nevada and north-central Kentucky, are clearly this hybrid.</discussion>
   <references>
     <reference>Capperino, M. E. and E. L. Schneider. 1985. Floral biology of Nymphaea mexicana Zucc. (Nymphaeaceae). Aquatic Bot. 23: 83-93.</reference>
     <reference>Cely, J. E. 1979. The ecology and distribution of banana waterlily and its utilization by canvasback ducks. Proc. Annual Conf. SouthE. Assoc. Fish Wildlife Agencies 33: 43-47.</reference>
   </references>
-</treatment>
+</bio:treatment>

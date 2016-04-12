@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9g.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>occidentalis</species_name>
-    <species_authority>Nuttall</species_authority>
-    <variety_name>nelsonii</variety_name>
-    <variety_authority>(de Candolle) L. D. Benson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Nuttall" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="variety" authority="(de Candolle) L. D. Benson" date="unknown">nelsonii</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>68: 166. 1941</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>recurvatus</species_name>
-    <species_authority>Poiret</species_authority>
-    <variety_name>(ß)</variety_name>
-    <variety_authority>nelsonii de Candolle</variety_authority>
+    <taxon_hierarchy>genus Ranunculus; species occidentalis; variety nelsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Poiret" date="unknown">recurvatus</taxon_name>
+    <taxon_name rank="variety" authority="nelsonii de Candolle" date="unknown">(ß)</taxon_name>
     <place_of_publication>
       <publication_title>Syst. Nat.</publication_title>
       <place_in_publication>1: 290. 1817</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>occidentalis</species_name>
-    <subspecies_name>nelsonii</subspecies_name>
-    <subspecies_authority>(de Candolle) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems erect or spreading, 4-8 mm thick, hirsute. Basal leaf blades 3-parted, rarely 3-foliolate, ultimate segments elliptic, margins dentate. Flowers: sepals 5, 4-9 mm; petals 5-6, 7-15 × 4-11 mm. Achenes 3-4 × 2.2-2.8 mm, glabrous; beak lanceolate, curved, 1.8-2.4 mm.</description>
-  <phenology>Flowering spring (May-Jun)</phenology>
-  <habitat>Moist places near coast</habitat>
-  <elevation>0 m</elevation>
-  <us_distribution>Alaska.</us_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species recurvatus; variety (ß);</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">occidentalis</taxon_name>
+    <taxon_name rank="subspecies" authority="(de Candolle) Hultén" date="unknown">nelsonii</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species occidentalis; subspecies nelsonii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or spreading, 4-8 mm thick, hirsute. Basal leaf blades 3-parted, rarely 3-foliolate, ultimate segments elliptic, margins dentate. Flowers: sepals 5, 4-9 mm; petals 5-6, 7-15 × 4-11 mm. Achenes 3-4 × 2.2-2.8 mm, glabrous; beak lanceolate, curved, 1.8-2.4 mm.</description>
+  <description type="phenology">Flowering spring (May-Jun)</description>
+  <description type="habitat">Moist places near coast</description>
+  <description type="elevation">0 m</description>
+  <description type="distribution">Alaska.</description>
+  <number>9g.</number>
+  <discussion>endemic</discussion>
+</bio:treatment>

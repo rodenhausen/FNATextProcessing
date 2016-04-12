@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Magnolia</genus_name>
-    <species_name>ashei</species_name>
-    <species_authority>Weatherby</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Weatherby" date="unknown">ashei</taxon_name>
     <place_of_publication>
       <publication_title>Rhodora</publication_title>
       <place_in_publication>28: 35. 1926</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Ashe's magnolia</common_name>
-  <conservation>of conservation concern</conservation>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>macrophylla</species_name>
-    <species_authority>Michaux</species_authority>
-    <subspecies_name>ashei</subspecies_name>
-    <subspecies_authority>(Weatherby) Spongberg</subspecies_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Magnolia</genus_name>
-    <species_name>macrophylla</species_name>
-    <variety_name>ashei</variety_name>
-    <variety_authority>(Weatherby) D.L. Johnson</variety_authority>
-  </TaxonIdentification>
-  <description>Trees, deciduous, often multitrunked, to 10(-12) m. Bark dark gray, smooth. Pith homogeneous. Twigs and foliar buds silky-pubescent. Leaves crowded in terminal whorl-like clusters; stipules 6-8 × 3-4 cm, abaxially pilose, glandular. Leaf blade broadly elliptic to obovate-oblong, (17-)25-46(-56) × (10-)15-30(-40) cm, base truncate to deeply cordate or auriculate, apex acute to short-acuminate; surfaces abaxially chalky white or pale green to glaucous, pilose, adaxially deep green, glabrous. Flowers solitary or often in pairs on adjacent twigs, fragrant, 15-38(-50) cm across; spathaceous bracts 2, outer bract abaxially rusty gray, inner bract glabrous; tepals creamy white, glandular, innermost whorl purple-blotched at base, outermost segments strongly reflexed, greenish; stamens 170-350, 13-20 mm; filaments white; pistils 20-50. Follicetums cylindric to nearly ovoid, 2.5-6.5 × 1.5-4 cm; follicles short-beaked, distally appressed silky-pubescent. Seeds lenticular to somewhat globose, 8-10 mm, aril orange-red. 2n=38.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Woodlands, ravines, and bluffs</habitat>
-  <conservation>of conservation concern</conservation>
-  <elevation>0-50m</elevation>
-  <global_distribution>coastal plain</global_distribution>
-  <us_distribution>Fla.</us_distribution>
+    <taxon_hierarchy>genus Magnolia; species ashei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">macrophylla</taxon_name>
+    <taxon_name rank="subspecies" authority="(Weatherby) Spongberg" date="unknown">ashei</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species macrophylla; subspecies ashei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Magnolia</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">macrophylla</taxon_name>
+    <taxon_name rank="variety" authority="(Weatherby) D.L. Johnson" date="unknown">ashei</taxon_name>
+    <taxon_hierarchy>genus Magnolia; species macrophylla; variety ashei;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, deciduous, often multitrunked, to 10(-12) m. Bark dark gray, smooth. Pith homogeneous. Twigs and foliar buds silky-pubescent. Leaves crowded in terminal whorl-like clusters; stipules 6-8 × 3-4 cm, abaxially pilose, glandular. Leaf blade broadly elliptic to obovate-oblong, (17-)25-46(-56) × (10-)15-30(-40) cm, base truncate to deeply cordate or auriculate, apex acute to short-acuminate; surfaces abaxially chalky white or pale green to glaucous, pilose, adaxially deep green, glabrous. Flowers solitary or often in pairs on adjacent twigs, fragrant, 15-38(-50) cm across; spathaceous bracts 2, outer bract abaxially rusty gray, inner bract glabrous; tepals creamy white, glandular, innermost whorl purple-blotched at base, outermost segments strongly reflexed, greenish; stamens 170-350, 13-20 mm; filaments white; pistils 20-50. Follicetums cylindric to nearly ovoid, 2.5-6.5 × 1.5-4 cm; follicles short-beaked, distally appressed silky-pubescent. Seeds lenticular to somewhat globose, 8-10 mm, aril orange-red. 2n=38.</description>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Woodlands, ravines, and bluffs</description>
+  <description type="elevation">0-50m</description>
+  <description type="distribution">coastal plain</description>
+  <description type="distribution">Fla.</description>
+  <number>2.</number>
+  <other_name type="common_name">Ashe's magnolia</other_name>
+  <discussion type="conservation">of conservation concern</discussion>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+  <discussion type="conservation">of conservation concern</discussion>
   <discussion>Magnolia ashei, the rarest species of Magnolia in the flora, is limited to six counties in the Florida panhandle; it is in danger of extirpation because of habitat disturbance. Magnolia ashei differs from M. macrophylla in being a smaller, often multitrunked tree with smaller leaves, fewer stamens and pistils, smaller seeds, smaller stipules, filiform trichomes, and smaller, nearly glabrous, cylindric follicetums. The flowers are often borne in pairs. Magnolia ashei flowers at an early age (three to four years from seed); it is a desirable small tree in cultivation.</discussion>
-</treatment>
+</bio:treatment>

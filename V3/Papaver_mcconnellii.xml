@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>9.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>mcconnellii</species_name>
-    <species_authority>Hultén</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Hultén" date="unknown">mcconnellii</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Alaska Yukon</publication_title>
       <place_in_publication>5: 803, fig. 1. 1945</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Papaver</genus_name>
-    <species_name>denalii</species_name>
-    <species_authority>Gjaerevoll</species_authority>
-  </TaxonIdentification>
-  <description>Plants loosely cespitose, to 1.5 dm. Leaves to 10 cm; petiole to 1/2 length of leaf; blade gray- and blue-green on both surfaces, glaucous, lanceolate, 1-2×-lobed, commonly with 3 pairs of primary lateral lobes, hirsute; primary lobes obovate to strap-shaped, mostly divided, short, apex acute or more commonly obtuse or rounded. Inflorescences: scapes erect or decumbent, generally curved, less than 15 cm, hispid. Flowers to 6 cm diam.; petals yellow, or white with yellow basal spot; anthers yellow; stigmas 5-7, disc conic-umbonate. Capsules subglobose to obconic, to 1.5 cm, 1-2.5 times longer than broad, strigose, trichomes dark brown to black. 2n = 28.</description>
-  <phenology>Flowering Jun-Aug</phenology>
-  <habitat>Calcareous mountain summits, ridges, and screes</habitat>
-  <elevation>1000-1500 m</elevation>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Papaver; species mcconnellii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Gjaerevoll" date="unknown">denalii</taxon_name>
+    <taxon_hierarchy>genus Papaver; species denalii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants loosely cespitose, to 1.5 dm. Leaves to 10 cm; petiole to 1/2 length of leaf; blade gray- and blue-green on both surfaces, glaucous, lanceolate, 1-2×-lobed, commonly with 3 pairs of primary lateral lobes, hirsute; primary lobes obovate to strap-shaped, mostly divided, short, apex acute or more commonly obtuse or rounded. Inflorescences: scapes erect or decumbent, generally curved, less than 15 cm, hispid. Flowers to 6 cm diam.; petals yellow, or white with yellow basal spot; anthers yellow; stigmas 5-7, disc conic-umbonate. Capsules subglobose to obconic, to 1.5 cm, 1-2.5 times longer than broad, strigose, trichomes dark brown to black. 2n = 28.</description>
+  <description type="phenology">Flowering Jun-Aug</description>
+  <description type="habitat">Calcareous mountain summits, ridges, and screes</description>
+  <description type="elevation">1000-1500 m</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska.</description>
+  <number>9.</number>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
   <discussion>In view of intermediate forms in the Alaska Range, we have broadened the concept of Papaver mcconnellii to include P. denalii.</discussion>
-</treatment>
+</bio:treatment>

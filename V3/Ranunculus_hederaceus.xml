@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>71.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>hederaceus</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">hederaceus</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 556. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Stems glabrous. Leaves all laminate, filiform-dissected leaves absent. Leaf blade reniform, 0.4-1 × 0.6-1.7 cm, margins shallowly crenate-lobulate, segments rounded. Flowers: receptacle glabrous; sepals recurved, 1.5-2 × 1-1.5 mm, glabrous; petals 5, 2-4 × 1-1.5 mm; style 0.1 mm. Fruiting pedicels recurved. Heads of achenes globose or depressed-globose, 3-4 × 3-4 mm; achenes 1.2-1.6 × 1-1.2 mm, glabrous; beak deciduous, sometimes leaving stub to 0.1 mm. 2n = 16 (Europe).</description>
-  <phenology>Flowering spring-summer (Apr-Aug)</phenology>
-  <habitat>Edges of lakes and ponds on the coastal plain</habitat>
-  <elevation>0-150 m</elevation>
-  <ca_distribution>Nfld.</ca_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <global_distribution>Europe.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species hederaceus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems glabrous. Leaves all laminate, filiform-dissected leaves absent. Leaf blade reniform, 0.4-1 × 0.6-1.7 cm, margins shallowly crenate-lobulate, segments rounded. Flowers: receptacle glabrous; sepals recurved, 1.5-2 × 1-1.5 mm, glabrous; petals 5, 2-4 × 1-1.5 mm; style 0.1 mm. Fruiting pedicels recurved. Heads of achenes globose or depressed-globose, 3-4 × 3-4 mm; achenes 1.2-1.6 × 1-1.2 mm, glabrous; beak deciduous, sometimes leaving stub to 0.1 mm. 2n = 16 (Europe).</description>
+  <description type="phenology">Flowering spring-summer (Apr-Aug)</description>
+  <description type="habitat">Edges of lakes and ponds on the coastal plain</description>
+  <description type="elevation">0-150 m</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">Europe.</description>
+  <number>71.</number>
+</bio:treatment>

@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>68b.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>glacialis</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>camissonis</variety_name>
-    <variety_authority>(Schlechtendal) L. D. Benson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">glacialis</taxon_name>
+    <taxon_name rank="variety" authority="(Schlechtendal) L. D. Benson" date="unknown">camissonis</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>40: 226. 1948</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>camissonis</species_name>
-    <species_authority>Schlechtendal</species_authority>
+    <taxon_hierarchy>genus Ranunculus; species glacialis; variety camissonis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Schlechtendal" date="unknown">camissonis</taxon_name>
     <place_of_publication>
       <publication_title>Animadv. Bot. Ranunc. Cand.</publication_title>
       <place_in_publication>1: 12. 1819</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Beckwithia</genus_name>
-    <species_name>camissonis</species_name>
-    <species_authority>(Schlechtendahl) Tolmatchew</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>glacialis</species_name>
-    <subspecies_name>camissonis</subspecies_name>
-    <subspecies_authority>(Schlechtendal) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems distally brown-pilose, from short caudices. Basal leaf blades deeply 3-parted or 3-foliolate, segments or leaflets 1-2×-parted, ultimate segments oblanceolate to almost linear. Flowers: receptacle brown-pilose.</description>
-  <phenology>Flowering summer (Jun-Aug)</phenology>
-  <habitat>Wet meadows or marshlands</habitat>
-  <elevation>0-1200 m</elevation>
-  <us_distribution>Alaska</us_distribution>
-  <global_distribution>Siberia.</global_distribution>
+    <taxon_hierarchy>genus Ranunculus; species camissonis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Beckwithia</taxon_name>
+    <taxon_name rank="species" authority="(Schlechtendahl) Tolmatchew" date="unknown">camissonis</taxon_name>
+    <taxon_hierarchy>genus Beckwithia; species camissonis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">glacialis</taxon_name>
+    <taxon_name rank="subspecies" authority="(Schlechtendal) Hultén" date="unknown">camissonis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species glacialis; subspecies camissonis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems distally brown-pilose, from short caudices. Basal leaf blades deeply 3-parted or 3-foliolate, segments or leaflets 1-2×-parted, ultimate segments oblanceolate to almost linear. Flowers: receptacle brown-pilose.</description>
+  <description type="phenology">Flowering summer (Jun-Aug)</description>
+  <description type="habitat">Wet meadows or marshlands</description>
+  <description type="elevation">0-1200 m</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Siberia.</description>
+  <number>68b.</number>
   <discussion>The incorrect spelling "chamissonis" is frequently seen.</discussion>
-</treatment>
+</bio:treatment>

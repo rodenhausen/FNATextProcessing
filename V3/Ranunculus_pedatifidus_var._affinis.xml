@@ -1,58 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>41a.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>pedatifidus</species_name>
-    <species_authority>Smith</species_authority>
-    <variety_name>affinis</variety_name>
-    <variety_authority>(R. Brown) L. D. Benson</variety_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Smith" date="unknown">pedatifidus</taxon_name>
+    <taxon_name rank="variety" authority="(R. Brown) L. D. Benson" date="unknown">affinis</taxon_name>
     <place_of_publication>
       <publication_title>Amer. Midl. Naturalist</publication_title>
       <place_in_publication>52: 355. 1954</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>affinis</species_name>
-    <species_authority>R. Brown</species_authority>
+    <taxon_hierarchy>genus Ranunculus; species pedatifidus; variety affinis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">affinis</taxon_name>
     <place_of_publication>
       <publication_title>J. Voy. N.-W. Passage, Bot.,</publication_title>
       <place_in_publication>265. 1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>eastwoodianus</species_name>
-    <species_authority>L. D. Benson</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>pedatifidus</species_name>
-    <subspecies_name>affinis</subspecies_name>
-    <subspecies_authority>(R. Brown) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems erect, 6-33(-46) cm, pilose or glabrous, each with 1-7 flowers. Roots slender, 0.4-1.2 mm thick. Basal leaves persistent, blades cordate or reniform in outline, pedately (5-)7(-9)-parted or -divided, 0.8-3.8 × 1-4.8 cm, segments undivided or again lobed or parted, base truncate to cordate, margins never toothed, apices of segments acute. Flowers: pedicels pilose; receptacle canescent; sepals 4-6 × 3-5 mm, abaxially pilose, hairs colorless; petals (0-)5-10, 7-10 × 5-9 mm; nectary scale glabrous. Heads of achenes cylindric, 7-15 × 5-8 mm; achenes 1.8-2.4 × 1.6-1.8 mm, finely canescent or glabrous; beak lanceolate or subulate, curved, 0.5-1 mm. 2n = 32, 48.</description>
-  <phenology>Flowering late spring-summer (Jun-Aug)</phenology>
-  <habitat>Dry rocky places on open arctic and alpine slopes and shores, moist grassland depressions, and open aspen woods</habitat>
-  <elevation>0-3700 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>Alta.</ca_distribution>
-  <ca_distribution>B.C.</ca_distribution>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Nfld.</ca_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Ont.</ca_distribution>
-  <ca_distribution>Que.</ca_distribution>
-  <ca_distribution>Sask.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska</us_distribution>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Colo.</us_distribution>
-  <us_distribution>Mont.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <us_distribution>Wyo.</us_distribution>
+    <taxon_hierarchy>genus Ranunculus; species affinis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="L. D. Benson" date="unknown">eastwoodianus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species eastwoodianus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">pedatifidus</taxon_name>
+    <taxon_name rank="subspecies" authority="(R. Brown) Hultén" date="unknown">affinis</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species pedatifidus; subspecies affinis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect, 6-33(-46) cm, pilose or glabrous, each with 1-7 flowers. Roots slender, 0.4-1.2 mm thick. Basal leaves persistent, blades cordate or reniform in outline, pedately (5-)7(-9)-parted or -divided, 0.8-3.8 × 1-4.8 cm, segments undivided or again lobed or parted, base truncate to cordate, margins never toothed, apices of segments acute. Flowers: pedicels pilose; receptacle canescent; sepals 4-6 × 3-5 mm, abaxially pilose, hairs colorless; petals (0-)5-10, 7-10 × 5-9 mm; nectary scale glabrous. Heads of achenes cylindric, 7-15 × 5-8 mm; achenes 1.8-2.4 × 1.6-1.8 mm, finely canescent or glabrous; beak lanceolate or subulate, curved, 0.5-1 mm. 2n = 32, 48.</description>
+  <description type="phenology">Flowering late spring-summer (Jun-Aug)</description>
+  <description type="habitat">Dry rocky places on open arctic and alpine slopes and shores, moist grassland depressions, and open aspen woods</description>
+  <description type="elevation">0-3700 m</description>
+  <description type="distribution">Greenland</description>
+  <description type="distribution">Alta.</description>
+  <description type="distribution">B.C.</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">Nfld.</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Que.</description>
+  <description type="distribution">Sask.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Colo.</description>
+  <description type="distribution">Mont.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Wyo.</description>
+  <number>41a.</number>
+  <discussion>endemic</discussion>
   <discussion>Specimens of Ranunculus pedatifidus from southern Siberia, China, and central Asia, including the type specimen, are relatively small and slender, with all the main divisions of the leaf parted into narrow (1.5-2.5 mm wide) segments. American material, including the type of R. affinis, is more robust; the main divisions of the leaf are mostly undivided, and the ultimate segments are broader (2-4 mm). L. D. Benson (1954) referred all material from Asia and islands in the Bering Sea to var. pedatifidus. Other authors (P. N. Ovchinnikov 1970; E. Hultén 1968; A. I. Tolmatchew 1971), on the other hand, have limited typical R. pedatifidus to material from temperate Asia and have included material from northern Siberia in R. pedatifidus subsp. affinis. T. G. Tutin and J. R. Akeroyd (1993) included both R. pedatifidus and R. affinis in Flora Europaea, but, as noted below (under R. auricomus), Tutin and Akeroyd's descriptions do not match the American plants. Further comparisons of American and Eurasian material are needed.</discussion>
   <discussion>Glabrous-fruited forms have been called Ranunculus pedatifidus var. leiocarpus (Trautvetter) Fernald; the variety was first described from Asia.</discussion>
-</treatment>
+</bio:treatment>

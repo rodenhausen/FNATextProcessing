@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Myrica</genus_name>
-    <species_name>hartwegii</species_name>
-    <species_authority>S. Watson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Myrica</taxon_name>
+    <taxon_name rank="species" authority="S. Watson" date="unknown">hartwegii</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>10: 350. 1875</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Sierra sweet-bay</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Gale</genus_name>
-    <species_name>hartwegii</species_name>
-    <species_authority>(S. Watson) A. Chevalier</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs, deciduous, to 1.8 m. Branchlets purple-black, gland-dotted, glands yellow. Leaf blade oblanceolate to elliptic, 3.2-10.4 × 1-3.4 cm, membranous, base attenuate to cuneate, margins serrate, often coarsely so, with 4-12 pairs of teeth in ± distal 1/2 of blade, rarely entire, apex acute to occasionally obtuse; surfaces abaxially pale green, pilose, adaxially dark green, pilose, often glabrate, both surfaces gland-dotted, density quite variable; glands yellow to orange. Inflorescences: staminate 0.8-2.6 cm; pistillate 3-6 mm at anthesis, enlarging to 2 cm in fruit. Flowers unisexual, staminate and pistillate on different plants. Staminate flowers: bract of flower longer than stamens, gland-dotted at base, distal margins transparent, occasionally ciliate; stamens 3-5. Pistillate flowers: bracteoles 2, accrescent and adnate to base of fruit wall, laterally compressed, densely pilose with some hairs persistent, especially toward apex, glandular; ovary glabrous. Fruits ovoid, flattened, 1.5-2.5 mm; fruit wall smooth, without waxy deposits, enclosed by spongy bracteoles.</description>
-  <phenology>Flowering spring-summer, fruiting in summer</phenology>
-  <habitat>Borders of streams</habitat>
-  <elevation>250-1800 m</elevation>
-  <us_distribution>Calif.</us_distribution>
+    <taxon_hierarchy>genus Myrica; species hartwegii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Gale</taxon_name>
+    <taxon_name rank="species" authority="(S. Watson) A. Chevalier" date="unknown">hartwegii</taxon_name>
+    <taxon_hierarchy>genus Gale; species hartwegii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs, deciduous, to 1.8 m. Branchlets purple-black, gland-dotted, glands yellow. Leaf blade oblanceolate to elliptic, 3.2-10.4 × 1-3.4 cm, membranous, base attenuate to cuneate, margins serrate, often coarsely so, with 4-12 pairs of teeth in ± distal 1/2 of blade, rarely entire, apex acute to occasionally obtuse; surfaces abaxially pale green, pilose, adaxially dark green, pilose, often glabrate, both surfaces gland-dotted, density quite variable; glands yellow to orange. Inflorescences: staminate 0.8-2.6 cm; pistillate 3-6 mm at anthesis, enlarging to 2 cm in fruit. Flowers unisexual, staminate and pistillate on different plants. Staminate flowers: bract of flower longer than stamens, gland-dotted at base, distal margins transparent, occasionally ciliate; stamens 3-5. Pistillate flowers: bracteoles 2, accrescent and adnate to base of fruit wall, laterally compressed, densely pilose with some hairs persistent, especially toward apex, glandular; ovary glabrous. Fruits ovoid, flattened, 1.5-2.5 mm; fruit wall smooth, without waxy deposits, enclosed by spongy bracteoles.</description>
+  <description type="phenology">Flowering spring-summer, fruiting in summer</description>
+  <description type="habitat">Borders of streams</description>
+  <description type="elevation">250-1800 m</description>
+  <description type="distribution">Calif.</description>
+  <number>2.</number>
+  <other_name type="common_name">Sierra sweet-bay</other_name>
+  <discussion>endemic</discussion>
   <discussion>Myrica hartwegii is endemic to the northern and central Sierra Nevada of California.</discussion>
-</treatment>
+</bio:treatment>

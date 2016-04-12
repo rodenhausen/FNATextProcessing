@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ulmus</genus_name>
-    <species_name>glabra</species_name>
-    <species_authority>Hudson</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ulmus</taxon_name>
+    <taxon_name rank="species" authority="Hudson" date="unknown">glabra</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Angl.,</publication_title>
       <place_in_publication>95. 1762</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Scotch elm</common_name>
-  <common_name>wych elm</common_name>
-  <common_name>broad-leaved elm</common_name>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ulmus</genus_name>
-    <species_name>montana</species_name>
-    <species_authority>Withering</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ulmus</genus_name>
-    <species_name>scabra</species_name>
-    <species_authority>Miller</species_authority>
-  </TaxonIdentification>
-  <description>Trees, to 40 m; trunks often multiple; crowns spreading, broadly rounded or ovate. Bark gray, smooth, furrowed with age. Wood hard. Branches spreading to pendulous, glabrous, branchlets lacking corky wings; twigs ash-gray to red-brown, villous when young. Buds obtuse; scales reddish brown, glabrous to marginally white-ciliate. Leaves: petiole 2-7 mm, densely villous. Leaf blade elliptic to obovate, (4-)7-14(-16) × (3-)4.5-8(-10) cm, base strongly oblique with lowermost lobe strongly overlapping, covering petiole, margins doubly serrate, apex long-acuminate to cuspidate, sometimes with 3 acuminate lobes at broad apex; surfaces abaxially pale green, villous with woolly tufts in vein axils, adaxially dark green, strigose to scabrous, margins not ciliate. Inflorescences dense fascicles, 8-20-flowered, less than 2.5 cm, flowers and fruits not pendulous; pedicel short, 0.4-0.8 mm, densely pubescent. Flowers: calyx lobed to ca. 1/2 length, lobes 4-8, reddish pubescent; stamens 5-6, purplish; stigmas reddish, with white pubescence. Samaras light greenish brown, elliptic to obovate with blunt or rounded tip, 1.5-2.5 × 1-1.8 mm, broadly winged, pubescent only along central vein of wing, apical cleft minute, obscured by persistent, curved styles. Seeds thickened, not inflated. 2n = 28.</description>
-  <phenology>Flowering spring-early summer</phenology>
-  <habitat>Along margins of woodlands and disturbed sites</habitat>
-  <elevation>0-300 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Maine</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <global_distribution>native to Europe and Asia.</global_distribution>
+    <taxon_hierarchy>genus Ulmus; species glabra;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ulmus</taxon_name>
+    <taxon_name rank="species" authority="Withering" date="unknown">montana</taxon_name>
+    <taxon_hierarchy>genus Ulmus; species montana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ulmus</taxon_name>
+    <taxon_name rank="species" authority="Miller" date="unknown">scabra</taxon_name>
+    <taxon_hierarchy>genus Ulmus; species scabra;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 40 m; trunks often multiple; crowns spreading, broadly rounded or ovate. Bark gray, smooth, furrowed with age. Wood hard. Branches spreading to pendulous, glabrous, branchlets lacking corky wings; twigs ash-gray to red-brown, villous when young. Buds obtuse; scales reddish brown, glabrous to marginally white-ciliate. Leaves: petiole 2-7 mm, densely villous. Leaf blade elliptic to obovate, (4-)7-14(-16) × (3-)4.5-8(-10) cm, base strongly oblique with lowermost lobe strongly overlapping, covering petiole, margins doubly serrate, apex long-acuminate to cuspidate, sometimes with 3 acuminate lobes at broad apex; surfaces abaxially pale green, villous with woolly tufts in vein axils, adaxially dark green, strigose to scabrous, margins not ciliate. Inflorescences dense fascicles, 8-20-flowered, less than 2.5 cm, flowers and fruits not pendulous; pedicel short, 0.4-0.8 mm, densely pubescent. Flowers: calyx lobed to ca. 1/2 length, lobes 4-8, reddish pubescent; stamens 5-6, purplish; stigmas reddish, with white pubescence. Samaras light greenish brown, elliptic to obovate with blunt or rounded tip, 1.5-2.5 × 1-1.8 mm, broadly winged, pubescent only along central vein of wing, apical cleft minute, obscured by persistent, curved styles. Seeds thickened, not inflated. 2n = 28.</description>
+  <description type="phenology">Flowering spring-early summer</description>
+  <description type="habitat">Along margins of woodlands and disturbed sites</description>
+  <description type="elevation">0-300 m</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Maine</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">native to Europe and Asia.</description>
+  <number>8.</number>
+  <other_name type="common_name">Scotch elm</other_name>
+  <other_name type="common_name">wych elm</other_name>
+  <other_name type="common_name">broad-leaved elm</other_name>
   <discussion>In the absence of carefully documented naturalized populations, the North American distribution of Ulmus glabra is very poorly known. The species is established locally in British Columbia and California, and probably elsewhere. It has been reported from Newfoundland, Nova Scotia, Ontario, District of Columbia, Illinois, Iowa, Michigan, Minnesota, Missouri, Pennsylvania, and Virginia.</discussion>
   <discussion>Ulmus glabra is similar to U. rubra in leaf morphology but may be readily distinguished by its smooth bark and glabrous samaras. Some of the weeping elms found in cultivation are varieties of U. glabra. The common name wych is derived from Gallic and means "drooping."</discussion>
-</treatment>
+</bio:treatment>

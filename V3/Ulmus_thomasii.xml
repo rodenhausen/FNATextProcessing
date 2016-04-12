@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>7.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ulmus</genus_name>
-    <species_name>thomasii</species_name>
-    <species_authority>Sargent</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ulmus</taxon_name>
+    <taxon_name rank="species" authority="Sargent" date="unknown">thomasii</taxon_name>
     <place_of_publication>
       <publication_title>Silva</publication_title>
       <place_in_publication>14: 102. 1902</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Rock elm</common_name>
-  <common_name>orme de Thomas</common_name>
-  <endemic>endemic</endemic>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ulmus</genus_name>
-    <species_name>racemosa</species_name>
-    <species_authority>Thomas</species_authority>
+    <taxon_hierarchy>genus Ulmus; species thomasii;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ulmus</taxon_name>
+    <taxon_name rank="species" authority="Thomas" date="unknown">racemosa</taxon_name>
     <place_of_publication>
       <place_in_publication>1831</place_in_publication>
-      <other_info>not Borkhausen 1800</other_info>
+      <other_info_on_pub>not Borkhausen 1800</other_info_on_pub>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Trees, to 30 m; crowns oblong. Bark gray, deeply fissured with broad, flattened
+    <taxon_hierarchy>genus Ulmus; species racemosa;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 30 m; crowns oblong. Bark gray, deeply fissured with broad, flattened
         ridges. Wood hard. Branches short-spreading, young branches pubescent, old-growth with 3-5
         prominent, irregular, corky wings; twigs reddish, pubescent. Buds brown, ovoid, acute,
         pubescent; scales brown, pilose on outer surface, ciliate on margins. Leaves: petiole ca. 5
@@ -35,27 +36,32 @@
         dark purple; stigmas greenish, pubescent. Samaras elliptic to oval, 1.5-2.2 cm, narrowly
         winged, pubescent, margins short-ciliate, apex shallowly notched. Seeds inflated, not
         thickened. 2n = 28.</description>
-  <phenology>Flowering spring</phenology>
-  <habitat>Rocky slopes, limestone outcrops, rich woods, flood plains, stream banks</habitat>
-  <elevation>30-900 m</elevation>
-  <ca_distribution>Ont.</ca_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.H.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>S.Dak.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>W.Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
-</treatment>
+  <description type="phenology">Flowering spring</description>
+  <description type="habitat">Rocky slopes, limestone outcrops, rich woods, flood plains, stream banks</description>
+  <description type="elevation">30-900 m</description>
+  <description type="distribution">Ont.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.H.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">S.Dak.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">W.Va.</description>
+  <description type="distribution">Wis.</description>
+  <number>7.</number>
+  <other_name type="common_name">Rock elm</other_name>
+  <other_name type="common_name">orme de Thomas</other_name>
+  <discussion>endemic</discussion>
+  <discussion>illustrated</discussion>
+</bio:treatment>

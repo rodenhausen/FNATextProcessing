@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>6.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Peperomia</genus_name>
-    <species_name>amplexicaulis</species_name>
-    <species_authority>(Swartz) A. Dietrich</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Peperomia</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) A. Dietrich" date="unknown">amplexicaulis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 144. 1831</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Piper</genus_name>
-    <species_name>amplexicaule</species_name>
-    <species_authority>Swartz</species_authority>
+    <taxon_hierarchy>genus Peperomia; species amplexicaulis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Piper</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">amplexicaule</taxon_name>
     <place_of_publication>
       <publication_title>Prodr.,</publication_title>
       <place_in_publication>16. 1788</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Herbs, perennial, rhizomatous, erect, decumbent, or reclining, simple or sparsely branched, 10-60 cm, glabrous, without black, glandular dots. Leaves alternate; petiole absent or to ca. 3 mm, glabrous. Leaf blade prominently to obscurely pinnately veined, narrowly to broadly oblanceolate, 7-20 × 2-4.5 cm, lateral veins ascending, originating from base to near apex of blade, base decurrent, auriculate and ± clasping (amplexicaulous), apex acute or obtuse. Spikes mostly terminal, 1-3, densely flowered, 5-19 cm; peduncle glabrous, mature fruiting spikes 2-3 mm diam. Fruits sessile, ellipsoid, ca. 1.7 × 1 mm, minutely warty; beak elongate, 0.3-0.5 mm, tapering smoothly from broadened base to sharply acute apex, without filiform apical portion, straight, bent, or gradually hooked from about middle.</description>
-  <phenology>Flowering all year</phenology>
-  <habitat>Roadsides, woodlands</habitat>
-  <elevation>0-20 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>native</global_distribution>
-  <global_distribution>West Indies (apparently endemic to Jamaica).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Piper; species amplexicaule;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, perennial, rhizomatous, erect, decumbent, or reclining, simple or sparsely branched, 10-60 cm, glabrous, without black, glandular dots. Leaves alternate; petiole absent or to ca. 3 mm, glabrous. Leaf blade prominently to obscurely pinnately veined, narrowly to broadly oblanceolate, 7-20 × 2-4.5 cm, lateral veins ascending, originating from base to near apex of blade, base decurrent, auriculate and ± clasping (amplexicaulous), apex acute or obtuse. Spikes mostly terminal, 1-3, densely flowered, 5-19 cm; peduncle glabrous, mature fruiting spikes 2-3 mm diam. Fruits sessile, ellipsoid, ca. 1.7 × 1 mm, minutely warty; beak elongate, 0.3-0.5 mm, tapering smoothly from broadened base to sharply acute apex, without filiform apical portion, straight, bent, or gradually hooked from about middle.</description>
+  <description type="phenology">Flowering all year</description>
+  <description type="habitat">Roadsides, woodlands</description>
+  <description type="elevation">0-20 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">native</description>
+  <description type="distribution">West Indies (apparently endemic to Jamaica).</description>
+  <number>6.</number>
+</bio:treatment>

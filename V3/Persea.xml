@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>8.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PERSEA</genus_name>
-    <genus_authority>Miller</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Miller" date="unknown">PERSEA</taxon_name>
     <place_of_publication>
       <publication_title>Gard. Dict. Abr. ed.</publication_title>
       <place_in_publication>4. 1754, name conserved</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Red bay</common_name>
-  <etymology>[used by Theophrastus for an oriental tree]</etymology>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tamala</genus_name>
-    <genus_authority>Rafinesque</genus_authority>
-  </TaxonIdentification>
-  <description>Shrubs to medium-sized trees, evergreen. Bark reddish brown, thin, fissured. Leaves alternate, aromatic. Leaf blade pinnately veined; surfaces pubescent, especially abaxially, becoming glabrescent with age; domatia absent. Inflorescence appearing when mature leaves are present, axillary, flowers in pedunculate, compound cymes. Flowers bisexual; tepals persistent, yellowish, pubescent, outer tepals slightly shorter than inner; stamens 9, anthers 4-locular, 4-valved, anthers of outer 6 stamens introrse, anthers of inner 3 latrorse; staminodes 3, sagittate; ovary nearly globose. Drupe dark blue to black, nearly globose, borne on pedicel with tepals persistent at base; cupule absent. x = 12.</description>
-  <number_of_infrataxa>Species ca. 150 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>tropical and subtropical regions</global_distribution>
-  <global_distribution>Western Hemisphere.</global_distribution>
+    <taxon_hierarchy>genus PERSEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[used by Theophrastus for an oriental tree]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Rafinesque" date="unknown">Tamala</taxon_name>
+    <taxon_hierarchy>genus Tamala;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs to medium-sized trees, evergreen. Bark reddish brown, thin, fissured. Leaves alternate, aromatic. Leaf blade pinnately veined; surfaces pubescent, especially abaxially, becoming glabrescent with age; domatia absent. Inflorescence appearing when mature leaves are present, axillary, flowers in pedunculate, compound cymes. Flowers bisexual; tepals persistent, yellowish, pubescent, outer tepals slightly shorter than inner; stamens 9, anthers 4-locular, 4-valved, anthers of outer 6 stamens introrse, anthers of inner 3 latrorse; staminodes 3, sagittate; ovary nearly globose. Drupe dark blue to black, nearly globose, borne on pedicel with tepals persistent at base; cupule absent. x = 12.</description>
+  <description type="distribution">tropical and subtropical regions</description>
+  <description type="distribution">Western Hemisphere.</description>
+  <number>8.</number>
+  <other_name type="common_name">Red bay</other_name>
+  <discussion>Species ca. 150 (3 in the flora):</discussion>
   <discussion>Persea americana Miller, the avocado of commerce, with large, fleshy fruits and deciduous tepals, is widely grown in California and Florida. It may persist after cultivation.</discussion>
   <discussion>Pubescence type and density are the most reliable characteristics in identifying species and are best seen on young leaves and branches.</discussion>
-</treatment>
+</bio:treatment>

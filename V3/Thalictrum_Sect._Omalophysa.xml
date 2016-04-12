@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>22d.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Thalictrum</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
-    <section_name>Omalophysa</section_name>
-    <section_authority>Turczaninow ex Fischer &amp; C. A. Meyer</section_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">Thalictrum</taxon_name>
+    <taxon_name rank="section" authority="Turczaninow ex Fischer &amp; C. A. Meyer" date="unknown">Omalophysa</taxon_name>
     <place_of_publication>
       <publication_title>Index Sem. Hort. Petrop.</publication_title>
       <place_in_publication>1: 40. 1835</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <description>Inflorescences panicles or racemes. Flowers bisexual; sepals 5; filaments ± dilated. Achenes short-stipitate.</description>
-  <number_of_infrataxa>Species 24 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>e Asia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Thalictrum; section Omalophysa;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Inflorescences panicles or racemes. Flowers bisexual; sepals 5; filaments ± dilated. Achenes short-stipitate.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">e Asia.</description>
+  <number>22d.</number>
+  <discussion>Species 24 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>36.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Quercus</genus_name>
-    <species_name>chrysolepis</species_name>
-    <species_authority>Liebmann</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Liebmann" date="unknown">chrysolepis</taxon_name>
     <place_of_publication>
       <publication_title>Overs. Kongel. Danske Vidensk. Selsk. Forh. Medlemmers Arbeider</publication_title>
       <place_in_publication>1854: 173. 1854</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Canyon live oak</common_name>
-  <common_name>maul oak</common_name>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>chrysolepis</species_name>
-    <variety_name>nana</variety_name>
-    <variety_authority>(Jepson) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Quercus</genus_name>
-    <species_name>wilcoxii</species_name>
-    <species_authority>Rydberg</species_authority>
-  </TaxonIdentification>
-  <description>Trees or shrubs, trees small to medium-sized, to 25 m, shrubs of variable size. Twigs branching at 60° angles or less, golden brown, 1-2 mm diam., flexible, densely pubescent 1st year, moderately so 2d year. Terminal buds conic, 2-8 mm, scales brown with ciliate margins. Leaves: petiole 3-14 mm, rusty-pubescent, adaxially flattened. Leaf blade oblong, acuminate, usually flat to slightly concave, 20-70 × 10-35 mm, thick, leathery, base obtuse to rounded, secondary veins 12 or more pairs, branching at ca. 50° angles, slightly raised abaxially, margins often slightly revolute with moderately thickened cell walls, entire to spinulose-dentate (especially on juvenile growth), regularly toothed, teeth terminating with mucronate to spinescent tip, apex acute or obtuse, mucronate to spinescent; surfaces abaxially glabrate to pubescent with bluish white wax layer, often obscured by golden glandular and multiradiate hairs, adaxially yellowish green, scurfy with multiradiate hairs, later in season slightly pubescent. Acorns solitary or paired, rarely in 3s or 4s; cup saucer-shaped, 4-10 mm deep × 15-40 mm wide, rims often corky and thickened, scales appressed, deeply embedded in tomentum, often appearing swollen and keeled, tuberculate; nut ovoid, 15-30 × 10-20 mm, apex blunt, glabrous; nut scar 4-10 mm diam.</description>
-  <phenology>Flowering usually in spring, occasionally in fall</phenology>
-  <habitat>Mountain ridges, canyons, and moist slopes</habitat>
-  <elevation>200-2600 m</elevation>
-  <us_distribution>Ariz</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>N.Mex.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <global_distribution>Mexico (Baja California and Chihuahua).</global_distribution>
+    <taxon_hierarchy>genus Quercus; species chrysolepis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="Rydberg" date="unknown">chrysolepis</taxon_name>
+    <taxon_name rank="variety" authority="(Jepson) Jepson" date="unknown">nana</taxon_name>
+    <taxon_hierarchy>genus Quercus; species chrysolepis; variety nana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Quercus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">wilcoxii</taxon_name>
+    <taxon_hierarchy>genus Quercus; species wilcoxii;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees or shrubs, trees small to medium-sized, to 25 m, shrubs of variable size. Twigs branching at 60° angles or less, golden brown, 1-2 mm diam., flexible, densely pubescent 1st year, moderately so 2d year. Terminal buds conic, 2-8 mm, scales brown with ciliate margins. Leaves: petiole 3-14 mm, rusty-pubescent, adaxially flattened. Leaf blade oblong, acuminate, usually flat to slightly concave, 20-70 × 10-35 mm, thick, leathery, base obtuse to rounded, secondary veins 12 or more pairs, branching at ca. 50° angles, slightly raised abaxially, margins often slightly revolute with moderately thickened cell walls, entire to spinulose-dentate (especially on juvenile growth), regularly toothed, teeth terminating with mucronate to spinescent tip, apex acute or obtuse, mucronate to spinescent; surfaces abaxially glabrate to pubescent with bluish white wax layer, often obscured by golden glandular and multiradiate hairs, adaxially yellowish green, scurfy with multiradiate hairs, later in season slightly pubescent. Acorns solitary or paired, rarely in 3s or 4s; cup saucer-shaped, 4-10 mm deep × 15-40 mm wide, rims often corky and thickened, scales appressed, deeply embedded in tomentum, often appearing swollen and keeled, tuberculate; nut ovoid, 15-30 × 10-20 mm, apex blunt, glabrous; nut scar 4-10 mm diam.</description>
+  <description type="phenology">Flowering usually in spring, occasionally in fall</description>
+  <description type="habitat">Mountain ridges, canyons, and moist slopes</description>
+  <description type="elevation">200-2600 m</description>
+  <description type="distribution">Ariz</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">N.Mex.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Mexico (Baja California and Chihuahua).</description>
+  <number>36.</number>
+  <other_name type="common_name">Canyon live oak</other_name>
+  <other_name type="common_name">maul oak</other_name>
+  <discussion>illustrated</discussion>
   <discussion>Quercus chrysolepis is one of the most variable North American oaks. Historically, individuals with extreme variation in fruit and leaf characteristics led to the recognition of several varieties and forms; for example, shrubs with small leaves have been called Q. chrysolepis var. nana (Jepson) Jepson. Studies of quantitative and qualitative variation in these characteristics do not support the recognition of infraspecific taxa; geographic variation is apparent, however, based on populations with nearly stabilized character combinations that loosely define widespread variants. This oak is distinguished consistently from other species of the complex by the presence of multiradiate trichomes on both leaf surfaces (P. S. Manos 1993). The leaf morphology and branching habit present on juvenile growth, suckers, and shade forms may approach typical Q. palmeri. Similarly, various extreme forms often resemble other species of the complex.</discussion>
   <discussion>Putative hybrids have been reported from narrow zones of range overlap with the three other North American species of Quercus sect. Protobalanus.</discussion>
   <discussion>The Mendocin Indians considered the nuts of Quercus chrysolepis poisonous (D. E. Moerman 1986).</discussion>
-</treatment>
+</bio:treatment>

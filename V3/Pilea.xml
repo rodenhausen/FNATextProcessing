@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>5.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>PILEA</genus_name>
-    <genus_authority>Lindley</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Lindley" date="unknown">PILEA</taxon_name>
     <place_of_publication>
       <publication_title>Coll. Bot., plate</publication_title>
       <place_in_publication>4 and text on facing page. 1821, name conserved</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <etymology>[Latin pileus, felt cap, because of the calyx covering the achene]</etymology>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Adicea</genus_name>
-    <genus_authority>Rafinesque ex Britton &amp; A. Brown</genus_authority>
-  </TaxonIdentification>
-  <description>Herbs, shrubs, or subshrubs, annual or perennial, glabrous. Stems simple or branched, erect, ascending, or repent. Leaves opposite; stipules present. Leaf blades paired, equal or unequal, ovate, margins dentate or entire; cystoliths linear, ± conspicuous. Inflorescences axillary, compact to lax cymes. Flowers unisexual, staminate and pistillate flowers in same cyme; bracts deltate to linear. Staminate flowers: tepals 4; stamens 4; pistillode conic. Pistillate flowers: tepals 3, equal or sometimes 1 tepal enlarged and hoodlike; staminodes 3, opposite tepals, under tension and ejecting mature achene; style and tufted stigma deciduous. Achenes sessile, laterally compressed, ovoid to teardrop-shaped, free from perianth at maturity, partly covered by hoodlike tepal. x = 12, 13.</description>
-  <number_of_infrataxa>Species ca. 400 (5 in the flora):</number_of_infrataxa>
-  <global_distribution>mostly tropical and subtropical regions worldwide except Australia and New Zealand.</global_distribution>
+    <taxon_hierarchy>genus PILEA;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin pileus, felt cap, because of the calyx covering the achene]</other_info_on_name>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="Rafinesque ex Britton &amp; A. Brown" date="unknown">Adicea</taxon_name>
+    <taxon_hierarchy>genus Adicea;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Herbs, shrubs, or subshrubs, annual or perennial, glabrous. Stems simple or branched, erect, ascending, or repent. Leaves opposite; stipules present. Leaf blades paired, equal or unequal, ovate, margins dentate or entire; cystoliths linear, ± conspicuous. Inflorescences axillary, compact to lax cymes. Flowers unisexual, staminate and pistillate flowers in same cyme; bracts deltate to linear. Staminate flowers: tepals 4; stamens 4; pistillode conic. Pistillate flowers: tepals 3, equal or sometimes 1 tepal enlarged and hoodlike; staminodes 3, opposite tepals, under tension and ejecting mature achene; style and tufted stigma deciduous. Achenes sessile, laterally compressed, ovoid to teardrop-shaped, free from perianth at maturity, partly covered by hoodlike tepal. x = 12, 13.</description>
+  <description type="distribution">mostly tropical and subtropical regions worldwide except Australia and New Zealand.</description>
+  <number>5.</number>
+  <discussion>Species ca. 400 (5 in the flora):</discussion>
   <discussion>Pilea should be further revised.</discussion>
   <references>
     <reference>Chen, C. J. 1982. A monograph of Pilea (Urticaceae) in China. Bull. Bot. Res., Harbin 2: 1-132.</reference>
     <reference>Fernald, M. L. 1936. Pilea in eastern North America. Contr. Gray Herb. 113: 169-170.</reference>
     <reference>Hermann, F. J. 1940. The geographic distribution of Pilea fontana. Torreya 40: 118-120.</reference>
   </references>
-</treatment>
+</bio:treatment>

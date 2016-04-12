@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>43.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>harveyi</species_name>
-    <species_authority>(A. Gray) Britton</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="(A. Gray) Britton" date="unknown">harveyi</taxon_name>
     <place_of_publication>
       <publication_title>Mem. Torrey Bot. Club</publication_title>
       <place_in_publication>5: 159. 1894</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>abortivus</species_name>
-    <species_authority>Linnaeus</species_authority>
-    <variety_name>harveyi</variety_name>
-    <variety_authority>A. Gray</variety_authority>
+    <taxon_hierarchy>genus Ranunculus; species harveyi;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">abortivus</taxon_name>
+    <taxon_name rank="variety" authority="A. Gray" date="unknown">harveyi</taxon_name>
     <place_of_publication>
       <publication_title>Proc. Amer. Acad. Arts</publication_title>
       <place_in_publication>21: 372. 1886</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <number_of_infrataxa>Varieties 2 (1 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species abortivus; variety harveyi;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="distribution">North America</description>
+  <description type="distribution">Mexico (Baja California).</description>
+  <number>43.</number>
+  <discussion>Varieties 2 (1 in the flora):</discussion>
+</bio:treatment>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>3.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Persea</genus_name>
-    <species_name>humilis</species_name>
-    <species_authority>Nash</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Persea</taxon_name>
+    <taxon_name rank="species" authority="Nash" date="unknown">humilis</taxon_name>
     <place_of_publication>
       <publication_title>Bull. Torrey Bot. Club</publication_title>
       <place_in_publication>22: 157. 1895</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Silk bay</common_name>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Persea</genus_name>
-    <species_name>borbonia</species_name>
-    <species_authority>(Linnaeus) Sprengel</species_authority>
-    <variety_name>humilis</variety_name>
-    <variety_authority>(Nash) L. E. Kopp</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Tamala</genus_name>
-    <species_name>humilis</species_name>
-    <species_authority>(Nash) Small</species_authority>
-  </TaxonIdentification>
-  <description>Shrubs or small trees, to 10 m. Branches appressed-pubescent. Leaf blade elliptic to lance-elliptic, 5-8 × 1.5-2.5 cm; surfaces abaxially obscured by dense (silky), rusty brown, appressed hairs when young, appearing sooty with age, adaxially green, lustrous. Inflorescences: peduncle mostly shorter than subtending petiole, pubescent. Drupe 10-12 cm wide, glaucous.</description>
-  <phenology>Flowering spring-early summer</phenology>
-  <habitat>Sand pine-scrub</habitat>
-  <elevation>0-100 m</elevation>
-  <us_distribution>Fla.</us_distribution>
+    <taxon_hierarchy>genus Persea; species humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Persea</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) Sprengel" date="unknown">borbonia</taxon_name>
+    <taxon_name rank="variety" authority="(Nash) L. E. Kopp" date="unknown">humilis</taxon_name>
+    <taxon_hierarchy>genus Persea; species borbonia; variety humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Tamala</taxon_name>
+    <taxon_name rank="species" authority="(Nash) Small" date="unknown">humilis</taxon_name>
+    <taxon_hierarchy>genus Tamala; species humilis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Shrubs or small trees, to 10 m. Branches appressed-pubescent. Leaf blade elliptic to lance-elliptic, 5-8 × 1.5-2.5 cm; surfaces abaxially obscured by dense (silky), rusty brown, appressed hairs when young, appearing sooty with age, adaxially green, lustrous. Inflorescences: peduncle mostly shorter than subtending petiole, pubescent. Drupe 10-12 cm wide, glaucous.</description>
+  <description type="phenology">Flowering spring-early summer</description>
+  <description type="habitat">Sand pine-scrub</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Fla.</description>
+  <number>3.</number>
+  <other_name type="common_name">Silk bay</other_name>
+  <discussion>endemic</discussion>
   <discussion>Persea humilis produces fewer flowers and fruits per peduncle than the preceding two species.</discussion>
-</treatment>
+</bio:treatment>

@@ -1,70 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <species_authority>Bentham</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="Bentham" date="unknown">californicus</taxon_name>
     <place_of_publication>
       <publication_title>Trans. Hort. Soc. London, ser.</publication_title>
       <place_in_publication>2, 1: 405. 1834 (as californicum)</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>arizonicus</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>australis</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <variety_name>ciliatus</variety_name>
-    <variety_authority>Dunkle</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <variety_name>crinitus</variety_name>
-    <variety_authority>Greene</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <variety_name>horridulus</variety_name>
-    <variety_authority>(Greene) Jepson</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <variety_name>nutans</variety_name>
-    <variety_authority>K. Brandegee</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>californicus</species_name>
-    <variety_name>ornithopus</variety_name>
-    <variety_authority>(Greene) Munz</variety_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Platystemon</genus_name>
-    <species_name>mohavensis</species_name>
-    <species_authority>Greene</species_authority>
-  </TaxonIdentification>
-  <description>Plants 0.3-3 dm, pilose or hirsute, sometimes glabrate. Leaves 10-90 × 1.7-8.1 mm; blade broadly linear; margins entire; apex rounded to long-acute. Inflorescences: peduncle 3.4-25.8 cm; bud globose to ovoid-cylindric. Flowers: petals white to cream colored, sometimes with yellow tip and/or base, rarely gold overall, sometimes tinged red in age, narrowly ovate to obovate, 6-19 × 3.5-16 mm, apex acute to rounded; ovary cylindric to oblong-ellipsoid; stigmas linear, margin revolute. Capsules ellipsoid, to 1.6 cm. Seeds black, shining, smooth. 2n = 12 (plus occasional supernumerary chromosomes).</description>
-  <phenology>Flowering early-late spring</phenology>
-  <habitat>Open, grassy areas with loose or disturbed soil or following burns</habitat>
-  <elevation>0-1000(-2000) m</elevation>
-  <us_distribution>Ariz.</us_distribution>
-  <us_distribution>Calif.</us_distribution>
-  <us_distribution>Nev.</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Mexico (Baja California).</global_distribution>
+    <taxon_hierarchy>genus Platystemon; species californicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">arizonicus</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species arizonicus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">australis</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species australis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="Greene" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="Dunkle" date="unknown">ciliatus</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species californicus; variety ciliatus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="Greene" date="unknown">crinitus</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species californicus; variety crinitus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Jepson" date="unknown">horridulus</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species californicus; variety horridulus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="K. Brandegee" date="unknown">nutans</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species californicus; variety nutans;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">californicus</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Munz" date="unknown">ornithopus</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species californicus; variety ornithopus;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Platystemon</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">mohavensis</taxon_name>
+    <taxon_hierarchy>genus Platystemon; species mohavensis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants 0.3-3 dm, pilose or hirsute, sometimes glabrate. Leaves 10-90 × 1.7-8.1 mm; blade broadly linear; margins entire; apex rounded to long-acute. Inflorescences: peduncle 3.4-25.8 cm; bud globose to ovoid-cylindric. Flowers: petals white to cream colored, sometimes with yellow tip and/or base, rarely gold overall, sometimes tinged red in age, narrowly ovate to obovate, 6-19 × 3.5-16 mm, apex acute to rounded; ovary cylindric to oblong-ellipsoid; stigmas linear, margin revolute. Capsules ellipsoid, to 1.6 cm. Seeds black, shining, smooth. 2n = 12 (plus occasional supernumerary chromosomes).</description>
+  <description type="phenology">Flowering early-late spring</description>
+  <description type="habitat">Open, grassy areas with loose or disturbed soil or following burns</description>
+  <description type="elevation">0-1000(-2000) m</description>
+  <description type="distribution">Ariz.</description>
+  <description type="distribution">Calif.</description>
+  <description type="distribution">Nev.</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Mexico (Baja California).</description>
+  <number>1.</number>
+  <discussion>illustrated</discussion>
   <discussion>This highly variable, wind-pollinated taxon has been split into as many as 57 species on the basis of characteristics showing little cohesiveness. Ecotypic variation has produced morphologic extremes ranging from semisucculent, nearly glabrous coastal forms to very robust, moderately pubescent plants of interior grassland to compact, densely pubescent plants of semidesert habitats (G. L. Hannan 1979, 1982). Several varieties are recognized in some currently used floras: Platystemon californicus var. ciliatus Dunkle, from Santa Barbara Island; P. californicus var. nutans M. Brandegee, from coastal San Diego County and Santa Rosa and Santa Cruz islands; and P. californicus var. ornithopus (Greene) Munz, from San Miguel, San Nicholas, and Santa Rosa islands. These geographically restricted morphotypes appear to result from the same sort of ecotypic variation found in many other parts of the range. Rather than naming each ecotype, it seems best to treat Platystemon as a single, highly variable species with many locally adapted, intergrading populations.</discussion>
-</treatment>
+</bio:treatment>

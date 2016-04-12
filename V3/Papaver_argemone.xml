@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Papaver</genus_name>
-    <species_name>argemone</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Papaver</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">argemone</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 506. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <weedy>weedy</weedy>
-  <description>Plants to 5 dm, hispid. Stems simple or branching. Leaves to 12[-20] cm. Inflorescences: peduncle appressed-hispid. Flowers: petals dark red, sometimes with dark basal spot, to 25 mm; anthers pale blue; stigmas 4-6, disc convex and radially vaulted. Capsules sessile, oblong to clavate, distinctly ribbed, to 2 cm, sparsely and weakly setose.</description>
-  <phenology>Flowering spring-summer</phenology>
-  <habitat>Fields and disturbed sites</habitat>
-  <elevation>0-300 m</elevation>
-  <introduced>introduced</introduced>
-  <us_distribution>Idaho</us_distribution>
-  <us_distribution>Oreg.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>Utah</us_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>sw Asia.</global_distribution>
+    <taxon_hierarchy>genus Papaver; species argemone;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Plants to 5 dm, hispid. Stems simple or branching. Leaves to 12[-20] cm. Inflorescences: peduncle appressed-hispid. Flowers: petals dark red, sometimes with dark basal spot, to 25 mm; anthers pale blue; stigmas 4-6, disc convex and radially vaulted. Capsules sessile, oblong to clavate, distinctly ribbed, to 2 cm, sparsely and weakly setose.</description>
+  <description type="phenology">Flowering spring-summer</description>
+  <description type="habitat">Fields and disturbed sites</description>
+  <description type="elevation">0-300 m</description>
+  <description type="distribution">Idaho</description>
+  <description type="distribution">Oreg.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">Utah</description>
+  <description type="distribution">Europe</description>
+  <description type="distribution">sw Asia.</description>
+  <number>1.</number>
+  <discussion>weedy</discussion>
   <discussion>In its native range, Papaver argemone is a complex of five diploid, tetraploid, and hexaploid subspecies (J. W. Kadereit 1986, 1990). Apparently two or more of these have been represented among the crop weeds and ballast waifs introduced in North America, where plants are difficult to assign to particular subspecies. The species should be expected elsewhere in the flora. Collections attributed to Maryland, Ohio, and Virginia are known also, but they lack more specific citations of locality.</discussion>
-</treatment>
+</bio:treatment>

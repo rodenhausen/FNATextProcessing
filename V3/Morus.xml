@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>2.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>MORUS</genus_name>
-    <genus_authority>Linnaeus</genus_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Linnaeus" date="unknown">MORUS</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>2: 986. 175</place_in_publication>
@@ -12,15 +16,17 @@
       <publication_title>Gen. Pl. ed.</publication_title>
       <place_in_publication>5, 424. 1754</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Mulberry</common_name>
-  <common_name>mûrier</common_name>
-  <etymology>[Latin morum, mulberry]</etymology>
-  <description>Trees or shrubs, deciduous; sap milky. Terminal buds surrounded by bud scales. Leaves alternate; stipules caducous. Leaf blade ovate to broadly ovate, margins entire or lobed, dentate; venation nearly palmate. Inflorescences pedunculate catkins, erect or pendent, cylindric. Flowers: staminate and pistillate on same or different plants. Staminate flowers: sepals 4 (4-5 in M. alba); stamens 4, inflexed. Pistillate flowers: sepals 4, green, of 2 sizes, ciliate; ovary superior, 2-locular; style 2-branched, branches linear. Syncarps short-cylindric; each achene enclosed by its enlarged, fleshy calyx. x = 14.</description>
-  <number_of_infrataxa>Species 10 (3 in the flora):</number_of_infrataxa>
-  <global_distribution>widespread in temperate and tropical regions</global_distribution>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Europe</global_distribution>
-  <global_distribution>and Asia.</global_distribution>
+    <taxon_hierarchy>genus MORUS;</taxon_hierarchy>
+    <other_info_on_name type="etymology">[Latin morum, mulberry]</other_info_on_name>
+  </taxon_identification>
+  <description type="morphology">Trees or shrubs, deciduous; sap milky. Terminal buds surrounded by bud scales. Leaves alternate; stipules caducous. Leaf blade ovate to broadly ovate, margins entire or lobed, dentate; venation nearly palmate. Inflorescences pedunculate catkins, erect or pendent, cylindric. Flowers: staminate and pistillate on same or different plants. Staminate flowers: sepals 4 (4-5 in M. alba); stamens 4, inflexed. Pistillate flowers: sepals 4, green, of 2 sizes, ciliate; ovary superior, 2-locular; style 2-branched, branches linear. Syncarps short-cylindric; each achene enclosed by its enlarged, fleshy calyx. x = 14.</description>
+  <description type="distribution">widespread in temperate and tropical regions</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Europe</description>
+  <description type="distribution">and Asia.</description>
+  <number>2.</number>
+  <other_name type="common_name">Mulberry</other_name>
+  <other_name type="common_name">mûrier</other_name>
+  <discussion>Species 10 (3 in the flora):</discussion>
   <discussion>Morus nigra Linnaeus has been reported in floras by various authors (J. K. Small 1903, 1933; R. W. Long and O. Lakela 1971), apparently based on dark-fruited M. alba. It is native to Asia, commonly cultivated in Europe for its fruit, and locally naturalized in southern Europe. Occasionally cultivated in North America, it is not known to be naturalized. Because of the similarity to and confusion with M. alba, some American authors place it in synonymy with that species.</discussion>
-</treatment>
+</bio:treatment>

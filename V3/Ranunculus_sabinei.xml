@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>35.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>sabinei</species_name>
-    <species_authority>R. Brown</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="R. Brown" date="unknown">sabinei</taxon_name>
     <place_of_publication>
       <publication_title>J. Voy. N.-W. Passage, Bot.,</publication_title>
       <place_in_publication>264. 1824</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>pygmaeus</species_name>
-    <species_authority>Wahlenberg</species_authority>
-    <subspecies_name>sabinei</subspecies_name>
-    <subspecies_authority>(R. Brown) Hultén</subspecies_authority>
-  </TaxonIdentification>
-  <description>Stems erect or decumbent, 1-12 cm, sparsely pilose, each with 1-3 flowers. Roots slender, 0.3-0.8 mm thick. Basal leaves persistent, blades broadly obovate to transversely elliptic, 3-lobed or -parted, 0.9-3 × 0.8-3.4 cm, segments undivided or again lobed, base obtuse, margins entire, apices of segments rounded to rounded-obtuse. Flowers: pedicels pilose; receptacle pilose; sepals 4-7 × 2-3 mm, abaxially pilose, hairs colorless; petals 5, 5-8 × 3-4 mm; nectary scale glabrous. Heads of achenes cylindric, 6-9 × 4 mm; achenes 1.2-1.4 × 0.8-1 mm, glabrous; beak lance-subulate, straight or curved, 0.4-0.6 mm. 2n = 64.</description>
-  <phenology>Flowering summer (Jul-Aug)</phenology>
-  <habitat>Slopes and hummocks in tundra, in sandy or gravelly soil</habitat>
-  <elevation>0 m</elevation>
-  <global_distribution>Greenland</global_distribution>
-  <ca_distribution>N.W.T.</ca_distribution>
-  <ca_distribution>Yukon</ca_distribution>
-  <us_distribution>Alaska.</us_distribution>
+    <taxon_hierarchy>genus Ranunculus; species sabinei;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Wahlenberg" date="unknown">pygmaeus</taxon_name>
+    <taxon_name rank="subspecies" authority="(R. Brown) Hultén" date="unknown">sabinei</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species pygmaeus; subspecies sabinei;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or decumbent, 1-12 cm, sparsely pilose, each with 1-3 flowers. Roots slender, 0.3-0.8 mm thick. Basal leaves persistent, blades broadly obovate to transversely elliptic, 3-lobed or -parted, 0.9-3 × 0.8-3.4 cm, segments undivided or again lobed, base obtuse, margins entire, apices of segments rounded to rounded-obtuse. Flowers: pedicels pilose; receptacle pilose; sepals 4-7 × 2-3 mm, abaxially pilose, hairs colorless; petals 5, 5-8 × 3-4 mm; nectary scale glabrous. Heads of achenes cylindric, 6-9 × 4 mm; achenes 1.2-1.4 × 0.8-1 mm, glabrous; beak lance-subulate, straight or curved, 0.4-0.6 mm. 2n = 64.</description>
+  <description type="phenology">Flowering summer (Jul-Aug)</description>
+  <description type="habitat">Slopes and hummocks in tundra, in sandy or gravelly soil</description>
+  <description type="elevation">0 m</description>
+  <description type="distribution">Greenland</description>
+  <description type="distribution">N.W.T.</description>
+  <description type="distribution">Yukon</description>
+  <description type="distribution">Alaska.</description>
+  <number>35.</number>
+  <discussion>endemic</discussion>
   <discussion>An alternative interpretation of this taxon is given by E. Hultén (1971) who considered it to be the hybrid Ranunculus nivalis × R. pygmaeus, and considered all specimens referable here to be hybrids or members of stabilized populations of hybrid origin.</discussion>
-</treatment>
+</bio:treatment>

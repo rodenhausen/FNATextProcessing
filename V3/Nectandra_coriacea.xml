@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>1.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Nectandra</genus_name>
-    <species_name>coriacea</species_name>
-    <species_authority>(Swartz) Grisebach</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nectandra</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) Grisebach" date="unknown">coriacea</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Brit. W. I.,</publication_title>
       <place_in_publication>281. 1860</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <common_name>Lancewood</common_name>
-  <illustrated>illustrated</illustrated>
-  <TaxonIdentification Status="BASIONYM">
-    <genus_name>Laurus</genus_name>
-    <species_name>coriacea</species_name>
-    <species_authority>Swartz</species_authority>
+    <taxon_hierarchy>genus Nectandra; species coriacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="BASIONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Laurus</taxon_name>
+    <taxon_name rank="species" authority="Swartz" date="unknown">coriacea</taxon_name>
     <place_of_publication>
       <publication_title>Prodr.,</publication_title>
       <place_in_publication>65. 1788</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Laurus</genus_name>
-    <species_name>catesbyana</species_name>
-    <species_authority>Michaux</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Nectandra</genus_name>
-    <species_name>catesbyana</species_name>
-    <species_authority>(Michaux) Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ocotea</genus_name>
-    <species_name>catesbyana</species_name>
-    <species_authority>(Michaux) Sargent</species_authority>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ocotea</genus_name>
-    <species_name>coriacea</species_name>
-    <species_authority>(Swartz) Britton</species_authority>
-  </TaxonIdentification>
-  <description>Trees, to 10 m. Branches dense; terminal bud not covered by imbricate bracts. Leaf blade narrowly elliptic, 7-12 × 2-4 cm, base and apex acute; surfaces glabrous; domatia absent. Inflorescences to 8 cm, nearly glabrous or sparsely pilose. Flowers: tepals white, rotate; ovary superior, glabrous. Drupe ± ellipsoid, to 18 mm, seated in shallow, bowl-shaped cupule to 7 mm diam.</description>
-  <phenology>Flowering late winter-spring (Mar-Jun)</phenology>
-  <habitat>In woods</habitat>
-  <elevation>0-100 m</elevation>
-  <us_distribution>Fla.</us_distribution>
-  <global_distribution>Mexico (Yucatan)</global_distribution>
-  <global_distribution>West Indies</global_distribution>
-  <global_distribution>Central America (Caribbean coasts of Belize, Guatemala, and Honduras).</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Laurus; species coriacea;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Laurus</taxon_name>
+    <taxon_name rank="species" authority="Michaux" date="unknown">catesbyana</taxon_name>
+    <taxon_hierarchy>genus Laurus; species catesbyana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Nectandra</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Sargent" date="unknown">catesbyana</taxon_name>
+    <taxon_hierarchy>genus Nectandra; species catesbyana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ocotea</taxon_name>
+    <taxon_name rank="species" authority="(Michaux) Sargent" date="unknown">catesbyana</taxon_name>
+    <taxon_hierarchy>genus Ocotea; species catesbyana;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ocotea</taxon_name>
+    <taxon_name rank="species" authority="(Swartz) Britton" date="unknown">coriacea</taxon_name>
+    <taxon_hierarchy>genus Ocotea; species coriacea;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Trees, to 10 m. Branches dense; terminal bud not covered by imbricate bracts. Leaf blade narrowly elliptic, 7-12 × 2-4 cm, base and apex acute; surfaces glabrous; domatia absent. Inflorescences to 8 cm, nearly glabrous or sparsely pilose. Flowers: tepals white, rotate; ovary superior, glabrous. Drupe ± ellipsoid, to 18 mm, seated in shallow, bowl-shaped cupule to 7 mm diam.</description>
+  <description type="phenology">Flowering late winter-spring (Mar-Jun)</description>
+  <description type="habitat">In woods</description>
+  <description type="elevation">0-100 m</description>
+  <description type="distribution">Fla.</description>
+  <description type="distribution">Mexico (Yucatan)</description>
+  <description type="distribution">West Indies</description>
+  <description type="distribution">Central America (Caribbean coasts of Belize, Guatemala, and Honduras).</description>
+  <number>1.</number>
+  <other_name type="common_name">Lancewood</other_name>
+  <discussion>illustrated</discussion>
+</bio:treatment>

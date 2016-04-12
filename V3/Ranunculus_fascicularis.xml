@@ -1,58 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>16.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>fascicularis</species_name>
-    <species_authority>Muhlenberg ex J. M. Bigelow</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Muhlenberg ex J. M. Bigelow" date="unknown">fascicularis</taxon_name>
     <place_of_publication>
       <publication_title>Fl. Boston.,</publication_title>
       <place_in_publication>137. 1814</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <endemic>endemic</endemic>
-  <weedy>weedy</weedy>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>fascicularis</species_name>
-    <variety_name>apricus</variety_name>
-    <variety_authority>(Greene) Fernald</variety_authority>
-  </TaxonIdentification>
-  <description>Stems erect or ascending, never rooting nodally, strigose or spreading-strigose, base not bulbous. Roots always both filiform and tuberous on same stem. Basal leaf blades ovate to broadly ovate in outline, 3-5-foliolate, 2.1-4.7 × 1.9-4.5 cm, leaflets undivided or 1×-lobed or -parted, ultimate segments oblanceolate or obovate, margins entire or with few teeth, apex rounded-acute to rounded-obtuse. Flowers: receptacle hispid or glabrous; sepals spreading or sometimes reflexed from base, 5-7 × 2-3 mm, hispid or glabrous; petals 5(-7), yellow, 8-14 × 3-6 mm. Heads of achenes globose or ovoid, 5-9 × 5-8 mm; achenes 2-2.8 × 1.8-2.2 mm, glabrous, margin forming narrow rib 0.1-0.2 mm wide; beak persistent, filiform, straight, 1.2-2.8 mm. 2n = 32.</description>
-  <phenology>Flowering winter-spring (Jan-Jun)</phenology>
-  <habitat>Grassland or deciduous forest</habitat>
-  <elevation>0-300 m</elevation>
-  <ca_distribution>Man.</ca_distribution>
-  <ca_distribution>Ont</ca_distribution>
-  <us_distribution>Ala.</us_distribution>
-  <us_distribution>Ark.</us_distribution>
-  <us_distribution>Conn.</us_distribution>
-  <us_distribution>Ga.</us_distribution>
-  <us_distribution>Ill.</us_distribution>
-  <us_distribution>Ind.</us_distribution>
-  <us_distribution>Iowa</us_distribution>
-  <us_distribution>Kans.</us_distribution>
-  <us_distribution>Ky.</us_distribution>
-  <us_distribution>La.</us_distribution>
-  <us_distribution>Md.</us_distribution>
-  <us_distribution>Mass.</us_distribution>
-  <us_distribution>Mich.</us_distribution>
-  <us_distribution>Minn.</us_distribution>
-  <us_distribution>Miss.</us_distribution>
-  <us_distribution>Mo.</us_distribution>
-  <us_distribution>Nebr.</us_distribution>
-  <us_distribution>N.J.</us_distribution>
-  <us_distribution>N.Y.</us_distribution>
-  <us_distribution>N.C.</us_distribution>
-  <us_distribution>Ohio</us_distribution>
-  <us_distribution>Okla.</us_distribution>
-  <us_distribution>Pa.</us_distribution>
-  <us_distribution>R.I.</us_distribution>
-  <us_distribution>S.C.</us_distribution>
-  <us_distribution>Tenn.</us_distribution>
-  <us_distribution>Tex.</us_distribution>
-  <us_distribution>Vt.</us_distribution>
-  <us_distribution>Va.</us_distribution>
-  <us_distribution>Wis.</us_distribution>
+    <taxon_hierarchy>genus Ranunculus; species fascicularis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="unknown" date="unknown">fascicularis</taxon_name>
+    <taxon_name rank="variety" authority="(Greene) Fernald" date="unknown">apricus</taxon_name>
+    <taxon_hierarchy>genus Ranunculus; species fascicularis; variety apricus;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or ascending, never rooting nodally, strigose or spreading-strigose, base not bulbous. Roots always both filiform and tuberous on same stem. Basal leaf blades ovate to broadly ovate in outline, 3-5-foliolate, 2.1-4.7 × 1.9-4.5 cm, leaflets undivided or 1×-lobed or -parted, ultimate segments oblanceolate or obovate, margins entire or with few teeth, apex rounded-acute to rounded-obtuse. Flowers: receptacle hispid or glabrous; sepals spreading or sometimes reflexed from base, 5-7 × 2-3 mm, hispid or glabrous; petals 5(-7), yellow, 8-14 × 3-6 mm. Heads of achenes globose or ovoid, 5-9 × 5-8 mm; achenes 2-2.8 × 1.8-2.2 mm, glabrous, margin forming narrow rib 0.1-0.2 mm wide; beak persistent, filiform, straight, 1.2-2.8 mm. 2n = 32.</description>
+  <description type="phenology">Flowering winter-spring (Jan-Jun)</description>
+  <description type="habitat">Grassland or deciduous forest</description>
+  <description type="elevation">0-300 m</description>
+  <description type="distribution">Man.</description>
+  <description type="distribution">Ont</description>
+  <description type="distribution">Ala.</description>
+  <description type="distribution">Ark.</description>
+  <description type="distribution">Conn.</description>
+  <description type="distribution">Ga.</description>
+  <description type="distribution">Ill.</description>
+  <description type="distribution">Ind.</description>
+  <description type="distribution">Iowa</description>
+  <description type="distribution">Kans.</description>
+  <description type="distribution">Ky.</description>
+  <description type="distribution">La.</description>
+  <description type="distribution">Md.</description>
+  <description type="distribution">Mass.</description>
+  <description type="distribution">Mich.</description>
+  <description type="distribution">Minn.</description>
+  <description type="distribution">Miss.</description>
+  <description type="distribution">Mo.</description>
+  <description type="distribution">Nebr.</description>
+  <description type="distribution">N.J.</description>
+  <description type="distribution">N.Y.</description>
+  <description type="distribution">N.C.</description>
+  <description type="distribution">Ohio</description>
+  <description type="distribution">Okla.</description>
+  <description type="distribution">Pa.</description>
+  <description type="distribution">R.I.</description>
+  <description type="distribution">S.C.</description>
+  <description type="distribution">Tenn.</description>
+  <description type="distribution">Tex.</description>
+  <description type="distribution">Vt.</description>
+  <description type="distribution">Va.</description>
+  <description type="distribution">Wis.</description>
+  <number>16.</number>
+  <discussion>endemic</discussion>
+  <discussion>weedy</discussion>
   <discussion>Ranunculus fascicularis is very similar to R. hispidus var. hispidus, and herbarium specimens without underground parts may be difficult to identify. Ranunculus fascicularis grows in drier habitats; segments of its leaves are commonly oblanceolate and blunt, with few or no marginal teeth; and its petals are widest at or below the middle. Ranunculus hispidus var. hispidus is usually larger in all its parts (leaves, flowers, heads of achenes); leaf segments are variable in shape but their apices are normally sharper and their marginal teeth more numerous, and petals are widest above the middle.</discussion>
-</treatment>
+</bio:treatment>

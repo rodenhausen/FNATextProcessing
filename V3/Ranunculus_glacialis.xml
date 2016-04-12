@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment>
-  <number>68.</number>
-  <TaxonIdentification Status="ACCEPTED">
-    <genus_name>Ranunculus</genus_name>
-    <species_name>glacialis</species_name>
-    <species_authority>Linnaeus</species_authority>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://www.w3.org/2001/XMLSchema-instance">
+  <meta>
+    <source>
+      <author>unknown</author>
+      <date>unknown</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Ranunculus</taxon_name>
+    <taxon_name rank="species" authority="Linnaeus" date="unknown">glacialis</taxon_name>
     <place_of_publication>
       <publication_title>Sp. Pl.</publication_title>
       <place_in_publication>1: 553. 1753</place_in_publication>
     </place_of_publication>
-  </TaxonIdentification>
-  <TaxonIdentification Status="SYNONYM">
-    <genus_name>Beckwithia</genus_name>
-    <species_name>glacialis</species_name>
-    <species_authority>(Linnaeus) A. Löve &amp; D. Löve</species_authority>
-  </TaxonIdentification>
-  <description>Stems erect or ascending from caudices, not rooting nodally, distally glabrous or brown-pilose, not bulbous-based. Tuberous roots absent. Basal leaf blades reniform to broadly triangular in outline, 3-foliolate or deeply 3-parted, 1-4 × 1.6-4.4 cm, leaflets or segments 1-2×-parted, ultimate segments elliptic to oblanceolate or almost linear, margins entire or occasionally with 1-2 teeth, apex rounded to obtuse. Flowers: receptacle glabrous or brown-pilose; sepals spreading, 7-12 × 4-9 mm, brown-pilose; petals initially white, usually becoming red with age, 9-15 × 7-14(-18) mm. Fruiting heads hemispheric, 5-8 × 7-16 mm; fruit wall smooth, not veined, loose but not inflated, winged along suture, fruits winged achenes; achenes 2.6-3 × 1.4-2 mm, glabrous; beak persistent, lanceolate, 0.8-2.3 mm.</description>
-  <number_of_infrataxa>Varieties 2 (2 in the flora):</number_of_infrataxa>
-  <global_distribution>North America</global_distribution>
-  <global_distribution>Eurasia.</global_distribution>
-</treatment>
+    <taxon_hierarchy>genus Ranunculus; species glacialis;</taxon_hierarchy>
+  </taxon_identification>
+  <taxon_identification status="SYNONYM">
+    <taxon_name rank="genus" authority="unknown" date="unknown">Beckwithia</taxon_name>
+    <taxon_name rank="species" authority="(Linnaeus) A. Löve &amp; D. Löve" date="unknown">glacialis</taxon_name>
+    <taxon_hierarchy>genus Beckwithia; species glacialis;</taxon_hierarchy>
+  </taxon_identification>
+  <description type="morphology">Stems erect or ascending from caudices, not rooting nodally, distally glabrous or brown-pilose, not bulbous-based. Tuberous roots absent. Basal leaf blades reniform to broadly triangular in outline, 3-foliolate or deeply 3-parted, 1-4 × 1.6-4.4 cm, leaflets or segments 1-2×-parted, ultimate segments elliptic to oblanceolate or almost linear, margins entire or occasionally with 1-2 teeth, apex rounded to obtuse. Flowers: receptacle glabrous or brown-pilose; sepals spreading, 7-12 × 4-9 mm, brown-pilose; petals initially white, usually becoming red with age, 9-15 × 7-14(-18) mm. Fruiting heads hemispheric, 5-8 × 7-16 mm; fruit wall smooth, not veined, loose but not inflated, winged along suture, fruits winged achenes; achenes 2.6-3 × 1.4-2 mm, glabrous; beak persistent, lanceolate, 0.8-2.3 mm.</description>
+  <description type="distribution">North America</description>
+  <description type="distribution">Eurasia.</description>
+  <number>68.</number>
+  <discussion>Varieties 2 (2 in the flora):</discussion>
+</bio:treatment>
